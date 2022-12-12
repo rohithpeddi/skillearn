@@ -1,0 +1,15 @@
+{
+	"Retrieve": ["Take","Remove","Scoop","Lift","Gather","Choose"],
+	"Leave": ["Put","Insert","Throw","Hang","Drop","Let-go","Serve"],
+	"Clean": ["Wash","Dry","Scrape","Scrub","Rub","Soak","Brush"],
+	"Access": ["Open","Turn-on","Unroll","Unscrew","Uncover","Unwrap","Switch","Unlock"],
+	"Block": ["Close","Turn-off","Wrap","Roll","Lock"],
+	"Merge": ["Pour","Mix","Fill","Add","Attach","Coat"],
+	"Split": ["Cut","Peel","Empty","Break","Filter","Rip","Crush","Divide","Grate","Stab"],
+	"Manipulate": ["Shake","Squeeze","Press","Flip","Turn","Pull","Hold","Cook","Stretch","Knead","Set","Sharpen","Water"," Slide","Wear","Form","Use","Screw","Flatten","Finish","Prepare","Bake","Mark","Bend"],
+	"Transition": ["Move","Transition","Carry"],
+	"Monitor": ["Adjust","Check","Look","Search","Turn-down","Measure","Increase","Wait","Lower","Unfreeze"],
+	"Sense": ["Pat","Eat","Feel","Drink","Smell"],
+	"Distribute": ["Apply","Sprinkle","Spray","Season"],
+	"Order": ["Fold","Sort"]
+}
