@@ -1,5 +1,6 @@
 import json
 
+import pandas as pd
 from pyinflect import getInflection
 
 
@@ -39,12 +40,12 @@ def fetch_recipes_from_json(recipe_json_file):
 
 
 def fetch_questions_from_json(questions_json_file):
-    questions = list()
+    questions_template_dict = dict()
     with open(questions_json_file) as f:
         data = json.load(f)
-        for name, recipe in data.items():
-            questions.append(recipe)
-    return questions
+        for q_no, q_template in data.items():
+            questions_template_dict[q_no] = q_template
+    return questions_template_dict
 
 
 def get_joined_list_str(list_items):
@@ -98,16 +99,16 @@ def main():
     # 3. Make all the output_surveys
     make_surveys(recipe_dict, category_action_dict, output_path)
 
-    recipes_json_path = "./input_data/recipe.json"
+    recipes_json_path = "input_data/recipe.json"
     actions_json_path = "./input_data/action.json"
     questions_json_path = "./input_data/questions.json"
 
     recipes, recipe_by_steps = fetch_recipes_from_json(recipes_json_path)
     actions, actions_list, skills_list = fetch_actions_from_json(actions_json_path)
 
-    questions_tags_list = fetch_questions_from_json(questions_json_path)
-    for q in questions_tags_list:
-        print(q)
+    questions_template_dict = fetch_questions_from_json(questions_json_path)
+    for q_no, q_template in questions_template_dict.items():
+        print(q_no, ":", q_template)
 
     tags_list_map = {
         '{recipe}': recipes,
@@ -118,18 +119,29 @@ def main():
     }
 
     tags_list = ['{recipe}', '{recipe::step}', '{skill_list}', '{action_list}', '{action}']
-    counter = 1
-    for question_tag in questions_tags_list:
-        questions = list([question_tag])
+    for q_no, q_template in questions_template_dict.items():
+        questions = list([q_template])
         for tag in tags_list:
             if tag in questions[0]:
                 questions = generate_questions(questions, tag, tags_list_map)
         # Save that question in that corresponding file
-        with open(f'./questions/Q{counter}', 'w') as f:
+        with open(f'./questions/{q_no}.txt', 'w') as f:
             for question in questions:
                 f.write(question)
                 f.write("\n\n")
-        counter += 1
+        with open(f'./questions/{q_no}.pkl', 'wb') as fp:
+            q_len = len(questions)
+            answers = [""] * q_len
+            done = [False] * q_len
+            df = pd.DataFrame({
+                'question': questions,
+                'answer': answers,
+                'done': done,
+            })
+            # pickle.dump(questions, fp)
+            df.to_pickle(fp)
+        df = pd.read_pickle(f'./questions/{q_no}.pkl')
+        print(df.shape)
     pass
 
 

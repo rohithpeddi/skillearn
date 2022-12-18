@@ -1,0 +1,10 @@
+{
+  "Q1": "\"{recipe}\". What skills should I require to perform the above recipe steps? Please give for each step",
+  "Q2": "\"{recipe}\". What errors can I make while performing the above recipe steps? Please give for each step",
+  "Q3": "What skills do we require and what possible errors can we make while executing this \"{recipe::step}\"?",
+  "Q4": "What skills do we require from \"{skill_list}\" to perform this recipe \"{recipe}\"?",
+  "Q5": "What skills do we require from \"{skill_list}\" to perform this \"{recipe::step}\"?",
+  "Q6": "What possible errors can we make while performing this \"{recipe::step}\"?",
+  "Q7": "What actions from \"{action_list}\" can be considered as skills?",
+  "Q8": "When can \"{action}\" be considered as a skill?"
+}

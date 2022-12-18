@@ -1,10 +1,4 @@
 {
-  "1": "\"{recipe}\". What skills should I require to perform the above recipe steps?",
-  "2": "\"{recipe}\". What errors can I make while performing the above recipe steps?",
-  "3": "What skills do we require and what possible errors can we make while executing this \"{recipe::step}\"?",
-  "4": "What skills do we require from \"{skill_list}\" to perform this recipe \"{recipe}\"?",
-  "5": "What skills do we require from \"{skill_list}\" to perform this \"{recipe::step}\"?",
-  "6": "What possible errors can we make while performing this \"{recipe::step}\"?",
-  "7": "What actions from \"{action_list}\" can be considered as skills?",
-  "8": "When can \"{action}\" be considered as a skill?"
+  "Q5": "What skills do we require from \"{skill_list}\" to perform this \"{recipe::step}\"?",
+  "Q8": "When can \"{action}\" be considered as a skill?"
 }
