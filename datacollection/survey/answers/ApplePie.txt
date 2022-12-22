@@ -1,133 +1,337 @@
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
-
+Taking: You may need to take the crust with your hands or a utensil and hold it steady as you move it to the pie dish.
+Lifting: Depending on the size and weight of the crust and the pie dish, you may need to use some strength to lift the crust and place it into the dish.
+Choosing: You may need to choose the appropriate pie dish to use, ensuring that it is microwave-safe and the right size and shape for the crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
-
+Putting: This skill involves physically placing the crust into the pie dish, which may require dexterity and coordination to position the crust properly.
+Inserting: This skill involves inserting the crust into the pie dish, which may require a similar level of dexterity and coordination as putting.
+Throwing: This skill is not required to perform this task, as the crust should not be thrown into the pie dish.
+Hanging: This skill is not required to perform this task.
+Dropping: This skill is not required to perform this task, as the crust should not be dropped into the pie dish.
+Serving: This skill is not required to perform this task, as the crust is being placed into the pie dish rather than being served.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
 
+None of the skills listed are required to perform the task of placing a crust into a microwave-safe pie dish. This task simply involves taking the crust and placing it into the pie dish. It does not require any specific skills or techniques beyond the ability to handle the crust and locate the pie dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
 
+Opening: This skill would be necessary to open the packaging containing the pie crust, if it is packaged in a way that requires opening (e.g. a box or bag).
+Unrolling: If the pie crust is rolled up in plastic wrap or parchment paper, you will need to unroll it to get it ready to place in the dish.
+Uncovering: If the pie crust is covered with a plastic lid or foil, you will need to remove the covering to expose the crust.
+Unwrapping: If the pie crust is wrapped in plastic wrap or parchment paper, you will need to remove the wrapping to access the crust.
+Switching: You may need to switch on the microwave to heat the crust before placing it in the dish.
+Unlocking: If the pie dish has a lock or latch that needs to be opened to remove it from the package, you will need to unlock it before you can use the dish.
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
+Closing: This involves folding the crust over the edges of the pie dish to close it and create a sealed edge.
+Wrapping: This involves carefully wrapping the crust around the sides of the pie dish to form a secure, even layer.
+Rolling: This involves rolling out the crust to the desired thickness and size using a rolling pin.
+Locking: This involves using a fork or other tool to press down on the edges of the crust to lock it in place and prevent it from unraveling during cooking.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
-
+To perform the task of "Place the crust into a microwave-safe pie dish," the skill of "attaching" would be required. This involves attaching the crust to the pie dish by fitting it into the dish and pressing it down to secure it in place.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
-
+To perform the task of placing a crust into a microwave-safe pie dish, you would not need any of the skills listed in the question.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
+Wearing: Depending on the context, it may be necessary to wear protective gear such as gloves or an apron when handling the pie crust.
 
+Forming: The pie crust may need to be formed into a specific shape or size to fit the pie dish.
+
+Using: You may need to use utensils such as a rolling pin or a fork to shape and smooth the pie crust.
+
+Screwing: It is not typically necessary to perform this action when placing a pie crust into a pie dish.
+
+Flattening: The pie crust may need to be flattened or pressed into the bottom and sides of the pie dish.
+
+Finishing: The edges of the pie crust may need to be finished by trimming excess dough or by pressing the edges with a fork.
+
+Preparing: The pie crust may need to be prepared by mixing and rolling out the dough.
+
+Baking: It is not typically necessary to bake the pie crust before placing it into a pie dish.
+
+Marking: It is not typically necessary to mark the pie crust before placing it into a pie dish.
+
+Bending: The pie crust may need to be bent or shaped to fit into the pie dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
+Fine motor skills: The ability to use the small muscles in your fingers and hands to accurately and precisely control movement. This skill is important for placing the crust into the pie dish without tearing or damaging it.
 
+Spatial awareness: The ability to perceive and understand the relationships between objects in space. This skill is important for accurately aligning the crust with the pie dish and ensuring it is positioned correctly.
+
+Coordination: The ability to use your body's different parts in a coordinated and smooth way to perform a task. This skill is important for smoothly and efficiently placing the crust into the pie dish without dropping or spilling it.
+
+Balance: The ability to maintain your body's center of gravity over your base of support. This skill is important for maintaining stability and control while carrying the crust and placing it into the pie dish.
+
+Strength: The ability to apply force to move or support an object. This skill may be important if the crust is heavy or difficult to maneuver.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
+Adjusting: This skill may be required to adjust the position of the crust or the pie dish as needed to fit the crust into the dish properly.
 
+Checking: This skill may be useful to check that the crust is the correct size and shape for the pie dish, and to check that the pie dish is microwave-safe.
+
+Looking: This skill may be useful to visually inspect the crust and the pie dish to ensure that they are in good condition and suitable for use.
+
+Measuring: This skill may be useful to measure the size of the crust and the pie dish to ensure that they are a good fit.
+
+Increasing: This skill may not be directly required for this task, but it may be useful to increase the speed or efficiency of the task if necessary.
+
+Waiting: This skill may not be directly required for this task, but it may be useful to wait until the crust has thawed or warmed to the appropriate temperature before placing it into the pie dish.
+
+Lowering: This skill may be required to carefully lower the crust into the pie dish so that it does not become damaged or distorted.
+
+Unfreezing: This skill may not be directly required for this task, but it may be useful to unfreeze a frozen crust before placing it into the pie dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
+Patting: The skill of patting may be necessary to shape or press the crust into the pie dish before placing it in the microwave.
 
+Eating: This skill is not directly required to perform the task.
+
+Feeling: The skill of feeling may be useful to determine if the crust is the correct size and shape for the pie dish, and to ensure that it is properly placed in the dish.
+
+Drinking: This skill is not directly required to perform the task.
+
+Smelling: This skill is not directly required to perform the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
+Applying: You may need to apply a gentle, even pressure when transferring the crust from the packaging or rolling surface to the pie dish. This can help to avoid tearing or damaging the crust as you move it.
 
+Sprinkling: Depending on the recipe you are using, you may need to sprinkle some flour, cornmeal, or other dry ingredients onto the surface of the pie dish before placing the crust inside. This can help to prevent the crust from sticking to the dish and make it easier to remove after baking.
+
+Spraying: If you are using a pie dish with a non-stick coating, you may want to lightly spray the surface with cooking spray before placing the crust inside. This can help to ensure that the crust doesn't stick to the dish and makes it easier to remove once it is baked.
+
+Seasoning: Depending on the recipe, you may need to season the crust with spices or herbs before placing it in the pie dish. This can add flavor to the finished pie and enhance the overall taste and appearance.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Place the crust into a microwave-safe pie dish.'?
+Manual dexterity: This skill involves the ability to use your hands and fingers to perform tasks with precision and control. Placing the crust into the pie dish may require some degree of finesse and dexterity, especially if the crust is fragile or the dish is small.
 
+Attention to detail: This skill involves being able to pay close attention to the task at hand and to notice any details that may be important. When placing the crust into the pie dish, it may be important to ensure that it is centered and evenly distributed within the dish, as well as to avoid tearing or damaging the crust.
+
+Problem-solving: This skill involves the ability to identify and solve problems that may arise during a task. If the crust does not fit properly into the pie dish or if there are any issues with the crust or dish, it may be necessary to find a solution or to adapt your approach in order to complete the task successfully.
+
+Planning and organization: This skill involves the ability to organize and plan tasks in a logical and efficient manner. When placing the crust into the pie dish, it may be helpful to think ahead and to consider any potential challenges or issues that may arise, in order to plan the most effective way to complete the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Taking: You will need to take the fork in your hand and hold it steady as you work.
 
+Scooping: You will need to scoop the fork gently through the dough to create the desired pattern or indentations.
+
+Lifting: You may need to lift the fork slightly as you work to ensure that it is making contact with the dough.
+
+Gathering: You will need to gather the dough with the fork in order to create the desired pattern or indentations.
+
+Choosing: You will need to choose the appropriate amount of pressure and the right angle to use when scoring the crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Putting: This involves the ability to carefully place the fork onto the crust in the desired location.
 
+Inserting: The fork must be inserted into the crust in order to make the scoring marks.
+
+Throwing: This skill is not directly related to the task of scoring a crust with a fork.
+
+Hanging: This skill is not directly related to the task of scoring a crust with a fork.
+
+Dropping: This skill is not directly related to the task of scoring a crust with a fork.
+
+Serving: This skill is not directly related to the task of scoring a crust with a fork.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Washing: Washing your hands and any utensils you will be using, such as a fork, before handling food can help to prevent the spread of bacteria and ensure that your food is safe to eat.
 
+Drying: Drying your hands and any utensils you will be using can help to prevent excess moisture from affecting the crust or the ingredients you will be using.
+
+Scraping: Using a fork to scrape the sides and bottom of the crust can help to create a rough surface that will allow the crust to cook more evenly and absorb any liquids or sauces that may be added.
+
+Scrubbing: If the crust is dirty or has excess flour on it, scrubbing it gently with a fork or a clean kitchen brush can help to remove any excess debris.
+
+Rubbing: Rubbing the fork gently over the surface of the crust can help to create a rough, textured surface that will allow the crust to cook more evenly and absorb any liquids or sauces that may be added.
+
+Soaking: Soaking a fork in water or another liquid before using it to score the crust can help to prevent the fork from sticking to the dough and tearing it.
+
+Brushing: Brushing the surface of the crust with a pastry brush or a clean kitchen brush can help to remove excess flour or debris and create a smoother surface for scoring.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
-
+Opening: This skill may be required to open the container or packaging that holds the crust.
+Unrolling: If the crust is rolled up, this skill may be required to unroll it.
+Uncovering: If the crust is covered or sealed in some way, this skill may be required to uncover it.
+Unwrapping: If the crust is wrapped in foil or plastic wrap, this skill may be required to unwrap it.
+Switching: This skill may be required to switch between different utensils or tools, such as using a fork to score the crust after using a knife to cut it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
-
+Closing: This involves pressing the edges of the dough together to seal the crust.
+Wrapping: This involves wrapping the dough around a rolling pin or other cylindrical object to shape it.
+Rolling: This involves using a rolling pin to flatten and shape the dough into the desired shape and thickness.
+Locking: This involves using a fork to press the edges of the dough together to seal the crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Pouring: This skill may be necessary to measure and pour any ingredients that are required for the crust recipe, such as flour, water, or oil.
 
+Mixing: Mixing skills may be necessary to combine the ingredients for the crust and to work the dough until it is smooth and evenly mixed.
+
+Filling: Filling skills may be necessary to fill the crust with any desired fillings, such as fruit or a savory filling.
+
+Adding: The skill of adding may be necessary to add any additional ingredients or toppings to the filled crust, such as a glaze or cheese.
+
+Attaching: Attaching skills may be necessary to attach any additional layers or components to the crust, such as a top crust in a pie.
+
+Coating: Coating skills may be necessary to coat the crust with any desired finishes, such as an egg wash or a sprinkle of sugar.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Stabbing: The ability to use a sharp object, such as a fork, to puncture or pierce the crust.
 
+Cutting: The ability to use a sharp object, such as a fork, to make shallow incisions in the crust.
+
+Peeling: The ability to use a sharp object, such as a fork, to remove or lift small pieces of the crust.
+
+Breaking: The ability to use a sharp object, such as a fork, to break or shatter the crust.
+
+Dividing: The ability to use a sharp object, such as a fork, to divide or separate the crust into smaller pieces or sections.
+
+Grating: The ability to use a sharp object, such as a fork, to create fine, slivered pieces of the crust by rubbing it against a rough surface.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
-
+Pressing: This involves applying pressure with your fingers or a tool in order to create an indentation or to make an object more pliable.
+Holding: This involves using your hand to grip and hold onto an object securely.
+Using: This involves applying a tool or technique in a practical manner in order to accomplish a task.
+Flipping: This involves turning something over or around.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Fine motor control: Scoring the crust with a fork requires precise movements and control of the hand and fingers to guide the fork along the surface of the crust.
 
+Coordination: The task may also require coordination between the hand and the eye, as you may need to look at the crust as you score it to ensure that you are creating even lines or patterns.
+
+Strength: Depending on the thickness and density of the crust, you may need to exert some force to push the fork through the dough.
+
+Balance: If you are scoring the crust on a surface that is not level or stable, you may need to maintain balance as you work.
+
+Dexterity: The task may require a certain level of dexterity, or the ability to manipulate objects skillfully with the fingers.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Adjusting: This skill involves being able to make small adjustments to the position of the fork or the pressure applied as needed to create the desired scores in the crust.
 
+Checking: This skill involves being able to visually check the progress of the scoring and making any necessary adjustments.
+
+Looking: This skill involves being able to carefully observe the crust and identify any areas that may need additional scoring.
+
+Measuring: This skill involves being able to gauge the depth and spacing of the scores to ensure that they are even and consistent.
+
+Increasing: This skill may be necessary if it is necessary to increase the pressure or number of scores in certain areas of the crust.
+
+Lowering: This skill may be necessary if it is necessary to decrease the pressure or number of scores in certain areas of the crust.
+
+Waiting: This skill may be necessary if it is necessary to wait for the crust to cool or set before scoring it.
+
+Unfreezing: This skill may be necessary if the crust has become frozen and needs to be thawed before it can be scored.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Patting: This involves using the hands or fingers to gently press or pat the crust with a fork.
 
+Eating: This skill is not directly relevant to the task, but it may be helpful to have some familiarity with using utensils and handling food in general.
+
+Feeling: This involves using the sense of touch to judge the texture and consistency of the crust, and to ensure that the fork is being used in a way that creates an even score.
+
+Drinking: This skill is not relevant to the task.
+
+Smelling: This skill is not directly relevant to the task, but it may be helpful to use the sense of smell to check that the crust is baking properly and does not have any unusual odors.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Applying: You will need to be able to apply gentle pressure with the fork in order to make shallow indentations in the crust. This will help the crust to cook evenly and also help prevent it from puffing up too much during baking.
 
+Sprinkling: Depending on the recipe, you may also need to sprinkle a small amount of water over the crust before scoring it with the fork. This can help to keep the crust moist and prevent it from becoming too dry during baking.
+
+Spraying: If you are using a non-stick baking pan, you may want to lightly spray the pan with cooking spray before placing the crust in it. This will help to prevent the crust from sticking to the pan and make it easier to remove after baking.
+
+Seasoning: Depending on the recipe, you may also need to season the crust with herbs, spices, or other flavorings before baking. This can add extra flavor to the crust and enhance the overall taste of the finished dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Score (press) the bottom and sides of the crust with a fork.'?
+Folding: You will need to be able to fold the edges of the crust over to create a decorative border. This may require some basic dexterity and coordination.
 
+Sorting: You may need to sort through various utensils to find the appropriate fork to use for scoring the crust. This involves being able to identify the fork and then selecting it from among other utensils.Folding: You will need to be able to fold the edges of the crust over to create a decorative border. This may require some basic dexterity and coordination.
+
+Sorting: You may need to sort through various utensils to find the appropriate fork to use for scoring the crust. This involves being able to identify the fork and then selecting it from among other utensils.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave on high for 5 minutes and let it rest while you make the fillings.'?
-
+Taking: Taking the food item out of the refrigerator or pantry and placing it in the microwave.
+Scooping: Scooping the food out of a container and into a microwave-safe dish.
+Choosing: Choosing the appropriate power level and time on the microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave on high for 5 minutes and let it rest while you make the fillings.'?
-
+Putting: This skill would be required to place the food inside the microwave.
+Inserting: This skill would be required to insert the microwave's tray or plate into the microwave.
+Throwing: This skill would not be required to perform this action.
+Hanging: This skill would not be required to perform this action.
+Dropping: This skill would not be required to perform this action.
+Serving: This skill would not be required to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave on high for 5 minutes and let it rest while you make the fillings.'?
-
+None of the skills listed are required to perform the task of microwaving something on high for 5 minutes and letting it rest while you make fillings.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave on high for 5 minutes and let it rest while you make the fillings.'?
-
+cOpening: You will need to open the microwave door to place the food inside.
+Switching: You will need to switch on the microwave and set it to the correct power level (high).
+Setting a timer: You will need to set the timer for 5 minutes.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave on high for 5 minutes and let it rest while you make the fillings.'?
+Closing: You will need to be able to close the microwave door properly after placing the food inside.
 
+Wrapping: Depending on what you are microwaving, you may need to wrap it in microwave-safe material, such as plastic wrap or parchment paper.
+
+Rolling: If you are microwaving something that is cylindrical in shape, such as a burrito, you may need to roll it so that it heats evenly.
+
+Locking: Some microwave ovens have a locking mechanism to prevent the door from being opened while the microwave is in use. You will need to be able to lock the door if your microwave has this feature.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Microwave on high for 5 minutes and let it rest while you make the fillings.'?
+Pouring: You may need to pour the dish into a microwave-safe container before microwaving it.
 
+Mixing: You may need to mix the ingredients of the dish together before microwaving it.
+
+Filling: You may need to fill a container with the dish before microwaving it.
+
+Adding: You may need to add ingredients to the dish before microwaving it.
+
+Attaching: You may need to attach the dish to a plate or cover it with plastic wrap before microwaving it.
+
+Coating: You may need to coat the dish with a sauce or other seasoning before microwaving it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Microwave on high for 5 minutes and let it rest while you make the fillings.'?
-
+None of the skills from the list '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are directly related to microwaving food.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave on high for 5 minutes and let it rest while you make the fillings.'?
