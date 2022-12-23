@@ -1038,263 +1038,568 @@ Smelling: This skill is not directly related to the task of extracting lemon jui
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Applying: You will need to apply pressure to the lemon in order to extract the juice.
 
+Sprinkling: Once you have extracted the juice, you will need to sprinkle it into the bowl.
+
+Spraying: Alternatively, you could use a citrus sprayer or a small strainer to spray the juice into the bowl.
+
+Seasoning: You may also want to consider adding a pinch of salt or sugar to the bowl to season the juice to your taste.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Folding: You may need to fold a paper towel or cloth to use as a makeshift funnel if you do not have a juicer.
 
+Sorting: You may need to sort through the lemons to choose one that is ripe and juicy.
+
+Cutting: You will need to cut the lemon in half with a sharp knife.
+
+Squeezing: You will need to use your hand or a juicer to squeeze the juice out of the lemon.
+
+Pouring: You will need to pour the juice from the lemon into the bowl.
+
+Measuring: You may need to measure the amount of lemon juice you are adding to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Mix all the ingredients well.'?
+Scooping: To mix the ingredients, you will likely need to scoop them up and move them around, either with a spoon or other utensil.
 
+Lifting: Depending on the size and weight of the ingredients and the mixing vessel, you may need to use some degree of strength to lift and move the ingredients as you mix them.
+
+Gathering: You may need to gather the ingredients together and bring them to the mixing bowl or other container in order to mix them.
+
+Choosing: Depending on the recipe, you may need to select the right ingredients to mix together. For example, if the recipe calls for specific types or amounts of ingredients, you will need to choose the correct ones.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Mix all the ingredients well.'?
-
+Putting: You may need to put the ingredients into a mixing bowl or other container.
+Inserting: You may need to insert a mixing spoon or whisk into the bowl to mix the ingredients.
+Throwing: Depending on the recipe, you may need to throw ingredients into the bowl or toss them to combine them.
+Hanging: You may need to hang a mixing bowl on a stand or hook if using an electric mixer.
+Dropping: You may need to drop in smaller ingredients such as spices or herbs while mixing.
+Serving: You may need to use a serving spoon or spatula to scoop the mixed ingredients out of the bowl when you are finished.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Mix all the ingredients well.'?
-
+Mixing all the ingredients well does not necessarily require any specific skills from the list you provided.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Mix all the ingredients well.'?
+Opening: You may need to open containers or packaging in order to access the ingredients you need to mix.
 
+Unrolling: If you are using a roll of parchment paper or aluminum foil, you may need to unroll it in order to line a baking pan or wrap ingredients.
+
+Unscrewing: You may need to unscrew the lid of a jar or container in order to access the ingredients inside.
+
+Uncovering: If the ingredients are covered with a lid or foil, you will need to uncover them in order to mix them.
+
+Unwrapping: If the ingredients are wrapped in plastic or packaging, you will need to unwrap them in order to mix them.
+
+Switching: You may need to switch between different utensils or tools in order to mix the ingredients effectively.
+
+Unlocking: If the ingredients are stored in a locked container, you will need to unlock it in order to access the ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Mix all the ingredients well.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Mix all the ingredients well.'?
+Pouring: This involves transferring liquids or dry ingredients from one container to another, often using a measuring cup or spoon.
 
+Mixing: This involves using a utensil such as a spoon, whisk, or electric mixer to combine ingredients together until they are evenly distributed.
+
+Filling: This involves transferring ingredients from a container or measuring device into a smaller container or into a recipe mixture.
+
+Adding: This involves incorporating additional ingredients into a recipe mixture.
+
+Attaching: This involves attaching a utensil or other equipment to a mixer or other kitchen appliance.
+
+Coating: This involves evenly spreading a thin layer of an ingredient over the surface of a food, often using a brush or spoon.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Mix all the ingredients well.'?
+Cutting: You may need to cut up larger ingredients into smaller pieces before mixing them.
 
+Peeling: If you are working with vegetables or fruits that have a skin or peel, you may need to remove this outer layer before mixing the ingredients.
+
+Emptying: Depending on the recipe, you may need to empty ingredients from a container or package into a mixing bowl or other vessel.
+
+Breaking: If you are working with large or hard ingredients, you may need to break them into smaller pieces before mixing them.
+
+Filtering: If you are working with wet or liquid ingredients, you may need to strain or filter out any solids before mixing them.
+
+Ripping: You may need to rip up ingredients such as leafy greens or herbs into smaller pieces before mixing them.
+
+Crushing: If you are working with hard ingredients such as nuts or seeds, you may need to crush them into smaller pieces before mixing them.
+
+Dividing: Depending on the recipe, you may need to divide ingredients into smaller quantities before mixing them.
+
+Grating: You may need to grate ingredients such as cheese or vegetables into smaller pieces before mixing them.
+
+Stabbing: If you are working with ingredients such as meats or vegetables that are hard to mix, you may need to use a utensil such as a fork or whisk to stab them and help incorporate them into the mixture.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Mix all the ingredients well.'?
-
+Shaking: You could shake the ingredients in a container to mix them together.
+Squeezing: If the ingredients include liquid and you need to mix them together, you might need to squeeze them together to combine them.
+Pressing: Depending on the ingredients, you might need to press them together in order to mix them well.
+Flipping: If you are mixing ingredients in a container, you might need to flip the container over in order to mix the ingredients evenly.
+Turning: You might need to turn the ingredients over or rotate them in order to mix them together.
+Pulling: Depending on the consistency of the ingredients, you might need to pull them apart and then mix them together in order to combine them well.
+Holding: You will need to hold the container or utensil you are using to mix the ingredients.
+Cooking: If you are cooking the ingredients as you mix them, you will need to use cooking skills.
+Stretching: If the ingredients include dough or other flexible materials, you might need to stretch them in order to mix them together.
+Kneading: If the ingredients include dough, you might need to knead the dough in order to mix the ingredients together.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Mix all the ingredients well.'?
+Coordination: The ability to use your hands and arms to move the ingredients and utensils in a coordinated and controlled manner.
 
+Strength: Depending on the size and weight of the ingredients, you may need to use some physical strength to mix them together.
+
+Dexterity: The ability to use your fingers and hands with precision and control. This could be important for tasks like stirring or folding the ingredients together.
+
+Endurance: Mixing ingredients together can be physically demanding, especially if you are doing it for an extended period of time. Having good endurance can help you maintain your strength and coordination over the course of the task.
+
+Balance: Depending on the location and setup of your mixing area, you may need to maintain good balance while mixing the ingredients. This could be especially important if you are working on an uneven surface or if you are using a large mixing bowl that requires you to hold it with one hand while stirring with the other.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Mix all the ingredients well.'?
+Adjusting: Adjusting the speed or intensity of your mixing to ensure that all the ingredients are well combined.
 
+Checking: Checking the ingredients to ensure that you have all the necessary ingredients and that they are at the correct quantities.
+
+Looking: Looking at the ingredients and the mixing bowl to make sure that everything is well combined and that there are no lumps or unmixed ingredients.
+
+Searching: Searching for any ingredients that may have been missed or left out.
+
+Measuring: Measuring the ingredients to ensure that they are in the correct proportions.
+
+Increasing: Increasing the speed or intensity of your mixing if necessary to fully combine the ingredients.
+
+Waiting: Waiting for the ingredients to fully combine and become well mixed before moving on to the next step.
+
+Lowering: Lowering the speed or intensity of your mixing if necessary to avoid overmixing or splashing.
+
+Unfreezing: Unfreezing any frozen ingredients if necessary before adding them to the mixing bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Mix all the ingredients well.'?
+Feeling: You may need to use your sense of touch to feel the consistency of the mixture and determine if it is evenly mixed.
 
+Patting: Depending on the ingredients and the type of mixing required, you may need to use a patting motion to combine the ingredients.
+
+Drinking: If the ingredients include liquids, you may need to use a drinking motion to pour the liquids into the mixture.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Mix all the ingredients well.'?
+Applying: This involves using a spoon, spatula, or other utensil to evenly distribute ingredients within a mixture.
 
+Sprinkling: This involves lightly scattering ingredients over the surface of a mixture, such as seasoning a dish with herbs or spices.
+
+Spraying: This involves using a spray bottle or other device to evenly distribute liquid ingredients over a mixture, such as oil or water.
+
+Seasoning: This involves adding salt, pepper, or other herbs and spices to a mixture to enhance its flavor.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Mix all the ingredients well.'?
+Folding: This involves gently combining ingredients by using a gentle, cutting and scooping motion with a utensil such as a spatula.
 
+Sorting: This involves separating ingredients into different piles or groups based on their characteristics, such as size, shape, or color.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave on high for 2.5 minutes.'?
+Taking: You will need to take the food or other item that you want to microwave out of the refrigerator or pantry and bring it to the microwave.
 
+Removing: You will need to remove any packaging or containers that the food is in before microwaving it.
+
+Scooping: Depending on what you are microwaving, you may need to scoop it out of a container or onto a plate.
+
+Lifting: You will need to lift the food or other item and place it in the microwave.
+
+Gathering: You may need to gather any utensils or other items that you will need to prepare the food for microwaving, such as a microwave-safe plate or bowl.
+
+Choosing: You will need to choose the appropriate power level and time setting for microwaving the food.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave on high for 2.5 minutes.'?
-
+Putting: You will need to put the food or other item into the microwave.
+Inserting: You may need to insert the food or other item into a container or dish suitable for microwaving.
+Hanging: Depending on the type of microwave you are using, you may need to hang a turntable or other component inside the microwave.
+Serving: Once the microwaving is complete, you will need to remove the food or other item from the microwave and serve it as desired.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave on high for 2.5 minutes.'?
-
+None of the skills listed are required to perform the task of microwave on high for 2.5 minutes.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave on high for 2.5 minutes.'?
+Opening: You will need to be able to open the microwave door in order to place the item inside.
 
+Switching: You will need to be able to switch the microwave on and set it to the appropriate power level and time.
+
+Unlocking: Depending on the model of microwave you are using, you may need to unlock the microwave before you can use it. Some microwaves have safety locks to prevent accidental use.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave on high for 2.5 minutes.'?
+Closing: You would need to be able to close the microwave door so that the microwave can operate properly.
 
+Wrapping: You may need to wrap the food in a microwave-safe container or plastic wrap in order to microwave it.
+
+Rolling: You do not need any rolling skills to perform this task.
+
+Locking: You do not need any locking skills to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Microwave on high for 2.5 minutes.'?
-
+None of the skills listed are required to perform the action of microwaving something on high for 2.5 minutes.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Microwave on high for 2.5 minutes.'?
-
+To perform the action of microwaving something on high for 2.5 minutes, you would not need any of the skills listed in the prompt.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave on high for 2.5 minutes.'?
-
+To perform the action of microwaving something on high for 2.5 minutes, you would not need any of the skills listed in the prompt.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Microwave on high for 2.5 minutes.'?
-
+To perform the action of microwaving something on high for 2.5 minutes, you would not need any of the skills listed in the prompt.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Microwave on high for 2.5 minutes.'?
+Adjusting: You may need to adjust the settings on the microwave to ensure that it is set to the correct power level (high) and cooking time (2.5 minutes).
 
+Checking: You should check to make sure that the microwave is plugged in and functioning properly before beginning the cooking process.
+
+Looking: You should look at the microwave's timer or clock to determine when the 2.5 minutes are up.
+
+Searching: If you are not familiar with the microwave's controls, you may need to search for instructions or consult the owner's manual.
+
+Measuring: If you are microwaving something that requires a specific amount of time, you may need to measure the cooking time using a timer or clock.
+
+Increasing: Depending on the food being microwaved, you may need to increase the cooking time if it is not fully cooked after the initial 2.5 minutes.
+
+Waiting: After setting the microwave to cook for 2.5 minutes, you will need to wait for the cooking time to elapse before opening the door and removing the food.
+
+Lowering: If the food is overcooked or burns, you may need to lower the cooking time in the future to prevent this from happening.
+
+Unfreezing: If the food being microwaved is frozen, you may need to unfreeze it before cooking it in the microwave. This can be done by setting the microwave to a lower power level or by increasing the cooking time.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Microwave on high for 2.5 minutes.'?
+Patting: You will need to be able to locate the microwave and pat the control panel to turn it on.
 
+Eating: You will need to be able to identify the food or drink you want to microwave, and potentially open any packaging or containers it may be in.
+
+Feeling: You will need to be able to locate and press the buttons on the microwave control panel, and potentially use your sense of touch to check the temperature of the food or drink after it has been microwaved.
+
+Drinking: You may need to be able to pour a drink (if microwaving a liquid) or handle a cup or other container to put in the microwave.
+
+Smelling: You may want to use your sense of smell to check the food or drink after it has been microwaved, to make sure it is cooked to your liking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Microwave on high for 2.5 minutes.'?
-
+None of the skills listed in the '[Applying, Sprinkling, Spraying, Seasoning]' list are directly relevant to microwaving on high for 2.5 minutes.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Microwave on high for 2.5 minutes.'?
-
+To perform the task of "microwave on high for 2.5 minutes," you do not need any specific skills from the categories of folding or sorting
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Stir the contents in the bowl.'?
-
+To stir the contents in a bowl, you would need to use the skills of taking and scooping.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Stir the contents in the bowl.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Stir the contents in the bowl.'?
-
+None of the skills listed are required to perform the action of stirring the contents in a bowl
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Stir the contents in the bowl.'?
-
+None of the skills listed in the question are required to perform the task of stirring the contents in a bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Stir the contents in the bowl.'?
-
+None of the skills listed ([Closing, Wrapping, Rolling, Locking]) are necessary to perform the task of stirring the contents in a bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Stir the contents in the bowl.'?
+Pouring: The ability to pour the contents of the bowl into a mixing utensil, such as a spoon or whisk, is necessary for stirring.
 
+Mixing: Stirring involves using a utensil to mix the contents of the bowl, so the skill of mixing is necessary.
+
+Filling: Depending on the recipe or task, you may need to add additional ingredients to the bowl before stirring. The skill of filling, or adding ingredients to a container, is necessary in this case.
+
+Adding: Similar to filling, adding ingredients to the bowl is necessary in some cases.
+
+Attaching: If you are using an electric mixer or blender to stir the contents of the bowl, you will need to attach the mixing utensil to the device. The skill of attaching is necessary in this case.
+
+Coating: Depending on the recipe or task, you may need to coat the contents of the bowl with a liquid or other ingredient. The skill of coating is necessary in this case.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Stir the contents in the bowl.'?
-
+To stir the contents in a bowl, you typically do not need any specific skills from the list you provided.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Stir the contents in the bowl.'?
-
+Shaking: You may need to shake the bowl slightly to mix the contents evenly.
+Flipping: You may need to flip the spoon or utensil you are using to stir in order to reach all parts of the bowl.
+Turning: You may need to turn the bowl or the utensil in order to stir the contents effectively.
+Pulling: You may need to pull the utensil through the contents in the bowl in order to mix them.
+Holding: You will need to hold the bowl steady while stirring.
+Cooking: Depending on the context, you may need to have some basic cooking skills in order to know how to properly stir the contents in the bowl.
+Using: You will need to use a spoon or other utensil to stir the contents in the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Stir the contents in the bowl.'?
+Hand-eye coordination: This skill involves the ability to use the eyes to guide the movement of the hands in a precise and controlled manner. Stirring the contents of a bowl requires the use of a stirring implement such as a spoon or whisk, and hand-eye coordination is necessary to guide the implement through the contents of the bowl in a smooth and controlled manner.
 
+Fine motor skills: Fine motor skills involve the ability to make precise and controlled movements with the small muscles of the hands and fingers. Stirring the contents of a bowl requires the use of small muscles in the hands and fingers to hold and manipulate the stirring implement.
+
+Arm strength: Depending on the consistency of the contents of the bowl and the size and weight of the stirring implement, some arm strength may be required to stir the contents effectively.
+
+Balance: Maintaining balance while stirring the contents of a bowl may be necessary if the bowl is placed on a slippery or unstable surface.
+
+Grip strength: The ability to hold and manipulate the stirring implement with sufficient grip strength is necessary to effectively stir the contents of the bowl.
+
+Coordination: The ability to coordinate the movement of the hands and arms in a smooth and controlled manner is necessary to effectively stir the contents of the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Stir the contents in the bowl.'?
+Adjusting: This skill involves making small adjustments to your stirring motion to ensure that you are mixing the contents evenly.
 
+Checking: This skill involves looking at the contents of the bowl to ensure that you are stirring the ingredients evenly and to check the progress of the stirring process.
+
+Looking: This skill involves looking at the bowl and the ingredients to ensure that you are stirring the contents effectively.
+
+Measuring: This skill may be required if you are following a recipe that requires specific amounts of ingredients. Measuring the ingredients accurately is important for the success of the recipe.
+
+Increasing: This skill may be required if you are stirring the contents at a slow pace and need to increase the speed of stirring to mix the ingredients more effectively.
+
+Waiting: This skill may be required if you are stirring a thick mixture that requires more time to fully combine the ingredients.
+
+Lowering: This skill may be required if you are stirring the contents at a fast pace and need to slow down the stirring motion to ensure that you are mixing the ingredients evenly.
+
+Unfreezing: This skill may be required if you are stirring frozen ingredients and need to use a stirring motion to help break up the frozen chunks and mix the ingredients together.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Stir the contents in the bowl.'?
-
+You do not need to have any specific skills from the list of '[Patting, Eating, Feeling, Drinking, Smelling]' in order to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Stir the contents in the bowl.'?
+Applying: This refers to the ability to apply a force or movement to the contents of the bowl, using a utensil such as a spoon or spatula.
 
+Sprinkling: This skill involves the ability to evenly distribute small amounts of a substance over a surface, which may be helpful if you are adding a seasoning or other ingredient to the contents of the bowl that you are stirring.
+
+Spraying: This skill is not directly related to stirring the contents of a bowl, as it involves using a device to disperse a liquid or fine particles over a surface.
+
+Seasoning: This skill refers to the ability to add flavor to food, which may be relevant if you are adding a seasoning to the contents of the bowl that you are stirring.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Stir the contents in the bowl.'?
+Hand-eye coordination: The ability to coordinate the movement of your hands with your visual perception can help you accurately and efficiently stir the contents of the bowl.
 
+Fine motor skills: The ability to make precise and controlled movements with your fingers and hands can help you effectively stir the contents of the bowl without spilling or making a mess.
+
+Strength: Depending on the size and weight of the bowl and its contents, you may need to use some strength to stir the contents effectively.
+
+Endurance: Depending on the amount of stirring required, you may need to have some endurance to continue stirring for an extended period of time.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+Taking: This involves taking the item that needs to be microwaved and placing it in the microwave.
+Removing: This involves removing any packaging or other materials that may be covering the item that needs to be microwaved.
+Scooping: This may be required if the item that needs to be microwaved is in a container that needs to be scooped out.
+Lifting: This may be required if the item that needs to be microwaved is heavy or large and needs to be lifted and placed in the microwave.
+Gathering: This may be required if there are multiple items that need to be microwaved and they need to be gathered together and placed in the microwave.
+Choosing: This involves selecting the appropriate power level and time for microwaving the item.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
+Putting - This skill is required to place the item to be microwaved into the microwave.
+
+Inserting - This skill may be required to insert the item into the microwave, depending on the design of the microwave and the item being microwaved.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+The skills listed in the bracket are not directly related to using a microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+This may involve opening the door of the microwave to put the food inside, closing the door, setting the cooking time and power level, and starting the microwave.
+You may also need to switch the microwave on if it is not already turned on.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+None of the skills in the list '[Closing, Wrapping, Rolling, Locking]' are directly related to the step 'Again, Microwave on high for 2.5 minutes.'.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+Pouring (if the item being microwaved needs to be poured into a microwave-safe container)
+Mixing (if the item being microwaved needs to be mixed before microwaving)
+Filling (if the item being microwaved needs to be filled with a specific amount of liquid or other ingredient)
+Adding (if the item being microwaved needs to have additional ingredients added to it)
+Attaching (if the item being microwaved needs to be attached to a specific component, such as a lid or a handle)
+Coating (if the item being microwaved needs to be coated with a specific substance, such as butter or oil, before microwaving)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+None of the skills on the list are specifically required to microwave something
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+Setting: Setting the microwave to the correct power level and time
+Using: Operating the microwave controls to start and stop the cooking process
+Holding: Holding and placing the dish or container in the microwave
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
+Moving: The ability to move the microwave to a desired location and position it appropriately.
 
+Transitioning: The ability to properly transition the food or other item to be microwaved from its current container to a microwave-safe container.
+
+Carrying: The ability to carry the microwave-safe container with the food or other item to be microwaved to the microwave.
+
+Operating: The ability to operate the microwave by setting the time and power level, and starting and stopping the microwave as needed.
+
+Following instructions: The ability to read and follow written or verbal instructions for microwaving the food or other item.
+
+Attention to detail: The ability to pay attention to the time and make sure the food or other item is microwaved for the correct amount of time.
+
+Safety: The ability to handle the microwave and food or other item safely to avoid accidents or injuries.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
+Adjusting: This skill may be needed to set the microwave to the correct power level (high) and time (2.5 minutes).
 
+Checking: This skill may be needed to ensure that the microwave is in good working order and that it is set correctly before starting it.
+
+Looking: This skill may be needed to locate the microwave and to check the settings on it.
+
+Searching: This skill may be needed to find the microwave in the first place, if it is not in a familiar location.
+
+Measuring: This skill may not be directly required to perform the task, but it could be helpful in determining the correct amount of time to microwave the food or drink.
+
+Increasing: This skill may not be directly required for the task, but it could be useful if the food or drink needs to be microwaved for longer than the specified 2.5 minutes.
+
+Waiting: This skill may be needed to wait for the microwave to finish cooking the food or drink.
+
+Lowering: This skill may not be directly required for the task, but it could be useful if the food or drink needs to be microwaved for a shorter time than the specified 2.5 minutes.
+
+Unfreezing: This skill may not be directly required for the task, but it could be useful if the food or drink needs to be defrosted before being microwaved.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Again, Microwave on high for 2.5 minutes.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
-
+Taking: You will need to take the filling out of the microwave and carry it to the crust.
+Lifting: You may need to lift the filling in order to place it on top of the crust.
+Gathering: Depending on the size and shape of the filling and crust, you may need to gather the filling together in order to transfer it onto the crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
+Putting: You will need to be able to accurately and gently put the filling on top of the crust without spilling or messing up the crust.
 
+Inserting: You may need to use a utensil, such as a spoon or spatula, to carefully insert the filling into any gaps or holes in the crust.
+
+Throwing: While throwing is not necessarily a required skill for this task, you may need to use a bit of force to get the filling out of the container or microwave dish and onto the crust, depending on the consistency of the filling and the size of the container.
+
+Hanging: This skill is not directly applicable to the task of adding filling to a crust.
+
+Dropping: You may need to use a bit of finesse to avoid dropping the filling or crust as you transfer the filling from the container to the crust.
+
+Serving: This skill may come into play if you need to use a utensil, such as a spoon or spatula, to portion out the filling and place it onto the crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
-
+None of the skills listed - washing, drying, scraping, scrubbing, rubbing, soaking, and brushing - are necessary for adding filling on top of a crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
-
+None of the skills listed are required to perform the task of adding filling on top of a crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
+Closing: This skill involves sealing or enclosing something, such as a container or package. In this case, it may be necessary to close or seal the container or package that the filling is in before adding it to the crust.
 
+Wrapping: This skill involves enclosing something in a material, such as a piece of paper or plastic wrap. In this case, it may be necessary to wrap the filling in a material before adding it to the crust.
+
+Rolling: This skill involves making a cylindrical shape or movement with something, such as dough or a piece of paper. In this case, it may not be necessary to have this skill to add the filling to the crust.
+
+Locking: This skill involves securing something in place with a lock or other mechanism. In this case, it may not be necessary to have this skill to add the filling to the crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
+Pouring: To pour the filling onto the crust, you will need to use the skill of pouring, which involves transferring a liquid or other flowable substance from one container to another by tilting the container and allowing the substance to flow out.
 
+Filling: The task specifically mentions adding the filling to the crust, so the skill of filling, which involves adding a substance to a container or space, will be necessary.
+
+Adding: In addition to filling, the task also involves the skill of adding, which involves putting one thing with another or combining two or more things together.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
-
+To perform the task of "adding the filling on top of the crust," you would not typically need any of the skills listed in the parentheses.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
-
+Holding: You may need to hold the dish or pan containing the crust steady while adding the filling.
+Pouring: You may need to pour the filling from the microwave into the dish or pan containing the crust.
+Spreading: You may need to spread the filling evenly over the crust using a utensil such as a spatula.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
+Moving: You will need to move the filling from the microwave to the crust, so the ability to move objects from one location to another is essential.
 
+Transitioning: You will need to transition the filling from the container in which it is heated to the crust, so the ability to transfer objects from one container to another is important.
+
+Carrying: You may need to carry the filling to the crust if it is not in close proximity to the microwave, so the ability to hold and transport objects is also necessary.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
+Adjusting: You may need to adjust the position of the filling or the crust to ensure that you can add the filling on top of the crust easily.
 
+Checking: You may need to check the temperature of the filling to make sure it is not too hot to handle before adding it to the crust.
+
+Looking: You may need to look at the filling and the crust to ensure that they are both in the correct position before adding the filling on top of the crust.
+
+Measuring: You may need to measure out the correct amount of filling to add to the crust.
+
+Increasing: You may need to increase the amount of filling that you add to the crust if you are making a larger batch of the recipe.
+
+Waiting: You may need to wait for the filling to cool down or for the crust to be in the correct position before adding the filling.
+
+Lowering: You may need to lower the filling onto the crust in a controlled manner to avoid spilling or making a mess.
+
+Unfreezing: If the filling is frozen, you may need to unfreeze it before adding it to the crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
+Patting: You may need to pat the filling down gently to ensure it is evenly distributed on top of the crust.
 
+Eating: No specific eating skills are required to perform this task.
+
+Feeling: You may need to use your sense of touch to determine whether the filling is at the right consistency and temperature to be added to the crust.
+
+Drinking: No specific drinking skills are required to perform this task.
+
+Smelling: You may use your sense of smell to determine whether the filling has been heated up properly in the microwave and is ready to be added to the crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
