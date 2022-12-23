@@ -11,19 +11,19 @@ What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasin
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Put the butter and chocolate into a microwave-safe bowl.'?
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Put the butter and chocolate into a microwave-safe bowl.'?
 What skills from '[Folding, Sorting]' are required to perform 'Put the butter and chocolate into a microwave-safe bowl.'?
-What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-What skills from '[Folding, Sorting]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Folding, Sorting]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
