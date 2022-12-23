@@ -689,143 +689,352 @@ Serving: This involves the ability to portion out and present food or other item
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Add the apples to the microwave-safe bowl.'?
-
+To perform the task of adding the apples to a microwave-safe bowl, you do not need any of the skills listed in the provided set of skills.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Add the apples to the microwave-safe bowl.'?
-
+None of the skills listed '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform the task 'Add the apples to the microwave-safe bowl.'.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Add the apples to the microwave-safe bowl.'?
-
+None of the skills listed in '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Add the apples to the microwave-safe bowl.'
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Add the apples to the microwave-safe bowl.'?
-
+Pouring: This involves transferring the apples from their current container to the microwave-safe bowl.
+Filling: This involves adding the apples to the bowl until it is full or partially full.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Add the apples to the microwave-safe bowl.'?
+Cutting: If the apples are not already cut into small enough pieces to fit in the microwave-safe bowl, you may need to use a knife to cut them into smaller pieces.
 
+Peeling: If the apples have their skin on, you may need to use a peeler or knife to remove the skin before adding them to the microwave-safe bowl.
+
+Breaking: If the apples are large or hard, you may need to use your hands or a utensil to break them into smaller pieces before adding them to the microwave-safe bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Add the apples to the microwave-safe bowl.'?
-
+Holding: The ability to grip and hold the apples and the microwave-safe bowl.
+Turning: The ability to turn the microwave-safe bowl as needed to place the apples inside it.
+Using: The ability to use the microwave-safe bowl in the appropriate way, such as by placing it on a stable surface and ensuring it is not overfilled.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Add the apples to the microwave-safe bowl.'?
+Moving: The person performing the task will need to move their arms and hands to pick up the apples and move them to the bowl.
 
+Transitioning: The person may need to transition the apples from one location (e.g., a countertop or a basket) to another (e.g., the bowl).
+
+Carrying: The person may need to carry the apples in their hands or arms as they move them to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Add the apples to the microwave-safe bowl.'?
+Adjusting: This skill may be necessary if the apples need to be cut or diced into smaller pieces before being added to the bowl.
 
+Checking: This skill may be necessary to ensure that the apples are fresh and suitable for microwave cooking.
+
+Looking: This skill may be necessary to locate the microwave-safe bowl and the apples.
+
+Measuring: This skill may not be necessary to perform this task, but it could be useful if you need to determine the size or quantity of apples to use.
+
+Increasing: This skill may not be necessary to perform this task.
+
+Waiting: This skill may not be necessary to perform this task.
+
+Lowering: This skill may not be necessary to perform this task.
+
+Unfreezing: This skill may not be necessary to perform this task, but it could be useful if the apples are frozen and need to be thawed before being added to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Add the apples to the microwave-safe bowl.'?
+Patting: You would need to be able to pat the apples to check for ripeness or to clean them before adding them to the bowl.
 
+Eating: You do not need to be able to eat the apples in order to add them to the bowl, but you should be able to identify the apples as edible and safe to consume.
+
+Feeling: You would need to be able to feel the apples to determine if they are ripe or to check for any blemishes or imperfections.
+
+Drinking: You do not need to be able to drink in order to add the apples to the bowl.
+
+Smelling: You do not need to be able to smell the apples in order to add them to the bowl, but being able to smell the apples could help you determine if they are ripe or if they have any off odors.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Add the apples to the microwave-safe bowl.'?
-
+To perform the task "Add the apples to the microwave-safe bowl," you do not need any of the skills listed in the brackets.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Add the apples to the microwave-safe bowl.'?
-
+To perform the task of "adding the apples to the microwave-safe bowl," you do not need any specific skills related to folding or sorting.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
-
+Taking: You would need to take the necessary ingredients from their storage containers or from the pantry.
+Scooping: You would need to scoop out the correct amount of flour and sugars using measuring cups or spoons.
+Lifting: You would need to lift the measuring cups or spoons to pour the ingredients into the mixing bowl.
+Gathering: You may need to gather all of the ingredients and utensils you need before beginning the task.
+Choosing: You would need to choose the correct measuring cups or spoons to use based on the required quantities of each ingredient.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
-
+Putting: This involves adding the ingredients to the bowl.
+Inserting: This involves inserting measuring cups or spoons into the ingredients to measure them.
+Throwing: This may not be a required skill for this task, but could be used to transfer the ingredients from the measuring cups or spoons to the bowl.
+Hanging: This may not be a required skill for this task.
+Dropping: This may not be a required skill for this task, but could be used to transfer the ingredients from the measuring cups or spoons to the bowl.
+Serving: This may not be a required skill for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
-
+None of the skills listed are required to perform the task of measuring and adding ingredients to a bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
+Opening: You will need to be able to open the containers or bags that contain the ingredients (flour, sugars, cinnamon, and vanilla extract).
 
+Uncovering: If the ingredients are stored in containers with lids or covers, you will need to be able to remove these covers to access the ingredients.
+
+Switching: Depending on the type of measuring tools you are using, you may need to switch between different measuring cups or spoons to measure out the different ingredients.
+
+Unlocking: If you are using a measuring cup or spoon with a locking mechanism (such as a lockable handle), you will need to be able to unlock it to use it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
+Closing: You will need to close the containers of the various ingredients after measuring them out, to prevent spills or spills or spills.
 
+Wrapping: You may need to wrap the measuring cups or spoons in plastic wrap or foil to keep them clean and hygienic.
+
+Rolling: You may need to roll out dough or a similar substance as part of the recipe, depending on what you are making.
+
+Locking: You may need to lock the lid on a container or lock a mixer in place if you are using one to mix the ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
-
+Pouring: You will need to be able to pour the ingredients from their containers into measuring cups or spoons.
+Mixing: You will need to be able to mix the ingredients together in a bowl.
+Filling: You will need to be able to fill the measuring cups or spoons with the correct amount of each ingredient.
+Adding: You will need to be able to add the measured ingredients to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
-
+Cutting: You may need to use a knife to cut open a bag of flour or sugar if it is not already pre-measured.
+Peeling: You do not need to peel anything for this task.
+Emptying: You may need to empty the contents of a bag or container of flour or sugar into a measuring cup or bowl.
+Breaking: You do not need to break anything for this task.
+Filtering: You do not need to filter anything for this task.
+Ripping: You may need to rip open a bag of flour or sugar if it is not already pre-measured.
+Crushing: You do not need to crush anything for this task.
+Dividing: You do not need to divide anything for this task.
+Grating: You do not need to grate anything for this task.
+Stabbing: You do not need to stab anything for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
+Measuring: This involves using measuring tools, such as measuring cups and spoons, to accurately determine the amount of each ingredient needed.
 
+Pouring: This involves transferring a measured amount of an ingredient from a container to a bowl or other receptacle.
+
+Mixing: This involves combining ingredients together in a bowl or other container using a spoon or other utensil.
+
+Flipping: This involves turning an ingredient or container over to pour or dispense its contents.
+
+Holding: This involves maintaining a firm grip on an ingredient or utensil while measuring or mixing.
+
+Reading: This involves understanding and following written instructions for the recipe.
+
+Following directions: This involves paying attention to the steps in the recipe and executing them in the correct order.
+
+Basic math: This may involve understanding and using basic arithmetic to convert measurements or scale a recipe up or down.
+
+Attention to detail: This involves being careful and precise when measuring ingredients, as small variations in the amount of an ingredient can have a significant impact on the final product.
+
+Familiarity with common cooking terms and techniques: This may involve understanding what is meant by terms such as "tablespoon" and "teaspoon", as well as basic cooking techniques such as measuring and mixing.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
+Moving: The ability to move and manipulate objects, such as the measuring cups and spoons, as well as the ingredients themselves. This may involve reaching, grasping, and fine motor control.
 
+Transitioning: The ability to smoothly and efficiently move from one step to the next, such as moving from measuring one ingredient to measuring the next.
+
+Carrying: The ability to hold and transport objects, such as carrying the measuring cups and spoons to the ingredients and carrying the ingredients to the bowl. This may involve maintaining balance and control while moving.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
-
+Measuring: You will need to use measuring tools (such as measuring cups or spoons) to accurately measure out the required amounts of flour, white sugar, brown sugar, and cinnamon.
+Adjusting: You may need to adjust the amounts of the ingredients slightly to achieve the desired quantities.
+Checking: You should check the measurements of the ingredients to ensure they are accurate.
+Searching: You may need to search for the measuring tools and ingredients in your kitchen.
+Increasing/Decreasing: You may need to increase or decrease the amounts of the ingredients based on your preference or the recipe you are following.
+Waiting: You may need to wait for the ingredients to come to room temperature (if they are chilled or frozen) before measuring them.
+Lowering: You may need to lower the measuring tools into the ingredients (such as dipping a measuring spoon into a jar of vanilla extract) to get the correct amount.
+Unfreezing: You may need to unfreeze frozen ingredients (such as butter) before measuring them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
-
+Patting: You will need to pat the flour into a tablespoon measure to get an accurate measurement.
+Eating: You don't need to eat anything to perform this task.
+Feeling: You may need to feel the ingredients with your fingers to determine if you have the correct amount.
+Drinking: You don't need to drink anything to perform this task.
+Smelling: You may want to smell the vanilla extract to confirm that it is fresh, but it is not necessary to complete the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
+Applying: This involves using a spoon or scoop to measure out the required amount of each ingredient and adding it to the bowl.
 
+Sprinkling: This involves evenly distributing the ingredients over the surface of the bowl, using a spoon or your fingers.
+
+Spraying: This involves using a spray bottle to apply a thin layer of the ingredients over the surface of the bowl.
+
+Seasoning: This involves adding small amounts of the ingredients to the bowl to enhance the flavor of the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure flour (3 tablespoons), white sugar (1/4 cup), brown sugar (1/4 cup), cinnamon (1 teaspoon) and vanilla extract (1 teaspoon) and add to the bowl.'?
+Reading and interpreting instructions: You need to be able to read the instructions and understand what ingredients are required and in what amounts.
 
+Measuring ingredients: You need to be able to use measuring tools, such as measuring cups and spoons, to accurately measure out the required amounts of each ingredient.
+
+Adding ingredients to a bowl: You need to be able to add the ingredients to a bowl in the order specified in the instructions.
+
+Basic arithmetic: You may need to convert measurements from cups to tablespoons or teaspoons, or vice versa, which will require basic arithmetic skills.
+
+Attention to detail: You need to be careful to measure the correct amounts of each ingredient and add them in the correct order.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
-
+Choosing: You will need to choose a lemon that is ripe and juicy.
+Taking: You will need to take the lemon out of the bag or container it is stored in.
+Lifting: You may need to lift the lemon to a counter or cutting board to prepare it for juicing.
+Scooping: You will need to scoop out any seeds that may be present in the lemon.
+Gathering: You will need to gather the necessary tools to extract the juice, such as a knife, cutting board, and a bowl or measuring cup.
+Removing: You will need to remove the peel and pith from the lemon in order to extract the juice.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Putting: You will need to put the lemon in a position where it is easy to extract the juice from.
 
+Inserting: You will need to insert a utensil, such as a lemon juicer or a fork, into the lemon to extract the juice.
+
+Throwing: Depending on the method you use to extract the juice, you may need to throw away the lemon seeds or pulp after you have extracted the juice.
+
+Hanging: If you are using a utensil such as a lemon juicer, you may need to hang the utensil over the bowl to allow the juice to drip into the bowl.
+
+Dropping: You may need to drop the extracted lemon juice into the bowl from the utensil you are using.
+
+Serving: Once you have extracted the lemon juice and added it to the bowl, you will need to serve it by pouring it out of the bowl or using a spoon to transfer it to another container.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Washing: Wash the lemon to remove any dirt or residue before cutting it.
 
+Cutting: Cut the lemon in half to expose the juice.
+
+Squeezing: Squeeze the lemon halves to extract the juice. You can use your hands, a lemon squeezer, or a fork to do this.
+
+Measuring: Measure out the required amount of lemon juice and add it to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Uncovering: You will need to remove any packaging or protective coverings from the lemon.
 
+Unrolling: You may need to unroll any packaging or packaging materials that are used to protect the lemon.
+
+Switching: You will need to use a utensil, such as a knife or a spoon, to cut the lemon in half.
+
+Unscrewing: If you are using a manual lemon juicer, you will need to unscrew the juicer to separate the two halves.
+
+Opening: You will need to open the lemon and expose the flesh of the fruit.
+
+Unlocking: If you are using an electric lemon juicer, you may need to unlock the juicer by pressing a button or flipping a switch.
+
+Unwrapping: If you are using a manual lemon juicer, you may need to unwrap any cords or cables that are used to power the juicer.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Closing: You will need to close your hand around the lemon firmly in order to hold it steady while you extract the juice.
 
+Wrapping: You may want to wrap the lemon in a clean cloth or paper towel in order to protect your hand from any sharp edges or seeds.
+
+Rolling: Rolling the lemon on a hard surface, such as a cutting board, before cutting it can help to soften the fruit and make it easier to extract the juice.
+
+Locking: You will need to lock the blade of a sharp knife in place with your non-dominant hand in order to cut the lemon in half.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Pouring: You will need to be able to pour the juice from the lemon into the bowl.
 
+Mixing: You may need to mix the juice with other ingredients in the bowl.
+
+Filling: You will need to be able to fill the bowl with the lemon juice.
+
+Adding: You will need to be able to add the lemon juice to the bowl.
+
+Attaching: Depending on the method you use to extract the juice, you may need to be able to attach a juicer or other tool to the lemon.
+
+Coating: You may need to coat the bowl with the lemon juice if you are using it as a marinade or seasoning.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Cutting: You will need to cut the lemon in half in order to access the juice.
 
+Peeling: You may need to remove the outer skin or peel of the lemon before extracting the juice. This will depend on the method you are using to extract the juice.
+
+Breaking: Depending on the method you are using, you may need to break up the lemon a bit to help release the juice.
+
+Filtering: You may want to filter the juice to remove any seeds or pulp.
+
+Stabbing: You may need to use a sharp tool, such as a fork or a citrus reamer, to poke into the lemon and release the juice.
+
+Crushing: You may need to use a tool, such as a rolling pin or a muddler, to crush the lemon and release the juice.
+
+Grating: You may want to use a grater to remove the zest from the lemon before extracting the juice.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
-
+Shaking: You may need to gently shake the lemon to loosen any seeds or pulp inside.
+Squeezing: You will need to squeeze the lemon to extract the juice.
+Pressing: You may need to press down on the lemon with your hand or a utensil to help release the juice.
+Flipping: You may need to flip the lemon over in your hand to access the other side.
+Turning: You may need to turn the lemon in your hand as you squeeze it to access all of the juice.
+Pulling: You may need to pull any seeds or bits of pulp out of the lemon after you have squeezed it.
+Holding: You will need to hold the lemon steady as you squeeze it.
+Forming: You may need to form your hand into a grasping position to hold the lemon securely.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Moving: You will need to be able to move the lemon, bowl, and any tools you will be using (such as a lemon juicer or a knife) to the location where you will be completing the task.
 
+Transitioning: You will need to be able to switch between different steps in the task, such as moving from cutting the lemon to squeezing the juice.
+
+Carrying: You may need to carry the bowl or other tools with you as you move around to complete the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Adjusting: You may need to adjust your grip on the lemon or the bowl to make it easier to perform the task.
 
+Checking: You may need to check the lemon for any blemishes or damage, and also check that you have a bowl ready to receive the juice.
+
+Looking: You may need to look at the lemon to determine which end to cut and how much juice to extract.
+
+Searching: You may need to search for a suitable tool, such as a citrus juicer or a fork, to extract the juice from the lemon.
+
+Measuring: You may need to measure the amount of juice you extract from the lemon, either by eye or using a measuring cup, to ensure you add the correct amount to the bowl.
+
+Increasing: If you need to add more juice to the bowl, you may need to extract more juice from additional lemons.
+
+Waiting: You may need to wait for the lemon to become ripe or soft enough to extract juice easily.
+
+Lowering: You may need to lower the lemon or the bowl to a comfortable working height.
+
+Unfreezing: If the lemon is frozen, you may need to unfreeze it before you can extract the juice.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
+Patting: This skill is required to gently press down on the lemon to loosen the juice inside and make it easier to extract.
 
+Eating: This skill is not strictly necessary to extract the juice from a lemon, but it may be helpful to have some basic knowledge of how to cut and prepare food.
+
+Feeling: This skill is useful to determine the ripeness and juiciness of the lemon, as well as to identify any soft or bruised areas that may need to be discarded.
+
+Drinking: This skill is not directly related to the task of extracting lemon juice, but it may be useful to have some basic knowledge of how to handle liquids and pour them into containers.
+
+Smelling: This skill is not directly related to the task of extracting lemon juice, but it may be useful to have a sense of smell to detect any off odors that may indicate that the lemon is not fresh or has gone bad.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Extract the juice from 1/2 lemon and add it to the bowl.'?
