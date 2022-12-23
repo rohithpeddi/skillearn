@@ -134,104 +134,300 @@ What skills from '[Folding, Sorting]' are required to perform 'Put the butter an
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+
+Taking: You will need to take the chocolate out of its packaging and place it in a suitable container for melting.
+
+Scooping: You may need to scoop out small amounts of chocolate from the container if it is in large pieces.
+
+Lifting: You will need to lift the container of chocolate and move it to the microwave.
+
+Gathering: You will need to gather any necessary utensils, such as a spoon or spatula, to stir the chocolate as it melts.
+
+Choosing: You will need to choose the appropriate power setting on the microwave and determine how long to melt the chocolate for.
+
+Removing: Once the chocolate has melted, you will need to remove it from the microwave and transfer it to a suitable container for use.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+
+Putting: The skill of putting the chocolate in the microwaveable container and placing it in the microwave.
+
+Inserting: The skill of inserting the container into the microwave and setting the microwave to the correct power level.
+
+Serving: The skill of removing the container from the microwave and serving the melted chocolate.
+
+Hanging: The skill of hanging onto the container handle to remove it from the microwave, being careful not to burn yourself.
+
+Dropping: The skill of dropping the chocolate into a separate container or onto a surface if you are transferring it from the microwave container.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+
+Washing: It is always a good idea to wash your hands before handling food to prevent contamination.
+
+Drying: You may need to dry your hands or any utensils you use before handling the chocolate.
+
+Scraping: This skill may be useful if you are melting chocolate that has hardened or clumped together, as you may need to scrape the chocolate to break it up into smaller pieces.
+
+Rubbing: You may need to rub a utensil or spoon against the side of the bowl or container to help the chocolate melt evenly.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+
+Opening: You will need to open the microwave door to access the inside of the microwave.
+
+Uncovering: You will need to uncover the chocolate and make sure it is in a microwave-safe container.
+
+Switching: You will need to switch on the microwave and set the power level and time.
+
+Stirring: You will need to stir the chocolate every 30 seconds to ensure that it melts evenly.
+
+Unlocking: If the microwave has a child lock feature, you will need to unlock it before using it.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+
+Closing: You will need to close the microwave door in order to start the microwave.
+
+Wrapping: You may need to wrap the chocolate in a microwave-safe container or cover it with a microwave-safe lid or plastic wrap in order to prevent splatters or messes in the microwave.
+
+Rolling: If the chocolate is in a solid form, you may need to roll it around in the microwave-safe container or between your hands in order to expose all surfaces to the microwaves and evenly distribute the heat.
+
+Locking: If the microwave has a child safety lock feature, you may need to lock the door in order to start the microwave.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+
+Pouring: You will need to be able to pour the chocolate into a microwave-safe container.
+
+Mixing: You will need to be able to stir the chocolate every 30 seconds to ensure that it melts evenly.
+
+Filling: You will need to be able to measure out the correct amount of chocolate to be melted.
+
+Adding: You will need to be able to add any additional ingredients, such as butter or cream, to the chocolate as needed.
+
+Attaching: You will need to be able to attach the container of chocolate to the microwave turntable.
+
+Coating: You will need to be able to coat the chocolate onto a surface or object, such as a cake or cookies, once it has been melted.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
 
+Holding: The ability to hold and manipulate utensils such as a spoon or spatula would be useful for stirring the chocolate.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+Cooking: Basic knowledge of cooking techniques and the use of a microwave is necessary to complete this task.
 
+Using: The ability to operate a microwave and use utensils such as a spoon or spatula are necessary for this task.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-
+Preparing: Basic food preparation skills such as measuring and chopping may be necessary to prepare the chocolate for microwaving.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
 
+Moving: The ability to move objects, such as the chocolate and the microwave-safe container, from one location to another.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+Transitioning: The ability to transition the chocolate from a solid state to a liquid state through the application of heat.
 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-
+Carrying: The ability to carry the microwave-safe container with the chocolate inside it to the microwave and back.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
 
+Adjusting: Adjusting the microwave power level to high.
+
+Checking: Checking the time and stirring the chocolate every 30 seconds.
+
+Looking: Looking at the chocolate to determine when it has fully melted.
+
+Measuring: Measuring out the amount of chocolate to be melted.
+
+Waiting: Waiting for the chocolate to melt.
+
+Increasing: Increasing the cooking time if the chocolate is not fully melted after the initial 1-2 minutes.
+
+Lowering: Lowering the power level if the chocolate begins to burn or overheat.
+
+Unfreezing: Unfreezing the chocolate if it is frozen before attempting to melt it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
-
+Smelling: This skill may be useful to determine when the chocolate is fully melted, as the smell of melted chocolate may be noticeable. However, it is not strictly necessary for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
 
+Applying: You will need to apply the chocolate to the microwave-safe dish that you will be using to melt it.
+
+Sprinkling: If the chocolate is in chunk form, you may need to sprinkle it into the dish to help it melt more evenly.
+
+Spraying: If you are using a spray-on chocolate flavoring, you will need to spray it onto the dish before microwaving.
+
+Seasoning: If you are adding any spices or flavorings to the chocolate before microwaving it, you will need to use the appropriate seasoning technique to ensure that the flavors are evenly distributed.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Folding, Sorting]' are required to perform 'Heat on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
+What skills from '[Folding, Sorting]' are required to perform 'Microwave on high for 1 to 2 minutes, stirring every 30 seconds to melt the chocolate.'?
 
+Following instructions: You will need to be able to understand and follow the instructions given in the task, such as the time and temperature to set the microwave to, and the frequency of stirring.
+
+Basic math skills: You will need to be able to understand and perform basic arithmetic, such as counting seconds and calculating time intervals.
+
+Basic kitchen skills: You will need to know how to safely operate a microwave and use utensils such as a spoon or spatula to stir the chocolate.
+
+Attention to detail: You will need to pay attention to the chocolate as it melts to ensure that it does not burn or become overcooked.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Taking: This involves being able to take the eggs from their storage location and bringing them to the bowl.
+
+Removing: This involves being able to remove the shells from the eggs.
+
+Scooping: This involves being able to scoop the egg contents out of the shells and into the bowl.
+
+Lifting: This may be necessary to lift the eggs to a suitable height for breaking them.
+
+Gathering: This involves being able to gather the shells after they have been removed from the eggs and dispose of them.
+
+Choosing: This may involve choosing a suitable bowl for breaking the eggs into and deciding which eggs to use.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Putting: You will need to put the eggs into the bowl.
+
+Throwing: You will need to throw the eggshells away.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Washing: It is important to wash your hands before handling eggs to ensure that they are clean.
+
+Scraping: You will need to use a utensil, such as a spoon or fork, to scrape the shells off of the eggs.
+
+Rubbing: You may need to gently rub the shells to remove any bits of egg that are stuck to them.
+
+Soaking: If the eggs are particularly difficult to remove from the shells, you may need to soak them in water to loosen them up.
+
+Brushing: You may need to use a brush to gently clean any bits of egg or shell off of the eggs.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Opening: You would need to open the carton of eggs and possibly also open the eggshells by cracking them along their equator.
+
+Uncovering: You may need to uncover the eggs if they are covered or hidden in some way.
+
+Unwrapping: You may need to unwrap the eggs if they are packaged in some way, such as being wrapped in plastic or foil.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Closing: You will need to close your hand around the egg to hold it steady while breaking it.
+
+Wrapping: You will need to wrap your fingers around the egg to provide a firm grip.
+
+Rolling: You may need to roll the egg between your hands to loosen the shell before breaking it open.
+
+Locking: You may need to lock your wrist in place to provide stability and control as you break the egg.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Pouring: You will need to pour the eggs from their shells into the bowl.
+
+Mixing: You may need to mix the eggs together in the bowl after breaking them.
+
+Filling: You will need to fill the bowl with the eggs.
+
+Adding: You will need to add the eggs to the bowl.
+
+Attaching: You will need to attach the eggs to the bowl by breaking them into it.
+
+Coating: You may need to coat the bowl with a small amount of oil or butter before adding the eggs, depending on your recipe.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Cutting: You will need to use a sharp object, such as a knife, to cut through the shells of the eggs.
+
+Emptying: You will need to empty the contents of the eggs into the bowl by gently breaking open the shells and allowing the yolks and whites to fall out.
+
+Breaking: You will need to break the shells of the eggs into small pieces in order to throw them away.
+
+Stabbing: You may need to use a sharp object, such as a fork, to help you break the shells into small pieces.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Shaking: You may need to shake the eggs gently to loosen any debris or dirt that may be on the shells.
+
+Squeezing: You may need to use a gentle squeezing motion to crack the eggs open.
+
+Pressing: You may need to use a gentle pressing motion to crack the eggs open.
+
+Flipping: You may need to flip the eggs over in order to crack them open.
+
+Holding: You will need to hold the eggs while you crack them open.
+
+Setting: You will need to set the eggs down in a bowl or on a flat surface while you crack them open.
+
+Preparing: You will need to prepare the eggs and the bowl for cracking and breaking the eggs.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Moving: You will need to be able to move the eggs and bowl to a suitable location for breaking the eggs.
+
+Transitioning: You will need to be able to transition the eggs from their packaging or storage container to the bowl.
+
+Carrying: You may need to carry the bowl with the eggs in it to a different location or hold it steady while breaking the eggs.
+
+Grasping: You will need to be able to grasp the eggs and bowl securely in order to break the eggs and discard the shells.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Adjusting: Adjusting the angle at which you hold the eggs to make it easier to break them
+
+Checking: Checking the eggs to make sure they are fresh and not cracked before breaking them
+
+Looking: Looking for a bowl to crack the eggs into
+
+Searching: Searching for a trash bin to throw away the shells
+
+Measuring: Measuring the eggs to ensure that you are using the correct number
+
+Increasing: Increasing the force used to break the eggs, if necessary
+
+Lowering: Lowering the eggs into the bowl or pan, if you are using them in a recipe that requires them to be cooked
+
+Unfreezing: Unfreezing the eggs, if they have been frozen and need to be thawed before using them
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Patting: You will need to pat the eggs gently to crack them open, so that you can break them into the bowl.
+
+Feeling: You may need to use your sense of touch to gently pat the eggs and feel for any cracks or defects in the shells.
+
+Smelling: You may use your sense of smell to ensure that the eggs are fresh before breaking them open.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
 
+Applying force: You will need to apply enough force to crack the eggshells, but not so much that you break the yolks or whites inside.
+
+Sprinkling: You will need to sprinkle the eggs into the bowl, rather than pouring them all at once. This will help to prevent the eggs from breaking and spilling out.
+
+Spraying: If you are using cooking spray or another lubricant to prevent the eggs from sticking to the bowl, you will need to spray it evenly and lightly.
+
+Seasoning: You may choose to season the eggs before or after you crack them into the bowl. If you decide to do so, you will need to be able to measure and mix the desired seasonings into the eggs.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Break 2 eggs in a bowl and throw away the shells.'?
@@ -240,10 +436,22 @@ What skills from '[Folding, Sorting]' are required to perform 'Break 2 eggs in a
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Taking: This involves using your hand or an implement (such as a spoon or scoop) to pick up the cup of sugar and remove it from its container or location.
+
+Scooping: This may be required if the sugar is in a bag or container that does not have a measuring cup and needs to be scooped out using a spoon or scoop.
+
+Lifting: This involves using your muscles to raise and hold the cup of sugar as you move it from its location to the bowl.
+
+Gathering: Depending on the location of the sugar, you may need to gather it together in order to measure out 1 cup.
+
+Choosing: This may involve selecting the appropriate measuring cup to use for measuring out 1 cup of sugar.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Putting: You may need to use the skill of putting to add the sugar to the bowl, by placing the sugar in the bowl.
+
+Serving: You may also need to use the skill of serving to measure out a specific amount of sugar, using a measuring cup.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
@@ -256,34 +464,84 @@ What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switc
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Closing: The ability to close the container of sugar, if it is not already open.
+
+Wrapping: The ability to wrap the sugar in a measuring cup or spoon, if it is not already measured.
+
+Rolling: The ability to roll the measuring cup or spoon to level off the sugar, if necessary.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Pouring: You would need to be able to pour the sugar from its container into the cup in a controlled manner.
+
+Filling: You would need to be able to measure out the correct amount of sugar and fill the cup with it.
+
+Adding: You would need to be able to transfer the sugar from the cup to the bowl and add it to any other ingredients that may already be in the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Cutting: Depending on the packaging of the sugar, it may be necessary to cut open a bag or container of sugar.
+
+Emptying: Once the sugar is accessible, it may be necessary to empty the sugar into the bowl.
+
+Filtering: If the sugar is clumped or has foreign objects in it, it may be necessary to filter the sugar through a sieve or other fine mesh to remove any clumps or foreign objects.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Holding: You will need to hold the cup of sugar while you are adding it to the bowl.
+
+Turning: You may need to turn the cup of sugar upside down to pour the sugar out of it.
+
+Pouring: You will need to pour the sugar from the cup into the bowl.
+
+Reaching: You may need to reach for the cup of sugar and the bowl.
+
+Seeing: You will need to be able to see the cup of sugar and the bowl in order to add the sugar to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Moving: You will need to be able to move your arm and hand in order to pick up the cup of sugar.
+
+Transitioning: You will need to be able to transition the cup of sugar from one hand to the other if necessary, as well as transition the cup from the counter or shelf to your hand.
+
+Carrying: You will need to be able to carry the cup of sugar without spilling it, either by holding it with one hand or using two hands to support it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Adjusting: Adjusting the measuring cup to the correct measurement of 1 cup.
+
+Checking: Checking the label on the sugar container to make sure it is sugar, and not another type of ingredient.
+
+Looking: Looking for the measuring cup and the sugar container.
+
+Searching: Searching for the bowl to add the sugar to.
+
+Measuring: Using the measuring cup to measure out 1 cup of sugar.
+
+Increasing: Increasing the amount of sugar in the bowl by adding the measured cup of sugar.
+
+Waiting: Waiting for the sugar to be added to the bowl before proceeding with the next step in the recipe.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Patting: You may need to pat the bag of sugar to level the sugar in the cup before measuring it out.
+
+Feeling: You may need to use your sense of touch to ensure that you have properly measured out one cup of sugar.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
 
+Applying: You will need to be able to apply the correct amount of sugar to the bowl. This may involve measuring out 1 cup of sugar using a measuring cup or measuring spoon.
+
+Sprinkling: Once you have measured out the correct amount of sugar, you will need to be able to sprinkle it into the bowl. This may involve gently shaking the sugar out of the measuring cup or spoon and into the bowl.
+
+Seasoning: If you are adding sugar to a recipe that requires seasoning, you will need to be able to properly season the dish. This may involve adding the correct amount of sugar according to the recipe, as well as considering other factors such as the sweetness of the other ingredients and the desired level of sweetness in the final dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Take 1 cup of sugar and add it to the bowl.'?
@@ -292,10 +550,24 @@ What skills from '[Folding, Sorting]' are required to perform 'Take 1 cup of sug
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Whisk together the eggs and sugar.'?
 
+Taking: You need to be able to take the eggs and sugar from their storage containers or locations.
+
+Removing: You may need to remove the eggs from their shells or the sugar from its packaging.
+
+Scooping: You may need to scoop the sugar out of a container using a spoon or other utensil.
+
+Lifting: You need to be able to lift the eggs and sugar to bring them to the mixing bowl.
+
+Gathering: You need to gather the eggs and sugar together in the mixing bowl.
+
+Choosing: You may need to choose the correct type of sugar for the recipe (e.g. granulated sugar, powdered sugar, etc.).
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Whisk together the eggs and sugar.'?
 
+Putting: This skill involves placing the eggs and sugar into a mixing bowl or other container.
+
+Inserting: This skill involves inserting the whisk or other mixing utensil into the bowl with the eggs and sugar.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Whisk together the eggs and sugar.'?
@@ -312,6 +584,17 @@ What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Whisk together the eggs and sugar.'?
 
+Pouring: You will need to be able to pour the eggs and sugar into a mixing bowl or other container.
+
+Mixing: You will need to be able to use a whisk or other mixing utensil to combine the eggs and sugar.
+
+Filling: You may need to fill a measuring cup or spoon with the correct amount of eggs or sugar.
+
+Adding: You will need to be able to add the eggs and sugar to the mixing bowl or other container.
+
+Attaching: If you are using a hand-held mixer, you will need to be able to attach the whisk attachment.
+
+Coating: You will need to be able to coat the eggs and sugar with the whisk, ensuring that they are thoroughly mixed together.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Whisk together the eggs and sugar.'?
@@ -320,14 +603,47 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Whisk together the eggs and sugar.'?
 
+Shaking: You may need to shake the eggs to mix them together before adding the sugar.
+
+Pressing: You may need to press down on the handle of the whisk to apply force as you mix the ingredients.
+
+Flipping: You may need to flip the whisk back and forth as you mix the ingredients.
+
+Turning: You may need to turn the bowl as you mix the ingredients to ensure that everything is well combined.
+
+Holding: You will need to hold the bowl and the whisk while mixing the ingredients.
+
+Stretching: You may need to stretch the whisk out as you mix to reach the edges of the bowl.
+
+Kneading: You may need to knead the mixture with the whisk to fully combine the ingredients.
+
+Setting: You may need to set the bowl down on a surface while mixing the ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Whisk together the eggs and sugar.'?
 
+Moving: You will need to be able to move your arm and hand in a circular motion to whisk the eggs and sugar together.
+
+Transitioning: You will need to be able to smoothly transition between different stages of the task, such as adding the eggs to the sugar and then whisking them together.
+
+Carrying: You may need to carry the bowl or container containing the eggs and sugar while you whisk them together. This will require you to have good balance and control over the bowl or container.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Whisk together the eggs and sugar.'?
 
+Adjusting: You may need to adjust the speed at which you whisk the eggs and sugar in order to achieve the desired consistency.
+
+Checking: You may need to check the consistency of the mixture as you whisk to make sure it is well combined.
+
+Measuring: You may need to measure the eggs and sugar before whisking them together.
+
+Increasing: You may need to increase the speed of your whisking if the mixture is not combining well.
+
+Waiting: You may need to wait for the eggs and sugar to reach room temperature before whisking them together.
+
+Lowering: You may need to lower the speed of your whisking if the mixture becomes too thick or starts to foam.
+
+Unfreezing: If the eggs or sugar are frozen, you may need to unfreeze them before whisking them together.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Whisk together the eggs and sugar.'?
@@ -344,10 +660,28 @@ What skills from '[Folding, Sorting]' are required to perform 'Whisk together th
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
 
+Taking: You will need to take out a bowl, as well as measure and take out the necessary ingredients (1/2 cup all-purpose flour, 1/2 teaspoon baking powder, and 1/2 teaspoon salt).
+
+Sifting: You will need to sift the flour on top of the baking powder and salt. Sifting is a technique used to remove lumps and break up clumps in dry ingredients, such as flour, before adding them to a recipe.
+
+Measuring: You will need to measure out the specified amounts of each ingredient using measuring cups or spoons.
+
+Gathering: You will need to gather all of the necessary ingredients and equipment before beginning the task.
+
+Choosing: You may need to choose the appropriate measuring cups or spoons for the task, depending on what you have available.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
 
+Putting: You will need to put the ingredients (1/2 cup all-purpose flour, 1/2 teaspoon baking powder, and 1/2 teaspoon salt) into the bowl.
+
+Inserting: You may need to insert the measuring cups or spoons into the ingredients in order to measure out the specified amounts.
+
+Measuring: You will need to measure out the specified amounts of each ingredient using measuring cups or spoons.
+
+Gathering: You will need to gather all of the necessary ingredients and equipment before beginning the task.
+
+Dropping: You may need to carefully drop the ingredients into the bowl, depending on how they are measured and how they are being added to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
@@ -360,10 +694,16 @@ What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switc
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
 
+Closing: It may be necessary to close any containers or packages that contain the ingredients (such as bags of flour or boxes of baking powder) before using them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
 
+Pouring: It may be necessary to pour the ingredients (such as flour, salt and baking powder) into the bowl or onto a surface where they can be measured and mixed.
+
+Mixing: It will be necessary to mix the sifted flour, baking powder, and salt together after they have been sifted and measured.
+
+Adding: It will be necessary to add the baking powder and salt to the flour and mix them together.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
@@ -372,14 +712,47 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
 
+Shaking: To sift the flour, you will need to shake the flour through a sifter or sieve.
+
+Squeezing: You may need to squeeze the handle of a sifter or sieve to force the flour through the mesh.
+
+Pressing: You may need to press the flour through a sifter or sieve with a spoon or spatula.
+
+Flipping: You may need to flip the sifter or sieve to empty the flour into the bowl.
+
+Turning: You may need to turn the bowl as you sift the flour to ensure that it is evenly distributed.
+
+Pulling: You may need to pull the handle of a sifter or sieve to open the mesh and release the flour.
+
+Holding: You will need to hold the bowl steady as you sift the flour into it.
+
+Using: You will need to use a sifter or sieve to sift the flour.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
 
+Moving: The skill of moving objects or ingredients from one place to another is important in this task, as you will need to move the all-purpose flour, baking powder, and salt to another bowl.
+
+Transitioning: The skill of transitioning between different tasks or steps in a recipe is important in this task, as you will need to move on to the next step after sifting the flour, baking powder, and salt.
+
+Carrying: The skill of carrying objects or ingredients without spilling or dropping them is important in this task, as you will need to carry the all-purpose flour, baking powder, and salt to the other bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
 
+Adjusting: Adjusting the amount of flour, baking powder, and salt as needed.
+
+Checking: Checking the recipe to ensure that the correct amounts of ingredients are being used.
+
+Looking: Looking at the ingredients and the recipe to make sure everything is ready.
+
+Measuring: Measuring out the correct amounts of flour, baking powder, and salt using measuring cups or spoons.
+
+Increasing: Increasing or decreasing the amounts of ingredients as needed to make more or less of the recipe.
+
+Waiting: Waiting for the ingredients to be measured out and ready to be sifted.
+
+Lowering: Lowering the sifter or sieve onto the bowl to begin sifting the ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
@@ -388,6 +761,9 @@ What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required t
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
 
+Applying: The skill of applying refers to the ability to use a tool or substance in a specific way. In this case, you will need to be able to use a sifter or sieve to apply the flour, baking powder, and salt to a bowl.
+
+Sprinkling: The skill of sprinkling involves the ability to evenly distribute small amounts of a substance over a surface. You will need to be able to sprinkle the flour, baking powder, and salt over the surface of the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'In another bowl, sift 1/2 cup all-purpose flour on top of 1/2 teaspoon baking powder and 1/2 teaspoon salt.'?
@@ -396,14 +772,23 @@ What skills from '[Folding, Sorting]' are required to perform 'In another bowl, 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
 
+Gathering: The egg and chocolate mixtures may need to be gathered from different locations or containers before they can be added to the bowl.
+
+Scooping: The egg and chocolate mixtures may need to be scooped or spooned into the bowl.
+
+Lifting: Depending on the size and weight of the bowl and the mixtures, lifting may be required to raise the bowl to an appropriate height or to move it to a convenient location for adding the mixtures.
+
+Choosing: Depending on the context, it may be necessary to choose the appropriate bowl to use for adding the mixtures.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
 
+Putting: This skill involves placing or setting something down in a specific location or position. In this case, you would need to put the egg and chocolate mixtures into the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
 
+Scraping: The ability to scrape any ingredients from a surface or container using a utensil such as a spatula or spoon. This may involve carefully transferring the egg and chocolate mixtures from their respective containers or surfaces into the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
@@ -416,6 +801,9 @@ What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
 
+Pouring: You may need to pour the egg and chocolate mixtures from their respective containers into the bowl.
+
+Mixing: You may need to mix the two mixtures together in the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
@@ -424,6 +812,11 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
 
+Holding: The ability to hold and grip the bowl, the egg mixture, and the chocolate mixture with your hands.
+
+Pouring: The ability to pour the egg and chocolate mixtures into the bowl.
+
+Mixing: The ability to mix the ingredients together using a spoon or spatula.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
@@ -432,6 +825,21 @@ What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Ad
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
 
+Adjusting: This skill may be needed if the egg and chocolate mixtures need to be adjusted in some way (e.g., to ensure that they are properly mixed or to achieve the desired consistency) before adding them to the bowl.
+
+Checking: This skill may be necessary to ensure that the egg and chocolate mixtures are ready to be added to the bowl (e.g., by checking that they are at the correct temperature or consistency).
+
+Looking: This skill may be required to locate the bowl and to visually inspect the egg and chocolate mixtures before adding them.
+
+Measuring: This skill may be necessary if the recipe calls for precise measurements of the egg and chocolate mixtures before adding them to the bowl.
+
+Increasing: This skill may be needed if the recipe calls for increasing the amount of one or both of the mixtures before adding them to the bowl.
+
+Waiting: This skill may be required if the recipe calls for waiting a certain amount of time before adding the egg and chocolate mixtures to the bowl (e.g., to allow them to cool or thicken).
+
+Lowering: This skill may be needed if the recipe calls for lowering the temperature of one or both of the mixtures before adding them to the bowl.
+
+Unfreezing: This skill may be necessary if one or both of the mixtures are frozen and need to be thawed before being added to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
@@ -440,6 +848,13 @@ What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required t
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
 
+Applying: The ability to add or apply the egg and chocolate mixtures to the bowl in a controlled and precise manner. This may involve using utensils such as a spatula or spoon to scoop or pour the mixture into the bowl.
+
+Sprinkling: Depending on the consistency of the mixtures, it may be necessary to sprinkle them into the bowl rather than pouring them. This could involve using a light, even hand to evenly distribute the mixtures into the bowl.
+
+Spraying: In some cases, it may be necessary to spray the mixtures into the bowl using a tool such as a pastry bag or squeeze bottle. This may require a steady hand and good control to accurately aim the spray and evenly distribute the mixture.
+
+Seasoning: If the mixtures include any spices or seasonings, it may be necessary to use a light touch to evenly distribute them throughout the mixture as it is added to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Add the egg and chocolate mixtures to the bowl.'?
@@ -448,50 +863,118 @@ What skills from '[Folding, Sorting]' are required to perform 'Add the egg and c
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Taking: This skill involves physically taking or grasping the vanilla extract and the spoon used for measuring.
+
+Scooping: This skill involves using the spoon to scoop or spoon out the vanilla extract from the container and into the measuring spoon.
+
+Lifting: This skill may be required to lift the measuring spoon with the vanilla extract and pour it into the bowl.
+
+Gathering: This skill may be required to gather all of the necessary ingredients and tools, such as the vanilla extract, spoon, and bowl, in order to perform the task.
+
+Choosing: This skill may be required to choose the appropriate measuring spoon and bowl for the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Putting: This involves using hand-eye coordination to accurately place the vanilla extract in the bowl.
+
+Inserting: This involves using hand-eye coordination to accurately place the vanilla extract in the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Washing: You may need to wash your hands before starting the task, particularly if you have been handling raw ingredients or other potentially dirty items.
+
+Drying: You may need to dry your hands or a bowl after washing it, in order to ensure that the vanilla extract and other ingredients are not diluted.
+
+Scraping: You may need to scrape the vanilla extract out of a container or bottle with a spoon or other utensil.
+
+Scrubbing: You may need to scrub the measuring spoon or other utensils that you use to ensure that they are clean.
+
+Rubbing: You may need to rub the measuring spoon or other utensils with a cloth or sponge to remove any excess vanilla extract or other ingredients.
+
+Soaking: You may need to soak the measuring spoon or other utensils in warm water or a cleaning solution in order to remove any stubborn stains or residues.
+
+Brushing: You may need to brush the inside of the bowl with a pastry brush or other utensil in order to evenly distribute the vanilla extract and other ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Uncovering: You may need to uncover the container of vanilla extract and remove the cap or lid.
+
+Measuring: You will need to use a measuring spoon to measure out 1 teaspoon of vanilla extract.
+
+Stirring: You will need to use a spoon or a mixer to stir the ingredients in the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Closing: You may need to close the container of vanilla extract after measuring out the required amount of extract, but this is not a necessary step in the process of measuring, adding, and stirring the ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Pouring: This involves transferring the measured vanilla extract from the measuring spoon or cup to the bowl.
+
+Mixing: This involves stirring the ingredients in the bowl to combine them and evenly distribute the vanilla extract.
+
+Filling: This may involve filling a measuring spoon or cup with the appropriate amount of vanilla extract.
+
+Adding: This involves adding the vanilla extract to the bowl and combining it with the other ingredients.
+
+Attaching: This may involve attaching a measuring spoon or cup to a utensil holder or other surface in order to measure the vanilla extract.
+
+Coating: This may involve evenly coating the other ingredients in the bowl with the vanilla extract as you stir.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Stirring: You will need to be able to use a spoon or other utensil to mix the ingredients in the bowl together.
+
+Adding: You will need to be able to transfer the vanilla extract from the measuring utensil to the bowl and incorporate it into the other ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Holding: This involves using your hands to hold the measuring spoon, bowl, and other utensils.
+
+Turning: This involves turning the bowl or utensil as you stir to ensure that all of the ingredients are evenly mixed.
+
+Pulling: This involves pulling the spoon or other utensil through the ingredients as you stir.
+
+Flipping: This involves flipping the spoon or other utensil over as you stir to ensure that all of the ingredients are evenly mixed.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Moving: The ability to move the hand and arm in a controlled manner to pick up and hold the measuring spoon, and to move it to the container of vanilla extract.
+
+Transitioning: The ability to smoothly and accurately transition the measuring spoon from the container of vanilla extract to the bowl, without spilling any of the extract.
+
+Carrying: The ability to hold and carry the measuring spoon in a stable manner, without dropping it or spilling the vanilla extract.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Measuring: This involves using a measuring spoon or measuring cup to accurately measure the correct amount of vanilla extract.
+
+Checking: You may want to check the measurements and the ingredients in the bowl to ensure that you are adding the correct amount of vanilla extract and that everything is well-mixed.
+
+Looking: You may also need to use your eyes to visually inspect the ingredients and the bowl to make sure that you are adding the vanilla extract correctly and that the mixture looks as it should.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Feeling: This skill may be helpful for determining the proper amount of vanilla extract to measure out.
+
+Smelling: This skill may be helpful for determining the proper amount of vanilla extract to measure out, as well as for checking the overall quality of the vanilla extract.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
 
+Applying: This involves using a spoon or measuring spoon to carefully measure out the vanilla extract. It requires accuracy and precision to ensure that the right amount is being added.
+
+Seasoning: This involves adding an ingredient, such as vanilla extract, to a dish in order to enhance its flavor. It requires an understanding of how different ingredients can work together to create a balanced and flavorful dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure 1 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.'?
@@ -500,26 +983,82 @@ What skills from '[Folding, Sorting]' are required to perform 'Measure 1 teaspoo
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Taking: You will need to take the cooking spray and the glass pan out of their respective storage locations.
+
+Choosing: You will need to choose the appropriate cooking spray to use and make sure it is safe for use in the microwave.
+
+Scooping: You will need to scoop out some of the cooking spray from the container and hold it in your hand.
+
+Lifting: You will need to lift the glass pan and position it so that you can spray it evenly.
+
+Gathering: You may need to gather any necessary supplies, such as a paper towel or cloth, to wipe off any excess cooking spray.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Putting: This involves using your hand to place the pan in a specific location, such as on the counter or in the microwave.
+
+Inserting: This involves using your hand to insert the pan into the microwave or onto a shelf or rack.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Washing: This skill involves cleaning the glass pan by rinsing it with water and possibly using soap or other cleaning agents to remove dirt, food residue, and other contaminants.
+
+Drying: After washing the glass pan, it will need to be dried thoroughly to remove any excess water. This can be done using a cloth, paper towels, or a dish rack.
+
+Scraping: Depending on the state of the glass pan, it may be necessary to scrape off any stuck-on food or other debris before spraying it with cooking spray. This can be done using a spatula or other scraping tool.
+
+Scrubbing: If the glass pan is particularly dirty or greasy, it may be necessary to scrub it with a scrub brush or scouring pad to remove the dirt and grime.
+
+Rubbing: After the glass pan has been cleaned and dried, it may be necessary to rub it with a cloth or paper towel to ensure that it is completely dry and free of any water droplets or streaks.
+
+Soaking: If the glass pan is extremely dirty or has stuck-on food that is difficult to remove, it may be necessary to soak it in hot water for a period of time to loosen the dirt and grime.
+
+Brushing: Depending on the size and shape of the glass pan, it may be necessary to use a brush of some kind to apply the cooking spray evenly across the surface of the pan.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Opening: You will need to open the container of cooking spray and remove the cap or nozzle.
+
+Uncovering: If the cooking spray is stored in a cupboard or pantry, you may need to uncover or locate it before you can use it.
+
+Switching: You may need to switch the nozzle or button on the cooking spray container to the "on" or "spray" position.
+
+Unlocking: Depending on the design of the cooking spray container, you may need to unlock a safety mechanism or flip a switch to enable the spray function.
+
+Aiming: You will need to aim the nozzle of the cooking spray at the glass pan and apply a light, even coat of cooking spray to the surface.
+
+Holding: You will need to hold the cooking spray container steady and apply the cooking spray in a consistent manner.
+
+Cleaning: After you have finished spraying the glass pan, you may need to clean any excess cooking spray from the nozzle or container.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Closing: The ability to close the cooking spray container and properly secure the nozzle for use.
+
+Wrapping: The ability to hold and wrap the glass pan with one hand while spraying with the other hand.
+
+Rolling: The ability to roll the pan around to ensure that all sides are evenly coated with cooking spray.
+
+Locking: The ability to properly lock the nozzle of the cooking spray container after use to prevent any unintended spraying.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Pouring: You will need to be able to pour the cooking spray from the can or container into your hand or onto a paper towel.
+
+Mixing: You may need to shake the can of cooking spray to mix the contents before using it.
+
+Filling: You will need to fill the pan with the cooking spray by applying it evenly across the surface.
+
+Adding: You will need to add the cooking spray to the pan, making sure to cover the entire surface of the pan.
+
+Attaching: You may need to attach a nozzle or applicator to the can of cooking spray if it doesn't come with one.
+
+Coating: You will need to coat the surface of the pan evenly with the cooking spray.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
@@ -528,22 +1067,63 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Holding: You will need to hold the pan steady with one hand while you spray it with the other hand.
+
+Spraying: You will need to use a spraying motion to apply the cooking spray to the pan.
+
+Using: You will need to use the cooking spray can to apply the spray to the pan.
+
+Preparing: You may need to prepare the cooking spray can for use by shaking it or opening it.
+
+Aiming: You will need to aim the spray at the pan in order to apply it evenly.
+
+Controlling: You will need to control the amount of spray that you apply to the pan, ensuring that you do not use too much or too little.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Moving: You will need to be able to move your arms and hands in a controlled manner in order to hold the spray can and aim it at the pan. You may also need to be able to shift your body position in order to reach the pan, depending on its location in relation to you.
+
+Transitioning: You will need to be able to smoothly transition from one task or activity to another in order to effectively complete the task. For example, you may need to transition from reading the instructions to gathering the necessary materials, and then to actually spraying the pan.
+
+Carrying: You will need to be able to carry the spray can in a stable and secure manner, without dropping it or spilling the contents. You may also need to carry the pan to a safe location where you can spray it, such as a sink or countertop.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Adjusting: You may need to adjust the nozzle on the cooking spray can to get the desired amount of spray.
+
+Checking: You should check to make sure that the pan is microwave-safe before spraying it with cooking spray.
+
+Looking: You will need to look at the pan and the cooking spray can to make sure that you are using the correct product and that everything is in the correct position.
+
+Measuring: You may need to measure out the amount of cooking spray that you need to use for the pan.
+
+Increasing: You may need to increase the pressure on the cooking spray can to get a stronger spray.
+
+Waiting: You may need to wait for the cooking spray to dry before using the pan.
+
+Lowering: You may need to lower the pan onto a surface or into the microwave after spraying it.
+
+Unfreezing: If the cooking spray is cold and has become frozen, you may need to unfreeze it before using it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Patting: The ability to pat the pan with a cloth or paper towel to ensure that it is clean and dry before spraying it with cooking spray is necessary.
+
+Feeling: The ability to feel the pan to ensure that it is not too hot to handle before spraying it with cooking spray is necessary.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
 
+Applying: This skill involves applying the cooking spray to the pan in an even and consistent manner. You will need to hold the can of cooking spray at a distance from the pan, and use a steady hand to apply a thin layer of spray.
+
+Spraying: This skill involves releasing the cooking spray from the can in a controlled manner. You will need to press down on the nozzle of the can to release a mist of spray.
+
+Seasoning: This skill involves adding a small amount of salt or other seasoning to the pan before spraying it with cooking spray. This can help to add flavor to the food you are cooking.
+
+Sprinkling: This skill involves lightly scattering a small amount of a dry ingredient, such as flour or breadcrumbs, over the surface of the pan. This can help to prevent the food from sticking to the pan.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Spray a microwave-safe glass pan with cooking spray.'?
@@ -552,18 +1132,52 @@ What skills from '[Folding, Sorting]' are required to perform 'Spray a microwave
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Taking: This involves using your hands or other tools to pick up the batter and move it to the pan.
+
+Scooping: You may need to use a spoon or other utensil to scoop the batter out of a container and into the pan.
+
+Lifting: You may need to lift the pan up off the counter or stovetop and move it to a suitable location for pouring the batter.
+
+Gathering: You may need to gather together all the necessary tools and ingredients for the task, including the pan, batter, and any other necessary utensils.
+
+Choosing: You may need to choose the appropriate pan for the task based on the size and type of batter you are using.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Putting: The action of pouring the batter into the pan requires the skill of putting, or placing an object in a specific location.
+
+Spreading: The action of spreading the batter out evenly requires the skill of spreading, or distributing an object over a surface.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Washing: It may be helpful to wash your hands and any utensils or equipment you will be using before preparing the batter. This can help ensure that they are clean and free of any contaminants.
+
+Drying: You may need to dry your hands and any wet utensils or equipment before using them to prepare the batter.
+
+Scraping: Depending on the recipe you are following, you may need to scrape the batter out of a mixing bowl or container and into the pan.
+
+Scrubbing: It may be necessary to scrub the pan clean before using it to prepare the batter.
+
+Rubbing: You may need to rub butter or oil onto the pan to prevent the batter from sticking.
+
+Soaking: It is not typically necessary to soak any utensils or equipment before preparing the batter.
+
+Brushing: You may need to brush the pan with butter or oil to prevent the batter from sticking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Opening: Depending on the container that the batter is stored in, it may be necessary to open the container in order to access the batter.
+
+Unrolling: If the batter is stored in a wrapped or sealed container, it may be necessary to unroll or unwrap the container in order to access the batter.
+
+Uncovering: If the batter is stored in a covered container, it may be necessary to uncover the container in order to access the batter.
+
+Switching: If the batter is stored in a container with a tight-fitting lid, it may be necessary to switch the lid to the open position in order to access the batter.
+
+Unlocking: If the batter is stored in a container with a locking mechanism, it may be necessary to unlock the container in order to access the batter.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
@@ -572,14 +1186,63 @@ What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Pouring: The act of transferring a liquid or other substance from one container to another by tilting the container and allowing gravity to cause the substance to flow. This skill would be used to transfer the batter from the mixing bowl to the pan.
+
+Mixing: The act of combining ingredients together in a specific way to create a cohesive mixture. Depending on the recipe, the batter may need to be mixed before it is poured into the pan.
+
+Filling: The act of filling a container with a substance. In this case, the pan would need to be filled with batter.
+
+Adding: The act of adding a substance to a mixture or container. Depending on the recipe, the batter may require additional ingredients to be added before it is poured into the pan.
+
+Attaching: The act of fastening or securing one object to another. Depending on the recipe, it may be necessary to attach certain ingredients or tools, such as a whisk or mixer, to the mixing bowl before mixing the batter.
+
+Coating: The act of covering a surface with a thin layer of a substance. In this case, the batter would need to be spread out evenly in the pan in order to coat the surface of the pan.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Leveling: You may need to use a utensil or your hands to smooth the surface of the batter and ensure that it is level.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Shaking: Depending on the recipe and the consistency of the batter, it may be necessary to shake the container or bowl containing the batter to evenly distribute the ingredients before pouring it into the pan.
+
+Squeezing: If the batter is too thick or stiff, it may be necessary to use a spatula or spoon to gently squeeze it out of the container and into the pan.
+
+Pressing: Once the batter is in the pan, it may be necessary to use a spatula or spoon to press down on the batter to spread it out evenly.
+
+Flipping: Depending on the recipe and the desired final result, it may be necessary to flip the pan to evenly distribute the batter and create a smooth, even surface.
+
+Turning: It may be necessary to turn the pan as you pour the batter in order to evenly distribute it across the surface.
+
+Pulling: Using a spatula or spoon, it may be necessary to gently pull the batter to the edges of the pan in order to create an even layer.
+
+Holding: You will need to hold the pan steady as you pour the batter and spread it out evenly.
+
+Cooking: Depending on the recipe and the desired final result, it may be necessary to cook the batter after pouring it into the pan.
+
+Stretching: Depending on the consistency of the batter, it may be necessary to stretch it out with a spatula or spoon in order to create an even layer in the pan.
+
+Setting: Once the batter is in the pan, it may be necessary to set it aside for a period of time in order for it to rise or set before cooking.
+
+Watering: Depending on the recipe and the desired final result, it may be necessary to add water or other liquids to the batter in order to achieve the desired consistency.
+
+Wearing: Depending on the recipe and the desired final result, it may be necessary to wear gloves or use other protective gear when handling the batter.
+
+Forming: Depending on the recipe and the desired final result, it may be necessary to shape or form the batter into a specific shape or size before pouring it into the pan.
+
+Using: You will need to use a bowl or container to hold the batter and a spatula or spoon to pour and spread the batter in the pan.
+
+Screwing: Depending on the recipe and the desired final result, it may be necessary to use a screwdriver or other tool to mix or combine the ingredients in the batter.
+
+Flattening: Once the batter is in the pan, it may be necessary to use a spatula or other flat object to flatten or smooth the surface.
+
+Finishing: Depending on the recipe and the desired final result, it may be necessary to add additional ingredients or toppings to the batter after it has been poured into the pan.
+
+Preparing: Depending on the recipe and the desired final result, it may be necessary to prepare the pan or surface where the batter will be poured by greasing or flouring it.
+
+Marking: Depending on the recipe and the desired final result, it may be necessary to mark or score the surface of the pan
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
@@ -588,14 +1251,35 @@ What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Po
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Adjusting: You may need to adjust the position of the pan or your own body in order to get the batter into the pan in an even manner.
+
+Checking: You should check the consistency of the batter and the size of the pan to ensure that you are using the right amount of batter and that it will fit in the pan.
+
+Looking: You should look at the pan and the batter as you pour to ensure that the batter is being evenly distributed.
+
+Measuring: You may need to measure the amount of batter you are using in order to ensure that you have the right amount for the size of the pan.
+
+Increasing or Decreasing: You may need to adjust the flow of the batter by increasing or decreasing the speed at which you are pouring it, in order to achieve an even spread.
+
+Waiting: You may need to wait for the pan to preheat or for the batter to reach the right consistency before pouring it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Patting: This may be required to smooth out the surface of the batter after it has been poured into the pan.
+
+Feeling: The sense of touch may be useful to feel the consistency of the batter and to determine when it has been spread out evenly.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
 
+Applying: This involves using the appropriate amount of force and control to pour the batter into the pan and spread it out evenly.
+
+Sprinkling: This involves adding a light, even layer of a dry ingredient, such as flour or sugar, over the surface of the batter.
+
+Spraying: This involves using a spray bottle or misting device to apply a fine mist of liquid, such as oil or cooking spray, over the surface of the pan before adding the batter.
+
+Seasoning: This involves adding a small amount of a flavoring agent, such as salt or herbs, to the batter before cooking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Pour the batter into the pan by spreading it out evenly.'?
@@ -604,10 +1288,30 @@ What skills from '[Folding, Sorting]' are required to perform 'Pour the batter i
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Taking: You will need to take the chocolate chunks from their container or packaging.
+
+Scooping: You will need to use a measuring cup or spoon to scoop the chocolate chunks into the measuring cup.
+
+Choosing: You will need to choose the appropriate measuring cup or spoon to use for the task.
+
+Lifting: You will need to lift the measuring cup or spoon and chocolate chunks to scatter them on top.
+
+Gathering: You may need to gather the chocolate chunks into a pile or heap before scooping them into the measuring cup.
+
+Removing: You may need to remove any excess chocolate chunks from the measuring cup or spoon before scattering them on top.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Putting: This involves placing the chocolate chunks into the measuring cup.
+
+Inserting: You may need to use a spoon or other utensil to insert the chocolate chunks into the measuring cup.
+
+Throwing: Scattering the chocolate chunks on top of a surface or ingredient would require a throwing motion.
+
+Dropping: You may need to use a controlled dropping motion to release the chocolate chunks from the measuring cup onto the surface or ingredient you are working with.
+
+Serving: Scattering the chocolate chunks on top of a surface or ingredient can be thought of as a form of serving, as you are presenting the chocolate chunks in a way that is ready for use or consumption.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
@@ -616,30 +1320,90 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Opening: The ability to open any packaging or container holding the chocolate chunks.
+
+Uncovering: The ability to remove any lid, cover, or wrapper that may be covering the chocolate chunks.
+
+Unwrapping: The ability to remove any wrapping or packaging that may be around the chocolate chunks.
+
+Switching: The ability to turn on and use any measuring tools or appliances that may be needed to measure the chocolate chunks.
+
+Unlocking: The ability to open any locked containers or appliances that may be needed to access the chocolate chunks.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Closing: You will need to be able to close a container or bag of chocolate chunks in order to keep them fresh and prevent them from spilling out.
+
+Wrapping: You may need to wrap the chocolate chunks in wax paper or plastic wrap in order to prevent them from sticking together.
+
+Rolling: You may need to roll the chocolate chunks in your hand in order to evenly distribute them on top of your dessert.
+
+Locking: You may need to lock a container or bag of chocolate chunks in order to keep them fresh and prevent them from spilling out.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Pouring - You will need to be able to pour the chocolate chunks into a measuring cup to get the correct amount.
+
+Filling - You will need to be able to fill the measuring cup with the chocolate chunks to the correct level.
+
+Adding - You will need to be able to add the chocolate chunks to the top of whatever you are scattering them on.
+
+Attaching - You may need to attach the measuring cup to a scale if you are using one to measure the chocolate chunks.
+
+Coating - You may need to coat your hands with a small amount of oil or cooking spray to prevent the chocolate chunks from sticking to them as you scatter them on top.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
+
+Emptying: You may need to empty the chocolate chunks from a container or bag into a measuring cup.
+
+Breaking: You might need to break the chocolate chunks into smaller pieces if they are too large to fit in the measuring cup.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Measuring: You need to be able to accurately measure out 1/2 cup of chocolate chunks using a measuring cup or scale.
+
+Scooping: You need to be able to use a spoon or other utensil to scoop the chocolate chunks from a container and into the measuring cup.
+
+Pouring: Once you have measured out the chocolate chunks, you need to be able to pour them from the measuring cup onto the surface where you want to scatter them.
+
+Scattering: You need to be able to evenly distribute the chocolate chunks over the surface by shaking or tossing them lightly with your hand.
+
+Holding: You may need to hold the measuring cup or utensil steady while you measure and pour the chocolate chunks.
+
+Flipping: If you are using a spoon or other utensil to scoop the chocolate chunks, you may need to flip it over to get the chunks out of the container.
+
+Turning: Depending on the orientation of the container and surface where you are scattering the chocolate chunks, you may need to turn your body or the objects to get a better angle.
+
+Pulling: If the container or measuring cup has a tight-fitting lid, you may need to use some force to open it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Grasping: This involves using your hand to hold and manipulate objects, such as a measuring cup or a bag of chocolate chunks.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Measuring: This involves using measuring tools such as measuring cups or spoons to accurately measure the correct amount of chocolate chunks.
+
+Checking: This involves checking the measurements to ensure that the correct amount of chocolate chunks has been measured.
+
+Adjusting: If the measurements are not correct, this may involve adjusting the amount of chocolate chunks by adding or removing some to reach the desired measurement.
+
+Looking: This may involve looking at the chocolate chunks and the measuring tool to ensure that the measurement is accurate.
+
+Searching: Depending on the context, this may involve searching for the necessary measuring tools and ingredients.
+
+Increasing or lowering: If the measurements are not correct, this may involve increasing or lowering the amount of chocolate chunks to reach the desired measurement.
+
+Waiting: Depending on the recipe or context, this may involve waiting for the chocolate chunks to melt or for other ingredients to be prepared before adding the chocolate chunks.
+
+Unfreezing: Depending on the recipe or context, this may involve unfreezing frozen chocolate chunks before measuring and scattering them on top.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
@@ -648,18 +1412,38 @@ What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required t
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Applying: This involves the ability to apply a measured amount of chocolate chunks onto a surface, in this case, the top of a surface.
+
+Sprinkling: This involves the ability to evenly distribute the chocolate chunks over a surface by lightly scattering them.
+
+Spraying: This involves the ability to evenly distribute the chocolate chunks over a surface by lightly spraying them.
+
+Seasoning: This involves the ability to add flavor or taste to a dish by adding small amounts of ingredients, such as chocolate chunks in this case.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure 1/2 cup of chocolate chunks and scatter them on top.'?
 
+Sorting: This skill may be useful if the chocolate chunks are not all the same size or shape, as you may need to sort through them to find pieces that are similar in size.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Cook in the microwave for 5 minutes.'?
 
+Taking: You will need to take the food or dish that you want to cook out of the refrigerator or pantry and place it in the microwave.
+
+Removing: Depending on the type of food or dish you are cooking, you may need to remove any packaging or containers before placing it in the microwave.
+
+Scooping: If you are cooking a liquid or semi-solid food, such as soup or oatmeal, you may need to use a spoon or other utensil to scoop the food into a microwave-safe container.
+
+Lifting: You will need to lift the food or dish and place it in the microwave.
+
+Gathering: You may need to gather any additional ingredients or supplies that you need for your recipe, such as spices or seasonings.
+
+Choosing: You will need to choose the appropriate cooking time and power level for your food or dish based on the instructions for your recipe or the recommendations on the packaging.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Cook in the microwave for 5 minutes.'?
 
+Putting: This involves placing the food item to be cooked into the microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Cook in the microwave for 5 minutes.'?
@@ -668,6 +1452,19 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Cook in the microwave for 5 minutes.'?
 
+Opening: You will need to be able to open the microwave door in order to place the food inside.
+
+Unrolling: If you are using a microwave-safe container that has a plastic wrap or foil covering, you will need to be able to unroll and remove the covering before microwaving.
+
+Unscrewing: Some microwave-safe containers may have a screw-on lid that needs to be removed before microwaving.
+
+Uncovering: If you are microwaving food that is covered with a lid or plate, you will need to be able to uncover it before microwaving.
+
+Unwrapping: If the food is wrapped in plastic wrap or foil, you will need to be able to unwrap it before microwaving.
+
+Switching: You will need to be able to switch the microwave on and set the timer for 5 minutes.
+
+Unlocking: If the microwave has a child lock feature, you will need to be able to unlock it before using it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Cook in the microwave for 5 minutes.'?
@@ -684,22 +1481,45 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Cook in the microwave for 5 minutes.'?
 
+Setting: This involves setting the microwave to the desired time and starting it.
+
+Using: This involves operating the microwave and understanding how to use its controls.
+
+Pulling: This involves pulling the microwave door open to place the item inside and then closing it again.
+
+Holding: This involves holding the item securely while it is being microwaved.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Cook in the microwave for 5 minutes.'?
 
+Moving: You will need to move the food from its current location to the microwave. Depending on the size and weight of the food, you may need to use proper lifting techniques to avoid injury.
+
+Transitioning: You may need to transfer the food from a container to a microwave-safe dish or vice versa. This may require the use of utensils or other tools.
+
+Carrying: You may need to carry the food, dish, and any utensils you are using from one location to another. This may require the use of proper carrying techniques to avoid spills or accidents.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Cook in the microwave for 5 minutes.'?
 
+Adjusting: Setting the time on the microwave for 5 minutes.
+
+Checking: Checking to make sure the microwave is plugged in and functioning properly.
+
+Looking: Looking at the instructions or recipe to determine the appropriate amount of time to microwave the item.
+
+Measuring: Measuring the appropriate amount of time (in this case, 5 minutes).
+
+Waiting: Waiting for the microwave to finish the 5-minute cooking cycle.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Cook in the microwave for 5 minutes.'?
 
+Smelling: Smelling might be useful in determining when the food is cooked to your desired level of doneness. The aroma of the food may change as it cooks, and you can use your sense of smell to gauge its progress.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Cook in the microwave for 5 minutes.'?
 
+Applying: You will need to be able to apply the food to be cooked to a microwave-safe container or dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Cook in the microwave for 5 minutes.'?
@@ -708,10 +1528,32 @@ What skills from '[Folding, Sorting]' are required to perform 'Cook in the micro
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Taking: This involves using your hands or other tools to grasp and hold onto something, in this case, the dish or food that has been baked in the oven.
+
+Removing: This involves separating something from its surroundings, in this case, removing the dish or food from the oven.
+
+Lifting: This involves using your muscles to raise and hold something off the ground or surface, in this case, lifting the dish or food out of the oven.
+
+Gathering: This involves collecting and organizing items or materials, in this case, gathering any necessary utensils or serving dishes.
+
+Choosing: This involves making a selection from a group of options, in this case, choosing a suitable location to rest the dish or food for 3 minutes before cutting and eating.
+
+Scooping: This may be necessary as part of the preparation or serving process.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Putting: You would need to be able to place the item on a surface or in a container after removing it from the oven.
+
+Inserting: Depending on the item, you may need to use a utensil or tool to lift or move the item out of the oven.
+
+Throwing: You would need to be able to safely and accurately toss away any excess materials, such as foil or parchment paper.
+
+Hanging: Depending on the item and how it is being prepared, you may need to hang utensils or other tools on a rack or hook to keep them within easy reach.
+
+Dropping: You may need to be able to gently lower the item onto a surface or into a container, rather than throwing it or setting it down too heavily.
+
+Serving: After the item has rested for 3 minutes, you may need to be able to cut it into appropriate-sized pieces and serve it to others.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
@@ -720,6 +1562,17 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Opening: This skill involves opening the oven door in order to access the item inside.
+
+Switching: This skill involves turning off the oven or adjusting the temperature as needed.
+
+Unlocking: This skill may be necessary if the oven has a lock or safety feature that needs to be disengaged before opening the door.
+
+Uncovering: This skill may be necessary if the item being removed from the oven is covered or wrapped in some way.
+
+Unwrapping: This skill may be necessary if the item being removed from the oven is wrapped in foil or some other material.
+
+Resting: This skill involves allowing the item to sit and cool for a specified period of time before cutting or eating it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
@@ -732,26 +1585,72 @@ What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are re
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Cutting: To cut the food into desired portions after it has been rested.
+
+Stabbing: Depending on the type of food being prepared, a knife or fork may be used to test if the food is fully cooked or to pierce it in order to check its internal temperature.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Shaking: This skill would be useful for removing the dish from the oven, as you may need to gently shake the dish or pan to loosen it from the surface or any utensils you used to bake it.
+
+Turning: You would need to turn the dish or pan over to remove it from the oven.
+
+Pulling: You may need to use this skill to gently pull the dish or pan out of the oven, especially if it is hot or heavy.
+
+Holding: You would need to be able to hold the dish or pan securely while you remove it from the oven and place it on a stable surface to rest.
+
+Cooking: This is a general skill that would be useful for preparing the dish for baking in the oven and ensuring that it is cooked to the desired level of doneness.
+
+Setting: You would need to be able to set the dish or pan down on a stable surface to rest after removing it from the oven.
+
+Wearing: You may need to wear protective gear, such as oven mitts, to safely remove the dish or pan from the oven.
+
+Using: You may need to use utensils, such as a spatula or tongs, to remove the dish or pan from the oven.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Moving: You need to be able to move the item out of the oven and onto a safe surface, such as a cutting board or a plate. This may require using oven mitts or other protective gear to handle hot items.
+
+Transitioning: You need to be able to transition the item from the oven to the resting surface, which may involve lifting, carrying, or transferring it.
+
+Carrying: If you need to move the item a significant distance, you may need to carry it using proper lifting techniques to avoid injury. This could involve using your legs to lift and carrying the item close to your body.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Adjusting: You may need to adjust the oven rack or use oven mitts to remove the dish from the oven.
+
+Checking: You may need to check the dish to see if it is done cooking or to determine if it has reached a safe temperature before handling it.
+
+Looking: You may need to look at the dish to determine if it is cooked to your desired level of doneness.
+
+Measuring: You may need to use a timer or other means to measure the 3-minute resting period.
+
+Waiting: You will need to wait for the 3-minute resting period to elapse before cutting and eating the dish.
+
+Lowering: You may need to lower the dish onto a cutting board or other surface in order to cut it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Patting: You may need to pat the food with a kitchen towel or oven mitts to protect your hands from the heat.
+
+Eating: You will need to be able to eat the food once it has been rested and cut.
+
+Feeling: You will need to use your sense of touch to determine if the food is safe to handle and whether it has reached the desired level of doneness.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'?
 
+Applying: The ability to use oven mitts or other protective gear to handle the hot dish safely.
+
+Sprinkling: The ability to sprinkle any additional seasonings or garnishes on the dish before serving, if desired.
+
+Spraying: The ability to use a spray bottle or other tool to mist the dish with a liquid, such as a glaze or marinade, before serving, if desired.
+
+Seasoning: The ability to taste the dish and add any additional seasonings as needed before serving.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Remove from the oven and rest for 3 minutes before cutting and eating'
