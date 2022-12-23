@@ -1,225 +1,440 @@
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Take a microwavable mug.'?
-
+To take a microwavable mug, you would need to use the skills of taking and possibly lifting, depending on the location and weight of the mug. Taking involves using your hand or hands to grasp and hold onto the mug, while lifting involves using your muscles to raise the mug off of a surface or out of a container.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Take a microwavable mug.'?
-
+Grasping: The ability to hold and manipulate objects with the hand.
+Fine motor control: The ability to control the movement of the hands and fingers with precision.
+Hand-eye coordination: The ability to coordinate the movement of the eyes with the movement of the hands.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Take a microwavable mug.'?
-
+None of the skills you listed are required to perform the task of taking a microwavable mug.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Take a microwavable mug.'?
-
+Uncover: You may need to uncover or remove any packaging or protective materials that the mug is wrapped in.
+Unwrapping: You may need to unwrap any tape or other materials that are holding the mug in place.
+Unlocking: You may need to unlock any doors or drawers that the mug is stored in.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Take a microwavable mug.'?
-
+You would not typically need to use any of the skills from the list '[Closing, Wrapping, Rolling, Locking]' to perform the task of taking a microwavable mug.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Take a microwavable mug.'?
-
+None of the skills listed - pouring, mixing, filling, adding, attaching, coating - are required to perform the task of taking a microwavable mug.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Take a microwavable mug.'?
-
+None of the skills listed are necessary to perform the task of "taking a microwavable mug."
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Take a microwavable mug.'?
-
+Holding: You will need to use your hands to grasp the mug and lift it up.
+Turning: You may need to turn the mug to a suitable position in order to grasp it easily.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Take a microwavable mug.'?
+Movement: You will need to move your body in order to reach the mug and pick it up. This may involve reaching, bending, or standing up from a seated position.
 
+Transitioning: You will need to be able to smoothly and efficiently transition from one position or task to another. This might involve transitioning from a seated position to a standing position, or from one task to another (such as picking up the mug after finishing another task).
+
+Carrying: You will need to be able to pick up and carry the mug using a secure and stable grip. This may involve using one hand or both hands, depending on the size and weight of the mug.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Take a microwavable mug.'?
+Adjusting: You may need to adjust your grip on the mug to ensure that it is secure and you are able to lift it without dropping it.
 
+Checking: You should check to make sure that the mug is indeed microwavable before attempting to microwave it.
+
+Looking: You should look for the mug in your kitchen or wherever it is stored.
+
+Searching: If you are unable to locate the mug, you may need to search for it in other areas of your home.
+
+Measuring: You may need to measure the size of the mug to ensure that it will fit in your microwave.
+
+Increasing: You may need to increase the size of your grip on the mug if it is slippery or difficult to hold.
+
+Waiting: You may need to wait for the mug to cool down after microwaving it.
+
+Lowering: You may need to lower the mug onto a surface or into your hands when taking it out of the microwave.
+
+Unfreezing: You may need to unfreeze a frozen mug if it is too hard to pick up.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Take a microwavable mug.'?
+Patting: This skill is not strictly necessary to perform the task, but it may be helpful in locating the mug if it is hidden or difficult to reach.
 
+Eating: This skill is not necessary to perform the task.
+
+Feeling: This skill may be helpful in determining whether the mug is made of a material that is safe to microwave, such as ceramic or glass.
+
+Drinking: This skill is not necessary to perform the task.
+
+Smelling: This skill is not necessary to perform the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Take a microwavable mug.'?
-
+None of the skills listed '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform the task 'Take a microwavable mug.'
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Take a microwavable mug.'?
-
+To perform the task of taking a microwavable mug, you do not need any specific skills from the list of folding or sorting.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
+Taking: This involves taking the measuring spoons or cups and the ingredients (flour, baking powder, baking soda, and salt) from their storage containers or locations.
 
+Scooping: This involves using the measuring spoons or cups to scoop the required amount of each ingredient into the mug.
+
+Lifting: This involves lifting the mug and any heavy ingredients, such as flour, and carrying them to the designated area for mixing.
+
+Gathering: This involves gathering all of the necessary ingredients and equipment, such as the measuring spoons or cups, before starting the task.
+
+Choosing: This involves choosing the appropriate measuring spoon or cup for each ingredient based on the required measurement.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
-
+Putting: This involves placing the ingredients (flour, baking powder, baking soda, and salt) into the mug.
+Inserting: This involves inserting the measuring utensils (such as a measuring spoon or cup) into the ingredients to measure the correct amount.
+Throwing: This may be required if you are measuring the ingredients by eye and need to throw a rough estimate into the mug.
+Hanging: This skill is not necessary for this task.
+Dropping: This may be required if you are using a spoon or other utensil to transfer the measured ingredients into the mug.
+Serving: This skill is not necessary for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
-
+To perform the task of measuring out the flour, baking powder, baking soda, and salt and adding them to a mug, you do not need any of the skills listed in the square brackets.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
-
+Opening: You will need to open any packaging or containers that the ingredients are stored in.
+Uncovering: If the ingredients are stored in a container with a lid, you will need to remove the lid to access the ingredients.
+Unwrapping: If the ingredients are stored in a package or wrapper, you will need to remove the packaging to access the ingredients.
+Switching: You will need to switch between the different ingredients as you measure and add them to the mug.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
+Closing: The ability to close containers or bags of ingredients after measuring them out can help keep the ingredients fresh and prevent spills or messes.
 
+Wrapping: Wrapping or covering measuring cups or spoons with plastic wrap or aluminum foil after use can help prevent contamination of the ingredients and keep them fresh.
+
+Rolling: Rolling up the sleeves of your shirt or apron can help keep them clean while you work.
+
+Locking: Locking the lids of containers or bags of ingredients can help prevent spills or messes, and can also help keep the ingredients fresh.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
-
+Pouring: You would need to pour the measured ingredients from a container or measuring spoon into the mug.
+Filling: You would need to fill the measuring spoon or cup with the correct amount of each ingredient.
+Adding: You would need to add the measured ingredients to the mug.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
-
+Dividing: You may need to use a measuring spoon or measuring cup to divide the ingredients into the appropriate amounts.
+Filtering: If the ingredients are clumped together or have lumps, you may need to use a sieve or other tool to filter out any impurities before measuring.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
+Measuring: You will need to be able to use measuring tools, such as measuring spoons and cups, to accurately measure the ingredients.
+
+Pouring: You will need to be able to pour the measured ingredients into the mug.
+
+Holding: You will need to be able to hold the measuring cups or spoons steady while measuring the ingredients.
+
+Using: You will need to be able to use the measuring tools and the mug.
+
+Flipping: You may need to flip the measuring cups or spoons to pour out the ingredients.
+
+Sharpening: You may need to use a knife to level off the top of the ingredients if they are not level with the top of the measuring cup or spoon.
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
+Moving: This skill involves physically moving the body to a location where the ingredients are stored and then moving the ingredients to a location where they can be measured and added to a mug.
 
+Transitioning: This skill involves transitioning from one task to another, such as transitioning from measuring one ingredient to measuring another ingredient.
+
+Carrying: This skill involves physically carrying the ingredients to the mug and then carefully adding them to the mug.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
+Measuring: This involves using measuring tools such as measuring cups or spoons to accurately determine the amount of an ingredient required.
 
+Checking: This involves checking the measurements to ensure that they are correct and accurate.
+
+Looking: This involves looking at the measuring tools and the ingredients to ensure that they are being used correctly.
+
+Searching: This may involve searching for the required measuring tools or ingredients if they are not readily available.
+
+Increasing or Decreasing: This may involve adjusting the amount of an ingredient based on personal preference or recipe requirements.
+
+Waiting: This may involve waiting for ingredients to be measured or for the mug to be available for use.
+
+Lowering: This may involve lowering the ingredients into the mug or other container.
+
+Unfreezing: This may be necessary if the ingredients are frozen and need to be thawed before use.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
+Applying: This skill involves accurately measuring the ingredients using measuring spoons or cups, and adding them to the mug.
 
+Sprinkling: This skill involves lightly sprinkling the ingredients over the surface of the mug, rather than adding them in large amounts all at once.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure the flour (4 tablespoons), baking powder (1/8 teaspoon), baking soda (1/16 teaspoon) and salt (1/8 teaspoon) and add them to a mug.'?
+Folding: You will need to fold the top of the bag or container of flour down to keep it clean and organized.
 
+Sorting: You will need to locate the ingredients in your pantry or cupboard and sort them by type (e.g., flour, baking powder, baking soda, salt).
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Stir them.'?
-
+1. To perform the action of stirring, you will need the skill of taking (in order to take hold of the utensil you will be using to stir).
+2. You may also need the skill of lifting (in order to lift the utensil and move it through the ingredients being stirred).
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Stir them.'?
-
+To perform the action "stir them," the skill of "putting" would be required, specifically the skill of using a utensil such as a spoon or spatula to mix or agitate ingredients or substances.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Stir them.'?
-
+Stirring does not require any of the skills listed in the question.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Stir them.'?
-
+ None of the skills listed in the brackets are directly related
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Stir them.'?
-
+"Closing, Wrapping, Rolling, Locking" are not skills that are typically related to stirring something.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Stir them.'?
+Pouring: This skill involves the ability to transfer a liquid or other substance from one container to another using a container with a spout or opening. Pouring may be required in order to add ingredients to a mixture that is being stirred.
 
+Mixing: Mixing involves combining two or more substances together in a way that combines them evenly. Stirring is a form of mixing, and so this skill may be required in order to effectively stir the ingredients together.
+
+Filling: This skill involves the ability to fill a container with a substance. In the context of stirring, filling may be required in order to add ingredients to the mixture being stirred.
+
+Adding: This skill involves the ability to add a substance to a mixture or other container. In the context of stirring, adding may be required in order to add ingredients to the mixture being stirred.
+
+Attaching: This skill involves the ability to connect or attach one object to another. In the context of stirring, attaching may be required in order to attach a stirring utensil, such as a spoon or whisk, to a handle or other device.
+
+Coating: This skill involves the ability to cover a surface or object with a thin layer of a substance. In the context of stirring, coating may be required in order to evenly distribute a coating of a substance over the surface of the mixture being stirred.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Stir them.'?
-
+To perform the action "stir them," you do not need any specific skills from the list of skills you provided.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Stir them.'?
+Turning: You will likely need to use your wrist and arm to turn a spoon or other implement in a circular motion in order to stir the ingredients.
+Holding: You will need to hold the implement securely in your hand in order to control it while stirring.
+Using: You will need to use the implement in a specific way, moving it through the ingredients in a specific pattern, in order to effectively stir them.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Stir them.'?
+Hand-eye coordination: This skill involves the ability to coordinate the movement of your hands with the movements of your eyes. Stirring requires you to manipulate a utensil with your hand while visually tracking the movement of the utensil and the substance being stirred.
 
+Fine motor skills: Fine motor skills involve the precise control and movement of small muscles, such as those in the hand and fingers. Stirring requires you to use a utensil with a small handle and to move it in a controlled manner in order to mix ingredients together.
+
+Strength and endurance: Depending on the substance being stirred and the size and weight of the utensil being used, stirring may require some level of physical strength and endurance. For example, stirring a large pot of soup with a heavy spoon may require more strength and endurance than stirring a small bowl of icing with a lightweight whisk.
+
+Balance: Stirring may require you to maintain your balance while standing in one place or while moving around a kitchen. This skill is especially important if you are stirring something on a stovetop and need to keep your body steady while leaning over the pot.
+
+Coordination: Coordination involves the ability to smoothly and efficiently move different parts of your body in unison. Stirring may require you to coordinate the movement of your hands and arms with the movement of your body.
+
+Dexterity: Dexterity refers to the ability to use your hands skillfully and gracefully. Stirring may require you to use your hands and fingers in a precise and controlled manner in order to manipulate the utensil and mix ingredients together effectively.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Stir them.'?
+Adjusting: You may need to adjust the position of the utensil or your grip on it to effectively stir the ingredients.
 
+Checking: You may need to check the consistency of the ingredients as you stir to ensure that they are being evenly mixed.
+
+Looking: You may need to look at the ingredients as you stir to ensure that they are being evenly mixed and to identify any lumps or clumps that may need to be broken up.
+
+Measuring: Depending on the recipe you are following, you may need to measure out specific amounts of ingredients to add to the mixture as you stir.
+
+Increasing: You may need to increase the speed or intensity of your stirring if the ingredients are not mixing evenly.
+
+Waiting: You may need to wait for the ingredients to cook or soften before continuing to stir.
+
+Lowering: You may need to lower the heat or reduce the amount of time you are stirring if the ingredients are cooking too quickly or starting to stick to the pan.
+
+Unfreezing: If the ingredients include frozen items, you may need to unfreeze them before stirring.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Stir them.'?
-
+The skills of patting, eating, feeling, drinking, and smelling are not directly related to the action of stirring.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Stir them.'?
-
+The skills of applying, sprinkling, spraying, and seasoning are not directly related to the action of stirring.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Stir them.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Scooping: This involves using a spoon or other utensil to transfer the milk and oil from a container to the mixing bowl.
 
+Lifting: This involves using your hands or a utensil to lift the milk and oil container and move it to the mixing bowl.
+
+Mixing: This involves using a spoon, whisk, or other utensil to combine the ingredients in the mixing bowl until they are evenly distributed.
+
+Choosing: This involves selecting the appropriate utensils and containers for the task at hand.
+
+Gathering: This involves collecting all of the necessary ingredients and utensils before beginning the task.
+
+Taking: This involves removing the milk and oil from their respective containers and transferring them to the mixing bowl.
+
+Removing: This involves discarding any lumps that may form during the mixing process.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
-
+Putting: You will need to put the milk and oil into the mixture.
+Mixing: You will need to mix the ingredients together, either by stirring or using a mixer.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
-
+It is not necessary to have any of the other skills listed (washing, drying, scraping, scrubbing, rubbing, soaking, or brushing) to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
-
+To perform the task of "Adding in the milk and oil, then mixing," you do not need any specific skills from the list of '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]'.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Closing: This skill involves the ability to close containers or lids securely, ensuring that the contents do not spill out.
 
+Wrapping: This skill involves the ability to wrap ingredients or food items in a manner that keeps them fresh and protected.
+
+Rolling: This skill involves the ability to roll dough or other ingredients into a specific shape or size using your hands or a rolling pin.
+
+Locking: This skill involves the ability to lock containers or lids in place, either using a physical lock or a seal.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Pouring: This involves transferring a liquid from one container to another using a container with a spout or opening.
 
+Mixing: This involves combining two or more substances together until they are evenly distributed.
+
+Filling: This involves adding a substance to a container until it is full or until a desired level is reached.
+
+Adding: This involves adding a substance to a mixture or other substance.
+
+Attaching: This involves connecting one thing to another using a fastener or adhesive.
+
+Coating: This involves applying a layer of a substance to a surface.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
-
+Mixing: This involves combining ingredients together using a spoon, whisk, or other utensil.
+Filtering: This involves separating out any lumps or solid particles from the mixture, which may be done using a sieve or other strainer.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Holding: This involves being able to hold and manipulate the ingredients, such as the milk and oil, as well as any tools or utensils needed for the task.
 
+Pour/transfer: This involves being able to pour the milk and oil into the mixing bowl.
+
+Mixing: This involves being able to combine the ingredients by stirring or using a mixing tool, such as a whisk or electric mixer.
+
+Controlling the strength of the mixing: This involves being able to adjust the strength of the mixing so that the ingredients are well combined, but not overmixed.
+
+Knowing what "lumps" look like: This involves being able to recognize when there are lumps in the mixture, and understanding that this is normal and acceptable.
+
+Following instructions: This involves being able to understand and follow the written or verbal instructions provided for the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Moving: You will need to move the ingredients (milk and oil) to the mixing bowl and position them in a way that allows you to easily add them to the mixture.
 
+Transitioning: You will need to smoothly transition between adding in the milk and oil and mixing them into the mixture.
+
+Carrying: You may need to carry the ingredients or the mixing bowl to and from the kitchen counter or other surface where you are working.
+
+Measuring: You may need to measure out the correct amount of milk and oil to add to the mixture.
+
+Mixing: You will need to use a spoon or other utensil to mix the ingredients together.
+
+Attention to detail: It is important to pay attention to the instructions and follow them carefully to ensure that the mixture is properly mixed and there are no lumps.
+
+Physical dexterity: You may need to use your hands to pour the ingredients and mix them together, so having good hand-eye coordination and fine motor skills can be helpful.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Adjusting: You may need to adjust the amount of milk and oil you add based on the recipe or your personal preferences.
 
+Checking: You should check the recipe or instructions to make sure you are adding the correct amount of milk and oil.
+
+Looking: You should look at the mixture to make sure the milk and oil are being properly incorporated.
+
+Measuring: You will need to measure the milk and oil to ensure you are adding the correct amount.
+
+Increasing: You may need to increase the amount of milk or oil you add if the mixture is too dry or thick.
+
+Lowering: You may need to lower the amount of milk or oil you add if the mixture is too wet or thin.
+
+Waiting: You may need to wait for the mixture to thicken or set before proceeding with the next step.
+
+Unfreezing: If you are using frozen milk or oil, you may need to unfreeze it before adding it to the mixture.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Feeling: This skill might be required to determine the texture and consistency of the mixture as it is mixed, for example, to ensure that all of the ingredients are fully incorporated and that there are no lumps.
 
+Smelling: This skill might be useful for detecting any changes in the aroma of the mixture as the ingredients are added and mixed, but it is not essential for the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Applying: This skill involves the ability to add the ingredients to the mixture in a controlled and precise manner.
 
+Sprinkling: This skill involves the ability to evenly distribute small amounts of an ingredient over a surface or mixture.
+
+Spraying: This skill involves the ability to evenly distribute small amounts of an ingredient using a spray bottle or similar device.
+
+Seasoning: This skill involves the ability to add flavor to a dish by using small amounts of herbs, spices, or other seasonings.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Add in the milk and oil, then mix. (There might be some lumps, but that is ok.).'?
+Folding: This involves gently incorporating one ingredient into another without losing volume or deflating the mixture. In this case, you will need to fold in the milk and oil.
 
+Sorting: This involves organizing and separating items into categories or groups. In this case, you will need to sort the ingredients and make sure that the milk and oil are properly mixed into the rest of the ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
-
+Taking: This involves using your hands or utensils to pick up the marinara sauce and move it to where you want it to go.
+Removing: This may involve removing the marinara sauce from its container or packaging.
+Scooping: This involves using a spoon or similar utensil to scoop up the marinara sauce.
+Lifting: This involves using your muscles to lift the marinara sauce and move it to where you want it to go.
+Gathering: This involves collecting the marinara sauce and bringing it together in one place.
+Choosing: This may involve selecting the marinara sauce from among a selection of other sauces or ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
+Taking: This involves being able to pick up and hold onto an object, such as the marinara sauce.
 
+Spreading: This involves being able to evenly distribute a substance, such as the marinara sauce, over a surface.
+
+Manipulating objects: This involves being able to control the movement of objects, such as using a utensil to spread the marinara sauce over the surface of the batter.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
-
+None of the skills listed are required to perform the task of spreading marinara sauce on the surface of a batter.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
-
+These skills do not require any of the skills listed in the question, such as opening, unrolling, unscrewing, uncovering, unwrapping, switching, or unlocking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?

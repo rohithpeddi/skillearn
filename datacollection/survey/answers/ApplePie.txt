@@ -2008,62 +2008,140 @@ Smelling: You may use this skill to assess the aroma of the crumble top and to e
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Applying: This involves using a spoon or spatula to carefully apply the crumble top over the top of the pie filling in an even layer.
 
+Sprinkling: Depending on the consistency of the crumble top, you may need to sprinkle it over the filling using your fingers or a spoon.
+
+Spraying: If the crumble top is very crumbly and difficult to apply evenly, you may need to spray it with a mist of water or another liquid to help it stick together and adhere to the filling.
+
+Seasoning: If the crumble top includes ingredients such as sugar, spices, or herbs, you may need to use your sense of taste to determine if the seasoning is balanced and to make any necessary adjustments.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Basic motor skills: This task involves using your hands to take the crumble top from the bowl and place it on top of the pie.
 
+Attention to detail: This task requires paying attention to the details of the recipe and ensuring that you are adding the crumble top to the pie as directed.
+
+Follow instructions: This task involves following the instructions of the recipe, which may include specific instructions for how to add the crumble top to the pie.
+
+Basic measuring skills: Depending on the recipe, you may need to measure out the crumble top ingredients or ensure that you are using the correct amount of crumble top for the size of the pie.
+
+Basic culinary skills: This task may require some basic culinary skills, such as knowing how to mix ingredients together to create a crumble top and how to properly handle and manipulate food.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave for 5 minutes and take the pie out'?
+Taking: You will need to take the pie out of wherever it is stored and place it in the microwave.
 
+Lifting: Depending on the size and weight of the pie, you may need to lift it to get it into the microwave.
+
+Choosing: You will need to choose the appropriate settings on the microwave, such as the time and power level, to ensure that the pie is cooked properly.
+
+Gathering: You will need to gather any necessary utensils, such as a microwave-safe dish or plate, to hold the pie while it is microwaved.
+
+Scooping: After the pie has finished microwaving, you will need to use a utensil, such as a spoon or spatula, to scoop it out of the microwave and onto a plate or serving dish.
+
+Removing: Once the pie has been scooped out of the microwave, you will need to remove it from the microwave and place it on a suitable surface, such as a countertop or table, to be served.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave for 5 minutes and take the pie out'?
-
+Putting: You will need to put the pie into the microwave.
+Setting the timer: You will need to set the timer on the microwave to 5 minutes.
+Throwing: You will need to throw away any packaging or materials that the pie came in.
+Hanging: You may need to hang a towel or oven mitt on a hook near the microwave to use for taking the hot pie out of the microwave.
+Dropping: You may need to drop the pie onto a plate or serving dish after taking it out of the microwave.
+Serving: You may need to slice and serve the pie once it has cooled slightly.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave for 5 minutes and take the pie out'?
-
+None of the skills listed are required to perform the task of microwaving a pie for 5 minutes and taking it out.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave for 5 minutes and take the pie out'?
-
+Opening: You will need to open the microwave door in order to put the pie inside.
+Uncovering: If the pie is covered or wrapped in any way, you will need to remove the covering before microwaving it.
+Switching: You will need to turn the microwave on and set it to the appropriate time and power level for cooking the pie.
+Unlocking: Some microwaves have a lock feature that prevents them from being turned on. If your microwave has this feature, you will need to unlock it before using it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave for 5 minutes and take the pie out'?
-
+Closing: You will need to close the microwave door to start the cooking process.
+Wrapping: Depending on the type of pie you are microwaving, you may need to wrap it in plastic wrap or aluminum foil to prevent it from drying out or splattering.
+Rolling: You may need to use a rolling pin to flatten the crust or dough if it is too thick or uneven.
+Locking: If your microwave has a child lock or safety lock feature, you will need to unlock it before starting the microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Microwave for 5 minutes and take the pie out'?
+Pouring: This may be required if the pie needs to be transferred from a container or dish to the microwave-safe container or dish.
 
+Mixing: This may be required if the pie filling needs to be mixed before it is placed in the microwave-safe container or dish.
+
+Filling: This may be required if the pie needs to be filled with a filling before it is microwaved.
+
+Adding: This may be required if the pie needs to have additional ingredients or toppings added before it is microwaved.
+
+Attaching: This may be required if the pie needs to have a cover or lid attached before it is microwaved.
+
+Coating: This may be required if the pie needs to be coated with a liquid or other substance before it is microwaved.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Microwave for 5 minutes and take the pie out'?
-
+None of the skills listed are required to perform the task of microwaving a pie for 5 minutes and taking it out.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave for 5 minutes and take the pie out'?
-
+Setting: Setting the time on the microwave
+Using: Using the microwave controls to start and stop the microwave
+Holding: Holding the pie and the plate or dish it is on securely
+Turning: Turning the plate or dish if the microwave has a turntable
+Pulling: Pulling the door of the microwave open and closed
+Pressing: Pressing the controls on the microwave
+Flipping: Flipping the dish or plate if it is not level
+Cooking: Monitoring the pie and ensuring that it is cooking evenly
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Microwave for 5 minutes and take the pie out'?
+Moving: You will need to be able to move your hand or arm to reach and open the microwave door, as well as to place the pie inside the microwave.
 
+Transitioning: You will need to be able to transition between different tasks, such as setting the timer, starting the microwave, and checking on the pie.
+
+Carrying: You will need to be able to carry the pie from wherever it is located to the microwave, and then from the microwave to wherever you will be serving it or storing it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Microwave for 5 minutes and take the pie out'?
+Adjusting: You will need to adjust the microwave settings to cook the pie for 5 minutes.
+
+Checking: You will need to check the microwave timer to ensure that the pie is cooked for the correct amount of time.
+
+Looking: You will need to look at the pie to see if it is cooked to your desired level of doneness.
+
+Measuring: You will need to measure the time in minutes to ensure that you microwave the pie for the correct amount of time.
+
+Waiting: You will need to wait for the pie to cook in the microwave for the specified amount of time.
+
+Lowering: You may need to lower the pie into the microwave or take it out of the microwave using oven mitts or a potholder to prevent burns.
+
+Unfreezing: If the pie is frozen, you may need to use the microwave to thaw it before cooking.
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Microwave for 5 minutes and take the pie out'?
+Patting: You may need to pat the pie with a paper towel to remove any excess moisture before microwaving it.
 
+Eating: You should be able to recognize when the pie is finished cooking based on how it looks and smells.
+
+Feeling: You should be able to use your sense of touch to determine if the pie is hot enough to handle safely.
+
+Drinking: You may need to use a beverage to cool your mouth if the pie is too hot to eat.
+
+Smelling: You should be able to use your sense of smell to determine if the pie is done cooking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Microwave for 5 minutes and take the pie out'?
-
+It appears that you are listing a set of skills that are unrelated to the task of microwaving a pie for 5 minutes and taking it out.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Microwave for 5 minutes and take the pie out'
-
+Folding and sorting skills are not directly required for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
