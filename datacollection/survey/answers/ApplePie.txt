@@ -1603,159 +1603,408 @@ Smelling: You may use your sense of smell to determine whether the filling has b
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
+Applying: This involves the ability to apply the filling evenly over the crust, using a utensil or spoon to spread it out.
 
+Sprinkling: Depending on the recipe, you may need to sprinkle additional ingredients over the filling, such as cheese or herbs. This requires the ability to measure out and sprinkle ingredients evenly.
+
+Spraying: If the recipe calls for spraying the surface of the filling with cooking spray or oil, you will need to be able to use a spray bottle or oil mister to apply the spray evenly.
+
+Seasoning: Depending on the recipe, you may need to season the filling with salt, pepper, or other spices before adding it to the crust. This requires the ability to measure out and mix in the seasonings as needed.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Add the filling (from the microwave) on top of the crust.'?
-
+The skills of folding and sorting are not directly related to the task of adding filling on top of a crust.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
-
+Taking: You will need to take the measuring cups and spoons, as well as the ingredients themselves (brown sugar, flour, and quick oats), and place them within reach.
+Scooping: You will need to use a measuring cup or spoon to scoop out the correct amount of each ingredient and place it in the bowl.
+Lifting: You will need to lift the bowl and ingredients as you measure and add them to the bowl.
+Gathering: You will need to gather all of the ingredients and tools you need to complete the task before you begin.
+Choosing: You will need to choose the appropriate measuring cup or spoon for each ingredient, as well as choose the correct amount of each ingredient to add to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Putting: You will need to be able to put the measured ingredients into the bowl.
 
+Measurement: You will need to be able to use measuring cups or scales to accurately measure the ingredients.
+
+Attention to detail: You will need to pay attention to the specific quantities of each ingredient specified in the recipe and make sure you measure them correctly.
+
+Basic math: You will need to be able to do basic arithmetic to convert measurements if necessary (e.g., if the recipe calls for 1/2 cup of flour but you only have a 1/3 cup measure).
+
+Basic reading comprehension: You will need to be able to understand the instructions and follow them correctly.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Washing: You may need to wash your hands and any utensils or containers you will be using before beginning the task.
 
+Drying: You may need to dry your hands and any utensils or containers you have washed before beginning the task.
+
+Scraping: You may need to scrape the ingredients out of containers or bags and into measuring cups or spoons.
+
+Scrubbing: You may need to scrub any utensils or containers that you have used before beginning the task.
+
+Rubbing: You may need to rub any ingredients together to combine them.
+
+Soaking: You do not need to soak any ingredients for this task.
+
+Brushing: You do not need to brush any ingredients for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Opening: The ability to open containers or packages in order to access the ingredients being used.
 
+Unrolling: The ability to unroll a measuring tape or ruler in order to measure the ingredients.
+
+Unscrewing: The ability to unscrew the lid of a container in order to access the ingredient inside.
+
+Uncovering: The ability to remove a lid or cover from a container in order to access the ingredient inside.
+
+Unwrapping: The ability to remove any packaging or wrapping from an ingredient in order to use it.
+
+Switching: The ability to switch between different measuring cups or spoons in order to measure different ingredients.
+
+Unlocking: If the containers being used have locks or seals that need to be opened, the ability to unlock them may be required.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Closing: This skill involves being able to securely close containers or packages after opening them. This could be important if you need to measure out ingredients from containers that have been previously opened.
 
+Wrapping: This skill involves being able to properly wrap or cover items, such as food or containers. This could be useful if you need to store the ingredients after measuring them out.
+
+Rolling: This skill involves being able to roll dough or other materials into a specific shape or size. While this skill is not directly related to the task of measuring and mixing ingredients, it may be useful if you plan to use the ingredients to make a recipe that involves rolling dough.
+
+Locking: This skill involves being able to securely lock or fasten something, such as a container or a lock. This could be useful if you need to store the ingredients in a container with a lid that needs to be locked to keep the contents fresh.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Pouring: You will need to be able to pour the ingredients from their containers into measuring cups or spoons.
 
+Mixing: You will need to be able to mix the ingredients together in the bowl using a spoon or other utensil.
+
+Filling: You will need to be able to accurately measure and fill the measuring cups or spoons with the required amounts of each ingredient.
+
+Adding: You will need to be able to add the measured ingredients to the bowl, one at a time.
+
+Attaching: You may need to attach measuring cups or spoons to a container or utensil in order to measure the ingredients.
+
+Coating: Depending on the recipe, you may need to coat the ingredients in the bowl with a liquid or another ingredient.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
-
+Shaking: This may be required to evenly distribute the ingredients in the measuring cup or bowl.
+Squeezing: This may be required to level off the ingredients in the measuring cup or spoon.
+Pressing: This may be required to press the ingredients down into the measuring cup or spoon to get an accurate measurement.
+Flipping: This may be required to turn the measuring cup or spoon over to pour the ingredients into the bowl.
+Turning: This may be required to turn the measuring cups or spoons to get an accurate measurement.
+Pulling: This may be required to pull out a measuring cup or spoon from a drawer or cupboard.
+Holding: This may be required to hold the measuring cups or spoons while measuring the ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Moving: The ability to move and manipulate objects, such as measuring cups and bowls, may be necessary to complete this task.
 
+Transitioning: The ability to move smoothly and efficiently from one task to another, such as measuring one ingredient and then moving on to the next, may be important in order to complete the task efficiently.
+
+Carrying: The ability to pick up and carry objects, such as a bowl or measuring cups, may be necessary in order to move them to different locations as needed.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Adjusting: This might involve adjusting the measuring cups or spoons to the appropriate quantities for each ingredient.
 
+Checking: This might involve checking the labels on the containers of the ingredients to ensure you have the correct type and quantity of each ingredient.
+
+Looking: You will need to look at the measuring cups and spoons to ensure that you are using the correct size and that the ingredients are level with the measuring marks.
+
+Measuring: This is a key skill for this task, as it involves accurately measuring out the correct quantities of each ingredient using measuring cups and spoons.
+
+Increasing: If the recipe calls for more of a particular ingredient than you have already measured, you will need to increase the quantity by measuring out additional portions.
+
+Waiting: Depending on the recipe, you may need to wait for one ingredient to be fully incorporated into the mixture before adding the next.
+
+Lowering: If you are using a mixer or other equipment to combine the ingredients, you may need to lower the mixer into the bowl or lower the bowl onto the mixer to ensure proper mixing.
+
+Unfreezing: If any of the ingredients are frozen, you may need to unfreeze them before measuring and adding them to the mixture.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Measuring: This task requires the ability to accurately measure out the specified amounts of each ingredient using measuring cups or spoons.
 
+Pouring: This task requires the ability to pour the measured ingredients into a bowl.
+
+Stirring: This task may require the ability to stir the ingredients together using a spoon or other utensil.
+
+Seeing: This task requires the ability to visually observe the ingredients and the quantities being measured.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Applying: You will need to apply the correct measuring tools (e.g. measuring cups or spoons) to measure the correct amounts of each ingredient.
 
+Sprinkling: You will need to sprinkle the measured ingredients into the bowl, making sure to distribute them evenly.
+
+Spraying: Depending on the recipe, you may need to use a cooking spray or similar to coat the bowl before adding the ingredients.
+
+Seasoning: If the recipe calls for any additional seasonings or spices, you will need to measure and add those as well.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure brown sugar (1 cup ), flour (1/2 cup ), and quick oats (1/2 cup) and put the ingredients mentioned above into a bowl.'?
+Folding: This skill may be useful in scooping out the ingredients from their containers and transferring them to a measuring cup or spoon.
 
+Sorting: This skill may be helpful in organizing the ingredients and separating them into individual measuring cups or spoons before adding them to the bowl.
+
+Measuring: This skill involves accurately determining the amount of an ingredient needed for a recipe. It may involve using measuring cups or spoons, or using a kitchen scale to weigh ingredients.
+
+Following instructions: This skill involves reading and understanding the instructions for a recipe, and carrying out each step in the correct order.
+
+Attention to detail: This skill involves paying close attention to the details of the task at hand, such as ensuring that the correct amount of each ingredient is measured and added to the bowl.
+
+Basic math skills: This skill may involve simple arithmetic, such as adding or dividing measurements, or converting between different units of measurement (e.g. cups, tablespoons, ounces).
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
-
+Taking: You will need to take the cold butter out of the fridge or pantry.
+Scooping: You will need to use a spoon or other utensil to scoop the butter out of its container.
+Choosing: You will need to choose the appropriate utensil for scooping the butter.
+Lifting: You will need to lift the utensil with the butter in it and move it to the bowl.
+Gathering: You will need to gather the butter together in the utensil so that it can be transferred to the bowl.
+Removing: You will need to remove the utensil from the butter once it is in the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
+Cutting: The ability to use a knife or other cutting implement to cut the cold butter into smaller pieces.
 
+Putting: The ability to place the cut butter into the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
-
+None of the skills listed are necessary to perform the task of cutting cold butter and placing it in a bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
+None of the skills listed - 'Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking' - are directly related to the task of cutting cold butter and placing it in a bowl.
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
+Closing: This refers to the ability to close or seal something securely. In this case, you may need to close the container of butter before you begin cutting it.
 
+Wrapping: Wrapping involves enclosing something in a covering or material, such as plastic wrap. You may need to wrap the butter in plastic wrap before cutting it if it is very hard.
+
+Rolling: Rolling involves moving something by rotating it along a surface. You may need to roll the butter with a rolling pin to soften it before cutting it.
+
+Locking: Locking involves securing something in place using a lock or other mechanism. You may need to lock the blade of a knife in place before using it to cut the butter.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
-
+Cutting: This involves using a sharp tool (such as a knife) to slice through the cold butter.
+Pouring: This involves transferring the butter from a container (such as a package or tub) into the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
+Cutting: To cut the cold butter into smaller pieces, you will need to use a sharp knife to slice the butter.
 
+Stabbing: Depending on the consistency of the butter, you may need to use the tip of the knife to pierce the butter and help cut it into smaller pieces.
+
+Dividing: You may need to divide the butter into smaller pieces to make it easier to cut and measure out 1/2 cup.
+
+Grating: If the butter is very hard and difficult to cut, you may need to use a grater to shave off thin slices of butter.
+
+Crushing: If the butter is already in small pieces, you may need to use a fork or a pastry cutter to crush the butter into smaller pieces.
+
+Peeling: If the butter is wrapped in paper or foil, you may need to peel off the wrapping before cutting the butter.
+
+Emptying: If the butter is stored in a container, you may need to empty the contents into a bowl before cutting the butter.
+
+Breaking: If the butter is in a block or stick form, you may need to break it into smaller pieces before cutting it.
+
+Filtering: If the butter is mixed with other ingredients, you may need to filter out the butter to ensure you are only cutting the desired amount.
+
+Ripping: If the butter is wrapped in paper or foil, you may need to rip off the wrapping before cutting the butter.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
-
+Cutting: The ability to use a sharp implement, such as a knife, to cut the cold butter into smaller pieces.
+Holding: The ability to hold and manipulate the butter and the knife.
+Setting: The ability to place the cut butter pieces into a bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
+Moving: This skill involves the ability to move your hands and arms in a controlled and precise manner, which is necessary for using a knife to cut the butter into small pieces.
 
+Transitioning: This skill involves the ability to move smoothly and efficiently from one task or activity to another, which is necessary for transitioning from cutting the butter to placing it in the bowl.
+
+Carrying: This skill involves the ability to hold and transport objects safely and securely, which is necessary for carrying the butter from where it is being cut to the bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
+Adjusting: You may need to adjust your grip on the knife or the position of the butter to get a clean cut.
 
+Checking: You should check to make sure that you have the correct amount of butter and that it is cold enough to cut.
+
+Looking: You will need to look at the butter and the bowl to ensure that you are accurately cutting and placing the butter.
+
+Measuring: You will need to measure out 1/2 cup of butter.
+
+Increasing: You may need to apply more pressure to the knife if the butter is particularly hard.
+
+Lowering: You will need to lower the butter into the bowl after you have cut it.
+
+Waiting: You may need to wait for the butter to harden slightly if it is too soft to cut.
+
+Unfreezing: If the butter is frozen, you may need to thaw it slightly before you can cut it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
-
+Patting: You will need to pat the cold butter with your fingers to soften it slightly, which will make it easier to cut.
+Feeling: You will need to use your sense of touch to feel the texture of the butter and determine when it is soft enough to cut.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
+Applying: This refers to the ability to use a tool or technique in a specific way to achieve a desired result. In this case, you would need to apply the appropriate cutting technique to cut the cold butter into small pieces.
 
+Sprinkling: This refers to the ability to evenly distribute small amounts of a substance over a surface. In this case, you would need to sprinkle the small pieces of butter evenly over the surface of the bowl.
+
+Spraying: This refers to the ability to use a device to disperse a liquid or other substance in the form of a fine mist or spray. This skill is not required to perform the task described.
+
+Seasoning: This refers to the act of adding salt, herbs, spices, or other flavorings to food to enhance its taste. This skill is not required to perform the task described.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Cut the cold butter (1/2 cup) and put it in the bowl.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Scooping: You will need to use a spoon or spatula to scoop the crumble top mixture from the bowl and onto the pie.
 
+Lifting: You will need to lift the bowl containing the crumble top mixture and move it to the pie.
+
+Gathering: You will need to gather small amounts of the crumble top mixture using the spoon or spatula and place them on top of the pie.
+
+Choosing: You may need to choose the best technique for evenly distributing the crumble top mixture on the pie.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Putting: This skill involves placing or setting something down gently or carefully. You may need to use this skill to carefully add the crumble top to the pie without disturbing the crust or filling.
 
+Serving: This skill involves portioning out and serving food. You may need to use this skill to carefully portion out the crumble top and distribute it evenly over the top of the pie.
+
+Dropping: This skill involves letting go of something so that it falls. You may need to use this skill to carefully release the crumble top onto the top of the pie.
+
+Hanging: This skill involves suspending something from above. It is not likely that this skill would be required to perform the task of adding the crumble top to the pie.
+
+Throwing: This skill involves propelling something through the air with force. It is not likely that this skill would be required to perform the task of adding the crumble top to the pie.
+
+Inserting: This skill involves putting something into something else. It is not likely that this skill would be required to perform the task of adding the crumble top to the pie.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Washing: Washing your hands before handling the food can help ensure that it is clean and hygienic.
 
+Drying: If the crumble top is wet or damp, it may be helpful to dry it off before adding it to the pie to prevent the pie from becoming soggy.
+
+Scraping: If the crumble top is in a bowl, you may need to use a utensil such as a spoon or spatula to scrape it out of the bowl and onto the pie.
+
+Scrubbing: If the crumble top is dirty or has debris on it, you may need to scrub it clean before adding it to the pie.
+
+Rubbing: If the crumble top is dry and crumbly, you may need to rub it between your fingers or use a utensil to break it up into smaller pieces before adding it to the pie.
+
+Soaking: If the crumble top is very dry, you may need to soak it in a liquid such as water or milk before adding it to the pie to help it adhere to the filling.
+
+Brushing: If the crumble top is dry, you may need to brush it with a liquid such as butter or egg wash to help it stick to the filling and crust of the pie.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
-
+Uncovering: If the pie has a cover or lid, you may need to uncover it to access the filling.
+Opening: You may need to open the container or packaging that holds the crumble top in order to access it.
+Switching: You may need to switch between different utensils or tools, such as a spoon or spatula, to add the crumble top to the pie.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Closing: You may need to use the skill of closing to carefully and securely place the crumble top onto the pie. This could involve gently pressing down on the crumble to ensure that it adheres to the filling and crust.
 
+Wrapping: If you are using a crumble recipe that involves rolling out the crumble mixture into a flat sheet or dough, you may need to use the skill of wrapping to cover the pie with the crumble. This could involve carefully draping the crumble over the top of the pie and gently pressing it into place.
+
+Rolling: If you are using a crumble recipe that involves rolling out the crumble mixture into a flat sheet or dough, you may need to use the skill of rolling to create an even layer of crumble that covers the top of the pie. This could involve rolling out the crumble mixture with a rolling pin or other kitchen tool.
+
+Locking: Depending on the recipe, you may need to use the skill of locking to ensure that the crumble top stays in place on the pie. This could involve using your fingers or a fork to create a decorative pattern on the surface of the crumble, or using a sharp knife to cut through the crumble and create a seal around the edges of the pie.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Pouring: You will need to be able to pour the crumble topping from the bowl onto the pie.
 
+Mixing: You may need to mix the ingredients for the crumble topping together before pouring it onto the pie.
+
+Filling: You will need to be able to fill the pie with the crumble topping, making sure to evenly distribute it across the top of the pie.
+
+Adding: You will need to be able to add the crumble topping to the pie.
+
+Attaching: You may need to attach the crumble topping to the pie, using your fingers or a utensil to press it down onto the top of the pie.
+
+Coating: You will need to be able to coat the top of the pie with the crumble topping, ensuring that it is evenly distributed and completely covers the top of the pie.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Cutting: You may need to cut the crumble top into small pieces or crumble it further before adding it to the pie.
 
+Emptying: You may need to empty the crumble top from the bowl into a separate container or directly onto the pie.
+
+Breaking: You may need to break the crumble top into smaller pieces or crumble it further before adding it to the pie.
+
+Filtering: Depending on the recipe, you may need to filter out any large pieces of crumble top that may have formed.
+
+Grating: If the crumble top is in large pieces, you may need to grate it into smaller pieces before adding it to the pie.
+
+Stabbing: Depending on the recipe, you may need to use a fork or other utensil to gently press the crumble top into the pie filling.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
-
+Holding: You will need to hold the bowl of crumble topping in one hand while adding it to the pie with the other hand.
+Flipping: You may need to flip the bowl of crumble topping upside down to pour it onto the pie.
+Stretching: Depending on the size of the pie dish, you may need to stretch the crumble topping to cover the entire surface of the pie.
+Pressing: You may need to press the crumble topping gently onto the pie filling to ensure it sticks.
+Finishing: Adding the crumble topping is the final step in preparing the pie, so you will need to ensure that it is done neatly and evenly.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Moving: You will need to be able to move your hands and arms to reach the bowl of crumble top and the pie. You may also need to move your body to get into a comfortable position to reach both the bowl and the pie.
 
+Transitioning: You will need to be able to smoothly transition the crumble top from the bowl to the pie, without spilling or dropping any of it. This may require a combination of hand-eye coordination and fine motor skills.
+
+Carrying: You will need to be able to carry the bowl of crumble top to the pie without spilling or dropping it. This may require you to use proper lifting techniques and to have good balance and coordination.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Adjusting: You may need to adjust the position of the pie or the bowl of crumble topping in order to reach them easily and add the topping to the pie.
 
+Checking: You will need to check the pie to make sure it has a crust and filling before adding the crumble topping.
+
+Looking: You will need to look at the pie and the bowl of crumble topping in order to locate them and determine how much topping to add to the pie.
+
+Measuring: Depending on the recipe, you may need to measure out the correct amount of crumble topping to add to the pie.
+
+Increasing: If you need to add more crumble topping to the pie than you initially thought, you will need to increase the amount of topping you are using.
+
+Waiting: You may need to wait for the pie to cool or the crumble topping to be prepared before adding it to the pie.
+
+Lowering: You will need to lower the crumble topping onto the pie, being careful not to spill or drop any of it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
+Patting: You will need to use this skill to evenly pat the crumble top onto the top of the pie.
 
+Eating: You will not need to use this skill in order to complete this task.
+
+Feeling: You may use this skill to gauge the consistency of the crumble top and to make sure that it is evenly distributed over the top of the pie.
+
+Drinking: You will not need to use this skill in order to complete this task.
+
+Smelling: You may use this skill to assess the aroma of the crumble top and to ensure that it is fresh and ready to be added to the pie.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Add the crumble top (from the bowl) to the pie (with crust and filling).'?
