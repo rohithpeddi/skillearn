@@ -142,6 +142,9 @@ Choosing: You will need to choose which ramekin or custard cup to use for the ta
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Putting: The ability to carefully and accurately place the Canadian bacon in the ramekin or custard cup without disturbing the shape or arrangement of the bacon.
+
+Inserting: The ability to insert the Canadian bacon into the ramekin or custard cup, ensuring that it fits snugly and is positioned correctly.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
@@ -150,50 +153,122 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Opening: you may need to open the package of Canadian bacon.
+
+Uncovering: You may also need to use the skill of uncovering if the bacon is covered or wrapped in any way.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Wrapping: You may need to wrap the Canadian bacon around the sides of the ramekin or custard cup if it is too large to fit on the bottom.
+
+Rolling: You may need to roll the Canadian bacon if it is too thin to lay flat in the bottom of the ramekin or custard cup.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Filling: You will need to fill the bottom of the ramekin or custard cup with the Canadian bacon.
+
+Adding: You will need to add the Canadian bacon to the bottom of the ramekin or custard cup.
+
+Attaching: Depending on the size and shape of the Canadian bacon, you may need to attach it to the bottom of the ramekin or custard cup by pressing it down or shaping it to fit.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Cutting: Depending on the size of the Canadian bacon, you may need to use a knife to cut it into pieces that will fit in the ramekin or custard cup.
+
+Peeling: If the Canadian bacon is wrapped in plastic or some other packaging, you will need to remove it before placing it in the ramekin or custard cup.
+
+Breaking: You may need to use your fingers or a utensil to break the Canadian bacon into smaller pieces or to separate it into individual slices.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Holding: You will need to be able to hold the Canadian bacon in your hand in order to place it in the ramekin.
+
+Turning: You may need to turn the ramekin or custard cup to ensure that the Canadian bacon is placed evenly on the bottom.
+
+Setting: You will need to be able to set the Canadian bacon down gently on the bottom of the ramekin or custard cup without tearing or damaging it.
+
+Cooking: If you are planning to cook the Canadian bacon before placing it in the ramekin, then you will need to be able to follow a recipe and use cooking equipment such as a stove or oven.
+
+Preparing: If you need to cut the Canadian bacon into smaller pieces before placing it in the ramekin, you will need to be able to use a knife and follow basic food preparation techniques.
+
+Wearing: Depending on the task, you may need to wear protective equipment such as gloves or an apron to prevent contamination or injury.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Moving: You will need to use hand-eye coordination and fine motor skills to move the Canadian bacon from where it is currently located to the ramekin or custard cup.
+
+Transitioning: You will need to transition the Canadian bacon from your hand to the bottom of the ramekin or custard cup.
+
+Carrying: You may need to carry the Canadian bacon to the ramekin or custard cup if it is not already within easy reach.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Adjusting: You may need to adjust the position of the Canadian bacon or the ramekin or custard cup to ensure that the bacon is placed in the desired location on the bottom of the container.
+
+Checking: You may need to check the size of the ramekin or custard cup to make sure it is a 6-oz. size and that it is suitable for the task at hand.
+
+Looking: You may need to look at the Canadian bacon and the ramekin or custard cup to determine the best way to place the bacon on the bottom of the container.
+
+Searching: You may need to search for a suitable ramekin or custard cup that is the right size for the task.
+
+Measuring: You may need to measure the size of the ramekin or custard cup to ensure that it is a 6-oz. size.
+
+Lowering: You may need to lower the Canadian bacon onto the bottom of the ramekin or custard cup.
+
+Unfreezing: If the Canadian bacon is frozen, you may need to unfreeze it before placing it on the bottom of the ramekin or custard cup.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Patting: Patting may be required to gently press the Canadian bacon into place on the bottom of the ramekin or cup.
+
+Feeling: The sense of touch, or feeling, may be used to determine if the Canadian bacon is placed evenly on the bottom of the ramekin or cup, and to ensure that it is not too thick or too thin in any particular spot.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Applying: This involves using your hands or utensils to carefully place the Canadian bacon on the bottom of the ramekin or custard cup. You may need to use a small amount of pressure to ensure that the bacon is evenly distributed and sticks to the bottom of the dish.
+
+Spraying: Depending on the recipe, you may need to use a cooking spray or other type of lubricant to help the Canadian bacon stick to the bottom of the ramekin or custard cup. This would involve using a spray bottle or other device to apply a fine mist of the lubricant over the surface of the bacon.
+
+Seasoning: You may need to use a variety of seasonings, such as salt, pepper, or herbs, to add flavor to the Canadian bacon before placing it in the ramekin or custard cup. This would involve using your hands or a utensil to sprinkle the seasonings evenly over the bacon.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Folding: You will need to be able to gently fold the Canadian bacon slices so that they fit neatly into the bottom of the ramekin or custard cup.
+
+Sorting: You will need to be able to select the appropriate size of ramekin or custard cup for the task, and arrange the Canadian bacon slices in an orderly fashion within it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Pour egg substitute on top.'?
 
+Taking: This skill involves the ability to grasp and hold onto an object, in this case the container of egg substitute.
+
+Scooping: This skill involves the ability to use a spoon or other utensil to scoop out a small amount of the egg substitute.
+
+Lifting: This skill involves the ability to raise the container or utensil containing the egg substitute off the ground or surface and move it to the desired location.
+
+Pouring: This skill involves the ability to control the flow of the egg substitute as it is poured from the container or utensil.
+
+Choosing: This skill involves the ability to select the appropriate egg substitute product and container for the task at hand.
+
+Gathering: This skill involves the ability to locate and collect all of the necessary materials and tools for the task, including the egg substitute, container or utensil, and any other necessary items.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Pour egg substitute on top.'?
 
+Putting: This involves placing the egg substitute in a container or onto a surface.
+
+Inserting: This involves inserting a utensil or other object into the egg substitute, such as a spoon or spatula, in order to transfer it to a different container or surface.
+
+Throwing: This involves throwing the egg substitute, which would not be necessary for the task of pouring it on top.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Pour egg substitute on top.'?
@@ -210,22 +285,61 @@ What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Pour egg substitute on top.'?
 
+Pouring: This involves the ability to control the flow of a liquid or other substance as it is poured from a container or receptacle.
+
+Mixing: This may be necessary if the egg substitute needs to be mixed with other ingredients before being poured on top.
+
+Filling: Depending on the context, pouring the egg substitute on top may involve filling a container or receptacle to a certain level or capacity.
+
+Adding: This skill may be necessary if the egg substitute is being added to a recipe or other mixture.
+
+Attaching: If the egg substitute is being poured on top of a surface or object that requires it to be held in place, attaching the egg substitute may be necessary.
+
+Coating: If the task involves coating a surface or object with a thin layer of egg substitute, this skill may be required.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Pour egg substitute on top.'?
 
+Cutting: This skill may be useful if the egg substitute is in a container or package that needs to be opened before it can be poured.
+
+Emptying: This skill may be useful if the egg substitute is in a container or package that needs to be emptied into a separate container or onto a surface.
+
+Filtering: This skill may be useful if the egg substitute needs to be filtered or strained before it is poured.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Pour egg substitute on top.'?
 
+Holding: This involves holding the container of egg substitute in your hand and using your hand to control the pouring.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Pour egg substitute on top.'?
 
+Moving: You need to be able to move your arm and hand in order to pour the egg substitute from the container to the desired location.
+
+Transitioning: You need to be able to transition the egg substitute from the container to the pouring spout in order to pour it.
+
+Carrying: You may need to carry the container of egg substitute with you if it is not already in the desired location.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Pour egg substitute on top.'?
 
+Adjusting: The person may need to adjust the angle or height of the container holding the egg substitute in order to pour it onto the desired surface or object.
+
+Checking: The person may need to check the consistency and volume of the egg substitute to ensure that it can be poured easily and without spills.
+
+Looking: The person may need to look at the surface or object where the egg substitute is being poured in order to ensure that it is being poured in the desired location.
+
+Searching: Depending on the context, the person may need to search for the container of egg substitute or for a utensil to use for pouring.
+
+Measuring: The person may need to measure out the desired amount of egg substitute to pour.
+
+Increasing or decreasing: Depending on the desired amount of egg substitute, the person may need to adjust the flow of the pour by increasing or decreasing the pressure applied to the container.
+
+Waiting: The person may need to wait for the right moment to pour the egg substitute, such as after a cooking surface has been heated or when a recipe calls for a specific ingredient to be added at a certain point in the process.
+
+Lowering: The person may need to lower the container of egg substitute to the desired height in order to pour it onto the surface or object.
+
+Unfreezing: If the egg substitute is frozen, the person may need to unfreeze it before pouring it. This could involve microwaving it or leaving it at room temperature for a period of time.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Pour egg substitute on top.'?
@@ -234,6 +348,7 @@ What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required t
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Pour egg substitute on top.'?
 
+Applying: This skill involves being able to accurately and neatly apply a substance, in this case the egg substitute, to a surface or object.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Pour egg substitute on top.'?
@@ -242,10 +357,22 @@ What skills from '[Folding, Sorting]' are required to perform 'Pour egg substitu
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Taking: You will need to be able to take the ramekin or custard cup out of its storage location and place it in the microwave.
+
+Removing: You will need to be able to remove any lids or covers that may be on the ramekin or custard cup.
+
+Lifting: You will need to be able to lift the ramekin or custard cup and place it in the microwave.
+
+Gathering: You may need to gather any utensils or tools that you will need to complete the task, such as a spoon or microwave-safe dish.
+
+Choosing: You will need to be able to choose the appropriate power level and time settings on the microwave to cook the food for the desired amount of time.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Putting: You would need to put the ramekin or custard cup into the microwave.
+
+Stirring: You would need to stir the contents of the ramekin or custard cup after microwaving to ensure that the heat is distributed evenly.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
@@ -254,14 +381,29 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Opening: The ability to open the microwave door to place the ramekin or custard cup inside.
+
+Switching: The ability to set the microwave to the appropriate power level (high) and time (30 seconds).
+
+Unlocking: Depending on the model of microwave, it may be necessary to unlock the door or other safety features before starting the microwave.
+
+Uncovering: The ramekin or custard cup should be uncovered before being placed in the microwave.
+
+Stirring: After microwaving the ramekin or custard cup for 30 seconds, the contents should be stirred to ensure even heating.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Closing: You would need to be able to close the microwave door properly to ensure that the microwave is sealed and that the ramekin or custard cup is safely contained inside.
+
+Locking: Depending on the model of microwave you are using, you may need to lock the microwave door to prevent it from being opened during the cooking process.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Mixing: You may need to mix the contents of the ramekin or custard cup before microwaving, depending on the recipe or instructions.
+
+Filling: You will need to fill the ramekin or custard cup with the desired mixture or ingredients before microwaving.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
@@ -270,22 +412,59 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Setting: Setting the microwave to the correct time and power level
+
+Holding: Holding the ramekin or custard cup while it is being microwaved
+
+Turning: Turning the ramekin or custard cup if necessary to ensure even heating
+
+Stirring: Stirring the contents of the ramekin or custard cup after microwaving
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Moving: You will need to be able to move the ramekin or custard cup to the microwave and place it on the turntable or in a stable position inside the microwave.
+
+Transitioning: You may need to open the microwave door, place the dish inside, and close the door again.
+
+Carrying: You may need to carry the dish to the microwave, and then carry it back out after microwaving it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Adjusting: You will need to adjust the power level or cooking time on the microwave as specified in the instructions.
+
+Checking: You will need to check the progress of the microwaving by looking at the food and stirring it.
+
+Looking: You will need to visually inspect the food to determine when it is done.
+
+Measuring: You will need to measure the appropriate cooking time and power level for the microwave.
+
+Increasing: You may need to increase the cooking time if the food is not yet done after the initial 30 seconds.
+
+Waiting: You will need to wait while the food is microwaved.
+
+Lowering: If the food is cooking too quickly or becoming overcooked, you may need to lower the power level or cooking time.
+
+Unfreezing: If the food is frozen, you may need to unfreeze it before microwaving it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Feeling: This skill may be useful in determining whether the ramekin or custard cup is hot after microwaving, but it is not necessary to microwave the item.
+
+Smelling: This skill may be useful in determining whether the food in the ramekin or custard cup is cooked or burnt after microwaving, but it is not necessary to microwave the item.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
 
+Applying: This involves applying the food to be microwaved to the ramekin or custard cup.
+
+Sprinkling: If you are seasoning the food before microwaving it, you may need to sprinkle seasoning over it.
+
+Spraying: You may need to spray the ramekin or custard cup with cooking spray to prevent the food from sticking to it.
+
+Seasoning: You may need to season the food with salt, pepper, or other herbs and spices before microwaving it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.'?
@@ -294,10 +473,22 @@ What skills from '[Folding, Sorting]' are required to perform 'Microwave the ram
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Taking: This involves being able to locate the microwave and retrieve the dish containing the egg.
+
+Scooping: If the egg is in a dish with other ingredients, you may need to scoop it out and place it in a microwave-safe container.
+
+Lifting: You will need to be able to lift the dish or container containing the egg and place it in the microwave.
+
+Gathering: You will need to gather any necessary utensils or tools, such as a timer or a spoon, to help you monitor the progress of the egg as it cooks.
+
+Choosing: You will need to decide when the egg is almost set and stop microwaving it at the appropriate time.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Putting: This skill would be required to put the egg into the microwave and set it up for microwaving.
+
+Inserting: This skill would be required to insert the egg into a container or dish that is suitable for microwaving.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
@@ -306,6 +497,11 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Opening: This skill is required to open the microwave door in order to access the food inside.
+
+Switching: This skill is required to turn on the microwave and set the time for the desired length of cooking.
+
+Uncovering: This skill may be required if the egg is covered or wrapped in some way, in order to expose it to the microwave's heat.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
@@ -314,6 +510,17 @@ What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Pouring: This skill may be necessary if the egg needs to be transferred from a bowl or container to a microwave-safe dish before being microwaved.
+
+Mixing: This skill may be necessary if the egg needs to be beaten or mixed with other ingredients before being microwaved.
+
+Filling: This skill may be necessary if the egg needs to be placed in a container or dish that is not already filled with other ingredients or liquid.
+
+Adding: This skill may be necessary if additional ingredients or liquids need to be added to the egg before it is microwaved.
+
+Attaching: This skill may not be directly required for microwaving an egg, but it may be necessary to attach a microwave-safe cover or lid to the dish to prevent splatters or spills.
+
+Coating: This skill may not be directly required for microwaving an egg, but it may be necessary to coat the inside of the microwave-safe dish with cooking spray or oil to prevent the egg from sticking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
@@ -322,22 +529,60 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Setting: Setting the timer on the microwave to the desired time
+
+Using: Using the microwave to cook the egg
+
+Monitoring: Monitoring the progress of the egg as it cooks to ensure it is cooked to the desired level of doneness
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Stretching: Stretching out the time required to cook the egg to ensure it is cooked to the desired level of doneness
+
+Pulling: Pulling the egg out of the microwave when it is finished cooking
+
+Holding: Holding the egg with an oven mitt or other protective item to prevent burns
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Adjusting: The ability to adjust the microwave settings to the correct time for cooking the egg.
+
+Checking: The ability to check the progress of the egg as it cooks, and determine when it is almost set.
+
+Looking: The ability to visually observe the egg as it cooks in the microwave to determine when it is almost set.
+
+Searching: The ability to search for information or instructions on how to cook eggs in the microwave, if the individual is not familiar with the process.
+
+Measuring: The ability to measure the time in seconds, using a timer or other device, to ensure that the egg is cooked for the correct amount of time.
+
+Increasing: The ability to increase the cooking time if necessary, if the egg is not almost set after the initial 15-30 seconds.
+
+Waiting: The ability to wait patiently for the egg to cook in the microwave.
+
+Lowering: The ability to lower the microwave power level, if necessary, to prevent the egg from overcooking.
+
+Unfreezing: If the egg was frozen, the ability to unfreeze it before cooking it in the microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Feeling: This skill may be useful in determining whether the egg is almost set by gently touching it and determining its level of firmness.
+
+Smelling: This skill may be useful in determining whether the egg is fully cooked by sniffing it and detecting any unpleasant odors.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
 
+Applying: it would involve applying the technique of microwave cooking to the egg.
+
+Sprinkling: it may involve sprinkling a small amount of water over the egg before microwaving it to help prevent it from drying out.
+
+Spraying: it may involve spraying a small amount of cooking spray on the inside of the microwave-safe container to help prevent the egg from sticking.
+
+Seasoning: In this case, it may involve seasoning the egg with salt, pepper, or other herbs and spices before microwaving it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Continue to Microwave for 15-30 more seconds or until egg is almost set.'?
@@ -346,10 +591,22 @@ What skills from '[Folding, Sorting]' are required to perform 'Continue to Micro
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Taking: You will need to take the salsa and cheese, and then take a spoon or other utensil to measure out and dispense the salsa.
+
+Scooping: You will need to use the spoon or other utensil to scoop the salsa onto the top of the food.
+
+Lifting: You may need to lift the spoon or other utensil to a suitable height in order to dispense the salsa onto the top of the food.
+
+Gathering: You may need to gather the cheese in order to sprinkle it evenly over the top of the food.
+
+Choosing: You may need to choose which type of cheese to use, depending on your preferences and the recipe you are following.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Putting: You will need to be able to put or add the salsa and cheese on top of the item that you are topping. This may involve using a spoon or other utensil to measure and place the salsa and cheese.
+
+Throwing: Depending on the item that you are topping, you may need to use a throwing motion to sprinkle the cheese over the top. This could involve using your hand to flick or toss the cheese from a small distance.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
@@ -358,66 +615,170 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Opening: This skill involves the ability to open a container or packaging material, such as a jar or bag, in order to take salsa and cheese out.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Closing: This skill involves the ability to close or seal a container or packaging material, such as a jar or bag, in order to keep the contents fresh and prevent spills or leaks.
+
+Wrapping: This skill involves the ability to wrap or cover an object or food item, such as a sandwich or burrito, in order to protect or contain it.
+
+Rolling: This skill involves the ability to roll or shape an object or food item, such as dough or a piece of meat, into a cylindrical or cylindrical-like shape.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Pouring: You will need to pour the salsa onto the top of the item you are preparing.
+
+Mixing: You will need to mix the salsa and cheese together to evenly distribute them.
+
+Filling: You will need to fill the top of the item you are preparing with the salsa and cheese.
+
+Adding: You will need to add the salsa and cheese to the top of the item you are preparing.
+
+Attaching: You may need to attach the salsa and cheese to the top of the item you are preparing, depending on the consistency of the salsa and cheese and the item you are preparing.
+
+Coating: You may need to coat the top of the item you are preparing with the salsa and cheese, depending on the consistency of the salsa and cheese and the item you are preparing.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Measuring: You need to measure out 1 tablespoon of salsa.
+
+Spooning: You need to use a spoon to top the food with the salsa.
+
+Sprinkling: You need to use your fingers or a spoon to sprinkle the cheese on top of the food.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Holding: to hold and control the spoon or other utensil used to measure and add the salsa
+
+Using: to use the utensil to measure and add the salsa to the top of the dish
+
+Flipping: to flip the spoon or other utensil to sprinkle the cheese over the top of the dish
+
+Preparing: to prepare the salsa and cheese for use in the task
+
+Forming: to form or shape the cheese into a sprinkle-able form (if the cheese is not already shredded or in a sprinkle-able form)
+
+Cooking: if the dish being topped with salsa and cheese needs to be cooked or heated further after being topped
+
+Bending: if the dish being topped is tall or otherwise difficult to reach, bending may be necessary to reach the top of the dish to add the salsa and cheese.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Moving: This task involves moving the salsa and cheese from their storage containers to the dish.
+
+Transitioning: The salsa and cheese may need to be transferred from a spoon or scoop to the dish.
+
+Carrying: The dish may need to be carried to a serving area or to a table.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Adjusting: This skill may be necessary to adjust the amount of salsa and cheese being used, depending on the size of the dish being prepared and the desired level of flavor.
+
+Measuring: This skill may be necessary to accurately measure out 1 tablespoon of salsa and a appropriate amount of cheese.
+
+Increasing: This skill may be necessary if more salsa or cheese is needed to be added to the dish.
+
+Lowering: This skill may be necessary if the amount of salsa or cheese being added needs to be decreased.
+
+Waiting: This skill may be necessary if the dish needs to be allowed to cool before adding the salsa and cheese.
+
+Unfreezing: This skill may be necessary if the salsa or cheese needs to be thawed before being used.
+
+Checking: This skill may be necessary to check the dish to ensure that the salsa and cheese have been evenly distributed and that the dish is ready to be served.
+
+Looking: This skill may be necessary to visually inspect the dish to ensure that the correct amount of salsa and cheese has been added and that the dish looks visually appealing.
+
+Searching: This skill may be necessary to locate the salsa and cheese if they are not readily available.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Patting: This skill would be required to pat the salsa onto the desired surface.
+
+Feeling: This skill would be helpful in determining the consistency and texture of the salsa, as well as the amount that is being placed on the desired surface.
+
+Smelling: This skill would be helpful in detecting the aroma of the salsa and determining its quality and freshness.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Applying: This involves the ability to accurately and evenly spread a topping or condiment, such as salsa, over a surface.
+
+Sprinkling: This involves the ability to evenly distribute a dry ingredient, such as cheese, over a surface by shaking it lightly over the top.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Top with 1 tablespoon of salsa and sprinkle with cheese.'?
 
+Folding: You will need to be able to use utensils or your hands to fold the salsa and cheese onto the top of the dish.
+
+Sorting: You may need to sort through different types of salsa or cheese to find the one that you want to use for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Taking: The person performing the task will need to take the item containing the cheese (such as a sandwich or a dish with melted cheese) and place it in the microwave.
+
+Scooping: If the cheese is in a solid form, the person may need to scoop it out of a container or onto the item they want to microwave.
+
+Lifting: The person may need to lift the item containing the cheese in order to place it in the microwave or to remove it after it has been microwaved.
+
+Gathering: The person may need to gather any necessary materials or tools, such as a microwave-safe dish or utensils, in order to complete the task.
+
+Choosing: The person may need to choose the appropriate amount of time to microwave the cheese in order to melt it without overheating it or causing it to burn.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Putting: You will need to be able to put the food into the microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Scraping: This skill may be useful if you need to scrape off any excess cheese or other food from the surface of the dish you are microwaving.
+
+Scrubbing: This skill may be useful if you need to scrub the inside of the microwave to remove any stuck-on food or stains.
+
+Brushing: This skill may be useful if you need to brush away any crumbs or other debris that may have accumulated inside the microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Opening: You would need to be able to open the microwave door in order to place the food inside.
+
+Uncovering: You would need to be able to remove any packaging or covering from the food, such as foil or plastic wrap, in order to microwave it.
+
+Switching: You would need to be able to turn on the microwave and set the appropriate time and power level.
+
+Unlocking: If the microwave has a child safety lock or other type of lock, you would need to be able to unlock it in order to use the microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Closing: Close the microwave door securely.
+
+Wrapping: Place the cheese in a microwave-safe container or wrap it in microwave-safe material.
+
+Rolling: Set the microwave timer to the desired time (in this case, 10 seconds).
+
+Locking: Make sure the microwave is locked (if it has a lock feature).
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Pouring: This skill would be required to pour the cheese into a microwave-safe dish or container.
+
+Mixing: This skill may be required if the cheese needs to be mixed with other ingredients before microwaving.
+
+Filling: This skill may be required if the cheese needs to be placed in a specific location or container, such as a sandwich or casserole dish.
+
+Adding: This skill may be required if the cheese needs to be added to a dish or recipe that is already partially prepared.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
@@ -426,129 +787,325 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Using: Using a microwave oven to heat food
+
+Holding: Holding the dish or container containing the food being microwaved
+
+Setting: Setting the time on the microwave oven
+
+Pressing: Pressing the buttons on the microwave oven to start and stop the cooking process
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Moving: The ability to move the microwaveable container or dish with the cheese from the storage area to the microwave.
+
+Transitioning: The ability to open the microwave door and place the container or dish inside.
+
+Carrying: The ability to hold the container or dish steady while removing it from the microwave after the cheese has melted.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Adjusting: You will need to adjust the microwave settings to the appropriate time and power level.
+
+Checking: You will need to check the cheese to see if it has melted after the microwave has finished.
+
+Looking: You will need to look at the microwave timer to see how much time has passed.
+
+Measuring: You will need to measure the time to ensure that you are microwaving the cheese for about 10 seconds.
+
+Waiting: You will need to wait for the microwave to finish before checking the cheese to see if it has melted.
+
+Unfreezing: Depending on the type of cheese you are using, you may need to unfreeze it before microwaving it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Smelling: This skill may be useful to determine if the cheese has melted or not.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
+Applying: In this case, you may need to apply the food to be microwaved to a microwave-safe dish or container.
+
+Sprinkling: In this case, you may need to sprinkle cheese over the top of the food you are microwaving.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Microwave just until cheese melts, about 10 seconds.'?
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Line bottom of English muffin with spinach.'?
+What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Taking: You will need to be able to take the lettuce and the English muffin from wherever they are stored or located.
+
+Removing: You will need to be able to remove the lettuce leaves from any packaging or container they are stored in.
+
+Scooping: You may need to use a spoon or other utensil to scoop the lettuce onto the muffin.
+
+Lifting: You will need to be able to lift the muffin and the lettuce to position them for lining.
+
+Gathering: You may need to gather several lettuce leaves together in order to create a sufficient amount to line the muffin.
+
+Choosing: You may need to choose which lettuce leaves to use and how to arrange them on the muffin.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Putting: You will need to be able to carefully place the lettuce on the bottom of the English muffin.
+
+Inserting: You may need to insert the lettuce between the two halves of the English muffin in order to properly line the bottom.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Line bottom of English muffin with Lettuce.'?
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Line bottom of English muffin with spinach.'?
+What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Line bottom of English muffin with Lettuce.'?
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Line bottom of English muffin with spinach.'?
+What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Line bottom of English muffin with Lettuce.'?
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Line bottom of English muffin with spinach.'?
+What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Pouring: You may need to pour a small amount of water on the lettuce to wash it before you use it.
+
+Mixing: You may need to mix the lettuce with other ingredients, such as other greens or vegetables, in order to create a more flavorful or balanced salad.
+
+Filling: You will need to fill the bottom of the English muffin with the lettuce.
+
+Adding: You may need to add additional ingredients, such as cheese or protein, to the English muffin after you have lined the bottom with lettuce.
+
+Attaching: You will need to attach the lettuce to the bottom of the English muffin in a way that it stays in place and does not fall off.
+
+Coating: You may need to coat the lettuce with a dressing or sauce in order to add flavor or moisture to the salad.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Cutting: You might need to cut the lettuce into thin slices or shred it to line the muffin.
+
+Peeling: Depending on the type of lettuce you are using, you might need to remove any tough outer leaves.
+
+Emptying: If you are using a lettuce head, you might need to remove the core or any damaged leaves.
+
+Breaking: You may need to break the lettuce into smaller pieces to fit it onto the muffin.
+
+Filtering: If you are using lettuce that has been washed, you may need to filter out any excess water to avoid making the muffin soggy.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Holding: You will need to be able to hold the English muffin and the lettuce in your hands.
+
+Preparing: You will need to prepare the lettuce by washing it and removing any wilted or damaged leaves.
+
+Forming: You may need to shape the lettuce leaves to fit the bottom of the English muffin.
+
+Pressing: You will need to gently press the lettuce leaves into the bottom of the English muffin.
+
+Wearing: Depending on the situation, you may need to wear gloves or other protective gear when handling food.
+
+Using: You will need to use utensils or your hands to manipulate the lettuce and the English muffin.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Moving: You will need to be able to move your hands and wrists in a precise and controlled manner to carefully place the lettuce on the English muffin.
+
+Transitioning: You will need to be able to smoothly and efficiently transition the lettuce from your hand to the English muffin, making sure it is properly positioned on the bottom of the muffin.
+
+Carrying: You may need to be able to carry the English muffin and lettuce in one hand or on a plate as you move them to the desired location for assembly.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Adjusting: You may need to adjust the amount of lettuce you use to fit the size of the muffin.
+
+Checking: You may need to check the size of the lettuce and the muffin to ensure they are a good fit.
+
+Looking: You may need to look at the muffin and lettuce to ensure they are fresh and suitable for use.
+
+Measuring: You may need to measure the size of the muffin and lettuce to ensure they fit well together.
+
+Increasing or decreasing: You may need to adjust the amount of lettuce you use to fit the size of the muffin.
+
+Waiting: Depending on the recipe or instructions you are following, you may need to wait for the muffin to cool or for the lettuce to be ready to use.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Patting: You may need to gently pat the lettuce to remove excess moisture or to shape it to fit the bottom of the muffin.
+
+Feeling: You should be able to use your sense of touch to determine the texture and freshness of the lettuce, and to gauge whether it is suitable for use in this recipe.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Line bottom of English muffin with Lettuce.'?
+
+Applying: You will need to be able to apply the lettuce to the bottom of the English muffin in an even and consistent manner.
+
+Sprinkling: Depending on your preference, you may need to be able to sprinkle additional ingredients (such as salt or pepper) on top of the lettuce.
+
+Spraying: If you are using a spray-on dressing (such as a vinaigrette), you will need to be able to use the spray bottle to apply the dressing evenly over the lettuce.
+
+Seasoning: If you are seasoning the lettuce or other ingredients, you will need to be able to do so in a way that enhances the flavor of the dish. This may require an understanding of different seasoning combinations and the ability to taste and adjust the seasoning as needed.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Folding, Sorting]' are required to perform 'Line bottom of English muffin with Lettuce.'?
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Line bottom of English muffin with spinach.'?
+What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
 
+Taking: You will need to use your hands to take the egg and Canadian bacon out of the cup and place them onto the English muffin.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Line bottom of English muffin with spinach.'?
+Removing: You will need to remove the egg and Canadian bacon from the cup and place them onto the English muffin.
 
+Scooping: Depending on how the egg and Canadian bacon are arranged in the cup, you may need to use a spoon or other utensil to scoop them out and place them onto the English muffin.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Line bottom of English muffin with spinach.'?
+Lifting: You will need to use your hands to lift the egg and Canadian bacon out of the cup and onto the English muffin.
 
+Gathering: You may need to gather the egg and Canadian bacon together in order to remove them from the cup and place them onto the English muffin.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Line bottom of English muffin with spinach.'?
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Line bottom of English muffin with spinach.'?
-
+Choosing: Depending on the situation, you may need to choose which egg and Canadian bacon to take out of the cup and place onto the English muffin.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Line bottom of English muffin with spinach.'?
+What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
 
+Putting: You will need to use the skill of putting to take the egg and Canadian bacon out of the cup and place it over the lettuce.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Line bottom of English muffin with spinach.'?
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Line bottom of English muffin with spinach.'?
-
+Inserting: You will need to use the skill of inserting to replace the top of the English muffin over the egg and Canadian bacon.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Folding, Sorting]' are required to perform 'Line bottom of English muffin with spinach.'?
+What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
 
+Scraping: to remove the egg and bacon from the cup
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
+Scrubbing: to clean the cup (if necessary)
 
+Rubbing: to gently remove any excess food or debris from the egg and bacon
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
-
+Soaking: to wet a cloth or sponge (if necessary) and clean up any spills or messes
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
+What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
 
+Uncovering: You may need to uncover or remove a lid or cover from the cup to access the egg and Canadian bacon.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
+Unwrapping: If the egg and Canadian bacon are wrapped in any packaging, you will need to unwrap them before placing them on the lettuce.
 
+Unlocking: Depending on the design of the cup, you may need to unlock it or open it in some way in order to access the contents.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
+Opening: Similar to unlocking, you may need to open the cup in some way to remove the egg and Canadian bacon.
 
+Unrolling: If the lettuce is rolled or packaged in some way, you will need to unroll it in order to use it as a base for the egg and Canadian bacon.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
+Unscrewing: If the cup has a screw-on lid, you may need to unscrew it in order to open it and access the contents.
 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
-
+Switching: You will need to switch the top of the English muffin with the bottom half in order to place the egg and Canadian bacon on top of the lettuce.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
+What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
 
+Closing: This could be useful when removing the egg and Canadian bacon from the cup, as it will help to keep them contained and prevent them from falling out.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
+Wrapping: This could be useful when replacing the top of the English muffin, as it will help to keep the contents of the sandwich fresh and protected.
 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
-
+Rolling: This may not be directly applicable to the task at hand, but could be useful in some contexts, such as if the egg and Canadian bacon are wrapped in a tortilla or other type of roll.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'?
+What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
 
+Pouring: You may need to pour the egg and Canadian bacon out of the cup and onto the lettuce.
+
+Filling: You may need to fill the english muffin with the egg and Canadian bacon mixture.
+
+Adding: You may need to add the egg and Canadian bacon to the lettuce.
+
+Attaching: You may need to attach the top of the english muffin back onto the sandwich.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Folding, Sorting]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over spinach and replace the top of english muffin'
+What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
+
+Cutting: You may need to cut the Canadian bacon into smaller pieces or slice the egg.
+
+Peeling: You may need to peel the egg if it is hard-boiled.
+
+Emptying: You would need to empty the cup containing the egg and Canadian bacon.
+
+Breaking: You may need to break the egg into smaller pieces or crack the shell if the egg is hard-boiled.
+
+Ripping: You may need to rip the lettuce into smaller pieces or tear off a piece of lettuce to use as a base.
+
+Dividing: You may need to divide the egg or Canadian bacon into smaller pieces.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
+
+Holding: You will need to be able to hold and grasp the cup, the egg, and the Canadian bacon in order to remove them from the cup and place them on the English muffin.
+
+Turning: You may need to turn the cup or the English muffin in order to access the contents inside or place the egg and Canadian bacon on top.
+
+Pulling: You may need to pull the egg and Canadian bacon out of the cup.
+
+Flipping: You may need to flip the English muffin over to place the egg and Canadian bacon on top.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
+
+Moving: You will need to be able to move your hands and fingers to grasp and hold onto the egg and Canadian bacon, as well as the English muffin.
+
+Transitioning: You will need to be able to move the egg and Canadian bacon from the cup to the lettuce, and then place the top of the English muffin back onto the sandwich.
+
+Carrying: You will need to be able to hold and carry the egg, Canadian bacon, and English muffin while you are moving them and placing them onto the lettuce.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
+
+Adjusting: This involves adjusting the position of the cup, egg, and Canadian bacon in order to remove them from the cup and place them on the lettuce.
+
+Checking: You may need to check the cup to make sure that there is an egg and Canadian bacon inside, as well as check the lettuce to make sure it is fresh and suitable for use.
+
+Looking: You will need to look at the cup, egg, Canadian bacon, lettuce, and English muffin in order to determine their location and position.
+
+Searching: You may need to search for the cup, egg, Canadian bacon, lettuce, and English muffin if they are not immediately visible or within easy reach.
+
+Measuring: You may need to measure the size of the lettuce in order to determine how much of it to use, as well as measure the size of the English muffin to ensure it fits properly on top of the egg and Canadian bacon.
+
+Increasing: You may need to increase the amount of lettuce or English muffin being used if the original amounts are not sufficient.
+
+Waiting: You may need to wait for the egg and Canadian bacon to cook or thaw before being able to use them.
+
+Lowering: You may need to lower the cup or egg and Canadian bacon onto the lettuce in order to place them onto it.
+
+Unfreezing: You may need to unfreeze the egg and Canadian bacon if they are frozen and need to be thawed before use.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
+
+Patting: You might need to use patting or tapping motions to gently remove the egg and bacon from the cup, or to gently press down on the top of the English muffin to secure it in place.
+
+Feeling: You will need to use your sense of touch to determine the texture and temperature of the ingredients, as well as to gauge the amount of pressure needed to remove them from the cup or place them on the lettuce.
+
+Smelling: You may use your sense of smell to assess the freshness and quality of the ingredients, and to determine if they are ready to be eaten.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'?
+
+Applying: The skill of applying may be necessary to carefully and accurately remove the egg and Canadian bacon from the cup and place it over the lettuce.
+
+Sprinkling: The skill of sprinkling may be necessary to evenly distribute the lettuce over the English muffin.
+
+Spraying: The skill of spraying may be necessary to lightly coat the English muffin with cooking spray or another type of oil or condiment.
+
+Seasoning: The skill of seasoning may be necessary to add flavor to the dish by sprinkling herbs or spices over the egg, Canadian bacon, and lettuce.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Folding, Sorting]' are required to perform 'Take out egg and Canadian bacon from the cup, place it over Lettuce and replace the top of english muffin'
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
