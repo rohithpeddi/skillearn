@@ -1,10 +1,25 @@
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Shape beef into 3-in. pattie.'?
 
-
+Taking: You will need to take the beef out of the package or container it is stored in.
+Removing: Depending on the type of beef you are using, you may need to remove any excess fat or gristle.
+Scooping: You will need to scoop or portion out the appropriate amount of beef for each patty.
+Lifting: You will need to lift the portion of beef and place it on a flat surface.
+Gathering: You will need to gather the edges of the beef together and press it into a smooth, even patty shape.
+Choosing: You may need to choose the right tools and equipment to shape the patties, such as a burger press or a rolling pin.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Shape beef into 3-in. pattie.'?
 
+Putting: This involves placing the beef into a shape or position.
 
+Inserting: This involves inserting your fingers or a tool into the beef to shape it into a patty.
+
+Throwing: This involves tossing the beef back and forth between your hands to shape it into a patty.
+
+Hanging: This involves hanging the beef in a certain position to shape it into a patty.
+
+Dropping: This involves dropping the beef onto a surface to shape it into a patty.
+
+Serving: This involves serving the beef patty to others or placing it on a plate for cooking
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Shape beef into 3-in. pattie.'?
 
@@ -16,35 +31,101 @@ What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switc
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Shape beef into 3-in. pattie.'?
 
+Closing: You will need to close the patty by sealing the edges so that it maintains its shape.
 
+Wrapping: You may need to wrap the patty in plastic wrap or wax paper to help it maintain its shape while you handle it.
+
+Rolling: You may need to use a rolling motion to shape the patty into a smooth, even circle.
+
+Locking: You may need to use a locking motion to seal the edges of the patty together and ensure that it stays together while cooking.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Shape beef into 3-in. pattie.'?
 
+Pouring: You may need to pour a small amount of water or oil onto the beef to help shape the patties.
 
+Mixing: You may need to mix together the ingredients for a beef patty mixture, such as ground beef, bread crumbs, and seasonings.
+
+Filling: You will need to fill a patty press or burger press with the beef mixture to form the patties.
+
+Adding: You may need to add any additional ingredients or toppings to the patties, such as cheese or vegetables.
+
+Attaching: You may need to attach a patty press or burger press to a countertop or other surface in order to use it.
+
+Coating: You may want to coat the patties with oil, egg wash, or breadcrumbs before cooking them.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Shape beef into 3-in. pattie.'?
 
-
+Cutting: You may need to cut the beef into smaller pieces or trim off excess fat before shaping it into a patty.
+Emptying: You may need to remove any packaging or wrapping from the beef before shaping it.
+Breaking: You may need to break the beef into smaller pieces or crumble it if it is ground beef.
+Filtering: You may need to filter out any bone or gristle that is present in the beef.
+Crushing: You may need to use a meat mallet or other tool to crush the beef and make it more pliable for shaping.
+Dividing: You may need to divide the beef into equal-sized portions before shaping it into patties.
+Grating: You may need to use a grater to shred the beef if it is not ground or finely chopped.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Shape beef into 3-in. pattie.'?
 
+Shaking: You may need to shake the beef to loosen it up or to remove excess moisture before shaping it.
 
+Squeezing: You may need to squeeze the beef together to form it into a cohesive patty.
+
+Pressing: You will need to press the beef into a flat, even shape using your hands or a spatula.
+
+Flipping: You may need to flip the patty over to shape it on both sides.
+
+Turning: You may need to turn the patty as you shape it to ensure it is evenly shaped on all sides.
+
+Pulling: You may need to pull the edges of the patty to smooth them out and make them even.
+
+Holding: You will need to hold the patty as you shape it, using your hands or a spatula.
+
+Forming: You will need to form the beef into a patty shape using your hands or a spatula.
+
+Bending: You may need to bend the patty slightly to ensure it is the desired shape and thickness.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Shape beef into 3-in. pattie.'?
 
-
+Moving: the beef from its storage container or packaging to a clean surface.
+Transitioning: the beef from a bulk or whole form into smaller, individual patties.
+Carrying: the beef patties to a cooking surface or storage container.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Shape beef into 3-in. pattie.'?
 
+Adjusting: You may need to adjust the size or thickness of the patty as you shape it to make sure it is 3 inches in diameter.
 
+Checking: You should check the size of the patty regularly to ensure that it is the correct size and shape.
+
+Looking: You will need to visually inspect the patty as you shape it to ensure that it is the correct size and shape.
+
+Searching: You may need to search for any uneven or rough spots on the patty and smooth them out.
+
+Measuring: You will need to use a ruler or other measuring tool to make sure the patty is 3 inches in diameter.
+
+Increasing: You may need to add more beef to the patty if it is too small or thin.
+
+Waiting: You may need to wait for the beef to thaw if it is frozen before you can shape it into a patty.
+
+Lowering: You may need to lower the patty gently onto the grill or cooking surface to avoid tearing or damaging it.
+
+Unfreezing: If the beef is frozen, you will need to unfreeze it before you can shape it into a patty.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Shape beef into 3-in. pattie.'?
 
+Patting: You will need to use your patting skills to gently press and shape the beef into a patty.
 
+Feeling: You will need to use your sense of touch to gauge the consistency and texture of the beef as you shape it.
+
+Smelling: You may want to use your sense of smell to check the freshness of the beef before shaping it into a patty.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Shape beef into 3-in. pattie.'?
 
+Applying: You will need to apply pressure evenly to the beef to shape it into a patty. This requires some dexterity and a good sense of touch.
 
+Sprinkling: You may need to sprinkle some seasonings or breadcrumbs onto the beef before shaping it into a patty. This requires good hand-eye coordination and the ability to measure and evenly distribute ingredients.
+
+Spraying: Depending on your recipe, you may need to spray a cooking spray or oil onto the patty to prevent it from sticking to the grill or pan. This requires the ability to accurately aim the spray and control the amount of oil or cooking spray being applied.
+
+Seasoning: You may need to season the beef with salt, pepper, or other spices before shaping it into a patty. This requires a good understanding of flavor combinations and the ability to adjust seasoning to taste.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Shape beef into 3-in. pattie.'?
 
@@ -52,27 +133,73 @@ What skills from '[Folding, Sorting]' are required to perform 'Shape beef into 3
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Taking: The ability to pick up and hold an object using your hands or fingers.
 
+Lifting: The ability to raise or lift an object from one level to another.
+
+Gathering: The ability to collect or bring together multiple items or materials.
+
+Choosing: The ability to make a decision or selection based on certain criteria.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Putting: You will need to use the skill of putting to place the object on the microwave-safe plate.
 
+Inserting: You will need to use the skill of inserting to place the paper towels on the plate.
+
+Covering: You will need to use the skill of covering to place the second paper towel over the top of the object.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Washing: This skill involves cleaning the item and the plate with water and detergent before placing it on the plate.
 
+Drying: This skill involves using a cloth or paper towels to dry the item and the plate before placing the item on the plate.
+
+Scraping: This skill involves using a utensil or tool to remove any excess food or debris from the item before placing it on the plate.
+
+Scrubbing: This skill involves using a brush or other cleaning implement to scrub the item and the plate clean before placing the item on the plate.
+
+Rubbing: This skill involves using a cloth or paper towel to gently rub the item and the plate to remove any dirt or grime before placing the item on the plate.
+
+Soaking: This skill may be useful if the item is particularly dirty or greasy, as soaking it in water and detergent can help to loosen any stuck-on dirt or grime before scrubbing or washing.
+
+Brushing: This skill involves using a brush or other tool to gently remove any dirt or debris from the surface of the item before placing it on the plate.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Opening: You will need to be able to open any packaging that the item you are microwaving is contained in.
 
+Unrolling: If the item you are microwaving is wrapped in foil or another type of material that needs to be unrolled, you will need to have this skill.
+
+Unscrewing: If the item you are microwaving is contained in a jar or container that has a screw-on lid, you will need to be able to unscrew the lid.
+
+Uncovering: If the item you are microwaving is covered with a lid or other type of cover, you will need to be able to remove the cover.
+
+Unwrapping: If the item you are microwaving is wrapped in plastic wrap or another type of material, you will need to be able to unwrap it.
+
+Switching: You will need to be able to switch on the microwave and set the appropriate cooking time and power level.
+
+Unlocking: If the microwave has a lock feature, you will need to be able to unlock it before you can use it.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Closing: This involves being able to close the paper towel around the item being microwaved, either by folding it over or by using another paper towel to cover it.
 
+Wrapping: This involves being able to wrap the paper towel around the item being microwaved in a way that covers it completely and keeps it in place.
+
+Rolling: This involves being able to roll the paper towel into a tight, cylindrical shape and then using it to cover the item being microwaved.
+
+Locking: This involves being able to secure the paper towel in place around the item being microwaved, either by using another paper towel to cover it or by using a rubber band or other type of fastener to hold it in place.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Pouring: You would need to be able to pour the item you are microwaving onto the plate.
 
+Filling: You would need to be able to fill the plate with the item you are microwaving.
+
+Attaching: You would need to be able to attach the paper towels to the plate by placing them on top of the plate.
+
+Coating: You would need to be able to coat the item you are microwaving with the paper towels by placing them on top of the item.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
@@ -80,23 +207,66 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Holding: You will need to be able to hold the microwave-safe plate and the paper towels securely.
 
+Stretching: You may need to stretch the paper towels to fit the plate or to cover the food.
+
+Flipping: You may need to flip the paper towels over to cover the food.
+
+Setting: You will need to set the plate with the food on it onto a surface.
+
+Using: You will need to use the microwave-safe plate and paper towels as intended.
+
+Forming: You may need to form the paper towels into a shape that covers the food.
+
+Preparing: You will need to prepare the paper towels and microwave-safe plate for use.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Moving: This involves physically moving the object you are placing on the plate and positioning it on the plate. You may need to use your hands to pick up and hold the object and move it to the desired location.
 
+Transitioning: This involves moving the object from one location to another. In this case, you would be moving the object from wherever it is currently located to the microwave-safe plate.
+
+Carrying: This involves holding and supporting the weight of the object while moving it. You may need to use your hands or arms to carry the object to the microwave-safe plate.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Adjusting: Adjusting the position or orientation of the object being placed on the plate, as well as the position of the plate itself.
 
+Checking: Checking that the plate is microwave-safe and that it is lined with paper towels.
+
+Looking: Looking for a microwave-safe plate and paper towels.
+
+Searching: Searching for a microwave-safe plate and paper towels if they are not readily available.
+
+Measuring: Measuring the size of the plate and the object being placed on it to ensure that they will fit in the microwave.
+
+Increasing: Increasing the amount of paper towels used if necessary.
+
+Waiting: Waiting for the object to be microwaved before removing it from the plate.
+
+Lowering: Lowering the object onto the plate gently to avoid damaging the plate or the object.
+
+Unfreezing: Unfreezing the object if it is frozen, before microwaving it.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
+Patting: This skill involves gently touching or pressing something with the flat of the hand or fingers, often to clean or dry it. In this case, patting the item with a paper towel may be required to remove any excess moisture before placing it on the plate.
 
+Eating: This skill is not directly required to perform the action described, but it may be useful to have a basic understanding of how to handle and prepare food in general.
+
+Feeling: This skill involves using the sense of touch to perceive the texture, shape, or temperature of something. In this case, using the sense of touch to determine if the item is hot or cold and to handle it safely may be necessary.
+
+Drinking: This skill is not directly required to perform the action described.
+
+Smelling: This skill involves using the sense of smell to perceive the aroma of something. In this case, using the sense of smell to detect any unusual or off odors in the item before placing it on the plate and covering it with a paper towel may be useful.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
-
+Applying: This involves placing or positioning the item on the plate.
+Sprinkling: This may be relevant if you need to sprinkle additional paper towels on top of the item.
+Spraying: This may be relevant if you need to spray a cleaning solution on the paper towels.
+Seasoning: This is not relevant to the task of placing an item on a microwave-safe plate lined with paper towels and covering it with another paper towel.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Place on a microwave-safe plate lined with paper towels. Cover with another paper towel;'?
 
@@ -104,11 +274,16 @@ What skills from '[Folding, Sorting]' are required to perform 'Place on a microw
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
-
+Taking: The ability to take the meat out of its packaging or container and place it in the microwave.
+Scooping: The ability to scoop the meat out of the microwave and onto a plate or dish when it is finished cooking.
+Lifting: The ability to lift the dish or plate with the microwaved meat on it.
+Choosing: The ability to choose the appropriate setting on the microwave (e.g. high power) and the appropriate cooking time based on the type and amount of meat being microwaved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
-
+Putting: You will need to be able to put the meat in the microwave.
+Inserting: You will need to be able to insert the meat into the microwave.
+Serving: You may need to be able to serve the cooked meat once it is finished in the microwave.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
@@ -116,7 +291,9 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
-
+Opening: You would need to be able to open the microwave door to access the food inside.
+Uncovering: You would need to be able to remove any coverings or packaging on the food, such as a plastic wrap or foil.
+Switching: You would need to be able to turn the microwave on and set it to the desired power level.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
@@ -132,23 +309,58 @@ What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Cru
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
-
+Setting: Setting the microwave to the correct power level and time.
+Using: Using the microwave to cook the meat.
+Holding: Holding the meat in a container that is microwave-safe.
+Pulling: Pulling the container out of the microwave when the cooking is complete.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
+Moving: You will need to be able to move the microwave to the desired location and position it safely. You will also need to be able to open and close the microwave door.
 
+Transitioning: You will need to be able to switch the microwave from its off or idle state to an active cooking state. This may involve pressing buttons or turning dials to set the appropriate cooking time and power level.
+
+Carrying: You will need to be able to safely carry the meat to the microwave and place it inside. You will also need to be able to remove the meat from the microwave when it is finished cooking and carry it to a safe location for further preparation or consumption.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
+Adjusting: You would need to adjust the microwave settings to cook the meat on high for 1 minute.
 
+Checking: You would need to check the meat to see if it is no longer pink and to determine when it is done cooking.
+
+Looking: You would need to look at the microwave display to see how much time is remaining and to make sure the microwave is set to the correct settings.
+
+Searching: You may need to search for the correct microwave setting or instructions for cooking meat in the microwave, if you are not familiar with this process.
+
+Measuring: You may need to measure the meat to ensure that it is the correct size and thickness for microwave cooking.
+
+Increasing: If the meat is not fully cooked after 1 minute, you may need to increase the cooking time.
+
+Waiting: You will need to wait for the microwave to finish cooking the meat.
+
+Lowering: You may need to lower the microwave power setting if the meat is cooking too quickly or becoming overcooked.
+
+Unfreezing: If the meat is frozen, you may need to unfreeze it before cooking it in the microwave.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
+Patting: This skill may be needed to pat the meat dry before cooking it, as excess moisture can affect the cooking time and result.
 
+Eating: The person performing the task should have a good sense of taste and be able to tell when the meat is no longer pink and is fully cooked.
+
+Feeling: The person should be able to touch the meat to determine if it is fully cooked and no longer pink.
+
+Smelling: The person should be able to use their sense of smell to determine if the meat is fully cooked and no longer pink.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
+Applying: You will need to be able to apply the meat to the microwave-safe container and place it in the microwave.
 
+Sprinkling: Depending on the type of meat you are microwaving, you may need to sprinkle it with a small amount of water to help it cook evenly.
+
+Spraying: You may also need to spray the inside of the microwave with a small amount of cooking spray to help prevent the meat from sticking to the walls of the microwave.
+
+Seasoning: If desired, you can also season the meat before microwaving it to add additional flavor.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Microwave on high for 1 minute until meat is no longer pink'?
 
@@ -156,50 +368,158 @@ What skills from '[Folding, Sorting]' are required to perform 'Microwave on high
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Thinly chop onions'?
 
+Taking: You will need to take an onion and a sharp knife.
+Choosing: You will need to choose a good onion and a sharp knife that is suitable for the task.
+Gathering: You will need to gather any other ingredients or tools that you may need, such as a cutting board.
+Scooping: You will need to scoop out the onion's root end and discard it.
+Lifting: You will need to lift the onion and the knife as you chop.
+Removing: You will need to remove the outer layer of the onion, as well as any blemishes or marks.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Thinly chop onions'?
 
+Putting: You will need to put the onion on a cutting board or other surface before you begin chopping it.
+
+Inserting: You will need to insert the tip of your knife into the onion to begin slicing it.
+
+Throwing: You will need to throw away the ends of the onion that you have cut off.
+
+Hanging: You may want to hang onto the handle of your knife with one hand while you chop the onion with the other hand.
+
+Dropping: You will need to drop the sliced pieces of onion into a bowl or other container as you go.
+
+Serving: Once you have finished chopping the onion, you may need to serve it as part of a dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Thinly chop onions'?
 
+Washing:  wash the onion to remove any dirt or debris
+Scraping: scrape off the outer layer of skin using a knife or a vegetable peeler
+Cutting: use a sharp knife to cut the onion into thin slices. This will require skill in holding and controlling the knife, as well as proper cutting technique to ensure even, thin slices
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Thinly chop onions'?
+
+Opening: This may be necessary if the onion is packaged or wrapped in a way that requires you to open or remove a layer before you can begin slicing it.
+
+Unrolling: This may be necessary if the onion is packaged or wrapped in a way that requires you to unroll or remove a layer before you can begin slicing it.
+
+Uncovering: This may be necessary if the onion is covered or wrapped in a way that requires you to remove a layer before you can begin slicing it.
+
+Unwrapping: This may be necessary if the onion is wrapped in a way that requires you to remove a layer before you can begin slicing it.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Thinly chop onions'?
 
+Pouring: You will need to pour the onions out of their packaging and onto a cutting board.
+
+Mixing: You will need to mix the onions to ensure that you are evenly slicing them.
+
+Filling: You will need to fill your knife with onions as you chop them.
+
+Adding: You will need to add the chopped onions to a bowl or other container as you chop them.
+
+Attaching: You may need to attach a sharp knife to a cutting board before you begin chopping the onions.
+
+Coating: You may want to coat your knife with cooking spray or oil to prevent the onions from sticking to the blade as you chop them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Thinly chop onions'?
 
+Pouring: You will need to pour the onions out of their packaging and onto a cutting board or other surface for chopping.
+
+Mixing: You will need to mix the onions around on the cutting board to ensure that you are able to access all parts of the onion for chopping.
+
+Filling: You will need to fill your cutting board with the onions, making sure to leave enough space to chop them.
+
+Adding: You will need to add the chopped onions to a pot, pan, or other cooking vessel as needed.
+
+Attaching: You may need to attach a sharp knife to a cutting board or other surface in order to chop the onions.
+
+Coating: You may need to coat the cutting board or knife with oil or cooking spray to prevent the onions from sticking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Thinly chop onions'?
 
+Cutting: You will need to use a sharp knife to cut the onion into thin slices.
+
+Peeling: You will need to remove the outer skin of the onion before cutting it.
+
+Breaking: You may need to break the onion into smaller pieces before slicing it if it is too large to handle easily.
+
+Stabbing: You may need to use a stabbing motion to hold the onion in place while you slice it.
+
+Grating: If you want to finely chop the onion, you may need to use a grater or food processor to break it down into smaller pieces.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Thinly chop onions'?
 
+Holding: You will need to hold the onion steady as you chop it.
+
+Cutting: You will need to use a sharp knife to slice the onion into thin strips or pieces.
+
+Turning: You may need to turn the onion as you chop it to ensure even slicing.
+
+Flipping: You may need to flip the onion over as you chop it to access different parts of the vegetable.
+
+Stretching: You may need to stretch your fingers out and away from the knife as you chop the onion to avoid accidentally cutting yourself.
+
+Finishing: You will need to chop the onion until it is thinly sliced to your desired size.
+
+Preparing: You will need to prepare the onion by removing the skin and slicing off the root and top of the onion before you begin chopping.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Thinly chop onions'?
 
+Moving: You will need to move the knife back and forth across the onion in a slicing motion in order to chop it into thin pieces.
+
+Transitioning: As you chop the onion, you will need to rotate it and flip it over in order to evenly chop all parts of it.
+
+Carrying: Once you have chopped the onion, you will need to carry the pieces over to a cutting board or container to be used in your recipe.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Thinly chop onions'?
 
+Adjusting: Adjusting the angle and position of your knife as you chop can help you get thin, even slices of onion.
+
+Checking: As you chop, periodically check the thickness and evenness of the slices to ensure that they are all roughly the same size.
+
+Looking: Paying attention to what you are doing and looking closely at the onions can help you see if you are getting thin slices.
+
+Measuring: Depending on the recipe you are following, you may need to measure the amount of chopped onion you have to ensure that you have the right amount.
+
+Increasing: If you find that you are having trouble getting thin slices, you can try increasing the speed at which you chop to help make the process easier.
+
+Waiting: It is important to be patient and take breaks as needed when chopping onions to avoid getting tired or making mistakes.
+
+Lowering: Lowering the blade of your knife closer to the cutting board can help you get thinner slices.
+
+Unfreezing: If you are using frozen onions, you may need to let them thaw slightly before attempting to chop them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Thinly chop onions'?
 
+Patting: You may need to pat the onion dry with a paper towel if it is wet or moist.
+
+Feeling: You will need to use your sense of touch to feel the onion as you chop it, to ensure that you are cutting it evenly and accurately.
+
+Eating: You may need to taste a small piece of the onion as you chop it to check the flavor and adjust your seasoning accordingly.
+
+Drinking: It is a good idea to have a glass of water nearby while chopping onions, as the fumes from the onion can be irritable to your eyes and nose. You can take a drink of water to help rinse any onion particles from your mouth and throat.
+
+Smelling: You may need to use your sense of smell to check the aroma of the onion as you chop it, to ensure that it is fresh and not spoiled.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Thinly chop onions'?
 
+Applying pressure: You will need to apply enough pressure with the knife to cut through the onion, but not so much that you crush it or lose control of the knife.
+
+Sprinkling: Depending on your preference and the recipe you are following, you may want to sprinkle some salt on the onions as you chop them to help bring out their flavor and reduce any bitterness.
+
+Spraying: If you are sensitive to the fumes from chopping onions, you may want to use a cooking spray or oil on your knife to help reduce the amount of onion juice that comes into contact with your skin.
+
+Seasoning: If you are seasoning the onions as you chop them, you will need to be aware of the flavors and proportions you are using and adjust as needed to achieve the desired balance of flavors.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Thinly chop onions'?
@@ -208,15 +528,30 @@ What skills from '[Folding, Sorting]' are required to perform 'Thinly chop onion
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Thinly chop  pickles'?
 
-
+Taking: You will need to take the pickles out of their container or packaging.
+Removing: You may need to remove any stems or seeds from the pickles before chopping them.
+Lifting: You will need to lift the pickles and place them on a cutting board.
+Gathering: You may need to gather any tools you will use to chop the pickles, such as a knife or food processor.
+Choosing: You may need to choose the best pickles for chopping, depending on your recipe or personal preference.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Thinly chop  pickles'?
 
+Putting: You will need to put the pickles on a cutting board or other flat surface before you start chopping them.
 
+Inserting: You will need to insert the knife into the pickles in order to chop them.
+
+Throwing: You may need to throw away any pickle seeds or other unwanted parts as you chop the pickles.
+
+Hanging: You may need to hang onto the knife handle with a firm grip as you chop the pickles to ensure that you have control over the blade.
+
+Dropping: You may need to drop the chopped pickles into a bowl or other container as you work.
+
+Serving: Once the pickles are chopped, you may need to serve them on a plate or in a dish for others to enjoy.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Thinly chop  pickles'?
 
-
+Scraping: involves using a sharp tool to remove a thin layer or small amounts of material from a surface.
+brushing: to remove any excess moisture from the pickles before chopping them
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Thinly chop  pickles'?
 
@@ -232,19 +567,58 @@ What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are re
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Thinly chop  pickles'?
 
+Cutting: You will need to use a sharp knife to slice the pickles into thin pieces.
 
+Peeling: If the pickles are not already peeled, you may need to remove the skin or outer layer before slicing them.
+
+Emptying: If the pickles are whole, you may need to empty out the seeds or remove the stem before slicing them.
+
+Breaking: Depending on the size and shape of the pickles, you may need to break them into smaller pieces before slicing them.
+
+Filtering: If the pickles are in a liquid or brine, you may need to filter out any excess liquid before slicing them.
+
+Ripping: Depending on the texture of the pickles, you may need to gently rip them into smaller pieces before slicing them.
+
+Crushing: If the pickles are too hard to slice, you may need to crush them slightly with a rolling pin or other tool to make them easier to cut.
+
+Dividing: If the pickles are very large or long, you may need to divide them into smaller sections before slicing them.
+
+Grating: If the pickles are too soft or mushy to slice, you may need to grate them using a grater or food processor.
+
+Stabbing: If the pickles are very firm or difficult to slice, you may need to use a sharp knife to stab them repeatedly before cutting them.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Thinly chop  pickles'?
 
-
+Cutting: You will need to use a sharp knife to chop the pickles into thin slices.
+Holding: You will need to hold the pickles steady as you chop them.
+Setting: You may need to set the pickles on a cutting board or plate as you work.
+Stretching: If the pickles are particularly long, you may need to stretch them out to make them easier to chop.
+Bending: Depending on the shape of the pickles, you may need to bend them slightly to make them easier to slice.
+Preparing: If you are preparing the pickles for a recipe, you may need to measure out the right amount and gather any other ingredients or equipment you will need.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Thinly chop  pickles'?
 
+Moving: move the pickles around on a cutting board as you chop them
+Carrying: carry the chopped pickles to a storage container or to a recipe that you are using them in.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Thinly chop  pickles'?
 
+Adjusting: You will need to adjust the size and thickness of your slices as you chop the pickles to ensure that they are evenly and thinly sliced.
 
+Checking: You will need to check the progress of your chopping and make sure that the pickles are being evenly and thinly sliced.
+
+Looking: You will need to look at the pickles as you chop them to ensure that you are slicing them evenly and thinly.
+
+Measuring: You may want to measure the thickness of your slices to ensure that they are all the same size.
+
+Increasing: You may need to increase the speed or pressure of your chopping as you work through the pickles.
+
+Waiting: You may need to wait for the pickles to soften slightly if they are particularly firm, as this will make them easier to chop.
+
+Lowering: You may need to lower the blade of your knife slightly as you chop to ensure that you are getting even, thin slices.
+
+Unfreezing: If your pickles are frozen, you will need to thaw them before you can chop them.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Thinly chop  pickles'?
 
@@ -260,7 +634,12 @@ What skills from '[Folding, Sorting]' are required to perform 'Thinly chop  pick
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Thinly chop 1 tomato'?
 
-
+Taking: You will need to take the tomato from where it is stored or displayed.
+Removing: You will need to remove any stem or leaves from the tomato.
+Scooping: You may need to scoop out the seeds and core of the tomato, depending on the recipe you are using.
+Lifting: You will need to lift the tomato and any cutting tools you are using.
+Gathering: You will need to gather the tomato and any cutting tools you are using on a cutting board or other surface.
+Choosing: You will need to choose the appropriate cutting tools, such as a sharp knife, to chop the tomato.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Thinly chop 1 tomato'?
 
