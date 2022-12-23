@@ -129,6 +129,15 @@ What skills from '[Folding, Sorting]' are required to perform 'Coat 6-oz. rameki
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
 
+Taking: You will need to take the Canadian bacon from wherever it is stored and bring it to the ramekin or custard cup.
+
+Scooping: Depending on the size of the Canadian bacon and the ramekin or custard cup, you may need to use a scooping motion to place the bacon in the bottom of the dish.
+
+Lifting: You may need to lift the ramekin or custard cup in order to place the Canadian bacon in the bottom.
+
+Gathering: You may need to gather the Canadian bacon together in order to place it in the ramekin or custard cup.
+
+Choosing: You will need to choose which ramekin or custard cup to use for the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Place Canadian bacon on the bottom of a 6-oz. ramekin or custard cup.'?
