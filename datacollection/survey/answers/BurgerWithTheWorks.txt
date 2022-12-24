@@ -643,14 +643,33 @@ Choosing: You will need to choose the appropriate cutting tools, such as a sharp
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Thinly chop 1 tomato'?
 
+Putting: You will need to put the tomato on a cutting board or other flat surface before you start chopping it.
+
+Inserting: You will need to insert the blade of a knife into the tomato to make the cuts.
+
+Throwing: You may need to use a throwing motion to rotate the tomato as you chop it, in order to get even, thin slices.
+
+Hanging: You may need to hold the tomato with one hand while you chop it with the other, using a hanging grip.
+
+Dropping: You may need to drop the slices of tomato into a bowl or onto a plate as you chop them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Thinly chop 1 tomato'?
 
+Washing: Washing and drying the tomato will ensure that it is clean and free of any dirt or contaminants that may be on the surface.
+
+Drying: Washing and drying the tomato will ensure that it is clean and free of any dirt or contaminants that may be on the surface.
+
+Scraping: Scraping the tomato may be necessary if there are any blemishes or imperfections on the skin that you want to remove.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Thinly chop 1 tomato'?
 
+Opening: You will need to open the packaging of the tomato, if it is packaged.
+
+Uncovering: If the tomato is covered with a stem or leaves, you will need to remove these to uncover the tomato.
+
+Switching: You will need to switch between using a cutting board and a sharp knife to thinly slice the tomato.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Thinly chop 1 tomato'?
@@ -663,22 +682,81 @@ What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are re
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Thinly chop 1 tomato'?
 
+Cutting: You will need to use a sharp knife to cut the tomato into thin slices.
+
+Peeling: If you are using a tomato with a thicker skin, you may need to peel it before slicing it.
+
+Emptying: If the tomato has seeds or a tough core, you may need to remove them before slicing it.
+
+Breaking: You may need to use your knife to gently break the tomato into smaller pieces as you slice it.
+
+Filtering: If you are trying to remove seeds or excess moisture from the tomato, you may need to use a strainer or other filtering tool.
+
+Ripping: You may need to gently tear the tomato slices apart if they are too thick or difficult to slice cleanly.
+
+Crushing: You may need to use the back of your knife or a rolling pin to gently crush the tomato slices to make them thinner and more evenly sized.
+
+Dividing: You may need to divide the tomato into smaller sections in order to slice it more easily.
+
+Grating: If you want to chop the tomato into very fine pieces, you may need to use a grater.
+
+Stabbing: You may need to use the tip of your knife to gently poke or stab the tomato in order to remove seeds or tough core.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Thinly chop 1 tomato'?
 
+Cutting: You will need to use a sharp knife to slice the tomato into thin pieces.
+
+Holding: You will need to hold the tomato steady as you cut it.
+
+Setting: You may need to set the tomato on a cutting board or other surface before cutting it.
+
+Washing: You will want to wash the tomato before cutting it to remove any dirt or bacteria.
+
+Peeling: Depending on the recipe or use, you may need to peel the tomato before cutting it.
+
+Seeding: Some recipes may call for the seeds to be removed from the tomato before it is chopped.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Thinly chop 1 tomato'?
 
+Moving: You will need to be able to move the knife smoothly and accurately as you slice through the tomato, keeping a consistent width and angle as you cut.
+
+Transitioning: You will need to be able to change direction and orientation as you move the knife around the tomato, adapting to the shape and contours of the fruit.
+
+Carrying: You will need to be able to hold the tomato and the knife in a way that allows you to make clean, precise cuts while still maintaining control.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Thinly chop 1 tomato'?
 
+Adjusting: You may need to adjust your grip on the knife or the tomato to get a better angle for slicing.
+
+Checking: You may need to check the thickness of your slices as you chop to ensure that they are even.
+
+Looking: You will need to look at the tomato and the knife as you chop to make sure that you are making clean cuts.
+
+Measuring: You may want to measure the thickness of your slices to ensure that they are all the same size.
+
+Increasing: You may need to increase the pressure on the knife as you chop through denser parts of the tomato.
+
+Lowering: You may need to lower the tomato or the knife as you chop to make it easier to slice.
+
+Unfreezing: If the tomato is frozen, you may need to thaw it slightly before you can chop it thinly.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Thinly chop 1 tomato'?
 
+Patting: You may need to pat the tomato dry if it is wet or damp, to ensure that it is easier to chop.
+
+Feeling: You will need to use your sense of touch to determine the texture and firmness of the tomato, as well as to feel for any bruises or blemishes that should be cut out.
+
+Cutting: You will need to use a sharp knife to thinly slice the tomato. This will require a combination of hand-eye coordination and dexterity.
+
+Monitoring: You will need to pay attention to the thickness of the slices and ensure that they are all uniform in size.
+
+Planning: You will need to plan out how to cut the tomato so that you can slice it efficiently and effectively. This may involve considering the shape and size of the tomato, as well as the desired thickness of the slices.
+
+Coordination: You will need to coordinate the movement of your knife and your hands to slice the tomato thinly and evenly.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Thinly chop 1 tomato'?
@@ -691,6 +769,15 @@ What skills from '[Folding, Sorting]' are required to perform 'Thinly chop 1 tom
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Spread half the bread circle.'?
 
+Taking: You would need to take the bread circle and any utensils or tools needed to spread it, such as a butter knife or spatula.
+
+Scooping: You may need to scoop a spreadable substance, such as peanut butter or jam, onto the bread circle.
+
+Lifting: You would need to lift the utensils or tools needed to spread the substance onto the bread circle.
+
+Gathering: You may need to gather any additional ingredients, such as fruit or nuts, to add to the bread circle.
+
+Choosing: You may need to choose which spread or additional ingredients to use on the bread circle.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Spread half the bread circle.'?
@@ -711,30 +798,69 @@ What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Spread half the bread circle.'?
 
+Pouring: You may need to pour a condiment or topping over the bread circle before spreading it.
+
+Mixing: If you are using multiple ingredients to spread on the bread, you may need to mix them together before spreading them.
+
+Filling: You may need to fill the bread circle with a spread or filling before spreading it.
+
+Adding: You may need to add ingredients to the bread circle before spreading them.
+
+Attaching: You may need to attach a utensil, such as a knife or spatula, to the bread circle to help spread the ingredients.
+
+Coating: Depending on the ingredients you are using, you may need to coat the bread circle with a thin layer of something before spreading it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Spread half the bread circle.'?
 
+Cutting: You may need to use a knife to cut the bread circle into two equal pieces.
+
+Stabbing: You may need to use a fork or spoon to spread a spreadable ingredient (such as butter or peanut butter) over the surface of one half of the bread circle.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Spread half the bread circle.'?
 
+Holding: The bread circle may need to be held steady while it is being spread.
+
+Using: A utensil, such as a butter knife or spoon, may be used to spread the bread circle.
+
+Flipping: The bread circle may need to be flipped over in order to spread the other half.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Spread half the bread circle.'?
 
+Moving: You need to be able to move your arm and hand to hold the bread and spread the topping over it.
+
+Transitioning: You need to be able to switch between different tasks or actions, such as picking up the bread and spreading the topping on it.
+
+Carrying: You need to be able to hold and carry the bread while you spread the topping on it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Spread half the bread circle.'?
 
+Adjusting: You may need to adjust the amount of spread or topping you are using in order to cover half of the bread circle evenly.
+
+Measuring: You will need to measure out the correct amount of spread or topping to use in order to cover half of the bread circle.
+
+Increasing: You may need to increase the amount of spread or topping you are using in order to fully cover half of the bread circle.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Spread half the bread circle.'?
 
+Feeling: The ability to use your sense of touch to determine the texture and consistency of the bread and the spreading substance (e.g. butter, jam, peanut butter) and to gauge the amount of pressure needed to spread it evenly.
+
+Patting: The ability to use your hands to gently pat or press the spreading substance onto the bread in a smooth and even manner.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Spread half the bread circle.'?
 
+Applying: In this case, you would need to use the tool to apply a substance, such as butter or spread, to half of the bread circle.
+
+Sprinkling: In this case, you may need to sprinkle a seasoning or ingredient over half of the bread circle.
+
+Spraying: In this case, you may need to use a spray bottle to apply a liquid ingredient, such as oil or vinegar, to half of the bread circle.
+
+Seasoning: In this case, you may need to season half of the bread circle with a chosen ingredient.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Spread half the bread circle.'?
@@ -743,10 +869,32 @@ What skills from '[Folding, Sorting]' are required to perform 'Spread half the b
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Scooping: This skill would be required to scoop the salad dressing onto the burger.
+
+Choosing: This skill would be required to choose the ingredients to be added to the burger, such as the type of cheese, onions, pickles, and tomatoes to use.
+
+Taking: This skill would be required to take the ingredients out of their containers or off the counter and place them on the burger.
+
+Lifting: This skill would be required to lift the cooked patty and place it on the bun.
+
+Gathering: This skill would be required to gather all of the ingredients and utensils needed to assemble the burger.
+
+Removing: This skill may be required to remove any excess ingredients or debris from the counter or other surfaces while assembling the burger.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Putting: You would need to be able to place the ingredients in a specific order on top of the burger patty. This could include placing the cheese on top of the patty, adding onions, pickles, and tomatoes on top of the cheese, and finally adding the salad dressing.
+
+Inserting: Depending on how you are constructing the burger, you may need to insert the ingredients between the bun and the patty, such as placing the onions and pickles between the bun and the patty.
+
+Throwing: You may need to throw the ingredients onto the burger patty, such as tossing the salad dressing onto the burger.
+
+Hanging: You may need to hang the ingredients on top of the burger patty, such as hanging the cheese or tomatoes on top of the patty.
+
+Dropping: You may need to drop the ingredients onto the burger patty, such as dropping the onions or pickles onto the patty.
+
+Serving: Finally, you may need to serve the completed burger, which could involve placing it on a plate or in a bun before presenting it to the person who will be eating it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
@@ -759,46 +907,139 @@ What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switc
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Closing: You will need to be able to close the burger patty after adding the toppings, in order to keep them from falling off.
+
+Wrapping: Depending on how you are serving the burger, you may need to wrap it in foil or wax paper to keep it together.
+
+Rolling: You may also need to roll the foil or wax paper around the burger to keep it secure.
+
+Locking: If you are using a container or packaging to hold the burger, you will need to be able to lock it shut in order to keep the burger from spilling out.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Pouring: You may need to pour salad dressing onto the burger.
+
+Mixing: You may need to mix the ingredients together, for example by flipping the burger patty and cheese over.
+
+Filling: You will need to fill the bun with the ingredients.
+
+Adding: You will need to add the various ingredients to the burger, such as the onions, pickles, and tomatoes.
+
+Attaching: You will need to attach the bun to the rest of the burger.
+
+Coating: You may need to coat the ingredients with salad dressing or other condiments.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Cutting: You may need to cut the vegetables (onions, pickles, and tomatoes) into thin slices or small pieces.
+
+Peeling: You may need to peel the onions, if they are not already peeled.
+
+Emptying: You may need to empty a container of salad dressing or condiment onto the burger.
+
+Breaking: You may need to break the cheese into small pieces or thin slices.
+
+Ripping: You may need to rip or tear lettuce or other salad greens into small pieces.
+
+Dividing: You may need to divide the burger patty into smaller pieces or thin slices.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Cooking: You will need to cook the burger patty before layering it on the burger. This may involve grilling, pan-frying, or baking the patty, depending on your preferred method.
+
+Holding: You will need to hold and manipulate the various ingredients as you layer them onto the burger.
+
+Flipping: You may need to flip the burger patty while cooking it to ensure that it is cooked evenly on both sides.
+
+Using: You will need to use utensils such as tongs, spatulas, or knives to handle the ingredients and assemble the burger.
+
+Sharpening: If you are using a knife to slice the onions, pickles, or tomatoes, you may need to sharpen the knife first to ensure that it is sharp enough to make clean cuts.
+
+Forming: Depending on the type of burger patty you are using, you may need to shape it into a patty before cooking it.
+
+Preparing: You may need to prepare the ingredients by washing and slicing them before layering them onto the burger.
+
+Finishing: Once you have assembled the burger, you may need to apply any final touches, such as adding additional condiments or garnishes.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Moving: You will need to be able to move the ingredients and utensils around as you assemble the burger. This may involve reaching for items in different locations, as well as using your hands to pick them up and carry them to the burger.
+
+Transitioning: You will need to be able to transition between different tasks as you assemble the burger. This may involve switching between chopping onions, grating cheese, and picking up and placing ingredients on the burger.
+
+Carrying: You will need to be able to carry the ingredients and utensils as you move them around while assembling the burger. This may involve using your hands to hold and carry items, or using utensils such as tongs or a spatula to pick up and move ingredients.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Adjusting: You will need to adjust the layers of the ingredients as you build the burger, ensuring that they are evenly distributed and placed in the desired order.
+
+Checking: You will need to check that you have all of the necessary ingredients and that they are in good condition.
+
+Looking: You will need to look at the ingredients as you add them to the burger to make sure they are being placed in the correct order and to make any necessary adjustments.
+
+Measuring: You may need to measure out the salad dressing or other condiments to ensure that you are using the desired amount.
+
+Increasing: You may need to increase the amount of a particular ingredient if you feel that the burger is not adequately dressed or layered.
+
+Lowering: You may need to lower the burger patty or other ingredients into the bun or onto the plate to ensure that they are properly positioned.
+
+Waiting: You may need to wait for the burger patty to cook or for the cheese to melt before adding other ingredients.
+
+Unfreezing: If you are using frozen ingredients, you may need to unfreeze them before adding them to the burger.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Patting: You would need to be able to pat the burger patty to shape it and prepare it for cooking.
+
+Feeling: You would need to be able to use your sense of touch to gauge the doneness of the burger patty and determine when it is ready to be removed from the heat.
+
+Eating: You would need to be able to eat the finished burger in order to taste it and determine if it meets your standards.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Applying: You will need to be able to apply the various ingredients to the burger patty in an even and orderly manner.
+
+Sprinkling: You will need to be able to sprinkle the onions, pickles, and other ingredients onto the burger patty in an even and orderly manner.
+
+Spraying: Depending on the salad dressing you are using, you may need to spray it onto the burger patty using a squeeze bottle or other similar tool.
+
+Seasoning: Depending on the ingredients you are using, you may need to season the burger patty with salt, pepper, or other spices to enhance the flavor.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Layer with a cooked burger patty, 1 slice of cheese, onions, pickles, tomatoes and salad dressing.'?
 
+Folding: You will need to be able to fold the burger bun or bun halves in half in order to create a pocket for the fillings.
+
+Sorting: You will need to be able to sort the ingredients according to their type and position on the burger. For example, you will need to place the cooked patty on the bottom bun, followed by the cheese, onions, pickles, tomatoes, and salad dressing in that order.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Taking: This involves being able to grasp and hold onto the remaining bread circle with your hand or utensil.
+
+Lifting: This involves being able to raise the bread circle up to the desired height and position it on top of the other bread circle.
+
+Choosing: This involves being able to select the appropriate toothpick to use and determine where it should be placed in order to secure the two bread circles together.
+
+Gathering: This involves being able to gather the necessary tools and materials (e.g., toothpick) in order to complete the task.
+
+Scooping: This involves being able to use a utensil (e.g., spoon) to scoop up the remaining bread circle and transfer it to the top of the other bread circle.
+
+Removing: This involves being able to remove any excess bread or crumbs that may be present in order to create a smooth, even surface on top of the sandwich.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Putting: The act of placing or arranging something in a specific location or position.
+
+Inserting: The act of inserting something into something else, such as inserting a toothpick into a bread circle.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
@@ -807,41 +1048,116 @@ What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brush
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Opening: You may need to open a package or container to retrieve the remaining bread circle.
+
+Unrolling: If the bread circle is wrapped in plastic or foil, you may need to unroll it to access it.
+
+Unscrewing: Depending on how the bread circle is stored, you may need to unscrew a lid or cap to access it.
+
+Uncovering: If the bread circle is covered or concealed in some way, you may need to uncover it to access it.
+
+Unwrapping: If the bread circle is wrapped in a material such as plastic wrap or foil, you may need to unwrap it to access it.
+
+Switching: If the bread circle is stored in a different location or container than the one you are using, you may need to switch containers or locations to access it.
+
+Unlocking: Depending on how the bread circle is stored, you may need to unlock a latch or lock to access it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Closing: This involves placing the bread circle on top of the filling and pressing the edges together to close the sandwich.
+
+Wrapping: If the sandwich is large, you may need to wrap it in foil or wax paper to hold it together.
+
+Rolling: This involves rolling the edges of the bread together to create a seal and hold the filling in place.
+
+Locking: Finally, you will need to use a toothpick to secure the sandwich and keep it from falling apart.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Pouring: This skill involves carefully pouring or adding a substance, such as a bread circle, onto another surface or object.
+
+Mixing: Mixing may be required if the bread circle needs to be combined with other ingredients before being added to the top of the dish.
+
+Filling: Filling involves adding a substance, such as a bread circle, to a container or space.
+
+Adding: Adding involves adding one or more items, such as a bread circle, to a collection or group.
+
+Attaching: Attaching involves securing one object to another, such as using a toothpick to secure the bread circle to the top of the dish.
+
+Coating: This skill may not be directly required for the task at hand, but it could be useful for preparing the bread circle before adding it to the top of the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Cutting: You may need to cut the toothpick to the appropriate size.
+
+Stabbing: You will need to insert the toothpick through the bread to secure it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Holding: To hold the bread circle and position it on top of the other ingredients.
+
+Pressing: To gently press down on the bread circle to secure it in place.
+
+Flipping: To flip the bread over, if necessary, to top it with the remaining bread circle.
+
+Pulling: To pull out a toothpick and use it to secure the bread circle in place.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Moving: You will need to be able to move the remaining bread circle to the top of the sandwich or other food item. This may require a range of motion in your arm, wrist, and hand, as well as good coordination and control.
+
+Transitioning: You will need to be able to smoothly transition the bread circle from your hand to the top of the sandwich or other food item, without knocking over or spilling anything. This may require good balance, control, and precision.
+
+Carrying: You will need to be able to carry the toothpick from where it is located to the spot where you will secure the bread circle. This may require good hand-eye coordination and control, as well as the ability to grasp and hold onto small objects.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Adjusting: You may need to adjust the positioning of the remaining bread circle to ensure that it is properly placed on top of the other ingredients.
+
+Checking: You may need to check that the remaining bread circle is the correct size and shape to fit properly on top of the other ingredients.
+
+Looking: You will need to look at the ingredients and the remaining bread circle to ensure that everything is in the correct position and ready to be secured with a toothpick.
+
+Searching: Depending on where you are storing the remaining bread circle, you may need to search for it in your kitchen or pantry.
+
+Measuring: You may need to measure the size of the remaining bread circle to ensure that it is the correct size to fit on top of the other ingredients.
+
+Increasing: Depending on the size of the remaining bread circle, you may need to increase the number of toothpicks you use to secure it in place.
+
+Waiting: You may need to wait for the other ingredients to be properly assembled before adding the remaining bread circle and securing it with a toothpick.
+
+Lowering: You may need to lower the remaining bread circle onto the other ingredients with care to avoid disturbing the arrangement.
+
+Unfreezing: Depending on how the remaining bread circle is stored, you may need to unfreeze it if it is frozen before you can use it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Patting: In this case, patting could be used to smooth out the surface of the bread circle before placing it on top of the other bread circle.
+
+Feeling: In this case, feeling could be used to determine the texture and shape of the bread circles, as well as to ensure that they are evenly aligned before securing them with a toothpick.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Top with remaining bread circle; secure with a toothpick'?
 
+Applying: You would need to be able to apply the remaining bread circle to the top of the dish or item you are working on. This may require the use of your hands and possibly a utensil such as a spatula or knife.
+
+Sprinkling: Depending on the recipe, you may need to sprinkle the remaining bread circle with additional ingredients such as herbs, cheese, or spices before securing it with the toothpick.
+
+Spraying: Depending on the recipe, you may need to spray the remaining bread circle with a liquid such as oil or water before securing it with the toothpick.
+
+Seasoning: Depending on the recipe, you may need to season the remaining bread circle with salt, pepper, or other herbs and spices before securing it with the toothpick.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Top with remaining bread circle; secure with a toothpick'
 
+Folding: You may need to fold the bread circle or other ingredients in order to create a compact, neat stack that can be easily secured with the toothpick.
 
+Sorting: Depending on the recipe, you may need to sort and arrange the ingredients in a specific order or configuration before topping with the bread circle and securing it with the toothpick.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
