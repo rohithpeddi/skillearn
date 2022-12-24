@@ -1,572 +1,1815 @@
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Taking: You would need to take the shredded rotisserie chicken from wherever it is stored or located.
+
+Scooping: You would need to use a spoon or scoop to measure out the correct amount of chicken.
+
+Choosing: You would need to choose a microwave-safe dish that is the appropriate size for the amount of chicken you are measuring.
+
+Lifting: You would need to lift the dish and place it in the microwave.
+
+Gathering: You may need to gather any additional ingredients or utensils that you will need in order to complete the task.
+
+Removing: You may need to remove the dish from the microwave once the chicken has been heated.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Putting: This skill would involve transferring the shredded chicken from a container or serving dish into a measuring cup or spoon to determine the correct amount.
+
+Inserting: This skill would involve placing the measuring cup or spoon containing the shredded chicken into the small microwave-safe dish.
+
+Throwing: This skill is not applicable to this task.
+
+Hanging: This skill is not applicable to this task.
+
+Dropping: This skill is not applicable to this task.
+
+Serving: This skill is not applicable to this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Washing: You may need to wash your hands before handling the chicken to ensure that they are clean.
+
+Drying: You will need to dry the rotisserie chicken after washing it, or if it is already cooked and ready to use, you may need to dry it with a paper towel to remove any excess moisture.
+
+Scraping: You may need to scrape any large pieces of chicken off of the rotisserie spit or tray in order to measure out 2 cups of shredded chicken.
+
+Scrubbing: You may need to scrub the microwave-safe dish if it is dirty or has food residue on it before adding the chicken to it.
+
+Rubbing: You may need to rub the inside of the microwave-safe dish with a small amount of oil or cooking spray to prevent the chicken from sticking.
+
+Soaking: You may need to soak the microwave-safe dish in hot water if it is very dirty or if there is dried food stuck to it, in order to make it easier to clean.
+
+Brushing: You may need to use a pastry brush or other type of brush to evenly distribute the oil or cooking spray over the inside of the microwave-safe dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Opening: You may need to open the container or packaging that the rotisserie chicken is stored in.
+Unrolling: If the rotisserie chicken is wrapped in plastic or foil, you may need to unroll it to access the chicken.
+Uncovering: If the rotisserie chicken is covered with a lid or foil, you will need to uncover it to access the chicken.
+Unwrapping: If the rotisserie chicken is wrapped in plastic or foil, you will need to unwrap it to access the chicken.
+Switching: You may need to switch on the microwave to heat the dish.
+Unlocking: If the microwave has a lock, you will need to unlock it before you can use it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Closing: The ability to close the container or packaging in which the rotisserie chicken is stored, if applicable.
+
+Wrapping: The ability to wrap the rotisserie chicken in plastic wrap or aluminum foil, if necessary, to prevent it from drying out or becoming contaminated.
+
+Rolling: The ability to roll the rotisserie chicken into a compact shape, if necessary, to fit it into the small microwave-safe dish.
+
+Locking: The ability to lock the lid of the small microwave-safe dish, if applicable, to prevent the contents from spilling out during microwave cooking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
+Pouring: The ability to pour the shredded rotisserie chicken into a measuring cup in order to measure out the correct amount.
 
+Mixing: The ability to mix the shredded rotisserie chicken in the small microwave-safe dish, if necessary, to evenly distribute it.
+
+Filling: The ability to fill the small microwave-safe dish with the shredded rotisserie chicken, making sure not to overfill it.
+
+Adding: The ability to add any additional ingredients or seasonings to the small microwave-safe dish, if desired.
+
+Attaching: The ability to attach the lid of the small microwave-safe dish, if applicable, in order to seal it.
+
+Coating: The ability to coat the inside of the small microwave-safe dish with cooking spray or oil, if necessary, to prevent the shredded rotisserie chicken from sticking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Cutting: The ability to cut the rotisserie chicken into small pieces or shred it, if necessary, to make it easier to measure and fit into the small microwave-safe dish.
+
+Peeling: The ability to remove the skin or packaging from the rotisserie chicken, if necessary.
+
+Emptying: The ability to empty the rotisserie chicken from its container or packaging, if necessary.
+
+Breaking: The ability to break the rotisserie chicken into smaller pieces or shred it, if necessary.
+
+Filtering: The ability to filter out any bones or other inedible parts from the rotisserie chicken, if necessary.
+
+Ripping: The ability to rip the rotisserie chicken into small pieces or shred it, if necessary.
+
+Crushing: The ability to crush any large pieces of rotisserie chicken into smaller pieces, if necessary.
+
+Dividing: The ability to divide the rotisserie chicken into equal portions, if necessary, in order to measure out 2 cups.
+
+Grating: The ability to grate the rotisserie chicken, if necessary, in order to create small, thin pieces.
+
+Stabbing: The ability to use a fork or other utensil to shred or separate the rotisserie chicken into small pieces, if necessary.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Shaking: The ability to shake the measuring cup to level off the shredded rotisserie chicken, if necessary, in order to accurately measure out 2 cups.
 
+Squeezing: The ability to squeeze any excess moisture out of the rotisserie chicken, if necessary, to prevent the dish from becoming too wet.
+
+Pressing: The ability to press down on the shredded rotisserie chicken to pack it into the small microwave-safe dish, if necessary.
+
+Flipping: The ability to flip the small microwave-safe dish over, if necessary, to check that it is not too heavy or too full.
+
+Turning: The ability to turn the small microwave-safe dish so that it is facing the right direction in the microwave oven.
+
+Pulling: The ability to pull the shredded rotisserie chicken apart or shred it further, if necessary.
+
+Holding: The ability to hold the small microwave-safe dish steady while measuring out the shredded rotisserie chicken or adding it to the dish.
+
+Cooking: The basic knowledge and ability to use a microwave oven safely and effectively.
+
+Stretching: The ability to stretch the small microwave-safe dish, if necessary, to make room for the shredded rotisserie chicken.
+
+Kneading: The ability to knead the shredded rotisserie chicken, if necessary, to evenly distribute any seasonings or ingredients.
+
+Setting: The ability to set the small microwave-safe dish aside or in a designated place while preparing any other ingredients or while the dish is cooking.
+
+Sharpening: The ability to sharpen a knife or other cutting utensil, if necessary, to cut or shred the rotisserie chicken.
+
+Watering: The ability to add a small amount of water to the small microwave-safe dish, if necessary, to prevent the shredded rotisserie chicken from drying out during cooking.
+
+Wearing: The ability to wear appropriate kitchen attire, such as an apron or chef's hat, if necessary.
+
+Forming: The ability to form the shredded rotisserie chicken into a desired shape or size, if necessary.
+
+Using: The ability to use measuring cups and other kitchen tools and equipment safely and effectively.
+
+Screwing: The ability to securely attach the lid of the small microwave-safe dish, if applicable, by screwing it on.
+
+Flattening: The ability to flatten the shredded rotisserie chicken in the small microwave-safe dish, if necessary, to make it easier to evenly distribute any seasonings or ingredients.
+
+Finishing: The ability to finish preparing the dish by adding any additional ingredients or seasonings, if desired.
+
+Preparing: The basic knowledge and ability to prepare food safely and hygienically in a kitchen setting.
+
+Baking: The basic knowledge and ability to use a microwave oven to bake or cook food.
+
+Marking: The ability to mark the small microwave-safe dish with a pen or label, if necessary, to indicate its contents or the time it was prepared.
+
+Bending: The ability to bend down to reach the microwave oven or to lift the small microwave-safe dish in and out of the microwave, if necessary.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
+Moving: The ability to move around the kitchen and reach for ingredients and equipment, such as a measuring cup or small microwave-safe dish.
 
+Transitioning: The ability to transition between different tasks or stages of the process, such as measuring the shredded rotisserie chicken and adding it to the small microwave-safe dish.
+
+Carrying: The ability to carry the small microwave-safe dish safely and securely, especially if it is hot or heavy.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Adjusting: The ability to adjust the measurement of the shredded rotisserie chicken, if necessary, to ensure that it is accurate.
+
+Checking: The ability to check the measurement of the shredded rotisserie chicken to make sure it is correct.
+
+Looking: The ability to look at the measurement of the shredded rotisserie chicken and compare it to the desired amount.
+
+Searching: The ability to search for the small microwave-safe dish and any other necessary equipment or ingredients.
+
+Measuring: The ability to use measuring cups accurately to measure out 2 cups of shredded rotisserie chicken.
+
+Increasing: The ability to increase the amount of shredded rotisserie chicken, if necessary, to ensure that there is enough for the dish.
+
+Waiting: The ability to wait for the rotisserie chicken to thaw or come to room temperature, if necessary.
+
+Lowering: The ability to lower the small microwave-safe dish into the microwave oven, if necessary, and remove it once the cooking is complete.
+
+Unfreezing: The ability to unfreeze the rotisserie chicken, if necessary, by thawing it in the refrigerator or using a microwave or other safe method.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Patting: The ability to pat the shredded rotisserie chicken dry, if necessary, is not typically required for this task.
+
+Eating: The ability to eat the shredded rotisserie chicken is not typically required for this task, as the goal is to prepare it for cooking rather than consuming it raw.
+
+Feeling: The ability to feel the shredded rotisserie chicken is not typically required for this task, as the measurement can be made using measuring cups.
+
+Drinking: The ability to drink is not typically required for this task, as the shredded rotisserie chicken is not intended to be consumed as a beverage.
+
+Smelling: The ability to smell the shredded rotisserie chicken is not typically required for this task, although it may be useful for determining its freshness or quality.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Applying: The ability to apply any additional ingredients or seasonings to the shredded rotisserie chicken, if desired.
 
+Sprinkling: The ability to sprinkle seasonings or other ingredients over the shredded rotisserie chicken, if desired.
+
+Spraying: The ability to spray the small microwave-safe dish with cooking spray or oil, if necessary, to prevent the shredded rotisserie chicken from sticking.
+
+Seasoning: The ability to season the shredded rotisserie chicken with salt, pepper, or other desired herbs or spices, if desired.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish'?
 
+Folding: The ability to fold the shredded rotisserie chicken is not typically required for this task, as the goal is to measure and add it to a small microwave-safe dish rather than shaping it in a particular way.
+
+Sorting: The ability to sort the shredded rotisserie chicken is not typically required for this task, as it is usually already in a consistent form and does not need to be separated into different categories.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Taking: The ability to take the frozen corn out of its packaging or container.
+
+Removing: The ability to remove any packaging or wrappings from the frozen corn, if necessary.
+
+Scooping: The ability to scoop the frozen corn into a measuring cup in order to measure out the correct amount.
+
+Lifting: The ability to lift the measuring cup with the frozen corn in it, if necessary, in order to add it to a recipe or cooking dish.
+
+Gathering: The ability to gather the necessary equipment and ingredients, including the measuring cup and the frozen corn.
+
+Choosing: The ability to choose the correct measuring cup for the desired amount of frozen corn.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Putting: The ability to put the frozen corn into a measuring cup in order to measure out the correct amount.
+
+Inserting: The ability to insert the measuring cup into the container of frozen corn, if necessary, in order to scoop out the correct amount.
+
+Throwing: The ability to throw away any excess frozen corn or packaging, if necessary.
+
+Hanging: The ability to hang the measuring cup on a hook or other designated storage area, if necessary.
+
+Dropping: The ability to drop the frozen corn into the measuring cup, if necessary, in order to accurately measure out the correct amount.
+
+Serving: The ability to serve the measured amount of frozen corn, if necessary, as part of a recipe or dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Washing: The ability to wash the frozen corn is not typically required for this task, as it is usually already clean and ready to use.
+
+Drying: The ability to dry the frozen corn is not typically required for this task, as it is usually already dry and does not need to be washed.
+
+Scraping: The ability to scrape any dirt or debris off the frozen corn is not typically required for this task, as it is usually already clean and ready to use.
+
+Scrubbing: The ability to scrub the frozen corn is not typically required for this task, as it is not typically dirty or contaminated.
+
+Rubbing: The ability to rub the frozen corn is not typically required for this task, as it is not typically dirty or contaminated.
+
+Soaking: The ability to soak the frozen corn is not typically required for this task, as it is not typically dirty or contaminated.
+
+Brushing: The ability to brush the frozen corn is not typically required for this task, as it is not typically dirty or contaminated.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Opening: The ability to open the container or packaging in which the frozen corn is stored.
+
+Unrolling: The ability to unroll any packaging or wrappings that may be covering the frozen corn.
+
+Unscrewing: The ability to unscrew any lids or closures on the container or packaging in which the frozen corn is stored.
+
+Uncovering: The ability to uncover the frozen corn if it is covered or hidden in any way.
+
+Unwrapping: The ability to unwrap any packaging or wrappings that may be covering the frozen corn.
+
+Switching: The ability to switch on or operate any equipment, such as a microwave or stove, that may be needed to cook the frozen corn.
+
+Unlocking: The ability to unlock any locks or latches on the container or packaging in which the frozen corn is stored.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Closing: The ability to close the container or packaging in which the frozen corn is stored is not typically required for this task, as the goal is to measure out the frozen corn rather than seal it back up.
+
+Wrapping: The ability to wrap the frozen corn in any packaging or wrappings is not typically required for this task, as the goal is to measure out the frozen corn rather than cover it up.
+
+Rolling: The ability to roll the frozen corn in any packaging or wrappings is not typically required for this task, as the goal is to measure out the frozen corn rather than cover it up.
+
+Locking: The ability to lock any locks or latches on the container or packaging in which the frozen corn is stored is not typically required for this task, as the goal is to measure out the frozen corn rather than seal it back up.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Pouring: The ability to pour the frozen corn from its container or packaging into a measuring cup in order to measure out the correct amount.
+
+Mixing: The ability to mix the frozen corn with any other ingredients, if necessary, in order to combine them evenly.
+
+Filling: The ability to fill the measuring cup with the correct amount of frozen corn.
+
+Adding: The ability to add the measured amount of frozen corn to a recipe or cooking dish, if necessary.
+
+Attaching: The ability to attach any equipment, such as a lid or lid seal, to the container or packaging in which the frozen corn is stored.
+
+Coating: The ability to coat the frozen corn with any seasonings or ingredients, if desired.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Cutting: The ability to cut the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Peeling: The ability to peel the frozen corn is not typically required for this task, as it is not typically covered by a peel or skin.
+
+Emptying: The ability to empty the container or packaging in which the frozen corn is stored is not typically required for this task, as the goal is to measure out a specific amount rather than use up all of the frozen corn.
+
+Breaking: The ability to break the frozen corn into smaller pieces is not typically required for this task, as it is usually already in small, individual pieces.
+
+Filtering: The ability to filter the frozen corn is not typically required for this task, as it is usually already clean and ready to use.
+
+Ripping: The ability to rip any packaging or wrappings off the frozen corn is not typically required for this task, as it is usually already unwrapped and ready to use.
+
+Crushing: The ability to crush the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Dividing: The ability to divide the frozen corn into smaller portions is not typically required for this task, as the goal is to measure out a specific amount rather than divide it into multiple portions.
+
+Grating: The ability to grate the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Stabbing: The ability to stab the frozen corn is not typically required for this task, as it is not typically necessary to pierce or puncture the frozen corn in order to measure it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Shaking: The ability to shake the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Squeezing: The ability to squeeze the frozen corn is not typically required for this task, as it is not typically necessary to apply pressure to the frozen corn in order to measure it.
+
+Pressing: The ability to press the frozen corn is not typically required for this task, as it is not typically necessary to apply pressure to the frozen corn in order to measure it.
+
+Flipping: The ability to flip the frozen corn is not typically required for this task, as it is not typically necessary to turn it over in order to measure it.
+
+Turning: The ability to turn the frozen corn is not typically required for this task, as it is not typically necessary to rotate it in order to measure it.
+
+Pulling: The ability to pull the frozen corn is not typically required for this task, as it is not typically necessary to apply force to the frozen corn in order to measure it.
+
+Holding: The ability to hold the frozen corn is not typically required for this task, as it is usually already contained in a container or packaging.
+
+Cooking: The ability to cook the frozen corn is not typically required for this task, as the goal is to measure out the frozen corn rather than prepare it for consumption.
+
+Stretching: The ability to stretch the frozen corn is not typically required for this task, as it is not typically necessary to apply force to the frozen corn in order to measure it.
+
+Kneading: The ability to knead the frozen corn is not typically required for this task, as it is not typically necessary to apply force to the frozen corn in order to measure it
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Moving: The ability to move the container or packaging of frozen corn to a location where it can be easily accessed and measured.
+
+Transitioning: The ability to transition the frozen corn from its container or packaging to a measuring cup, if necessary.
+
+Carrying: The ability to carry the measuring cup with the frozen corn in it, if necessary, to a location where it will be used in a recipe or cooking dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Adjusting: The ability to adjust the quantity of frozen corn being measured, if necessary, in order to obtain the correct amount.
+
+Checking: The ability to check the measurements of the frozen corn to ensure that the correct amount has been obtained.
+
+Looking: The ability to look for any equipment or tools that may be needed for the task, such as a measuring cup.
+
+Searching: The ability to search for the container or packaging of frozen corn, if it is not easily visible or accessible.
+
+Measuring: The ability to measure out the correct amount of frozen corn using a measuring cup.
+
+Increasing: The ability to increase the amount of frozen corn being measured, if necessary, in order to obtain the correct amount.
+
+Waiting: The ability to wait for the frozen corn to thaw or defrost, if necessary, before measuring it out.
+
+Lowering: The ability to lower the frozen corn into a measuring cup, if necessary, in order to accurately measure out the correct amount.
+
+Unfreezing: The ability to unfreeze the frozen corn, if necessary, in order to measure it out more easily.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Patting: The ability to pat the frozen corn is not typically required for this task, as it is not typically necessary to apply pressure to the frozen corn in order to measure it.
+
+Eating: The ability to eat the frozen corn is not typically required for this task, as the goal is to measure out the frozen corn rather than consume it.
+
+Feeling: The ability to feel the frozen corn is not typically required for this task, as it is not typically necessary to touch the frozen corn in order to measure it.
+
+Drinking: The ability to drink the frozen corn is not typically required for this task, as it is not typically consumed in liquid form.
+
+Smelling: The ability to smell the frozen corn is not typically required for this task, as it is not typically necessary to use the sense of smell in order to measure it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Applying: The ability to apply any additional ingredients or seasonings to the frozen corn is not typically required for this task, as the goal is to measure out the frozen corn rather than add anything to it.
+
+Sprinkling: The ability to sprinkle seasonings or other ingredients over the frozen corn is not typically required for this task, as the goal is to measure out the frozen corn rather than add anything to it.
+
+Spraying: The ability to spray the frozen corn with cooking spray or oil is not typically required for this task, as the goal is to measure out the frozen corn rather than add anything to it.
+
+Seasoning: The ability to season the frozen corn with salt, pepper, or other desired herbs or spices is not typically required for this task, as the goal is to measure out the frozen corn rather than add anything to it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure 2 cups frozen corn.'?
 
+Folding: The ability to fold the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Sorting: The ability to sort the frozen corn by size or type is not typically required for this task, as the goal is to measure out a specific amount rather than separate the frozen corn into different categories.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Taking: The ability to take the frozen corn out of its container or packaging and place it in the microwave-safe dish.
+
+Removing: The ability to remove the frozen corn from its container or packaging and place it in the microwave-safe dish.
+
+Scooping: The ability to scoop the frozen corn out of its container or packaging and place it in the microwave-safe dish.
+
+Lifting: The ability to lift the frozen corn out of its container or packaging and place it in the microwave-safe dish.
+
+Gathering: The ability to gather the frozen corn from its container or packaging and place it in the microwave-safe dish.
+
+Choosing: The ability to choose the appropriate microwave-safe dish in which to place the frozen corn.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Putting: The ability to put the frozen corn in the microwave-safe dish.
+
+Inserting: The ability to insert the frozen corn into the microwave-safe dish.
+
+Throwing: The ability to throw the frozen corn into the microwave-safe dish, although this is not typically the recommended way to handle food safely.
+
+Hanging: The ability to hang the frozen corn in the microwave-safe dish is not typically required for this task, as it is usually placed in the dish rather than suspended abovee it.
+
+Dropping: The ability to drop the frozen corn into the microwave-safe dish, although this is not typically the recommended way to handle food safely.
+
+Serving: The ability to serve the thawed corn from the microwave-safe dish, if necessary.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Washing: The ability to wash the frozen corn is not typically required for this task, as it is usually already clean when it is purchased.
+
+Drying: The ability to dry the frozen corn is not typically required for this task, as it is usually frozen and does not need to be dried.
+
+Scraping: The ability to scrape the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Scrubbing: The ability to scrub the frozen corn is not typically required for this task, as it is usually already clean when it is purchased.
+
+Rubbing: The ability to rub the frozen corn is not typically required for this task, as it is not typically necessary to apply pressure to the frozen corn in order to thaw it or add it to a microwave-safe dish.
+
+Soaking: The ability to soak the frozen corn is not typically required for this task, as it is not typically necessary to immerse the frozen corn in liquid in order to thaw it or add it to a microwave-safe dish.
+
+Brushing: The ability to brush the frozen corn is not typically required for this task, as it is not typically necessary to apply a brush to the frozen corn in order to thaw it or add it to a microwave-safe dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Opening: The ability to open the container or packaging of frozen corn, if necessary, in order to access the frozen corn.
+
+Unrolling: The ability to unroll any packaging or wrapping around the frozen corn, if necessary, in order to access the frozen corn.
+
+Unscrewing: The ability to unscrew any lids or caps on the container or packaging of frozen corn, if necessary, in order to access the frozen corn.
+
+Uncovering: The ability to uncover the frozen corn if it is covered by any packaging or wrapping, if necessary, in order to access the frozen corn.
+
+Unwrapping: The ability to unwrap the frozen corn if it is wrapped in any packaging or material, if necessary, in order to access the frozen corn.
+
+Switching: The ability to switch on the microwave and set it to the appropriate setting and time in order to thaw the frozen corn.
+
+Unlocking: The ability to unlock any locks or seals on the container or packaging of frozen corn, if necessary, in order to access the frozen corn.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Closing: The ability to close the container or packaging of frozen corn once the frozen corn has been added to the microwave-safe dish, if necessary, in order to keep the remaining frozen corn fresh.
+
+Wrapping: The ability to wrap the container or packaging of frozen corn in any material, such as plastic wrap or aluminum foil, once the frozen corn has been added to the microwave-safe dish, if necessary, in order to keep the remaining frozen corn fresh.
+
+Rolling: The ability to roll up any packaging or wrapping around the container or packaging of frozen corn, if necessary, in order to keep the remaining frozen corn fresh.
+
+Locking: The ability to lock any locks or seals on the container or packaging of frozen corn, if necessary, in order to keep the remaining frozen corn fresh.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Pouring: The ability to pour the frozen corn from its container or packaging into the microwave-safe dish, if necessary.
+
+Mixing: The ability to mix the frozen corn with any other ingredients or seasonings in the microwave-safe dish, if desired.
+
+Filling: The ability to fill the microwave-safe dish with the frozen corn.
+
+Adding: The ability to add the frozen corn to the microwave-safe dish.
+
+Attaching: The ability to attach any additional ingredients or seasonings to the frozen corn, if desired.
+
+Coating: The ability to coat the frozen corn with any additional ingredients or seasonings, if desired.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Cutting: The ability to cut the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Peeling: The ability to peel the frozen corn is not typically required for this task, as it does not have a peel or outer layer that needs to be removed.
+
+Emptying: The ability to empty the container or packaging of frozen corn into the microwave-safe dish is not typically required, as the goal is to add the frozen corn to the dish rather than remove it from the container.
+
+Breaking: The ability to break the frozen corn into smaller pieces is not typically required for this task, as it is usually already in small, individual pieces.
+
+Filtering: The ability to filter the frozen corn is not typically required for this task, as it is not necessary to separate the frozen corn into different categories based on size or type.
+
+Ripping: The ability to rip any packaging or wrapping around the frozen corn is not typically required for this task, as it is usually already unwrapped and ready to be used.
+
+Crushing: The ability to crush the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Dividing: The ability to divide the frozen corn into smaller portions is not typically required for this task, as it is usually already in small, individual pieces.
+
+Grating: The ability to grate the frozen corn is not typically required for this task, as it is usually already in small, individual pieces.
+
+Stabbing: The ability to stab the frozen corn with a knife or other sharp object is not typically required for this task, as it is not necessary to apply pressure to the frozen corn in order to thaw it or add it to a microwave-
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Shaking: The ability to shake the container or packaging of frozen corn in order to loosen the frozen corn, if necessary.
+
+Squeezing: The ability to squeeze the container or packaging of frozen corn in order to loosen the frozen corn, if necessary.
+
+Pressing: The ability to press the container or packaging of frozen corn in order to loosen the frozen corn, if necessary.
+
+Flipping: The ability to flip the container or packaging of frozen corn in order to loosen the frozen corn, if necessary.
+
+Turning: The ability to turn the container or packaging of frozen corn in order to loosen the frozen corn, if necessary.
+
+Pulling: The ability to pull any packaging or wrapping around the frozen corn in order to access the frozen corn, if necessary.
+
+Holding: The ability to hold the container or packaging of frozen corn while it is being thawed in the microwave, if necessary.
+
+Cooking: The ability to cook the frozen corn in the microwave according to the instructions, if necessary.
+
+Stretching: The ability to stretch any packaging or wrapping around the frozen corn in order to access the frozen corn, if necessary.
+
+Kneading: The ability to knead any packaging or wrapping around the frozen corn in order to access the frozen corn is not typically required for this task.
+
+Setting: The ability to set the microwave to the appropriate time and setting in order to thaw the frozen corn, if necessary.
+
+Sharpening: The ability to sharpen any knives or other sharp objects is not typically required for this task, as it is not necessary to cut or slice the frozen corn.
+
+Watering: The ability to water any plants or vegetables is not typically required for this task, as it does not involve watering plants or vegetables.
+
+Wearing: The ability to wear any protective clothing or gear, such as gloves or an apron, is not typically required for this task, although it may be advisable to follow proper food safety practices when handling food.
+
+Forming: The ability to form the frozen corn into any specific shape or size is not typically
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Moving: You will need to be able to move the frozen corn from its storage location to the microwave-safe dish. This may involve carrying the corn if it is in a large container or using utensils to transfer the corn if it is in a smaller bag or container.
+
+Transitioning: You will need to be able to transition the frozen corn from its frozen state to a thawed state. This may involve using a microwave to thaw the corn or using another method, such as defrosting it in the refrigerator or running it under warm water.
+
+Carrying: You will need to be able to carry the microwave-safe dish containing the thawed corn to the microwave or another location where it will be used.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+Adjusting: You may need to adjust the settings on a microwave or other appliance to thaw the corn appropriately.
+
+Checking: You may need to check the corn periodically to ensure that it is thawing evenly and to determine when it is fully thawed.
+
+Looking: You may need to look for the frozen corn in your freezer or pantry, as well as look for a suitable microwave-safe dish to use.
+
+Searching: If you are unable to locate the frozen corn or a microwave-safe dish, you may need to search for these items in other parts of your kitchen or home.
+
+Measuring: If you are using a recipe that requires a specific amount of thawed corn, you may need to measure the corn before adding it to the microwave-safe dish.
+
+Increasing: If the corn is not fully thawed after the initial thawing period, you may need to increase the thawing time.
+
+Waiting: You may need to wait for the corn to thaw fully before adding it to the microwave-safe dish.
+
+Lowering: If the corn is in a large container, you may need to lower it into the microwave-safe dish using utensils or your hands.
+
+Unfreezing: You may need to use a method such as defrosting in the refrigerator or running under warm water to unfreeze the corn if it is not suitable to be thawed in a microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+The skills you listed ([Patting, Eating, Feeling, Drinking, Smelling]) are not typically required to thaw frozen corn and add it to a microwave-safe dish. These skills may be used when preparing or consuming the thawed corn once it is added to the dish, but they are not necessary for the process of thawing and adding the corn to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+The skills you listed ([Applying, Sprinkling, Spraying, Seasoning]) are not typically required to thaw frozen corn and add it to a microwave-safe dish. These skills may be used when preparing or seasoning the thawed corn once it is added to the dish, but they are not necessary for the process of thawing and adding the corn to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Thaw the frozen corn and add it to the microwave-safe dish'?
 
+The skills of folding and sorting are not typically required to thaw frozen corn and add it to a microwave-safe dish. These skills may be used in other tasks related to food preparation or storage, but they are not necessary for the process of thawing and adding the corn to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+Taking: You will need to take the pico de gallo from its storage location and bring it to the microwave-safe dish.
+
+Removing: You may need to remove the pico de gallo from its container or packaging before measuring and adding it to the dish.
+
+Scooping: You will need to use a measuring spoon or cup to scoop the desired amount of pico de gallo into the microwave-safe dish.
+
+Lifting: You may need to lift the microwave-safe dish in order to add the pico de gallo to it.
+
+Gathering: You may need to gather any utensils or tools you will need, such as a measuring spoon or cup and a microwave-safe dish.
+
+Choosing: If you have multiple containers or packages of pico de gallo, you may need to choose which one you will use for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+Putting: You may need to put the pico de gallo in the microwave-safe dish after measuring it.
+
+Inserting: If the pico de gallo is in a container or packaging that needs to be opened, you may need to use utensils or your hands to insert them into the container in order to remove the pico de gallo.
+
+Throwing: If the pico de gallo is in a container that needs to be disposed of, you may need to throw it away after removing the pico de gallo.
+
+Hanging: If you are using a utensil such as a measuring spoon or cup that has a handle, you may need to hang it on a utensil holder or other storage location after using it.
+
+Dropping: If the pico de gallo is in a container or packaging that needs to be closed, you may need to use utensils or your hands to drop it into place.
+
+Serving: After adding the pico de gallo to the microwave-safe dish, you may need to serve it to others or use it in a recipe.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+The skills you listed ([Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]) are not typically required to measure 1/4 cup of pico de gallo and add it to a microwave-safe dish. These skills may be used in other tasks related to food preparation or cleaning, but they are not necessary for the process of measuring and adding the pico de gallo to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+Opening: If the pico de gallo is in a container or packaging that needs to be opened, you will need to use utensils or your hands to open it.
+
+Unrolling: If the pico de gallo is in a container or packaging that needs to be unrolled or unwrapped, you will need to use utensils or your hands to unroll or unwrap it.
+
+Unscrewing: If the pico de gallo is in a container that needs to be unscrewed, you will need to use utensils or your hands to unscrew it.
+
+Uncovering: If the pico de gallo is covered or sealed in some way, you will need to use utensils or your hands to uncover it.
+
+Unwrapping: If the pico de gallo is wrapped in some way, you will need to use utensils or your hands to unwrap it.
+
+Switching: If you are using a utensil such as a measuring spoon or cup that has multiple parts, you may need to switch between these parts in order to accurately measure the pico de gallo.
+
+Unlocking: If the pico de gallo is in a container that is locked or sealed in some way, you may need to use utensils or your hands to unlock it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+Closing: If the pico de gallo is in a container or packaging that needs to be closed after use, you will need to use utensils or your hands to close it.
+
+Wrapping: If the pico de gallo is in a container or packaging that needs to be wrapped after use, you will need to use utensils or your hands to wrap it.
+
+Rolling: If the pico de gallo is in a container or packaging that needs to be rolled or folded after use, you will need to use utensils or your hands to roll or fold it.
+
+Locking: If the pico de gallo is in a container that needs to be locked or sealed after use, you will need to use utensils or your hands to lock or seal it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+Pouring: You may need to pour the pico de gallo into the microwave-safe dish after measuring it.
+
+Mixing: If the pico de gallo needs to be mixed with other ingredients before adding it to the dish, you will need to use utensils or your hands to mix it.
+
+Filling: If the pico de gallo needs to be placed into a specific area of the microwave-safe dish, you may need to use utensils or your hands to fill the area with the pico de gallo.
+
+Adding: After measuring the pico de gallo, you will need to use utensils or your hands to add it to the microwave-safe dish.
+
+Attaching: If the pico de gallo is in a container or packaging that needs to be attached to something else, such as a lid, you may need to use utensils or your hands to attach it.
+
+Coating: If the pico de gallo needs to be coated with a specific substance before adding it to the dish, you will need to use utensils or your hands to coat it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+The skills you listed ([Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]) are not typically required to measure 1/4 cup of pico de gallo and add it to a microwave-safe dish. These skills may be used in other tasks related to food preparation, but they are not necessary for the process of measuring and adding the pico de gallo to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+The skills you listed ([Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]) are not typically required to measure 1/4 cup of pico de gallo and add it to a microwave-safe dish. These skills may be used in other tasks related to food preparation or cooking, but they are not necessary for the process of measuring and adding the pico de gallo to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+Moving: You will need to move the pico de gallo from its storage location to the microwave-safe dish, and you may also need to move the microwave-safe dish to a convenient location for measuring and adding the pico de gallo.
+
+Transitioning: If the pico de gallo is in a container or packaging that needs to be opened, you may need to transition it from the container or packaging to the microwave-safe dish.
+
+Carrying: You may need to carry the microwave-safe dish and any other utensils or tools you are using in order to complete this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+Adjusting: You may need to adjust the amount of pico de gallo you are measuring in order to get the correct amount.
+
+Checking: You may need to check the pico de gallo to ensure it is the correct type or variety for your recipe or dish.
+
+Looking: You will need to look at the pico de gallo and the microwave-safe dish in order to accurately measure and add the pico de gallo.
+
+Searching: You may need to search for a suitable measuring utensil or microwave-safe dish in order to complete this task.
+
+Measuring: You will need to use a measuring spoon or cup to accurately measure the pico de gallo.
+
+Increasing: If the pico de gallo is not enough for your needs, you may need to increase the amount you are measuring.
+
+Waiting: If the pico de gallo is frozen and needs to be thawed before measuring and adding it to the dish, you may need to wait for it to thaw.
+
+Lowering: If the pico de gallo is in a container or packaging that needs to be lowered or tilted in order to access the contents, you may need to lower or tilt it.
+
+Unfreezing: If the pico de gallo is frozen and needs to be thawed before measuring and adding it to the dish, you may need to use a method such as microwaving or thawing it in the refrigerator to unfreeze it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+The skills you listed ([Patting, Eating, Feeling, Drinking, Smelling]) are not typically required to measure 1/4 cup of pico de gallo and add it to a microwave-safe dish. These skills may be used in other tasks related to food preparation or consumption, but they are not necessary for the process of measuring and adding the pico de gallo to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+The skills you listed ([Applying, Sprinkling, Spraying, Seasoning]) are not typically required to measure 1/4 cup of pico de gallo and add it to a microwave-safe dish. These skills may be used in other tasks related to food preparation or seasoning, but they are not necessary for the process of measuring and adding the pico de gallo to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure 1/4 cup pico de gallo and add it to the microwave-safe dish'?
 
+The skills you listed ([Folding, Sorting]) are not typically required to measure 1/4 cup of pico de gallo and add it to a microwave-safe dish. These skills may be used in other tasks related to food preparation or organization, but they are not necessary for the process of measuring and adding the pico de gallo to the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+Taking: You will need to take the microwave-safe dish and any other utensils or tools you are using in order to complete this task.
+
+Removing: If the dish you are cooking is covered or sealed in some way, you will need to remove the cover or seal before cooking it.
+
+Scooping: If the dish you are cooking is in a container or packaging that needs to be scooped or spooned out, you will need to use utensils or your hands to scoop or spoon it out.
+
+Lifting: You will need to lift the microwave-safe dish and any other utensils or tools you are using in order to complete this task.
+
+Gathering: You may need to gather any necessary ingredients or utensils before starting to cook the dish.
+
+Choosing: You may need to choose the appropriate microwave setting or power level for cooking the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+Putting: You will need to put the dish you are cooking into the microwave.
+
+Inserting: If the dish you are cooking is in a container or packaging that needs to be inserted into the microwave, you will need to use utensils or your hands to insert it.
+
+Throwing: You will not need to throw anything in order to complete this task.
+
+Hanging: You will not need to hang anything in order to complete this task.
+
+Dropping: You will not need to drop anything in order to complete this task.
+
+Serving: After the dish is cooked, you may need to use utensils or your hands to serve it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+The skills you listed ([Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]) are not typically required to cover and cook a dish on high for 1-2 minutes or until heated through. These skills may be used in other tasks related to food preparation or cleaning, but they are not necessary for the process of cooking the dish in the microwave.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+The skills listed '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are not necessary to perform the task 'Cover and cook on high for 1-2 minutes or until heated through.' These skills may be relevant in a different context, but they are not necessary to complete the task described.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+The skills listed '[Closing, Wrapping, Rolling, Locking]' are not necessary to perform the task 'Cover and cook on high for 1-2 minutes or until heated through.' These skills may be relevant in a different context, but they are not necessary to complete the task described.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+The skills listed '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are not necessary to perform the task 'Cover and cook on high for 1-2 minutes or until heated through.' These skills may be relevant in a different context, but they are not necessary to complete the task described.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+The skills listed '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are not necessary to perform the task 'Cover and cook on high for 1-2 minutes or until heated through.' These skills may be relevant in a different context, but they are not necessary to complete the task described.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+Holding: To hold and manipulate the cover or lid for the cooking vessel.
+Turning: To turn the heat up to high.
+Setting: To set a timer for 1-2 minutes or to monitor the food visually for signs of being heated through.
+Flipping: Depending on the type of food being cooked, you may need to flip it over in the cooking vessel to ensure it is heated through evenly.
+Using: To use any cooking tools or appliances needed for the task, such as a stove, microwave, or pressure cooker.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+The skills of moving, transitioning, and carrying are not typically required to perform the action described in the statement "cover and cook on high for 1-2 minutes or until heated through." These skills may be necessary if you need to move the cooking vessel to a different location or transfer the food from one container to another, but they are not necessary for the actual cooking process described in the statement.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+Adjusting: Depending on the type of cooking vessel being used, you may need to adjust the heat or the cooking time to ensure the food is cooked properly.
+Checking: You may need to check the food regularly to ensure it is cooking properly and to determine when it is heated through.
+Looking: You may need to look at the food to determine when it is heated through.
+Searching: Depending on the recipe, you may need to search for ingredients or utensils needed for the cooking process.
+Measuring: You may need to measure ingredients or cooking times as needed.
+Increasing: Depending on the recipe, you may need to increase the heat or cooking time to ensure the food is cooked properly.
+Waiting: You may need to wait for the food to cook or for the cooking vessel to reach the proper temperature before beginning the cooking process.
+Lowering: Depending on the recipe, you may need to lower the heat or cooking time to ensure the food is cooked properly.
+Unfreezing: If the food being cooked is frozen, you may need to unfreeze it before cooking.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+The skills of patting, eating, feeling, drinking, and smelling are not typically required to perform the action described in the statement "cover and cook on high for 1-2 minutes or until heated through." These skills may be necessary once the food has been cooked and is ready to be served, but they are not necessary for the actual cooking process described in the statement.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+Applying: You will need to be able to apply a lid or cover to the dish in order to contain the heat and steam.
+
+Sprinkling: Depending on the recipe, you may need to sprinkle seasoning over the top of the dish before covering and cooking it.
+
+Spraying: If the recipe calls for it, you may need to spray a small amount of oil or cooking spray over the top of the dish before covering and cooking it.
+
+Seasoning: You will need to be able to season the dish appropriately, using the appropriate amount and type of seasoning for the recipe.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Cover and cook on high for 1-2 minutes or until heated through.'?
 
+I'm sorry, but the cooking technique "cover and cook on high for 1-2 minutes or until heated through" does not require the skills of folding or sorting. These skills are not relevant to this cooking technique.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+Taking: You will need to be able to take the chicken mixture and taco shells, either by picking them up with your hands or using utensils.
+
+Removing: Depending on how the chicken mixture is prepared, you may need to remove it from a container or pot before spooning it into the taco shells.
+
+Scooping: You will need to be able to use a spoon or other utensil to scoop the chicken mixture into the taco shells.
+
+Lifting: You may need to lift the taco shells and hold them steady while spooning the chicken mixture into them.
+
+Gathering: Depending on the recipe, you may need to gather any additional ingredients or toppings to add to the taco shells along with the chicken mixture.
+
+Choosing: If you have a choice of taco shells or other ingredients, you will need to choose which ones to use.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+Putting: You will need to be able to put the chicken mixture into the taco shells using a spoon or other utensil.
+
+Inserting: You may need to insert the spoon into the chicken mixture and then into the taco shells in order to transfer the mixture from one to the other.
+
+Throwing: You will not need to throw anything in order to perform this action.
+
+Hanging: You will not need to hang anything in order to perform this action.
+
+Dropping: You will not need to drop anything in order to perform this action.
+
+Serving: After spooning the chicken mixture into the taco shells, you may need to serve the tacos by placing them on a plate or serving tray.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+To perform the action of spooning chicken mixture into taco shells, you will not need to use the skills of washing, drying, scraping, scrubbing, rubbing, soaking, or brushing. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+To perform the action of spooning chicken mixture into taco shells, you will not need to use the skills of opening, unrolling, unscrewing, uncovering, unwrapping, switching, or unlocking. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+To perform the action of spooning chicken mixture into taco shells, you will not need to use the skills of closing, wrapping, rolling, or locking. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+Pouring: Depending on how the chicken mixture is prepared, you may need to pour it into a container or pot before spooning it into the taco shells.
+
+Mixing: Depending on the recipe, you may need to mix the chicken mixture with other ingredients before spooning it into the taco shells.
+
+Filling: You will need to be able to fill the taco shells with the chicken mixture using a spoon or other utensil.
+
+Adding: Depending on the recipe, you may need to add any additional ingredients or toppings to the taco shells along with the chicken mixture.
+
+Attaching: You will not need to attach anything in order to perform this action.
+
+Coating: You will not need to coat anything in order to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+Cutting: Depending on the recipe, you may need to cut the chicken into small pieces before mixing it with other ingredients.
+
+Peeling: You will not need to peel anything in order to perform this action.
+
+Emptying: Depending on how the chicken mixture is prepared, you may need to empty it from a container or pot before spooning it into the taco shells.
+
+Breaking: Depending on the recipe, you may need to break the chicken into small pieces before mixing it with other ingredients.
+
+Filtering: You will not need to filter anything in order to perform this action.
+
+Ripping: You will not need to rip anything in order to perform this action.
+
+Crushing: Depending on the recipe, you may need to crush any hard ingredients, such as nuts or seeds, before adding them to the chicken mixture.
+
+Dividing: You will not need to divide anything in order to perform this action.
+
+Grating: You will not need to grate anything in order to perform this action.
+
+Stabbing: You will not need to stab anything in order to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+Shaking: You will not need to shake anything in order to perform this action.
+
+Squeezing: Depending on the recipe, you may need to squeeze any ingredients, such as lemons or limes, before adding them to the chicken mixture.
+
+Pressing: You will not need to press anything in order to perform this action.
+
+Flipping: You will not need to flip anything in order to perform this action.
+
+Turning: You may need to turn the taco shells in order to spoon the chicken mixture into them evenly.
+
+Pulling: You will not need to pull anything in order to perform this action.
+
+Holding: You may need to hold the taco shells steady while spooning the chicken mixture into them.
+
+Cooking: Depending on the recipe, you may need to cook the chicken mixture before spooning it into the taco shells.
+
+Stretching: You will not need to stretch anything in order to perform this action.
+
+Kneading: You will not need to knead anything in order to perform this action.
+
+Setting: You will not need to set anything in order to perform this action.
+
+Sharpening: You will not need to sharpen anything in order to perform this action.
+
+Watering: You will not need to water anything in order to perform this action.
+
+Wearing: You will not need to wear anything special in order to perform this action.
+
+Forming: You will not need to form anything in order to perform this action.
+
+Using: You will need to use a spoon or other utensil to scoop the chicken mixture into the taco shells.
+
+Screwing: You will not need to screw anything in order to perform this action.
+
+Flattening: You will not need to flatten anything in order to perform this action.
+
+Finishing: You will not need to finish anything in order to perform this action.
+
+Preparing: Depending on the recipe, you may need to prepare the chicken mixture and any additional ingredients or toppings before spooning them into the taco shells.
+
+Baking: You will not need to bake anything in order to perform this action.
+
+Marking: You will not need to mark anything in order to perform this action.
+
+Bending: You will not need to bend anything in order to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+Moving: You may need to move the chicken mixture and taco shells to a suitable location in order to spoon the mixture into the shells.
+
+Transitioning: You will not need to transition anything in order to perform this action.
+
+Carrying: You may need to carry the chicken mixture and taco shells to a suitable location in order to spoon the mixture into the shells.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+Adjusting: You may need to adjust the position of the taco shells and chicken mixture in order to spoon the mixture into the shells evenly.
+
+Checking: You may need to check the consistency and flavor of the chicken mixture before spooning it into the taco shells.
+
+Looking: You may need to look at the taco shells and chicken mixture in order to ensure that they are ready to be spooned into the shells.
+
+Searching: You will not need to search for anything in order to perform this action.
+
+Measuring: Depending on the recipe, you may need to measure the chicken mixture and any additional ingredients or toppings before spooning them into the taco shells.
+
+Increasing: You will not need to increase anything in order to perform this action.
+
+Waiting: You will not need to wait for anything in order to perform this action.
+
+Lowering: You will not need to lower anything in order to perform this action.
+
+Unfreezing: You will not need to unfreeze anything in order to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+To perform the action of spooning chicken mixture into taco shells, you will not need to use the skills of patting, eating, feeling, drinking, or smelling. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+Applying: Depending on the recipe, you may need to apply any additional ingredients or toppings to the taco shells along with the chicken mixture.
+
+Sprinkling: Depending on the recipe, you may need to sprinkle any additional ingredients or toppings over the chicken mixture before spooning it into the taco shells.
+
+Spraying: You will not need to spray anything in order to perform this action.
+
+Seasoning: Depending on the recipe, you may need to season the chicken mixture with herbs, spices, or other flavorings before spooning it into the taco shells.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Spoon chicken mixture into taco shells.'?
 
+To perform the action of spooning chicken mixture into taco shells, you will not need to use the skills of folding or sorting. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+Taking: You will need to be able to take the shredded cheese and the measuring cup, either by picking them up with your hands or using utensils.
+
+Removing: Depending on how the cheese is stored, you may need to remove it from a bag or container before measuring it.
+
+Scooping: You will need to be able to use a spoon or other utensil to scoop the shredded cheese into the measuring cup.
+
+Lifting: You may need to lift the measuring cup and hold it steady while scooping the shredded cheese into it.
+
+Gathering: Depending on the recipe, you may need to gather any additional ingredients or tools that you will need for measuring the cheese.
+
+Choosing: If you have a choice of measuring cups or other tools, you will need to choose which ones to use.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+Putting: You will need to put the shredded cheese into the measuring cup using a spoon or other utensil.
+
+Inserting: You may need to insert the spoon into the cheese and then into the measuring cup in order to transfer the cheese from one to the other.
+
+Throwing: You will not need to throw anything in order to perform this action.
+
+Hanging: You will not need to hang anything in order to perform this action.
+
+Dropping: You will not need to drop anything in order to perform this action.
+
+Serving: You will not need to serve anything in order to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+To perform the action of measuring 1 cup of shredded Monterey Jack cheese, you will not need to use the skills of washing, drying, scraping, scrubbing, rubbing, soaking, or brushing. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+Opening: Depending on how the cheese is stored, you may need to open a bag or container in order to access the cheese.
+
+Unrolling: You will not need to unroll anything in order to perform this action.
+
+Unscrewing: You will not need to unscrew anything in order to perform this action.
+
+Uncovering: You will not need to uncover anything in order to perform this action.
+
+Unwrapping: You will not need to unwrap anything in order to perform this action.
+
+Switching: You will not need to switch anything in order to perform this action.
+
+Unlocking: You will not need to unlock anything in order to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+To perform the action of measuring 1 cup of shredded Monterey Jack cheese, you will not need to use the skills of closing, wrapping, rolling, or locking. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+To perform the action of measuring 1 cup of shredded Monterey Jack cheese, you will not need to use the skills of pouring, mixing, filling, adding, attaching, or coating. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+To perform the action of measuring 1 cup of shredded Monterey Jack cheese, you will not need to use the skills of cutting, peeling, emptying, breaking, filtering, ripping, crushing, dividing, grating, or stabbing. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+To perform the action of measuring 1 cup of shredded Monterey Jack cheese, you will not need to use the skills of shaking, squeezing, pressing, flipping, turning, pulling, holding, cooking, stretching, kneading, setting, sharpening, watering, wearing, forming, using, screwing, flattening, finishing, preparing, baking, marking, or bending. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+Moving: You may need to move your body and/or the ingredients and tools that you are using in order to measure the cheese. This could involve walking to the kitchen and back, or moving your hands and arms to reach for the cheese and the measuring cup.
+
+Transitioning: Depending on where you are measuring the cheese, you may need to transition from one location to another, such as from the counter to the refrigerator or from the pantry to the kitchen table.
+
+Carrying: You may need to carry the cheese and/or the measuring cup with you as you move from one location to another. This could involve holding the items in your hands or using a utensil or other tool to transport them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+Adjusting: You may need to adjust the position of your body, the cheese, or the measuring cup in order to measure the cheese accurately and comfortably.
+
+Checking: You may need to check the amount of cheese in the measuring cup as you scoop it, in order to ensure that you have the correct amount.
+
+Looking: You will need to look at the cheese and the measuring cup in order to accurately measure the cheese.
+
+Searching: Depending on where you are storing the cheese, you may need to search for it in order to find it before you can measure it.
+
+Measuring: You will need to use a measuring cup to measure the cheese accurately.
+
+Increasing: If you do not have enough cheese, you may need to increase the amount by scooping more into the measuring cup.
+
+Waiting: You may need to wait for the cheese to thaw or come to room temperature if it is frozen or refrigerated before measuring it.
+
+Lowering: You may need to lower the measuring cup to the counter or other surface in order to scoop the cheese into it.
+
+Unfreezing: You may need to unfreeze the cheese if it is frozen before measuring it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+To perform the action of measuring 1 cup of shredded Monterey Jack cheese, you will not need to use the skills of patting, eating, feeling, drinking, or smelling. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+To perform the action of measuring 1 cup of shredded Monterey Jack cheese, you will not need to use the skills of applying, sprinkling, spraying, or seasoning. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure 1 cup shredded Monterey Jack cheese'?
 
+To perform the action of measuring 1 cup of shredded Monterey Jack cheese, you will not need to use the skills of folding or sorting. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+Taking: You will need to be able to take the coleslaw mix and the measuring cup, either by picking them up with your hands or using utensils.
+
+Removing: Depending on how the coleslaw mix is stored, you may need to remove it from a bag or container before measuring it.
+
+Scooping: You will need to be able to use a spoon or other utensil to scoop the coleslaw mix into the measuring cup.
+
+Lifting: You may need to lift the measuring cup and hold it steady while scooping the coleslaw mix into it.
+
+Gathering: Depending on the recipe, you may need to gather any additional ingredients or tools that you will need for measuring the coleslaw mix.
+
+Choosing: If you have a choice of measuring cups or other tools, you will need to choose which ones to use.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+Putting: You will need to put the coleslaw mix into the measuring cup using a spoon or other utensil.
+
+Inserting: You may need to insert the spoon or other utensil into the coleslaw mix and then into the measuring cup in order to transfer the mix from one to the other.
+
+Throwing: You will not need to throw anything in order to perform this action.
+
+Hanging: You will not need to hang anything in order to perform this action.
+
+Dropping: You will not need to drop anything in order to perform this action.
+
+Serving: After measuring the coleslaw mix, you may need to serve it by placing it on a plate or in a bowl.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+To perform the action of measuring 1 cup of coleslaw mix, you will not need to use the skills of washing, drying, scraping, scrubbing, rubbing, soaking, or brushing. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+Opening: Depending on how the coleslaw mix is stored, you may need to open a bag or container in order to access the mix.
+
+Unrolling: You will not need to unroll anything in order to perform this action.
+
+Unscrewing: You will not need to unscrew anything in order to perform this action.
+
+Uncovering: You will not need to uncover anything in order to perform this action.
+
+Unwrapping: You will not need to unwrap anything in order to perform this action.
+
+Switching: You will not need to switch anything in order to perform this action.
+
+Unlocking: You will not need to unlock anything in order to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+To perform the action of measuring 1 cup of coleslaw mix, you will not need to use the skills of closing, wrapping, rolling, or locking. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+Pouring: You will not need to pour anything in order to perform this action.
+
+Mixing: You will not need to mix anything in order to perform this action.
+
+Filling: You may need to fill the measuring cup with the coleslaw mix using a spoon or other utensil.
+
+Adding: You will not need to add anything in order to perform this action.
+
+Attaching: You will not need to attach anything in order to perform this action.
+
+Coating: You will not need to coat anything in order to perform this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+To perform the action of measuring 1 cup of coleslaw mix, you will not need to use the skills of cutting, peeling, emptying, breaking, filtering, ripping, crushing, dividing, grating, or stabbing. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+To perform the action of measuring 1 cup of coleslaw mix, you will not need to use the skills of shaking, squeezing, pressing, flipping, turning, pulling, holding, cooking, stretching, kneading, setting, sharpening, watering, wearing, forming, using, screwing, flattening, finishing, preparing, baking, marking, or bending. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+Moving: You may need to move around the kitchen or other workspace in order to locate the coleslaw mix and the measuring cup.
+
+Transitioning: You may need to transition from one task to another, such as moving from preparing other ingredients to measuring the coleslaw mix.
+
+Carrying: Depending on the size and weight of the coleslaw mix and the measuring cup, you may need to carry them to your work area or to a storage area after measuring.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+Adjusting: You may need to adjust the position of the coleslaw mix or the measuring cup in order to measure them accurately.
+
+Checking: You may need to check the volume or weight of the coleslaw mix using the measuring cup to ensure that you have the correct amount.
+
+Looking: You may need to look at the measuring cup and the coleslaw mix to ensure that they are in the correct position and that you are measuring the correct amount.
+
+Searching: Depending on where the coleslaw mix and the measuring cup are stored, you may need to search for them before you can begin measuring.
+
+Measuring: You will need to use a measuring cup to determine the volume or weight of the coleslaw mix.
+
+Increasing: Depending on the recipe, you may need to increase the amount of coleslaw mix that you are measuring if you do not have enough.
+
+Waiting: You may need to wait for the coleslaw mix to thaw or come to room temperature before measuring it, if it is frozen or chilled.
+
+Lowering: You may need to lower the measuring cup into the coleslaw mix in order to scoop it up.
+
+Unfreezing: If the coleslaw mix is frozen, you may need to unfreeze it before measuring it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+To perform the action of measuring 1 cup of coleslaw mix, you will not need to use the skills of patting, eating, feeling, drinking, or smelling. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+To perform the action of measuring 1 cup of coleslaw mix, you will not need to use the skills of patting, eating, feeling, drinking, or smelling. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure 1 cup coleslaw mix'?
 
+To perform the action of measuring 1 cup of coleslaw mix, you will not need to use the skills of folding or sorting. These skills are not necessary for this action.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Taking: You will need to be able to take the jalapeno peppers, either by picking them up with your hands or using utensils.
+
+Removing: Depending on how the jalapeno peppers are stored, you may need to remove them from a bag or container before slicing them.
+
+Scooping: You may need to use a spoon or other utensil to scoop the jalapeno peppers out of a container or off of a cutting board.
+
+Lifting: You may need to lift the jalapeno peppers and hold them steady while slicing them.
+
+Gathering: Depending on the recipe, you may need to gather any additional ingredients or tools that you will need for slicing the jalapeno peppers.
+
+Choosing: If you have a choice of slicing tools, such as a knife or a mandoline, you will need to choose which one to use.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Putting: This skill would be required to pick up the jalapeno peppers and place them in a position where they can be easily sliced.
+
+Inserting: This skill would be required to insert the blade of the knife into the jalapeno pepper in order to slice it.
+
+Throwing: This skill would not be required to perform this task.
+
+Hanging: This skill would not be required to perform this task.
+
+Dropping: This skill would not be required to perform this task.
+
+Serving: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Washing: This skill would be required to clean the jalapeno peppers before slicing them.
+
+Drying: This skill would not be required to perform this task, unless the jalapeno peppers are washed and need to be dried before slicing.
+
+Scraping: This skill would not be required to perform this task.
+
+Scrubbing: This skill would not be required to perform this task, unless the jalapeno peppers are very dirty and need to be scrubbed before slicing.
+
+Rubbing: This skill would not be required to perform this task.
+
+Soaking: This skill would not be required to perform this task.
+
+Brushing: This skill would not be required to perform this task, unless the jalapeno peppers have dirt or debris on them that needs to be brushed off before slicing.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Opening: This skill would not be required to perform this task, unless the jalapeno peppers are packaged in some way that requires them to be opened before they can be sliced.
+
+Unrolling: This skill would not be required to perform this task.
+
+Unscrewing: This skill would not be required to perform this task.
+
+Uncovering: This skill would not be required to perform this task, unless the jalapeno peppers are covered in some way that needs to be removed before they can be sliced.
+
+Unwrapping: This skill would not be required to perform this task.
+
+Switching: This skill would not be required to perform this task.
+
+Unlocking: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Take 3 jalapeno peppers and slice them'?
+What skill from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Closing: This skill would not be required to perform this task.
+
+Wrapping: This skill would not be required to perform this task.
+
+Rolling: This skill would not be required to perform this task.
+
+Locking: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Pouring: This skill would not be required to perform this task.
+
+Mixing: This skill would not be required to perform this task.
+
+Filling: This skill would not be required to perform this task.
+
+Adding: This skill would not be required to perform this task.
+
+Attaching: This skill would not be required to perform this task.
+
+Coating: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Cutting: This skill would be required to slice the jalapeno peppers.
+
+Peeling: This skill would not be required to perform this task, unless the jalapeno peppers need to be peeled before they can be sliced.
+
+Emptying: This skill would not be required to perform this task.
+
+Breaking: This skill would not be required to perform this task.
+
+Filtering: This skill would not be required to perform this task.
+
+Ripping: This skill would not be required to perform this task.
+
+Crushing: This skill would not be required to perform this task.
+
+Dividing: This skill would not be required to perform this task.
+
+Grating: This skill would not be required to perform this task.
+
+Stabbing: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Shaking: This skill would not be required to perform this task.
+
+Squeezing: This skill would not be required to perform this task.
+
+Pressing: This skill would not be required to perform this task.
+
+Flipping: This skill would not be required to perform this task.
+
+Turning: This skill would not be required to perform this task.
+
+Pulling: This skill would not be required to perform this task.
+
+Holding: This skill would be required to hold the jalapeno peppers while slicing them.
+
+Cooking: This skill would not be required to perform this task, unless the jalapeno peppers are being sliced as part of a cooking process.
+
+Stretching: This skill would not be required to perform this task.
+
+Kneading: This skill would not be required to perform this task.
+
+Setting: This skill would not be required to perform this task.
+
+Sharpening: This skill would not be required to perform this task, unless the knife being used to slice the jalapeno peppers is not sharp and needs to be sharpened before use.
+
+Watering: This skill would not be required to perform this task.
+
+Wearing: This skill would not be required to perform this task.
+
+Forming: This skill would not be required to perform this task.
+
+Using: This skill would be required to use the knife to slice the jalapeno peppers.
+
+Screwing: This skill would not be required to perform this task.
+
+Flattening: This skill would not be required to perform this task.
+
+Finishing: This skill would not be required to perform this task.
+
+Preparing: This skill would be required to prepare the jalapeno peppers for slicing, which may include washing, drying, and selecting the appropriate size and type of knife to use.
+
+Baking: This skill would not be required to perform this task.
+
+Marking: This skill would not be required to perform this task.
+
+Bending: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Moving: This skill would be required to move the jalapeno peppers from their current location to a location where they can be sliced.
+
+Transitioning: This skill would not be required to perform this task.
+
+Carrying: This skill would be required to carry the jalapeno peppers from their current location to a location where they can be sliced.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Adjusting: This skill may be required to adjust the position of the jalapeno peppers or the knife in order to make slicing easier or more precise.
+
+Checking: This skill may be required to check the size and condition of the jalapeno peppers before slicing them.
+
+Looking: This skill may be required to look for the jalapeno peppers and locate them in their current location.
+
+Searching: This skill may be required to search for the jalapeno peppers if they are not in an obvious location.
+
+Measuring: This skill may be required to measure the jalapeno peppers or the knife to ensure that they are the appropriate size and shape for slicing.
+
+Increasing: This skill would not be required to perform this task.
+
+Waiting: This skill may be required to wait for the jalapeno peppers to thaw if they are frozen.
+
+Lowering: This skill would not be required to perform this task.
+
+Unfreezing: This skill may be required to unfreeze the jalapeno peppers if they are frozen.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Patting: This skill would not be required to perform this task.
+
+Eating: This skill would not be required to perform this task, unless the jalapeno peppers are being sliced as part of a recipe that involves eating them.
+
+Feeling: This skill may be required to feel the jalapeno peppers to determine their size and condition before slicing them.
+
+Drinking: This skill would not be required to perform this task.
+
+Smelling: This skill may be used to smell the jalapeno peppers to determine their freshness and quality before slicing them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Applying: This skill would not be required to perform this task.
+
+Sprinkling: This skill would not be required to perform this task.
+
+Spraying: This skill would not be required to perform this task.
+
+Seasoning: This skill would not be required to perform this task, unless the jalapeno peppers are being sliced as part of a recipe that involves seasoning them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Take 3 jalapeno peppers and slice them'?
 
+Folding: This skill would not be required to perform this task.
+
+Sorting: This skill would not be required to perform this task, unless the jalapeno peppers need to be sorted by size or condition before slicing them.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+Taking: This skill would be required to take the chipotle ranch salad dressing from its current location and place it in a measuring cup.
+
+Removing: This skill would not be required to perform this task.
+
+Scooping: This skill may be required to scoop the chipotle ranch salad dressing into the measuring cup if it is in a container that cannot be easily poured.
+
+Lifting: This skill may be required to lift the container of chipotle ranch salad dressing in order to pour it into the measuring cup.
+
+Gathering: This skill would not be required to perform this task.
+
+Choosing: This skill may be required to choose the appropriate measuring cup to use for the task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+Putting: This skill may be required to put the chipotle ranch salad dressing into the measuring cup.
+
+Inserting: This skill would not be required to perform this task.
+
+Throwing: This skill would not be required to perform this task.
+
+Hanging: This skill would not be required to perform this task.
+
+Dropping: This skill would not be required to perform this task.
+
+Serving: This skill would not be required to perform this task, unless the chipotle ranch salad dressing is being measured as part of a recipe that involves serving it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
+
+Washing: This skill would not be required to perform this task, unless the measuring cup or other tools being used to measure the chipotle ranch salad dressing need to be washed before use.
+
+Drying: This skill would not be required to perform this task, unless the measuring cup or other tools being used to measure the chipotle ranch salad dressing need to be dried after washing.
+
+Scraping: This skill would not be required to perform this task.
+
+Scrubbing: This skill would not be required to perform this task, unless the measuring cup or other tools being used to measure the chipotle ranch salad dressing need to be scrubbed clean before use.
+
+Rubbing: This skill would not be required to perform this task.
+
+Soaking: This skill would not be required to perform this task.
+
+Brushing: This skill would not be required to perform this task.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+Opening: This skill may be required to open the container of chipotle ranch salad dressing if it is sealed.
+
+Unrolling: This skill would not be required to perform this task.
+
+Unscrewing: This skill may be required to unscrew the lid of the container of chipotle ranch salad dressing if it is sealed with a screw-on lid.
+
+Uncovering: This skill would not be required to perform this task.
+
+Unwrapping: This skill would not be required to perform this task.
+
+Switching: This skill would not be required to perform this task.
+
+Unlocking: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+Closing: This skill may be required to close the container of chipotle ranch salad dressing if it was opened in order to measure the dressing.
+
+Wrapping: This skill would not be required to perform this task.
+
+Rolling: This skill would not be required to perform this task.
+
+Locking: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
+
+Pouring: This skill may be required to pour the chipotle ranch salad dressing into the measuring cup.
+
+Mixing: This skill would not be required to perform this task.
+
+Filling: This skill may be required to fill the measuring cup with chipotle ranch salad dressing.
+
+Adding: This skill would not be required to perform this task.
+
+Attaching: This skill would not be required to perform this task.
+
+Coating: This skill would not be required to perform this task.
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+Cutting: This skill would not be required to perform this task.
+
+Peeling: This skill would not be required to perform this task.
+
+Emptying: This skill would not be required to perform this task.
+
+Breaking: This skill would not be required to perform this task.
+
+Filtering: This skill would not be required to perform this task.
+
+Ripping: This skill would not be required to perform this task.
+
+Crushing: This skill would not be required to perform this task.
+
+Dividing: This skill would not be required to perform this task.
+
+Grating: This skill would not be required to perform this task.
+
+Stabbing: This skill would not be required to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+Measuring: You will need to use a measuring cup to measure out 1/2 cup of the dressing.
+
+Pouring: You will need to pour the measured dressing into a container or onto your salad.
+
+Holding: You will need to hold the measuring cup steady while you pour the dressing.
+
+Using: You may need to use a utensil, such as a spoon or a fork, to scoop the dressing out of the container and onto your salad.
+
+Bending: Depending on the height of the container, you may need to bend down to reach the dressing.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+Moving: You will need to move the measuring cup to the container of dressing and then move it back to the place where you will be using the dressing.
+
+Transitioning: You may need to transition the dressing from the measuring cup to a container or onto your salad.
+
+Carrying: Depending on the size and weight of the container, you may need to carry it to the place where you will be using the dressing.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+Measuring: You will need to use a measuring cup to measure out 1/2 cup of the dressing.
+
+Checking: You may need to check the measuring cup to ensure that you have the correct amount of dressing.
+
+Looking: You may need to look at the measuring cup to see how much dressing you have measured out.
+
+Searching: Depending on where you keep your measuring cups, you may need to search for the appropriate measuring cup to use.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+To measure 1/2 cup of chipotle ranch salad dressing, you will not need to use any of the skills listed in your question. Measuring 1/2 cup of chipotle ranch salad dressing does not require you to pat, eat, feel, drink, or smell the dressing.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+To measure 1/2 cup of chipotle ranch salad dressing, you will not need to use any of the skills listed in your question. Measuring 1/2 cup of chipotle ranch salad dressing does not involve applying, sprinkling, spraying, or seasoning the dressing.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Measure 1/2 cup chipotle ranch salad dressing'?
 
+To measure 1/2 cup of chipotle ranch salad dressing, you will not need to use any of the skills listed in your question. Measuring 1/2 cup of chipotle ranch salad dressing does not involve folding or sorting the dressing.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Top the tacos with all the ingredients taken abov'?
+What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Top the tacos with all the ingredients taken above'?
 
+Taking: You will need to take the ingredients that you will be using to top the tacos.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Top the tacos with all the ingredients taken abov'?
+Removing: Depending on the ingredients, you may need to remove them from their packaging or containers.
 
+Scooping: You may need to use a utensil, such as a spoon or a scoop, to portion out the ingredients onto the tacos.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Top the tacos with all the ingredients taken abov'?
+Lifting: You will need to lift the ingredients and place them onto the tacos.
 
+Gathering: You will need to gather all of the ingredients that you will be using to top the tacos.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Top the tacos with all the ingredients taken abov'?
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Top the tacos with all the ingredients taken abov'?
-
+Choosing: You will need to choose which ingredients you will use to top the tacos.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Top the tacos with all the ingredients taken abov'?
+What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Top the tacos with all the ingredients taken above'?
 
+Putting: You will need to put the ingredients onto the tacos.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Top the tacos with all the ingredients taken abov'?
+Inserting: Depending on the ingredients, you may need to insert them into the tacos.
 
+Throwing: You will not need to throw any of the ingredients onto the tacos.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Top the tacos with all the ingredients taken abov'?
+Hanging: You will not need to hang any of the ingredients onto the tacos.
 
+Dropping: You will not need to drop any of the ingredients onto the tacos.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Top the tacos with all the ingredients taken abov'?
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Top the tacos with all the ingredients taken abov'?
-
+Serving: Once you have topped the tacos with the ingredients, you may need to serve the tacos to your guests or to yourself.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Top the tacos with all the ingredients taken abov'?
+What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Top the tacos with all the ingredients taken above'?
 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Top the tacos with all the ingredients taken abov'?
-
+To top tacos with the ingredients listed above, you will not need to use any of the skills listed in your question. Washing, drying, scraping, scrubbing, rubbing, soaking, and brushing are not required to top tacos with the ingredients listed above.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-What skills from '[Folding, Sorting]' are required to perform 'Top the tacos with all the ingredients taken abov'
+What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Top the tacos with all the ingredients taken above'?
 
+Opening: Depending on the ingredients, you may need to open their packaging or containers.
 
+Unrolling: You will not need to unroll any ingredients to top the tacos.
+
+Unscrewing: You will not need to unscrew any containers to top the tacos.
+
+Uncovering: You will not need to uncover any ingredients to top the tacos.
+
+Unwrapping: You will not need to unwrap any ingredients to top the tacos.
+
+Switching: You will not need to switch any ingredients to top the tacos.
+
+Unlocking: You will not need to unlock any containers to top the tacos.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Top the tacos with all the ingredients taken above'?
+
+To top tacos with the ingredients listed above, you will not need to use any of the skills listed in your question. Closing, wrapping, rolling, and locking are not required to top tacos with the ingredients listed above.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Top the tacos with all the ingredients taken above'?
+
+Pouring: Depending on the ingredients, you may need to pour them onto the tacos.
+
+Mixing: You will not need to mix any ingredients to top the tacos.
+
+Filling: Depending on the ingredients, you may need to fill the tacos with them.
+
+Adding: You will need to add the ingredients to the tacos.
+
+Attaching: You will not need to attach any ingredients to the tacos.
+
+Coating: You will not need to coat the tacos with any ingredients.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Top the tacos with all the ingredients taken above'?
+
+Cutting: Depending on the ingredients, you may need to cut them into smaller pieces or slices before adding them to the tacos.
+
+Peeling: Depending on the ingredients, you may need to peel them before adding them to the tacos.
+
+Emptying: Depending on the ingredients, you may need to empty them from their packaging or containers before adding them to the tacos.
+
+Breaking: Depending on the ingredients, you may need to break them into smaller pieces before adding them to the tacos.
+
+Filtering: You will not need to filter any ingredients to top the tacos.
+
+Ripping: Depending on the ingredients, you may need to rip them into smaller pieces before adding them to the tacos.
+
+Crushing: Depending on the ingredients, you may need to crush them before adding them to the tacos.
+
+Dividing: You will not need to divide any ingredients to top the tacos.
+
+Grating: Depending on the ingredients, you may need to grate them before adding them to the tacos.
+
+Stabbing: You will not need to stab any ingredients to top the tacos.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Top the tacos with all the ingredients taken above'?
+
+Cutting: Depending on the ingredients, you may need to cut them into smaller pieces or slices before adding them to the tacos.
+
+Peeling: Depending on the ingredients, you may need to peel them before adding them to the tacos.
+
+Emptying: Depending on the ingredients, you may need to empty them from their packaging or containers before adding them to the tacos.
+
+Breaking: Depending on the ingredients, you may need to break them into smaller pieces before adding them to the tacos.
+
+Ripping: Depending on the ingredients, you may need to rip them into smaller pieces before adding them to the tacos.
+
+Crushing: Depending on the ingredients, you may need to crush them before adding them to the tacos.
+
+Grating: Depending on the ingredients, you may need to grate them before adding them to the tacos.
+
+Pouring: Depending on the ingredients, you may need to pour them onto the tacos.
+
+Adding: You will need to add the ingredients to the tacos.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Top the tacos with all the ingredients taken above'?
+
+Moving: You will need to move the ingredients to the tacos.
+
+Transitioning: You may need to transition the ingredients from their packaging or containers to the tacos.
+
+Carrying: Depending on the size and weight of the ingredients, you may need to carry them to the tacos.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Top the tacos with all the ingredients taken above'?
+
+Adjusting: Depending on the ingredients and how you are preparing them, you may need to adjust their quantities or proportions to suit your taste or the size of the tacos.
+
+Checking: You may need to check the ingredients to ensure that they are fresh and suitable for use on the tacos.
+
+Looking: You may need to look at the ingredients and the tacos to determine how much of each ingredient to use and where to place them on the tacos.
+
+Searching: Depending on where you keep your ingredients, you may need to search for them in your kitchen or pantry before using them to top the tacos.
+
+Measuring: Depending on the ingredients, you may need to measure out the appropriate amount to use on the tacos.
+
+Increasing: Depending on your taste, you may need to increase the amount of certain ingredients that you use to top the tacos.
+
+Waiting: You will not need to wait for any ingredients to top the tacos.
+
+Lowering: You will not need to lower any ingredients to top the tacos.
+
+Unfreezing: Depending on the ingredients, you may need to unfreeze them before using them to top the tacos.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Top the tacos with all the ingredients taken above'?
+
+To top tacos with the ingredients listed above, you will not need to use any of the skills listed in your question. Patting, eating, feeling, drinking, and smelling are not required to top tacos with the ingredients listed above.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Top the tacos with all the ingredients taken above'?
+
+Applying: Depending on the ingredients, you may need to apply them to the tacos.
+
+Sprinkling: Depending on the ingredients, you may need to sprinkle them onto the tacos.
+
+Spraying: You will not need to spray any ingredients onto the tacos.
+
+Seasoning: Depending on the ingredients and your taste, you may need to season the tacos with salt, pepper, or other seasonings before adding the other ingredients.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What skills from '[Folding, Sorting]' are required to perform 'Top the tacos with all the ingredients taken above'
+
+To top tacos with the ingredients listed above, you will not need to use any of the skills listed in your question. Folding and sorting are not required to top tacos with the ingredients listed above.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
