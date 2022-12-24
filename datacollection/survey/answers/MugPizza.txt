@@ -438,194 +438,439 @@ These skills do not require any of the skills listed in the question, such as op
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
+Closing: You would need to be able to close any containers or packaging for the marinara sauce, such as a jar or can. This would involve properly sealing the container to prevent spills or leaks.
 
+Wrapping: Depending on the type of marinara sauce you are using, you may need to wrap it in plastic wrap or aluminum foil to keep it fresh and prevent it from drying out.
+
+Rolling: You may need to use a rolling motion to spread the marinara sauce evenly over the surface of the batter. This would involve moving a utensil, such as a spoon or spatula, back and forth across the surface of the batter to spread the sauce.
+
+Locking: Depending on the recipe you are following, you may need to lock any containers or packaging for the marinara sauce to keep it fresh and prevent spills or leaks. This could involve using a locking mechanism such as a latch or seal.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
-
+Pouring: You will need to pour the marinara sauce onto the batter in a controlled manner.
+Mixing: You may need to mix the marinara sauce with the batter slightly to ensure it is evenly distributed.
+Filling: You will need to fill in any gaps or areas of the batter that are not covered with the marinara sauce.
+Adding: You will need to add the marinara sauce to the batter.
+Coating: You will need to coat the surface of the batter with the marinara sauce.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
+Cutting: This skill would be useful if the marinara sauce is in a large container or jar and you need to cut it open in order to access the sauce.
 
+Emptying: This skill would be useful if the marinara sauce is in a container or jar that needs to be emptied in order to access the sauce.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
-
+Holding: You may need to hold the container of marinara sauce steady while you spread it on the batter.
+Flipping: You may need to flip the container of marinara sauce upside down or tilt it at an angle to pour or scoop out the sauce.
+Squeezing: You may need to squeeze the container of marinara sauce to control the flow of the sauce as you spread it on the batter.
+Pressing: You may need to press down on the sauce as you spread it to ensure that it covers the surface of the batter evenly.
+Stretching: You may need to stretch the sauce out as you spread it to ensure that it covers the entire surface of the batter.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
+Moving: The ability to move the marinara sauce from its container to the surface of the batter will be necessary. This may involve using utensils or other tools to scoop or pour the sauce.
 
+Transitioning: It will be necessary to smoothly transition the marinara sauce from the container to the surface of the batter without spilling or dripping. This may involve controlling the flow of the sauce as it is being transferred.
+
+Carrying: The marinara sauce will need to be carried or transported from the container to the surface of the batter. This may involve using utensils or other tools to hold or support the sauce as it is moved.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
+Adjusting: You might need to adjust the amount of marinara sauce you use based on the size of the batter and your personal preference for the amount of sauce.
 
+Checking: You might need to check the consistency of the marinara sauce to ensure it is easy to spread.
+
+Looking: You might need to look at the surface of the batter to make sure you are evenly spreading the marinara sauce.
+
+Measuring: Depending on the recipe, you might need to measure out the appropriate amount of marinara sauce to use.
+
+Increasing or Decreasing: You might need to adjust the amount of marinara sauce you use based on the size of the batter and your personal preference for the amount of sauce.
+
+Waiting: Depending on the recipe, you might need to let the marinara sauce sit for a while before spreading it on the batter.
+
+Lowering: If the marinara sauce is in a jar or container that is too high to reach, you might need to lower it to a more accessible level.
+
+Unfreezing: If the marinara sauce is frozen, you will need to unfreeze it before spreading it on the batter.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
+Patting: You will need to use a patting motion to spread the marinara sauce evenly over the surface of the batter.
 
+Feeling: You will need to use your sense of touch to feel the consistency of the marinara sauce and the batter, and to determine how well the sauce is being spread.
+
+Drinking: You may need to use a spoon or other utensil to scoop the marinara sauce out of a container or jar, which will require the skill of drinking.
+
+Smelling: You may also need to use your sense of smell to ensure that the marinara sauce is fresh and has a good aroma.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
+Applying: This involves applying the marinara sauce onto the surface of the batter using a utensil such as a spoon, spatula, or brush.
 
+Sprinkling: This involves evenly distributing the marinara sauce over the surface of the batter by lightly sprinkling it over the top.
+
+Spraying: This involves using a spray bottle or other type of sprayer to evenly distribute the marinara sauce over the surface of the batter.
+
+Seasoning: This involves adding additional flavors to the marinara sauce before applying it to the surface of the batter. This could involve adding herbs, spices, or other seasonings to the sauce to enhance its flavor.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Take the marinara sauce and spread it around the surface of the batter.'?
-
+Folding and sorting skills may not be directly relevant to this task, but general dexterity and manual dexterity may be useful.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Taking: You will need to take the pepperoni and cheese out of the packaging or storage container.
 
+Scooping: You may need to scoop the cheese out of a block or bag using a spoon or spatula.
+
+Lifting: You will need to lift the cheese or pepperoni to a cutting board or grater.
+
+Gathering: You may need to gather the grated cheese or cut pepperoni into a bowl or onto a plate.
+
+Choosing: You may need to choose the right size of pepperoni slices or the type of cheese to use for your recipe.
+
+Cutting: You will need to use a knife to cut the pepperoni into slices or small pieces.
+
+Grating: You will need to use a grater to shred the cheese into small pieces.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
-
+You do not need the skills of putting, inserting, throwing, hanging, or dropping to perform this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
-
+u may not need the other skills listed in the question (washing, drying, scraping, scrubbing, rubbing, soaking, and brushing) for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Opening: You will need to be able to open any packaging or containers that the pepperoni and cheese are stored in.
 
+Unrolling: If the pepperoni is stored in a roll, you will need to be able to unroll it.
+
+Unscrewing: If the cheese is stored in a container with a screw-on lid, you will need to be able to unscrew the lid to access the cheese.
+
+Uncovering: If the pepperoni or cheese is covered or wrapped in any way, you will need to be able to uncover or unwrap it.
+
+Switching: You will need to be able to switch between using a knife to cut the pepperoni and using a grater to grate the cheese.
+
+Unlocking: If the pepperoni or cheese is stored in a container with a lock or latch, you will need to be able to unlock it to access the contents.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Closing: The ability to close a bag or container of pepperoni or cheese securely to keep it fresh.
 
+Wrapping: The ability to wrap the pepperoni or cheese in plastic wrap or aluminum foil to keep it fresh.
+
+Rolling: The ability to roll out a piece of dough or flatten a piece of pepperoni using a rolling pin or other similar tool.
+
+Locking: The ability to lock a knife or grater in place with a locking mechanism, such as a safety lock on a knife or a clamp on a grater, to ensure safety while using these tools.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
-
+None of the skills listed ('Pouring, Mixing, Filling, Adding, Attaching, Coating') are directly related to the task of 'Cutting pepperoni and grating cheese'.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
-
+Cutting: You would need to use a sharp knife to cut the pepperoni into small pieces or slices.
+Grating: You would need to use a grater to shred the cheese into small pieces.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Cutting: You will need to be able to use a sharp knife to cut the pepperoni into thin slices or small pieces.
 
+Grating: You will need to be able to use a grater to shred the cheese into small pieces.
+
+Holding: You will need to be able to hold the pepperoni and cheese securely while cutting and grating.
+
+Preparing: You may need to prepare a clean, flat surface to work on and gather any necessary tools or equipment.
+
+Using: You will need to be able to use a knife and grater safely and effectively.
+
+Finishing: You may need to clean up your work area and dispose of any scraps or waste when you are finished.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Fine motor skills: The ability to use small muscles in the hands and fingers to make precise movements, such as cutting small pieces of pepperoni or grating cheese.
 
+Hand-eye coordination: The ability to coordinate the movement of the hands with the movement of the eyes, which is important when cutting pepperoni or grating cheese as you need to be able to see what you are doing while using your hands to perform the task.
+
+Strength: Depending on the size of the pepperoni and the type of cheese you are grating, you may need some strength in your hands and wrists to hold and manipulate the food items.
+
+Dexterity: The ability to move your hands and fingers in a precise and controlled manner, which is important when cutting pepperoni or grating cheese as you need to be able to make precise cuts or grates without damaging the food or your hands.
+
+Balance: If you are standing while performing these tasks, good balance will help you maintain a stable stance and prevent accidents.
+
+Coordination: The ability to coordinate the movements of different parts of the body, such as the hands and arms, in order to perform tasks smoothly and efficiently. This is important when cutting pepperoni and grating cheese as you will need to use your hands and arms together in a coordinated manner.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Adjusting: This could involve adjusting the thickness of the pepperoni slices or the coarseness of the cheese grater.
 
+Checking: You may need to check the size or shape of the pepperoni slices or the consistency of the cheese as you grate it.
+
+Looking: You will need to visually inspect the pepperoni and cheese to ensure that you are cutting or grating them correctly.
+
+Measuring: Depending on the recipe you are following, you may need to measure the pepperoni or cheese to ensure that you have the correct amount.
+
+Increasing or decreasing: You may need to adjust the amount of pepperoni or cheese you are using based on the recipe or your personal preference.
+
+Waiting: If you are using a cheese grater that requires you to turn a handle, you may need to wait for the cheese to be fully grated before you can move on to the next step.
+
+Lowering: If you are using a cheese grater that is mounted on a surface, you may need to lower the cheese onto the grater to begin grating it.
+
+Unfreezing: If you are using frozen pepperoni or cheese, you may need to wait for it to thaw before you can begin cutting or grating it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Feeling: You may use feeling as a skill to determine if the pepperoni or cheese is fresh or has gone bad.
 
+Smelling: You may use smelling as a skill to determine if the pepperoni or cheese is fresh or has gone bad.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Applying: This involves using tools or techniques to apply pressure or force to the pepperoni or cheese in order to cut or grate it. This could involve using a sharp knife to slice the pepperoni or using a grater to shred the cheese.
 
+Sprinkling: This involves evenly distributing small amounts of pepperoni or cheese over a surface. This could involve using a spoon or a fork to sprinkle the pepperoni or cheese over a pizza or other dish.
+
+Spraying: This involves using a spray bottle or other device to evenly distribute small amounts of liquid over a surface. This skill may not be directly relevant to cutting pepperoni or grating cheese, but it could be useful in other cooking tasks.
+
+Seasoning: This involves adding flavors or spices to a dish in order to enhance its taste. This skill may not be directly relevant to cutting pepperoni or grating cheese, but it could be useful in other cooking tasks.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Cut pepperoni and grate cheese (maybe).'?
+Folding: Depending on the size of the pepperoni, folding it over before cutting it may make it easier to handle.
 
+Sorting: If the pepperoni is mixed in with other ingredients, sorting it out and separating it from the others may be necessary before cutting it.
+
+Cutting: This skill is necessary to cut the pepperoni into slices or small pieces.
+
+Grating: Grating cheese may be necessary if the recipe calls for grated cheese. This skill involves using a grater to shred the cheese into small pieces.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
+Taking: This involves using your hands to pick up and hold small amounts of the ingredients that you will be sprinkling.
 
+Scooping: This involves using a utensil such as a spoon or small scoop to measure out and collect small amounts of the ingredients.
+
+Gathering: This involves collecting small amounts of the ingredients and bringing them together in a single location, such as a bowl or plate.
+
+Choosing: This involves selecting the specific ingredients that you want to use and determining the amounts that you will need.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+Putting: This involves placing the cheese, pepperoni, and dried herbs on the surface or object.
+Throwing: This involves tossing or flicking the cheese, pepperoni, and dried herbs onto the surface or object.
+Serving: This involves carefully distributing the cheese, pepperoni, and dried herbs onto the surface or object in an even or organized manner.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+None of the skills listed are required to perform the action of sprinkling cheese, pepperoni, and dried herbs on a surface.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+None of the skills listed in the first part of your question are required to perform the action of "Sprinkle on the cheese, pepperoni, and dried herbs."
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+Pouring: You may need to pour the cheese and pepperoni from a container or bag in order to sprinkle them on the dish.
+Mixing: You may need to mix the cheese, pepperoni, and dried herbs together before sprinkling them on the dish.
+Filling: You may need to fill a sprinkle container or shaker with the cheese, pepperoni, and dried herbs in order to sprinkle them on the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+To perform the task "Sprinkle on the cheese, pepperoni, and dried herbs," you would not need any of the skills listed in the prompt.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+Shaking: to shake the cheese or herbs out of a container or shaker
+Holding: to hold the container or shaker and direct the sprinkling onto the desired surface
+Using: to use utensils or tools, such as a spoon or fork, to sprinkle the ingredients onto the surface
+Forming: to form a pattern or design with the ingredients as they are sprinkled
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
+Fine motor skills: The ability to use small muscles in the hands and fingers to perform precise movements, such as picking up and manipulating small items like cheese and pepperoni slices.
 
+Coordination: The ability to coordinate the movements of different parts of the body, such as the hands and fingers, to perform a task smoothly and accurately.
+
+Hand-eye coordination: The ability to coordinate the movements of the hands with the eyes to guide them to the desired location.
+
+Spatial awareness: The ability to perceive the position and orientation of objects in space, including their size, shape, and location relative to other objects.
+
+Dexterity: The skill and grace with which one performs physical tasks, especially those involving the use of the hands and fingers.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
+Adjusting: You may need to adjust the amount or distribution of the ingredients you are sprinkling in order to achieve the desired result.
 
+Checking: You may need to check the ingredients to make sure they are fresh and suitable for use.
+
+Looking: You will need to look at the ingredients and the dish to make sure you are sprinkling them in the right place and in the right amount.
+
+Searching: If you don't have all the ingredients on hand, you may need to search for them in your kitchen or pantry.
+
+Measuring: You may need to measure out the ingredients in order to get the right amount.
+
+Increasing: If you find that you need more of an ingredient, you may need to increase the amount you are using.
+
+Waiting: If you are making a recipe that requires you to wait for the ingredients to cook or bake, you will need to have the patience to wait for the task to be completed.
+
+Lowering: If you are using a shaker or other dispensing tool to sprinkle the ingredients, you may need to lower it close to the dish to make sure you are getting an even distribution.
+
+Unfreezing: If you are using frozen pepperoni or other frozen ingredients, you may need to unfreeze them before sprinkling them on the dish.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+Patting: You may need to pat down the cheese or pepperoni to spread it evenly over the surface you are sprinkling it on.
+Eating: You do not need to be able to eat in order to sprinkle cheese, pepperoni, and dried herbs, but you may want to taste a small amount to make sure the seasoning is to your liking.
+Feeling: You may need to use your sense of touch to determine how much cheese, pepperoni, and dried herbs to use, and to ensure that they are being evenly distributed.
+Drinking: You do not need to be able to drink in order to sprinkle cheese, pepperoni, and dried herbs.
+Smelling: You do not need to be able to smell in order to sprinkle cheese, pepperoni, and dried herbs, but you may want to use your sense of smell to ensure that the ingredients are fresh and of good quality.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
+Applying: This involves the ability to evenly distribute a substance over a surface or object. You will need to be able to apply the cheese, pepperoni, and dried herbs in a way that they are evenly distributed on the surface you are working with.
 
+Sprinkling: This involves the ability to lightly scatter a substance over a surface or object. You will need to be able to sprinkle the cheese, pepperoni, and dried herbs in a way that they are evenly distributed and not clumped together.
+
+Seasoning: This involves the ability to add flavor to a dish by using herbs, spices, and other seasonings. You will need to be able to properly season the dish by adding the right amount and combination of dried herbs to complement the cheese and pepperoni.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Sprinkle on the cheese, pepperoni, and dried herbs.'?
-
+None
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Taking, Removing, Scooping, Lifting, Gathering, Choosing]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
+Taking: You would need to take the food out of the refrigerator or pantry and place it in the microwave.
 
+Removing: You would need to remove any packaging or wrappers from the food before microwaving it.
+
+Scooping: If the food is in a container or dish that needs to be scooped out, you would need to use a spoon or scoop to transfer it to a microwave-safe dish.
+
+Lifting: You would need to lift the microwave-safe dish and place it in the microwave.
+
+Gathering: You would need to gather the necessary utensils and equipment, such as a microwave-safe dish and a timer or clock.
+
+Choosing: You would need to choose the correct microwave setting and time based on the instructions for the food you are microwaving.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
-
+Putting: You will need to put the food into the microwave.
+Setting the time: You will need to be able to set the microwave to the desired time.
+Monitoring: You will need to monitor the food while it is microwaving to see if it is done.
+Hanging: You may need to hang the door of the microwave open to check on the food.
+Serving: Once the food is done, you will need to be able to serve it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
-
+None of the skills listed are required to perform the task of microwaving something for a specific amount of time.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switching, Unlocking]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
+Opening: You will need to be able to open the microwave door in order to place the dish inside.
 
+Uncovering: If the dish is covered or wrapped, you will need to be able to remove the cover or wrap in order to microwave it.
+
+Switching: You will need to be able to turn the microwave on by switching it on at the wall or pressing the appropriate buttons on the microwave control panel.
+
+Setting the time: You will need to be able to set the time for the microwave to run, either by using the control panel or by using a timer.
+
+Monitoring the dish: You will need to be able to check on the dish periodically to see if it is done, and to turn off the microwave if it is finished cooking.
+
+Unwrapping: If the dish is wrapped in foil or plastic wrap, you may need to be able to remove these materials in order to check on the dish.
+
+Unlocking: Depending on the model of microwave you are using, you may need to be able to unlock the microwave door in order to open it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
+Closing: You will need to be able to close the microwave door properly so that the microwave can function properly.
 
+Wrapping: Depending on what you are cooking, you may need to wrap the food in a suitable container or material to prevent it from splattering or drying out during the cooking process.
+
+Rolling: If you are cooking something that needs to be rotated during the cooking process, you will need to be able to roll the food around so that it cooks evenly.
+
+Locking: Some microwave ovens have a child lock function to prevent children from using the microwave unsupervised. If your microwave has this feature, you will need to be able to unlock it before you can use it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
+Pouring: You may need to pour the food or other substances that you are microwaving into a microwave-safe container.
+
+Mixing: Depending on the recipe, you may need to mix the ingredients together before microwaving them.
+
+Filling: You may need to fill the microwave-safe container with the correct amount of food or other substances.
+
+Adding: You may need to add any necessary seasonings or other ingredients to the food before microwaving it.
+
+Attaching: If you are using a microwave with a turntable, you may need to attach the container to the turntable so that it rotates during the microwaving process.
+
+Coating: Depending on the recipe, you may need to coat the food with a certain substance (such as oil or butter) before microwaving it.
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
-
+None of the skills listed in the initial question (cutting, peeling, emptying, breaking, filtering, ripping, crushing, dividing, grating, stabbing) are directly related to microwaving food for a specific amount of time.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
-
+Setting: Setting the microwave timer to the desired time.
+Holding: Holding the food item steady in the microwave.
+Turning: Turning the microwave on and off.
+Pressing: Pressing the buttons on the microwave to set the timer and start the microwave.
+Monitoring: Monitoring the food as it cooks in the microwave to ensure it is cooking properly and to check if it has risen and the toppings are bubbling.
+Adjusting: Adjusting the cooking time as needed based on the progress of the food.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Moving, Transitioning, Carrying]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
+Moving: You will need to move the microwaveable container from the counter or storage area to the microwave.
 
+Transitioning: You will need to transition the microwave from its current state (off or performing another task) to being ready to cook the food.
+
+Carrying: You will need to carry the container of food to the microwave and place it inside the microwave.
+
+Measuring: You will need to measure out the appropriate amount of time using the microwave's timer.
+
+Reading: You will need to read the instructions for microwaving the food and determine the appropriate cooking time.
+
+Following instructions: You will need to follow the instructions for microwaving the food, including setting the timer and starting the microwave.
+
+Monitoring: You will need to monitor the food as it cooks and remove it from the microwave when the appropriate time has elapsed or when the toppings are bubbling.
+
+Safety: You will need to follow safe practices when handling and cooking food in the microwave, including using microwave-safe containers and wearing protective equipment such as oven mitts.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Adjusting, Checking, Looking, Searching, Measuring, Increasing, Waiting, Lowering, Unfreezing]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
 
+Adjusting - Adjusting the microwave settings to the desired time
+Checking - Checking the food to see if it is done after the specified time has passed
+Looking - Looking at the food to monitor its progress and check for doneness
+Measuring - Measuring the time to ensure that the food is microwaved for the correct amount of time
+Increasing - Increasing the time if the food is not done after the initial time has passed
+Waiting - Waiting for the food to be done
+Lowering - Lowering the power level of the microwave if the food is cooking too quickly
+Unfreezing - Unfreezing the food if it is frozen before microwaving it.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Patting, Eating, Feeling, Drinking, Smelling]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
-
+Smelling: This skill may be useful to determine if the food is finished cooking, as the smell of the food may change as it cooks.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Applying, Sprinkling, Spraying, Seasoning]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'?
+Read and follow instructions: You will need to be able to read and understand the instructions for microwaving the food, including the specific time and any other relevant information.
 
+Use a microwave oven: You will need to know how to operate a microwave oven, including setting the time and starting the cooking process.
+
+Monitor the food: You will need to pay attention to the food as it cooks in the microwave, watching for signs that it is done, such as when it rises or when the toppings start to bubble.
+
+Adjust the cooking time as needed: If the food is not fully cooked after the initial microwaving time, you may need to adjust the cooking time in order to ensure that it is fully cooked.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Folding, Sorting]' are required to perform 'Microwave for 1 minute 10 - 1 minute 20 seconds, or until it rises and the toppings are bubbling'
-
+Folding and sorting skills are not specifically required for this task.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
