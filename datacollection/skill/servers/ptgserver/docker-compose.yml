@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+#    depends_on:
+#      - db
+#
+#  db:
+#    image: mysql:8.0.31
+#    restart: always
+#    environment:
+#      MYSQL_DATABASE: ptg
+#      MYSQL_USER: ptg
+#      MYSQL_PASSWORD: ptg@123
+#      MYSQL_ROOT_PASSWORD: root
+#    volumes:
+#      - .dbdata:/var/lib/mysql
+#    ports:
+#      - 33066:3306

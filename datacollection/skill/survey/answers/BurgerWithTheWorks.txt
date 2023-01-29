@@ -9,16 +9,9 @@ Choosing: You may need to choose the right tools and equipment to shape the patt
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Putting, Inserting, Throwing, Hanging, Dropping, Serving]' are required to perform 'Shape beef into 3-in. pattie.'?
 
-Putting: This involves placing the beef into a shape or position.
-
 Inserting: This involves inserting your fingers or a tool into the beef to shape it into a patty.
-
-Throwing: This involves tossing the beef back and forth between your hands to shape it into a patty.
-
 Hanging: This involves hanging the beef in a certain position to shape it into a patty.
-
 Dropping: This involves dropping the beef onto a surface to shape it into a patty.
-
 Serving: This involves serving the beef patty to others or placing it on a plate for cooking
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Washing, Drying, Scraping, Scrubbing, Rubbing, Soaking, Brushing]' are required to perform 'Shape beef into 3-in. pattie.'?
@@ -30,47 +23,28 @@ What skills from '[Opening, Unrolling, Unscrewing, Uncovering, Unwrapping, Switc
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Closing, Wrapping, Rolling, Locking]' are required to perform 'Shape beef into 3-in. pattie.'?
-
-Closing: You will need to close the patty by sealing the edges so that it maintains its shape.
-
 Wrapping: You may need to wrap the patty in plastic wrap or wax paper to help it maintain its shape while you handle it.
-
 Rolling: You may need to use a rolling motion to shape the patty into a smooth, even circle.
-
 Locking: You may need to use a locking motion to seal the edges of the patty together and ensure that it stays together while cooking.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Pouring, Mixing, Filling, Adding, Attaching, Coating]' are required to perform 'Shape beef into 3-in. pattie.'?
 
 Pouring: You may need to pour a small amount of water or oil onto the beef to help shape the patties.
-
 Mixing: You may need to mix together the ingredients for a beef patty mixture, such as ground beef, bread crumbs, and seasonings.
-
-Filling: You will need to fill a patty press or burger press with the beef mixture to form the patties.
-
 Adding: You may need to add any additional ingredients or toppings to the patties, such as cheese or vegetables.
-
 Attaching: You may need to attach a patty press or burger press to a countertop or other surface in order to use it.
-
-Coating: You may want to coat the patties with oil, egg wash, or breadcrumbs before cooking them.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Cutting, Peeling, Emptying, Breaking, Filtering, Ripping, Crushing, Dividing, Grating, Stabbing]' are required to perform 'Shape beef into 3-in. pattie.'?
 
 Cutting: You may need to cut the beef into smaller pieces or trim off excess fat before shaping it into a patty.
-Emptying: You may need to remove any packaging or wrapping from the beef before shaping it.
 Breaking: You may need to break the beef into smaller pieces or crumble it if it is ground beef.
 Filtering: You may need to filter out any bone or gristle that is present in the beef.
 Crushing: You may need to use a meat mallet or other tool to crush the beef and make it more pliable for shaping.
 Dividing: You may need to divide the beef into equal-sized portions before shaping it into patties.
-Grating: You may need to use a grater to shred the beef if it is not ground or finely chopped.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 What skills from '[Shaking, Squeezing, Pressing, Flipping, Turning, Pulling, Holding, Cooking, Stretching, Kneading, Setting, Sharpening, Watering, Wearing, Forming, Using, Screwing, Flattening, Finishing, Preparing, Baking, Marking, Bending]' are required to perform 'Shape beef into 3-in. pattie.'?
 
-Shaking: You may need to shake the beef to loosen it up or to remove excess moisture before shaping it.
-
 Squeezing: You may need to squeeze the beef together to form it into a cohesive patty.
-
-Pressing: You will need to press the beef into a flat, even shape using your hands or a spatula.
-
 Flipping: You may need to flip the patty over to shape it on both sides.
 
 Turning: You may need to turn the patty as you shape it to ensure it is evenly shaped on all sides.
