@@ -4,3 +4,4 @@ six
 pyasn1-modules
 scipy
 matplotlib
+boxsdk
