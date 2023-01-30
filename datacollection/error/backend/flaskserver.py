@@ -128,7 +128,7 @@ def delete():
 
 if __name__=="__main__":
 	dbService = FirebaseDatabaseService()
-	# infoTextToDatabase(dbService, "recipe_details.txt")
+	infoTextToDatabase(dbService, "recipe_details.txt")
 
 	# process_id = create_async_subprocess()
 	# print("Started new asynchronous subprocess with PID", process_id)

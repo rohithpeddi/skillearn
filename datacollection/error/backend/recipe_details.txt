@@ -9,7 +9,6 @@ S7: Microwave just until cheese melts, about 10 seconds.
 S8: Cut the english muffin into two pieces with a knife.
 S9: Line bottom of English muffin with lettuce.
 S10: Take out egg and Canadian bacon from the cup, place it over lettuce and replace the top of english muffin.
-
 BreakfastPotatoes
 S1: Peel 2 medium potatoes.
 S2: Slice 2 peeled medium potatoes.
@@ -20,7 +19,6 @@ S6: Arrange potato and onion slices on the plate
 S7: Sprinkle potato and onion with seasonings (garlic salt, salt, pepper) on the plate.
 S8: Cover the plate and microwave on high for 8 minutes and 30 seconds or until potatoes are tender
 S9: Add 1/4 cup shredded cheddar cheese on the top and microwave for 30 seconds of cooking.
-
 Dressed-UpMeatballs
 S1: Cut 1/4 medium carrots into short, thin strips
 S2: Peel 1 small onion.
@@ -37,7 +35,6 @@ S12: Stir the contents in the microwave with a spoon.
 S13: Microwave again, covered, on high for 1.5 minutes
 S14: Stir the contents in the microwave with a spoon.
 S15: Microwave for 1 more minute.
-
 ChipotleRanchChickenTacos
 S1: Measure 2 cups shredded rotisserie chicken and add it to a small microwave-safe dish
 S2: Measure 2 cups of frozen corn.
@@ -51,7 +48,6 @@ S9: Measure 1 cup coleslaw mix
 S10: Take 3 jalapeno peppers and slice them
 S11: Measure 1/2 cup chipotle ranch salad dressing
 S12: Top the tacos with all the ingredients taken above (cheese, coleslaw mix, jalapeno, and dressing)
-
 MugPizza
 S1: Take a microwavable mug.
 S2: Measure 4 tablespoons of flour and add it to the mug.
@@ -67,7 +63,6 @@ S11: Sprinkle on the cheese on top of the sauce.
 S12: Place pepperoni slices on top of the cheese.
 S13: Sprinkle dried herbs inside the mug.
 S14: Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling.
-
 Ramen
 S1: Remove the noodles from the package. (Break Noodles / Keep them as a block).
 S2: Peel and Chop garlic.
@@ -82,7 +77,6 @@ S10: Measure basil and cilantro and add them to the bowl.
 S11: Let the noodles sit for about three minutes after the microwave stops.
 S12: Mix in the flavour packet.
 S13: Stir noodles with a spoon or fork until the flavouring dissolves.
-
 ApplePie
 S1: Place the crust into a microwave-safe pie dish.
 S2: Score (press) the bottom and sides of the crust with a fork.
@@ -107,7 +101,6 @@ S20: Measure 1/2 cup of quick oats and add it to the bowl.
 S21: Cut cold butter (1/2 cup) and put it in the bowl.
 S22: Add the crumble top (from the bowl) to the pie (with crust and filling).
 S23: Microwave for 5 minutes and take the pie out.
-
 Brownies
 S1: Put 1/4 stick butter into a microwave-safe bowl.
 S2: Add 0.75 oz (2.5 tsp) chocolate to the microwave-safe bowl.
@@ -125,7 +118,6 @@ S13: Pour the batter into the pan by spreading it out evenly.
 S14: Measure 1/8 cup of chocolate chunks and scatter them on top.
 S15: Cook in the microwave for 3 minutes.
 S16: Remove from the microwave and rest for 2 minutes before cutting.
-
 Coffee
 S1: Measure 12 ounces of cold water and transfer to a kettle.
 S2: Boil the water.
@@ -139,7 +131,6 @@ S9: Once the water has boiled, check the temperature of the water.  (The water s
 S10: Pour a small amount of water in the filter to wet the grounds.  Wait about 30 seconds for coffee to bloom.  (You will see small bubbles or foam on the coffee grounds during this step.)
 S11: Slowly pour the rest of the water over the grounds in a circular motion.  Do not overfill beyond the top of the paper filter.
 S12: Let the coffee drain completely into the mug before removing the dripper.   Discard the paper filter and coffee grounds.
-
 Pinwheels
 S1: Place tortilla on cutting board.
 S2: Use a butter knife to scoop nut butter from the jar. Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges.
