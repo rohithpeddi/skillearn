@@ -1,5 +1,6 @@
 import os
 import signal
+import json
 
 from flask import Flask, request, jsonify
 import logging
@@ -19,25 +20,25 @@ app = Flask(__name__)
 
 def getRecordingInstance(recording_details, is_step):
 	recording_instance = Recording(
-		recording_details[RECIPE],
-		recording_details[KITCHEN_ID],
-		recording_details[PERSON_ID],
-		recording_details[RECORDING_NUMBER]
+		recording_details.get(RECIPE),
+		recording_details.get(KITCHEN_ID),
+		recording_details.get(PERSON_ID),
+		recording_details.get(RECORDING_NUMBER)
 	)
 
 	if is_step:
-		recording_instance.setCurrentStepId(recording_details[STEP_ID])
+		recording_instance.setCurrentStepId(recording_details.get(STEP_ID))
 
 	return recording_instance
 
-@app.route("/info")
+@app.route("/info", methods=['GET'])
 def info():
 	infoJson = dbService.getDetails("info")
 	return jsonify(infoJson)
 
 @app.route("/record/recipe/start", methods=['POST'])
 def startRecipeRecording():
-	recording_details = request.json
+	recording_details = request.values
 	# 1. Start Async Service of Hololens data capture and get PID of the process
 	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=False)
 	try:
@@ -51,11 +52,12 @@ def startRecipeRecording():
 
 @app.route("/record/recipe/stop", methods=['POST'])
 def stopRecipeRecording():
-	recording_details = request.json
+	recording_details = request.values
 	# 1. Interrupt the process with PID
-	recording_subprocess_id = recording_details[SUBPROCESS_ID]
+	recording_subprocess_id = int(recording_details.get(SUBPROCESS_ID))
 	try:
 		# 2. In the interrupt process add the logic to update Firebase regarding the end of the recording
+		# os.system('pkill -TERM -P {pid}'.format(pid=recording_subprocess_id))
 		os.kill(recording_subprocess_id, signal.SIGINT)
 		response = {STATUS: SUCCESS}
 		return jsonify(response)
@@ -65,7 +67,7 @@ def stopRecipeRecording():
 
 @app.route("/record/step/start", methods=['POST'])
 def startStepRecording():
-	recording_details = request.json
+	recording_details = request.values
 	# 1. Update start timestamp of the RKPT chain in Firebase
 	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=True)
 	try:
@@ -78,7 +80,7 @@ def startStepRecording():
 
 @app.route("/record/step/stop", methods=['POST'])
 def stopStepRecording():
-	recording_details = request.json
+	recording_details = request.values
 	# 1. Update start timestamp of the RKPT chain in Firebase
 	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=True)
 	try:
@@ -92,7 +94,7 @@ def stopStepRecording():
 
 @app.route("/record/status", methods=['GET'])
 def getRecordingStatus():
-	recording_details = request.json
+	recording_details = request.values
 	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=False)
 	try:
 		recording_status = dbService.getUpdatedRecordingDetails(recording_instance)
@@ -105,7 +107,7 @@ def getRecordingStatus():
 
 @app.route("/upload", methods=['POST'])
 def upload():
-	recording_details = request.json
+	recording_details = request.values
 	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=False)
 	# TODO : Add Box Logic
 	# TODO: Can be included as an async process also
@@ -114,7 +116,7 @@ def upload():
 
 @app.route("/delete", methods=['POST'])
 def delete():
-	recording_details = request.json
+	recording_details = request.values
 	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=True)
 	try:
 		dbService.deleteRecordingStepDetails(recording_instance=recording_instance)
@@ -128,7 +130,7 @@ def delete():
 
 if __name__=="__main__":
 	dbService = FirebaseDatabaseService()
-	infoTextToDatabase(dbService, "recipe_details.txt")
+	# infoTextToDatabase(dbService, "recipe_details.txt")
 
 	# process_id = create_async_subprocess()
 	# print("Started new asynchronous subprocess with PID", process_id)
@@ -137,5 +139,5 @@ if __name__=="__main__":
 
 	# This app runs on port 5000
 	# app.run(threaded=True, host='0.0.0.0', debug=True)
-	app.run(threaded=True, host='0.0.0.0')
+	app.run(threaded=True, host='0.0.0.0', port=5000)
 

@@ -31,7 +31,7 @@ class FirebaseDatabaseService:
 
 	# 3. Function to get info as a child from the database
 	def getDetails(self, child_name):
-		return  self.db.child(child_name).get()
+		return  self.db.child(child_name).get().val()
 
 	# 4. Function to push update statuses and time stamps after each step is done
 	def updateRecordingStepDetails(self, is_start:bool, recording_instance: Recording):
@@ -52,7 +52,7 @@ class FirebaseDatabaseService:
 				.child(recording_instance.recipe) \
 				.child(recording_instance.kitchen_id) \
 				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number).get()
+				.child(recording_instance.rec_number).get().val()
 		return recording_response
 
 	# 6. Update recording details of the recipe
@@ -70,7 +70,7 @@ class FirebaseDatabaseService:
 				.child(recording_instance.kitchen_id) \
 				.child(recording_instance.person_id) \
 				.child(recording_instance.rec_number) \
-				.child(UPLOADING_STATUS).set(UPLOADED)
+				.child(UPLOAD_STATUS).set(PENDING)
 
 
 	# 7. Function to push update statuses and time stamps after each step is done
@@ -91,4 +91,4 @@ class FirebaseDatabaseService:
 			.child(recording_instance.kitchen_id) \
 			.child(recording_instance.person_id) \
 			.child(recording_instance.rec_number)\
-			.child(UPLOADING_STATUS).set(PENDING)
+			.child(UPLOAD_STATUS).set(PENDING)

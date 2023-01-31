@@ -26,7 +26,7 @@ UPLOADED = "uploaded"
 PENDING = "pending"
 
 RECORDING_STATUS = "recording_status"
-UPLOADING_STATUS = "uploading_status"
+UPLOAD_STATUS = "upload_status"
 
 
 

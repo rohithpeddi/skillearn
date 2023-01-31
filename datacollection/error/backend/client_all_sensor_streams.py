@@ -17,13 +17,13 @@ import hl2ss
 # Settings --------------------------------------------------------------------
 
 # HoloLens address
-host = "192.168.10.133"
+HOLOLENS_IP = "192.168.1.149"
 
 # Camera parameters
 # See etc/hl2_capture_formats.txt for a list of supported formats.
-width = 1920
-height = 1080
-framerate = 30
+CAMERA_WIDTH = 1920
+CAMERA_HEIGHT = 1080
+FRAMERATE = 30
 
 # Video encoding profile
 video_profile = hl2ss.VideoProfile.H265_MAIN
@@ -56,7 +56,7 @@ png_filter = hl2ss.PngFilterMode.Paeth
 
 # ------------------------------------------------------------------------------
 
-hl2ss.start_subsystem_pv(host, hl2ss.StreamPort.PERSONAL_VIDEO)
+hl2ss.start_subsystem_pv(HOLOLENS_IP, hl2ss.StreamPort.PERSONAL_VIDEO)
 
 tsfirst = None
 enable = True
@@ -116,7 +116,7 @@ def recv_mc(stream_audio, lock, packetqueue, time_base, host, audio_profile):
 def recv_depth():
     global tsfirst
     global enable
-    client = hl2ss.rx_decoded_rm_depth_ahat(host, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT, depth_mode, video_profile, depth_bitrate)
+    client = hl2ss.rx_decoded_rm_depth_ahat(HOLOLENS_IP, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT, depth_mode, video_profile, depth_bitrate)
     client.open()
 
     while (enable):
@@ -141,10 +141,10 @@ def on_press(key):
     global start_event
     global enable
 
-    if (key == keyboard.Key.space):
-        start_event.set()
-    elif (key == keyboard.Key.esc):
-        enable = False
+    # if (key == keyboard.Key.space):
+    #     start_event.set()
+    # elif (key == keyboard.Key.esc):
+    #     enable = False
 
     return enable
 
@@ -153,12 +153,13 @@ listener = keyboard.Listener(on_press=on_press)
 listener.start()
 
 print('Press space to start recording')
-start_event.wait()
+# start_event.wait()
+start_event.set()
 print('Recording started')
 print('Press esc to stop')
 
 container = av.open(video_filename, 'w')
-stream_video = container.add_stream(hl2ss.get_video_codec_name(video_profile), rate=framerate)
+stream_video = container.add_stream(hl2ss.get_video_codec_name(video_profile), rate=FRAMERATE)
 stream_audio = container.add_stream(hl2ss.get_audio_codec_name(audio_profile),
                                     rate=hl2ss.Parameters_MICROPHONE.SAMPLE_RATE)
 
@@ -167,8 +168,8 @@ packetqueue = queue.PriorityQueue()
 time_base = Fraction(1, hl2ss.TimeBase.HUNDREDS_OF_NANOSECONDS)
 
 thread_pv = threading.Thread(target=recv_pv, args=(
-    stream_video, lock, packetqueue, time_base, host, width, height, framerate, video_profile, video_bitrate))
-thread_mc = threading.Thread(target=recv_mc, args=(stream_audio, lock, packetqueue, time_base, host, audio_profile))
+    stream_video, lock, packetqueue, time_base, HOLOLENS_IP, CAMERA_WIDTH, CAMERA_HEIGHT, FRAMERATE, video_profile, video_bitrate))
+thread_mc = threading.Thread(target=recv_mc, args=(stream_audio, lock, packetqueue, time_base, HOLOLENS_IP, audio_profile))
 thread_depth = threading.Thread(target=recv_depth)
 
 thread_pv.start()
@@ -189,4 +190,4 @@ listener.join()
 
 print('Recording stopped')
 
-hl2ss.stop_subsystem_pv(host, hl2ss.StreamPort.PERSONAL_VIDEO)
+hl2ss.stop_subsystem_pv(HOLOLENS_IP, hl2ss.StreamPort.PERSONAL_VIDEO)

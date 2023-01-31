@@ -16,6 +16,7 @@ def update_recipe_recording_interrupt_handler(db_service, recording_instance, si
     logger.log(logging.INFO, "Received interrupt signal {}".format(signum))
     db_service.updateRecipeRecordingDetails(is_start=False, recording_instance=recording_instance)
     logger.log(logging.INFO, "Updated Recipe recording end time in Firebase Database")
+    sys.exit(0)
 
 # TODO : Can use this method for uploading the video to box folder
 def update_recipe_uploading_interrupt_handler(db_service, recording_instance, signum, frame):
