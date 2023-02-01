@@ -32,9 +32,6 @@ UPLOAD_STATUS = "upload_status"
 
 # -----------------------------------------------------------------------------------------------
 
-# HoloLens address
-HOLOLENS_IP = "192.168.1.149"
-
 # Camera parameters
 # See etc/hl2_capture_formats.txt for a list of supported formats.
 FRAME_WIDTH = 1920
@@ -66,6 +63,47 @@ VIDEO_MODE = hl2ss.StreamMode.MODE_1
 
 # PNG filter
 PNG_FILTER = hl2ss.PngFilterMode.Paeth
+
+# Ports
+PORTS = [
+    # hl2ss.StreamPort.PERSONAL_VIDEO,
+    hl2ss.StreamPort.RM_VLC_LEFTFRONT,
+    hl2ss.StreamPort.RM_VLC_LEFTLEFT,
+    hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
+    hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
+    hl2ss.StreamPort.RM_DEPTH_AHAT,
+    hl2ss.StreamPort.RM_DEPTH_LONGTHROW
+]
+
+# RM VLC parameters
+VLC_MODE = hl2ss.StreamMode.MODE_1
+VLC_PROFILE = hl2ss.VideoProfile.H264_BASE
+VLC_BITRATE = 1 * 1024 * 1024
+
+# RM Depth AHAT parameters
+AHAT_MODE = hl2ss.StreamMode.MODE_1
+AHAT_PROFILE = hl2ss.VideoProfile.H264_BASE
+AHAT_BITRATE = 8 * 1024 * 1024
+
+# RM Depth Long Throw parameters
+LT_MODE = hl2ss.StreamMode.MODE_1
+LT_FILTER = hl2ss.PngFilterMode.Paeth
+
+# Maximum number of frames in buffer
+BUFFER_ELEMENTS = 300
+
+# PV parameters
+PV_MODE = hl2ss.StreamMode.MODE_1
+PV_WIDTH = FRAME_WIDTH
+PV_HEIGHT = FRAME_HEIGHT
+PV_FRAMERATE = 30
+PV_PROFILE = hl2ss.VideoProfile.H265_MAIN
+PV_BITRATE = 5 * 1024 * 1024
+PV_FORMAT = 'bgr24'
+
+VLC_FPS = 30
+VLC_WIDTH = 640
+VLC_HEIGHT = 480
 
 
 

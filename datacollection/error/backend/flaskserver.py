@@ -13,10 +13,11 @@ from constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('This message will get logged on to a file')
-logger=logging.getLogger()
+logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 app = Flask(__name__)
+
 
 def getRecordingInstance(recording_details, is_step):
 	recording_instance = Recording(
@@ -25,16 +26,17 @@ def getRecordingInstance(recording_details, is_step):
 		recording_details.get(PERSON_ID),
 		recording_details.get(RECORDING_NUMBER)
 	)
-
 	if is_step:
 		recording_instance.setCurrentStepId(recording_details.get(STEP_ID))
 
 	return recording_instance
 
+
 @app.route("/info", methods=['GET'])
 def info():
 	infoJson = dbService.getDetails("info")
 	return jsonify(infoJson)
+
 
 @app.route("/record/recipe/start", methods=['POST'])
 def startRecipeRecording():
@@ -78,6 +80,7 @@ def startStepRecording():
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
+
 @app.route("/record/step/stop", methods=['POST'])
 def stopStepRecording():
 	recording_details = request.values
@@ -114,6 +117,7 @@ def upload():
 	# TODO: Should also update Firebase DB after uploading is done.
 	pass
 
+
 @app.route("/delete", methods=['POST'])
 def delete():
 	recording_details = request.values
@@ -127,8 +131,7 @@ def delete():
 		return "An error occurred: " + str(e), 500
 
 
-
-if __name__=="__main__":
+if __name__ == "__main__":
 	dbService = FirebaseDatabaseService()
 	# infoTextToDatabase(dbService, "recipe_details.txt")
 
@@ -140,4 +143,3 @@ if __name__=="__main__":
 	# This app runs on port 5000
 	# app.run(threaded=True, host='0.0.0.0', debug=True)
 	app.run(threaded=True, host='0.0.0.0', port=5000)
-
