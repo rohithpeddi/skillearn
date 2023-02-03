@@ -1,16 +1,19 @@
 import hl2ss
 
-RECIPE = "recipe"
-KITCHEN_ID = "kitchen_id"
+ACTIVITY = "activity"
+PLACE_ID = "place_id"
 PERSON_ID = "person_id"
 RECORDING_NUMBER = "recording_number"
 STEP_ID = "step_id"
+DEVICE_IP = "device_ip"
+IS_ERROR = "is_error"
 
 SUBPROCESS_ID = "subprocess_id"
 
 
 INFO = "info"
-RECORDINGS = "recordings"
+STANDARD_RECORDINGS = "standard_recordings"
+ERROR_RECORDINGS = "error_recordings"
 STEPS = "steps"
 
 RECIPE_RECORDING_START_TIME = "recipe_start_time"

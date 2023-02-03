@@ -7,7 +7,8 @@ import logging
 
 from datacollection.error.backend.Recording import Recording
 from datacollection.error.backend.async_recipe_recording import create_async_subprocess
-from datacollection.error.backend.firebase_service import FirebaseDatabaseService
+from datacollection.error.backend.firebase_service import FirebaseService
+from datacollection.error.backend.hololens_service import HololensService
 from datacollection.error.backend.util import infoTextToDatabase
 from constants import *
 
@@ -19,30 +20,33 @@ logger.setLevel(logging.INFO)
 app = Flask(__name__)
 
 
-def getRecordingInstance(recording_details, is_step):
+def get_recording_instance(recording_details, is_step):
 	recording_instance = Recording(
-		recording_details.get(RECIPE),
-		recording_details.get(KITCHEN_ID),
+		recording_details.get(ACTIVITY),
+		recording_details.get(PLACE_ID),
 		recording_details.get(PERSON_ID),
-		recording_details.get(RECORDING_NUMBER)
+		recording_details.get(RECORDING_NUMBER),
+		True if recording_details.get(IS_ERROR) == "True" else False
 	)
 	if is_step:
-		recording_instance.setCurrentStepId(recording_details.get(STEP_ID))
+		recording_instance.set_current_step_id(recording_details.get(STEP_ID))
+	else:
+		recording_instance.set_device_ip(recording_details.get(DEVICE_IP))
 
 	return recording_instance
 
 
 @app.route("/info", methods=['GET'])
 def info():
-	infoJson = dbService.getDetails("info")
-	return jsonify(infoJson)
+	info_json = db_service.get_details("info")
+	return jsonify(info_json)
 
 
-@app.route("/record/recipe/start", methods=['POST'])
-def startRecipeRecording():
+@app.route("/record/activity/start", methods=['POST'])
+def start_activity_recording():
 	recording_details = request.values
 	# 1. Start Async Service of Hololens data capture and get PID of the process
-	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=False)
+	recording_instance = get_recording_instance(recording_details=recording_details, is_step=False)
 	try:
 		child_subprocess_pid = create_async_subprocess(recording_instance)
 		logger.log(logging.INFO, "Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
@@ -52,8 +56,8 @@ def startRecipeRecording():
 		return "An error occurred: " + str(e), 500
 
 
-@app.route("/record/recipe/stop", methods=['POST'])
-def stopRecipeRecording():
+@app.route("/record/activity/stop", methods=['POST'])
+def stop_activity_recording():
 	recording_details = request.values
 	# 1. Interrupt the process with PID
 	recording_subprocess_id = int(recording_details.get(SUBPROCESS_ID))
@@ -68,12 +72,12 @@ def stopRecipeRecording():
 
 
 @app.route("/record/step/start", methods=['POST'])
-def startStepRecording():
+def start_step_recording():
 	recording_details = request.values
 	# 1. Update start timestamp of the RKPT chain in Firebase
-	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=True)
+	recording_instance = get_recording_instance(recording_details=recording_details, is_step=True)
 	try:
-		dbService.updateRecordingStepDetails(is_start=True, recording_instance=recording_instance)
+		db_service.update_recording_step_details(is_start=True, recording_instance=recording_instance)
 		logging.log(logging.INFO, "Updated step starting details")
 		response = {STATUS: SUCCESS}
 		return jsonify(response)
@@ -82,12 +86,12 @@ def startStepRecording():
 
 
 @app.route("/record/step/stop", methods=['POST'])
-def stopStepRecording():
+def stop_step_recording():
 	recording_details = request.values
 	# 1. Update start timestamp of the RKPT chain in Firebase
-	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=True)
+	recording_instance = get_recording_instance(recording_details=recording_details, is_step=True)
 	try:
-		dbService.updateRecordingStepDetails(is_start=False, recording_instance=recording_instance)
+		db_service.update_recording_step_details(is_start=False, recording_instance=recording_instance)
 		logging.log(logging.INFO, "Updated step ending details")
 		response = {STATUS: SUCCESS}
 		return jsonify(response)
@@ -96,11 +100,11 @@ def stopStepRecording():
 
 
 @app.route("/record/status", methods=['GET'])
-def getRecordingStatus():
+def get_recording_status():
 	recording_details = request.values
-	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=False)
+	recording_instance = get_recording_instance(recording_details=recording_details, is_step=False)
 	try:
-		recording_status = dbService.getUpdatedRecordingDetails(recording_instance)
+		recording_status = db_service.get_updated_recording_details(recording_instance)
 		logging.log(logging.INFO, "Fetched recording status details")
 		response = {STATUS: SUCCESS, RECORDING_STATUS: recording_status}
 		return jsonify(response)
@@ -111,19 +115,24 @@ def getRecordingStatus():
 @app.route("/upload", methods=['POST'])
 def upload():
 	recording_details = request.values
-	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=False)
+	recording_instance = get_recording_instance(recording_details=recording_details, is_step=False)
 	# TODO : Add Box Logic
 	# TODO: Can be included as an async process also
 	# TODO: Should also update Firebase DB after uploading is done.
 	pass
 
 
+@app.route("/upload/status", methods=['POST'])
+def upload_status():
+	pass
+
+
 @app.route("/delete", methods=['POST'])
 def delete():
 	recording_details = request.values
-	recording_instance = getRecordingInstance(recording_details=recording_details, is_step=True)
+	recording_instance = get_recording_instance(recording_details=recording_details, is_step=True)
 	try:
-		dbService.deleteRecordingStepDetails(recording_instance=recording_instance)
+		db_service.delete_recording_step_details(recording_instance=recording_instance)
 		logging.log(logging.INFO, "Deleted step details")
 		response = {STATUS: SUCCESS}
 		return jsonify(response)
@@ -132,7 +141,7 @@ def delete():
 
 
 if __name__ == "__main__":
-	dbService = FirebaseDatabaseService()
+	db_service = FirebaseService()
 	# infoTextToDatabase(dbService, "recipe_details.txt")
 
 	# process_id = create_async_subprocess()

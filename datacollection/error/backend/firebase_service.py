@@ -20,25 +20,25 @@ firebaseConfig = {
 firebase = pyrebase.initialize_app(firebaseConfig)
 
 
-class FirebaseDatabaseService:
+class FirebaseService:
 
 	# 1. Have this db connection constant
 	def __init__(self):
 		self.db = firebase.database()
 
 	# 2. Function to push recipe details as a child to the database
-	def addRecipeDetails(self, recipe_name, recipe_step_dict):
+	def add_activity_details(self, recipe_name, recipe_step_dict):
 		self.db.child(INFO).child(recipe_name).set(recipe_step_dict)
 
 	# 3. Function to get info as a child from the database
-	def getDetails(self, child_name):
+	def get_details(self, child_name):
 		return self.db.child(child_name).get().val()
 
 	# 4. Function to push update statuses and time stamps after each step is done
-	def updateRecordingStepDetails(self, is_start: bool, recording_instance: Recording):
-		self.db.child(RECORDINGS) \
-			.child(recording_instance.recipe) \
-			.child(recording_instance.kitchen_id) \
+	def update_recording_step_details(self, is_start: bool, recording_instance: Recording):
+		self.db.child(STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
 			.child(recording_instance.person_id) \
 			.child(recording_instance.rec_number) \
 			.child(STEPS) \
@@ -47,36 +47,41 @@ class FirebaseDatabaseService:
 			.set(int(time.time() * 1e9))
 
 	# 5. Function to get latest updated data with step completion status
-	def getUpdatedRecordingDetails(self, recording_instance: Recording):
-		recording_response = self.db.child(RECORDINGS) \
-			.child(recording_instance.recipe) \
-			.child(recording_instance.kitchen_id) \
+	def get_updated_recording_details(self, recording_instance: Recording):
+		recording_response = self.db.child(STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
 			.child(recording_instance.person_id) \
 			.child(recording_instance.rec_number).get().val()
 		return recording_response
 
 	# 6. Update recording details of the recipe
-	def updateRecipeRecordingDetails(self, is_start: bool, recording_instance: Recording):
-		self.db.child(RECORDINGS) \
-			.child(recording_instance.recipe) \
-			.child(recording_instance.kitchen_id) \
-			.child(recording_instance.person_id) \
-			.child(recording_instance.rec_number) \
-			.child(RECIPE_RECORDING_START_TIME if is_start else RECIPE_RECORDING_END_TIME).set(int(time.time() * 1e9))
+	def update_activity_recording_details(self, is_start: bool, recording_instance: Recording):
 
-		if is_start:
-			self.db.child(RECORDINGS) \
-				.child(recording_instance.recipe) \
-				.child(recording_instance.kitchen_id) \
+		if recording_instance.is_error:
+			db_parent_path = self.db.child(ERROR_RECORDINGS) \
+				.child(recording_instance.activity) \
+				.child(recording_instance.place_id) \
 				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number) \
-				.child(UPLOAD_STATUS).set(PENDING)
+				.child(recording_instance.rec_number)
+		else:
+			db_parent_path = self.db.child(STANDARD_RECORDINGS) \
+				.child(recording_instance.activity) \
+				.child(recording_instance.place_id) \
+				.child(recording_instance.person_id) \
+				.child(recording_instance.rec_number)
+
+		db_parent_path.child(RECIPE_RECORDING_START_TIME if is_start else RECIPE_RECORDING_END_TIME).set(
+			int(time.time() * 1e9))
+		db_parent_path.child(DEVICE_IP).set(recording_instance.device_ip)
+		if is_start:
+			db_parent_path.child(UPLOAD_STATUS).set(PENDING)
 
 	# 7. Function to push update statuses and time stamps after each step is done
-	def deleteRecordingStepDetails(self, recording_instance: Recording):
-		self.db.child(RECORDINGS) \
-			.child(recording_instance.recipe) \
-			.child(recording_instance.kitchen_id) \
+	def delete_recording_step_details(self, recording_instance: Recording):
+		self.db.child(STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
 			.child(recording_instance.person_id) \
 			.child(recording_instance.rec_number) \
 			.child(STEPS) \
@@ -84,10 +89,10 @@ class FirebaseDatabaseService:
 			.remove()
 
 	# 8. Update Recipe Upload Details in Firebase - Should be called from box_util
-	def updateRecipeUploadingDetails(self, recording_instance: Recording):
-		self.db.child(RECORDINGS) \
-			.child(recording_instance.recipe) \
-			.child(recording_instance.kitchen_id) \
+	def update_activity_uploading_details(self, recording_instance: Recording):
+		self.db.child(STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
 			.child(recording_instance.person_id) \
 			.child(recording_instance.rec_number) \
 			.child(UPLOAD_STATUS).set(PENDING)
