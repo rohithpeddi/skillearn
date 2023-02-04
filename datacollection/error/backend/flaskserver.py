@@ -48,7 +48,7 @@ def start_activity_recording():
 	# 1. Start Async Service of Hololens data capture and get PID of the process
 	recording_instance = get_recording_instance(recording_details=recording_details, is_step=False)
 	try:
-		child_subprocess_pid = create_async_subprocess(recording_instance)
+		child_subprocess_pid = create_async_subprocess(recording_instance, ACTIVITY_RECORD_ASYNC_OPERATION)
 		logger.log(logging.INFO, "Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
 		response = {STATUS: SUCCESS, SUBPROCESS_ID: child_subprocess_pid}
 		return jsonify(response)

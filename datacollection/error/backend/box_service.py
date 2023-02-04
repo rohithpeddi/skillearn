@@ -4,6 +4,9 @@ from boxsdk import Client, CCGAuth
 
 
 # TODO: Upload should respect nested folder structure in the box
+from datacollection.error.backend.Recording import Recording
+from datacollection.error.backend.firebase_service import FirebaseService
+
 
 class BoxService:
 

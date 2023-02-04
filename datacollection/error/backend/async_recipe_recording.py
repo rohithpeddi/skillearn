@@ -6,8 +6,10 @@ import signal
 import functools
 
 from datacollection.error.backend.Recording import Recording
+from datacollection.error.backend.box_service import BoxService
 from datacollection.error.backend.firebase_service import FirebaseService
 from datacollection.error.backend.hololens_service import HololensService
+from datacollection.error.backend.constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('This message will get logged on to a file')
@@ -27,7 +29,7 @@ def update_recipe_recording_interrupt_handler(db_service, recording_instance, re
 	sys.exit(0)
 
 
-async def long_running_task(recording_instance: Recording):
+async def activity_record_task(recording_instance: Recording):
 	# Create a DB service attached to the new child process
 	db_service = FirebaseService()
 	db_service.update_activity_recording_details(is_start=True, recording_instance=recording_instance)
@@ -37,13 +39,24 @@ async def long_running_task(recording_instance: Recording):
 	# Set the interrupt handler
 	# Code that will be executed when signalled to stop
 	signal.signal(signal.SIGINT,
-				  functools.partial(update_recipe_recording_interrupt_handler, db_service, recording_instance, recording_service))
+				  functools.partial(update_recipe_recording_interrupt_handler, db_service, recording_instance,
+									recording_service))
 
 	# Starts necessary things for recording from hololens service
 	recording_service.start_recording(recording_instance)
 
 
-def create_async_subprocess(recording_instance):
+async def upload_task(recording_instance: Recording):
+	# Create a DB service attached to the new child process
+	db_service = FirebaseService()
+
+	uploading_service = BoxService()
+
+	# TODO: Change Upload Level Stuff
+	uploading_service.start_recording(recording_instance)
+
+
+def create_async_subprocess(recording_instance, type):
 	pid = os.fork()
 	if pid == 0:
 		# This is the child process
@@ -52,7 +65,11 @@ def create_async_subprocess(recording_instance):
 
 		loop = asyncio.new_event_loop()
 		asyncio.set_event_loop(loop)
-		loop.run_until_complete(long_running_task(recording_instance))
+
+		if type == ACTIVITY_RECORD_ASYNC_OPERATION:
+			loop.run_until_complete(activity_record_task(recording_instance))
+		elif type == UPLOAD_ASYNC_OPERATION:
+			loop.run_until_complete(upload_task(recording_instance))
 
 		return child_subprocess_pid
 	else:

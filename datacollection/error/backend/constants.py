@@ -33,6 +33,11 @@ PENDING = "pending"
 RECORDING_STATUS = "recording_status"
 UPLOAD_STATUS = "upload_status"
 
+
+# ASYNC OPERATION TYPES
+UPLOAD_ASYNC_OPERATION = "async_upload_operation"
+ACTIVITY_RECORD_ASYNC_OPERATION = "async_activity_record_operation"
+
 # -----------------------------------------------------------------------------------------------
 
 # Camera parameters
