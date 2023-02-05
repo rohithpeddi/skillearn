@@ -41,6 +41,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border: black;
 
 }
 
@@ -48,6 +49,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border: black;
 }
 
 .w30{
@@ -55,8 +57,8 @@
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
+  background-color: black; /* Green */
+  border: black;
   color: white;
   padding: 16px 32px;
   text-align: center;
@@ -71,15 +73,21 @@
 .button1 {
   background-color: white;
   color: black;
-  border: 2px solid #4CAF50;
+  border: 2px solid black;
 }
 
 .rossDiv{
-  width : 400px;
-  height: 400px;
-  background-color: yellow;
+  width : 600px;
+  height: 600px;
+  overflow: scroll;
+  border: 5px solid black;
 }
 
 .tc{
   text-align: center;
+}
+
+.step_header{
+  display: flex;
+  flex-direction: column;
 }
