@@ -45,7 +45,7 @@ S6: Cover and cook on high for 1-2 minutes or until heated through.
 S7: Spoon chicken mixture from the microwave-safe dish into taco shells.
 S8: Measure 1 cup shredded Monterey Jack cheese
 S9: Measure 1 cup coleslaw mix
-S10: Take 3 jalapeno peppers and slice them
+S10: Take 3 jalapeno peppers and then wash and slice them
 S11: Measure 1/2 cup chipotle ranch salad dressing
 S12: Top the tacos with all the ingredients taken above (cheese, coleslaw mix, jalapeno, and dressing)
 MugPizza
@@ -65,9 +65,9 @@ S13: Sprinkle dried herbs inside the mug.
 S14: Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling.
 Ramen
 S1: Remove the noodles from the package. (Break Noodles / Keep them as a block).
-S2: Peel and Chop garlic.
-S3: Peel one small onion
-S4: Finely chop the peeled onion.
+S2: Peel and Chop garlic on cutting board.
+S3: Peel one small onion.
+S4: Finely chop the peeled onion on cutting board.
 S5: Take peas out of the bag and thaw the peas by putting it in a sieve and running it under some cold water.
 S6: Put all the Vegetables in a microwave-safe bowl.
 S7: Add the noodles to the bowl and cover them with water.
@@ -81,8 +81,8 @@ ApplePie
 S1: Place the crust into a microwave-safe pie dish.
 S2: Score (press) the bottom and sides of the crust with a fork.
 S3: Microwave on high for 5 minutes and let it rest while you make the fillings.
-S4: Take the apple and peel it.
-S5: Slice the apple into pieces.
+S4: Take the apple, wash and then peel it.
+S5: Slice the apple into pieces on top of a cutting board.
 S6: Add the sliced apple to the microwave-safe bowl.
 S7: Measure 3 tablespoons of flour and add it to the bowl.
 S8: Measure 1/4 cup of white sugar and add it to the bowl.
@@ -91,7 +91,7 @@ S10: Measure 1 teaspoon of cinnamon and add it to the bowl.
 S11: Measure 1 teaspoon of vanilla extract and add it to the bowl.
 S12: Extract the juice from 1/2 lemon and add it to the bowl.
 S13: Mix all the ingredients well.
-S14: Microwave the bowl on high for 2.5 minutes.
+S14: Cover the bowl and then microwave on high for 2.5 minutes.
 S15: Stir the contents in the bowl.
 S16: Again, Microwave on high for 2.5 minutes.
 S17: Add the filling (from the microwave) on top of the crust.
@@ -120,7 +120,7 @@ S15: Cook in the microwave for 3 minutes.
 S16: Remove from the microwave and rest for 2 minutes before cutting.
 Coffee
 S1: Measure 12 ounces of cold water and transfer to a kettle.
-S2: Boil the water.
+S2: Close the lid of the kettle and boil the water.
 S3: While the water is boiling, assemble the filter cone.  Place the dripper on top of a coffee mug.
 S4: Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle.
 S5: Place the paper filter in the dripper and spread open to create a cone.
