@@ -1500,5 +1500,5 @@ class tx_rc:
 		return struct.unpack('<B', data)[0] != 0
 
 	def wait_for_pv_subsystem(self, status):
-		while (self.get_pv_subsystem_status() != status):
+		while self.get_pv_subsystem_status() != status:
 			pass

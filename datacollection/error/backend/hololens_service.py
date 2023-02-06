@@ -13,7 +13,7 @@ from datacollection.error.backend import hl2ss_mp
 from datacollection.error.backend.Recording import Recording
 from datacollection.error.backend.constants import *
 
-# TODO: Add logging to this file
+
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Created Hololens service file')
 logger = logging.getLogger()

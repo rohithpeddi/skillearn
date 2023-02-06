@@ -8,6 +8,10 @@ STEP_ID = "step_id"
 DEVICE_IP = "device_ip"
 IS_ERROR = "is_error"
 
+PLACE = "place"
+PERSON = "person"
+
+
 SUBPROCESS_ID = "subprocess_id"
 
 
@@ -29,9 +33,12 @@ SUCCESS = "success"
 FAILED = "failed"
 UPLOADED = "uploaded"
 PENDING = "pending"
+UPLOADING = "uploading"
 
 RECORDING_STATUS = "recording_status"
 UPLOAD_STATUS = "upload_status"
+
+UPLOAD_QUEUE = "upload_queue"
 
 
 # ASYNC OPERATION TYPES

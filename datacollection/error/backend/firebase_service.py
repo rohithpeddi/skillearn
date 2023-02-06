@@ -36,115 +36,76 @@ class FirebaseService:
 
 	# 4. Function to push update statuses and time stamps after each step is done
 	def update_recording_step_details(self, is_start: bool, recording_instance: Recording):
-		if recording_instance.is_error:
-			self.db.child(ERROR_RECORDINGS) \
-				.child(recording_instance.activity) \
-				.child(recording_instance.place_id) \
-				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number) \
-				.child(STEPS) \
-				.child(recording_instance.current_step_id) \
-				.child(STEP_START_TIME if is_start else STEP_END_TIME) \
-				.set(int(time.time() * 1e9))
-		else:
-			self.db.child(STANDARD_RECORDINGS) \
-				.child(recording_instance.activity) \
-				.child(recording_instance.place_id) \
-				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number) \
-				.child(STEPS) \
-				.child(recording_instance.current_step_id) \
-				.child(STEP_START_TIME if is_start else STEP_END_TIME) \
-				.set(int(time.time() * 1e9))
-
-	# 5. Function to get latest updated data with step completion status
-	def get_updated_recording_details(self, recording_instance: Recording):
-		if recording_instance.is_error:
-			recording_response = self.db.child(ERROR_RECORDINGS) \
-				.child(recording_instance.activity) \
-				.child(recording_instance.place_id) \
-				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number).get()
-		else:
-			recording_response = self.db.child(STANDARD_RECORDINGS) \
-				.child(recording_instance.activity) \
-				.child(recording_instance.place_id) \
-				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number).get()
-		return recording_response.val()
-
-	# 6. Update recording details of the recipe
-	def update_activity_recording_details(self, is_start: bool, recording_instance: Recording):
-		if recording_instance.is_error:
-			self.db.child(ERROR_RECORDINGS) \
-				.child(recording_instance.activity) \
-				.child(recording_instance.place_id) \
-				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number) \
-				.child(RECIPE_RECORDING_START_TIME if is_start else RECIPE_RECORDING_END_TIME) \
-				.set(int(time.time() * 1e9))
-			if is_start:
-				self.db.child(ERROR_RECORDINGS) \
-					.child(recording_instance.activity) \
-					.child(recording_instance.place_id) \
-					.child(recording_instance.person_id) \
-					.child(recording_instance.rec_number) \
-					.child(UPLOAD_STATUS).set(PENDING)
-
-				self.db.child(ERROR_RECORDINGS) \
-					.child(recording_instance.activity) \
-					.child(recording_instance.place_id) \
-					.child(recording_instance.person_id) \
-					.child(recording_instance.rec_number) \
-					.child(DEVICE_IP).set(recording_instance.device_ip)
-		else:
-			self.db.child(STANDARD_RECORDINGS) \
-				.child(recording_instance.activity) \
-				.child(recording_instance.place_id) \
-				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number) \
-				.child(RECIPE_RECORDING_START_TIME if is_start else RECIPE_RECORDING_END_TIME) \
-				.set(int(time.time() * 1e9))
-			if is_start:
-				self.db.child(STANDARD_RECORDINGS) \
-					.child(recording_instance.activity) \
-					.child(recording_instance.place_id) \
-					.child(recording_instance.person_id) \
-					.child(recording_instance.rec_number) \
-					.child(UPLOAD_STATUS).set(PENDING)
-				self.db.child(STANDARD_RECORDINGS) \
-					.child(recording_instance.activity) \
-					.child(recording_instance.place_id) \
-					.child(recording_instance.person_id) \
-					.child(recording_instance.rec_number) \
-					.child(DEVICE_IP).set(recording_instance.device_ip)
-
-	# 7. Function to push update statuses and time stamps after each step is done
-	def delete_recording_step_details(self, recording_instance: Recording):
-		if recording_instance.is_error:
-			self.db.child(ERROR_RECORDINGS) \
-				.child(recording_instance.activity) \
-				.child(recording_instance.place_id) \
-				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number) \
-				.child(STEPS) \
-				.child(recording_instance.current_step_id) \
-				.remove()
-		else:
-			self.db.child(STANDARD_RECORDINGS) \
-				.child(recording_instance.activity) \
-				.child(recording_instance.place_id) \
-				.child(recording_instance.person_id) \
-				.child(recording_instance.rec_number) \
-				.child(STEPS) \
-				.child(recording_instance.current_step_id) \
-				.remove()
-
-	# 8. Update Recipe Upload Details in Firebase - Should be called from box_util
-	def update_activity_uploading_details(self, recording_instance: Recording):
-		self.db.child(STANDARD_RECORDINGS) \
+		self.db.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
 			.child(recording_instance.activity) \
 			.child(recording_instance.place_id) \
 			.child(recording_instance.person_id) \
 			.child(recording_instance.rec_number) \
-			.child(UPLOAD_STATUS).set(PENDING)
+			.child(STEPS) \
+			.child(recording_instance.current_step_id) \
+			.child(STEP_START_TIME if is_start else STEP_END_TIME) \
+			.set(int(time.time() * 1e9))
+
+	# 5. Function to get latest updated data with step completion status
+	def get_updated_recording_details(self, recording_instance: Recording):
+		recording_response = self.db.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
+			.child(recording_instance.person_id) \
+			.child(recording_instance.rec_number).get()
+
+		return recording_response.val()
+
+	# 6. Update recording details of the recipe
+	def update_activity_recording_details(self, is_start: bool, recording_instance: Recording):
+		self.db.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
+			.child(recording_instance.person_id) \
+			.child(recording_instance.rec_number) \
+			.child(RECIPE_RECORDING_START_TIME if is_start else RECIPE_RECORDING_END_TIME) \
+			.set(int(time.time() * 1e9))
+		if is_start:
+			self.db.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
+				.child(recording_instance.activity) \
+				.child(recording_instance.place_id) \
+				.child(recording_instance.person_id) \
+				.child(recording_instance.rec_number) \
+				.child(UPLOAD_STATUS).set(PENDING)
+
+			self.db.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
+				.child(recording_instance.activity) \
+				.child(recording_instance.place_id) \
+				.child(recording_instance.person_id) \
+				.child(recording_instance.rec_number) \
+				.child(DEVICE_IP).set(recording_instance.device_ip)
+
+	# 7. Function to push update statuses and time stamps after each step is done
+	def delete_recording_step_details(self, recording_instance: Recording):
+		self.db.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
+			.child(recording_instance.person_id) \
+			.child(recording_instance.rec_number) \
+			.child(STEPS) \
+			.child(recording_instance.current_step_id) \
+			.remove()
+
+	# 8. Update Recipe Upload Details in Firebase - Should be called from box_util
+	def update_activity_uploading_details(self, recording_instance: Recording, status):
+		self.db.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
+			.child(recording_instance.person_id) \
+			.child(recording_instance.rec_number) \
+			.child(UPLOAD_STATUS).set(status)
+
+	# 9. Method to update the status of the upload queue
+	def update_upload_queue(self, recording_instance: Recording, component, status):
+		self.db.child(UPLOAD_QUEUE) \
+			.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
+			.child(recording_instance.activity) \
+			.child(recording_instance.place_id) \
+			.child(recording_instance.person_id) \
+			.child(recording_instance.rec_number) \
+			.child(component).set(status)

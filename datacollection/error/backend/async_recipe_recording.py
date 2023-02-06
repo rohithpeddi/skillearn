@@ -53,7 +53,7 @@ async def upload_task(recording_instance: Recording):
 	uploading_service = BoxService()
 
 	# TODO: Change Upload Level Stuff
-	uploading_service.start_recording(recording_instance)
+	uploading_service.upload_data(recording_instance)
 
 
 def create_async_subprocess(recording_instance, type):
