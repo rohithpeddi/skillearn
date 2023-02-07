@@ -1,0 +1,15 @@
+.data_collection_select_parent_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.data_collection_select_child_box {
+    width: 100%;
+    height: 19%;
+}
+
+.data_collection_select_child_panel {
+    min-width:50%;
+}
