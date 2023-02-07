@@ -1,14 +1,57 @@
-.stepsBox {
+.data_collection_accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 5%;
+    max-height: 800px;
+    max-width: 900px;
+}
+
+.data_collection_accordion_heading_btn {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.data_collection_accordion_heading_all_btn {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.data_collection_accordion_panels {
     max-width: 100%;
     max-height: 50%;
     overflow: scroll;
     border: 2px solid black;
 }
 
-.horizontal_align {
+.data_collection_accordion_summary {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     justify-items: stretch;
+}
 
+.data_collection_accordion_details_child_box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    margin-bottom: 5%;
+}
+
+.data_collection_accordion_details_child_box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: stretch;
+}
+
+.data_collection_accordion_details_child_box2_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

@@ -3,6 +3,7 @@ import {FormControl, Select, Typography} from "@mui/material";
 import MenuItem from "@mui/material/MenuItem";
 import Box from "@mui/material/Box";
 import './DataCollectionSelect.css';
+
 function convert(arr) {
     return arr.map((element) => {
         return {value: element, label: element}
@@ -16,7 +17,8 @@ function BasicSelect({arr, setSelected, heading_title}) {
     };
 
     const convertedToKeyValueArray = convert(arr)
-    const menuItems = convertedToKeyValueArray.map((item, index) => (<MenuItem key={index} value={item.value}>{item.label}</MenuItem>));
+    const menuItems = convertedToKeyValueArray.map((item, index) => (
+        <MenuItem key={index} value={item.value}>{item.label}</MenuItem>));
 
     return (<Box className="data_collection_select_child_panel">
         <FormControl fullWidth>
@@ -59,6 +61,5 @@ const DataCollectionSelect = (props) => {
     </Box>);
 
 }
-
 
 export default DataCollectionSelect;

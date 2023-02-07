@@ -3,25 +3,3 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
-.data_collection_accordion {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-self: center;
-    margin-bottom: 5%;
-    max-height: 800px;
-}
-
-.data_collection_accordion_heading_btn {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5%;
-}
-
-.data_collection_accordion_heading_all_btn {
-    margin-top:5% ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}

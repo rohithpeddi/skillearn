@@ -2,7 +2,6 @@ import Box from "@mui/material/Box";
 import DataCollectionSelect from "./DataCollectionSelect";
 import DataCollectionAccordion from "./DataCollectionAccordion";
 import {useState} from "react";
-import {Button, Typography} from "@mui/material";
 import DataCollectionGrid from "./DataCollectionGrid";
 import './DataCollection.css';
 
@@ -54,19 +53,10 @@ const DataCollection = () => {
                 <DataCollectionSelect {...props} />
             </Box>
             <Box>
-                <Box className="data_collection_accordion">
-                    <Box className="data_collection_accordion_heading_btn">
-                        <Typography variant="h2" align="center"> {selectedActivity}</Typography>
-                        <Box className="data_collection_accordion_heading_all_btn">
-                            <Button variant="outlined">START</Button>
-                            <Button variant="outlined">STOP</Button>
-                            <Button variant="outlined">UPLOAD</Button>
-                        </Box>
-                    </Box>
-                    <DataCollectionAccordion selectedActivity={selectedActivity} step_description={step_description}/>
-                </Box>
+                <DataCollectionAccordion selectedActivity={selectedActivity} step_description={step_description}
+                                         selectedType={selectedActivityType}/>
             </Box>
-            <Box >
+            <Box>
                 <DataCollectionGrid headerName={"STEP COMPLETION STATUS"}/>
                 <DataCollectionGrid headerName={"UPLOAD QUEUE"}/>
             </Box>

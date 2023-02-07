@@ -14,8 +14,7 @@ function DenseTable() {
     const res = ['Data 1', 'Data 2', 'Data 3', 'Data 4', 'Data 5', 'Data 6', 'Data 7', 'Data 8', 'Data 9'];
 
     return res.map((elem, index) => {
-        return (
-            <TableBody>
+        return (<TableBody>
                 <TableRow key={index}>
                     <TableCell align="center">{elem}</TableCell>
                     <TableCell align="center">Uploading</TableCell>
@@ -27,9 +26,7 @@ function DenseTable() {
 }
 
 const Item = styled(Paper)(({theme}) => ({
-    backgroundColor: green,
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
+    backgroundColor: green, textAlign: 'center', color: theme.palette.text.secondary,
 }));
 
 const generateDiv = () => {
@@ -45,31 +42,27 @@ const generateDiv = () => {
 const DataCollectionGrid = ({headerName}) => {
 
     if (headerName === "STEP COMPLETION STATUS") {
-        return (
-            <Box className="data_collection_grid">
-                <Typography variant="h6" align="center" borderBottom="2px solid"> {headerName}</Typography>
-                <Grid container spacing={2} alignItems="center" justifyContent="center" columns={5}>
-                    {generateDiv()}
-                </Grid>
-            </Box>
-        )
+        return (<Box className="data_collection_grid">
+            <Typography variant="h6" align="center" borderBottom="2px solid"> {headerName}</Typography>
+            <Grid container spacing={2} alignItems="center" justifyContent="center" columns={5}>
+                {generateDiv()}
+            </Grid>
+        </Box>)
     } else {
-        return (
-            <Box className="data_collection_grid">
-                <Typography variant="h6" align="center" borderBottom="2px solid"> {headerName}</Typography>
-                <TableContainer component={Paper}>
-                    <Table>
-                        <TableHead>
-                            <TableRow>
-                                <TableCell align="center">DATA TYPE</TableCell>
-                                <TableCell align="center">STATUS</TableCell>
-                            </TableRow>
-                        </TableHead>
-                        {DenseTable()}
-                    </Table>
-                </TableContainer>
-            </Box>
-        )
+        return (<Box className="data_collection_grid">
+            <Typography variant="h6" align="center" borderBottom="2px solid"> {headerName}</Typography>
+            <TableContainer component={Paper}>
+                <Table>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell align="center">DATA TYPE</TableCell>
+                            <TableCell align="center">STATUS</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    {DenseTable()}
+                </Table>
+            </TableContainer>
+        </Box>)
     }
 }
 export default DataCollectionGrid;
