@@ -11,11 +11,14 @@ IS_ERROR = "is_error"
 PLACE = "place"
 PERSON = "person"
 
-
 SUBPROCESS_ID = "subprocess_id"
 
-
 INFO = "info"
+ACTIVITIES = "activities"
+PLACES = "places"
+PERSONS = "persons"
+RECORDING_NUMBERS = "recording_numbers"
+
 STANDARD_RECORDINGS = "standard_recordings"
 ERROR_RECORDINGS = "error_recordings"
 STEPS = "steps"
@@ -25,7 +28,6 @@ RECIPE_RECORDING_END_TIME = "recipe_end_time"
 
 STEP_START_TIME = "step_start_time"
 STEP_END_TIME = "step_end_time"
-
 
 STATUS = "status"
 
@@ -39,7 +41,6 @@ RECORDING_STATUS = "recording_status"
 UPLOAD_STATUS = "upload_status"
 
 UPLOAD_QUEUE = "upload_queue"
-
 
 # ASYNC OPERATION TYPES
 UPLOAD_ASYNC_OPERATION = "async_upload_operation"
@@ -81,13 +82,13 @@ PNG_FILTER = hl2ss.PngFilterMode.Paeth
 
 # Ports
 PORTS = [
-    # hl2ss.StreamPort.PERSONAL_VIDEO,
-    hl2ss.StreamPort.RM_VLC_LEFTFRONT,
-    hl2ss.StreamPort.RM_VLC_LEFTLEFT,
-    hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
-    hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
-    hl2ss.StreamPort.RM_DEPTH_AHAT,
-    hl2ss.StreamPort.RM_DEPTH_LONGTHROW
+	# hl2ss.StreamPort.PERSONAL_VIDEO,
+	hl2ss.StreamPort.RM_VLC_LEFTFRONT,
+	hl2ss.StreamPort.RM_VLC_LEFTLEFT,
+	hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
+	hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
+	hl2ss.StreamPort.RM_DEPTH_AHAT,
+	hl2ss.StreamPort.RM_DEPTH_LONGTHROW
 ]
 
 # RM VLC parameters
@@ -119,6 +120,3 @@ PV_FORMAT = 'bgr24'
 VLC_FPS = 30
 VLC_WIDTH = 640
 VLC_HEIGHT = 480
-
-
-

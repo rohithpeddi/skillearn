@@ -13,7 +13,6 @@ from datacollection.error.backend import hl2ss_mp
 from datacollection.error.backend.Recording import Recording
 from datacollection.error.backend.constants import *
 
-
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Created Hololens service file')
 logger = logging.getLogger()
@@ -213,7 +212,8 @@ class HololensService:
 			cv2.imshow(port_name + '-ab', data.payload.ab / np.max(data.payload.ab))  # Normalized for visibility
 
 		cv2.imwrite(os.path.join(self.depth_dir_path,
-								 "{}_{}_{}.png".format(self.recording_id, port_name, data.timestamp)), data.payload.depth)
+								 "{}_{}_{}.png".format(self.recording_id, port_name, data.timestamp)),
+					data.payload.depth)
 		cv2.imwrite(os.path.join(self.ab_dir_path,
 								 "{}_{}_{}.png".format(self.recording_id, port_name, data.timestamp)), data.payload.ab)
 
@@ -306,8 +306,8 @@ class HololensService:
 		self._recording = True
 		self._start_record_sensor_streams(recording_instance)
 
-		# self._recording_thread = Thread(target=self._start_record_sensor_streams, args=(recording_instance,))
-		# self._recording_thread.start()
+	# self._recording_thread = Thread(target=self._start_record_sensor_streams, args=(recording_instance,))
+	# self._recording_thread.start()
 
 	def stop_recording(self):
 		if not self._recording:
@@ -315,5 +315,5 @@ class HololensService:
 			return
 		self._recording = False
 		self._stop_record_sensor_streams()
-		# if self._recording_thread is not None:
-		# 	self._recording_thread.join()
+	# if self._recording_thread is not None:
+	# 	self._recording_thread.join()

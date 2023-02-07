@@ -27,8 +27,11 @@ class FirebaseService:
 		self.db = firebase.database()
 
 	# 2. Function to push recipe details as a child to the database
-	def add_activity_details(self, recipe_name, recipe_step_dict):
-		self.db.child(INFO).child(recipe_name).set(recipe_step_dict)
+	def add_activity_info_details(self, recipe_name, recipe_step_dict):
+		self.db.child(INFO).child(ACTIVITIES).child(recipe_name).set(recipe_step_dict)
+
+	def add_info_details(self, info_child, info_dict):
+		self.db.child(INFO).child(info_child).set(info_dict)
 
 	# 3. Function to get info as a child from the database
 	def get_details(self, child_name):
