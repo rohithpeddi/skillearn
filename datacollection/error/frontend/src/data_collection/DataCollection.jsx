@@ -25,7 +25,7 @@ const DataCollection = () => {
     const [selectedPerson, setSelectedPerson] = useState("");
     const [selectedRecordingNumber, setSelectedRecordingNumber] = useState("");
     const [selectedActivityType, setSelectedActivityType] = useState("");
-
+    const [inputIPAddress, setInputIPAddress] = useState("");
 
     const props = {
         selectedActivity,
@@ -33,11 +33,13 @@ const DataCollection = () => {
         selectedPerson,
         selectedRecordingNumber,
         selectedActivityType,
+        inputIPAddress,
         setSelectedActivity,
         setSelectedPlace,
         setSelectedPerson,
         setSelectedRecordingNumber,
         setSelectedActivityType,
+        setInputIPAddress,
         activity,
         place,
         person,

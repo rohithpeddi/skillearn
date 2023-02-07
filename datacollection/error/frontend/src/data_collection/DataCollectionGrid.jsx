@@ -14,8 +14,8 @@ function DenseTable() {
     const res = ['Data 1', 'Data 2', 'Data 3', 'Data 4', 'Data 5', 'Data 6', 'Data 7', 'Data 8', 'Data 9'];
 
     return res.map((elem, index) => {
-        return (<TableBody>
-                <TableRow key={index}>
+        return (<TableBody key={index}>
+                <TableRow>
                     <TableCell align="center">{elem}</TableCell>
                     <TableCell align="center">Uploading</TableCell>
                 </TableRow>
@@ -33,7 +33,7 @@ const generateDiv = () => {
     //replace this with onclick upload button - use useState for setting up response
     const res = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'S11', 'S12', 'S13', 'S14', 'S15', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21', 'S22', 'S23', 'S24', 'S25', 'S26', 'S27', 'S28'];
     return res.map((elem, index) => {
-        return (<Grid item xs={4} alignContent="center">
+        return (<Grid item xs={4} alignContent="center" key={index}>
             <Item>{res[res.length - index - 1]}</Item>
         </Grid>);
     });

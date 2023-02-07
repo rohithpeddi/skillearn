@@ -1,5 +1,5 @@
 import React from "react";
-import {FormControl, Select, Typography} from "@mui/material";
+import {FormControl, Select, TextField, Typography} from "@mui/material";
 import MenuItem from "@mui/material/MenuItem";
 import Box from "@mui/material/Box";
 import './DataCollectionSelect.css';
@@ -29,6 +29,15 @@ function BasicSelect({arr, setSelected, heading_title}) {
     </Box>);
 }
 
+function BasicTextField({setInputIPAddress}) {
+
+    const handleChange = (event) => {
+        setInputIPAddress(event.target.value);
+    };
+    return (
+        <TextField id="outlined-basic" variant="outlined" onChange={handleChange}/>
+    );
+}
 
 const DataCollectionSelect = (props) => {
 
@@ -58,6 +67,11 @@ const DataCollectionSelect = (props) => {
             <BasicSelect arr={props.activity_type} setSelected={props.setSelectedActivityType}
                          heading_title={props.selectedActivityType}/>
         </Box>
+        <Box className="data_collection_select_child_box">
+            <Typography variant="h6" align="left">IP ADDRESS</Typography>
+            <BasicTextField setInputIPAddress={props.setInputIPAddress}/>
+        </Box>
+
     </Box>);
 
 }
