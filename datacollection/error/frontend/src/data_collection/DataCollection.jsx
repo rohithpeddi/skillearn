@@ -53,16 +53,18 @@ const DataCollection = () => {
             <Box>
                 <DataCollectionSelect {...props} />
             </Box>
-            <Box className="data_collection_accordion">
-                <Box className="data_collection_accordion_heading_btn">
-                    <Typography variant="h2" align="center"> {selectedActivity}</Typography>
-                    <Box className="data_collection_accordion_heading_all_btn">
-                        <Button variant="outlined">START</Button>
-                        <Button variant="outlined">STOP</Button>
-                        <Button variant="outlined">UPLOAD</Button>
+            <Box>
+                <Box className="data_collection_accordion">
+                    <Box className="data_collection_accordion_heading_btn">
+                        <Typography variant="h2" align="center"> {selectedActivity}</Typography>
+                        <Box className="data_collection_accordion_heading_all_btn">
+                            <Button variant="outlined">START</Button>
+                            <Button variant="outlined">STOP</Button>
+                            <Button variant="outlined">UPLOAD</Button>
+                        </Box>
                     </Box>
+                    <DataCollectionAccordion selectedActivity={selectedActivity} step_description={step_description}/>
                 </Box>
-                <DataCollectionAccordion selectedActivity={selectedActivity} step_description={step_description}/>
             </Box>
             <Box >
                 <DataCollectionGrid headerName={"STEP COMPLETION STATUS"}/>

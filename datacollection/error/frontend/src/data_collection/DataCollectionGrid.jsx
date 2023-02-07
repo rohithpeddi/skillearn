@@ -15,14 +15,12 @@ function DenseTable() {
 
     return res.map((elem, index) => {
         return (
-
-
-                <TableBody>
-                    <TableRow key={index}>
-                        <TableCell align="center">{elem}</TableCell>
-                        <TableCell align="center">Uploading</TableCell>
-                    </TableRow>
-                </TableBody>
+            <TableBody>
+                <TableRow key={index}>
+                    <TableCell align="center">{elem}</TableCell>
+                    <TableCell align="center">Uploading</TableCell>
+                </TableRow>
+            </TableBody>
 
         );
     });
@@ -36,7 +34,7 @@ const Item = styled(Paper)(({theme}) => ({
 
 const generateDiv = () => {
     //replace this with onclick upload button - use useState for setting up response
-    const res = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'S11','S12','S13', 'S14', 'S15', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21','S22','S23', 'S24', 'S25', 'S26', 'S27', 'S28'];
+    const res = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'S11', 'S12', 'S13', 'S14', 'S15', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21', 'S22', 'S23', 'S24', 'S25', 'S26', 'S27', 'S28'];
     return res.map((elem, index) => {
         return (<Grid item xs={4} alignContent="center">
             <Item>{res[res.length - index - 1]}</Item>
@@ -57,10 +55,8 @@ const DataCollectionGrid = ({headerName}) => {
         )
     } else {
         return (
-
             <Box className="data_collection_grid">
                 <Typography variant="h6" align="center" borderBottom="2px solid"> {headerName}</Typography>
-
                 <TableContainer component={Paper}>
                     <Table>
                         <TableHead>

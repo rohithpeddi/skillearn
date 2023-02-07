@@ -7,7 +7,7 @@
 .data_collection_accordion {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     align-self: center;
     margin-bottom: 5%;
     max-height: 800px;
