@@ -1,8 +1,8 @@
 EggSandwich
-S1: Coat 6-oz. ramekin or custard cup with cooking spray.
-S2: Place a piece of canadian bacon on the bottom of a 6-oz. ramekin or custard cup.
-S3: Pour 1/4 cup egg substitute on top of the canadian bacon in ramekin or custard cup.
-S4: Microwave the ramekin or custard cup uncovered on high for 30 seconds and stir.
+S1: Coat 6-oz. ramekin cup with cooking spray.
+S2: Place a piece of canadian bacon on the bottom of a 6-oz. ramekin cup.
+S3: Pour 1/4 cup egg substitute on top of the canadian bacon in ramekin cup.
+S4: Microwave the ramekin cup uncovered on high for 30 seconds and stir.
 S5: Continue to Microwave for 15-30 more seconds or until egg is almost set.
 S6: Top with 1 tablespoon of salsa and sprinkle with 1 tablespoon of cheese.
 S7: Microwave just until cheese melts, about 10 seconds.
@@ -10,14 +10,14 @@ S8: Cut the english muffin into two pieces with a knife.
 S9: Line bottom of English muffin with lettuce.
 S10: Take out egg and Canadian bacon from the cup, place it over lettuce and replace the top of english muffin.
 BreakfastPotatoes
-S1: Peel 2 medium potatoes.
-S2: Slice 2 peeled medium potatoes.
-S3: Peel one medium onion
-S4: Slice one medium onion.
+S1: Peel a medium potatoes.
+S2: Slice the peeled medium potatoes.
+S3: Peel one medium onion and cut it into two pieces.
+S4: Slice half medium onion into pieces.
 S5: Coat a 9-in. microwave-safe plate with cooking spray
 S6: Arrange potato and onion slices on the plate
 S7: Sprinkle potato and onion with seasonings (garlic salt, salt, pepper) on the plate.
-S8: Cover the plate and microwave on high for 8 minutes and 30 seconds or until potatoes are tender
+S8: Cover the plate and microwave on high for 6 minutes and 30 seconds or until potatoes are tender
 S9: Add 1/4 cup shredded cheddar cheese on the top and microwave for 30 seconds of cooking.
 Dressed-UpMeatballs
 S1: Cut 1/4 medium carrots into short, thin strips
@@ -58,11 +58,9 @@ S6: Stir the contents in the mug well.
 S7: Add in the milk and oil to the mug.
 S8: Mix the contents of the mug thoroughly. (There might be some lumps, but that is ok.).
 S9: Take the marinara sauce and spread it around the surface of the batter.
-S10: Cut pepperoni into slices.
-S11: Sprinkle on the cheese on top of the sauce.
-S12: Place pepperoni slices on top of the cheese.
-S13: Sprinkle dried herbs inside the mug.
-S14: Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling.
+S10: Sprinkle on the cheese on top of the sauce.
+S11: Sprinkle dried herbs inside the mug.
+S12: Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling.
 Ramen
 S1: Remove the noodles from the package. (Break Noodles / Keep them as a block).
 S2: Peel and Chop garlic on cutting board.
@@ -72,9 +70,9 @@ S5: Take peas out of the bag and thaw the peas by putting it in a sieve and runn
 S6: Put all the Vegetables in a microwave-safe bowl.
 S7: Add the noodles to the bowl and cover them with water.
 S8: Cover with a lid (or paper towel) to prevent splattering.
-S9: Microwave the ramen for between three and five minutes.
+S9: Microwave the ramen for between four minutes.
 S10: Measure basil and cilantro and add them to the bowl.
-S11: Let the noodles sit for about three minutes after the microwave stops.
+S11: Let the noodles sit for about one minute after the microwave stops.
 S12: Mix in the flavour packet.
 S13: Stir noodles with a spoon or fork until the flavouring dissolves.
 ApplePie
