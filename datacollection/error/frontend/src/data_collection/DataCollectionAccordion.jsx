@@ -45,7 +45,6 @@ const DataCollectionAccordion = ({selectedActivity, step_description_mapping, se
             <Box className="data_collection_accordion_heading_all_btn">
                 <Button variant="outlined">START</Button>
                 <Button variant="outlined">STOP</Button>
-                <Button variant="outlined">UPLOAD</Button>
             </Box>
         </Box>
         <Box className="data_collection_accordion_panels">

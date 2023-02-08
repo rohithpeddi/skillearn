@@ -6,6 +6,9 @@ import DataCollectionGrid from "./DataCollectionGrid";
 import './DataCollection.css';
 import axios from "axios";
 import _ from "lodash";
+import {Typography} from "@mui/material";
+import DataCollectionLiveFrame from "./DataCollectionLiveFrame";
+import * as React from "react";
 
 const DataCollection = () => {
     const [data, setData] = useState(null);
@@ -38,7 +41,6 @@ const DataCollection = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-
             try {
                 const response = await axios.get("http://localhost:5000/record/status", {
                     params: {
@@ -50,6 +52,7 @@ const DataCollection = () => {
                         device_ip: inputIPAddress
                     }
                 });
+                console.log(response);
                 if (_.isNull(response.data.recording_status)) {
                     setStepsCompleted(['dummy S1']);
                 } else {
@@ -71,10 +74,10 @@ const DataCollection = () => {
     } else if (error) {
         return <div>Error: {error.message}</div>;
     } else {
-        const activity = Object.keys(data.activities);
-        const place = Object.keys(data.places);
-        const person = Object.keys(data.persons);
-        const recording_number = Object.keys(data.recording_numbers)
+        const activity = data.activities;
+        const place = data.places;
+        const person = data.persons;
+        const recording_number = data.recording_numbers;
         const activity_type = ["STANDARD", "ERROR"];
         let step_description_mapping;
         if (data && selectedActivity) {
@@ -118,8 +121,10 @@ const DataCollection = () => {
                                          selectedType={selectedActivityType}/>
             </Box>
             <Box>
-                <DataCollectionGrid headerName={"STEP COMPLETION STATUS"} stepsCompleted={stepsCompleted}/>
-                <DataCollectionGrid headerName={"UPLOAD QUEUE"}/>
+                <Box>
+                    <DataCollectionGrid headerName={"STEP COMPLETION STATUS"} stepsCompleted={stepsCompleted}/>
+                    <DataCollectionLiveFrame headerName={"LIVE VIEW"}/>
+                </Box>
             </Box>
 
         </Box>);

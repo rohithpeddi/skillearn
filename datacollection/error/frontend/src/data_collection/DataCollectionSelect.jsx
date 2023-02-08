@@ -4,20 +4,21 @@ import MenuItem from "@mui/material/MenuItem";
 import Box from "@mui/material/Box";
 import './DataCollectionSelect.css';
 
-function convert(arr) {
+function convert(obj) {
+    return Object.keys(obj).map((key) => ({ label: obj[key], value: key }));
+}
+
+function convert1(arr) {
     return arr.map((element) => {
         return {value: element, label: element}
     });
 }
-
 function BasicSelect({arr, setSelected, heading_title}) {
-
     const handleChange = (event) => {
         setSelected(event.target.value);
     };
 
-    const convertedToKeyValueArray = convert(arr)
-    const menuItems = convertedToKeyValueArray.map((item, index) => (
+    const menuItems = arr.map((item, index) => (
         <MenuItem key={index} value={item.value}>{item.label}</MenuItem>));
 
     return (<Box className="data_collection_select_child_panel">
@@ -44,27 +45,27 @@ const DataCollectionSelect = (props) => {
     return (<Box className="data_collection_select_parent_box">
         <Box className="data_collection_select_child_box">
             <Typography variant="h6" align="left">ACTIVITY</Typography>
-            <BasicSelect arr={props.activity} setSelected={props.setSelectedActivity}
+            <BasicSelect arr={convert1(Object.keys(props.activity))} setSelected={props.setSelectedActivity}
                          heading_title={props.selectedActivity}/>
         </Box>
         <Box className="data_collection_select_child_box">
             <Typography variant="h6" align="left">PLACE</Typography>
-            <BasicSelect arr={props.place} setSelected={props.setSelectedPlace}
+            <BasicSelect arr={convert(props.place)} setSelected={props.setSelectedPlace}
                          heading_title={props.selectedPlace}/>
         </Box>
         <Box className="data_collection_select_child_box">
             <Typography variant="h6" align="left">PERSON</Typography>
-            <BasicSelect arr={props.person} setSelected={props.setSelectedPerson}
+            <BasicSelect arr={convert(props.person)} setSelected={props.setSelectedPerson}
                          heading_title={props.selectedPerson}/>
         </Box>
         <Box className="data_collection_select_child_box">
             <Typography variant="h6" align="left">RECORDING NUMBER</Typography>
-            <BasicSelect arr={props.recording_number} setSelected={props.setSelectedRecordingNumber}
+            <BasicSelect arr={convert1(Object.keys(props.recording_number))} setSelected={props.setSelectedRecordingNumber}
                          heading_title={props.selectedRecordingNumber}/>
         </Box>
         <Box className="data_collection_select_child_box">
             <Typography variant="h6" align="left">TYPE</Typography>
-            <BasicSelect arr={props.activity_type} setSelected={props.setSelectedActivityType}
+            <BasicSelect arr={convert1(props.activity_type)} setSelected={props.setSelectedActivityType}
                          heading_title={props.selectedActivityType}/>
         </Box>
         <Box className="data_collection_select_child_box">

@@ -1,8 +1,7 @@
-.data_collection_grid {
+.data_collection_live_frame {
     overflow: auto;
-    height: 25%;
+    height: 60%;
     border: 2px solid black;
-    margin-bottom: 10%;
     max-height: 500px;
     max-width: 800px;
 }
