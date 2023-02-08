@@ -3,12 +3,12 @@ import Box from "@mui/material/Box";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './DataCollectionAccordion.css';
 
-const displayAccordionPanels = ({selectedType, step_description}) => {
-    return step_description.map((single_step_description, index) => (<Accordion key={index}>
+const displayAccordionPanels = ({selectedType, step_description_mapping}) => {
+    return Object.entries(step_description_mapping).map(([key, value]) => (<Accordion key={key}>
         <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
             <Box className="data_collection_accordion_summary">
-                <Typography variant="h6">{"STEP - " + (index + 1) + " "}</Typography>
-                <Typography variant="h6" marginLeft="5rem">{single_step_description}</Typography>
+                <Typography variant="h6">{key}</Typography>
+                <Typography variant="h6" marginLeft="5rem">{value}</Typography>
             </Box>
         </AccordionSummary>
         <AccordionDetails>
@@ -18,43 +18,40 @@ const displayAccordionPanels = ({selectedType, step_description}) => {
                     <Button variant="outlined">STOP</Button>
                     <Button variant="outlined">DELETE</Button>
                 </Box>
-                {selectedType === "ERROR" && (
-                    <Box className="data_collection_accordion_details_child_box2">
-                        <Typography variant="h6">ERROR TAGS</Typography>
-                        <Box className="data_collection_accordion_details_child_box2_btn">
-                            <Button variant="outlined">T1</Button>
-                            <Button variant="outlined">T2</Button>
-                            <Button variant="outlined">T3</Button>
-                            <Button variant="outlined">T4</Button>
-                            <Button variant="outlined">T5</Button>
-                            <Button variant="outlined">T6</Button>
-                            <Button variant="outlined">T7</Button>
-                            <Button variant="outlined">T8</Button>
-                        </Box>
+                {selectedType === "ERROR" && (<Box className="data_collection_accordion_details_child_box2">
+                    <Typography variant="h6">ERROR TAGS</Typography>
+                    <Box className="data_collection_accordion_details_child_box2_btn">
+                        <Button variant="outlined">T1</Button>
+                        <Button variant="outlined">T2</Button>
+                        <Button variant="outlined">T3</Button>
+                        <Button variant="outlined">T4</Button>
+                        <Button variant="outlined">T5</Button>
+                        <Button variant="outlined">T6</Button>
+                        <Button variant="outlined">T7</Button>
+                        <Button variant="outlined">T8</Button>
                     </Box>
-                )}
+                </Box>)}
             </Box>
 
         </AccordionDetails>
     </Accordion>))
 }
 
-const DataCollectionAccordion = ({selectedActivity, step_description, selectedType}) => {
+const DataCollectionAccordion = ({selectedActivity, step_description_mapping, selectedType}) => {
 
-    return (
-        <Box className="data_collection_accordion">
-            <Box className="data_collection_accordion_heading_btn">
-                <Typography variant="h2" align="center"> {selectedActivity}</Typography>
-                <Box className="data_collection_accordion_heading_all_btn">
-                    <Button variant="outlined">START</Button>
-                    <Button variant="outlined">STOP</Button>
-                    <Button variant="outlined">UPLOAD</Button>
-                </Box>
+    return (<Box className="data_collection_accordion">
+        <Box className="data_collection_accordion_heading_btn">
+            <Typography variant="h2" align="center"> {selectedActivity}</Typography>
+            <Box className="data_collection_accordion_heading_all_btn">
+                <Button variant="outlined">START</Button>
+                <Button variant="outlined">STOP</Button>
+                <Button variant="outlined">UPLOAD</Button>
             </Box>
-            <Box className="data_collection_accordion_panels">
-                {displayAccordionPanels({selectedType, step_description})}
-            </Box>
-        </Box>)
+        </Box>
+        <Box className="data_collection_accordion_panels">
+            {displayAccordionPanels({selectedType, step_description_mapping})}
+        </Box>
+    </Box>)
 
 }
 

@@ -4,6 +4,8 @@ import DataCollectionAccordion from "./DataCollectionAccordion";
 import {useEffect, useState} from "react";
 import DataCollectionGrid from "./DataCollectionGrid";
 import './DataCollection.css';
+import axios from "axios";
+import _ from "lodash";
 
 const DataCollection = () => {
     const [data, setData] = useState(null);
@@ -16,6 +18,7 @@ const DataCollection = () => {
     const [selectedRecordingNumber, setSelectedRecordingNumber] = useState("");
     const [selectedActivityType, setSelectedActivityType] = useState("");
     const [inputIPAddress, setInputIPAddress] = useState("");
+    const [stepsCompleted, setStepsCompleted] = useState(['dummy S1']);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -33,27 +36,54 @@ const DataCollection = () => {
         fetchData();
     }, []);
 
+    useEffect(() => {
+        const fetchData = async () => {
+
+            try {
+                const response = await axios.get("http://localhost:5000/record/status", {
+                    params: {
+                        activity: selectedActivity,
+                        place_id: _.toInteger(selectedPlace.replace("PL", "")),
+                        person_id: _.toInteger(selectedPerson.replace("P", "")),
+                        recording_number: _.toInteger(selectedRecordingNumber.replace("R", "")),
+                        is_error: selectedActivityType === "ERROR",
+                        device_ip: inputIPAddress
+                    }
+                });
+                if (_.isNull(response.data.recording_status)) {
+                    setStepsCompleted(['dummy S1']);
+                } else {
+                    setStepsCompleted(Object.keys(response.data.recording_status.steps));
+                }
+
+            } catch (error) {
+                console.log(error);
+            }
+
+        };
+        if (selectedActivity && selectedPlace && selectedPerson && selectedRecordingNumber && selectedActivityType && inputIPAddress) {
+            fetchData();
+        }
+    }, [selectedActivity, selectedPlace, selectedPerson, selectedRecordingNumber, selectedActivityType, inputIPAddress]);
+
     if (loading) {
         return <div>Loading...</div>;
-    }
-    else if (error) {
+    } else if (error) {
         return <div>Error: {error.message}</div>;
-    }
-    else {
+    } else {
         const activity = Object.keys(data.activities);
         const place = Object.keys(data.places);
         const person = Object.keys(data.persons);
         const recording_number = Object.keys(data.recording_numbers)
         const activity_type = ["STANDARD", "ERROR"];
-
-        const step_description = [' Complete description corresponding to step1 is here',
-            'Complete description corresponding to step2 is here',
-            'Complete description corresponding to step3 is here',
-            'Complete description corresponding to step4 is here',
-            'Complete description corresponding to step5 is here',
-            'Complete description corresponding to step6 is here',
-            'Complete description corresponding to step7 is here',
-            'Complete description corresponding to step8 is here'];
+        let step_description_mapping;
+        if (data && selectedActivity) {
+            step_description_mapping = data.activities[selectedActivity];
+        } else {
+            step_description_mapping = {
+                "s1": "just a dummy step description. Please select an activity"
+            }
+        }
 
         const props = {
             selectedActivity,
@@ -62,36 +92,37 @@ const DataCollection = () => {
             selectedRecordingNumber,
             selectedActivityType,
             inputIPAddress,
+            stepsCompleted,
             setSelectedActivity,
             setSelectedPlace,
             setSelectedPerson,
             setSelectedRecordingNumber,
             setSelectedActivityType,
             setInputIPAddress,
+            setStepsCompleted,
             activity,
             place,
             person,
             recording_number,
             activity_type,
-            step_description
+            step_description_mapping
         };
 
-        return (
-            <Box className="data_collection">
-                <Box>
-                    <DataCollectionSelect {...props} />
-                </Box>
-                <Box>
-                    <DataCollectionAccordion selectedActivity={selectedActivity} step_description={step_description}
-                                             selectedType={selectedActivityType}/>
-                </Box>
-                <Box>
-                    <DataCollectionGrid headerName={"STEP COMPLETION STATUS"}/>
-                    <DataCollectionGrid headerName={"UPLOAD QUEUE"}/>
-                </Box>
-
+        return (<Box className="data_collection">
+            <Box>
+                <DataCollectionSelect {...props} />
             </Box>
-        );
+            <Box>
+                <DataCollectionAccordion selectedActivity={selectedActivity}
+                                         step_description_mapping={step_description_mapping}
+                                         selectedType={selectedActivityType}/>
+            </Box>
+            <Box>
+                <DataCollectionGrid headerName={"STEP COMPLETION STATUS"} stepsCompleted={stepsCompleted}/>
+                <DataCollectionGrid headerName={"UPLOAD QUEUE"}/>
+            </Box>
+
+        </Box>);
     }
 
 };
