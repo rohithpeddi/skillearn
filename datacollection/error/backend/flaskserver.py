@@ -39,7 +39,9 @@ def get_recording_instance(recording_details, is_step):
 @app.route("/info", methods=['GET'])
 def info():
 	info_json = db_service.get_details(INFO)
-	return jsonify(info_json)
+	response = jsonify(info_json)
+	response.headers.add('Access-Control-Allow-Origin', '*')
+	return response
 
 
 @app.route("/record/activity/start", methods=['POST'])
@@ -51,7 +53,9 @@ def start_activity_recording():
 		child_subprocess_pid = create_async_subprocess(recording_instance, ACTIVITY_RECORD_ASYNC_OPERATION)
 		logger.log(logging.INFO, "Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
 		response = {STATUS: SUCCESS, SUBPROCESS_ID: child_subprocess_pid}
-		return jsonify(response)
+		response = jsonify(response)
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
@@ -66,7 +70,9 @@ def stop_activity_recording():
 		# os.system('pkill -TERM -P {pid}'.format(pid=recording_subprocess_id))
 		os.kill(recording_subprocess_id, signal.SIGINT)
 		response = {STATUS: SUCCESS}
-		return jsonify(response)
+		response = jsonify(response)
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
@@ -80,7 +86,9 @@ def start_step_recording():
 		db_service.update_recording_step_details(is_start=True, recording_instance=recording_instance)
 		logging.log(logging.INFO, "Updated step starting details")
 		response = {STATUS: SUCCESS}
-		return jsonify(response)
+		response = jsonify(response)
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
@@ -94,7 +102,9 @@ def stop_step_recording():
 		db_service.update_recording_step_details(is_start=False, recording_instance=recording_instance)
 		logging.log(logging.INFO, "Updated step ending details")
 		response = {STATUS: SUCCESS}
-		return jsonify(response)
+		response = jsonify(response)
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
@@ -107,7 +117,9 @@ def get_recording_status():
 		recording_status = db_service.get_updated_recording_details(recording_instance)
 		logging.log(logging.INFO, "Fetched recording status details")
 		response = {STATUS: SUCCESS, RECORDING_STATUS: recording_status}
-		return jsonify(response)
+		response = jsonify(response)
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
@@ -120,7 +132,9 @@ def upload():
 		child_subprocess_pid = create_async_subprocess(recording_instance, UPLOAD_ASYNC_OPERATION)
 		logger.log(logging.INFO, "Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
 		response = {STATUS: SUCCESS, SUBPROCESS_ID: child_subprocess_pid}
-		return jsonify(response)
+		response = jsonify(response)
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
@@ -128,7 +142,9 @@ def upload():
 @app.route("/upload/status", methods=['POST'])
 def upload_status():
 	status_json = db_service.get_details(UPLOAD_QUEUE)
-	return jsonify(status_json)
+	response = jsonify(status_json)
+	response.headers.add('Access-Control-Allow-Origin', '*')
+	return response
 
 
 @app.route("/delete", methods=['POST'])
@@ -139,7 +155,9 @@ def delete():
 		db_service.delete_recording_step_details(recording_instance=recording_instance)
 		logging.log(logging.INFO, "Deleted step details")
 		response = {STATUS: SUCCESS}
-		return jsonify(response)
+		response = jsonify(response)
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
