@@ -82,13 +82,15 @@ PNG_FILTER = hl2ss.PngFilterMode.Paeth
 
 # Ports
 PORTS = [
-	# hl2ss.StreamPort.PERSONAL_VIDEO,
-	hl2ss.StreamPort.RM_VLC_LEFTFRONT,
-	hl2ss.StreamPort.RM_VLC_LEFTLEFT,
-	hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
-	hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
-	hl2ss.StreamPort.RM_DEPTH_AHAT,
-	hl2ss.StreamPort.RM_DEPTH_LONGTHROW
+    hl2ss.StreamPort.RM_VLC_LEFTFRONT,
+    hl2ss.StreamPort.RM_VLC_LEFTLEFT,
+    hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
+    hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
+    hl2ss.StreamPort.RM_DEPTH_AHAT,
+    hl2ss.StreamPort.RM_DEPTH_LONGTHROW,
+    hl2ss.StreamPort.PERSONAL_VIDEO,
+    hl2ss.StreamPort.MICROPHONE,
+    hl2ss.StreamPort.SPATIAL_INPUT,
 ]
 
 # RM VLC parameters
@@ -120,3 +122,5 @@ PV_FORMAT = 'bgr24'
 VLC_FPS = 30
 VLC_WIDTH = 640
 VLC_HEIGHT = 480
+
+MC_PROFILE = hl2ss.AudioProfile.AAC_24000
