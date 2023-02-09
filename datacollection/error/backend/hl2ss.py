@@ -16,7 +16,7 @@ class StreamPort:
 	RM_IMU_ACCELEROMETER = 3806
 	RM_IMU_GYROSCOPE = 3807
 	RM_IMU_MAGNETOMETER = 3808
-	PERSONAL_VIDEO = 3810
+	PHOTO_VIDEO = 3810
 	MICROPHONE = 3811
 	SPATIAL_INPUT = 3812
 
@@ -34,7 +34,7 @@ class ChunkSize:
 	RM_IMU_ACCELEROMETER = 2048
 	RM_IMU_GYROSCOPE = 4096
 	RM_IMU_MAGNETOMETER = 256
-	PERSONAL_VIDEO = 4096
+	PHOTO_VIDEO = 4096
 	MICROPHONE = 512
 	SPATIAL_INPUT = 1024
 	SINGLE_TRANSFER = 4096
@@ -1392,7 +1392,7 @@ class _PortName:
 		  'rm_imu_gyroscope',
 		  'rm_imu_magnetometer',
 		  'remote_configuration',
-		  'personal_video',
+		  'photo_video',
 		  'microphone',
 		  'spatial_input']
 
