@@ -88,7 +88,7 @@ PORTS = [
     hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
     hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
     hl2ss.StreamPort.RM_DEPTH_AHAT,
-    hl2ss.StreamPort.RM_DEPTH_LONGTHROW,
+    # hl2ss.StreamPort.RM_DEPTH_LONGTHROW,
     hl2ss.StreamPort.PHOTO_VIDEO,
     hl2ss.StreamPort.MICROPHONE,
     hl2ss.StreamPort.SPATIAL_INPUT,
