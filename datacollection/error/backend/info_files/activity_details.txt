@@ -144,4 +144,123 @@ S11: Continue slicing with floss to create 1 more pinwheel.
 S12: Continue slicing with floss to create 1 more pinwheel.
 S13: Continue slicing with floss to create 1 more pinwheel.
 S14: Place the pinwheels on a plate.
-
+GardenFreshSweetCornSalsa
+S1: Dice 1/4 cup Cilantro and add it to a bowl.
+S2: Slice 1 garlic clove and add it to the bowl.
+S3: Slice 1 jalapeno and add it to the bowl.
+S4: Extract lime juice from 1/2 lime and add it to the bowl.
+S5: Peel one onion and cut it into two pieces.
+S6: Slice 1/2 onion into pieces and add it to the bowl.
+S7: Rinse the tomatoes
+S8: Take 1/2 tomato and chop it into small pieces and add it to the bowl.
+S9: Measure 1/4 teaspoon salt and add it to the bowl
+S10: Mix all the ingredients in the bowl
+TomatoBasilMozzarellaSalad
+S1: Rinse the tomatoes and gently dry with a tea towel.
+S2: Slice one tomato into about 1/2 inch thick slices.
+S3: Place the thick slices of tomatoes on a large platter making sure that they only make a single layer.
+S4: Season the tomato slices with salt.
+S5: Sprinkle mozzarella cheese on top of the tomato throughout the platter.
+S6: Garnish with basil leaves.
+S7: Season with 1/4 teaspoon black pepper
+S8: Add a drizzle of extra-virgin olive oil, about 1 tablespoon over the entire platter.
+SouthernColeslaw
+S1: Rinse the tomatoes.
+S2: Slice the tomato and chop it into small pieces and add it to a bowl.
+S3: Season the tomato pieces with salt.
+S4: Season the tomato pieces with pepper.
+S5: Add the 2 cups of coleslaw mix to the bowl.
+S6: Stir the contents well.
+S7: Extract lime juice from 1/2 lime and add it to the bowl.
+S8: Again stir the contents of the bowl
+ButterCornCup
+S1: Measure 2 cups of frozen corn.
+S2: Thaw the frozen corn by putting it in a sieve and running it under some cold water.
+S3: Add the corn into a microwave safe bowl
+S4: Microwave the corn for 2 minutes.
+S5: Add butter and pepper powder to the bowl and then stir.
+S6: Microwave the corn for 3 more minutes.
+S7: Add 1 teaspoon salt to the bowl.
+S8: Extract lime juice from 1/2 lime and add it to the bowl.
+S9: Mix the contents of the bowl well.
+HeritageTomatoBruschetta
+S1: Rinse a tomato.
+S2: Slice the tomato and chop it into small pieces and add it to a bowl.
+S3: Squeeze the tomato pieces to release juices.
+S4: Add 1/3 cup olive oil to the bowl
+S5: Peel 1 garlic clove.
+S6: Cut the garlic clove into small pieces
+S7: Add 1 teaspoon basil to the bowl
+S8: Mix the contents well
+CheesePimientoRecipe
+S1: Rinse a bell pepper.
+S2: Chop the bell pepper into tiny bits.
+S3: Place the chopeed pepper in a microwave safe bowl
+S4: Add 2 tablespoons of water to the bowl.
+S5: Microwave, covered, for 2 minutes
+S6: Add cheese to another microwave safe bowl.
+S7: Melt the cheese by microwaving for 30 seconds
+S8: Mix the cheese, red bell pepper and add butter.
+S9: Add 1/2 teaspoon salt.
+S10: Add 1/2 teaspoon pepper.
+S11: Mix all the ingredients well and serve.
+BreakfastTaco
+S1: Peel one onion and cut it into two pieces.
+S2: Slice 1/2 onion into small pieces and add it to the bowl.
+S3: Rinse the tomatoes
+S4: Slice 1/2 tomato and chop it into small pieces and add it to the bowl.
+S5: Extract lime juice from 1/2 lime and add it to the bowl.
+S6: Mix the contents in the bowl.
+S7: Top tortillas with the mixture in the bowl
+S8: Add 1/2 tablespoon cheese on top of the tortilla
+S9: Heat in the microwave until the cheese is melted, about 30 seconds.
+S10: Pour 1/4 cup egg white in the ramekin cup.
+S11: Microwave the ramekin cup uncovered on high for 30 seconds and stir.
+S12: Add the egg on top of the cheese.
+HomemadeMicrowavePotatoChips
+S1: Peel a medium potato.
+S2: Slice the potato as thin as possible, about 1/8 inch thick or less.
+S3: Dry the potatos slices slightly with a paper towel
+S4: Place potato slices on a microwave-safe plate. Make sure slices don't overlap.
+S5: Spray potatoes with oil spray.
+S6: Sprinkle salt on top of the potato
+S7: Sprinkle pepper on top of the potato
+S8: Cook in a microwave for 5 minutes or until brown.
+MicrowaveOmelet
+S1: Spray a microwave-safe plate with nonstick spray.
+S2: Pour 1/4 cup egg white on the bowl.
+S3: Slice 1/2 onion into pieces and add it to the bowl.
+S4: Rinse the tomatoes
+S5: Slice 1/2 tomato and chop it into small pieces and add it to the bowl.
+S6: Extract lime juice from 1/2 lime and add it to the bowl.
+S7: Stir the ingredients properly.
+S8: Microwave on high for 3-5 minutes.
+Chick-fil-aChickenSalad
+S1: Chop 2 pieces of chicken and add it to a bowl.
+S2: Add 1/2 cup mayonnaise to the bowl.
+S3: Add 1 teaspoon salt to the bowl.
+S4: Add 1 teaspoon pepper to the bowl.
+S5: Peel one onion and cut it into two pieces.
+S6: Slice 1/2 onion into pieces and add it to the bowl.
+S7: Mix all the ingredients well.
+S8: Spread 1/4 of the chicken salad over a bread slice, and top with remaining toast slice.
+AppleCrispinMug
+S1: Combine butter and white sugar in a bowl using a spoon.
+S2: Add 2 table spoon flour to the bowl,
+S3: Add 2 table spoon oats to the bowl
+S4: Add 1/2 teaspoon salt to the bowl
+S5: Mix the crumble mixture well.
+S6: Spray oil on a microwave safe cup.
+S7: Flatten 1/2 the crumble mixture into the bottom to form a crust.
+S8: Microwave crust for 30 seconds on high.
+S9: Cut apples into thin slices and add them on top of the crust.
+S10: Add 1 tablespoon brown sugar to the crust.
+S11: Pour remaining 1/2 the crumble mixture on top
+S12: Microwave for 1 minute and 30 seconds
+ApplePieMicrowaveOatmealMug
+S1: Chop an apple into pieces and add it to a microwave safe cup.
+S2: Add 1/2 cup water to the cup.
+S3: Add 1/2 cup quick oats to the cup
+S4: Add 3 teaspoons brown sugar to the cup
+S5: Mix the ingredients well.
+S6: Microwave for 2 minutes.
