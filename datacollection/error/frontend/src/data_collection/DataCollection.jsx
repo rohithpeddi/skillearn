@@ -6,9 +6,9 @@ import DataCollectionGrid from "./DataCollectionGrid";
 import './DataCollection.css';
 import axios from "axios";
 import _ from "lodash";
-import {Typography} from "@mui/material";
 import DataCollectionLiveFrame from "./DataCollectionLiveFrame";
 import * as React from "react";
+import FirstSystemImage from "./FileSystemImage";
 
 const DataCollection = () => {
     const [data, setData] = useState(null);
@@ -45,9 +45,9 @@ const DataCollection = () => {
                 const response = await axios.get("http://localhost:5000/record/status", {
                     params: {
                         activity: selectedActivity,
-                        place_id: _.toInteger(selectedPlace.replace("PL", "")),
-                        person_id: _.toInteger(selectedPerson.replace("P", "")),
-                        recording_number: _.toInteger(selectedRecordingNumber.replace("R", "")),
+                        place_id: selectedPlace,
+                        person_id: selectedPerson,
+                        recording_number: selectedRecordingNumber,
                         is_error: selectedActivityType === "ERROR",
                         device_ip: inputIPAddress
                     }
@@ -116,13 +116,12 @@ const DataCollection = () => {
                 <DataCollectionSelect {...props} />
             </Box>
             <Box>
-                <DataCollectionAccordion selectedActivity={selectedActivity}
-                                         step_description_mapping={step_description_mapping}
-                                         selectedType={selectedActivityType}/>
+                <DataCollectionAccordion {...props}/>
             </Box>
             <Box>
                 <Box>
                     <DataCollectionGrid headerName={"STEP COMPLETION STATUS"} stepsCompleted={stepsCompleted}/>
+                    {/*<FirstSystemImage/>*/}
                     <DataCollectionLiveFrame headerName={"LIVE VIEW"}/>
                 </Box>
             </Box>
