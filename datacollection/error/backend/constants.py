@@ -83,10 +83,10 @@ PNG_FILTER = hl2ss.PngFilterMode.Paeth
 
 # Ports
 PORTS = [
-    hl2ss.StreamPort.RM_VLC_LEFTFRONT,
-    hl2ss.StreamPort.RM_VLC_LEFTLEFT,
-    hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
-    hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
+    # hl2ss.StreamPort.RM_VLC_LEFTFRONT,
+    # hl2ss.StreamPort.RM_VLC_LEFTLEFT,
+    # hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
+    # hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
     hl2ss.StreamPort.RM_DEPTH_AHAT,
     # hl2ss.StreamPort.RM_DEPTH_LONGTHROW,
     hl2ss.StreamPort.PHOTO_VIDEO,

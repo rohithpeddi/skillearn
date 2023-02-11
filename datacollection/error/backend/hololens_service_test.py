@@ -36,19 +36,27 @@ class HololensServiceTest:
 
     def _receive_pv(self):
         pv_port = hl2ss.StreamPort.PHOTO_VIDEO
-        pv_client = hl2ss.rx_decoded_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
+        pv_client = hl2ss.rx_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
                                         hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE,
-                                        VIDEO_BITRATE, VIDEO_DECODE)
+                                        VIDEO_BITRATE)
+        # pv_client = hl2ss.rx_decoded_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
+        #                         hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE,
+        #                         VIDEO_BITRATE, VIDEO_DECODE)
         pv_client.open()
         logger.log(logging.INFO, "Configuring PhotoVideo")
-        pv_pose = []
+        # pv_pose = []
+        pv_frames = []
         while self.rm_enable:
             data = pv_client.get_next_packet()
-            pv_pose.append([data.timestamp, data.pose])
-            self._write_frame_async(pv_port, data, self.async_storage_map[pv_port])
-        print(f'pv_pose: {len(pv_pose)}')
+            pv_frames.append([data.timestamp, data.payload, data.pose])
+            # pv_pose.append([data.timestamp, data.pose])
+            # self._write_frame_async(pv_port, data, self.async_storage_map[pv_port])
+        # print(f'pv_pose: {len(pv_pose)}')
+        print(f'pv_pose: {len(pv_frames)}')
         with open(os.path.join(self.rec_data_dir, 'pv_pose.pkl'), 'wb') as f:
-            pickle.dump(pv_pose, f)
+            pickle.dump(pv_frames, f)
+        # with open(os.path.join(self.rec_data_dir, 'pv_pose.pkl'), 'wb') as f:
+        #     pickle.dump(pv_pose, f)
         pv_client.close()
 
     def _receive_vlc(self, vlc_port):
@@ -58,36 +66,42 @@ class HololensServiceTest:
                                              VLC_MODE, VLC_PROFILE, VLC_BITRATE)
         vlc_client.open()
         logger.log(logging.INFO, "Configuring VLC")
-        vlc_pose = []
+        # vlc_pose = []
         vlc_frames = []
         while self.rm_enable:
             data = vlc_client.get_next_packet()
-            vlc_pose.append([data.timestamp, data.pose])
+            # vlc_pose.append([data.timestamp, data.pose])
             vlc_frames.append([data.timestamp, data.pose, data.payload])
             # self._write_frame_async(vlc_port, data, self.async_storage_map[vlc_port])
-        print(f'{port_name}_pose: {len(vlc_pose)}')
+        # print(f'{port_name}_pose: {len(vlc_pose)}')
+        print(f'{port_name}_pose: {len(vlc_frames)}')
         # np.savez(os.path.join(self.port_dir_map[vlc_port], 'vlc_pose'), vlc_pose)
-        with open(os.path.join(self.rec_data_dir, f'{port_name}_pose.pkl'), 'wb') as f:
-            pickle.dump(vlc_pose, f)
+        # with open(os.path.join(self.rec_data_dir, f'{port_name}_pose.pkl'), 'wb') as f:
+        #     pickle.dump(vlc_pose, f)
         with open(os.path.join(self.rec_data_dir, f'{port_name}_frames.pkl'), 'wb') as f:
             pickle.dump(vlc_frames, f)
         vlc_client.close()
 
     def _receive_depth_ahat(self):
         depth_port = hl2ss.StreamPort.RM_DEPTH_AHAT
-        ahat_client = hl2ss.rx_decoded_rm_depth_ahat(self.device_ip, depth_port,
+        ahat_client = hl2ss.rx_rm_depth_ahat(self.device_ip, depth_port,
                                                      hl2ss.ChunkSize.RM_DEPTH_AHAT,
                                                      AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
         ahat_client.open()
         logger.log(logging.INFO, "Configuring Depth AHaT")
-        depth_pose = []
+        # depth_pose = []
+        depth_frames = []
         while self.rm_enable:
             data = ahat_client.get_next_packet()
-            depth_pose.append([data.timestamp, data.pose])
-            self._write_depth_async(depth_port, data, self.async_storage_map[depth_port])
-        print(f'depth_pose: {len(depth_pose)}')
+            depth_frames.append([data.timestamp, data.payload, data.pose])
+            # depth_pose.append([data.timestamp, data.pose])
+            # self._write_depth_async(depth_port, data, self.async_storage_map[depth_port])
+        # print(f'depth_pose: {len(depth_pose)}')
+        print(f'depth_pose: {len(depth_frames)}')
+        # with open(os.path.join(self.rec_data_dir, 'depth_pose.pkl'), 'wb') as f:
+        #     pickle.dump(depth_pose, f)
         with open(os.path.join(self.rec_data_dir, 'depth_pose.pkl'), 'wb') as f:
-            pickle.dump(depth_pose, f)
+            pickle.dump(depth_frames, f)
         ahat_client.close()
 
     def _receive_microphone(self):
@@ -320,7 +334,7 @@ class HololensServiceTest:
 
 if __name__ == '__main__':
     hl2_service = HololensServiceTest()
-    rec = Recording("Coffee", "PL2", "P1", "R5", False)
+    rec = Recording("Coffee", "PL2", "P1", "R10", False)
     rec.set_device_ip('192.168.1.152')
     rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
     rec_thread.start()

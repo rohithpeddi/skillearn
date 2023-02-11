@@ -68,6 +68,7 @@ def stop_activity_recording():
 	try:
 		# 2. In the interrupt process add the logic to update Firebase regarding the end of the recording
 		# os.system('pkill -TERM -P {pid}'.format(pid=recording_subprocess_id))
+		logger.log(logging.INFO, "Received signal to stop subprocess with PID - {}".format(recording_subprocess_id))
 		os.kill(recording_subprocess_id, signal.SIGINT)
 		response = {STATUS: SUCCESS}
 		response = jsonify(response)

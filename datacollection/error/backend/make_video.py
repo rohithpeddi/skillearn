@@ -18,13 +18,13 @@ def make_video(dir_path, component):
 
 
 if __name__ == '__main__':
-    dir_path = "{}/Coffee_PL2_P1_R3".format(os.getcwd())
+    dir_path = "{}/Coffee_PL3_P1_R1".format(os.path.join(os.path.dirname(os.getcwd()), "data"))
 
     video_list = ["pv"]
-    video_list.append("vlc_lf")
-    video_list.append("vlc_ll")
-    video_list.append("vlc_rr")
-    video_list.append("vlc_rf")
+    # video_list.append("vlc_lf")
+    # video_list.append("vlc_ll")
+    # video_list.append("vlc_rr")
+    # video_list.append("vlc_rf")
 
     for component in video_list:
         make_video(dir_path, component)

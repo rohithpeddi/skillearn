@@ -29,86 +29,142 @@ class HololensService:
     def __init__(self):
         self.rm_enable = True
         self.lock = threading.Lock()
-        self.packet_queue = queue.PriorityQueue()
         self.time_base = Fraction(1, hl2ss.TimeBase.HUNDREDS_OF_NANOSECONDS)
 
         self._recording = False
         self._recording_thread = None
 
+        self.is_pv_decoded = True
+        self.is_vlc_decoded = True
+        self.is_depth_decoded = True
+
     def _receive_pv(self):
         pv_port = hl2ss.StreamPort.PHOTO_VIDEO
-        pv_client = hl2ss.rx_decoded_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
-                                        hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE,
-                                        VIDEO_BITRATE, VIDEO_DECODE)
+
+        if self.is_pv_decoded:
+            pv_client = hl2ss.rx_decoded_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
+                                            hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE,
+                                            VIDEO_PROFILE, VIDEO_BITRATE, VIDEO_DECODE)
+        else:
+            pv_client = hl2ss.rx_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
+                                    hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE,
+                                    VIDEO_BITRATE)
+
         pv_client.open()
         logger.log(logging.INFO, "Configuring PhotoVideo")
-        pv_pose = []
+
+        if self.is_pv_decoded:
+            pv_pose = []
+        else:
+            pv_frames = []
+
         while self.rm_enable:
             data = pv_client.get_next_packet()
-            pv_pose.append([data.timestamp, data.pose])
-            self._write_frame_async(pv_port, data, self.async_storage_map[pv_port])
+            if self.is_pv_decoded:
+                pv_pose.append([data.timestamp, data.pose])
+                self._write_frame_async(pv_port, data, self.async_storage_map[pv_port])
+            else:
+                pv_frames.append([data.timestamp, data.payload, data.pose])
 
-        with open(os.path.join(self.rec_data_dir, 'pv_pose.pkl'), 'wb') as f:
-            pickle.dump(pv_pose, f)
-        print(f'pv_pose: {len(pv_pose)}')
+        if self.is_pv_decoded:
+            logger.log(logging.INFO, f"Captured pv frames {len(pv_pose)}")
+            with open(os.path.join(self.rec_data_dir, 'pv_pose.pkl'), 'wb') as f:
+                pickle.dump(pv_pose, f)
+        else:
+            logger.log(logging.INFO, f"Captured pv frames {len(pv_frames)}")
+            with open(os.path.join(self.rec_data_dir, 'pv_frames.pkl'), 'wb') as f:
+                pickle.dump(pv_frames, f)
+
         pv_client.close()
 
     def _receive_vlc(self, vlc_port):
         port_name = hl2ss.get_port_name(vlc_port)
-        vlc_client = hl2ss.rx_decoded_rm_vlc(self.device_ip, vlc_port,
-                                             hl2ss.ChunkSize.RM_VLC,
-                                             VLC_MODE, VLC_PROFILE, VLC_BITRATE)
+
+        if self.is_vlc_decoded:
+            vlc_client = hl2ss.rx_decoded_rm_vlc(self.device_ip, vlc_port, hl2ss.ChunkSize.RM_VLC, VLC_MODE,
+                                                 VLC_PROFILE, VLC_BITRATE)
+        else:
+            vlc_client = hl2ss.rx_rm_vlc(self.device_ip, vlc_port, hl2ss.ChunkSize.RM_VLC, VLC_MODE,
+                                         VLC_PROFILE, VLC_BITRATE)
+
         vlc_client.open()
         logger.log(logging.INFO, "Configuring VLC")
-        vlc_pose = []
+
+        if self.is_vlc_decoded:
+            vlc_pose = []
+        else:
+            vlc_frames = []
+
         while self.rm_enable:
             data = vlc_client.get_next_packet()
-            vlc_pose.append([data.timestamp, data.pose])
-            self._write_frame_async(vlc_port, data, self.async_storage_map[vlc_port])
-        # np.savez(os.path.join(self.port_dir_map[vlc_port], 'vlc_pose'), vlc_pose)
-        with open(os.path.join(self.rec_data_dir, f'{port_name}_pose.pkl'), 'wb') as f:
-            pickle.dump(vlc_pose, f)
-        print(f'{port_name}_pose: {len(vlc_pose)}')
+            if self.is_vlc_decoded:
+                vlc_pose.append([data.timestamp, data.pose])
+                self._write_frame_async(vlc_port, data, self.async_storage_map[vlc_port])
+            else:
+                vlc_frames.append([data.timestamp, data.payload, data.pose])
+
+        if self.is_vlc_decoded:
+            logger.log(logging.INFO, f"Captured {port_name}_pose: {len(vlc_pose)}")
+            with open(os.path.join(self.rec_data_dir, f'{port_name}_pose.pkl'), 'wb') as f:
+                pickle.dump(vlc_pose, f)
+        else:
+            logger.log(logging.INFO, f"Captured {port_name}_pose: {len(vlc_frames)}")
+            with open(os.path.join(self.rec_data_dir, f'{port_name}_frames.pkl'), 'wb') as f:
+                pickle.dump(vlc_frames, f)
+
         vlc_client.close()
 
     def _receive_depth_ahat(self):
         depth_port = hl2ss.StreamPort.RM_DEPTH_AHAT
-        ahat_client = hl2ss.rx_decoded_rm_depth_ahat(self.device_ip, depth_port,
-                                                     hl2ss.ChunkSize.RM_DEPTH_AHAT,
-                                                     AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
+        if self.is_depth_decoded:
+            ahat_client = hl2ss.rx_decoded_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
+                                             AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
+        else:
+            ahat_client = hl2ss.rx_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
+                                                 AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
+
         ahat_client.open()
         logger.log(logging.INFO, "Configuring Depth AHaT")
+
+        if self.is_depth_decoded:
+            depth_pose = []
+        else:
+            depth_frames = []
+
         while self.rm_enable:
             data = ahat_client.get_next_packet()
-            self._write_depth_async(depth_port, data, self.async_storage_map[depth_port])
-        ahat_client.close()
 
-    def _receive_depth_longthrow(self):
-        depth_port = hl2ss.StreamPort.RM_DEPTH_LONGTHROW
-        longthrow_client = hl2ss.rx_decoded_rm_depth_longthrow(self.device_ip, depth_port,
-                                                               hl2ss.ChunkSize.RM_DEPTH_LONGTHROW,
-                                                               LT_MODE, LT_FILTER)
-        longthrow_client.open()
-        logger.log(logging.INFO, "Configuring Depth longthrow")
-        while self.rm_enable:
-            data = longthrow_client.get_next_packet()
-            self._write_depth_async(depth_port, data, self.async_storage_map[depth_port])
-        longthrow_client.close()
+            if self.is_depth_decoded:
+                depth_pose.append([data.timestamp, data.pose])
+                self._write_depth_async(depth_port, data, self.async_storage_map[depth_port])
+            else:
+                depth_frames.append([data.timestamp, data.payload, data.pose])
+
+        if self.is_depth_decoded:
+            logger.log(logging.INFO, f"Captured {len(depth_pose)}")
+            with open(os.path.join(self.rec_data_dir, 'depth_pose.pkl'), 'wb') as f:
+                pickle.dump(depth_pose, f)
+        else:
+            logger.log(logging.INFO, f"Captured {len(depth_frames)}")
+            with open(os.path.join(self.rec_data_dir, 'depth_frames.pkl'), 'wb') as f:
+                pickle.dump(depth_frames, f)
+
+        ahat_client.close()
 
     def _receive_microphone(self):
         audio_port = hl2ss.StreamPort.MICROPHONE
-        audio_client = hl2ss.rx_decoded_microphone(self.device_ip, audio_port,
-                                                   hl2ss.ChunkSize.MICROPHONE,
-                                                   AUDIO_PROFILE)
+        audio_client = hl2ss.rx_microphone(self.device_ip, audio_port,
+                                           hl2ss.ChunkSize.MICROPHONE,
+                                           AUDIO_PROFILE)
         audio_client.open()
         logger.log(logging.INFO, "Configuring Audio Microphone")
         audio_data = []
         while self.rm_enable:
             data = audio_client.get_next_packet()
             audio_data.append([data.timestamp, data.payload])
+        print(f'audio_data: {len(audio_data)}')
         with open(os.path.join(self.port_dir_map[audio_port], f'audio_data.pkl'), 'wb') as f:
             pickle.dump(audio_data, f)
-        print(f'audio_data: {len(audio_data)}')
         audio_client.close()
 
     def _receive_spatial(self):
@@ -121,9 +177,10 @@ class HololensService:
         while self.rm_enable:
             data = spatial_client.get_next_packet()
             spatial_data.append([data.timestamp, data.payload])
+        print(f'spatial_data: {len(spatial_data)}')
         with open(os.path.join(self.port_dir_map[spatial_port], f'spatial_data.pkl'), 'wb') as f:
             pickle.dump(spatial_data, f)
-        print(f'spatial_data: {len(spatial_data)}')
+
         spatial_client.close()
 
     def _receive_imu(self, imu_port):
@@ -144,7 +201,7 @@ class HololensService:
     def _init_params(self, rec: Recording):
         self.device_ip = rec.device_ip
         self.rec_id = f"{rec.activity}_{rec.place_id}_{rec.person_id}_{rec.rec_number}"
-        self.data_dir = "../../../data"
+        self.data_dir = os.path.join(os.path.dirname(os.getcwd()), "data")
         self.rec_data_dir = os.path.join(self.data_dir, self.rec_id)
         self.port_dir_map = {
             hl2ss.StreamPort.RM_VLC_LEFTFRONT: os.path.join(self.rec_data_dir, 'vlc_lf'),
@@ -181,7 +238,6 @@ class HololensService:
             hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: self._write_frame_async,
 
             hl2ss.StreamPort.RM_DEPTH_AHAT: self._write_depth_async,
-            hl2ss.StreamPort.RM_DEPTH_LONGTHROW: self._write_depth_async,
 
             hl2ss.StreamPort.PHOTO_VIDEO: self._write_frame_async,
             # hl2ss.StreamPort.MICROPHONE: self._write_audio_async,
@@ -202,15 +258,13 @@ class HololensService:
         pool_per_stream = max(2, pool_per_stream)
         try:
             self.async_storage_map = {
-                hl2ss.StreamPort.RM_VLC_LEFTFRONT: mp.Pool(pool_per_stream),
-                hl2ss.StreamPort.RM_VLC_LEFTLEFT: mp.Pool(pool_per_stream),
-                hl2ss.StreamPort.RM_VLC_RIGHTFRONT: mp.Pool(pool_per_stream),
-                hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: mp.Pool(pool_per_stream),
+                # hl2ss.StreamPort.RM_VLC_LEFTFRONT: mp.Pool(3),
+                # hl2ss.StreamPort.RM_VLC_LEFTLEFT: mp.Pool(3),
+                # hl2ss.StreamPort.RM_VLC_RIGHTFRONT: mp.Pool(3),
+                # hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: mp.Pool(3),
 
-                hl2ss.StreamPort.RM_DEPTH_AHAT: mp.Pool(pool_per_stream),
-                hl2ss.StreamPort.RM_DEPTH_LONGTHROW: mp.Pool(pool_per_stream),
-
-                hl2ss.StreamPort.PHOTO_VIDEO: mp.Pool(4),
+                hl2ss.StreamPort.RM_DEPTH_AHAT: mp.Pool(5),
+                hl2ss.StreamPort.PHOTO_VIDEO: mp.Pool(5),
             }
         except Exception as e:
             logger.log(logging.ERROR, str(e))
@@ -259,13 +313,12 @@ class HololensService:
         self.thread_pv = threading.Thread(target=self._receive_pv)
         self.thread_mc = threading.Thread(target=self._receive_microphone)
 
-        self.thread_vlc_ll = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_LEFTLEFT,))
-        self.thread_vlc_lf = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_LEFTFRONT,))
-        self.thread_vlc_rf = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_RIGHTFRONT,))
-        self.thread_vlc_rr = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,))
+        # self.thread_vlc_ll = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_LEFTLEFT,))
+        # self.thread_vlc_lf = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_LEFTFRONT,))
+        # self.thread_vlc_rf = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_RIGHTFRONT,))
+        # self.thread_vlc_rr = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,))
 
         self.thread_ahat = threading.Thread(target=self._receive_depth_ahat)
-        self.thread_longthrow = threading.Thread(target=self._receive_depth_longthrow)
 
         self.thread_spatial = threading.Thread(target=self._receive_spatial)
         self.thread_imu_acc = threading.Thread(target=self._receive_imu, args=(hl2ss.StreamPort.RM_IMU_ACCELEROMETER,))
@@ -275,8 +328,8 @@ class HololensService:
         # Threads for each stream
         self.threads = [self.thread_pv,
                         self.thread_mc,
-                        self.thread_vlc_ll, self.thread_vlc_lf, self.thread_vlc_rf, self.thread_vlc_rr,
-                        self.thread_ahat, self.thread_longthrow,
+                        # self.thread_vlc_ll, self.thread_vlc_lf, self.thread_vlc_rf, self.thread_vlc_rr,
+                        self.thread_ahat,
                         self.thread_spatial,
                         self.thread_imu_acc, self.thread_imu_gyro, self.thread_imu_mag,
                         ]
@@ -285,8 +338,10 @@ class HololensService:
         for thread in self.threads:
             thread.start()
 
+        while self.rm_enable:
+            time.sleep(60)
+
     def _stop_record_sensor_streams(self):
-        time.sleep(1)
 
         logger.log(logging.INFO, "Stopping all record streams")
         # Make the shared conditional variables so that process of capturing the frames stops
@@ -328,10 +383,15 @@ class HololensService:
 
 if __name__ == '__main__':
     hl2_service = HololensService()
-    rec = Recording("Coffee", "P1", "K1", "R1", False)
-    rec.set_device_ip('192.168.10.133')
+    rec = Recording("Coffee", "PL3", "P1", "R2", False)
+    rec.set_device_ip('192.168.1.152')
     rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
     rec_thread.start()
-    time.sleep(10)
+
+    sleep_min = 1
+    for min_done in range(sleep_min):
+        print("Minutes done {}".format(min_done))
+        time.sleep(60)
+
     hl2_service.stop_recording()
     rec_thread.join()
