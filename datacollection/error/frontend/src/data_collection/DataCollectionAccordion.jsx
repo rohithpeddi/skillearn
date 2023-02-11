@@ -8,16 +8,10 @@ import {useState} from "react";
 
 
 const handleClick = async (endpoint, params, setSubprocessId) => {
-    console.log("handle click entered");
-    console.log(endpoint);
-    console.log(params);
     try {
         const response = await axios.post(endpoint, null,{params});
         console.log(response);
-        console.log(response.data);
         if (endpoint==="http://localhost:5000/record/activity/start") {
-            console.log("entered the endpoint");
-            console.log(response.data["subprocess_id"]);
             setSubprocessId(response.data["subprocess_id"]);
         }
     } catch (e) {
@@ -84,9 +78,6 @@ const displayAccordionPanels = (props) => {
 
 const DataCollectionAccordion = (props) => {
     const [subprocessId, setSubprocessId] = useState(null);
-    console.log("Accordion entered Aksha");
-    console.log(subprocessId);
-
     return (<Box className="data_collection_accordion">
         <Box className="data_collection_accordion_heading_btn">
             <Typography variant="h2" align="center"> {props.selectedActivity}</Typography>

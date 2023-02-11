@@ -6,9 +6,7 @@ import DataCollectionGrid from "./DataCollectionGrid";
 import './DataCollection.css';
 import axios from "axios";
 import _ from "lodash";
-import DataCollectionLiveFrame from "./DataCollectionLiveFrame";
 import * as React from "react";
-import FirstSystemImage from "./FileSystemImage";
 
 const DataCollection = () => {
     const [data, setData] = useState(null);
@@ -121,8 +119,6 @@ const DataCollection = () => {
             <Box>
                 <Box>
                     <DataCollectionGrid headerName={"STEP COMPLETION STATUS"} stepsCompleted={stepsCompleted}/>
-                    {/*<FirstSystemImage/>*/}
-                    <DataCollectionLiveFrame headerName={"LIVE VIEW"}/>
                 </Box>
             </Box>
 
