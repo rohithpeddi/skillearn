@@ -12,7 +12,7 @@ const handleClick = async (endpoint, params, setSubprocessId) => {
     console.log(endpoint);
     console.log(params);
     try {
-        const response = await axios.post(endpoint, params);
+        const response = await axios.post(endpoint, null,{params});
         console.log(response);
         console.log(response.data);
         if (endpoint==="http://localhost:5000/record/activity/start") {
