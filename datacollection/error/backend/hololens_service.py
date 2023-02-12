@@ -2,10 +2,12 @@ import logging
 import multiprocessing as mp
 import os
 import pickle
-import queue
+import re
+import socket
 import threading
 import time
 from fractions import Fraction
+from subprocess import Popen, PIPE
 
 import cv2
 import numpy as np
@@ -37,6 +39,25 @@ class HololensService:
         self.is_pv_decoded = True
         self.is_vlc_decoded = True
         self.is_depth_decoded = True
+
+    @staticmethod
+    def get_mac_address_and_host_name(ip_address):
+        # do_ping(IP) - The time between ping and arp check must be small, as ARP may not cache long
+        # print(os.system('arp -n ' + str(IP)))
+        pid = Popen(["arp", "-n", ip_address], stdout=PIPE)
+        s = pid.communicate()[0].decode("utf-8")
+        mac_address = re.search(r'(([a-f\d]{1,2}:){5}[a-f\d]{1,2})', s).groups()[0]
+        socket.gethostbyaddr(ip_address)
+        host_name = socket.gethostbyaddr(ip_address)[0]
+        logger.log(logging.INFO, f"Hololens2 ID: {host_name}")
+        logger.log(logging.INFO, f"Hololens2 MAC: {mac_address}")
+        return mac_address, host_name
+
+    def save_hololens2_info(self, ip_address, folder_path):
+        mac_address, host_name = self.get_mac_address_and_host_name(ip_address)
+        with open(os.path.join(folder_path, 'Hololens2Info')) as f:
+            f.write(f"Name: {host_name}")
+            f.write(f"MAC: {mac_address}")
 
     def _receive_pv(self):
         pv_port = hl2ss.StreamPort.PHOTO_VIDEO
@@ -203,6 +224,7 @@ class HololensService:
         self.rec_id = f"{rec.activity}_{rec.place_id}_{rec.person_id}_{rec.rec_number}"
         self.data_dir = os.path.join(os.path.dirname(os.getcwd()), "data")
         self.rec_data_dir = os.path.join(self.data_dir, self.rec_id)
+        self.save_hololens2_info(self.device_ip, self.rec_data_dir)
         self.port_dir_map = {
             hl2ss.StreamPort.RM_VLC_LEFTFRONT: os.path.join(self.rec_data_dir, 'vlc_lf'),
             hl2ss.StreamPort.RM_VLC_LEFTLEFT: os.path.join(self.rec_data_dir, 'vlc_ll'),
