@@ -119,7 +119,7 @@ S2: Close the lid of the kettle and boil the water.
 S3: While the water is boiling, assemble the filter cone.  Place the dripper on top of a coffee mug.
 S4: Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle.
 S5: Place the paper filter in the dripper and spread open to create a cone.
-S6: Weigh the coffee beans
+S6: Weigh the coffee beans (8 oz to 12 oz)
 S7: Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds.
 S8: Transfer the grounds to the filter cone.
 S9: Once the water has boiled, check the temperature of the water.  (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius.   If the water is too hot, let it cool briefly.)
