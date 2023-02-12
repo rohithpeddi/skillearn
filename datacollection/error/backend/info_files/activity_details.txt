@@ -262,3 +262,55 @@ S3: Add 1/2 cup quick oats to the cup
 S4: Add 3 teaspoons brown sugar to the cup
 S5: Mix the ingredients well.
 S6: Microwave for 2 minutes.
+SaucyMexicanEggs
+S1: Add salsa to a microwave safe bowl.
+S2: Microwave for 1 minute.
+S3: Pour contents of 1 egg on top of the salsa.
+S4: Sprinkle on the cheese,
+S5: cover and microwave for 3 to 4 minutes (or till eggs are done) on medium-low heat.
+CheesyEnglishStyleMuffinswithApple
+S1: Separate the english muffin into two pieces.
+S2: Place the english muffin inside a microwave and heat for 2 minutes.
+S3: Slice the apple into thin slices.
+S4: Top one of the muffin half wih apple slices.
+S5: Sprinkle cheddar cheese on top of the apple slices.
+S6: Microwave again for 2 minutes.
+MakeAheadBreakfastBurritos
+S1: Extract the contents of an egg and add it to a microwave safe bowl.
+S2: Whisk the egg.
+S3: Microwave for 3 minutes stirring in between.
+S4: Add salsa to the bowl.
+S5: Add oregano to the bowl.
+S6: Add sweet and sour sauce to the bowl.
+S7: Mix the contents of the bowl well.
+S8: Place tortillas on a cutting board.
+S9: Pour egg mixture on top of the tortilla
+S10: Sprinkle cheese on top of the egg.
+S11: Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight that the filling lea
+SpicedHotChocolate
+S1: Fill a microwave safe mug with skimmed milk.
+S2: Heat the contents of the mug for 1 minute.
+S3: Add 1-2 pieces of chocolate to the mug.
+S4: Add a pinch of cinnamon to the mug.
+S5: Add 1 teaspoon white sugar.
+S6: Mix the contents of the mug
+S7: Heat the contents of the mug for 1 minute.
+MicrowaveOatmealBars
+S1: Add 3 tablespoon oats to a large microwave safe bowl.
+S2: Add 2 tespoon brown sugar to the bowl.
+S3: Add 1/2 tablespoon butter to the bowl.
+S4: Mix the ingredients of the bowl
+S5: Microwave, uncovered, on high for 1.5 minutes.
+S6: Mix the contents of the bowl.
+S7: Microwave, uncovered, on high for 1.5 minutes.
+S8: Sprinkle with chocolate chips
+S9: Microwave for 1.5 minutes
+S10: Spread the chocolate evenly over top.
+Microwave French Toast
+S1: In a large mug, melt the 1 teaspoon butter in the microwave for about 30 seconds.
+S2: Roll the butter around in the cup to coat it.
+S3: In the mug whisk the egg with a fork until well blended.
+S4: Sprinkle the cinnamon over the egg and add the vanilla then stir again.
+S5: Cut or tear the bread into bite size pieces and add to the egg mixture in the mug, pressing the bread down in to the egg.
+S6: Microwave on high for 90 seconds at a time until the egg is cooked through.
+S7: Put the contents of the cup on a plate and cut it up.
