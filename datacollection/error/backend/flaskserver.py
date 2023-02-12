@@ -47,7 +47,7 @@ def info():
 @app.route("/record/activity/start", methods=['POST'])
 def start_activity_recording():
 	recording_details = request.values
-	# 1. Start Async Service of Hololens data capture and get PID of the process
+	# 1. Start Async Service of Hololens data_bak capture and get PID of the process
 	recording_instance = get_recording_instance(recording_details=recording_details, is_step=False)
 	try:
 		child_subprocess_pid = create_async_subprocess(recording_instance, ACTIVITY_RECORD_ASYNC_OPERATION)

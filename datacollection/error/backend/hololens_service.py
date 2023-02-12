@@ -47,16 +47,22 @@ class HololensService:
         pid = Popen(["arp", "-n", ip_address], stdout=PIPE)
         s = pid.communicate()[0].decode("utf-8")
         mac_address = re.search(r'(([a-f\d]{1,2}:){5}[a-f\d]{1,2})', s).groups()[0]
-        socket.gethostbyaddr(ip_address)
-        host_name = socket.gethostbyaddr(ip_address)[0]
+
+        def dns_ptr_lookup(addr):
+            try:
+                return socket.gethostbyaddr(addr)
+            except socket.herror:
+                return None, None, None
+        host_name = dns_ptr_lookup(ip_address)[0]
         logger.log(logging.INFO, f"Hololens2 ID: {host_name}")
         logger.log(logging.INFO, f"Hololens2 MAC: {mac_address}")
         return mac_address, host_name
 
     def save_hololens2_info(self, ip_address, folder_path):
+        # print(ip_address)
         mac_address, host_name = self.get_mac_address_and_host_name(ip_address)
-        with open(os.path.join(folder_path, 'Hololens2Info')) as f:
-            f.write(f"Name: {host_name}")
+        with open(os.path.join(folder_path, 'Hololens2Info.dat'), 'w+') as f:
+            f.write(f"Name: {host_name}\n")
             f.write(f"MAC: {mac_address}")
 
     def _receive_pv(self):
@@ -66,18 +72,15 @@ class HololensService:
             pv_client = hl2ss.rx_decoded_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
                                             hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE,
                                             VIDEO_PROFILE, VIDEO_BITRATE, VIDEO_DECODE)
+            pv_pose = []
         else:
             pv_client = hl2ss.rx_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
                                     hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE,
                                     VIDEO_BITRATE)
+            pv_frames = []
 
         pv_client.open()
         logger.log(logging.INFO, "Configuring PhotoVideo")
-
-        if self.is_pv_decoded:
-            pv_pose = []
-        else:
-            pv_frames = []
 
         while self.rm_enable:
             data = pv_client.get_next_packet()
@@ -104,17 +107,14 @@ class HololensService:
         if self.is_vlc_decoded:
             vlc_client = hl2ss.rx_decoded_rm_vlc(self.device_ip, vlc_port, hl2ss.ChunkSize.RM_VLC, VLC_MODE,
                                                  VLC_PROFILE, VLC_BITRATE)
+            vlc_pose = []
         else:
             vlc_client = hl2ss.rx_rm_vlc(self.device_ip, vlc_port, hl2ss.ChunkSize.RM_VLC, VLC_MODE,
                                          VLC_PROFILE, VLC_BITRATE)
+            vlc_frames = []
 
         vlc_client.open()
         logger.log(logging.INFO, "Configuring VLC")
-
-        if self.is_vlc_decoded:
-            vlc_pose = []
-        else:
-            vlc_frames = []
 
         while self.rm_enable:
             data = vlc_client.get_next_packet()
@@ -138,23 +138,19 @@ class HololensService:
     def _receive_depth_ahat(self):
         depth_port = hl2ss.StreamPort.RM_DEPTH_AHAT
         if self.is_depth_decoded:
+            depth_pose = []
             ahat_client = hl2ss.rx_decoded_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
                                              AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
         else:
+            depth_frames = []
             ahat_client = hl2ss.rx_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
                                                  AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
 
         ahat_client.open()
         logger.log(logging.INFO, "Configuring Depth AHaT")
 
-        if self.is_depth_decoded:
-            depth_pose = []
-        else:
-            depth_frames = []
-
         while self.rm_enable:
             data = ahat_client.get_next_packet()
-
             if self.is_depth_decoded:
                 depth_pose.append([data.timestamp, data.pose])
                 self._write_depth_async(depth_port, data, self.async_storage_map[depth_port])
@@ -214,17 +210,16 @@ class HololensService:
         while self.rm_enable:
             data = imu_client.get_next_packet()
             imu_data.append([data.timestamp, data.payload])
+        print(f'{port_name}_data: {len(imu_data)}')
         with open(os.path.join(self.port_dir_map[imu_port], f'{port_name}_data.pkl'), 'wb') as f:
             pickle.dump(imu_data, f)
-        print(f'{port_name}_data: {len(imu_data)}')
         imu_client.close()
 
     def _init_params(self, rec: Recording):
         self.device_ip = rec.device_ip
         self.rec_id = f"{rec.activity}_{rec.place_id}_{rec.person_id}_{rec.rec_number}"
-        self.data_dir = os.path.join(os.path.dirname(os.getcwd()), "data")
+        self.data_dir = "/home/ptg/CODE/data"
         self.rec_data_dir = os.path.join(self.data_dir, self.rec_id)
-        self.save_hololens2_info(self.device_ip, self.rec_data_dir)
         self.port_dir_map = {
             hl2ss.StreamPort.RM_VLC_LEFTFRONT: os.path.join(self.rec_data_dir, 'vlc_lf'),
             hl2ss.StreamPort.RM_VLC_LEFTLEFT: os.path.join(self.rec_data_dir, 'vlc_ll'),
@@ -252,6 +247,7 @@ class HololensService:
                 create_directories(self.port_dir_map[port]['depth'])
             else:
                 create_directories(self.port_dir_map[port])
+        self.save_hololens2_info(self.device_ip, self.rec_data_dir)
 
         self.writer_map = {
             hl2ss.StreamPort.RM_VLC_LEFTFRONT: self._write_frame_async,
@@ -276,16 +272,20 @@ class HololensService:
         }
 
         total_streams = 8  # (PV, Pose), Audio, Depth, ((VLC, Pose) * 4), MLC
-        pool_per_stream = int(mp.cpu_count() / total_streams)
-        pool_per_stream = max(2, pool_per_stream)
+        # Dell Precision 5820 - CPU - 20, Thread/CPU = 2
+        thread_per_cpu = 2
+        pool_per_stream = int((mp.cpu_count() * thread_per_cpu) / total_streams)
+        # pool_per_stream = max(2, pool_per_stream)
+        pool_per_stream = 2
         try:
             self.async_storage_map = {
-                # hl2ss.StreamPort.RM_VLC_LEFTFRONT: mp.Pool(3),
-                # hl2ss.StreamPort.RM_VLC_LEFTLEFT: mp.Pool(3),
-                # hl2ss.StreamPort.RM_VLC_RIGHTFRONT: mp.Pool(3),
-                # hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: mp.Pool(3),
+                hl2ss.StreamPort.RM_VLC_LEFTFRONT: mp.Pool(pool_per_stream),
+                hl2ss.StreamPort.RM_VLC_LEFTLEFT: mp.Pool(pool_per_stream),
+                hl2ss.StreamPort.RM_VLC_RIGHTFRONT: mp.Pool(pool_per_stream),
+                hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: mp.Pool(pool_per_stream),
 
                 hl2ss.StreamPort.RM_DEPTH_AHAT: mp.Pool(5),
+                # hl2ss.StreamPort.RM_DEPTH_LONGTHROW: mp.Pool(pool_per_stream),
                 hl2ss.StreamPort.PHOTO_VIDEO: mp.Pool(5),
             }
         except Exception as e:
@@ -331,34 +331,32 @@ class HololensService:
         # Initialize all Parameters, Producers, Consumers, Display Map, Writer Map
         logger.log(logging.INFO, "Initializing parameters")
         self._init_params(recording_instance)
+        vlc_ports = [
+            hl2ss.StreamPort.RM_VLC_LEFTLEFT,
+            hl2ss.StreamPort.RM_VLC_LEFTFRONT,
+            hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
+            hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
+        ]
+        imu_ports = [
+            hl2ss.StreamPort.RM_IMU_ACCELEROMETER,
+            hl2ss.StreamPort.RM_IMU_GYROSCOPE,
+            hl2ss.StreamPort.RM_IMU_MAGNETOMETER,
+        ]
+        self.port_threads = {
+            hl2ss.StreamPort.PHOTO_VIDEO: threading.Thread(target=self._receive_pv),
+            hl2ss.StreamPort.MICROPHONE: threading.Thread(target=self._receive_microphone),
+            hl2ss.StreamPort.RM_DEPTH_AHAT: threading.Thread(target=self._receive_depth_ahat),
+            hl2ss.StreamPort.SPATIAL_INPUT: threading.Thread(target=self._receive_spatial),
+        }
+        for vlc_port in vlc_ports:
+            self.port_threads[vlc_port] = threading.Thread(target=self._receive_vlc, args=(vlc_port,))
 
-        self.thread_pv = threading.Thread(target=self._receive_pv)
-        self.thread_mc = threading.Thread(target=self._receive_microphone)
-
-        # self.thread_vlc_ll = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_LEFTLEFT,))
-        # self.thread_vlc_lf = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_LEFTFRONT,))
-        # self.thread_vlc_rf = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_RIGHTFRONT,))
-        # self.thread_vlc_rr = threading.Thread(target=self._receive_vlc, args=(hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,))
-
-        self.thread_ahat = threading.Thread(target=self._receive_depth_ahat)
-
-        self.thread_spatial = threading.Thread(target=self._receive_spatial)
-        self.thread_imu_acc = threading.Thread(target=self._receive_imu, args=(hl2ss.StreamPort.RM_IMU_ACCELEROMETER,))
-        self.thread_imu_gyro = threading.Thread(target=self._receive_imu, args=(hl2ss.StreamPort.RM_IMU_GYROSCOPE,))
-        self.thread_imu_mag = threading.Thread(target=self._receive_imu, args=(hl2ss.StreamPort.RM_IMU_MAGNETOMETER,))
-
-        # Threads for each stream
-        self.threads = [self.thread_pv,
-                        self.thread_mc,
-                        # self.thread_vlc_ll, self.thread_vlc_lf, self.thread_vlc_rf, self.thread_vlc_rr,
-                        self.thread_ahat,
-                        self.thread_spatial,
-                        self.thread_imu_acc, self.thread_imu_gyro, self.thread_imu_mag,
-                        ]
+        for imu_port in imu_ports:
+            self.port_threads[imu_port] = threading.Thread(target=self._receive_imu, args=(imu_port,))
 
         # Start all the threads corresponding to each type
-        for thread in self.threads:
-            thread.start()
+        for port in PORTS:
+            self.port_threads[port].start()
 
         while self.rm_enable:
             time.sleep(60)
@@ -370,8 +368,8 @@ class HololensService:
         self.rm_enable = False
 
         # Start all the threads corresponding to each type
-        for thread in self.threads:
-            thread.join()
+        for port in PORTS:
+            self.port_threads[port].join()
 
         # Release all the pools instances attached to different ports
         for port in PORTS:
@@ -405,15 +403,16 @@ class HololensService:
 
 if __name__ == '__main__':
     hl2_service = HololensService()
-    rec = Recording("Coffee", "PL3", "P1", "R2", False)
-    rec.set_device_ip('192.168.1.152')
+    rec = Recording("Coffee", "PL1", "P1", "R1", False)
+    rec.set_device_ip('192.168.0.117')
     rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
     rec_thread.start()
-
+    print("Recording Started")
     sleep_min = 1
     for min_done in range(sleep_min):
         print("Minutes done {}".format(min_done))
         time.sleep(60)
 
     hl2_service.stop_recording()
+    print("Recording Stopped")
     rec_thread.join()

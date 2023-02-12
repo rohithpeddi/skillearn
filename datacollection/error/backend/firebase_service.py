@@ -49,7 +49,7 @@ class FirebaseService:
 			.child(STEP_START_TIME if is_start else STEP_END_TIME) \
 			.set(int(time.time() * 1e9))
 
-	# 5. Function to get latest updated data with step completion status
+	# 5. Function to get latest updated data_bak with step completion status
 	def get_updated_recording_details(self, recording_instance: Recording):
 		recording_response = self.db.child(ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS) \
 			.child(recording_instance.activity) \

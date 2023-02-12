@@ -19,7 +19,7 @@ S6: Arrange potato and onion slices on the plate
 S7: Sprinkle potato and onion with seasonings (garlic salt, salt, pepper) on the plate.
 S8: Cover the plate and microwave on high for 6 minutes and 30 seconds or until potatoes are tender
 S9: Add 1/4 cup shredded cheddar cheese on the top and microwave for 30 seconds of cooking.
-Dressed-UpMeatballs
+DressedUpMeatballs
 S1: Cut 1/4 medium carrots into short, thin strips
 S2: Peel 1 small onion.
 S3: Slice 1/8 small onion
@@ -235,7 +235,7 @@ S5: Slice 1/2 tomato and chop it into small pieces and add it to the bowl.
 S6: Extract lime juice from 1/2 lime and add it to the bowl.
 S7: Stir the ingredients properly.
 S8: Microwave on high for 3-5 minutes.
-Chick-fil-aChickenSalad
+ChickfilaChickenSalad
 S1: Chop 2 pieces of chicken and add it to a bowl.
 S2: Add 1/2 cup mayonnaise to the bowl.
 S3: Add 1 teaspoon salt to the bowl.

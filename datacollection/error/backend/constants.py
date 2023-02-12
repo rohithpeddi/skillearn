@@ -83,10 +83,10 @@ PNG_FILTER = hl2ss.PngFilterMode.Paeth
 
 # Ports
 PORTS = [
-    # hl2ss.StreamPort.RM_VLC_LEFTFRONT,
-    # hl2ss.StreamPort.RM_VLC_LEFTLEFT,
-    # hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
-    # hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
+    hl2ss.StreamPort.RM_VLC_LEFTFRONT,
+    hl2ss.StreamPort.RM_VLC_LEFTLEFT,
+    hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
+    hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
     hl2ss.StreamPort.RM_DEPTH_AHAT,
     # hl2ss.StreamPort.RM_DEPTH_LONGTHROW,
     hl2ss.StreamPort.PHOTO_VIDEO,
@@ -124,7 +124,7 @@ PV_BITRATE = 5 * 1024 * 1024
 PV_FORMAT = 'bgr24'
 
 # VLC Parameters
-VLC_FPS = 30
+VLC_FPS = 15
 VLC_WIDTH = 640
 VLC_HEIGHT = 480
 

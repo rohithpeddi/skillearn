@@ -41,8 +41,8 @@ class ChunkSize:
 
 
 # Stream Operating Mode
-# 0: device data (e.g. video)
-# 1: device data + location data (e.g. video + camera pose)
+# 0: device data_bak (e.g. video)
+# 1: device data_bak + location data_bak (e.g. video + camera pose)
 # 2: device constants (e.g. camera intrinsics)
 class StreamMode:
 	MODE_0 = 0
