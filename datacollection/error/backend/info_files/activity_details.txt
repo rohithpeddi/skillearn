@@ -233,13 +233,8 @@ S5: Slice 1/2 tomato and chop it into small pieces and add it to the bowl.
 S6: Extract lime juice from 1/2 lime and add it to the bowl.
 S7: Stir the ingredients properly.
 S8: Microwave on high for 3-5 minutes.
-<<<<<<< HEAD
 ChickfilaChickenSalad
-S1: Chop 2 pieces of chicken and add it to a bowl.
-=======
-Chick-fil-aChickenSalad
 S1: Chop 1 piece of chicken and add it to a bowl.
->>>>>>> 462a8df (Why: * Minor Changes - Change recipes)
 S2: Add 1/2 cup mayonnaise to the bowl.
 S3: Add 1 teaspoon salt to the bowl.
 S4: Add 1 teaspoon pepper to the bowl.
