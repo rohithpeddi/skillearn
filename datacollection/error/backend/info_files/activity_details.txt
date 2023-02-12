@@ -1,14 +1,13 @@
 EggSandwich
 S1: Coat 6-oz. ramekin cup with cooking spray.
-S2: Place a piece of canadian bacon on the bottom of a 6-oz. ramekin cup.
-S3: Pour 1/4 cup egg substitute on top of the canadian bacon in ramekin cup.
-S4: Microwave the ramekin cup uncovered on high for 30 seconds and stir.
-S5: Continue to Microwave for 15-30 more seconds or until egg is almost set.
-S6: Top with 1 tablespoon of salsa and sprinkle with 1 tablespoon of cheese.
-S7: Microwave just until cheese melts, about 10 seconds.
-S8: Cut the english muffin into two pieces with a knife.
-S9: Line bottom of English muffin with lettuce.
-S10: Take out egg and Canadian bacon from the cup, place it over lettuce and replace the top of english muffin.
+S2: Pour 1/4 cup egg substitute in ramekin cup.
+S3: Microwave the ramekin cup uncovered on high for 30 seconds and stir.
+S4: Continue to Microwave for 15-30 more seconds or until egg is almost set.
+S5: Top with 1 tablespoon of salsa and sprinkle with 1 tablespoon of cheese.
+S6: Microwave just until cheese melts, about 10 seconds.
+S7: Cut the english muffin into two pieces with a knife.
+S8: Line bottom of English muffin with lettuce.
+S9: Take out egg and Canadian bacon from the cup, place it over lettuce and replace the top of english muffin.
 BreakfastPotatoes
 S1: Peel a medium potatoes.
 S2: Slice the peeled medium potatoes.
@@ -66,15 +65,14 @@ S1: Remove the noodles from the package. (Break Noodles / Keep them as a block).
 S2: Peel and Chop garlic on cutting board.
 S3: Peel one small onion.
 S4: Finely chop the peeled onion on cutting board.
-S5: Take peas out of the bag and thaw the peas by putting it in a sieve and running it under some cold water.
-S6: Put all the Vegetables in a microwave-safe bowl.
-S7: Add the noodles to the bowl and cover them with water.
-S8: Cover with a lid (or paper towel) to prevent splattering.
-S9: Microwave the ramen for between four minutes.
-S10: Measure basil and cilantro and add them to the bowl.
-S11: Let the noodles sit for about one minute after the microwave stops.
-S12: Mix in the flavour packet.
-S13: Stir noodles with a spoon or fork until the flavouring dissolves.
+S5: Put all the Vegetables in a microwave-safe bowl.
+S6: Add the noodles to the bowl and cover them with water.
+S7: Cover with a lid (or paper towel) to prevent splattering.
+S8: Microwave the ramen for between four minutes.
+S9: Measure basil and cilantro and add them to the bowl.
+S10: Let the noodles sit for about one minute after the microwave stops.
+S11: Mix in the flavour packet.
+S12: Stir noodles with a spoon or fork until the flavouring dissolves.
 ApplePie
 S1: Place the crust into a microwave-safe pie dish.
 S2: Score (press) the bottom and sides of the crust with a fork.
@@ -235,8 +233,13 @@ S5: Slice 1/2 tomato and chop it into small pieces and add it to the bowl.
 S6: Extract lime juice from 1/2 lime and add it to the bowl.
 S7: Stir the ingredients properly.
 S8: Microwave on high for 3-5 minutes.
+<<<<<<< HEAD
 ChickfilaChickenSalad
 S1: Chop 2 pieces of chicken and add it to a bowl.
+=======
+Chick-fil-aChickenSalad
+S1: Chop 1 piece of chicken and add it to a bowl.
+>>>>>>> 462a8df (Why: * Minor Changes - Change recipes)
 S2: Add 1/2 cup mayonnaise to the bowl.
 S3: Add 1 teaspoon salt to the bowl.
 S4: Add 1 teaspoon pepper to the bowl.
