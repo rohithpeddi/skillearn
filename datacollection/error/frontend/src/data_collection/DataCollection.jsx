@@ -8,6 +8,13 @@ import axios from "axios";
 import _ from "lodash";
 import * as React from "react";
 
+const Image = () => {
+    const image = require('./2.jpeg');
+    return (
+        <img src={image} width="100%" height="100%"/>
+    );
+};
+
 const DataCollection = () => {
     const [data, setData] = useState(null);
     const [error, setError] = useState(null);
@@ -119,6 +126,10 @@ const DataCollection = () => {
             <Box>
                 <Box>
                     <DataCollectionGrid headerName={"STEP COMPLETION STATUS"} stepsCompleted={stepsCompleted}/>
+                    <Box className="data_collection_live_frame">
+                        {/*<Typography variant="h6" align="center" borderBottom="2px solid">LIVE FEED</Typography>*/}
+                        <Image/>
+                    </Box>
                 </Box>
             </Box>
 

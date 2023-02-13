@@ -3,3 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.data_collection_live_frame {
+    overflow: hidden;
+    height: 60%;
+    border: 2px solid black;
+    max-height: 1500px;
+    max-width: 500px;
+}
