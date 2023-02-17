@@ -3,9 +3,9 @@ import os.path
 
 from boxsdk import Client, CCGAuth
 
-from datacollection.error.backend.Recording import Recording
-from datacollection.error.backend.firebase_service import FirebaseService
-from datacollection.error.backend.constants import *
+from datacollection.backend.Recording import Recording
+from datacollection.backend.firebase_service import FirebaseService
+from datacollection.backend.constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Created Hololens service file')

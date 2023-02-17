@@ -3,8 +3,8 @@ import time
 
 import pyrebase
 
-from datacollection.error.backend.Recording import Recording
-from datacollection.error.backend.constants import *
+from datacollection.backend.Recording import Recording
+from datacollection.backend.constants import *
 
 firebaseConfig = {
 	"apiKey": "AIzaSyCZNC9vFeIwcRv_gId4i9pnGFoEDL3MZ8s",

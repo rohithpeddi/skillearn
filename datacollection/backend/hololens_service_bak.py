@@ -9,9 +9,9 @@ import av
 import cv2
 import numpy as np
 import multiprocessing as mp
-from datacollection.error.backend import hl2ss_mp
-from datacollection.error.backend.Recording import Recording
-from datacollection.error.backend.constants import *
+from datacollection.backend import hl2ss_mp
+from datacollection.backend.Recording import Recording
+from datacollection.backend.constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Created Hololens service file')

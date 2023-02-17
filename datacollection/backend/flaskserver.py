@@ -5,11 +5,11 @@ import json
 from flask import Flask, request, jsonify
 import logging
 
-from datacollection.error.backend.Recording import Recording
-from datacollection.error.backend.async_recipe_recording import create_async_subprocess
-from datacollection.error.backend.firebase_service import FirebaseService
-from datacollection.error.backend.hololens_service import HololensService
-from datacollection.error.backend.util import activity_info_text_to_database
+from datacollection.backend.Recording import Recording
+from datacollection.backend.async_recipe_recording import create_async_subprocess
+from datacollection.backend.firebase_service import FirebaseService
+from datacollection.backend.hololens_service import HololensService
+from datacollection.backend.util import activity_info_text_to_database
 from constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')

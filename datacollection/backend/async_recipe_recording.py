@@ -5,11 +5,11 @@ import sys
 import signal
 import functools
 
-from datacollection.error.backend.Recording import Recording
-from datacollection.error.backend.box_service import BoxService
-from datacollection.error.backend.firebase_service import FirebaseService
-from datacollection.error.backend.hololens_service import HololensService
-from datacollection.error.backend.constants import *
+from datacollection.backend.Recording import Recording
+from datacollection.backend.box_service import BoxService
+from datacollection.backend.firebase_service import FirebaseService
+from datacollection.backend.hololens_service import HololensService
+from datacollection.backend.constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('This message will get logged on to a file')

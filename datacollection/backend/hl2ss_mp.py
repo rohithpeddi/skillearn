@@ -1,6 +1,6 @@
 
 import multiprocessing as mp
-import datacollection.error.backend.hl2ss as hl2ss
+import datacollection.backend.hl2ss as hl2ss
 
 
 #------------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 import os
 
-from datacollection.error.backend.constants import *
-from datacollection.error.backend.firebase_service import FirebaseService
+from datacollection.backend.constants import *
+from datacollection.backend.firebase_service import FirebaseService
 
 file_directory = os.path.dirname(__file__)
 
