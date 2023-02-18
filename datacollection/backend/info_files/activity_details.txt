@@ -51,7 +51,7 @@ S1: Take a microwavable mug.
 S2: Measure 4 tablespoons of flour and add it to the mug.
 S3: Measure 1/8 teaspoon of baking powder and add it to the mug.
 S4: Measure 1/16 teaspoon of baking soda and add it to the mug.
-S5: Measure 1/8 teaspoon of salt and add it to the mug.
+S5: Measure 1/8 teaspoon of salt and add it.
 S6: Stir the contents well.
 S7: Add in the milk and oil to the mug.
 S8: Mix the contents thoroughly.
@@ -85,7 +85,7 @@ S9: Measure 1/4 cup of brown sugar and add it to the bowl.
 S10: Measure 1 teaspoon of cinnamon and add it to the bowl.
 S11: Measure 1 teaspoon of vanilla extract and add it to the bowl.
 S12: Extract the juice from 1/2 lemon and add it to the bowl.
-S13: Mix all the ingredients well.
+S13: Mix the contents thoroughly.
 S14: Cover the bowl and then microwave on high for 2.5 minutes.
 S15: Stir the contents well.
 S16: Again, Microwave on high for 2.5 minutes.
@@ -104,7 +104,7 @@ S4: Break 1 egg in a bowl and throw away the shells.
 S5: Measure 1/4 cup of white sugar and add it to the bowl.
 S6: Whisk together the eggs and sugar (egg mixture).
 S7: Measure 1/8 teaspoon of baking powder and add it to the another bowl.
-S8: Measure 1/8 teaspoon of salt and add it to the bowl.
+S8: Measure 1/8 teaspoon of salt and add it.
 S9: Measure 1/8 cup of all-purpose flour and add it to the bowl.
 S10: Add the egg and chocolate mixtures to the bowl.
 S11: Measure 1/4 teaspoon of vanilla extract, add it to the bowl and stir the ingredients.
@@ -131,7 +131,7 @@ S1: Place tortilla on cutting board.
 S2: Use a butter knife to scoop nut butter from the jar. Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges.
 S3: Clean the knife by wiping it with a paper towel.
 S4: Use the knife to scoop jelly from the jar.  Spread jelly over the nut butter.
-S5: Clean the knife by it wiping with a paper towel.
+S5: Clean the knife by wiping it with a paper towel.
 S6: Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight that the filling leaks.
 S7: Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart.
 S8: Trim the ends of the tortilla roll with the butter knife, leaving ½ inch margin between the last toothpick and the end of the roll.  Discard ends.
@@ -142,7 +142,7 @@ S12: Continue slicing with floss to create 1 more pinwheel.
 S13: Continue slicing with floss to create 1 more pinwheel.
 S14: Place the pinwheels on a plate.
 GardenFreshSweetCornSalsa
-S1: Dice 1/4 cup Cilantro and add it to a bowl.
+S1: Dice 1/4 cup cilantro and add it to a bowl.
 S2: Peel 1 garlic clove.
 S3: Slice 1 garlic clove and add it to the bowl.
 S4: Slice 1 jalapeno and add it to the bowl.
@@ -152,7 +152,7 @@ S7: Slice 1/2 onion into pieces and add it to the bowl.
 S8: Rinse a tomato and gently dry with a towel.
 S9: Slice the tomato and chop it into small pieces and add it to a bowl.
 S10: Measure 1/4 teaspoon salt and add it to the bowl
-S11: Mix all the ingredients well.
+S11: Mix the contents thoroughly.
 TomatoBasilMozzarellaSalad
 S1: Rinse a tomato and gently dry with a towel.
 S2: Slice one tomato into about 1/2 inch thick slices.
@@ -175,7 +175,7 @@ ButterCornCup
 S1: Measure 2 cups of frozen corn.
 S2: Thaw the frozen corn by putting it in a sieve and running it under some cold water.
 S3: Add the thawed corn to the microwave-safe dish
-S4: Microwave the corn for 2 minutes.
+S4: Microwave for 2 minutes.
 S5: Add butter and pepper powder to the bowl and then stir.
 S6: Microwave the corn for 3 more minutes.
 S7: Add 1 teaspoon salt to the bowl.
@@ -201,7 +201,7 @@ S7: Melt the cheese by microwaving for 30 seconds
 S8: Mix the cheese, red bell pepper and add butter.
 S9: Add 1/2 teaspoon salt.
 S10: Add 1/2 teaspoon pepper.
-S11: Mix all the ingredients well.
+S11: Mix the contents thoroughly.
 BreakfastTaco
 S1: Peel one medium onion and cut it into two pieces.
 S2: Slice 1/2 onion into pieces and add it to the bowl.
@@ -227,7 +227,7 @@ S8: Cook in a microwave for 5 minutes or until brown.
 MicrowaveOmelet
 S1: Spray a microwave-safe glass pan with cooking spray.
 S2: Pour 1 egg in the bowl.
-S3: Slice 1/2 onion into small pieces and add it to the bowl.
+S3: Slice 1/2 onion CheesePimientoRecipe pieces and add it to the bowl.
 S4: Rinse a tomato and gently dry with a towel.
 S5: Slice the tomato and chop it into small pieces and add it to a bowl.
 S6: Extract the juice from 1/2 lemon and add it to the bowl.
@@ -240,14 +240,14 @@ S3: Add 1 teaspoon salt to the bowl.
 S4: Add 1 teaspoon pepper to the bowl.
 S5: Peel one medium onion and cut it into two pieces.
 S6: Slice 1/2 onion into pieces and add it to the bowl.
-S7: Mix all the ingredients well.
+S7: Mix the contents thoroughly.
 S8: Spread 1/4 of the chicken salad over a bread slice, and top with remaining toast slice.
 AppleCrispinMug
 S1: Combine butter and white sugar in a bowl using a spoon.
 S2: Add 2 table spoon flour to the bowl,
 S3: Add 2 table spoon oats to the bowl
 S4: Add 1/2 teaspoon salt.
-S5: Mix all the ingredients well.
+S5: Mix the contents thoroughly.
 S6: Spray oil on a microwave safe cup.
 S7: Flatten 1/2 the crumble mixture into the bottom to form a crust.
 S8: Microwave crust for 30 seconds on high.
@@ -261,30 +261,30 @@ S1: Chop an apple into pieces and add it to a microwave safe cup.
 S2: Add 1/2 cup water to the cup.
 S3: Add 1/2 cup quick oats to the cup
 S4: Add 3 teaspoons brown sugar to the cup
-S5: Mix all the ingredients well.
+S5: Mix the contents thoroughly.
 S6: Microwave for 2 minutes.
 SaucyMexicanEggs
-S1: Add salsa to a microwave safe bowl.
+S1: Add salsa to microwave safe bowl.
 S2: Microwave for 1 minute.
 S3: Pour contents of 1 egg on top of the salsa.
-S4: Sprinkle on the cheese,
-S5: cover and microwave for 3 to 4 minutes (or till eggs are done) on medium-low heat.
+S4: Sprinkle the cheese on top.
+S5: Cover and microwave for 3 to 4 minutes (or till eggs are done) on medium-low heat.
 CheesyEnglishStyleMuffinswithApple
 S1: Cut the english muffin into two pieces with a knife.
 S2: Place the english muffin inside a microwave and heat for 2 minutes.
 S3: Cut apples into thin slices.
 S4: Top one of the muffin half wih apple slices.
 S5: Sprinkle the cheese on top.
-S6: Microwave again for 2 minutes.
+S6: Microwave for 2 minutes.
 MakeAheadBreakfastBurritos
 S1: Extract the contents of an egg and add it to a microwave safe bowl.
 S2: Whisk the egg.
 S3: Microwave for 3 minutes stirring in between.
-S4: Add salsa to the bowl.
+S4: Add salsa to microwave safe bowl.
 S5: Add oregano to the bowl.
 S6: Add sweet and sour sauce to the bowl.
 S7: Mix the contents thoroughly.
-S8: Place tortillas on cutting board.
+S8: Place tortilla on cutting board.
 S9: Pour egg mixture on top of the tortilla
 S10: Sprinkle the cheese on top.
 S11: Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight that the filling leaks.
@@ -300,12 +300,12 @@ MicrowaveOatmealBars
 S1: Add 3 tablespoon oats to a large microwave safe bowl.
 S2: Add 2 teaspoon brown sugar to the bowl.
 S3: Add 1/2 tablespoon butter to the bowl.
-S4: Mix all the ingredients well.
+S4: Mix the contents thoroughly.
 S5: Microwave, uncovered, on high for 1.5 minutes.
 S6: Mix the contents thoroughly.
 S7: Microwave, uncovered, on high for 1.5 minutes.
 S8: Sprinkle with chocolate chips
-S9: Microwave for 1.5 minutes
+S9: Microwave, uncovered, on high for 1.5 minutes.
 S10: Spread the chocolate evenly over top.
 Microwave French Toast
 S1: In a large mug, melt the 1 teaspoon butter in the microwave for about 30 seconds.

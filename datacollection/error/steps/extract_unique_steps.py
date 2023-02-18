@@ -52,7 +52,7 @@ def detect_similar_steps(all_steps):
             classification_logits = model(**tokens)[0]
             results = torch.softmax(classification_logits, dim=1).tolist()[0]
             paraphrase_prob = results[1]
-            if paraphrase_prob > 0.80 and step_1 != step_2:
+            if paraphrase_prob > 0.9 and step_1 != step_2:
                 same_steps[idx1] = idx2
                 logger.info(f"{idx1} , {step_1}")
                 logger.info(f"{idx2} , {step_2}")
