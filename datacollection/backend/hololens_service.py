@@ -3,7 +3,6 @@ import multiprocessing as mp
 import os
 import pickle
 import re
-import socket
 import threading
 import time
 from fractions import Fraction
@@ -14,6 +13,7 @@ import numpy as np
 
 from datacollection.backend.Recording import Recording
 from datacollection.backend.constants import *
+from datacollection.backend.hololens_rest_api import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Created Hololens service file')
@@ -46,14 +46,12 @@ class HololensService:
         # print(os.system('arp -n ' + str(IP)))
         pid = Popen(["arp", "-n", ip_address], stdout=PIPE)
         s = pid.communicate()[0].decode("utf-8")
-        mac_address = re.search(r'(([a-f\d]{1,2}:){5}[a-f\d]{1,2})', s).groups()[0]
+        mac_address = None
+        mac_matches = re.search(r'(([a-f\d]{1,2}:){5}[a-f\d]{1,2})', s)
+        if mac_matches is not None:
+            mac_address = mac_matches.groups()[0]
 
-        def dns_ptr_lookup(addr):
-            try:
-                return socket.gethostbyaddr(addr)
-            except socket.herror:
-                return None, None, None
-        host_name = dns_ptr_lookup(ip_address)[0]
+        host_name = get_hostname(ip_address)
         logger.log(logging.INFO, f"Hololens2 ID: {host_name}")
         logger.log(logging.INFO, f"Hololens2 MAC: {mac_address}")
         return mac_address, host_name
@@ -140,7 +138,7 @@ class HololensService:
         if self.is_depth_decoded:
             depth_pose = []
             ahat_client = hl2ss.rx_decoded_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
-                                             AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
+                                                         AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
         else:
             depth_frames = []
             ahat_client = hl2ss.rx_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
@@ -218,7 +216,7 @@ class HololensService:
     def _init_params(self, rec: Recording):
         self.device_ip = rec.device_ip
         self.rec_id = f"{rec.activity}_{rec.place_id}_{rec.person_id}_{rec.rec_number}"
-        self.data_dir = "/home/ptg/CODE/data"
+        self.data_dir = "../../data"
         self.rec_data_dir = os.path.join(self.data_dir, self.rec_id)
         self.port_dir_map = {
             hl2ss.StreamPort.RM_VLC_LEFTFRONT: os.path.join(self.rec_data_dir, 'vlc_lf'),
