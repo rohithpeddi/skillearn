@@ -107,8 +107,8 @@ class MuxAudioVideo:
 				mc_frame_timestamp = int(mc_frame[0])
 				mc_frame_payload = mc_frame[1]
 
-				# if mc_frame_timestamp < self.tsfirst:
-				# 	continue
+				if self.tsfirst - mc_frame_timestamp > 1e4:
+					continue
 
 				for packet in self.codec_audio.parse(mc_frame_payload):
 					packet.stream = self.stream_audio
@@ -169,13 +169,13 @@ if __name__ == '__main__':
 
 	mav = MuxAudioVideo(data_parent_directory, recording_instance)
 	mav.start_muxing_sync()
-	print("Started Muxing")
-	sleep_min = 100
-	for min_done in range(sleep_min):
-		print("Minutes done {}".format(min_done))
-		time.sleep(60)
-		if not mav.rm_pv_enable:
-			break
+# print("Started Muxing")
+# sleep_min = 100
+# for min_done in range(sleep_min):
+# 	print("Minutes done {}".format(min_done))
+# 	time.sleep(60)
+# 	if not mav.rm_pv_enable:
+# 		break
 
 # mav.stop_recording()
 # print("Recording Stopped")
