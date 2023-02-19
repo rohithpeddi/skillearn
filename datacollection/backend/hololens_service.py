@@ -4,7 +4,6 @@ import os
 import pickle
 import re
 import threading
-import time
 from fractions import Fraction
 from subprocess import Popen, PIPE
 
@@ -400,17 +399,20 @@ class HololensService:
 
 
 if __name__ == '__main__':
+    ip_address = '10.176.205.151'
     hl2_service = HololensService()
-    rec = Recording("Coffee", "PL1", "P1", "R1", False)
-    rec.set_device_ip('192.168.0.117')
+    rec = Recording("Coffee", "PL1", "P1", "R2", False)
+    rec.set_device_ip(ip_address)
     rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
     rec_thread.start()
+    start_mrc(ip_address)
     print("Recording Started")
     sleep_min = 1
     for min_done in range(sleep_min):
         print("Minutes done {}".format(min_done))
-        time.sleep(60)
+        time.sleep(10)
 
     hl2_service.stop_recording()
+    stop_mrc(ip_address)
     print("Recording Stopped")
     rec_thread.join()

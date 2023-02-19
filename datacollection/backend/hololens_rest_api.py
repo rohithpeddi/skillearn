@@ -1,3 +1,5 @@
+import time
+
 import requests
 from requests.auth import HTTPBasicAuth
 
@@ -18,8 +20,8 @@ def send_rest_post_request(post_url, params=None):
     pass
 
 
-def send_rest_get_request(post_url, params=None):
-    response = requests.post(post_url, auth=auth)
+def send_rest_get_request(get_url, params=None):
+    response = requests.get(get_url, auth=auth)
     return response
 
 
@@ -49,8 +51,14 @@ def stop_mrc(ip_address):
 
 
 def main():
-    ip_address = '192.168.10.130'
-    get_hostname(ip_address)
+    ip_address = '10.176.205.151'
+    hostname = get_hostname(ip_address)
+    print(hostname)
+    start_mrc(ip_address)
+    print("Started Recording")
+    time.sleep(10)
+    stop_mrc(ip_address)
+    print("Stopped Recording")
 
 
 if __name__ == '__main__':
