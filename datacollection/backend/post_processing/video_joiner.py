@@ -45,11 +45,11 @@ class VideoJoiner:
 
 		self.video_directory = os.path.join(self.data_directory, "pv")
 
-		self.codec_video = av.CodecContext.create(hl2ss.get_video_codec_name(VIDEO_PROFILE), 'r')
+		self.codec_video = av.CodecContext.create(hl2ss.get_video_codec_name(VIDEO_PROFILE_DECODED), 'r')
 
 		self.video_name = f'{self.recording_id}_video.mp4'
 		self.container = av.open(self.video_name, 'w')
-		self.stream_video = self.container.add_stream(hl2ss.get_video_codec_name(VIDEO_PROFILE), rate=FRAMERATE)
+		self.stream_video = self.container.add_stream(hl2ss.get_video_codec_name(VIDEO_PROFILE_DECODED), rate=FRAMERATE)
 
 	def join_video(self):
 		frame_list = os.listdir(self.video_directory)

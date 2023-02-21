@@ -37,8 +37,8 @@ class HololensServiceTest:
     def _receive_pv(self):
         pv_port = hl2ss.StreamPort.PHOTO_VIDEO
         pv_client = hl2ss.rx_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
-                                        hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE,
-                                        VIDEO_BITRATE)
+								hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE_DECODED,
+								VIDEO_BITRATE)
         # pv_client = hl2ss.rx_decoded_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
         #                         hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE,
         #                         VIDEO_BITRATE, VIDEO_DECODE)

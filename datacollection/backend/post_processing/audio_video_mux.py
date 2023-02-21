@@ -55,12 +55,12 @@ class MuxAudioVideo:
 
 		self.container = av.open(f'{self.recording_id}.mp4', 'w')
 
-		self.stream_video = self.container.add_stream(hl2ss.get_video_codec_name(VIDEO_PROFILE), rate=FRAMERATE)
+		self.stream_video = self.container.add_stream(hl2ss.get_video_codec_name(VIDEO_PROFILE_DECODED), rate=FRAMERATE)
 		self.stream_audio = self.container.add_stream(hl2ss.get_audio_codec_name(AUDIO_PROFILE),
 													  rate=hl2ss.Parameters_MICROPHONE.SAMPLE_RATE)
 
 		self.codec_audio = av.CodecContext.create(hl2ss.get_audio_codec_name(AUDIO_PROFILE), 'r')
-		self.codec_video = av.CodecContext.create(hl2ss.get_video_codec_name(VIDEO_PROFILE), 'r')
+		self.codec_video = av.CodecContext.create(hl2ss.get_video_codec_name(VIDEO_PROFILE_DECODED), 'r')
 
 	def process_pv(self):
 		# 1. Fetch list of images in a directory

@@ -48,6 +48,15 @@ ACTIVITY_RECORD_ASYNC_OPERATION = "async_activity_record_operation"
 
 # -----------------------------------------------------------------------------------------------
 
+# PV CAMERA PARAMETERS
+PV_FRAME_WIDTH = 1280
+PV_FRAME_HEIGHT = 720
+PV_FRAMERATE = 30
+PV_VIDEO_PROFILE_DECODED = hl2ss.VideoProfile.H265_MAIN
+PV_VIDEO_PROFILE_RAW = hl2ss.VideoProfile.RAW
+PV_VIDEO_DECODE = 'bgr24'
+PV_VIDEO_BITRATE = 5 * 1024 * 1024
+
 # Camera parameters
 # See etc/hl2_capture_formats.txt for a list of supported formats.
 FRAME_WIDTH = 1280
@@ -55,7 +64,8 @@ FRAME_HEIGHT = 720
 FRAMERATE = 30
 
 # Video encoding profile
-VIDEO_PROFILE = hl2ss.VideoProfile.H265_MAIN
+VIDEO_PROFILE_DECODED = hl2ss.VideoProfile.H265_MAIN
+VIDEO_PROFILE_RAW = hl2ss.VideoProfile.RAW
 VIDEO_DECODE = 'bgr24'
 
 # Encoded video stream average bits per second

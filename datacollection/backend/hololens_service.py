@@ -39,41 +39,45 @@ class HololensService:
         self.is_vlc_decoded = True
         self.is_depth_decoded = True
 
-    @staticmethod
-    def get_mac_address_and_host_name(ip_address):
-        # do_ping(IP) - The time between ping and arp check must be small, as ARP may not cache long
-        # print(os.system('arp -n ' + str(IP)))
-        pid = Popen(["arp", "-n", ip_address], stdout=PIPE)
-        s = pid.communicate()[0].decode("utf-8")
-        mac_address = None
-        mac_matches = re.search(r'(([a-f\d]{1,2}:){5}[a-f\d]{1,2})', s)
-        if mac_matches is not None:
-            mac_address = mac_matches.groups()[0]
+    # @staticmethod
+    # def get_mac_address_and_host_name(ip_address):
+    #     # do_ping(IP) - The time between ping and arp check must be small, as ARP may not cache long
+    #     # print(os.system('arp -n ' + str(IP)))
+    #     pid = Popen(["arp", "-n", ip_address], stdout=PIPE)
+    #     s = pid.communicate()[0].decode("utf-8")
+    #     mac_address = None
+    #     mac_matches = re.search(r'(([a-f\d]{1,2}:){5}[a-f\d]{1,2})', s)
+    #     if mac_matches is not None:
+    #         mac_address = mac_matches.groups()[0]
+    #
+    #     host_name = get_hostname(ip_address)
+    #     logger.log(logging.INFO, f"Hololens2 ID: {host_name}")
+    #     logger.log(logging.INFO, f"Hololens2 MAC: {mac_address}")
+    #     return mac_address, host_name
+    #
+    # def save_hololens2_info(self, ip_address, folder_path):
+    #     # print(ip_address)
+    #     mac_address, host_name = self.get_mac_address_and_host_name(ip_address)
+    #     with open(os.path.join(folder_path, 'Hololens2Info.dat'), 'w+') as f:
+    #         f.write(f"Name: {host_name}\n")
+    #         f.write(f"MAC: {mac_address}")
 
-        host_name = get_hostname(ip_address)
-        logger.log(logging.INFO, f"Hololens2 ID: {host_name}")
-        logger.log(logging.INFO, f"Hololens2 MAC: {mac_address}")
-        return mac_address, host_name
-
-    def save_hololens2_info(self, ip_address, folder_path):
-        # print(ip_address)
-        mac_address, host_name = self.get_mac_address_and_host_name(ip_address)
-        with open(os.path.join(folder_path, 'Hololens2Info.dat'), 'w+') as f:
-            f.write(f"Name: {host_name}\n")
-            f.write(f"MAC: {mac_address}")
+    # TODO: Make a rest API call to fetch the name of the hololens
 
     def _receive_pv(self):
         pv_port = hl2ss.StreamPort.PHOTO_VIDEO
 
+        # TODO: Check the impact of each parameter here
         if self.is_pv_decoded:
             pv_client = hl2ss.rx_decoded_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
-                                            hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE,
-                                            VIDEO_PROFILE, VIDEO_BITRATE, VIDEO_DECODE)
+                                            hl2ss.StreamMode.MODE_1, PV_FRAME_WIDTH, PV_FRAME_HEIGHT, PV_FRAMERATE,
+                                            PV_VIDEO_PROFILE_DECODED, PV_VIDEO_BITRATE, PV_VIDEO_DECODE)
             pv_pose = []
         else:
+            # TODO: Instead of performing heavy operations, write get_next_packet() and dump the data into a file from here
             pv_client = hl2ss.rx_pv(self.device_ip, pv_port, hl2ss.ChunkSize.PHOTO_VIDEO,
-                                    hl2ss.StreamMode.MODE_1, FRAME_WIDTH, FRAME_HEIGHT, FRAMERATE, VIDEO_PROFILE,
-                                    VIDEO_BITRATE)
+                                    hl2ss.StreamMode.MODE_1, PV_FRAME_WIDTH, PV_FRAME_HEIGHT, PV_FRAMERATE, PV_VIDEO_PROFILE_DECODED,
+                                    PV_VIDEO_BITRATE)
             pv_frames = []
 
         pv_client.open()
@@ -85,6 +89,7 @@ class HololensService:
                 pv_pose.append([data.timestamp, data.pose])
                 self._write_frame_async(pv_port, data, self.async_storage_map[pv_port])
             else:
+                # TODO: Instead of performing heavy operations, write get_next_packet() and dump the data into a file from here
                 pv_frames.append([data.timestamp, data.payload, data.pose])
 
         if self.is_pv_decoded:
