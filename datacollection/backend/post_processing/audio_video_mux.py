@@ -65,8 +65,12 @@ class MuxAudioVideo:
 	def process_pv(self):
 		# 1. Fetch list of images in a directory
 		# 2. Loop through all images and store corresponding timestamps and encoded payload
+
+		frame_list = os.listdir(self.video_directory)
+		frame_list.sort(key=lambda x: int(((x[:-4]).split("_"))[-1]))
+
 		logger.log(logging.INFO, "Started Video Processing")
-		for frame_idx, pv_frame_name in enumerate(os.listdir(self.video_directory)):
+		for frame_idx, pv_frame_name in enumerate(frame_list):
 			pv_frame_path = os.path.join(self.video_directory, pv_frame_name)
 
 			pv_frame_array = cv2.imread(pv_frame_path)
@@ -162,13 +166,32 @@ class MuxAudioVideo:
 		pass
 
 
-if __name__ == '__main__':
-	recording_instance = Recording("MugPizza", "PL2", "P2", "R1", False)
-	data_parent_directory = "/mnt/d/DATA/COLLECTED/KITCHENS-101/"
-	recording_instance.set_device_ip('192.168.0.117')
+def mux_directory(data_directory):
 
-	mav = MuxAudioVideo(data_parent_directory, recording_instance)
-	mav.start_muxing_sync()
+	recipe_list = os.listdir(data_directory)
+	recipe_list.sort(key=lambda x: ((x.split("_"))[0]))
+
+	for recipe_name in recipe_list:
+		recording_arguments = recipe_name.split("_")
+		recording_instance = Recording(recording_arguments[0], recording_arguments[1], recording_arguments[2], recording_arguments[3], False)
+
+		logger.log(logging.INFO, f"Started synchronized audio-video muxing for recording {recording_arguments[0]}")
+
+		mav = MuxAudioVideo(data_directory, recording_instance)
+		mav.start_muxing_sync()
+
+
+if __name__ == '__main__':
+	# recording_instance = Recording("EggSandwich", "PL2", "P5", "R1", False)
+	# data_parent_directory = "/home/ptg/CODE/DATA/data_2022_02_11"
+	# recording_instance.set_device_ip('192.168.0.117')
+	#
+	# mav = MuxAudioVideo(data_parent_directory, recording_instance)
+	# mav.start_muxing_sync()
+
+	data_parent_directory = "/home/ptg/CODE/DATA/data_2022_02_11"
+	mux_directory(data_parent_directory)
+
 # print("Started Muxing")
 # sleep_min = 100
 # for min_done in range(sleep_min):
