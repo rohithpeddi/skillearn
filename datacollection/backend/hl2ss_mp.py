@@ -1,6 +1,6 @@
 
 import multiprocessing as mp
-import datacollection.backend.hl2ss as hl2ss
+import hl2ss
 
 
 #------------------------------------------------------------------------------
@@ -12,7 +12,7 @@ class _RingBuffer:
     Idea: https://www.oreilly.com/library/view/python-cookbook/0596001673/ch05s19.html
     """
 
-    def __init__(self, size_max=50000):
+    def __init__(self, size_max = 64):
         self.max = size_max
         self.data = []
 

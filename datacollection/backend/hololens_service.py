@@ -289,7 +289,7 @@ class HololensService:
             logger.log(logging.ERROR, str(e))
 
         # Start PV
-        self.client_rc = hl2ss.tx_rc(self.device_ip, hl2ss.IPCPort.REMOTE_CONFIGURATION)
+        self.client_rc = hl2ss.ipc_rc(self.device_ip, hl2ss.IPCPort.REMOTE_CONFIGURATION)
         hl2ss.start_subsystem_pv(self.device_ip, hl2ss.StreamPort.PHOTO_VIDEO)
         self.client_rc.wait_for_pv_subsystem(True)
 
@@ -399,13 +399,16 @@ class HololensService:
 
 
 if __name__ == '__main__':
-    ip_address = '10.176.205.151'
+    ip_address = '10.176.198.58'
     hl2_service = HololensService()
     rec = Recording("Coffee", "PL1", "P1", "R2", False)
     rec.set_device_ip(ip_address)
     rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
     rec_thread.start()
     start_mrc(ip_address)
+    client = hl2ss.ipc_rc(ip_address, hl2ss.IPCPort.REMOTE_CONFIGURATION)
+    utc_offset = client.get_utc_offset(32)
+    print('QPC timestamp to UTC offset is {offset} hundreds of nanoseconds'.format(offset=utc_offset))
     print("Recording Started")
     sleep_min = 1
     for min_done in range(sleep_min):
