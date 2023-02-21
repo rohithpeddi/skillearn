@@ -69,6 +69,33 @@ class AudioJoiner:
 					self.container.mux(packet)
 		self.container.close()
 
+	def save_multiple(self, start_timestamp, end_timestamp):
+
+		audio_name = f'{start_timestamp}_{end_timestamp}.mp4'
+		audio_file_path = os.path.join(self.audio_directory, audio_name)
+		container = av.open(audio_file_path, 'w')
+		stream_audio = container.add_stream(hl2ss.get_audio_codec_name(AUDIO_PROFILE),
+											rate=hl2ss.Parameters_MICROPHONE.SAMPLE_RATE)
+		codec_audio = av.CodecContext.create(hl2ss.get_audio_codec_name(AUDIO_PROFILE), 'r')
+
+		with open(self.audio_file_path, 'rb') as mc_file:
+			mc_frame_list = pickle.load(mc_file)
+			for frame in mc_frame_list:
+				timestamp = int(frame[0])
+
+				if timestamp < start_timestamp or timestamp > end_timestamp:
+					continue
+
+				if self.tsfirst is None:
+					self.tsfirst = timestamp
+				for packet in codec_audio.parse(frame[1]):
+					packet.stream = stream_audio
+					packet.pts = timestamp - self.tsfirst
+					packet.dts = packet.pts
+					packet.time_base = self.time_base
+					container.mux(packet)
+		container.close()
+
 
 if __name__ == '__main__':
 	recording_instance = Recording("MugPizza", "PL2", "P2", "R1", False)
@@ -76,5 +103,5 @@ if __name__ == '__main__':
 	recording_instance.set_device_ip('192.168.0.117')
 
 	audio_joiner = AudioJoiner(data_parent_directory, recording_instance)
-	audio_joiner.join_audio()
-
+	# audio_joiner.join_audio()
+	audio_joiner.save_multiple(199583000000, 199588000000)

@@ -133,3 +133,20 @@ MC_PROFILE = hl2ss.AudioProfile.AAC_24000
 
 # IMU Parameters
 IMU_MODE = hl2ss.StreamMode.MODE_1
+
+# ---------------------------------------------------------------------------------------------------------
+# VERIFICATION PROPERTIES
+# ---------------------------------------------------------------------------------------------------------
+
+# Buffer length in seconds
+BUFFER_LENGTH = 10
+
+# Integration parameters
+VOXEL_LENGTH = 1/100
+SDF_TRUNC = 0.04
+MAX_DEPTH = 3.0
+
+PV_FOCUS = 1000
+
+
+

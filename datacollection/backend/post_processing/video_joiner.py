@@ -52,7 +52,10 @@ class VideoJoiner:
 		self.stream_video = self.container.add_stream(hl2ss.get_video_codec_name(VIDEO_PROFILE), rate=FRAMERATE)
 
 	def join_video(self):
-		for frame_ix, pv_frame_name in enumerate(os.listdir(self.video_directory)):
+		frame_list = os.listdir(self.video_directory)
+		frame_list.sort(key=lambda x: int(((x[:-4]).split("_"))[-1]))
+
+		for frame_ix, pv_frame_name in enumerate(frame_list):
 			pv_frame_path = os.path.join(self.video_directory, pv_frame_name)
 
 			pv_frame_array = cv2.imread(pv_frame_path)
