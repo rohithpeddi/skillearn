@@ -81,8 +81,8 @@ class VideoJoiner:
 
 
 if __name__ == '__main__':
-	recording_instance = Recording("MugPizza", "PL2", "P2", "R1", False)
-	data_parent_directory = "/mnt/d/DATA/COLLECTED/KITCHENS-101/"
+	recording_instance = Recording("EggSandwich", "PL2", "P5", "R1", False)
+	data_parent_directory = "/home/ptg/CODE/DATA/data_2022_02_11"
 	recording_instance.set_device_ip('192.168.0.117')
 
 	video_joiner = VideoJoiner(data_parent_directory, recording_instance)
