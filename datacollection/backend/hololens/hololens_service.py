@@ -109,7 +109,7 @@ class FileWriter:
 
 class Consumer:
 	
-	def __init__(self, redis_pool, recording, port_to_stream, active_streams, port_to_dir, port_to_writer):
+	def __init__(self, redis_pool, recording, port_to_stream, active_streams, port_to_dir):
 		self.redis_pool = redis_pool
 		self.redis_pool = redis_pool
 		self.recording = recording
@@ -117,7 +117,6 @@ class Consumer:
 		self.port_to_stream = port_to_stream
 		self.active_streams = active_streams
 		self.port_to_dir = port_to_dir
-		self.port_to_writer = port_to_writer
 		
 		self.store_frame_as_binary = False
 		self.enable_streams = True
@@ -125,13 +124,13 @@ class Consumer:
 	
 	def _process_stream_data(self, stream_port, stream_data, **kwargs):
 		if stream_port == StreamPort.PHOTO_VIDEO:
-			kwargs[PV_WRITER].write(stream_data)
+			kwargs[PHOTOVIDEO].write(stream_data)
 		elif stream_port == StreamPort.RM_DEPTH_AHAT:
-			kwargs[DEPTH_AHAT_WRITER].write(stream_data)
+			kwargs[DEPTH_AHAT].write(stream_data)
 		elif stream_port == StreamPort.MICROPHONE:
-			kwargs[MICROPHONE_WRITER].write(stream_data)
+			kwargs[MICROPHONE].write(stream_data)
 		elif stream_port == StreamPort.SPATIAL_INPUT:
-			kwargs[SPATIAL_WRITER].write(stream_data)
+			kwargs[SPATIAL].write(stream_data)
 	
 	def _process_stream(self, stream_port):
 		logger.log(logging.INFO,
@@ -146,7 +145,7 @@ class Consumer:
 		                                f'{self.recording.get_recording_id()}_{self.port_to_stream[stream_port]}.bin')
 		stream_writer = FileWriter(stream_file_path)
 		kwargs = {
-			self.port_to_writer[stream_port]: stream_writer
+			self.port_to_stream[stream_port]: stream_writer
 		}
 		
 		while True:
@@ -191,12 +190,12 @@ class HololensService:
 	
 	def __init__(self):
 		self.rm_enable = True
-		self._recording = True
+		self.is_recording = True
 		self.lock = threading.Lock()
 		
 		self.redis_pool = redis.ConnectionPool(host=REDIS_HOST, port=REDIS_PORT, max_connections=REDIS_MAX_CONNECTIONS)
 	
-	def _init_params(self, recording: Recording):
+	def _init_params(self, recording: Recording, active_streams):
 		self.recording = recording
 		self.device_ip = self.recording.device_ip
 		self.device_name = get_hostname(self.device_ip)
@@ -204,50 +203,60 @@ class HololensService:
 		self.data_dir = "../../../data"
 		self.rec_data_dir = os.path.join(self.data_dir, self.recording.get_recording_id())
 		self.port_to_dir = {
+			StreamPort.PHOTO_VIDEO: os.path.join(self.rec_data_dir, PHOTOVIDEO),
+			StreamPort.MICROPHONE: os.path.join(self.rec_data_dir, MICROPHONE),
 			StreamPort.RM_DEPTH_AHAT: {
-				'ab': os.path.join(self.rec_data_dir, 'dep_ahat_ab'),
-				'depth': os.path.join(self.rec_data_dir, 'dep_ahat_depth'),
+				'ab': os.path.join(self.rec_data_dir, DEPTH_AHAT_AB),
+				'depth': os.path.join(self.rec_data_dir, DEPTH_AHAT_DEPTH),
 			},
-			StreamPort.PHOTO_VIDEO: os.path.join(self.rec_data_dir, 'pv'),
-			StreamPort.MICROPHONE: os.path.join(self.rec_data_dir, 'mc'),
-			StreamPort.SPATIAL_INPUT: os.path.join(self.rec_data_dir, 'spatial'),
-			StreamPort.RM_IMU_ACCELEROMETER: os.path.join(self.rec_data_dir, 'imu_acc'),
-			StreamPort.RM_IMU_GYROSCOPE: os.path.join(self.rec_data_dir, 'imu_gyro'),
-			StreamPort.RM_IMU_MAGNETOMETER: os.path.join(self.rec_data_dir, 'imu_mag'),
+			StreamPort.SPATIAL_INPUT: os.path.join(self.rec_data_dir, SPATIAL),
+			StreamPort.RM_IMU_ACCELEROMETER: os.path.join(self.rec_data_dir, IMU_ACCELEROMETER),
+			StreamPort.RM_IMU_GYROSCOPE: os.path.join(self.rec_data_dir, IMU_GYROSCOPE),
+			StreamPort.RM_IMU_MAGNETOMETER: os.path.join(self.rec_data_dir, IMU_MAGNETOMETER),
+			StreamPort.RM_VLC_LEFTFRONT: os.path.join(self.rec_data_dir, VLC_LEFTFRONT),
+			StreamPort.RM_VLC_LEFTLEFT: os.path.join(self.rec_data_dir, VLC_LEFTLEFT),
+			StreamPort.RM_VLC_RIGHTFRONT: os.path.join(self.rec_data_dir, VLC_RIGHTFRONT),
+			StreamPort.RM_VLC_RIGHTRIGHT: os.path.join(self.rec_data_dir, VLC_RIGHTRIGHT),
+			hl2ss.StreamPort.RM_DEPTH_LONGTHROW: {
+				'ab': os.path.join(self.rec_data_dir, DEPTH_LT_AB),
+				'depth': os.path.join(self.rec_data_dir, DEPTH_LT_DEPTH),
+			}
 		}
 		
 		self.port_to_stream = {
-			StreamPort.RM_DEPTH_AHAT: "depth",
-			StreamPort.PHOTO_VIDEO: "pv",
-			StreamPort.MICROPHONE: "mc",
-			StreamPort.SPATIAL_INPUT: "si",
+			StreamPort.RM_DEPTH_AHAT: DEPTH_AHAT,
+			StreamPort.PHOTO_VIDEO: PHOTOVIDEO,
+			StreamPort.MICROPHONE: MICROPHONE,
+			StreamPort.SPATIAL_INPUT: SPATIAL,
+			StreamPort.RM_DEPTH_LONGTHROW: DEPTH_LT,
+			StreamPort.RM_IMU_MAGNETOMETER: IMU_MAGNETOMETER,
+			StreamPort.RM_IMU_GYROSCOPE: IMU_GYROSCOPE,
+			StreamPort.RM_IMU_ACCELEROMETER: IMU_ACCELEROMETER,
+			StreamPort.RM_VLC_LEFTLEFT: VLC_LEFTLEFT,
+			StreamPort.RM_VLC_LEFTFRONT: VLC_LEFTFRONT,
+			StreamPort.RM_VLC_RIGHTRIGHT: VLC_RIGHTRIGHT,
+			StreamPort.RM_VLC_RIGHTFRONT: VLC_RIGHTFRONT
 		}
 		
-		self.active_streams = [StreamPort.RM_DEPTH_AHAT, StreamPort.PHOTO_VIDEO, StreamPort.MICROPHONE,
-		                       StreamPort.SPATIAL_INPUT]
+		self.active_streams = active_streams
 		
 		for port in self.active_streams:
-			if port == StreamPort.RM_DEPTH_AHAT:
+			if port == StreamPort.RM_DEPTH_AHAT or port == hl2ss.StreamPort.RM_DEPTH_LONGTHROW:
 				create_directories(self.port_to_dir[port]['ab'])
 				create_directories(self.port_to_dir[port]['depth'])
 			else:
 				create_directories(self.port_to_dir[port])
-		
-		# Start PV
-		self.client_rc = ipc_rc(self.device_ip, IPCPort.REMOTE_CONFIGURATION)
-		start_subsystem_pv(self.device_ip, StreamPort.PHOTO_VIDEO)
-		self.client_rc.wait_for_pv_subsystem(True)
 	
-	def _start_record_sensor_streams(self, recording_instance: Recording):
+	def _start_record_sensor_streams(self, recording_instance: Recording, active_streams: list):
 		# Initialize all Parameters, Producers, Consumers, Display Map, Writer Map
 		logger.log(logging.INFO, "Initializing parameters")
-		self._init_params(recording_instance)
+		self._init_params(recording_instance, active_streams)
 		
 		self.producer = Producer(self.redis_pool, self.recording, self.port_to_stream, self.active_streams)
 		self.producer.start_processing_streams()
 		
 		self.consumer = Consumer(self.redis_pool, self.recording, self.port_to_stream, self.active_streams,
-		                         self.port_to_dir, self.port_to_writer)
+		                         self.port_to_dir)
 		self.consumer.start_processing_streams()
 		
 		while self.rm_enable:
@@ -260,46 +269,70 @@ class HololensService:
 		self.producer.stop_processing_streams()
 		self.consumer.stop_processing_streams()
 		
-		# Stopping PV systems
-		hl2ss.stop_subsystem_pv(self.device_ip, hl2ss.StreamPort.PHOTO_VIDEO)
-		self.client_rc.wait_for_pv_subsystem(False)
-		
 		logger.log(logging.INFO, "Stopped all systems")
 	
-	def start_recording(self, recording_instance: Recording):
-		if self._recording:
+	def start_recording(self, recording: Recording, active_streams, is_mrc):
+		if self.is_recording:
 			logger.log(logging.INFO, "Already a process is recording videos")
 			return
 		logger.log(logging.INFO, "Starting a process to record videos")
-		self._recording = True
-		self._start_record_sensor_streams(recording_instance)
+		self.is_recording = True
+		self._start_record_sensor_streams(recording, active_streams)
+		
+		if is_mrc:
+			client = hl2ss.ipc_rc(ip_address, hl2ss.IPCPort.REMOTE_CONFIGURATION)
+			utc_offset = client.get_utc_offset(32)
+			print('QPC timestamp to UTC offset is {offset} hundreds of nanoseconds'.format(offset=utc_offset))
+			start_mrc(self.recording.device_ip)
 	
-	def stop_recording(self):
-		if not self._recording:
+	def stop_recording(self, is_mrc):
+		if not self.is_recording:
 			print("Not recording")
 			return
-		self._recording = False
+		self.is_recording = False
 		self._stop_record_sensor_streams()
+		
+		if is_mrc:
+			stop_mrc(self.recording.device_ip)
 
 
-if __name__ == '__main__':
-	ip_address = '10.176.198.58'
-	hl2_service = HololensService()
-	rec = Recording("Coffee", "PL1", "P1", "R2", False)
-	rec.set_device_ip(ip_address)
-	rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
+def record_all_streams(hololens_service: HololensService, recording: Recording):
+	active_streams = [StreamPort.RM_DEPTH_AHAT, StreamPort.PHOTO_VIDEO, StreamPort.MICROPHONE,
+	                  StreamPort.SPATIAL_INPUT]
+	
+	rec_thread = threading.Thread(target=hololens_service.start_recording, args=(recording, active_streams, False))
 	rec_thread.start()
-	start_mrc(ip_address)
-	client = hl2ss.ipc_rc(ip_address, hl2ss.IPCPort.REMOTE_CONFIGURATION)
-	utc_offset = client.get_utc_offset(32)
-	print('QPC timestamp to UTC offset is {offset} hundreds of nanoseconds'.format(offset=utc_offset))
+	
 	print("Recording Started")
 	sleep_min = 1
 	for min_done in range(sleep_min):
 		print("Minutes done {}".format(min_done))
 		time.sleep(10)
 	
-	hl2_service.stop_recording()
-	stop_mrc(ip_address)
-	print("Recording Stopped")
+	hololens_service.stop_recording()
 	rec_thread.join()
+
+
+def record_mixed_streams(hololens_service: HololensService, recording: Recording):
+	active_streams = [StreamPort.RM_DEPTH_AHAT, StreamPort.SPATIAL_INPUT]
+	
+	rec_thread = threading.Thread(target=hololens_service.start_recording, args=(recording, active_streams, True))
+	rec_thread.start()
+	
+	print("Recording Started")
+	sleep_min = 1
+	for min_done in range(sleep_min):
+		print("Minutes done {}".format(min_done))
+		time.sleep(10)
+	
+	hololens_service.stop_recording()
+	rec_thread.join()
+
+
+if __name__ == '__main__':
+	ip_address = '10.176.198.58'
+	hl2_service = HololensService()
+	recording_instance = Recording("Coffee", "PL1", "P1", "R2", False)
+	recording_instance.set_device_ip(ip_address)
+	
+	record_all_streams(hl2_service, recording_instance)
