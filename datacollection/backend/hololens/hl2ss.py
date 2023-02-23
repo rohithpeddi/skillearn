@@ -662,6 +662,9 @@ class rx_rm_depth_ahat(_context_manager):
 
 	def get_next_packet(self):
 		return self._client.get_next_packet()
+	
+	def get_next_packet_packed(self):
+		return self._client.get_next_packet_packed()
 
 	def close(self):
 		self._client.close()
@@ -720,6 +723,9 @@ class rx_pv(_context_manager):
 
 	def get_next_packet(self):
 		return self._client.get_next_packet()
+	
+	def get_next_packet_packed(self):
+		return self._client.get_next_packet_packed()
 
 	def close(self):
 		self._client.close()
@@ -738,6 +744,9 @@ class rx_microphone(_context_manager):
 
 	def get_next_packet(self):
 		return self._client.get_next_packet()
+	
+	def get_next_packet_packed(self):
+		return self._client.get_next_packet_packed()
 
 	def close(self):
 		self._client.close()
@@ -755,7 +764,10 @@ class rx_si(_context_manager):
 
 	def get_next_packet(self):
 		return self._client.get_next_packet()
-
+	
+	def get_next_packet_packed(self):
+		return self._client.get_next_packet_packed()
+	
 	def close(self):
 		self._client.close()
 
@@ -1951,6 +1963,16 @@ class _rs_gatherer:
 			else:
 				aliased_index, data = self._fetch()
 		return unpack_packet(data)
+	
+	# Unpacking of the data can be performed while post-processing
+	def get_next_packet_packed(self):
+		aliased_index, data = self._fetch()
+		while (not self._genlock):
+			if (aliased_index == 0):
+				self._genlock = True
+			else:
+				aliased_index, data = self._fetch()
+		return data
 
 	def close(self):
 		self._client.close()

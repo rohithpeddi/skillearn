@@ -1,5 +1,18 @@
 # skillearn
 
+### Redis
+#### Ubuntu
+- sudo apt-get update
+- sudo apt-get install redis-server
+- sudo systemctl start redis-server
+- sudo systemctl status redis-server
+
+#### Windows
+- Setup docker 
+- docker pull redis
+- docker run --name=redis-devel --publish=6379:6379 --hostname=redis --restart=on-failure --detach redis:latest
+
+
 ### Frontend
 ##### Install 
 - git clone https://github.com/rohithpeddi/skillearn.git
