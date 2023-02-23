@@ -4,6 +4,7 @@ import os
 import pickle
 import re
 import threading
+import time
 from fractions import Fraction
 from subprocess import Popen, PIPE
 
@@ -12,7 +13,7 @@ import numpy as np
 
 from datacollection.backend.Recording import Recording
 from datacollection.backend.constants import *
-from datacollection.backend.hololens_rest_api import *
+from datacollection.backend.hololens_rest_api import HL2_REST_Controller
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Created Hololens service file')
@@ -50,7 +51,7 @@ class HololensService:
         if mac_matches is not None:
             mac_address = mac_matches.groups()[0]
 
-        host_name = get_hostname(ip_address)
+        host_name = HL2_REST_Controller(ip_address).get_hostname()
         logger.log(logging.INFO, f"Hololens2 ID: {host_name}")
         logger.log(logging.INFO, f"Hololens2 MAC: {mac_address}")
         return mac_address, host_name
@@ -401,21 +402,24 @@ class HololensService:
 if __name__ == '__main__':
     ip_address = '10.176.198.58'
     hl2_service = HololensService()
+    hl2_rest_controller = HL2_REST_Controller(ip_address)
     rec = Recording("Coffee", "PL1", "P1", "R2", False)
     rec.set_device_ip(ip_address)
-    rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
-    rec_thread.start()
-    start_mrc(ip_address)
+
     client = hl2ss.ipc_rc(ip_address, hl2ss.IPCPort.REMOTE_CONFIGURATION)
     utc_offset = client.get_utc_offset(32)
     print('QPC timestamp to UTC offset is {offset} hundreds of nanoseconds'.format(offset=utc_offset))
+
+    # For Recording the Hololens2 Sensor data
+    rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
+    rec_thread.start()
+    hl2_rest_controller.start_mrc()
     print("Recording Started")
     sleep_min = 1
     for min_done in range(sleep_min):
         print("Minutes done {}".format(min_done))
         time.sleep(10)
-
     hl2_service.stop_recording()
-    stop_mrc(ip_address)
+    hl2_rest_controller.stop_mrc()
     print("Recording Stopped")
     rec_thread.join()

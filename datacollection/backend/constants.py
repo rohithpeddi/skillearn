@@ -89,8 +89,8 @@ PORTS = [
     hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
     hl2ss.StreamPort.RM_DEPTH_AHAT,
     # hl2ss.StreamPort.RM_DEPTH_LONGTHROW,
-    hl2ss.StreamPort.PHOTO_VIDEO,
-    hl2ss.StreamPort.MICROPHONE,
+    # hl2ss.StreamPort.PHOTO_VIDEO,
+    # hl2ss.StreamPort.MICROPHONE,
     hl2ss.StreamPort.SPATIAL_INPUT,
     hl2ss.StreamPort.RM_IMU_ACCELEROMETER,
     hl2ss.StreamPort.RM_IMU_GYROSCOPE,
@@ -124,7 +124,7 @@ PV_BITRATE = 5 * 1024 * 1024
 PV_FORMAT = 'bgr24'
 
 # VLC Parameters
-VLC_FPS = 15
+VLC_FPS = 30
 VLC_WIDTH = 640
 VLC_HEIGHT = 480
 
