@@ -2,6 +2,7 @@ import logging
 import os
 import threading
 
+import numpy as np
 import redis
 
 from datacollection.backend.Recording import Recording
@@ -70,11 +71,13 @@ class Producer:
 		logger.log(logging.INFO, f"Created stream client for {self.port_to_stream[stream_port]}")
 		
 		# Create a redis client and push the stream data to the queue named stream_port continuously
-		stream_redis_client = redis.Redis(self.redis_pool)
+		stream_redis_client = redis.Redis(connection_pool=self.redis_pool)
+		
+		stream_queue_name = self.port_to_stream[stream_port]
 		
 		while self.enable_streams:
-			stream_data = stream_client.get_next_packet_packed()
-			stream_redis_client.lpush(stream_port, stream_data)
+			stream_data = stream_client.get_next_packet()
+			stream_redis_client.lpush(stream_queue_name, bytes(pack_packet(stream_data)))
 		
 		logger.log(logging.INFO, f"Closing stream client for {self.port_to_stream[stream_port]}")
 		
@@ -123,43 +126,118 @@ class Consumer:
 		self.stream_threads = []
 	
 	def _process_stream_data(self, stream_port, stream_data, **kwargs):
+		# Unpack the raw data
+		# This packet has timestamp, payload and necessary pose information
+		stream_packet = unpack_packet(stream_data)
+		stream_name = self.port_to_stream[stream_port]
+		stream_directory = self.port_to_dir[stream_port]
 		if stream_port == StreamPort.PHOTO_VIDEO:
-			kwargs[PHOTOVIDEO].write(stream_data)
+			# Here we need to save
+			# 1. Pose information
+			np.savez(os.path.join(stream_directory, kwargs[PV_POSE_FILE_NAME]), stream_packet.pose)
+			
+			# 2. PV payload information - decoded
+			pv_file_name = f'{self.recording.get_recording_id()}_{stream_name}_{stream_packet.timestamp}.jpg'
+			pv_file_path = os.path.join(kwargs[PV_DATA_DIRECTORY], pv_file_name)
+			
+			frame_nv12 = np.frombuffer(stream_packet.payload, dtype=np.uint8,
+			                           count=int((PV_STRIDE * PV_FRAME_HEIGHT * 3) / 2)).reshape(
+				(int(PV_FRAME_HEIGHT * 3 / 2), PV_STRIDE))
+			frame_bgr = cv2.cvtColor(frame_nv12[:, :PV_FRAME_WIDTH], cv2.COLOR_YUV2BGR_NV12)
+			
+			cv2.imwrite(pv_file_path, frame_bgr)
 		elif stream_port == StreamPort.RM_DEPTH_AHAT:
-			kwargs[DEPTH_AHAT].write(stream_data)
+			# Here we need to save
+			# 1. Pose information
+			np.savez(os.path.join(stream_directory, kwargs[DEPTH_AHAT_POSE_FILE_NAME]), stream_packet.pose)
+			
+			# 2. AHAT AB information
+			ab_file_name = f'{self.recording.get_recording_id()}_{stream_name}_{stream_packet.timestamp}_ab.png'
+			ab_file_path = os.path.join(kwargs[DEPTH_AHAT_AB_DATA_DIRECTORY], ab_file_name)
+			
+			ab_data = np.frombuffer(stream_packet.payload, dtype=np.uint16,
+			                        offset=Parameters_RM_DEPTH_AHAT.PIXELS * hl2ss._SIZEOF.WORD,
+			                        count=Parameters_RM_DEPTH_AHAT.PIXELS).reshape(Parameters_RM_DEPTH_AHAT.SHAPE)
+			frame_ab = cv2.convertScaleAbs(ab_data.astype(np.uint16), alpha=(255.0/np.amax(ab_data)))
+			
+			cv2.imwrite(ab_file_path, frame_ab)
+			
+			# 3. AHAT depth information
+			depth_file_name = f'{self.recording.get_recording_id()}_{stream_name}_{stream_packet.timestamp}_depth.png'
+			depth_file_path = os.path.join(kwargs[DEPTH_AHAT_AB_DATA_DIRECTORY], depth_file_name)
+			
+			depth_data = np.frombuffer(stream_packet.payload, dtype=np.uint16,
+			                           count=Parameters_RM_DEPTH_AHAT.PIXELS).reshape(
+				Parameters_RM_DEPTH_AHAT.SHAPE)
+			frame_depth = cv2.convertScaleAbs(depth_data.astype(np.uint16), alpha=(255.0/np.amax(depth_data)))
+			
+			cv2.imwrite(depth_file_path, frame_depth)
 		elif stream_port == StreamPort.MICROPHONE:
-			kwargs[MICROPHONE].write(stream_data)
+			kwargs[MICROPHONE_DATA_WRITER].write(stream_packet)
 		elif stream_port == StreamPort.SPATIAL_INPUT:
-			kwargs[SPATIAL].write(stream_data)
+			kwargs[SPATIAL_DATA_WRITER].write(stream_data)
+	
+	def _fetch_stream_kwargs(self, stream_port):
+		stream_directory = self.port_to_dir[stream_port]
+		stream_name = self.port_to_stream[stream_port]
+		kwargs = {}
+		if stream_port == StreamPort.PHOTO_VIDEO:
+			# Here we need to save
+			# 1. Pose information
+			# 2. PV payload information
+			kwargs[PV_POSE_FILE_NAME] = f'{self.recording.get_recording_id()}_{stream_name}_pose'
+			kwargs[PV_DATA_DIRECTORY] = stream_directory
+		elif stream_port == StreamPort.RM_DEPTH_AHAT:
+			# Here we need to save
+			# 1. Pose information
+			# 2. AHAT AB information
+			# 3. AHAT depth information
+			kwargs[DEPTH_AHAT_POSE_FILE_NAME] = f'{self.recording.get_recording_id()}_{stream_name}_pose'
+			kwargs[DEPTH_AHAT_AB_DATA_DIRECTORY] = os.path.join(stream_directory, "ab")
+			kwargs[DEPTH_AHAT_DEPTH_DATA_DIRECTORY] = os.path.join(stream_directory, "depth")
+		elif stream_port == StreamPort.MICROPHONE:
+			# Here we need to save
+			# 1. Dump of the microphone data into a bin file
+			stream_file_path = os.path.join(stream_directory, f'{self.recording.get_recording_id()}_{stream_name}.bin')
+			kwargs[MICROPHONE_DATA_WRITER] = FileWriter(stream_file_path)
+		elif stream_port == StreamPort.SPATIAL_INPUT:
+			# Here we need to save
+			# 1. Dump of the spatial data into a bin file
+			stream_file_path = os.path.join(stream_directory, f'{self.recording.get_recording_id()}_{stream_name}.bin')
+			kwargs[SPATIAL_DATA_WRITER] = FileWriter(stream_file_path)
+		
+		return kwargs
+	
+	def _close_stream_writers(self, stream_port, kwargs):
+		if stream_port == StreamPort.MICROPHONE:
+			kwargs[MICROPHONE_DATA_WRITER].close()
+		elif stream_port == StreamPort.SPATIAL_INPUT:
+			kwargs[SPATIAL_DATA_WRITER].close()
 	
 	def _process_stream(self, stream_port):
-		logger.log(logging.INFO,
-		           f"Configuring {self.port_to_stream[stream_port]} Consumer for recording {self.recording.__str__()}")
+		stream_name = self.port_to_stream[stream_port]
+		
+		logger.log(logging.INFO, f"Configuring {stream_name} Consumer for recording {self.recording.__str__()}")
 		
 		# Create a redis client and push the stream data to the queue named stream_port continuously
-		stream_redis_client = redis.Redis(self.redis_pool)
+		stream_redis_client = redis.Redis(connection_pool=self.redis_pool)
 		done_processing = False
 		
-		# Filewriter function that dumps the raw data available into a file named after the recording
-		stream_file_path = os.path.join(self.port_to_dir[stream_port],
-		                                f'{self.recording.get_recording_id()}_{self.port_to_stream[stream_port]}.bin')
-		stream_writer = FileWriter(stream_file_path)
-		kwargs = {
-			self.port_to_stream[stream_port]: stream_writer
-		}
+		kwargs = self._fetch_stream_kwargs(stream_port)
 		
 		while True:
-			stream_data = stream_redis_client.brpop(stream_port, timeout=3)
+			stream_data = stream_redis_client.brpop([stream_name], timeout=3)
 			
 			if stream_data is None:
 				# Finished processing of the streams
 				if not self.enable_streams:
 					done_processing = True
 					logger.log(logging.INFO,
-					           f"Finished {self.port_to_stream[stream_port]} Consumer processing for recording {self.recording.__str__()}")
+					           f"Finished {stream_name} Consumer processing for recording {self.recording.__str__()}")
 				break
 			else:
-				self._process_stream_data(stream_port, stream_data, **kwargs)
+				# Convert the bytes received from stream data into byte array
+				self._process_stream_data(stream_port, bytearray(stream_data[1]), **kwargs)
 		
 		if not done_processing:
 			# Might be a temporary hold on the data, can come back in sometime
@@ -168,7 +246,7 @@ class Consumer:
 			           f"Reached Timeout {self.port_to_stream[stream_port]} Consumer but stream data is not yet done, so initialized processing again")
 			self._process_stream(stream_port)
 		else:
-			stream_writer.close()
+			self._close_stream_writers(stream_port, kwargs)
 			return
 	
 	def start_processing_streams(self):
@@ -190,10 +268,14 @@ class HololensService:
 	
 	def __init__(self):
 		self.rm_enable = True
-		self.is_recording = True
+		self.is_recording = False
 		self.lock = threading.Lock()
 		
-		self.redis_pool = redis.ConnectionPool(host=REDIS_HOST, port=REDIS_PORT, max_connections=REDIS_MAX_CONNECTIONS)
+		self.redis_pool = redis.ConnectionPool(host=REDIS_HOST, port=REDIS_PORT)
+		
+		# # Flush all the keys currently present in the database
+		self.redis_connection = redis.Redis(connection_pool=self.redis_pool)
+		self.redis_connection.flushdb()
 	
 	def _init_params(self, recording: Recording, active_streams):
 		self.recording = recording
@@ -205,10 +287,7 @@ class HololensService:
 		self.port_to_dir = {
 			StreamPort.PHOTO_VIDEO: os.path.join(self.rec_data_dir, PHOTOVIDEO),
 			StreamPort.MICROPHONE: os.path.join(self.rec_data_dir, MICROPHONE),
-			StreamPort.RM_DEPTH_AHAT: {
-				'ab': os.path.join(self.rec_data_dir, DEPTH_AHAT_AB),
-				'depth': os.path.join(self.rec_data_dir, DEPTH_AHAT_DEPTH),
-			},
+			StreamPort.RM_DEPTH_AHAT: os.path.join(self.rec_data_dir, DEPTH_AHAT),
 			StreamPort.SPATIAL_INPUT: os.path.join(self.rec_data_dir, SPATIAL),
 			StreamPort.RM_IMU_ACCELEROMETER: os.path.join(self.rec_data_dir, IMU_ACCELEROMETER),
 			StreamPort.RM_IMU_GYROSCOPE: os.path.join(self.rec_data_dir, IMU_GYROSCOPE),
@@ -217,10 +296,7 @@ class HololensService:
 			StreamPort.RM_VLC_LEFTLEFT: os.path.join(self.rec_data_dir, VLC_LEFTLEFT),
 			StreamPort.RM_VLC_RIGHTFRONT: os.path.join(self.rec_data_dir, VLC_RIGHTFRONT),
 			StreamPort.RM_VLC_RIGHTRIGHT: os.path.join(self.rec_data_dir, VLC_RIGHTRIGHT),
-			hl2ss.StreamPort.RM_DEPTH_LONGTHROW: {
-				'ab': os.path.join(self.rec_data_dir, DEPTH_LT_AB),
-				'depth': os.path.join(self.rec_data_dir, DEPTH_LT_DEPTH),
-			}
+			StreamPort.RM_DEPTH_LONGTHROW: os.path.join(self.rec_data_dir, DEPTH_LT),
 		}
 		
 		self.port_to_stream = {
@@ -241,16 +317,17 @@ class HololensService:
 		self.active_streams = active_streams
 		
 		for port in self.active_streams:
-			if port == StreamPort.RM_DEPTH_AHAT or port == hl2ss.StreamPort.RM_DEPTH_LONGTHROW:
-				create_directories(self.port_to_dir[port]['ab'])
-				create_directories(self.port_to_dir[port]['depth'])
-			else:
-				create_directories(self.port_to_dir[port])
+			create_directories(self.port_to_dir[port])
+		
+		# Start PV
+		self.client_rc = hl2ss.ipc_rc(self.device_ip, hl2ss.IPCPort.REMOTE_CONFIGURATION)
+		hl2ss.start_subsystem_pv(self.device_ip, hl2ss.StreamPort.PHOTO_VIDEO)
+		self.client_rc.wait_for_pv_subsystem(True)
 	
-	def _start_record_sensor_streams(self, recording_instance: Recording, active_streams: list):
+	def _start_record_sensor_streams(self, recording: Recording, active_streams: list):
 		# Initialize all Parameters, Producers, Consumers, Display Map, Writer Map
 		logger.log(logging.INFO, "Initializing parameters")
-		self._init_params(recording_instance, active_streams)
+		self._init_params(recording, active_streams)
 		
 		self.producer = Producer(self.redis_pool, self.recording, self.port_to_stream, self.active_streams)
 		self.producer.start_processing_streams()
@@ -268,6 +345,10 @@ class HololensService:
 		
 		self.producer.stop_processing_streams()
 		self.consumer.stop_processing_streams()
+		
+		# Stopping PV systems
+		hl2ss.stop_subsystem_pv(self.device_ip, hl2ss.StreamPort.PHOTO_VIDEO)
+		self.client_rc.wait_for_pv_subsystem(False)
 		
 		logger.log(logging.INFO, "Stopped all systems")
 	
@@ -297,8 +378,10 @@ class HololensService:
 
 
 def record_all_streams(hololens_service: HololensService, recording: Recording):
-	active_streams = [StreamPort.RM_DEPTH_AHAT, StreamPort.PHOTO_VIDEO, StreamPort.MICROPHONE,
-	                  StreamPort.SPATIAL_INPUT]
+	active_streams = [StreamPort.PHOTO_VIDEO, StreamPort.RM_DEPTH_AHAT]
+	
+	# active_streams = [StreamPort.RM_DEPTH_AHAT, StreamPort.PHOTO_VIDEO, StreamPort.MICROPHONE,
+	#                   StreamPort.SPATIAL_INPUT]
 	
 	rec_thread = threading.Thread(target=hololens_service.start_recording, args=(recording, active_streams, False))
 	rec_thread.start()
@@ -307,9 +390,9 @@ def record_all_streams(hololens_service: HololensService, recording: Recording):
 	sleep_min = 1
 	for min_done in range(sleep_min):
 		print("Minutes done {}".format(min_done))
-		time.sleep(10)
+		time.sleep(60)
 	
-	hololens_service.stop_recording()
+	hololens_service.stop_recording(False)
 	rec_thread.join()
 
 
@@ -323,14 +406,14 @@ def record_mixed_streams(hololens_service: HololensService, recording: Recording
 	sleep_min = 1
 	for min_done in range(sleep_min):
 		print("Minutes done {}".format(min_done))
-		time.sleep(10)
+		time.sleep(60)
 	
 	hololens_service.stop_recording()
 	rec_thread.join()
 
 
 if __name__ == '__main__':
-	ip_address = '10.176.198.58'
+	ip_address = '192.168.1.149'
 	hl2_service = HololensService()
 	recording_instance = Recording("Coffee", "PL1", "P1", "R2", False)
 	recording_instance.set_device_ip(ip_address)

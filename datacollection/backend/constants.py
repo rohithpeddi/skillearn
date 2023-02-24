@@ -76,14 +76,27 @@ VLC_RIGHTFRONT = "vlc_rf"
 # 2: query calibration (single transfer)
 
 
+PV_POSE_FILE_NAME = "pv_pose"
+PV_DATA_DIRECTORY = "pv_data"
+
+DEPTH_AHAT_POSE_FILE_NAME = "depth_pose"
+DEPTH_AHAT_AB_DATA_DIRECTORY = "depth_ahat_ab_data"
+DEPTH_AHAT_DEPTH_DATA_DIRECTORY = "depth_ahat_depth_data"
+
+SPATIAL_DATA_WRITER = "spatial_data_writer"
+
+MICROPHONE_DATA_WRITER = "mc_data_writer"
+
 # ---------------------------------------------------------------------------------------
 # ------------------------ STREAM PRODUCER PROPERTIES -----------------------------------
 
 # Typically transfer of RAW images requires more bitrate.
 # PV CAMERA PARAMETERS
-PV_FRAME_WIDTH = 1280
-PV_FRAME_HEIGHT = 720
+PV_FRAME_WIDTH = 640
+PV_FRAME_HEIGHT = 360
 PV_FRAMERATE = 30
+PV_STRIDE = hl2ss.compute_nv12_stride(PV_FRAME_WIDTH)
+
 PV_VIDEO_PROFILE_RAW = hl2ss.VideoProfile.RAW
 PV_VIDEO_BITRATE_RAW = 250 * 1024 * 1024
 
@@ -123,7 +136,7 @@ LT_FILTER = hl2ss.PngFilterMode.Paeth
 # ---------------------------------------------------------------------------------------
 # ------------------------ REDIS STREAM PROPERTIES -----------------------------------
 
-REDIS_HOST = 'localhost'
+REDIS_HOST = "localhost"
 REDIS_PORT = 6379
 REDIS_MAX_CONNECTIONS = 20
 
