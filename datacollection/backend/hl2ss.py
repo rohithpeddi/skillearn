@@ -39,7 +39,7 @@ class ChunkSize:
     RM_IMU_ACCELEROMETER = 2048
     RM_IMU_GYROSCOPE     = 4096
     RM_IMU_MAGNETOMETER  = 256
-    PERSONAL_VIDEO       = 4096
+    PHOTO_VIDEO          = 4096
     MICROPHONE           = 512
     SPATIAL_INPUT        = 1024
     SINGLE_TRANSFER      = 4096

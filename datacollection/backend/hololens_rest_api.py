@@ -35,13 +35,15 @@ class HL2_REST_Utils:
         ## Logger info of POST url
         response = requests.post(post_url, auth=HL2_REST_Utils.auth)
         if response.ok:
-            print(response, " - Request sent successfully")
+            print(response, f" - Request {post_url} sent successfully")
         pass
 
     @staticmethod
     def send_rest_get_request(get_url):
         ## Logger info of GET url
         response = requests.get(get_url, auth=HL2_REST_Utils.auth)
+        if response.ok:
+            print(response, f" - Request {get_url} sent successfully")
         return response
 
     @staticmethod

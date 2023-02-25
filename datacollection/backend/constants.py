@@ -89,8 +89,8 @@ PORTS = [
     hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
     hl2ss.StreamPort.RM_DEPTH_AHAT,
     # hl2ss.StreamPort.RM_DEPTH_LONGTHROW,
-    # hl2ss.StreamPort.PHOTO_VIDEO,
-    # hl2ss.StreamPort.MICROPHONE,
+    hl2ss.StreamPort.PHOTO_VIDEO,
+    hl2ss.StreamPort.MICROPHONE,
     hl2ss.StreamPort.SPATIAL_INPUT,
     hl2ss.StreamPort.RM_IMU_ACCELEROMETER,
     hl2ss.StreamPort.RM_IMU_GYROSCOPE,
@@ -104,8 +104,8 @@ VLC_BITRATE = 1 * 1024 * 1024
 
 # RM Depth AHAT parameters
 AHAT_MODE = hl2ss.StreamMode.MODE_1
-AHAT_PROFILE = hl2ss.VideoProfile.H264_BASE
-AHAT_BITRATE = 8 * 1024 * 1024
+AHAT_PROFILE = hl2ss.VideoProfile.RAW
+AHAT_BITRATE = 30 * 1024 * 1024
 
 # RM Depth Long Throw parameters
 LT_MODE = hl2ss.StreamMode.MODE_1

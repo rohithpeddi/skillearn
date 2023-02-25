@@ -1,3 +1,4 @@
+import copy
 import logging
 import multiprocessing as mp
 import os
@@ -8,6 +9,7 @@ import time
 from fractions import Fraction
 from subprocess import Popen, PIPE
 
+import av
 import cv2
 import numpy as np
 
@@ -28,8 +30,9 @@ def create_directories(dir_path):
 
 class HololensService:
 
-    def __init__(self):
-        self.rm_enable = True
+    def __init__(self, ip_address, mrc=False):
+        self.rm_enable = False
+        self.threads_stopped = False
         self.lock = threading.Lock()
         self.time_base = Fraction(1, hl2ss.TimeBase.HUNDREDS_OF_NANOSECONDS)
 
@@ -38,10 +41,15 @@ class HololensService:
 
         self.is_pv_decoded = True
         self.is_vlc_decoded = True
-        self.is_depth_decoded = True
+        self.save_depth_frames = False
+        self.mrc = mrc
+        if mrc:
+            PORTS.remove(hl2ss.StreamPort.PHOTO_VIDEO)
+            PORTS.remove(hl2ss.StreamPort.MICROPHONE)
+        self.rest_controller = HL2_REST_Controller(ip_address)
 
     @staticmethod
-    def get_mac_address_and_host_name(ip_address):
+    def get_mac_address(ip_address):
         # do_ping(IP) - The time between ping and arp check must be small, as ARP may not cache long
         # print(os.system('arp -n ' + str(IP)))
         pid = Popen(["arp", "-n", ip_address], stdout=PIPE)
@@ -50,15 +58,13 @@ class HololensService:
         mac_matches = re.search(r'(([a-f\d]{1,2}:){5}[a-f\d]{1,2})', s)
         if mac_matches is not None:
             mac_address = mac_matches.groups()[0]
-
-        host_name = HL2_REST_Controller(ip_address).get_hostname()
-        logger.log(logging.INFO, f"Hololens2 ID: {host_name}")
-        logger.log(logging.INFO, f"Hololens2 MAC: {mac_address}")
-        return mac_address, host_name
+        return mac_address
 
     def save_hololens2_info(self, ip_address, folder_path):
-        # print(ip_address)
-        mac_address, host_name = self.get_mac_address_and_host_name(ip_address)
+        mac_address = self.get_mac_address(ip_address)
+        host_name = self.rest_controller.get_hostname()
+        logger.log(logging.INFO, f"Hololens2 ID: {host_name}")
+        logger.log(logging.INFO, f"Hololens2 MAC: {mac_address}")
         with open(os.path.join(folder_path, 'Hololens2Info.dat'), 'w+') as f:
             f.write(f"Name: {host_name}\n")
             f.write(f"MAC: {mac_address}")
@@ -84,7 +90,7 @@ class HololensService:
             data = pv_client.get_next_packet()
             if self.is_pv_decoded:
                 pv_pose.append([data.timestamp, data.pose])
-                self._write_frame_async(pv_port, data, self.async_storage_map[pv_port])
+                self._write_pv_frame_async(pv_port, copy.deepcopy(data), self.async_storage_map[pv_port])
             else:
                 pv_frames.append([data.timestamp, data.payload, data.pose])
 
@@ -118,7 +124,7 @@ class HololensService:
             data = vlc_client.get_next_packet()
             if self.is_vlc_decoded:
                 vlc_pose.append([data.timestamp, data.pose])
-                self._write_frame_async(vlc_port, data, self.async_storage_map[vlc_port])
+                self._write_vlc_frame_async(vlc_port, copy.deepcopy(data), self.async_storage_map[vlc_port])
             else:
                 vlc_frames.append([data.timestamp, data.payload, data.pose])
 
@@ -135,25 +141,21 @@ class HololensService:
 
     def _receive_depth_ahat(self):
         depth_port = hl2ss.StreamPort.RM_DEPTH_AHAT
-        if self.is_depth_decoded:
-            depth_pose = []
-            ahat_client = hl2ss.rx_decoded_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
-                                                         AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
-        else:
-            depth_frames = []
-            ahat_client = hl2ss.rx_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
-                                                 AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
+        depth_pose = []
+        depth_frames = []
+        ahat_client = hl2ss.rx_rm_depth_ahat(self.device_ip, depth_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
+                                             AHAT_MODE, AHAT_PROFILE, AHAT_BITRATE)
 
         ahat_client.open()
         logger.log(logging.INFO, "Configuring Depth AHaT")
 
         while self.rm_enable:
             data = ahat_client.get_next_packet()
-            if self.is_depth_decoded:
-                depth_pose.append([data.timestamp, data.pose])
-                self._write_depth_async(depth_port, data, self.async_storage_map[depth_port])
-            else:
+            if self.save_depth_frames:
                 depth_frames.append([data.timestamp, data.payload, data.pose])
+            else:
+                depth_pose.append([data.timestamp, data.pose])
+                self._write_depth_async(depth_port, copy.deepcopy(data), self.async_storage_map[depth_port])
 
         if self.is_depth_decoded:
             logger.log(logging.INFO, f"Captured {len(depth_pose)}")
@@ -248,14 +250,14 @@ class HololensService:
         self.save_hololens2_info(self.device_ip, self.rec_data_dir)
 
         self.writer_map = {
-            hl2ss.StreamPort.RM_VLC_LEFTFRONT: self._write_frame_async,
-            hl2ss.StreamPort.RM_VLC_LEFTLEFT: self._write_frame_async,
-            hl2ss.StreamPort.RM_VLC_RIGHTFRONT: self._write_frame_async,
-            hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: self._write_frame_async,
+            hl2ss.StreamPort.RM_VLC_LEFTFRONT: self._write_pv_frame_async,
+            hl2ss.StreamPort.RM_VLC_LEFTLEFT: self._write_pv_frame_async,
+            hl2ss.StreamPort.RM_VLC_RIGHTFRONT: self._write_pv_frame_async,
+            hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: self._write_pv_frame_async,
 
             hl2ss.StreamPort.RM_DEPTH_AHAT: self._write_depth_async,
 
-            hl2ss.StreamPort.PHOTO_VIDEO: self._write_frame_async,
+            hl2ss.StreamPort.PHOTO_VIDEO: self._write_pv_frame_async,
             # hl2ss.StreamPort.MICROPHONE: self._write_audio_async,
             # hl2ss.StreamPort.SPATIAL_INPUT: self._write_spatial_async,
             # hl2ss.StreamPort.RM_IMU_ACCELEROMETER: None,
@@ -272,20 +274,22 @@ class HololensService:
         total_streams = 8  # (PV, Pose), Audio, Depth, ((VLC, Pose) * 4), MLC
         # Dell Precision 5820 - CPU - 20, Thread/CPU = 2
         thread_per_cpu = 2
-        pool_per_stream = int((mp.cpu_count() * thread_per_cpu) / total_streams)
-        # pool_per_stream = max(2, pool_per_stream)
-        pool_per_stream = 2
+        threads_per_stream = int((mp.cpu_count() * thread_per_cpu) / total_streams)
+        # threads_per_stream = max(2, threads_per_stream)
+        threads_per_stream = 2
         try:
-            self.async_storage_map = {
-                hl2ss.StreamPort.RM_VLC_LEFTFRONT: mp.Pool(pool_per_stream),
-                hl2ss.StreamPort.RM_VLC_LEFTLEFT: mp.Pool(pool_per_stream),
-                hl2ss.StreamPort.RM_VLC_RIGHTFRONT: mp.Pool(pool_per_stream),
-                hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: mp.Pool(pool_per_stream),
-
-                hl2ss.StreamPort.RM_DEPTH_AHAT: mp.Pool(5),
-                # hl2ss.StreamPort.RM_DEPTH_LONGTHROW: mp.Pool(pool_per_stream),
-                hl2ss.StreamPort.PHOTO_VIDEO: mp.Pool(5),
+            self.async_storage_map = {}
+            storage_threads_map = {
+                hl2ss.StreamPort.RM_VLC_LEFTFRONT: threads_per_stream,
+                hl2ss.StreamPort.RM_VLC_LEFTLEFT: threads_per_stream,
+                hl2ss.StreamPort.RM_VLC_RIGHTFRONT: threads_per_stream,
+                hl2ss.StreamPort.RM_VLC_RIGHTRIGHT: threads_per_stream,
+                hl2ss.StreamPort.RM_DEPTH_AHAT: 5,
+                hl2ss.StreamPort.RM_DEPTH_LONGTHROW: threads_per_stream,
+                hl2ss.StreamPort.PHOTO_VIDEO: 5,
             }
+            for port in PORTS:
+                self.async_storage_map[port] = mp.Pool(storage_threads_map[port])
         except Exception as e:
             logger.log(logging.ERROR, str(e))
 
@@ -294,7 +298,17 @@ class HololensService:
         hl2ss.start_subsystem_pv(self.device_ip, hl2ss.StreamPort.PHOTO_VIDEO)
         self.client_rc.wait_for_pv_subsystem(True)
 
-    def _write_frame_async(self, port, data, writer_pool: mp.Pool, display=False):
+    def _write_pv_frame_async(self, port, data, writer_pool: mp.Pool, display=False):
+        port_name = hl2ss.get_port_name(port)
+        dir_path = self.port_dir_map[port]
+        file_path = os.path.join(dir_path, f"{self.rec_id}_{port_name}_{data.timestamp}.jpg")
+        if display:
+            cv2.imshow(port_name, data.payload.image)
+            cv2.waitKey(1)
+        if writer_pool is not None and data.payload is not None:
+            writer_pool.apply_async(cv2.imwrite(file_path, data.payload.image))
+
+    def _write_vlc_frame_async(self, port, data, writer_pool: mp.Pool, display=False):
         port_name = hl2ss.get_port_name(port)
         dir_path = self.port_dir_map[port]
         file_path = os.path.join(dir_path, f"{self.rec_id}_{port_name}_{data.timestamp}.jpg")
@@ -311,13 +325,29 @@ class HololensService:
         dir_path_depth = self.port_dir_map[port]['depth']
         file_path_ab = os.path.join(dir_path_ab, f"{self.rec_id}_{port_name}_{data.timestamp}_ab.png")
         file_path_depth = os.path.join(dir_path_depth, f"{self.rec_id}_{port_name}_{data.timestamp}_depth.png")
+        depth, ab = None, None
+        if AHAT_PROFILE == hl2ss.VideoProfile.RAW:
+            depth = np.frombuffer(data.payload, dtype=np.uint16, count=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS) \
+                .reshape(hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE)
+            ab = np.frombuffer(data.payload, dtype=np.uint16,
+                               offset=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS * hl2ss._SIZEOF.WORD,
+                               count=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS).reshape(
+                hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE)
+        else:
+            _codec = av.CodecContext.create(hl2ss.get_video_codec_name(AHAT_PROFILE), 'r')
+            for packet in _codec.parse(data.payload):
+                for frame in _codec.decode(packet):
+                    depth, ab = hl2ss._unpack_rm_depth_ahat_nv12_as_yuv420p(frame.to_ndarray().astype(np.uint16))
+
+        if depth is None:
+            return
         if display:
-            cv2.imshow(port_name + '-depth', data.payload.depth * 8)  # Scaled for visibility
-            cv2.imshow(port_name + '-ab', data.payload.ab / np.max(data.payload.ab))  # Normalized for visibility
+            cv2.imshow(port_name + '-depth', depth * 8)  # Scaled for visibility
+            cv2.imshow(port_name + '-ab', ab / np.max(ab))  # Normalized for visibility
             cv2.waitKey(1)
         if writer_pool is not None:
-            writer_pool.apply_async(cv2.imwrite(file_path_ab, data.payload.ab))
-            writer_pool.apply_async(cv2.imwrite(file_path_depth, data.payload.depth))
+            writer_pool.apply_async(cv2.imwrite(file_path_ab, ab))
+            writer_pool.apply_async(cv2.imwrite(file_path_depth, depth))
 
     def _write_spatial_async(self, port, data, writer_pool: mp.Pool, display=False):
         pass
@@ -353,21 +383,27 @@ class HololensService:
             self.port_threads[imu_port] = threading.Thread(target=self._receive_imu, args=(imu_port,))
 
         # Start all the threads corresponding to each type
+        self.rm_enable = True
+        if self.mrc:
+            self.rest_controller.start_mrc()
         for port in PORTS:
             self.port_threads[port].start()
 
-        while self.rm_enable:
-            time.sleep(60)
+        for port in PORTS:
+            self.port_threads[port].join()
+        self.threads_stopped = True
 
     def _stop_record_sensor_streams(self):
 
         logger.log(logging.INFO, "Stopping all record streams")
         # Make the shared conditional variables so that process of capturing the frames stops
         self.rm_enable = False
+        while not self.threads_stopped:
+            time.sleep(0.5)
 
         # Start all the threads corresponding to each type
-        for port in PORTS:
-            self.port_threads[port].join()
+        if self.mrc:
+            self.rest_controller.stop_mrc()
 
         # Release all the pools instances attached to different ports
         for port in PORTS:
@@ -382,6 +418,9 @@ class HololensService:
         self.client_rc.wait_for_pv_subsystem(False)
 
         logger.log(logging.INFO, "Stopped all systems")
+        if self.mrc:
+            # Downloading the MRC Data
+            self.rest_controller.download_most_recent_mrc_file(download_location=self.rec_data_dir)
 
     def start_recording(self, recording_instance: Recording):
         if self._recording:
@@ -399,10 +438,10 @@ class HololensService:
         self._stop_record_sensor_streams()
 
 
-if __name__ == '__main__':
-    ip_address = '10.176.198.58'
-    hl2_service = HololensService()
-    hl2_rest_controller = HL2_REST_Controller(ip_address)
+def test_hololens2_recording():
+    ip_address = '10.176.194.67'
+    mrc = False
+    hl2_service = HololensService(ip_address=ip_address, mrc=mrc)
     rec = Recording("Coffee", "PL1", "P1", "R2", False)
     rec.set_device_ip(ip_address)
 
@@ -413,13 +452,18 @@ if __name__ == '__main__':
     # For Recording the Hololens2 Sensor data
     rec_thread = threading.Thread(target=hl2_service.start_recording, args=(rec,))
     rec_thread.start()
-    hl2_rest_controller.start_mrc()
+    while not hl2_service.rm_enable:
+        time.sleep(0.1)
+        continue
     print("Recording Started")
     sleep_min = 1
     for min_done in range(sleep_min):
         print("Minutes done {}".format(min_done))
-        time.sleep(10)
+        time.sleep(60)
     hl2_service.stop_recording()
-    hl2_rest_controller.stop_mrc()
     print("Recording Stopped")
-    rec_thread.join()
+    # rec_thread.join()
+
+
+if __name__ == '__main__':
+    test_hololens2_recording()
