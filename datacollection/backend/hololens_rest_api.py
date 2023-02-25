@@ -1,4 +1,5 @@
 import base64
+import logging
 import os.path
 import time
 import urllib.parse
@@ -6,6 +7,9 @@ import urllib.parse
 import requests
 from requests.auth import HTTPBasicAuth
 
+logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
 # Reference for the Hololens2 Device portal API reference
 # https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/device-portal-api-reference
@@ -35,7 +39,8 @@ class HL2_REST_Utils:
         ## Logger info of POST url
         response = requests.post(post_url, auth=HL2_REST_Utils.auth)
         if response.ok:
-            print(response, f" - Request {post_url} sent successfully")
+            logger.log(logging.INFO, f"{response} - Request {post_url} sent successfully")
+            print()
         pass
 
     @staticmethod
@@ -43,7 +48,7 @@ class HL2_REST_Utils:
         ## Logger info of GET url
         response = requests.get(get_url, auth=HL2_REST_Utils.auth)
         if response.ok:
-            print(response, f" - Request {get_url} sent successfully")
+            logger.log(logging.INFO, f"{response} - Request {get_url} sent successfully")
         return response
 
     @staticmethod

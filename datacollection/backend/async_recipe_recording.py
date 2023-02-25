@@ -34,7 +34,7 @@ async def activity_record_task(recording_instance: Recording):
 	db_service = FirebaseService()
 	db_service.update_activity_recording_details(is_start=True, recording_instance=recording_instance)
 
-	recording_service = HololensService()
+	recording_service = HololensService(recording_instance.device_ip, mrc=True)
 
 	# Set the interrupt handler
 	# Code that will be executed when signalled to stop

@@ -40,6 +40,7 @@ class HololensService:
         self._recording_thread = None
 
         self.is_pv_decoded = True
+        self.is_depth_decoded = True
         self.is_vlc_decoded = True
         self.save_depth_frames = False
         self.mrc = mrc
@@ -439,10 +440,10 @@ class HololensService:
 
 
 def test_hololens2_recording():
-    ip_address = '10.176.194.67'
+    ip_address = '192.168.1.149'
     mrc = False
     hl2_service = HololensService(ip_address=ip_address, mrc=mrc)
-    rec = Recording("Coffee", "PL1", "P1", "R2", False)
+    rec = Recording("Omelette", "PL3", "P1", "R1", False)
     rec.set_device_ip(ip_address)
 
     client = hl2ss.ipc_rc(ip_address, hl2ss.IPCPort.REMOTE_CONFIGURATION)
