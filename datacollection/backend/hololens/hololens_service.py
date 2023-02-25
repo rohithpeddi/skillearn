@@ -158,20 +158,20 @@ class Consumer:
 			ab_data = np.frombuffer(stream_packet.payload, dtype=np.uint16,
 			                        offset=Parameters_RM_DEPTH_AHAT.PIXELS * hl2ss._SIZEOF.WORD,
 			                        count=Parameters_RM_DEPTH_AHAT.PIXELS).reshape(Parameters_RM_DEPTH_AHAT.SHAPE)
-			frame_ab = cv2.convertScaleAbs(ab_data.astype(np.uint16), alpha=(255.0/np.amax(ab_data)))
+			# frame_ab = cv2.convertScaleAbs(ab_data.astype(np.uint16), alpha=(255.0/np.amax(ab_data)))
 			
-			cv2.imwrite(ab_file_path, frame_ab)
+			cv2.imwrite(ab_file_path, ab_data)
 			
 			# 3. AHAT depth information
 			depth_file_name = f'{self.recording.get_recording_id()}_{stream_name}_{stream_packet.timestamp}_depth.png'
-			depth_file_path = os.path.join(kwargs[DEPTH_AHAT_AB_DATA_DIRECTORY], depth_file_name)
+			depth_file_path = os.path.join(kwargs[DEPTH_AHAT_DEPTH_DATA_DIRECTORY], depth_file_name)
 			
 			depth_data = np.frombuffer(stream_packet.payload, dtype=np.uint16,
 			                           count=Parameters_RM_DEPTH_AHAT.PIXELS).reshape(
 				Parameters_RM_DEPTH_AHAT.SHAPE)
-			frame_depth = cv2.convertScaleAbs(depth_data.astype(np.uint16), alpha=(255.0/np.amax(depth_data)))
+			# frame_depth = cv2.convertScaleAbs(depth_data.astype(np.uint16), alpha=(255.0/np.amax(depth_data)))
 			
-			cv2.imwrite(depth_file_path, frame_depth)
+			cv2.imwrite(depth_file_path, depth_data)
 		elif stream_port == StreamPort.MICROPHONE:
 			kwargs[MICROPHONE_DATA_WRITER].write(stream_packet)
 		elif stream_port == StreamPort.SPATIAL_INPUT:
@@ -193,8 +193,8 @@ class Consumer:
 			# 2. AHAT AB information
 			# 3. AHAT depth information
 			kwargs[DEPTH_AHAT_POSE_FILE_NAME] = f'{self.recording.get_recording_id()}_{stream_name}_pose'
-			kwargs[DEPTH_AHAT_AB_DATA_DIRECTORY] = os.path.join(stream_directory, "ab")
-			kwargs[DEPTH_AHAT_DEPTH_DATA_DIRECTORY] = os.path.join(stream_directory, "depth")
+			kwargs[DEPTH_AHAT_AB_DATA_DIRECTORY] = os.path.join(stream_directory, AB)
+			kwargs[DEPTH_AHAT_DEPTH_DATA_DIRECTORY] = os.path.join(stream_directory, DEPTH)
 		elif stream_port == StreamPort.MICROPHONE:
 			# Here we need to save
 			# 1. Dump of the microphone data into a bin file
@@ -318,6 +318,9 @@ class HololensService:
 		
 		for port in self.active_streams:
 			create_directories(self.port_to_dir[port])
+			if (port == StreamPort.RM_DEPTH_AHAT) or (port == StreamPort.RM_DEPTH_LONGTHROW):
+				create_directories(os.path.join(self.port_to_dir[port], AB))
+				create_directories(os.path.join(self.port_to_dir[port], DEPTH))
 		
 		# Start PV
 		self.client_rc = hl2ss.ipc_rc(self.device_ip, hl2ss.IPCPort.REMOTE_CONFIGURATION)

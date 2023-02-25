@@ -75,6 +75,9 @@ VLC_RIGHTFRONT = "vlc_rf"
 # 1: video + rig pose
 # 2: query calibration (single transfer)
 
+AB = "ab"
+DEPTH = "depth"
+
 
 PV_POSE_FILE_NAME = "pv_pose"
 PV_DATA_DIRECTORY = "pv_data"
