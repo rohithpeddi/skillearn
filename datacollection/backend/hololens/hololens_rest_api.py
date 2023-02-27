@@ -76,13 +76,17 @@ def get_mrc_files(ip_address):
 	return json_response
 
 
-def download_most_recent_mrc_file(ip_address, download_location):
+def download_most_recent_mrc_file(ip_address, download_location, prefix_file_name=None):
 	json_response = get_mrc_files(ip_address)
 	mrc_files_list = json_response['MrcRecordings']
 	most_recent_mrc_file = mrc_files_list[-1]
 	filename = most_recent_mrc_file['FileName']
 	time_stamp = most_recent_mrc_file['CreationTime']
-	video_path = os.path.join(download_location, str(time_stamp) + "_" + filename)
+	if prefix_file_name is not None:
+		video_filename = prefix_file_name + '_' + str(time_stamp) + '_' + filename
+	else:
+		video_filename = str(time_stamp) + "_" + filename
+	video_path = os.path.join(download_location, video_filename)
 	filename_hex64 = base64_encode_string(filename)
 	stream = "stream"
 	# "http://10.176.198.58/api/holographic/mrc/file?filename=MjAyMzAyMjBfMTYwMzUzX0hvbG9MZW5zLm1wNA==&op=stream"

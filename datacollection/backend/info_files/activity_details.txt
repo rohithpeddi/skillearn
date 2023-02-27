@@ -307,7 +307,7 @@ S7: Microwave, uncovered, on high for 1.5 minutes.
 S8: Sprinkle with chocolate chips
 S9: Microwave, uncovered, on high for 1.5 minutes.
 S10: Spread the chocolate evenly over top.
-Microwave French Toast
+MicrowaveFrenchToast
 S1: In a large mug, melt the 1 teaspoon butter in the microwave for about 30 seconds.
 S2: Roll the butter around in the cup to coat it.
 S3: In the mug whisk the egg with a fork until well blended.

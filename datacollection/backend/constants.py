@@ -89,14 +89,14 @@ DEPTH_AHAT_DEPTH_DATA_DIRECTORY = "depth_ahat_depth_data"
 SPATIAL_DATA_WRITER = "spatial_data_writer"
 
 MICROPHONE_DATA_WRITER = "mc_data_writer"
-
+DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
 # ---------------------------------------------------------------------------------------
 # ------------------------ STREAM PRODUCER PROPERTIES -----------------------------------
 
 # Typically transfer of RAW images requires more bitrate.
 # PV CAMERA PARAMETERS
-PV_FRAME_WIDTH = 640
-PV_FRAME_HEIGHT = 360
+PV_FRAME_WIDTH = 1280
+PV_FRAME_HEIGHT = 720
 PV_FRAMERATE = 30
 PV_STRIDE = hl2ss.compute_nv12_stride(PV_FRAME_WIDTH)
 
