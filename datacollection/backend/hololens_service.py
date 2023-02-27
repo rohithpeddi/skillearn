@@ -53,7 +53,13 @@ class HololensService:
     def get_mac_address(ip_address):
         # do_ping(IP) - The time between ping and arp check must be small, as ARP may not cache long
         # print(os.system('arp -n ' + str(IP)))
-        pid = Popen(["arp", "-n", ip_address], stdout=PIPE)
+        try:
+            pid = Popen(["arp", "-n", ip_address], stdout=PIPE)
+            output, error = pid.communicate()
+            if pid.returncode != 0:
+                return None
+        except:
+            return None
         s = pid.communicate()[0].decode("utf-8")
         mac_address = None
         mac_matches = re.search(r'(([a-f\d]{1,2}:){5}[a-f\d]{1,2})', s)
@@ -440,10 +446,10 @@ class HololensService:
 
 
 def test_hololens2_recording():
-    ip_address = '192.168.1.149'
+    ip_address = '10.176.194.67'
     mrc = False
     hl2_service = HololensService(ip_address=ip_address, mrc=mrc)
-    rec = Recording("Omelette", "PL3", "P1", "R1", False)
+    rec = Recording("Coffee", "PL1", "P1", "R2", False)
     rec.set_device_ip(ip_address)
 
     client = hl2ss.ipc_rc(ip_address, hl2ss.IPCPort.REMOTE_CONFIGURATION)
