@@ -1,0 +1,6 @@
+[submodule "Annotations/Dependency_Graph/Method 1/model"]
+	path = Annotations/Dependency_Graph/Method 1/model
+	url = https://github.com/interactive-cookbook/alignment-models.git
+[submodule "Annotations/Dependency_Graph/Method 2/model"]
+	path = Annotations/Dependency_Graph/Method 2/model
+	url = https://github.com/interactive-cookbook/ara.git
