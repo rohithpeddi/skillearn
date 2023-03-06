@@ -4,3 +4,9 @@
 [submodule "Annotations/Dependency_Graph/Method 2/model"]
 	path = Annotations/Dependency_Graph/Method 2/model
 	url = https://github.com/interactive-cookbook/ara.git
+[submodule "Annotations/Dependency_Graph/Method 3/model"]
+	path = Annotations/Dependency_Graph/Method 3/model
+	url = https://github.com/hwang1996/SGN.git
+[submodule "Annotations/Dependency_Graph/Method 4/model"]
+	path = Annotations/Dependency_Graph/Method 4/model
+	url = https://github.com/boschresearch/EaT-PIM.git
