@@ -90,13 +90,15 @@ SPATIAL_DATA_WRITER = "spatial_data_writer"
 
 MICROPHONE_DATA_WRITER = "mc_data_writer"
 DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
+PV_POSE_WRITER = "pv_pose_writer"
+
 # ---------------------------------------------------------------------------------------
 # ------------------------ STREAM PRODUCER PROPERTIES -----------------------------------
 
 # Typically transfer of RAW images requires more bitrate.
 # PV CAMERA PARAMETERS
-PV_FRAME_WIDTH = 1280
-PV_FRAME_HEIGHT = 720
+PV_FRAME_WIDTH = 640
+PV_FRAME_HEIGHT = 360
 PV_FRAMERATE = 30
 PV_STRIDE = hl2ss.compute_nv12_stride(PV_FRAME_WIDTH)
 
@@ -118,6 +120,7 @@ AHAT_PROFILE_DECODED = hl2ss.VideoProfile.H264_BASE
 # Audio encoding profile
 AUDIO_PROFILE_RAW = hl2ss.AudioProfile.RAW
 AUDIO_PROFILE_DECODED = hl2ss.AudioProfile.AAC_24000
+AUDIO_FRAME_RATE = hl2ss.Parameters_MICROPHONE.SAMPLE_RATE
 
 # RM VLC parameters
 VLC_MODE = hl2ss.StreamMode.MODE_1
@@ -144,8 +147,13 @@ REDIS_PORT = 6379
 REDIS_MAX_CONNECTIONS = 20
 
 # ---------------------------------------------------------------------------------------------------------
-# VERIFICATION PROPERTIES
+# POST PROCESSING PROPERTIES
 # ---------------------------------------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------------------
+# ------------------------ AUDIO PROPERTIES -----------------------------------
+
+
 
 # Buffer length in seconds
 BUFFER_LENGTH = 10

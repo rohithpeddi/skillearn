@@ -12,6 +12,33 @@ logging.warning('Created Hololens service file')
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
+# Folder structure in BOX
+# - <Re_Pl_P_R_0>
+# 	- Raw
+# 		- Depth Ahat
+# 			- Ab
+# 			- Depth
+# 			- Pose
+# 		- PV
+# 			- RGB
+# 			- Pose
+# 		- Spatial
+# 		- GoPro.mp4
+# 	- Synchronized
+# 		- Depth
+# 			- Ab
+# 			- Depth
+# 			- Pose
+# 		- PV
+# 			- RGB
+# 			- Pose
+# 		- Spatial
+# 		- GoPro.mp4
+# 		- GoPro_360.mp4
+# 		- Hololens_360.mp4
+# 		- Hololens_audio.mp4
+# 		- <PretrainedFeatures>
+
 
 class BoxService:
 

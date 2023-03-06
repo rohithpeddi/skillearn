@@ -16,3 +16,4 @@ open3d
 pynput
 websockets
 redis
+pyaudio
