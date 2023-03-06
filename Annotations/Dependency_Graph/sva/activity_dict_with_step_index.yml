@@ -1,0 +1,928 @@
+EggSandwich:
+  S1:
+    text: Coat 6-oz. ramekin cup with cooking spray.
+    index: 0
+  S2:
+    text: Pour 1 egg in the ramekin cup.
+    index: 1
+  S3:
+    text: Microwave the ramekin cup uncovered on high for 30 seconds and stir.
+    index: 2
+  S4:
+    text: Continue to Microwave for 15-30 more seconds or until egg is almost set.
+    index: 3
+  S5:
+    text: Top with 1 tablespoon of salsa and sprinkle with 1 tablespoon of cheese.
+    index: 4
+  S6:
+    text: Microwave just until cheese melts, about 10 seconds.
+    index: 5
+  S7:
+    text: Cut the english muffin into two pieces with a knife.
+    index: 6
+  S8:
+    text: Line bottom of English muffin with lettuce.
+    index: 7
+  S9:
+    text: Take out egg and Canadian bacon from the cup, place it over lettuce and
+      replace the top of english muffin.
+    index: 8
+BreakfastPotatoes:
+  S1:
+    text: Peel a medium potato.
+    index: 9
+  S2:
+    text: Slice the peeled medium potato.
+    index: 10
+  S3:
+    text: Peel one medium onion and cut it into two pieces.
+    index: 11
+  S4:
+    text: Slice half medium onion into pieces.
+    index: 12
+  S5:
+    text: Coat a 9-in. microwave-safe plate with cooking spray
+    index: 13
+  S6:
+    text: Arrange potato and onion slices on the plate
+    index: 14
+  S7:
+    text: Sprinkle potato and onion with seasonings (garlic salt, salt, pepper) on
+      the plate.
+    index: 15
+  S8:
+    text: Cover the plate and microwave on high for 6 minutes and 30 seconds or until
+      potatoes are tender
+    index: 16
+  S9:
+    text: Add 1/4 cup shredded cheddar cheese on the top and microwave for 30 seconds
+      of cooking.
+    index: 17
+DressedUpMeatballs:
+  S1:
+    text: Cut 1/4 medium carrot into short, thin strips
+    index: 18
+  S2:
+    text: Peel one medium onion and cut it into two pieces.
+    index: 11
+  S3:
+    text: Slice 1/8 medium onion
+    index: 19
+  S4:
+    text: Peel 1 garlic clove.
+    index: 20
+  S5:
+    text: Cut and Mince 1/8 garlic clove
+    index: 21
+  S6:
+    text: Place 5 meatballs in a Microwave-safe bowl.
+    index: 22
+  S7:
+    text: Top with the carrots, onion, pepper and garlic.
+    index: 23
+  S8:
+    text: In a small bowl, mix 1.5 ounces sweet-and-sour sauce and 1/2 teaspoon soy
+      sauce
+    index: 24
+  S9:
+    text: Pour the sauces over the meatballs.
+    index: 25
+  S10:
+    text: Microwave, covered, on high for 1.5 minutes
+    index: 26
+  S11:
+    text: Stir the contents well.
+    index: 27
+  S12:
+    text: Microwave, covered, on high for 1.5 minutes
+    index: 26
+  S13:
+    text: Stir the contents well.
+    index: 27
+  S14:
+    text: Microwave for 1 minute.
+    index: 28
+ChipotleRanchChickenTacos:
+  S1:
+    text: Measure 1 cup shredded rotisserie chicken and add it to a small microwave-safe
+      dish
+    index: 29
+  S2:
+    text: Measure 2 cups of frozen corn.
+    index: 30
+  S3:
+    text: Thaw the frozen corn by putting it in a sieve and running it under some
+      cold water.
+    index: 31
+  S4:
+    text: Add the thawed corn to the microwave-safe dish
+    index: 32
+  S5:
+    text: Measure 1/4 cup pico de gallo (make it using tomato and onion) and add it
+      to the microwave-safe dish
+    index: 33
+  S6:
+    text: Cover and cook on high for 1-2 minutes or until heated through.
+    index: 34
+  S7:
+    text: Spoon chicken mixture from the microwave-safe dish into taco shells.
+    index: 35
+  S8:
+    text: Measure 1 cup shredded Monterey Jack cheese
+    index: 36
+  S9:
+    text: Measure 1 cup coleslaw mix
+    index: 37
+  S10:
+    text: Take 1 jalapeno pepper and then wash and slice them
+    index: 38
+  S11:
+    text: Measure 1/2 cup chipotle ranch salad dressing
+    index: 39
+  S12:
+    text: Top the tacos with all the ingredients taken above (cheese, coleslaw mix,
+      jalapeno, and dressing)
+    index: 40
+MugPizza:
+  S1:
+    text: Take a microwavable mug.
+    index: 41
+  S2:
+    text: Measure 4 tablespoons of flour and add it to the mug.
+    index: 42
+  S3:
+    text: Measure 1/8 teaspoon of baking powder and add it to the mug.
+    index: 43
+  S4:
+    text: Measure 1/16 teaspoon of baking soda and add it to the mug.
+    index: 44
+  S5:
+    text: Measure 1/8 teaspoon of salt and add it.
+    index: 45
+  S6:
+    text: Stir the contents well.
+    index: 27
+  S7:
+    text: Add in the milk and oil to the mug.
+    index: 46
+  S8:
+    text: Mix the contents thoroughly.
+    index: 47
+  S9:
+    text: Take the marinara sauce and spread it around the surface of the batter.
+    index: 48
+  S10:
+    text: Sprinkle the cheese on top.
+    index: 49
+  S11:
+    text: Sprinkle dried herbs inside the mug.
+    index: 50
+  S12:
+    text: Microwave for 1 minute 20 seconds, or until it rises and the toppings are
+      bubbling.
+    index: 51
+Ramen:
+  S1:
+    text: Remove the noodles from the package. (Break Noodles / Keep them as a block).
+    index: 52
+  S2:
+    text: Peel and Chop garlic on cutting board.
+    index: 53
+  S3:
+    text: Peel one medium onion and cut it into two pieces.
+    index: 11
+  S4:
+    text: Slice half medium onion into pieces.
+    index: 12
+  S5:
+    text: Put all the Vegetables in a microwave-safe bowl.
+    index: 54
+  S6:
+    text: Add the noodles to the bowl and cover them with water.
+    index: 55
+  S7:
+    text: Cover with a lid (or paper towel) to prevent splattering.
+    index: 56
+  S8:
+    text: Microwave the ramen for four minutes.
+    index: 57
+  S9:
+    text: Measure basil and cilantro and add them to the bowl.
+    index: 58
+  S10:
+    text: Let the noodles sit for about one minute after the microwave stops.
+    index: 59
+  S11:
+    text: Mix in the flavor packet.
+    index: 60
+  S12:
+    text: Stir noodles with a spoon or fork until the flavoring dissolves.
+    index: 61
+ApplePie:
+  S1:
+    text: Place the crust into a microwave-safe pie dish.
+    index: 62
+  S2:
+    text: Score (press) the bottom and sides of the crust with a fork.
+    index: 63
+  S3:
+    text: Microwave on high for 5 minutes and let it rest while you make the fillings.
+    index: 64
+  S4:
+    text: Take the apple, wash and then peel it.
+    index: 65
+  S5:
+    text: Cut apples into thin slices.
+    index: 66
+  S6:
+    text: Add the sliced apple to the microwave-safe bowl.
+    index: 67
+  S7:
+    text: Measure 3 tablespoons of flour and add it to the bowl.
+    index: 68
+  S8:
+    text: Measure 1/4 cup of white sugar and add it to the bowl.
+    index: 69
+  S9:
+    text: Measure 1/4 cup of brown sugar and add it to the bowl.
+    index: 70
+  S10:
+    text: Measure 1 teaspoon of cinnamon and add it to the bowl.
+    index: 71
+  S11:
+    text: Measure 1 teaspoon of vanilla extract and add it to the bowl.
+    index: 72
+  S12:
+    text: Extract the juice from 1/2 lemon and add it to the bowl.
+    index: 73
+  S13:
+    text: Mix the contents thoroughly.
+    index: 47
+  S14:
+    text: Cover the bowl and then microwave on high for 2.5 minutes.
+    index: 74
+  S15:
+    text: Stir the contents well.
+    index: 27
+  S16:
+    text: Again, Microwave on high for 2.5 minutes.
+    index: 75
+  S17:
+    text: Add the filling (from the microwave) on top of the crust.
+    index: 76
+  S18:
+    text: Measure 1 cup of brown sugar and add it to the bowl.
+    index: 77
+  S19:
+    text: Measure 1/2 cup of flour and add it to the bowl.
+    index: 78
+  S20:
+    text: Measure 1/2 cup of quick oats and add it to the bowl.
+    index: 79
+  S21:
+    text: Cut cold butter (1/2 cup) and put it in the bowl.
+    index: 80
+  S22:
+    text: Add the crumble top (from the bowl) to the pie (with crust and filling).
+    index: 81
+  S23:
+    text: Microwave for 5 minutes and take the pie out.
+    index: 82
+Brownies:
+  S1:
+    text: Put 1/4 stick butter into a microwave-safe bowl.
+    index: 83
+  S2:
+    text: Add 0.75 oz (2.5 tsp) chocolate to the microwave-safe bowl.
+    index: 84
+  S3:
+    text: Heat the microwave-safe bowl on high for 1 to 2 minutes, stirring every
+      30 seconds to melt the chocolate (chocolate mixture).
+    index: 85
+  S4:
+    text: Break 1 egg in a bowl and throw away the shells.
+    index: 86
+  S5:
+    text: Measure 1/4 cup of white sugar and add it to the bowl.
+    index: 69
+  S6:
+    text: Whisk together the eggs and sugar (egg mixture).
+    index: 87
+  S7:
+    text: Measure 1/8 teaspoon of baking powder and add it to the another bowl.
+    index: 88
+  S8:
+    text: Measure 1/8 teaspoon of salt and add it.
+    index: 45
+  S9:
+    text: Measure 1/8 cup of all-purpose flour and add it to the bowl.
+    index: 89
+  S10:
+    text: Add the egg and chocolate mixtures to the bowl.
+    index: 90
+  S11:
+    text: Measure 1/4 teaspoon of vanilla extract, add it to the bowl and stir the
+      ingredients.
+    index: 91
+  S12:
+    text: Coat a 9-in. microwave-safe plate with cooking spray
+    index: 13
+  S13:
+    text: Pour the batter into the pan by spreading it out evenly.
+    index: 92
+  S14:
+    text: Measure 1/8 cup of chocolate chunks and scatter them on top.
+    index: 93
+  S15:
+    text: Cook in the microwave for 3 minutes.
+    index: 94
+  S16:
+    text: Remove from the microwave and rest for 2 minutes before cutting.
+    index: 95
+Coffee:
+  S1:
+    text: Measure 12 ounces of cold water and transfer to a kettle.
+    index: 96
+  S2:
+    text: Close the lid of the kettle and boil the water.
+    index: 97
+  S3:
+    text: While the water is boiling, assemble the filter cone.  Place the dripper
+      on top of a coffee mug.
+    index: 98
+  S4:
+    text: Prepare the filter insert by folding the paper filter in half to create
+      a semi-circle, and in half again to create a quarter-circle.
+    index: 99
+  S5:
+    text: Place the paper filter in the dripper and spread open to create a cone.
+    index: 100
+  S6:
+    text: Weigh the coffee beans (8 oz to 12 oz)
+    index: 101
+  S7:
+    text: Grind the coffee beans until the coffee grounds are the consistency of coarse
+      sand, about 20 seconds.
+    index: 102
+  S8:
+    text: Transfer the grounds to the filter cone.
+    index: 103
+  S9:
+    text: Once the water has boiled, check the temperature of the water.  (The water
+      should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius.   If
+      the water is too hot, let it cool briefly.)
+    index: 104
+  S10:
+    text: Pour a small amount of water in the filter to wet the grounds.  Wait about
+      30 seconds for coffee to bloom.  (You will see small bubbles or foam on the
+      coffee grounds during this step.)
+    index: 105
+  S11:
+    text: Slowly pour the rest of the water over the grounds in a circular motion.  Do
+      not overfill beyond the top of the paper filter.
+    index: 106
+  S12:
+    text: Let the coffee drain completely into the mug before removing the dripper.   Discard
+      the paper filter and coffee grounds.
+    index: 107
+Pinwheels:
+  S1:
+    text: Place tortilla on cutting board.
+    index: 108
+  S2:
+    text: Use a butter knife to scoop nut butter from the jar. Spread nut butter onto
+      the tortilla, leaving 1/2-inch uncovered at the edges.
+    index: 109
+  S3:
+    text: Clean the knife by wiping it with a paper towel.
+    index: 110
+  S4:
+    text: Use the knife to scoop jelly from the jar.  Spread jelly over the nut butter.
+    index: 111
+  S5:
+    text: Clean the knife by wiping it with a paper towel.
+    index: 110
+  S6:
+    text: Roll the tortilla from one end to the other into a log shape, about 1.5
+      inches thick. Roll it tight enough to prevent gaps, but not so tight that the
+      filling leaks.
+    index: 112
+  S7:
+    text: Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart.
+    index: 113
+  S8:
+    text: "Trim the ends of the tortilla roll with the butter knife, leaving \xBD\
+      \ inch margin between the last toothpick and the end of the roll.  Discard ends."
+    index: 114
+  S9:
+    text: Slide floss under the tortilla, perpendicular to the length of the roll.  Place
+      the floss halfway between two toothpicks.
+    index: 115
+  S10:
+    text: Cross the floss's two ends over the tortilla roll's top. Holding one end
+      of the floss in each hand, pull the floss ends in opposite directions to slice.
+    index: 116
+  S11:
+    text: Continue slicing with floss to create 1 more pinwheel.
+    index: 117
+  S12:
+    text: Continue slicing with floss to create 1 more pinwheel.
+    index: 117
+  S13:
+    text: Continue slicing with floss to create 1 more pinwheel.
+    index: 117
+  S14:
+    text: Place the pinwheels on a plate.
+    index: 118
+GardenFreshSweetCornSalsa:
+  S1:
+    text: Dice 1/4 cup cilantro and add it to a bowl.
+    index: 119
+  S2:
+    text: Peel 1 garlic clove.
+    index: 20
+  S3:
+    text: Slice 1 garlic clove and add it to the bowl.
+    index: 120
+  S4:
+    text: Slice 1 jalapeno and add it to the bowl.
+    index: 121
+  S5:
+    text: Extract the juice from 1/2 lemon and add it to the bowl.
+    index: 73
+  S6:
+    text: Peel one medium onion and cut it into two pieces.
+    index: 11
+  S7:
+    text: Slice 1/2 onion into pieces and add it to the bowl.
+    index: 122
+  S8:
+    text: Rinse a tomato and gently dry with a towel.
+    index: 123
+  S9:
+    text: Slice the tomato and chop it into small pieces and add it to a bowl.
+    index: 124
+  S10:
+    text: Measure 1/4 teaspoon salt and add it to the bowl
+    index: 125
+  S11:
+    text: Mix the contents thoroughly.
+    index: 47
+TomatoBasilMozzarellaSalad:
+  S1:
+    text: Rinse a tomato and gently dry with a towel.
+    index: 123
+  S2:
+    text: Slice one tomato into about 1/2 inch thick slices.
+    index: 126
+  S3:
+    text: Place the thick slices of tomatoes on a large platter making sure that they
+      only make a single layer.
+    index: 127
+  S4:
+    text: Season the tomato with salt.
+    index: 128
+  S5:
+    text: Sprinkle the cheese on top.
+    index: 49
+  S6:
+    text: Garnish with basil leaves.
+    index: 129
+  S7:
+    text: Season with 1/4 teaspoon black pepper
+    index: 130
+  S8:
+    text: Add a drizzle of extra-virgin olive oil, about 1 tablespoon over the entire
+      platter.
+    index: 131
+SouthernColeslaw:
+  S1:
+    text: Rinse a tomato and gently dry with a towel.
+    index: 123
+  S2:
+    text: Slice the tomato and chop it into small pieces and add it to a bowl.
+    index: 124
+  S3:
+    text: Season the tomato with salt.
+    index: 128
+  S4:
+    text: Season the tomato with pepper.
+    index: 132
+  S5:
+    text: Add the 2 cups of coleslaw mix to the bowl.
+    index: 133
+  S6:
+    text: Stir the contents well.
+    index: 27
+  S7:
+    text: Extract the juice from 1/2 lemon and add it to the bowl.
+    index: 73
+  S8:
+    text: Stir the contents well.
+    index: 27
+ButterCornCup:
+  S1:
+    text: Measure 2 cups of frozen corn.
+    index: 30
+  S2:
+    text: Thaw the frozen corn by putting it in a sieve and running it under some
+      cold water.
+    index: 31
+  S3:
+    text: Add the thawed corn to the microwave-safe dish
+    index: 32
+  S4:
+    text: Microwave for 2 minutes.
+    index: 134
+  S5:
+    text: Add butter and pepper powder to the bowl and then stir.
+    index: 135
+  S6:
+    text: Microwave the corn for 3 more minutes.
+    index: 136
+  S7:
+    text: Add 1 teaspoon salt to the bowl.
+    index: 137
+  S8:
+    text: Extract the juice from 1/2 lemon and add it to the bowl.
+    index: 73
+  S9:
+    text: Mix the contents thoroughly.
+    index: 47
+HeritageTomatoBruschetta:
+  S1:
+    text: Rinse a tomato and gently dry with a towel.
+    index: 123
+  S2:
+    text: Slice the tomato and chop it into small pieces and add it to a bowl.
+    index: 124
+  S3:
+    text: Squeeze the tomato pieces to release juices.
+    index: 138
+  S4:
+    text: Add 1/3 cup olive oil to the bowl
+    index: 139
+  S5:
+    text: Peel 1 garlic clove.
+    index: 20
+  S6:
+    text: Cut the garlic clove into small pieces
+    index: 140
+  S7:
+    text: Add 1 teaspoon basil to the bowl
+    index: 141
+  S8:
+    text: Mix the contents thoroughly.
+    index: 47
+CheesePimientoRecipe:
+  S1:
+    text: Rinse a bell pepper.
+    index: 142
+  S2:
+    text: Chop the bell pepper into tiny bits.
+    index: 143
+  S3:
+    text: Place the chopped pepper in a microwave safe bowl
+    index: 144
+  S4:
+    text: Add 2 tablespoons of water to the bowl.
+    index: 145
+  S5:
+    text: Microwave, covered, for 2 minutes
+    index: 146
+  S6:
+    text: Add cheese to another microwave safe bowl.
+    index: 147
+  S7:
+    text: Melt the cheese by microwaving for 30 seconds
+    index: 148
+  S8:
+    text: Mix the cheese, red bell pepper and add butter.
+    index: 149
+  S9:
+    text: Add 1/2 teaspoon salt.
+    index: 150
+  S10:
+    text: Add 1/2 teaspoon pepper.
+    index: 151
+  S11:
+    text: Mix the contents thoroughly.
+    index: 47
+BreakfastTaco:
+  S1:
+    text: Peel one medium onion and cut it into two pieces.
+    index: 11
+  S2:
+    text: Slice 1/2 onion into pieces and add it to the bowl.
+    index: 122
+  S3:
+    text: Rinse a tomato and gently dry with a towel.
+    index: 123
+  S4:
+    text: Slice the tomato and chop it into small pieces and add it to a bowl.
+    index: 124
+  S5:
+    text: Extract the juice from 1/2 lemon and add it to the bowl.
+    index: 73
+  S6:
+    text: Mix the contents thoroughly.
+    index: 47
+  S7:
+    text: Top tortillas with the mixture in the bowl
+    index: 152
+  S8:
+    text: Add 1/2 tablespoon cheese on top of the tortilla
+    index: 153
+  S9:
+    text: Heat in the microwave until the cheese is melted, about 30 seconds.
+    index: 154
+  S10:
+    text: Pour 1/4 cup egg white in the ramekin cup.
+    index: 155
+  S11:
+    text: Microwave the ramekin cup uncovered on high for 30 seconds and stir.
+    index: 2
+  S12:
+    text: Add the egg on top of the cheese.
+    index: 156
+HomemadeMicrowavePotatoChips:
+  S1:
+    text: Peel a medium potato.
+    index: 9
+  S2:
+    text: Slice the potato as thin as possible, about 1/8 inch thick or less.
+    index: 157
+  S3:
+    text: Dry the potatos slices slightly with a paper towel
+    index: 158
+  S4:
+    text: Place potato slices on a microwave-safe plate. Make sure slices don't overlap.
+    index: 159
+  S5:
+    text: Spray potatoes with oil spray.
+    index: 160
+  S6:
+    text: Sprinkle salt on top of the potato
+    index: 161
+  S7:
+    text: Sprinkle pepper on top of the potato
+    index: 162
+  S8:
+    text: Cook in a microwave for 5 minutes or until brown.
+    index: 163
+MicrowaveOmelet:
+  S1:
+    text: Spray a microwave-safe glass pan with cooking spray.
+    index: 164
+  S2:
+    text: Pour 1 egg in the bowl.
+    index: 165
+  S3:
+    text: Slice 1/2 onion CheesePimientoRecipe pieces and add it to the bowl.
+    index: 166
+  S4:
+    text: Rinse a tomato and gently dry with a towel.
+    index: 123
+  S5:
+    text: Slice the tomato and chop it into small pieces and add it to a bowl.
+    index: 124
+  S6:
+    text: Extract the juice from 1/2 lemon and add it to the bowl.
+    index: 73
+  S7:
+    text: Stir the contents well.
+    index: 27
+  S8:
+    text: Microwave on high for 3-5 minutes.
+    index: 167
+ChickfilaChickenSalad:
+  S1:
+    text: Chop 1 piece of chicken and add it to a bowl.
+    index: 168
+  S2:
+    text: Add 1/2 cup ranch dressing  to the bowl.
+    index: 169
+  S3:
+    text: Add 1 teaspoon salt to the bowl.
+    index: 137
+  S4:
+    text: Add 1 teaspoon pepper to the bowl.
+    index: 170
+  S5:
+    text: Peel one medium onion and cut it into two pieces.
+    index: 11
+  S6:
+    text: Slice 1/2 onion into pieces and add it to the bowl.
+    index: 122
+  S7:
+    text: Mix the contents thoroughly.
+    index: 47
+  S8:
+    text: Spread 1/4 of the chicken salad over a bread slice, and top with remaining
+      toast slice.
+    index: 171
+AppleCrispinMug:
+  S1:
+    text: Combine butter and white sugar in a bowl using a spoon.
+    index: 172
+  S2:
+    text: Add 2 table spoon flour to the bowl,
+    index: 173
+  S3:
+    text: Add 2 table spoon oats to the bowl
+    index: 174
+  S4:
+    text: Add 1/2 teaspoon salt.
+    index: 150
+  S5:
+    text: Mix the contents thoroughly.
+    index: 47
+  S6:
+    text: Spray oil on a microwave safe cup.
+    index: 175
+  S7:
+    text: Flatten 1/2 the crumble mixture into the bottom to form a crust.
+    index: 176
+  S8:
+    text: Microwave crust for 30 seconds on high.
+    index: 177
+  S9:
+    text: Cut apples into thin slices.
+    index: 66
+  S10:
+    text: Add 1 tablespoon brown sugar to the crust.
+    index: 179
+  S11:
+    text: Pour remaining 1/2 the crumble mixture on top
+    index: 180
+  S12:
+    text: Microwave for 1 minute and 30 seconds
+    index: 181
+ApplePieMicrowaveOatmealMug:
+  S1:
+    text: Chop an apple into pieces and add it to a microwave safe cup.
+    index: 182
+  S2:
+    text: Add 1/2 cup water to the cup.
+    index: 183
+  S3:
+    text: Add 1/2 cup quick oats to the cup
+    index: 184
+  S4:
+    text: Add 3 teaspoons brown sugar to the cup
+    index: 185
+  S5:
+    text: Mix the contents thoroughly.
+    index: 47
+  S6:
+    text: Microwave for 2 minutes.
+    index: 134
+SaucyMexicanEggs:
+  S1:
+    text: Add salsa to microwave safe bowl.
+    index: 186
+  S2:
+    text: Microwave for 1 minute.
+    index: 28
+  S3:
+    text: Pour contents of 1 egg on top of the salsa.
+    index: 187
+  S4:
+    text: Sprinkle the cheese on top.
+    index: 49
+  S5:
+    text: Cover and microwave for 3 to 4 minutes (or till eggs are done) on medium-low
+      heat.
+    index: 188
+CheesyEnglishStyleMuffinswithApple:
+  S1:
+    text: Cut the english muffin into two pieces with a knife.
+    index: 6
+  S2:
+    text: Place the english muffin inside a microwave and heat for 2 minutes.
+    index: 189
+  S3:
+    text: Cut apples into thin slices.
+    index: 66
+  S4:
+    text: Top one of the muffin half wih apple slices.
+    index: 190
+  S5:
+    text: Sprinkle the cheese on top.
+    index: 49
+  S6:
+    text: Microwave for 2 minutes.
+    index: 134
+MakeAheadBreakfastBurritos:
+  S1:
+    text: Extract the contents of an egg and add it to a microwave safe bowl.
+    index: 191
+  S2:
+    text: Whisk the egg.
+    index: 192
+  S3:
+    text: Microwave for 3 minutes stirring in between.
+    index: 193
+  S4:
+    text: Add salsa to microwave safe bowl.
+    index: 186
+  S5:
+    text: Add oregano to the bowl.
+    index: 194
+  S6:
+    text: Add sweet and sour sauce to the bowl.
+    index: 195
+  S7:
+    text: Mix the contents thoroughly.
+    index: 47
+  S8:
+    text: Place tortilla on cutting board.
+    index: 108
+  S9:
+    text: Pour egg mixture on top of the tortilla
+    index: 196
+  S10:
+    text: Sprinkle the cheese on top.
+    index: 49
+  S11:
+    text: Roll the tortilla from one end to the other into a log shape, about 1.5
+      inches thick. Roll it tight enough to prevent gaps, but not so tight that the
+      filling leaks.
+    index: 112
+SpicedHotChocolate:
+  S1:
+    text: Fill a microwave safe mug with skimmed milk.
+    index: 197
+  S2:
+    text: Heat the contents of the mug for 1 minute.
+    index: 198
+  S3:
+    text: Add 1-2 pieces of chocolate to the mug.
+    index: 199
+  S4:
+    text: Add a pinch of cinnamon to the mug.
+    index: 200
+  S5:
+    text: Add 1 teaspoon white sugar.
+    index: 201
+  S6:
+    text: Mix the contents thoroughly.
+    index: 47
+  S7:
+    text: Heat the contents of the mug for 1 minute.
+    index: 198
+MicrowaveOatmealBars:
+  S1:
+    text: Add 3 tablespoon oats to a large microwave safe bowl.
+    index: 202
+  S2:
+    text: Add 2 teaspoon brown sugar to the bowl.
+    index: 203
+  S3:
+    text: Add 1/2 tablespoon butter to the bowl.
+    index: 204
+  S4:
+    text: Mix the contents thoroughly.
+    index: 47
+  S5:
+    text: Microwave, uncovered, on high for 1.5 minutes.
+    index: 205
+  S6:
+    text: Mix the contents thoroughly.
+    index: 47
+  S7:
+    text: Microwave, uncovered, on high for 1.5 minutes.
+    index: 205
+  S8:
+    text: Sprinkle with chocolate chips
+    index: 206
+  S9:
+    text: Microwave, uncovered, on high for 1.5 minutes.
+    index: 205
+  S10:
+    text: Spread the chocolate evenly over top.
+    index: 207
+Microwave French Toast:
+  S1:
+    text: In a large mug, melt the 1 teaspoon butter in the microwave for about 30
+      seconds.
+    index: 208
+  S2:
+    text: Roll the butter around in the cup to coat it.
+    index: 209
+  S3:
+    text: In the mug whisk the egg with a fork until well blended.
+    index: 210
+  S4:
+    text: Sprinkle the cinnamon over the egg and add the vanilla then stir again.
+    index: 211
+  S5:
+    text: Cut or tear the bread into bite size pieces and add to the egg mixture in
+      the mug, pressing the bread down in to the egg.
+    index: 212
+  S6:
+    text: Microwave on high for 90 seconds at a time until the egg is cooked through.
+    index: 213
+  S7:
+    text: Put the contents of the cup on a plate and cut it up.
+    index: 214
