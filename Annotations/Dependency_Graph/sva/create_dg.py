@@ -64,6 +64,8 @@ for recipe in enumerate(all_key_phrase):
                                     done = True
                                     break
     # TODO - Do post processing here -
+    # Right now 0,0 means the node is not dependent on other nodes
+    # Remove/Use in other way when we have (0,0)
     all_recipes_edge_matrix[recipe[1]] = edge_matrix.tolist()
 
 import json
