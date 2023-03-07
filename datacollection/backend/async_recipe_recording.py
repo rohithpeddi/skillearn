@@ -8,7 +8,7 @@ import functools
 from datacollection.backend.Recording import Recording
 from datacollection.backend.box_service import BoxService
 from datacollection.backend.firebase_service import FirebaseService
-from datacollection.backend.hololens_service import HololensService
+from datacollection.backend.hololens.hololens_service import HololensService
 from datacollection.backend.constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')

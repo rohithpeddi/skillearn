@@ -1,4 +1,4 @@
-import hl2ss
+from datacollection.backend.hololens import hl2ss
 
 ACTIVITY = "activity"
 PLACE_ID = "place_id"
@@ -46,107 +46,121 @@ UPLOAD_QUEUE = "upload_queue"
 UPLOAD_ASYNC_OPERATION = "async_upload_operation"
 ACTIVITY_RECORD_ASYNC_OPERATION = "async_activity_record_operation"
 
-# -----------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------
+# ---------------------------- STREAM TYPES & PROPERTIES --------------------------------
 
-# Camera parameters
-# See etc/hl2_capture_formats.txt for a list of supported formats.
-FRAME_WIDTH = 1280
-FRAME_HEIGHT = 720
-FRAMERATE = 30
+PHOTOVIDEO = "pv"
+MICROPHONE = "mc"
+SPATIAL = "spatial"
 
-# Video encoding profile
-VIDEO_PROFILE = hl2ss.VideoProfile.H265_MAIN
-VIDEO_DECODE = 'bgr24'
+DEPTH_AHAT = "depth_ahat"
+DEPTH_AHAT_AB = "depth_ahat_ab"
+DEPTH_AHAT_DEPTH = "depth_ahat_depth"
 
-# Encoded video stream average bits per second
-# Must be > 0
-VIDEO_BITRATE = 5 * 1024 * 1024
-DEPTH_BITRATE = 8 * 1024 * 1024
+DEPTH_LT = "depth_lt"
+DEPTH_LT_AB = "depth_lt_ab"
+DEPTH_LT_DEPTH = "depth_lt_depth"
 
-# Decoded format
-DECODED_FORMAT = 'bgr24'
+IMU_ACCELEROMETER = "imu_acc"
+IMU_GYROSCOPE = "imu_gyro"
+IMU_MAGNETOMETER = "imu_magnetometer"
 
-# Audio encoding profile
-AUDIO_PROFILE = hl2ss.AudioProfile.AAC_24000
+VLC_LEFTLEFT = "vlc_ll"
+VLC_LEFTFRONT = "vlc_lf"
+VLC_RIGHTRIGHT = "vlc_rr"
+VLC_RIGHTFRONT = "vlc_rf"
 
-DEPTH_PORT = hl2ss.StreamPort.RM_DEPTH_AHAT
-VIDEO_PORT = hl2ss.StreamPort.PHOTO_VIDEO
 # Operating mode
 # 0: video
 # 1: video + rig pose
 # 2: query calibration (single transfer)
-DEPTH_MODE = hl2ss.StreamMode.MODE_1
-VIDEO_MODE = hl2ss.StreamMode.MODE_1
 
-# PNG filter
-PNG_FILTER = hl2ss.PngFilterMode.Paeth
+AB = "ab"
+DEPTH = "depth"
 
-# Ports
-PORTS = [
-    hl2ss.StreamPort.RM_VLC_LEFTFRONT,
-    hl2ss.StreamPort.RM_VLC_LEFTLEFT,
-    hl2ss.StreamPort.RM_VLC_RIGHTFRONT,
-    hl2ss.StreamPort.RM_VLC_RIGHTRIGHT,
-    hl2ss.StreamPort.RM_DEPTH_AHAT,
-    # hl2ss.StreamPort.RM_DEPTH_LONGTHROW,
-    hl2ss.StreamPort.PHOTO_VIDEO,
-    hl2ss.StreamPort.MICROPHONE,
-    hl2ss.StreamPort.SPATIAL_INPUT,
-    hl2ss.StreamPort.RM_IMU_ACCELEROMETER,
-    hl2ss.StreamPort.RM_IMU_GYROSCOPE,
-    hl2ss.StreamPort.RM_IMU_MAGNETOMETER,
-]
+
+PV_POSE_FILE_NAME = "pv_pose"
+PV_DATA_DIRECTORY = "pv_data"
+
+DEPTH_AHAT_POSE_FILE_NAME = "depth_pose"
+DEPTH_AHAT_AB_DATA_DIRECTORY = "depth_ahat_ab_data"
+DEPTH_AHAT_DEPTH_DATA_DIRECTORY = "depth_ahat_depth_data"
+
+SPATIAL_DATA_WRITER = "spatial_data_writer"
+
+MICROPHONE_DATA_WRITER = "mc_data_writer"
+DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
+PV_POSE_WRITER = "pv_pose_writer"
+
+# ---------------------------------------------------------------------------------------
+# ------------------------ STREAM PRODUCER PROPERTIES -----------------------------------
+
+# Typically transfer of RAW images requires more bitrate.
+# PV CAMERA PARAMETERS
+PV_FRAME_WIDTH = 640
+PV_FRAME_HEIGHT = 360
+PV_FRAMERATE = 30
+PV_STRIDE = hl2ss.compute_nv12_stride(PV_FRAME_WIDTH)
+
+PV_VIDEO_PROFILE_RAW = hl2ss.VideoProfile.RAW
+PV_VIDEO_BITRATE_RAW = 250 * 1024 * 1024
+
+PV_VIDEO_DECODE = 'bgr24'
+PV_VIDEO_BITRATE_DECODED = 5 * 1024 * 1024
+PV_VIDEO_PROFILE_DECODED = hl2ss.VideoProfile.H265_MAIN
+
+# DEPTH CAMERA PARAMETERS [AHAT]
+AHAT_MODE = hl2ss.StreamMode.MODE_1
+AHAT_PROFILE_RAW = hl2ss.VideoProfile.RAW
+AHAT_BITRATE_RAW = 250 * 1024 * 1024
+
+AHAT_BITRATE_DECODED = 1 * 1024 * 1024
+AHAT_PROFILE_DECODED = hl2ss.VideoProfile.H264_BASE
+
+# Audio encoding profile
+AUDIO_PROFILE_RAW = hl2ss.AudioProfile.RAW
+AUDIO_PROFILE_DECODED = hl2ss.AudioProfile.AAC_24000
+AUDIO_FRAME_RATE = hl2ss.Parameters_MICROPHONE.SAMPLE_RATE
 
 # RM VLC parameters
 VLC_MODE = hl2ss.StreamMode.MODE_1
 VLC_PROFILE = hl2ss.VideoProfile.H264_BASE
 VLC_BITRATE = 1 * 1024 * 1024
-
-# RM Depth AHAT parameters
-AHAT_MODE = hl2ss.StreamMode.MODE_1
-AHAT_PROFILE = hl2ss.VideoProfile.RAW
-AHAT_BITRATE = 30 * 1024 * 1024
+VLC_FPS = 15
+VLC_WIDTH = 640
+VLC_HEIGHT = 480
+BUFFER_ELEMENTS = 300
 
 # RM Depth Long Throw parameters
 LT_MODE = hl2ss.StreamMode.MODE_1
 LT_FILTER = hl2ss.PngFilterMode.Paeth
 
-# Maximum number of frames in buffer
-BUFFER_ELEMENTS = 300
+# ---------------------------------------------------------------------------------------
+# ------------------------ STREAM CONSUMER PROPERTIES -----------------------------------
 
-# PV parameters
-PV_MODE = hl2ss.StreamMode.MODE_1
-PV_WIDTH = FRAME_WIDTH
-PV_HEIGHT = FRAME_HEIGHT
-PV_FRAMERATE = 30
-PV_PROFILE = hl2ss.VideoProfile.H265_MAIN
-PV_BITRATE = 5 * 1024 * 1024
-PV_FORMAT = 'bgr24'
 
-# VLC Parameters
-VLC_FPS = 30
-VLC_WIDTH = 640
-VLC_HEIGHT = 480
+# ---------------------------------------------------------------------------------------
+# ------------------------ REDIS STREAM PROPERTIES -----------------------------------
 
-# Audio Parameters
-MC_PROFILE = hl2ss.AudioProfile.AAC_24000
-
-# IMU Parameters
-IMU_MODE = hl2ss.StreamMode.MODE_1
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+REDIS_MAX_CONNECTIONS = 20
 
 # ---------------------------------------------------------------------------------------------------------
-# VERIFICATION PROPERTIES
+# POST PROCESSING PROPERTIES
 # ---------------------------------------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------------------
+# ------------------------ AUDIO PROPERTIES -----------------------------------
+
+
 
 # Buffer length in seconds
 BUFFER_LENGTH = 10
 
 # Integration parameters
-VOXEL_LENGTH = 1/100
+VOXEL_LENGTH = 1 / 100
 SDF_TRUNC = 0.04
 MAX_DEPTH = 3.0
 
 PV_FOCUS = 1000
-
-
-

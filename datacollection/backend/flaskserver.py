@@ -1,16 +1,13 @@
+import logging
 import os
 import signal
-import json
 
 from flask import Flask, request, jsonify
-import logging
 
+from constants import *
 from datacollection.backend.Recording import Recording
 from datacollection.backend.async_recipe_recording import create_async_subprocess
 from datacollection.backend.firebase_service import FirebaseService
-from datacollection.backend.hololens_service import HololensService
-from datacollection.backend.util import activity_info_text_to_database
-from constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('This message will get logged on to a file')
