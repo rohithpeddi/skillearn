@@ -99,7 +99,7 @@ class RecipeGraph:
     def update_node_linkage(self, *, leaf_node, link_node, src_node, updating_node):
         # replace the node with the input node -- i.e., if 'flour mix' is getting
         # linked to some outputs from earlier, remove 'flour mix' and replace
-        # it with the output of the previous steps that are linking in
+        # it with the output of the previous recipes that are linking in
         removelist = []
         for e in self.G.out_edges(leaf_node):
             self.G.add_edge(link_node, e[1])
@@ -167,9 +167,9 @@ class RecipeGraph:
         added_preds = set()
         low_prio_edges = set()
 
-        # start by going through parsed steps that involve a subject and predicate or predicate and object.
+        # start by going through parsed recipes that involve a subject and predicate or predicate and object.
         # also, check to see if any direct object (dobj) relation has been detected. this is relevant to
-        # help with linking together the graphs with other steps.
+        # help with linking together the graphs with other recipes.
 
         for a, b, i, d in step['subj_pred']:
             # acomp is an adjective complement, which we are not interested in for now

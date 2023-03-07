@@ -29,7 +29,7 @@ for recipe in enumerate(all_key_phrase):
             key_phrases_idx_2 = this_recipe_key_phrases[idx_2]
             if done:
                 break
-            # Goes over previous steps to check dependence
+            # Goes over previous recipes to check dependence
             for each_phrase_1 in key_phrases_idx_1:
                 if done:
                     break

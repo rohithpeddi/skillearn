@@ -39,8 +39,8 @@ activity_step_dict, all_steps, recipe_step_dict_idx = activity_info_text_to_dict
 print(activity_step_dict, "\n", all_steps, "\n", recipe_step_dict_idx)
 
 
-# We will need two files - First file stores each recipe and the indices of its unique steps
-# Second file will contain a dictionary with the indices and unique steps
+# We will need two files - First file stores each recipe and the indices of its unique recipes
+# Second file will contain a dictionary with the indices and unique recipes
 def update_step_index(all_steps, activity_step_dict):
     index_to_step = {}
     step_to_index = {}

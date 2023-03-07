@@ -21,7 +21,7 @@ RECORDING_NUMBERS = "recording_numbers"
 
 STANDARD_RECORDINGS = "standard_recordings"
 ERROR_RECORDINGS = "error_recordings"
-STEPS = "steps"
+STEPS = "recipes"
 
 RECIPE_RECORDING_START_TIME = "recipe_start_time"
 RECIPE_RECORDING_END_TIME = "recipe_end_time"

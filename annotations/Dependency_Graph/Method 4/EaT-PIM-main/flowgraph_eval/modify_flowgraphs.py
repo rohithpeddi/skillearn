@@ -299,5 +299,5 @@ import pandas as pd
 recipe_data = []
 for i in range(len(recipe_ids)):
     recipe_data.append([recipe_names[i], recipe_ids[i], recipe_texts[i], recipe_ings[i], ["none"],'',''])
-df = pd.DataFrame(recipe_data, columns=["name", "id", "steps", "ingredients", "tags", "contributor_id", "submitted"])
+df = pd.DataFrame(recipe_data, columns=["name", "id", "recipes", "ingredients", "tags", "contributor_id", "submitted"])
 df.to_csv("flowgraph_recipes.csv", index=False)

@@ -392,7 +392,7 @@ def save_process_results(*, data, output_file: Path):
 def main(*, input_file: str, output_file: str, output_texts: str, n_recipes: int = 0):
     raw_recipe_data = load_recipe_data(data_file=(path.DATA_DIR / input_file), limit_n_recipes=n_recipes, recipe_choices=output_texts)
 
-    id_steps = list(zip(raw_recipe_data.index.values.tolist(), raw_recipe_data["steps"].values.tolist()))
+    id_steps = list(zip(raw_recipe_data.index.values.tolist(), raw_recipe_data["recipes"].values.tolist()))
     id_ings = list(zip(raw_recipe_data.index.values.tolist(), raw_recipe_data["ingredients"].values.tolist()))
     id_ings = [(ing, {"recipe_id": tup[0]})
                for tup in id_ings

@@ -85,8 +85,8 @@ def parse_args(args=None):
     
     parser.add_argument('--save_checkpoint_steps', default=10000, type=int)
     parser.add_argument('--valid_steps', default=10000, type=int)
-    parser.add_argument('--log_steps', default=100, type=int, help='train log every xx steps')
-    parser.add_argument('--test_log_steps', default=1000, type=int, help='valid/test log every xx steps')
+    parser.add_argument('--log_steps', default=100, type=int, help='train log every xx recipes')
+    parser.add_argument('--test_log_steps', default=1000, type=int, help='valid/test log every xx recipes')
     
     parser.add_argument('--nentity', type=int, default=0, help='DO NOT MANUALLY SET')
     parser.add_argument('--nrelation', type=int, default=0, help='DO NOT MANUALLY SET')
@@ -421,7 +421,7 @@ def main(args):
         for step in range(init_step, args.max_steps):
 
             if step % train_triples_every_n == 0 and step > 0:
-                # every 100 steps, train the triples in the graph
+                # every 100 recipes, train the triples in the graph
                 # triples give data about relations among entities, as well as recipes and their
                 # nodes (recipe, hasNode, ingredient-or-equipment)
                 # the triple training also can actually use batches, while the graph training only does 1 graph at a time
