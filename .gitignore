@@ -131,3 +131,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 !/Annotations/recipe_extraction/dataset.zip
+!/Annotations/recipe_extraction/output/recipes_with_actions.pkl
