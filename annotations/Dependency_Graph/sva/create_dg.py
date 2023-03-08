@@ -49,8 +49,8 @@ for recipe in enumerate(all_key_phrase):
                                 each_word_1 = ps.stem(each_word_1)
                                 each_word_2 = ps.stem(each_word_2)
                                 if each_word_1 == each_word_2:
-                                    edge_matrix[idx_1 - 1, 0] = idx_2
-                                    edge_matrix[idx_1 - 1, 1] = idx_1
+                                    edge_matrix[idx_1 - 1, 0] = idx_2 + 1
+                                    edge_matrix[idx_1 - 1, 1] = idx_1 + 1
                                     done = True
                                     break
                                 # if each_word_1 in each_phrase_2.split(" "):
@@ -59,13 +59,13 @@ for recipe in enumerate(all_key_phrase):
                                 except KeyError:
                                     continue
                                 if similarity > 0.90:
-                                    edge_matrix[idx_1-1, 0] = idx_2
-                                    edge_matrix[idx_1-1, 1] = idx_1
+                                    edge_matrix[idx_1-1, 0] = idx_2 + 1
+                                    edge_matrix[idx_1-1, 1] = idx_1 + 1
                                     done = True
                                     break
     # TODO - Do post processing here -
     # Right now 0,0 means the node is not dependent on other nodes
-    # Remove/Use in other way when we have (0,0)
+    # Remove/Use in other way when we have (0,0) - Add th node to the graph
     all_recipes_edge_matrix[recipe[1]] = edge_matrix.tolist()
 
 import json
