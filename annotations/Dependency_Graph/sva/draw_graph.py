@@ -21,7 +21,7 @@ def get_adjaceny_matrix(edge_matrix, num_steps):
 def show_graph_with_labels(adjacency_matrix, mylabels, recipe_name):
     rows, cols = np.where(adjacency_matrix == 1)
     edges = zip(rows.tolist(), cols.tolist())
-    gr = nx.Graph()
+    gr = nx.DiGraph()
     gr.add_edges_from(edges)
     nx.draw(gr, node_size=500, with_labels=True)
     # plt.show()

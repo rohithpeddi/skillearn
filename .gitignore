@@ -132,3 +132,5 @@ dmypy.json
 .pyre/
 !/Annotations/recipe_extraction/dataset.zip
 !/Annotations/recipe_extraction/output/recipes_with_actions.pkl
+!/Annotations/recipe_extraction/output/actions_in_recipes.pkl
+!/Annotations/recipe_extraction/output/recipes_for_actions.pkl
