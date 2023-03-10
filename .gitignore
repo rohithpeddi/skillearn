@@ -135,3 +135,12 @@ dmypy.json
 !/Annotations/recipe_extraction/output/actions_in_recipes.pkl
 !/Annotations/recipe_extraction/output/recipes_for_actions.pkl
 !/Annotations/recipe_extraction/output/top_50_recipes.csv
+!/Annotations/recipe_extraction/output/recipes_with_max_10_actions.csv
+
+!/Annotations/recipe_extraction/output/recipes_with_max_20_actions.csv
+
+!/Annotations/recipe_extraction/output/recipes_with_max_30_actions.csv
+
+!/Annotations/recipe_extraction/output/recipes_with_max_40_actions.csv
+
+!/Annotations/recipe_extraction/output/recipes_with_max_50_actions.csv
