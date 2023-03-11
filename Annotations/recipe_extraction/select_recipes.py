@@ -24,7 +24,8 @@ def take(n, iterable):
     return list(islice(iterable, n))
 
 
-actions_in_recipes = list(OrderedDict(sorted(actions_in_recipes.items(), key=lambda x: len(x[1]), reverse=True)).items())
+actions_in_recipes = list(
+    OrderedDict(sorted(actions_in_recipes.items(), key=lambda x: len(x[1]), reverse=True)).items())
 
 
 # first_100 = take(150, res.items())
@@ -48,5 +49,7 @@ def create_df_for_max_actions(max_actions, actions_in_recipes, recipes, n=100):
     final_dfs.to_csv(f"output/recipes_with_max_{max_actions}_actions.csv")
 
 
-for max_actions in [50, 40, 30, 20, 10]:
-    create_df_for_max_actions(max_actions, actions_in_recipes, recipes, 100)
+# max_actions_list = [50, 40, 30, 20, 10]
+max_actions_list = [5, 7, 10]
+for max_actions in max_actions_list:
+    create_df_for_max_actions(max_actions, actions_in_recipes, recipes, 200)

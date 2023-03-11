@@ -144,3 +144,6 @@ dmypy.json
 !/Annotations/recipe_extraction/output/recipes_with_max_40_actions.csv
 
 !/Annotations/recipe_extraction/output/recipes_with_max_50_actions.csv
+!/Annotations/recipe_extraction/output/recipes_with_max_5_actions.csv
+
+!/Annotations/recipe_extraction/output/recipes_with_max_7_actions.csv
