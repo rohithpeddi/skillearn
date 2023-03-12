@@ -16,6 +16,8 @@ for each_recipe in tqdm(activity_dict):
         text = activity_dict[each_recipe][each_step]['text']
         # Init default vectorizer.
         vectorizer = KeyphraseCountVectorizer()
+        # extract the keyphrases for this sentence
+        # keyphrases act as the noun entities for a given recipe.
         document_keyphrase_matrix = vectorizer.fit_transform([text]).toarray()
         keyphrases = vectorizer.get_feature_names_out().tolist()
         recipe_key_phrases.append(keyphrases)

@@ -4,7 +4,7 @@ from pprint import pprint
 from gensim.models import Word2Vec
 import gensim.downloader
 from nltk import PorterStemmer
-
+similarity_value = 0.70
 glove_vectors = gensim.downloader.load('word2vec-google-news-300')
 ps = PorterStemmer()
 # print(glove_vectors.similarity('france', 'spain'))
@@ -58,7 +58,7 @@ for recipe in enumerate(all_key_phrase):
                                     similarity = glove_vectors.similarity(each_word_1, each_word_2)
                                 except KeyError:
                                     continue
-                                if similarity > 0.90:
+                                if similarity > similarity_value:
                                     edge_matrix[idx_1-1, 0] = idx_2 + 1
                                     edge_matrix[idx_1-1, 1] = idx_1 + 1
                                     done = True
@@ -66,12 +66,19 @@ for recipe in enumerate(all_key_phrase):
     # TODO - Do post processing here -
     # Right now 0,0 means the node is not dependent on other nodes
     # Remove/Use in other way when we have (0,0) - Add th node to the graph
+    for edge_idx in range(edge_matrix.shape[0]):
+        if edge_idx != edge_matrix.shape[0]:
+            if edge_matrix[edge_idx, 0] == 0 and edge_matrix[edge_idx, 1] == 0:
+                edge_matrix[edge_idx, 0] = edge_idx + 1
+                edge_matrix[edge_idx, 1] = edge_idx + 2
+
+
     all_recipes_edge_matrix[recipe[1]] = edge_matrix.tolist()
 
 import json
-with open('edge_matrices.json', 'w') as fout:
+with open(f'edge_matrices_similarity_{similarity_value}.json', 'w') as fout:
     json.dump(all_recipes_edge_matrix, fout, ensure_ascii=False, indent=4)
 
-with open('edge_matrices.json', 'r') as fin:
+with open(f'edge_matrices_similarity_{similarity_value}.json', 'r') as fin:
     all_recipes_edge_matrix = json.load(fin, )
 pprint(all_recipes_edge_matrix)
