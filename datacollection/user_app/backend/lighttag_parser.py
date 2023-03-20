@@ -76,15 +76,6 @@ def find_topological_orderings(dependency_graph):
 	return orderings
 
 
-def interleave_sequences(sequences):
-	interleaved = []
-	for seq in itertools.zip_longest(*sequences, fillvalue=None):
-		for item in seq:
-			if item is not None:
-				interleaved.append(item)
-	return interleaved
-
-
 def fetch_activity_programs(topological_orderings, num_programs):
 	num_topological_orders = len(topological_orderings)
 	if num_topological_orders > num_programs:
