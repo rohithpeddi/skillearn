@@ -62,9 +62,11 @@ def find_topological_orderings(dependency_graph):
 			orderings.append(stack)
 			return
 		
-		# Only include terminal nodes
+		# Only include a sample of 3 from terminal nodes
 		terminal_nodes = [node for node in graph if graph.in_degree()[node] == 0]
-		for node in terminal_nodes:
+		random.shuffle(terminal_nodes)
+		sampled_nodes = random.sample(terminal_nodes, min(3, len(terminal_nodes)))
+		for node in sampled_nodes:
 			if node not in visited:
 				new_visited = visited | {node}
 				new_graph = graph.subgraph([n for n in graph if n not in new_visited])
@@ -307,7 +309,7 @@ class LightTagParser:
 			program_dicts.append(program_dict)
 		
 		for i, program in enumerate(invalid_programs):
-			program_dict = self._generate_program_dict(program, i + 13, is_valid=False)
+			program_dict = self._generate_program_dict(program, i + 1 + const.NUM_VALID_PROGRAMS, is_valid=False)
 			program_dicts.append(program_dict)
 		
 		return program_dicts
@@ -317,7 +319,7 @@ class LightTagParser:
 		step_dicts = [self._step_dict_from_program_step(step) for step in program]
 		
 		if not is_valid:
-			step_dicts, mistake_dicts = self._add_mistakes(step_dicts, program_counter)
+			step_dicts, mistake_dicts = self._add_mistakes(step_dicts, program_counter, const.NUM_VALID_PROGRAMS)
 		
 		program_dict[const.STEPS] = step_dicts
 		
@@ -330,20 +332,22 @@ class LightTagParser:
 		step_description = program_step.split(":")[-1]
 		return Step(step_description).to_dict()
 	
-	def _add_mistakes(self, step_dicts, program_counter):
-		if program_counter > 10:
+	def _add_mistakes(self, step_dicts, program_counter, base_counter):
+		# Order mistakes for all the invalid programs > 10
+		# Missing step for all the invalid programs < 30
+		if program_counter > const.THRESHOLD_NUM_MISSING_STEPS + base_counter:
 			step_dicts = self._shuffle_steps(step_dicts)
 		
 		mistake_dicts = []
 		filtered_step_dicts = []
 		
 		for step_dict in step_dicts:
-			if program_counter < 10 and random.random() < 0.1:
-				mistake_dicts.append(Mistake(MistakeTag.MISSING_STEP, step_dict["description"]).to_dict())
+			if program_counter < const.THRESHOLD_NUM_MISSING_STEPS_ORDER_MISTAKES + base_counter and random.random() < 0.1:
+				mistake_dicts.append(Mistake(MistakeTag.MISSING_STEP, step_dict[const.DESCRIPTION]).to_dict())
 			else:
 				filtered_step_dicts.append(step_dict)
 		
-		if program_counter > 10:
+		if program_counter > const.THRESHOLD_NUM_MISSING_STEPS + base_counter:
 			mistake_dicts.append(Mistake(MistakeTag.ORDER_MISTAKE).to_dict())
 		
 		return filtered_step_dicts, mistake_dicts
