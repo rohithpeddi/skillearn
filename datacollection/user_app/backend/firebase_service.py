@@ -2,9 +2,10 @@
 import time
 
 import pyrebase
-from datacollection.user_app.backend.constants import *
+from datacollection.user_app.backend.constants import Firebase_Constants as const
 from datacollection.user_app.backend.models.activity import Activity
 from datacollection.user_app.backend.models.user import User
+
 
 firebaseConfig = {
 	"apiKey": "AIzaSyCzBlh4hXDXJqIBZEkcF0kXh70K6-RuEsc",
@@ -25,21 +26,36 @@ class FirebaseService:
 	def __init__(self):
 		self.db = firebase.database()
 	
+	# ---------------------- BEGIN ENVIRONMENT ----------------------
+	def fetch_current_environment(self):
+		return self.db.child(const.CURRENT_ENVIRONMENT).get().val()
+	# ---------------------- END ENVIRONMENT ----------------------
+	
 	# ---------------------- BEGIN USER ----------------------
+	def get_users(self):
+		return self.db.child(const.USERS).get().val()
+	
 	def update_user_details(self, user: User):
-		self.db.child(DB_USERS).child(user.id).set(user.to_dict())
+		self.db.child(const.USERS).child(user.id).set(user.to_dict())
 	
 	def get_user_details(self, user: User):
-		return self.db.child(DB_USERS).child(user.id).get().val()
+		return self.db.child(const.USERS).child(user.id).get().val()
+	
+	def fetch_user_info(self, user_id: int):
+		return self.db.child(const.USERS).child(user_id).get().val()
 	
 	# ---------------------- END USER ----------------------
 	
 	# ---------------------- BEGIN ACTIVITY ----------------------
+	
+	def get_activities(self):
+		return self.db.child(const.ACTIVITIES).get().val()
+	
 	def update_activity_details(self, activity: Activity):
-		self.db.child(DB_ACTIVITIES).child(activity.id).set(activity.to_dict())
+		self.db.child(const.ACTIVITIES).child(activity.id).set(activity.to_dict())
 	
 	def get_activity_details(self, activity: Activity):
-		return self.db.child(DB_ACTIVITIES).child(activity.id).get().val()
+		return self.db.child(const.ACTIVITIES).child(activity.id).get().val()
 	
 	# ---------------------- END ACTIVITY ----------------------
 	
@@ -129,3 +145,8 @@ class FirebaseService:
 	# 		.child(recording_instance.person_id) \
 	# 		.child(recording_instance.rec_number) \
 	# 		.child(component).set(status)
+
+
+if __name__ == "__main__":
+	db_service = FirebaseService()
+	db_service.get_users()

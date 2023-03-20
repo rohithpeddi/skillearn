@@ -65,8 +65,15 @@ class User:
 				self.update_environment_schedule(missing_environment)
 	
 	def build_all_environment_schedules(self):
-		for missing_environment in range(1, TOTAL_ENVIRONMENTS + 1):
-			self.update_environment_schedule(missing_environment)
+		environments_yet_to_record = range(1, TOTAL_ENVIRONMENTS + 1)
+		recorded_environments = []
+		if len(self.recording_schedules) > 0:
+			recorded_environments = [schedule.environment for schedule in self.recording_schedules if schedule.is_done_recording]
+		
+		environments_yet_to_record = list(set(environments_yet_to_record) - set(recorded_environments))
+		
+		for environment in environments_yet_to_record:
+			self.update_environment_schedule(environment)
 	
 	def to_dict(self) -> dict:
 		user_dict = {ID: self.id, USERNAME: self.username}

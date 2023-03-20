@@ -15,14 +15,21 @@ ACTIVITY_ID = "activity_id"
 IS_MISTAKE = "is_mistake"
 RECORDED_BY = "recorded_by"
 
-DB_USERS = "users"
-DB_ACTIVITIES = "activities"
+
+# # ---------------------------------------------------------------------------------------
+# # ------------------------ DATABASE PROPERTIES -----------------------------------
+
+class Firebase_Constants:
+	USERS = "users"
+	ACTIVITIES = "activities"
+	CURRENT_ENVIRONMENT = "current_environment"
+
 
 ENVIRONMENT = "environment"
 NORMAL_RECORDINGS = "normal_activities"
 MISTAKE_RECORDINGS = "mistake_activities"
 RECORDED_LIST = "recorded_list"
-RECORDING_STATUS = "recording_status"
+IS_DONE_RECORDING = "recording_status"
 ACTIVITY_PREFERENCES = "activity_preferences"
 RECORDING_SCHEDULES = "recording_schedules"
 
@@ -63,13 +70,21 @@ class LightTag_Constants:
 	STEPS = "steps"
 	MISTAKES = "mistakes"
 	
-	NUM_VALID_PROGRAMS = 12
+	NUM_VALID_PROGRAMS = 25
 	NUM_INVALID_PROGRAMS = 100
 	
 	NUM_MISSING_STEP_PROGRAMS = 10
 	NUM_INVALID_ORDER_PROGRAMS = 90
 	
 	NUM_TO_SHUFFLE = 20
+
+
+# # ---------------------------------------------------------------------------------------
+# # ------------------------ LIGHT TAG PROPERTIES -----------------------------------
+
+class FlaskServer_constants:
+	ID = "id"
+	USERNAME = "username"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -110,7 +125,7 @@ UPLOADED = "uploaded"
 PENDING = "pending"
 UPLOADING = "uploading"
 
-RECORDING_STATUS = "recording_status"
+IS_DONE_RECORDING = "is_done_recording"
 UPLOAD_STATUS = "upload_status"
 
 UPLOAD_QUEUE = "upload_queue"

@@ -15,13 +15,13 @@ class Schedule:
 		self.environment = environment
 		
 		self.recorded_list = []
-		self.recording_status = False
+		self.is_done_recording = False
 	
 	def update_recorded(self, recording_id):
 		self.recorded_list.append(recording_id)
 		
 		if len(self.recorded_list) >= 8:
-			self.recording_status = True
+			self.is_done_recording = True
 	
 	def to_dict(self) -> dict:
 		schedule_dict = {ENVIRONMENT: self.environment, NORMAL_RECORDINGS: self.normal,
@@ -29,7 +29,7 @@ class Schedule:
 		
 		if len(self.recorded_list) > 0:
 			schedule_dict[RECORDED_LIST] = self.recorded_list
-			schedule_dict[RECORDING_STATUS] = self.recording_status
+			schedule_dict[IS_DONE_RECORDING] = self.is_done_recording
 		
 		return schedule_dict
 	
@@ -40,6 +40,6 @@ class Schedule:
 		
 		if RECORDED_LIST in schedule_dict:
 			schedule.recorded_list = schedule_dict[RECORDED_LIST]
-			schedule.recorded_status = schedule_dict[RECORDING_STATUS]
+			schedule.is_done_recording = schedule_dict[IS_DONE_RECORDING]
 		
 		return schedule
