@@ -1,0 +1,15 @@
+Flask~=2.2.2
+pyrebase4
+numpy==1.20.1
+pandas~=1.3.5
+scipy==1.7.0
+protobuf==3.20.0
+oauthlib==3.0.0
+matplotlib
+google-auth==1.0.0
+pyyaml
+gensim==4.0.1
+python-Levenshtein
+absl-py==1.4.0
+pytz==2017.3
+networkx==3.0

@@ -1,0 +1,72 @@
+- id: 1
+  name: "Microwave Egg Sandwich"
+  category: "Non-Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Coat a 6-oz. ramekin cup with cooking spray."
+    - 1:
+      description: "Pour 1 egg into the ramekin cup."
+    - 2:
+      description: "Microwave the ramekin cup uncovered on high for 30 seconds and stir."
+    - 3:
+      description: "Continue to Microwave for 15-30 more seconds or until the egg is almost set."
+    - 4:
+      description: "Top with 1 tablespoon of salsa and sprinkle with 1 tablespoon of cheese."
+    - 5:
+      description: "Microwave just until cheese melts, about 10 seconds."
+    - 6:
+      description: "Cut the English muffin into two pieces with a knife."
+    - 7:
+      description: "Line the bottom of the English muffin with lettuce."
+    - 8:
+      description: "Place the egg from the cup over the lettuce and replace the top of the English muffin."
+  mistake_hints:
+    - 0:
+      tag: Preparation Mistake
+      description: "Using too little or too much cooking spray, which may result in the egg sticking to the ramekin or make the egg overly greasy."
+    - 1:
+      tag: TIme Mistake
+      description: "Missing some spots while coating the ramekin, which could also lead to the egg sticking."
+    - 2:
+      tag: Tool Mistake
+      description: "Breaking the egg yolk accidentally, which could affect the desired texture of the final dish."
+    - 3:
+      tag: Other Mistake
+      description: "Getting eggshell pieces in the ramekin cup, which would be unpleasant to eat."
+    - 4:
+      tag: Temp Mistake
+      description: "Overcooking or under cooking the egg, which could result in an undesirable texture or even food safety concerns."
+    - 5:
+      tag: Object Mistake
+      description: "Forgetting to stir the egg after 30 seconds, which could lead to uneven cooking."
+    - 6:
+      tag: time Mistake
+      description: "Using too much or too little salsa or cheese, which could affect the overall taste and balance of flavors."
+    - 7:
+      tag: place Mistake
+      description: "Choosing the wrong type of salsa or cheese, which could change the intended flavor profile."
+    - 8:
+      tag: order Mistake
+      description: "Over-microwaving, which could cause the cheese to overcook or the dish to become too hot."
+    - 9:
+      tag: Preparation Mistake
+      description: "Under-microwaving, resulting in only partially melted cheese."
+    - 10:
+      tag: Preparation Mistake
+      description: "Cutting the English muffin unevenly, leading to an unstable sandwich."
+    - 11:
+      tag: TIme Mistake
+      description: "Over-toasting or under-toasting the English muffin, which could affect the taste and texture."
+    - 12:
+      tag: Timing Mistake
+      description: "Placing too much or too little lettuce, which could alter the intended balance of flavors and textures."
+    - 13:
+      tag: Preparation Mistake
+      description: "Assembling the sandwich incorrectly, such as placing the egg on top of the lettuce and then the English muffin, making the sandwich difficult to eat."
+  required_items:
+    - 0: "1 Cooking spray"
+    - 1: "1 Egg"
+    - 2: "1 tbsp salsa"
+    - 3: "1 English Muffin"
+    - 4: "Shredded Lettuce"
