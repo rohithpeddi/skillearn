@@ -1,3 +1,5 @@
-const Recording = () => {
-//    Import AppBar
+const Recording = ({ userData }) => {
+
 }
+
+export default Recording;

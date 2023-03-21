@@ -30,7 +30,6 @@ ACTIVITY_ID = "activity_id"
 IS_MISTAKE = "is_mistake"
 RECORDED_BY = "recorded_by"
 
-
 # # ---------------------------------------------------------------------------------------
 # # ------------------------ RECORDING PROPERTIES -----------------------------------
 
@@ -58,6 +57,11 @@ class Recording_Constants:
 	TAG = "tag"
 	
 	ACTIVITIES = "activities"
+	NAME = "name"
+	CATEGORY = "category"
+	ACTIVITY_TYPE = "activity_type"
+	MISTAKE_HINTS = "mistake_hints"
+	REQUIRED_ITEMS = "required_items"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -129,7 +133,7 @@ class LightTag_Constants:
 
 
 # # ---------------------------------------------------------------------------------------
-# # ------------------------ LIGHT TAG PROPERTIES -----------------------------------
+# # ------------------------ FLASK SERVER PROPERTIES -----------------------------------
 
 class FlaskServer_constants:
 	ID = "id"
