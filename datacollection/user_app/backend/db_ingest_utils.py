@@ -29,7 +29,7 @@ class UserIngestion(FirebaseIngestion):
 			
 		for user_data in users_data:
 			user = User.from_dict(user_data)
-			self.db_service.update_user_details(user)
+			self.db_service.update_user(user)
 
 
 class ActivitiesIngestion(FirebaseIngestion):
@@ -44,7 +44,7 @@ class ActivitiesIngestion(FirebaseIngestion):
 		
 		for activity_data in activities_data:
 			activity = Activity.from_yaml_dict(activity_data)
-			self.db_service.update_activity_details(activity)
+			self.db_service.update_activity(activity)
 
 
 class ActivityRecordingsIngestion(FirebaseIngestion):

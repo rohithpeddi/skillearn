@@ -17,8 +17,14 @@ class Schedule:
 		self.recorded_list = []
 		self.is_done_recording = False
 	
-	def update_recorded(self, recording_id):
-		self.recorded_list.append(recording_id)
+	def update_recorded(self, activity_id):
+		self.recorded_list.append(activity_id)
+		
+		if activity_id in self.normal:
+			self.normal.remove(activity_id)
+		
+		if activity_id in self.mistakes:
+			self.mistakes.remove(activity_id)
 		
 		if len(self.recorded_list) >= 8:
 			self.is_done_recording = True

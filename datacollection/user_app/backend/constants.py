@@ -56,6 +56,8 @@ class Recording_Constants:
 	MODIFIED_DESCRIPTION = "modified_description"
 	
 	TAG = "tag"
+	
+	ACTIVITIES = "activities"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -65,6 +67,8 @@ class Firebase_Constants:
 	USERS = "users"
 	ACTIVITIES = "activities"
 	CURRENT_ENVIRONMENT = "current_environment"
+	
+	RECORDINGS = "recordings"
 
 
 ENVIRONMENT = "environment"
@@ -130,6 +134,9 @@ class LightTag_Constants:
 class FlaskServer_constants:
 	ID = "id"
 	USERNAME = "username"
+	
+	ACTIVITY_RECORDINGS = "activity_recordings"
+	RECORDED_BY = "recorded_by"
 
 
 # # ---------------------------------------------------------------------------------------

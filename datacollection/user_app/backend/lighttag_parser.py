@@ -65,7 +65,7 @@ def find_topological_orderings(dependency_graph):
 		# Only include a sample of 1 from terminal nodes
 		terminal_nodes = [node for node in graph if graph.in_degree()[node] == 0]
 		random.shuffle(terminal_nodes)
-		sampled_nodes = random.sample(terminal_nodes, min(1, len(terminal_nodes)))
+		sampled_nodes = random.sample(terminal_nodes, min(5, len(terminal_nodes)))
 		for node in sampled_nodes:
 			if node not in visited:
 				new_visited = visited | {node}
@@ -251,7 +251,7 @@ class LightTagParser:
 		return program_dict
 	
 	def _step_dict_from_program_step(self, program_step):
-		step_description = ":".join(program_step.split(":")[-2:])
+		step_description = "-".join(program_step.split(":")[-2:])
 		return Step(step_description).to_dict()
 	
 	def _add_mistakes(self, step_dicts, program_counter, base_counter):
@@ -285,8 +285,9 @@ class LightTagParser:
 		return step_dicts
 	
 	def generate_recording_data(self):
-		for activity_file_name in os.listdir(self.activity_data_directory):
-			self.generate_activity_recording_data(activity_file_name)
+		self.generate_activity_recording_data("microwavemugpizza.json")
+		# for activity_file_name in os.listdir(self.activity_data_directory):
+		# 	self.generate_activity_recording_data(activity_file_name)
 
 
 if __name__ == "__main__":

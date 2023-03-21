@@ -1,5 +1,6 @@
 from typing import List
 
+from datacollection.user_app.backend.models.recording import Recording
 from datacollection.user_app.backend.models.user import User
 from logger_config import logger
 from flask import Flask, request, jsonify
@@ -22,7 +23,7 @@ def login():
 		logger.error("Invalid username or password")
 		response = jsonify({"error": "Invalid username or password"}), 400
 	elif password == "darpa":
-		users = db_service.get_users()
+		users = db_service.fetch_users()
 		for user in users:
 			if user and user[const.USERNAME] == username:
 				response = jsonify({"user_id": user[const.ID]})
@@ -33,6 +34,9 @@ def login():
 	response.headers.add('Access-Control-Allow-Origin', '*')
 	return response
 
+
+# --------------------------------------------------------------------------------------------
+# -------------------------------------- ENVIRONMENT -----------------------------------------
 
 @app.route('/environment', methods=['GET'])
 def fetch_environment():
@@ -46,7 +50,7 @@ def fetch_environment():
 # 1. Fetch all activity information
 @app.route('/activities', methods=['GET'])
 def fetch_activities():
-	activities = db_service.get_activities()
+	activities = db_service.fetch_activities()
 	return jsonify(activities)
 
 
@@ -58,7 +62,7 @@ def fetch_activities():
 # d. User Recording Schedules
 @app.route('/users/<int:user_id>/info', methods=['GET'])
 def fetch_user_info(user_id):
-	user_info = db_service.fetch_user_info(user_id=user_id)
+	user_info = db_service.fetch_user(user_id=user_id)
 	return jsonify(user_info)
 
 
@@ -67,12 +71,12 @@ def fetch_user_info(user_id):
 def update_activity_preferences(user_id):
 	activity_preferences: List[int] = request.values
 	try:
-		user_info = db_service.fetch_user_info(user_id)
+		user_info = db_service.fetch_user(user_id)
 		user = User.from_dict(user_info)
 		user.update_preferences(activity_preferences)
 		user.build_all_environment_schedules()
 		
-		db_service.update_user_details(user)
+		db_service.update_user(user)
 		
 		return jsonify(user.to_dict())
 	except Exception as e:
@@ -83,6 +87,59 @@ def update_activity_preferences(user_id):
 # -------------------------------------- RECORDING -----------------------------------------
 
 # 1. First fetches user info which have all information about all schedules
+# 2. Fetch an unassigned recording information for an activity
+@app.route('/activities/<int:activity_id>/unassigned/recordings', methods=['GET'])
+def fetch_unassigned_activity_recording(activity_id):
+	activity_recordings = db_service.fetch_activity_recordings(activity_id)[const.ACTIVITY_RECORDINGS]
+	unassigned_recordings = []
+	for activity_recording in activity_recordings:
+		if activity_recording[const.RECORDED_BY] is not None:
+			unassigned_recordings.append(activity_recording)
+	return jsonify(unassigned_recordings)
+
+
+# 3. Fetch all the recordings by a user
+@app.route('/users/<int:user_id>/recordings', methods=['GET'])
+def fetch_user_recordings(user_id):
+	recordings = db_service.fetch_recordings()
+	user_recordings = []
+	for idx, (activity_id, activity_recording_info) in enumerate(recordings.items()):
+		activity_recordings = activity_recording_info[const.ACTIVITY_RECORDINGS]
+		for activity_recording in activity_recordings:
+			if const.RECORDED_BY in activity_recording and activity_recording[const.RECORDED_BY] is not None and \
+					activity_recording[const.RECORDED_BY] == user_id:
+				user_recordings.append(activity_recording)
+	return jsonify(user_recordings)
+
+
+# 4. Update activity recording
+# Use this for intermediate update steps of recording instances
+@app.route('/recordings/<int:recording_id>', methods=['POST'])
+def update_recording(recording_id):
+	recording_dict = request.values
+	try:
+		recording = Recording.from_dict(recording_dict)
+		assert recording.id == recording_id
+		db_service.update_recording(recording)
+	except Exception as e:
+		return "An error occurred: " + str(e), 500
+
+
+# 5. Use this when recording is finished
+@app.route('/recordings/<int:recording_id>/user/<int:user_id>', methods=['POST'])
+def update_recording_finished(recording_id, user_id):
+	recording_dict = request.values
+	try:
+		recording = Recording.from_dict(recording_dict)
+		assert recording.id == recording_id
+		db_service.update_recording(recording)
+		
+		user = User.from_dict(db_service.fetch_user(user_id))
+		user.update_recording(recording.environment, recording.activity_id)
+		
+		db_service.update_user(user)
+	except Exception as e:
+		return "An error occurred: " + str(e), 500
 
 
 # --------------------------------------------------------------------------------------------

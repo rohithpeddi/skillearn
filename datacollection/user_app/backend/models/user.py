@@ -17,10 +17,10 @@ class User:
 	def update_preferences(self, activity_list: List[int]):
 		self.activity_preferences.add(activity_list)
 	
-	def update_recording(self, environment: int, recording_id):
+	def update_recording(self, environment: int, activity_id):
 		if environment in self.recording_schedules:
 			environment_schedule = self.recording_schedules[environment]
-			environment_schedule.update_recorded(recording_id)
+			environment_schedule.update_recorded(activity_id)
 		else:
 			logger.error("Current environment schedule is not created")
 			raise Exception("Current environment schedule is not created")
@@ -31,45 +31,41 @@ class User:
 			logger.error("Preferences are not set - set preferences first")
 			raise Exception("Preferences are not set - set preferences first")
 		
-		# Create a list of all activities based on preferences in round robin fashion
-		def duplicate_list(original_list, length):
-			duplicated_list = original_list.copy()
-			while len(duplicated_list) < length:
-				duplicated_list.extend(original_list)
-			return duplicated_list
+		# 1. Fetch all the recorded activities till now
+		previous_recordings = set()
+		previous_environments = range(1, environment + 1)
+		for prev_environment in previous_environments:
+			previous_recordings = previous_recordings | set(self.recording_schedules[prev_environment].recorded_list)
 		
-		all_environment_activities = duplicate_list(self.activity_preferences,
-		                                            const.TOTAL_ENVIRONMENTS * const.ACTIVITIES_PER_PERSON_PER_ENV)
-		current_environment_activities = all_environment_activities[
-		                                 const.ACTIVITIES_PER_PERSON_PER_ENV * environment: const.ACTIVITIES_PER_PERSON_PER_ENV * (
-				                                 environment + 1)]
+		# 2. From the activity preferences remove them - can also be empty set
+		activities_not_recorded = set(self.activity_preferences) - previous_recordings
 		
-		# Create a schedule and update in the requested environment position
-		environment_normal_recordings = []
-		environment_mistake_recordings = []
-		for idx, activity_id in enumerate(current_environment_activities):
-			# For normal recordings
-			if idx < 5:
-				random_int = random.randint(1, 25)
-				environment_normal_recordings.append(int(f'{activity_id}_{random_int}'))
-			else:
-				random_int = random.randint(25, 50)
-				environment_mistake_recordings.append(int(f'{activity_id}_{random_int}'))
+		# 3. Add them to the last of the environment preferences list
+		environment_preferences = list(activities_not_recorded) + list(previous_recordings)
 		
-		schedule = Schedule(environment, environment_normal_recordings, environment_mistake_recordings)
+		# 4. Repeat preferences if they are less
+		env_pref_len = len(environment_preferences)
+		if env_pref_len < const.ACTIVITIES_PER_PERSON_PER_ENV:
+			for idx in range(0, const.ACTIVITIES_PER_PERSON_PER_ENV - env_pref_len):
+				environment_preferences.append(random.choice(environment_preferences))
 		
-		if environment < len(self.recording_schedules):
-			self.recording_schedules[environment] = schedule
-		else:
-			for missing_environment in range(len(self.recording_schedules), environment + 1):
-				self.update_environment_schedule(missing_environment)
+		# 5. Sample the first half for normal videos
+		# 6. Second half for the mistake videos
+		random.shuffle(environment_preferences)
+		normal_recordings = environment_preferences[:int(const.ACTIVITIES_PER_PERSON_PER_ENV / 2.)]
+		mistake_recordings = environment_preferences[int(const.ACTIVITIES_PER_PERSON_PER_ENV / 2.):]
+		
+		schedule = Schedule(environment=environment, normal_recordings=normal_recordings,
+		                    mistake_recordings=mistake_recordings)
+		
+		self.recording_schedules[environment] = schedule
 	
 	def build_all_environment_schedules(self):
 		all_environments = range(1, const.TOTAL_ENVIRONMENTS + 1)
 		recorded_environments = []
 		if len(self.recording_schedules) > 0:
-			recorded_environments = [schedule.environment for schedule in self.recording_schedules if
-			                         schedule.is_done_recording]
+			recorded_environments = [environment for environment in self.recording_schedules if
+			                         self.recording_schedules[environment].is_done_recording]
 		
 		environments_yet_to_record = list(set(all_environments) - set(recorded_environments))
 		
@@ -99,6 +95,6 @@ class User:
 			recording_schedules_dict_list = user_dict[const.RECORDING_SCHEDULES]
 			for schedule_dict in recording_schedules_dict_list:
 				schedule = Schedule.from_dict(schedule_dict)
-				user.recording_schedules.append(schedule)
+				user.recording_schedules[schedule_dict[const.ENVIRONMENT]] = schedule
 		
 		return user
