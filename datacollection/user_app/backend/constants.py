@@ -2,8 +2,23 @@
 # # ------------------------ USER APP PROPERTIES -----------------------------------
 import os
 
-TOTAL_ENVIRONMENTS = 10
-ACTIVITIES_PER_PERSON_PER_ENV = 10
+
+class User_Constants:
+	ID = "id"
+	USERNAME = "username"
+
+	TOTAL_ENVIRONMENTS = 10
+	ACTIVITIES_PER_PERSON_PER_ENV = 10
+	
+	ACTIVITY_PREFERENCES = "activity_preferences"
+	RECORDING_SCHEDULES = "recording_schedules"
+	ENVIRONMENT = "environment"
+	NORMAL_RECORDINGS = "normal_activities"
+	MISTAKE_RECORDINGS = "mistake_activities"
+	RECORDED_LIST = "recorded_list"
+	IS_DONE_RECORDING = "recording_status"
+
+	
 BASE_DIRECTORY = os.getcwd()
 
 USERS_YAML_FILE_NAME = "users.yaml"
@@ -14,6 +29,33 @@ USERNAME = "username"
 ACTIVITY_ID = "activity_id"
 IS_MISTAKE = "is_mistake"
 RECORDED_BY = "recorded_by"
+
+
+# # ---------------------------------------------------------------------------------------
+# # ------------------------ RECORDING PROPERTIES -----------------------------------
+
+class Recording_Constants:
+	ID = "id"
+	ACTIVITY_ID = "activity_id"
+	IS_MISTAKE = "is_mistake"
+	RECORDED_BY = "recorded_by"
+	MISTAKES = "mistakes"
+	ENVIRONMENT = "environment"
+	STEPS = "steps"
+	
+	RECORDING_INFO = "recording_info"
+	RGB = "rgb"
+	AUDIO = "audio"
+	INFO_3D = "info_3d"
+	
+	IS_RGB_AUDIO_SYNCHRONIZED = 'is_rgb_audio_synchronized'
+	IS_RGB_INFO_3D_SYNCHRONIZED = 'is_rgb_info_3d_synchronized'
+	ARE_ALL_SYNCHRONIZED = 'are_all_synchronized'
+	
+	DESCRIPTION = "description"
+	MODIFIED_DESCRIPTION = "modified_description"
+	
+	TAG = "tag"
 
 
 # # ---------------------------------------------------------------------------------------

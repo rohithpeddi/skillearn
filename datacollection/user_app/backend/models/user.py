@@ -1,6 +1,6 @@
 import random
 from typing import List
-from datacollection.user_app.backend.constants import *
+from datacollection.user_app.backend.constants import User_Constants as const
 from datacollection.user_app.backend.logger_config import logger
 from datacollection.user_app.backend.models.schedule import Schedule
 
@@ -11,17 +11,17 @@ class User:
 		self.id = id
 		self.username = username
 		
-		self.activity_preferences = []
-		self.recording_schedules = []
+		self.activity_preferences = set()
+		self.recording_schedules = {}
 	
 	def update_preferences(self, activity_list: List[int]):
-		self.activity_preferences.extend(activity_list)
+		self.activity_preferences.add(activity_list)
 	
 	def update_recording(self, environment: int, recording_id):
-		try:
+		if environment in self.recording_schedules:
 			environment_schedule = self.recording_schedules[environment]
 			environment_schedule.update_recorded(recording_id)
-		except IndexError:
+		else:
 			logger.error("Current environment schedule is not created")
 			raise Exception("Current environment schedule is not created")
 	
@@ -39,9 +39,9 @@ class User:
 			return duplicated_list
 		
 		all_environment_activities = duplicate_list(self.activity_preferences,
-		                                            TOTAL_ENVIRONMENTS * ACTIVITIES_PER_PERSON_PER_ENV)
+		                                            const.TOTAL_ENVIRONMENTS * const.ACTIVITIES_PER_PERSON_PER_ENV)
 		current_environment_activities = all_environment_activities[
-		                                 ACTIVITIES_PER_PERSON_PER_ENV * environment: ACTIVITIES_PER_PERSON_PER_ENV * (
+		                                 const.ACTIVITIES_PER_PERSON_PER_ENV * environment: const.ACTIVITIES_PER_PERSON_PER_ENV * (
 				                                 environment + 1)]
 		
 		# Create a schedule and update in the requested environment position
@@ -65,40 +65,40 @@ class User:
 				self.update_environment_schedule(missing_environment)
 	
 	def build_all_environment_schedules(self):
-		environments_yet_to_record = range(1, TOTAL_ENVIRONMENTS + 1)
+		all_environments = range(1, const.TOTAL_ENVIRONMENTS + 1)
 		recorded_environments = []
 		if len(self.recording_schedules) > 0:
-			recorded_environments = [schedule.environment for schedule in self.recording_schedules if schedule.is_done_recording]
+			recorded_environments = [schedule.environment for schedule in self.recording_schedules if
+			                         schedule.is_done_recording]
 		
-		environments_yet_to_record = list(set(environments_yet_to_record) - set(recorded_environments))
+		environments_yet_to_record = list(set(all_environments) - set(recorded_environments))
 		
 		for environment in environments_yet_to_record:
 			self.update_environment_schedule(environment)
 	
 	def to_dict(self) -> dict:
-		user_dict = {ID: self.id, USERNAME: self.username}
+		user_dict = {const.ID: self.id, const.USERNAME: self.username}
 		
 		if len(self.activity_preferences) > 0:
-			user_dict[ACTIVITY_PREFERENCES] = self.activity_preferences
+			user_dict[const.ACTIVITY_PREFERENCES] = self.activity_preferences
 		
 		if len(self.recording_schedules) > 0:
-			user_dict[RECORDING_SCHEDULES] = [recording_schedule.to_dict() for recording_schedule in
-			                                  self.recording_schedules]
+			user_dict[const.RECORDING_SCHEDULES] = [recording_schedule.to_dict() for recording_schedule in
+			                                        self.recording_schedules]
 		
 		return user_dict
 	
 	@classmethod
 	def from_dict(cls, user_dict) -> "User":
-		user = User(user_dict[ID], user_dict[USERNAME])
+		user = User(user_dict[const.ID], user_dict[const.USERNAME])
 		
-		if ACTIVITY_PREFERENCES in user_dict:
-			user.activity_preferences = user_dict[ACTIVITY_PREFERENCES]
+		if const.ACTIVITY_PREFERENCES in user_dict:
+			user.activity_preferences = user_dict[const.ACTIVITY_PREFERENCES]
 		
-		if RECORDING_SCHEDULES in user_dict:
-			recording_schedules_dict_list = user_dict[RECORDING_SCHEDULES]
+		if const.RECORDING_SCHEDULES in user_dict:
+			recording_schedules_dict_list = user_dict[const.RECORDING_SCHEDULES]
 			for schedule_dict in recording_schedules_dict_list:
-				schedule = Schedule()
-				schedule.from_dict(schedule_dict)
+				schedule = Schedule.from_dict(schedule_dict)
 				user.recording_schedules.append(schedule)
 		
 		return user

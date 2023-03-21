@@ -1,14 +1,14 @@
 from typing import List, Optional
-from datacollection.user_app.backend.constants import *
+from datacollection.user_app.backend.constants import User_Constants as const
 
 
 class Schedule:
 	
 	def __init__(
 			self,
-			environment: Optional[int] = None,
-			normal_recordings: Optional[List[int]] = None,
-			mistake_recordings: Optional[List[int]] = None
+			environment: int,
+			normal_recordings: List[int],
+			mistake_recordings: List[int]
 	):
 		self.normal = normal_recordings
 		self.mistakes = mistake_recordings
@@ -24,22 +24,22 @@ class Schedule:
 			self.is_done_recording = True
 	
 	def to_dict(self) -> dict:
-		schedule_dict = {ENVIRONMENT: self.environment, NORMAL_RECORDINGS: self.normal,
-		                 MISTAKE_RECORDINGS: self.mistakes}
+		schedule_dict = {const.ENVIRONMENT: self.environment, const.NORMAL_RECORDINGS: self.normal,
+		                 const.MISTAKE_RECORDINGS: self.mistakes}
 		
 		if len(self.recorded_list) > 0:
-			schedule_dict[RECORDED_LIST] = self.recorded_list
-			schedule_dict[IS_DONE_RECORDING] = self.is_done_recording
+			schedule_dict[const.RECORDED_LIST] = self.recorded_list
+			schedule_dict[const.IS_DONE_RECORDING] = self.is_done_recording
 		
 		return schedule_dict
 	
 	@classmethod
 	def from_dict(cls, schedule_dict) -> "Schedule":
-		schedule = Schedule(schedule_dict[ENVIRONMENT], schedule_dict[NORMAL_RECORDINGS],
-		                    schedule_dict[MISTAKE_RECORDINGS])
+		schedule = Schedule(schedule_dict[const.ENVIRONMENT], schedule_dict[const.NORMAL_RECORDINGS],
+		                    schedule_dict[const.MISTAKE_RECORDINGS])
 		
-		if RECORDED_LIST in schedule_dict:
-			schedule.recorded_list = schedule_dict[RECORDED_LIST]
-			schedule.is_done_recording = schedule_dict[IS_DONE_RECORDING]
+		if const.RECORDED_LIST in schedule_dict:
+			schedule.recorded_list = schedule_dict[const.RECORDED_LIST]
+			schedule.is_done_recording = schedule_dict[const.IS_DONE_RECORDING]
 		
 		return schedule

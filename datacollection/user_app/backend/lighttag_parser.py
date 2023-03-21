@@ -62,10 +62,10 @@ def find_topological_orderings(dependency_graph):
 			orderings.append(stack)
 			return
 		
-		# Only include a sample of 3 from terminal nodes
+		# Only include a sample of 1 from terminal nodes
 		terminal_nodes = [node for node in graph if graph.in_degree()[node] == 0]
 		random.shuffle(terminal_nodes)
-		sampled_nodes = random.sample(terminal_nodes, min(3, len(terminal_nodes)))
+		sampled_nodes = random.sample(terminal_nodes, min(1, len(terminal_nodes)))
 		for node in sampled_nodes:
 			if node not in visited:
 				new_visited = visited | {node}
@@ -211,74 +211,6 @@ class LightTagParser:
 		# 6. Return graph
 		return graph
 	
-	# def generate_activity_recording_data(self, activity_file_name):
-	# 	# 1. Build dependency graph for the activity
-	# 	dependency_graph = self.generate_dependency_graph(activity_file_name)
-	# 	# 2. Use the graph for generating topological orderings
-	# 	topological_orderings = find_topological_orderings(dependency_graph)
-	#
-	# 	valid_programs = fetch_activity_programs(topological_orderings, const.NUM_VALID_PROGRAMS)
-	#
-	# 	# 3. Use the graph for generating invalid programs
-	# 	invalid_programs = fetch_activity_programs(topological_orderings, const.NUM_INVALID_PROGRAMS)
-	#
-	# 	# 4. Write to a file in with the name of an activity
-	# 	program_dict_list = []
-	#
-	# 	valid_program_counter = 1
-	# 	for valid_program in valid_programs:
-	# 		valid_program_dict = {const.RECORDING_ID: valid_program_counter}
-	# 		step_dict_list = []
-	# 		for valid_program_step in valid_program:
-	# 			step_description = valid_program_step.split(":")[-1]
-	# 			step_dict = Step(step_description).to_dict()
-	# 			step_dict_list.append(step_dict)
-	# 		valid_program_dict[const.STEPS] = step_dict_list
-	# 		program_dict_list.append(valid_program_dict)
-	# 		valid_program_counter += 1
-	#
-	# 	# In invalid programs 10 will have missing steps
-	# 	# The rest will have invalid orders
-	# 	invalid_program_counter = 1
-	# 	for invalid_program in invalid_programs:
-	# 		invalid_program_dict = {const.RECORDING_ID: invalid_program_counter}
-	# 		step_dict_list = []
-	# 		missed_steps = []
-	#
-	# 		# Randomly shuffle 20% of the steps in the recipe
-	# 		if invalid_program_counter > 10:
-	# 			num_to_shuffle = int(len(invalid_program) * 2 // 10)
-	# 			indices_to_shuffle = random.sample(range(len(invalid_program)), num_to_shuffle)
-	#
-	# 			for index_to_shuffle in indices_to_shuffle:
-	# 				random_index = random.randint(0, len(invalid_program) - 1)
-	# 				invalid_program[index_to_shuffle], invalid_program[random_index] = invalid_program[random_index], \
-	# 				                                                                   invalid_program[index_to_shuffle]
-	#
-	# 		for invalid_program_step in invalid_program:
-	# 			# Skips 10% of the steps in the program
-	# 			step_description = invalid_program_step.split(":")[-1]
-	# 			if invalid_program_counter < 10 and random.random() < 0.1:
-	# 				missed_steps.append(step_description)
-	# 				continue
-	# 			step_dict = Step(step_description).to_dict()
-	# 			step_dict_list.append(step_dict)
-	# 		invalid_program_dict[const.STEPS] = step_dict_list
-	#
-	# 		if len(missed_steps) > 0:
-	# 			mistake_dict_list = []
-	# 			for missed_step_description in missed_steps:
-	# 				mistake_dict = Mistake(MistakeTag.MISSING_STEP, missed_step_description).to_dict()
-	# 				mistake_dict_list.append(mistake_dict)
-	# 			invalid_program_dict[const.MISTAKES] = mistake_dict_list
-	#
-	# 		program_dict_list.append(invalid_program_dict)
-	# 		invalid_program_counter += 1
-	#
-	# 	activity_recording_file_path = os.path.join(self.recording_data_directory, activity_file_name[:-5])
-	# 	with open(activity_recording_file_path, 'w') as activity_recording_file:
-	# 		yaml.dump(program_dict_list, activity_recording_file)
-	#
 	def generate_activity_recording_data(self, activity_file_name):
 		dependency_graph = self.generate_dependency_graph(activity_file_name)
 		topological_orderings = find_topological_orderings(dependency_graph)
@@ -311,16 +243,15 @@ class LightTagParser:
 		
 		if not is_valid:
 			step_dicts, mistake_dicts = self._add_mistakes(step_dicts, program_counter, const.NUM_VALID_PROGRAMS)
+			if len(mistake_dicts) > 0:
+				program_dict[const.MISTAKES] = mistake_dicts
 		
 		program_dict[const.STEPS] = step_dicts
-		
-		if not is_valid and len(mistake_dicts) > 0:
-			program_dict[const.MISTAKES] = mistake_dicts
 		
 		return program_dict
 	
 	def _step_dict_from_program_step(self, program_step):
-		step_description = program_step.split(":")[-1]
+		step_description = ":".join(program_step.split(":")[-2:])
 		return Step(step_description).to_dict()
 	
 	def _add_mistakes(self, step_dicts, program_counter, base_counter):

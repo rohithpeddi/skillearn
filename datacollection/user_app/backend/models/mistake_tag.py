@@ -5,7 +5,6 @@ from rapidfuzz.distance.metrics_cpp import jaro_winkler_similarity
 
 
 class MistakeTag:
-	
 	PREPARATION_MISTAKE = "Preparation Mistake"
 	MEASUREMENT_MISTAKE = "Measurement Mistake"
 	ORDER_MISTAKE = "Order Mistake"
@@ -35,11 +34,12 @@ class MistakeTag:
 			return 0
 		
 		# compute cosine similarity
-		cosine_similarity_score = np.dot(sample_tag_embedding, tag_embedding) / (np.linalg.norm(sample_tag_embedding) * np.linalg.norm(tag_embedding))
+		cosine_similarity_score = np.dot(sample_tag_embedding, tag_embedding) / (
+					np.linalg.norm(sample_tag_embedding) * np.linalg.norm(tag_embedding))
 		return cosine_similarity_score
 	
 	@classmethod
-	def get_best_tag(cls, sample_tag) ->  str:
+	def get_best_tag(cls, sample_tag) -> str:
 		
 		if sample_tag == cls.OTHER:
 			return cls.OTHER
