@@ -517,47 +517,20 @@
       description: "Heat the contents of the mug for 1 minute and serve."
   mistake_hints:
     - 0:
-      tag: Preparation Mistake
-      description: "Using too little or too much cooking spray, which may result in the egg sticking to the ramekin or make the egg overly greasy."
+      tag: Measurement Mistake
+      description: "Not measuring the correct amount of milk or using the wrong type of milk."
     - 1:
-      tag: TIme Mistake
-      description: "Missing some spots while coating the ramekin, which could also lead to the egg sticking."
-    - 2:
-      tag: Tool Mistake
-      description: "Breaking the egg yolk accidentally, which could affect the desired texture of the final dish."
-    - 3:
-      tag: Other Mistake
-      description: "Getting eggshell pieces in the ramekin cup, which would be unpleasant to eat."
-    - 4:
-      tag: Temp Mistake
-      description: "Overcooking or under cooking the egg, which could result in an undesirable texture or even food safety concerns."
-    - 5:
-      tag: Object Mistake
-      description: "Forgetting to stir the egg after 30 seconds, which could lead to uneven cooking."
-    - 6:
-      tag: time Mistake
-      description: "Using too much or too little salsa or cheese, which could affect the overall taste and balance of flavors."
-    - 7:
-      tag: place Mistake
-      description: "Choosing the wrong type of salsa or cheese, which could change the intended flavor profile."
-    - 8:
-      tag: order Mistake
-      description: "Over-microwaving, which could cause the cheese to overcook or the dish to become too hot."
-    - 9:
-      tag: Preparation Mistake
-      description: "Under-microwaving, resulting in only partially melted cheese."
-    - 10:
-      tag: Preparation Mistake
-      description: "Cutting the English muffin unevenly, leading to an unstable sandwich."
-    - 11:
-      tag: TIme Mistake
-      description: "Over-toasting or under-toasting the English muffin, which could affect the taste and texture."
-    - 12:
       tag: Timing Mistake
-      description: "Placing too much or too little lettuce, which could alter the intended balance of flavors and textures."
-    - 13:
-      tag: Preparation Mistake
-      description: "Assembling the sandwich incorrectly, such as placing the egg on top of the lettuce and then the English muffin, making the sandwich difficult to eat."
+      description: "Overheating or underheating the milk or not microwaving it for the correct amount of time."
+    - 2:
+      tag: Measurement Mistake
+      description: "Not measuring the ingredients correctly or using the wrong amount."
+    - 3:
+      tag: Technique Mistake
+      description: "Not mixing the ingredients properly or using the wrong utensil."
+    - 4:
+      tag: Timing Mistake
+      description: "Overheating or underheating the contents of the mug or not microwaving it for the correct amount of time."
   required_items:
     - 0: "skimmed milk"
     - 1: "2 chocolate chips"
@@ -586,47 +559,26 @@
       description: "Put the cup's contents on a plate, cut it up, and serve."
   mistake_hints:
     - 0:
-      tag: Preparation Mistake
-      description: "Using too little or too much cooking spray, which may result in the egg sticking to the ramekin or make the egg overly greasy."
+      tag: Temperature Mistake
+      description: "Overheating or underheating the butter or not microwaving it for the correct amount of time."
     - 1:
-      tag: TIme Mistake
-      description: "Missing some spots while coating the ramekin, which could also lead to the egg sticking."
+      tag: Technique Mistake
+      description: "Not coating the cup evenly or using the wrong type of cup."
     - 2:
-      tag: Tool Mistake
-      description: "Breaking the egg yolk accidentally, which could affect the desired texture of the final dish."
+      tag: Preparation Mistake
+      description: "Not cracking the egg correctly or adding any eggshells to the mug."
     - 3:
-      tag: Other Mistake
-      description: "Getting eggshell pieces in the ramekin cup, which would be unpleasant to eat."
+      tag: Measurement Mistake
+      description: "Not measuring the ingredients correctly or using the wrong amount."
     - 4:
-      tag: Temp Mistake
-      description: "Overcooking or under cooking the egg, which could result in an undesirable texture or even food safety concerns."
+      tag: Technique Mistake
+      description: "Not cutting the bread into the right size or shape or not adding it at the right time."
     - 5:
-      tag: Object Mistake
-      description: "Forgetting to stir the egg after 30 seconds, which could lead to uneven cooking."
-    - 6:
-      tag: time Mistake
-      description: "Using too much or too little salsa or cheese, which could affect the overall taste and balance of flavors."
-    - 7:
-      tag: place Mistake
-      description: "Choosing the wrong type of salsa or cheese, which could change the intended flavor profile."
-    - 8:
-      tag: order Mistake
-      description: "Over-microwaving, which could cause the cheese to overcook or the dish to become too hot."
-    - 9:
-      tag: Preparation Mistake
-      description: "Under-microwaving, resulting in only partially melted cheese."
-    - 10:
-      tag: Preparation Mistake
-      description: "Cutting the English muffin unevenly, leading to an unstable sandwich."
-    - 11:
-      tag: TIme Mistake
-      description: "Over-toasting or under-toasting the English muffin, which could affect the taste and texture."
-    - 12:
       tag: Timing Mistake
-      description: "Placing too much or too little lettuce, which could alter the intended balance of flavors and textures."
-    - 13:
-      tag: Preparation Mistake
-      description: "Assembling the sandwich incorrectly, such as placing the egg on top of the lettuce and then the English muffin, making the sandwich difficult to eat."
+      description: "Overcooking or undercooking the egg or not microwaving it for the correct amount of time."
+    - 6:
+      tag: Order Mistake
+      description: "Not transferring the contents of the cup to a plate at the right time or in the right order."
   required_items:
     - 0: "1 tbsp butter"
     - 1: "1 egg"
@@ -680,53 +632,34 @@
       description: "Place the pinwheels on a plate."
   mistake_hints:
     - 0:
-      tag: Preparation Mistake
-      description: "Using too little or too much cooking spray, which may result in the egg sticking to the ramekin or make the egg overly greasy."
+      tag: Technique Mistake
+      description: "Not spreading the nut butter evenly or leaving too much or too little space at the edges."
     - 1:
-      tag: TIme Mistake
-      description: "Missing some spots while coating the ramekin, which could also lead to the egg sticking."
+      tag: Preparation Mistake
+      description: "Not properly cleaning the knife or not washing hands before handling food."
     - 2:
-      tag: Tool Mistake
-      description: "Breaking the egg yolk accidentally, which could affect the desired texture of the final dish."
+      tag: Technique Mistake
+      description: "Not spreading the jelly evenly or using too much or too little."
     - 3:
-      tag: Other Mistake
-      description: "Getting eggshell pieces in the ramekin cup, which would be unpleasant to eat."
+      tag: Technique Mistake
+      description: "Not rolling the tortilla evenly or tightly enough or rolling it too tightly."
     - 4:
-      tag: Temp Mistake
-      description: "Overcooking or under cooking the egg, which could result in an undesirable texture or even food safety concerns."
+      tag: Technique Mistake
+      description: "Not securing the roll properly or using too many or too few toothpicks."
     - 5:
-      tag: Object Mistake
-      description: "Forgetting to stir the egg after 30 seconds, which could lead to uneven cooking."
+      tag: Technique Mistake
+      description: "Not using the floss correctly or cutting unevenly."
     - 6:
-      tag: time Mistake
-      description: "Using too much or too little salsa or cheese, which could affect the overall taste and balance of flavors."
+      tag: Missing Step
+      description: "Not specifying how many pinwheels should be made."
     - 7:
-      tag: place Mistake
-      description: "Choosing the wrong type of salsa or cheese, which could change the intended flavor profile."
-    - 8:
-      tag: order Mistake
-      description: "Over-microwaving, which could cause the cheese to overcook or the dish to become too hot."
-    - 9:
-      tag: Preparation Mistake
-      description: "Under-microwaving, resulting in only partially melted cheese."
-    - 10:
-      tag: Preparation Mistake
-      description: "Cutting the English muffin unevenly, leading to an unstable sandwich."
-    - 11:
-      tag: TIme Mistake
-      description: "Over-toasting or under-toasting the English muffin, which could affect the taste and texture."
-    - 12:
-      tag: Timing Mistake
-      description: "Placing too much or too little lettuce, which could alter the intended balance of flavors and textures."
-    - 13:
-      tag: Preparation Mistake
-      description: "Assembling the sandwich incorrectly, such as placing the egg on top of the lettuce and then the English muffin, making the sandwich difficult to eat."
+      tag: Order Mistake
+      description: "Not placing the pinwheels on the plate at the right time or in the right order."
   required_items:
     - 0: "8 inch tortilla"
     - 1: "Butter"
     - 2: "Jam"
     - 3: "5 toothpicks"
-
 - id: 11
   name: "Garden Fresh Sweet Corn Salsa"
   category: "Veg"
@@ -758,47 +691,32 @@
       description: "Mix all the ingredients in the bowl and serve."
   mistake_hints:
     - 0:
-      tag: Preparation Mistake
-      description: "Using too little or too much cooking spray, which may result in the egg sticking to the ramekin or make the egg overly greasy."
+      tag: Measurement Mistake
+      description: "Not measuring the cilantro correctly or using the wrong amount."
     - 1:
-      tag: Time Mistake
-      description: "Missing some spots while coating the ramekin, which could also lead to the egg sticking."
+      tag: Preparation Mistake
+      description: "Not peeling the garlic or adding any garlic skin to the bowl."
     - 2:
-      tag: Tool Mistake
-      description: "Breaking the egg yolk accidentally, which could affect the desired texture of the final dish."
+      tag: Technique Mistake
+      description: "Not slicing the jalapeno evenly or removing the seeds and membranes if desired."
     - 3:
-      tag: Other Mistake
-      description: "Getting eggshell pieces in the ramekin cup, which would be unpleasant to eat."
+      tag: Measurement Mistake
+      description: "Not extracting the right amount of lime juice or using a different type of citrus."
     - 4:
-      tag: Temp Mistake
-      description: "Overcooking or under cooking the egg, which could result in an undesirable texture or even food safety concerns."
+      tag: Preparation Mistake
+      description: "Not peeling the onion or cutting it evenly, or not using the correct amount."
     - 5:
-      tag: Object Mistake
-      description: "Forgetting to stir the egg after 30 seconds, which could lead to uneven cooking."
+      tag: Technique Mistake
+      description: "Not chopping the tomato evenly or using the wrong type of tomato."
     - 6:
-      tag: time Mistake
-      description: "Using too much or too little salsa or cheese, which could affect the overall taste and balance of flavors."
+      tag: Measurement Mistake
+      description: "Not measuring the salt correctly or using too much or too little."
     - 7:
-      tag: place Mistake
-      description: "Choosing the wrong type of salsa or cheese, which could change the intended flavor profile."
+      tag: Technique Mistake
+      description: "Not cutting the corn evenly or removing any kernels or silk that might be left."
     - 8:
-      tag: order Mistake
-      description: "Over-microwaving, which could cause the cheese to overcook or the dish to become too hot."
-    - 9:
-      tag: Preparation Mistake
-      description: "Under-microwaving, resulting in only partially melted cheese."
-    - 10:
-      tag: Preparation Mistake
-      description: "Cutting the English muffin unevenly, leading to an unstable sandwich."
-    - 11:
-      tag: Time Mistake
-      description: "Over-toasting or under-toasting the English muffin, which could affect the taste and texture."
-    - 12:
-      tag: Timing Mistake
-      description: "Placing too much or too little lettuce, which could alter the intended balance of flavors and textures."
-    - 13:
-      tag: Preparation Mistake
-      description: "Assembling the sandwich incorrectly, such as placing the egg on top of the lettuce and then the English muffin, making the sandwich difficult to eat."
+      tag: Order Mistake
+      description: "Not adding the ingredients to the bowl in the right order or not mixing them properly before serving."
   required_items:
     - 0: "1/4 cup cilantro"
     - 1: "1 garlic clove"
@@ -831,20 +749,32 @@
       description: "Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter."
   mistake_hints:
     - 0:
-      tag: Preparation Mistake
-      description: "Not washing the carrot before cutting it."
+      tag: Missing Step
+      description: "Not ensuring that the tomato is fully dried before slicing."
     - 1:
-      tag: Measurement Mistake
-      description: "Cutting the onion into two pieces instead of slicing 1/8 of it."
-    - 2:
-      tag: Preparation Mistake
-      description: "Mincing the entire garlic clove instead of just 1/8 of it."
-    - 3:
       tag: Technique Mistake
-      description: "Not specifying to use a microwave-safe cover."
+      description: "Not slicing the tomato evenly or making the slices too thick or thin."
+    - 2:
+      tag: Technique Mistake
+      description: "Not placing the tomato slices evenly or creating multiple layers."
+    - 3:
+      tag: Measurement Mistake
+      description: "Using too much or too little salt or not seasoning evenly."
     - 4:
-      tag: Temp Mistake
-      description: "Possible overcooking due to microwaving for a total of 10 minutes."
+      tag: Measurement Mistake
+      description: "Using too much or too little cheese or not distributing it evenly.Using too much or too little cheese or not distributing it evenly."
+    - 5:
+      tag: Missing Step
+      description: "Not specifying which seasoning to use."
+    - 6:
+      tag: Measurement Mistake
+      description: "Using too much or too little pepper or not seasoning evenly."
+    - 7:
+      tag: Measurement Mistake
+      description: "Using too much or too little oil or not distributing it evenly."
+    - 8:
+      tag: Timing Mistake
+      description: "Not serving the dish immediately after preparation, which can result in the tomato slices becoming soggy."
   required_items:
     - 0: "1 tomato"
     - 1: "salt"
