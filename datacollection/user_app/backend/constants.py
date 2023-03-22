@@ -6,7 +6,7 @@ import os
 class User_Constants:
 	ID = "id"
 	USERNAME = "username"
-
+	
 	TOTAL_ENVIRONMENTS = 10
 	ACTIVITIES_PER_PERSON_PER_ENV = 10
 	
@@ -18,17 +18,15 @@ class User_Constants:
 	RECORDED_LIST = "recorded_list"
 	IS_DONE_RECORDING = "recording_status"
 
-	
-BASE_DIRECTORY = os.getcwd()
 
-USERS_YAML_FILE_NAME = "users.yaml"
-ACTIVITIES_YAML_FILE_NAME = "activities.yaml"
+BASE_DIRECTORY = os.getcwd()
 
 ID = "id"
 USERNAME = "username"
 ACTIVITY_ID = "activity_id"
 IS_MISTAKE = "is_mistake"
 RECORDED_BY = "recorded_by"
+
 
 # # ---------------------------------------------------------------------------------------
 # # ------------------------ RECORDING PROPERTIES -----------------------------------
@@ -126,8 +124,8 @@ class LightTag_Constants:
 	NUM_MISSING_STEP_PROGRAMS = 10
 	NUM_INVALID_ORDER_PROGRAMS = 90
 	
-	THRESHOLD_NUM_MISSING_STEPS = 10
-	THRESHOLD_NUM_MISSING_STEPS_ORDER_MISTAKES = 30
+	THRESHOLD_NUM_MISSING_STEPS = 20
+	THRESHOLD_NUM_MISSING_STEPS_ORDER_MISTAKES = 40
 	
 	NUM_TO_SHUFFLE = 20
 
@@ -141,6 +139,24 @@ class FlaskServer_constants:
 	
 	ACTIVITY_RECORDINGS = "activity_recordings"
 	RECORDED_BY = "recorded_by"
+
+
+# # ---------------------------------------------------------------------------------------
+# # ------------------------ DB INGESTION PROPERTIES -----------------------------------
+
+class DatabaseIngestion_Constants:
+	INFO_FILES = "info_files"
+	RECORDINGS = "recordings"
+	GRAPHS = "graphs"
+	
+	USERS_YAML_FILE_NAME = "users.yaml"
+	ACTIVITIES_YAML_FILE_NAME = "activities.yaml"
+	
+	RECORDING_ID = "recording_id"
+	STEPS = "steps"
+	MISTAKES = "mistakes"
+	NAME = "name"
+	ID = "id"
 
 
 # # ---------------------------------------------------------------------------------------

@@ -5,6 +5,7 @@ from datacollection.user_app.backend.models.mistake_tag import MistakeTag
 from datacollection.user_app.backend.models.step import Step
 from datacollection.user_app.backend.constants import Recording_Constants as const
 
+
 class Activity:
 	
 	def __init__(
