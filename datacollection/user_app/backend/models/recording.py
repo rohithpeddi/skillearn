@@ -10,7 +10,7 @@ class Recording:
 	
 	def __init__(
 			self,
-			id: int,
+			id: str,
 			activity_id: int,
 			is_mistake: bool,
 			steps: List[Step],
@@ -35,7 +35,7 @@ class Recording:
 			step_dict_list.append(step.to_dict())
 		recording_dict[const.STEPS] = step_dict_list
 		
-		if len(self.mistakes) > 0:
+		if self.mistakes is not None and len(self.mistakes) > 0:
 			mistake_dict_list = []
 			for mistake in self.mistakes:
 				mistake_dict_list.append(mistake.to_dict())

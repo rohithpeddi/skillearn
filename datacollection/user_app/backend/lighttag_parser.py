@@ -54,7 +54,7 @@ def create_relation_mappings(activity_json, tag_id_to_tag, tagged_token_id_to_ta
 	return relation_id_to_tagged_token, relation_id_to_tag, relation_id_to_children, relation_id_to_tagged_token_id
 
 
-def find_topological_orderings(dependency_graph):
+def find_topological_orderings(dependency_graph, num_terminals=5):
 	orderings = []
 	
 	def topological_sort(graph, visited, stack):
@@ -65,7 +65,7 @@ def find_topological_orderings(dependency_graph):
 		# Only include a sample of 1 from terminal nodes
 		terminal_nodes = [node for node in graph if graph.in_degree()[node] == 0]
 		random.shuffle(terminal_nodes)
-		sampled_nodes = random.sample(terminal_nodes, min(5, len(terminal_nodes)))
+		sampled_nodes = random.sample(terminal_nodes, min(num_terminals, len(terminal_nodes)))
 		for node in sampled_nodes:
 			if node not in visited:
 				new_visited = visited | {node}
@@ -213,7 +213,19 @@ class LightTagParser:
 	
 	def generate_activity_recording_data(self, activity_file_name):
 		dependency_graph = self.generate_dependency_graph(activity_file_name)
-		topological_orderings = find_topological_orderings(dependency_graph)
+		
+		terminal_node_map = {
+			"broccolistirfry.json": 2,
+			"gardenfreshsweetcornsalsa.json": 2,
+			"scrambledeggs.json": 2,
+			"spicymasalabread.json": 2
+		}
+		
+		num_terminals = 5
+		if activity_file_name in terminal_node_map:
+			num_terminals = terminal_node_map[activity_file_name]
+		
+		topological_orderings = find_topological_orderings(dependency_graph, num_terminals=num_terminals)
 		
 		valid_programs = fetch_activity_programs(topological_orderings, const.NUM_VALID_PROGRAMS)
 		invalid_programs = fetch_activity_programs(topological_orderings, const.NUM_INVALID_PROGRAMS)
@@ -285,9 +297,12 @@ class LightTagParser:
 		return step_dicts
 	
 	def generate_recording_data(self):
-		self.generate_activity_recording_data("microwavemugpizza.json")
-		# for activity_file_name in os.listdir(self.activity_data_directory):
-		# 	self.generate_activity_recording_data(activity_file_name)
+		# self.generate_activity_recording_data("microwavemugpizza.json")
+		for activity_file_name in os.listdir(self.activity_data_directory):
+			if activity_file_name == "microwavemugpizza.json":
+				logger.info("Ignoring recipe {}".format(activity_file_name))
+				continue
+			self.generate_activity_recording_data(activity_file_name)
 
 
 if __name__ == "__main__":

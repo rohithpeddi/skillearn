@@ -1,3 +1,4 @@
+import random
 from typing import List
 
 from datacollection.user_app.backend.models.recording import Recording
@@ -95,7 +96,8 @@ def fetch_unassigned_activity_recording(activity_id):
 	for activity_recording in activity_recordings:
 		if activity_recording[const.RECORDED_BY] is not None:
 			unassigned_recordings.append(activity_recording)
-	return jsonify(unassigned_recordings)
+	unassigned_recording = random.choice(unassigned_recordings)
+	return jsonify(unassigned_recording)
 
 
 # 3. Fetch all the recordings by a user

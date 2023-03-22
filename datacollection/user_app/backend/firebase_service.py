@@ -63,7 +63,7 @@ class FirebaseService:
 		return self.db.child(const.RECORDINGS).get().val()
 	
 	def update_recording(self, recording: Recording):
-		self.db.child(const.RECORDINGS).child(recording.id).set(recording.to_dict())
+		self.db.child(const.RECORDINGS).child(recording.activity_id).child(recording.id).set(recording.to_dict())
 
 # ---------------------- END RECORDING ----------------------
 
