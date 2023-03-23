@@ -1,41 +1,51 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import AppBar from "../atoms/AppBar";
+import { useNavigate } from 'react-router-dom';
+import './LoginPage.css';
 
 const LoginPage = (props) => {
-	
-	const {setUserData, setEnvironment, setActivities} = props
+	const { setUserData, setEnvironment, setActivities } = props;
 	
 	const [username, setUsername] = useState('');
 	const [password, setPassword] = useState('');
 	const [error, setError] = useState('');
 	
+	const navigate = useNavigate();
+	
 	const handleSubmit = async (event) => {
 		event.preventDefault();
 		
-		try {
-			const response = await axios.post('http://localhost:5000/login', { username, password });
-			
-			if (response.data) {
-				setUserData(response.data);
-			} else {
-				setError('Invalid username or password');
-			}
-		} catch (err) {
-			setError('Something went wrong, please try again');
-		}
+		axios
+			.post('http://localhost:5000/login', { username, password })
+			.then((loginResponse) => {
+				if (loginResponse.data) {
+					setUserData(loginResponse.data);
+				}
+				return axios.get('http://localhost:5000/environment');
+			})
+			.then((environmentResponse) => {
+				if (environmentResponse.data) {
+					setEnvironment(environmentResponse.data);
+				}
+				return axios.get('http://localhost:5000/activities');
+			})
+			.then((activitiesResponse) => {
+				if (activitiesResponse.data) {
+					setActivities(activitiesResponse.data);
+				}
+				navigate('/');
+			})
+			.catch((apiError) => {
+				setError(apiError);
+			});
 	};
 	
 	return (
-		<div>
-			{/*Define Header component for the AppBar component also display tabs based on loggedIn state*/}
-			<div className="header">
-				<AppBar userData={} />
-			</div>
-			
+		<div className="login-container">
+			{/* Define Header component for the AppBar component also display tabs based on loggedIn state */}
 			
 			<h1>Login</h1>
-			<form onSubmit={handleSubmit}>
+			<form className="login-form" onSubmit={handleSubmit}>
 				<input
 					type="text"
 					placeholder="Username"

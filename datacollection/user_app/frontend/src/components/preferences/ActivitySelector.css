@@ -1,0 +1,10 @@
+.activitySelector {
+    height: 50vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.activityItem {
+    display: block;
+}

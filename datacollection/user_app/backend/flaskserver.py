@@ -1,6 +1,8 @@
 import random
 from typing import List
 
+from flask_cors import cross_origin, CORS
+
 from datacollection.user_app.backend.models.recording import Recording
 from datacollection.user_app.backend.models.user import User
 from logger_config import logger
@@ -10,6 +12,8 @@ from datacollection.user_app.backend.firebase_service import FirebaseService
 from datacollection.user_app.backend.constants import FlaskServer_constants as const
 
 app = Flask(__name__)
+
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 # --------------------------------------------------------------------------------------------
@@ -22,17 +26,15 @@ def login():
 	
 	if not username or not password:
 		logger.error("Invalid username or password")
-		response = jsonify({"error": "Invalid username or password"}), 400
+		response = jsonify({"error": "Invalid username or password"})
 	elif password == "darpa":
 		users = db_service.fetch_users()
 		for user in users:
 			if user and user[const.USERNAME] == username:
-				response = jsonify({"user_id": user[const.ID]})
+				response = jsonify(user)
 				break
 	else:
-		response = jsonify({"error": "Invalid username or password"}), 401
-	
-	response.headers.add('Access-Control-Allow-Origin', '*')
+		response = jsonify({"error": "Invalid username or password"})
 	return response
 
 
@@ -40,6 +42,7 @@ def login():
 # -------------------------------------- ENVIRONMENT -----------------------------------------
 
 @app.route('/environment', methods=['GET'])
+@cross_origin()
 def fetch_environment():
 	environment = db_service.fetch_current_environment()
 	return jsonify(environment)
@@ -50,9 +53,10 @@ def fetch_environment():
 
 # 1. Fetch all activity information
 @app.route('/activities', methods=['GET'])
+@cross_origin()
 def fetch_activities():
 	activities = db_service.fetch_activities()
-	return jsonify(activities)
+	return jsonify([activity for activity in activities if activity is not None])
 
 
 # 2. Fetch all user related information
@@ -62,6 +66,7 @@ def fetch_activities():
 # c. User Activity Preferences
 # d. User Recording Schedules
 @app.route('/users/<int:user_id>/info', methods=['GET'])
+@cross_origin()
 def fetch_user_info(user_id):
 	user_info = db_service.fetch_user(user_id=user_id)
 	return jsonify(user_info)
@@ -69,6 +74,7 @@ def fetch_user_info(user_id):
 
 # 3. End point to build all the user schedules based on preference selection
 @app.route('/users/<int:user_id>/preferences', methods=['POST'])
+@cross_origin()
 def update_activity_preferences(user_id):
 	activity_preferences: List[int] = request.values
 	try:
@@ -90,6 +96,7 @@ def update_activity_preferences(user_id):
 # 1. First fetches user info which have all information about all schedules
 # 2. Fetch an unassigned recording information for an activity
 @app.route('/activities/<int:activity_id>/unassigned/recordings', methods=['GET'])
+@cross_origin()
 def fetch_unassigned_activity_recording(activity_id):
 	activity_recordings = db_service.fetch_activity_recordings(activity_id)[const.ACTIVITY_RECORDINGS]
 	unassigned_recordings = []
@@ -102,6 +109,7 @@ def fetch_unassigned_activity_recording(activity_id):
 
 # 3. Fetch all the recordings by a user
 @app.route('/users/<int:user_id>/recordings', methods=['GET'])
+@cross_origin()
 def fetch_user_recordings(user_id):
 	recordings = db_service.fetch_recordings()
 	user_recordings = []
@@ -117,6 +125,7 @@ def fetch_user_recordings(user_id):
 # 4. Update activity recording
 # Use this for intermediate update steps of recording instances
 @app.route('/recordings/<int:recording_id>', methods=['POST'])
+@cross_origin()
 def update_recording(recording_id):
 	recording_dict = request.values
 	try:
@@ -129,6 +138,7 @@ def update_recording(recording_id):
 
 # 5. Use this when recording is finished
 @app.route('/recordings/<int:recording_id>/user/<int:user_id>', methods=['POST'])
+@cross_origin()
 def update_recording_finished(recording_id, user_id):
 	recording_dict = request.values
 	try:
@@ -147,10 +157,10 @@ def update_recording_finished(recording_id, user_id):
 # --------------------------------------------------------------------------------------------
 # -------------------------------------- COMMON -----------------------------------------
 
-@app.after_request
-def add_cors_headers(response):
-	response.headers.add('Access-Control-Allow-Origin', '*')
-	return response
+# @app.after_request
+# def add_cors_headers(response):
+# 	response.headers.add('Access-Control-Allow-Origin', '*')
+# 	return response
 
 
 # IMPORTANT - After every schedule change the current environment parameter in Firebase Directly

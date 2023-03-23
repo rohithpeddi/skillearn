@@ -1,5 +1,7 @@
 import { useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
+import "./AppBar.css";
 
 const AppBar = ({ userData }) => {
 	const navigate = useNavigate();
@@ -25,23 +27,39 @@ const AppBar = ({ userData }) => {
 		}
 	};
 	
+	const handleLogout = () => {
+		// onLogout(); // Pass the logout function as a prop
+		navigate("/login");
+	};
+	
 	return (
-		<div>
-			{userData ? (
-				<Tabs activeTab={activeTab} onTabClick={handleTabClick}>
-					<Tab label="Home" />
-					<Tab label="Preferences" />
-					<Tab label="Recording" />
-					<Tab label="Annotation" />
-				</Tabs>
-			) : null}
+		<div className="app-bar">
+			{
+				userData ? (
+					<>
+						<Tabs activeTab={activeTab} onTabClick={handleTabClick}>
+							<Tab label="Home" />
+							<Tab label="Preferences" />
+							<Tab label="Recording" />
+							<Tab label="Annotation" />
+						</Tabs>
+						<button className="logout-button" onClick={handleLogout}>
+							Logout
+						</button>
+					</>
+				) : (
+					<Tabs>
+						DARPA - PTG DATA COLLECTION TOOL
+					</Tabs>
+				)
+			}
 		</div>
 	);
-}
+};
 
 const Tabs = ({ activeTab, onTabClick, children }) => {
 	return (
-		<div>
+		<div className="tabs">
 			{React.Children.map(children, (child, index) => {
 				return React.cloneElement(child, {
 					active: index === activeTab,
@@ -50,22 +68,17 @@ const Tabs = ({ activeTab, onTabClick, children }) => {
 			})}
 		</div>
 	);
-}
+};
 
 const Tab = ({ label, active, onClick }) => {
 	return (
 		<div
-			style={{
-				backgroundColor: active ? "grey" : "white",
-				display: "inline-block",
-				padding: "10px",
-				cursor: "pointer",
-			}}
+			className={`tab ${active ? "active" : ""}`}
 			onClick={onClick}
 		>
 			{label}
 		</div>
 	);
-}
+};
 
 export default AppBar;
