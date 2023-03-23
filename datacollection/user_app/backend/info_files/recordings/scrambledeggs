@@ -678,66 +678,72 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
 - mistakes:
-  - description: add-add chopped onions
+  - description: Chop-Chop 1/4 tomato
     tag: Missing Step
-  - description: Add-Add garlic
+  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
     tag: Missing Step
   recording_id: 27
   steps:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: Peel-Peel 2 garlic cloves
-  - description: Chop-Chop 1 green chilli
-  - description: Chop-Chop 1/4 tomato
   - description: Chop-Chop 1/4 medium onion
-  - description: add-1/3 tsp salt
   - description: Add-1/8 tsp of turmeric to the pan
-  - description: Add-Add tomatoes
   - description: Chop-Chop 1 tsp cilantro
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Mince-Mince peeled garlic cloves
+  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
+  - description: Add-Add tomatoes
   - description: add-1/3 tsp salt
   - description: add-add  1 tbsp milk
-  - description: Add-chilli to the pan
-  - description: Cook-Cook for 1 minute, mixing everything
+  - description: Chop-Chop 1 green chilli
+  - description: Peel-Peel 2 garlic cloves
+  - description: add-1/3 tsp salt
+  - description: Mince-Mince peeled garlic cloves
+  - description: add-add chopped onions
   - description: Crack-Crack one egg in a bowl
+  - description: Saute-Saute the onions on medium heat until they are soft and translucent
+  - description: Add-chilli to the pan
+  - description: Add-Add garlic
   - description: Whisk-Whisk the egg mixture in the bowl
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
+  - description: Cook-Cook for 1 minute, mixing everything
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
 - mistakes:
-  - description: Crack-Crack one egg in a bowl
-    tag: Missing Step
-  - description: Cook-Cook for 1 minute, mixing everything
-    tag: Missing Step
   - description: Whisk-Whisk the egg mixture in the bowl
+    tag: Missing Step
+  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
     tag: Missing Step
   recording_id: 28
   steps:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: Peel-Peel 2 garlic cloves
   - description: Chop-Chop 1/4 medium onion
-  - description: Mince-Mince peeled garlic cloves
   - description: Chop-Chop 1/4 tomato
-  - description: Add-Add tomatoes
-  - description: add-add  1 tbsp milk
+  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
   - description: add-add chopped onions
   - description: add-1/3 tsp salt
   - description: Chop-Chop 1 tsp cilantro
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: add-1/3 tsp salt
-  - description: Add-Add garlic
+  - description: Add-Add tomatoes
   - description: Chop-Chop 1 green chilli
-  - description: Add-chilli to the pan
   - description: Add-1/8 tsp of turmeric to the pan
+  - description: Crack-Crack one egg in a bowl
+  - description: add-1/3 tsp salt
+  - description: add-add  1 tbsp milk
+  - description: Saute-Saute the onions on medium heat until they are soft and translucent
+  - description: Peel-Peel 2 garlic cloves
+  - description: Add-chilli to the pan
+  - description: Mince-Mince peeled garlic cloves
+  - description: Add-Add garlic
+  - description: Cook-Cook for 1 minute, mixing everything
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
 - mistakes:
-  - description: Chop-Chop 1/4 tomato
+  - description: Chop-Chop 1 green chilli
+    tag: Missing Step
+  - description: Whisk-Whisk the egg mixture in the bowl
+    tag: Missing Step
+  - description: Saute-Saute the onions on medium heat until they are soft and translucent
+    tag: Missing Step
+  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
+      are almost cooked
     tag: Missing Step
   recording_id: 29
   steps:
@@ -745,329 +751,62 @@
   - description: Add-1/8 tsp of turmeric to the pan
   - description: Chop-Chop 1 tsp cilantro
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: Add-Add tomatoes
   - description: add-1/3 tsp salt
-  - description: add-add  1 tbsp milk
-  - description: Chop-Chop 1 green chilli
-  - description: Peel-Peel 2 garlic cloves
-  - description: add-1/3 tsp salt
-  - description: Mince-Mince peeled garlic cloves
-  - description: add-add chopped onions
-  - description: Crack-Crack one egg in a bowl
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Add-chilli to the pan
-  - description: Add-Add garlic
-  - description: Whisk-Whisk the egg mixture in the bowl
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- recording_id: 30
-  steps:
-  - description: Chop-Chop 1/4 medium onion
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: Chop-Chop 1 green chilli
-  - description: add-add  1 tbsp milk
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: add-1/3 tsp salt
-  - description: add-add chopped onions
-  - description: Peel-Peel 2 garlic cloves
-  - description: Mince-Mince peeled garlic cloves
   - description: Chop-Chop 1/4 tomato
-  - description: add-1/3 tsp salt
+  - description: Peel-Peel 2 garlic cloves
+  - description: Mince-Mince peeled garlic cloves
+  - description: add-add  1 tbsp milk
   - description: Crack-Crack one egg in a bowl
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Add-chilli to the pan
-  - description: Chop-Chop 1 tsp cilantro
   - description: Add-Add tomatoes
+  - description: add-add chopped onions
+  - description: add-1/3 tsp salt
   - description: Add-Add garlic
-  - description: Whisk-Whisk the egg mixture in the bowl
+  - description: Add-chilli to the pan
   - description: Cook-Cook for 1 minute, mixing everything
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
   - description: pour-Slowly pour the whisked eggs into the pan
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
 - mistakes:
+  - description: Mince-Mince peeled garlic cloves
+    tag: Missing Step
+  - description: Chop-Chop 1 green chilli
+    tag: Missing Step
+  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
+    tag: Missing Step
+  recording_id: 30
+  steps:
+  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
+  - description: Peel-Peel 2 garlic cloves
+  - description: Crack-Crack one egg in a bowl
+  - description: Chop-Chop 1/4 medium onion
+  - description: Chop-Chop 1 tsp cilantro
+  - description: Chop-Chop 1/4 tomato
+  - description: add-1/3 tsp salt
+  - description: Add-Add tomatoes
   - description: Add-1/8 tsp of turmeric to the pan
-    tag: Missing Step
+  - description: add-add chopped onions
+  - description: add-1/3 tsp salt
+  - description: Saute-Saute the onions on medium heat until they are soft and translucent
+  - description: Add-Add garlic
   - description: Add-chilli to the pan
-    tag: Missing Step
+  - description: add-add  1 tbsp milk
+  - description: Cook-Cook for 1 minute, mixing everything
+  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
+  - description: Whisk-Whisk the egg mixture in the bowl
+  - description: pour-Slowly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
+- mistakes:
+  - description: Mince-Mince peeled garlic cloves
+    tag: Missing Step
+  - description: Add-Add tomatoes
+    tag: Missing Step
+  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
+    tag: Missing Step
+  - description: Cook-Cook for 1 minute, mixing everything
     tag: Missing Step
   recording_id: 31
   steps:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: Chop-Chop 1/4 medium onion
-  - description: add-1/3 tsp salt
-  - description: add-add  1 tbsp milk
-  - description: add-add chopped onions
-  - description: Chop-Chop 1 green chilli
-  - description: Chop-Chop 1 tsp cilantro
-  - description: Chop-Chop 1/4 tomato
-  - description: add-1/3 tsp salt
-  - description: Peel-Peel 2 garlic cloves
-  - description: Crack-Crack one egg in a bowl
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Add-Add tomatoes
-  - description: Whisk-Whisk the egg mixture in the bowl
-  - description: Mince-Mince peeled garlic cloves
-  - description: Add-Add garlic
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - description: Crack-Crack one egg in a bowl
-    tag: Missing Step
-  - description: add-add chopped onions
-    tag: Missing Step
-  - description: Add-Add tomatoes
-    tag: Missing Step
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-    tag: Missing Step
-  recording_id: 32
-  steps:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: Peel-Peel 2 garlic cloves
-  - description: Chop-Chop 1 green chilli
-  - description: Chop-Chop 1/4 tomato
-  - description: Chop-Chop 1/4 medium onion
-  - description: add-1/3 tsp salt
-  - description: add-1/3 tsp salt
-  - description: Chop-Chop 1 tsp cilantro
-  - description: add-add  1 tbsp milk
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Mince-Mince peeled garlic cloves
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: Add-chilli to the pan
-  - description: Whisk-Whisk the egg mixture in the bowl
-  - description: Add-Add garlic
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - description: Crack-Crack one egg in a bowl
-    tag: Missing Step
-  - description: Chop-Chop 1 green chilli
-    tag: Missing Step
-  recording_id: 33
-  steps:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: Peel-Peel 2 garlic cloves
-  - description: Chop-Chop 1/4 medium onion
-  - description: Mince-Mince peeled garlic cloves
-  - description: Chop-Chop 1 tsp cilantro
-  - description: Chop-Chop 1/4 tomato
-  - description: add-add chopped onions
-  - description: Add-Add tomatoes
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: add-1/3 tsp salt
-  - description: add-1/3 tsp salt
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Add-Add garlic
-  - description: Add-chilli to the pan
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: add-add  1 tbsp milk
-  - description: Whisk-Whisk the egg mixture in the bowl
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-    tag: Missing Step
-  - description: add-1/3 tsp salt
-    tag: Missing Step
-  - description: Peel-Peel 2 garlic cloves
-    tag: Missing Step
-  - description: Cook-Cook for 1 minute, mixing everything
-    tag: Missing Step
-  recording_id: 34
-  steps:
-  - description: Chop-Chop 1/4 medium onion
-  - description: add-1/3 tsp salt
-  - description: Chop-Chop 1 green chilli
-  - description: Chop-Chop 1/4 tomato
-  - description: Crack-Crack one egg in a bowl
-  - description: add-add  1 tbsp milk
-  - description: Whisk-Whisk the egg mixture in the bowl
-  - description: add-add chopped onions
-  - description: Chop-Chop 1 tsp cilantro
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Mince-Mince peeled garlic cloves
-  - description: Add-chilli to the pan
-  - description: Add-Add tomatoes
-  - description: Add-Add garlic
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-    tag: Missing Step
-  - description: add-1/3 tsp salt
-    tag: Missing Step
-  - description: Chop-Chop 1 tsp cilantro
-    tag: Missing Step
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-    tag: Missing Step
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-    tag: Missing Step
-  recording_id: 35
-  steps:
-  - description: Chop-Chop 1/4 medium onion
-  - description: Chop-Chop 1/4 tomato
-  - description: add-add chopped onions
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: Add-Add tomatoes
-  - description: Mince-Mince peeled garlic cloves
-  - description: Chop-Chop 1 green chilli
-  - description: add-1/3 tsp salt
-  - description: add-add  1 tbsp milk
-  - description: Add-Add garlic
-  - description: Crack-Crack one egg in a bowl
-  - description: Add-chilli to the pan
-  - description: Whisk-Whisk the egg mixture in the bowl
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- recording_id: 36
-  steps:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: Chop-Chop 1/4 medium onion
-  - description: Chop-Chop 1 tsp cilantro
-  - description: add-1/3 tsp salt
-  - description: Chop-Chop 1/4 tomato
-  - description: add-add  1 tbsp milk
-  - description: Peel-Peel 2 garlic cloves
-  - description: Crack-Crack one egg in a bowl
-  - description: add-add chopped onions
-  - description: Mince-Mince peeled garlic cloves
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: Chop-Chop 1 green chilli
-  - description: add-1/3 tsp salt
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Add-chilli to the pan
-  - description: Add-Add tomatoes
-  - description: Add-Add garlic
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: Whisk-Whisk the egg mixture in the bowl
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - description: Whisk-Whisk the egg mixture in the bowl
-    tag: Missing Step
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-    tag: Missing Step
-  recording_id: 37
-  steps:
-  - description: Chop-Chop 1/4 medium onion
-  - description: Chop-Chop 1/4 tomato
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: add-add chopped onions
-  - description: add-1/3 tsp salt
-  - description: Chop-Chop 1 tsp cilantro
-  - description: Add-Add tomatoes
-  - description: Chop-Chop 1 green chilli
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: Crack-Crack one egg in a bowl
-  - description: add-1/3 tsp salt
-  - description: add-add  1 tbsp milk
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-chilli to the pan
-  - description: Mince-Mince peeled garlic cloves
-  - description: Add-Add garlic
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-- mistakes:
-  - description: Chop-Chop 1 green chilli
-    tag: Missing Step
-  - description: Whisk-Whisk the egg mixture in the bowl
-    tag: Missing Step
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-    tag: Missing Step
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-    tag: Missing Step
-  recording_id: 38
-  steps:
-  - description: Chop-Chop 1/4 medium onion
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: Chop-Chop 1 tsp cilantro
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: add-1/3 tsp salt
-  - description: Chop-Chop 1/4 tomato
-  - description: Peel-Peel 2 garlic cloves
-  - description: Mince-Mince peeled garlic cloves
-  - description: add-add  1 tbsp milk
-  - description: Crack-Crack one egg in a bowl
-  - description: Add-Add tomatoes
-  - description: add-add chopped onions
-  - description: add-1/3 tsp salt
-  - description: Add-Add garlic
-  - description: Add-chilli to the pan
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - description: Mince-Mince peeled garlic cloves
-    tag: Missing Step
-  - description: Chop-Chop 1 green chilli
-    tag: Missing Step
-  - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-    tag: Missing Step
-  recording_id: 39
-  steps:
-  - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-  - description: Peel-Peel 2 garlic cloves
-  - description: Crack-Crack one egg in a bowl
-  - description: Chop-Chop 1/4 medium onion
-  - description: Chop-Chop 1 tsp cilantro
-  - description: Chop-Chop 1/4 tomato
-  - description: add-1/3 tsp salt
-  - description: Add-Add tomatoes
-  - description: Add-1/8 tsp of turmeric to the pan
-  - description: add-add chopped onions
-  - description: add-1/3 tsp salt
-  - description: Saute-Saute the onions on medium heat until they are soft and translucent
-  - description: Add-Add garlic
-  - description: Add-chilli to the pan
-  - description: add-add  1 tbsp milk
-  - description: Cook-Cook for 1 minute, mixing everything
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  - description: Whisk-Whisk the egg mixture in the bowl
-  - description: pour-Slowly pour the whisked eggs into the pan
-  - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
-      are almost cooked
-- mistakes:
-  - description: Mince-Mince peeled garlic cloves
-    tag: Missing Step
-  - description: Add-Add tomatoes
-    tag: Missing Step
-  - description: Cook-Cook for 1 minute, mixing everything
-    tag: Missing Step
-  recording_id: 40
-  steps:
   - description: Chop-Chop 1/4 medium onion
   - description: Add-1/8 tsp of turmeric to the pan
   - description: Chop-Chop 1 tsp cilantro
@@ -1084,7 +823,6 @@
   - description: Add-chilli to the pan
   - description: Add-Add garlic
   - description: Whisk-Whisk the egg mixture in the bowl
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
