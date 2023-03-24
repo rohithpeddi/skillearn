@@ -1,6 +1,7 @@
 from typing import List, Optional
 
 from datacollection.user_app.backend.models.mistake import Mistake
+from datacollection.user_app.backend.models.recording_info import RecordingInfo
 from datacollection.user_app.backend.models.step import Step
 
 from datacollection.user_app.backend.constants import Recording_Constants as const
@@ -25,9 +26,17 @@ class Recording:
 		self.environment = None
 		self.recorded_by = None
 		
+		self.is_prepared = False
 		self.selected_by = None
 		
 		self.recording_info = None
+		
+	def update_mistakes(self, recording_mistakes):
+		if self.mistakes is None:
+			self.mistakes = []
+		self.mistakes.extend(recording_mistakes)
+		if len(self.mistakes) > 10:
+			self.is_prepared = True
 	
 	def to_dict(self) -> dict:
 		recording_dict = {const.ID: self.id, const.ACTIVITY_ID: self.activity_id, const.IS_MISTAKE: self.is_mistake}
@@ -54,6 +63,9 @@ class Recording:
 		
 		if self.recording_info is not None:
 			recording_dict[const.RECORDING_INFO] = self.recording_info.to_dict()
+			
+		if self.is_prepared:
+			recording_dict[const.IS_PREPARED] = self.is_prepared
 		
 		return recording_dict
 	
@@ -82,5 +94,11 @@ class Recording:
 			
 		if const.SELECTED_BY in recording_dict:
 			recording.selected_by = recording_dict[const.SELECTED_BY]
-		
+			
+		if const.IS_PREPARED in recording_dict:
+			recording.is_prepared = recording_dict[const.IS_PREPARED]
+			
+		if const.RECORDING_INFO in recording_dict:
+			recording.recording_info = RecordingInfo.from_dict(recording_dict[const.RECORDING_INFO])
+			
 		return recording

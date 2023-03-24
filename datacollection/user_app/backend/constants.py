@@ -35,6 +35,7 @@ class Recording_Constants:
 	ID = "id"
 	ACTIVITY_ID = "activity_id"
 	IS_MISTAKE = "is_mistake"
+	IS_PREPARED = "is_prepared"
 	RECORDED_BY = "recorded_by"
 	SELECTED_BY = "selected_by"
 	MISTAKES = "mistakes"
@@ -143,6 +144,16 @@ class FlaskServer_constants:
 	
 	SELECTED_ACTIVITIES = "selectedActivities"
 	
+	MISTAKE = "mistake"
+	IS_MISTAKE = "is_mistake"
+	SELECTED_BY = "selected_by"
+	
+	PREPARED = "Retrieved a prepared activity"
+	SELECTED_PREVIOUSLY = "Retrieved a previously selected activity"
+	NEWLY_SELECTED = "Retrieved a newly selected activity"
+	
+	SELECTION_TYPE = "selection_type"
+	RECORDING_CONTENT = "recording_content"
 
 
 # # ---------------------------------------------------------------------------------------

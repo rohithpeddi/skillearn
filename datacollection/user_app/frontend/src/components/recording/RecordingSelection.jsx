@@ -1,18 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import {
-	Button,
-	TableContainer,
-	Table,
-	TableHead,
-	TableRow,
-	TableCell,
-	TableBody,
-	Paper,
-	Typography
-} from '@mui/material';
-import axios from 'axios';
 import "./RecordingSelection.css";
 import RecordingSelectionCard from "./RecordingSelectionCard";
+import RecordingDisplayCard from "./RecordingDisplayCard";
+import SuccessPopup from "../atoms/SuccessPopup";
+import ErrorPopup from "../atoms/ErrorPopup";
 
 const RecordingSelection = (props) => {
 	
@@ -23,14 +14,28 @@ const RecordingSelection = (props) => {
 	
 	const [activityIdToActivityName, setActivityIdToActivityName] = useState({});
 	
-	const selectRecording = async () => {
-		try {
-			let url = `http://localhost:5000/users/${userData.id}/select/recordings/${recording.id}`;
-			const response = await axios.post(url);
-			setRecording(response.data);
-		} catch (error) {
-			console.error(error);
-		}
+	const [successPopupOpen, setSuccessPopupOpen] = useState(false);
+	const [errorPopupOpen, setErrorPopupOpen] = useState(false);
+	
+	const [successPopupMessage, setSuccessPopupMessage] = useState("");
+	const [errorPopupMessage, setErrorPopupMessage] = useState("");
+	
+	const handleSuccessPopupOpen = (successMessage) => {
+		setSuccessPopupMessage(successMessage)
+		setSuccessPopupOpen(true);
+	};
+	
+	const handleSuccessPopupClose = () => {
+		setSuccessPopupOpen(false);
+	};
+	
+	const handleErrorPopupClose = () => {
+		setErrorPopupOpen(false);
+	};
+	
+	const handleErrorPopupOpen = (errorMessage) => {
+		setErrorPopupMessage(errorMessage)
+		setErrorPopupOpen(true);
 	};
 	
 	useEffect(() => {
@@ -69,63 +74,42 @@ const RecordingSelection = (props) => {
 						<RecordingSelectionCard
 							userData={userData}
 							environment={environment}
-							setRecording={setRecording}
 							activityIdToActivityName={activityIdToActivityName}
 							activityIds={environmentNormalActivityIds}
-							label={"Normal"}
+							label={"normal"}
+							setRecording={setRecording}
+							handleSuccessPopupOpen={handleSuccessPopupOpen}
+							handleErrorPopupOpen={handleErrorPopupOpen}
 						/>
 					</div>
 					<div className="recordingSelectionGridItem">
 						<RecordingSelectionCard
 							userData={userData}
 							environment={environment}
-							setRecording={setRecording}
 							activityIdToActivityName={activityIdToActivityName}
 							activityIds={environmentMistakeActivityIds}
-							label={"Mistake"}
+							label={"mistake"}
+							setRecording={setRecording}
+							handleSuccessPopupOpen={handleSuccessPopupOpen}
+							handleErrorPopupOpen={handleErrorPopupOpen}
 						/>
 					</div>
 				</div>
-				<div className="recordingDisplayGridContainer">
-					{
-						recording ? (
-							<div>
-								<div className="recordingDisplayGridItem">
-									<TableContainer component={Paper}>
-										<Table>
-											<TableHead>
-												<TableRow>
-													<TableCell>Recording Steps</TableCell>
-												</TableRow>
-											</TableHead>
-											<TableBody>
-												{recording?.steps.map((step) => (
-													<TableRow>
-														<TableCell>{step}</TableCell>
-													</TableRow>
-												))}
-											</TableBody>
-										</Table>
-									</TableContainer>
-								</div>
-							
-								<div className="recordingDisplayGridItem">
-									<Button variant="contained" color="primary" onClick={selectRecording} className="recordingSelectionButton">
-										Select Recording
-									</Button>
-								</div>
-								
-							</div>
-							
-							) : (
-								<div className="recordingDisplayGridItem">
-									<Typography variant="h6" color="textSecondary">
-										No recording selected
-									</Typography>
-								</div>
-							)
-					}
-				</div>
+				
+				<RecordingDisplayCard
+					userData={userData}
+					recording={recording}
+					setRecording={setRecording}
+					handleSuccessPopupOpen={handleSuccessPopupOpen}
+					handleErrorPopupOpen={handleErrorPopupOpen} />
+				
+				<SuccessPopup isOpen={successPopupOpen} onClose={handleSuccessPopupClose} successPopupMessage={successPopupMessage} />
+				<ErrorPopup
+					isOpen={errorPopupOpen}
+					onClose={handleErrorPopupClose}
+					errorMessage={errorPopupMessage}
+				/>
+				
 			</div>
 		</div>
 	);

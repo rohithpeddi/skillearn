@@ -57,13 +57,16 @@ class FirebaseService:
 	# ---------------------- BEGIN RECORDING ----------------------
 	
 	def fetch_activity_recordings(self, activity_id):
-		return self.db.child(const.RECORDINGS).child(activity_id).get().val()
+		return dict(self.db.child(const.RECORDINGS).child(activity_id).get().val())
 	
 	def fetch_recordings(self):
 		return self.db.child(const.RECORDINGS).get().val()
 	
 	def update_recording(self, recording: Recording):
 		self.db.child(const.RECORDINGS).child(recording.activity_id).child(recording.id).set(recording.to_dict())
+		
+	def fetch_activity_recording(self, activity_id, recording_id):
+		return self.db.child(const.RECORDINGS).child(activity_id).child(recording_id).get().val()
 
 # ---------------------- END RECORDING ----------------------
 

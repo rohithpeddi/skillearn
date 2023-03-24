@@ -118,6 +118,64 @@ def fetch_unassigned_activity_recording(activity_id):
 	return jsonify(unassigned_recording)
 
 
+@app.route('/users/<int:user_id>/activities/<int:activity_id>/recordings/<label>', methods=['GET'])
+def fetch_activity_recording(user_id, activity_id, label):
+	activity_recordings = db_service.fetch_activity_recordings(activity_id)
+	is_mistake = (label == const.MISTAKE)
+	
+	response = {}
+	recordings = []
+	for (recording_id, recording_dict) in activity_recordings.items():
+		recording = Recording.from_dict(recording_dict)
+		if recording.is_mistake == is_mistake:
+			recordings.append(recording)
+	
+	# 1. If any of the recordings are prepared by the user and recorded by the user, then return that recording
+	selected_unrecorded_recordings = []
+	unassigned_recordings = []
+	for recording in recordings:
+		if hasattr(recording, const.RECORDED_BY) and recording.recorded_by is not None:
+			continue
+		elif not hasattr(recording, const.RECORDED_BY) or recording.recorded_by is None:
+			if recording.selected_by == user_id and recording.is_prepared:
+				response[const.SELECTION_TYPE] = const.PREPARED
+				response[const.RECORDING_CONTENT] = recording.to_dict()
+				return jsonify(response)
+			elif recording.selected_by == user_id and not recording.is_prepared:
+				selected_unrecorded_recordings.append(recording)
+			else:
+				unassigned_recordings.append(recording)
+	
+	# 2. Return a recording from the selected_unrecorded_recordings
+	if len(selected_unrecorded_recordings) > 0:
+		response[const.SELECTION_TYPE] = const.SELECTED_PREVIOUSLY
+		response[const.RECORDING_CONTENT] = random.choice(selected_unrecorded_recordings).to_dict()
+		return jsonify(response)
+	
+	# 3. Return a recording from the unassigned_recordings
+	if len(unassigned_recordings) > 0:
+		response[const.SELECTION_TYPE] = const.NEWLY_SELECTED
+		response[const.RECORDING_CONTENT] = random.choice(unassigned_recordings).to_dict()
+		return jsonify(response)
+
+
+@app.route('/users/<int:user_id>/select/recordings/<recording_id>', methods=['POST'])
+def select_recording(user_id, recording_id):
+	activity_id = recording_id.split('_')[0]
+	recording_dict = db_service.fetch_activity_recording(activity_id, recording_id)
+	recording = Recording.from_dict(recording_dict)
+	
+	if recording.selected_by is not None:
+		if recording.selected_by != user_id:
+			return "Recording already selected", 500
+		else:
+			return jsonify(recording.to_dict())
+	
+	recording.selected_by = user_id
+	db_service.update_recording(recording)
+	return jsonify(recording.to_dict())
+
+
 # 3. Fetch all the recordings by a user
 @app.route('/users/<int:user_id>/recordings', methods=['GET'])
 def fetch_user_recordings(user_id):

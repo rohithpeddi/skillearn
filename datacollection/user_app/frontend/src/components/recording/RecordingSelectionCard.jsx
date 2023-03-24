@@ -4,7 +4,7 @@ import "./RecordingSelectionCard.css";
 
 const RecordingSelectionCard = (props) => {
 	
-	const {userData, label, activityIds, activityIdToActivityName, setRecording} = props;
+	const {userData, label, activityIds, activityIdToActivityName, setRecording, handleSuccessPopupOpen, handleErrorPopupOpen} = props;
 	
 	const [selectedActivityId, setSelectedActivityId] = useState('');
 	
@@ -16,9 +16,12 @@ const RecordingSelectionCard = (props) => {
 		try {
 			let url = `http://localhost:5000/users/${userData.id}/activities/${selectedActivityId}/recordings/${label}`;
 			const response = await axios.get(url);
-			setRecording(response.data);
+			console.log(response.data);
+			setRecording(response.data.recording_content);
+			handleSuccessPopupOpen(response.data.selection_type);
 		} catch (error) {
 			console.error(error);
+			handleErrorPopupOpen("Error fetching a recording. Please try again.");
 		}
 	};
 	
