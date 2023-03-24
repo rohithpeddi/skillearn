@@ -1,0 +1,65 @@
+.recRecordContainer {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.recRecordTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recRecordTableHeader {
+    background-color: #81cfe0;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.recRecordTableRow {
+    border: 1px solid #b3e5fc;
+    background-color: #e1f5fe;
+}
+
+.recRecordBox {
+    width: 25%;
+    border: 1px solid #b3e5fc;
+    padding: 10px;
+}
+
+.recRecordAccordionDetails {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.recRecordAccordionSummary {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #b3e5fc;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.recRecordAccordionSummary:hover {
+    background-color: #81cfe0;
+}
+
+.recRecordAccordionDetails summary::-webkit-details-marker {
+    display: none;
+}
+
+.recRecordAccordionDetails .recRecordLine {
+    margin: 10px 0;
+    border-bottom: 1px solid #b3e5fc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.recRecordAccordionDetails[open] .recRecordAccordionSummary {
+    background-color: #81cfe0;
+}

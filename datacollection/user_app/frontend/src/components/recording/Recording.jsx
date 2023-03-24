@@ -3,6 +3,8 @@ import { Stepper, Step, StepLabel, Button } from "@mui/material";
 import AppBar from "../atoms/AppBar";
 import styles from "./Recording.css";
 import RecordingSelection from "./RecordingSelection";
+import RecordingPreparation from "./RecordingPreparation";
+import RecordingRecording from "./RecordingRecording";
 
 const Recording = (props) => {
 	
@@ -35,11 +37,38 @@ const Recording = (props) => {
                                                 setRecording={setRecording}	/>
 					</div>);
 			case 1:
-				return <div>Content for Step 2</div>;
+				return ( <div>
+					<RecordingPreparation userData={userData}
+					                    environment={environment}
+					                    activities={activities}
+					                    recording={recording}
+					                    setUserData={setUserData}
+					                    setEnvironment={setEnvironment}
+					                    setActivities={setActivities}
+					                    setRecording={setRecording}	/>
+						</div>);
 			case 2:
-				return <div>Content for Step 3</div>;
+				return ( <div>
+					<RecordingRecording userData={userData}
+					                      environment={environment}
+					                      activities={activities}
+					                      recording={recording}
+					                      setUserData={setUserData}
+					                      setEnvironment={setEnvironment}
+					                      setActivities={setActivities}
+					                      setRecording={setRecording}	/>
+				</div>);
 			case 3:
-				return <div>Content for Step 4</div>;
+				return ( <div>
+					<RecordingPreparation userData={userData}
+					                      environment={environment}
+					                      activities={activities}
+					                      recording={recording}
+					                      setUserData={setUserData}
+					                      setEnvironment={setEnvironment}
+					                      setActivities={setActivities}
+					                      setRecording={setRecording}	/>
+					</div>);
 			default:
 				return <div>Unknown step</div>;
 		}
