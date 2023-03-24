@@ -321,8 +321,8 @@
     - 5:
       tag: Technique Mistake
       description: "Not placing the filter correctly or not spreading it open properly."
-    - 6: Measurement Mistake
-      tag:
+    - 6:
+      tag: Measurement Mistake
       description: "Not measuring the coffee beans correctly or using the wrong amount."
     - 7:
       tag: Technique Mistake
@@ -342,8 +342,8 @@
     - 12:
       tag: Technique Mistake
       description: "Pouring the water too quickly or not pouring it in a circular motion."
-    - 13: Timing Mistake
-      tag:
+    - 13:
+      tag: Timing Mistake
       description: "Removing the dripper too soon or not letting the coffee drain completely."
     - 14:
       tag: Missing Step

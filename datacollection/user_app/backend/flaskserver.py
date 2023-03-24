@@ -1,8 +1,10 @@
+import json
 import random
 from typing import List
 
 from flask_cors import cross_origin, CORS
 
+from datacollection.user_app.backend.models.activity import Activity
 from datacollection.user_app.backend.models.recording import Recording
 from datacollection.user_app.backend.models.user import User
 from logger_config import logger
@@ -42,7 +44,6 @@ def login():
 # -------------------------------------- ENVIRONMENT -----------------------------------------
 
 @app.route('/environment', methods=['GET'])
-@cross_origin()
 def fetch_environment():
 	environment = db_service.fetch_current_environment()
 	return jsonify(environment)
@@ -53,7 +54,6 @@ def fetch_environment():
 
 # 1. Fetch all activity information
 @app.route('/activities', methods=['GET'])
-@cross_origin()
 def fetch_activities():
 	activities = db_service.fetch_activities()
 	return jsonify([activity for activity in activities if activity is not None])
@@ -66,23 +66,35 @@ def fetch_activities():
 # c. User Activity Preferences
 # d. User Recording Schedules
 @app.route('/users/<int:user_id>/info', methods=['GET'])
-@cross_origin()
 def fetch_user_info(user_id):
 	user_info = db_service.fetch_user(user_id=user_id)
 	return jsonify(user_info)
 
 
 # 3. End point to build all the user schedules based on preference selection
-@app.route('/users/<int:user_id>/preferences', methods=['POST'])
-@cross_origin()
-def update_activity_preferences(user_id):
-	activity_preferences: List[int] = request.values
+@app.route('/users/<int:user_id>/preferences/<category>', methods=['POST'])
+def update_activity_preferences(user_id, category):
 	try:
+		request_data = request.data.decode('utf-8')
+		request_data_dict = json.loads(request_data)
+		
+		activity_preferences = request_data_dict[const.SELECTED_ACTIVITIES]
+		
 		user_info = db_service.fetch_user(user_id)
 		user = User.from_dict(user_info)
+		
+		activities = db_service.fetch_activities()
+		activities = [Activity.from_dict(activity) for activity in activities if activity is not None]
+		
+		# Pop all the activities in user activity_preferences which are of the category selected
+		user_activity_preferences = user.activity_preferences
+		for activity in activities:
+			if activity.category == category and activity.id in user_activity_preferences:
+				user_activity_preferences.discard(activity.id)
+		
+		# Add the new activities to user activity_preferences
 		user.update_preferences(activity_preferences)
 		user.build_all_environment_schedules()
-		
 		db_service.update_user(user)
 		
 		return jsonify(user.to_dict())
@@ -96,7 +108,6 @@ def update_activity_preferences(user_id):
 # 1. First fetches user info which have all information about all schedules
 # 2. Fetch an unassigned recording information for an activity
 @app.route('/activities/<int:activity_id>/unassigned/recordings', methods=['GET'])
-@cross_origin()
 def fetch_unassigned_activity_recording(activity_id):
 	activity_recordings = db_service.fetch_activity_recordings(activity_id)[const.ACTIVITY_RECORDINGS]
 	unassigned_recordings = []
@@ -109,7 +120,6 @@ def fetch_unassigned_activity_recording(activity_id):
 
 # 3. Fetch all the recordings by a user
 @app.route('/users/<int:user_id>/recordings', methods=['GET'])
-@cross_origin()
 def fetch_user_recordings(user_id):
 	recordings = db_service.fetch_recordings()
 	user_recordings = []
@@ -125,7 +135,6 @@ def fetch_user_recordings(user_id):
 # 4. Update activity recording
 # Use this for intermediate update steps of recording instances
 @app.route('/recordings/<int:recording_id>', methods=['POST'])
-@cross_origin()
 def update_recording(recording_id):
 	recording_dict = request.values
 	try:
@@ -138,7 +147,6 @@ def update_recording(recording_id):
 
 # 5. Use this when recording is finished
 @app.route('/recordings/<int:recording_id>/user/<int:user_id>', methods=['POST'])
-@cross_origin()
 def update_recording_finished(recording_id, user_id):
 	recording_dict = request.values
 	try:

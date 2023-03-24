@@ -107,7 +107,7 @@ if __name__ == "__main__":
 	
 	# user_ingestion = UserIngestion(info_directory)
 	# user_ingestion.ingest()
-	# activities_ingestion = ActivitiesIngestion(info_directory)
-	# activities_ingestion.ingest()
-	activity_recordings_ingestion = ActivityRecordingsIngestion(info_directory)
-	activity_recordings_ingestion.ingest()
+	activities_ingestion = ActivitiesIngestion(info_directory)
+	activities_ingestion.ingest()
+	# activity_recordings_ingestion = ActivityRecordingsIngestion(info_directory)
+	# activity_recordings_ingestion.ingest()

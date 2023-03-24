@@ -15,7 +15,7 @@ class User:
 		self.recording_schedules = {}
 	
 	def update_preferences(self, activity_list: List[int]):
-		self.activity_preferences.add(activity_list)
+		self.activity_preferences = self.activity_preferences | set(activity_list)
 	
 	def update_recording(self, environment: int, activity_id):
 		if environment in self.recording_schedules:
@@ -35,6 +35,10 @@ class User:
 		previous_recordings = set()
 		previous_environments = range(1, environment + 1)
 		for prev_environment in previous_environments:
+			if not self.recording_schedules:
+				break
+			elif prev_environment not in self.recording_schedules:
+				continue
 			previous_recordings = previous_recordings | set(self.recording_schedules[prev_environment].recorded_list)
 		
 		# 2. From the activity preferences remove them - can also be empty set
@@ -48,6 +52,9 @@ class User:
 		if env_pref_len < const.ACTIVITIES_PER_PERSON_PER_ENV:
 			for idx in range(0, const.ACTIVITIES_PER_PERSON_PER_ENV - env_pref_len):
 				environment_preferences.append(random.choice(environment_preferences))
+		else:
+			random.shuffle(environment_preferences)
+			environment_preferences = environment_preferences[:const.ACTIVITIES_PER_PERSON_PER_ENV]
 		
 		# 5. Sample the first half for normal videos
 		# 6. Second half for the mistake videos
@@ -76,11 +83,15 @@ class User:
 		user_dict = {const.ID: self.id, const.USERNAME: self.username}
 		
 		if len(self.activity_preferences) > 0:
-			user_dict[const.ACTIVITY_PREFERENCES] = self.activity_preferences
+			user_dict[const.ACTIVITY_PREFERENCES] = list(self.activity_preferences)
 		
 		if len(self.recording_schedules) > 0:
-			user_dict[const.RECORDING_SCHEDULES] = [recording_schedule.to_dict() for recording_schedule in
-			                                        self.recording_schedules]
+			environment_to_schedule = self.recording_schedules
+			environment_to_schedule_dict = {}
+			for environment in environment_to_schedule:
+				environment_to_schedule_dict[environment] = environment_to_schedule[environment].to_dict()
+			
+			user_dict[const.RECORDING_SCHEDULES] = environment_to_schedule_dict
 		
 		return user_dict
 	
@@ -89,12 +100,12 @@ class User:
 		user = User(user_dict[const.ID], user_dict[const.USERNAME])
 		
 		if const.ACTIVITY_PREFERENCES in user_dict:
-			user.activity_preferences = user_dict[const.ACTIVITY_PREFERENCES]
+			user.activity_preferences = set(user_dict[const.ACTIVITY_PREFERENCES])
 		
 		if const.RECORDING_SCHEDULES in user_dict:
 			recording_schedules_dict_list = user_dict[const.RECORDING_SCHEDULES]
 			for schedule_dict in recording_schedules_dict_list:
-				schedule = Schedule.from_dict(schedule_dict)
-				user.recording_schedules[schedule_dict[const.ENVIRONMENT]] = schedule
-		
+				if schedule_dict is not None:
+					schedule = Schedule.from_dict(schedule_dict)
+					user.recording_schedules[schedule_dict[const.ENVIRONMENT]] = schedule
 		return user

@@ -36,6 +36,7 @@ class Recording_Constants:
 	ACTIVITY_ID = "activity_id"
 	IS_MISTAKE = "is_mistake"
 	RECORDED_BY = "recorded_by"
+	SELECTED_BY = "selected_by"
 	MISTAKES = "mistakes"
 	ENVIRONMENT = "environment"
 	STEPS = "steps"
@@ -139,6 +140,9 @@ class FlaskServer_constants:
 	
 	ACTIVITY_RECORDINGS = "activity_recordings"
 	RECORDED_BY = "recorded_by"
+	
+	SELECTED_ACTIVITIES = "selectedActivities"
+	
 
 
 # # ---------------------------------------------------------------------------------------

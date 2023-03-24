@@ -1,23 +1,32 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
-import styles from "./ActivitySelector.css";
+import { Box, Button, Checkbox, FormControlLabel, Typography } from "@mui/material";
+import "./ActivitySelector.css";
+import {useNavigate} from "react-router-dom"; // Import the CSS file
 
-const ActivitySelector = ({ activityPreferences, activities, activityCategory, userId }) => {
+
+const ActivitySelector = (props) => {
+	
+	const { activities, activityPreferences, activityCategory, userId } = props;
+	
+	const navigate = useNavigate();
 	const [selectedActivities, setSelectedActivities] = useState([]);
 	const [categoryActivities, setCategoryActivities] = useState([]);
 	
 	useEffect(() => {
 		const categoryActivities = activities.filter((activity) => activity.category === activityCategory);
 		setCategoryActivities(categoryActivities);
+		
 		const categoryActivityPreferences = activityPreferences.filter((activityId) => {
 			const activity = activities.find((activity) => activity.id === activityId);
 			return activity.category === activityCategory;
 		});
 		setSelectedActivities(categoryActivityPreferences);
-	}, [activityCategory, activities]);
+		
+	}, [activityCategory, activityPreferences, activities]);
 	
 	const handleSelectAll = () => {
-		const allActivityIds = activities.map((activity) => activity.id);
+		const allActivityIds = categoryActivities.map((activity) => activity.id);
 		setSelectedActivities(allActivityIds);
 	};
 	
@@ -36,13 +45,10 @@ const ActivitySelector = ({ activityPreferences, activities, activityCategory, u
 	};
 	
 	const handleApiRequest = () => {
-		axios
-			.post("/api/endpoint", {
-				userId: userId,
-				selectedActivities: selectedActivities,
-			})
+		let url = `http://localhost:5000/users/${userId}/preferences/${activityCategory}`;
+		axios.post(url, { selectedActivities })
 			.then((response) => {
-				console.log(response.data);
+				navigate("/preferences");
 			})
 			.catch((error) => {
 				console.log(error);
@@ -50,44 +56,52 @@ const ActivitySelector = ({ activityPreferences, activities, activityCategory, u
 	};
 	
 	return (
-		<div className={styles.activitySelector}>
-			<h2>{activityCategory} Preference Selector</h2>
-			<div>
-				<label htmlFor="select-all">
-					<input
-						type="checkbox"
-						id="select-all"
-						onChange={handleSelectAll}
-						checked={selectedActivities.length === activities.length}
-					/>
-					Select All
-				</label>
-				<label htmlFor="unselect-all">
-					<input
-						type="checkbox"
-						id="unselect-all"
-						onChange={handleUnselectAll}
-						checked={selectedActivities.length === 0}
-					/>
-					Undo Select All
-				</label>
-			</div>
-			<div>
-				{categoryActivities.map((activity) => (
-					<label key={activity.id} htmlFor={`activity-${activity.id}`} className={styles.activityItem}>
-						<input
-							type="checkbox"
-							id={`activity-${activity.id}`}
-							value={activity.id}
-							onChange={() => handleActivitySelect(activity.id)}
-							checked={selectedActivities.includes(activity.id)}
+		<Box className="activitySelector">
+			<Typography variant="h6">{activityCategory} Preference Selector</Typography>
+			<Box className="checkboxControls">
+				<FormControlLabel
+					control={
+						<Checkbox
+							id="select-all"
+							onChange={handleSelectAll}
+							checked={selectedActivities.length === activities.length}
 						/>
-						{activity.name}
-					</label>
+					}
+					label="Select All"
+				/>
+				<FormControlLabel
+					control={
+						<Checkbox
+							id="unselect-all"
+							onChange={handleUnselectAll}
+							checked={selectedActivities.length === 0}
+						/>
+					}
+					label="Undo Select All"
+				/>
+			</Box>
+			<Box>
+				{categoryActivities.map((activity) => (
+					<FormControlLabel
+						key={activity.id}
+						htmlFor={`activity-${activity.id}`}
+						control={
+							<Checkbox
+								id={`activity-${activity.id}`}
+								value={activity.id}
+								onChange={() => handleActivitySelect(activity.id)}
+								checked={selectedActivities.includes(activity.id)}
+							/>
+						}
+						label={activity.name}
+						className="activityItem" // Apply the CSS class
+					/>
 				))}
-			</div>
-			<button onClick={handleApiRequest}>Update {activityCategory} Preferences</button>
-		</div>
+			</Box>
+			<Button variant="contained" onClick={handleApiRequest}>
+				Update {activityCategory} Preferences
+			</Button>
+		</Box>
 	);
 };
 

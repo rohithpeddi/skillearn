@@ -16,6 +16,20 @@ const ActivityTable = (props) => {
 		return activity ? activity.name : "Unknown";
 	};
 	
+	// Define the styles
+	const styles = {
+		tableRow: {
+			backgroundColor: '#f2f2f2',
+			'&:hover': {
+				backgroundColor: '#e0e0e0',
+			}
+		},
+		labelCell: {
+			fontWeight: 'bold',
+			backgroundColor: '#d5d5d5',
+		}
+	};
+	
 	return (
 		
 		<div>
@@ -24,7 +38,7 @@ const ActivityTable = (props) => {
 				<Table sx={{ minWidth: 70 }} aria-label="simple table">
 					<TableHead>
 						<TableRow>
-							<TableCell>{label}</TableCell>
+							<TableCell sx={styles.labelCell}>{label}</TableCell>
 						</TableRow>
 					</TableHead>
 					<TableBody>
@@ -32,7 +46,7 @@ const ActivityTable = (props) => {
 							activityIdList.map((activityId) => (
 								<TableRow
 									key={getActivityName(activityId)}
-									sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+									sx={{ ...styles.tableRow, '&:last-child td, &:last-child th': { border: 0 } }}
 								>
 									<TableCell component="th" scope="row">
 										{getActivityName(activityId)}
@@ -40,14 +54,14 @@ const ActivityTable = (props) => {
 								</TableRow>
 							))
 						}
-						
+					
 					</TableBody>
 				</Table>
 			</TableContainer>
 		
 		
 		</div>
-		
+	
 	)
 	
 	

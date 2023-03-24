@@ -25,6 +25,8 @@ class Recording:
 		self.environment = None
 		self.recorded_by = None
 		
+		self.selected_by = None
+		
 		self.recording_info = None
 	
 	def to_dict(self) -> dict:
@@ -46,6 +48,9 @@ class Recording:
 		
 		if self.recorded_by is not None:
 			recording_dict[const.RECORDED_BY] = self.recorded_by
+			
+		if self.selected_by is not None:
+			recording_dict[const.SELECTED_BY] = self.selected_by
 		
 		if self.recording_info is not None:
 			recording_dict[const.RECORDING_INFO] = self.recording_info.to_dict()
@@ -74,5 +79,8 @@ class Recording:
 		
 		if const.RECORDED_BY in recording_dict:
 			recording.recorded_by = recording_dict[const.RECORDED_BY]
+			
+		if const.SELECTED_BY in recording_dict:
+			recording.selected_by = recording_dict[const.SELECTED_BY]
 		
 		return recording

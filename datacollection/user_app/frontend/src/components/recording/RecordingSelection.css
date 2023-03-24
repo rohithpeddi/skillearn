@@ -1,0 +1,67 @@
+.recordingSelectionContainer {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #f5f5f5;
+}
+
+
+.recordingSelectionContent {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.recordingSelectionGridContainer {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.recordingDisplayGridContainer {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recordingSelectionGridItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    overflow-y: auto;
+}
+
+.recordingDisplayGridItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recordingSelectionDropdown {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.recordingSelectionButton {
+    text-align: center;
+    background-color: #3f51b5;
+    color: #ffffff;
+}
