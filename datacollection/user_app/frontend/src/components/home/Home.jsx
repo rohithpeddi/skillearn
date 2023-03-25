@@ -1,24 +1,109 @@
 import {useNavigate} from "react-router-dom";
 import AppBar from "../atoms/AppBar";
-import React from "react";
+import React, {useEffect, useState} from "react";
+import axios from "axios";
+import API_BASE_URL from "../../config";
+import "./Home.css";
 
-const Home = (props) => {
-	
-	const {userData, environment, activities} = props;
-	const navigate = useNavigate();
+const MistakeStatsTable = ({ mistakeStats }) => {
+	return (
+		<div className="home-table-container">
+			<div className="home-table-header">
+				<div>Mistake Type</div>
+				<div>Count</div>
+			</div>
+			{Object.entries(mistakeStats).map(([mistakeType, count]) => (
+				<div className="home-table-row" key={mistakeType}>
+					<div>{mistakeType}</div>
+					<div>{count}</div>
+				</div>
+			))}
+		</div>
+	);
+};
+
+
+const RecordingStatsTable = ({ recordingStats }) => {
+	const {
+		number_of_correct_recordings,
+		number_of_mistake_recordings,
+		number_of_recordings,
+	} = recordingStats;
 	
 	return (
-		<div>
-			
+		<div className="home-table-container">
+			<div className="home-table-header">
+				<div>Recording Type</div>
+				<div>Count</div>
+			</div>
+			<div className="home-table-row home-CorrectRecordingsRow">
+				<div>Correct Recordings</div>
+				<div>{number_of_correct_recordings}</div>
+			</div>
+			<div className="home-table-row home-MistakeRecordingsRow">
+				<div>Mistake Recordings</div>
+				<div>{number_of_mistake_recordings}</div>
+			</div>
+			<div className="home-table-row home-TotalRecordingsRow">
+				<div>Total Recordings</div>
+				<div>{number_of_recordings}</div>
+			</div>
+		</div>
+	);
+};
+
+
+const Home = (props) => {
+	const { userData, environment, activities } = props;
+	const navigate = useNavigate();
+	
+	const [userStats, setUserStats] = useState({
+		mistake_stats: {},
+		recording_stats: {},
+		user_recording_stats: [],
+	});
+	
+	const fetchUserStats = () => {
+		// this function will fetch the user stats from the backend
+		// and set the userStats state
+		const STATS_URL = `${API_BASE_URL}/users/${userData.id}/stats`;
+		axios
+			.get(STATS_URL)
+			.then((response) => {
+				setUserStats(response.data);
+			})
+			.catch((error) => {
+				console.log(error);
+			});
+	};
+	
+	useEffect(() => {
+		if (!userData) {
+			navigate("/login");
+		}
+		
+		fetchUserStats();
+	}, [userData]);
+	
+	return (
+		<div className="homeContainer">
 			<div className="header">
 				<AppBar userData={userData} />
 			</div>
 			
-			
-			
+			<div className="homeBodyContainer">
+				<div className="homeLeftColumn">
+					<h2>Recording Stats</h2>
+					<RecordingStatsTable recordingStats={userStats.recording_stats} />
+				</div>
+				
+				<div className="homeRightColumn">
+					<h2>Mistake Stats</h2>
+					<MistakeStatsTable mistakeStats={userStats.mistake_stats} />
+				</div>
+			</div>
 		</div>
 	);
-	
-}
+};
 
 export default Home;

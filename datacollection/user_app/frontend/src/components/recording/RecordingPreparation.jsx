@@ -1,12 +1,17 @@
 import React from 'react';
 import './RecordingPreparation.css';
+import RecordingStepPreparation from "./RecordingStepPreparation";
 
 const RecordingPreparation = (props) => {
-	const { userData, environment, activities, recording, setRecording } = props;
+	const { userData, environment, activities, recording, setRecording, mistakeTags} = props;
 	
 	const getActivityName = (activityId) => {
 		const activity = activities.find((activity) => activity.id === activityId);
 		return activity.name;
+	};
+	
+	const getDescription = (step) => {
+		return step.modified_description || step.description;
 	};
 	
 	if (!recording) {
@@ -31,11 +36,14 @@ const RecordingPreparation = (props) => {
 						<td className="recPrepBox">
 							<details className="recPrepAccordionDetails" open>
 								<summary className="recPrepAccordionSummary">
-									<span>{row.modified_description || row.description}</span>
+									<span> {getDescription(row)} </span>
 								</summary>
-								{row.description.split('\n').map((line, i) => (
-									<div key={i} className="recPrepLine">{line}</div>
-								))}
+								<RecordingStepPreparation
+									recording={recording}
+									setRecording={setRecording}
+									mistakeTags={mistakeTags}
+									step={row}
+									stepIndex={index} />
 							</details>
 						</td>
 					</tr>

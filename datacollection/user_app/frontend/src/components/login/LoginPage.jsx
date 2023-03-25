@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css';
+import API_BASE_URL from "../../config";
 
 const LoginPage = (props) => {
-	const { setUserData, setEnvironment, setActivities } = props;
+	const { userData, setUserData, setEnvironment, setActivities, setUserStats} = props;
 	
 	const [username, setUsername] = useState('');
 	const [password, setPassword] = useState('');
@@ -15,19 +16,23 @@ const LoginPage = (props) => {
 	const handleSubmit = async (event) => {
 		event.preventDefault();
 		
+		const LOGIN_URL = `${API_BASE_URL}/login`;
+		const ENVIRONMENT_URL = `${API_BASE_URL}/environment`;
+		const ACTIVITIES_URL = `${API_BASE_URL}/activities`;
+		
 		axios
-			.post('http://localhost:5000/login', { username, password })
+			.post(LOGIN_URL, { username, password })
 			.then((loginResponse) => {
 				if (loginResponse.data) {
 					setUserData(loginResponse.data);
 				}
-				return axios.get('http://localhost:5000/environment');
+				return axios.get(ENVIRONMENT_URL);
 			})
 			.then((environmentResponse) => {
 				if (environmentResponse.data) {
 					setEnvironment(environmentResponse.data);
 				}
-				return axios.get('http://localhost:5000/activities');
+				return axios.get(ACTIVITIES_URL);
 			})
 			.then((activitiesResponse) => {
 				if (activitiesResponse.data) {

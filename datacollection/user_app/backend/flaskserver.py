@@ -1,17 +1,16 @@
 import json
 import random
-from typing import List
 
-from flask_cors import cross_origin, CORS
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 
+from datacollection.user_app.backend.constants import FlaskServer_constants as const
+from datacollection.user_app.backend.firebase_service import FirebaseService
 from datacollection.user_app.backend.models.activity import Activity
+from datacollection.user_app.backend.models.mistake_tag import MistakeTag
 from datacollection.user_app.backend.models.recording import Recording
 from datacollection.user_app.backend.models.user import User
 from logger_config import logger
-from flask import Flask, request, jsonify
-
-from datacollection.user_app.backend.firebase_service import FirebaseService
-from datacollection.user_app.backend.constants import FlaskServer_constants as const
 
 app = Flask(__name__)
 
@@ -107,20 +106,16 @@ def update_activity_preferences(user_id, category):
 
 # 1. First fetches user info which have all information about all schedules
 # 2. Fetch an unassigned recording information for an activity
-@app.route('/activities/<int:activity_id>/unassigned/recordings', methods=['GET'])
-def fetch_unassigned_activity_recording(activity_id):
-	activity_recordings = db_service.fetch_activity_recordings(activity_id)[const.ACTIVITY_RECORDINGS]
-	unassigned_recordings = []
-	for activity_recording in activity_recordings:
-		if activity_recording[const.RECORDED_BY] is not None:
-			unassigned_recordings.append(activity_recording)
-	unassigned_recording = random.choice(unassigned_recordings)
-	return jsonify(unassigned_recording)
+
+@app.route('/mistake_tags', methods=['GET'])
+def fetch_mistake_tags():
+	mistake_tags = MistakeTag.get_step_mistake_tag_list()
+	return jsonify(mistake_tags)
 
 
 @app.route('/users/<int:user_id>/activities/<int:activity_id>/recordings/<label>', methods=['GET'])
 def fetch_activity_recording(user_id, activity_id, label):
-	activity_recordings = db_service.fetch_activity_recordings(activity_id)
+	activity_recordings = db_service.fetch_all_activity_recordings(activity_id)
 	is_mistake = (label == const.MISTAKE)
 	
 	response = {}
@@ -134,9 +129,9 @@ def fetch_activity_recording(user_id, activity_id, label):
 	selected_unrecorded_recordings = []
 	unassigned_recordings = []
 	for recording in recordings:
-		if hasattr(recording, const.RECORDED_BY) and recording.recorded_by is not None:
+		if hasattr(recording, const.RECORDED_BY) and recording.recorded_by != const.DUMMY_USER_ID:
 			continue
-		elif not hasattr(recording, const.RECORDED_BY) or recording.recorded_by is None:
+		elif not hasattr(recording, const.RECORDED_BY) or recording.recorded_by == const.DUMMY_USER_ID:
 			if recording.selected_by == user_id and recording.is_prepared:
 				response[const.SELECTION_TYPE] = const.PREPARED
 				response[const.RECORDING_CONTENT] = recording.to_dict()
@@ -161,11 +156,10 @@ def fetch_activity_recording(user_id, activity_id, label):
 
 @app.route('/users/<int:user_id>/select/recordings/<recording_id>', methods=['POST'])
 def select_recording(user_id, recording_id):
-	activity_id = recording_id.split('_')[0]
-	recording_dict = db_service.fetch_activity_recording(activity_id, recording_id)
+	recording_dict = db_service.fetch_recording(recording_id)
 	recording = Recording.from_dict(recording_dict)
 	
-	if recording.selected_by is not None:
+	if recording.selected_by != const.DUMMY_USER_ID:
 		if recording.selected_by != user_id:
 			return "Recording already selected", 500
 		else:
@@ -179,15 +173,8 @@ def select_recording(user_id, recording_id):
 # 3. Fetch all the recordings by a user
 @app.route('/users/<int:user_id>/recordings', methods=['GET'])
 def fetch_user_recordings(user_id):
-	recordings = db_service.fetch_recordings()
-	user_recordings = []
-	for idx, (activity_id, activity_recording_info) in enumerate(recordings.items()):
-		activity_recordings = activity_recording_info[const.ACTIVITY_RECORDINGS]
-		for activity_recording in activity_recordings:
-			if const.RECORDED_BY in activity_recording and activity_recording[const.RECORDED_BY] is not None and \
-					activity_recording[const.RECORDED_BY] == user_id:
-				user_recordings.append(activity_recording)
-	return jsonify(user_recordings)
+	user_recordings = db_service.fetch_user_recordings(user_id)
+	return jsonify([recording.to_dict() for recording in user_recordings])
 
 
 # 4. Update activity recording
@@ -221,12 +208,36 @@ def update_recording_finished(recording_id, user_id):
 
 
 # --------------------------------------------------------------------------------------------
-# -------------------------------------- COMMON -----------------------------------------
+# -------------------------------------- STATS -----------------------------------------
 
-# @app.after_request
-# def add_cors_headers(response):
-# 	response.headers.add('Access-Control-Allow-Origin', '*')
-# 	return response
+@app.route('/users/<int:user_id>/stats', methods=['GET'])
+def fetch_stats(user_id):
+	# 1. Fetch all the recordings by a user
+	user_recordings = db_service.fetch_user_recordings(user_id)
+	
+	recording_stats = {const.NUMBER_OF_RECORDINGS: len(user_recordings), const.NUMBER_OF_MISTAKE_RECORDINGS: len(
+		[recording for recording in user_recordings if recording.is_mistake]), const.NUMBER_OF_CORRECT_RECORDINGS: len(
+		[recording for recording in user_recordings if not recording.is_mistake])}
+	
+	user_recording_stats = [recording.to_dict for recording in user_recordings]
+	
+	mistake_stats = {}
+	for mistake_tag in MistakeTag.get_step_mistake_tag_list():
+		mistake_stats[mistake_tag] = 0
+	
+	for recording in user_recordings:
+		if recording.is_mistake:
+			recording_mistakes = recording.mistakes
+			for mistake in recording_mistakes:
+				mistake_stats[mistake.tag] += 1
+			steps = recording.steps
+			for step in steps:
+				for mistake in step.mistakes:
+					mistake_stats[mistake.tag] += 1
+	
+	stats = {const.RECORDING_STATS: recording_stats, const.MISTAKE_STATS: mistake_stats, const.USER_RECORDING_STATS: user_recording_stats}
+	
+	return jsonify(stats)
 
 
 # IMPORTANT - After every schedule change the current environment parameter in Firebase Directly

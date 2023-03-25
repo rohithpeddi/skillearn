@@ -4,7 +4,7 @@ import ActivitySelector from "./ActivitySelector";
 import "./Preferences.css"
 
 const Preferences = (props) => {
-	const {userData, environment, activities} = props
+	const {userData, environment, activities, setUserData, setActivities} = props
 	
 	return (
 		<div>
@@ -69,6 +69,7 @@ const Preferences = (props) => {
 									activityPreferences={userData.activity_preferences || []}
 									activities={activities}
 									activityCategory={"Veg"}
+									setUserData={setUserData}
 									userId={userData.id}
 								/>
 							) : (
@@ -82,9 +83,9 @@ const Preferences = (props) => {
 									activityPreferences={userData.activity_preferences || []}
 									activities={activities}
 									activityCategory={"Non-Veg"}
+									setUserData={setUserData}
 									userId={userData.id}
 								/>
-								
 							) : (
 								<div>No non-veg preferences found.</div>
 							)}

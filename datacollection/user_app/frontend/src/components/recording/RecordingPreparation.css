@@ -2,6 +2,10 @@
     width: 90%;
     margin: 20px auto;
     text-align: center;
+    overflow-y: auto;
+    padding: 20px;
+    max-height: 80vh;
+    box-sizing: border-box;
 }
 
 .recPrepTable {

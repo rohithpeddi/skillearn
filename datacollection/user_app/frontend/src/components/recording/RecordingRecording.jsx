@@ -1,5 +1,6 @@
 import React from 'react';
 import './RecordingRecording.css';
+import RecordingRequiredItems from "./RecordingRequiredItems";
 
 const RecordingRecording = (props) => {
 	const { userData, environment, activities, recording, setRecording } = props;
@@ -7,6 +8,11 @@ const RecordingRecording = (props) => {
 	const getActivityName = (activityId) => {
 		const activity = activities.find((activity) => activity.id === activityId);
 		return activity.name;
+	};
+	
+	const getRequiredItems = (activityId) => {
+		const activity = activities.find((activity) => activity.id === activityId);
+		return activity.required_items;
 	};
 	
 	if (!recording) {
@@ -19,6 +25,12 @@ const RecordingRecording = (props) => {
 	
 	return (
 		<div className="recRecordContainer">
+			
+			<div className="recRecordHeader">
+				<h2>Required Items</h2>
+				<RecordingRequiredItems requiredItems={getRequiredItems(recording.activity_id)}/>
+			</div>
+			
 			<table className="recRecordTable">
 				<thead>
 				<tr className="recRecordTableHeader">

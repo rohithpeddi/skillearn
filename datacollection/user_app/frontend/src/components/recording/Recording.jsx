@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import { Stepper, Step, StepLabel, Button } from "@mui/material";
 import AppBar from "../atoms/AppBar";
 import styles from "./Recording.css";
 import RecordingSelection from "./RecordingSelection";
 import RecordingPreparation from "./RecordingPreparation";
 import RecordingRecording from "./RecordingRecording";
+import axios from "axios";
 
 const Recording = (props) => {
 	
@@ -12,6 +13,19 @@ const Recording = (props) => {
 	
 	const [activeStep, setActiveStep] = useState(0);
 	const [recording, setRecording] = useState(false);
+	
+	const [mistakeTags, setMistakeTags] = useState([]);
+	
+	useEffect(() => {
+		axios.get("http://localhost:5000/mistake_tags")
+			.then((response) => {
+				setMistakeTags(response.data);
+				console.log(response.data);
+			})
+			.catch((error) => {
+				console.log(error);
+			});
+	}, []);
 	
 	const steps = ["Activity Selection", "Activity Preparation", "Activity Recording", "Activity Recording Review"];
 	
@@ -38,14 +52,15 @@ const Recording = (props) => {
 					</div>);
 			case 1:
 				return ( <div>
-					<RecordingPreparation userData={userData}
-					                    environment={environment}
-					                    activities={activities}
-					                    recording={recording}
-					                    setUserData={setUserData}
-					                    setEnvironment={setEnvironment}
-					                    setActivities={setActivities}
-					                    setRecording={setRecording}	/>
+							<RecordingPreparation userData={userData}
+							                        environment={environment}
+							                        activities={activities}
+								                    recording={recording}
+								                    setUserData={setUserData}
+								                    setEnvironment={setEnvironment}
+								                    setActivities={setActivities}
+								                    setRecording={setRecording}
+					                                mistakeTags={mistakeTags}	/>
 						</div>);
 			case 2:
 				return ( <div>
@@ -67,7 +82,8 @@ const Recording = (props) => {
 					                      setUserData={setUserData}
 					                      setEnvironment={setEnvironment}
 					                      setActivities={setActivities}
-					                      setRecording={setRecording}	/>
+					                      setRecording={setRecording}
+					                      mistakeTags={mistakeTags}	/>
 					</div>);
 			default:
 				return <div>Unknown step</div>;

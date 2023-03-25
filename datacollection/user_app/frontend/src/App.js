@@ -85,7 +85,7 @@ const App = () => {
                     )}
                     <Route
                         path="/login"
-                        element={<LoginPage setUserData={setUserData} setEnvironment={setEnvironment} setActivities={setActivities} />}
+                        element={<LoginPage setUserData={setUserData} setEnvironment={setEnvironment} setActivities={setActivities}/>}
                     />
                 </Routes>
             </div>

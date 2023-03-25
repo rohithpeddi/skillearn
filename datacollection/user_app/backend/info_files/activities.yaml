@@ -1880,7 +1880,7 @@
     - 4: "1/2 tsp pepper"
 - id: 29
   name: "Spicy Tuna Avocado Wraps"
-  category: "Veg"
+  category: "Non-Veg"
   activity_type: "Pan"
   steps:
     - 0:
@@ -1995,7 +1995,7 @@
     - 5: "1/4 tsp salt"
     - 6: "1/4 tsp pepper"
 - id: 31
-  name: "Creamy Tomato and Basil Soup"
+  name: "Creamy Tomato Basil Soup"
   category: "Veg"
   activity_type: "Pan"
   steps:

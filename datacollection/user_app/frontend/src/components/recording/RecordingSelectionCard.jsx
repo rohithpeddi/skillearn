@@ -40,7 +40,7 @@ const RecordingSelectionCard = (props) => {
 			</div>
 			<div className="rscBox">
 				<button onClick={fetchData} className="rscButton">
-					Fetch {label} Recording
+					Fetch {label} recording
 				</button>
 			</div>
 		</div>

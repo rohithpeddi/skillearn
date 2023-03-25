@@ -24,10 +24,10 @@ class Recording:
 		self.mistakes = mistakes
 		
 		self.environment = None
-		self.recorded_by = None
+		self.recorded_by = const.DUMMY_USER_ID
 		
 		self.is_prepared = False
-		self.selected_by = None
+		self.selected_by = const.DUMMY_USER_ID
 		
 		self.recording_info = None
 		
@@ -51,15 +51,19 @@ class Recording:
 			for mistake in self.mistakes:
 				mistake_dict_list.append(mistake.to_dict())
 			recording_dict[const.MISTAKES] = mistake_dict_list
-		
-		if self.environment is not None:
-			recording_dict[const.ENVIRONMENT] = self.environment
-		
-		if self.recorded_by is not None:
-			recording_dict[const.RECORDED_BY] = self.recorded_by
 			
-		if self.selected_by is not None:
-			recording_dict[const.SELECTED_BY] = self.selected_by
+		recording_dict[const.ENVIRONMENT] = self.environment
+		recording_dict[const.RECORDED_BY] = self.recorded_by
+		recording_dict[const.SELECTED_BY] = self.selected_by
+		
+		# if self.environment is not None:
+		# 	recording_dict[const.ENVIRONMENT] = self.environment
+		#
+		# if self.recorded_by is not None:
+		# 	recording_dict[const.RECORDED_BY] = self.recorded_by
+		#
+		# if self.selected_by is not None:
+		# 	recording_dict[const.SELECTED_BY] = self.selected_by
 		
 		if self.recording_info is not None:
 			recording_dict[const.RECORDING_INFO] = self.recording_info.to_dict()

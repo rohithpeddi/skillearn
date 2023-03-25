@@ -10,6 +10,7 @@ from datacollection.user_app.backend.models.user import User
 
 from datacollection.user_app.backend.constants import DatabaseIngestion_Constants as const
 
+from logger_config import logger
 
 class FirebaseIngestion:
 	
@@ -70,6 +71,9 @@ class ActivityRecordingsIngestion(FirebaseIngestion):
 			return None
 		
 		for activity_recordings_file_name in os.listdir(self.recordings_directory):
+			logger.info("----------------------------------------")
+			logger.info(f'Processing activity recordings file: {activity_recordings_file_name}')
+			
 			activity_name = activity_recordings_file_name
 			activity_dict = fetch_activity(activity_name)
 			activity = Activity.from_dict(activity_dict)
@@ -99,6 +103,8 @@ class ActivityRecordingsIngestion(FirebaseIngestion):
 				
 				# 2. Push it to the database as a child of activity with corresponding activity_id
 				self.db_service.update_recording(recording)
+			
+			logger.info("----------------------------------------")
 
 
 if __name__ == "__main__":
@@ -109,5 +115,5 @@ if __name__ == "__main__":
 	# user_ingestion.ingest()
 	activities_ingestion = ActivitiesIngestion(info_directory)
 	activities_ingestion.ingest()
-	# activity_recordings_ingestion = ActivityRecordingsIngestion(info_directory)
-	# activity_recordings_ingestion.ingest()
+	activity_recordings_ingestion = ActivityRecordingsIngestion(info_directory)
+	activity_recordings_ingestion.ingest()

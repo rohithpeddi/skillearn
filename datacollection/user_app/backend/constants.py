@@ -62,6 +62,8 @@ class Recording_Constants:
 	ACTIVITY_TYPE = "activity_type"
 	MISTAKE_HINTS = "mistake_hints"
 	REQUIRED_ITEMS = "required_items"
+	
+	DUMMY_USER_ID = -1
 
 
 # # ---------------------------------------------------------------------------------------
@@ -73,6 +75,9 @@ class Firebase_Constants:
 	CURRENT_ENVIRONMENT = "current_environment"
 	
 	RECORDINGS = "recordings"
+	
+	RECORDED_BY = "recorded_by"
+	ACTIVITY_ID = "activity_id"
 
 
 ENVIRONMENT = "environment"
@@ -154,6 +159,16 @@ class FlaskServer_constants:
 	
 	SELECTION_TYPE = "selection_type"
 	RECORDING_CONTENT = "recording_content"
+	
+	NUMBER_OF_RECORDINGS = "number_of_recordings"
+	NUMBER_OF_MISTAKE_RECORDINGS = "number_of_mistake_recordings"
+	NUMBER_OF_CORRECT_RECORDINGS = "number_of_correct_recordings"
+	
+	RECORDING_STATS = "recording_stats"
+	MISTAKE_STATS = "mistake_stats"
+	USER_RECORDING_STATS = "user_recording_stats"
+	
+	DUMMY_USER_ID = -1
 
 
 # # ---------------------------------------------------------------------------------------

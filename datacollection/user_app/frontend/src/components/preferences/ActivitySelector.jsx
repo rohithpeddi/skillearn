@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Box, Button, Checkbox, FormControlLabel, Typography } from "@mui/material";
 import "./ActivitySelector.css";
-import {useNavigate} from "react-router-dom"; // Import the CSS file
+import {useNavigate} from "react-router-dom";
+import API_BASE_URL from "../../config";
 
 
 const ActivitySelector = (props) => {
 	
-	const { activities, activityPreferences, activityCategory, userId } = props;
+	const { activities, activityPreferences, activityCategory, setUserData, userId } = props;
 	
 	const navigate = useNavigate();
 	const [selectedActivities, setSelectedActivities] = useState([]);
@@ -45,9 +46,10 @@ const ActivitySelector = (props) => {
 	};
 	
 	const handleApiRequest = () => {
-		let url = `http://localhost:5000/users/${userId}/preferences/${activityCategory}`;
+		let url = `${API_BASE_URL}/users/${userId}/preferences/${activityCategory}`;
 		axios.post(url, { selectedActivities })
 			.then((response) => {
+				setUserData(response.data);
 				navigate("/preferences");
 			})
 			.catch((error) => {
