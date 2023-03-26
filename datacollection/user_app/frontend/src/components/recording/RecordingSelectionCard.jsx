@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import axios from "axios";
 import "./RecordingSelectionCard.css";
+import API_BASE_URL from "../../config";
 
 const RecordingSelectionCard = (props) => {
 	
@@ -14,7 +15,7 @@ const RecordingSelectionCard = (props) => {
 	
 	const fetchData = async () => {
 		try {
-			let url = `http://localhost:5000/users/${userData.id}/activities/${selectedActivityId}/recordings/${label}`;
+			let url = `${API_BASE_URL}/users/${userData.id}/activities/${selectedActivityId}/recordings/${label}`;
 			const response = await axios.get(url);
 			console.log(response.data);
 			setRecording(response.data.recording_content);

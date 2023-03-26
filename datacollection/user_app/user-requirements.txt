@@ -15,3 +15,13 @@ pytz==2017.3
 networkx==3.0
 flask-cors
 open_gopro
+asyncio==3.4.3
+boxsdk==3.6.1
+opencv-python==4.7.0.68
+av==10.0.0
+pynput==1.7.6
+open3d
+pynput
+websockets
+redis
+pyaudio

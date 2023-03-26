@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from "axios";
 import './RecordingDisplayCard.css';
+import API_BASE_URL from "../../config";
 
 const RecordingDisplayCard = (props) => {
 	
@@ -8,7 +9,7 @@ const RecordingDisplayCard = (props) => {
 	
 	const selectRecording = async () => {
 		try {
-			let url = `http://localhost:5000/users/${userData.id}/environment/${environment}/select/recordings/${recording.id}`;
+			let url = `${API_BASE_URL}/users/${userData.id}/environment/${environment}/select/recordings/${recording.id}`;
 			const response = await axios.post(url);
 			setRecording(response.data)
 			handleSuccessPopupOpen("Picked the recording, proceed to prepare the recording");

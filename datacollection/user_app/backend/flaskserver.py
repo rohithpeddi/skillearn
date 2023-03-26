@@ -1,5 +1,7 @@
 import json
+import os
 import random
+import signal
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -9,7 +11,9 @@ from datacollection.user_app.backend.firebase_service import FirebaseService
 from datacollection.user_app.backend.models.activity import Activity
 from datacollection.user_app.backend.models.mistake_tag import MistakeTag
 from datacollection.user_app.backend.models.recording import Recording
+from datacollection.user_app.backend.models.recording_info import RecordingInfo
 from datacollection.user_app.backend.models.user import User
+from datacollection.user_app.backend.services import async_service
 from logger_config import logger
 
 app = Flask(__name__)
@@ -255,6 +259,43 @@ def fetch_stats(user_id):
 	stats = {const.RECORDING_STATS: recording_stats, const.MISTAKE_STATS: mistake_stats, const.USER_RECORDING_STATS: user_recording_stats}
 	
 	return jsonify(stats)
+
+
+# --------------------------------------------------------------------------------------------
+# -------------------------------------- DATA CAPTURE -----------------------------------------
+
+@app.route("/begin/recording/<recording_id>", methods=['POST'])
+def start_activity_recording(recording_id):
+	# 1. Fetch recording info from the request
+	recording_info = json.loads(request.data)
+	try:
+		recording_dict = db_service.fetch_recording(recording_id)
+		recording = Recording.from_dict(recording_dict)
+		
+		# 2. Update recording info from the request
+		recording_info = RecordingInfo.from_dict(recording_info)
+		recording.recording_info = recording_info
+		
+		child_subprocess_pid = async_service.create_async_subprocess(recording, const.ACTIVITY_RECORDING, db_service=db_service)
+		logger.info("Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
+		response = {const.STATUS: const.SUCCESS, const.SUBPROCESS_ID: child_subprocess_pid}
+		return jsonify(response)
+	except Exception as e:
+		return "An error occurred: " + str(e), 500
+
+
+@app.route("/stop/recording/<recording_id>/<int:subprocess_id>", methods=['POST'])
+def stop_activity_recording(recording_id, subprocess_id):
+	try:
+		# 1. Interrupt the process with PID
+		# 2. In the interrupt process add the logic to update Firebase regarding the end of the recording
+		# os.system('pkill -TERM -P {pid}'.format(pid=recording_subprocess_id))
+		logger.info(f'Received signal to stop subprocess with PID - {subprocess_id}')
+		os.kill(subprocess_id, signal.SIGINT)
+		response = {const.STATUS: const.SUCCESS}
+		return jsonify(response)
+	except Exception as e:
+		return "An error occurred: " + str(e), 500
 
 
 # IMPORTANT - After every schedule change the current environment parameter in Firebase Directly
