@@ -1,7 +1,0 @@
-.data_collection_live_frame {
-    overflow: auto;
-    height: 60%;
-    border: 2px solid black;
-    max-height: 500px;
-    max-width: 800px;
-}
