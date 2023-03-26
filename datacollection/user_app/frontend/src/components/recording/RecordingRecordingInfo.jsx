@@ -51,6 +51,7 @@ const RecordingRecordingInfo = (props) => {
 		try {
 			let url = `${API_BASE_URL}/start/recording/${recording.id}`;
 			const response = await axios.post(url, recording);
+			setRecording(recording);
 			setSubprocessId(response.data.subprocess_id);
 			if (response.status === 200) {
 				alert("Recording started successfully!");
@@ -66,8 +67,8 @@ const RecordingRecordingInfo = (props) => {
 	const handleEndRecording = async () => {
 		try {
 			let url = `${API_BASE_URL}/stop/recording/${recording.id}/${subprocessId}`;
-			const response = await axios.post(url);
-			
+			const response = await axios.post(url, recording);
+			setRecording(recording);
 			if (response.status === 200) {
 				alert("Recording ended successfully!");
 			} else {
@@ -84,14 +85,14 @@ const RecordingRecordingInfo = (props) => {
 		<div className="recRecordContent">
 			<div className="recRecordInfoContainer">
 				<div className="recRecordGoProInfo">
-					<h2>GoPro Info</h2>
+					<h2>GoPro</h2>
 					<button className="recRecordButton" onClick={handleGoproToggle}>
 						{goproToggle ? "Disable" : "Enable"}
 					</button>
 				</div>
 				
 				<div className="recRecordHololensInfo">
-					<h2>HoloLens Info</h2>
+					<h2>HoloLens</h2>
 					<button className="recRecordButton" onClick={() => handleHololensToggle("pv")}>
 						{hololensToggles.pv ? "Disable PV" : "Enable PV"}
 					</button>

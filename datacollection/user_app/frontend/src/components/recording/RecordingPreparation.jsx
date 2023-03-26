@@ -14,6 +14,12 @@ const RecordingPreparation = (props) => {
 		return step.modified_description || step.description;
 	};
 	
+	const getActivityDescription = (activityId) => {
+		const activity = activities.find((activity) => activity.id === activityId);
+		const descriptions = activity.steps.map(step => step.description);
+		return descriptions.join(".");
+	};
+	
 	if (!recording) {
 		return (
 			<div>
@@ -32,6 +38,11 @@ const RecordingPreparation = (props) => {
 					</tr>
 					</thead>
 					<tbody>
+					<tr className="recPrepTableRow">
+						<td className="recPrepBox">
+							{getActivityDescription(recording.activity_id)}
+						</td>
+					</tr>
 					{recording.steps.map((row, index) => (
 						<tr key={index} className="recPrepTableRow">
 							<td className="recPrepBox">

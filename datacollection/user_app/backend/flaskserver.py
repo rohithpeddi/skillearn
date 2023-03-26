@@ -267,16 +267,11 @@ def fetch_stats(user_id):
 @app.route("/start/recording/<recording_id>", methods=['POST'])
 def start_activity_recording(recording_id):
 	# 1. Fetch recording info from the request
-	recording_info = json.loads(request.data)
+	recording_dict = json.loads(request.data)
 	try:
-		recording_dict = db_service.fetch_recording(recording_id)
 		recording = Recording.from_dict(recording_dict)
-		
-		# 2. Update recording info from the request
-		recording_info = RecordingInfo.from_dict(recording_info)
-		recording.recording_info = recording_info
-		
 		child_subprocess_pid = async_service.create_async_subprocess(recording, const.ACTIVITY_RECORDING, db_service=db_service)
+		db_service.update_recording(recording)
 		logger.info("Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
 		response = {const.SUBPROCESS_ID: child_subprocess_pid}
 		return jsonify(response)

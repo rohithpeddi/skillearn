@@ -16,6 +16,12 @@ const RecordingRecording = (props) => {
 		return activity.required_items;
 	};
 	
+	const getActivityDescription = (activityId) => {
+		const activity = activities.find((activity) => activity.id === activityId);
+		const descriptions = activity.steps.map(step => step.description);
+		return descriptions.join(".");
+	};
+	
 	if (!recording) {
 		return (
 			<div>
@@ -40,6 +46,12 @@ const RecordingRecording = (props) => {
 				</tr>
 				</thead>
 				<tbody>
+				<tr className="recRecordTableRow">
+					<td className="recRecordBox">
+						{getActivityDescription(recording.activity_id)}
+					</td>
+				</tr>
+				
 				{recording.steps.map((row, index) => (
 					<tr key={index} className="recRecordTableRow">
 						<td className="recRecordBox">
