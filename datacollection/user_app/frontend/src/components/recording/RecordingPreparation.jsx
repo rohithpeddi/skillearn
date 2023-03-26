@@ -24,34 +24,42 @@ const RecordingPreparation = (props) => {
 	
 	return (
 		<div className="recPrepContainer">
-			<table className="recPrepTable">
-				<thead>
-				<tr className="recPrepTableHeader">
-					<th colSpan="4">Preparing activity {getActivityName(recording.activity_id)}</th>
-				</tr>
-				</thead>
-				<tbody>
-				{recording.steps.map((row, index) => (
-					<tr key={index} className="recPrepTableRow">
-						<td className="recPrepBox">
-							<details className="recPrepAccordionDetails" open>
-								<summary className="recPrepAccordionSummary">
-									<span> {getDescription(row)} </span>
-								</summary>
-								<RecordingStepPreparation
-									recording={recording}
-									setRecording={setRecording}
-									mistakeTags={mistakeTags}
-									step={row}
-									stepIndex={index} />
-							</details>
-						</td>
+			{recording.is_mistake ? (
+				<table className="recPrepTable">
+					<thead>
+					<tr className="recPrepTableHeader">
+						<th colSpan="4">Preparing activity {getActivityName(recording.activity_id)}</th>
 					</tr>
-				))}
-				</tbody>
-			</table>
+					</thead>
+					<tbody>
+					{recording.steps.map((row, index) => (
+						<tr key={index} className="recPrepTableRow">
+							<td className="recPrepBox">
+								<details className="recPrepAccordionDetails" open>
+									<summary className="recPrepAccordionSummary">
+										<span> {getDescription(row)} </span>
+									</summary>
+									<RecordingStepPreparation
+										recording={recording}
+										setRecording={setRecording}
+										mistakeTags={mistakeTags}
+										step={row}
+										stepIndex={index} />
+								</details>
+							</td>
+						</tr>
+					))}
+					</tbody>
+				</table>
+			) : (
+				<h2 className="proceedToRecordButton">
+					Proceed to record, you are ready!
+				</h2>
+			)}
 		</div>
 	);
+	
+	
 };
 
 export default RecordingPreparation;

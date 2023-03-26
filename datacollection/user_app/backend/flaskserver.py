@@ -154,8 +154,8 @@ def fetch_activity_recording(user_id, activity_id, label):
 		return jsonify(response)
 
 
-@app.route('/users/<int:user_id>/select/recordings/<recording_id>', methods=['POST'])
-def select_recording(user_id, recording_id):
+@app.route('/users/<int:user_id>/environment/<int:environment_id>/select/recordings/<recording_id>', methods=['POST'])
+def select_recording(user_id, environment_id, recording_id):
 	recording_dict = db_service.fetch_recording(recording_id)
 	recording = Recording.from_dict(recording_dict)
 	
@@ -166,6 +166,7 @@ def select_recording(user_id, recording_id):
 			return jsonify(recording.to_dict())
 	
 	recording.selected_by = user_id
+	recording.environment = environment_id
 	db_service.update_recording(recording)
 	return jsonify(recording.to_dict())
 
@@ -179,30 +180,33 @@ def fetch_user_recordings(user_id):
 
 # 4. Update activity recording
 # Use this for intermediate update steps of recording instances
-@app.route('/recordings/<int:recording_id>', methods=['POST'])
+@app.route('/recordings/<recording_id>', methods=['POST'])
 def update_recording(recording_id):
-	recording_dict = request.values
+	recording_dict = json.loads(request.data)
 	try:
 		recording = Recording.from_dict(recording_dict)
 		assert recording.id == recording_id
 		db_service.update_recording(recording)
+		return jsonify(recording.to_dict())
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
 
 # 5. Use this when recording is finished
-@app.route('/recordings/<int:recording_id>/user/<int:user_id>', methods=['POST'])
+@app.route('/recordings/<recording_id>/user/<int:user_id>', methods=['POST'])
 def update_recording_finished(recording_id, user_id):
-	recording_dict = request.values
+	recording_dict = json.loads(request.data)
 	try:
 		recording = Recording.from_dict(recording_dict)
 		assert recording.id == recording_id
+		recording.recorded_by = user_id
 		db_service.update_recording(recording)
 		
 		user = User.from_dict(db_service.fetch_user(user_id))
 		user.update_recording(recording.environment, recording.activity_id)
 		
 		db_service.update_user(user)
+		return jsonify(recording.to_dict())
 	except Exception as e:
 		return "An error occurred: " + str(e), 500
 
@@ -213,13 +217,22 @@ def update_recording_finished(recording_id, user_id):
 @app.route('/users/<int:user_id>/stats', methods=['GET'])
 def fetch_stats(user_id):
 	# 1. Fetch all the recordings by a user
-	user_recordings = db_service.fetch_user_recordings(user_id)
+	recordings = dict(db_service.fetch_user_recordings(user_id))
 	
-	recording_stats = {const.NUMBER_OF_RECORDINGS: len(user_recordings), const.NUMBER_OF_MISTAKE_RECORDINGS: len(
-		[recording for recording in user_recordings if recording.is_mistake]), const.NUMBER_OF_CORRECT_RECORDINGS: len(
-		[recording for recording in user_recordings if not recording.is_mistake])}
+	recording_stats = {const.NUMBER_OF_RECORDINGS: 0, const.NUMBER_OF_MISTAKE_RECORDINGS: 0,
+	                   const.NUMBER_OF_CORRECT_RECORDINGS: 0}
 	
-	user_recording_stats = [recording.to_dict for recording in user_recordings]
+	user_recordings = []
+	for recording_id, recording in recordings.items():
+		user_recording = Recording.from_dict(recording)
+		user_recordings.append(user_recording)
+		recording_stats[const.NUMBER_OF_RECORDINGS] += 1
+		if user_recording.is_mistake:
+			recording_stats[const.NUMBER_OF_MISTAKE_RECORDINGS] += 1
+		else:
+			recording_stats[const.NUMBER_OF_CORRECT_RECORDINGS] += 1
+	
+	user_recording_stats = [recording.to_dict() for recording in user_recordings]
 	
 	mistake_stats = {}
 	for mistake_tag in MistakeTag.get_step_mistake_tag_list():
@@ -227,13 +240,17 @@ def fetch_stats(user_id):
 	
 	for recording in user_recordings:
 		if recording.is_mistake:
-			recording_mistakes = recording.mistakes
-			for mistake in recording_mistakes:
-				mistake_stats[mistake.tag] += 1
-			steps = recording.steps
-			for step in steps:
-				for mistake in step.mistakes:
+			for mistake in recording.mistakes:
+				if mistake.tag in mistake_stats:
 					mistake_stats[mistake.tag] += 1
+				else:
+					mistake_stats[mistake.tag] = 1
+			for step in recording.steps:
+				for mistake in step.mistakes:
+					if mistake.tag in mistake_stats:
+						mistake_stats[mistake.tag] += 1
+					else:
+						mistake_stats[mistake.tag] = 1
 	
 	stats = {const.RECORDING_STATS: recording_stats, const.MISTAKE_STATS: mistake_stats, const.USER_RECORDING_STATS: user_recording_stats}
 	

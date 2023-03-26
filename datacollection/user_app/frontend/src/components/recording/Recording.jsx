@@ -6,6 +6,8 @@ import RecordingSelection from "./RecordingSelection";
 import RecordingPreparation from "./RecordingPreparation";
 import RecordingRecording from "./RecordingRecording";
 import axios from "axios";
+import API_BASE_URL from "../../config";
+import {useNavigate} from "react-router-dom";
 
 const Recording = (props) => {
 	
@@ -15,6 +17,8 @@ const Recording = (props) => {
 	const [recording, setRecording] = useState(false);
 	
 	const [mistakeTags, setMistakeTags] = useState([]);
+	
+	const navigate = useNavigate();
 	
 	useEffect(() => {
 		axios.get("http://localhost:5000/mistake_tags")
@@ -30,11 +34,50 @@ const Recording = (props) => {
 	const steps = ["Activity Selection", "Activity Preparation", "Activity Recording", "Activity Recording Review"];
 	
 	const handleNext = () => {
-		setActiveStep((prevActiveStep) => prevActiveStep + 1);
+		if (validateStep(activeStep)) {
+			setActiveStep((prevActiveStep) => prevActiveStep + 1);
+		}
 	};
 	
 	const handleBack = () => {
 		setActiveStep((prevActiveStep) => prevActiveStep - 1);
+	};
+	
+	const validateStep = (stepIndex) => {
+		// Add your validation logic for each step here
+		// Return true if the step is valid, otherwise return false
+		switch (stepIndex) {
+			case 0:
+				// Validate Step 1 Recording Selection
+				return true;
+			case 1:
+				// Validate Step 2 Recording Preparation
+				return true;
+			case 2:
+				// Validate Step 3 Recording Recording
+				return true;
+			case 3:
+				// Validate Step 4 Recording Review
+				return true;
+			default:
+				return false;
+		}
+	};
+	
+	const handleFinish = async () => {
+		if (validateStep(activeStep)) {
+			// Perform API call
+			// Replace the API call URL and request data with your specific API requirements
+			try {
+				let url = `${API_BASE_URL}/recordings/${recording.id}/user/${userData.id}`;
+				const response = await axios.post(url, recording);
+				setRecording(response.data);
+				console.log(response.data);
+				navigate("/home");
+			} catch (error) {
+				console.error("Error during API call:", error);
+			}
+		}
 	};
 	
 	const getContent = (stepIndex) => {
@@ -91,7 +134,6 @@ const Recording = (props) => {
 	};
 	
 	return (
-		
 		<div className={styles.recordingContainer}>
 			<div className={styles.recordingHeader}>
 				<AppBar userData={userData} />
@@ -114,25 +156,36 @@ const Recording = (props) => {
 				
 				<div className={styles.recordingButtonContainer}>
 					<Button
+						className={styles.backButton}
 						disabled={activeStep === 0}
 						onClick={handleBack}
-						style={{ marginRight: "8px" }}
 					>
 						Back
 					</Button>
-					<Button
-						variant="contained"
-						color="primary"
-						onClick={handleNext}
-						disabled={activeStep === steps.length - 1}
-					>
-						{activeStep === steps.length - 1 ? "Finish" : "Next"}
-					</Button>
+					{activeStep === steps.length - 1 ? (
+						<Button
+							className={styles.nextButton}
+							variant="contained"
+							color="primary"
+							onClick={handleFinish}
+						>
+							Finish
+						</Button>
+					) : (
+						<Button
+							className={styles.nextButton}
+							variant="contained"
+							color="primary"
+							onClick={handleNext}
+						>
+							Next
+						</Button>
+					)}
 				</div>
 			</div>
 		</div>
-		
 	);
 };
+
 
 export default Recording;

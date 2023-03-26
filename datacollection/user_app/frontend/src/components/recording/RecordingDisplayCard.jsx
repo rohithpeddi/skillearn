@@ -4,11 +4,11 @@ import './RecordingDisplayCard.css';
 
 const RecordingDisplayCard = (props) => {
 	
-	const {userData, recording, setRecording, handleSuccessPopupOpen, handleErrorPopupOpen} = props;
+	const {userData, environment, recording, setRecording, handleSuccessPopupOpen, handleErrorPopupOpen} = props;
 	
 	const selectRecording = async () => {
 		try {
-			let url = `http://localhost:5000/users/${userData.id}/select/recordings/${recording.id}`;
+			let url = `http://localhost:5000/users/${userData.id}/environment/${environment}/select/recordings/${recording.id}`;
 			const response = await axios.post(url);
 			setRecording(response.data)
 			handleSuccessPopupOpen("Picked the recording, proceed to prepare the recording");

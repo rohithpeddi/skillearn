@@ -99,6 +99,7 @@ const RecordingSelection = (props) => {
 				<RecordingDisplayCard
 					userData={userData}
 					recording={recording}
+					environment={environment}
 					setRecording={setRecording}
 					handleSuccessPopupOpen={handleSuccessPopupOpen}
 					handleErrorPopupOpen={handleErrorPopupOpen} />

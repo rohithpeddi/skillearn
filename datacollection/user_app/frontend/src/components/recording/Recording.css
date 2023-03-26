@@ -29,8 +29,16 @@
 
 .recordingButtonContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 24px;
+}
+
+.backButton {
+    margin-right: auto;
+}
+
+.nextButton {
+    margin-left: auto;
 }

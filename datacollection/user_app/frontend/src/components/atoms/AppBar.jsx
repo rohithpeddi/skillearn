@@ -20,7 +20,8 @@ const AppBar = ({ userData }) => {
 				navigate("/recording");
 				break;
 			case 3:
-				navigate("/annotation");
+				// TODO: Currently no annotation page
+				navigate("/home");
 				break;
 			default:
 				break;

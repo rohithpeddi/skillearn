@@ -1,24 +1,22 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import axios from 'axios';
 import './RecordingStepPreparation.css';
+import RecordingStepPreparationMistakeList from "./RecordingStepPreparationMistakeListCard";
+import API_BASE_URL from "../../config";
 
 const RecordingStepPreparation = (props) => {
 	
-	const {recording, setRecording, mistakeTags, step, stepIndex} = props;
+	const {recording, setRecording, mistakeTags, stepIndex} = props;
 	
-	const [preselectedItems, setPreselectedItems] = useState([]);
-	
-	useEffect( () => {
-		if (step.mistakes && step.mistakes.length > 0) {
-			const preselectedItems = step.mistakes.map((mistake) => mistake.tag);
-			setPreselectedItems(preselectedItems);
-		}
-	}, [step]);
-	
-	const [selectedItems, setSelectedItems] = useState(new Set(preselectedItems));
-	
+	const [selectedItems, setSelectedItems] = useState(new Set());
 	const [mistakeText, setMistakeText] = useState('');
 	const [stepDescription, setStepDescription] = useState('');
+	
+	const resetState = () => {
+		setSelectedItems(new Set());
+		setMistakeText('');
+		setStepDescription('');
+	};
 	
 	const handleCheckboxChange = (item, checked) => {
 		const newSelectedItems = new Set(selectedItems);
@@ -41,60 +39,123 @@ const RecordingStepPreparation = (props) => {
 	};
 	
 	const handleClick = async () => {
-		
-		const payload = {
-			selectedItems: Array.from(selectedItems),
-		};
-		
-		try {
-			const response = await axios.post('https://api.example.com/endpoint', payload);
-			console.log(response.data);
-		} catch (error) {
-			console.error('Error during API call:', error);
+		if (selectedItems.size === 0) {
+			alert('Please select at least one mistake tag.');
+			return;
+		} else if (mistakeText === '') {
+			alert('Please enter a description of the mistake.');
+			return;
 		}
+		if (stepDescription !== '') {
+			recording.steps[stepIndex].modified_description = stepDescription;
+		}
+		
+		if (!recording.steps[stepIndex].mistakes) {
+			recording.steps[stepIndex].mistakes = [];
+		}
+		
+		recording.steps[stepIndex].mistakes.push({
+			tag: [...selectedItems.values()][0],
+			description: mistakeText
+		});
+		
+		let url = `${API_BASE_URL}/recordings/${recording.id}`;
+		axios.post(url, recording)
+			.then((recordingResponse) => {
+				if (recordingResponse.data) {
+					setRecording(recordingResponse.data);
+					resetState();
+				}
+			})
+			.catch((apiError) => {
+				console.error('Error during API call:', apiError);
+			});
+	};
+	
+	const handleDeleteAllStepMistakes = async () => {
+		recording.steps[stepIndex].mistakes = [];
+		let url = `${API_BASE_URL}/recordings/${recording.id}`;
+		axios.post(url, recording)
+			.then((recordingResponse) => {
+				if (recordingResponse.data) {
+					setRecording(recordingResponse.data);
+				}
+			})
+			.catch((apiError) => {
+				console.error('Error during API call:', apiError);
+			});
+	};
+	
+	const handleDeleteStepMistake = async (mistakeIndex) => {
+		recording.steps[stepIndex].mistakes.splice(mistakeIndex, 1);
+		let url = `${API_BASE_URL}/recordings/${recording.id}`;
+		axios.post(url, recording)
+			.then((recordingResponse) => {
+				if (recordingResponse.data) {
+					setRecording(recordingResponse.data);
+				}
+			})
+			.catch((apiError) => {
+				console.error('Error during API call:', apiError);
+			});
 	};
 	
 	return (
 		<div className="recStepPrepContainer">
-			<div className="recStepPrepOriginalText">
-				Original Description: {step.description}
-			</div>
 			
-			<div className="recStepPrepMistakeTags">
-				{mistakeTags.map((item) => (
-					<div key={item} className="mistakeTagBox">
-						<input
-							className="mistakeTagCheckbox"
-							type="checkbox"
-							checked={selectedItems.has(item)}
-							onChange={(e) => handleCheckboxChange(item, e.target.checked)}
-						/>
-						<label className="mistakeTagLabel">{item}</label>
+			{
+				recording.steps[stepIndex].mistakes && recording.steps[stepIndex].mistakes.length > 0 ? (
+					<RecordingStepPreparationMistakeList recording={recording}
+				                                     stepIndex={stepIndex}
+				                                     handleDeleteStepMistake={handleDeleteStepMistake}
+				                                     handleDeleteAllStepMistakes={handleDeleteAllStepMistakes} />
+					
+			
+					): null
+			}
+			
+			
+			<div className="recStepPrepUpdateMistakeContainer">
+				<div className="recStepPrepOriginalText">
+					Original Description: {recording.steps[stepIndex].description}
+				</div>
+				
+				<div className="recStepPrepMistakeTags">
+					{mistakeTags.map((item) => (
+						<div key={item} className="mistakeTagBox">
+							<input
+								className="mistakeTagCheckbox"
+								type="checkbox"
+								checked={selectedItems.has(item)}
+								onChange={(e) => handleCheckboxChange(item, e.target.checked)}
+							/>
+							<label className="mistakeTagLabel">{item}</label>
+						</div>
+					))}
+				</div>
+				
+				<div className="recStepPrepMistakeDescription">
+					<div className="recStepPrepMistakeDescriptionText">
+						Mistake Description:
 					</div>
-				))}
+					<div className="recStepPrepInputText">
+						<input className="inputTextField" type="text" value={mistakeText} onChange={handleMistakeTextChange} />
+					</div>
+				</div>
+				
+				<div className="recStepPrepUpdateStepDescription">
+					<div className="recStepPrepUpdateStepDescriptionText">
+						Updated Step Description:
+					</div>
+					<div className="recStepPrepInputText">
+						<input className="inputTextField" type="text" value={stepDescription} onChange={handleUpdateStepDescriptionChange} />
+					</div>
+				</div>
+				
+				<button onClick={handleClick} className="recStepPrepUpdateButton">
+					Update Mistakes
+				</button>
 			</div>
-			
-			<div className="recStepPrepMistakeDescription">
-				<div className="recStepPrepMistakeDescriptionText">
-					Mistake Description:
-				</div>
-				<div className="recStepPrepInputText">
-					<input className="inputTextField" type="text" value={mistakeText} onChange={handleMistakeTextChange} />
-				</div>
-			</div>
-			
-			<div className="recStepPrepUpdateStepDescription">
-				<div className="recStepPrepUpdateStepDescriptionText">
-					Updated Step Description:
-				</div>
-				<div className="recStepPrepInputText">
-					<input className="inputTextField" type="text" value={stepDescription} onChange={handleUpdateStepDescriptionChange} />
-				</div>
-			</div>
-			
-			<button onClick={handleClick} className="recStepPrepUpdateButton">
-				Update Mistakes
-			</button>
 		
 		</div>
 	);
