@@ -1,7 +1,7 @@
 import os
 import yaml
 
-from datacollection.user_app.backend.firebase_service import FirebaseService
+from datacollection.user_app.backend.services.firebase_service import FirebaseService
 from datacollection.user_app.backend.constants import *
 from datacollection.user_app.backend.models.activity import Activity
 from datacollection.user_app.backend.models.recording import Recording

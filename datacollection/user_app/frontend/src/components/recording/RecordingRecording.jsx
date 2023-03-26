@@ -1,6 +1,7 @@
 import React from 'react';
 import './RecordingRecording.css';
 import RecordingRequiredItems from "./RecordingRequiredItems";
+import RecordingRecordingInfo from "./RecordingRecordingInfo";
 
 const RecordingRecording = (props) => {
 	const { userData, environment, activities, recording, setRecording } = props;
@@ -29,6 +30,7 @@ const RecordingRecording = (props) => {
 			<div className="recRecordHeader">
 				<h2>Required Items</h2>
 				<RecordingRequiredItems requiredItems={getRequiredItems(recording.activity_id)}/>
+				<RecordingRecordingInfo recording={recording} setRecording={setRecording}/>
 			</div>
 			
 			<table className="recRecordTable">

@@ -1,7 +1,0 @@
-pyinflect==0.5.1
-numpy
-six
-pyasn1-modules
-scipy
-matplotlib
-boxsdk

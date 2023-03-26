@@ -1,0 +1,59 @@
+from ..constants import Recording_Constants as const
+
+
+class HololensInfo:
+	
+	def __init__(self):
+		self.pv = True
+		self.mc = True
+		self.depth_ahat = True
+		self.spatial = True
+		
+		self.depth_lt = False
+		self.vlc_leftleft = False
+		self.vlc_leftfront = False
+		self.vlc_rightright = False
+		self.vlc_rightfront = False
+		
+		self.imu_accelerometer = False
+		self.imu_gyroscope = False
+		self.imu_magnetometer = False
+		
+		self.device_ip = const.DEFAULT_HOLOLENS_IP
+	
+	def to_dict(self):
+		return {
+			const.PHOTOVIDEO: self.pv,
+			const.MICROPHONE: self.mc,
+			const.DEPTH_AHAT: self.depth_ahat,
+			const.SPATIAL: self.spatial,
+			const.DEPTH_LT: self.depth_lt,
+			const.VLC_LEFTLEFT: self.vlc_leftleft,
+			const.VLC_LEFTFRONT: self.vlc_leftfront,
+			const.VLC_RIGHTRIGHT: self.vlc_rightright,
+			const.VLC_RIGHTFRONT: self.vlc_rightfront,
+			const.DEVICE_IP: self.device_ip,
+			const.IMU_ACCELEROMETER: self.imu_accelerometer,
+			const.IMU_GYROSCOPE: self.imu_gyroscope,
+			const.IMU_MAGNETOMETER: self.imu_magnetometer
+		}
+	
+	@classmethod
+	def from_dict(cls, hololens_info_dict):
+		hololens_info = cls()
+		
+		hololens_info.pv = hololens_info_dict[const.PHOTOVIDEO]
+		hololens_info.mc = hololens_info_dict[const.MICROPHONE]
+		hololens_info.depth_ahat = hololens_info_dict[const.DEPTH_AHAT]
+		hololens_info.spatial = hololens_info_dict[const.SPATIAL]
+		hololens_info.depth_lt = hololens_info_dict[const.DEPTH_LT]
+		hololens_info.vlc_leftleft = hololens_info_dict[const.VLC_LEFTLEFT]
+		hololens_info.vlc_leftfront = hololens_info_dict[const.VLC_LEFTFRONT]
+		hololens_info.vlc_rightright = hololens_info_dict[const.VLC_RIGHTRIGHT]
+		hololens_info.vlc_rightfront = hololens_info_dict[const.VLC_RIGHTFRONT]
+		hololens_info.device_ip = hololens_info_dict[const.DEVICE_IP]
+		hololens_info.imu_accelerometer = hololens_info_dict[const.IMU_ACCELEROMETER]
+		hololens_info.imu_gyroscope = hololens_info_dict[const.IMU_GYROSCOPE]
+		hololens_info.imu_magnetometer = hololens_info_dict[const.IMU_MAGNETOMETER]
+		
+		return hololens_info

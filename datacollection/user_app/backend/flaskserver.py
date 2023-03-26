@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 from datacollection.user_app.backend.constants import FlaskServer_constants as const
-from datacollection.user_app.backend.firebase_service import FirebaseService
+from datacollection.user_app.backend.services.firebase_service import FirebaseService
 from datacollection.user_app.backend.models.activity import Activity
 from datacollection.user_app.backend.models.mistake_tag import MistakeTag
 from datacollection.user_app.backend.models.recording import Recording
@@ -264,7 +264,7 @@ def fetch_stats(user_id):
 # --------------------------------------------------------------------------------------------
 # -------------------------------------- DATA CAPTURE -----------------------------------------
 
-@app.route("/begin/recording/<recording_id>", methods=['POST'])
+@app.route("/start/recording/<recording_id>", methods=['POST'])
 def start_activity_recording(recording_id):
 	# 1. Fetch recording info from the request
 	recording_info = json.loads(request.data)
@@ -278,7 +278,7 @@ def start_activity_recording(recording_id):
 		
 		child_subprocess_pid = async_service.create_async_subprocess(recording, const.ACTIVITY_RECORDING, db_service=db_service)
 		logger.info("Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
-		response = {const.STATUS: const.SUCCESS, const.SUBPROCESS_ID: child_subprocess_pid}
+		response = {const.SUBPROCESS_ID: child_subprocess_pid}
 		return jsonify(response)
 	except Exception as e:
 		return "An error occurred: " + str(e), 500

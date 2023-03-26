@@ -5,6 +5,7 @@ from pathlib import Path
 
 from open_gopro import WirelessGoPro, Params
 from open_gopro.util import add_cli_args_and_parse, setup_logging
+from ..logger_config import logger
 
 """
 Open GoPro Python SDK - requires Python >= version 3.9 and < 3.11
@@ -38,6 +39,7 @@ class OpenGoProService:
         # 1080 - 240 - Wide
         # 4K   - 60  - Wide
         # 5.3K - 30  - Wide
+        logger.info("Setting GoPro Configuration Settings")
         gopro.ble_command.load_preset_group(group=Params.PresetGroup.VIDEO)
         gopro.ble_setting.resolution.set(Params.Resolution.RES_1080)
         gopro.ble_setting.fps.set(Params.FPS.FPS_60)
@@ -52,20 +54,20 @@ class OpenGoProService:
     def start_recording(self):
         self.close_wifi_connection()
         if self.is_recording:
-            # Add log that recording is in progress
+            logger.info("Recording is in progress")
             return
         self.gopro.ble_command.set_shutter(shutter=Params.Toggle.ENABLE)
         # self.gopro.http_command.set_shutter(shutter=Params.Toggle.ENABLE)
-        # Add log that recording started
+        logger.info("Recording Started")
         self.is_recording = True
 
     def stop_recording(self):
         if not self.is_recording:
-            # Add log that no recording is in progress
+            logger.info("Recording is in progress")
             return
         self.gopro.ble_command.set_shutter(shutter=Params.Toggle.DISABLE)
         # self.gopro.http_command.set_shutter(shutter=Params.Toggle.DISABLE)
-        # Add log that recording stopped
+        logger.info("Recording Stopped")
         self.is_recording = False
 
     def download_videos(self, folder_path):
@@ -100,6 +102,7 @@ class OpenGoProService:
     def download_most_recent_video(self, folder_path, file_name=None):
         # The video (is most likely) the difference between the two sets
         # recent_video = self.media_set_after.difference(self.media_set_before).pop()
+        logger.info("Downloading Most Recent Video by opening WiFi Connection")
         self.open_wifi_connection()
         media_list = [x["n"] for x in self.gopro.http_command.get_media_list().flatten]
         recent_video = sorted(media_list)[-1]
@@ -111,6 +114,7 @@ class OpenGoProService:
 
         self.gopro.http_command.download_file(camera_file=recent_video, local_file=local_path)
         self.close_wifi_connection()
+        logger.info("Downloaded Most Recent Video and closed WiFi Connection")
 
 
 def test_record_video():

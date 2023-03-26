@@ -29,8 +29,8 @@ class Recording:
 		self.is_prepared = False
 		self.selected_by = const.DUMMY_USER_ID
 		
-		self.recording_info = None
-		
+		self.recording_info = RecordingInfo()
+	
 	def update_mistakes(self, recording_mistakes):
 		if self.mistakes is None:
 			self.mistakes = []
@@ -51,23 +51,13 @@ class Recording:
 			for mistake in self.mistakes:
 				mistake_dict_list.append(mistake.to_dict())
 			recording_dict[const.MISTAKES] = mistake_dict_list
-			
+		
 		recording_dict[const.ENVIRONMENT] = self.environment
 		recording_dict[const.RECORDED_BY] = self.recorded_by
 		recording_dict[const.SELECTED_BY] = self.selected_by
 		
-		# if self.environment is not None:
-		# 	recording_dict[const.ENVIRONMENT] = self.environment
-		#
-		# if self.recorded_by is not None:
-		# 	recording_dict[const.RECORDED_BY] = self.recorded_by
-		#
-		# if self.selected_by is not None:
-		# 	recording_dict[const.SELECTED_BY] = self.selected_by
+		recording_dict[const.RECORDING_INFO] = self.recording_info.to_dict()
 		
-		if self.recording_info is not None:
-			recording_dict[const.RECORDING_INFO] = self.recording_info.to_dict()
-			
 		if self.is_prepared:
 			recording_dict[const.IS_PREPARED] = self.is_prepared
 		
@@ -81,7 +71,8 @@ class Recording:
 			step = Step.from_dict(step_dict)
 			step_list.append(step)
 		
-		recording = cls(recording_dict[const.ID], recording_dict[const.ACTIVITY_ID], recording_dict[const.IS_MISTAKE], step_list)
+		recording = cls(recording_dict[const.ID], recording_dict[const.ACTIVITY_ID], recording_dict[const.IS_MISTAKE],
+		                step_list)
 		
 		if const.MISTAKES in recording_dict:
 			mistake_list = []
@@ -95,14 +86,12 @@ class Recording:
 		
 		if const.RECORDED_BY in recording_dict:
 			recording.recorded_by = recording_dict[const.RECORDED_BY]
-			
+		
 		if const.SELECTED_BY in recording_dict:
 			recording.selected_by = recording_dict[const.SELECTED_BY]
-			
+		
 		if const.IS_PREPARED in recording_dict:
 			recording.is_prepared = recording_dict[const.IS_PREPARED]
 			
-		if const.RECORDING_INFO in recording_dict:
-			recording.recording_info = RecordingInfo.from_dict(recording_dict[const.RECORDING_INFO])
-			
+		recording.recording_info = RecordingInfo.from_dict(recording_dict[const.RECORDING_INFO])
 		return recording

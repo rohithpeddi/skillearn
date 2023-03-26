@@ -1,7 +1,7 @@
-import Levenshtein
-import numpy as np
-import gensim.downloader as api
-from rapidfuzz.distance.metrics_cpp import jaro_winkler_similarity
+# import Levenshtein
+# import numpy as np
+# import gensim.downloader as api
+# from rapidfuzz.distance.metrics_cpp import jaro_winkler_similarity
 
 
 class MistakeTag:
@@ -46,38 +46,38 @@ class MistakeTag:
 		# 			np.linalg.norm(sample_tag_embedding) * np.linalg.norm(tag_embedding))
 		# return cosine_similarity_score
 	
-	@classmethod
-	def get_best_tag(cls, sample_tag) -> str:
-		
-		if sample_tag == cls.OTHER:
-			return cls.OTHER
-		else:
-			closest_tag = None
-			max_similarity_score = 0
-			
-			for tag in cls.mistake_tag_list:
-				# check if the strings are exactly the same
-				if sample_tag == tag:
-					return sample_tag
-				
-				# Check the Levenshtein distance between the strings
-				levenshtein_distance = Levenshtein.distance(sample_tag, tag)
-				if levenshtein_distance <= 1:
-					return tag
-				
-				# Check the Jaro-Winkler similarity between the strings
-				jaro_winkler_similarity_score = jaro_winkler_similarity(sample_tag, tag)
-				if jaro_winkler_similarity_score >= 0.9:
-					return tag
-				
-				# Check the cosine similarity between the embeddings
-				cosine_similarity_score = cls.get_similarity_score(sample_tag, tag)
-				if cosine_similarity_score >= max_similarity_score:
-					max_similarity_score = cosine_similarity_score
-					closest_tag = tag
-			
-			# if no match is found, return the default value
-			if max_similarity_score < 0.7:
-				return cls.OTHER
-			
-			return closest_tag
+	# @classmethod
+	# def get_best_tag(cls, sample_tag) -> str:
+	#
+	# 	if sample_tag == cls.OTHER:
+	# 		return cls.OTHER
+	# 	else:
+	# 		closest_tag = None
+	# 		max_similarity_score = 0
+	#
+	# 		for tag in cls.mistake_tag_list:
+	# 			# check if the strings are exactly the same
+	# 			if sample_tag == tag:
+	# 				return sample_tag
+	#
+	# 			# Check the Levenshtein distance between the strings
+	# 			levenshtein_distance = Levenshtein.distance(sample_tag, tag)
+	# 			if levenshtein_distance <= 1:
+	# 				return tag
+	#
+	# 			# Check the Jaro-Winkler similarity between the strings
+	# 			jaro_winkler_similarity_score = jaro_winkler_similarity(sample_tag, tag)
+	# 			if jaro_winkler_similarity_score >= 0.9:
+	# 				return tag
+	#
+	# 			# Check the cosine similarity between the embeddings
+	# 			cosine_similarity_score = cls.get_similarity_score(sample_tag, tag)
+	# 			if cosine_similarity_score >= max_similarity_score:
+	# 				max_similarity_score = cosine_similarity_score
+	# 				closest_tag = tag
+	#
+	# 		# if no match is found, return the default value
+	# 		if max_similarity_score < 0.7:
+	# 			return cls.OTHER
+	#
+	# 		return closest_tag

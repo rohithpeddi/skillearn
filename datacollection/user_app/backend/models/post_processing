@@ -1,0 +1,7 @@
+from .recording import Recording
+
+
+class PostProcessing:
+	
+	def __init__(self, recording: Recording):
+		pass
