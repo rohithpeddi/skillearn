@@ -14,3 +14,4 @@ absl-py==1.4.0
 pytz==2017.3
 networkx==3.0
 flask-cors
+open_gopro
