@@ -68,6 +68,7 @@ const RecordingStepPreparation = (props) => {
 				}
 			})
 			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
 				console.error('Error during API call:', apiError);
 			});
 	};
@@ -82,6 +83,7 @@ const RecordingStepPreparation = (props) => {
 				}
 			})
 			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
 				console.error('Error during API call:', apiError);
 			});
 	};
@@ -96,6 +98,7 @@ const RecordingStepPreparation = (props) => {
 				}
 			})
 			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
 				console.error('Error during API call:', apiError);
 			});
 	};

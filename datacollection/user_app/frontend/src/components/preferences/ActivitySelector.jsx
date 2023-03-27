@@ -53,6 +53,7 @@ const ActivitySelector = (props) => {
 				navigate("/preferences");
 			})
 			.catch((error) => {
+				alert("Error updating preferences. Please try again later.")
 				console.log(error);
 			});
 	};

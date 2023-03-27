@@ -42,6 +42,7 @@ const LoginPage = (props) => {
 			})
 			.catch((apiError) => {
 				setError(apiError);
+				alert('Invalid username or password. Please try again.')
 			});
 	};
 	

@@ -68,15 +68,18 @@ const Recording = (props) => {
 		if (validateStep(activeStep)) {
 			// Perform API call
 			// Replace the API call URL and request data with your specific API requirements
-			try {
-				let url = `${API_BASE_URL}/recordings/${recording.id}/user/${userData.id}`;
-				const response = await axios.post(url, recording);
-				setRecording(response.data);
-				console.log(response.data);
-				navigate("/home");
-			} catch (error) {
-				console.error("Error during API call:", error);
-			}
+			let url = `${API_BASE_URL}/recordings/${recording.id}/user/${userData.id}`;
+			axios.post(url, recording)
+				.then(response => {
+					setRecording(response.data);
+					console.log(response.data);
+					navigate("/home");
+				})
+				.catch(error => {
+					alert("Error: " + error)
+					console.log(error);
+				});
+				
 		}
 	};
 	

@@ -14,16 +14,18 @@ const RecordingSelectionCard = (props) => {
 	};
 	
 	const fetchData = async () => {
-		try {
-			let url = `${API_BASE_URL}/users/${userData.id}/activities/${selectedActivityId}/recordings/${label}`;
-			const response = await axios.get(url);
+
+		let url = `${API_BASE_URL}/users/${userData.id}/activities/${selectedActivityId}/recordings/${label}`;
+		axios.get(url).then((response) => {
 			console.log(response.data);
 			setRecording(response.data.recording_content);
 			handleSuccessPopupOpen(response.data.selection_type);
-		} catch (error) {
+		})
+		.catch((error) => {
 			console.error(error);
 			handleErrorPopupOpen("Error fetching a recording. Please try again.");
-		}
+		});
+
 	};
 	
 	return (

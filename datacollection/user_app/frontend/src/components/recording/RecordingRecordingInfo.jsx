@@ -28,56 +28,63 @@ const RecordingRecordingInfo = (props) => {
 	
 	// 2. Create a function to update the toggles through an API call
 	const updateToggles = async () => {
-		try {
-			let url = `${API_BASE_URL}/recordings/${recording.id}`;
-			recording.recording_info.gopro = goproToggle;
-			recording.recording_info.hololens_info = hololensToggles;
+		let url = `${API_BASE_URL}/recordings/${recording.id}`;
+		recording.recording_info.gopro = goproToggle;
+		recording.recording_info.hololens_info = hololensToggles;
+		
+		axios.post(url, recording)
+			.then((response) => {
+				setRecording(response.data);
+				if (response.status === 200) {
+					alert("Toggles updated successfully!");
+				} else {
+					alert("Error updating toggles!");
+				}
+			})
+			.catch((error) => {
+				console.error("Error updating toggles:", error);
+				alert("Error updating toggles!" + error);
+			});
 			
-			const response = await axios.post(url, recording);
-			setRecording(response.data);
-			
-			if (response.status === 200) {
-				alert("Toggles updated successfully!");
-			} else {
-				alert("Error updating toggles!");
-			}
-		} catch (error) {
-			console.error("Error updating toggles:", error);
-			alert("Error updating toggles!");
-		}
 	};
 	
 	const handleBeginRecording = async () => {
-		try {
-			let url = `${API_BASE_URL}/start/recording/${recording.id}`;
-			const response = await axios.post(url, recording);
-			setRecording(recording);
-			setSubprocessId(response.data.subprocess_id);
-			if (response.status === 200) {
-				alert("Recording started successfully!");
-			} else {
-				alert("Error starting recording!");
-			}
-		} catch (error) {
-			console.error("Error starting recording:", error);
-			alert("Error starting recording!");
-		}
+
+		let url = `${API_BASE_URL}/start/recording/${recording.id}`;
+		axios.post(url, recording)
+			.then((response) => {
+				setRecording(recording);
+				setSubprocessId(response.data.subprocess_id);
+				if (response.status === 200) {
+					alert("Recording started successfully!");
+				} else {
+					alert("Error starting recording!");
+				}
+			})
+			.catch((error) => {
+				console.error("Error starting recording:", error);
+				alert("Error starting recording!" + error);
+			});
+			
 	};
 	
 	const handleEndRecording = async () => {
-		try {
-			let url = `${API_BASE_URL}/stop/recording/${recording.id}/${subprocessId}`;
-			const response = await axios.post(url, recording);
-			setRecording(recording);
-			if (response.status === 200) {
-				alert("Recording ended successfully!");
-			} else {
-				alert("Error ending recording!");
-			}
-		} catch (error) {
-			console.error("Error ending recording:", error);
-			alert("Error ending recording!");
-		}
+
+		let url = `${API_BASE_URL}/stop/recording/${recording.id}/${subprocessId}`;
+		axios.post(url, recording)
+			.then((response) => {
+				setRecording(recording);
+				if (response.status === 200) {
+					alert("Recording ended successfully!");
+				} else {
+					alert("Error ending recording!");
+				}
+			})
+			.catch((error) => {
+				console.error("Error ending recording:", error);
+				alert("Error ending recording!" + error);
+			});
+
 	};
 	
 	return (
