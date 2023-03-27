@@ -165,6 +165,8 @@ class Hololens_Constants:
 	MICROPHONE_DATA_WRITER = "mc_data_writer"
 	DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
 	PV_POSE_WRITER = "pv_pose_writer"
+	
+	PV_STRIDE = hl2ss.compute_nv12_stride(PV_FRAME_WIDTH)
 
 
 # # ---------------------------------------------------------------------------------------
