@@ -24,7 +24,8 @@ def update_activity_recording_interrupt_handler(
 		recording: Recording,
 		db_service: FirebaseService,
 		recording_service: RecordingService,
-		signum: int
+		signum,
+		frame
 ):
 	logger.info("Received interrupt signal {}".format(signum))
 	

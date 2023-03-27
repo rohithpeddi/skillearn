@@ -113,19 +113,10 @@ class Producer(StreamProcessor):
 		stream_client.close()
 
 
-@contextmanager
-def open_file_writer(file_path, file_extension: str):
-	opened_file = open(file_path, 'ab')
-	try:
-		yield FileWriter(opened_file, file_extension)
-	finally:
-		opened_file.close()
-
-
 class FileWriter:
 	
-	def __init__(self, opened_file, file_extension: str):
-		self._opened_file = opened_file
+	def __init__(self, file_path, file_extension: str):
+		self._opened_file = open(file_path, 'ab')
 		self._file_extension = file_extension
 	
 	def write(self, stream_packet):
@@ -133,6 +124,9 @@ class FileWriter:
 			pickle.dump(stream_packet, self._opened_file)
 		else:
 			self._opened_file.write(stream_packet)
+	
+	def close(self):
+		self._opened_file.close()
 
 
 # TODO:
