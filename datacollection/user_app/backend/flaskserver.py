@@ -102,6 +102,7 @@ def update_activity_preferences(user_id, category):
 		
 		return jsonify(user.to_dict())
 	except Exception as e:
+		logger.error("An error occurred: " + str(e))
 		return "An error occurred: " + str(e), 500
 
 
@@ -193,6 +194,7 @@ def update_recording(recording_id):
 		db_service.update_recording(recording)
 		return jsonify(recording.to_dict())
 	except Exception as e:
+		logger.error("An error occurred: " + str(e))
 		return "An error occurred: " + str(e), 500
 
 
@@ -212,6 +214,7 @@ def update_recording_finished(recording_id, user_id):
 		db_service.update_user(user)
 		return jsonify(recording.to_dict())
 	except Exception as e:
+		logger.error("An error occurred: " + str(e))
 		return "An error occurred: " + str(e), 500
 
 
@@ -276,6 +279,7 @@ def start_activity_recording(recording_id):
 		response = {const.SUBPROCESS_ID: child_subprocess_pid}
 		return jsonify(response)
 	except Exception as e:
+		logger.error("An error occurred: " + str(e))
 		return "An error occurred: " + str(e), 500
 
 
@@ -290,6 +294,7 @@ def stop_activity_recording(recording_id, subprocess_id):
 		response = {const.STATUS: const.SUCCESS}
 		return jsonify(response)
 	except Exception as e:
+		logger.error("An error occurred: " + str(e))
 		return "An error occurred: " + str(e), 500
 
 

@@ -5,7 +5,7 @@ from pathlib import Path
 
 from open_gopro import WirelessGoPro, Params
 from open_gopro.util import add_cli_args_and_parse, setup_logging
-from ..logger_config import logger
+from datacollection.user_app.backend.logger_config import logger
 
 """
 Open GoPro Python SDK - requires Python >= version 3.9 and < 3.11
@@ -15,7 +15,7 @@ Ref: https://gopro.github.io/OpenGoPro/demos/python/sdk_wireless_camera_control
 
 class OpenGoProService:
 
-    def __init__(self, enable_wifi=False, sudo_passwd="ptg@darpa", enable_logging=True) -> None:
+    def __init__(self, enable_wifi=False, sudo_passwd="ptg@darpa", enable_logging=False) -> None:
         self.enable_wifi = enable_wifi
         self.sudo_password = sudo_passwd
         self.is_recording = False
@@ -41,9 +41,9 @@ class OpenGoProService:
         # 5.3K - 30  - Wide
         logger.info("Setting GoPro Configuration Settings")
         gopro.ble_command.load_preset_group(group=Params.PresetGroup.VIDEO)
-        gopro.ble_setting.resolution.set(Params.Resolution.RES_1080)
-        gopro.ble_setting.fps.set(Params.FPS.FPS_60)
-        gopro.ble_setting.video_field_of_view.set(Params.VideoFOV.SUPERVIEW)
+        gopro.ble_setting.resolution.set(Params.Resolution.RES_4K)
+        gopro.ble_setting.fps.set(Params.FPS.FPS_30)
+        gopro.ble_setting.video_field_of_view.set(Params.VideoFOV.LINEAR)
 
         # gopro.ble_setting.video_performance_mode.set(Params.PerformanceMode.MAX_PERFORMANCE)
         gopro.ble_setting.max_lens_mode.set(Params.MaxLensMode.DEFAULT)
@@ -118,11 +118,11 @@ class OpenGoProService:
 
 
 def test_record_video():
-    TIME = 1.0
-    MINUTES = 60.0
-    RECORD = False
+    TIME = 2.0
+    MINUTES = 10.0
+    RECORD = True
 
-    gopro = OpenGoProService(enable_wifi=False, enable_logging=False)
+    gopro = OpenGoProService(enable_wifi=False, enable_logging=True)
 
     if RECORD:
         gopro.start_recording()
@@ -134,7 +134,7 @@ def test_record_video():
         os.makedirs(gopro_videos_dir)
     gopro.download_most_recent_video(gopro_videos_dir)
 
-    gopro.close_all_connections()
+    # gopro.close_all_connections()
 
 
 if __name__ == '__main__':

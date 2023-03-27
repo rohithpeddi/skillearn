@@ -1,6 +1,6 @@
 import os
 
-from hololens import hl2ss
+from datacollection.user_app.backend.hololens import hl2ss
 
 BASE_DIRECTORY = os.getcwd()
 
@@ -64,7 +64,7 @@ class Recording_Constants:
 	START_TIME = "start_time"
 	END_TIME = "end_time"
 	
-	DEFAULT_HOLOLENS_IP = ""
+	DEFAULT_HOLOLENS_IP = "192.168.0.207"
 	DEVICE_IP = "device_ip"
 	
 	PHOTOVIDEO = "pv"
@@ -116,7 +116,7 @@ class Post_Processing_Constants:
 # # ------------------------ HOLOLENS SERVICE PROPERTIES -----------------------------------
 
 class Hololens_Constants:
-	DEFAULT_HOLOLENS_IP = ""
+	DEFAULT_HOLOLENS_IP = "192.168.0.207"
 	DEVICE_IP = "device_ip"
 	
 	REDIS_HOST = "localhost"
