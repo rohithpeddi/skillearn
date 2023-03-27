@@ -184,7 +184,8 @@ class Consumer(StreamProcessor):
             
             ab_data = np.frombuffer(stream_packet.payload, dtype=np.uint16,
                                     offset=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS * hl2ss._SIZEOF.WORD,
-                                    count=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS).reshape(hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE)
+                                    count=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS).reshape(
+                hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE)
             
             cv2.imwrite(ab_file_path, ab_data)
             
@@ -390,67 +391,99 @@ class HololensService:
         
         logger.log(logging.INFO, "Stopped all systems")
     
-    def start_recording(self, recording: Recording, active_streams=None, is_mrc=True):
+    def fetch_active_streams(self, recording: Recording):
+        
+        hololens_info = recording.recording_info.hololens_info
+        active_streams = []
+        
+        if const.DEPTH_AHAT in hololens_info and hololens_info[const.DEPTH_AHAT]:
+            active_streams.append(hl2ss.StreamPort.RM_DEPTH_AHAT)
+        
+        if const.PHOTOVIDEO in hololens_info and hololens_info[const.PHOTOVIDEO]:
+            active_streams.append(hl2ss.StreamPort.PHOTO_VIDEO)
+        
+        if const.MICROPHONE in hololens_info and hololens_info[const.MICROPHONE]:
+            active_streams.append(hl2ss.StreamPort.MICROPHONE)
+        
+        if const.SPATIAL in hololens_info and hololens_info[const.SPATIAL]:
+            active_streams.append(hl2ss.StreamPort.SPATIAL_INPUT)
+        
+        if const.IMU_MAGNETOMETER in hololens_info and hololens_info[const.IMU_MAGNETOMETER]:
+            active_streams.append(hl2ss.StreamPort.RM_IMU_MAGNETOMETER)
+        
+        if const.IMU_GYROSCOPE in hololens_info and hololens_info[const.IMU_GYROSCOPE]:
+            active_streams.append(hl2ss.StreamPort.RM_IMU_GYROSCOPE)
+        
+        if const.IMU_ACCELEROMETER in hololens_info and hololens_info[const.IMU_ACCELEROMETER]:
+            active_streams.append(hl2ss.StreamPort.RM_IMU_ACCELEROMETER)
+        
+        return active_streams
+    
+    def start_recording(self, recording: Recording, is_mrc=False):
+        
+        active_streams = self.fetch_active_streams(recording)
+        
         if active_streams is None:
             active_streams = [hl2ss.StreamPort.RM_DEPTH_AHAT, hl2ss.StreamPort.SPATIAL_INPUT]
         
         if self.is_recording:
-            logger.log(logging.INFO, "Already a process is recording videos")
+            logger.error("Already a process is recording videos")
             return
         if is_mrc:
-            start_mrc(recording.device_ip)
+            logger.info("Starting MRC recording")
+            start_mrc(recording.recording_info.hololens_info.device_ip)
         
         logger.log(logging.INFO, "Starting a process to record videos")
         self.is_recording = True
         self._start_record_sensor_streams(recording, active_streams)
     
-    def stop_recording(self, is_mrc=True):
+    def stop_recording(self, is_mrc=False):
         if not self.is_recording:
             print("Not recording")
             return
         
         if is_mrc:
-            stop_mrc(self.recording.device_ip)
+            device_ip = self.recording.recording_info.hololens_info.device_ip
+            stop_mrc(device_ip)
             time.sleep(3)
-            download_most_recent_mrc_file(self.recording.device_ip, self.rec_data_dir,
-                                          self.recording.get_recording_id())
+            download_most_recent_mrc_file(device_ip, self.rec_data_dir, self.recording.id)
         self.is_recording = False
         self._stop_record_sensor_streams()
 
 
-def record_all_streams(hololens_service: HololensService, recording: Recording):
-    # active_streams = [StreamPort.RM_DEPTH_AHAT, StreamPort.PHOTO_VIDEO]
-    
-    active_streams = [hl2ss.StreamPort.RM_DEPTH_AHAT, hl2ss.StreamPort.PHOTO_VIDEO, hl2ss.StreamPort.MICROPHONE,
-                      hl2ss.StreamPort.SPATIAL_INPUT]
-    
-    rec_thread = threading.Thread(target=hololens_service.start_recording, args=(recording, active_streams, False))
-    rec_thread.start()
-    
-    print("Recording Started")
-    sleep_min = 2
-    for min_done in range(sleep_min):
-        print("Minutes done {}".format(min_done))
-        time.sleep(60)
-    
-    hololens_service.stop_recording(False)
-    rec_thread.join()
-
-
-def record_mixed_streams(hololens_service: HololensService, recording: Recording):
-    active_streams = [hl2ss.StreamPort.RM_DEPTH_AHAT, hl2ss.StreamPort.SPATIAL_INPUT]
-    
-    rec_thread = threading.Thread(target=hololens_service.start_recording, args=(recording, active_streams, True))
-    rec_thread.start()
-    
-    print("Recording Started")
-    sleep_min = 15
-    for min_done in range(sleep_min):
-        print("Minutes done {}".format(min_done))
-        time.sleep(60)
-    
-    hololens_service.stop_recording()
-    rec_thread.join()
+# def record_all_streams(hololens_service: HololensService, recording: Recording):
+#     # active_streams = [StreamPort.RM_DEPTH_AHAT, StreamPort.PHOTO_VIDEO]
+#
+#     active_streams = [hl2ss.StreamPort.RM_DEPTH_AHAT, hl2ss.StreamPort.PHOTO_VIDEO, hl2ss.StreamPort.MICROPHONE,
+#                       hl2ss.StreamPort.SPATIAL_INPUT]
+#
+#     rec_thread = threading.Thread(target=hololens_service.start_recording, args=(recording, active_streams, False))
+#     rec_thread.start()
+#
+#     print("Recording Started")
+#     sleep_min = 2
+#     for min_done in range(sleep_min):
+#         print("Minutes done {}".format(min_done))
+#         time.sleep(60)
+#
+#     hololens_service.stop_recording(False)
+#     rec_thread.join()
+#
+#
+# def record_mixed_streams(hololens_service: HololensService, recording: Recording):
+#     active_streams = [hl2ss.StreamPort.RM_DEPTH_AHAT, hl2ss.StreamPort.SPATIAL_INPUT]
+#
+#     rec_thread = threading.Thread(target=hololens_service.start_recording, args=(recording, None, True))
+#     rec_thread.start()
+#
+#     print("Recording Started")
+#     sleep_min = 15
+#     for min_done in range(sleep_min):
+#         print("Minutes done {}".format(min_done))
+#         time.sleep(60)
+#
+#     hololens_service.stop_recording()
+#     rec_thread.join()
 
 # if __name__ == '__main__':
 #     ip_address = '192.168.1.152'

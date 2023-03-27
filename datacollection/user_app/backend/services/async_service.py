@@ -7,7 +7,6 @@ import functools
 import datetime
 
 from .firebase_service import FirebaseService
-from .hololens_service import HololensService
 from .recording_service import RecordingService
 from ..logger_config import logger
 from ..constants import Async_Constants as const
@@ -24,7 +23,7 @@ from ..models.recording import Recording
 def update_activity_recording_interrupt_handler(
 		recording: Recording,
 		db_service: FirebaseService,
-		recording_service: HololensService,
+		recording_service: RecordingService,
 		signum: int
 ):
 	logger.info("Received interrupt signal {}".format(signum))
@@ -42,6 +41,7 @@ def update_activity_recording_interrupt_handler(
 async def activity_record_task(recording: Recording, db_service: FirebaseService):
 	# Create a DB service attached to the new child process
 	
+	logger.info("Starting activity recording and updated start time in Firebase Database")
 	recording.recording_info.start_time = datetime.datetime.now()
 	db_service.update_recording(recording)
 	
@@ -55,6 +55,7 @@ async def activity_record_task(recording: Recording, db_service: FirebaseService
 	)
 	
 	# Starts necessary things for recording from hololens service
+	logger.info("Starting data recording")
 	recording_service.start_recording()
 
 
