@@ -34,6 +34,9 @@ class Recording:
 	def get_recording_id(self):
 		return self.id
 	
+	def __str__(self):
+		return f"Recording: {self.id} - {self.activity_id} - {self.is_mistake} - {self.environment}"
+	
 	def update_mistakes(self, recording_mistakes):
 		if self.mistakes is None:
 			self.mistakes = []

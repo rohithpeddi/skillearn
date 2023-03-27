@@ -59,6 +59,8 @@ class Producer(StreamProcessor):
 		
 		self.enable_streams = True
 		self.stream_threads = []
+		
+		self.device_ip = self.recording.recording_info.hololens_info.device_ip
 	
 	# Currently we capture data from streams from only PHOTO VIDEO, DEPTH AHAT, SPATIAL INPUT, MICROPHONE
 	# If the RAW images takes a lot of time to transfer
@@ -68,20 +70,20 @@ class Producer(StreamProcessor):
 	def _fetch_stream_client(self, stream_port):
 		stream_client = None
 		if stream_port == hl2ss.StreamPort.PHOTO_VIDEO:
-			stream_client = hl2ss.rx_pv(self.recording.device_ip, stream_port, hl2ss.ChunkSize.PHOTO_VIDEO,
+			stream_client = hl2ss.rx_pv(self.device_ip, stream_port, hl2ss.ChunkSize.PHOTO_VIDEO,
 			                            hl2ss.StreamMode.MODE_1,
 			                            const.PV_FRAME_WIDTH, const.PV_FRAME_HEIGHT, const.PV_FRAMERATE,
 			                            const.PV_VIDEO_PROFILE_RAW,
 			                            const.PV_VIDEO_BITRATE_RAW)
 		
 		elif stream_port == hl2ss.StreamPort.RM_DEPTH_AHAT:
-			stream_client = hl2ss.rx_rm_depth_ahat(self.recording.device_ip, stream_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
+			stream_client = hl2ss.rx_rm_depth_ahat(self.device_ip, stream_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
 			                                       const.AHAT_MODE, const.AHAT_PROFILE_RAW, const.AHAT_BITRATE_RAW)
 		elif stream_port == hl2ss.StreamPort.MICROPHONE:
-			stream_client = hl2ss.rx_microphone(self.recording.device_ip, stream_port, hl2ss.ChunkSize.MICROPHONE,
+			stream_client = hl2ss.rx_microphone(self.device_ip, stream_port, hl2ss.ChunkSize.MICROPHONE,
 			                                    const.AUDIO_PROFILE_DECODED)
 		elif stream_port == hl2ss.StreamPort.SPATIAL_INPUT:
-			stream_client = hl2ss.rx_si(self.recording.device_ip, stream_port, hl2ss.ChunkSize.SPATIAL_INPUT)
+			stream_client = hl2ss.rx_si(self.device_ip, stream_port, hl2ss.ChunkSize.SPATIAL_INPUT)
 		
 		return stream_client
 	
