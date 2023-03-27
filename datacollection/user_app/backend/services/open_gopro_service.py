@@ -61,7 +61,7 @@ class OpenGoProService:
         logger.info("Recording Started")
         self.is_recording = True
 
-    def stop_recording(self):
+    def stop_recording(self, folder_path, file_name):
         if not self.is_recording:
             logger.info("Recording is in progress")
             return
@@ -69,6 +69,8 @@ class OpenGoProService:
         # self.gopro.http_command.set_shutter(shutter=Params.Toggle.DISABLE)
         logger.info("Recording Stopped")
         self.is_recording = False
+        
+        self.download_most_recent_video(folder_path, file_name + ".MP4")
 
     def download_videos(self, folder_path):
         self.open_wifi_connection()
