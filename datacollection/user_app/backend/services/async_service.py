@@ -52,7 +52,7 @@ async def activity_record_task(recording: Recording, db_service: FirebaseService
 	# Code that will be executed when signalled to stop
 	signal.signal(
 		signal.SIGINT,
-		functools.partial(update_activity_recording_interrupt_handler, db_service, recording, recording_service)
+		functools.partial(update_activity_recording_interrupt_handler, recording, db_service, recording_service)
 	)
 	
 	# Starts necessary things for recording from hololens service
