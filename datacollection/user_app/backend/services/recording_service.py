@@ -6,6 +6,11 @@ from ..services.open_gopro_service import OpenGoProService
 from ..logger_config import logger
 
 
+def create_directories(dir_path):
+	if not os.path.exists(dir_path):
+		os.makedirs(dir_path)
+
+
 class RecordingService:
 	
 	def __init__(self, recording: Recording):
@@ -17,10 +22,14 @@ class RecordingService:
 		self.data_dir = os.path.join(self.file_dir, "../../../../data")
 		self.go_pro_dir = os.path.join(self.data_dir, "gopro")
 		self.hololens_dir = os.path.join(self.data_dir, "hololens")
+		
+		create_directories(self.go_pro_dir)
+		create_directories(self.hololens_dir)
 	
 	def start_recording(self):
 		logger.info("Starting hololens recording")
-		hololens_thread = threading.Thread(target=self.hololens_service.start_recording, args=(self.recording, self.hololens_dir,))
+		hololens_thread = threading.Thread(target=self.hololens_service.start_recording,
+		                                   args=(self.recording, self.hololens_dir,))
 		logger.info("Starting gopro recording")
 		go_pro_thread = threading.Thread(target=self.go_pro_service.start_recording)
 		
@@ -34,7 +43,8 @@ class RecordingService:
 		logger.info("Stopping hololens recording")
 		hololens_thread = threading.Thread(target=self.hololens_service.stop_recording)
 		logger.info("Stopping gopro recording")
-		go_pro_thread = threading.Thread(target=self.go_pro_service.stop_recording, args=(self.go_pro_dir, self.recording.id,))
+		go_pro_thread = threading.Thread(target=self.go_pro_service.stop_recording,
+		                                 args=(self.go_pro_dir, self.recording.id,))
 		
 		hololens_thread.start()
 		go_pro_thread.start()
