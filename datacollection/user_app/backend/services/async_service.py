@@ -75,7 +75,7 @@ def create_async_subprocess(recording, async_type, db_service):
 		return child_subprocess_pid
 	else:
 		# This is the parent process
-		logger.info("Parent process with PID", os.getpid())
+		logger.info(f'Parent process with PID {pid}')
 		# Return the PID of the child process
 		return pid
 
