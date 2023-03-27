@@ -111,8 +111,8 @@ if __name__ == "__main__":
 	current_directory = os.getcwd()
 	info_directory = os.path.join(current_directory, "info_files")
 	
-	# user_ingestion = UserIngestion(info_directory)
-	# user_ingestion.ingest()
+	user_ingestion = UserIngestion(info_directory)
+	user_ingestion.ingest()
 	activities_ingestion = ActivitiesIngestion(info_directory)
 	activities_ingestion.ingest()
 	activity_recordings_ingestion = ActivityRecordingsIngestion(info_directory)

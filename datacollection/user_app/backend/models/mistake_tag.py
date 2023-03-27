@@ -27,6 +27,11 @@ class MistakeTag:
 		        cls.TECHNIQUE_MISTAKE, cls.TEMPERATURE_MISTAKE, cls.OTHER]
 	
 	@classmethod
+	def get_recording_mistake_tag_list(cls):
+		return [cls.PREPARATION_MISTAKE, cls.MEASUREMENT_MISTAKE, cls.TIMING_MISTAKE,
+		        cls.TECHNIQUE_MISTAKE, cls.TEMPERATURE_MISTAKE, cls.OTHER, cls.MISSING_STEP, cls.ORDER_MISTAKE]
+	
+	@classmethod
 	def get_similarity_score(cls, sample_tag, tag) -> float:
 		
 		return 0

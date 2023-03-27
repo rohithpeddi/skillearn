@@ -31,7 +31,7 @@ def update_activity_recording_interrupt_handler(
 	recording_service.stop_recording()
 	logger.info("Stopped all threads related to recording")
 	
-	recording.recording_info.end_time = datetime.datetime.now()
+	recording.recording_info.end_time = datetime.datetime.now().isoformat()
 	db_service.update_recording(recording)
 	logger.info("Updated activity recording end time in Firebase Database")
 	
@@ -42,7 +42,7 @@ async def activity_record_task(recording: Recording, db_service: FirebaseService
 	# Create a DB service attached to the new child process
 	
 	logger.info("Starting activity recording and updated start time in Firebase Database")
-	recording.recording_info.start_time = datetime.datetime.now()
+	recording.recording_info.start_time = datetime.datetime.now().isoformat()
 	db_service.update_recording(recording)
 	
 	recording_service = RecordingService(recording)

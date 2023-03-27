@@ -21,7 +21,8 @@ const Recording = (props) => {
 	const navigate = useNavigate();
 	
 	useEffect(() => {
-		axios.get("http://localhost:5000/mistake_tags")
+		let url = `${API_BASE_URL}/mistake_tags`;
+		axios.get(url)
 			.then((response) => {
 				setMistakeTags(response.data);
 				console.log(response.data);

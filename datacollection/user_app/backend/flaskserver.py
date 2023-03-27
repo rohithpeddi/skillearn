@@ -242,7 +242,7 @@ def fetch_stats(user_id):
 	user_recording_stats = [recording.to_dict() for recording in user_recordings]
 	
 	mistake_stats = {}
-	for mistake_tag in MistakeTag.get_step_mistake_tag_list():
+	for mistake_tag in MistakeTag.get_recording_mistake_tag_list():
 		mistake_stats[mistake_tag] = 0
 	
 	for recording in user_recordings:

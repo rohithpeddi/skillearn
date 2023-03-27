@@ -1,3 +1,5 @@
+import json
+
 from .hololens_info import HololensInfo
 from ..constants import Recording_Constants as const
 
@@ -15,8 +17,8 @@ class RecordingInfo:
 		return {
 			const.GOPRO: self.go_pro,
 			const.HOLOLENS_INFO: self.hololens_info.to_dict(),
-			const.START_TIME: self.start_time,
-			const.END_TIME: self.end_time
+			const.START_TIME: json.dumps(self.start_time),
+			const.END_TIME: json.dumps(self.end_time)
 		}
 	
 	@classmethod
@@ -27,9 +29,9 @@ class RecordingInfo:
 		recording_info.hololens_info = HololensInfo.from_dict(recording_info_dict[const.HOLOLENS_INFO])
 		
 		if const.START_TIME in recording_info_dict:
-			recording_info.start_time = recording_info_dict[const.START_TIME]
+			recording_info.start_time = json.loads(recording_info_dict[const.START_TIME])
 			
 		if const.END_TIME in recording_info_dict:
-			recording_info.end_time = recording_info_dict[const.END_TIME]
+			recording_info.end_time = json.loads(recording_info_dict[const.END_TIME])
 		
 		return recording_info
