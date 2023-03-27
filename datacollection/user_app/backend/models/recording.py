@@ -30,6 +30,9 @@ class Recording:
 		self.selected_by = const.DUMMY_USER_ID
 		
 		self.recording_info = RecordingInfo()
+
+	def get_recording_id(self):
+		return self.id
 	
 	def update_mistakes(self, recording_mistakes):
 		if self.mistakes is None:

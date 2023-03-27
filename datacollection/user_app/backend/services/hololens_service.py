@@ -314,7 +314,7 @@ class HololensService:
 			active_streams: List[int],
 	):
 		self.recording = recording
-		self.device_ip = self.recording.recording_info.hololens_ip
+		self.device_ip = self.recording.recording_info.hololens_info.device_ip
 		self.device_name = get_hostname(self.device_ip)
 		
 		self.rec_data_dir = os.path.join(self.data_dir, self.recording.id)

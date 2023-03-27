@@ -51,9 +51,14 @@ class HololensInfo:
 		hololens_info.vlc_leftfront = hololens_info_dict[const.VLC_LEFTFRONT]
 		hololens_info.vlc_rightright = hololens_info_dict[const.VLC_RIGHTRIGHT]
 		hololens_info.vlc_rightfront = hololens_info_dict[const.VLC_RIGHTFRONT]
-		hololens_info.device_ip = hololens_info_dict[const.DEVICE_IP]
+
 		hololens_info.imu_accelerometer = hololens_info_dict[const.IMU_ACCELEROMETER]
 		hololens_info.imu_gyroscope = hololens_info_dict[const.IMU_GYROSCOPE]
 		hololens_info.imu_magnetometer = hololens_info_dict[const.IMU_MAGNETOMETER]
+
+		if const.DEVICE_IP in hololens_info_dict and hololens_info_dict[const.DEVICE_IP] != "":
+			hololens_info.device_ip = hololens_info_dict[const.DEVICE_IP]
+		else:
+			hololens_info.device_ip = const.DEFAULT_HOLOLENS_IP
 		
 		return hololens_info
