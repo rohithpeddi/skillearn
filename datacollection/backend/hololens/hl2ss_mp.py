@@ -1,5 +1,5 @@
 import multiprocessing as mp
-import hl2ss
+from datacollection.backend.hololens import hl2ss
 
 
 # ------------------------------------------------------------------------------

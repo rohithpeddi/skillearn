@@ -69,6 +69,7 @@ VLC_LEFTLEFT = "vlc_ll"
 VLC_LEFTFRONT = "vlc_lf"
 VLC_RIGHTRIGHT = "vlc_rr"
 VLC_RIGHTFRONT = "vlc_rf"
+VLC_LIST = [VLC_LEFTLEFT, VLC_LEFTFRONT, VLC_RIGHTFRONT, VLC_RIGHTRIGHT]
 
 # Operating mode
 # 0: video

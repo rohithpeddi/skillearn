@@ -1,13 +1,13 @@
 import os
 import numpy as np
 import _init_paths
-from post_processing.SequenceLoader import SequenceLoader
+from datacollection.backend.post_processing.SequenceLoader import SequenceLoader
 
 
 if __name__ == "__main__":
     curr_dir = os.path.dirname(os.path.abspath(__file__))
     sequence_folder = os.path.join(
-        curr_dir, "../../data/recordings/MugPizza/MugPizza_PL2_P2_R1/sync"
+        curr_dir, "../../../../data/mugpizza/SAMPLE/MugPizza_PL2_P2_R1_0/sync/"
     )
     loader = SequenceLoader(debug=True)
     loader.load(sequence_folder)
@@ -19,9 +19,9 @@ if __name__ == "__main__":
     print("depth_width:\n", loader.depth_width)
     print("depth_height:\n", loader.depth_height)
     print("num_frames:\n", loader.num_frames)
-    print("pv_extrinsic:\n", loader.pv_extrinsic)
+    # print("pv_extrinsic:\n", loader.pv_extrinsic)
     print("pv_intrinsic:\n", loader.pv_intrinsic)
-    print("depth_extrinsic:\n", loader.depth_extrinsic)
+    # print("depth_extrinsic:\n", loader.depth_extrinsic)
     print("depth_xy1:\n", loader.depth_xy1)
     print("depth_scale:\n", loader.depth_scale)
 
