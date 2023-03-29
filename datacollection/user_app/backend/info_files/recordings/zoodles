@@ -398,43 +398,47 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- recording_id: 26
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
 - mistakes:
   - description: season-season with salt
     tag: Missing Step
   - description: Add-1/3 cup grated parmesan cheese
+    tag: Missing Step
+  recording_id: 26
+  steps:
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Melt-Melt 2 tablespoons of butter
+  - description: Peel-Peel 2 garlic cloves
+  - description: Add-Add 2 large minced garlic cloves
+  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
+      to burn garlic
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Add-Add the zucchini noodles
+  - description: season-pepper to taste
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Remove-Remove from heat and serve immediately
+  - description: Top-Top with more parmesan if desired
+- mistakes:
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
     tag: Missing Step
   recording_id: 27
   steps:
+  - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat a large pan on medium-high heat
   - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
   - description: Add-Add 2 large minced garlic cloves
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
   - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Add-1/3 cup grated parmesan cheese
+  - description: Add-Add the zucchini noodles
+  - description: season-season with salt
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: season-pepper to taste
+    tag: Missing Step
+  - description: Top-Top with more parmesan if desired
     tag: Missing Step
   recording_id: 28
   steps:
@@ -445,168 +449,172 @@
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: season-pepper to taste
+  - description: season-season with salt
   - description: Add-1/3 cup grated parmesan cheese
   - description: Add-Add the zucchini noodles
-  - description: season-season with salt
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Remove-Remove from heat and serve immediately
     tag: Missing Step
   recording_id: 29
   steps:
   - description: Peel-Peel 2 garlic cloves
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Heat-Heat a large pan on medium-high heat
   - description: Melt-Melt 2 tablespoons of butter
   - description: Add-Add 2 large minced garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
   - description: season-season with salt
+  - description: Add-Add the zucchini noodles
+  - description: Add-1/3 cup grated parmesan cheese
   - description: season-pepper to taste
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Peel-Peel 2 garlic cloves
     tag: Missing Step
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Remove-Remove from heat and serve immediately
     tag: Missing Step
   recording_id: 30
   steps:
-  - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat a large pan on medium-high heat
   - description: Melt-Melt 2 tablespoons of butter
   - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- recording_id: 31
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
+  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
+      to burn garlic
   - description: season-pepper to taste
+  - description: Add-Add the zucchini noodles
   - description: season-season with salt
+  - description: Add-1/3 cup grated parmesan cheese
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Top-Top with more parmesan if desired
+- mistakes:
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+    tag: Missing Step
+  - description: season-season with salt
+    tag: Missing Step
+  - description: Add-Add the zucchini noodles
+    tag: Missing Step
+  recording_id: 31
+  steps:
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Melt-Melt 2 tablespoons of butter
+  - description: Peel-Peel 2 garlic cloves
+  - description: Add-Add 2 large minced garlic cloves
+  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
+      to burn garlic
+  - description: season-pepper to taste
+  - description: Add-1/3 cup grated parmesan cheese
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: season-pepper to taste
-    tag: Missing Step
-  - description: Top-Top with more parmesan if desired
+  - description: Peel-Peel 2 garlic cloves
     tag: Missing Step
   recording_id: 32
   steps:
-  - description: Peel-Peel 2 garlic cloves
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Heat-Heat a large pan on medium-high heat
   - description: Melt-Melt 2 tablespoons of butter
   - description: Add-Add 2 large minced garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
+  - description: season-pepper to taste
   - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
   - description: Add-Add the zucchini noodles
+  - description: Add-1/3 cup grated parmesan cheese
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
+  - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Heat-Heat a large pan on medium-high heat
+  - description: Add-1/3 cup grated parmesan cheese
     tag: Missing Step
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-    tag: Missing Step
-  - description: Remove-Remove from heat and serve immediately
-    tag: Missing Step
+  - tag: Order Mistake
   recording_id: 33
   steps:
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Peel-Peel 2 garlic cloves
   - description: Melt-Melt 2 tablespoons of butter
   - description: Add-Add 2 large minced garlic cloves
+  - description: season-pepper to taste
+  - description: Add-Add the zucchini noodles
+  - description: season-season with salt
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Top-Top with more parmesan if desired
+  - description: Remove-Remove from heat and serve immediately
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
 - mistakes:
+  - description: Melt-Melt 2 tablespoons of butter
+    tag: Missing Step
+  - description: Top-Top with more parmesan if desired
+    tag: Missing Step
+  - description: Add-1/3 cup grated parmesan cheese
+    tag: Missing Step
   - description: Remove-Remove from heat and serve immediately
     tag: Missing Step
+  - tag: Order Mistake
   recording_id: 34
   steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
+  - description: Peel-Peel 2 garlic cloves
   - description: Add-Add 2 large minced garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
   - description: season-pepper to taste
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Top-Top with more parmesan if desired
+  - description: Add-Add the zucchini noodles
 - mistakes:
-  - description: Peel-Peel 2 garlic cloves
+  - description: Add-Add the zucchini noodles
     tag: Missing Step
-  - description: Remove-Remove from heat and serve immediately
-    tag: Missing Step
+  - tag: Order Mistake
   recording_id: 35
   steps:
   - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
+  - description: Top-Top with more parmesan if desired
+  - description: Peel-Peel 2 garlic cloves
   - description: Add-Add 2 large minced garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
   - description: Add-1/3 cup grated parmesan cheese
+  - description: season-season with salt
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Top-Top with more parmesan if desired
+  - description: Remove-Remove from heat and serve immediately
+  - description: Melt-Melt 2 tablespoons of butter
 - mistakes:
-  - description: Add-Add 2 large minced garlic cloves
-    tag: Missing Step
+  - tag: Order Mistake
   recording_id: 36
   steps:
   - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
   - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Melt-Melt 2 tablespoons of butter
+  - description: Add-Add 2 large minced garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
   - description: season-pepper to taste
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Add-1/3 cup grated parmesan cheese
   - description: Add-Add the zucchini noodles
   - description: season-season with salt
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-    tag: Missing Step
   - description: season-pepper to taste
+    tag: Missing Step
+  - description: Add-Add the zucchini noodles
     tag: Missing Step
   - description: Remove-Remove from heat and serve immediately
     tag: Missing Step
-  - description: Top-Top with more parmesan if desired
-    tag: Missing Step
+  - tag: Order Mistake
   recording_id: 37
   steps:
   - description: Peel-Peel 2 garlic cloves
@@ -615,59 +623,18 @@
   - description: Add-Add 2 large minced garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
   - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-- recording_id: 38
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
+  - description: season-season with salt
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- recording_id: 39
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+- mistakes:
   - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- recording_id: 40
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
+    tag: Missing Step
   - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- recording_id: 41
+    tag: Missing Step
+  - tag: Order Mistake
+  recording_id: 38
   steps:
   - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat a large pan on medium-high heat
@@ -675,1492 +642,214 @@
   - description: Add-Add 2 large minced garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: season-pepper to taste
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
+  - description: Top-Top with more parmesan if desired
   - description: season-season with salt
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Add-1/3 cup grated parmesan cheese
+  - description: Add-Add the zucchini noodles
+- mistakes:
+  - tag: Order Mistake
+  recording_id: 39
+  steps:
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Peel-Peel 2 garlic cloves
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Melt-Melt 2 tablespoons of butter
+  - description: Add-Add 2 large minced garlic cloves
+  - description: Add-Add the zucchini noodles
+  - description: season-pepper to taste
+  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
+      to burn garlic
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: season-season with salt
+  - description: Add-1/3 cup grated parmesan cheese
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Add-Add 2 large minced garlic cloves
-    tag: Missing Step
-  - description: season-season with salt
-    tag: Missing Step
+  - tag: Order Mistake
+  recording_id: 40
+  steps:
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Peel-Peel 2 garlic cloves
   - description: Top-Top with more parmesan if desired
-    tag: Missing Step
+  - description: Add-Add 2 large minced garlic cloves
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
+      to burn garlic
+  - description: season-season with salt
+  - description: Add-Add the zucchini noodles
+  - description: season-pepper to taste
+  - description: Add-1/3 cup grated parmesan cheese
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Remove-Remove from heat and serve immediately
+  - description: Melt-Melt 2 tablespoons of butter
+- mistakes:
+  - tag: Order Mistake
+  recording_id: 41
+  steps:
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Peel-Peel 2 garlic cloves
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Melt-Melt 2 tablespoons of butter
+  - description: Add-Add 2 large minced garlic cloves
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: season-pepper to taste
+  - description: Add-1/3 cup grated parmesan cheese
+  - description: Add-Add the zucchini noodles
+  - description: season-season with salt
+  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
+      to burn garlic
+  - description: Remove-Remove from heat and serve immediately
+  - description: Top-Top with more parmesan if desired
+- mistakes:
+  - tag: Order Mistake
   recording_id: 42
   steps:
   - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
   - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
+  - description: Top-Top with more parmesan if desired
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-- recording_id: 43
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
   - description: Add-Add 2 large minced garlic cloves
+  - description: season-pepper to taste
+  - description: Add-1/3 cup grated parmesan cheese
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: season-pepper to taste
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: season-season with salt
   - description: Add-Add the zucchini noodles
+  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Remove-Remove from heat and serve immediately
+  - description: Peel-Peel 2 garlic cloves
+- mistakes:
+  - tag: Order Mistake
+  recording_id: 43
+  steps:
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Peel-Peel 2 garlic cloves
+  - description: Melt-Melt 2 tablespoons of butter
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: season-season with salt
+  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
+      to burn garlic
+  - description: Add-Add the zucchini noodles
   - description: Add-1/3 cup grated parmesan cheese
+  - description: Add-Add 2 large minced garlic cloves
+  - description: season-pepper to taste
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-    tag: Missing Step
-  - description: season-season with salt
-    tag: Missing Step
-  - description: Add-Add the zucchini noodles
-    tag: Missing Step
+  - tag: Order Mistake
   recording_id: 44
   steps:
   - description: Heat-Heat a large pan on medium-high heat
+  - description: Add-1/3 cup grated parmesan cheese
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
   - description: Add-Add 2 large minced garlic cloves
+  - description: season-season with salt
+  - description: Add-Add the zucchini noodles
+  - description: Peel-Peel 2 garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
   - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Peel-Peel 2 garlic cloves
-    tag: Missing Step
+  - tag: Order Mistake
   recording_id: 45
   steps:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Heat-Heat a large pan on medium-high heat
+  - description: Peel-Peel 2 garlic cloves
   - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: season-pepper to taste
   - description: season-season with salt
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: season-pepper to taste
+  - description: Add-Add 2 large minced garlic cloves
   - description: Add-Add the zucchini noodles
   - description: Add-1/3 cup grated parmesan cheese
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Melt-Melt 2 tablespoons of butter
-    tag: Missing Step
-  - description: Remove-Remove from heat and serve immediately
-    tag: Missing Step
   - tag: Order Mistake
   recording_id: 46
   steps:
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Melt-Melt 2 tablespoons of butter
   - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add the zucchini noodles
-  - description: Add-Add 2 large minced garlic cloves
+  - description: Add-1/3 cup grated parmesan cheese
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Heat-Heat a large pan on medium-high heat
   - description: season-pepper to taste
+  - description: season-season with salt
+  - description: Add-Add 2 large minced garlic cloves
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
+  - description: Add-Add the zucchini noodles
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Add-1/3 cup grated parmesan cheese
-    tag: Missing Step
   - tag: Order Mistake
   recording_id: 47
   steps:
-  - description: Heat-Heat a large pan on medium-high heat
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Peel-Peel 2 garlic cloves
+  - description: Heat-Heat a large pan on medium-high heat
   - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-pepper to taste
   - description: Add-Add the zucchini noodles
-  - description: season-season with salt
+  - description: Add-Add 2 large minced garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: Top-Top with more parmesan if desired
-  - description: Remove-Remove from heat and serve immediately
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Add-1/3 cup grated parmesan cheese
+  - description: Peel-Peel 2 garlic cloves
+  - description: season-pepper to taste
+  - description: season-season with salt
+  - description: Remove-Remove from heat and serve immediately
+  - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Heat-Heat a large pan on medium-high heat
-    tag: Missing Step
-  - description: Add-Add the zucchini noodles
-    tag: Missing Step
   - tag: Order Mistake
   recording_id: 48
   steps:
-  - description: season-season with salt
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Peel-Peel 2 garlic cloves
   - description: Melt-Melt 2 tablespoons of butter
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Peel-Peel 2 garlic cloves
+  - description: Top-Top with more parmesan if desired
   - description: Add-1/3 cup grated parmesan cheese
+  - description: Add-Add the zucchini noodles
+  - description: season-season with salt
+  - description: season-pepper to taste
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
+  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
+      to burn garlic
 - mistakes:
-  - description: Melt-Melt 2 tablespoons of butter
-    tag: Missing Step
-  - description: Top-Top with more parmesan if desired
-    tag: Missing Step
-  - description: Add-1/3 cup grated parmesan cheese
-    tag: Missing Step
-  - description: Remove-Remove from heat and serve immediately
-    tag: Missing Step
   - tag: Order Mistake
   recording_id: 49
   steps:
-  - description: Heat-Heat a large pan on medium-high heat
   - description: Peel-Peel 2 garlic cloves
+  - description: Heat-Heat a large pan on medium-high heat
+  - description: Melt-Melt 2 tablespoons of butter
   - description: Add-Add 2 large minced garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: season-season with salt
   - description: season-pepper to taste
+  - description: season-season with salt
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
+  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Add-Add the zucchini noodles
+  - description: Add-1/3 cup grated parmesan cheese
+  - description: Remove-Remove from heat and serve immediately
+  - description: Top-Top with more parmesan if desired
 - mistakes:
-  - description: Heat-Heat a large pan on medium-high heat
-    tag: Missing Step
   - tag: Order Mistake
   recording_id: 50
   steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: season-pepper to taste
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-Add the zucchini noodles
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - description: Add-Add the zucchini noodles
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 51
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Top-Top with more parmesan if desired
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Melt-Melt 2 tablespoons of butter
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 52
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - description: season-pepper to taste
-    tag: Missing Step
-  - description: Add-Add the zucchini noodles
-    tag: Missing Step
-  - description: Remove-Remove from heat and serve immediately
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 53
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - description: Remove-Remove from heat and serve immediately
-    tag: Missing Step
-  - description: season-pepper to taste
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 54
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Top-Top with more parmesan if desired
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-- mistakes:
-  - description: Melt-Melt 2 tablespoons of butter
-    tag: Missing Step
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-    tag: Missing Step
-  - description: season-season with salt
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 55
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 56
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - description: season-season with salt
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 57
-  steps:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-Add the zucchini noodles
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 58
-  steps:
-  - description: Top-Top with more parmesan if desired
-  - description: season-pepper to taste
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Heat-Heat a large pan on medium-high heat
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 59
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Top-Top with more parmesan if desired
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Remove-Remove from heat and serve immediately
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add 2 large minced garlic cloves
-- mistakes:
-  - description: Add-Add 2 large minced garlic cloves
-    tag: Missing Step
-  - description: season-season with salt
-    tag: Missing Step
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 60
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Remove-Remove from heat and serve immediately
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Peel-Peel 2 garlic cloves
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - description: Top-Top with more parmesan if desired
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 61
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-- mistakes:
-  - description: Heat-Heat a large pan on medium-high heat
-    tag: Missing Step
-  - description: season-pepper to taste
-    tag: Missing Step
-  - description: Add-Add the zucchini noodles
-    tag: Missing Step
-  - description: Top-Top with more parmesan if desired
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 62
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Remove-Remove from heat and serve immediately
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: season-season with salt
-- mistakes:
-  - description: Heat-Heat a large pan on medium-high heat
-    tag: Missing Step
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 63
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: season-season with salt
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - description: season-season with salt
-    tag: Missing Step
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-    tag: Missing Step
-  - tag: Order Mistake
-  recording_id: 64
-  steps:
-  - description: Add-Add the zucchini noodles
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 65
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Top-Top with more parmesan if desired
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Melt-Melt 2 tablespoons of butter
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 66
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 67
-  steps:
-  - description: Add-Add the zucchini noodles
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: season-pepper to taste
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 68
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Top-Top with more parmesan if desired
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Peel-Peel 2 garlic cloves
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 69
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: season-season with salt
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 70
-  steps:
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Peel-Peel 2 garlic cloves
-  - description: season-pepper to taste
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 71
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 72
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Peel-Peel 2 garlic cloves
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 73
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add the zucchini noodles
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: season-season with salt
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 74
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: season-pepper to taste
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 75
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Peel-Peel 2 garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Top-Top with more parmesan if desired
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: season-season with salt
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 76
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Remove-Remove from heat and serve immediately
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: season-pepper to taste
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 77
-  steps:
-  - description: season-season with salt
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: season-pepper to taste
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 78
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-Add the zucchini noodles
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: season-pepper to taste
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 79
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Peel-Peel 2 garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 80
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Peel-Peel 2 garlic cloves
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 81
-  steps:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-season with salt
-  - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 82
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: season-pepper to taste
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 83
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Remove-Remove from heat and serve immediately
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 84
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 85
-  steps:
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 86
-  steps:
-  - description: Top-Top with more parmesan if desired
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Heat-Heat a large pan on medium-high heat
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 87
-  steps:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Peel-Peel 2 garlic cloves
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 88
-  steps:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add the zucchini noodles
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Peel-Peel 2 garlic cloves
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 89
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Top-Top with more parmesan if desired
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 90
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 91
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Top-Top with more parmesan if desired
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-1/3 cup grated parmesan cheese
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 92
-  steps:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 93
-  steps:
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Peel-Peel 2 garlic cloves
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 94
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: season-pepper to taste
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 95
-  steps:
-  - description: Top-Top with more parmesan if desired
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 96
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-pepper to taste
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 97
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: season-pepper to taste
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 98
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Top-Top with more parmesan if desired
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-Add 2 large minced garlic cloves
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 99
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 100
-  steps:
-  - description: Top-Top with more parmesan if desired
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Heat-Heat a large pan on medium-high heat
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 101
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Remove-Remove from heat and serve immediately
-  - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 102
-  steps:
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 103
-  steps:
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 104
-  steps:
-  - description: season-pepper to taste
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add the zucchini noodles
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 105
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: season-season with salt
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Top-Top with more parmesan if desired
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: season-pepper to taste
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 106
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Top-Top with more parmesan if desired
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Remove-Remove from heat and serve immediately
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 107
-  steps:
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Top-Top with more parmesan if desired
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add the zucchini noodles
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 108
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 109
-  steps:
-  - description: Top-Top with more parmesan if desired
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: season-pepper to taste
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 110
-  steps:
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: season-season with salt
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: season-pepper to taste
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add the zucchini noodles
-  - description: Peel-Peel 2 garlic cloves
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 111
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 112
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Top-Top with more parmesan if desired
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Peel-Peel 2 garlic cloves
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-Add the zucchini noodles
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 113
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: season-pepper to taste
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 114
-  steps:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Top-Top with more parmesan if desired
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Peel-Peel 2 garlic cloves
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-Add 2 large minced garlic cloves
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 115
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-Add the zucchini noodles
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: season-pepper to taste
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 116
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 117
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 118
-  steps:
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 119
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: season-season with salt
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Remove-Remove from heat and serve immediately
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-pepper to taste
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 120
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Top-Top with more parmesan if desired
-  - description: Remove-Remove from heat and serve immediately
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Peel-Peel 2 garlic cloves
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 121
-  steps:
-  - description: Peel-Peel 2 garlic cloves
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: Add-Add the zucchini noodles
-  - description: Add-Add 2 large minced garlic cloves
-  - description: season-pepper to taste
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 122
-  steps:
   - description: Heat-Heat a large pan on medium-high heat
   - description: Peel-Peel 2 garlic cloves
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
@@ -2171,61 +860,7 @@
   - description: season-season with salt
   - description: season-pepper to taste
   - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 123
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Top-Top with more parmesan if desired
-  - description: season-season with salt
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
   - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Peel-Peel 2 garlic cloves
-  - description: Add-1/3 cup grated parmesan cheese
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Remove-Remove from heat and serve immediately
-  - description: Melt-Melt 2 tablespoons of butter
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 124
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Peel-Peel 2 garlic cloves
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Add-Add 2 large minced garlic cloves
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
-  - description: season-season with salt
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
   - description: Remove-Remove from heat and serve immediately
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
-  recording_id: 125
-  steps:
-  - description: Heat-Heat a large pan on medium-high heat
-  - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
-  - description: Peel-Peel 2 garlic cloves
-  - description: Melt-Melt 2 tablespoons of butter
-  - description: Add-Add 2 large minced garlic cloves
   - description: Top-Top with more parmesan if desired
-  - description: Add-1/3 cup grated parmesan cheese
-  - description: season-season with salt
-  - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-  - description: Add-Add the zucchini noodles
-  - description: season-pepper to taste
-  - description: Remove-Remove from heat and serve immediately
-  - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
-      to burn garlic
