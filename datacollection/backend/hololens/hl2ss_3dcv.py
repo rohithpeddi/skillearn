@@ -12,9 +12,11 @@ def to_homogeneous(array):
     return np.concatenate((array, np.ones(array.shape[0:-1] + (1,), dtype=array.dtype)), axis=-1)
 
 
-# def to_inhomogeneous(array):
-#     w = array[..., -1, np.newaxis]
-#     return (array[..., 0:-1] / w, w)
+def to_inhomogeneous(array):
+    w = array[..., -1, np.newaxis]
+    return (array[..., 0:-1] / w, w)
+
+
 def get_homogeneous_component(array):
     return array[..., -1, np.newaxis]
 

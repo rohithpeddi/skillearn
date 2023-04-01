@@ -89,7 +89,8 @@ class Synchronization:
         self.recording_id = self.recording.get_recording_id()
 
         self.data_directory = os.path.join(self.data_parent_directory, self.recording_id)
-        self.synchronized_directory = os.path.join(self.synchronized_parent_directory, self.recording_id)
+        # self.synchronized_directory = os.path.join(self.synchronized_parent_directory, self.recording_id)
+        self.synchronized_directory = self.synchronized_parent_directory
 
         self.base_stream_directory = os.path.join(self.data_directory, self.base_stream)
         self.synchronized_base_stream_directory = os.path.join(self.synchronized_directory, self.base_stream)
@@ -179,7 +180,7 @@ class Synchronization:
                     ahat_depth_dir = f"dep_ahat_depth"
                     depth_data_directory = os.path.join(self.data_directory, ahat_depth_dir)
                     # synchronized_depth_data_directory = os.path.join(synchronized_depth_parent_directory, DEPTH)
-                    synchronized_depth_data_directory = os.path.join(self.synchronized_directory, ahat_depth_dir)
+                    synchronized_depth_data_directory = os.path.join(self.synchronized_directory, ahat_depth_dir[4:])
                     create_directories(synchronized_depth_data_directory)
                     self.create_synchronized_stream_frames(depth_data_directory, ".png",
                                                            synchronized_depth_data_directory, self.depth_stream_suffix)
@@ -189,7 +190,7 @@ class Synchronization:
                     ahat_ab_dir = f"dep_ahat_ab"
                     depth_ab_directory = os.path.join(self.data_directory, ahat_ab_dir)
                     # synchronized_depth_data_directory = os.path.join(synchronized_depth_parent_directory, DEPTH)
-                    synchronized_depth_ab_directory = os.path.join(self.synchronized_directory, ahat_ab_dir)
+                    synchronized_depth_ab_directory = os.path.join(self.synchronized_directory, ahat_ab_dir[4:])
                     create_directories(synchronized_depth_ab_directory)
                     self.create_synchronized_stream_frames(depth_ab_directory, ".png",
                                                            synchronized_depth_ab_directory, self.depth_stream_suffix)
@@ -221,8 +222,9 @@ def test_sync_pv_base():
         "MugPizza_PL2_P5_R1_0",
         "MugPizza_PL2_P7_R1_0",
     ]
-    sync_parent_dir = os.path.join(data_parent_dir, "sync")
     for rec_id in rec_ids:
+        data_dir = os.path.join(data_parent_dir, rec_id)
+        sync_parent_dir = os.path.join(data_dir, "sync")
         rec_instance_helper = rec_id.split('_')
         rec_instance = Recording(*rec_instance_helper[:-1], is_error=bool(int(rec_instance_helper[-1])))
         pv_sync_stream = Synchronization(

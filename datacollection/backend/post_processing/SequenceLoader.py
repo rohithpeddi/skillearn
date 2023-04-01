@@ -36,6 +36,9 @@ class SequenceLoader:
         self._pv2rig, self._pv_intrinsic = self.load_pv_calibration_info(
             self._pv_width, self._pv_height
         )
+        self._principal_point, self._focal_length, self._intrinsics = self.load_calibration_data(
+            self._pv_width, self._pv_height
+        )
         (
             self._depth2rig,
             self._depth_xy1,
@@ -146,6 +149,32 @@ class SequenceLoader:
         )
         return extrinsic, intrinsic
 
+    def load_calibration_data(self, width, height):
+        pv_calib_folder = os.path.join(self.calib_folder, "personal_video")
+        principal_point = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/principal_point.bin")
+        )
+        focal_length = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/focal_length.bin")
+        )
+        # @formatter:off
+        intrinsics = np.array([
+            [-focal_length[0],      0,                  0, 0],
+            [0,                     focal_length[1],    0, 0],
+            [principal_point[0],    principal_point[1], 1, 0],
+            [0,                     0,                  0, 1]], dtype=np.float32)
+        # @formatter:on
+        radial_distortion = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/radial_distortion.bin")
+        )
+        tangential_distortion = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/tangential_distortion.bin")
+        )
+        projection = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/projection.bin")
+        )
+        return principal_point, focal_length, intrinsics
+
     def _get_points_in_cam_space(
             self, depth, scale=1000.0, depth_min=0.1, depth_max=3.0
     ):
@@ -189,7 +218,7 @@ class SequenceLoader:
 
     def update_pcd(self):
         depth_file = os.path.join(
-            self._data_folder, "depth/depth-{:06d}.png".format(self._frame_id)
+            self._data_folder, "ahat_depth/depth-{:06d}.png".format(self._frame_id)
         )
         depth = self._load_depth_image(depth_file)
         points = self._get_points_in_cam_space(depth, scale=250.0)
@@ -197,7 +226,7 @@ class SequenceLoader:
 
     @classmethod
     def project_points(cls, image, P, points, radius, color, thickness):
-        for x, y in hl2ss_3dcv.project(points, P):
+        for x, y in hl2ss_3dcv.project_to_image(hl2ss_3dcv.to_homogeneous(points), P):
             cv2.circle(image, (int(x), (int(y))), radius, color, thickness)
 
     def project_spatial(self, image, pv_pose, data_si: hl2ss.unpack_si):
@@ -206,12 +235,8 @@ class SequenceLoader:
         color = (255, 255, 0)
         thickness = 3
 
-        pv_intrinsics = hl2ss.create_pv_intrinsics_placeholder()
-        focal_length = (self._pv_intrinsic[0, 0], self._pv_intrinsic[1, 1])
-        principal_point = (self._pv_intrinsic[0, 2], self._pv_intrinsic[1, 2])
-        pv_intrinsics = hl2ss.update_pv_intrinsics(pv_intrinsics, focal_length, principal_point)
         if hl2ss.is_valid_pose(pv_pose) and (data_si is not None):
-            projection = hl2ss_3dcv.world_to_reference(pv_pose) @ hl2ss_3dcv.camera_to_image(pv_intrinsics)
+            projection = hl2ss_3dcv.projection(self._intrinsics, hl2ss_3dcv.world_to_reference(pv_pose))
             si = data_si
             if si.is_valid_hand_left():
                 self.project_points(image, projection, hl2ss_utilities.si_unpack_hand(si.get_hand_left()).positions,
