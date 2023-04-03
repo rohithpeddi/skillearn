@@ -473,7 +473,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
   - description: Add-1 tsp Sriracha sauce
@@ -495,7 +495,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
   - description: cut-cut it into thin slices
@@ -517,7 +517,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Add-1/4 cup mayonnaise
     tag: Missing Step
   - description: Open-Open a can of tuna
@@ -541,7 +541,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
   - description: Add-1 tsp Sriracha sauce
@@ -567,7 +567,7 @@
   - description: Season-Season with 1/4 tsp salt
   - description: top-top with the tuna mixture
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Add-chopped green onions in a bowl
     tag: Missing Step
   - description: Mix-Mix the contents of the bowl
@@ -589,7 +589,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Add-Add 1 can drained tuna
     tag: Missing Step
   - description: serve-serve immediately
@@ -611,7 +611,7 @@
   - description: Season-1/4 tsp pepper
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
-- mistakes:
+- errors:
   - description: Add-Add 1 can drained tuna
     tag: Missing Step
   recording_id: 32
@@ -632,7 +632,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Season-1/4 tsp pepper
     tag: Missing Step
   recording_id: 33
@@ -653,7 +653,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Add-1 tsp Sriracha sauce
     tag: Missing Step
   - description: Add-1/4 cup mayonnaise
@@ -695,7 +695,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Add-1/4 cup mayonnaise
     tag: Missing Step
   - description: Lay-Lay out 4 large lettuce leaves
@@ -717,7 +717,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Season-Season with 1/4 tsp salt
     tag: Missing Step
   recording_id: 37
@@ -738,7 +738,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Take-Take 1 ripe avocado
     tag: Missing Step
   - description: Season-Season with 1/4 tsp salt
@@ -779,7 +779,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
   - description: Add-1/4 cup mayonnaise
@@ -803,7 +803,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green onion
     tag: Missing Step
   - description: drain-drain excess water
@@ -827,7 +827,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Lay-Lay out 4 large lettuce leaves
     tag: Missing Step
   - description: top-top with the tuna mixture
@@ -849,7 +849,7 @@
   - description: place-place avocado slices on each leaf
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
   - description: Add-chopped green onions in a bowl
@@ -872,7 +872,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
   recording_id: 44
@@ -893,7 +893,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
   - description: drain-drain excess water
@@ -916,14 +916,14 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
   - description: serve-serve immediately
     tag: Missing Step
   - description: Season-1/4 tsp pepper
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -940,12 +940,12 @@
   - description: Add-1/4 cup mayonnaise
   - description: Roll-Roll up the lettuce wraps
   - description: Add-Add 1 can drained tuna
-- mistakes:
+- errors:
   - description: Take-Take 1 ripe avocado
     tag: Missing Step
   - description: serve-serve immediately
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -963,14 +963,14 @@
   - description: Lay-Lay out 4 large lettuce leaves
   - description: top-top with the tuna mixture
   - description: place-place avocado slices on each leaf
-- mistakes:
+- errors:
   - description: Add-1 tsp Sriracha sauce
     tag: Missing Step
   - description: Season-Season with 1/4 tsp salt
     tag: Missing Step
   - description: serve-serve immediately
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Take-Take 1 ripe avocado
@@ -987,14 +987,14 @@
   - description: Add-chopped green onions in a bowl
   - description: top-top with the tuna mixture
   - description: Season-1/4 tsp pepper
-- mistakes:
+- errors:
   - description: Add-chopped green onions in a bowl
     tag: Missing Step
   - description: drain-drain excess water
     tag: Missing Step
   - description: place-place avocado slices on each leaf
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Add-1/4 cup mayonnaise
@@ -1011,14 +1011,14 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: cut-cut it into thin slices
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green onion
     tag: Missing Step
   - description: Season-Season with 1/4 tsp salt
     tag: Missing Step
   - description: Mix-Mix the contents of the bowl
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Open-Open a can of tuna
@@ -1035,10 +1035,10 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Take-Take 1 ripe avocado
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 51
   steps:
   - description: Open-Open a can of tuna
@@ -1057,12 +1057,12 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: drain-drain excess water
     tag: Missing Step
   - description: cut-cut it into thin slices
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 52
   steps:
   - description: Chop-Chop 1 green onion
@@ -1080,12 +1080,12 @@
   - description: Season-Season with 1/4 tsp salt
   - description: place-place avocado slices on each leaf
   - description: top-top with the tuna mixture
-- mistakes:
+- errors:
   - description: Season-1/4 tsp pepper
     tag: Missing Step
   - description: serve-serve immediately
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 53
   steps:
   - description: Chop-Chop 1 green onion
@@ -1103,12 +1103,12 @@
   - description: Season-Season with 1/4 tsp salt
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
-- mistakes:
+- errors:
   - description: Season-1/4 tsp pepper
     tag: Missing Step
   - description: Roll-Roll up the lettuce wraps
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 54
   steps:
   - description: Open-Open a can of tuna
@@ -1126,8 +1126,8 @@
   - description: Lay-Lay out 4 large lettuce leaves
   - description: top-top with the tuna mixture
   - description: place-place avocado slices on each leaf
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 55
   steps:
   - description: Add-1/4 cup mayonnaise
@@ -1147,10 +1147,10 @@
   - description: cut-cut it into thin slices
   - description: Season-1/4 tsp pepper
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Lay-Lay out 4 large lettuce leaves
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 56
   steps:
   - description: Chop-Chop 1 green onion
@@ -1169,7 +1169,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Take-Take 1 ripe avocado
     tag: Missing Step
   - description: Season-Season with 1/4 tsp salt
@@ -1178,7 +1178,7 @@
     tag: Missing Step
   - description: top-top with the tuna mixture
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 57
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -1194,7 +1194,7 @@
   - description: drain-drain excess water
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: serve-serve immediately
     tag: Missing Step
   - description: Season-Season with 1/4 tsp salt
@@ -1203,7 +1203,7 @@
     tag: Missing Step
   - description: Add-Add 1 can drained tuna
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 58
   steps:
   - description: Take-Take 1 ripe avocado
@@ -1219,12 +1219,12 @@
   - description: Season-1/4 tsp pepper
   - description: place-place avocado slices on each leaf
   - description: top-top with the tuna mixture
-- mistakes:
+- errors:
   - description: Season-Season with 1/4 tsp salt
     tag: Missing Step
   - description: drain-drain excess water
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 59
   steps:
   - description: Add-1/4 cup mayonnaise
@@ -1242,7 +1242,7 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Add-1/4 cup mayonnaise
     tag: Missing Step
   - description: Lay-Lay out 4 large lettuce leaves
@@ -1251,7 +1251,7 @@
     tag: Missing Step
   - description: cut-cut it into thin slices
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 60
   steps:
   - description: Open-Open a can of tuna
@@ -1267,10 +1267,10 @@
   - description: place-place avocado slices on each leaf
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green onion
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 61
   steps:
   - description: Open-Open a can of tuna
@@ -1289,10 +1289,10 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: drain-drain excess water
-- mistakes:
+- errors:
   - description: Open-Open a can of tuna
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 62
   steps:
   - description: Chop-Chop 1 green onion
@@ -1311,8 +1311,8 @@
   - description: Add-1 tsp Sriracha sauce
   - description: Roll-Roll up the lettuce wraps
   - description: top-top with the tuna mixture
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 63
   steps:
   - description: Mix-Mix the contents of the bowl
@@ -1332,12 +1332,12 @@
   - description: Add-1/4 cup mayonnaise
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
+- errors:
   - description: Add-1/4 cup mayonnaise
     tag: Missing Step
   - description: Season-Season with 1/4 tsp salt
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 64
   steps:
   - description: Open-Open a can of tuna
@@ -1355,8 +1355,8 @@
   - description: top-top with the tuna mixture
   - description: Mix-Mix the contents of the bowl
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 65
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -1376,8 +1376,8 @@
   - description: top-top with the tuna mixture
   - description: serve-serve immediately
   - description: Roll-Roll up the lettuce wraps
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 66
   steps:
   - description: Add-Add 1 can drained tuna
@@ -1397,8 +1397,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 67
   steps:
   - description: place-place avocado slices on each leaf
@@ -1418,8 +1418,8 @@
   - description: Open-Open a can of tuna
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 68
   steps:
   - description: Season-Season with 1/4 tsp salt
@@ -1439,8 +1439,8 @@
   - description: place-place avocado slices on each leaf
   - description: Roll-Roll up the lettuce wraps
   - description: Add-chopped green onions in a bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 69
   steps:
   - description: Chop-Chop 1 green onion
@@ -1460,8 +1460,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 70
   steps:
   - description: Take-Take 1 ripe avocado
@@ -1481,8 +1481,8 @@
   - description: top-top with the tuna mixture
   - description: Add-chopped green onions in a bowl
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 71
   steps:
   - description: Chop-Chop 1 green onion
@@ -1502,8 +1502,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Mix-Mix the contents of the bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 72
   steps:
   - description: Lay-Lay out 4 large lettuce leaves
@@ -1523,8 +1523,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 73
   steps:
   - description: place-place avocado slices on each leaf
@@ -1544,8 +1544,8 @@
   - description: top-top with the tuna mixture
   - description: Mix-Mix the contents of the bowl
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 74
   steps:
   - description: Open-Open a can of tuna
@@ -1565,8 +1565,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Take-Take 1 ripe avocado
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 75
   steps:
   - description: drain-drain excess water
@@ -1586,8 +1586,8 @@
   - description: cut-cut it into thin slices
   - description: Roll-Roll up the lettuce wraps
   - description: Mix-Mix the contents of the bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 76
   steps:
   - description: Take-Take 1 ripe avocado
@@ -1607,8 +1607,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 77
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -1628,8 +1628,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 78
   steps:
   - description: Chop-Chop 1 green onion
@@ -1649,8 +1649,8 @@
   - description: Add-1/4 cup mayonnaise
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 79
   steps:
   - description: Take-Take 1 ripe avocado
@@ -1670,8 +1670,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 80
   steps:
   - description: Open-Open a can of tuna
@@ -1691,8 +1691,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: cut-cut it into thin slices
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 81
   steps:
   - description: Open-Open a can of tuna
@@ -1712,8 +1712,8 @@
   - description: Mix-Mix the contents of the bowl
   - description: Roll-Roll up the lettuce wraps
   - description: cut-cut it into thin slices
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 82
   steps:
   - description: serve-serve immediately
@@ -1733,8 +1733,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Open-Open a can of tuna
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 83
   steps:
   - description: Take-Take 1 ripe avocado
@@ -1754,8 +1754,8 @@
   - description: Mix-Mix the contents of the bowl
   - description: Roll-Roll up the lettuce wraps
   - description: Season-1/4 tsp pepper
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 84
   steps:
   - description: Add-Add 1 can drained tuna
@@ -1775,8 +1775,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 85
   steps:
   - description: Chop-Chop 1 green onion
@@ -1796,8 +1796,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: cut-cut it into thin slices
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 86
   steps:
   - description: Chop-Chop 1 green onion
@@ -1817,8 +1817,8 @@
   - description: Lay-Lay out 4 large lettuce leaves
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 87
   steps:
   - description: Open-Open a can of tuna
@@ -1838,8 +1838,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 88
   steps:
   - description: place-place avocado slices on each leaf
@@ -1859,8 +1859,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Open-Open a can of tuna
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 89
   steps:
   - description: Roll-Roll up the lettuce wraps
@@ -1880,8 +1880,8 @@
   - description: top-top with the tuna mixture
   - description: Open-Open a can of tuna
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 90
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -1901,8 +1901,8 @@
   - description: Add-chopped green onions in a bowl
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 91
   steps:
   - description: Take-Take 1 ripe avocado
@@ -1922,8 +1922,8 @@
   - description: Chop-Chop 1 green onion
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 92
   steps:
   - description: Open-Open a can of tuna
@@ -1943,8 +1943,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Mix-Mix the contents of the bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 93
   steps:
   - description: Chop-Chop 1 green onion
@@ -1964,8 +1964,8 @@
   - description: serve-serve immediately
   - description: drain-drain excess water
   - description: top-top with the tuna mixture
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 94
   steps:
   - description: Add-1/4 cup mayonnaise
@@ -1985,8 +1985,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Chop-Chop 1 green onion
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 95
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -2006,8 +2006,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Open-Open a can of tuna
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 96
   steps:
   - description: Add-Add 1 can drained tuna
@@ -2027,8 +2027,8 @@
   - description: Chop-Chop 1 green onion
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 97
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -2048,8 +2048,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Add-1/4 cup mayonnaise
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 98
   steps:
   - description: Add-1/4 cup mayonnaise
@@ -2069,8 +2069,8 @@
   - description: top-top with the tuna mixture
   - description: Season-1/4 tsp pepper
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 99
   steps:
   - description: Take-Take 1 ripe avocado
@@ -2090,8 +2090,8 @@
   - description: Chop-Chop 1 green onion
   - description: Roll-Roll up the lettuce wraps
   - description: Lay-Lay out 4 large lettuce leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 100
   steps:
   - description: Open-Open a can of tuna
@@ -2111,8 +2111,8 @@
   - description: Season-Season with 1/4 tsp salt
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 101
   steps:
   - description: Open-Open a can of tuna
@@ -2132,8 +2132,8 @@
   - description: top-top with the tuna mixture
   - description: Chop-Chop 1 green onion
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 102
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -2153,8 +2153,8 @@
   - description: top-top with the tuna mixture
   - description: serve-serve immediately
   - description: Roll-Roll up the lettuce wraps
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 103
   steps:
   - description: Take-Take 1 ripe avocado
@@ -2174,8 +2174,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: cut-cut it into thin slices
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 104
   steps:
   - description: Open-Open a can of tuna
@@ -2195,8 +2195,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 105
   steps:
   - description: Open-Open a can of tuna
@@ -2216,8 +2216,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Add-1/4 cup mayonnaise
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 106
   steps:
   - description: Mix-Mix the contents of the bowl
@@ -2237,8 +2237,8 @@
   - description: place-place avocado slices on each leaf
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 107
   steps:
   - description: Add-1/4 cup mayonnaise
@@ -2258,8 +2258,8 @@
   - description: Open-Open a can of tuna
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 108
   steps:
   - description: Take-Take 1 ripe avocado
@@ -2279,8 +2279,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 109
   steps:
   - description: Open-Open a can of tuna
@@ -2300,8 +2300,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: drain-drain excess water
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 110
   steps:
   - description: Open-Open a can of tuna
@@ -2321,8 +2321,8 @@
   - description: top-top with the tuna mixture
   - description: drain-drain excess water
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 111
   steps:
   - description: Chop-Chop 1 green onion
@@ -2342,8 +2342,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 112
   steps:
   - description: Open-Open a can of tuna
@@ -2363,8 +2363,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Add-1 tsp Sriracha sauce
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 113
   steps:
   - description: Add-1/4 cup mayonnaise
@@ -2384,8 +2384,8 @@
   - description: serve-serve immediately
   - description: Roll-Roll up the lettuce wraps
   - description: top-top with the tuna mixture
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 114
   steps:
   - description: drain-drain excess water
@@ -2405,8 +2405,8 @@
   - description: top-top with the tuna mixture
   - description: Open-Open a can of tuna
   - description: Season-Season with 1/4 tsp salt
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 115
   steps:
   - description: Open-Open a can of tuna
@@ -2426,8 +2426,8 @@
   - description: top-top with the tuna mixture
   - description: serve-serve immediately
   - description: Roll-Roll up the lettuce wraps
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 116
   steps:
   - description: Take-Take 1 ripe avocado
@@ -2447,8 +2447,8 @@
   - description: Roll-Roll up the lettuce wraps
   - description: top-top with the tuna mixture
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 117
   steps:
   - description: Open-Open a can of tuna
@@ -2468,8 +2468,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 118
   steps:
   - description: Open-Open a can of tuna
@@ -2489,8 +2489,8 @@
   - description: Add-1 tsp Sriracha sauce
   - description: Roll-Roll up the lettuce wraps
   - description: Add-chopped green onions in a bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 119
   steps:
   - description: Add-1/4 cup mayonnaise
@@ -2510,8 +2510,8 @@
   - description: top-top with the tuna mixture
   - description: Chop-Chop 1 green onion
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 120
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -2531,8 +2531,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Open-Open a can of tuna
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 121
   steps:
   - description: top-top with the tuna mixture
@@ -2552,8 +2552,8 @@
   - description: Open-Open a can of tuna
   - description: Roll-Roll up the lettuce wraps
   - description: Lay-Lay out 4 large lettuce leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 122
   steps:
   - description: Open-Open a can of tuna
@@ -2573,8 +2573,8 @@
   - description: Roll-Roll up the lettuce wraps
   - description: top-top with the tuna mixture
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 123
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -2594,8 +2594,8 @@
   - description: top-top with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: Add-Add 1 can drained tuna
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 124
   steps:
   - description: Add-1 tsp Sriracha sauce
@@ -2615,8 +2615,8 @@
   - description: top-top with the tuna mixture
   - description: Mix-Mix the contents of the bowl
   - description: serve-serve immediately
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 125
   steps:
   - description: Open-Open a can of tuna

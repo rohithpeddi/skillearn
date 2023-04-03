@@ -398,7 +398,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
     tag: Missing Step
   recording_id: 26
@@ -416,7 +416,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Roll-Roll the butter around in the cup to coat it
     tag: Missing Step
   recording_id: 27
@@ -434,7 +434,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
       for about 30 seconds
     tag: Missing Step
@@ -453,7 +453,7 @@
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
       through
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
     tag: Missing Step
   - description: Put-Put the cup's contents on a plate
@@ -472,7 +472,7 @@
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
       through
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: stir-stir again
     tag: Missing Step
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -492,7 +492,7 @@
   - description: add-add to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Put-Put the cup's contents on a plate
-- mistakes:
+- errors:
   - description: whisk-In the mug, whisk one egg with a fork until well blended
     tag: Missing Step
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
@@ -511,7 +511,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: whisk-In the mug, whisk one egg with a fork until well blended
     tag: Missing Step
   recording_id: 32
@@ -529,7 +529,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Add-Add 1/4 teaspoon vanilla extract
     tag: Missing Step
   recording_id: 33
@@ -547,7 +547,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
       for about 30 seconds
     tag: Missing Step
@@ -565,7 +565,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: cut-cut it up, and serve
     tag: Missing Step
   recording_id: 35
@@ -583,7 +583,7 @@
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
       through
   - description: Put-Put the cup's contents on a plate
-- mistakes:
+- errors:
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
     tag: Missing Step
   recording_id: 36
@@ -601,7 +601,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
     tag: Missing Step
   recording_id: 37
@@ -619,7 +619,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
       for about 30 seconds
     tag: Missing Step
@@ -637,7 +637,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: stir-stir again
     tag: Missing Step
   recording_id: 39
@@ -655,7 +655,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Add-Add 1/4 teaspoon vanilla extract
     tag: Missing Step
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
@@ -664,7 +664,7 @@
     tag: Missing Step
   - description: Put-Put the cup's contents on a plate
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 40
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
@@ -677,12 +677,12 @@
       the egg
   - description: stir-stir again
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Roll-Roll the butter around in the cup to coat it
     tag: Missing Step
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
@@ -697,8 +697,8 @@
   - description: Add-Add 1/4 teaspoon vanilla extract
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
@@ -715,10 +715,10 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 43
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
@@ -734,8 +734,8 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 44
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
@@ -752,8 +752,8 @@
   - description: Put-Put the cup's contents on a plate
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: cut-cut it up, and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 45
   steps:
   - description: Add-Add 1/4 teaspoon vanilla extract
@@ -770,11 +770,11 @@
       the egg
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
       through
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave
@@ -789,13 +789,13 @@
       the egg
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: add-add to the egg mixture in the mug, pressing the bread down into
       the egg
     tag: Missing Step
   - description: stir-stir again
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
@@ -809,7 +809,7 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
+- errors:
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
     tag: Missing Step
   - description: Roll-Roll the butter around in the cup to coat it
@@ -821,7 +821,7 @@
     tag: Missing Step
   - description: stir-stir again
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: whisk-In the mug, whisk one egg with a fork until well blended
@@ -832,8 +832,8 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
@@ -850,8 +850,8 @@
       through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut it up, and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of butter in the microwave

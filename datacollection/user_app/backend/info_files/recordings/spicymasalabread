@@ -673,7 +673,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1/2 medium onion
     tag: Missing Step
   - description: Add-Add 1 teaspoon of ginger garlic paste
@@ -703,7 +703,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of ginger garlic paste
     tag: Missing Step
   - description: Add-3/4 tsp chilli powder
@@ -733,7 +733,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1/2 medium onion
     tag: Missing Step
   - description: Chop-Chop 3 tbsp coriander leaves
@@ -763,7 +763,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
     tag: Missing Step
@@ -819,7 +819,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Wait-Wait until the onion turns golden
     tag: Missing Step
   - description: Saute-Saute until the raw smell goes off
@@ -851,7 +851,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-Add 1 tsp salt
     tag: Missing Step
   - description: Add-Add chopped tomatoes
@@ -883,7 +883,7 @@
   - description: turn-turn off the stove
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
-- mistakes:
+- errors:
   - description: Add-Add chopped chillies and Onions
     tag: Missing Step
   - description: Add-1/2 tsp garam masala
@@ -914,7 +914,7 @@
   - description: Chop-Chop 3 tbsp coriander leaves
   - description: turn-turn off the stove
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of ginger garlic paste
     tag: Missing Step
   recording_id: 34
@@ -943,7 +943,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 3 tbsp coriander leaves
     tag: Missing Step
   - description: Saute-Saute until the raw smell goes off
@@ -975,7 +975,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Cut-Cut two slices of bread into bite-size pieces
     tag: Missing Step
   - description: turn-turn off the stove
@@ -1006,7 +1006,7 @@
   - description: Transfer-Transfer the bread slices
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
-- mistakes:
+- errors:
   - description: Chop-Chop 1 medium tomato
     tag: Missing Step
   - description: Add-Add 1/2 tsp jeera
@@ -1038,7 +1038,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   recording_id: 38
@@ -1067,7 +1067,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: cook-cook further until water evaporates
     tag: Missing Step
   recording_id: 39
@@ -1096,7 +1096,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   - description: wait-wait till it sizzles
@@ -1127,7 +1127,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1/2 medium onion
     tag: Missing Step
   recording_id: 41
@@ -1156,7 +1156,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Cut-Cut two slices of bread into bite-size pieces
     tag: Missing Step
   recording_id: 42
@@ -1185,7 +1185,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 3 tbsp coriander leaves
     tag: Missing Step
   - description: Heat-Heat a pan with 1 tbsp oil
@@ -1216,7 +1216,7 @@
   - description: Transfer-Transfer the bread slices
   - description: turn-turn off the stove
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   - description: Chop-Chop 1 medium tomato
@@ -1246,7 +1246,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   - description: Add-3/4 tsp chilli powder
@@ -1277,10 +1277,10 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Pour-Pour 3 tbsp of water
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -1307,12 +1307,12 @@
   - description: turn-turn off the stove
   - description: cook-cook further until water evaporates
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-Add 1/2 tsp jeera
     tag: Missing Step
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -1338,12 +1338,12 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-3/4 tsp chilli powder
     tag: Missing Step
   - description: Chop-Chop 1/2 medium onion
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1369,14 +1369,14 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Add-Add 1/2 tsp jeera
-- mistakes:
+- errors:
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
     tag: Missing Step
   - description: cook-cook further until water evaporates
     tag: Missing Step
   - description: Wait-Wait until the onion turns golden
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1401,10 +1401,10 @@
   - description: turn-turn off the stove
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
-- mistakes:
+- errors:
   - description: Chop-Chop 1 medium tomato
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
@@ -1431,7 +1431,7 @@
   - description: turn-turn off the stove
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
-- mistakes:
+- errors:
   - description: cook-cook until the masala leaves the pan
     tag: Missing Step
   - description: wait-wait till it sizzles
@@ -1442,7 +1442,7 @@
     tag: Missing Step
   - description: Add-Add 1 tsp salt
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 51
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1465,10 +1465,10 @@
   - description: Chop-Chop 3 tbsp coriander leaves
   - description: Add-1/2 tsp garam masala
   - description: Add-Add 1/2 tsp jeera
-- mistakes:
+- errors:
   - description: Wait-Wait until the onion turns golden
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 52
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1495,10 +1495,10 @@
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Add-Add 1/2 tsp jeera
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of ginger garlic paste
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 53
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1525,10 +1525,10 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1 medium tomato
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 54
   steps:
   - description: Add-Add chopped chillies and Onions
@@ -1555,12 +1555,12 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-Add chopped chillies and Onions
     tag: Missing Step
   - description: Add-Add 1 tsp salt
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 55
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -1586,14 +1586,14 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of ginger garlic paste
     tag: Missing Step
   - description: Saute-Saute until the raw smell goes off
     tag: Missing Step
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 56
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1618,12 +1618,12 @@
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
-- mistakes:
+- errors:
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
     tag: Missing Step
   - description: Mix-Mix all ingredients
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 57
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1649,12 +1649,12 @@
   - description: Add-Add 1 tsp salt
   - description: turn-turn off the stove
   - description: Chop-Chop 1/2 medium onion
-- mistakes:
+- errors:
   - description: Heat-Heat a pan with 1 tbsp oil
     tag: Missing Step
   - description: Add-Add chopped chillies and Onions
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 58
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1680,14 +1680,14 @@
   - description: turn-turn off the stove
   - description: Saute-Saute until the raw smell goes off
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Wait-Wait until the onion turns golden
     tag: Missing Step
   - description: Add-1/2 tsp garam masala
     tag: Missing Step
   - description: Chop-Chop 1 medium tomato
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 59
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -1712,12 +1712,12 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1 medium tomato
     tag: Missing Step
   - description: Wait-Wait until the onion turns golden
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 60
   steps:
   - description: Add-3/4 tsp chilli powder
@@ -1743,12 +1743,12 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   - description: Wait-Wait until the onion turns golden
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 61
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1774,12 +1774,12 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   - description: Add-Add chopped tomatoes
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 62
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1805,7 +1805,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-3/4 tsp chilli powder
     tag: Missing Step
   - description: Pour-Pour 3 tbsp of water
@@ -1813,7 +1813,7 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 63
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -1837,10 +1837,10 @@
   - description: Add-Add 1 teaspoon of ginger garlic paste
   - description: turn-turn off the stove
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
+- errors:
   - description: Add-Add 1/2 tsp jeera
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 64
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1867,8 +1867,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Transfer-Transfer the bread slices
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 65
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1896,8 +1896,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 66
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -1925,8 +1925,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 67
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -1954,8 +1954,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 68
   steps:
   - description: wait-wait till it sizzles
@@ -1983,8 +1983,8 @@
   - description: turn-turn off the stove
   - description: Saute-Saute until the raw smell goes off
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 69
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -2012,8 +2012,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Add-Add 1 teaspoon of ginger garlic paste
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 70
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2041,8 +2041,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Add-Add 1 teaspoon of ginger garlic paste
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 71
   steps:
   - description: cook-cook further until water evaporates
@@ -2070,8 +2070,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 72
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2099,8 +2099,8 @@
   - description: turn-turn off the stove
   - description: Saute-Saute until the raw smell goes off
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 73
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2128,8 +2128,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 74
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2157,8 +2157,8 @@
       gets mushy
   - description: Transfer-Transfer the bread slices
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 75
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -2186,8 +2186,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Add-1/2 tsp garam masala
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 76
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -2215,8 +2215,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Chop-Chop 1 medium tomato
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 77
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2244,8 +2244,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 78
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2273,8 +2273,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 79
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2302,8 +2302,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Wait-Wait until the onion turns golden
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 80
   steps:
   - description: Saute-Saute until the raw smell goes off
@@ -2331,8 +2331,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 81
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2360,8 +2360,8 @@
   - description: turn-turn off the stove
   - description: Heat-Heat a pan with 1 tbsp oil
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 82
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2389,8 +2389,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 83
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2418,8 +2418,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Chop-Chop 1/2 medium onion
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 84
   steps:
   - description: wait-wait till it sizzles
@@ -2447,8 +2447,8 @@
   - description: turn-turn off the stove
   - description: Chop-Chop 1 green chilli
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 85
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -2476,8 +2476,8 @@
   - description: turn-turn off the stove
   - description: Pour-Pour 3 tbsp of water
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 86
   steps:
   - description: Heat-Heat a pan with 1 tbsp oil
@@ -2505,8 +2505,8 @@
   - description: turn-turn off the stove
   - description: Chop-Chop 3 tbsp coriander leaves
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 87
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2534,8 +2534,8 @@
   - description: Saute-Saute until the raw smell goes off
   - description: cook-cook further until water evaporates
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 88
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -2563,8 +2563,8 @@
       gets mushy
   - description: Chop-Chop 3 tbsp coriander leaves
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 89
   steps:
   - description: Chop-Chop 1 green chilli
@@ -2592,8 +2592,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 90
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2621,8 +2621,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 91
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2650,8 +2650,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 92
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -2679,8 +2679,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 93
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2708,8 +2708,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 94
   steps:
   - description: Add-Add chopped chillies and Onions
@@ -2737,8 +2737,8 @@
   - description: turn-turn off the stove
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 95
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -2766,8 +2766,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: turn-turn off the stove
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 96
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2795,8 +2795,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 97
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2824,8 +2824,8 @@
   - description: turn-turn off the stove
   - description: Pour-Pour 3 tbsp of water
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 98
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -2853,8 +2853,8 @@
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
   - description: wait-wait till it sizzles
   - description: turn-turn off the stove
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 99
   steps:
   - description: Chop-Chop 1/2 medium onion
@@ -2882,8 +2882,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 100
   steps:
   - description: cook-cook further until water evaporates
@@ -2911,8 +2911,8 @@
   - description: wait-wait till it sizzles
   - description: Add-Add chopped chillies and Onions
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 101
   steps:
   - description: Pour-Pour 3 tbsp of water
@@ -2940,8 +2940,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 102
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -2969,8 +2969,8 @@
   - description: Add-Add 1 tsp salt
   - description: Add-Add chopped chillies and Onions
   - description: Add-Add 1/2 tsp jeera
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 103
   steps:
   - description: Add-Add 1 teaspoon of ginger garlic paste
@@ -2998,8 +2998,8 @@
   - description: cook-cook until the masala leaves the pan
   - description: Add-Add chopped chillies and Onions
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 104
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -3027,8 +3027,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 105
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -3056,8 +3056,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 106
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3085,8 +3085,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 107
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3114,8 +3114,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Add-Add chopped chillies and Onions
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 108
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -3143,8 +3143,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Add-Add 1/2 tsp jeera
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 109
   steps:
   - description: cook-cook further until water evaporates
@@ -3172,8 +3172,8 @@
   - description: turn-turn off the stove
   - description: Add-Add 1 tsp salt
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 110
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3201,8 +3201,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 111
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3230,8 +3230,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 112
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -3259,8 +3259,8 @@
   - description: Add-Add chopped tomatoes
   - description: Mix-Mix all ingredients
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 113
   steps:
   - description: Add-Add 1 tsp salt
@@ -3288,8 +3288,8 @@
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 114
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3317,8 +3317,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 115
   steps:
   - description: Add-Add chopped tomatoes
@@ -3346,8 +3346,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 116
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3375,8 +3375,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 117
   steps:
   - description: Heat-Heat a pan with 1 tbsp oil
@@ -3404,8 +3404,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 118
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3433,8 +3433,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 119
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -3462,8 +3462,8 @@
   - description: turn-turn off the stove
   - description: Add-3/4 tsp chilli powder
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 120
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -3491,8 +3491,8 @@
   - description: turn-turn off the stove
   - description: Add-Add chopped tomatoes
   - description: wait-wait till it sizzles
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 121
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3520,8 +3520,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: wait-wait till it sizzles
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 122
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -3549,8 +3549,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 123
   steps:
   - description: Chop-Chop 1 medium tomato
@@ -3578,8 +3578,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: Sprinkle-Sprinkle 3 tbsp chopped coriander leaves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 124
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -3607,8 +3607,8 @@
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
   - description: cook-cook further until water evaporates
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 125
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces

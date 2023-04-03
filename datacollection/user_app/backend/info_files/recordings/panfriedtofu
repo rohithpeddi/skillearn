@@ -548,7 +548,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: pat-pat it dry with a towel
     tag: Missing Step
   - description: drizzle-drizzle with the 1 tablespoons sesame oil
@@ -573,7 +573,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
       1 in x 1 in)
     tag: Missing Step
@@ -599,7 +599,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: add-few pinches of salt
     tag: Missing Step
   - description: Flip-Flip the tofu with tongs
@@ -625,7 +625,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Flip-Flip the tofu with tongs
     tag: Missing Step
   recording_id: 29
@@ -649,7 +649,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: pat-pat it dry with a towel
     tag: Missing Step
   - description: Cook-Cook 5 to 6 minutes until lightly browned on the bottom
@@ -676,7 +676,7 @@
   - description: cook-cook 2 minutes
   - description: flip-then flip
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Return-Return the heat to medium-high
     tag: Missing Step
   recording_id: 31
@@ -700,7 +700,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Flip-Flip the tofu with tongs
     tag: Missing Step
   recording_id: 32
@@ -724,7 +724,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: add-few pinches of salt
     tag: Missing Step
   - description: remove-Briefly remove the pan from the heat to reduce spitting
@@ -750,7 +750,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
       1 in x 1 in)
     tag: Missing Step
@@ -776,7 +776,7 @@
   - description: cook-cook 2 minutes
   - description: flip-then flip
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Return-Return to low heat
     tag: Missing Step
   - description: cook-cook 2 minutes
@@ -801,7 +801,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Cook-Cook 5 to 6 minutes until lightly browned on the bottom
     tag: Missing Step
   - description: Return-Return the heat to medium-high
@@ -826,7 +826,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: cook-cook 2 minutes until the colour is darkened
     tag: Missing Step
   recording_id: 37
@@ -850,7 +850,7 @@
   - description: cook-cook 2 minutes
   - description: flip-then flip
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: cook-cook until browned
     tag: Missing Step
   - description: remove-Briefly remove from the heat again
@@ -875,7 +875,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Turn-Turn on the heat to medium-high
     tag: Missing Step
   - description: cook-cook until browned
@@ -902,7 +902,7 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Turn-Turn on the heat to medium-high
     tag: Missing Step
   recording_id: 40
@@ -926,10 +926,10 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Turn-Turn on the heat to medium-high
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
@@ -951,10 +951,10 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: drizzle-1 tablespoon soy sauce (watch for spitting)
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
@@ -976,10 +976,10 @@
   - description: Return-Return to low heat
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: Return-Return to low heat
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 43
   steps:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
@@ -1001,10 +1001,10 @@
   - description: drizzle-1 tablespoon soy sauce (watch for spitting)
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: drizzle-1 tablespoon soy sauce (watch for spitting)
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 44
   steps:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
@@ -1026,14 +1026,14 @@
   - description: drizzle-drizzle with the 1 tablespoons sesame oil
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: remove-Briefly remove the pan from the heat to reduce spitting
     tag: Missing Step
   - description: remove-Briefly remove from the heat again
     tag: Missing Step
   - description: Return-Return to low heat
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 45
   steps:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
@@ -1054,10 +1054,10 @@
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
 
-- mistakes:
+- errors:
   - description: flip-then flip
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Turn-Turn on the heat to medium-high
@@ -1079,10 +1079,10 @@
   - description: remove-Briefly remove from the heat again
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: cook-cook 2 minutes until the colour is darkened
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
@@ -1104,7 +1104,7 @@
   - description: remove-Briefly remove the pan from the heat to reduce spitting
   - description: flip-then flip
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: remove-Briefly remove the pan from the heat to reduce spitting
     tag: Missing Step
   - description: Turn-Turn on the heat to medium-high
@@ -1115,7 +1115,7 @@
     tag: Missing Step
   - description: flip-then flip
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
@@ -1133,10 +1133,10 @@
   - description: Return-Return to low heat
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: drizzle-drizzle with the 1 tablespoons sesame oil
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Turn-Turn on the heat to medium-high
@@ -1158,14 +1158,14 @@
   - description: flip-then flip
   - description: cook-cook 2 minutes until the colour is darkened
   - description: Serve-Serve immediately
-- mistakes:
+- errors:
   - description: drizzle-1 tablespoon soy sauce (watch for spitting)
     tag: Missing Step
   - description: cook-cook until browned
     tag: Missing Step
   - description: Return-Return to low heat
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about

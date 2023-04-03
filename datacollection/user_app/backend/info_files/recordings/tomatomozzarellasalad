@@ -348,7 +348,7 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
     tag: Missing Step
@@ -378,7 +378,7 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Season-Season with 1/4 teaspoon black pepper
     tag: Missing Step
   - description: Garnish-Garnish with seasoning
@@ -395,7 +395,7 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: dry-gently dry it with a tea towel
     tag: Missing Step
   recording_id: 29
@@ -411,7 +411,7 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Season-Season with 1/4 teaspoon black pepper
     tag: Missing Step
   recording_id: 30
@@ -427,7 +427,7 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
       only make a single layer
     tag: Missing Step
@@ -458,7 +458,7 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Rinse-Rinse a tomato
     tag: Missing Step
   recording_id: 33
@@ -474,7 +474,7 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Season-Season the tomato slices with salt
     tag: Missing Step
   recording_id: 34
@@ -504,7 +504,7 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: dry-gently dry it with a tea towel
     tag: Missing Step
   - description: Season-Season with 1/4 teaspoon black pepper
@@ -535,7 +535,7 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Rinse-Rinse a tomato
     tag: Missing Step
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
@@ -566,7 +566,7 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Rinse-Rinse a tomato
     tag: Missing Step
   - description: dry-gently dry it with a tea towel
@@ -598,7 +598,7 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
       only make a single layer
     tag: Missing Step
@@ -642,7 +642,7 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: dry-gently dry it with a tea towel
     tag: Missing Step
   recording_id: 45
@@ -658,8 +658,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Rinse-Rinse a tomato
@@ -674,10 +674,10 @@
       only make a single layer
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Rinse-Rinse a tomato
@@ -691,10 +691,10 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Rinse-Rinse a tomato
@@ -708,11 +708,11 @@
   - description: dry-gently dry it with a tea towel
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Rinse-Rinse a tomato
@@ -725,8 +725,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Rinse-Rinse a tomato
@@ -741,8 +741,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 51
   steps:
   - description: Rinse-Rinse a tomato
@@ -757,11 +757,11 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 52
   steps:
   - description: Rinse-Rinse a tomato
@@ -774,13 +774,13 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Rinse-Rinse a tomato
     tag: Missing Step
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 53
   steps:
   - description: dry-gently dry it with a tea towel
@@ -792,8 +792,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 54
   steps:
   - description: Rinse-Rinse a tomato
@@ -808,8 +808,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 55
   steps:
   - description: Rinse-Rinse a tomato
@@ -824,12 +824,12 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
     tag: Missing Step
   - description: Season-Season the tomato slices with salt
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 56
   steps:
   - description: Rinse-Rinse a tomato
@@ -842,11 +842,11 @@
   - description: Garnish-Garnish with seasoning
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
-- mistakes:
+- errors:
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 57
   steps:
   - description: Rinse-Rinse a tomato
@@ -859,11 +859,11 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 58
   steps:
   - description: Rinse-Rinse a tomato
@@ -876,8 +876,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 59
   steps:
   - description: Garnish-Garnish with seasoning
@@ -892,8 +892,8 @@
   - description: Rinse-Rinse a tomato
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 60
   steps:
   - description: Rinse-Rinse a tomato
@@ -908,10 +908,10 @@
       only make a single layer
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Garnish-Garnish with seasoning
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 61
   steps:
   - description: Rinse-Rinse a tomato
@@ -925,8 +925,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 62
   steps:
   - description: Rinse-Rinse a tomato
@@ -941,13 +941,13 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
+- errors:
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
     tag: Missing Step
   - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
       only make a single layer
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 63
   steps:
   - description: Rinse-Rinse a tomato
@@ -959,7 +959,7 @@
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
   - description: dry-gently dry it with a tea towel
-- mistakes:
+- errors:
   - description: Garnish-Garnish with seasoning
     tag: Missing Step
   - description: Season-Season the tomato slices with salt
@@ -970,7 +970,7 @@
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 64
   steps:
   - description: Rinse-Rinse a tomato
@@ -979,8 +979,8 @@
       only make a single layer
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
   - description: Season-Season with 1/4 teaspoon black pepper
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 65
   steps:
   - description: Season-Season with 1/4 teaspoon black pepper
@@ -995,8 +995,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 66
   steps:
   - description: Rinse-Rinse a tomato
@@ -1011,8 +1011,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 67
   steps:
   - description: Rinse-Rinse a tomato
@@ -1027,8 +1027,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 68
   steps:
   - description: Rinse-Rinse a tomato
@@ -1043,8 +1043,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Garnish-Garnish with seasoning
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 69
   steps:
   - description: Rinse-Rinse a tomato
@@ -1059,8 +1059,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: dry-gently dry it with a tea towel
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 70
   steps:
   - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
@@ -1075,8 +1075,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 71
   steps:
   - description: Rinse-Rinse a tomato
@@ -1091,8 +1091,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 72
   steps:
   - description: Rinse-Rinse a tomato
@@ -1107,8 +1107,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 73
   steps:
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
@@ -1123,8 +1123,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 74
   steps:
   - description: Rinse-Rinse a tomato
@@ -1139,8 +1139,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 75
   steps:
   - description: Rinse-Rinse a tomato
@@ -1155,8 +1155,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 76
   steps:
   - description: Rinse-Rinse a tomato
@@ -1171,8 +1171,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 77
   steps:
   - description: Season-Season the tomato slices with salt
@@ -1187,8 +1187,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 78
   steps:
   - description: Rinse-Rinse a tomato
@@ -1203,8 +1203,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 79
   steps:
   - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
@@ -1219,8 +1219,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 80
   steps:
   - description: Rinse-Rinse a tomato
@@ -1235,8 +1235,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 81
   steps:
   - description: Rinse-Rinse a tomato
@@ -1251,8 +1251,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 82
   steps:
   - description: Rinse-Rinse a tomato
@@ -1267,8 +1267,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 83
   steps:
   - description: Rinse-Rinse a tomato
@@ -1283,8 +1283,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 84
   steps:
   - description: Rinse-Rinse a tomato
@@ -1299,8 +1299,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 85
   steps:
   - description: Rinse-Rinse a tomato
@@ -1315,8 +1315,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 86
   steps:
   - description: Rinse-Rinse a tomato
@@ -1331,8 +1331,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 87
   steps:
   - description: Rinse-Rinse a tomato
@@ -1347,8 +1347,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Garnish-Garnish with seasoning
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 88
   steps:
   - description: Rinse-Rinse a tomato
@@ -1363,8 +1363,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 89
   steps:
   - description: Rinse-Rinse a tomato
@@ -1379,8 +1379,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 90
   steps:
   - description: Garnish-Garnish with seasoning
@@ -1395,8 +1395,8 @@
   - description: Rinse-Rinse a tomato
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 91
   steps:
   - description: Rinse-Rinse a tomato
@@ -1411,8 +1411,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 92
   steps:
   - description: Rinse-Rinse a tomato
@@ -1427,8 +1427,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 93
   steps:
   - description: Season-Season with 1/4 teaspoon black pepper
@@ -1443,8 +1443,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 94
   steps:
   - description: Rinse-Rinse a tomato
@@ -1459,8 +1459,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 95
   steps:
   - description: Rinse-Rinse a tomato
@@ -1475,8 +1475,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 96
   steps:
   - description: Season-Season the tomato slices with salt
@@ -1491,8 +1491,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 97
   steps:
   - description: Rinse-Rinse a tomato
@@ -1507,8 +1507,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 98
   steps:
   - description: Rinse-Rinse a tomato
@@ -1523,8 +1523,8 @@
   - description: dry-gently dry it with a tea towel
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 99
   steps:
   - description: Rinse-Rinse a tomato
@@ -1539,8 +1539,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 100
   steps:
   - description: Rinse-Rinse a tomato
@@ -1555,8 +1555,8 @@
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
   - description: Garnish-Garnish with seasoning
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 101
   steps:
   - description: Rinse-Rinse a tomato
@@ -1571,8 +1571,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 102
   steps:
   - description: Rinse-Rinse a tomato
@@ -1587,8 +1587,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 103
   steps:
   - description: Season-Season the tomato slices with salt
@@ -1603,8 +1603,8 @@
   - description: Rinse-Rinse a tomato
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 104
   steps:
   - description: Rinse-Rinse a tomato
@@ -1619,8 +1619,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 105
   steps:
   - description: Rinse-Rinse a tomato
@@ -1635,8 +1635,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 106
   steps:
   - description: Rinse-Rinse a tomato
@@ -1651,8 +1651,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 107
   steps:
   - description: Rinse-Rinse a tomato
@@ -1667,8 +1667,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 108
   steps:
   - description: dry-gently dry it with a tea towel
@@ -1683,8 +1683,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 109
   steps:
   - description: Season-Season with 1/4 teaspoon black pepper
@@ -1699,8 +1699,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 110
   steps:
   - description: Rinse-Rinse a tomato
@@ -1715,8 +1715,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 111
   steps:
   - description: Season-Season the tomato slices with salt
@@ -1731,8 +1731,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 112
   steps:
   - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
@@ -1747,8 +1747,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 113
   steps:
   - description: Rinse-Rinse a tomato
@@ -1763,8 +1763,8 @@
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
   - description: Season-Season the tomato slices with salt
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 114
   steps:
   - description: Rinse-Rinse a tomato
@@ -1779,8 +1779,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Season-Season the tomato slices with salt
   - description: Garnish-Garnish with seasoning
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 115
   steps:
   - description: Rinse-Rinse a tomato
@@ -1795,8 +1795,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 116
   steps:
   - description: Rinse-Rinse a tomato
@@ -1811,8 +1811,8 @@
   - description: Garnish-Garnish with seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 117
   steps:
   - description: Rinse-Rinse a tomato
@@ -1827,8 +1827,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 118
   steps:
   - description: Season-Season the tomato slices with salt
@@ -1843,8 +1843,8 @@
       the platter
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 119
   steps:
   - description: Rinse-Rinse a tomato
@@ -1859,8 +1859,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 120
   steps:
   - description: Rinse-Rinse a tomato
@@ -1875,8 +1875,8 @@
   - description: Season-Season with 1/4 teaspoon black pepper
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 121
   steps:
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
@@ -1891,8 +1891,8 @@
   - description: Season-Season the tomato slices with salt
   - description: Garnish-Garnish with seasoning
   - description: Rinse-Rinse a tomato
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 122
   steps:
   - description: Rinse-Rinse a tomato
@@ -1907,8 +1907,8 @@
   - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
       the platter
   - description: dry-gently dry it with a tea towel
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 123
   steps:
   - description: Rinse-Rinse a tomato
@@ -1923,8 +1923,8 @@
       over the entire platter
   - description: Garnish-Garnish with seasoning
   - description: Season-Season the tomato slices with salt
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 124
   steps:
   - description: Rinse-Rinse a tomato
@@ -1939,8 +1939,8 @@
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 125
   steps:
   - description: Rinse-Rinse a tomato

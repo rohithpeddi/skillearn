@@ -726,7 +726,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-1/4 tsp baking powder
     tag: Missing Step
   - description: Whisk-Whisk to combine
@@ -759,7 +759,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-1.5 tbsp sugar
     tag: Missing Step
   - description: Whisk-Whisk batter until no lumps remain
@@ -791,7 +791,7 @@
   - description: seal-seal, removing as much air as possible
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-Measure and add 2 tsp vegetable oil
     tag: Missing Step
   recording_id: 29
@@ -821,7 +821,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
     tag: Missing Step
@@ -879,7 +879,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Place-Place the paper cupcake liner inside the mug
     tag: Missing Step
   - description: Measure and add-2 tbsp water
@@ -912,7 +912,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-1/4 tsp baking powder
     tag: Missing Step
   recording_id: 33
@@ -942,7 +942,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-1/4 tsp baking powder
     tag: Missing Step
   - description: Microwave-Microwave the mug and batter on high power for 60 seconds.
@@ -975,7 +975,7 @@
       4 spoonfuls of chocolate frosting into a zip-top bag
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
-- mistakes:
+- errors:
   - description: Measure and add-1.5 tbsp sugar
     tag: Missing Step
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -1007,7 +1007,7 @@
   - description: seal-seal, removing as much air as possible
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Whisk-Whisk to combine
     tag: Missing Step
   - description: Whisk-Whisk batter until no lumps remain
@@ -1039,7 +1039,7 @@
   - description: seal-seal, removing as much air as possible
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
-- mistakes:
+- errors:
   - description: Measure and add-a pinch of salt to the mixing bowl
     tag: Missing Step
   - description: Measure and add-Measure and add 2 tsp vegetable oil
@@ -1071,7 +1071,7 @@
   - description: seal-seal, removing as much air as possible
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-Measure and add 2 tbsp flour
     tag: Missing Step
   - description: Place-Place the paper cupcake liner inside the mug
@@ -1105,7 +1105,7 @@
       4 spoonfuls of chocolate frosting into a zip-top bag
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Allow-Allow to cool until it is no longer hot to the touch
     tag: Missing Step
   - description: remove-then carefully remove the paper liner
@@ -1136,7 +1136,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
     tag: Missing Step
@@ -1166,7 +1166,7 @@
   - description: seal-seal, removing as much air as possible
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-2 tbsp water
     tag: Missing Step
   - description: seal-seal, removing as much air as possible
@@ -1197,7 +1197,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-Measure and add 2 tbsp flour
     tag: Missing Step
   - description: Set-Set aside
@@ -1232,7 +1232,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-2 tbsp water
     tag: Missing Step
   recording_id: 43
@@ -1262,7 +1262,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-1.5 tbsp sugar
     tag: Missing Step
   - description: remove-then carefully remove the paper liner
@@ -1293,7 +1293,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Set-Set aside
     tag: Missing Step
   - description: Measure and add-1/4 tsp vanilla extract to the bowl
@@ -1326,13 +1326,13 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Invert-Invert the mug to release the cake onto a plate
     tag: Missing Step
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
       4 spoonfuls of chocolate frosting into a zip-top bag
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Pour-Pour batter into prepared mug
@@ -1358,7 +1358,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-Measure and add 2 tsp vegetable oil
     tag: Missing Step
   - description: Whisk-Whisk batter until no lumps remain
@@ -1368,7 +1368,7 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -1392,8 +1392,8 @@
   - description: seal-seal, removing as much air as possible
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Whisk-Whisk batter until no lumps remain
@@ -1422,7 +1422,7 @@
   - description: Invert-Invert the mug to release the cake onto a plate
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-1.5 tbsp sugar
     tag: Missing Step
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -1432,7 +1432,7 @@
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
       4 spoonfuls of chocolate frosting into a zip-top bag
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -1456,10 +1456,10 @@
       of frosting to the plate in a circle around the base of the cake
   - description: Whisk-Whisk to combine
   - description: Measure and add-2 tbsp water
-- mistakes:
+- errors:
   - description: Place-Place the paper cupcake liner inside the mug
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -1487,7 +1487,7 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Pour-Pour batter into prepared mug
     tag: Missing Step
   - description: Measure and add-Measure and add 2 tsp vegetable oil
@@ -1496,7 +1496,7 @@
     tag: Missing Step
   - description: remove-then carefully remove the paper liner
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 51
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -1521,14 +1521,14 @@
   - description: seal-seal, removing as much air as possible
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: remove-then carefully remove the paper liner
     tag: Missing Step
   - description: Allow-Allow to cool until it is no longer hot to the touch
     tag: Missing Step
   - description: seal-seal, removing as much air as possible
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 52
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -1554,10 +1554,10 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: remove-then carefully remove the paper liner
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 53
   steps:
   - description: Place-Place the paper cupcake liner inside the mug
@@ -1585,13 +1585,13 @@
   - description: Whisk-Whisk to combine
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: remove-then carefully remove the paper liner
     tag: Missing Step
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 54
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -1617,7 +1617,7 @@
       4 spoonfuls of chocolate frosting into a zip-top bag
   - description: Pour-Pour batter into prepared mug
   - description: seal-seal, removing as much air as possible
-- mistakes:
+- errors:
   - description: Measure and add-a pinch of salt to the mixing bowl
     tag: Missing Step
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
@@ -1627,7 +1627,7 @@
     tag: Missing Step
   - description: Allow-Allow to cool until it is no longer hot to the touch
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 55
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -1651,12 +1651,12 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Whisk-Whisk to combine
-- mistakes:
+- errors:
   - description: Measure and add-1/4 tsp baking powder
     tag: Missing Step
   - description: Invert-Invert the mug to release the cake onto a plate
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 56
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -1683,10 +1683,10 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Whisk-Whisk batter until no lumps remain
-- mistakes:
+- errors:
   - description: Measure and add-Measure and add 2 tsp vegetable oil
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 57
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -1714,14 +1714,14 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Whisk-Whisk to combine
     tag: Missing Step
   - description: Invert-Invert the mug to release the cake onto a plate
     tag: Missing Step
   - description: Allow-Allow to cool until it is no longer hot to the touch
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 58
   steps:
   - description: Whisk-Whisk batter until no lumps remain
@@ -1747,12 +1747,12 @@
   - description: Pour-Pour batter into prepared mug
   - description: Set-Set aside
   - description: seal-seal, removing as much air as possible
-- mistakes:
+- errors:
   - description: Whisk-Whisk batter until no lumps remain
     tag: Missing Step
   - description: Allow-Allow to cool until it is no longer hot to the touch
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 59
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -1779,8 +1779,8 @@
   - description: Set-Set aside
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 60
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -1809,11 +1809,11 @@
   - description: Measure and add-a pinch of salt to the mixing bowl
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
       4 spoonfuls of chocolate frosting into a zip-top bag
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 61
   steps:
   - description: Whisk-Whisk to combine
@@ -1840,8 +1840,8 @@
   - description: Whisk-Whisk batter until no lumps remain
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 62
   steps:
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
@@ -1870,12 +1870,12 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: remove-then carefully remove the paper liner
     tag: Missing Step
   - description: Pour-Pour batter into prepared mug
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 63
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -1902,12 +1902,12 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
+- errors:
   - description: Measure and add-a pinch of salt to the mixing bowl
     tag: Missing Step
   - description: seal-seal, removing as much air as possible
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 64
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -1934,8 +1934,8 @@
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
       4 spoonfuls of chocolate frosting into a zip-top bag
   - description: Place-Place the paper cupcake liner inside the mug
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 65
   steps:
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
@@ -1964,8 +1964,8 @@
   - description: Whisk-Whisk to combine
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 66
   steps:
   - description: Measure and add-1/4 tsp vanilla extract to the bowl
@@ -1994,8 +1994,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Allow-Allow to cool until it is no longer hot to the touch
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 67
   steps:
   - description: remove-then carefully remove the paper liner
@@ -2024,8 +2024,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 68
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -2054,8 +2054,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 69
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -2084,8 +2084,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 70
   steps:
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
@@ -2114,8 +2114,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Measure and add-Measure and add 2 tbsp flour
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 71
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -2144,8 +2144,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 72
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -2174,8 +2174,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 73
   steps:
   - description: Set-Set aside
@@ -2204,8 +2204,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 74
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -2234,8 +2234,8 @@
   - description: Measure and add-a pinch of salt to the mixing bowl
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 75
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -2264,8 +2264,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 76
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -2294,8 +2294,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 77
   steps:
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
@@ -2324,8 +2324,8 @@
   - description: Measure and add-2 tbsp water
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 78
   steps:
   - description: Measure and add-2 tbsp water
@@ -2354,8 +2354,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 79
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -2384,8 +2384,8 @@
   - description: Measure and add-Measure and add 2 tbsp flour
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 80
   steps:
   - description: Set-Set aside
@@ -2414,8 +2414,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 81
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -2444,8 +2444,8 @@
       opening 1/4 inch in diameter
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
       4 spoonfuls of chocolate frosting into a zip-top bag
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 82
   steps:
   - description: Measure and add-2 tbsp water
@@ -2474,8 +2474,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 83
   steps:
   - description: Invert-Invert the mug to release the cake onto a plate
@@ -2504,8 +2504,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Measure and add-Measure and add 2 tsp vegetable oil
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 84
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -2534,8 +2534,8 @@
   - description: seal-seal, removing as much air as possible
   - description: Invert-Invert the mug to release the cake onto a plate
   - description: Whisk-Whisk to combine
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 85
   steps:
   - description: Allow-Allow to cool until it is no longer hot to the touch
@@ -2564,8 +2564,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 86
   steps:
   - description: seal-seal, removing as much air as possible
@@ -2594,8 +2594,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Measure and add-Measure and add 2 tbsp flour
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 87
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -2624,8 +2624,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 88
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -2654,8 +2654,8 @@
       for an additional 5 seconds. If the toothpick comes out clean, continue
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 89
   steps:
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
@@ -2684,8 +2684,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 90
   steps:
   - description: Allow-Allow to cool until it is no longer hot to the touch
@@ -2714,8 +2714,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 91
   steps:
   - description: remove-then carefully remove the paper liner
@@ -2744,8 +2744,8 @@
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
   - description: Invert-Invert the mug to release the cake onto a plate
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 92
   steps:
   - description: Measure and add-1/4 tsp vanilla extract to the bowl
@@ -2774,8 +2774,8 @@
       for an additional 5 seconds. If the toothpick comes out clean, continue
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 93
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -2804,8 +2804,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Pour-Pour batter into prepared mug
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 94
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -2834,8 +2834,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Set-Set aside
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 95
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -2864,8 +2864,8 @@
       4 spoonfuls of chocolate frosting into a zip-top bag
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 96
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -2894,8 +2894,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Allow-Allow to cool until it is no longer hot to the touch
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 97
   steps:
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
@@ -2924,8 +2924,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Place-Place the paper cupcake liner inside the mug
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 98
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -2954,8 +2954,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 99
   steps:
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
@@ -2984,8 +2984,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 100
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -3014,8 +3014,8 @@
       of frosting to the plate in a circle around the base of the cake
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 101
   steps:
   - description: Place-Place the paper cupcake liner inside the mug
@@ -3044,8 +3044,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 102
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -3074,8 +3074,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 103
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -3104,8 +3104,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 104
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -3134,8 +3134,8 @@
   - description: Measure and add-2 tbsp water
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 105
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -3164,8 +3164,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 106
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -3194,8 +3194,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 107
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -3224,8 +3224,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 108
   steps:
   - description: Measure and add-a pinch of salt to the mixing bowl
@@ -3254,8 +3254,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 109
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -3284,8 +3284,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Measure and add-a pinch of salt to the mixing bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 110
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -3314,8 +3314,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 111
   steps:
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
@@ -3344,8 +3344,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: remove-then carefully remove the paper liner
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 112
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -3374,8 +3374,8 @@
   - description: Whisk-Whisk to combine
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 113
   steps:
   - description: Place-Place the paper cupcake liner inside the mug
@@ -3404,8 +3404,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Pour-Pour batter into prepared mug
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 114
   steps:
   - description: Place-Place the paper cupcake liner inside the mug
@@ -3434,8 +3434,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: Measure and add-Measure and add 2 tbsp flour
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 115
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -3464,8 +3464,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 116
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -3494,8 +3494,8 @@
   - description: cut-Use scissors to cut one corner from the bag to create a small
       opening 1/4 inch in diameter
   - description: remove-then carefully remove the paper liner
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 117
   steps:
   - description: Place-Place the paper cupcake liner inside the mug
@@ -3524,8 +3524,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 118
   steps:
   - description: Set-Set aside
@@ -3554,8 +3554,8 @@
       4 spoonfuls of chocolate frosting into a zip-top bag
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 119
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -3584,8 +3584,8 @@
       Check if the cake is done by inserting and toothpick into the center of the
       cake and then removing it. If wet batter clings to the toothpick, microwave
       for an additional 5 seconds. If the toothpick comes out clean, continue
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 120
   steps:
   - description: Measure and add-1.5 tbsp sugar
@@ -3614,8 +3614,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 121
   steps:
   - description: Place-Place the paper cupcake liner inside the mug
@@ -3644,8 +3644,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 122
   steps:
   - description: Measure and add-1/4 tsp baking powder
@@ -3674,8 +3674,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 123
   steps:
   - description: Allow-Allow to cool until it is no longer hot to the touch
@@ -3704,8 +3704,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 124
   steps:
   - description: Measure and add-Measure and add 2 tbsp flour
@@ -3734,8 +3734,8 @@
       opening 1/4 inch in diameter
   - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
       of frosting to the plate in a circle around the base of the cake
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 125
   steps:
   - description: Measure and add-1/4 tsp baking powder

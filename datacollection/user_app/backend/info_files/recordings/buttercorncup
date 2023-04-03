@@ -373,7 +373,7 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Microwave-Microwave the corn for 2 minutes
     tag: Missing Step
   - description: stir-then stir
@@ -393,7 +393,7 @@
   - description: Microwave-Microwave the corn for 3 more minutes
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
-- mistakes:
+- errors:
   - description: Thaw-Thaw the frozen corn by putting it in a sieve and running it
       under cold water
     tag: Missing Step
@@ -412,7 +412,7 @@
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
-- mistakes:
+- errors:
   - description: Measure-Measure 2 cups of frozen corn
     tag: Missing Step
   - description: add-add it to the bowl
@@ -430,7 +430,7 @@
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Extract-Extract lime juice from 1/3 lime
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Add-1 teaspoon of pepper powder to the bowl
     tag: Missing Step
   - description: stir-then stir
@@ -448,7 +448,7 @@
   - description: add-add it to the bowl
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: stir-then stir
     tag: Missing Step
   recording_id: 30
@@ -465,7 +465,7 @@
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of butter
     tag: Missing Step
   recording_id: 31
@@ -482,7 +482,7 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Measure-Measure 2 cups of frozen corn
     tag: Missing Step
   - description: Add-1 teaspoon of pepper powder to the bowl
@@ -501,7 +501,7 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Measure-Measure 2 cups of frozen corn
     tag: Missing Step
   recording_id: 33
@@ -518,7 +518,7 @@
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Thaw-Thaw the frozen corn by putting it in a sieve and running it
       under cold water
     tag: Missing Step
@@ -535,7 +535,7 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Microwave-Microwave the corn for 3 more minutes
     tag: Missing Step
   recording_id: 35
@@ -552,7 +552,7 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: stir-then stir
     tag: Missing Step
   - description: Microwave-Microwave the corn for 3 more minutes
@@ -570,10 +570,10 @@
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of butter
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 37
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -588,7 +588,7 @@
   - description: add-add it to the bowl
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Thaw-Thaw the frozen corn by putting it in a sieve and running it
       under cold water
     tag: Missing Step
@@ -596,7 +596,7 @@
     tag: Missing Step
   - description: add-add it to the bowl
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 38
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -608,12 +608,12 @@
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Extract-Extract lime juice from 1/3 lime
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
+- errors:
   - description: Microwave-Microwave the corn for 2 minutes
     tag: Missing Step
   - description: Mix-Mix the contents of the bowl well
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 39
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -627,14 +627,14 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Add-Add 1 teaspoon salt to the bowl
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon salt to the bowl
     tag: Missing Step
   - description: Extract-Extract lime juice from 1/3 lime
     tag: Missing Step
   - description: add-add it to the bowl
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 40
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -647,8 +647,8 @@
   - description: Microwave-Microwave the corn for 3 more minutes
   - description: stir-then stir
   - description: Microwave-Microwave the corn for 2 minutes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -664,8 +664,8 @@
   - description: add-add it to the bowl
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -681,8 +681,8 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 43
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -698,8 +698,8 @@
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 44
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -715,8 +715,8 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Microwave-Microwave the corn for 3 more minutes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 45
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -732,8 +732,8 @@
   - description: add-add it to the bowl
   - description: stir-then stir
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -749,8 +749,8 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add it to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -766,8 +766,8 @@
   - description: add-add it to the bowl
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -783,8 +783,8 @@
   - description: Microwave-Microwave the corn for 2 minutes
   - description: Mix-Mix the contents of the bowl well
   - description: Add-Add 1 teaspoon salt to the bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Measure-Measure 2 cups of frozen corn
@@ -800,8 +800,8 @@
   - description: Microwave-Microwave the corn for 2 minutes
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Mix-Mix the contents of the bowl well
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Measure-Measure 2 cups of frozen corn

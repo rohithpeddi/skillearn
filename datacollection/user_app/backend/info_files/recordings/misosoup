@@ -373,7 +373,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: add-tofu
     tag: Missing Step
   recording_id: 26
@@ -390,7 +390,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Chop-Chop 2 scallions
     tag: Missing Step
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -409,7 +409,7 @@
   - description: add-chopped scallions
   - description: Stir-Stir until the miso is well dissolved
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Chop-Chop 2 scallions
     tag: Missing Step
   recording_id: 28
@@ -441,7 +441,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Add-Add 1 tbsp shredded seaweed
     tag: Missing Step
   - description: Allow-Allow it to simmer for at least 4 to 5 minutes
@@ -489,7 +489,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: add-tofu
     tag: Missing Step
   recording_id: 33
@@ -521,7 +521,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: add-tofu
     tag: Missing Step
   recording_id: 35
@@ -538,7 +538,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Chop-Chop 2 scallions
     tag: Missing Step
   recording_id: 36
@@ -555,7 +555,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
     tag: Missing Step
   recording_id: 37
@@ -572,7 +572,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
     tag: Missing Step
   - description: Add-Add 1 tbsp shredded seaweed
@@ -591,7 +591,7 @@
   - description: add-tofu
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Ladle-Ladle into bowls
     tag: Missing Step
   recording_id: 39
@@ -623,7 +623,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
     tag: Missing Step
   recording_id: 41
@@ -655,7 +655,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Chop-Chop 2 scallions
     tag: Missing Step
   - description: Ladle-Ladle into bowls
@@ -673,7 +673,7 @@
   - description: add-1/8 teaspoon of soy sauce
   - description: Stir-Stir until the miso is well dissolved
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Reduce-Reduce the heat to very low
     tag: Missing Step
   recording_id: 44
@@ -690,7 +690,7 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Chop-Chop 2 scallions
     tag: Missing Step
   - description: add-chopped scallions
@@ -708,10 +708,10 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -726,14 +726,14 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Add-Add 1 tbsp shredded seaweed
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
     tag: Missing Step
   - description: add-1/8 teaspoon of soy sauce
     tag: Missing Step
   - description: add-chopped scallions
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Chop-Chop 2 scallions
@@ -746,10 +746,10 @@
   - description: add-add the 1/3 cup white miso
   - description: Stir-Stir until the miso is well dissolved
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
-- mistakes:
+- errors:
   - description: add-tofu
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -764,8 +764,8 @@
   - description: Reduce-Reduce the heat to very low
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Chop-Chop 2 scallions
@@ -781,10 +781,10 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Stir-Stir until the miso is well dissolved
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -799,14 +799,14 @@
   - description: add-1/8 teaspoon of soy sauce
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
     tag: Missing Step
   - description: add-chopped scallions
     tag: Missing Step
   - description: Ladle-Ladle into bowls
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 51
   steps:
   - description: Chop-Chop 2 scallions
@@ -819,7 +819,7 @@
   - description: add-tofu
   - description: Stir-Stir until the miso is well dissolved
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Add-Add 1 tbsp shredded seaweed
     tag: Missing Step
   - description: Reduce-Reduce the heat to very low
@@ -828,7 +828,7 @@
     tag: Missing Step
   - description: serve-serve hot, and enjoy
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 52
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -840,10 +840,10 @@
   - description: add-chopped scallions
   - description: add-add the 1/3 cup white miso
   - description: Stir-Stir until the miso is well dissolved
-- mistakes:
+- errors:
   - description: Add-Add 1 tbsp shredded seaweed
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 53
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -858,12 +858,12 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: add-add the 1/3 cup white miso
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Reduce-Reduce the heat to very low
     tag: Missing Step
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 54
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -877,10 +877,10 @@
   - description: add-add the 1/3 cup white miso
   - description: Stir-Stir until the miso is well dissolved
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 55
   steps:
   - description: Add-Add 1 tbsp shredded seaweed
@@ -895,12 +895,12 @@
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: add-chopped scallions
     tag: Missing Step
   - description: add-1/8 teaspoon of soy sauce
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 56
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -914,8 +914,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: add-tofu
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 57
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -931,10 +931,10 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: add-chopped scallions
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Allow-Allow it to simmer for at least 4 to 5 minutes
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 58
   steps:
   - description: Reduce-Reduce the heat to very low
@@ -949,12 +949,12 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: add-tofu
   - description: serve-serve hot, and enjoy
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
     tag: Missing Step
   - description: add-1/8 teaspoon of soy sauce
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 59
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -968,8 +968,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: add-chopped scallions
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 60
   steps:
   - description: add-chopped scallions
@@ -985,8 +985,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 61
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1002,12 +1002,12 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: add-tofu
   - description: add-1/8 teaspoon of soy sauce
-- mistakes:
+- errors:
   - description: Add-Add 1 tbsp shredded seaweed
     tag: Missing Step
   - description: Chop-Chop 2 scallions
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 62
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1021,8 +1021,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 63
   steps:
   - description: Chop-Chop 2 scallions
@@ -1038,8 +1038,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 64
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1055,8 +1055,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Allow-Allow it to simmer for at least 4 to 5 minutes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 65
   steps:
   - description: add-1/8 teaspoon of soy sauce
@@ -1072,8 +1072,8 @@
   - description: Add-Add 1 tbsp shredded seaweed
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 66
   steps:
   - description: add-add the 1/3 cup white miso
@@ -1089,8 +1089,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 67
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1106,8 +1106,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 68
   steps:
   - description: Reduce-Reduce the heat to very low
@@ -1123,8 +1123,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 69
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1140,8 +1140,8 @@
   - description: Add-Add 1 tbsp shredded seaweed
   - description: Ladle-Ladle into bowls
   - description: add-add the 1/3 cup white miso
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 70
   steps:
   - description: Chop-Chop 2 scallions
@@ -1157,8 +1157,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 71
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1174,8 +1174,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 72
   steps:
   - description: serve-serve hot, and enjoy
@@ -1191,8 +1191,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Chop-Chop 2 scallions
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 73
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1208,8 +1208,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 74
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1225,8 +1225,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 75
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1242,8 +1242,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 76
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1259,8 +1259,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: add-chopped scallions
   - description: add-1/8 teaspoon of soy sauce
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 77
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1276,8 +1276,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Reduce-Reduce the heat to very low
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 78
   steps:
   - description: Chop-Chop 2 scallions
@@ -1293,8 +1293,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 79
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1310,8 +1310,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: serve-serve hot, and enjoy
   - description: add-chopped scallions
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 80
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1327,8 +1327,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: add-add the 1/3 cup white miso
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 81
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1344,8 +1344,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: add-tofu
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 82
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1361,8 +1361,8 @@
   - description: add-tofu
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 83
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1378,8 +1378,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 84
   steps:
   - description: Chop-Chop 2 scallions
@@ -1395,8 +1395,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: add-1/8 teaspoon of soy sauce
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 85
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1412,8 +1412,8 @@
   - description: serve-serve hot, and enjoy
   - description: Ladle-Ladle into bowls
   - description: Stir-Stir until the miso is well dissolved
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 86
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1429,8 +1429,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Reduce-Reduce the heat to very low
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 87
   steps:
   - description: Stir-Stir until the miso is well dissolved
@@ -1446,8 +1446,8 @@
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 88
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1463,8 +1463,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 89
   steps:
   - description: Chop-Chop 2 scallions
@@ -1480,8 +1480,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 90
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1497,8 +1497,8 @@
   - description: Chop-Chop 2 scallions
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 91
   steps:
   - description: serve-serve hot, and enjoy
@@ -1514,8 +1514,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 92
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1531,8 +1531,8 @@
   - description: add-1/8 teaspoon of soy sauce
   - description: add-tofu
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 93
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1548,8 +1548,8 @@
   - description: Ladle-Ladle into bowls
   - description: add-chopped scallions
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 94
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1565,8 +1565,8 @@
   - description: add-tofu
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 95
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1582,8 +1582,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 96
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1599,8 +1599,8 @@
   - description: add-tofu
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 97
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1616,8 +1616,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: serve-serve hot, and enjoy
   - description: Ladle-Ladle into bowls
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 98
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1633,8 +1633,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 99
   steps:
   - description: Chop-Chop 2 scallions
@@ -1650,8 +1650,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 100
   steps:
   - description: Allow-Allow it to simmer for at least 4 to 5 minutes
@@ -1667,8 +1667,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Add-Add 1 tbsp shredded seaweed
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 101
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1684,8 +1684,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 102
   steps:
   - description: Chop-Chop 2 scallions
@@ -1701,8 +1701,8 @@
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 103
   steps:
   - description: Ladle-Ladle into bowls
@@ -1718,8 +1718,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 104
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1735,8 +1735,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 105
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1752,8 +1752,8 @@
   - description: add-add the 1/3 cup white miso
   - description: Ladle-Ladle into bowls
   - description: Allow-Allow it to simmer for at least 4 to 5 minutes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 106
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1769,8 +1769,8 @@
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 107
   steps:
   - description: Ladle-Ladle into bowls
@@ -1786,8 +1786,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
   - description: Chop-Chop 2 scallions
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 108
   steps:
   - description: add-tofu
@@ -1803,8 +1803,8 @@
   - description: Allow-Allow it to simmer for at least 4 to 5 minutes
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 109
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes
@@ -1820,8 +1820,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 110
   steps:
   - description: Chop-Chop 2 scallions
@@ -1837,8 +1837,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 111
   steps:
   - description: add-add the 1/3 cup white miso
@@ -1854,8 +1854,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Chop-Chop 2 scallions
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 112
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1871,8 +1871,8 @@
   - description: Chop-Chop 2 scallions
   - description: Ladle-Ladle into bowls
   - description: add-1/8 teaspoon of soy sauce
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 113
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1888,8 +1888,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: Allow-Allow it to simmer for at least 4 to 5 minutes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 114
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1905,8 +1905,8 @@
   - description: Chop-Chop 2 scallions
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 115
   steps:
   - description: Chop-Chop 2 scallions
@@ -1922,8 +1922,8 @@
   - description: serve-serve hot, and enjoy
   - description: Ladle-Ladle into bowls
   - description: Stir-Stir until the miso is well dissolved
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 116
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1939,8 +1939,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 117
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -1956,8 +1956,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: add-chopped scallions
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 118
   steps:
   - description: Chop-Chop 2 scallions
@@ -1973,8 +1973,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Reduce-Reduce the heat to very low
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 119
   steps:
   - description: Add-Add 1 tbsp shredded seaweed
@@ -1990,8 +1990,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 120
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -2007,8 +2007,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 121
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -2024,8 +2024,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 122
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -2041,8 +2041,8 @@
   - description: add-chopped scallions
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 123
   steps:
   - description: Allow-Allow it to simmer for at least 4 to 5 minutes
@@ -2058,8 +2058,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 124
   steps:
   - description: Bring-Bring 2 cups of water to a slow simmer in a medium pot
@@ -2075,8 +2075,8 @@
   - description: Stir-Stir until the miso is well dissolved
   - description: Ladle-Ladle into bowls
   - description: serve-serve hot, and enjoy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 125
   steps:
   - description: Cut-Cut 1/4 block of tofu into 1-inch cubes

@@ -648,7 +648,7 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Add-Add garlic
     tag: Missing Step
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
@@ -677,7 +677,7 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
-- mistakes:
+- errors:
   - description: Chop-Chop 1/4 tomato
     tag: Missing Step
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
@@ -706,7 +706,7 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Whisk-Whisk the egg mixture in the bowl
     tag: Missing Step
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
@@ -735,7 +735,7 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   - description: Whisk-Whisk the egg mixture in the bowl
@@ -766,7 +766,7 @@
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Mince-Mince peeled garlic cloves
     tag: Missing Step
   - description: Chop-Chop 1 green chilli
@@ -796,7 +796,7 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
-- mistakes:
+- errors:
   - description: Mince-Mince peeled garlic cloves
     tag: Missing Step
   - description: Add-Add tomatoes
@@ -827,7 +827,7 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
     tag: Missing Step
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
@@ -857,7 +857,7 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
     tag: Missing Step
   - description: Add-Add garlic
@@ -912,7 +912,7 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Cook-Cook for 1 minute, mixing everything
     tag: Missing Step
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
@@ -941,7 +941,7 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
-- mistakes:
+- errors:
   - description: Mince-Mince peeled garlic cloves
     tag: Missing Step
   - description: add-add  1 tbsp milk
@@ -970,8 +970,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -998,10 +998,10 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Chop-Chop 1 green chilli
-- mistakes:
+- errors:
   - description: add-add  1 tbsp milk
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1027,12 +1027,12 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Add-Add tomatoes
     tag: Missing Step
   - description: add-1/3 tsp salt
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -1057,14 +1057,14 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Chop-Chop 1/4 medium onion
     tag: Missing Step
   - description: Whisk-Whisk the egg mixture in the bowl
     tag: Missing Step
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Add-1/8 tsp of turmeric to the pan
@@ -1088,12 +1088,12 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: add-1/3 tsp salt
     tag: Missing Step
   - description: Cook-Cook for 1 minute, mixing everything
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1118,10 +1118,10 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 51
   steps:
   - description: Peel-Peel 2 garlic cloves
@@ -1147,10 +1147,10 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-- mistakes:
+- errors:
   - description: add-add  1 tbsp milk
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 52
   steps:
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
@@ -1176,10 +1176,10 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Chop-Chop 1/4 medium onion
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 53
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1205,14 +1205,14 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Add-Add garlic
-- mistakes:
+- errors:
   - description: Crack-Crack one egg in a bowl
     tag: Missing Step
   - description: add-add chopped onions
     tag: Missing Step
   - description: Add-Add tomatoes
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 54
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1236,12 +1236,12 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Add-chilli to the pan
     tag: Missing Step
   - description: Add-Add garlic
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 55
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1266,14 +1266,14 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Whisk-Whisk the egg mixture in the bowl
     tag: Missing Step
   - description: Chop-Chop 1/4 tomato
     tag: Missing Step
   - description: Peel-Peel 2 garlic cloves
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 56
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1297,14 +1297,14 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: add-1/3 tsp salt
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
     tag: Missing Step
   - description: Add-Add garlic
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 57
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1328,14 +1328,14 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Peel-Peel 2 garlic cloves
     tag: Missing Step
   - description: Crack-Crack one egg in a bowl
     tag: Missing Step
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 58
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1359,10 +1359,10 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Mince-Mince peeled garlic cloves
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Add-chilli to the pan
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 59
   steps:
   - description: add-1/3 tsp salt
@@ -1388,14 +1388,14 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Add-1/8 tsp of turmeric to the pan
-- mistakes:
+- errors:
   - description: Crack-Crack one egg in a bowl
     tag: Missing Step
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
     tag: Missing Step
   - description: Mince-Mince peeled garlic cloves
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 60
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1419,12 +1419,12 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Add-Add garlic
     tag: Missing Step
   - description: Cook-Cook for 1 minute, mixing everything
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 61
   steps:
   - description: Whisk-Whisk the egg mixture in the bowl
@@ -1449,10 +1449,10 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: pour-Slowly pour the whisked eggs into the pan
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 62
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -1478,14 +1478,14 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
   - description: add-add  1 tbsp milk
     tag: Missing Step
   - description: add-add chopped onions
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 63
   steps:
   - description: add-1/3 tsp salt
@@ -1509,10 +1509,10 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
+- errors:
   - description: Chop-Chop 1 green chilli
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 64
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1538,8 +1538,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 65
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1566,8 +1566,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 66
   steps:
   - description: add-1/3 tsp salt
@@ -1594,8 +1594,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 67
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -1622,8 +1622,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 68
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1650,8 +1650,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Chop-Chop 1/4 medium onion
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 69
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1678,8 +1678,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Chop-Chop 1 green chilli
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 70
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -1706,8 +1706,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Add-Add tomatoes
   - description: Crack-Crack one egg in a bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 71
   steps:
   - description: Mince-Mince peeled garlic cloves
@@ -1734,8 +1734,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 72
   steps:
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
@@ -1762,8 +1762,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Chop-Chop 1/4 medium onion
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 73
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1790,8 +1790,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 74
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1818,8 +1818,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Chop-Chop 1/4 tomato
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 75
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -1846,8 +1846,8 @@
   - description: Peel-Peel 2 garlic cloves
   - description: Add-Add tomatoes
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 76
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1874,8 +1874,8 @@
       are almost cooked
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Add-chilli to the pan
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 77
   steps:
   - description: Add-Add tomatoes
@@ -1902,8 +1902,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 78
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -1930,8 +1930,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 79
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -1958,8 +1958,8 @@
   - description: Chop-Chop 1 tsp cilantro
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 80
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -1986,8 +1986,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 81
   steps:
   - description: add-1/3 tsp salt
@@ -2014,8 +2014,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 82
   steps:
   - description: Whisk-Whisk the egg mixture in the bowl
@@ -2042,8 +2042,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Add-Add garlic
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 83
   steps:
   - description: add-add chopped onions
@@ -2070,8 +2070,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 84
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2098,8 +2098,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Chop-Chop 1/4 tomato
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 85
   steps:
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
@@ -2126,8 +2126,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 86
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2154,8 +2154,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
   - description: add-add  1 tbsp milk
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 87
   steps:
   - description: Mince-Mince peeled garlic cloves
@@ -2182,8 +2182,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 88
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2210,8 +2210,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 89
   steps:
   - description: add-add chopped onions
@@ -2238,8 +2238,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 90
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2266,8 +2266,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Cook-Cook for 1 minute, mixing everything
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 91
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2294,8 +2294,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 92
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2322,8 +2322,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 93
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2350,8 +2350,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 94
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2378,8 +2378,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Add-chilli to the pan
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 95
   steps:
   - description: Chop-Chop 1 tsp cilantro
@@ -2406,8 +2406,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: add-add chopped onions
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 96
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2434,8 +2434,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 97
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2462,8 +2462,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Crack-Crack one egg in a bowl
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 98
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2490,8 +2490,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 99
   steps:
   - description: add-add  1 tbsp milk
@@ -2518,8 +2518,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Peel-Peel 2 garlic cloves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 100
   steps:
   - description: Peel-Peel 2 garlic cloves
@@ -2546,8 +2546,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 101
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2574,8 +2574,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Chop-Chop 1/4 tomato
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 102
   steps:
   - description: Mince-Mince peeled garlic cloves
@@ -2602,8 +2602,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Peel-Peel 2 garlic cloves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 103
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2630,8 +2630,8 @@
   - description: add-1/3 tsp salt
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 104
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2658,8 +2658,8 @@
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
   - description: Chop-Chop 1 tsp cilantro
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 105
   steps:
   - description: Whisk-Whisk the egg mixture in the bowl
@@ -2686,8 +2686,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: add-1/3 tsp salt
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 106
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2714,8 +2714,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Crack-Crack one egg in a bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 107
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2742,8 +2742,8 @@
   - description: Mince-Mince peeled garlic cloves
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 108
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2770,8 +2770,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Crack-Crack one egg in a bowl
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 109
   steps:
   - description: add-add chopped onions
@@ -2798,8 +2798,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 110
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2826,8 +2826,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 111
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2854,8 +2854,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 112
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2882,8 +2882,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Chop-Chop 1 green chilli
   - description: Crack-Crack one egg in a bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 113
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -2910,8 +2910,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: pour-Slowly pour the whisked eggs into the pan
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 114
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2938,8 +2938,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Add-chilli to the pan
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 115
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2966,8 +2966,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Add-Add garlic
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 116
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -2994,8 +2994,8 @@
   - description: pour-Slowly pour the whisked eggs into the pan
   - description: Chop-Chop 1 tsp cilantro
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 117
   steps:
   - description: Add-chilli to the pan
@@ -3022,8 +3022,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 118
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -3050,8 +3050,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Whisk-Whisk the egg mixture in the bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 119
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -3078,8 +3078,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Chop-Chop 1 tsp cilantro
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 120
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -3106,8 +3106,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 121
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -3134,8 +3134,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 122
   steps:
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan
@@ -3162,8 +3162,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Cook-Cook for 1 minute, mixing everything
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 123
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -3190,8 +3190,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Chop-Chop 1 green chilli
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 124
   steps:
   - description: Chop-Chop 1/4 medium onion
@@ -3218,8 +3218,8 @@
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Add-1/8 tsp of turmeric to the pan
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 125
   steps:
   - description: Chop-Chop 1 tsp cilantro

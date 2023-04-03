@@ -348,7 +348,7 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
     tag: Missing Step
   recording_id: 26
@@ -364,7 +364,7 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
     tag: Missing Step
@@ -380,7 +380,7 @@
   - description: add-1/16 cup basil
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
     tag: Missing Step
@@ -410,7 +410,7 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     tag: Missing Step
   recording_id: 30
@@ -454,7 +454,7 @@
   - description: add-1/4 tsp pepper
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: add-In a bowl, add the cut cherry tomatoes
     tag: Missing Step
   recording_id: 33
@@ -470,7 +470,7 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     tag: Missing Step
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
@@ -515,7 +515,7 @@
   - description: add-1/16 cup basil
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Combine-Combine the contents of the bowl
     tag: Missing Step
   recording_id: 37
@@ -531,7 +531,7 @@
       until lightly charred and crispy
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: add-1/4 tsp pepper
     tag: Missing Step
   - description: add-In a bowl, add the cut cherry tomatoes
@@ -549,7 +549,7 @@
   - description: add-1/8 cup shredded mozzarella
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Combine-Combine the contents of the bowl
     tag: Missing Step
   recording_id: 39
@@ -565,7 +565,7 @@
       until lightly charred and crispy
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
     tag: Missing Step
@@ -581,7 +581,7 @@
   - description: add-1/4 tsp pepper
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     tag: Missing Step
   - description: Combine-Combine the contents of the bowl
@@ -598,7 +598,7 @@
       until lightly charred and crispy
   - description: add-1/8 cup shredded mozzarella
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
     tag: Missing Step
   - description: add-In a bowl, add the cut cherry tomatoes
@@ -643,7 +643,7 @@
   - description: add-1/16 cup basil
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
     tag: Missing Step
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
@@ -662,8 +662,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
@@ -678,13 +678,13 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-- mistakes:
+- errors:
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     tag: Missing Step
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: add-1/16 cup basil
@@ -696,8 +696,8 @@
   - description: Combine-Combine the contents of the bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -712,10 +712,10 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: add-1/4 tsp salt
-- mistakes:
+- errors:
   - description: add-In a bowl, add the cut cherry tomatoes
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: add-1/16 cup basil
@@ -729,12 +729,12 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: add-1/8 cup shredded mozzarella
     tag: Missing Step
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: add-1/16 cup basil
@@ -747,10 +747,10 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: add-1/8 cup shredded mozzarella
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 51
   steps:
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
@@ -764,10 +764,10 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: add-1/4 tsp salt
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 52
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -781,10 +781,10 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Spoon-Spoon the mixture onto the bread
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 53
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -798,12 +798,12 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: add-1/4 tsp pepper
-- mistakes:
+- errors:
   - description: add-1/4 tsp pepper
     tag: Missing Step
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 54
   steps:
   - description: Combine-Combine the contents of the bowl
@@ -816,8 +816,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 55
   steps:
   - description: add-1/4 tsp pepper
@@ -832,10 +832,10 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Combine-Combine the contents of the bowl
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 56
   steps:
   - description: add-1/16 cup basil
@@ -849,12 +849,12 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: add-1/4 tsp salt
-- mistakes:
+- errors:
   - description: add-1/4 tsp salt
     tag: Missing Step
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 57
   steps:
   - description: Combine-Combine the contents of the bowl
@@ -867,10 +867,10 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 58
   steps:
   - description: add-1/4 tsp pepper
@@ -884,10 +884,10 @@
   - description: add-1/8 cup shredded mozzarella
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: Combine-Combine the contents of the bowl
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 59
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -901,13 +901,13 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: add-1/4 tsp salt
     tag: Missing Step
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 60
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -919,12 +919,12 @@
   - description: add-1/8 cup shredded mozzarella
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: add-1/4 tsp salt
     tag: Missing Step
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 61
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -937,12 +937,12 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
+- errors:
   - description: add-1/8 cup shredded mozzarella
     tag: Missing Step
   - description: Combine-Combine the contents of the bowl
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 62
   steps:
   - description: add-1/4 tsp salt
@@ -955,8 +955,8 @@
   - description: add-1/4 tsp pepper
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 63
   steps:
   - description: add-1/4 tsp salt
@@ -971,12 +971,12 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: add-1/8 cup shredded mozzarella
-- mistakes:
+- errors:
   - description: add-1/8 cup shredded mozzarella
     tag: Missing Step
   - description: add-1/4 tsp pepper
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 64
   steps:
   - description: add-1/4 tsp salt
@@ -989,8 +989,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 65
   steps:
   - description: add-1/4 tsp pepper
@@ -1005,8 +1005,8 @@
   - description: Combine-Combine the contents of the bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 66
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1021,8 +1021,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 67
   steps:
   - description: add-1/4 tsp pepper
@@ -1037,8 +1037,8 @@
   - description: add-1/8 cup shredded mozzarella
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 68
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1053,8 +1053,8 @@
   - description: add-1/4 tsp salt
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 69
   steps:
   - description: Spoon-Spoon the mixture onto the bread
@@ -1069,8 +1069,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: add-1/16 cup basil
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 70
   steps:
   - description: add-1/4 tsp pepper
@@ -1085,8 +1085,8 @@
   - description: add-1/4 tsp salt
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 71
   steps:
   - description: add-1/16 cup basil
@@ -1101,8 +1101,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: add-1/4 tsp salt
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 72
   steps:
   - description: add-1/4 tsp pepper
@@ -1117,8 +1117,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 73
   steps:
   - description: add-1/4 tsp pepper
@@ -1133,8 +1133,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 74
   steps:
   - description: add-1/4 tsp salt
@@ -1149,8 +1149,8 @@
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: add-1/4 tsp pepper
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 75
   steps:
   - description: add-1/8 cup shredded mozzarella
@@ -1165,8 +1165,8 @@
   - description: add-1/4 tsp salt
   - description: Combine-Combine the contents of the bowl
   - description: add-1/4 tsp pepper
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 76
   steps:
   - description: add-1/4 tsp pepper
@@ -1181,8 +1181,8 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 77
   steps:
   - description: add-1/8 cup shredded mozzarella
@@ -1197,8 +1197,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 78
   steps:
   - description: add-1/8 cup shredded mozzarella
@@ -1213,8 +1213,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 79
   steps:
   - description: add-1/16 cup basil
@@ -1229,8 +1229,8 @@
       until lightly charred and crispy
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 80
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1245,8 +1245,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 81
   steps:
   - description: add-1/8 cup shredded mozzarella
@@ -1261,8 +1261,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 82
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1277,8 +1277,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 83
   steps:
   - description: add-1/4 tsp salt
@@ -1293,8 +1293,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 84
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1309,8 +1309,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 85
   steps:
   - description: add-1/8 cup shredded mozzarella
@@ -1325,8 +1325,8 @@
   - description: add-1/16 cup basil
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 86
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1341,8 +1341,8 @@
   - description: add-1/4 tsp salt
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 87
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1357,8 +1357,8 @@
   - description: Spoon-Spoon the mixture onto the bread
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 88
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1373,8 +1373,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: add-1/4 tsp pepper
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 89
   steps:
   - description: add-1/4 tsp salt
@@ -1389,8 +1389,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 90
   steps:
   - description: add-1/4 tsp pepper
@@ -1405,8 +1405,8 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 91
   steps:
   - description: add-1/16 cup basil
@@ -1421,8 +1421,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 92
   steps:
   - description: Spoon-Spoon the mixture onto the bread
@@ -1437,8 +1437,8 @@
       until lightly charred and crispy
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 93
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1453,8 +1453,8 @@
   - description: add-1/8 cup shredded mozzarella
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 94
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1469,8 +1469,8 @@
   - description: add-1/16 cup basil
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 95
   steps:
   - description: add-1/16 cup basil
@@ -1485,8 +1485,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 96
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1501,8 +1501,8 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 97
   steps:
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
@@ -1517,8 +1517,8 @@
   - description: Combine-Combine the contents of the bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 98
   steps:
   - description: add-1/4 tsp salt
@@ -1533,8 +1533,8 @@
   - description: Combine-Combine the contents of the bowl
   - description: add-1/16 cup basil
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 99
   steps:
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
@@ -1549,8 +1549,8 @@
   - description: add-1/4 tsp pepper
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 100
   steps:
   - description: add-In a bowl, add the cut cherry tomatoes
@@ -1565,8 +1565,8 @@
   - description: add-1/8 cup shredded mozzarella
   - description: Combine-Combine the contents of the bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 101
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1581,8 +1581,8 @@
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: add-1/4 tsp salt
   - description: add-1/4 tsp pepper
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 102
   steps:
   - description: add-In a bowl, add the cut cherry tomatoes
@@ -1597,8 +1597,8 @@
   - description: add-1/16 cup basil
   - description: add-1/8 cup shredded mozzarella
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 103
   steps:
   - description: add-1/4 tsp salt
@@ -1613,8 +1613,8 @@
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 104
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1629,8 +1629,8 @@
   - description: add-1/4 tsp salt
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 105
   steps:
   - description: Spoon-Spoon the mixture onto the bread
@@ -1645,8 +1645,8 @@
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Combine-Combine the contents of the bowl
   - description: add-1/8 cup shredded mozzarella
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 106
   steps:
   - description: add-1/4 tsp pepper
@@ -1661,8 +1661,8 @@
   - description: Spoon-Spoon the mixture onto the bread
   - description: Combine-Combine the contents of the bowl
   - description: add-1/4 tsp salt
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 107
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1677,8 +1677,8 @@
   - description: Combine-Combine the contents of the bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 108
   steps:
   - description: add-1/4 tsp salt
@@ -1693,8 +1693,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 109
   steps:
   - description: add-1/4 tsp salt
@@ -1709,8 +1709,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 110
   steps:
   - description: Spoon-Spoon the mixture onto the bread
@@ -1725,8 +1725,8 @@
       until lightly charred and crispy
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: add-1/16 cup basil
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 111
   steps:
   - description: add-1/4 tsp pepper
@@ -1741,8 +1741,8 @@
       until lightly charred and crispy
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 112
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1757,8 +1757,8 @@
   - description: Spoon-Spoon the mixture onto the bread
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 113
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1773,8 +1773,8 @@
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Combine-Combine the contents of the bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 114
   steps:
   - description: add-1/16 cup basil
@@ -1789,8 +1789,8 @@
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 115
   steps:
   - description: add-1/4 tsp salt
@@ -1805,8 +1805,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 116
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
@@ -1821,8 +1821,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 117
   steps:
   - description: add-In a bowl, add the cut cherry tomatoes
@@ -1837,8 +1837,8 @@
   - description: Spoon-Spoon the mixture onto the bread
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 118
   steps:
   - description: add-1/4 tsp pepper
@@ -1853,8 +1853,8 @@
   - description: Combine-Combine the contents of the bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 119
   steps:
   - description: add-1/16 cup basil
@@ -1869,8 +1869,8 @@
   - description: add-1/8 cup shredded mozzarella
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 120
   steps:
   - description: add-1/4 tsp pepper
@@ -1885,8 +1885,8 @@
   - description: add-1/8 cup shredded mozzarella
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 121
   steps:
   - description: Combine-Combine the contents of the bowl
@@ -1901,8 +1901,8 @@
   - description: add-1/8 cup shredded mozzarella
   - description: add-1/16 cup basil
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 122
   steps:
   - description: add-1/8 cup shredded mozzarella
@@ -1917,8 +1917,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: add-1/4 tsp pepper
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 123
   steps:
   - description: add-1/4 tsp pepper
@@ -1933,8 +1933,8 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 124
   steps:
   - description: add-1/4 tsp pepper
@@ -1949,8 +1949,8 @@
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 125
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds

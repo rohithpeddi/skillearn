@@ -548,7 +548,7 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Allow-Allow the chutney to cool down before serving
     tag: Missing Step
   recording_id: 26
@@ -572,7 +572,7 @@
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
-- mistakes:
+- errors:
   - description: Allow-Allow the chutney to cool down before serving
     tag: Missing Step
   recording_id: 27
@@ -596,7 +596,7 @@
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
-- mistakes:
+- errors:
   - description: Peel-Peel 4 large garlic cloves
     tag: Missing Step
   - description: mince-mince the garlic
@@ -622,7 +622,7 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Add-Add 1/4 tsp mustard
     tag: Missing Step
   recording_id: 29
@@ -646,7 +646,7 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Add-Add 2 tbsp red chili powder
     tag: Missing Step
   recording_id: 30
@@ -670,7 +670,7 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Take-Take the pan off the heat
     tag: Missing Step
   recording_id: 31
@@ -694,7 +694,7 @@
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Peel-Peel 4 large garlic cloves
     tag: Missing Step
   recording_id: 32
@@ -718,7 +718,7 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Add-1/2 tsp cumin seeds
     tag: Missing Step
   - description: Lower-Lower the heat
@@ -745,7 +745,7 @@
   - description: Mix-Mix well
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Lower-Lower the heat
     tag: Missing Step
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
@@ -771,7 +771,7 @@
   - description: Add-Add tomato puree
   - description: Mix-Mix well
   - description: Take-Take the pan off the heat
-- mistakes:
+- errors:
   - description: Add-Add 2 tbsp red chili powder
     tag: Missing Step
   - description: Mix-Mix well
@@ -797,7 +797,7 @@
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
     tag: Missing Step
@@ -822,7 +822,7 @@
   - description: Add-1/2 tsp salt
   - description: Mix-Mix well
   - description: Take-Take the pan off the heat
-- mistakes:
+- errors:
   - description: Add-Add 2 tbsp red chili powder
     tag: Missing Step
   recording_id: 37
@@ -846,7 +846,7 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: puree-puree them without any water
     tag: Missing Step
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
@@ -871,7 +871,7 @@
   - description: Mix-Mix well
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Mix-Mix well
     tag: Missing Step
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
@@ -896,7 +896,7 @@
   - description: Add-Add tomato puree
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Add-Add 2 tbsp red chili powder
     tag: Missing Step
   recording_id: 40
@@ -920,10 +920,10 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Saute-Saute the garlic for 2-3 minutes
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: Peel-Peel 4 large garlic cloves
@@ -945,7 +945,7 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Peel-Peel 4 large garlic cloves
     tag: Missing Step
   - description: add-When the seeds begin to sizzle, add minced garlic
@@ -960,7 +960,7 @@
     tag: Missing Step
   - description: Mix-Mix well
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
@@ -976,12 +976,12 @@
   - description: Add-1/2 tsp salt
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: Saute-Saute the garlic for 2-3 minutes
     tag: Missing Step
   - description: Take-Take the pan off the heat
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 43
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
@@ -1002,10 +1002,10 @@
       until the mixture becomes thick
   - description: Mix-Mix well
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
+- errors:
   - description: puree-puree them without any water
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 44
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
@@ -1027,8 +1027,8 @@
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 45
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
@@ -1051,8 +1051,8 @@
   - description: Take-Take the pan off the heat
   - description: mix-mix well
   - description: Allow-Allow the chutney to cool down before serving
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Peel-Peel 4 large garlic cloves

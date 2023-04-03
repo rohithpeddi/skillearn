@@ -348,7 +348,7 @@
   - description: Add-Add the cucumber to the whisked curd
   - description: Add-Add 1 teaspoon of cumin powder
   - description: Combine-None
-- mistakes:
+- errors:
   - description: add-add 1 tablespoon of chopped coriander leaves (cilantro)
     tag: Missing Step
   recording_id: 26
@@ -364,7 +364,7 @@
   - description: Add-1/4 teaspoon salt
   - description: Add-1/2 teaspoon of chaat masala powder
   - description: Combine-None
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of cumin powder
     tag: Missing Step
   - description: grate-grate 1 medium-sized cucumber
@@ -396,7 +396,7 @@
   - description: Add-Add 1 teaspoon of cumin powder
   - description: Add-Add the cucumber to the whisked curd
   - description: Combine-None
-- mistakes:
+- errors:
   - description: Add-1/4 teaspoon salt
     tag: Missing Step
   recording_id: 29
@@ -412,7 +412,7 @@
   - description: Add-1/2 teaspoon of chaat masala powder
   - description: Add-Add the cucumber to the whisked curd
   - description: Combine-None
-- mistakes:
+- errors:
   - description: Add-1/2 teaspoon of chaat masala powder
     tag: Missing Step
   - description: Add-Add 1 teaspoon of cumin powder
@@ -430,7 +430,7 @@
   - description: Add-1/4 teaspoon of red chilli powder
   - description: add-add 1 tablespoon of chopped coriander leaves (cilantro)
   - description: Add-Add the cucumber to the whisked curd
-- mistakes:
+- errors:
   - description: Add-1/2 teaspoon of chaat masala powder
     tag: Missing Step
   - description: Combine-None
@@ -447,7 +447,7 @@
   - description: Add-Add the cucumber to the whisked curd
   - description: Add-1/4 teaspoon of red chilli powder
   - description: Add-1/4 teaspoon salt
-- mistakes:
+- errors:
   - description: Rinse-Rinse
     tag: Missing Step
   - description: peel-peel
@@ -466,7 +466,7 @@
   - description: Add-Add the cucumber to the whisked curd
   - description: Add-1/4 teaspoon salt
   - description: Combine-None
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of cumin powder
     tag: Missing Step
   recording_id: 33
@@ -482,8 +482,8 @@
   - description: Add-1/2 teaspoon of chaat masala powder
   - description: Add-Add the cucumber to the whisked curd
   - description: Combine-None
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 34
   steps:
   - description: Add-1/4 teaspoon of red chilli powder
@@ -498,12 +498,12 @@
       fresh homemade or packaged curd
   - description: Add-Add the cucumber to the whisked curd
   - description: Combine-None
-- mistakes:
+- errors:
   - description: grate-grate 1 medium-sized cucumber
     tag: Missing Step
   - description: Add-1/2 teaspoon of chaat masala powder
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 35
   steps:
   - description: Add-Add 1 teaspoon of cumin powder
@@ -516,7 +516,7 @@
   - description: Add-Add the cucumber to the whisked curd
   - description: Add-1/4 teaspoon of red chilli powder
   - description: Combine-None
-- mistakes:
+- errors:
   - description: Add-Add the cucumber to the whisked curd
     tag: Missing Step
   - description: Add-1/4 teaspoon salt
@@ -525,7 +525,7 @@
     tag: Missing Step
   - description: Combine-None
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 36
   steps:
   - description: add-add 1 tablespoon of chopped coriander leaves (cilantro)
@@ -536,10 +536,10 @@
   - description: Add-1/4 teaspoon of red chilli powder
   - description: Add-Add 1 teaspoon of cumin powder
   - description: grate-grate 1 medium-sized cucumber
-- mistakes:
+- errors:
   - description: grate-grate 1 medium-sized cucumber
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 37
   steps:
   - description: Add-Add 1 teaspoon of cumin powder
@@ -553,10 +553,10 @@
   - description: Add-Add the cucumber to the whisked curd
   - description: Add-1/2 teaspoon of chaat masala powder
   - description: Combine-None
-- mistakes:
+- errors:
   - description: Add-Add 1 teaspoon of cumin powder
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 38
   steps:
   - description: whip-In a mixing bowl, whip 1 cup of chilled curd until smooth. Use
@@ -570,10 +570,10 @@
   - description: Add-1/4 teaspoon salt
   - description: Add-1/4 teaspoon of red chilli powder
   - description: Combine-None
-- mistakes:
+- errors:
   - description: grate-grate 1 medium-sized cucumber
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 39
   steps:
   - description: Rinse-Rinse
@@ -587,10 +587,10 @@
   - description: Add-Add the cucumber to the whisked curd
   - description: Add-Add 1 teaspoon of cumin powder
   - description: Combine-None
-- mistakes:
+- errors:
   - description: peel-peel
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 40
   steps:
   - description: Add-Add 1 teaspoon of cumin powder
@@ -604,12 +604,12 @@
   - description: Add-1/2 teaspoon of chaat masala powder
   - description: Add-Add the cucumber to the whisked curd
   - description: Combine-None
-- mistakes:
+- errors:
   - description: add-add 1 tablespoon of chopped coriander leaves (cilantro)
     tag: Missing Step
   - description: Add-Add 1 teaspoon of cumin powder
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: grate-grate 1 medium-sized cucumber
@@ -622,10 +622,10 @@
   - description: Add-1/4 teaspoon of red chilli powder
   - description: Rinse-Rinse
   - description: Combine-None
-- mistakes:
+- errors:
   - description: Add-1/4 teaspoon of red chilli powder
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: whip-In a mixing bowl, whip 1 cup of chilled curd until smooth. Use
@@ -639,10 +639,10 @@
   - description: add-add 1 tablespoon of chopped coriander leaves (cilantro)
   - description: Add-Add the cucumber to the whisked curd
   - description: Combine-None
-- mistakes:
+- errors:
   - description: peel-peel
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 43
   steps:
   - description: grate-grate 1 medium-sized cucumber
@@ -656,8 +656,8 @@
   - description: Add-Add the cucumber to the whisked curd
   - description: Add-1/4 teaspoon of red chilli powder
   - description: Combine-None
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 44
   steps:
   - description: whip-In a mixing bowl, whip 1 cup of chilled curd until smooth. Use
@@ -672,8 +672,8 @@
   - description: Add-Add 1 teaspoon of cumin powder
   - description: Add-1/4 teaspoon of red chilli powder
   - description: Combine-None
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 45
   steps:
   - description: Rinse-Rinse
@@ -688,8 +688,8 @@
   - description: Add-Add the cucumber to the whisked curd
   - description: Add-1/4 teaspoon salt
   - description: Combine-None
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: whip-In a mixing bowl, whip 1 cup of chilled curd until smooth. Use
@@ -704,8 +704,8 @@
   - description: Add-1/2 teaspoon of chaat masala powder
   - description: add-add 1 tablespoon of chopped coriander leaves (cilantro)
   - description: Combine-None
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Add-1/2 teaspoon of chaat masala powder
@@ -720,8 +720,8 @@
   - description: Add-1/4 teaspoon salt
   - description: Add-Add the cucumber to the whisked curd
   - description: Combine-None
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Rinse-Rinse
@@ -736,8 +736,8 @@
   - description: Add-1/4 teaspoon of red chilli powder
   - description: Add-1/2 teaspoon of chaat masala powder
   - description: Combine-None
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Add-1/4 teaspoon of red chilli powder
@@ -752,8 +752,8 @@
   - description: grate-grate 1 medium-sized cucumber
   - description: Add-Add the cucumber to the whisked curd
   - description: Combine-None
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Rinse-Rinse

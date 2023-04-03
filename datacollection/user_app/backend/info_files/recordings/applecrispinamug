@@ -448,7 +448,7 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Add-Add 1 tablespoon of brown sugar to the crust
     tag: Missing Step
   recording_id: 26
@@ -468,7 +468,7 @@
   - description: add-add apple slices on top of the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Add-Add 2 tablespoons of flour to the bowl
     tag: Missing Step
   - description: Mix-Mix the crumble mixture well
@@ -490,7 +490,7 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
       of white sugar in a bowl using a spoon
     tag: Missing Step
@@ -512,7 +512,7 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Mix-Mix the crumble mixture well
     tag: Missing Step
   recording_id: 29
@@ -532,7 +532,7 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Add-Add 4 dashes of ground cinnamon to the bowl
     tag: Missing Step
   - description: Add-Add 1 tablespoon of brown sugar to the crust
@@ -553,7 +553,7 @@
   - description: add-add apple slices on top of the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Spray-Spray oil on a microwave-safe cup
     tag: Missing Step
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
@@ -574,7 +574,7 @@
   - description: add-add apple slices on top of the crust
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Spray-Spray oil on a microwave-safe cup
     tag: Missing Step
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
@@ -595,7 +595,7 @@
   - description: add-add apple slices on top of the crust
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Add-Add 1/2 teaspoon salt to the bowl
     tag: Missing Step
   - description: Add-Add 2 tablespoons of flour to the bowl
@@ -619,7 +619,7 @@
       cup to form a crust
   - description: Microwave-Microwave crust for 30 seconds on high
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
       of white sugar in a bowl using a spoon
     tag: Missing Step
@@ -640,7 +640,7 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Flatten-Flatten 1/2 the crumble mixture into the bottom of microwave-safe
       cup to form a crust
     tag: Missing Step
@@ -660,7 +660,7 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Add-Add 1/2 teaspoon salt to the bowl
     tag: Missing Step
   - description: Mix-Mix the crumble mixture well
@@ -681,7 +681,7 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Spray-Spray oil on a microwave-safe cup
     tag: Missing Step
   - description: Microwave-Microwave crust for 30 seconds on high
@@ -703,12 +703,12 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Microwave-Microwave for 1 minute and 30 seconds
     tag: Missing Step
   - description: add-add apple slices on top of the crust
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 38
   steps:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
@@ -725,13 +725,13 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Cut-Cut 1/2 apple into thin slices after removing the core
-- mistakes:
+- errors:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
       of white sugar in a bowl using a spoon
     tag: Missing Step
   - description: Mix-Mix the crumble mixture well
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 39
   steps:
   - description: Add-Add 1/2 teaspoon salt to the bowl
@@ -747,12 +747,12 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Microwave-Microwave for 1 minute and 30 seconds
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
-- mistakes:
+- errors:
   - description: Add-Add 4 dashes of ground cinnamon to the bowl
     tag: Missing Step
   - description: add-add apple slices on top of the crust
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 40
   steps:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
@@ -769,10 +769,10 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave crust for 30 seconds on high
-- mistakes:
+- errors:
   - description: add-add apple slices on top of the crust
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: Spray-Spray oil on a microwave-safe cup
@@ -790,8 +790,8 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: Spray-Spray oil on a microwave-safe cup
@@ -810,8 +810,8 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 43
   steps:
   - description: Cut-Cut 1/2 apple into thin slices after removing the core
@@ -830,14 +830,14 @@
   - description: Microwave-Microwave crust for 30 seconds on high
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Mix-Mix the crumble mixture well
     tag: Missing Step
   - description: Add-Add 2 tablespoons of flour to the bowl
     tag: Missing Step
   - description: add-add apple slices on top of the crust
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 44
   steps:
   - description: Add-Add 2 tablespoons oats to the bowl
@@ -853,12 +853,12 @@
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
       of white sugar in a bowl using a spoon
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Microwave-Microwave crust for 30 seconds on high
     tag: Missing Step
   - description: Microwave-Microwave for 1 minute and 30 seconds
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 45
   steps:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
@@ -875,14 +875,14 @@
   - description: add-add apple slices on top of the crust
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
-- mistakes:
+- errors:
   - description: Add-Add 2 tablespoons oats to the bowl
     tag: Missing Step
   - description: Spray-Spray oil on a microwave-safe cup
     tag: Missing Step
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
@@ -898,8 +898,8 @@
   - description: add-add apple slices on top of the crust
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
@@ -918,14 +918,14 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Microwave-Microwave for 1 minute and 30 seconds
-- mistakes:
+- errors:
   - description: Add-Add 2 tablespoons of flour to the bowl
     tag: Missing Step
   - description: Add-Add 4 dashes of ground cinnamon to the bowl
     tag: Missing Step
   - description: Add-Add 1 tablespoon of brown sugar to the crust
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
@@ -941,8 +941,8 @@
   - description: add-add apple slices on top of the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Add-Add 1/2 teaspoon salt to the bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Combine-Combine 1 tablespoon of softened butter and 1 tablespoon
@@ -961,8 +961,8 @@
   - description: Add-Add 1 tablespoon of brown sugar to the crust
   - description: Pour-Pour the remaining 1/2 the crumble mixture on top
   - description: Add-Add 4 dashes of ground cinnamon to the bowl
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Spray-Spray oil on a microwave-safe cup

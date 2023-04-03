@@ -498,7 +498,7 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
+- errors:
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
     tag: Missing Step
   recording_id: 26
@@ -520,7 +520,7 @@
       base of the pan moves to enable the uncooked egg to flow into the space
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
-- mistakes:
+- errors:
   - description: add-1/2 tsp ground black pepper
     tag: Missing Step
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
@@ -543,7 +543,7 @@
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
       base of the pan moves to enable the uncooked egg to flow into the space
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
+- errors:
   - description: crack-crack one egg in a bowl
     tag: Missing Step
   - description: Pour-Pour the egg mixture into the pan
@@ -566,7 +566,7 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
+- errors:
   - description: add-1/2 tsp ground black pepper
     tag: Missing Step
   - description: put-put them on a serving plate
@@ -589,7 +589,7 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
+- errors:
   - description: chop-chop it into two pieces
     tag: Missing Step
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
@@ -613,7 +613,7 @@
   - description: Beat-Beat the contents of the bowl
   - description: Pour-Pour the egg mixture into the pan
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
+- errors:
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
     tag: Missing Step
   recording_id: 31
@@ -635,7 +635,7 @@
       base of the pan moves to enable the uncooked egg to flow into the space
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
-- mistakes:
+- errors:
   - description: add-add the chopped cilantro
     tag: Missing Step
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
@@ -658,7 +658,7 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
+- errors:
   - description: Scoop-Scoop the tomatoes from the pan
     tag: Missing Step
   recording_id: 33
@@ -680,10 +680,10 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
+- errors:
   - description: put-put them on a serving plate
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 34
   steps:
   - description: Take-Take a tomato
@@ -703,8 +703,8 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 35
   steps:
   - description: Chop-Chop 2 tbsp cilantro
@@ -725,8 +725,8 @@
       base of the pan moves to enable the uncooked egg to flow into the space
   - description: add-add the chopped cilantro
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 36
   steps:
   - description: Take-Take a tomato
@@ -747,8 +747,8 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 37
   steps:
   - description: Chop-Chop 2 tbsp cilantro
@@ -769,8 +769,8 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 38
   steps:
   - description: Take-Take a tomato
@@ -791,8 +791,8 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 39
   steps:
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
@@ -813,8 +813,8 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 40
   steps:
   - description: Take-Take a tomato
@@ -835,8 +835,8 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: Take-Take a tomato
@@ -857,8 +857,8 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: Chop-Chop 2 tbsp cilantro

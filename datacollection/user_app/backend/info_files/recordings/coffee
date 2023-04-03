@@ -648,7 +648,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: spread-spread open to create a cone
     tag: Missing Step
   - description: Wait-Wait about 30 seconds for the coffee to bloom. (You will see
@@ -677,7 +677,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: check-Once the water has boiled, check the temperature of the water.
       (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
       Celsius. If the water is too hot, let it cool briefly.)
@@ -705,7 +705,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Place-Place the paper filter in the dripper
     tag: Missing Step
   - description: Grind-Grind the coffee beans until the coffee grounds are the consistency
@@ -734,7 +734,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
     tag: Missing Step
@@ -762,7 +762,7 @@
   - description: pour-Slowly pour the rest of the water over the grounds in a circular
       motion. Do not overfill beyond the top of the paper filter
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Place-Place the paper filter in the dripper
     tag: Missing Step
   recording_id: 30
@@ -790,7 +790,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Measure-Measure 12 ounces of cold water
     tag: Missing Step
   recording_id: 31
@@ -818,7 +818,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Transfer-Transfer the grounds to the filter cone
     tag: Missing Step
   - description: check-Once the water has boiled, check the temperature of the water.
@@ -847,7 +847,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Measure-Measure 12 ounces of cold water
     tag: Missing Step
   - description: Weigh-Weigh the coffee beans (8oz-12 oz)
@@ -878,7 +878,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Measure-Measure 12 ounces of cold water
     tag: Missing Step
   - description: Prepare-Prepare the filter insert by folding the paper filter in
@@ -907,7 +907,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Measure-Measure 12 ounces of cold water
     tag: Missing Step
   recording_id: 35
@@ -935,7 +935,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Grind-Grind the coffee beans until the coffee grounds are the consistency
       of coarse sand, about 20 seconds
     tag: Missing Step
@@ -964,7 +964,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Prepare-Prepare the filter insert by folding the paper filter in
       half to create a semi-circle, and in half again to create a quarter-circle
     tag: Missing Step
@@ -993,7 +993,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Boil-Boil the water. While the water is boiling, assemble the filter
       cone
     tag: Missing Step
@@ -1024,7 +1024,7 @@
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-- mistakes:
+- errors:
   - description: Discard-Discard the paper filter and coffee grounds
     tag: Missing Step
   recording_id: 39

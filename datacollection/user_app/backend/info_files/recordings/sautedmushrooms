@@ -544,7 +544,7 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Add-1/2 tbsp balsamic vinegar
     tag: Missing Step
   recording_id: 27
@@ -567,7 +567,7 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
     tag: Missing Step
   - description: cook-cook, often stirring, for 1 minute
@@ -591,7 +591,7 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Rinse-Rinse 5 mushrooms under cold water
     tag: Missing Step
   - description: Pull-Pull out the stems
@@ -615,7 +615,7 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: mince-mince them
     tag: Missing Step
   recording_id: 30
@@ -638,7 +638,7 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Pull-Pull out the stems
     tag: Missing Step
   recording_id: 31
@@ -661,7 +661,7 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Season-Season with salt
     tag: Missing Step
   recording_id: 32
@@ -684,7 +684,7 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Peel-Peel 4 garlic cloves
     tag: Missing Step
   - description: cook-cook, often stirring, for 1 minute
@@ -708,7 +708,7 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Serve-Serve
     tag: Missing Step
   recording_id: 34
@@ -731,7 +731,7 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-pepper to taste
   - description: Season-Season with salt
-- mistakes:
+- errors:
   - description: add-Once the pan is hot, add the mushrooms
     tag: Missing Step
   - description: Serve-Serve
@@ -755,7 +755,7 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-Season with salt
   - description: Season-pepper to taste
-- mistakes:
+- errors:
   - description: cook-cook, often stirring, for 1 minute
     tag: Missing Step
   recording_id: 36
@@ -778,7 +778,7 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Rinse-Rinse 5 mushrooms under cold water
     tag: Missing Step
   - description: Peel-Peel 4 garlic cloves
@@ -804,7 +804,7 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: mince-mince them
     tag: Missing Step
   - description: Slice-Slice the mushrooms
@@ -851,7 +851,7 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Add-1/2 tbsp balsamic vinegar
     tag: Missing Step
   - description: Season-Season with salt
@@ -897,7 +897,7 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Rinse-Rinse 5 mushrooms under cold water
     tag: Missing Step
   - description: Season-Season with salt
@@ -921,7 +921,7 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
     tag: Missing Step
   - description: Peel-Peel 4 garlic cloves
@@ -947,7 +947,7 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Add-1/2 tbsp balsamic vinegar
     tag: Missing Step
   - description: Add-Add 4 cloves of minced garlic
@@ -971,7 +971,7 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Rinse-Rinse 5 mushrooms under cold water
     tag: Missing Step
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -996,12 +996,12 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Chop-Chop 2 shallots
     tag: Missing Step
   - description: cook-cook, often stirring, for 1 minute
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -1021,10 +1021,10 @@
   - description: Season-Season with salt
   - description: Pull-Pull out the stems
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Slice-Slice the mushrooms
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -1045,12 +1045,12 @@
   - description: Pull-Pull out the stems
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: cook-cook, often stirring, for 1 minute
     tag: Missing Step
   - description: Add-Add 4 cloves of minced garlic
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1070,14 +1070,14 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Add-Add 1/8 cup chopped shallot
     tag: Missing Step
   - description: Add-1/2 tbsp balsamic vinegar
     tag: Missing Step
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1096,10 +1096,10 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-pepper to taste
   - description: Peel-Peel 4 garlic cloves
-- mistakes:
+- errors:
   - description: Add-1/2 tbsp balsamic vinegar
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Chop-Chop 2 shallots
@@ -1120,8 +1120,8 @@
   - description: Serve-Serve
   - description: Add-Add 1/8 cup chopped shallot
   - description: Season-pepper to taste
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 51
   steps:
   - description: cook-cook, often stirring, for 1 minute
@@ -1143,10 +1143,10 @@
   - description: Season-Season with salt
   - description: Rinse-Rinse 5 mushrooms under cold water
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Chop-Chop 2 shallots
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 52
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1167,12 +1167,12 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: mince-mince them
     tag: Missing Step
   - description: Add-Add 1/8 cup chopped shallot
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 53
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1192,12 +1192,12 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-Season with salt
   - description: Pull-Pull out the stems
-- mistakes:
+- errors:
   - description: Rinse-Rinse 5 mushrooms under cold water
     tag: Missing Step
   - description: Add-1/2 tbsp balsamic vinegar
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 54
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -1217,10 +1217,10 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Season-pepper to taste
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 55
   steps:
   - description: Serve-Serve
@@ -1241,10 +1241,10 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-Season with salt
   - description: Peel-Peel 4 garlic cloves
-- mistakes:
+- errors:
   - description: Pull-Pull out the stems
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 56
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1265,10 +1265,10 @@
   - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
       and brown
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Slice-Slice the mushrooms
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 57
   steps:
   - description: cook-cook, often stirring, for 1 minute
@@ -1289,10 +1289,10 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Add-1/2 tbsp balsamic vinegar
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 58
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1313,8 +1313,8 @@
   - description: Season-pepper to taste
   - description: Slice-Slice the mushrooms
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 59
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1336,10 +1336,10 @@
   - description: Season-Season with salt
   - description: Chop-Chop 2 shallots
   - description: Add-Add 4 cloves of minced garlic
-- mistakes:
+- errors:
   - description: Add-Add 4 cloves of minced garlic
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 60
   steps:
   - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
@@ -1360,10 +1360,10 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Rinse-Rinse 5 mushrooms under cold water
-- mistakes:
+- errors:
   - description: Add-Add 4 cloves of minced garlic
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 61
   steps:
   - description: Chop-Chop 2 shallots
@@ -1384,10 +1384,10 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Add-Add 1/8 cup chopped shallot
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 62
   steps:
   - description: Chop-Chop 2 shallots
@@ -1408,8 +1408,8 @@
   - description: Add-1/2 tbsp balsamic vinegar
   - description: add-Once the pan is hot, add the mushrooms
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 63
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1431,10 +1431,10 @@
   - description: mince-mince them
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
+- errors:
   - description: Serve-Serve
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 64
   steps:
   - description: mince-mince them
@@ -1455,8 +1455,8 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: add-Once the pan is hot, add the mushrooms
   - description: Season-Season with salt
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 65
   steps:
   - description: add-Once the pan is hot, add the mushrooms
@@ -1478,8 +1478,8 @@
   - description: Slice-Slice the mushrooms
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 66
   steps:
   - description: Chop-Chop 2 shallots
@@ -1501,8 +1501,8 @@
   - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
       and brown
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 67
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -1524,8 +1524,8 @@
   - description: Season-Season with salt
   - description: Add-Add 4 cloves of minced garlic
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 68
   steps:
   - description: mince-mince them
@@ -1547,8 +1547,8 @@
   - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
       and brown
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 69
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1570,8 +1570,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Pull-Pull out the stems
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 70
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1593,8 +1593,8 @@
   - description: Add-Add 4 cloves of minced garlic
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 71
   steps:
   - description: Chop-Chop 2 shallots
@@ -1616,8 +1616,8 @@
   - description: Season-Season with salt
   - description: Add-Add 4 cloves of minced garlic
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 72
   steps:
   - description: Serve-Serve
@@ -1639,8 +1639,8 @@
   - description: Season-Season with salt
   - description: Peel-Peel 4 garlic cloves
   - description: Season-pepper to taste
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 73
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1662,8 +1662,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 74
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1685,8 +1685,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 75
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -1708,8 +1708,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 76
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -1731,8 +1731,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 77
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -1754,8 +1754,8 @@
   - description: Season-Season with salt
   - description: cook-cook, often stirring, for 1 minute
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 78
   steps:
   - description: Chop-Chop 2 shallots
@@ -1777,8 +1777,8 @@
   - description: Season-Season with salt
   - description: Slice-Slice the mushrooms
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 79
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1800,8 +1800,8 @@
   - description: Add-Add 1/8 cup chopped shallot
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 80
   steps:
   - description: Chop-Chop 2 shallots
@@ -1823,8 +1823,8 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 81
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -1846,8 +1846,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 82
   steps:
   - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
@@ -1869,8 +1869,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 83
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1892,8 +1892,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 84
   steps:
   - description: Slice-Slice the mushrooms
@@ -1915,8 +1915,8 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 85
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -1938,8 +1938,8 @@
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 86
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -1961,8 +1961,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 87
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -1984,8 +1984,8 @@
   - description: Season-pepper to taste
   - description: add-Once the pan is hot, add the mushrooms
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 88
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2007,8 +2007,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 89
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -2030,8 +2030,8 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Add-1/2 tbsp balsamic vinegar
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 90
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2053,8 +2053,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Chop-Chop 2 shallots
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 91
   steps:
   - description: Chop-Chop 2 shallots
@@ -2076,8 +2076,8 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 92
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2099,8 +2099,8 @@
   - description: mince-mince them
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 93
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -2122,8 +2122,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 94
   steps:
   - description: Chop-Chop 2 shallots
@@ -2145,8 +2145,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Add-Add 4 cloves of minced garlic
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 95
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2168,8 +2168,8 @@
   - description: Season-pepper to taste
   - description: cook-cook, often stirring, for 1 minute
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 96
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2191,8 +2191,8 @@
   - description: Season-Season with salt
   - description: Add-Add 4 cloves of minced garlic
   - description: pat-immediately pat them dry with a paper towel
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 97
   steps:
   - description: cook-cook, often stirring, for 1 minute
@@ -2214,8 +2214,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 98
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2237,8 +2237,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 99
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -2260,8 +2260,8 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 100
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2283,8 +2283,8 @@
   - description: Season-pepper to taste
   - description: Chop-Chop 2 shallots
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 101
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2306,8 +2306,8 @@
   - description: add-Once the pan is hot, add the mushrooms
   - description: Season-Season with salt
   - description: Season-pepper to taste
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 102
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -2329,8 +2329,8 @@
   - description: Slice-Slice the mushrooms
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 103
   steps:
   - description: Chop-Chop 2 shallots
@@ -2352,8 +2352,8 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 104
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -2375,8 +2375,8 @@
   - description: Add-1/2 tbsp balsamic vinegar
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 105
   steps:
   - description: Pull-Pull out the stems
@@ -2398,8 +2398,8 @@
   - description: Season-Season with salt
   - description: Serve-Serve
   - description: Season-pepper to taste
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 106
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2421,8 +2421,8 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 107
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2444,8 +2444,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 108
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2467,8 +2467,8 @@
   - description: Chop-Chop 2 shallots
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 109
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -2490,8 +2490,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: mince-mince them
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 110
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -2513,8 +2513,8 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 111
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2536,8 +2536,8 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 112
   steps:
   - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
@@ -2559,8 +2559,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Add-Add 1/8 cup chopped shallot
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 113
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2582,8 +2582,8 @@
   - description: pat-immediately pat them dry with a paper towel
   - description: Season-pepper to taste
   - description: Peel-Peel 4 garlic cloves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 114
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2605,8 +2605,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Pull-Pull out the stems
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 115
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -2628,8 +2628,8 @@
   - description: Season-pepper to taste
   - description: Serve-Serve
   - description: Season-Season with salt
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 116
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2651,8 +2651,8 @@
   - description: Season-Season with salt
   - description: Chop-Chop 2 shallots
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 117
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2674,8 +2674,8 @@
   - description: cook-cook, often stirring, for 1 minute
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 118
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2697,8 +2697,8 @@
   - description: mince-mince them
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 119
   steps:
   - description: Rinse-Rinse 5 mushrooms under cold water
@@ -2720,8 +2720,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 120
   steps:
   - description: Chop-Chop 2 shallots
@@ -2743,8 +2743,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Add-Add 1/8 cup chopped shallot
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 121
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -2766,8 +2766,8 @@
   - description: Season-Season with salt
   - description: Peel-Peel 4 garlic cloves
   - description: mince-mince them
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 122
   steps:
   - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
@@ -2789,8 +2789,8 @@
   - description: Season-Season with salt
   - description: Season-pepper to taste
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 123
   steps:
   - description: Peel-Peel 4 garlic cloves
@@ -2812,8 +2812,8 @@
   - description: Season-pepper to taste
   - description: Add-Add 1/8 cup chopped shallot
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 124
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -2835,8 +2835,8 @@
   - description: Season-pepper to taste
   - description: Season-Season with salt
   - description: Serve-Serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 125
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat

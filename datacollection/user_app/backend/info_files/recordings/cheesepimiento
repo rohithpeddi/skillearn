@@ -373,7 +373,7 @@
   - description: Add-Add 1/2 teaspoon pepper
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Microwave-Microwave, covered, for 2 minutes
     tag: Missing Step
   recording_id: 26
@@ -390,7 +390,7 @@
   - description: Add-Add 1/2 teaspoon salt
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Microwave-Microwave, covered, for 2 minutes
     tag: Missing Step
   - description: Add-Add 1/2 teaspoon salt
@@ -408,7 +408,7 @@
   - description: Add-Add 1/2 teaspoon pepper
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Place-Place the chopped pepper in a microwave-safe bowl
     tag: Missing Step
   recording_id: 28
@@ -425,7 +425,7 @@
   - description: Add-Add 1/2 teaspoon pepper
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Add-Add 2 tablespoons of water to the bowl
     tag: Missing Step
   - description: serve-serve
@@ -443,7 +443,7 @@
   - description: add-add 1 tbsp butter
   - description: Add-Add 1/2 teaspoon salt
   - description: Mix-Mix all the ingredients well
-- mistakes:
+- errors:
   - description: Microwave-Microwave, covered, for 2 minutes
     tag: Missing Step
   - description: Add-Add 1/2 teaspoon pepper
@@ -461,7 +461,7 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Add-Add 1/2 teaspoon pepper
     tag: Missing Step
   recording_id: 31
@@ -478,7 +478,7 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Microwave-Microwave, covered, for 2 minutes
     tag: Missing Step
   - description: Mix-Mix the cheese and red bell pepper
@@ -496,7 +496,7 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Mix-Mix all the ingredients well
     tag: Missing Step
   recording_id: 33
@@ -513,7 +513,7 @@
   - description: Add-Add 1/2 teaspoon salt
   - description: add-add 1 tbsp butter
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Rinse-Rinse a red bell pepper
     tag: Missing Step
   - description: Add-Add 1/2 teaspoon salt
@@ -531,7 +531,7 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Add-Add 1/2 teaspoon salt
     tag: Missing Step
   - description: add-add 1 tbsp butter
@@ -549,7 +549,7 @@
   - description: Add-Add 1/2 teaspoon pepper
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: add-add 1 tbsp butter
     tag: Missing Step
   recording_id: 36
@@ -566,8 +566,8 @@
   - description: Add-Add 1/2 teaspoon salt
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 37
   steps:
   - description: Add-Add 2 tablespoons of water to the bowl
@@ -583,12 +583,12 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
+- errors:
   - description: Melt-Melt the cheese by microwaving it for 1 min to 30 seconds
     tag: Missing Step
   - description: Add-Add 1/2 teaspoon salt
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 38
   steps:
   - description: Add-Add 2/3 cup cheddar cheese to another microwave-safe bowl
@@ -602,8 +602,8 @@
   - description: Add-Add 1/2 teaspoon pepper
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 39
   steps:
   - description: Rinse-Rinse a red bell pepper
@@ -619,8 +619,8 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 40
   steps:
   - description: Rinse-Rinse a red bell pepper
@@ -636,8 +636,8 @@
   - description: Add-Add 1/2 teaspoon pepper
   - description: Add-Add 2 tablespoons of water to the bowl
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: Add-Add 2 tablespoons of water to the bowl
@@ -653,8 +653,8 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: Add-Add 2/3 cup cheddar cheese to another microwave-safe bowl
@@ -670,8 +670,8 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 43
   steps:
   - description: Rinse-Rinse a red bell pepper
@@ -687,8 +687,8 @@
   - description: Add-Add 1/2 teaspoon pepper
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 44
   steps:
   - description: Add-Add 2 tablespoons of water to the bowl
@@ -704,8 +704,8 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 45
   steps:
   - description: Add-Add 2/3 cup cheddar cheese to another microwave-safe bowl
@@ -721,8 +721,8 @@
   - description: Add-Add 1/2 teaspoon salt
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Add-Add 2 tablespoons of water to the bowl
@@ -738,8 +738,8 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Rinse-Rinse a red bell pepper
@@ -755,8 +755,8 @@
   - description: add-add 1 tbsp butter
   - description: Add-Add 1/2 teaspoon salt
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Rinse-Rinse a red bell pepper
@@ -772,8 +772,8 @@
   - description: Add-Add 1/2 teaspoon pepper
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Add-Add 2 tablespoons of water to the bowl
@@ -789,8 +789,8 @@
   - description: add-add 1 tbsp butter
   - description: Mix-Mix all the ingredients well
   - description: serve-serve
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Rinse-Rinse a red bell pepper
