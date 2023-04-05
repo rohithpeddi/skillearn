@@ -1,6 +1,6 @@
 from typing import Optional
 
-from datacollection.user_app.backend.models.mistake import Mistake
+from datacollection.user_app.backend.models.error import Error
 from datacollection.user_app.backend.constants import Recording_Constants as const
 
 
@@ -14,11 +14,11 @@ class Step:
 		self.description = description
 		self.modified_description = modified_description
 		
-		self.mistakes = []
+		self.errors = []
 	
 	# TODO: Check if it has to be replaced or extended
-	def update_mistakes(self, step_mistakes):
-		self.mistakes.extend(step_mistakes)
+	def update_errors(self, step_errors):
+		self.errors.extend(step_errors)
 	
 	def to_dict(self) -> dict:
 		step_dict = {const.DESCRIPTION: self.description}
@@ -26,12 +26,12 @@ class Step:
 		if self.modified_description is not None:
 			step_dict[const.MODIFIED_DESCRIPTION] = self.modified_description
 		
-		if len(self.mistakes) > 0:
-			step_mistake_dict_list = []
-			for step_mistake in self.mistakes:
-				step_mistake_dict_list.append(step_mistake.to_dict())
+		if len(self.errors) > 0:
+			step_error_dict_list = []
+			for step_error in self.errors:
+				step_error_dict_list.append(step_error.to_dict())
 			
-			step_dict[const.MISTAKES] = step_mistake_dict_list
+			step_dict[const.ERRORS] = step_error_dict_list
 		
 		return step_dict
 	
@@ -42,11 +42,11 @@ class Step:
 		if const.MODIFIED_DESCRIPTION in step_dict:
 			step.modified_description = step_dict[const.MODIFIED_DESCRIPTION]
 		
-		if const.MISTAKES in step_dict:
-			step_mistakes_list = []
-			for step_mistake_dict in step_dict[const.MISTAKES]:
-				step_mistake = Mistake.from_dict(step_mistake_dict)
-				step_mistakes_list.append(step_mistake)
-			step.mistakes = step_mistakes_list
+		if const.ERRORS in step_dict:
+			step_errors_list = []
+			for step_error_dict in step_dict[const.ERRORS]:
+				step_error = Error.from_dict(step_error_dict)
+				step_errors_list.append(step_error)
+			step.errors = step_errors_list
 		
 		return step

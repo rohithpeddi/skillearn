@@ -398,7 +398,7 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: season-season with salt
     tag: Missing Step
   - description: Add-1/3 cup grated parmesan cheese
@@ -417,7 +417,7 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
     tag: Missing Step
   recording_id: 27
@@ -435,7 +435,7 @@
   - description: season-season with salt
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: season-pepper to taste
     tag: Missing Step
   - description: Top-Top with more parmesan if desired
@@ -454,7 +454,7 @@
   - description: Add-Add the zucchini noodles
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
-- mistakes:
+- errors:
   - description: Remove-Remove from heat and serve immediately
     tag: Missing Step
   recording_id: 29
@@ -472,7 +472,7 @@
   - description: season-pepper to taste
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: Peel-Peel 2 garlic cloves
     tag: Missing Step
   - description: Remove-Remove from heat and serve immediately
@@ -491,7 +491,7 @@
   - description: Add-1/3 cup grated parmesan cheese
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
     tag: Missing Step
   - description: season-season with salt
@@ -511,7 +511,7 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: Peel-Peel 2 garlic cloves
     tag: Missing Step
   recording_id: 32
@@ -529,10 +529,10 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: Add-1/3 cup grated parmesan cheese
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 33
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -548,7 +548,7 @@
   - description: Top-Top with more parmesan if desired
   - description: Remove-Remove from heat and serve immediately
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
-- mistakes:
+- errors:
   - description: Melt-Melt 2 tablespoons of butter
     tag: Missing Step
   - description: Top-Top with more parmesan if desired
@@ -557,7 +557,7 @@
     tag: Missing Step
   - description: Remove-Remove from heat and serve immediately
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 34
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -570,10 +570,10 @@
   - description: season-pepper to taste
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Add-Add the zucchini noodles
-- mistakes:
+- errors:
   - description: Add-Add the zucchini noodles
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 35
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -589,8 +589,8 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Melt-Melt 2 tablespoons of butter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 36
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -607,14 +607,14 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: season-pepper to taste
     tag: Missing Step
   - description: Add-Add the zucchini noodles
     tag: Missing Step
   - description: Remove-Remove from heat and serve immediately
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 37
   steps:
   - description: Peel-Peel 2 garlic cloves
@@ -628,12 +628,12 @@
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Top-Top with more parmesan if desired
-- mistakes:
+- errors:
   - description: Remove-Remove from heat and serve immediately
     tag: Missing Step
   - description: season-pepper to taste
     tag: Missing Step
-  - tag: Order Mistake
+  - tag: Order Error
   recording_id: 38
   steps:
   - description: Peel-Peel 2 garlic cloves
@@ -648,8 +648,8 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Add-1/3 cup grated parmesan cheese
   - description: Add-Add the zucchini noodles
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 39
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -666,8 +666,8 @@
   - description: Add-1/3 cup grated parmesan cheese
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 40
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -684,8 +684,8 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Melt-Melt 2 tablespoons of butter
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 41
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -702,8 +702,8 @@
       to burn garlic
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 42
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -720,8 +720,8 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Peel-Peel 2 garlic cloves
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 43
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -738,8 +738,8 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 44
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -756,8 +756,8 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 45
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -774,8 +774,8 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 46
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -792,8 +792,8 @@
   - description: Cook-Cook for 1-2 minutes or until the zoodles are al dente
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 47
   steps:
   - description: Spiralize-Spiralize 2 medium zucchini into thin noodles using a spiralizer
@@ -810,8 +810,8 @@
   - description: season-season with salt
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 48
   steps:
   - description: Heat-Heat a large pan on medium-high heat
@@ -828,8 +828,8 @@
   - description: Remove-Remove from heat and serve immediately
   - description: Cook-Cook garlic until fragrant (about 1-2 minutes). Be careful not
       to burn garlic
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 49
   steps:
   - description: Peel-Peel 2 garlic cloves
@@ -846,8 +846,8 @@
   - description: Add-1/3 cup grated parmesan cheese
   - description: Remove-Remove from heat and serve immediately
   - description: Top-Top with more parmesan if desired
-- mistakes:
-  - tag: Order Mistake
+- errors:
+  - tag: Order Error
   recording_id: 50
   steps:
   - description: Heat-Heat a large pan on medium-high heat

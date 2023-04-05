@@ -119,25 +119,25 @@ class OpenGoProService:
         logger.info("Downloaded Most Recent Video and closed WiFi Connection")
 
 
-def test_record_video():
-    TIME = 2.0
-    MINUTES = 10.0
-    RECORD = True
-
-    gopro = OpenGoProService(enable_wifi=False, enable_logging=True)
-
-    if RECORD:
-        gopro.start_recording()
-        time.sleep(TIME * MINUTES)
-        gopro.stop_recording()
-
-    gopro_videos_dir = "../gopro_videos"
-    if not os.path.exists(gopro_videos_dir):
-        os.makedirs(gopro_videos_dir)
-    gopro.download_most_recent_video(gopro_videos_dir)
-
-    # gopro.close_all_connections()
-
-
-if __name__ == '__main__':
-    test_record_video()
+# def test_record_video():
+#     TIME = 2.0
+#     MINUTES = 10.0
+#     RECORD = True
+#
+#     gopro = OpenGoProService(enable_wifi=False, enable_logging=False)
+#
+#     if RECORD:
+#         gopro.start_recording()
+#         time.sleep(TIME * MINUTES)
+#         gopro.stop_recording()
+#
+#     gopro_videos_dir = "../gopro_videos"
+#     if not os.path.exists(gopro_videos_dir):
+#         os.makedirs(gopro_videos_dir)
+#     gopro.download_most_recent_video(gopro_videos_dir)
+#
+#     # gopro.close_all_connections()
+#
+#
+# if __name__ == '__main__':
+#     test_record_video()

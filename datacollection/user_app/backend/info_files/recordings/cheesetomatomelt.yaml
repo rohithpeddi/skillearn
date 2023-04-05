@@ -458,14 +458,6 @@
   - description: Serve-Serve each slice of tomato on a cracker
 - errors:
   - tag: Order Error
-  recording_id: 43
-  steps:
-  - description: Cut-Cut medium tomato into 4 slices
-  - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
-      slice
-  - description: Serve-Serve each slice of tomato on a cracker
-- errors:
-  - tag: Order Error
   recording_id: 44
   steps:
   - description: Cut-Cut medium tomato into 4 slices

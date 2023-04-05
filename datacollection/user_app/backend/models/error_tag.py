@@ -4,13 +4,13 @@
 # from rapidfuzz.distance.metrics_cpp import jaro_winkler_similarity
 
 
-class MistakeTag:
-	PREPARATION_MISTAKE = "Preparation Mistake"
-	MEASUREMENT_MISTAKE = "Measurement Mistake"
-	ORDER_MISTAKE = "Order Mistake"
-	TIMING_MISTAKE = "Timing Mistake"
-	TECHNIQUE_MISTAKE = "Technique Mistake"
-	TEMPERATURE_MISTAKE = "Temperature Mistake"
+class ErrorTag:
+	PREPARATION_ERROR = "Preparation Error"
+	MEASUREMENT_ERROR = "Measurement Error"
+	ORDER_ERROR = "Order Error"
+	TIMING_ERROR = "Timing Error"
+	TECHNIQUE_ERROR = "Technique Error"
+	TEMPERATURE_ERROR = "Temperature Error"
 	MISSING_STEP = "Missing Step"
 	OTHER = "Other"
 	
@@ -18,18 +18,18 @@ class MistakeTag:
 	# wv = api.load('word2vec-google-news-300')
 	# wv = api.load("glove-twitter-25")
 	
-	mistake_tag_list = [PREPARATION_MISTAKE, MEASUREMENT_MISTAKE, ORDER_MISTAKE, TIMING_MISTAKE,
-	                    TECHNIQUE_MISTAKE, TEMPERATURE_MISTAKE, MISSING_STEP]
+	mistake_tag_list = [PREPARATION_ERROR, MEASUREMENT_ERROR, ORDER_ERROR, TIMING_ERROR,
+	                    TECHNIQUE_ERROR, TEMPERATURE_ERROR, MISSING_STEP]
 	
 	@classmethod
-	def get_step_mistake_tag_list(cls):
-		return [cls.PREPARATION_MISTAKE, cls.MEASUREMENT_MISTAKE, cls.TIMING_MISTAKE,
-		        cls.TECHNIQUE_MISTAKE, cls.TEMPERATURE_MISTAKE, cls.OTHER]
+	def get_step_error_tag_list(cls):
+		return [cls.PREPARATION_ERROR, cls.MEASUREMENT_ERROR, cls.TIMING_ERROR,
+		        cls.TECHNIQUE_ERROR, cls.TEMPERATURE_ERROR, cls.MISSING_STEP, cls.ORDER_ERROR, cls.OTHER]
 	
 	@classmethod
-	def get_recording_mistake_tag_list(cls):
-		return [cls.PREPARATION_MISTAKE, cls.MEASUREMENT_MISTAKE, cls.TIMING_MISTAKE,
-		        cls.TECHNIQUE_MISTAKE, cls.TEMPERATURE_MISTAKE, cls.OTHER, cls.MISSING_STEP, cls.ORDER_MISTAKE]
+	def get_recording_error_tag_list(cls):
+		return [cls.PREPARATION_ERROR, cls.MEASUREMENT_ERROR, cls.TIMING_ERROR,
+		        cls.TECHNIQUE_ERROR, cls.TEMPERATURE_ERROR, cls.OTHER, cls.MISSING_STEP, cls.ORDER_ERROR]
 	
 	@classmethod
 	def get_similarity_score(cls, sample_tag, tag) -> float:

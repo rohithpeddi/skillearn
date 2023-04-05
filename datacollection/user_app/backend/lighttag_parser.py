@@ -7,8 +7,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import yaml
 
-from datacollection.user_app.backend.models.mistake import Mistake
-from datacollection.user_app.backend.models.mistake_tag import MistakeTag
+from datacollection.user_app.backend.models.error import Error
+from datacollection.user_app.backend.models.error_tag import ErrorTag
 from datacollection.user_app.backend.models.step import Step
 from logger_config import logger
 from datacollection.user_app.backend.constants import LightTag_Constants as const
@@ -254,9 +254,9 @@ class LightTagParser:
 		step_dicts = [self._step_dict_from_program_step(step) for step in program]
 		
 		if not is_valid:
-			step_dicts, mistake_dicts = self._add_mistakes(step_dicts, program_counter, const.NUM_VALID_PROGRAMS)
-			if len(mistake_dicts) > 0:
-				program_dict[const.MISTAKES] = mistake_dicts
+			step_dicts, error_dicts = self._add_errors(step_dicts, program_counter, const.NUM_VALID_PROGRAMS)
+			if len(error_dicts) > 0:
+				program_dict[const.ERRORS] = error_dicts
 		
 		program_dict[const.STEPS] = step_dicts
 		
@@ -266,25 +266,25 @@ class LightTagParser:
 		step_description = "-".join(program_step.split(":")[-2:])
 		return Step(step_description).to_dict()
 	
-	def _add_mistakes(self, step_dicts, program_counter, base_counter):
-		# Order mistakes for all the invalid programs > 10
+	def _add_errors(self, step_dicts, program_counter, base_counter):
+		# Order errors for all the invalid programs > 10
 		# Missing step for all the invalid programs < 30
 		if program_counter > const.THRESHOLD_NUM_MISSING_STEPS + base_counter:
 			step_dicts = self._shuffle_steps(step_dicts)
 		
-		mistake_dicts = []
+		error_dicts = []
 		filtered_step_dicts = []
 		
 		for step_dict in step_dicts:
-			if program_counter < const.THRESHOLD_NUM_MISSING_STEPS_ORDER_MISTAKES + base_counter and random.random() < 0.1:
-				mistake_dicts.append(Mistake(MistakeTag.MISSING_STEP, step_dict[const.DESCRIPTION]).to_dict())
+			if program_counter < const.THRESHOLD_NUM_MISSING_STEPS_ORDER_ERRORS + base_counter and random.random() < 0.1:
+				error_dicts.append(Error(ErrorTag.MISSING_STEP, step_dict[const.DESCRIPTION]).to_dict())
 			else:
 				filtered_step_dicts.append(step_dict)
 		
 		if program_counter > const.THRESHOLD_NUM_MISSING_STEPS + base_counter:
-			mistake_dicts.append(Mistake(MistakeTag.ORDER_MISTAKE).to_dict())
+			error_dicts.append(Error(ErrorTag.ORDER_ERROR).to_dict())
 		
-		return filtered_step_dicts, mistake_dicts
+		return filtered_step_dicts, error_dicts
 	
 	def _shuffle_steps(self, step_dicts):
 		num_to_shuffle = len(step_dicts) // 5

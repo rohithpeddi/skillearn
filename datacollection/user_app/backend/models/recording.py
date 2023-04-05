@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from datacollection.user_app.backend.models.mistake import Mistake
+from datacollection.user_app.backend.models.error import Error
 from datacollection.user_app.backend.models.recording_info import RecordingInfo
 from datacollection.user_app.backend.models.step import Step
 
@@ -13,15 +13,15 @@ class Recording:
 			self,
 			id: str,
 			activity_id: int,
-			is_mistake: bool,
+			is_error: bool,
 			steps: List[Step],
-			mistakes: Optional[List[Mistake]] = None
+			errors: Optional[List[Error]] = None
 	):
 		self.id = id
 		self.activity_id = activity_id
-		self.is_mistake = is_mistake
+		self.is_error = is_error
 		self.steps = steps
-		self.mistakes = mistakes
+		self.errors = errors
 		
 		self.environment = None
 		self.recorded_by = const.DUMMY_USER_ID
@@ -35,28 +35,38 @@ class Recording:
 		return self.id
 	
 	def __str__(self):
-		return f"Recording: {self.id} - {self.activity_id} - {self.is_mistake} - {self.environment}"
+		return f"Recording: {self.id} - {self.activity_id} - {self.is_error} - {self.environment}"
 	
-	def update_mistakes(self, recording_mistakes):
-		if self.mistakes is None:
-			self.mistakes = []
-		self.mistakes.extend(recording_mistakes)
-		if len(self.mistakes) > 10:
+	def update_parameters(self):
+		if self.errors is not None and len(self.errors) > 0:
+			self.is_error = True
+			
+		for step in self.steps:
+			if step.errors is not None and len(step.errors) > 0:
+				self.is_error = True
+				break
+		return
+	
+	def update_errors(self, recording_errors):
+		if self.errors is None:
+			self.errors = []
+		self.errors.extend(recording_errors)
+		if len(self.errors) > 10:
 			self.is_prepared = True
 	
 	def to_dict(self) -> dict:
-		recording_dict = {const.ID: self.id, const.ACTIVITY_ID: self.activity_id, const.IS_MISTAKE: self.is_mistake}
+		recording_dict = {const.ID: self.id, const.ACTIVITY_ID: self.activity_id, const.IS_ERROR: self.is_error}
 		
 		step_dict_list = []
 		for step in self.steps:
 			step_dict_list.append(step.to_dict())
 		recording_dict[const.STEPS] = step_dict_list
 		
-		if self.mistakes is not None and len(self.mistakes) > 0:
-			mistake_dict_list = []
-			for mistake in self.mistakes:
-				mistake_dict_list.append(mistake.to_dict())
-			recording_dict[const.MISTAKES] = mistake_dict_list
+		if self.errors is not None and len(self.errors) > 0:
+			error_dict_list = []
+			for error in self.errors:
+				error_dict_list.append(error.to_dict())
+			recording_dict[const.ERRORS] = error_dict_list
 		
 		recording_dict[const.ENVIRONMENT] = self.environment
 		recording_dict[const.RECORDED_BY] = self.recorded_by
@@ -77,15 +87,15 @@ class Recording:
 			step = Step.from_dict(step_dict)
 			step_list.append(step)
 		
-		recording = cls(recording_dict[const.ID], recording_dict[const.ACTIVITY_ID], recording_dict[const.IS_MISTAKE],
+		recording = cls(recording_dict[const.ID], recording_dict[const.ACTIVITY_ID], recording_dict[const.IS_ERROR],
 		                step_list)
 		
-		if const.MISTAKES in recording_dict:
-			mistake_list = []
-			for mistake_dict in recording_dict[const.MISTAKES]:
-				mistake = Mistake.from_dict(mistake_dict)
-				mistake_list.append(mistake)
-			recording.mistakes = mistake_list
+		if const.ERRORS in recording_dict:
+			error_list = []
+			for error_dict in recording_dict[const.ERRORS]:
+				error = Error.from_dict(error_dict)
+				error_list.append(error)
+			recording.errors = error_list
 		
 		if const.ENVIRONMENT in recording_dict:
 			recording.environment = recording_dict[const.ENVIRONMENT]

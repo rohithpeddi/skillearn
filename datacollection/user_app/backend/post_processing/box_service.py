@@ -59,7 +59,7 @@ class BoxService:
 
 	def upload_data(self, recording_instance: Recording, db_service: FirebaseService):
 		# 1. Construct folder names for each component and update their status as "Pending" in Firebase
-		recording_type = ERROR_RECORDINGS if recording_instance.is_mistake else STANDARD_RECORDINGS
+		recording_type = ERROR_RECORDINGS if recording_instance.is_error else STANDARD_RECORDINGS
 		recording_folder = "{}_{}_{}_{}".format(recording_instance.activity, recording_instance.place_id,
 												recording_instance.person_id, recording_instance.rec_number)
 

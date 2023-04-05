@@ -3,7 +3,7 @@ import './RecordingPreparation.css';
 import RecordingStepPreparation from "./RecordingStepPreparation";
 
 const RecordingPreparation = (props) => {
-	const { userData, environment, activities, recording, setRecording, mistakeTags} = props;
+	const { userData, environment, activities, recording, setRecording, errorTags: errorTags} = props;
 	
 	const getActivityName = (activityId) => {
 		const activity = activities.find((activity) => activity.id === activityId);
@@ -30,7 +30,7 @@ const RecordingPreparation = (props) => {
 	
 	return (
 		<div className="recPrepContainer">
-			{recording.is_mistake ? (
+			{recording.is_error ? (
 				<table className="recPrepTable">
 					<thead>
 					<tr className="recPrepTableHeader">
@@ -53,7 +53,7 @@ const RecordingPreparation = (props) => {
 									<RecordingStepPreparation
 										recording={recording}
 										setRecording={setRecording}
-										mistakeTags={mistakeTags}
+										errorTags={errorTags}
 										step={row}
 										stepIndex={index} />
 								</details>

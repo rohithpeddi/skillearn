@@ -10,7 +10,7 @@ const RecordingSelection = (props) => {
 	const {userData, environment, activities, recording, setRecording} = props;
 	
 	const [environmentNormalActivityIds, setEnvironmentNormalActivityIds] = useState([]);
-	const [environmentMistakeActivityIds, setEnvironmentMistakeActivityIds] = useState([]);
+	const [environmentErrorActivityIds, setEnvironmentErrorActivityIds] = useState([]);
 	
 	const [activityIdToActivityName, setActivityIdToActivityName] = useState({});
 	
@@ -51,8 +51,8 @@ const RecordingSelection = (props) => {
 				userData.recording_schedules[environment].normal_activities
 			);
 			
-			setEnvironmentMistakeActivityIds(
-				userData.recording_schedules[environment].mistake_activities
+			setEnvironmentErrorActivityIds(
+				userData.recording_schedules[environment].error_activities
 			);
 			
 		}
@@ -76,7 +76,7 @@ const RecordingSelection = (props) => {
 							environment={environment}
 							activityIdToActivityName={activityIdToActivityName}
 							activityIds={environmentNormalActivityIds}
-							label={"normal"}
+							label={"Normal"}
 							setRecording={setRecording}
 							handleSuccessPopupOpen={handleSuccessPopupOpen}
 							handleErrorPopupOpen={handleErrorPopupOpen}
@@ -87,8 +87,8 @@ const RecordingSelection = (props) => {
 							userData={userData}
 							environment={environment}
 							activityIdToActivityName={activityIdToActivityName}
-							activityIds={environmentMistakeActivityIds}
-							label={"mistake"}
+							activityIds={environmentErrorActivityIds}
+							label={"Error"}
 							setRecording={setRecording}
 							handleSuccessPopupOpen={handleSuccessPopupOpen}
 							handleErrorPopupOpen={handleErrorPopupOpen}
@@ -101,6 +101,7 @@ const RecordingSelection = (props) => {
 					recording={recording}
 					environment={environment}
 					setRecording={setRecording}
+					activities={activities}
 					handleSuccessPopupOpen={handleSuccessPopupOpen}
 					handleErrorPopupOpen={handleErrorPopupOpen} />
 				

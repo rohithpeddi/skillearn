@@ -20,6 +20,15 @@ class HololensInfo:
 		self.imu_magnetometer = False
 		
 		self.device_ip = const.DEFAULT_HOLOLENS_IP
+		
+	def is_disabled(self):
+		return not self.pv and not self.mc and not self.depth_ahat and not self.spatial and not self.depth_lt \
+		       and not self.vlc_leftleft and not self.vlc_leftfront and not self.vlc_rightright \
+		       and not self.vlc_rightfront and not self.imu_accelerometer and not self.imu_gyroscope \
+		       and not self.imu_magnetometer
+	
+	def is_enabled(self):
+		return not self.is_disabled()
 	
 	def to_dict(self):
 		return {

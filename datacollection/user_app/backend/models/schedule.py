@@ -8,10 +8,10 @@ class Schedule:
 			self,
 			environment: int,
 			normal_recordings: List[int],
-			mistake_recordings: List[int]
+			error_recordings: List[int]
 	):
 		self.normal = normal_recordings
-		self.mistakes = mistake_recordings
+		self.errors = error_recordings
 		self.environment = environment
 		
 		self.recorded_list = []
@@ -23,15 +23,15 @@ class Schedule:
 		if activity_id in self.normal:
 			self.normal.remove(activity_id)
 		
-		if activity_id in self.mistakes:
-			self.mistakes.remove(activity_id)
+		if activity_id in self.errors:
+			self.errors.remove(activity_id)
 		
 		if len(self.recorded_list) >= 8:
 			self.is_done_recording = True
 	
 	def to_dict(self) -> dict:
 		schedule_dict = {const.ENVIRONMENT: self.environment, const.NORMAL_RECORDINGS: self.normal,
-		                 const.MISTAKE_RECORDINGS: self.mistakes}
+		                 const.ERROR_RECORDINGS: self.errors}
 		
 		if len(self.recorded_list) > 0:
 			schedule_dict[const.RECORDED_LIST] = self.recorded_list
@@ -42,7 +42,7 @@ class Schedule:
 	@classmethod
 	def from_dict(cls, schedule_dict) -> "Schedule":
 		schedule = Schedule(schedule_dict[const.ENVIRONMENT], schedule_dict[const.NORMAL_RECORDINGS],
-		                    schedule_dict[const.MISTAKE_RECORDINGS])
+		                    schedule_dict[const.ERROR_RECORDINGS])
 		
 		if const.RECORDED_LIST in schedule_dict:
 			schedule.recorded_list = schedule_dict[const.RECORDED_LIST]

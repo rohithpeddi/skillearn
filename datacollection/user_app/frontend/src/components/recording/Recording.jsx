@@ -1,13 +1,15 @@
 import React, {useEffect, useState} from "react";
 import { Stepper, Step, StepLabel, Button } from "@mui/material";
 import AppBar from "../atoms/AppBar";
-import styles from "./Recording.css";
+// import styles from "./Recording.css";
+import "./Recording.css";
 import RecordingSelection from "./RecordingSelection";
 import RecordingPreparation from "./RecordingPreparation";
 import RecordingRecording from "./RecordingRecording";
 import axios from "axios";
 import API_BASE_URL from "../../config";
 import {useNavigate} from "react-router-dom";
+import RecordingReview from "./RecordingReview";
 
 const Recording = (props) => {
 	
@@ -16,15 +18,15 @@ const Recording = (props) => {
 	const [activeStep, setActiveStep] = useState(0);
 	const [recording, setRecording] = useState(false);
 	
-	const [mistakeTags, setMistakeTags] = useState([]);
+	const [errorTags, setErrorTags] = useState([]);
 	
 	const navigate = useNavigate();
 	
 	useEffect(() => {
-		let url = `${API_BASE_URL}/mistake_tags`;
+		let url = `${API_BASE_URL}/error_tags`;
 		axios.get(url)
 			.then((response) => {
-				setMistakeTags(response.data);
+				setErrorTags(response.data);
 				console.log(response.data);
 			})
 			.catch((error) => {
@@ -53,7 +55,41 @@ const Recording = (props) => {
 				return true;
 			case 1:
 				// Validate Step 2 Recording Preparation
+				if (!recording.is_error) {
+					return true;
+				}
+				
+				const errorDict = {};
+				let totalErrors = 0;
+				recording.steps.forEach((step) => {
+					if (step.errors && step.errors.length > 0) {
+						step.errors.forEach((error) => {
+							if (error.tag){
+								errorDict[error.tag] = (errorDict[error.tag] || 0) + 1;
+								totalErrors = totalErrors + 1;
+							}
+						});
+					}
+				});
+				
+				const requiredErrorTypes = ["Preparation Error","Measurement Error","Timing Error","Technique Error","Temperature Error","Missing Step","Order Error"];
+				
+				const hasAtLeastOneErrorOfEachType = requiredErrorTypes.every(
+					(type) => errorDict[type] && errorDict[type] > 0
+				);
+				
+				if (!hasAtLeastOneErrorOfEachType) {
+					alert("Please make sure you have at least one error of each type");
+					return false;
+				}
+				
+				if (totalErrors < recording.steps.length){
+					alert("Please add " + (recording.steps.length - totalErrors) + " more errors to proceed to recording" );
+					return false;
+				}
+				
 				return true;
+				
 			case 2:
 				// Validate Step 3 Recording Recording
 				return true;
@@ -74,7 +110,7 @@ const Recording = (props) => {
 				.then(response => {
 					setRecording(response.data);
 					console.log(response.data);
-					navigate("/home");
+					navigate("/login");
 				})
 				.catch(error => {
 					alert("Error: " + error)
@@ -107,7 +143,7 @@ const Recording = (props) => {
 								                    setEnvironment={setEnvironment}
 								                    setActivities={setActivities}
 								                    setRecording={setRecording}
-					                                mistakeTags={mistakeTags}	/>
+					                                errorTags={errorTags}	/>
 						</div>);
 			case 2:
 				return ( <div>
@@ -122,7 +158,7 @@ const Recording = (props) => {
 				</div>);
 			case 3:
 				return ( <div>
-					<RecordingPreparation userData={userData}
+					<RecordingReview userData={userData}
 					                      environment={environment}
 					                      activities={activities}
 					                      recording={recording}
@@ -130,7 +166,7 @@ const Recording = (props) => {
 					                      setEnvironment={setEnvironment}
 					                      setActivities={setActivities}
 					                      setRecording={setRecording}
-					                      mistakeTags={mistakeTags}	/>
+					                      errorTags={errorTags}	/>
 					</div>);
 			default:
 				return <div>Unknown step</div>;
@@ -138,29 +174,31 @@ const Recording = (props) => {
 	};
 	
 	return (
-		<div className={styles.recordingContainer}>
-			<div className={styles.recordingHeader}>
+		<div className="recordingContainer">
+			<div className="recordingHeader">
 				<AppBar userData={userData} />
 			</div>
 			
-			<div className={styles.recordingStepperContainer}>
-				<Stepper activeStep={activeStep} alternativeLabel>
-					{steps.map((label) => (
-						<Step key={label}>
-							<StepLabel>{label}</StepLabel>
-						</Step>
-					))}
-				</Stepper>
+			<div className="recordingStepperContainer">
+				<div className="recordingStepper">
+					<Stepper activeStep={activeStep} alternativeLabel>
+						{steps.map((label) => (
+							<Step key={label}>
+								<StepLabel>{label}</StepLabel>
+							</Step>
+						))}
+					</Stepper>
+				</div>
 				
-				<div className={styles.recordingContent}>
+				<div className="recordingContent">
 					{
 						getContent(activeStep)
 					}
 				</div>
 				
-				<div className={styles.recordingButtonContainer}>
+				<div className="recordingButtonContainer">
 					<Button
-						className={styles.backButton}
+						className="backButton"
 						disabled={activeStep === 0}
 						onClick={handleBack}
 					>
@@ -168,7 +206,7 @@ const Recording = (props) => {
 					</Button>
 					{activeStep === steps.length - 1 ? (
 						<Button
-							className={styles.nextButton}
+							className="nextButton"
 							variant="contained"
 							color="primary"
 							onClick={handleFinish}
@@ -177,7 +215,7 @@ const Recording = (props) => {
 						</Button>
 					) : (
 						<Button
-							className={styles.nextButton}
+							className="nextButton"
 							variant="contained"
 							color="primary"
 							onClick={handleNext}

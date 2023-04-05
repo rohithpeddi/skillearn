@@ -5,16 +5,16 @@ import axios from "axios";
 import API_BASE_URL from "../../config";
 import "./Home.css";
 
-const MistakeStatsTable = ({ mistakeStats }) => {
+const ErrorStatsTable = ({ errorStats }) => {
 	return (
 		<div className="home-table-container">
 			<div className="home-table-header">
-				<div>Mistake Type</div>
+				<div>Error Type</div>
 				<div>Count</div>
 			</div>
-			{Object.entries(mistakeStats).map(([mistakeType, count]) => (
-				<div className="home-table-row" key={mistakeType}>
-					<div>{mistakeType}</div>
+			{Object.entries(errorStats).map(([errorType, count]) => (
+				<div className="home-table-row" key={errorType}>
+					<div>{errorType}</div>
 					<div>{count}</div>
 				</div>
 			))}
@@ -26,7 +26,7 @@ const MistakeStatsTable = ({ mistakeStats }) => {
 const RecordingStatsTable = ({ recordingStats }) => {
 	const {
 		number_of_correct_recordings,
-		number_of_mistake_recordings,
+		number_of_error_recordings: number_of_error_recordings,
 		number_of_recordings,
 	} = recordingStats;
 	
@@ -40,9 +40,9 @@ const RecordingStatsTable = ({ recordingStats }) => {
 				<div>Correct Recordings</div>
 				<div>{number_of_correct_recordings}</div>
 			</div>
-			<div className="home-table-row home-MistakeRecordingsRow">
-				<div>Mistake Recordings</div>
-				<div>{number_of_mistake_recordings}</div>
+			<div className="home-table-row home-ErrorRecordingsRow">
+				<div>Error Recordings</div>
+				<div>{number_of_error_recordings}</div>
 			</div>
 			<div className="home-table-row home-TotalRecordingsRow">
 				<div>Total Recordings</div>
@@ -58,7 +58,7 @@ const Home = (props) => {
 	const navigate = useNavigate();
 	
 	const [userStats, setUserStats] = useState({
-		mistake_stats: {},
+		error_stats: {},
 		recording_stats: {},
 		user_recording_stats: [],
 	});
@@ -94,13 +94,13 @@ const Home = (props) => {
 			
 			<div className="homeBodyContainer">
 				<div className="homeLeftColumn">
-					<h2>Recording Stats</h2>
+					<h2>RECORDING STATS</h2>
 					<RecordingStatsTable recordingStats={userStats.recording_stats} />
 				</div>
 				
 				<div className="homeRightColumn">
-					<h2>Mistake Stats</h2>
-					<MistakeStatsTable mistakeStats={userStats.mistake_stats} />
+					<h2>ERROR STATS</h2>
+					<ErrorStatsTable errorStats={userStats.error_stats} />
 				</div>
 			</div>
 		</div>

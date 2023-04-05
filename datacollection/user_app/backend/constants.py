@@ -19,7 +19,7 @@ class User_Constants:
 	RECORDING_SCHEDULES = "recording_schedules"
 	ENVIRONMENT = "environment"
 	NORMAL_RECORDINGS = "normal_activities"
-	MISTAKE_RECORDINGS = "mistake_activities"
+	ERROR_RECORDINGS = "error_activities"
 	RECORDED_LIST = "recorded_list"
 	IS_DONE_RECORDING = "recording_status"
 
@@ -30,11 +30,11 @@ class User_Constants:
 class Recording_Constants:
 	ID = "id"
 	ACTIVITY_ID = "activity_id"
-	IS_MISTAKE = "is_mistake"
+	IS_ERROR = "is_error"
 	IS_PREPARED = "is_prepared"
 	RECORDED_BY = "recorded_by"
 	SELECTED_BY = "selected_by"
-	MISTAKES = "mistakes"
+	ERRORS = "errors"
 	ENVIRONMENT = "environment"
 	STEPS = "steps"
 	
@@ -56,7 +56,7 @@ class Recording_Constants:
 	NAME = "name"
 	CATEGORY = "category"
 	ACTIVITY_TYPE = "activity_type"
-	MISTAKE_HINTS = "mistake_hints"
+	ERROR_HINTS = "error_hints"
 	REQUIRED_ITEMS = "required_items"
 	
 	DUMMY_USER_ID = -1
@@ -212,7 +212,7 @@ class LightTag_Constants:
 	RECORDING_ID = "recording_id"
 	DESCRIPTION = "description"
 	STEPS = "steps"
-	MISTAKES = "mistakes"
+	ERRORS = "errors"
 	
 	NUM_VALID_PROGRAMS = 25
 	NUM_INVALID_PROGRAMS = 100
@@ -221,7 +221,7 @@ class LightTag_Constants:
 	NUM_INVALID_ORDER_PROGRAMS = 90
 	
 	THRESHOLD_NUM_MISSING_STEPS = 20
-	THRESHOLD_NUM_MISSING_STEPS_ORDER_MISTAKES = 40
+	THRESHOLD_NUM_MISSING_STEPS_ORDER_ERRORS = 40
 	
 	NUM_TO_SHUFFLE = 20
 
@@ -238,23 +238,22 @@ class FlaskServer_constants:
 	
 	SELECTED_ACTIVITIES = "selectedActivities"
 	
-	MISTAKE = "mistake"
-	IS_MISTAKE = "is_mistake"
+	ERROR = "Error"
 	SELECTED_BY = "selected_by"
 	
-	PREPARED = "Retrieved a prepared activity"
-	SELECTED_PREVIOUSLY = "Retrieved a previously selected activity"
-	NEWLY_SELECTED = "Retrieved a newly selected activity"
+	PREPARED = "Retrieved a PREPARED activity"
+	SELECTED_PREVIOUSLY = "Retrieved a PREVIOUSLY SELECTED activity"
+	NEWLY_SELECTED = "Retrieved a NEW activity"
 	
 	SELECTION_TYPE = "selection_type"
 	RECORDING_CONTENT = "recording_content"
 	
 	NUMBER_OF_RECORDINGS = "number_of_recordings"
-	NUMBER_OF_MISTAKE_RECORDINGS = "number_of_mistake_recordings"
+	NUMBER_OF_ERROR_RECORDINGS = "number_of_error_recordings"
 	NUMBER_OF_CORRECT_RECORDINGS = "number_of_correct_recordings"
 	
 	RECORDING_STATS = "recording_stats"
-	MISTAKE_STATS = "mistake_stats"
+	ERROR_STATS = "error_stats"
 	USER_RECORDING_STATS = "user_recording_stats"
 	
 	DUMMY_USER_ID = -1
@@ -278,6 +277,6 @@ class DatabaseIngestion_Constants:
 	
 	RECORDING_ID = "recording_id"
 	STEPS = "steps"
-	MISTAKES = "mistakes"
+	ERRORS = "errors"
 	NAME = "name"
 	ID = "id"

@@ -46,16 +46,16 @@ const Preferences = (props) => {
 						</div>
 						
 						
-						{/*List of all mistake activities in current environment*/}
+						{/*List of all error activities in current environment*/}
 						<div className="environment-selection">
-							{userData && userData.recording_schedules && userData.recording_schedules[environment] && userData.recording_schedules[environment].mistake_activities ? (
+							{userData && userData.recording_schedules && userData.recording_schedules[environment] && userData.recording_schedules[environment].error_activities ? (
 								<ActivityTable
-									activityIdList={userData.recording_schedules[environment].mistake_activities}
+									activityIdList={userData.recording_schedules[environment].error_activities}
 									activities={activities}
-									label={"Mistake Activities"}
+									label={"Error Activities"}
 								/>
 							) : (
-								<div className="no-activities">No mistake activities selected.</div>
+								<div className="no-activities">No error activities selected.</div>
 							)}
 						</div>
 					</div>

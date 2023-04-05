@@ -5,31 +5,31 @@
     width: 100%;
 }
 
-.recStepPrepMistakeListContainer {
+.recStepPrepErrorListContainer {
     flex: 30%;
     padding: 1rem;
     border-right: 1px solid #ccc;
 }
 
-.recStepPrepUpdateMistakeContainer {
+.recStepPrepUpdateErrorContainer {
     flex: 70%;
     padding: 1rem;
 }
 
-.recStepPrepMistake {
+.recStepPrepError {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
     border-bottom: 1px solid #ccc;
 }
 
-.recStepPrepMistakeTag,
-.recStepPrepMistakeDescription {
+.recStepPrepErrorTag,
+.recStepPrepErrorDescription {
     font-size: 14px;
     line-height: 1.5;
 }
 
-.mistakeTagBox {
+.errorTagBox {
     display: inline-flex;
     align-items: center;
     margin: 0 1rem 1rem 0;
@@ -41,21 +41,21 @@
     transition: background-color 0.2s;
 }
 
-.mistakeTagCheckbox {
+.errorTagCheckbox {
     margin-right: 5px;
 }
 
-.mistakeTagLabel {
+.errorTagLabel {
     font-size: 14px;
     margin-left: 0.5rem;
 }
 
-.mistakeTagBox:hover {
+.errorTagBox:hover {
     background-color: #e6e6e6;
 }
 
 .recStepPrepOriginalText,
-.recStepPrepMistakeDescriptionText,
+.recStepPrepErrorDescriptionText,
 .recStepPrepUpdateStepDescriptionText {
     font-weight: bold;
     margin-bottom: 0.5rem;

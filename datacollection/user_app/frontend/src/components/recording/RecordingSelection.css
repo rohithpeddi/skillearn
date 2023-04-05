@@ -14,7 +14,7 @@
 }
 
 .recordingSelectionGridContainer {
-    flex: 0.4;
+    flex: 0.7;
     display: flex;
     flex-direction: column;
     overflow-y: auto;

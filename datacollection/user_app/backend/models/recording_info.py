@@ -21,6 +21,12 @@ class RecordingInfo:
 			const.END_TIME: json.dumps(self.end_time)
 		}
 	
+	def is_go_pro_enabled(self):
+		return self.go_pro
+	
+	def is_hololens_enabled(self):
+		return self.hololens_info.is_enabled()
+	
 	@classmethod
 	def from_dict(cls, recording_info_dict):
 		recording_info = cls()

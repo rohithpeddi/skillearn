@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from datacollection.user_app.backend.models.mistake import Mistake
+from datacollection.user_app.backend.models.error import Error
 from datacollection.user_app.backend.models.step import Step
 from datacollection.user_app.backend.constants import DatabaseIngestion_Constants as const
 
@@ -11,26 +11,26 @@ class RecordingIngestionHelper:
 			self,
 			recording_id: int,
 			steps: List[Step],
-			mistakes: Optional[List[Mistake]] = None
+			errors: Optional[List[Error]] = None
 	):
 		self.recording_id = recording_id
 		
 		self.steps = steps
-		self.mistakes = mistakes
+		self.errors = errors
 	
 	def to_dict(self) -> dict:
 		return {const.RECORDING_ID: self.recording_id,
 		        const.STEPS: [step.to_dict() for step in self.steps],
-		        const.MISTAKES: [mistake.to_dict() for mistake in self.mistakes]}
+		        const.ERRORS: [error.to_dict() for error in self.errors]}
 	
 	@classmethod
 	def from_dict(cls, recording_helper_dict) -> "RecordingIngestionHelper":
 		recording_id = recording_helper_dict[const.RECORDING_ID]
 		steps = [Step.from_dict(step_dict) for step_dict in recording_helper_dict[const.STEPS]]
 		
-		mistakes = None
-		if const.MISTAKES in recording_helper_dict:
-			mistakes = [Mistake.from_dict(mistake_dict) for mistake_dict in recording_helper_dict[const.MISTAKES]]
+		errors = None
+		if const.ERRORS in recording_helper_dict:
+			errors = [Error.from_dict(error_dict) for error_dict in recording_helper_dict[const.ERRORS]]
 		
-		recording_helper = cls(recording_id, steps, mistakes)
+		recording_helper = cls(recording_id, steps, errors)
 		return recording_helper

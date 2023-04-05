@@ -7,7 +7,20 @@ from datacollection.user_app.backend.models.activity import Activity
 from datacollection.user_app.backend.models.recording import Recording
 from datacollection.user_app.backend.models.user import User
 
-firebaseConfig = {
+# firebaseProdConfig = {
+# 	"apiKey": "AIzaSyBN101vsa7m1bgoaBMhgC0POAU8TVQhU0o",
+# 	"authDomain": "ego-proc-errors.firebaseapp.com",
+# 	"projectId": "ego-proc-errors",
+# 	"storageBucket": "ego-proc-errors.appspot.com",
+# 	"messagingSenderId": "676090535211",
+# 	"appId": "1:676090535211:web:5ffd195bd98f51820bb96e",
+# 	"databaseURL": "https://ego-proc-errors-default-rtdb.firebaseio.com",
+# 	"measurementId": "G-QM9RPQ6M5D"
+# }
+#
+# firebase = pyrebase.initialize_app(firebaseProdConfig)
+
+firebaseDevConfig = {
 	"apiKey": "AIzaSyCzBlh4hXDXJqIBZEkcF0kXh70K6-RuEsc",
 	"authDomain": "ego-proc-mistakes.firebaseapp.com",
 	"projectId": "ego-proc-mistakes",
@@ -17,7 +30,7 @@ firebaseConfig = {
 	"databaseURL": "https://ego-proc-mistakes-default-rtdb.firebaseio.com",
 }
 
-firebase = pyrebase.initialize_app(firebaseConfig)
+firebase = pyrebase.initialize_app(firebaseDevConfig)
 
 
 class FirebaseService:
@@ -42,6 +55,9 @@ class FirebaseService:
 	def fetch_user(self, user_id: int):
 		return self.db.child(const.USERS).child(user_id).get().val()
 	
+	def remove_all_users(self):
+		self.db.child(const.USERS).remove()
+	
 	# ---------------------- END USER ----------------------
 	
 	# ---------------------- BEGIN ACTIVITY ----------------------
@@ -51,6 +67,9 @@ class FirebaseService:
 	
 	def update_activity(self, activity: Activity):
 		self.db.child(const.ACTIVITIES).child(activity.id).set(activity.to_dict())
+		
+	def remove_all_activities(self):
+		self.db.child(const.ACTIVITIES).remove()
 	
 	# ---------------------- END ACTIVITY ----------------------
 	
@@ -67,6 +86,9 @@ class FirebaseService:
 	
 	def fetch_recording(self, recording_id):
 		return self.db.child(const.RECORDINGS).child(recording_id).get().val()
+	
+	def remove_all_recordings(self):
+		self.db.child(const.RECORDINGS).remove()
 
 
 # ---------------------- END RECORDING ----------------------

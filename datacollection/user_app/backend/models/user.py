@@ -57,13 +57,13 @@ class User:
 			environment_preferences = environment_preferences[:const.ACTIVITIES_PER_PERSON_PER_ENV]
 		
 		# 5. Sample the first half for normal videos
-		# 6. Second half for the mistake videos
+		# 6. Second half for the error videos
 		random.shuffle(environment_preferences)
 		normal_recordings = environment_preferences[:int(const.ACTIVITIES_PER_PERSON_PER_ENV / 2.)]
-		mistake_recordings = environment_preferences[int(const.ACTIVITIES_PER_PERSON_PER_ENV / 2.):]
+		error_recordings = environment_preferences[int(const.ACTIVITIES_PER_PERSON_PER_ENV / 2.):]
 		
 		schedule = Schedule(environment=environment, normal_recordings=normal_recordings,
-		                    mistake_recordings=mistake_recordings)
+		                    error_recordings=error_recordings)
 		
 		self.recording_schedules[environment] = schedule
 	

@@ -1,39 +1,39 @@
 - recording_id: 1
   steps:
-  - description: add-1/4 tsp salt
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 2
   steps:
-  - description: add-1/4 tsp pepper
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/4 tsp salt to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 3
   steps:
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp pepper
-  - description: add-1/4 tsp salt
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/4 tsp salt to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
@@ -43,11 +43,11 @@
 - recording_id: 4
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp salt
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp pepper
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
@@ -56,26 +56,26 @@
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 5
   steps:
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp salt
-  - description: add-1/4 tsp pepper
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 6
   steps:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
@@ -84,12 +84,12 @@
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 7
   steps:
-  - description: add-1/16 cup basil
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
@@ -98,14 +98,14 @@
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 8
   steps:
-  - description: add-1/4 tsp salt
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
@@ -115,108 +115,108 @@
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/16 cup basil
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 10
   steps:
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/16 cup basil
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/16 cup basil to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 11
   steps:
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp pepper
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 12
   steps:
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 13
   steps:
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp pepper
-  - description: add-1/4 tsp salt
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 14
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/16 cup basil
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 15
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp salt
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 16
   steps:
-  - description: add-1/4 tsp salt
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Combine-Combine the contents of the bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
@@ -227,39 +227,39 @@
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp salt
-  - description: add-1/4 tsp pepper
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 18
   steps:
-  - description: add-1/4 tsp salt
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 19
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/4 tsp pepper
-  - description: add-1/4 tsp salt
-  - description: add-1/16 cup basil
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/16 cup basil to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
@@ -267,13 +267,13 @@
 - recording_id: 20
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp pepper
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
@@ -281,25 +281,25 @@
 - recording_id: 21
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/16 cup basil
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/16 cup basil to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 22
   steps:
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp pepper
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
@@ -308,42 +308,42 @@
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 23
   steps:
-  - description: add-1/4 tsp salt
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/16 cup basil
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/16 cup basil to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 24
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp salt
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp salt to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
 - recording_id: 25
   steps:
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Combine-Combine the contents of the bowl
@@ -354,13 +354,13 @@
   recording_id: 26
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/4 tsp salt
-  - description: add-1/16 cup basil
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
@@ -370,14 +370,14 @@
     tag: Missing Step
   recording_id: 27
   steps:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
@@ -386,13 +386,13 @@
     tag: Missing Step
   recording_id: 28
   steps:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp pepper
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
@@ -401,11 +401,11 @@
     tag: Missing Step
   recording_id: 29
   steps:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp pepper
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Combine-Combine the contents of the bowl
@@ -417,19 +417,19 @@
     tag: Missing Step
   recording_id: 30
   steps:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
-  - description: add-1/16 cup basil
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
     tag: Missing Step
   - description: add-In a bowl, add the cut cherry tomatoes
     tag: Missing Step
@@ -438,12 +438,12 @@
   recording_id: 31
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp salt
-  - description: add-1/16 cup basil
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
@@ -451,12 +451,12 @@
     tag: Missing Step
   recording_id: 32
   steps:
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp salt
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
@@ -472,10 +472,10 @@
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/16 cup basil
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp salt
-  - description: add-1/4 tsp pepper
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
@@ -486,13 +486,13 @@
   recording_id: 34
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/4 tsp pepper
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
@@ -504,12 +504,12 @@
   - tag: Order Error
   recording_id: 35
   steps:
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp pepper
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Spoon-Spoon the mixture onto the bread
@@ -519,12 +519,12 @@
   - tag: Order Error
   recording_id: 36
   steps:
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp salt
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
@@ -537,25 +537,25 @@
   recording_id: 37
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
 - errors:
   - tag: Order Error
   recording_id: 38
   steps:
-  - description: add-1/4 tsp pepper
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp salt to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Combine-Combine the contents of the bowl
@@ -571,17 +571,17 @@
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/16 cup basil
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
     tag: Missing Step
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
@@ -591,15 +591,15 @@
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
     tag: Missing Step
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     tag: Missing Step
@@ -607,61 +607,61 @@
   recording_id: 41
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
     tag: Missing Step
   - description: Combine-Combine the contents of the bowl
     tag: Missing Step
   - tag: Order Error
   recording_id: 42
   steps:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
   - tag: Order Error
   recording_id: 43
   steps:
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Spoon-Spoon the mixture onto the bread
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Combine-Combine the contents of the bowl
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
 - errors:
   - tag: Order Error
   recording_id: 44
   steps:
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Combine-Combine the contents of the bowl
-  - description: add-1/4 tsp pepper
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp pepper to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
@@ -670,15 +670,15 @@
   - tag: Order Error
   recording_id: 45
   steps:
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
-  - description: add-1/4 tsp pepper
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Combine-Combine the contents of the bowl
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
@@ -687,32 +687,32 @@
   recording_id: 46
   steps:
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp pepper
+  - description: add-1/16 cup basil to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
   - tag: Order Error
   recording_id: 47
   steps:
-  - description: add-1/4 tsp salt
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/4 tsp pepper to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Combine-Combine the contents of the bowl
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
   - tag: Order Error
@@ -720,45 +720,45 @@
   steps:
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
-  - description: add-1/8 cup shredded mozzarella
-  - description: add-1/4 tsp salt
+  - description: add-1/8 cup shredded mozzarella to a bowl
+  - description: add-1/4 tsp salt to a bowl
   - description: add-In a bowl, add the cut cherry tomatoes
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture onto the bread
 - errors:
   - tag: Order Error
   recording_id: 49
   steps:
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread
   - description: Combine-Combine the contents of the bowl
-  - description: add-1/4 tsp salt
+  - description: add-1/4 tsp salt to a bowl
 - errors:
   - tag: Order Error
   recording_id: 50
   steps:
-  - description: add-1/4 tsp salt
-  - description: add-1/8 cup shredded mozzarella
+  - description: add-1/4 tsp salt to a bowl
+  - description: add-1/8 cup shredded mozzarella to a bowl
   - description: Slice-Slice Baguette into 1/2 inch thick rounds
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  - description: add-1/16 cup basil
+  - description: add-1/16 cup basil to a bowl
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   - description: Combine-Combine the contents of the bowl
   - description: add-In a bowl, add the cut cherry tomatoes
-  - description: add-1/4 tsp pepper
+  - description: add-1/4 tsp pepper to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
   - description: Spoon-Spoon the mixture onto the bread

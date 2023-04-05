@@ -43,7 +43,7 @@
 }
 
 .home-CorrectRecordingsRow,
-.home-MistakeRecordingsRow,
+.home-ErrorRecordingsRow,
 .home-TotalRecordingsRow {
     background-color: #f8f8f8;
     border-radius: 4px;

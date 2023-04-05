@@ -5,7 +5,12 @@ import API_BASE_URL from "../../config";
 
 const RecordingDisplayCard = (props) => {
 	
-	const {userData, environment, recording, setRecording, handleSuccessPopupOpen, handleErrorPopupOpen} = props;
+	const {userData, environment, activities, recording, setRecording, handleSuccessPopupOpen, handleErrorPopupOpen} = props;
+	
+	const getActivityName = (activityId) => {
+		const activity = activities.find((activity) => activity.id === activityId);
+		return activity.name;
+	};
 	
 	const selectRecording = async () => {
 		try {
@@ -27,7 +32,7 @@ const RecordingDisplayCard = (props) => {
 						<table className="recordingDisplayTable">
 							<thead>
 							<tr>
-								<th>Recording Steps</th>
+								<th>Recording Steps for {getActivityName(recording.activity_id)}</th>
 							</tr>
 							</thead>
 							<tbody>

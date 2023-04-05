@@ -12,11 +12,13 @@ from datacollection.user_app.backend.constants import DatabaseIngestion_Constant
 
 from logger_config import logger
 
+
 class FirebaseIngestion:
 	
-	def __init__(self, data_directory):
+	def __init__(self, data_directory, remove_past_data=False):
 		self.db_service = FirebaseService()
 		self.data_directory = data_directory
+		self.remove_past_data = remove_past_data
 	
 	def ingest(self):
 		pass
@@ -24,10 +26,13 @@ class FirebaseIngestion:
 
 class UserIngestion(FirebaseIngestion):
 	
-	def __init__(self, data_directory):
-		super().__init__(data_directory)
+	def __init__(self, data_directory, remove_past_data=False):
+		super().__init__(data_directory, remove_past_data)
 	
 	def ingest(self):
+		if self.remove_past_data:
+			self.db_service.remove_all_users()
+		
 		users_yaml_file_path = os.path.join(self.data_directory, const.USERS_YAML_FILE_NAME)
 		with open(users_yaml_file_path, 'r') as users_yaml_file:
 			users_data = yaml.safe_load(users_yaml_file)
@@ -39,10 +44,13 @@ class UserIngestion(FirebaseIngestion):
 
 class ActivitiesIngestion(FirebaseIngestion):
 	
-	def __init__(self, data_directory):
-		super().__init__(data_directory)
+	def __init__(self, data_directory, remove_past_data=False):
+		super().__init__(data_directory, remove_past_data)
 	
 	def ingest(self):
+		if self.remove_past_data:
+			self.db_service.remove_all_activities()
+			
 		activities_yaml_file_path = os.path.join(self.data_directory, const.ACTIVITIES_YAML_FILE_NAME)
 		with open(activities_yaml_file_path, 'r') as activities_yaml_file:
 			activities_data = yaml.safe_load(activities_yaml_file)
@@ -54,11 +62,14 @@ class ActivitiesIngestion(FirebaseIngestion):
 
 class ActivityRecordingsIngestion(FirebaseIngestion):
 	
-	def __init__(self, data_directory):
-		super().__init__(data_directory)
+	def __init__(self, data_directory, remove_past_data=False):
+		super().__init__(data_directory, remove_past_data)
 		self.recordings_directory = os.path.join(self.data_directory, const.RECORDINGS)
 	
 	def ingest(self):
+		if self.remove_past_data:
+			self.db_service.remove_all_recordings()
+		
 		activities = self.db_service.fetch_activities()
 		
 		def fetch_activity(name):
@@ -75,7 +86,7 @@ class ActivityRecordingsIngestion(FirebaseIngestion):
 			logger.info(f'Processing activity recordings file: {activity_recordings_file_name}')
 			
 			activity_name = activity_recordings_file_name
-			activity_dict = fetch_activity(activity_name)
+			activity_dict = fetch_activity(activity_name[:-5])
 			activity = Activity.from_dict(activity_dict)
 			
 			activity_recordings_yaml_file_path = os.path.join(self.recordings_directory, activity_recordings_file_name)
@@ -87,18 +98,18 @@ class ActivityRecordingsIngestion(FirebaseIngestion):
 				
 				# 1. Create Recording instance from the given data
 				processed_recording_id = f'{activity.id}_{recording_helper.recording_id}'
-				is_mistake = False
-				mistakes = None
-				if recording_helper.mistakes is not None:
-					mistakes = recording_helper.mistakes
-					is_mistake = len(recording_helper.mistakes) > 0
+				is_error = False
+				errors = None
+				if recording_helper.errors is not None:
+					errors = recording_helper.errors
+					is_error = len(recording_helper.errors) > 0
 				
 				recording = Recording(
 					id=processed_recording_id,
 					activity_id=activity.id,
-					is_mistake=is_mistake,
+					is_error=is_error,
 					steps=recording_helper.steps,
-					mistakes=mistakes
+					errors=errors
 				)
 				
 				# 2. Push it to the database as a child of activity with corresponding activity_id
@@ -111,9 +122,9 @@ if __name__ == "__main__":
 	current_directory = os.getcwd()
 	info_directory = os.path.join(current_directory, "info_files")
 	
-	user_ingestion = UserIngestion(info_directory)
+	user_ingestion = UserIngestion(info_directory, remove_past_data=True)
 	user_ingestion.ingest()
-	activities_ingestion = ActivitiesIngestion(info_directory)
+	activities_ingestion = ActivitiesIngestion(info_directory, remove_past_data=True)
 	activities_ingestion.ingest()
-	activity_recordings_ingestion = ActivityRecordingsIngestion(info_directory)
+	activity_recordings_ingestion = ActivityRecordingsIngestion(info_directory, remove_past_data=True)
 	activity_recordings_ingestion.ingest()

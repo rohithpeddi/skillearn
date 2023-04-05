@@ -3,18 +3,18 @@
   - description: Peel-Peel 4 large garlic cloves
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: mince-mince the garlic
-  - description: Add-1/2 tsp cumin seeds
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-1/2 tsp cumin seeds to the pan
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -24,19 +24,19 @@
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: Take-Take 1 tomato
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
   - description: Chop-Chop them up roughly
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -48,17 +48,17 @@
   - description: Take-Take 1 tomato
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
-  - description: Add-1/2 tsp cumin seeds
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-1/2 tsp cumin seeds to the pan
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Chop-Chop them up roughly
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -69,18 +69,18 @@
   - description: Peel-Peel 4 large garlic cloves
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Take-Take 1 tomato
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: Chop-Chop them up roughly
   - description: mix-mix well
   - description: puree-puree them without any water
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -89,20 +89,20 @@
 - recording_id: 5
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Take-Take 1 tomato
   - description: Lower-Lower the heat
   - description: Chop-Chop them up roughly
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
+  - description: Add-1/2 tsp salt to the pan
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -112,19 +112,19 @@
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -134,19 +134,19 @@
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: mince-mince the garlic
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -157,18 +157,18 @@
   - description: Peel-Peel 4 large garlic cloves
   - description: Take-Take 1 tomato
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: Chop-Chop them up roughly
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: puree-puree them without any water
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -177,20 +177,20 @@
 - recording_id: 9
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Take-Take 1 tomato
   - description: Peel-Peel 4 large garlic cloves
   - description: Chop-Chop them up roughly
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: puree-puree them without any water
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -202,17 +202,17 @@
   - description: Peel-Peel 4 large garlic cloves
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: puree-puree them without any water
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -224,17 +224,17 @@
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
   - description: Take-Take 1 tomato
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Chop-Chop them up roughly
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: puree-puree them without any water
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -245,18 +245,18 @@
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
   - description: Take-Take 1 tomato
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Chop-Chop them up roughly
   - description: puree-puree them without any water
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -267,18 +267,18 @@
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
   - description: Take-Take 1 tomato
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Chop-Chop them up roughly
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: puree-puree them without any water
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -289,18 +289,18 @@
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-1/2 tsp cumin seeds to the pan
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -311,18 +311,18 @@
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Take-Take 1 tomato
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Chop-Chop them up roughly
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: puree-puree them without any water
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -332,19 +332,19 @@
   steps:
   - description: Take-Take 1 tomato
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Chop-Chop them up roughly
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: puree-puree them without any water
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -354,19 +354,19 @@
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Take-Take 1 tomato
   - description: mince-mince the garlic
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Chop-Chop them up roughly
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
+  - description: Add-1/2 tsp salt to the pan
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -376,19 +376,19 @@
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: mince-mince the garlic
   - description: puree-puree them without any water
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -398,8 +398,8 @@
   steps:
   - description: Peel-Peel 4 large garlic cloves
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Take-Take 1 tomato
@@ -407,10 +407,10 @@
   - description: Chop-Chop them up roughly
   - description: puree-puree them without any water
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -423,16 +423,16 @@
   - description: mince-mince the garlic
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Chop-Chop them up roughly
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -441,20 +441,20 @@
 - recording_id: 21
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Take-Take 1 tomato
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Chop-Chop them up roughly
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -466,17 +466,17 @@
   - description: Chop-Chop them up roughly
   - description: Peel-Peel 4 large garlic cloves
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-1/2 tsp cumin seeds to the pan
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: mince-mince the garlic
   - description: puree-puree them without any water
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -486,19 +486,19 @@
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: Take-Take 1 tomato
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
   - description: Chop-Chop them up roughly
-  - description: Add-1/2 tsp salt
+  - description: Add-1/2 tsp salt to the pan
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -511,16 +511,16 @@
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: puree-puree them without any water
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -530,19 +530,19 @@
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -556,18 +556,18 @@
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-1/2 tsp cumin seeds to the pan
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Take-Take 1 tomato
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: Chop-Chop them up roughly
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -578,9 +578,9 @@
   recording_id: 27
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Take-Take 1 tomato
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Peel-Peel 4 large garlic cloves
   - description: Chop-Chop them up roughly
   - description: mince-mince the garlic
@@ -588,10 +588,10 @@
   - description: puree-puree them without any water
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -606,65 +606,65 @@
   recording_id: 28
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
 - errors:
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
     tag: Missing Step
   recording_id: 29
   steps:
   - description: Take-Take 1 tomato
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Chop-Chop them up roughly
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
 - errors:
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
     tag: Missing Step
   recording_id: 30
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Take-Take 1 tomato
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Chop-Chop them up roughly
   - description: Peel-Peel 4 large garlic cloves
   - description: puree-puree them without any water
   - description: mince-mince the garlic
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -678,18 +678,18 @@
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Take-Take 1 tomato
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: Chop-Chop them up roughly
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -700,26 +700,26 @@
   recording_id: 32
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
   - description: Take-Take 1 tomato
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Chop-Chop them up roughly
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
+  - description: Add-1/2 tsp salt to the pan
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
 - errors:
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
     tag: Missing Step
   - description: Lower-Lower the heat
     tag: Missing Step
@@ -736,12 +736,12 @@
   - description: mince-mince the garlic
   - description: Chop-Chop them up roughly
   - description: puree-puree them without any water
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
@@ -758,21 +758,21 @@
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Take-Take 1 tomato
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Chop-Chop them up roughly
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
+  - description: Add-1/2 tsp salt to the pan
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: Take-Take the pan off the heat
 - errors:
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
     tag: Missing Step
   - description: Mix-Mix well
     tag: Missing Step
@@ -783,8 +783,8 @@
   - description: Take-Take 1 tomato
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-1/2 tsp cumin seeds
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-1/2 tsp cumin seeds to the pan
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: mince-mince the garlic
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
@@ -792,8 +792,8 @@
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: mix-mix well
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Allow-Allow the chutney to cool down before serving
@@ -807,31 +807,31 @@
   steps:
   - description: Take-Take 1 tomato
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Chop-Chop them up roughly
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
   - description: puree-puree them without any water
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: Take-Take the pan off the heat
 - errors:
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
     tag: Missing Step
   recording_id: 37
   steps:
   - description: Peel-Peel 4 large garlic cloves
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Take-Take 1 tomato
@@ -839,8 +839,8 @@
   - description: Chop-Chop them up roughly
   - description: mix-mix well
   - description: puree-puree them without any water
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -857,17 +857,17 @@
   - description: Peel-Peel 4 large garlic cloves
   - description: Take-Take 1 tomato
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mince-mince the garlic
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Chop-Chop them up roughly
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
@@ -884,28 +884,28 @@
   - description: mince-mince the garlic
   - description: Chop-Chop them up roughly
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: puree-puree them without any water
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
 - errors:
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
     tag: Missing Step
   recording_id: 40
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Take-Take 1 tomato
   - description: Peel-Peel 4 large garlic cloves
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: Chop-Chop them up roughly
   - description: mince-mince the garlic
   - description: add-When the seeds begin to sizzle, add minced garlic
@@ -913,8 +913,8 @@
   - description: puree-puree them without any water
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -928,18 +928,18 @@
   steps:
   - description: Peel-Peel 4 large garlic cloves
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
+  - description: Add-Add 1/4 tsp mustard to the pan
   - description: mince-mince the garlic
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Take-Take 1 tomato
   - description: Lower-Lower the heat
   - description: Chop-Chop them up roughly
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add 2 tbsp red chili powder
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add 2 tbsp red chili powder to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -964,16 +964,16 @@
   recording_id: 42
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Lower-Lower the heat
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
-  - description: Add-Add tomato puree
+  - description: Add-Add tomato puree to the pan
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
-  - description: Add-1/2 tsp salt
+  - description: Add-1/2 tsp salt to the pan
   - description: Take-Take the pan off the heat
   - description: Allow-Allow the chutney to cool down before serving
 - errors:
@@ -985,19 +985,19 @@
   recording_id: 43
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: Lower-Lower the heat
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
+  - description: Add-1/2 tsp salt to the pan
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
   - description: puree-puree them without any water
-  - description: Add-Add tomato puree
+  - description: Add-Add tomato puree to the pan
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Mix-Mix well
@@ -1009,8 +1009,8 @@
   recording_id: 44
   steps:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
   - description: Take-Take 1 tomato
@@ -1018,10 +1018,10 @@
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
-  - description: Add-Add tomato puree
+  - description: Add-1/2 tsp salt to the pan
+  - description: Add-Add tomato puree to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -1035,16 +1035,16 @@
   - description: Lower-Lower the heat
   - description: Peel-Peel 4 large garlic cloves
   - description: mince-mince the garlic
-  - description: Add-1/2 tsp cumin seeds
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-1/2 tsp cumin seeds to the pan
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: Take-Take 1 tomato
   - description: Chop-Chop them up roughly
   - description: puree-puree them without any water
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Saute-Saute the garlic for 2-3 minutes
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-Add tomato puree
-  - description: Add-1/2 tsp salt
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-Add tomato puree to the pan
+  - description: Add-1/2 tsp salt to the pan
   - description: Mix-Mix well
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
@@ -1059,18 +1059,18 @@
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   - description: mince-mince the garlic
   - description: Take-Take 1 tomato
-  - description: Add-Add 1/4 tsp mustard
-  - description: Add-1/2 tsp cumin seeds
+  - description: Add-Add 1/4 tsp mustard to the pan
+  - description: Add-1/2 tsp cumin seeds to the pan
   - description: add-When the seeds begin to sizzle, add minced garlic
   - description: Saute-Saute the garlic for 2-3 minutes
   - description: Lower-Lower the heat
   - description: Chop-Chop them up roughly
-  - description: Add-Add 2 tbsp red chili powder
+  - description: Add-Add 2 tbsp red chili powder to the pan
   - description: Take-Take the pan off the heat
-  - description: Add-Add tomato puree
+  - description: Add-Add tomato puree to the pan
   - description: puree-puree them without any water
   - description: mix-mix well
-  - description: Add-1/2 tsp salt
+  - description: Add-1/2 tsp salt to the pan
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
   - description: Mix-Mix well

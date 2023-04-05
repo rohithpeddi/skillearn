@@ -9,9 +9,8 @@ from flask_cors import CORS
 from datacollection.user_app.backend.constants import FlaskServer_constants as const
 from datacollection.user_app.backend.services.firebase_service import FirebaseService
 from datacollection.user_app.backend.models.activity import Activity
-from datacollection.user_app.backend.models.mistake_tag import MistakeTag
+from datacollection.user_app.backend.models.error_tag import ErrorTag
 from datacollection.user_app.backend.models.recording import Recording
-from datacollection.user_app.backend.models.recording_info import RecordingInfo
 from datacollection.user_app.backend.models.user import User
 from datacollection.user_app.backend.services import async_service
 from logger_config import logger
@@ -28,7 +27,7 @@ cors = CORS(app, resources={r"/*": {"origins": "*"}})
 def login():
 	username = request.json.get('username')
 	password = request.json.get('password')
-	
+	response = None
 	if not username or not password:
 		logger.error("Invalid username or password")
 		response = jsonify({"error": "Invalid username or password"})
@@ -112,22 +111,22 @@ def update_activity_preferences(user_id, category):
 # 1. First fetches user info which have all information about all schedules
 # 2. Fetch an unassigned recording information for an activity
 
-@app.route('/mistake_tags', methods=['GET'])
-def fetch_mistake_tags():
-	mistake_tags = MistakeTag.get_step_mistake_tag_list()
-	return jsonify(mistake_tags)
+@app.route('/error_tags', methods=['GET'])
+def fetch_error_tags():
+	error_tags = ErrorTag.get_step_error_tag_list()
+	return jsonify(error_tags)
 
 
 @app.route('/users/<int:user_id>/activities/<int:activity_id>/recordings/<label>', methods=['GET'])
 def fetch_activity_recording(user_id, activity_id, label):
 	activity_recordings = db_service.fetch_all_activity_recordings(activity_id)
-	is_mistake = (label == const.MISTAKE)
+	is_error = (label == const.ERROR)
 	
 	response = {}
 	recordings = []
 	for (recording_id, recording_dict) in activity_recordings.items():
 		recording = Recording.from_dict(recording_dict)
-		if recording.is_mistake == is_mistake:
+		if recording.is_error == is_error:
 			recordings.append(recording)
 	
 	# 1. If any of the recordings are prepared by the user and recorded by the user, then return that recording
@@ -190,6 +189,7 @@ def update_recording(recording_id):
 	recording_dict = json.loads(request.data)
 	try:
 		recording = Recording.from_dict(recording_dict)
+		recording.update_parameters()
 		assert recording.id == recording_id
 		db_service.update_recording(recording)
 		return jsonify(recording.to_dict())
@@ -226,7 +226,7 @@ def fetch_stats(user_id):
 	# 1. Fetch all the recordings by a user
 	recordings = dict(db_service.fetch_user_recordings(user_id))
 	
-	recording_stats = {const.NUMBER_OF_RECORDINGS: 0, const.NUMBER_OF_MISTAKE_RECORDINGS: 0,
+	recording_stats = {const.NUMBER_OF_RECORDINGS: 0, const.NUMBER_OF_ERROR_RECORDINGS: 0,
 	                   const.NUMBER_OF_CORRECT_RECORDINGS: 0}
 	
 	user_recordings = []
@@ -234,32 +234,33 @@ def fetch_stats(user_id):
 		user_recording = Recording.from_dict(recording)
 		user_recordings.append(user_recording)
 		recording_stats[const.NUMBER_OF_RECORDINGS] += 1
-		if user_recording.is_mistake:
-			recording_stats[const.NUMBER_OF_MISTAKE_RECORDINGS] += 1
+		if user_recording.is_error:
+			recording_stats[const.NUMBER_OF_ERROR_RECORDINGS] += 1
 		else:
 			recording_stats[const.NUMBER_OF_CORRECT_RECORDINGS] += 1
 	
 	user_recording_stats = [recording.to_dict() for recording in user_recordings]
 	
-	mistake_stats = {}
-	for mistake_tag in MistakeTag.get_recording_mistake_tag_list():
-		mistake_stats[mistake_tag] = 0
+	error_stats = {}
+	for error_tag in ErrorTag.get_recording_error_tag_list():
+		error_stats[error_tag] = 0
 	
 	for recording in user_recordings:
-		if recording.is_mistake:
-			for mistake in recording.mistakes:
-				if mistake.tag in mistake_stats:
-					mistake_stats[mistake.tag] += 1
-				else:
-					mistake_stats[mistake.tag] = 1
-			for step in recording.steps:
-				for mistake in step.mistakes:
-					if mistake.tag in mistake_stats:
-						mistake_stats[mistake.tag] += 1
+		if recording.is_error:
+			if recording.errors is not None:
+				for error in recording.errors:
+					if error.tag in error_stats:
+						error_stats[error.tag] += 1
 					else:
-						mistake_stats[mistake.tag] = 1
+						error_stats[error.tag] = 1
+			for step in recording.steps:
+				for error in step.errors:
+					if error.tag in error_stats:
+						error_stats[error.tag] += 1
+					else:
+						error_stats[error.tag] = 1
 	
-	stats = {const.RECORDING_STATS: recording_stats, const.MISTAKE_STATS: mistake_stats, const.USER_RECORDING_STATS: user_recording_stats}
+	stats = {const.RECORDING_STATS: recording_stats, const.ERROR_STATS: error_stats, const.USER_RECORDING_STATS: user_recording_stats}
 	
 	return jsonify(stats)
 

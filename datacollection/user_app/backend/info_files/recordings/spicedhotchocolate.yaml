@@ -2,7 +2,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
@@ -11,7 +11,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
@@ -22,7 +22,7 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - recording_id: 4
@@ -30,7 +30,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -39,7 +39,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -49,14 +49,14 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - recording_id: 7
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
@@ -66,7 +66,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -74,7 +74,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
@@ -83,7 +83,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
@@ -94,7 +94,7 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - recording_id: 12
@@ -102,7 +102,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -110,7 +110,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
@@ -119,7 +119,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
@@ -128,7 +128,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
@@ -139,7 +139,7 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - recording_id: 17
@@ -148,14 +148,14 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - recording_id: 18
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
@@ -164,7 +164,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
@@ -175,7 +175,7 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - recording_id: 21
@@ -183,7 +183,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -192,7 +192,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -201,7 +201,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -210,7 +210,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -220,7 +220,7 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - errors:
@@ -231,7 +231,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - errors:
@@ -242,7 +242,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - errors:
@@ -254,7 +254,7 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
 - errors:
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -263,7 +263,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
@@ -275,11 +275,11 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - errors:
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
     tag: Missing Step
   - description: Add-Add 1-2 pieces of chocolate to the mug
     tag: Missing Step
@@ -293,7 +293,7 @@
 - errors:
   - description: Add-Add 1-2 pieces of chocolate to the mug
     tag: Missing Step
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
     tag: Missing Step
   recording_id: 32
   steps:
@@ -310,7 +310,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
 - errors:
@@ -323,14 +323,14 @@
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Mix-Mix the contents of the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - errors:
   - tag: Order Error
   recording_id: 35
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
@@ -342,7 +342,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Mix-Mix the contents of the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
@@ -356,7 +356,7 @@
   recording_id: 37
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Heat-Heat the contents of the mug for 1 minute and serve
   - description: Mix-Mix the contents of the mug
@@ -367,7 +367,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Mix-Mix the contents of the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -378,7 +378,7 @@
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Fill-Fill a microwave-safe mug with skimmed milk
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -390,7 +390,7 @@
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Fill-Fill a microwave-safe mug with skimmed milk
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - errors:
@@ -400,7 +400,7 @@
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Fill-Fill a microwave-safe mug with skimmed milk
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -412,7 +412,7 @@
   - tag: Order Error
   recording_id: 42
   steps:
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Mix-Mix the contents of the mug
@@ -423,7 +423,7 @@
   - tag: Order Error
   recording_id: 43
   steps:
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Mix-Mix the contents of the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
@@ -432,7 +432,7 @@
 - errors:
   - description: Microwave-Microwave the contents of the mug for 1 minute
     tag: Missing Step
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
     tag: Missing Step
   - tag: Order Error
   recording_id: 44
@@ -451,7 +451,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - errors:
@@ -461,7 +461,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -474,7 +474,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
 - errors:
@@ -485,7 +485,7 @@
   steps:
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -497,7 +497,7 @@
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
   - description: Add-Add a 1/5 teaspoon of cinnamon to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Add-Add 1-2 pieces of chocolate to the mug
   - description: Microwave-Microwave the contents of the mug for 1 minute
 - errors:
@@ -511,5 +511,5 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
   - description: Microwave-Microwave the contents of the mug for 1 minute
   - description: Add-Add 1-2 pieces of chocolate to the mug
-  - description: Add-Add 1 teaspoon of white sugar
+  - description: Add-Add 1 teaspoon of white sugar to the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
