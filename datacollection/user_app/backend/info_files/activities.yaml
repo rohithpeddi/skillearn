@@ -1,0 +1,2061 @@
+- id: 1
+  name: "Microwave Egg Sandwich"
+  category: "Non-Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Coat a 6-oz. ramekin cup with cooking spray."
+    - 1:
+      description: "Pour 1 egg into the ramekin cup."
+    - 2:
+      description: "Microwave the ramekin cup uncovered on high for 30 seconds and stir."
+    - 3:
+      description: "Continue to Microwave for 15-30 more seconds or until the egg is almost set."
+    - 4:
+      description: "Top with 1 tablespoon of salsa and sprinkle with 1 tablespoon of cheese."
+    - 5:
+      description: "Microwave just until cheese melts, about 10 seconds."
+    - 6:
+      description: "Cut the English muffin into two pieces with a knife."
+    - 7:
+      description: "Line the bottom of the English muffin with lettuce."
+    - 8:
+      description: "Place the egg from the cup over the lettuce and replace the top of the English muffin."
+  error_hints:
+    - 0:
+      tag: Missing Step
+      description: "The recipe does not specify to wipe off any excess cooking spray from the ramekin cup."
+    - 1:
+      tag: Measurement Error
+      description: "Using more than one egg, or using an egg that is too large or too small for the ramekin cup."
+    - 2:
+      tag: Timing Error
+      description: "Over- or under-microwaving the egg, resulting in it being overcooked or undercooked."
+    - 3:
+      tag: Measurement Error
+      description: "Using too much or too little salsa or cheese."
+    - 4:
+      tag: Timing Error
+      description: "Over- or under-microwaving the cheese, causing it to become too melted or not melted enough."
+    - 5:
+      tag: Technique Error
+      description: "Cutting the English muffin unevenly or too thick or too thin."
+    - 6:
+      tag: Preparation Error
+      description: "Not washing the lettuce before using it."
+    - 7:
+      tag: Order Error
+      description: "Placing the egg on top of the English muffin before adding the lettuce."
+    - 8:
+      tag: Technique Error
+      description: "Not properly placing the egg on top of the lettuce, causing it to fall off the English muffin."
+    - 9:
+      tag: Missing Step
+      description: "The recipe does not specify to toast the English muffin before assembling the sandwich, resulting in a soft and unappealing texture."
+  required_items:
+    - 0: "1 Cooking spray"
+    - 1: "1 Egg"
+    - 2: "1 tbsp salsa"
+    - 3: "1 English Muffin"
+    - 4: "Shredded Lettuce"
+    - 5: "1 tbsp shredded cheese"
+- id: 2
+  name: "Dressed Up Meatballs"
+  category: "Non-Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Cut 1/4 medium carrot into short, thin strips."
+    - 1:
+      description: "Peel one medium onion and cut it into two pieces."
+    - 2:
+      description: "Slice 1/8 medium onion."
+    - 3:
+      description: "Peel 1 garlic clove."
+    - 4:
+      description: "Cut and Mince 1/8 garlic clove."
+    - 5:
+      description: "Place 5 meatballs in a 3-qt Microwave-safe dish."
+    - 6:
+      description: "Top with the carrots, onion,  garlic and pepper."
+    - 7:
+      description: "Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl."
+    - 8:
+      description: "Pour the sauces over the meatballs."
+    - 9:
+      description: "Microwave, covered, on high for 5 minutes"
+    - 10:
+      description: "Stir the contents in the microwave with a spoon"
+    - 11:
+      description: "Microwave, covered, on high for 5 minutes"
+    - 12:
+      description: "Stir the contents in the microwave with a spoon."
+    - 13:
+      description: "Microwave for 1 more minute."
+  error_hints:
+    - 0:
+      tag: Missing Step
+      description: "Not cutting the carrot as directed or cutting too thick or too long strips."
+    - 1:
+      tag: Missing Step
+      description: "Not peeling the onion or cutting it into more than two pieces."
+    - 2:
+      tag: Missing Step
+      description: "Not slicing the onion or slicing it too thick or too thin."
+    - 3:
+      tag: Technique Error
+      description: "Cutting and mincing the garlic clove incorrectly or not mincing it finely enough."
+    - 4:
+      tag: Missing Step
+      description: "Not using the correct amount of meatballs or using a dish that is not microwave-safe."
+    - 5:
+      tag: Order Error
+      description: "Adding the ingredients in the wrong order or not evenly distributing them."
+    - 6:
+      tag: Measurement Error
+      description: "Not measuring the ingredients correctly or using the wrong amount of sauce."
+    - 7:
+      tag: Timing Error
+      description: "Overcooking or undercooking the meatballs or not cooking them for the correct amount of time."
+    - 8:
+      tag: Technique Error
+      description: "Not stirring the contents properly or using the wrong utensil."
+  required_items:
+    - 0: "1 medium carrot"
+    - 1: "1 medium onion"
+    - 2: "1 garlic clove"
+    - 3: "5 meatballs"
+    - 4: "1/4 cup sweet and sour sauce"
+    - 5: "pepper powder"
+    - 6: "1/2 tsp soy sauce"
+- id: 3
+  name: "Microwave Mug Pizza"
+  category: "Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Take a microwavable mug."
+    - 1:
+      description: "Measure 4 tablespoons of flour and add it to the mug."
+    - 2:
+      description: "Measure 1/8 teaspoon of baking powder and add it to the mug."
+    - 3:
+      description: "Measure 1/16 teaspoon of baking soda and add it to the mug."
+    - 4:
+      description: "Measure 1/8 teaspoon of salt and add it to the mug."
+    - 5:
+      description: "Stir the contents in the mug well."
+    - 6:
+      description: "Add in 3 tablespoons of milk and 1 tablespoon of olive oil to the mug."
+    - 7:
+      description: "Mix the contents of the mug thoroughly(There might be some lumps, but that is ok)."
+    - 8:
+      description: "Take 1 tablespoon of marinara sauce and spread it around the surface of the batter."
+    - 9:
+      description: "Sprinkle 1 generous tablespoon of mozzarella cheese on top of the sauce."
+    - 10:
+      description: "Sprinkle dried Italian herbs inside the mug."
+    - 11:
+      description: "Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling."
+  error_hints:
+    - 0:
+      tag: Temperature Error
+      description: "Not using a microwave-safe mug."
+    - 1:
+      tag: Measurement Error
+      description: "Not measuring the flour correctly or using the wrong amount."
+    - 2:
+      tag: Measurement Error
+      description: "Not measuring the baking powder correctly or using the wrong amount."
+    - 3:
+      tag: Measurement Error
+      description: "Not measuring the baking soda correctly or using the wrong amount."
+    - 4:
+      tag: Measurement Error
+      description: "Not measuring the salt correctly or using the wrong amount."
+    - 5:
+      tag: Technique Error
+      description: "Not stirring the contents properly or not using the correct utensil."
+    - 6:
+      tag: Technique Error
+      description: "Not mixing the ingredients properly or using the wrong utensil."
+    - 7:
+      tag: Order Error
+      description: "Adding the sauce in the wrong order or not spreading it evenly."
+    - 8:
+      tag: Measurement Error
+      description: "Not measuring the cheese correctly or using the wrong amount."
+    - 9:
+      tag: Measurement Error
+      description: "Not measuring the herbs correctly or using the wrong amount."
+    - 10:
+      tag: Timing Error
+      description: "Overcooking or undercooking the dish or not cooking it for the correct amount of time."
+  required_items:
+    - 0: "4 tbsp flour"
+    - 1: "1/8 tsp baking powder"
+    - 2: "1/16 tsp baking soda"
+    - 3: "1/8 tsp salt"
+    - 4: "3 tbsp milk"
+    - 5: "1 tbsp olive oil"
+    - 6: "1 tbsp marinara sauce"
+    - 7: "1 tbsp mozzarella cheese"
+    - 8: "Dried italian herbs"
+- id: 4
+  name: "Ramen"
+  category: "Non-Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Remove the noodles from the package(Break Noodles / Keep them as a block)."
+    - 1:
+      description: "Peel and Chop 1 garlic clove on a cutting board."
+    - 2:
+      description: "Peel 1 medium onion and slice 1/4 medium onion into pieces."
+    - 3:
+      description: "Put all the Vegetables in a microwave-safe bowl."
+    - 4:
+      description: "Add the noodles to the bowl and cover them with water."
+    - 5:
+      description: "Cover with a lid (or paper towel) to prevent splattering."
+    - 6:
+      description: "Microwave the ramen for 4 minutes."
+    - 7:
+      description: "Add basil and cilantro to the bowl."
+    - 8:
+      description: "Let the noodles sit for about 1 minute after the microwave stops."
+    - 9:
+      description: "Mix in the flavour packet."
+    - 10:
+      description: "Stir noodles with a spoon or fork until the flavouring dissolves."
+  error_hints:
+    - 0:
+      tag: Missing Step
+      description: "Not breaking the noodles or keeping them as a block as directed."
+    - 1:
+      tag: Technique Error
+      description: "Not chopping the garlic clove correctly or not mincing it finely enough."
+    - 2:
+      tag: Technique Error
+      description: "Not slicing the onion correctly or not cutting it into pieces of the correct size."
+    - 3:
+      tag: Preparation Error
+      description: "Not washing or preparing the vegetables correctly."
+    - 4:
+      tag: Measurement Error
+      description: "Not adding the correct amount of water or adding too much water."
+    - 5:
+      tag: Timing Error
+      description: "Overcooking or undercooking the noodles or not cooking them for the correct amount of time."
+    - 6:
+      tag: Missing Step
+      description: "Not adding the herbs or adding the wrong herbs."
+    - 7:
+      tag: Timing Error
+      description: "Not allowing the noodles to sit for the correct amount of time or letting them sit for too long."
+    - 8:
+      tag: Order Error
+      description: "Not adding the flavour packet at the correct time or in the correct order."
+    - 9:
+      tag: Technique Error
+      description: "Not stirring the noodles properly or using the wrong utensil."
+  required_items:
+    - 0: "1 ramen noodle packet"
+    - 1: "1 garlic clove"
+    - 2: "1 medium onion"
+- id: 5
+  name: "Coffee"
+  category: "Veg"
+  activity_type: "Nothing"
+  steps:
+    - 0:
+      description: "Measure 12 ounces of cold water and transfer it to a kettle."
+    - 1:
+      description: "Boil the water."
+    - 2:
+      description: "While the water is boiling, assemble the filter cone."
+    - 3:
+      description: "Place the dripper on top of a coffee mug."
+    - 4:
+      description: "Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle."
+    - 5:
+      description: "Place the paper filter in the dripper and spread open to create a cone."
+    - 6:
+      description: "Weigh the coffee beans (8 oz – 12 oz)."
+    - 7:
+      description: "Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds."
+    - 8:
+      description: "Transfer the grounds to the filter cone."
+    - 9:
+      description: "Once the water has boiled, check the temperature of the water(The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius)."
+    - 10:
+      description: "If the water is too hot, let it cool briefly."
+    - 11:
+      description: "Pour a small amount of water into the filter to wet the grounds."
+    - 12:
+      description: "Wait about 30 seconds for the coffee to bloom(You will see small bubbles or foam on the coffee grounds during this step)."
+    - 13:
+      description: "Slowly pour the rest of the water over the grounds in a circular motion."
+    - 14:
+      description: "Do not overfill beyond the top of the paper filter."
+    - 15:
+      description: "Let the coffee drain completely into the mug before removing the dripper."
+    - 16:
+      description: "Discard the paper filter and coffee grounds."
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "Not measuring the water correctly or using the wrong amount of water."
+    - 1:
+      tag: Timing Error
+      description: "Overboiling or underboiling the water or not boiling it for the correct amount of time"
+    - 2:
+      tag: Order Error
+      description: "Not assembling the filter cone at the correct time or in the correct order."
+    - 3:
+      tag: Technique Error
+      description: "Not placing the dripper correctly or using the wrong mug."
+    - 4:
+      tag: Technique Error
+      description: "Not folding the paper filter correctly or using the wrong type of filter."
+    - 5:
+      tag: Technique Error
+      description: "Not placing the filter correctly or not spreading it open properly."
+    - 6:
+      tag: Measurement Error
+      description: "Not measuring the coffee beans correctly or using the wrong amount."
+    - 7:
+      tag: Technique Error
+      description: "Not grinding the coffee beans correctly or grinding them for too long or too short a time."
+    - 8:
+      tag: Technique Error
+      description: "Not transferring the grounds correctly or spilling them."
+    - 9:
+      tag: Temperature Error
+      description: "Not checking the temperature of the water or using water that is too hot or too cold."
+    - 10:
+      tag: Technique Error
+      description: "Pouring too much or too little water or not pouring it correctly."
+    - 11:
+      tag: Timing Error
+      description: "Not waiting for the coffee to bloom for the correct amount of time or waiting for too long."
+    - 12:
+      tag: Technique Error
+      description: "Pouring the water too quickly or not pouring it in a circular motion."
+    - 13:
+      tag: Timing Error
+      description: "Removing the dripper too soon or not letting the coffee drain completely."
+    - 14:
+      tag: Missing Step
+      description: "Forgetting to discard the paper filter and coffee grounds or discarding them incorrectly."
+  required_items:
+    - 0: "12 ounces water"
+    - 1: "1 filter cone"
+    - 2: "12 oz coffee beans"
+- id: 6
+  name: "Apple Crisp in a Mug"
+  category: "Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Combine 1 tablespoon of softened butter and 1 tablespoon of white sugar in a bowl using a spoon."
+    - 1:
+      description: "Add 2 tablespoons of flour to the bowl."
+    - 2:
+      description: "Add 2 tablespoons oats to the bowl."
+    - 3:
+      description: "Add 1/2 teaspoon salt to the bowl."
+    - 4:
+      description: "Add 4 dashes of ground cinnamon to the bowl."
+    - 5:
+      description: "Mix the crumble mixture well."
+    - 6:
+      description: "Spray oil on a microwave-safe cup."
+    - 7:
+      description: "Flatten 1/2 the crumble mixture into the bottom to form a crust."
+    - 8:
+      description: "Microwave crust for 30 seconds on high."
+    - 9:
+      description: "Cut 1/2 apple cored into thin slices and add them on top of the crust."
+    - 10:
+      description: "Add 1 tablespoon of brown sugar to the crust."
+    - 11:
+      description: "Pour the remaining 1/2 the crumble mixture on top."
+    - 12:
+      description: "Microwave for 1 minute and 30 seconds."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "Not softening the butter or not measuring the ingredients correctly."
+    - 1:
+      tag: Measurement Error
+      description: "Not measuring the ingredients correctly or using the wrong amount."
+    - 2:
+      tag: Technique Error
+      description: "Not mixing the crumble mixture properly or using the wrong utensil."
+    - 3:
+      tag: Technique Error
+      description: "Not spraying the oil evenly or using the wrong type of oil."
+    - 4:
+      tag: Technique Error
+      description: "Not flattening the crumble mixture evenly or not microwaving it for the correct amount of time."
+    - 5:
+      tag: Preparation Error
+      description: "Not coring the apple correctly or not slicing it into thin slices."
+    - 6:
+      tag: Measurement Error
+      description: "Not measuring the brown sugar correctly or using the wrong amount."
+    - 7:
+      tag: Order Error
+      description: "Not adding the crumble mixture at the correct time or in the correct order."
+    - 8:
+      tag: Timing Error
+      description: "Overcooking or undercooking the crumble or not microwaving it for the correct amount of time."
+  required_items:
+    - 0: "1 tbsp softened butter"
+    - 1: "1 tbsp white sugar"
+    - 2: "2 tbsp flour"
+    - 3: "2 tbsp oats"
+    - 4: "1/2 tsp salt"
+    - 5: "4 dashes cinnamon"
+    - 6: "cooking spray"
+    - 7: "1 apple"
+- id: 7
+  name: "Breakfast Burritos"
+  category: "Non-Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Extract the contents of an egg and add it to a microwave-safe bowl."
+    - 1:
+      description: "Whisk the egg."
+    - 2:
+      description: "Microwave for 3 minutes, stirring in between."
+    - 3:
+      description: "Add 1 tbsp salsa to the bowl."
+    - 4:
+      description: "Sprinkle oregano in the bowl."
+    - 5:
+      description: "Add 1/2 tbsp sweet and sour sauce to the bowl."
+    - 6:
+      description: "Mix the contents of the bowl well."
+    - 7:
+      description: "Place 8 inch tortilla on a cutting board."
+    - 8:
+      description: "Pour egg mixture on top of the tortilla."
+    - 9:
+      description: "Sprinkle 1 tbsp shredded cheddar cheese on top of the egg."
+    - 10:
+      description: "Roll the tortilla from one end to another into a log shape, about 1.5 inches thick."
+    - 11:
+      description: "Roll it tight enough to prevent gaps but not so tight that the filling leaks."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "Not cracking the egg correctly or adding any eggshells to the bowl."
+    - 1:
+      tag: Timing Error
+      description: "Overcooking or undercooking the egg or not microwaving it for the correct amount of time."
+    - 2:
+      tag: Measurement Error
+      description: "Not measuring the ingredients correctly or using the wrong amount."
+    - 3:
+      tag: Technique Error
+      description: "Not mixing the ingredients properly or using the wrong utensil."
+    - 4:
+      tag: Technique Error
+      description: "Not placing the tortilla correctly or using the wrong type of tortilla."
+    - 5:
+      tag: Order Error
+      description: "Not pouring the egg mixture at the correct time or in the correct order."
+    - 6:
+      tag: Measurement Error
+      description: "Not measuring the cheese correctly or using the wrong amount."
+    - 7:
+      tag: Technique Error
+      description: "Not rolling the tortilla evenly or tightly enough or rolling it too tightly."
+    - 8:
+      tag: Technique Error
+      description: "Not rolling the tortilla correctly or not sealing it properly."
+  required_items:
+    - 0: "1 egg"
+    - 1: "1 tbsp salsa"
+    - 2: "oregano"
+    - 3: "1/2 tbsp sweet and sour sauce"
+    - 4: "8 inch tortilla"
+    - 5: "1 tbsp shredded cheddar cheese"
+- id: 8
+  name: "Spiced Hot Chocolate"
+  category: "Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Fill a microwave-safe mug with skimmed milk."
+    - 1:
+      description: "Microwave the contents of the mug for 1 minute."
+    - 2:
+      description: "Add 1-2 pieces of chocolate to the mug."
+    - 3:
+      description: "Add a 1/5 teaspoon of cinnamon to the mug."
+    - 4:
+      description: "Add 1 teaspoon of white sugar."
+    - 5:
+      description: "Mix the contents of the mug."
+    - 6:
+      description: "Heat the contents of the mug for 1 minute and serve."
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "Not measuring the correct amount of milk or using the wrong type of milk."
+    - 1:
+      tag: Timing Error
+      description: "Overheating or underheating the milk or not microwaving it for the correct amount of time."
+    - 2:
+      tag: Measurement Error
+      description: "Not measuring the ingredients correctly or using the wrong amount."
+    - 3:
+      tag: Technique Error
+      description: "Not mixing the ingredients properly or using the wrong utensil."
+    - 4:
+      tag: Timing Error
+      description: "Overheating or underheating the contents of the mug or not microwaving it for the correct amount of time."
+  required_items:
+    - 0: "skimmed milk"
+    - 1: "2 chocolate chips"
+    - 2: "1/5 tsp cinnamon"
+    - 3: "1 tsp white sugar"
+- id: 9
+  name: "Microwave French Toast"
+  category: "Non-Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "In a large mug, melt 1 tablespoon of butter in the microwave for about 30 seconds."
+    - 1:
+      description: "Roll the butter around in the cup to coat it."
+    - 2:
+      description: "In the mug, whisk one egg with a fork until well blended."
+    - 3:
+      description: "Sprinkle 1/4 teaspoon cinnamon over the egg."
+    - 4:
+      description: "Add 1/4 teaspoon vanilla extract and stir again."
+    - 5:
+      description: "Cut or tear 2 slices of bread into bite-size pieces and add to the egg mixture in the mug, pressing the bread down into the egg."
+    - 6:
+      description: "Microwave on high for 90 seconds until the egg is cooked through."
+    - 7:
+      description: "Put the cup's contents on a plate, cut it up, and serve."
+  error_hints:
+    - 0:
+      tag: Temperature Error
+      description: "Overheating or underheating the butter or not microwaving it for the correct amount of time."
+    - 1:
+      tag: Technique Error
+      description: "Not coating the cup evenly or using the wrong type of cup."
+    - 2:
+      tag: Preparation Error
+      description: "Not cracking the egg correctly or adding any eggshells to the mug."
+    - 3:
+      tag: Measurement Error
+      description: "Not measuring the ingredients correctly or using the wrong amount."
+    - 4:
+      tag: Technique Error
+      description: "Not cutting the bread into the right size or shape or not adding it at the right time."
+    - 5:
+      tag: Timing Error
+      description: "Overcooking or undercooking the egg or not microwaving it for the correct amount of time."
+    - 6:
+      tag: Order Error
+      description: "Not transferring the contents of the cup to a plate at the right time or in the right order."
+  required_items:
+    - 0: "1 tbsp butter"
+    - 1: "1 egg"
+    - 2: "1/4 tsp cinnamon"
+    - 3: "1/4 tsp vanilla extract"
+    - 4: "2 bread slices"
+- id: 10
+  name: "Pinwheels"
+  category: "Veg"
+  activity_type: "Nothing"
+  steps:
+    - 0:
+      description: "Place 8-inch flour tortilla on cutting board."
+    - 1:
+      description: "Use a butter knife to scoop nut butter from the jar."
+    - 2:
+      description: "Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges."
+    - 3:
+      description: "Clean the knife by wiping it with a paper towel."
+    - 4:
+      description: "Use the knife to scoop jelly from the jar."
+    - 5:
+      description: "Spread jelly over the nut butter."
+    - 6:
+      description: "Clean the knife by wiping with a paper towel."
+    - 7:
+      description: "Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick."
+    - 8:
+      description: "Roll it tight enough to prevent gaps, but not so tight that the filling leaks."
+    - 9:
+      description: "Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart."
+    - 10:
+      description: "Trim the ends of the tortilla roll with the butter knife, leaving ½ inch margin between the last toothpick and the end of the roll."
+    - 11:
+      description: "Discard ends."
+    - 12:
+      description: "Slide floss under the tortilla, perpendicular to the length of the roll."
+    - 13:
+      description: "Place the floss halfway between two toothpicks."
+    - 14:
+      description: "Cross the floss's two ends over the tortilla roll's top."
+    - 15:
+      description: "Holding one end of the floss in each hand, pull the floss ends in opposite directions to slice."
+    - 16:
+      description: "Continue slicing with floss to create 1 more pinwheel."
+    - 17:
+      description: "Continue slicing with floss to create 1 more pinwheel."
+    - 18:
+      description: "Continue slicing with floss to create 1 more pinwheel."
+    - 19:
+      description: "Place the pinwheels on a plate."
+  error_hints:
+    - 0:
+      tag: Technique Error
+      description: "Not spreading the nut butter evenly or leaving too much or too little space at the edges."
+    - 1:
+      tag: Preparation Error
+      description: "Not properly cleaning the knife or not washing hands before handling food."
+    - 2:
+      tag: Technique Error
+      description: "Not spreading the jelly evenly or using too much or too little."
+    - 3:
+      tag: Technique Error
+      description: "Not rolling the tortilla evenly or tightly enough or rolling it too tightly."
+    - 4:
+      tag: Technique Error
+      description: "Not securing the roll properly or using too many or too few toothpicks."
+    - 5:
+      tag: Technique Error
+      description: "Not using the floss correctly or cutting unevenly."
+    - 6:
+      tag: Missing Step
+      description: "Not specifying how many pinwheels should be made."
+    - 7:
+      tag: Order Error
+      description: "Not placing the pinwheels on the plate at the right time or in the right order."
+  required_items:
+    - 0: "8 inch tortilla"
+    - 1: "Butter"
+    - 2: "Jam"
+    - 3: "5 toothpicks"
+- id: 11
+  name: "Garden Fresh Sweet Corn Salsa"
+  category: "Veg"
+  activity_type: "Nothing"
+  steps:
+    - 0:
+      description: "Dice 1/4 cup Cilantro and add it to a bowl."
+    - 1:
+      description: "Slice 1 garlic clove and add it to the bowl."
+    - 2:
+      description: "Slice 1 jalapeno and add it to the bowl."
+    - 3:
+      description: "Extract lime juice from 1/2 lime and add it to the bowl."
+    - 4:
+      description: "Peel one onion and cut it into two pieces."
+    - 5:
+      description: "Slice 1/2 onion into pieces and add it to the bowl."
+    - 6:
+      description: "Rinse the tomatoes."
+    - 7:
+      description: "Take 1/2 tomato and chop it into small pieces and add it to the bowl."
+    - 8:
+      description: "Measure 1/4 teaspoon salt and add it to the bowl."
+    - 9:
+      description: "Cut 3/4 cup of corn from the cob."
+    - 10:
+      description: "Add the corn to the bowl."
+    - 11:
+      description: "Mix all the ingredients in the bowl and serve."
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "Not measuring the cilantro correctly or using the wrong amount."
+    - 1:
+      tag: Preparation Error
+      description: "Not peeling the garlic or adding any garlic skin to the bowl."
+    - 2:
+      tag: Technique Error
+      description: "Not slicing the jalapeno evenly or removing the seeds and membranes if desired."
+    - 3:
+      tag: Measurement Error
+      description: "Not extracting the right amount of lime juice or using a different type of citrus."
+    - 4:
+      tag: Preparation Error
+      description: "Not peeling the onion or cutting it evenly, or not using the correct amount."
+    - 5:
+      tag: Technique Error
+      description: "Not chopping the tomato evenly or using the wrong type of tomato."
+    - 6:
+      tag: Measurement Error
+      description: "Not measuring the salt correctly or using too much or too little."
+    - 7:
+      tag: Technique Error
+      description: "Not cutting the corn evenly or removing any kernels or silk that might be left."
+    - 8:
+      tag: Order Error
+      description: "Not adding the ingredients to the bowl in the right order or not mixing them properly before serving."
+  required_items:
+    - 0: "1/4 cup cilantro"
+    - 1: "1 garlic clove"
+    - 2: "1 jalapeno"
+    - 3: "1 lime"
+    - 4: "1 onion"
+    - 5: "1 tomato"
+    - 6: "1/4 tsp salt"
+    - 7: "1 corn cob"
+- id: 12
+  name: "Tomato Mozzarella Salad"
+  category: "Veg"
+  activity_type: "Nothing"
+  steps:
+    - 0:
+      description: "Rinse a tomato and gently dry it with a tea towel."
+    - 1:
+      description: "Slice one tomato into about ½ inch thick slices."
+    - 2:
+      description: "Place the thick slices of tomatoes on a platter, ensuring they only make a single layer."
+    - 3:
+      description: "Season the tomato slices with salt."
+    - 4:
+      description: "Sprinkle mozzarella cheese on top of the tomato throughout the platter."
+    - 5:
+      description: "Garnish with seasoning."
+    - 6:
+      description: "Season with ¼ teaspoon black pepper."
+    - 7:
+      description: "Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter."
+  error_hints:
+    - 0:
+      tag: Missing Step
+      description: "Not ensuring that the tomato is fully dried before slicing."
+    - 1:
+      tag: Technique Error
+      description: "Not slicing the tomato evenly or making the slices too thick or thin."
+    - 2:
+      tag: Technique Error
+      description: "Not placing the tomato slices evenly or creating multiple layers."
+    - 3:
+      tag: Measurement Error
+      description: "Using too much or too little salt or not seasoning evenly."
+    - 4:
+      tag: Measurement Error
+      description: "Using too much or too little cheese or not distributing it evenly.Using too much or too little cheese or not distributing it evenly."
+    - 5:
+      tag: Missing Step
+      description: "Not specifying which seasoning to use."
+    - 6:
+      tag: Measurement Error
+      description: "Using too much or too little pepper or not seasoning evenly."
+    - 7:
+      tag: Measurement Error
+      description: "Using too much or too little oil or not distributing it evenly."
+    - 8:
+      tag: Timing Error
+      description: "Not serving the dish immediately after preparation, which can result in the tomato slices becoming soggy."
+  required_items:
+    - 0: "1 tomato"
+    - 1: "salt"
+    - 2: "Mozzarella cheese"
+    - 3: "Italian seasoning"
+    - 4: "1/4 tsp pepper"
+    - 5: "1 tbsp olive oil"
+- id: 13
+  name: "Butter corn Cup"
+  category: "Veg"
+  activity_type: "Microwave"
+  steps:
+    - 0:
+      description: "Measure 2 cups of frozen corn."
+    - 1:
+      description: "Thaw the frozen corn by putting it in a sieve and running it under cold water."
+    - 2:
+      description: "Add the corn into a microwave-safe bowl."
+    - 3:
+      description: "Microwave the corn for 2 minutes."
+    - 4:
+      description: "Add 1 teaspoon of butter and 1 teaspoon of pepper powder to the bowl and then stir."
+    - 5:
+      description: "Microwave the corn for 3 more minutes."
+    - 6:
+      description: "Add 1 teaspoon salt to the bowl."
+    - 7:
+      description: "Extract lime juice from 1/3 lime and add it to the bowl."
+    - 8:
+      description: "Mix the contents of the bowl well."
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "The person might measure more or less than 2 cups of frozen corn."
+    - 1:
+      tag: Technique Error
+      description: "The person might not run the frozen corn under cold water for long enough to fully thaw it."
+    - 2:
+      tag: Temperature Error
+      description: "The person might not use a microwave-safe bowl, which could cause it to break in the microwave."
+    - 3:
+      tag: Timing Error
+      description: "The person might microwave the corn for too long or too little, which could result in overcooked or undercooked corn."
+    - 4:
+      tag: Measurement Error
+      description: "The person might add more or less than 1 teaspoon of butter and/or pepper powder to the bowl."
+    - 5:
+      tag: Timing Error
+      description: "The person might microwave the corn for too long or too little, which could result in overcooked or undercooked corn."
+    - 6:
+      tag: Measurement Error
+      description: "The person might add more or less than 1 teaspoon of salt to the bowl."
+    - 7:
+      tag: Technique Error
+      description: "The person might not extract the lime juice properly, resulting in too much or too little lime juice added to the bowl."
+    - 8:
+      tag: Missing Step
+      description: "The person might forget to add the lime juice to the bowl."
+    - 9:
+      tag: Technique Error
+      description: "The person might not mix the contents of the bowl well enough, resulting in uneven seasoning of the corn."
+  required_items:
+    - 0: "2 cups frozen corn"
+    - 1: "1 tsp butter"
+    - 2: "1 tsp pepper"
+    - 3: "1 tsp salt"
+    - 4: "1 Lime"
+- id: 14
+  name: "Spicy Masala Bread"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Chop 1 green chilli."
+    - 1:
+      description: "Chop 1/2 medium onion."
+    - 2:
+      description: "Chop 1 medium tomato."
+    - 3:
+      description: "Chop 3 tbsp coriander leaves."
+    - 4:
+      description: "Cut 2 slices of bread into bite-size pieces."
+    - 5:
+      description: "Heat a pan with 1 tbsp oil."
+    - 6:
+      description: "Add 1/2 tsp jeera and wait till it sizzles."
+    - 7:
+      description: "Add chopped chillies and Onions and Wait until the onion turns golden."
+    - 8:
+      description: "Add 1 teaspoon of ginger garlic paste."
+    - 9:
+      description: "Saute until the raw smell goes off."
+    - 10:
+      description: "Add chopped tomatoes."
+    - 11:
+      description: "Add 1 tsp salt, 3/4 tsp chilli powder, and 1/2 tsp garam masala."
+    - 12:
+      description: "Mix all ingredients and cook until the masala leaves the pan."
+    - 13:
+      description: "Pour 3 tbsp of water and cook further until water evaporates."
+    - 14:
+      description: "Transfer the bread slices and turn off the stove."
+    - 15:
+      description: "Gently mix the bread and mixture."
+    - 16:
+      description: "Avoid overmixing as the bread gets mushy."
+    - 17:
+      description: "Sprinkle 3 tbsp chopped coriander leaves."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "The person might not remove the seeds from the green chilli, which could make the dish spicier than intended."
+    - 1:
+      tag: Preparation Error
+      description: "The person might chop the onion too finely or too coarsely, which could affect the texture of the dish."
+    - 2:
+      tag: Measurement Error
+      description: "The person might chop more or less than 1/2 medium onion."
+    - 3:
+      tag: Preparation Error
+      description: "The person might chop the tomato too finely or too coarsely, which could affect the texture of the dish."
+    - 4:
+      tag: Measurement Error
+      description: " The person might chop more or less than 1 medium tomato."
+    - 5:
+      tag: Preparation Error
+      description: "The person might not chop the coriander leaves finely enough, resulting in larger chunks in the dish."
+    - 6:
+      tag: Measurement Error
+      description: "The person might chop more or less than 3 tbsp of coriander leaves."
+    - 7:
+      tag: Technique Error
+      description: "The person might not cut the bread slices into bite-size pieces, resulting in unevenly sized pieces in the dish."
+    - 8:
+      tag: Temperature Error
+      description: "The person might not heat the pan to the right temperature, resulting in the ingredients not cooking properly."
+    - 9:
+      tag: Timing Error
+      description: "The person might not wait until the oil is hot enough before adding the jeera, resulting in the jeera not sizzling properly."
+    - 10:
+      tag: Preparation Error
+      description: "The person might not use fresh ginger and garlic to make the paste, resulting in a less flavorful dish."
+    - 11:
+      tag: Measurement Error
+      description: "The person might add more or less than 1 teaspoon of ginger garlic paste."
+    - 12:
+      tag: Timing Error
+      description: " The person might not wait until the raw smell of the ginger garlic paste goes off before adding the tomatoes, resulting in an undercooked taste."
+    - 13:
+      tag: Measurement Error
+      description: "The person might add more or less than 1 tsp salt, 3/4 tsp chilli powder, and/or 1/2 tsp garam masala."
+    - 14:
+      tag: Timing Error
+      description: "The person might not cook the masala until it leaves the pan, resulting in an undercooked taste."
+    - 15:
+      tag: Preparation Error
+      description: "The person might not mix the ingredients evenly, resulting in uneven seasoning."
+    - 16:
+      tag: Measurement Error
+      description: "The person might add more or less than 3 tbsp of water."
+    - 17:
+      tag: Technique Error
+      description: "The person might not mix the bread and mixture gently enough, resulting in the bread getting mushy."
+    - 18:
+      tag: Missing Step
+      description: "The person might forget to turn off the stove."
+    - 19:
+      tag: Measurement Error
+      description: " The person might sprinkle more or less than 3 tbsp chopped coriander leaves."
+  required_items:
+    - 0: "1 green chilli"
+    - 1: "3 tbsp coriander"
+    - 2: "2 bread slices"
+    - 3: "1 tbsp oil"
+    - 4: "1 onion"
+    - 5: "1 tomato"
+    - 6: "1/2 tsp jeera"
+    - 7: "1 tsp ginger garlic paste"
+    - 8: "1 tsp salt"
+    - 9: "3/4 tsp chilli powder"
+    - 10: "1/2 tsp garam masala powder"
+    - 11: "3 tbsp water"
+- id: 15
+  name: "Tomato Chutney"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Peel 4 large garlic cloves."
+    - 1:
+      description: "mince the garlic."
+    - 2:
+      description: "Take 1 tomato."
+    - 3:
+      description: "Chop them up roughly and puree them without any water."
+    - 4:
+      description: "Heat 3 tbsp oil in a pan over medium heat."
+    - 5:
+      description: "Add 1/4 tsp mustard and 1/2 tsp cumin seeds."
+    - 6:
+      description: "When the seeds begin to sizzle, add minced garlic."
+    - 7:
+      description: "Lower the heat."
+    - 8:
+      description: "Saute the garlic for 2-3 minutes."
+    - 9:
+      description: "Add 2 tbsp red chili powder and mix well."
+    - 10:
+      description: "Add tomato puree and 1/2 tsp salt."
+    - 11:
+      description: "Mix well."
+    - 12:
+      description: "Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick."
+    - 13:
+      description: "Take the pan off the heat."
+    - 14:
+      description: "Allow the chutney to cool down before serving."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "The recipe doesn't specify if the tomato should be peeled or not, so the cook may leave the skin on or peel it off."
+    - 1:
+      tag: Technique Error
+      description: "The recipe doesn't specify how finely the tomato should be chopped, so the cook may chop it too finely or leave large chunks."
+    - 2:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 3:
+      tag: Technique Error
+      description: "The recipe doesn't specify the size of the pan, so the cook may use a pan that is too large or too small for the amount of ingredients."
+    - 4:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the mustard and cumin seeds should be whole or ground, so the cook may use the wrong type."
+    - 5:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 6:
+      tag: Technique Error
+      description: "The recipe doesn't specify how finely the garlic should be minced, so the cook may chop it too finely or leave large chunks."
+    - 7:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 8:
+      tag: Technique Error
+      description: "The recipe doesn't specify how well the garlic should be sauteed, so the cook may undercook or overcook it."
+    - 9:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the exact amount of red chili powder, so the cook may use too much or too little."
+    - 10:
+      tag: Technique Error
+      description: "The recipe doesn't specify how well the red chili powder should be mixed with the garlic, so the cook may not mix it well enough."
+    - 11:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 12:
+      tag: Technique Error
+      description: "The recipe doesn't specify how long the mixture should be simmered, so the cook may simmer it for too long or not long enough."
+    - 13:
+      tag: Temperature Error
+      description: "The recipe doesn't specify how long to let the chutney cool down, so the cook may serve it too hot."
+  required_items:
+    - 0: "4 garlic cloves"
+    - 1: "1 tomato"
+    - 2: "2 tbsp red chilli powder"
+    - 3: "3 tbsp oil"
+    - 4: "1/4 tsp mustard seeds"
+    - 5: "1/2 tsp cumin seeds"
+    - 6: "1/2 tsp salt"
+- id: 16
+  name: "Scrambled Eggs"
+  category: "Non-Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Chop 1/4 medium onion."
+    - 1:
+      description: "Chop 1/4 tomato."
+    - 2:
+      description: "Chop 1 green chili."
+    - 3:
+      description: "Peel 2 garlic cloves."
+    - 4:
+      description: "Mince peeled garlic cloves."
+    - 5:
+      description: "Chop 1 tbsp cilantro."
+    - 6:
+      description: "Heat 2 tbsp oil in a heavy-bottomed or nonstick pan, and add chopped onions and 1/3 tsp salt."
+    - 7:
+      description: "Sauté the onions on medium heat until they are soft and translucent."
+    - 8:
+      description: "Add garlic, and chili to the pan."
+    - 9:
+      description: "Cook for 1 minute, mixing everything."
+    - 10:
+      description: "Add tomatoes and 1/8 tsp of turmeric to the pan."
+    - 11:
+      description: "Cook covered for 1 minute or until the tomatoes soften."
+    - 12:
+      description: "Whisk one egg with 1 tbsp milk and 1/3 tsp salt."
+    - 13:
+      description: "Slowly pour the whisked eggs into the pan."
+    - 14:
+      description: "Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked."
+    - 15:
+      description: "Garnish with 1 tbsp chopped cilantro and serve."
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "The recipe doesn't specify what size medium is, so the cook may use an onion that is too large or too small."
+    - 1:
+      tag: Technique Error
+      description: "The recipe doesn't specify how finely the onion should be chopped, so the cook may chop it too finely or leave large chunks."
+    - 2:
+      tag: Measurement Error
+      description: "The recipe doesn't specify what size quarter is, so the cook may use too much or too little tomato."
+    - 3:
+      tag: Technique Error
+      description: "The recipe doesn't specify how finely the tomato should be chopped, so the cook may chop it too finely or leave large chunks."
+    - 4:
+      tag: Measurement Error
+      description: "The recipe doesn't specify what size one is, so the cook may use a chili that is too large or too small."
+    - 5:
+      tag: Technique Error
+      description: "The recipe doesn't specify how finely the chili should be chopped, so the cook may chop it too finely or leave large chunks."
+    - 6:
+      tag: Preparation Error
+      description: "The recipe doesn't specify if the garlic should be crushed, chopped, or minced, so the cook may prepare it incorrectly."
+    - 7:
+      tag: Measurement Error
+      description: "The recipe doesn't specify how much turmeric to use, so the cook may use too much or too little."
+    - 8:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the tomatoes, so the cook may overcook or undercook them."
+    - 9:
+      tag: Measurement Error
+      description: "The recipe doesn't specify how much milk to use, so the cook may use too much or too little."
+    - 10:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 11:
+      tag: Technique Error
+      description: "The recipe doesn't specify how often to mix the eggs, so the cook may not mix them enough or mix them too much."
+    - 12:
+      tag: Measurement Error
+      description: "The recipe doesn't specify how much cilantro to use, so the cook may use too much or too little."
+  required_items:
+    - 0: "1 egg"
+    - 1: "1 tbsp milk"
+    - 2: "1 onion"
+    - 3: "2/3 tsp salt"
+    - 4: "2 teaspoons ginger grated"
+    - 5: "2 garlic cloves"
+    - 6: "1/8 tsp turmeric"
+    - 7: "1 green chili"
+    - 8: "1 tomato"
+    - 9: "3 scallions"
+    - 10: "1 teaspoon garam masala"
+    - 11: "1 tbsp cilantro"
+    - 12: "2 tbsp oil"
+- id: 17
+  name: "Cucumber Raita"
+  category: "Veg"
+  activity_type: "Nothing"
+  steps:
+    - 0:
+      description: "In a mixing bowl, whip 1 cup of chilled curd until smooth."
+    - 1:
+      description: "Use fresh homemade or packaged curd."
+    - 2:
+      description: "Avoid using sour-tasting curd."
+    - 3:
+      description: "Rinse, peel and grate 1 medium-sized cucumber(You need 1 cup of grated cucumber)."
+    - 4:
+      description: "Add the cucumber to the whisked curd."
+    - 5:
+      description: "Add 1 teaspoon of cumin powder, ½ teaspoon of chaat masala powder, ¼ teaspoon of red chilli powder and 1/4 teaspoon salt."
+    - 6:
+      description: "Lastly, add 1 tablespoon of chopped coriander leaves (cilantro)."
+    - 7:
+      description: "Combine all the ingredients."
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the type of measuring cup to use (metric or imperial), so the cook may use the wrong measurement system."
+    - 1:
+      tag: Temperature Error
+      description: "The recipe doesn't specify how chilled the curd should be, so the cook may not chill it enough or chill it too much."
+    - 2:
+      tag: Technique Error
+      description: "The recipe doesn't specify how long to whip the curd, so the cook may not whip it enough or over-whip it."
+    - 3:
+      tag: Preparation Error
+      description: "The recipe doesn't specify if the cucumber should be peeled before or after rinsing, so the cook may rinse it before peeling."
+    - 4:
+      tag: Measurement Error
+      description: "The recipe doesn't specify what size medium-sized is, so the cook may use a cucumber that is too large or too small."
+    - 5:
+      tag: Technique Error
+      description: "The recipe doesn't specify how finely the cucumber should be grated, so the cook may grate it too finely or leave large chunks."
+    - 6:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the exact amount of cumin powder, chaat masala powder, red chilli powder, or salt, so the cook may use too much or too little of any of these spices."
+    - 7:
+      tag: Measurement Error
+      description: "The recipe doesn't specify how much coriander leaves to use, so the cook may use too much or too little."
+  required_items:
+    - 0: "1 cup chilled curd"
+    - 1: "1 medium cucumber"
+    - 2: "1 tsp cumin powder"
+    - 3: "1/2 tsp chaat masala"
+    - 4: "1/4 tsp red chilli powder"
+    - 5: "1/4 tsp salt"
+    - 6: "1 tbsp cilantro"
+- id: 18
+  name: "Miso Soup"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Chop 2 scallions."
+    - 1:
+      description: "Cut 1/4 block of tofu into 1-inch cubes."
+    - 2:
+      description: "Bring 2 cups of water to a slow simmer in a medium pot."
+    - 3:
+      description: "Add 1 tbsp shredded seaweed."
+    - 4:
+      description: "Allow it to simmer for at least 4 to 5 minutes."
+    - 5:
+      description: "Reduce the heat to very low and add the 1/3 cup white miso, chopped scallions, tofu, and 1/8 teaspoon soy sauce."
+    - 6:
+      description: "Stir until the miso is well dissolved."
+    - 7:
+      description: "Ladle into bowls, serve hot, and enjoy."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how finely the scallions should be chopped, so the cook may chop them too finely or leave large pieces."
+    - 1:
+      tag: Preparation Error
+      description: "The recipe doesn't specify what type of tofu to use (silken, firm, extra-firm), so the cook may use the wrong type."
+    - 2:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the tofu block, so the cook may use too much or too little tofu."
+    - 3:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to cut the tofu into 1-inch cubes, so the cook may cut it unevenly or into pieces that are too small or large."
+    - 4:
+      tag: Temperature Error
+      description: "The recipe doesn't specify what temperature the water should be brought to, so the cook may bring it to a boil or not simmer it enough."
+    - 5:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to simmer the seaweed, so the cook may simmer it for too long or not long enough."
+    - 6:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the exact amount of miso to use, so the cook may use too much or too little."
+    - 7:
+      tag: Temperature Error
+      description: "The recipe doesn't specify how low to reduce the heat, so the cook may reduce it too much or not enough."
+    - 8:
+      tag: Order Error
+      description: "The recipe doesn't specify when to add the soy sauce, so the cook may add it at the wrong time or forget to add it altogether."
+    - 9:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the serving temperature, so the cook may serve it too hot or too cold."
+  required_items:
+    - 0: "2 cups water"
+    - 1: "1 tbsp shredded seaweed"
+    - 2: "1/3 cup white miso"
+    - 3: "2 scallions"
+    - 4: "1/4 block silken tofu"
+    - 5: "1/8 tsp soy sauce"
+- id: 19
+  name: "Zoodles"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Spiralize 2 medium zucchini into thin noodles using a spiralizer."
+    - 1:
+      description: "Heat a large pan on medium-high heat."
+    - 2:
+      description: "Melt 2 tablespoons of butter."
+    - 3:
+      description: "Peel 2 garlic cloves."
+    - 4:
+      description: "Add 2 large minced garlic cloves."
+    - 5:
+      description: "Cook garlic until fragrant (about 1-2 minutes)."
+    - 6:
+      description: "Be careful not to burn garlic."
+    - 7:
+      description: "Add the zucchini noodles and 1/3 cup grated parmesan cheese and season with salt & pepper to taste."
+    - 8:
+      description: "Cook for 1-2 minutes or until the zoodles are al dente."
+    - 9:
+      description: "Remove from heat and serve immediately."
+    - 10:
+      description: "Top with more parmesan if desired."
+  error_hints:
+    - 0:
+      tag: Technique Error
+      description: "The recipe assumes that the cook has a spiralizer, which is a specialized tool. If the cook doesn't have a spiralizer, they won't be able to make the zucchini noodles as intended."
+    - 1:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 2:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the type of butter to use (salted or unsalted), so the cook may use the wrong type."
+    - 3:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how the garlic should be minced, so the cook may chop it too finely or leave large pieces."
+    - 4:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 5:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the garlic, so the cook may cook it for too long or not long enough."
+    - 6:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the zucchini, so the cook may use zucchinis that are too large or too small."
+    - 7:
+      tag: Measurement Error
+      description: "The recipe doesn't specify how much salt and pepper to use, so the cook may use too much or too little."
+    - 8:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 9:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to cook the zucchini noodles, so the cook may overcook or undercook them."
+    - 10:
+      tag: Temperature Error
+      description: "The recipe doesn't specify how hot to serve the zucchini noodles, so the cook may serve them too hot or too cold."
+    - 11:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the parmesan cheese should be added gradually or all at once, so the cook may not mix it evenly."
+  required_items:
+    - 0: "2 medium Zuchini spiralized"
+    - 1: "2 tbsp butter"
+    - 2: "2 garlic cloves"
+    - 3: "1/3 cup grated parmesan cheese"
+    - 4: "salt & pepper to taste"
+- id: 20
+  name: "Grilled Cheese Sandwich"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Place 1 of the bread slices on the work surface."
+    - 1:
+      description: "Top it with 2 slices of American cheese."
+    - 2:
+      description: "Top with the remaining bread slice to make 1 sandwich."
+    - 3:
+      description: "Spread the outsides of the sandwiches thinly with butter."
+    - 4:
+      description: "Heat a nonstick skillet or griddle over medium-low heat."
+    - 5:
+      description: "Place sandwiches on the skillet and cover with a pan lid."
+    - 6:
+      description: "Cook for 2 to 3 minutes or until the bread is golden brown on the first side."
+    - 7:
+      description: "Carefully flip the sandwiches using a large spatula, cover again, and cook for 2 to 3 minutes on the second side until the cheese melts and the bread is nicely browned and crisp."
+    - 8:
+      description: "Serve the sandwiches immediately"
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the bread slices, so the cook may use slices that are too large or too small."
+    - 1:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to place the cheese slices, so the cook may place them unevenly."
+    - 2:
+      tag: Technique Error
+      description: "The recipe doesn't specify how thinly to spread the butter on the bread, so the cook may use too much or too little."
+    - 3:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the skillet or griddle, so the cook may use too high or too low heat."
+    - 4:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the first side of the sandwich, so the cook may overcook or undercook it."
+    - 5:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to cover the sandwich with a pan lid, so the cook may use a lid that is too small or too large."
+    - 6:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the skillet or griddle, so the cook may use too high or too low heat."
+    - 7:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the second side of the sandwich, so the cook may overcook or undercook it."
+    - 8:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to flip the sandwich, so the cook may flip it incorrectly."
+    - 9:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the sandwiches should be cut before serving, so the cook may serve them whole."
+    - 10:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the serving temperature, so the cook may serve the sandwiches too hot or too cold."
+  required_items:
+    - 0: "2 bread slices"
+    - 1: "2 American cheese slices"
+    - 2: "3 tbsp softened unsalted butter"
+- id: 21
+  name: "Sauted Mushrooms"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Chop 2 shallots."
+    - 1:
+      description: "Rinse 5 mushrooms under cold water and immediately pat them dry with a paper towel."
+    - 2:
+      description: "Pull out the stems."
+    - 3:
+      description: "Slice the mushrooms."
+    - 4:
+      description: "Heat 1 tbsp olive oil in a large skillet over medium-high heat."
+    - 5:
+      description: "Once the pan is hot, add the mushrooms and cook for 3-5 minutes, stirring often, until they start to soften and brown."
+    - 6:
+      description: "Add 1/8 cup chopped shallot and cook, often stirring, for 1 minute."
+    - 7:
+      description: "Peel 4 garlic cloves and mince them."
+    - 8:
+      description: "Add 4 cloves of minced garlic and 1/2 tbsp balsamic vinegar and cook, often stirring, for 1 minute."
+    - 9:
+      description: "Season with salt and pepper to taste."
+    - 10:
+      description: "Serve."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how finely to chop the shallots, so the cook may chop them too finely or leave large pieces."
+    - 1:
+      tag: Preparation Error
+      description: "The recipe doesn't specify if the mushrooms should be sliced thickly or thinly, so the cook may slice them unevenly."
+    - 2:
+      tag: Technique Error
+      description: "The recipe doesn't specify if the stems should be discarded or saved for another use, so the cook may discard them unnecessarily."
+    - 3:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the skillet, so the cook may use too high or too low heat."
+    - 4:
+      tag: Technique Error
+      description: "The recipe doesn't specify how often to stir the mushrooms, so the cook may not stir them enough or stir them too much."
+    - 5:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how to mince the garlic cloves, so the cook may chop them too finely or leave large pieces."
+    - 6:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the exact amount of balsamic vinegar to use, so the cook may use too much or too little."
+    - 7:
+      tag: Technique Error
+      description: "The recipe doesn't specify how often to stir the garlic and balsamic vinegar, so the cook may not stir them enough or stir them too much."
+    - 8:
+      tag: Measurement Error
+      description: "The recipe doesn't specify how much salt and pepper to use, so the cook may use too much or too little."
+  required_items:
+    - 0: "5 cremini mushrooms"
+    - 1: "1 tbsp olive oil"
+    - 2: "2 shallot"
+    - 3: "4 garlic cloves"
+    - 4: "1/2 tbsp balsamic vinegar"
+    - 5: "salt and pepper, to taste"
+- id: 22
+  name: "Blender Banana Pancakes"
+  category: "Non-Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Add 1 banana, 1 egg, 1 heaped tbsp flour and 1/2 tsp baking powder to a blender and blitz for 20 seconds."
+    - 1:
+      description: "Melt a small knob of butter in a non-stick frying pan over low-medium heat."
+    - 2:
+      description: "Pour three little puddles straight from the blender into the frying pan."
+    - 3:
+      description: "Cook for 1 min or until the tops start to bubble."
+    - 4:
+      description: "Flip with a fork or a fish slice and cook for 20-30 seconds more."
+    - 5:
+      description: "Transfer to a plate."
+    - 6:
+      description: "Chop 1 strawberry."
+    - 7:
+      description: "Serve the pancakes with chopped strawberries and a splash of maple syrup if you like."
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the banana, so the cook may use a banana that is too large or too small."
+    - 1:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the egg, so the cook may use an egg that is too large or too small."
+    - 2:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the type of flour to use, so the cook may use the wrong type."
+    - 3:
+      tag: Measurement Error
+      description: "The recipe doesn't specify how much baking powder to use, so the cook may use too much or too little."
+    - 4:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the frying pan, so the cook may use too high or too low heat."
+    - 5:
+      tag: Technique Error
+      description: "The recipe doesn't specify how large the puddles should be, so the cook may pour too much or too little batter into the pan."
+    - 6:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to pour the batter, so the cook may pour it unevenly or too quickly."
+    - 7:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the first side of the pancake, so the cook may overcook or undercook it."
+    - 8:
+      tag: Technique Error
+      description: "The recipe suggests using a fork or a fish slice to flip the pancakes, but doesn't specify which is better or how to do it properly."
+    - 9:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how finely to chop the strawberry, so the cook may chop it too finely or leave large pieces."
+    - 10:
+      tag: Missing Step
+      description: "The recipe doesn't mention how many pancakes this recipe will make, so the cook may not make enough or make too many."
+    - 11:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the serving temperature, so the cook may serve the pancakes too hot or too cold."
+    - 12:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the butter should be added to the blender mixture, so the cook may forget to add it."
+    - 13:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the maple syrup should be heated before serving, so the cook may serve it cold."
+  required_items:
+    - 0: "small knob of butter"
+    - 1: "1 banana"
+    - 2: "1 egg"
+    - 3: "1 heaped tbsp flour"
+    - 4: "1/2 tsp baking powder"
+    - 5: "1 strawberry"
+    - 6: "maple syrup"
+
+- id: 23
+  name: "Herb Omlet with Fried Tomatoes"
+  category: "Non-Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Take a tomato and chop it into two pieces."
+    - 1:
+      description: "Heat 1 tbsp oil in a small non-stick frying pan, then cook the tomatoes cut-side down until they start to soften and colour."
+    - 2:
+      description: "Chop 2 tbsp cilantro."
+    - 3:
+      description: "Meanwhile, crack one egg in a bowl and add the chopped cilantro and 1/2 tsp ground black pepper."
+    - 4:
+      description: "Beat the contents of the bowl."
+    - 5:
+      description: "Scoop the tomatoes from the pan and put them on a serving plate."
+    - 6:
+      description: "Pour the egg mixture into the pan and stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space."
+    - 7:
+      description: "Stop stirring when it’s nearly cooked to allow it to set into an omelette."
+    - 8:
+      description: "Transfer it to the plate and serve with the tomatoes."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how finely to chop the tomato, so the cook may chop it too finely or leave large pieces."
+    - 1:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the frying pan, so the cook may use too high or too low heat."
+    - 2:
+      tag: Technique Error
+      description: "The recipe doesn't specify how long to cook the tomatoes cut-side down, so the cook may overcook or undercook them."
+    - 3:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how finely to chop the cilantro, so the cook may chop it too finely or leave large pieces."
+    - 4:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the egg, so the cook may use an egg that is too large or too small."
+    - 5:
+      tag: Measurement Error
+      description: "The recipe doesn't specify how much black pepper to use, so the cook may use too much or too little."
+    - 6:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to scoop the tomatoes from the pan, so the cook may use a spoon that is too large or too small."
+    - 7:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to stir the egg mixture, so the cook may stir it too much or too little."
+    - 8:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the omelette, so the cook may overcook or undercook it."
+    - 9:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the non-stick pan should be greased before cooking, so the omelette may stick to the pan."
+    - 10:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the omelette should be cut into pieces before serving, so the cook may serve it whole."
+    - 11:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the serving temperature, so the cook may serve the omelette too hot or too cold."
+  required_items:
+    - 0: "1 tsp oil"
+    - 1: "1 tomato"
+    - 2: "1 egg"
+    - 3: "1/2 tsp ground pepper"
+    - 4: "2 tbsp cilantro"
+- id: 24
+  name: "Broccoli Stir Fry"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Peel 2 cloves of garlic and mince them."
+    - 1:
+      description: "Combine 1/6 cup water, 1/8 cup soy sauce, 1 tablespoon honey, 2 cloves minced garlic, 1/2 tablespoon minced fresh ginger, 1/8 teaspoon black pepper, 1 teaspoon cornstarch in a small bowl."
+    - 2:
+      description: "Whisk to mix."
+    - 3:
+      description: "Set aside."
+    - 4:
+      description: "Take 8 in number broccoli florets."
+    - 5:
+      description: "Take 3 cremini mushrooms, and slice them."
+    - 6:
+      description: "Take 1 bell pepper and slice 1/2 of the bell pepper."
+    - 7:
+      description: "Heat 2 tablespoons olive oil in a large skillet over medium-high heat."
+    - 8:
+      description: "Add the broccoli and sliced mushrooms and cook, stirring often, for 4 minutes."
+    - 9:
+      description: "If the pan gets too hot on medium-high, turn the heat down to medium."
+    - 10:
+      description: "Add the bell pepper and continue cooking, stirring often, for 2-3 minutes, until vegetables are crisp-tender."
+    - 11:
+      description: "Whisk the sauce again to recombine the ingredients."
+    - 12:
+      description: "Pour the sauce into the pan and cook, stirring, for 1 minute until the sauce thickens."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how finely to mince the garlic, so the cook may mince it too finely or leave large pieces."
+    - 1:
+      tag: Measurement Error
+      description: "The recipe uses fractions of cups and teaspoons, so the cook may use the wrong measuring tools or misread the recipe."
+    - 2:
+      tag: Missing Step
+      description: "The recipe doesn't mention when to add the black pepper, so the cook may forget to add it."
+    - 3:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how large the broccoli florets should be, so the cook may cut them too large or too small."
+    - 4:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how thick to slice the mushrooms or bell pepper, so the cook may slice them too thick or too thin."
+    - 5:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the skillet, so the cook may use too high or too low heat."
+    - 6:
+      tag: Technique Error
+      description: "The recipe doesn't specify how often to stir the vegetables, so the cook may stir them too much or too little."
+    - 7:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the vegetables, so the cook may overcook or undercook them."
+    - 8:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to stir the sauce into the vegetables, so the cook may not stir it enough or stir it too much."
+    - 9:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the sauce, so the cook may overcook or undercook it."
+    - 10:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the skillet should be covered while cooking the vegetables, so the vegetables may not cook evenly."
+  required_items:
+    - 0: "1/6 cup water"
+    - 1: "1/8 cup soy sauce"
+    - 2: "1 tbsp honey"
+    - 3: "2 garlic cloves"
+    - 4: "1/2 tbsp minced fresh ginger"
+    - 5: "1/8 tsp black pepper"
+    - 6: "1 tsp cornstarch"
+    - 7: "2 tablespoons olive oil"
+    - 8: "8 broccoli florets"
+    - 9: "3 cremini mushrooms"
+    - 10: "1 bell pepper"
+- id: 25
+  name: "Cheese Tomato Melt"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Cut medium tomato into 4 slices."
+    - 1:
+      description: "place slices of tomato on a pan over medium heat."
+    - 2:
+      description: "Cook for 1 minute, then top with a 1/2 tbsp shredded low-fat mozzarella cheese on each slice."
+    - 3:
+      description: "Cover the pan and cook for another minute or until the cheese is melted."
+    - 4:
+      description: "Serve each slice of tomato on a cracker."
+  error_hints:
+    - 0:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how thick the tomato slices should be, so the cook may cut them too thick or too thin."
+    - 1:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the tomato, so the cook may use a tomato that is too small or too large."
+    - 2:
+      tag: Measurement Error
+      description: "The recipe specifies only a half tablespoon of shredded low-fat mozzarella cheese for each slice of tomato, so the cook may use too much or too little cheese."
+    - 3:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to place the cheese on the tomato slices, so the cheese may not melt evenly."
+    - 4:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the tomato slices, so the cook may overcook or undercook them."
+    - 5:
+      tag: Missing Step
+      description: "The recipe doesn't specify if the pan should be greased before cooking, so the tomato slices may stick to the pan."
+    - 6:
+      tag: Missing Step
+      description: "The recipe doesn't mention what type of cracker to serve the tomato slices on, so the cook may use the wrong type of cracker."
+    - 7:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+  required_items:
+    - 0: "1 tomato"
+    - 1: "2 tbsp shredded lowfat mozzarella cheese"
+    - 2: "4 crackers"
+- id: 26
+  name: "Pan Fried Tofu"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about 1″ x 1″) and pat it dry with a towel."
+    - 1:
+      description: "Add 1 tablespoon of olive oil to a non-stick pan and add the tofu cubes and a few pinches of salt."
+    - 2:
+      description: "Turn on the heat to medium-high."
+    - 3:
+      description: "Cook 5 to 6 minutes until lightly browned on the bottom."
+    - 4:
+      description: "Briefly remove the pan from the heat to reduce spitting."
+    - 5:
+      description: "Flip the tofu with tongs."
+    - 6:
+      description: "Return the heat to medium-high and cook until browned."
+    - 7:
+      description: "Briefly remove from the heat again and drizzle with the 1 tablespoons sesame oil and 1 tablespoon soy sauce (watch for spitting)."
+    - 8:
+      description: "Return to low heat and cook 2 minutes, then flip and cook 2 minutes until the colour is darkened."
+    - 9:
+      description: "Serve immediately."
+  error_hints:
+    - 0:
+      tag: Measurement Error
+      description: "The recipe specifies the amount of tofu in two different ways (1/4 block or 3 ounces), which could cause confusion for the cook."
+    - 1:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how large the tofu cubes should be, so the cook may cut them too large or too small."
+    - 2:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+    - 3:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to arrange the tofu cubes in the pan, so the cook may not place them evenly."
+    - 4:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the tofu cubes on the first side, so the cook may overcook or undercook them."
+    - 5:
+      tag: Temperature Error
+      description: "The recipe doesn't specify if the pan should be covered while cooking the tofu, which could affect the cooking time."
+    - 6:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to flip the tofu cubes, so the cook may not flip them evenly."
+    - 7:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan when adding the sesame oil and soy sauce, which could cause spitting and uneven cooking."
+    - 8:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to drizzle the sesame oil and soy sauce, so the cook may use too much or too little."
+    - 9:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the tofu after adding the sesame oil and soy sauce, so the cook may overcook or undercook it."
+  required_items:
+    - 0: "1/4 block tofu"
+    - 1: "1 tbsp oilve oil"
+    - 2: "salt"
+    - 3: "1 tbsp sesame oil"
+    - 4: "1 tbsp soy sauce"
+- id: 27
+  name: "Mug Cake"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Place the paper cupcake liner inside the mug."
+    - 1:
+      description: "Set aside."
+    - 2:
+      description: "Measure and add 2 tbsp flour, 1.5 tbsp sugar, 1/4 tsp baking powder, and a pinch of salt to the mixing bowl."
+    - 3:
+      description: "Whisk to combine."
+    - 4:
+      description: "Measure and add 2 tsp vegetable oil, 2 tbsp water, and 1/4 tsp vanilla extract to the bowl."
+    - 5:
+      description: "Whisk batter until no lumps remain."
+    - 6:
+      description: "Pour batter into prepared mug."
+    - 7:
+      description: "Microwave the mug and batter on high power for 60 seconds."
+    - 8:
+      description: "Check if the cake is done by inserting and toothpick into the center of the cake and then removing it."
+    - 9:
+      description: "If wet batter clings to the toothpick, microwave for an additional 5 seconds."
+    - 10:
+      description: "If the toothpick comes out clean, continue."
+    - 11:
+      description: "Invert the mug to release the cake onto a plate."
+    - 12:
+      description: "Allow to cool until it is no longer hot to the touch, then carefully remove the paper liner."
+    - 13:
+      description: "While the cake is cooling, prepare to pipe the frosting."
+    - 14:
+      description: "Scoop 4 spoonfuls of chocolate frosting into a zip-top bag and seal, removing as much air as possible."
+    - 15:
+      description: "Use scissors to cut one corner from the bag to create a small opening ¼-inch in diameter."
+    - 16:
+      description: "Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake."
+  error_hints:
+    - 0:
+      tag: Missing Step
+      description: "The recipe doesn't specify what size the mug should be, which could affect the cooking time and consistency of the cake."
+    - 1:
+      tag: Preparation Error
+      description: "The recipe doesn't specify if the paper cupcake liner should be greased before placing it inside the mug, which could cause the cake to stick to the liner."
+    - 2:
+      tag: Measurement Error
+      description: "The recipe specifies the amounts of flour and sugar in tablespoons, which could cause the cook to measure inaccurately."
+    - 3:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to mix the dry ingredients, which could cause lumps to remain in the batter."
+    - 4:
+      tag: Measurement Error
+      description: " The recipe specifies the amount of water in tablespoons, which could cause the cook to measure inaccurately."
+    - 5:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to mix the wet ingredients, which could cause the batter to be unevenly mixed."
+    - 6:
+      tag: Timing Error
+      description: "The recipe specifies the cooking time as 60 seconds, but the actual cooking time may vary depending on the microwave wattage and the size of the mug."
+    - 7:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the power level of the microwave, which could affect the cooking time and consistency of the cake."
+    - 8:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to pour the batter into the mug, which could cause the batter to spill over the edge."
+    - 9:
+      tag: Timing Error
+      description: "The recipe specifies the additional cooking time as 5 seconds, which may not be enough or too much depending on the microwave wattage and the size of the mug."
+    - 10:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to remove the cake from the mug, which could cause it to break or fall apart."
+    - 11:
+      tag: Preparation Error
+      description: "The recipe doesn't specify if the plate should be greased before placing the cake on it, which could cause the cake to stick to the plate."
+    - 12:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to apply the frosting, which could cause it to be uneven or messy."
+  required_items:
+    - 0: "2 tbsp flour"
+    - 1: "1.5 tbsp granulated sugar"
+    - 2: "¼ tsp baking powder"
+    - 3: "Pinch salt"
+    - 4: "2 tsp vegetable oil"
+    - 5: "2 tbsp water"
+    - 6: "¼ tsp vanilla extract"
+    - 7: "4 tbsp choclate frosting"
+- id: 28
+  name: "Cheese Pimiento"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Rinse a red bell pepper."
+    - 1:
+      description: "Chop 1/4 bell pepper into tiny bits."
+    - 2:
+      description: "Place the chopped pepper in a microwave-safe bowl."
+    - 3:
+      description: "Add 2 tablespoons of water to the bowl."
+    - 4:
+      description: "Microwave, covered, for 2 minutes."
+    - 5:
+      description: "Add 2/3 cup cheddar cheese to another microwave-safe bowl."
+    - 6:
+      description: "Melt the cheese by microwaving it for 1 min to 30 seconds."
+    - 7:
+      description: "Mix the cheese and red bell pepper and add 1 tbsp butter."
+    - 8:
+      description: "Add 1/2 teaspoon salt."
+    - 9:
+      description: "Add 1/2 teaspoon pepper."
+    - 10:
+      description: "Mix all the ingredients well and serve."
+  error_hints:
+    - 0:
+      tag: Timing Error
+      description: "Overcooking the bell pepper in the microwave can make it mushy and lose its texture"
+    - 1:
+      tag: Temperature Error
+      description: "Overheating the cheese in the microwave can cause it to become hard and rubbery."
+  required_items:
+    - 0: "1 red bell pepper"
+    - 1: "2/3 cup shredded cheddar cheese"
+    - 2: "1 tbsp butter"
+    - 3: "1/2 tsp salt"
+    - 4: "1/2 tsp pepper"
+- id: 29
+  name: "Spicy Tuna Avocado Wraps"
+  category: "Non-Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Take 1 ripe avocado and cut it into thin slices."
+    - 1:
+      description: "Chop 1 green onion."
+    - 2:
+      description: "Open a can of tuna and drain excess water."
+    - 3:
+      description: "Add 1 can drained tuna, 1/4 cup mayonnaise, 1 tsp Sriracha sauce, and chopped green onions in a bowl."
+    - 4:
+      description: "Mix the contents of the bowl."
+    - 5:
+      description: "Season with 1/4 tsp salt and 1/4 tsp pepper."
+    - 6:
+      description: "Lay out 4 large lettuce leaves, place avocado slices on each leaf, and top with the tuna mixture."
+    - 7:
+      description: "Roll up the lettuce wraps and serve immediately."
+  error_hints:
+    - 0:
+      tag: Missing Step
+      description: "The recipe does not specify to remove the seed/pit of the avocado before cutting it."
+    - 1:
+      tag: Technique Error
+      description: "Cutting the avocado slices too thick or too thin."
+    - 2:
+      tag: Preparation Error
+      description: "Not washing the green onion before chopping it."
+    - 3:
+      tag: Measurement Error
+      description: "Not using the correct amount of mayonnaise, Sriracha sauce, or green onions."
+    - 4:
+      tag: Technique Error
+      description: "Not properly draining the excess water from the can of tuna."
+    - 5:
+      tag: Measurement Error
+      description: "Using too much or too little salt and pepper."
+    - 6:
+      tag: Preparation Error
+      description: "Not washing the lettuce leaves before using them."
+    - 7:
+      tag: Order Error
+      description: "Not laying out the lettuce leaves first before placing the avocado slices and tuna mixture on top."
+    - 8:
+      tag: Technique Error
+      description: "Rolling up the lettuce wraps incorrectly, making them difficult to eat or falling apart."
+    - 9:
+      tag: Timing Error
+      description: "Not serving the wraps immediately, causing them to become soggy."
+  required_items:
+    - 0: "1 can (5 oz.) tuna in water"
+    - 1: "1/4 cup mayonnaise"
+    - 2: "1 tsp Sriracha sauce"
+    - 3: "1 green onion"
+    - 4: "1 ripe avocado"
+    - 5: "4 large lettuce leaves"
+    - 6: "1/4 tsp Salt"
+    - 7: "1/4 tsp pepper"
+- id: 30
+  name: "Caprese Bruschetta"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Slice Baguette into 1/2 inch thick rounds."
+    - 1:
+      description: "Brush 2 slices of baguette with olive oil on both sides."
+    - 2:
+      description: "Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy."
+    - 3:
+      description: "Cut 1/4 cup of cherry tomatoes into halves."
+    - 4:
+      description: "In a bowl, add the cut cherry tomatoes, 1/8 cup shredded mozzarella, 1/16 cup basil, 1/4 tsp salt, and 1/4 tsp pepper."
+    - 5:
+      description: "Combine the contents of the bowl."
+    - 6:
+      description: "Spoon the mixture onto the bread."
+  error_hints:
+    - 0:
+      tag: Technique Error
+      description: "Cutting the baguette slices unevenly."
+    - 1:
+      tag: Measurement Error
+      description: "Using too much or too little olive oil."
+    - 2:
+      tag: Temperature Error
+      description: "Not heating the pan to the correct temperature."
+    - 3:
+      tag: Timing Error
+      description: "Over- or under-toasting the bread, resulting in it being too soft or too hard."
+    - 4:
+      tag: Preparation Error
+      description: "Not washing the cherry tomatoes before cutting them."
+    - 5:
+      tag: Measurement Error
+      description: "Using too much or too little of any of the ingredients."
+    - 6:
+      tag: Technique Error
+      description: "Not properly combining the ingredients together in the bowl."
+    - 7:
+      tag: Order Error
+      description: "Not waiting for the bread to cool before adding the tomato mixture on top, causing it to become soggy."
+    - 8:
+      tag: Missing Step
+      description: "The recipe does not specify to heat or melt the shredded mozzarella before adding it to the mixture."
+  required_items:
+    - 0: "Olive oil"
+    - 1: "baguette"
+    - 2: "1/4 cup cherry tomatoes"
+    - 3: "1/8 cup mozzarella cheese"
+    - 4: "1/16 cup fresh basil leaves"
+    - 5: "1/4 tsp salt"
+    - 6: "1/4 tsp pepper"
+- id: 31
+  name: "Creamy Tomato Basil Soup"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - 0:
+      description: "Chop 1/16 cup basil."
+    - 1:
+      description: "Peel an onion."
+    - 2:
+      description: "Dice 1/4 cup of onion."
+    - 3:
+      description: "Peel one garlic clove and mince it."
+    - 4:
+      description: "In a large pot, heat 1 tbsp olive oil over medium heat."
+    - 5:
+      description: "Add the onion and garlic and cook for 2-3 minutes, until softened."
+    - 6:
+      description: "Stir in 1/4 can crushed tomatoes and 1/2 cup vegetable broth."
+    - 7:
+      description: "Bring to a boil, then reduce the heat and simmer for 2 minutes."
+    - 8:
+      description: "Stir in the 1/8 cup heavy cream and 1/16 cup chopped fresh basil."
+    - 9:
+      description: "Season with 1/4 tsp salt and 1/4 tsp pepper."
+    - 10:
+      description: "Serve immediately."
+  error_hints:
+    - 0:
+      tag: Technique Error
+      description: "Chopping the basil too finely or too coarsely."
+    - 1:
+      tag: Technique Error
+      description: "Dicing the onion too finely or too coarsely."
+    - 2:
+      tag: Technique Error
+      description: "Mincing the garlic too finely or leaving it too chunky."
+    - 3:
+      tag: Temperature Error
+      description: "Not heating the pot to the correct temperature before adding the olive oil and ingredients."
+    - 4:
+      tag: Measurement Error
+      description: "Not using the correct amount of crushed tomatoes or vegetable broth."
+    - 5:
+      tag: Timing Error
+      description: "Over- or under-cooking the tomato mixture, resulting in it being too thin or too thick."
+    - 6:
+      tag: Measurement Error
+      description: "Using too much or too little heavy cream or fresh basil."
+    - 7:
+      tag: Technique Error
+      description: "Not properly incorporating the cream and basil into the tomato mixture."
+    - 8:
+      tag: Timing Error
+      description: "Not serving the dish immediately, causing it to become cold or lose its texture."
+  required_items:
+    - 0: "1 tbsp olive oil"
+    - 1: "1 onion"
+    - 2: "1 garlic clove"
+    - 3: "1 can (28 oz.) crushed tomatoes"
+    - 4: "1/2 cup vegetable broth"
+    - 5: "1/8 cup heavy cream"
+    - 6: "1/16 cup basil"
+    - 7: "1/4 tsp Salt"
+    - 8: "1/4 tsp pepper"

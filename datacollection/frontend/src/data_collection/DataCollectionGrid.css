@@ -1,8 +1,0 @@
-.data_collection_grid {
-    overflow: auto;
-    height: 25%;
-    border: 2px solid black;
-    margin-bottom: 10%;
-    max-height: 500px;
-    max-width: 800px;
-}
