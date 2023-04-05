@@ -50,7 +50,7 @@ const LoginPage = (props) => {
 		<div className="login-container">
 			{/* Define Header component for the AppBar component also display tabs based on loggedIn state */}
 			
-			<h1>Login</h1>
+			<h1>UTD Data Collection Tool</h1>
 			<form className="login-form" onSubmit={handleSubmit}>
 				<input
 					type="text"
