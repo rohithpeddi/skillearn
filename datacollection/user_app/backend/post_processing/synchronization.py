@@ -107,6 +107,7 @@ class Synchronization:
 
         self.pv_stream_suffix = "color-%06d.jpg"
         self.depth_stream_suffix = "depth-%06d.png"
+        self.ab_stream_suffix = "ab-%06d.png"
         self.vlc_stream_suffix = "vlc-%06d.jpg"
 
     def create_synchronized_stream_pkl_data(self, stream_pkl_file_path, synchronized_stream_output_directory):
@@ -179,6 +180,7 @@ class Synchronization:
                     depth_parent_directory = os.path.join(self.data_directory, ppc_const.DEPTH_AHAT)
                     synchronized_depth_parent_directory = os.path.join(self.synchronized_directory,
                                                                        ppc_const.DEPTH_AHAT)
+                    create_directories(synchronized_depth_parent_directory)
 
                     # 1. Synchronize Pose
                     depth_ahat_pkl = f'{self.recording.id}_depth_ahat_pose.pkl'
@@ -202,7 +204,7 @@ class Synchronization:
                     synchronized_depth_ab_directory = os.path.join(synchronized_depth_parent_directory, ppc_const.AB)
                     create_directories(synchronized_depth_ab_directory)
                     self.create_synchronized_stream_frames(depth_ab_directory, ".png",
-                                                           synchronized_depth_ab_directory, self.depth_stream_suffix)
+                                                           synchronized_depth_ab_directory, self.ab_stream_suffix)
 
                 elif stream_name == ppc_const.SPATIAL:
                     # 1. Synchronize spatial data
