@@ -11,9 +11,10 @@ import cv2
 import queue
 
 from fractions import Fraction
-from datacollection.backend.hololens import hl2ss
-from datacollection.backend.Recording import Recording
-from datacollection.backend.constants import *
+
+from datacollection.user_app.backend.hololens import hl2ss
+from datacollection.user_app.backend.models.recording import Recording
+from datacollection.user_app.backend.constants import *
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Started Audio Video Muxing Service')

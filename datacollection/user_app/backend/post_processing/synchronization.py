@@ -4,6 +4,7 @@ import pickle
 import shutil
 from typing import List
 
+from ..hololens import hl2ss
 from ..models.recording import Recording
 from ..constants import Post_Processing_Constants as const
 from ..logger_config import logger
@@ -140,7 +141,7 @@ class Synchronization:
     # 2. In a for loop, check for each of the synchronize streams
     # 3. Based on the stream, synchronize Pose, Payload -- if depth then synchronize ab and depth frames
     def sync_streams(self):
-        if self.base_stream == PHOTOVIDEO:
+        if self.base_stream == const.PHOTOVIDEO:
             # 1. Create base stream keys used to synchronize the rest of the data
             self.timestamp_to_base_stream_frame = get_timestamp_to_stream_frame(self.base_stream_directory,
                                                                                 stream_extension=".jpg",
@@ -161,9 +162,9 @@ class Synchronization:
             self.create_synchronized_stream_pkl_data(pv_pose_file_path, sync_pv_pose_file_path)
 
             for stream_name in self.synchronize_streams:
-                if stream_name == DEPTH_AHAT:
-                    depth_parent_directory = os.path.join(self.data_directory, DEPTH_AHAT)
-                    synchronized_depth_parent_directory = os.path.join(self.synchronized_directory, DEPTH_AHAT)
+                if stream_name == const.DEPTH_AHAT:
+                    depth_parent_directory = os.path.join(self.data_directory, const.DEPTH_AHAT)
+                    synchronized_depth_parent_directory = os.path.join(self.synchronized_directory, const.DEPTH_AHAT)
 
                     # 1. Synchronize Pose
                     depth_ahat_pkl = f'depth_pose.pkl'  # ToDo: Need to modify it to depth_ahat_pose.pkl
@@ -191,16 +192,16 @@ class Synchronization:
                     self.create_synchronized_stream_frames(depth_ab_directory, ".png",
                                                            synchronized_depth_ab_directory, self.depth_stream_suffix)
 
-                elif stream_name == SPATIAL:
+                elif stream_name == const.SPATIAL:
                     # 1. Synchronize spatial data
-                    spatial_directory = os.path.join(self.data_directory, SPATIAL)
-                    synchronized_spatial_directory = os.path.join(self.synchronized_directory, SPATIAL)
+                    spatial_directory = os.path.join(self.data_directory, const.SPATIAL)
+                    synchronized_spatial_directory = os.path.join(self.synchronized_directory, const.SPATIAL)
                     create_directories(synchronized_spatial_directory)
                     spatial_data_file = f'spatial_data.pkl'
                     spatial_file_path = os.path.join(spatial_directory, spatial_data_file)
                     sync_spatial_file_path = os.path.join(synchronized_spatial_directory, spatial_data_file)
                     self.create_synchronized_stream_pkl_data(spatial_file_path, sync_spatial_file_path)
-                elif stream_name in VLC_LIST:
+                elif stream_name in const.VLC_LIST:
                     # TODO: Add VLC frame synchronization code
                     logger.log(logging.ERROR, f"Need to implement the VLC Frames Sync Code")
                 else:
@@ -209,8 +210,8 @@ class Synchronization:
 
 
 def test_sync_pv_base():
-    base_stream = PHOTOVIDEO
-    sync_streams = [DEPTH_AHAT, SPATIAL]
+    base_stream = const.PHOTOVIDEO
+    sync_streams = [const.DEPTH_AHAT, const.SPATIAL]
     data_parent_dir = "/home/bxc200008/Projects/PyCharm/data/mugpizza/SAMPLE/"
     rec_ids = [
         "MugPizza_PL2_P2_R1_0",

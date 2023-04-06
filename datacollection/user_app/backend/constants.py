@@ -281,3 +281,19 @@ class DatabaseIngestion_Constants:
 	ERRORS = "errors"
 	NAME = "name"
 	ID = "id"
+	
+
+# # ---------------------------------------------------------------------------------------
+# # ------------------------ BOX PROPERTIES -----------------------------------
+
+class Box_Constants:
+	RAW = "raw"
+	PV = "pv"
+	DEPTH_AHAT = "depth_ahat"
+	SPATIAL = "spatial"
+	MICROPHONE = "microphone"
+	SYNCHRONIZED = "synchronized"
+	ANNOTATIONS = "annotations"
+	PRETRAINED_FEATURES = "pretrained_features"
+	GOPRO = "gopro"
+	
