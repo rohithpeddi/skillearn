@@ -79,7 +79,7 @@ def get_timestamp_to_stream_frame(
     return timestamp_to_stream_frame
 
 
-class Synchronization:
+class SynchronizationService:
 
     def __init__(
             self,
@@ -237,7 +237,7 @@ def test_sync_pv_base():
         data_dir = os.path.join(data_parent_dir, rec_id)
         sync_parent_dir = os.path.join(data_dir, "sync")
         rec_instance = Recording(id=rec_id, activity_id=0, is_error=False, steps=[])
-        pv_sync_stream = Synchronization(
+        pv_sync_stream = SynchronizationService(
             base_stream=base_stream,
             synchronize_streams=sync_streams,
             data_parent_directory=data_parent_dir,

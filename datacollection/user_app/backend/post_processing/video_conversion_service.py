@@ -3,7 +3,7 @@ import subprocess
 import time
 
 
-class ConvertGoProVideo:
+class VideoConversionService:
     FFMPEG_PATH = '/usr/bin/ffmpeg'
     RES_360P = '360p'
     RES_720P = '720p'
@@ -28,30 +28,28 @@ class ConvertGoProVideo:
     # FFMPEG_COMMAND = 'ffmpeg -i -y -hwaccel cuda {input_file} -vf scale={scale} -c:a copy {output_file}'
     FFMPEG_COMMAND = '{} -y -hwaccel cuda -i {} -vf scale={} -c:a copy {}'
 
-    def __init__(self, gopro_video_file, conversion_type=RES_360P, ffmpeg_path=FFMPEG_PATH):
-        self.gopro_video_file = gopro_video_file
-        self.conversion_type = conversion_type
-        self.gopro_video_file_converted = self.gopro_video_file.replace('.MP4', f'_{self.conversion_type}.mp4')
+    def __init__(self, ffmpeg_path=FFMPEG_PATH):
         self.ffmpeg_path = ffmpeg_path
-        pass
 
-    def get_ffmpeg_scale(self):
-        return f'{self.RES_MAP[self.conversion_type]["width"]}:{self.RES_MAP[self.conversion_type]["height"]}'
+    def get_ffmpeg_scale(self, conversion_type):
+        return f'{self.RES_MAP[conversion_type]["width"]}:{self.RES_MAP[conversion_type]["height"]}'
 
-    def convert_gopro_video(self):
+    def convert_video(self, video_file_path, conversion_type=RES_360P):
+        converted_video_file_path = video_file_path.replace('.MP4', f'_{conversion_type}.mp4')
         convert_command = self.FFMPEG_COMMAND.format(
             self.ffmpeg_path,
-            self.gopro_video_file,
-            self.get_ffmpeg_scale(),
-            self.gopro_video_file_converted,
+            video_file_path,
+            self.get_ffmpeg_scale(conversion_type),
+            converted_video_file_path,
         )
         start_time = time.time()
         print(f'FFMPEG command: {convert_command}')
         subprocess.call(shlex.split(convert_command))
         end_time = time.time()
         print(f'Conversion took {(end_time - start_time):.2f} seconds')
+        return converted_video_file_path
 
 
 if __name__ == '__main__':
-    cgv = ConvertGoProVideo(gopro_video_file='../../../../../data/gopro/4_23.MP4')
-    cgv.convert_gopro_video()
+    cgv = VideoConversionService()
+    cgv.convert_video(video_file_path='../../../../../data/gopro/4_23.MP4')

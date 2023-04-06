@@ -23,3 +23,4 @@ pynput
 websockets
 redis
 pyaudio
+paramiko
