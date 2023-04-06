@@ -53,14 +53,26 @@ class RecordingService:
             thread.join()
 
     def stop_recording(self):
-        logger.info("Stopping hololens recording")
-        hololens_thread = threading.Thread(target=self.hololens_service.stop_recording)
-        logger.info("Stopping gopro recording")
-        go_pro_thread = threading.Thread(target=self.go_pro_service.stop_recording,
-                                         args=(self.go_pro_dir, self.recording.id,))
+        recording_info = self.recording.recording_info
+    
+        if recording_info is None:
+            logger.error("Recording info is None")
+            return
+    
+        recording_threads = []
+        if recording_info.is_hololens_enabled():
+            logger.info("Stopping hololens recording")
+            hololens_thread = threading.Thread(target=self.hololens_service.stop_recording)
+            recording_threads.append(hololens_thread)
+            
+        if recording_info.is_go_pro_enabled():
+            logger.info("Stopping gopro recording")
+            go_pro_thread = threading.Thread(target=self.go_pro_service.stop_recording,
+                                             args=(self.go_pro_dir, self.recording.id,))
+            recording_threads.append(go_pro_thread)
 
-        hololens_thread.start()
-        go_pro_thread.start()
+        for thread in recording_threads:
+            thread.start()
 
-        hololens_thread.join()
-        go_pro_thread.join()
+        for thread in recording_threads:
+            thread.join()
