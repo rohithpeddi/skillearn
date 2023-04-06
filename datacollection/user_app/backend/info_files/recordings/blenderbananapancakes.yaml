@@ -873,4 +873,90 @@
   - description: Transfer-Transfer to a plate
   - description: Serve-Serve the pancakes with chopped strawberries
   - description: splash-splash maple syrup on pancakes
-
+- errors:
+  - description: splash-splash maple syrup on pancakes
+    tag: Missing Step
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    tag: Missing Step
+  - tag: Order Error
+  recording_id: 47
+  steps:
+  - description: Add-1 heaped tbsp flour to a blender
+  - description: Add-1/2 tsp baking powder to a blender
+  - description: Add-Add 1 banana to a blender
+  - description: Chop-Chop 1 strawberry
+  - description: blitz-blitz for 20 seconds
+  - description: Add-1 egg to a blender
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+  - description: Flip-Flip with a fork or a fish slice
+  - description: cook-cook for 20-30 seconds more
+  - description: Transfer-Transfer to a plate
+  - description: Serve-Serve the pancakes with chopped strawberries
+- errors:
+  - description: splash-splash maple syrup on pancakes
+    tag: Missing Step
+  - description: Flip-Flip with a fork or a fish slice
+    tag: Missing Step
+  - tag: Order Error
+  recording_id: 48
+  steps:
+  - description: Add-1 egg to a blender
+  - description: Add-1 heaped tbsp flour to a blender
+  - description: Add-1/2 tsp baking powder to a blender
+  - description: Add-Add 1 banana to a blender
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+  - description: blitz-blitz for 20 seconds
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+  - description: Chop-Chop 1 strawberry
+  - description: cook-cook for 20-30 seconds more
+  - description: Transfer-Transfer to a plate
+  - description: Serve-Serve the pancakes with chopped strawberries
+- errors:
+  - description: Serve-Serve the pancakes with chopped strawberries
+    tag: Missing Step
+  - tag: Order Error
+  recording_id: 49
+  steps:
+  - description: Add-1 heaped tbsp flour to a blender
+  - description: Add-Add 1 banana to a blender
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+  - description: blitz-blitz for 20 seconds
+  - description: Add-1 egg to a blender
+  - description: Add-1/2 tsp baking powder to a blender
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+  - description: Flip-Flip with a fork or a fish slice
+  - description: Chop-Chop 1 strawberry
+  - description: cook-cook for 20-30 seconds more
+  - description: Transfer-Transfer to a plate
+  - description: splash-splash maple syrup on pancakes
+- errors:
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    tag: Missing Step
+  - description: splash-splash maple syrup on pancakes
+    tag: Missing Step
+  - tag: Order Error
+  recording_id: 50
+  steps:
+  - description: Add-1 heaped tbsp flour to a blender
+  - description: Add-1/2 tsp baking powder to a blender
+  - description: Add-Add 1 banana to a blender
+  - description: blitz-blitz for 20 seconds
+  - description: Add-1 egg to a blender
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+  - description: Flip-Flip with a fork or a fish slice
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+  - description: Chop-Chop 1 strawberry
+  - description: cook-cook for 20-30 seconds more
+  - description: Transfer-Transfer to a plate
+  - description: Serve-Serve the pancakes with chopped strawberries
