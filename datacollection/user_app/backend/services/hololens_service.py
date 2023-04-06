@@ -120,7 +120,7 @@ class FileWriter:
 		self._file_extension = file_extension
 	
 	def write(self, stream_packet):
-		if self._file_extension.endswith(".pkl"):
+		if self._file_extension == '.pkl':
 			pickle.dump(stream_packet, self._opened_file)
 		else:
 			self._opened_file.write(stream_packet)
@@ -157,7 +157,7 @@ class Consumer(StreamProcessor):
 		if stream_port == hl2ss.StreamPort.PHOTO_VIDEO:
 			# Here we need to save
 			# 1. Pose information
-			kwargs[const.PV_POSE_WRITER].write(stream_packet.pose)
+			kwargs[const.PV_POSE_WRITER].write((stream_packet.timestamp, stream_packet.pose))
 			
 			# 2. PV payload information - decoded
 			pv_file_name = f'{self.recording.get_recording_id()}_{stream_name}_{stream_packet.timestamp}.jpg'
@@ -173,7 +173,7 @@ class Consumer(StreamProcessor):
 			# Here we need to save
 			# 1. Pose information
 			# np.savez(os.path.join(stream_directory, kwargs[DEPTH_AHAT_POSE_FILE_NAME]), stream_packet.pose)
-			kwargs[const.DEPTH_AHAT_POSE_WRITER].write(stream_packet.pose)
+			kwargs[const.DEPTH_AHAT_POSE_WRITER].write((stream_packet.timestamp, stream_packet.pose))
 			
 			# 2. AHAT AB information
 			ab_file_name = f'{self.recording.get_recording_id()}_{stream_name}_ab_{stream_packet.timestamp}.png'
@@ -196,9 +196,9 @@ class Consumer(StreamProcessor):
 			
 			cv2.imwrite(depth_file_path, depth_data)
 		elif stream_port == hl2ss.StreamPort.MICROPHONE:
-			kwargs[const.MICROPHONE_DATA_WRITER].write(stream_packet)
+			kwargs[const.MICROPHONE_DATA_WRITER].write((stream_packet.timestamp, stream_packet.payload))
 		elif stream_port == hl2ss.StreamPort.SPATIAL_INPUT:
-			kwargs[const.SPATIAL_DATA_WRITER].write(stream_packet)
+			kwargs[const.SPATIAL_DATA_WRITER].write((stream_packet.timestamp, stream_packet.payload))
 	
 	def _fetch_stream_kwargs(self, stream_port):
 		stream_directory = self.port_to_dir[stream_port]

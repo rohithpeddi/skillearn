@@ -4,9 +4,10 @@ import pickle
 import shutil
 from typing import List
 
-from ..models.recording import Recording
-from ..constants import Post_Processing_Constants as const
-from ..logger_config import logger
+from datacollection.user_app.backend.hololens import hl2ss
+from datacollection.user_app.backend.models.recording import Recording
+from datacollection.user_app.backend.constants import Post_Processing_Constants as ppc_const
+from datacollection.user_app.backend.logger_config import logger
 
 UNIX_EPOCH = 11644473600
 
@@ -19,6 +20,17 @@ def create_directories(dir_path):
 def write_pickle_data(pickle_data, pickle_file_path):
     with open(pickle_file_path, 'wb') as pickle_file:
         pickle.dump(pickle_data, pickle_file)
+
+
+def read_stream_pkl_data(stream_pkl_file_path):
+    pkl_frames = []
+    with open(stream_pkl_file_path, 'rb') as stream_file:
+        while stream_file.seekable():
+            try:
+                pkl_frames.append(pickle.load(stream_file))
+            except EOFError:
+                break
+    return pkl_frames
 
 
 def get_nearest_timestamp(data, timestamp):
@@ -85,7 +97,6 @@ class Synchronization:
         self.recording_id = self.recording.get_recording_id()
 
         self.data_directory = os.path.join(self.data_parent_directory, self.recording_id)
-        # self.synchronized_directory = os.path.join(self.synchronized_parent_directory, self.recording_id)
         self.synchronized_directory = self.synchronized_parent_directory
 
         self.base_stream_directory = os.path.join(self.data_directory, self.base_stream)
@@ -101,13 +112,13 @@ class Synchronization:
     def create_synchronized_stream_pkl_data(self, stream_pkl_file_path, synchronized_stream_output_directory):
         # 1. Load pickle file data into a dictionary
         timestamp_to_stream_payload = {}
-        with open(stream_pkl_file_path, 'rb') as stream_file:
-            pkl_frames = pickle.load(stream_file)
-            for pkl_frame in pkl_frames:
-                ts, pose = pkl_frame
-                if type(pose) is bytearray:
-                    pose = hl2ss.unpack_si(pose)
-                timestamp_to_stream_payload[ts] = pose
+        pkl_frames = read_stream_pkl_data(stream_pkl_file_path)
+        for pkl_frame in pkl_frames:
+            # TODO: Remove the else part after the pickle file is fixed
+            ts, payload = pkl_frame if type(pkl_frame) is tuple else (pkl_frame.timestamp, pkl_frame.payload)
+            if type(payload) is bytearray:
+                payload = hl2ss.unpack_si(payload)
+            timestamp_to_stream_payload[ts] = payload
         # 2. Use the base_stream_keys and loaded pickle file data to synchronize them
         stream_keys = sorted(timestamp_to_stream_payload.keys())
         synced_timestamp_to_stream_payload = {}
@@ -140,40 +151,44 @@ class Synchronization:
     # 2. In a for loop, check for each of the synchronize streams
     # 3. Based on the stream, synchronize Pose, Payload -- if depth then synchronize ab and depth frames
     def sync_streams(self):
-        if self.base_stream == PHOTOVIDEO:
+        if self.base_stream == ppc_const.PHOTOVIDEO:
             # 1. Create base stream keys used to synchronize the rest of the data
-            self.timestamp_to_base_stream_frame = get_timestamp_to_stream_frame(self.base_stream_directory,
+            base_stream_frames_dir = os.path.join(self.base_stream_directory, "frames")
+            self.timestamp_to_base_stream_frame = get_timestamp_to_stream_frame(base_stream_frames_dir,
                                                                                 stream_extension=".jpg",
                                                                                 timestamp_index=-1)
             self.base_stream_keys = sorted(self.timestamp_to_base_stream_frame.keys())
-            create_directories(self.base_stream_directory)
-            create_directories(self.synchronized_base_stream_directory)
+            synchronized_frames_dir = os.path.join(self.synchronized_base_stream_directory, "frames")
+            create_directories(synchronized_frames_dir)
 
             # 2. Copy base stream frames into the synchronized output folder
             for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
-                src_file = os.path.join(self.base_stream_directory, self.timestamp_to_base_stream_frame[base_stream_key])
-                dest_file = os.path.join(self.synchronized_base_stream_directory, self.pv_stream_suffix % base_stream_counter)
+                src_file = os.path.join(base_stream_frames_dir,
+                                        self.timestamp_to_base_stream_frame[base_stream_key])
+                dest_file = os.path.join(synchronized_frames_dir,
+                                         self.pv_stream_suffix % base_stream_counter)
                 shutil.copy(src_file, dest_file)
             # Synchronize PV Pose
-            pv_pose_pkl = f'pv_pose.pkl'  # ToDo: Need to modify it to depth_ahat_pose.pkl
-            pv_pose_file_path = os.path.join(self.data_directory, pv_pose_pkl)
-            sync_pv_pose_file_path = os.path.join(self.synchronized_directory, pv_pose_pkl)
-            self.create_synchronized_stream_pkl_data(pv_pose_file_path, sync_pv_pose_file_path)
+            # pv_pose_pkl = f'{self.recording.id}_pv_pose.pkl'
+            # pv_pose_file_path = os.path.join(self.base_stream_directory, pv_pose_pkl)
+            # sync_pv_pose_file_path = os.path.join(self.synchronized_directory, pv_pose_pkl)
+            # self.create_synchronized_stream_pkl_data(pv_pose_file_path, sync_pv_pose_file_path)
 
             for stream_name in self.synchronize_streams:
-                if stream_name == DEPTH_AHAT:
-                    depth_parent_directory = os.path.join(self.data_directory, DEPTH_AHAT)
-                    synchronized_depth_parent_directory = os.path.join(self.synchronized_directory, DEPTH_AHAT)
+                if stream_name == ppc_const.DEPTH_AHAT:
+                    depth_parent_directory = os.path.join(self.data_directory, ppc_const.DEPTH_AHAT)
+                    synchronized_depth_parent_directory = os.path.join(self.synchronized_directory,
+                                                                       ppc_const.DEPTH_AHAT)
 
                     # 1. Synchronize Pose
-                    depth_ahat_pkl = f'depth_pose.pkl'  # ToDo: Need to modify it to depth_ahat_pose.pkl
+                    depth_ahat_pkl = f'{self.recording.id}_depth_ahat_pose.pkl'  # ToDo: Need to modify it to depth_ahat_pose.pkl
                     depth_pose_file_path = os.path.join(self.data_directory, depth_ahat_pkl)
                     sync_depth_pose_file_path = os.path.join(self.synchronized_directory, depth_ahat_pkl)
                     self.create_synchronized_stream_pkl_data(depth_pose_file_path, sync_depth_pose_file_path)
 
                     # 2. Synchronize Depth data
                     # ToDo: change it to DEPTH variables
-                    ahat_depth_dir = f"dep_ahat_depth"
+                    ahat_depth_dir = f"depth_ahat"
                     depth_data_directory = os.path.join(self.data_directory, ahat_depth_dir)
                     # synchronized_depth_data_directory = os.path.join(synchronized_depth_parent_directory, DEPTH)
                     synchronized_depth_data_directory = os.path.join(self.synchronized_directory, ahat_depth_dir[4:])
@@ -191,16 +206,16 @@ class Synchronization:
                     self.create_synchronized_stream_frames(depth_ab_directory, ".png",
                                                            synchronized_depth_ab_directory, self.depth_stream_suffix)
 
-                elif stream_name == SPATIAL:
+                elif stream_name == ppc_const.SPATIAL:
                     # 1. Synchronize spatial data
-                    spatial_directory = os.path.join(self.data_directory, SPATIAL)
-                    synchronized_spatial_directory = os.path.join(self.synchronized_directory, SPATIAL)
+                    spatial_directory = os.path.join(self.data_directory, ppc_const.SPATIAL)
+                    synchronized_spatial_directory = os.path.join(self.synchronized_directory, ppc_const.SPATIAL)
                     create_directories(synchronized_spatial_directory)
-                    spatial_data_file = f'spatial_data.pkl'
+                    spatial_data_file = f'{self.recording.id}_spatial.pkl'
                     spatial_file_path = os.path.join(spatial_directory, spatial_data_file)
                     sync_spatial_file_path = os.path.join(synchronized_spatial_directory, spatial_data_file)
                     self.create_synchronized_stream_pkl_data(spatial_file_path, sync_spatial_file_path)
-                elif stream_name in VLC_LIST:
+                elif stream_name in ppc_const.VLC_LIST:
                     # TODO: Add VLC frame synchronization code
                     logger.log(logging.ERROR, f"Need to implement the VLC Frames Sync Code")
                 else:
@@ -209,20 +224,18 @@ class Synchronization:
 
 
 def test_sync_pv_base():
-    base_stream = PHOTOVIDEO
-    sync_streams = [DEPTH_AHAT, SPATIAL]
-    data_parent_dir = "/home/bxc200008/Projects/PyCharm/data/mugpizza/SAMPLE/"
+    base_stream = ppc_const.PHOTOVIDEO
+    # sync_streams = [ppc_const.DEPTH_AHAT, ppc_const.SPATIAL]
+    sync_streams = [ppc_const.SPATIAL]
+    data_parent_dir = "/home/ptg/CODE/data/hololens/"
     rec_ids = [
-        "MugPizza_PL2_P2_R1_0",
-        "MugPizza_PL2_P4_R1_0",
-        "MugPizza_PL2_P5_R1_0",
-        "MugPizza_PL2_P7_R1_0",
+        "4_23",
+        # "28_22",
     ]
     for rec_id in rec_ids:
         data_dir = os.path.join(data_parent_dir, rec_id)
         sync_parent_dir = os.path.join(data_dir, "sync")
-        rec_instance_helper = rec_id.split('_')
-        rec_instance = Recording(*rec_instance_helper[:-1], is_error=bool(int(rec_instance_helper[-1])))
+        rec_instance = Recording(id=rec_id, activity_id=0, is_error=False, steps=[])
         pv_sync_stream = Synchronization(
             base_stream=base_stream,
             synchronize_streams=sync_streams,
