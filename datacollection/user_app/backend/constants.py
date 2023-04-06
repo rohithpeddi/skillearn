@@ -138,6 +138,7 @@ class Hololens_Constants:
 	
 	AB = "ab"
 	DEPTH = "depth"
+	FRAMES = "frames"
 	
 	PV_FRAME_WIDTH = 640
 	PV_FRAME_HEIGHT = 360

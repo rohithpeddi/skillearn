@@ -211,7 +211,7 @@ class Consumer(StreamProcessor):
 			stream_file_path = os.path.join(stream_directory,
 			                                f'{self.recording.get_recording_id()}_{stream_name}_pose.pkl')
 			kwargs[const.PV_POSE_WRITER] = FileWriter(stream_file_path, file_extension=".pkl")
-			kwargs[const.PV_DATA_DIRECTORY] = stream_directory
+			kwargs[const.PV_DATA_DIRECTORY] = os.path.join(stream_directory, const.FRAMES)
 		elif stream_port == hl2ss.StreamPort.RM_DEPTH_AHAT:
 			# Here we need to save
 			# 1. Pose information
