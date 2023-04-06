@@ -169,10 +169,10 @@ class Synchronization:
                                          self.pv_stream_suffix % base_stream_counter)
                 shutil.copy(src_file, dest_file)
             # Synchronize PV Pose
-            # pv_pose_pkl = f'{self.recording.id}_pv_pose.pkl'
-            # pv_pose_file_path = os.path.join(self.base_stream_directory, pv_pose_pkl)
-            # sync_pv_pose_file_path = os.path.join(self.synchronized_directory, pv_pose_pkl)
-            # self.create_synchronized_stream_pkl_data(pv_pose_file_path, sync_pv_pose_file_path)
+            pv_pose_pkl = f'{self.recording.id}_pv_pose.pkl'
+            pv_pose_file_path = os.path.join(self.base_stream_directory, pv_pose_pkl)
+            sync_pv_pose_file_path = os.path.join(self.synchronized_directory, pv_pose_pkl)
+            self.create_synchronized_stream_pkl_data(pv_pose_file_path, sync_pv_pose_file_path)
 
             for stream_name in self.synchronize_streams:
                 if stream_name == ppc_const.DEPTH_AHAT:
@@ -181,27 +181,25 @@ class Synchronization:
                                                                        ppc_const.DEPTH_AHAT)
 
                     # 1. Synchronize Pose
-                    depth_ahat_pkl = f'{self.recording.id}_depth_ahat_pose.pkl'  # ToDo: Need to modify it to depth_ahat_pose.pkl
-                    depth_pose_file_path = os.path.join(self.data_directory, depth_ahat_pkl)
-                    sync_depth_pose_file_path = os.path.join(self.synchronized_directory, depth_ahat_pkl)
+                    depth_ahat_pkl = f'{self.recording.id}_depth_ahat_pose.pkl'
+                    depth_pose_file_path = os.path.join(depth_parent_directory, depth_ahat_pkl)
+                    sync_depth_pose_file_path = os.path.join(synchronized_depth_parent_directory, depth_ahat_pkl)
                     self.create_synchronized_stream_pkl_data(depth_pose_file_path, sync_depth_pose_file_path)
 
                     # 2. Synchronize Depth data
                     # ToDo: change it to DEPTH variables
-                    ahat_depth_dir = f"depth_ahat"
-                    depth_data_directory = os.path.join(self.data_directory, ahat_depth_dir)
-                    # synchronized_depth_data_directory = os.path.join(synchronized_depth_parent_directory, DEPTH)
-                    synchronized_depth_data_directory = os.path.join(self.synchronized_directory, ahat_depth_dir[4:])
+
+                    depth_data_directory = os.path.join(depth_parent_directory, ppc_const.DEPTH)
+                    synchronized_depth_data_directory = os.path.join(synchronized_depth_parent_directory,
+                                                                     ppc_const.DEPTH)
                     create_directories(synchronized_depth_data_directory)
                     self.create_synchronized_stream_frames(depth_data_directory, ".png",
                                                            synchronized_depth_data_directory, self.depth_stream_suffix)
 
                     # 3. Synchronize Active Brightness data
                     # ToDo: change it to AB variables
-                    ahat_ab_dir = f"dep_ahat_ab"
-                    depth_ab_directory = os.path.join(self.data_directory, ahat_ab_dir)
-                    # synchronized_depth_data_directory = os.path.join(synchronized_depth_parent_directory, DEPTH)
-                    synchronized_depth_ab_directory = os.path.join(self.synchronized_directory, ahat_ab_dir[4:])
+                    depth_ab_directory = os.path.join(depth_parent_directory, ppc_const.AB)
+                    synchronized_depth_ab_directory = os.path.join(synchronized_depth_parent_directory, ppc_const.AB)
                     create_directories(synchronized_depth_ab_directory)
                     self.create_synchronized_stream_frames(depth_ab_directory, ".png",
                                                            synchronized_depth_ab_directory, self.depth_stream_suffix)
@@ -225,12 +223,13 @@ class Synchronization:
 
 def test_sync_pv_base():
     base_stream = ppc_const.PHOTOVIDEO
-    # sync_streams = [ppc_const.DEPTH_AHAT, ppc_const.SPATIAL]
-    sync_streams = [ppc_const.SPATIAL]
+    sync_streams = [ppc_const.DEPTH_AHAT, ppc_const.SPATIAL]
+    # sync_streams = [ppc_const.SPATIAL]
     data_parent_dir = "/home/ptg/CODE/data/hololens/"
     rec_ids = [
-        "4_23",
+        # "4_23",
         # "28_22",
+        "4_14",
     ]
     for rec_id in rec_ids:
         data_dir = os.path.join(data_parent_dir, rec_id)

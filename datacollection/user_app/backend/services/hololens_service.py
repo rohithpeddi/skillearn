@@ -351,6 +351,8 @@ class HololensService:
 			if (port == hl2ss.StreamPort.RM_DEPTH_AHAT) or (port == hl2ss.StreamPort.RM_DEPTH_LONGTHROW):
 				create_directories(os.path.join(self.port_to_dir[port], const.AB))
 				create_directories(os.path.join(self.port_to_dir[port], const.DEPTH))
+			if port == hl2ss.StreamPort.PHOTO_VIDEO:
+				create_directories(os.path.join(self.port_to_dir[port], const.FRAMES))
 		
 		# Start PV
 		self.client_rc = hl2ss.ipc_rc(self.device_ip, hl2ss.IPCPort.REMOTE_CONFIGURATION)
