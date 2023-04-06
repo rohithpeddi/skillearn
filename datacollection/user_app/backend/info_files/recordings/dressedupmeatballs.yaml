@@ -473,31 +473,12 @@
   - description: Microwave-Microwave, covered, on high for 5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
   - description: Microwave-Microwave for 1 more minute
-- recording_id: 26
-  steps:
-  - description: Place-Place 5 meatballs in a 3-qt Microwave-safe dish
-  - description: Peel-Peel 1 garlic clove
-  - description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in
-      a small bowl
-  - description: Peel-Peel one medium onion
-  - description: cut-cut it into two pieces
-  - description: Cut-Cut 1/4 medium carrot into short, thin strips
-  - description: Cut-Cut 1/8 garlic clove
-  - description: Mince-Mince 1/8 garlic clove
-  - description: Slice-Slice 1/8 medium onion
-  - description: Top-Top with the carrots, onion,  garlic and pepper
-  - description: Pour-Pour the sauces over the meatballs
-  - description: Microwave-Microwave, covered, on high for 5 minutes
-  - description: Stir-Stir the contents in the microwave with a spoon
-  - description: Microwave-Microwave, covered, on high for 5 minutes
-  - description: Stir-Stir the contents in the microwave with a spoon
-  - description: Microwave-Microwave for 1 more minute
 - errors:
   - description: Top-Top with the carrots, onion,  garlic and pepper
     tag: Missing Step
   - description: Stir-Stir the contents in the microwave with a spoon
     tag: Missing Step
-  recording_id: 27
+  recording_id: 26
   steps:
   - description: Peel-Peel 1 garlic clove
   - description: Peel-Peel one medium onion

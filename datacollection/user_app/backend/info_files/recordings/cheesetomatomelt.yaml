@@ -422,6 +422,8 @@
   - description: cook-cook for another minute or until the cheese is melted
   - description: Serve-Serve each slice of tomato on a cracker
 - errors:
+  - description: Cover-Cover the pan
+    tag: Missing Step
   - tag: Order Error
   recording_id: 40
   steps:
@@ -469,6 +471,13 @@
   - description: cook-cook for another minute or until the cheese is melted
   - description: Serve-Serve each slice of tomato on a cracker
 - errors:
+  - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
+      slice
+    tag: Missing Step
+  - description: Cover-Cover the pan
+    tag: Missing Step
+  - description: cook-cook for another minute or until the cheese is melted
+    tag: Missing Step
   - tag: Order Error
   recording_id: 45
   steps:
@@ -477,6 +486,8 @@
   - description: Cook-Cook for 1 minute
   - description: Serve-Serve each slice of tomato on a cracker
 - errors:
+  - description: Cook-Cook for 1 minute
+    tag: Missing Step
   - tag: Order Error
   recording_id: 46
   steps:
@@ -500,6 +511,10 @@
   - description: cook-cook for another minute or until the cheese is melted
   - description: Serve-Serve each slice of tomato on a cracker
 - errors:
+  - description: Cook-Cook for 1 minute
+    tag: Missing Step
+  - description: Cover-Cover the pan
+    tag: Missing Step
   - tag: Order Error
   recording_id: 48
   steps:
@@ -510,6 +525,9 @@
   - description: cook-cook for another minute or until the cheese is melted
   - description: Serve-Serve each slice of tomato on a cracker
 - errors:
+  - description: cook-cook for another minute or until the cheese is melted
+    tag: Missing Step
+  - description: Cover-Cover the pan
   - tag: Order Error
   recording_id: 49
   steps:
@@ -520,6 +538,8 @@
       slice
   - description: Serve-Serve each slice of tomato on a cracker
 - errors:
+  - description: cook-cook for another minute or until the cheese is melted
+    tag: Missing Step
   - tag: Order Error
   recording_id: 50
   steps:
