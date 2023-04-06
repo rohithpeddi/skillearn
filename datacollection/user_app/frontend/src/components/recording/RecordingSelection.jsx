@@ -96,21 +96,24 @@ const RecordingSelection = (props) => {
 					</div>
 				</div>
 				
-				<RecordingDisplayCard
-					userData={userData}
-					recording={recording}
-					environment={environment}
-					setRecording={setRecording}
-					activities={activities}
-					handleSuccessPopupOpen={handleSuccessPopupOpen}
-					handleErrorPopupOpen={handleErrorPopupOpen} />
+				<div className="recordingSelectionDisplayContainer">
+					<RecordingDisplayCard
+						userData={userData}
+						recording={recording}
+						environment={environment}
+						setRecording={setRecording}
+						activities={activities}
+						handleSuccessPopupOpen={handleSuccessPopupOpen}
+						handleErrorPopupOpen={handleErrorPopupOpen} />
+					
+					<SuccessPopup isOpen={successPopupOpen} onClose={handleSuccessPopupClose} successPopupMessage={successPopupMessage} />
+					<ErrorPopup
+						isOpen={errorPopupOpen}
+						onClose={handleErrorPopupClose}
+						errorMessage={errorPopupMessage}
+					/>
+				</div>
 				
-				<SuccessPopup isOpen={successPopupOpen} onClose={handleSuccessPopupClose} successPopupMessage={successPopupMessage} />
-				<ErrorPopup
-					isOpen={errorPopupOpen}
-					onClose={handleErrorPopupClose}
-					errorMessage={errorPopupMessage}
-				/>
 				
 			</div>
 		</div>

@@ -1,11 +1,11 @@
 .recPrepContainer {
-    width: 90%;
-    margin: 20px auto;
+    margin: 5px auto;
     text-align: center;
     overflow-y: auto;
     padding: 20px;
-    max-height: 80vh;
     box-sizing: border-box;
+    height: 70vh;
+    width: 100%;
 }
 
 .recPrepTable {
