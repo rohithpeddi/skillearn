@@ -27,7 +27,7 @@ class NASTransferService:
 			elif os.path.isdir(src_path):
 				self._transfer_directory(sftp_client, src_path, dst_path)
 	
-	def transfer(self):
+	def transfer_from_local_to_nas(self):
 		self.ssh_client.connect(const.NAS_HOSTNAME, port=const.NAS_PORT, username=const.NAS_USERNAME,
 		                        password=const.NAS_PASSWORD)
 		sftp_client = self.ssh_client.open_sftp()
@@ -52,3 +52,6 @@ class NASTransferService:
 		# 3. Transfer GOPRO data to NAS
 		gopro_directory = os.path.join(data_directory, const.GOPRO)
 		self._transfer_directory(sftp_client, gopro_directory, remote_gopro_directory, is_file=True)
+		
+	def transfer_from_nas_to_box(self):
+		pass
