@@ -58,11 +58,11 @@ class PostProcessingService:
 		converted_file_path = self.change_video_resolution(file_path)
 		self.box_service.upload_go_pro_360_video(self.recording, converted_file_path)
 	
-	def push_data_to_NAS(self):
-		self.nas_transfer_service.transfer()
+	def push_data_to_nas(self):
+		self.nas_transfer_service.transfer_from_local_to_nas()
 	
-	def push_NAS_data_to_box(self):
-		pass
+	def push_nas_data_to_box(self):
+		self.nas_transfer_service.transfer_from_nas_to_box()
 	
 	def generate_audio(self):
 		pass
