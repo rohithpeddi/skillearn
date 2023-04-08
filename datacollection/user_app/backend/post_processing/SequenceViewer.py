@@ -1,5 +1,8 @@
 import logging
+import os
+import sys
 from time import sleep
+import os.path as osp
 
 import numpy as np
 import open3d as o3d
@@ -8,6 +11,21 @@ import open3d.visualization.gui as gui
 import open3d.visualization.rendering as rendering
 
 from .SequenceLoader import SequenceLoader
+
+
+# def add_path(path):
+#     if path not in sys.path:
+#         sys.path.insert(0, path)
+#
+#
+# def initialize_paths():
+#     this_dir = osp.dirname(__file__)
+#
+#     lib_path = osp.join(this_dir, "../../backend")
+#     add_path(lib_path)
+#
+#
+# initialize_paths()
 
 
 class SequenceViewer:
@@ -243,3 +261,14 @@ class SequenceViewer:
         if self._count == self._num_frames:
             self._start_time = self._app.now
             self._count = 0
+
+
+if __name__ == "__main__":
+    curr_dir = os.path.dirname(__file__)
+
+    sequence_folder = os.path.join(
+        curr_dir, "../../../../../data/hololens/13_43/sync"
+    )
+    viewer = SequenceViewer()
+    viewer.load(sequence_folder)
+    viewer.run()

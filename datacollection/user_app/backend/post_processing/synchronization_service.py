@@ -229,9 +229,7 @@ def test_sync_pv_base():
     # sync_streams = [ppc_const.SPATIAL]
     data_parent_dir = "/home/ptg/CODE/data/hololens/"
     rec_ids = [
-        # "4_23",
-        # "28_22",
-        "4_14",
+        "13_43",
     ]
     for rec_id in rec_ids:
         data_dir = os.path.join(data_parent_dir, rec_id)

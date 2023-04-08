@@ -4,10 +4,10 @@ import pickle
 
 import cv2
 import numpy as np
-import open3d.core as o3c
 import yaml
 
-from datacollection.backend.hololens import hl2ss, hl2ss_3dcv, hl2ss_utilities
+from open3d import core as o3c
+from datacollection.user_app.backend.hololens import hl2ss, hl2ss_3dcv, hl2ss_utilities
 
 
 class SequenceLoader:

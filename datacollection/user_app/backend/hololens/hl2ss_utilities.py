@@ -3,8 +3,8 @@ import os
 import cv2
 import time
 import av
-from datacollection.backend.hololens import hl2ss
-from datacollection.backend.hololens import hl2ss_mp
+from ..hololens import hl2ss
+from ..hololens import hl2ss_mp
 
 
 # ------------------------------------------------------------------------------

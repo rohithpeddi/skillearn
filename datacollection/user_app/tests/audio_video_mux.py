@@ -29,7 +29,7 @@ def add_to_sys_path():
 	
 	this_dir = os.path.dirname(__file__)
 	
-	lib_path = os.path.join(this_dir, "../../backend")
+	lib_path = os.path.join(this_dir, "../backend")
 	add_path(lib_path)
 
 

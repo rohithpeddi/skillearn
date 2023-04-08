@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import os
-from datacollection.backend.hololens import hl2ss
+from ..hololens import hl2ss
 
 
 # ------------------------------------------------------------------------------
