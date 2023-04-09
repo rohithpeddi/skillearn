@@ -67,3 +67,22 @@
 .recPrepAccordionDetails[open] .recPrepAccordionSummary {
     background-color: #81cfe0;
 }
+
+.recPrepErrorHintButton {
+    background-color: #81cfe0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.recPrepErrorHintButton:hover {
+    background-color: #81cfe0;
+}
