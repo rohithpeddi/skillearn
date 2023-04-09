@@ -35,12 +35,10 @@ class SequenceLoader:
             curr_dir, "../../../../../data/calibration", self._device_id
         )
         self._pv2rig, self._pv_intrinsic = self.load_pv_calibration_info(
-            # self._pv_width, self._pv_height
-            1280, 720
+            self._pv_width, self._pv_height
         )
         self._principal_point, self._focal_length, self._intrinsics = self.load_calibration_data(
-            # self._pv_width, self._pv_height
-            1280, 720
+            self._pv_width, self._pv_height
         )
         (
             self._depth2rig,

@@ -111,7 +111,6 @@ class Post_Processing_Constants:
     AB = "ab"
     DEPTH = "depth"
     VLC_LIST = [VLC_LEFTLEFT, VLC_LEFTFRONT, VLC_RIGHTFRONT, VLC_RIGHTRIGHT]
-
     RAW = "raw"
     SYNC = "sync"
     GOPRO = "gopro"
@@ -123,9 +122,11 @@ class Post_Processing_Constants:
     NAS_USERNAME = "ptg"
     NAS_PASSWORD = "darpa@NAS#DS1522"
     NAS_HOSTNAME = "ptg-nas"
-    NAS_PORT = 5001
+    NAS_HOST_IP = "192.168.1.172"
+    NAS_LOGIN_PORT = 5001
+    NAS_SFTP_PORT = 22
 
-    NAS_PARENT_DIRECTORY = "/home/ptg/ptg_data"
+    NAS_DATA_ROOT_DIR = "/NetBackup/PTG"
     HOLOLENS_INFO_FILE_NAME = 'Hololens2Info.dat'
 
 
