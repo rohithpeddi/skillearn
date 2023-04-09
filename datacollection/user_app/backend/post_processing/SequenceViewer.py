@@ -29,9 +29,10 @@ from .SequenceLoader import SequenceLoader
 
 
 class SequenceViewer:
-    def __init__(self, debug=False) -> None:
+    def __init__(self, rec_id=None, debug=False) -> None:
+        self._rec_id = rec_id
         self._logger = self._init_logger(debug)
-        self._loader = SequenceLoader(debug=debug)
+        self._loader = SequenceLoader(debug=debug, rec_id=rec_id)
 
     def load(self, sequence_folder):
         self._loader.load(sequence_folder)

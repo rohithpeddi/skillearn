@@ -115,13 +115,18 @@ class Post_Processing_Constants:
     RAW = "raw"
     SYNC = "sync"
     GOPRO = "gopro"
-    
+    ZIP = "zip"
+    AHAT = "ahat"
+    FRAMES = "frames"
+    LONGTHROW = "longthrow"
+
     NAS_USERNAME = "ptg"
     NAS_PASSWORD = "darpa@NAS#DS1522"
     NAS_HOSTNAME = "ptg-nas"
     NAS_PORT = 5001
-    
+
     NAS_PARENT_DIRECTORY = "/home/ptg/ptg_data"
+    HOLOLENS_INFO_FILE_NAME = 'Hololens2Info.dat'
 
 
 # # ---------------------------------------------------------------------------------------

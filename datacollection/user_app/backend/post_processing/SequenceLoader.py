@@ -11,8 +11,9 @@ from datacollection.user_app.backend.hololens import hl2ss, hl2ss_3dcv, hl2ss_ut
 
 
 class SequenceLoader:
-    def __init__(self, device="cuda:0", debug=False):
+    def __init__(self, device="cuda:0", debug=False, rec_id=None):
         self.device = device
+        self.rec_id = rec_id
         self.logger = self._init_logger(debug)
 
     def load(self, sequence_folder):
@@ -31,13 +32,15 @@ class SequenceLoader:
         ) = self.load_meta_data(meta_file)
         curr_dir = os.path.dirname(os.path.abspath(__file__))
         self.calib_folder = os.path.join(
-            curr_dir, "../../../../data/calibration", self._device_id
+            curr_dir, "../../../../../data/calibration", self._device_id
         )
         self._pv2rig, self._pv_intrinsic = self.load_pv_calibration_info(
-            self._pv_width, self._pv_height
+            # self._pv_width, self._pv_height
+            1280, 720
         )
         self._principal_point, self._focal_length, self._intrinsics = self.load_calibration_data(
-            self._pv_width, self._pv_height
+            # self._pv_width, self._pv_height
+            1280, 720
         )
         (
             self._depth2rig,
@@ -99,7 +102,7 @@ class SequenceLoader:
         pv_height = data["pv_height"]
         depth_width = data["depth_width"]
         depth_height = data["depth_height"]
-        num_frames = data["num_frames"]
+        num_frames = data["num_of_frames"]
         self.logger.debug("Meta data loaded")
         return (
             device_id,
@@ -205,20 +208,22 @@ class SequenceLoader:
 
     def load_spatial_data(self):
         spatial_data_folder = os.path.join(self._data_folder, "spatial")
-        spatial_data = self._load_data_from_pickle_file(os.path.join(spatial_data_folder, "spatial_data.pkl"))
+        spatial_data = self._load_data_from_pickle_file(os.path.join(spatial_data_folder, f"{self.rec_id}_spatial.pkl"))
         spatial_data = list(spatial_data.values())
         print(len(spatial_data))
         return spatial_data
 
     def load_pv_pose_data(self):
-        pv_pose_data = self._load_data_from_pickle_file(os.path.join(self._data_folder, "pv_pose.pkl"))
+        pv_pose_data = self._load_data_from_pickle_file(
+            os.path.join(self._data_folder, "pv", f"{self.rec_id}_pv_pose.pkl")
+        )
         pv_pose_data = list(pv_pose_data.values())
         print(len(pv_pose_data))
         return pv_pose_data
 
     def update_pcd(self):
         depth_file = os.path.join(
-            self._data_folder, "ahat_depth/depth-{:06d}.png".format(self._frame_id)
+            self._data_folder, "depth_{}/depth/depth-{:06d}.png".format(self.depth_mode, self._frame_id)
         )
         depth = self._load_depth_image(depth_file)
         points = self._get_points_in_cam_space(depth, scale=250.0)
@@ -250,7 +255,7 @@ class SequenceLoader:
         self._points, self._depth_img = self.update_pcd()
         self._color_img = self._load_rgb_image(
             os.path.join(
-                self._data_folder, "pv/color-{:06d}.jpg".format(self._frame_id)
+                self._data_folder, "pv/frames/color-{:06d}.jpg".format(self._frame_id)
             )
         )
         self._color_pose = self.pv_pose_data[self._frame_id][0]

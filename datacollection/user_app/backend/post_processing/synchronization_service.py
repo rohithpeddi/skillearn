@@ -4,10 +4,13 @@ import pickle
 import shutil
 from typing import List
 
+import cv2
+
 from datacollection.user_app.backend.hololens import hl2ss
 from datacollection.user_app.backend.models.recording import Recording
 from datacollection.user_app.backend.constants import Post_Processing_Constants as ppc_const
 from datacollection.user_app.backend.logger_config import logger
+from datacollection.user_app.backend.post_processing.compress_data import CompressDataService
 
 UNIX_EPOCH = 11644473600
 
@@ -110,6 +113,26 @@ class SynchronizationService:
         self.ab_stream_suffix = "ab-%06d.png"
         self.vlc_stream_suffix = "vlc-%06d.jpg"
 
+        self.num_of_frames = 0
+        self.depth_mode = None
+        self.depth_width = None
+        self.depth_height = None
+        self.pv_width = None
+        self.pv_height = None
+
+    def get_device_id(self):
+        hololens_info_file = os.path.join(self.data_directory, ppc_const.HOLOLENS_INFO_FILE_NAME)
+        hololens_info_data = None
+        with open(hololens_info_file, 'r') as f:
+            hololens_info_data = f.readlines()
+        for line in hololens_info_data:
+            if line.startswith("Hololens2 Name"):
+                return line.split(":")[1].strip()
+
+    def get_width_height(self, image_path):
+        image = cv2.imread(image_path)
+        return image.shape[1], image.shape[0]
+
     def create_synchronized_stream_pkl_data(self, stream_pkl_file_path, synchronized_stream_output_directory):
         # 1. Load pickle file data into a dictionary
         timestamp_to_stream_payload = {}
@@ -152,6 +175,10 @@ class SynchronizationService:
     # 2. In a for loop, check for each of the synchronize streams
     # 3. Based on the stream, synchronize Pose, Payload -- if depth then synchronize ab and depth frames
     def sync_streams(self):
+        # meta.yaml file data
+        meta_yaml_data = {}
+        device_id = self.get_device_id()
+        meta_yaml_data["device_id"] = device_id
         if self.base_stream == ppc_const.PHOTOVIDEO:
             # 1. Create base stream keys used to synchronize the rest of the data
             base_stream_frames_dir = os.path.join(self.base_stream_directory, "frames")
@@ -159,8 +186,14 @@ class SynchronizationService:
                                                                                 stream_extension=".jpg",
                                                                                 timestamp_index=-1)
             self.base_stream_keys = sorted(self.timestamp_to_base_stream_frame.keys())
+            self.num_of_frames = len(self.base_stream_keys)
+            meta_yaml_data["num_of_frames"] = self.num_of_frames
             synchronized_frames_dir = os.path.join(self.synchronized_base_stream_directory, "frames")
             create_directories(synchronized_frames_dir)
+            sample_pv_frame = os.path.join(base_stream_frames_dir, os.listdir(base_stream_frames_dir)[0])
+            self.pv_width, self.pv_height = self.get_width_height(sample_pv_frame)
+            meta_yaml_data["pv_width"] = self.pv_width
+            meta_yaml_data["pv_height"] = self.pv_height
 
             # 2. Copy base stream frames into the synchronized output folder
             for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
@@ -172,7 +205,7 @@ class SynchronizationService:
             # Synchronize PV Pose
             pv_pose_pkl = f'{self.recording.id}_pv_pose.pkl'
             pv_pose_file_path = os.path.join(self.base_stream_directory, pv_pose_pkl)
-            sync_pv_pose_file_path = os.path.join(self.synchronized_directory, pv_pose_pkl)
+            sync_pv_pose_file_path = os.path.join(self.synchronized_base_stream_directory, pv_pose_pkl)
             self.create_synchronized_stream_pkl_data(pv_pose_file_path, sync_pv_pose_file_path)
 
             for stream_name in self.synchronize_streams:
@@ -190,7 +223,6 @@ class SynchronizationService:
 
                     # 2. Synchronize Depth data
                     # ToDo: change it to DEPTH variables
-
                     depth_data_directory = os.path.join(depth_parent_directory, ppc_const.DEPTH)
                     synchronized_depth_data_directory = os.path.join(synchronized_depth_parent_directory,
                                                                      ppc_const.DEPTH)
@@ -205,6 +237,11 @@ class SynchronizationService:
                     create_directories(synchronized_depth_ab_directory)
                     self.create_synchronized_stream_frames(depth_ab_directory, ".png",
                                                            synchronized_depth_ab_directory, self.ab_stream_suffix)
+                    sample_depth_frame = os.path.join(depth_data_directory, os.listdir(depth_data_directory)[0])
+                    self.depth_width, self.depth_height = self.get_width_height(sample_depth_frame)
+                    meta_yaml_data["depth_mode"] = ppc_const.AHAT
+                    meta_yaml_data["depth_width"] = self.depth_width
+                    meta_yaml_data["depth_height"] = self.depth_height
 
                 elif stream_name == ppc_const.SPATIAL:
                     # 1. Synchronize spatial data
@@ -222,27 +259,55 @@ class SynchronizationService:
                     logger.log(logging.ERROR, f"Cannot synchronize {stream_name} data with PV as base stream")
                     continue
 
+        with open(os.path.join(self.synchronized_directory, "meta.yaml"), "w") as meta_yaml_file:
+            for key, value in meta_yaml_data.items():
+                meta_yaml_file.write(f"{key}: {value}\n")
+
+
+def synchronize_data_dir(data_root_dir, rec_id, base_stream, sync_streams, zipped=False):
+    # mocking the recording instance
+    rec_instance = Recording(id=rec_id, activity_id=0, is_error=False, steps=[])
+
+    hl2_data_parent_dir = os.path.join(data_root_dir, "hololens")
+    go_pro_data_dir = os.path.join(data_root_dir, "gopro")
+
+    hl2_data_recid_dir = os.path.join(hl2_data_parent_dir, rec_id)
+    hl2_sync_parent_dir = os.path.join(hl2_data_recid_dir, "sync")
+    pv_sync_stream = SynchronizationService(
+        base_stream=base_stream,
+        synchronize_streams=sync_streams,
+        data_parent_directory=hl2_data_parent_dir,
+        synchronized_parent_directory=hl2_sync_parent_dir,
+        recording=rec_instance,
+    )
+    pv_sync_stream.sync_streams()
+
+    if zipped:
+        # Compress the data
+        cds = CompressDataService(data_dir=hl2_data_recid_dir)
+        sync_cds = CompressDataService(data_dir=hl2_sync_parent_dir)
+        cds.compress_depth()
+        cds.compress_pv()
+        sync_cds.compress_depth()
+        sync_cds.compress_pv()
+
+        # delete the uncompressed data
+        cds.delete_pv_dir()
+        cds.delete_depth_dir()
+        sync_cds.delete_pv_dir()
+        sync_cds.delete_depth_dir()
+
 
 def test_sync_pv_base():
     base_stream = ppc_const.PHOTOVIDEO
     sync_streams = [ppc_const.DEPTH_AHAT, ppc_const.SPATIAL]
     # sync_streams = [ppc_const.SPATIAL]
-    data_parent_dir = "/home/ptg/CODE/data/hololens/"
+    data_root_dir = "/home/ptg/CODE/data/"
     rec_ids = [
-        "13_43",
+        "13_43_",
     ]
     for rec_id in rec_ids:
-        data_dir = os.path.join(data_parent_dir, rec_id)
-        sync_parent_dir = os.path.join(data_dir, "sync")
-        rec_instance = Recording(id=rec_id, activity_id=0, is_error=False, steps=[])
-        pv_sync_stream = SynchronizationService(
-            base_stream=base_stream,
-            synchronize_streams=sync_streams,
-            data_parent_directory=data_parent_dir,
-            synchronized_parent_directory=sync_parent_dir,
-            recording=rec_instance,
-        )
-        pv_sync_stream.sync_streams()
+        synchronize_data_dir(data_root_dir, rec_id, base_stream, sync_streams, zipped=True)
 
 
 if __name__ == '__main__':
