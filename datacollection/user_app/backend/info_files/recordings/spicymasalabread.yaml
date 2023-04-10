@@ -2,7 +2,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1/2 medium onion
@@ -28,7 +28,7 @@
 - recording_id: 2
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1/2 medium onion
   - description: Add-Add 1/2 tsp cumin to the pan
@@ -55,7 +55,7 @@
 - recording_id: 3
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Chop-Chop 3 tbsp cilantro leaves
@@ -84,7 +84,7 @@
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: Chop-Chop 1/2 medium onion
   - description: Add-Add 1/2 tsp cumin to the pan
@@ -109,7 +109,7 @@
 - recording_id: 5
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: wait-wait till cumin  sizzles on the pan
@@ -137,7 +137,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: wait-wait till cumin  sizzles on the pan
   - description: Chop-Chop 1/2 medium onion
@@ -164,7 +164,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: wait-wait till cumin  sizzles on the pan
   - description: Chop-Chop 1/2 medium onion
@@ -193,7 +193,7 @@
   - description: Chop-Chop 1 green chilli
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Chop-Chop 3 tbsp cilantro leaves
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1/2 medium onion
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: wait-wait till cumin  sizzles on the pan
@@ -218,7 +218,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: wait-wait till cumin  sizzles on the pan
   - description: Chop-Chop 1/2 medium onion
@@ -244,7 +244,7 @@
 - recording_id: 10
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: Add-Add 1/2 tsp cumin to the pan
@@ -271,7 +271,7 @@
 - recording_id: 11
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -298,7 +298,7 @@
 - recording_id: 12
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: wait-wait till cumin  sizzles on the pan
@@ -325,7 +325,7 @@
 - recording_id: 13
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1/2 medium onion
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Add-Add 1/2 tsp cumin to the pan
@@ -353,7 +353,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Chop-Chop 1/2 medium onion
@@ -379,7 +379,7 @@
 - recording_id: 15
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: wait-wait till cumin  sizzles on the pan
@@ -406,7 +406,7 @@
 - recording_id: 16
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
@@ -433,7 +433,7 @@
 - recording_id: 17
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: Chop-Chop 1/2 medium onion
@@ -461,7 +461,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: wait-wait till cumin  sizzles on the pan
   - description: Chop-Chop 1/2 medium onion
@@ -487,7 +487,7 @@
 - recording_id: 19
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1 green chilli
   - description: Chop-Chop 1/2 medium onion
@@ -514,7 +514,7 @@
 - recording_id: 20
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
@@ -541,7 +541,7 @@
 - recording_id: 21
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: wait-wait till cumin  sizzles on the pan
@@ -568,7 +568,7 @@
 - recording_id: 22
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
@@ -595,7 +595,7 @@
 - recording_id: 23
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -622,7 +622,7 @@
 - recording_id: 24
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1 green chilli
   - description: Chop-Chop 1 medium tomato
@@ -649,7 +649,7 @@
 - recording_id: 25
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: Chop-Chop 1/2 medium onion
@@ -681,7 +681,7 @@
   recording_id: 26
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
@@ -713,7 +713,7 @@
   recording_id: 27
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1 green chilli
   - description: wait-wait till cumin  sizzles on the pan
@@ -744,7 +744,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Chop-Chop 1/2 medium onion
@@ -776,7 +776,7 @@
   recording_id: 29
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1 green chilli
   - description: Chop-Chop 1/2 medium onion
@@ -808,7 +808,7 @@
   recording_id: 30
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
   - description: Chop-Chop 3 tbsp cilantro leaves
@@ -839,7 +839,7 @@
   recording_id: 31
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1/2 medium onion
   - description: Add-Add 1/2 tsp cumin to the pan
@@ -867,7 +867,7 @@
   recording_id: 32
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1/2 medium onion
   - description: Add-Add 1/2 tsp cumin to the pan
@@ -903,7 +903,7 @@
   recording_id: 33
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
   - description: Cut-Cut two slices of bread into bite-size pieces
@@ -934,7 +934,7 @@
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1/2 medium onion
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1 green chilli
   - description: wait-wait till cumin  sizzles on the pan
@@ -964,7 +964,7 @@
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Chop-Chop 3 tbsp cilantro leaves
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: wait-wait till cumin  sizzles on the pan
@@ -990,7 +990,7 @@
   recording_id: 36
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1/2 medium onion
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Add-Add 1/2 tsp cumin to the pan
@@ -1020,7 +1020,7 @@
   steps:
   - description: Chop-Chop 1 green chilli
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 medium tomato
@@ -1054,7 +1054,7 @@
   recording_id: 38
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1 medium tomato
   - description: wait-wait till cumin  sizzles on the pan
@@ -1085,7 +1085,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: wait-wait till cumin  sizzles on the pan
   - description: Chop-Chop 1/2 medium onion
@@ -1108,7 +1108,7 @@
 - errors:
   - description: Chop-Chop 3 tbsp cilantro leaves
     tag: Missing Step
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
     tag: Missing Step
   - description: mix-Gently mix the bread and mixture. Avoid overmixing as the bread
       gets mushy
@@ -1149,7 +1149,7 @@
   recording_id: 41
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1/2 medium onion
   - description: wait-wait till cumin  sizzles on the pan
@@ -1181,7 +1181,7 @@
   recording_id: 42
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: wait-wait till cumin  sizzles on the pan
   - description: Chop-Chop 1/2 medium onion
@@ -1210,7 +1210,7 @@
   recording_id: 43
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Add-Add 1 teaspoon of ginger garlic paste to the pan
   - description: Saute-Saute until the raw smell goes off
@@ -1246,7 +1246,7 @@
   steps:
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Chop-Chop 3 tbsp cilantro leaves
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Pour-Pour 3 tbsp of water to the pan
   - description: Wait-Wait until the onion turns golden
@@ -1279,7 +1279,7 @@
   steps:
   - description: Chop-Chop 1 medium tomato
   - description: Pour-Pour 3 tbsp of water to the pan
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1 teaspoon of ginger garlic paste to the pan
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Chop-Chop 1 green chilli
@@ -1309,7 +1309,7 @@
   recording_id: 46
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: Chop-Chop 1 green chilli
@@ -1340,7 +1340,7 @@
   - tag: Order Error
   recording_id: 47
   steps:
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 3 tbsp cilantro leaves
   - description: Chop-Chop 1 green chilli
   - description: Sprinkle-Sprinkle 3 tbsp chopped cilantro leaves
@@ -1379,7 +1379,7 @@
   recording_id: 48
   steps:
   - description: Chop-Chop 3 tbsp cilantro leaves
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Chop-Chop 1 medium tomato
   - description: Chop-Chop 1 green chilli
   - description: Chop-Chop 1/2 medium onion
@@ -1408,7 +1408,7 @@
   recording_id: 49
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Pour-Pour 3 tbsp of water to the pan
   - description: Chop-Chop 1/2 medium onion
   - description: Chop-Chop 1 green chilli
@@ -1434,7 +1434,7 @@
   recording_id: 50
   steps:
   - description: Chop-Chop 1 medium tomato
-  - description: Heat-Heat a pan with 1 tbsp oil
+  - description: Heat-Heat a pan with 1 tbsp oil on medium heat
   - description: Add-Add 1/2 tsp cumin to the pan
   - description: Cut-Cut two slices of bread into bite-size pieces
   - description: Chop-Chop 3 tbsp cilantro leaves

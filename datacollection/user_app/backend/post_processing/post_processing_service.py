@@ -50,7 +50,6 @@ class PostProcessingService:
         pv_sync_stream.sync_streams()
         logger.info(f'Finished synchronization for {self.recording.id}')
 
-    # TODO: Check folder structure for the sequence viewer
     def verify_3d_information(self):
         sequence_folder = os.path.join(self.data_parent_directory, self.recording.id, const.SYNC)
         sequence_viewer = SequenceViewer()
@@ -62,7 +61,7 @@ class PostProcessingService:
         self.box_service.upload_go_pro_360_video(self.recording, converted_file_path)
 
     def push_data_to_NAS(self):
-        self.nas_transfer_service.transfer()
+        self.nas_transfer_service.transfer_from_local_to_nas()
 
     def push_NAS_data_to_box(self):
         pass

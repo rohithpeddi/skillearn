@@ -6,6 +6,7 @@ import Preferences from './components/preferences/Preferences';
 import Recording from './components/recording/Recording';
 import Annotation from './components/annotation/Annotation';
 import LoginPage from './components/login/LoginPage';
+import AdminPage from "./components/admin/AdminPage";
 
 const App = () => {
     const [userData, setUserData] = useState(false);
@@ -25,7 +26,23 @@ const App = () => {
             <div className="App">
                 <Routes>
                     {userData ? (
-                        <>
+                        userData.username === 'admin' ? (
+                            <Route
+                                exact
+                                path="/admin"
+                                element={
+                                    <AdminPage
+                                        userData={userData}
+                                        environment={environment}
+                                        activities={activities}
+                                        setUserData={setUserData}
+                                        setEnvironment={setEnvironment}
+                                        setActivities={setActivities}
+                                    />
+                                }
+                            />
+                        ) : (
+                            <>
                             <Route
                                 exact
                                 path="/"
@@ -80,6 +97,7 @@ const App = () => {
                                 }
                             />
                         </>
+                        )
                     ) : (
                         <Route path="*" element={<Navigate to="/login" />} />
                     )}

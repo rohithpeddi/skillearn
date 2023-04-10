@@ -188,10 +188,10 @@ class SynchronizationService:
             self.base_stream_keys = sorted(self.timestamp_to_base_stream_frame.keys())
             self.num_of_frames = len(self.base_stream_keys)
             meta_yaml_data["num_of_frames"] = self.num_of_frames
-            synchronized_frames_dir = os.path.join(self.synchronized_base_stream_directory, "frames")
-            create_directories(synchronized_frames_dir)
-            sample_pv_frame = os.path.join(base_stream_frames_dir, os.listdir(base_stream_frames_dir)[0])
-            self.pv_width, self.pv_height = self.get_width_height(sample_pv_frame)
+            synchronized_base_stream_frames_dir = os.path.join(self.synchronized_base_stream_directory, "frames")
+            create_directories(synchronized_base_stream_frames_dir)
+            sample_base_stream_frame = os.path.join(base_stream_frames_dir, os.listdir(base_stream_frames_dir)[0])
+            self.pv_width, self.pv_height = self.get_width_height(sample_base_stream_frame)
             meta_yaml_data["pv_width"] = self.pv_width
             meta_yaml_data["pv_height"] = self.pv_height
 
@@ -199,7 +199,7 @@ class SynchronizationService:
             for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
                 src_file = os.path.join(base_stream_frames_dir,
                                         self.timestamp_to_base_stream_frame[base_stream_key])
-                dest_file = os.path.join(synchronized_frames_dir,
+                dest_file = os.path.join(synchronized_base_stream_frames_dir,
                                          self.pv_stream_suffix % base_stream_counter)
                 shutil.copy(src_file, dest_file)
             # Synchronize PV Pose
@@ -242,7 +242,6 @@ class SynchronizationService:
                     meta_yaml_data["depth_mode"] = ppc_const.AHAT
                     meta_yaml_data["depth_width"] = self.depth_width
                     meta_yaml_data["depth_height"] = self.depth_height
-
                 elif stream_name == ppc_const.SPATIAL:
                     # 1. Synchronize spatial data
                     spatial_directory = os.path.join(self.data_directory, ppc_const.SPATIAL)
@@ -258,6 +257,38 @@ class SynchronizationService:
                 else:
                     logger.log(logging.ERROR, f"Cannot synchronize {stream_name} data with PV as base stream")
                     continue
+        elif self.base_stream == ppc_const.DEPTH_AHAT:
+            # 1. Create base stream keys used to synchronize the rest of the data
+            base_stream_frames_dir = os.path.join(self.base_stream_directory, "depth")
+            self.timestamp_to_base_stream_frame = get_timestamp_to_stream_frame(base_stream_frames_dir,
+                                                                                stream_extension=".png",
+                                                                                timestamp_index=-1)
+            self.base_stream_keys = sorted(self.timestamp_to_base_stream_frame.keys())
+            self.num_of_frames = len(self.base_stream_keys)
+            meta_yaml_data["num_of_frames"] = self.num_of_frames
+            synchronized_base_stream_frames_dir = os.path.join(self.synchronized_base_stream_directory, "depth")
+            create_directories(synchronized_base_stream_frames_dir)
+            sample_base_stream_frame = os.path.join(base_stream_frames_dir, os.listdir(base_stream_frames_dir)[0])
+            self.pv_width, self.pv_height = self.get_width_height(sample_base_stream_frame)
+            meta_yaml_data["pv_width"] = self.pv_width
+            meta_yaml_data["pv_height"] = self.pv_height
+
+            # 2. Copy base stream frames into the synchronized output folder
+            for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
+                src_file = os.path.join(base_stream_frames_dir,
+                                        self.timestamp_to_base_stream_frame[base_stream_key])
+                dest_file = os.path.join(synchronized_base_stream_frames_dir,
+                                         self.depth_stream_suffix % base_stream_counter)
+                shutil.copy(src_file, dest_file)
+            
+            # Synchronize Depth Pose
+            depth_ahat_pose_pkl = f'{self.recording.id}_depth_ahat_pose.pkl'
+            depth_ahat_pose_file_path = os.path.join(self.base_stream_directory, depth_ahat_pose_pkl)
+            sync_depth_ahat_pose_file_path = os.path.join(self.synchronized_base_stream_directory, depth_ahat_pose_pkl)
+            self.create_synchronized_stream_pkl_data(depth_ahat_pose_file_path, sync_depth_ahat_pose_file_path)
+            
+            # 3. Copy the ab frames into the synchronized output folder
+            pass
 
         with open(os.path.join(self.synchronized_directory, "meta.yaml"), "w") as meta_yaml_file:
             for key, value in meta_yaml_data.items():
