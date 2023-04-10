@@ -234,8 +234,8 @@ class SequenceLoader:
 
     def project_spatial(self, image, pv_pose, data_si: hl2ss.unpack_si):
         # Marker properties
-        radius = 5
-        color = (255, 255, 0)
+        radius = 2
+        color = (0, 255, 255)
         thickness = 3
 
         if hl2ss.is_valid_pose(pv_pose) and (data_si is not None):
