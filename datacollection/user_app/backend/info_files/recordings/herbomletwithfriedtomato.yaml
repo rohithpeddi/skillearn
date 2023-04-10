@@ -3,12 +3,12 @@
   - description: crack-crack one egg in a bowl
   - description: Take-Take a tomato
   - description: Chop-Chop 2 tbsp cilantro
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: Beat-Beat the contents of the bowl
   - description: put-put them on a serving plate
@@ -23,14 +23,14 @@
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Take-Take a tomato
   - description: Chop-Chop 2 tbsp cilantro
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: crack-crack one egg in a bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: Pour-Pour the egg mixture into the pan
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
@@ -44,12 +44,12 @@
   - description: Take-Take a tomato
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
-  - description: chop-chop it into two pieces
+  - description: add-add the chopped cilantro to the bowl
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: put-put them on a serving plate
   - description: Pour-Pour the egg mixture into the pan
@@ -64,11 +64,11 @@
   - description: Chop-Chop 2 tbsp cilantro
   - description: Take-Take a tomato
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-add the chopped cilantro
-  - description: add-1/2 tsp ground black pepper
+  - description: add-add the chopped cilantro to the bowl
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: Beat-Beat the contents of the bowl
   - description: put-put them on a serving plate
@@ -82,15 +82,15 @@
   steps:
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: crack-crack one egg in a bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
   - description: Chop-Chop 2 tbsp cilantro
   - description: put-put them on a serving plate
-  - description: add-1/2 tsp ground black pepper
-  - description: add-add the chopped cilantro
+  - description: add-1/2 tsp ground black pepper to the bowl
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: Pour-Pour the egg mixture into the pan
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
@@ -102,9 +102,9 @@
   steps:
   - description: Take-Take a tomato
   - description: Chop-Chop 2 tbsp cilantro
-  - description: chop-chop it into two pieces
-  - description: add-add the chopped cilantro
-  - description: add-1/2 tsp ground black pepper
+  - description: chop-chop tomato into two pieces
+  - description: add-add the chopped cilantro to the bowl
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: crack-crack one egg in a bowl
   - description: Beat-Beat the contents of the bowl
@@ -124,11 +124,11 @@
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Chop-Chop 2 tbsp cilantro
   - description: crack-crack one egg in a bowl
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-1/2 tsp ground black pepper
-  - description: add-add the chopped cilantro
+  - description: add-1/2 tsp ground black pepper to the bowl
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
@@ -142,11 +142,11 @@
   steps:
   - description: Chop-Chop 2 tbsp cilantro
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Take-Take a tomato
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Beat-Beat the contents of the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -162,11 +162,11 @@
   steps:
   - description: Chop-Chop 2 tbsp cilantro
   - description: Take-Take a tomato
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
@@ -182,14 +182,14 @@
   steps:
   - description: crack-crack one egg in a bowl
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: put-put them on a serving plate
   - description: Pour-Pour the egg mixture into the pan
@@ -201,14 +201,14 @@
 - recording_id: 11
   steps:
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: crack-crack one egg in a bowl
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
@@ -221,13 +221,13 @@
 - recording_id: 12
   steps:
   - description: crack-crack one egg in a bowl
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
@@ -241,14 +241,14 @@
 - recording_id: 13
   steps:
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Chop-Chop 2 tbsp cilantro
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: Beat-Beat the contents of the bowl
   - description: put-put them on a serving plate
@@ -262,15 +262,15 @@
   steps:
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
-  - description: add-1/2 tsp ground black pepper
+  - description: chop-chop tomato into two pieces
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: crack-crack one egg in a bowl
   - description: Chop-Chop 2 tbsp cilantro
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: Pour-Pour the egg mixture into the pan
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
@@ -284,11 +284,11 @@
   - description: Take-Take a tomato
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: crack-crack one egg in a bowl
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-1/2 tsp ground black pepper
-  - description: add-add the chopped cilantro
+  - description: add-1/2 tsp ground black pepper to the bowl
+  - description: add-add the chopped cilantro to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
   - description: Beat-Beat the contents of the bowl
@@ -302,11 +302,11 @@
   steps:
   - description: Chop-Chop 2 tbsp cilantro
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Take-Take a tomato
   - description: crack-crack one egg in a bowl
-  - description: add-add the chopped cilantro
-  - description: chop-chop it into two pieces
+  - description: add-add the chopped cilantro to the bowl
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
@@ -321,12 +321,12 @@
 - recording_id: 17
   steps:
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Take-Take a tomato
   - description: Chop-Chop 2 tbsp cilantro
   - description: crack-crack one egg in a bowl
-  - description: add-add the chopped cilantro
-  - description: chop-chop it into two pieces
+  - description: add-add the chopped cilantro to the bowl
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
@@ -341,15 +341,15 @@
 - recording_id: 18
   steps:
   - description: Take-Take a tomato
-  - description: add-1/2 tsp ground black pepper
-  - description: chop-chop it into two pieces
+  - description: add-1/2 tsp ground black pepper to the bowl
+  - description: chop-chop tomato into two pieces
   - description: Chop-Chop 2 tbsp cilantro
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
   - description: crack-crack one egg in a bowl
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: put-put them on a serving plate
   - description: Beat-Beat the contents of the bowl
   - description: Pour-Pour the egg mixture into the pan
@@ -364,11 +364,11 @@
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Chop-Chop 2 tbsp cilantro
   - description: crack-crack one egg in a bowl
-  - description: add-1/2 tsp ground black pepper
-  - description: chop-chop it into two pieces
+  - description: add-1/2 tsp ground black pepper to the bowl
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
   - description: Beat-Beat the contents of the bowl
@@ -382,11 +382,11 @@
   steps:
   - description: Chop-Chop 2 tbsp cilantro
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: crack-crack one egg in a bowl
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
-  - description: add-add the chopped cilantro
+  - description: chop-chop tomato into two pieces
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -404,9 +404,9 @@
   - description: Take-Take a tomato
   - description: Chop-Chop 2 tbsp cilantro
   - description: crack-crack one egg in a bowl
-  - description: chop-chop it into two pieces
-  - description: add-add the chopped cilantro
-  - description: add-1/2 tsp ground black pepper
+  - description: chop-chop tomato into two pieces
+  - description: add-add the chopped cilantro to the bowl
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
@@ -420,12 +420,12 @@
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
 - recording_id: 22
   steps:
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Take-Take a tomato
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -441,15 +441,15 @@
 - recording_id: 23
   steps:
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
   - description: Beat-Beat the contents of the bowl
   - description: Pour-Pour the egg mixture into the pan
@@ -463,13 +463,13 @@
   - description: Chop-Chop 2 tbsp cilantro
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Take-Take a tomato
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: put-put them on a serving plate
   - description: Pour-Pour the egg mixture into the pan
@@ -481,12 +481,12 @@
 - recording_id: 25
   steps:
   - description: Take-Take a tomato
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
@@ -505,11 +505,11 @@
   steps:
   - description: Chop-Chop 2 tbsp cilantro
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
-  - description: add-add the chopped cilantro
+  - description: chop-chop tomato into two pieces
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -521,7 +521,7 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
 - errors:
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
     tag: Missing Step
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
@@ -531,11 +531,11 @@
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Chop-Chop 2 tbsp cilantro
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: put-put them on a serving plate
   - description: crack-crack one egg in a bowl
   - description: Beat-Beat the contents of the bowl
@@ -551,11 +551,11 @@
   recording_id: 28
   steps:
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -567,7 +567,7 @@
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
 - errors:
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
     tag: Missing Step
   - description: put-put them on a serving plate
     tag: Missing Step
@@ -576,8 +576,8 @@
   - description: Chop-Chop 2 tbsp cilantro
   - description: Take-Take a tomato
   - description: crack-crack one egg in a bowl
-  - description: add-add the chopped cilantro
-  - description: chop-chop it into two pieces
+  - description: add-add the chopped cilantro to the bowl
+  - description: chop-chop tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -590,7 +590,7 @@
       an omelette
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
 - errors:
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
     tag: Missing Step
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
       base of the pan moves to enable the uncooked egg to flow into the space
@@ -603,12 +603,12 @@
   - description: Take-Take a tomato
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
   - description: crack-crack one egg in a bowl
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: put-put them on a serving plate
   - description: Beat-Beat the contents of the bowl
   - description: Pour-Pour the egg mixture into the pan
@@ -620,14 +620,14 @@
   steps:
   - description: Chop-Chop 2 tbsp cilantro
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: crack-crack one egg in a bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: put-put them on a serving plate
   - description: Pour-Pour the egg mixture into the pan
@@ -636,7 +636,7 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
 - errors:
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
     tag: Missing Step
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
       base of the pan moves to enable the uncooked egg to flow into the space
@@ -644,11 +644,11 @@
   recording_id: 32
   steps:
   - description: crack-crack one egg in a bowl
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Chop-Chop 2 tbsp cilantro
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Take-Take a tomato
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Beat-Beat the contents of the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -667,9 +667,9 @@
   - description: Take-Take a tomato
   - description: crack-crack one egg in a bowl
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-1/2 tsp ground black pepper
-  - description: chop-chop it into two pieces
-  - description: add-add the chopped cilantro
+  - description: add-1/2 tsp ground black pepper to the bowl
+  - description: chop-chop tomato into two pieces
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -687,12 +687,12 @@
   recording_id: 34
   steps:
   - description: Take-Take a tomato
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Pour-Pour the egg mixture into the pan
@@ -710,11 +710,11 @@
   - description: Chop-Chop 2 tbsp cilantro
   - description: Take-Take a tomato
   - description: crack-crack one egg in a bowl
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Beat-Beat the contents of the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -723,7 +723,7 @@
   - description: Pour-Pour the egg mixture into the pan
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
       base of the pan moves to enable the uncooked egg to flow into the space
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Transfer-Transfer it to the plate and serve with the tomatoes
 - errors:
   - tag: Order Error
@@ -731,11 +731,11 @@
   steps:
   - description: Take-Take a tomato
   - description: crack-crack one egg in a bowl
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Chop-Chop 2 tbsp cilantro
-  - description: chop-chop it into two pieces
-  - description: add-add the chopped cilantro
+  - description: chop-chop tomato into two pieces
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -752,13 +752,13 @@
   recording_id: 37
   steps:
   - description: Chop-Chop 2 tbsp cilantro
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Take-Take a tomato
-  - description: add-add the chopped cilantro
-  - description: chop-chop it into two pieces
+  - description: add-add the chopped cilantro to the bowl
+  - description: chop-chop tomato into two pieces
   - description: crack-crack one egg in a bowl
   - description: Beat-Beat the contents of the bowl
   - description: Scoop-Scoop the tomatoes from the pan
@@ -776,10 +776,10 @@
   - description: Take-Take a tomato
   - description: crack-crack one egg in a bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Pour-Pour the egg mixture into the pan
-  - description: add-add the chopped cilantro
-  - description: add-1/2 tsp ground black pepper
+  - description: add-add the chopped cilantro to the bowl
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
@@ -797,11 +797,11 @@
   steps:
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: Take-Take a tomato
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: crack-crack one egg in a bowl
-  - description: chop-chop it into two pieces
-  - description: add-add the chopped cilantro
+  - description: chop-chop tomato into two pieces
+  - description: add-add the chopped cilantro to the bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: Scoop-Scoop the tomatoes from the pan
@@ -819,13 +819,13 @@
   steps:
   - description: Take-Take a tomato
   - description: Chop-Chop 2 tbsp cilantro
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: crack-crack one egg in a bowl
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
       base of the pan moves to enable the uncooked egg to flow into the space
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
   - description: Beat-Beat the contents of the bowl
@@ -841,16 +841,16 @@
   steps:
   - description: Take-Take a tomato
   - description: Chop-Chop 2 tbsp cilantro
-  - description: chop-chop it into two pieces
+  - description: chop-chop tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-add the chopped cilantro
+  - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
   - description: Scoop-Scoop the tomatoes from the pan
   - description: put-put them on a serving plate
   - description: crack-crack one egg in a bowl
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: Pour-Pour the egg mixture into the pan
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
       base of the pan moves to enable the uncooked egg to flow into the space
@@ -864,12 +864,12 @@
   - description: Chop-Chop 2 tbsp cilantro
   - description: Take-Take a tomato
   - description: Pour-Pour the egg mixture into the pan
-  - description: chop-chop it into two pieces
-  - description: add-add the chopped cilantro
+  - description: chop-chop tomato into two pieces
+  - description: add-add the chopped cilantro to the bowl
   - description: crack-crack one egg in a bowl
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
-  - description: add-1/2 tsp ground black pepper
+  - description: add-1/2 tsp ground black pepper to the bowl
   - description: stir-stir gently with a wooden spoon so the egg that sets on the
       base of the pan moves to enable the uncooked egg to flow into the space
   - description: put-put them on a serving plate

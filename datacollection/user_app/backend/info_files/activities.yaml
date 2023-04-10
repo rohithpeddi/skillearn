@@ -1343,7 +1343,7 @@
     - S9:
       description: "Season with salt and pepper to taste."
     - S10:
-      description: "Transfer it to a serving dish."
+      description: "Transfer the contents of the pan to a serving dish."
   error_hints:
     - E0:
       tag: Preparation Error
@@ -1393,7 +1393,7 @@
     - S3:
       description: "Cook for 1 min or until the tops start to bubble."
     - S4:
-      description: "Flip with a fork or a fish slice and cook for 20-30 seconds more."
+      description: "Flip with a fork or a fish slice spatula and cook for 20-30 seconds more."
     - S5:
       description: "Transfer to a plate."
     - S6:
@@ -1527,17 +1527,17 @@
     - S1:
       description: "Combine 1/6 cup water, 1/8 cup soy sauce, 1 tablespoon honey, 2 cloves minced garlic, 1/2 tablespoon minced fresh ginger, 1/8 teaspoon black pepper, 1 teaspoon cornstarch in a small bowl."
     - S2:
-      description: "Whisk to mix."
+      description: "Whisk."
     - S3:
       description: "Set aside."
     - S4:
-      description: "Take 8 in number broccoli florets."
+      description: "Take 5 in number broccoli florets."
     - S5:
-      description: "Take 3 cremini mushrooms, and slice them."
+      description: "Take 2 cremini mushrooms, and slice them."
     - S6:
-      description: "Take 1 bell pepper and slice 1/2 of the bell pepper."
+      description: "Take 1 bell pepper and slice 1/3 of the bell pepper."
     - S7:
-      description: "Heat 2 tablespoons olive oil in a large skillet over medium-high heat."
+      description: "Heat 2 tablespoons olive oil in a skillet over medium-high heat."
     - S8:
       description: "Add the broccoli and sliced mushrooms and cook, stirring often, for 4 minutes."
     - S9:
@@ -1591,8 +1591,8 @@
     - I5: "1/8 tsp black pepper"
     - I6: "1 tsp cornstarch"
     - I7: "2 tablespoons olive oil"
-    - I8: "8 broccoli florets"
-    - I9: "3 cremini mushrooms"
+    - I8: "5 broccoli florets"
+    - I9: "2 cremini mushrooms"
     - I10: "1 bell pepper"
 - id: 24
   name: "Cheese Tomato Melt"
@@ -1600,7 +1600,7 @@
   activity_type: "Pan"
   steps:
     - S0:
-      description: "Cut medium tomato into 4 slices."
+      description: "Cut 1 medium tomato into 4 slices."
     - S1:
       description: "place slices of tomato on a pan over medium heat."
     - S2:
@@ -1608,7 +1608,7 @@
     - S3:
       description: "Cover the pan and cook for another minute or until the cheese is melted."
     - S4:
-      description: "Serve each slice of tomato on a cracker."
+      description: "Place each slice of tomato on a cracker to serve"
   error_hints:
     - E0:
       tag: Preparation Error
@@ -1636,7 +1636,7 @@
       description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
   required_items:
     - I0: "1 tomato"
-    - I1: "2 tbsp shredded lowfat mozzarella cheese"
+    - I1: "2 tbsp shredded mozzarella cheese"
     - I2: "4 crackers"
 - id: 25
   name: "Pan Fried Tofu"
@@ -1646,23 +1646,23 @@
     - S0:
       description: "Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about 1″ x 1″) and pat it dry with a towel."
     - S1:
-      description: "Add 1 tablespoon of olive oil to a non-stick pan and add the tofu cubes and a few pinches of salt."
+      description: "Add 1 tablespoon of olive oil to a non-stick pan and add the tofu cubes and a 1/4 tsp of salt."
     - S2:
-      description: "Turn on the heat to medium-high."
+      description: "Turn on the heat to medium"
     - S3:
-      description: "Cook 5 to 6 minutes until lightly browned on the bottom."
+      description: "Cook 5 to 6 minutes until tofu cubes are lightly browned on the bottom."
     - S4:
       description: "Briefly remove the pan from the heat to reduce spitting."
     - S5:
       description: "Flip the tofu with tongs."
     - S6:
-      description: "Return the heat to medium-high and cook until browned."
+      description: "Return the heat to medium and cook until browned."
     - S7:
       description: "Briefly remove from the heat again and drizzle with the 1 tablespoons sesame oil and 1 tablespoon soy sauce (watch for spitting)."
     - S8:
       description: "Return to low heat and cook 2 minutes, then flip and cook 2 minutes until the colour is darkened."
     - S9:
-      description: "Serve immediately."
+      description: "Transfer to a serving dish"
   error_hints:
     - E0:
       tag: Measurement Error
@@ -1697,7 +1697,7 @@
   required_items:
     - I0: "1/4 block tofu"
     - I1: "1 tbsp oilve oil"
-    - I2: "salt"
+    - I2: "1/4 tsp salt"
     - I3: "1 tbsp sesame oil"
     - I4: "1 tbsp soy sauce"
 - id: 26
@@ -1782,38 +1782,36 @@
   required_items:
     - I0: "2 tbsp flour"
     - I1: "1.5 tbsp granulated sugar"
-    - I2: "¼ tsp baking powder"
+    - I2: "1/4 tsp baking powder"
     - I3: "Pinch salt"
     - I4: "2 tsp vegetable oil"
     - I5: "2 tbsp water"
-    - I6: "¼ tsp vanilla extract"
-    - I7: "4 tbsp choclate frosting"
+    - I6: "1/4 tsp vanilla extract"
+    - I7: "4 tbsp chocolate frosting"
 - id: 27
   name: "Cheese Pimiento"
   category: "Veg"
-  activity_type: "Pan"
+  activity_type: "Microwave"
   steps:
     - S0:
-      description: "Rinse a red bell pepper."
+      description: "Chop 1/4 red bell pepper into tiny bits."
     - S1:
-      description: "Chop 1/4 bell pepper into tiny bits."
-    - S2:
       description: "Place the chopped pepper in a microwave-safe bowl."
-    - S3:
+    - S2:
       description: "Add 2 tablespoons of water to the bowl."
-    - S4:
+    - S3:
       description: "Microwave, covered, for 2 minutes."
+    - S4:
+      description: "Add 2/3 cup cheddar cheese to a microwave-safe cup."
     - S5:
-      description: "Add 2/3 cup cheddar cheese to another microwave-safe bowl."
+      description: "Melt the cheese by microwaving it for 30 sec. (Check after 30 seconds and microwave for 10 seconds more if needed)."
     - S6:
-      description: "Melt the cheese by microwaving it for 1 min to 30 seconds."
+      description: "Mix the cheese and red bell pepper in the bowl and add 1 tbsp softened butter."
     - S7:
-      description: "Mix the cheese and red bell pepper and add 1 tbsp butter."
-    - S8:
       description: "Add 1/2 teaspoon salt."
-    - S9:
+    - S8:
       description: "Add 1/2 teaspoon pepper."
-    - S10:
+    - S9:
       description: "Mix all the ingredients well and serve."
   error_hints:
     - E0:
@@ -1823,7 +1821,7 @@
       tag: Temperature Error
       description: "Overheating the cheese in the microwave can cause it to become hard and rubbery."
   required_items:
-    - I0: "1 red bell pepper"
+    - I0: "1/4 red bell pepper"
     - I1: "2/3 cup shredded cheddar cheese"
     - I2: "1 tbsp butter"
     - I3: "1/2 tsp salt"
@@ -1831,24 +1829,24 @@
 - id: 28
   name: "Spicy Tuna Avocado Wraps"
   category: "Non-Veg"
-  activity_type: "Pan"
+  activity_type: "Nothing"
   steps:
     - S0:
       description: "Take 1 ripe avocado and cut it into thin slices."
     - S1:
-      description: "Chop 1 green onion."
+      description: "Chop 1 scallion."
     - S2:
       description: "Open a can of tuna and drain excess water."
     - S3:
-      description: "Add 1 can drained tuna, 1/4 cup mayonnaise, 1 tsp Sriracha sauce, and chopped green onions in a bowl."
+      description: "Add 1 can drained tuna, 1/4 cup mayonnaise, 1 tsp Sriracha sauce, and chopped scallion in a bowl."
     - S4:
       description: "Mix the contents of the bowl."
     - S5:
       description: "Season with 1/4 tsp salt and 1/4 tsp pepper."
     - S6:
-      description: "Lay out 4 large lettuce leaves, place avocado slices on each leaf, and top with the tuna mixture."
+      description: "Lay out 2 large lettuce leaves, place avocado slices on each leaf, and top with the tuna mixture."
     - S7:
-      description: "Roll up the lettuce wraps and serve immediately."
+      description: "Roll up the lettuce wraps and secure wrap with a toothpick."
   error_hints:
     - E0:
       tag: Missing Step
@@ -1886,16 +1884,17 @@
     - I2: "1 tsp Sriracha sauce"
     - I3: "1 green onion"
     - I4: "1 ripe avocado"
-    - I5: "4 large lettuce leaves"
+    - I5: "2 large lettuce leaves"
     - I6: "1/4 tsp Salt"
     - I7: "1/4 tsp pepper"
+    - I8: "Toothpicks"
 - id: 29
   name: "Caprese Bruschetta"
   category: "Veg"
   activity_type: "Pan"
   steps:
     - S0:
-      description: "Slice Baguette into 1/2 inch thick rounds."
+      description: "Slice 2 1/2 inch thick rounds from a baguette (slice slanted)"
     - S1:
       description: "Brush 2 slices of baguette with olive oil on both sides."
     - S2:
@@ -1958,7 +1957,7 @@
     - S3:
       description: "Peel one garlic clove and mince it."
     - S4:
-      description: "In a large pot, heat 1 tbsp olive oil over medium heat."
+      description: "In a pot, heat 1 tbsp olive oil over medium heat."
     - S5:
       description: "Add the onion and garlic and cook for 2-3 minutes, until softened."
     - S6:
@@ -1970,7 +1969,7 @@
     - S9:
       description: "Season with 1/4 tsp salt and 1/4 tsp pepper."
     - S10:
-      description: "Serve immediately."
+      description: "Transfer to a serving bowl"
   error_hints:
     - E0:
       tag: Technique Error
@@ -2006,6 +2005,6 @@
     - I3: "1 can (28 oz.) crushed tomatoes"
     - I4: "1/2 cup vegetable broth"
     - I5: "1/8 cup heavy cream"
-    - I6: "1/16 cup basil"
+    - I6: "1/16 cup fresh basil"
     - I7: "1/4 tsp Salt"
     - I8: "1/4 tsp pepper"
