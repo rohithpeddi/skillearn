@@ -1,5 +1,5 @@
 import multiprocessing as mp
-import hl2ss
+from ..hololens import hl2ss
 
 
 # ------------------------------------------------------------------------------

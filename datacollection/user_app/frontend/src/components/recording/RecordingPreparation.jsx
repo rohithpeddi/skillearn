@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './RecordingPreparation.css';
 import RecordingStepPreparation from "./RecordingStepPreparation";
+import RecordingErrorHints from "./RecordingErrorHints";
 
 const RecordingPreparation = (props) => {
 	const { userData, environment, activities, recording, setRecording, errorTags: errorTags} = props;
+	
+	const [showTable, setShowTable] = useState(false);
 	
 	const getActivityName = (activityId) => {
 		const activity = activities.find((activity) => activity.id === activityId);
@@ -18,6 +21,15 @@ const RecordingPreparation = (props) => {
 		const activity = activities.find((activity) => activity.id === activityId);
 		const descriptions = activity.steps.map(step => step.description);
 		return descriptions.join(".");
+	};
+	
+	const getActivityErrorHints = (activityId) => {
+		const activity = activities.find((activity) => activity.id === activityId);
+		return activity.error_hints;
+	};
+	
+	const handleShowErrorTableClick = () => {
+		setShowTable(!showTable);
 	};
 	
 	if (!recording) {
@@ -42,6 +54,12 @@ const RecordingPreparation = (props) => {
 						<td className="recPrepBox">
 							{getActivityDescription(recording.activity_id)}
 						</td>
+					</tr>
+					<tr className="recPrepErrorHintButton">
+						<button onClick={handleShowErrorTableClick}>
+							SHOW ERROR HINTS
+						</button>
+						{showTable && <RecordingErrorHints errorHints={getActivityErrorHints(recording.activity_id)} />}
 					</tr>
 					{recording.steps.map((row, index) => (
 						<tr key={index} className="recPrepTableRow">

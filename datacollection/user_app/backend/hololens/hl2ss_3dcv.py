@@ -1,12 +1,12 @@
 import numpy as np
 import cv2
 import os
-import hl2ss
+import datacollection.user_app.backend.hololens.hl2ss as hl2ss
 
 
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # Transforms
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 def to_homogeneous(array):
     return np.concatenate((array, np.ones(array.shape[0:-1] + (1,), dtype=array.dtype)), axis=-1)
@@ -15,6 +15,26 @@ def to_homogeneous(array):
 def to_inhomogeneous(array):
     w = array[..., -1, np.newaxis]
     return (array[..., 0:-1] / w, w)
+
+
+def get_homogeneous_component(array):
+    return array[..., -1, np.newaxis]
+
+
+def get_inhomogeneous_component(array):
+    return array[..., 0:-1]
+
+
+def to_inhomogeneous(array):
+    return get_inhomogeneous_component(array) / get_homogeneous_component(array)
+
+
+def transform(points, transform4x4):
+    return points @ transform4x4[:3, :3] + transform4x4[3, :3].reshape(([1] * (len(points.shape) - 1)).append(3))
+
+
+def project(points, projection4x4):
+    return to_inhomogeneous(transform(points, projection4x4))
 
 
 def project_to_image(hwpoints, projection):
@@ -58,7 +78,9 @@ def extrinsics_to_Rt(extrinsics):
 
 
 def vector_to_skew_symmetric(vector):
-    return np.array([[0, vector[0, 2], -vector[0, 1]], [-vector[0, 2], 0, vector[0, 0]], [vector[0, 1], -vector[0, 0], 0]], dtype=vector.dtype)
+    return np.array(
+        [[0, vector[0, 2], -vector[0, 1]], [-vector[0, 2], 0, vector[0, 0]], [vector[0, 1], -vector[0, 0], 0]],
+        dtype=vector.dtype)
 
 
 def Rt_to_essential(R, t_skew):
@@ -70,7 +92,8 @@ def essential_to_fundamental(image_to_camera_1, image_to_camera_2, essential):
 
 
 def compute_uv2xy(intrinsics, width, height):
-    uv2x, uv2y = np.meshgrid((np.arange(width, dtype=intrinsics.dtype)  - intrinsics[2, 0]) / intrinsics[0, 0], (np.arange(height, dtype=intrinsics.dtype) - intrinsics[2, 1]) / intrinsics[1, 1])
+    uv2x, uv2y = np.meshgrid((np.arange(width, dtype=intrinsics.dtype) - intrinsics[2, 0]) / intrinsics[0, 0],
+                             (np.arange(height, dtype=intrinsics.dtype) - intrinsics[2, 1]) / intrinsics[1, 1])
     return np.dstack((uv2x, uv2y))
 
 
@@ -79,9 +102,9 @@ def xy1_to_rays(xy1):
     return (xy1 / n[:, :, np.newaxis], n)
 
 
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # RM VLC
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 def rm_vlc_get_rotation(port):
     if (port == hl2ss.StreamPort.RM_VLC_LEFTFRONT):
@@ -92,12 +115,12 @@ def rm_vlc_get_rotation(port):
         return cv2.ROTATE_90_COUNTERCLOCKWISE
     if (port == hl2ss.StreamPort.RM_VLC_RIGHTRIGHT):
         return cv2.ROTATE_90_CLOCKWISE
-    
+
     return None
 
 
 def rm_vlc_rotate_intrinsics(intrinsics, rotation):
-    rw = hl2ss.Parameters_RM_VLC.WIDTH  - 1
+    rw = hl2ss.Parameters_RM_VLC.WIDTH - 1
     bh = hl2ss.Parameters_RM_VLC.HEIGHT - 1
 
     fx = intrinsics[0, 0]
@@ -106,9 +129,9 @@ def rm_vlc_rotate_intrinsics(intrinsics, rotation):
     cy = intrinsics[2, 1]
 
     if (rotation == cv2.ROTATE_90_CLOCKWISE):
-        return np.array([[fy, 0, 0, 0], [0, fx, 0, 0], [(bh-cy), cx, 1, 0], [0, 0, 0, 1]], dtype=intrinsics.dtype)
+        return np.array([[fy, 0, 0, 0], [0, fx, 0, 0], [(bh - cy), cx, 1, 0], [0, 0, 0, 1]], dtype=intrinsics.dtype)
     if (rotation == cv2.ROTATE_90_COUNTERCLOCKWISE):
-        return np.array([[fy, 0, 0, 0], [0, fx, 0, 0], [cy, (rw-cx), 1, 0], [0, 0, 0, 1]], dtype=intrinsics.dtype)
+        return np.array([[fy, 0, 0, 0], [0, fx, 0, 0], [cy, (rw - cx), 1, 0], [0, 0, 0, 1]], dtype=intrinsics.dtype)
 
     return None
 
@@ -118,7 +141,7 @@ def rm_vlc_rotate_extrinsics(extrinsics, rotation):
         return extrinsics @ np.array([[0, 1, 0, 0], [-1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]], dtype=extrinsics.dtype)
     if (rotation == cv2.ROTATE_90_COUNTERCLOCKWISE):
         return extrinsics @ np.array([[0, -1, 0, 0], [1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]], dtype=extrinsics.dtype)
-    
+
     return None
 
 
@@ -134,9 +157,9 @@ def rm_vlc_to_rgb(image):
     return np.dstack((image, image, image))
 
 
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # RM Depth
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 def rm_depth_undistort(depth, undistort_map):
     return cv2.remap(depth, undistort_map[:, :, 0], undistort_map[:, :, 1], cv2.INTER_NEAREST)
@@ -186,15 +209,16 @@ def rm_depth_rgbd_registered(depth, rgb, depth_xy1, depth_to_image, rgb_interpol
     return (rgb, depth)
 
 
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # PV
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 def pv_optimize_for_cv(host, focus, exposure_mode, exposure_value, iso_speed_mode, iso_speed_value, color_preset):
     settings = hl2ss.ipc_rc(host, hl2ss.IPCPort.REMOTE_CONFIGURATION)
 
     settings.set_pv_video_temporal_denoising(hl2ss.PV_VideoTemporalDenoisingMode.Off)
-    settings.set_pv_focus(hl2ss.PV_FocusMode.Manual, hl2ss.PV_AutoFocusRange.Normal, hl2ss.PV_ManualFocusDistance.Infinity, focus, hl2ss.PV_DriverFallback.Disable)
+    settings.set_pv_focus(hl2ss.PV_FocusMode.Manual, hl2ss.PV_AutoFocusRange.Normal,
+                          hl2ss.PV_ManualFocusDistance.Infinity, focus, hl2ss.PV_DriverFallback.Disable)
     settings.set_pv_exposure(exposure_mode, exposure_value)
     settings.set_pv_white_balance_preset(color_preset)
     settings.set_pv_exposure_priority_video(hl2ss.PV_ExposurePriorityVideo.Disabled)
@@ -208,58 +232,58 @@ def pv_fix_calibration(intrinsics, extrinsics):
     return (intrinsics, extrinsics, R)
 
 
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # Calibration
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 def _save_calibration_rm_vlc(calibration, path):
-    calibration.uv2xy                .tofile(os.path.join(path, 'uv2xy.bin'))
-    calibration.extrinsics           .tofile(os.path.join(path, 'extrinsics.bin'))
-    calibration.undistort_map        .tofile(os.path.join(path, 'undistort_map.bin'))
-    calibration.intrinsics           .tofile(os.path.join(path, 'intrinsics.bin'))
+    calibration.uv2xy.tofile(os.path.join(path, 'uv2xy.bin'))
+    calibration.extrinsics.tofile(os.path.join(path, 'extrinsics.bin'))
+    calibration.undistort_map.tofile(os.path.join(path, 'undistort_map.bin'))
+    calibration.intrinsics.tofile(os.path.join(path, 'intrinsics.bin'))
 
 
 def _save_calibration_rm_depth_ahat(calibration, path):
-    calibration.uv2xy                .tofile(os.path.join(path, 'uv2xy.bin'))
-    calibration.extrinsics           .tofile(os.path.join(path, 'extrinsics.bin'))
-    calibration.scale                .tofile(os.path.join(path, 'scale.bin'))
-    calibration.alias                .tofile(os.path.join(path, 'alias.bin'))
-    calibration.undistort_map        .tofile(os.path.join(path, 'undistort_map.bin'))
-    calibration.intrinsics           .tofile(os.path.join(path, 'intrinsics.bin'))
+    calibration.uv2xy.tofile(os.path.join(path, 'uv2xy.bin'))
+    calibration.extrinsics.tofile(os.path.join(path, 'extrinsics.bin'))
+    calibration.scale.tofile(os.path.join(path, 'scale.bin'))
+    calibration.alias.tofile(os.path.join(path, 'alias.bin'))
+    calibration.undistort_map.tofile(os.path.join(path, 'undistort_map.bin'))
+    calibration.intrinsics.tofile(os.path.join(path, 'intrinsics.bin'))
 
 
 def _save_calibration_rm_depth_longthrow(calibration, path):
-    calibration.uv2xy                .tofile(os.path.join(path, 'uv2xy.bin'))
-    calibration.extrinsics           .tofile(os.path.join(path, 'extrinsics.bin'))
-    calibration.scale                .tofile(os.path.join(path, 'scale.bin'))
-    calibration.undistort_map        .tofile(os.path.join(path, 'undistort_map.bin'))
-    calibration.intrinsics           .tofile(os.path.join(path, 'intrinsics.bin'))
+    calibration.uv2xy.tofile(os.path.join(path, 'uv2xy.bin'))
+    calibration.extrinsics.tofile(os.path.join(path, 'extrinsics.bin'))
+    calibration.scale.tofile(os.path.join(path, 'scale.bin'))
+    calibration.undistort_map.tofile(os.path.join(path, 'undistort_map.bin'))
+    calibration.intrinsics.tofile(os.path.join(path, 'intrinsics.bin'))
 
 
 def _save_calibration_rm_imu(calibration, path):
-    calibration.extrinsics           .tofile(os.path.join(path, 'extrinsics.bin'))
+    calibration.extrinsics.tofile(os.path.join(path, 'extrinsics.bin'))
 
 
 def _save_calibration_pv(calibration, path):
-    calibration.focal_length         .tofile(os.path.join(path, 'focal_length.bin'))
-    calibration.principal_point      .tofile(os.path.join(path, 'principal_point.bin'))
-    calibration.radial_distortion    .tofile(os.path.join(path, 'radial_distortion.bin'))
+    calibration.focal_length.tofile(os.path.join(path, 'focal_length.bin'))
+    calibration.principal_point.tofile(os.path.join(path, 'principal_point.bin'))
+    calibration.radial_distortion.tofile(os.path.join(path, 'radial_distortion.bin'))
     calibration.tangential_distortion.tofile(os.path.join(path, 'tangential_distortion.bin'))
-    calibration.projection           .tofile(os.path.join(path, 'projection.bin'))
-    calibration.intrinsics           .tofile(os.path.join(path, 'intrinsics.bin'))
+    calibration.projection.tofile(os.path.join(path, 'projection.bin'))
+    calibration.intrinsics.tofile(os.path.join(path, 'intrinsics.bin'))
 
 
 def _save_extrinsics_pv(extrinsics, path):
-    extrinsics                       .tofile(os.path.join(path, 'extrinsics.bin'))
+    extrinsics.tofile(os.path.join(path, 'extrinsics.bin'))
 
 
 def _load_calibration_rm_vlc(path):
     lut_shape = hl2ss.Parameters_RM_VLC.SHAPE + (2,)
 
-    uv2xy                 = np.fromfile(os.path.join(path, 'uv2xy.bin'),                 dtype=np.float32).reshape(lut_shape)
-    extrinsics            = np.fromfile(os.path.join(path, 'extrinsics.bin'),            dtype=np.float32).reshape((4, 4))
-    undistort_map         = np.fromfile(os.path.join(path, 'undistort_map.bin'),         dtype=np.float32).reshape(lut_shape)
-    intrinsics            = np.fromfile(os.path.join(path, 'intrinsics.bin'),            dtype=np.float32).reshape((4, 4))
+    uv2xy = np.fromfile(os.path.join(path, 'uv2xy.bin'), dtype=np.float32).reshape(lut_shape)
+    extrinsics = np.fromfile(os.path.join(path, 'extrinsics.bin'), dtype=np.float32).reshape((4, 4))
+    undistort_map = np.fromfile(os.path.join(path, 'undistort_map.bin'), dtype=np.float32).reshape(lut_shape)
+    intrinsics = np.fromfile(os.path.join(path, 'intrinsics.bin'), dtype=np.float32).reshape((4, 4))
 
     return hl2ss._Mode2_RM_VLC(uv2xy, extrinsics, undistort_map, intrinsics)
 
@@ -267,12 +291,12 @@ def _load_calibration_rm_vlc(path):
 def _load_calibration_rm_depth_ahat(path):
     lut_shape = hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE + (2,)
 
-    uv2xy                 = np.fromfile(os.path.join(path, 'uv2xy.bin'),                 dtype=np.float32).reshape(lut_shape)
-    extrinsics            = np.fromfile(os.path.join(path, 'extrinsics.bin'),            dtype=np.float32).reshape((4, 4))
-    scale                 = np.fromfile(os.path.join(path, 'scale.bin'),                 dtype=np.float32)
-    alias                 = np.fromfile(os.path.join(path, 'alias.bin'),                 dtype=np.float32)
-    undistort_map         = np.fromfile(os.path.join(path, 'undistort_map.bin'),         dtype=np.float32).reshape(lut_shape)
-    intrinsics            = np.fromfile(os.path.join(path, 'intrinsics.bin'),            dtype=np.float32).reshape((4, 4))
+    uv2xy = np.fromfile(os.path.join(path, 'uv2xy.bin'), dtype=np.float32).reshape(lut_shape)
+    extrinsics = np.fromfile(os.path.join(path, 'extrinsics.bin'), dtype=np.float32).reshape((4, 4))
+    scale = np.fromfile(os.path.join(path, 'scale.bin'), dtype=np.float32)
+    alias = np.fromfile(os.path.join(path, 'alias.bin'), dtype=np.float32)
+    undistort_map = np.fromfile(os.path.join(path, 'undistort_map.bin'), dtype=np.float32).reshape(lut_shape)
+    intrinsics = np.fromfile(os.path.join(path, 'intrinsics.bin'), dtype=np.float32).reshape((4, 4))
 
     return hl2ss._Mode2_RM_DEPTH_AHAT(uv2xy, extrinsics, scale, alias, undistort_map, intrinsics)
 
@@ -280,116 +304,117 @@ def _load_calibration_rm_depth_ahat(path):
 def _load_calibration_rm_depth_longthrow(path):
     lut_shape = hl2ss.Parameters_RM_DEPTH_LONGTHROW.SHAPE + (2,)
 
-    uv2xy                 = np.fromfile(os.path.join(path, 'uv2xy.bin'),                 dtype=np.float32).reshape(lut_shape)
-    extrinsics            = np.fromfile(os.path.join(path, 'extrinsics.bin'),            dtype=np.float32).reshape((4, 4))
-    scale                 = np.fromfile(os.path.join(path, 'scale.bin'),                 dtype=np.float32)
-    undistort_map         = np.fromfile(os.path.join(path, 'undistort_map.bin'),         dtype=np.float32).reshape(lut_shape)
-    intrinsics            = np.fromfile(os.path.join(path, 'intrinsics.bin'),            dtype=np.float32).reshape((4, 4))
+    uv2xy = np.fromfile(os.path.join(path, 'uv2xy.bin'), dtype=np.float32).reshape(lut_shape)
+    extrinsics = np.fromfile(os.path.join(path, 'extrinsics.bin'), dtype=np.float32).reshape((4, 4))
+    scale = np.fromfile(os.path.join(path, 'scale.bin'), dtype=np.float32)
+    undistort_map = np.fromfile(os.path.join(path, 'undistort_map.bin'), dtype=np.float32).reshape(lut_shape)
+    intrinsics = np.fromfile(os.path.join(path, 'intrinsics.bin'), dtype=np.float32).reshape((4, 4))
 
     return hl2ss._Mode2_RM_DEPTH_LONGTHROW(uv2xy, extrinsics, scale, undistort_map, intrinsics)
 
 
 def _load_calibration_rm_imu(path):
-    extrinsics            = np.fromfile(os.path.join(path, 'extrinsics.bin'),            dtype=np.float32).reshape((4, 4))
+    extrinsics = np.fromfile(os.path.join(path, 'extrinsics.bin'), dtype=np.float32).reshape((4, 4))
 
     return hl2ss._Mode2_RM_IMU(extrinsics)
 
 
 def _load_calibration_pv(path):
-    focal_length          = np.fromfile(os.path.join(path, 'focal_length.bin'),          dtype=np.float32)
-    principal_point       = np.fromfile(os.path.join(path, 'principal_point.bin'),       dtype=np.float32)
-    radial_distortion     = np.fromfile(os.path.join(path, 'radial_distortion.bin'),     dtype=np.float32)
+    focal_length = np.fromfile(os.path.join(path, 'focal_length.bin'), dtype=np.float32)
+    principal_point = np.fromfile(os.path.join(path, 'principal_point.bin'), dtype=np.float32)
+    radial_distortion = np.fromfile(os.path.join(path, 'radial_distortion.bin'), dtype=np.float32)
     tangential_distortion = np.fromfile(os.path.join(path, 'tangential_distortion.bin'), dtype=np.float32)
-    projection            = np.fromfile(os.path.join(path, 'projection.bin'),            dtype=np.float32).reshape((4, 4))
-    intrinsics            = np.fromfile(os.path.join(path, 'intrinsics.bin'),            dtype=np.float32).reshape((4, 4))
+    projection = np.fromfile(os.path.join(path, 'projection.bin'), dtype=np.float32).reshape((4, 4))
+    intrinsics = np.fromfile(os.path.join(path, 'intrinsics.bin'), dtype=np.float32).reshape((4, 4))
 
-    return hl2ss._Mode2_PV(focal_length, principal_point, radial_distortion, tangential_distortion, projection, intrinsics)
+    return hl2ss._Mode2_PV(focal_length, principal_point, radial_distortion, tangential_distortion, projection,
+                           intrinsics)
 
 
 def _load_extrinsics_pv(path):
-    extrinsics            = np.fromfile(os.path.join(path, 'extrinsics.bin'),            dtype=np.float32).reshape((4, 4))
+    extrinsics = np.fromfile(os.path.join(path, 'extrinsics.bin'), dtype=np.float32).reshape((4, 4))
 
     return extrinsics
 
 
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # Calibration Wrappers
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 def _download_calibration_rm(host, port):
     if (port == hl2ss.StreamPort.RM_VLC_LEFTFRONT):
-        return hl2ss.download_calibration_rm_vlc(            host, port)
+        return hl2ss.download_calibration_rm_vlc(host, port)
     if (port == hl2ss.StreamPort.RM_VLC_LEFTLEFT):
-        return hl2ss.download_calibration_rm_vlc(            host, port)
+        return hl2ss.download_calibration_rm_vlc(host, port)
     if (port == hl2ss.StreamPort.RM_VLC_RIGHTFRONT):
-        return hl2ss.download_calibration_rm_vlc(            host, port)
+        return hl2ss.download_calibration_rm_vlc(host, port)
     if (port == hl2ss.StreamPort.RM_VLC_RIGHTRIGHT):
-        return hl2ss.download_calibration_rm_vlc(            host, port)
+        return hl2ss.download_calibration_rm_vlc(host, port)
     if (port == hl2ss.StreamPort.RM_DEPTH_AHAT):
-        return hl2ss.download_calibration_rm_depth_ahat(     host, port)
+        return hl2ss.download_calibration_rm_depth_ahat(host, port)
     if (port == hl2ss.StreamPort.RM_DEPTH_LONGTHROW):
         return hl2ss.download_calibration_rm_depth_longthrow(host, port)
     if (port == hl2ss.StreamPort.RM_IMU_ACCELEROMETER):
-        return hl2ss.download_calibration_rm_imu(            host, port)
+        return hl2ss.download_calibration_rm_imu(host, port)
     if (port == hl2ss.StreamPort.RM_IMU_GYROSCOPE):
-        return hl2ss.download_calibration_rm_imu(            host, port)
+        return hl2ss.download_calibration_rm_imu(host, port)
 
 
 def _save_calibration_rm(port, calibration, path):
     if (port == hl2ss.StreamPort.RM_VLC_LEFTFRONT):
-        return _save_calibration_rm_vlc(            calibration, path)
+        return _save_calibration_rm_vlc(calibration, path)
     if (port == hl2ss.StreamPort.RM_VLC_LEFTLEFT):
-        return _save_calibration_rm_vlc(            calibration, path)
+        return _save_calibration_rm_vlc(calibration, path)
     if (port == hl2ss.StreamPort.RM_VLC_RIGHTFRONT):
-        return _save_calibration_rm_vlc(            calibration, path)
+        return _save_calibration_rm_vlc(calibration, path)
     if (port == hl2ss.StreamPort.RM_VLC_RIGHTRIGHT):
-        return _save_calibration_rm_vlc(            calibration, path)
+        return _save_calibration_rm_vlc(calibration, path)
     if (port == hl2ss.StreamPort.RM_DEPTH_AHAT):
-        return _save_calibration_rm_depth_ahat(     calibration, path)
+        return _save_calibration_rm_depth_ahat(calibration, path)
     if (port == hl2ss.StreamPort.RM_DEPTH_LONGTHROW):
         return _save_calibration_rm_depth_longthrow(calibration, path)
     if (port == hl2ss.StreamPort.RM_IMU_ACCELEROMETER):
-        return _save_calibration_rm_imu(            calibration, path)
+        return _save_calibration_rm_imu(calibration, path)
     if (port == hl2ss.StreamPort.RM_IMU_GYROSCOPE):
-        return _save_calibration_rm_imu(            calibration, path)
+        return _save_calibration_rm_imu(calibration, path)
 
     return None
 
 
-def _load_calibration_rm(port, path):   
+def _load_calibration_rm(port, path):
     if (port == hl2ss.StreamPort.RM_VLC_LEFTFRONT):
-        return _load_calibration_rm_vlc(            path)
+        return _load_calibration_rm_vlc(path)
     if (port == hl2ss.StreamPort.RM_VLC_LEFTLEFT):
-        return _load_calibration_rm_vlc(            path)
+        return _load_calibration_rm_vlc(path)
     if (port == hl2ss.StreamPort.RM_VLC_RIGHTFRONT):
-        return _load_calibration_rm_vlc(            path)
+        return _load_calibration_rm_vlc(path)
     if (port == hl2ss.StreamPort.RM_VLC_RIGHTRIGHT):
-        return _load_calibration_rm_vlc(            path)
+        return _load_calibration_rm_vlc(path)
     if (port == hl2ss.StreamPort.RM_DEPTH_AHAT):
-        return _load_calibration_rm_depth_ahat(     path)
+        return _load_calibration_rm_depth_ahat(path)
     if (port == hl2ss.StreamPort.RM_DEPTH_LONGTHROW):
         return _load_calibration_rm_depth_longthrow(path)
     if (port == hl2ss.StreamPort.RM_IMU_ACCELEROMETER):
-        return _load_calibration_rm_imu(            path)
+        return _load_calibration_rm_imu(path)
     if (port == hl2ss.StreamPort.RM_IMU_GYROSCOPE):
-        return _load_calibration_rm_imu(            path)
+        return _load_calibration_rm_imu(path)
 
     return None
 
 
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # Calibration Manager
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 class _Mode2_PV_E:
     def __init__(self, mode2, extrinsics):
-        self.focal_length          = mode2.focal_length
-        self.principal_point       = mode2.principal_point
-        self.radial_distortion     = mode2.radial_distortion
+        self.focal_length = mode2.focal_length
+        self.principal_point = mode2.principal_point
+        self.radial_distortion = mode2.radial_distortion
         self.tangential_distortion = mode2.tangential_distortion
-        self.projection            = mode2.projection
-        self.intrinsics            = mode2.intrinsics
-        self.extrinsics            = extrinsics
+        self.projection = mode2.projection
+        self.intrinsics = mode2.intrinsics
+        self.extrinsics = extrinsics
 
 
 def _check_calibration_directory(path):
@@ -433,7 +458,7 @@ def get_calibration_pv(host, port, path, focus, width, height, framerate, load_e
         calibration = hl2ss.download_calibration_pv(host, port, width, height, framerate)
         os.makedirs(base, exist_ok=True)
         _save_calibration_pv(calibration, base)
-        
+
     return _Mode2_PV_E(calibration, extrinsics)
 
 
@@ -446,9 +471,9 @@ def save_extrinsics_pv(port, extrinsics, path):
     return _save_extrinsics_pv(extrinsics, base)
 
 
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # Stereo Calibration / Rectification
-#------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 class StereoCalibration:
     def __init__(self, R, t, E, F):
@@ -460,11 +485,11 @@ class StereoCalibration:
 
 class StereoRectification:
     def __init__(self, R1, R2, P1, P2, Q, roi1, roi2, map1, map2):
-        self.R1   = R1
-        self.R2   = R2
-        self.P1   = P1
-        self.P2   = P2
-        self.Q    = Q
+        self.R1 = R1
+        self.R2 = R2
+        self.P1 = P1
+        self.P2 = P2
+        self.Q = Q
         self.roi1 = roi1
         self.roi2 = roi2
         self.map1 = map1
@@ -484,8 +509,8 @@ def rm_vlc_stereo_calibrate(intrinsics_1, intrinsics_2, extrinsics_1, extrinsics
 def rm_vlc_stereo_rectify(intrinsics_1, intrinsics_2, R_1_to_2, t_1_to_2, image_shape):
     K_1 = intrinsics_1[:3, :3].astype(np.float64).transpose()
     K_2 = intrinsics_2[:3, :3].astype(np.float64).transpose()
-    R   = R_1_to_2.astype(np.float64).transpose()
-    t   = t_1_to_2.astype(np.float64).reshape((3, 1))
+    R = R_1_to_2.astype(np.float64).transpose()
+    t = t_1_to_2.astype(np.float64).reshape((3, 1))
 
     R1, R2, P1, P2, Q, roi1, roi2 = cv2.stereoRectify(K_1, None, K_2, None, image_shape, R, t)
 
@@ -495,7 +520,8 @@ def rm_vlc_stereo_rectify(intrinsics_1, intrinsics_2, R_1_to_2, t_1_to_2, image_
     roi1 = np.array(roi1, dtype=np.int32)
     roi2 = np.array(roi2, dtype=np.int32)
 
-    return StereoRectification(R1, R2, P1, P2, Q, roi1, roi2, np.dstack((map1x, map1y)), np.dstack((map2x, map2y))) # float64, opencv shape
+    return StereoRectification(R1, R2, P1, P2, Q, roi1, roi2, np.dstack((map1x, map1y)),
+                               np.dstack((map2x, map2y)))  # float64, opencv shape
 
 
 def _stereo_subdirectory(port_1, port_2, path):
@@ -505,18 +531,18 @@ def _stereo_subdirectory(port_1, port_2, path):
 
 
 def _save_stereo_calibration(calibration, path):
-    calibration.R     .tofile(os.path.join(path, 'R.bin'))
-    calibration.t     .tofile(os.path.join(path, 't.bin'))
-    calibration.E     .tofile(os.path.join(path, 'E.bin'))
-    calibration.F     .tofile(os.path.join(path, 'F.bin'))
+    calibration.R.tofile(os.path.join(path, 'R.bin'))
+    calibration.t.tofile(os.path.join(path, 't.bin'))
+    calibration.E.tofile(os.path.join(path, 'E.bin'))
+    calibration.F.tofile(os.path.join(path, 'F.bin'))
 
 
 def _save_stereo_rectification(rectification, path):
-    rectification.R1  .tofile(os.path.join(path, 'R1.bin'))
-    rectification.R2  .tofile(os.path.join(path, 'R2.bin'))
-    rectification.P1  .tofile(os.path.join(path, 'P1.bin'))
-    rectification.P2  .tofile(os.path.join(path, 'P2.bin'))
-    rectification.Q   .tofile(os.path.join(path, 'Q.bin'))
+    rectification.R1.tofile(os.path.join(path, 'R1.bin'))
+    rectification.R2.tofile(os.path.join(path, 'R2.bin'))
+    rectification.P1.tofile(os.path.join(path, 'P1.bin'))
+    rectification.P2.tofile(os.path.join(path, 'P2.bin'))
+    rectification.Q.tofile(os.path.join(path, 'Q.bin'))
     rectification.roi1.tofile(os.path.join(path, 'roi1.bin'))
     rectification.roi2.tofile(os.path.join(path, 'roi2.bin'))
     rectification.map1.tofile(os.path.join(path, 'map1.bin'))
@@ -524,10 +550,10 @@ def _save_stereo_rectification(rectification, path):
 
 
 def _load_stereo_calibration(path):
-    R    = np.fromfile(os.path.join(path, 'R.bin'),    dtype=np.float32).reshape((3, 3))
-    t    = np.fromfile(os.path.join(path, 't.bin'),    dtype=np.float32).reshape((1, 3))
-    E    = np.fromfile(os.path.join(path, 'E.bin'),    dtype=np.float32).reshape((3, 3))
-    F    = np.fromfile(os.path.join(path, 'F.bin'),    dtype=np.float32).reshape((3, 3))
+    R = np.fromfile(os.path.join(path, 'R.bin'), dtype=np.float32).reshape((3, 3))
+    t = np.fromfile(os.path.join(path, 't.bin'), dtype=np.float32).reshape((1, 3))
+    E = np.fromfile(os.path.join(path, 'E.bin'), dtype=np.float32).reshape((3, 3))
+    F = np.fromfile(os.path.join(path, 'F.bin'), dtype=np.float32).reshape((3, 3))
 
     return StereoCalibration(R, t, E, F)
 
@@ -535,11 +561,11 @@ def _load_stereo_calibration(path):
 def _load_stereo_rectification(map_shape, path):
     lut_shape = map_shape + (2,)
 
-    R1   = np.fromfile(os.path.join(path, 'R1.bin'),   dtype=np.float64).reshape((3, 3))
-    R2   = np.fromfile(os.path.join(path, 'R2.bin'),   dtype=np.float64).reshape((3, 3))
-    P1   = np.fromfile(os.path.join(path, 'P1.bin'),   dtype=np.float64).reshape((3, 4))
-    P2   = np.fromfile(os.path.join(path, 'P2.bin'),   dtype=np.float64).reshape((3, 4))
-    Q    = np.fromfile(os.path.join(path, 'Q.bin'),    dtype=np.float64).reshape((4, 4))
+    R1 = np.fromfile(os.path.join(path, 'R1.bin'), dtype=np.float64).reshape((3, 3))
+    R2 = np.fromfile(os.path.join(path, 'R2.bin'), dtype=np.float64).reshape((3, 3))
+    P1 = np.fromfile(os.path.join(path, 'P1.bin'), dtype=np.float64).reshape((3, 4))
+    P2 = np.fromfile(os.path.join(path, 'P2.bin'), dtype=np.float64).reshape((3, 4))
+    Q = np.fromfile(os.path.join(path, 'Q.bin'), dtype=np.float64).reshape((4, 4))
     roi1 = np.fromfile(os.path.join(path, 'roi1.bin'), dtype=np.int32)
     roi2 = np.fromfile(os.path.join(path, 'roi2.bin'), dtype=np.int32)
     map1 = np.fromfile(os.path.join(path, 'map1.bin'), dtype=np.float32).reshape(lut_shape)
@@ -553,7 +579,7 @@ def save_stereo_calibration(port_1, port_2, calibration, path):
     base = _stereo_subdirectory(port_1, port_2, path)
     os.makedirs(base, exist_ok=True)
     return _save_stereo_calibration(calibration, base)
-    
+
 
 def save_stereo_rectification(port_1, port_2, rectification, path):
     _check_calibration_directory(path)
@@ -572,4 +598,3 @@ def load_stereo_rectification(port_1, port_2, path, map_shape):
     _check_calibration_directory(path)
     base = _stereo_subdirectory(port_1, port_2, path)
     return _load_stereo_rectification(map_shape, base)
-

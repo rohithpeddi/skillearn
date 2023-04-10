@@ -65,9 +65,10 @@ class HololensInfo:
 		hololens_info.imu_gyroscope = hololens_info_dict[const.IMU_GYROSCOPE]
 		hololens_info.imu_magnetometer = hololens_info_dict[const.IMU_MAGNETOMETER]
 
-		if const.DEVICE_IP in hololens_info_dict and hololens_info_dict[const.DEVICE_IP] != "":
-			hololens_info.device_ip = hololens_info_dict[const.DEVICE_IP]
-		else:
-			hololens_info.device_ip = const.DEFAULT_HOLOLENS_IP
+		hololens_info.device_ip = const.DEFAULT_HOLOLENS_IP
+		# if const.DEVICE_IP in hololens_info_dict and hololens_info_dict[const.DEVICE_IP] != "":
+		# 	hololens_info.device_ip = hololens_info_dict[const.DEVICE_IP]
+		# else:
+		# 	hololens_info.device_ip = const.DEFAULT_HOLOLENS_IP
 		
 		return hololens_info

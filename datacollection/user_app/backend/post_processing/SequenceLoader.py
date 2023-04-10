@@ -1,15 +1,19 @@
-import os
-import numpy as np
-import cv2
-import pickle
-import yaml
 import logging
-import open3d.core as o3c
+import os
+import pickle
+
+import cv2
+import numpy as np
+import yaml
+
+from open3d import core as o3c
+from datacollection.user_app.backend.hololens import hl2ss, hl2ss_3dcv, hl2ss_utilities
 
 
 class SequenceLoader:
-    def __init__(self, device="cuda:0", debug=False):
+    def __init__(self, device="cuda:0", debug=False, rec_id=None):
         self.device = device
+        self.rec_id = rec_id
         self.logger = self._init_logger(debug)
 
     def load(self, sequence_folder):
@@ -28,9 +32,12 @@ class SequenceLoader:
         ) = self.load_meta_data(meta_file)
         curr_dir = os.path.dirname(os.path.abspath(__file__))
         self.calib_folder = os.path.join(
-            curr_dir, "../../data/calibration", self._device_id
+            curr_dir, "../../../../../data/calibration", self._device_id
         )
         self._pv2rig, self._pv_intrinsic = self.load_pv_calibration_info(
+            self._pv_width, self._pv_height
+        )
+        self._principal_point, self._focal_length, self._intrinsics = self.load_calibration_data(
             self._pv_width, self._pv_height
         )
         (
@@ -38,6 +45,9 @@ class SequenceLoader:
             self._depth_xy1,
             self._depth_scale,
         ) = self.load_depth_calibration_info(depth_mode=self._depth_mode)
+
+        self.spatial_data = self.load_spatial_data()
+        self.pv_pose_data = self.load_pv_pose_data()
 
         self._frame_id = -1
         self._points = None
@@ -90,7 +100,7 @@ class SequenceLoader:
         pv_height = data["pv_height"]
         depth_width = data["depth_width"]
         depth_height = data["depth_height"]
-        num_frames = data["num_frames"]
+        num_frames = data["num_of_frames"]
         self.logger.debug("Meta data loaded")
         return (
             device_id,
@@ -140,8 +150,34 @@ class SequenceLoader:
         )
         return extrinsic, intrinsic
 
+    def load_calibration_data(self, width, height):
+        pv_calib_folder = os.path.join(self.calib_folder, "personal_video")
+        principal_point = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/principal_point.bin")
+        )
+        focal_length = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/focal_length.bin")
+        )
+        # @formatter:off
+        intrinsics = np.array([
+            [-focal_length[0],      0,                  0, 0],
+            [0,                     focal_length[1],    0, 0],
+            [principal_point[0],    principal_point[1], 1, 0],
+            [0,                     0,                  0, 1]], dtype=np.float32)
+        # @formatter:on
+        radial_distortion = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/radial_distortion.bin")
+        )
+        tangential_distortion = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/tangential_distortion.bin")
+        )
+        projection = self._load_data_from_bin_file(
+            os.path.join(pv_calib_folder, f"1000_{width}_{height}/projection.bin")
+        )
+        return principal_point, focal_length, intrinsics
+
     def _get_points_in_cam_space(
-        self, depth, scale=1000.0, depth_min=0.1, depth_max=3.0
+            self, depth, scale=1000.0, depth_min=0.1, depth_max=3.0
     ):
         depth = depth.astype(np.float32)
         depth /= scale
@@ -158,7 +194,7 @@ class SequenceLoader:
         return world_points.T[:, :3], cam2world
 
     def _get_points_in_world_space(
-        self, points_cam, rig2world_transform, rig2cam_transform
+            self, points_cam, rig2world_transform, rig2cam_transform
     ):
         cam2world_transform = np.matmul(
             rig2world_transform, np.linalg.inv(rig2cam_transform)
@@ -168,22 +204,61 @@ class SequenceLoader:
         world_points = world_points.T[:, :3]
         return world_points
 
+    def load_spatial_data(self):
+        spatial_data_folder = os.path.join(self._data_folder, "spatial")
+        spatial_data = self._load_data_from_pickle_file(os.path.join(spatial_data_folder, f"{self.rec_id}_spatial.pkl"))
+        spatial_data = list(spatial_data.values())
+        print(len(spatial_data))
+        return spatial_data
+
+    def load_pv_pose_data(self):
+        pv_pose_data = self._load_data_from_pickle_file(
+            os.path.join(self._data_folder, "pv", f"{self.rec_id}_pv_pose.pkl")
+        )
+        pv_pose_data = list(pv_pose_data.values())
+        print(len(pv_pose_data))
+        return pv_pose_data
+
     def update_pcd(self):
         depth_file = os.path.join(
-            self._data_folder, "frames/depth/depth-{:06d}.png".format(self._frame_id)
+            self._data_folder, "depth_{}/depth/depth-{:06d}.png".format(self.depth_mode, self._frame_id)
         )
         depth = self._load_depth_image(depth_file)
         points = self._get_points_in_cam_space(depth, scale=250.0)
         return points, depth
+
+    @classmethod
+    def project_points(cls, image, P, points, radius, color, thickness):
+        for x, y in hl2ss_3dcv.project_to_image(hl2ss_3dcv.to_homogeneous(points), P):
+            cv2.circle(image, (int(x), (int(y))), radius, color, thickness)
+
+    def project_spatial(self, image, pv_pose, data_si: hl2ss.unpack_si):
+        # Marker properties
+        radius = 5
+        color = (255, 255, 0)
+        thickness = 3
+
+        if hl2ss.is_valid_pose(pv_pose) and (data_si is not None):
+            projection = hl2ss_3dcv.projection(self._intrinsics, hl2ss_3dcv.world_to_reference(pv_pose))
+            si = data_si
+            if si.is_valid_hand_left():
+                self.project_points(image, projection, hl2ss_utilities.si_unpack_hand(si.get_hand_left()).positions,
+                                    radius, color, thickness)
+            if si.is_valid_hand_right():
+                self.project_points(image, projection, hl2ss_utilities.si_unpack_hand(si.get_hand_right()).positions,
+                                    radius, color, thickness)
 
     def step(self):
         self._frame_id = (self._frame_id + 1) % self._num_frames
         self._points, self._depth_img = self.update_pcd()
         self._color_img = self._load_rgb_image(
             os.path.join(
-                self._data_folder, "frames/pv/color-{:06d}.jpg".format(self._frame_id)
+                self._data_folder, "pv/frames/color-{:06d}.jpg".format(self._frame_id)
             )
         )
+        self._color_pose = self.pv_pose_data[self._frame_id][0]
+        self._spatial = self.spatial_data[self._frame_id][0]
+        self.project_spatial(self._color_img, self._color_pose, self._spatial)
 
     @property
     def device_id(self):
