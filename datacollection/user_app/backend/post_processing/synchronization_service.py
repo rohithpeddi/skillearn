@@ -10,7 +10,7 @@ from datacollection.user_app.backend.hololens import hl2ss
 from datacollection.user_app.backend.models.recording import Recording
 from datacollection.user_app.backend.constants import Post_Processing_Constants as ppc_const
 from datacollection.user_app.backend.logger_config import logger
-from datacollection.user_app.backend.post_processing.compress_data import CompressDataService
+from datacollection.user_app.backend.post_processing.compress_data_service import CompressDataService
 
 UNIX_EPOCH = 11644473600
 
@@ -295,14 +295,11 @@ class SynchronizationService:
                 meta_yaml_file.write(f"{key}: {value}\n")
 
 
-def synchronize_data_dir(data_root_dir, rec_id, base_stream, sync_streams, zipped=False):
-    # mocking the recording instance
-    rec_instance = Recording(id=rec_id, activity_id=0, is_error=False, steps=[])
-
+def synchronize_data_dir(data_root_dir, rec_instance, base_stream, sync_streams, zipped=False):
     hl2_data_parent_dir = os.path.join(data_root_dir, "hololens")
     go_pro_data_dir = os.path.join(data_root_dir, "gopro")
 
-    hl2_data_recid_dir = os.path.join(hl2_data_parent_dir, rec_id)
+    hl2_data_recid_dir = os.path.join(hl2_data_parent_dir, rec_instance.id)
     hl2_sync_parent_dir = os.path.join(hl2_data_recid_dir, "sync")
     pv_sync_stream = SynchronizationService(
         base_stream=base_stream,
@@ -338,7 +335,8 @@ def test_sync_pv_base():
         "13_43_",
     ]
     for rec_id in rec_ids:
-        synchronize_data_dir(data_root_dir, rec_id, base_stream, sync_streams, zipped=True)
+        rec_instance = Recording(id=rec_id, activity_id=0, is_error=False, steps=[])
+        synchronize_data_dir(data_root_dir, rec_instance, base_stream, sync_streams, zipped=True)
 
 
 if __name__ == '__main__':

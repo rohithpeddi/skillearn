@@ -1,7 +1,7 @@
 import os
 import threading
 from ..models.recording import Recording
-# from ..post_processing.post_processing_service import PostProcessingService
+from ..post_processing.post_processing_service import PostProcessingService
 from ..services.hololens_service import HololensService
 from ..services.open_gopro_service import OpenGoProService
 from ..logger_config import logger
@@ -86,20 +86,32 @@ class RecordingService:
 
         logger.info("Stopped all threads related to recording")
 
-    def post_process_recording(self):
-        # post_processing_service = PostProcessingService(self.recording)
-        #
-        # # 1. Convert the 4K video to 360P video
-        # gopro_dir = os.path.join(post_processing_service.data_parent_directory, self.go_pro_dir)
-        # video_file_path = os.path.join(gopro_dir, self.recording.id + '.mp4')
-        # post_processing_service.change_video_resolution(video_file_path)
+        self.post_process_recording()
 
+    def post_process_recording(self):
+        logger.info("Started post processing for recording: " + self.recording.id)
+        post_processing_service = PostProcessingService(self.recording)
+
+        # 1. Convert the 4K video to 360P video
+        gopro_dir = os.path.join(post_processing_service.data_parent_directory, self.go_pro_dir)
+        video_file_path = os.path.join(gopro_dir, self.recording.id + '.mp4')
+       
         # Thread - 1
         # 1. Push the 360P to the box
-
+        post_processing_threads = []
+        push_36op_thread = threading.Thread(target=post_processing_service.push_go_pro_360_to_box, args=(video_file_path,))
+        post_processing_threads.append(push_36op_thread)
+        
         # Thread - 2
-        # 1. Synchronize the data and store in them in new files
-
+        # 1. Synchronize the data and store in them in new file
         # 2. Zip the folders and store them in NAS
+        push_to_nas_thread = threading.Thread(target=post_processing_service.process_and_push_data_to_nas)
+        post_processing_threads.append(push_to_nas_thread)
+        
+        for thread in post_processing_threads:
+            thread.start()
+            
+        for thread in post_processing_threads:
+            thread.join()
 
-        pass
+        logger.info("Finished post processing for recording: " + self.recording.id)

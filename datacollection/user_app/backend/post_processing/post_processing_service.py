@@ -4,6 +4,7 @@
 import os
 
 from .SequenceViewer import SequenceViewer
+from .compress_data_service import CompressDataService
 from .nas_transfer_service import NASTransferService
 from .synchronization_service import SynchronizationService
 from .video_conversion_service import VideoConversionService
@@ -23,6 +24,8 @@ class PostProcessingService:
         self.recording = recording
         self.data_parent_directory = data_parent_directory
 
+        self.data_directory = os.path.join(self.data_parent_directory, self.recording.id)
+
         self.box_service = BoxService()
         self.db_service = FirebaseService()
         self.nas_transfer_service = NASTransferService(self.recording, self.data_parent_directory)
@@ -35,8 +38,7 @@ class PostProcessingService:
         return converted_file_path
 
     def synchronize_data(self):
-        data_directory = os.path.join(self.data_parent_directory, self.recording.id)
-        sync_parent_directory = os.path.join(data_directory, const.SYNC)
+        sync_parent_directory = os.path.join(self.data_directory, const.SYNC)
         base_stream = const.PHOTOVIDEO
         sync_streams = [const.DEPTH_AHAT, const.SPATIAL]
         pv_sync_stream = SynchronizationService(
@@ -49,6 +51,28 @@ class PostProcessingService:
         logger.info(f'Started synchronization for {self.recording.id}')
         pv_sync_stream.sync_streams()
         logger.info(f'Finished synchronization for {self.recording.id}')
+        
+    def compress_data(self):
+        # Compress the data
+        logger.info(f'Started compressing data for {self.recording.id}')
+        cds = CompressDataService(data_dir=self.data_directory)
+        sync_cds = CompressDataService(data_dir=self.data_directory)
+        cds.compress_depth()
+        cds.compress_pv()
+        sync_cds.compress_depth()
+        sync_cds.compress_pv()
+        logger.info(f'Finished compressing data for {self.recording.id}')
+        
+    def delete_uncompressed_data(self):
+        # Delete the uncompressed data
+        logger.info(f'Started deleting uncompressed data for {self.recording.id}')
+        cds = CompressDataService(data_dir=self.data_directory)
+        sync_cds = CompressDataService(data_dir=self.data_directory)
+        cds.delete_pv_dir()
+        cds.delete_depth_dir()
+        sync_cds.delete_pv_dir()
+        sync_cds.delete_depth_dir()
+        logger.info(f'Finished deleting uncompressed data for {self.recording.id}')
 
     def verify_3d_information(self):
         sequence_folder = os.path.join(self.data_parent_directory, self.recording.id, const.SYNC)
@@ -62,6 +86,12 @@ class PostProcessingService:
 
     def push_data_to_NAS(self):
         self.nas_transfer_service.transfer_from_local_to_nas()
+        
+    def process_and_push_data_to_nas(self):
+        self.synchronize_data()
+        self.compress_data()
+        self.delete_uncompressed_data()
+        self.push_data_to_NAS()
 
     def push_NAS_data_to_box(self):
         pass

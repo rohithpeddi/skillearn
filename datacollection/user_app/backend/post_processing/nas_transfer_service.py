@@ -28,14 +28,14 @@ class NASTransferService:
 
     def _timed_transfer_to_nas(self, sftp_client, node_name, directory_path, remote_node_path, is_file=False):
         start_time = time.time()
-        logger.info(f"[BEGIN] Transfer to NAS {node_name}")
+        logger.info(f"[BEGIN] Transfer to NAS {node_name} for recording {self.recording.id}")
         if is_file:
             remote_file_path = os.path.join(remote_node_path, node_name)
             sftp_client.put(directory_path, remote_file_path)
         else:
             self._transfer_directory(sftp_client, directory_path, remote_node_path)
         end_time = time.time()
-        logger.info(f"[END] Transfer to NAS {node_name} in {end_time - start_time} seconds")
+        logger.info(f"[END] Transfer to NAS {node_name} in {end_time - start_time} seconds for recording {self.recording.id}")
 
     def transfer_from_local_to_nas(self):
         sftp_client = pysftp.Connection(const.NAS_HOST_IP, username=const.NAS_USERNAME, password=const.NAS_PASSWORD)

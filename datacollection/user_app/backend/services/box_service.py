@@ -144,10 +144,12 @@ class BoxService:
 		self._upload_files_in_path(gopro_folder_id, gopro_path)
 		
 	def upload_go_pro_360_video(self, recording, file_path):
+		logger.info(f'Uploading GoPro 360 video for recording {recording.id}')
 		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[recording.activity_id])
 		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording.id)
 		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
 		self.client.folder(folder_id=gopro_folder_id).upload(file_path)
+		logger.info(f'Uploaded GoPro 360 video for recording {recording.id}')
 	
 	def upload_pretrained_features(self, recording, file_path):
 		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[recording.activity_id])
