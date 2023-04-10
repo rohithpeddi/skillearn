@@ -52,4 +52,4 @@ class VideoConversionService:
 
 if __name__ == '__main__':
     cgv = VideoConversionService()
-    cgv.convert_video(video_file_path='../../../../../data/gopro/13_19.MP4')
+    cgv.convert_video(video_file_path='../../../../../data/gopro/13_43.MP4')

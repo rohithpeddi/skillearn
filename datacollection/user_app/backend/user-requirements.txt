@@ -24,3 +24,4 @@ websockets
 redis
 pyaudio
 paramiko
+mediapipe
