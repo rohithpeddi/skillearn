@@ -185,7 +185,7 @@ class Hololens_Constants:
     DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
     PV_POSE_WRITER = "pv_pose_writer"
     
-    PV_STRIDE = hl2ss.compute_nv12_stride(PV_FRAME_WIDTH)
+    PV_STRIDE = hl2ss.get_nv12_stride(PV_FRAME_WIDTH)
 
 
 # # ---------------------------------------------------------------------------------------

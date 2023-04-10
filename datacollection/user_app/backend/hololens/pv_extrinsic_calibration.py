@@ -26,7 +26,7 @@ lf_profile   = hl2ss.VideoProfile.H264_BASE
 lf_bitrate   = 2*1024*1024
 
 client_rc = hl2ss.ipc_rc(host, hl2ss.IPCPort.REMOTE_CONFIGURATION)
-client_pv = hl2ss.rx_pv(host, hl2ss.StreamPort.PHOTO_VIDEO,   hl2ss.ChunkSize.PHOTO_VIDEO, hl2ss.StreamMode.MODE_1, pv_width, pv_height, pv_framerate, pv_profile, pv_bitrate)
+client_pv = hl2ss.rx_pv(host, hl2ss.StreamPort.PERSONAL_VIDEO,   hl2ss.ChunkSize.PERSONAL_VIDEO, hl2ss.StreamMode.MODE_1, pv_width, pv_height, pv_framerate, pv_profile, pv_bitrate)
 client_rn = hl2ss.rx_rm_vlc(host, hl2ss.StreamPort.RM_VLC_LEFTFRONT, hl2ss.ChunkSize.RM_VLC, hl2ss.StreamMode.MODE_1, lf_profile, lf_bitrate)
 
 list_pv = []
@@ -36,7 +36,9 @@ invalid = False
 
 print('Connecting to HL2 (' + host +  ')...')
 
-hl2ss.start_subsystem_pv(host, hl2ss.StreamPort.PHOTO_VIDEO)
+hl2ss.start_subsystem_pv(host, hl2ss.StreamPort.PERSONAL_VIDEO)
+
+client_rc.open()
 client_rc.wait_for_pv_subsystem(True)
 
 client_pv.open()
@@ -56,8 +58,9 @@ for i in tqdm(range(0, samples)):
 client_pv.close()
 client_rn.close()
 
-hl2ss.stop_subsystem_pv(host, hl2ss.StreamPort.PHOTO_VIDEO)
+hl2ss.stop_subsystem_pv(host, hl2ss.StreamPort.PERSONAL_VIDEO)
 client_rc.wait_for_pv_subsystem(False)
+client_rc.close()
 
 if (invalid):
     print('Invalid pose detected')
@@ -76,7 +79,7 @@ extrinsics[ 3, :3] = np.mean(np.array([list_extrinsics[i][3, 0:3] for i in range
 extrinsics[:3, :3] = Rotation.from_matrix(np.vstack([list_extrinsics[i][:3, :3].reshape((1, 3, 3)) for i in range(0, samples)])).mean().as_matrix()
 extrinsics[ 3,  3] = 1
 
-hl2ss_3dcv.save_extrinsics_pv(hl2ss.StreamPort.PHOTO_VIDEO, extrinsics, path)
+hl2ss_3dcv.save_extrinsics_pv(hl2ss.StreamPort.PERSONAL_VIDEO, extrinsics, path)
 
 print('PV extrinsics saved to ' + path)
 print('PV extrinsics:')
