@@ -229,17 +229,17 @@ class SequenceLoader:
 
     @classmethod
     def project_points(cls, image, P, points, radius, color, thickness):
-        for x, y in hl2ss_3dcv.project_to_image(hl2ss_3dcv.to_homogeneous(points), P):
+        for x, y in hl2ss_3dcv.project(points, P):
             cv2.circle(image, (int(x), (int(y))), radius, color, thickness)
 
     def project_spatial(self, image, pv_pose, data_si: hl2ss.unpack_si):
         # Marker properties
-        radius = 2
+        radius = 5
         color = (0, 255, 255)
         thickness = 3
 
         if hl2ss.is_valid_pose(pv_pose) and (data_si is not None):
-            projection = hl2ss_3dcv.projection(self._intrinsics, hl2ss_3dcv.world_to_reference(pv_pose))
+            projection = hl2ss_3dcv.world_to_reference(pv_pose) @ hl2ss_3dcv.camera_to_image(self._intrinsics)
             si = data_si
             if si.is_valid_hand_left():
                 self.project_points(image, projection, hl2ss_utilities.si_unpack_hand(si.get_hand_left()).positions,

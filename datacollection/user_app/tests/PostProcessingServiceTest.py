@@ -1,3 +1,4 @@
+from datacollection.user_app.backend.models.recording import Recording
 from datacollection.user_app.backend.post_processing.post_processing_service import PostProcessingService
 
 

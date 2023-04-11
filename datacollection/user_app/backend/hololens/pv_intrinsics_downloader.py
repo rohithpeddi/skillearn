@@ -27,17 +27,17 @@ if ((focus < hl2ss.PV_FocusValue.Min) or (focus > hl2ss.PV_FocusValue.Max)):
 client_rc = hl2ss.ipc_rc(host, hl2ss.IPCPort.REMOTE_CONFIGURATION)
 client_rc.open()
 
-hl2ss.start_subsystem_pv(host, hl2ss.StreamPort.PERSONAL_VIDEO)
+hl2ss.start_subsystem_pv(host, hl2ss.StreamPort.PHOTO_VIDEO)
 client_rc.wait_for_pv_subsystem(True)
 
 print('Setting PV focus to {focus}'.format(focus=focus))
 client_rc.set_pv_focus(hl2ss.PV_FocusMode.Manual, hl2ss.PV_AutoFocusRange.Normal, hl2ss.PV_ManualFocusDistance.Infinity, focus, hl2ss.PV_DriverFallback.Disable)
 print('Fetching PV calibration for {width}x{height}@{framerate}'.format(width=width, height=height, framerate=framerate))
-calibration = hl2ss_3dcv.get_calibration_pv(host, hl2ss.StreamPort.PERSONAL_VIDEO, path, focus, width, height, framerate, False)
+calibration = hl2ss_3dcv.get_calibration_pv(host, hl2ss.StreamPort.PHOTO_VIDEO, path, focus, width, height, framerate, False)
 print('PV calibration saved to ' + path)
 print('PV intrinsics:')
 print(calibration.intrinsics)
 
-hl2ss.stop_subsystem_pv(host, hl2ss.StreamPort.PERSONAL_VIDEO)
+hl2ss.stop_subsystem_pv(host, hl2ss.StreamPort.PHOTO_VIDEO)
 client_rc.wait_for_pv_subsystem(False)
 client_rc.close()

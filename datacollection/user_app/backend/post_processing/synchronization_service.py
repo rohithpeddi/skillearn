@@ -332,11 +332,11 @@ def test_sync_pv_base():
     # sync_streams = [ppc_const.SPATIAL]
     data_root_dir = "/home/ptg/CODE/data/"
     rec_ids = [
-        "13_43_",
+        "4_22",
     ]
     for rec_id in rec_ids:
         rec_instance = Recording(id=rec_id, activity_id=0, is_error=False, steps=[])
-        synchronize_data_dir(data_root_dir, rec_instance, base_stream, sync_streams, zipped=True)
+        synchronize_data_dir(data_root_dir, rec_instance, base_stream, sync_streams, zipped=False)
 
 
 if __name__ == '__main__':

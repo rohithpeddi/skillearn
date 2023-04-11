@@ -2,7 +2,7 @@
 import numpy as np
 import os
 import cv2
-import hl2ss
+import hl2ss as hl2ss
 
 
 #------------------------------------------------------------------------------

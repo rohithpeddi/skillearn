@@ -43,8 +43,8 @@ class SequenceViewer:
         self._num_frames = self._loader.num_frames
 
     def run(self):
-        self._width = 1024
-        self._height = 1024
+        self._width = 1200
+        self._height = 1200
         self._count = 0
         # control flags
         self._flag_pause = False
