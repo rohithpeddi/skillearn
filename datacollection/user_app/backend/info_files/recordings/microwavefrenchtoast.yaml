@@ -1,6 +1,6 @@
 - recording_id: 1
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
@@ -16,7 +16,7 @@
   - description: cut-cut the contents on plate, and serve
 - recording_id: 2
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
@@ -34,7 +34,7 @@
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
@@ -50,7 +50,7 @@
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
@@ -67,7 +67,7 @@
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
@@ -83,7 +83,7 @@
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
@@ -102,7 +102,7 @@
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: stir-stir the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
@@ -119,7 +119,7 @@
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -133,7 +133,7 @@
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
@@ -149,7 +149,7 @@
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
@@ -166,7 +166,7 @@
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: stir-stir the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
@@ -183,7 +183,7 @@
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -196,7 +196,7 @@
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
@@ -212,7 +212,7 @@
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
@@ -226,7 +226,7 @@
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
@@ -247,7 +247,7 @@
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -261,7 +261,7 @@
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
@@ -275,7 +275,7 @@
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
@@ -290,7 +290,7 @@
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
@@ -308,7 +308,7 @@
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
@@ -327,7 +327,7 @@
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -336,7 +336,7 @@
   - description: cut-cut the contents on plate, and serve
 - recording_id: 22
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
@@ -352,7 +352,7 @@
   - description: cut-cut the contents on plate, and serve
 - recording_id: 23
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
@@ -371,7 +371,7 @@
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
@@ -391,7 +391,7 @@
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -403,7 +403,7 @@
     tag: Missing Step
   recording_id: 26
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
@@ -421,7 +421,7 @@
     tag: Missing Step
   recording_id: 27
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: whisk-In the mug, whisk one egg with a fork until well blended
@@ -442,7 +442,7 @@
     tag: Missing Step
   recording_id: 28
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
@@ -454,7 +454,7 @@
       through
   - description: Put-Put the cup's contents on a plate
 - errors:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     tag: Missing Step
   - description: Put-Put the cup's contents on a plate
     tag: Missing Step
@@ -488,14 +488,14 @@
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Put-Put the cup's contents on a plate
 - errors:
   - description: whisk-In the mug, whisk one egg with a fork until well blended
     tag: Missing Step
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     tag: Missing Step
   recording_id: 31
   steps:
@@ -520,7 +520,7 @@
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
@@ -540,7 +540,7 @@
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -555,7 +555,7 @@
   steps:
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
@@ -574,7 +574,7 @@
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
@@ -584,7 +584,7 @@
       through
   - description: Put-Put the cup's contents on a plate
 - errors:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     tag: Missing Step
   recording_id: 36
   steps:
@@ -602,7 +602,7 @@
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut the contents on plate, and serve
 - errors:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     tag: Missing Step
   recording_id: 37
   steps:
@@ -630,7 +630,7 @@
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -648,7 +648,7 @@
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -658,7 +658,7 @@
 - errors:
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
     tag: Missing Step
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     tag: Missing Step
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
     tag: Missing Step
@@ -687,7 +687,7 @@
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: whisk-In the mug, whisk one egg with a fork until well blended
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: stir-stir the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
@@ -704,7 +704,7 @@
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
@@ -715,7 +715,7 @@
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut the contents on plate, and serve
 - errors:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     tag: Missing Step
   - tag: Order Error
   recording_id: 43
@@ -739,7 +739,7 @@
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
@@ -764,7 +764,7 @@
       through
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: stir-stir the mug
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
       the egg
   - description: Put-Put the cup's contents on a plate
@@ -781,7 +781,7 @@
   - description: Roll-Roll the butter around in the cup to coat it
   - description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
   - description: whisk-In the mug, whisk one egg with a fork until well blended
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   - description: stir-stir the mug
   - description: add-add bread pieces to the egg mixture in the mug, pressing the bread down into
@@ -797,7 +797,7 @@
   - tag: Order Error
   recording_id: 47
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: Roll-Roll the butter around in the cup to coat it
@@ -809,7 +809,7 @@
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut the contents on plate, and serve
 - errors:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     tag: Missing Step
   - description: Roll-Roll the butter around in the cup to coat it
     tag: Missing Step
@@ -835,7 +835,7 @@
   - tag: Order Error
   recording_id: 49
   steps:
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
   - description: whisk-In the mug, whisk one egg with a fork until well blended
@@ -855,7 +855,7 @@
   steps:
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
       for about 30 seconds
-  - description: Cut or tear-Cut or tear 2 slices of bread into bite-size pieces
+  - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   - description: Roll-Roll the butter around in the cup to coat it
   - description: whisk-In the mug, whisk one egg with a fork until well blended
   - description: Add-Add 1/4 teaspoon vanilla extract to the mug
