@@ -728,8 +728,6 @@
   - description: add-Measure 1/16 teaspoon of baking soda and add it to the mug
   - description: add-Measure 1/8 teaspoon of baking powder and add it to the mug
   - description: Stir-Stir the contents in the mug well
-  - description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
-      the toppings are bubbling
   - description: Add-Add in 3 tablespoons of milk to the mug
   - description: Mix-Mix the contents of the mug thoroughly. (There might be some
       lumps, but that is ok.)
@@ -739,6 +737,8 @@
       of the sauce
   - description: spread-spread marinara sauce around the surface of the batter
   - description: Add-1 tablespoon of olive oil to the mug
+  - description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
+      the toppings are bubbling
 - errors:
   - tag: Order Error
   recording_id: 38
@@ -961,6 +961,7 @@
   - description: Stir-Stir the contents in the mug well
   - description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
       the toppings are bubbling
+  - description: Add-Add in 3 tablespoons of milk to the mug
   - description: Add-1 tablespoon of olive oil to the mug
   - description: Mix-Mix the contents of the mug thoroughly. (There might be some
       lumps, but that is ok.)
@@ -969,7 +970,6 @@
   - description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
       of the sauce
   - description: Sprinkle-Sprinkle dried Italian herbs inside the mug
-  - description: Add-Add in 3 tablespoons of milk to the mug
 - errors:
   - tag: Order Error
   recording_id: 49
