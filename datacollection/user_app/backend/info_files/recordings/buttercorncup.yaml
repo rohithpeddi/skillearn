@@ -413,17 +413,17 @@
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add lime juice to the bowl
 - errors:
-  - description: Measure-Measure 2 cups of frozen corn
+  - description: Add-Add 1 teaspoon of softened butter
     tag: Missing Step
   - description: add-add lime juice to the bowl
     tag: Missing Step
   recording_id: 28
   steps:
+  - description: Measure-Measure 2 cups of frozen corn
   - description: Thaw-Thaw the frozen corn by putting it in a sieve and running it
       under cold water
   - description: Add-Add the corn into a microwave-safe bowl
   - description: Microwave-Microwave the corn for 2 minutes
-  - description: Add-Add 1 teaspoon of softened butter
   - description: Add-1 teaspoon of pepper powder to the bowl
   - description: stir-then stir the bowl
   - description: Microwave-Microwave the corn for 3 more minutes
@@ -581,9 +581,9 @@
       under cold water
   - description: Add-Add the corn into a microwave-safe bowl
   - description: Microwave-Microwave the corn for 2 minutes
-  - description: Add-1 teaspoon of pepper powder to the bowl
   - description: stir-then stir the bowl
   - description: Microwave-Microwave the corn for 3 more minutes
+  - description: Add-1 teaspoon of pepper powder to the bowl
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add lime juice to the bowl
   - description: Add-Add 1 teaspoon salt to the bowl
@@ -600,8 +600,8 @@
   recording_id: 38
   steps:
   - description: Measure-Measure 2 cups of frozen corn
-  - description: Add-1 teaspoon of pepper powder to the bowl
   - description: Add-Add the corn into a microwave-safe bowl
+  - description: Add-1 teaspoon of pepper powder to the bowl
   - description: Microwave-Microwave the corn for 2 minutes
   - description: Add-Add 1 teaspoon of softened butter
   - description: Microwave-Microwave the corn for 3 more minutes
@@ -620,13 +620,13 @@
   - description: Thaw-Thaw the frozen corn by putting it in a sieve and running it
       under cold water
   - description: Add-Add the corn into a microwave-safe bowl
+  - description: Add-Add 1 teaspoon salt to the bowl
   - description: Add-Add 1 teaspoon of softened butter
   - description: Add-1 teaspoon of pepper powder to the bowl
   - description: stir-then stir the bowl
   - description: Microwave-Microwave the corn for 3 more minutes
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add lime juice to the bowl
-  - description: Add-Add 1 teaspoon salt to the bowl
 - errors:
   - description: Add-Add 1 teaspoon salt to the bowl
     tag: Missing Step
@@ -642,10 +642,10 @@
       under cold water
   - description: Add-Add the corn into a microwave-safe bowl
   - description: Mix-Mix the contents of the bowl well
-  - description: Add-1 teaspoon of pepper powder to the bowl
   - description: Add-Add 1 teaspoon of softened butter
   - description: Microwave-Microwave the corn for 3 more minutes
   - description: stir-then stir the bowl
+  - description: Add-1 teaspoon of pepper powder to the bowl
   - description: Microwave-Microwave the corn for 2 minutes
 - errors:
   - tag: Order Error
@@ -657,11 +657,11 @@
   - description: Add-Add the corn into a microwave-safe bowl
   - description: Microwave-Microwave the corn for 2 minutes
   - description: Add-1 teaspoon of pepper powder to the bowl
+  - description: Extract-Extract lime juice from 1/3 lime
+  - description: add-add lime juice to the bowl
   - description: Add-Add 1 teaspoon of softened butter
   - description: stir-then stir the bowl
   - description: Microwave-Microwave the corn for 3 more minutes
-  - description: Extract-Extract lime juice from 1/3 lime
-  - description: add-add lime juice to the bowl
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Mix-Mix the contents of the bowl well
 - errors:

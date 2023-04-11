@@ -22,6 +22,8 @@ open3d==0.16.0
 pynput
 websockets
 redis
-pyaudio
+pyaudio==0.2.13
 paramiko
+pysftp==0.2.9
+tqdm
 mediapipe

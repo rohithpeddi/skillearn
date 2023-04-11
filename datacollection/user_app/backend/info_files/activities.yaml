@@ -76,9 +76,9 @@
     - S4:
       description: "Cut and Mince 1/8 garlic clove."
     - S5:
-      description: "Place 5 meatballs in a 3-qt Microwave-safe dish."
+      description: "Place-Place 5 meatballs in a Microwave-safe plate."
     - S6:
-      description: "Top with the carrots, onion,  garlic and pepper."
+      description: "Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder."
     - S7:
       description: "Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl."
     - S8:
@@ -127,7 +127,7 @@
     - I2: "1/8 garlic clove"
     - I3: "5 meatballs"
     - I4: "1/4 cup sweet and sour sauce"
-    - I5: "pepper powder"
+    - I5: "1/4 tsp pepper powder"
     - I6: "1/2 tsp soy sauce"
 - id: 3
   name: "Microwave Mug Pizza"
@@ -265,6 +265,7 @@
     - I1: "1 garlic clove"
     - I2: "1 medium onion"
     - I3: "Microwave safe cover"
+    - I4: "Basil"
 - id: 5
   name: "Coffee"
   category: "Veg"
@@ -387,9 +388,9 @@
     - S9:
       description: "Cut 1/2 apple cored (apple after removing outer skin and seeds) into thin slices and add them on top of the crust."
     - S10:
-      description: "Add 1 tablespoon of brown sugar to the crust."
+      description: "dd 1 tablespoon of brown sugar on the top of apple slices."
     - S11:
-      description: "Pour the remaining 1/2 the crumble mixture on top."
+      description: "Pour the remaining 1/2 the crumble mixture on top of apple slices."
     - S12:
       description: "Microwave for 1 minute and 30 seconds."
   error_hints:
@@ -428,7 +429,7 @@
     - I4: "1/2 tsp salt"
     - I5: "4 dashes cinnamon"
     - I6: "cooking spray"
-    - I7: "1 apple"
+    - I7: "1/2 apple"
 - id: 7
   name: "Breakfast Burritos"
   category: "Non-Veg"
@@ -1146,7 +1147,7 @@
     - S3:
       description: "Rinse, peel and chop or grate 1 medium-sized cucumber (You need 1 cup of chopped or grated cucumber)."
     - S4:
-      description: "Add the cucumber to the whisked curd."
+      description: "Add the chopped or grated cucumber to the whisked curd."
     - S5:
       description: "Add 1 teaspoon of cumin powder, 1/2 teaspoon of chaat masala powder, 1/4 teaspoon of red chilli powder and 1/4 teaspoon salt."
     - S6:
@@ -1457,7 +1458,7 @@
   activity_type: "Pan"
   steps:
     - S0:
-      description: "Take a tomato and chop it into two pieces."
+      description: "Take a tomato and cut it into two pieces."
     - S1:
       description: "Heat 1 tbsp oil in a small non-stick frying pan, then cook the tomatoes cut-side down until they start to soften and colour."
     - S2:
@@ -1467,7 +1468,7 @@
     - S4:
       description: "Beat the contents of the bowl."
     - S5:
-      description: "Scoop the tomatoes from the pan and put them on a serving plate."
+      description: "Scoop the tomatoes from the pan and put tomatoes on a serving plate."
     - S6:
       description: "Pour the egg mixture into the pan and stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space."
     - S7:
@@ -1696,7 +1697,7 @@
       description: "The recipe doesn't specify how long to cook the tofu after adding the sesame oil and soy sauce, so the cook may overcook or undercook it."
   required_items:
     - I0: "1/4 block tofu"
-    - I1: "1 tbsp oilve oil"
+    - I1: "1 tbsp olive oil"
     - I2: "1/4 tsp salt"
     - I3: "1 tbsp sesame oil"
     - I4: "1 tbsp soy sauce"
@@ -1798,21 +1799,21 @@
     - S1:
       description: "Place the chopped pepper in a microwave-safe bowl."
     - S2:
-      description: "Add 2 tablespoons of water to the bowl."
+      description: "Add 1 tablespoons of water to the bowl."
     - S3:
-      description: "Microwave, covered, for 2 minutes."
+      description: "Microwave-Microwave the bowl, covered, for 2 minutes."
     - S4:
-      description: "Add 2/3 cup cheddar cheese to a microwave-safe cup."
+      description: "Add 1/3 cup cheddar cheese to a microwave-safe cup."
     - S5:
       description: "Melt the cheese by microwaving it for 30 sec. (Check after 30 seconds and microwave for 10 seconds more if needed)."
     - S6:
-      description: "Mix the cheese and red bell pepper in the bowl and add 1 tbsp softened butter."
+      description: "Mix the cheese and red bell pepper in the bowl and add 1/2 tbsp softened butter."
     - S7:
-      description: "Add 1/2 teaspoon salt."
+      description: "Add 1/4 teaspoon salt."
     - S8:
-      description: "Add 1/2 teaspoon pepper."
+      description: "Add 1/4 teaspoon pepper."
     - S9:
-      description: "Mix all the ingredients well and serve."
+      description: "Mix-Mix all the ingredients of the bowl well."
   error_hints:
     - E0:
       tag: Timing Error
@@ -1822,10 +1823,10 @@
       description: "Overheating the cheese in the microwave can cause it to become hard and rubbery."
   required_items:
     - I0: "1/4 red bell pepper"
-    - I1: "2/3 cup shredded cheddar cheese"
-    - I2: "1 tbsp butter"
-    - I3: "1/2 tsp salt"
-    - I4: "1/2 tsp pepper"
+    - I1: "1/3 cup shredded cheddar cheese"
+    - I2: "1/2 tbsp butter"
+    - I3: "1/4 tsp salt"
+    - I4: "1/4 tsp pepper"
 - id: 28
   name: "Spicy Tuna Avocado Wraps"
   category: "Non-Veg"

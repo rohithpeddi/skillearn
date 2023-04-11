@@ -6,14 +6,14 @@ import signal
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-from datacollection.user_app.backend.constants import FlaskServer_constants as const
-from datacollection.user_app.backend.services.firebase_service import FirebaseService
-from datacollection.user_app.backend.models.activity import Activity
-from datacollection.user_app.backend.models.error_tag import ErrorTag
-from datacollection.user_app.backend.models.recording import Recording
-from datacollection.user_app.backend.models.user import User
-from datacollection.user_app.backend.services import async_service
-from logger_config import logger
+from app.utils.constants import FlaskServer_constants as const
+from app.services.firebase_service import FirebaseService
+from app.models.activity import Activity
+from app.models.error_tag import ErrorTag
+from app.models.recording import Recording
+from app.models.user import User
+from app.services import async_service
+from app.utils.logger_config import logger
 
 app = Flask(__name__)
 
@@ -23,7 +23,7 @@ cors = CORS(app, resources={r"/*": {"origins": "*"}})
 # --------------------------------------------------------------------------------------------
 # -------------------------------------- LOGIN -----------------------------------------
 
-@app.route('/login', methods=['POST'])
+@app.route('/api/login', methods=['POST'])
 def login():
 	username = request.json.get('username')
 	password = request.json.get('password')
@@ -45,7 +45,7 @@ def login():
 # --------------------------------------------------------------------------------------------
 # -------------------------------------- ENVIRONMENT -----------------------------------------
 
-@app.route('/environment', methods=['GET'])
+@app.route('/api/environment', methods=['GET'])
 def fetch_environment():
 	environment = db_service.fetch_current_environment()
 	return jsonify(environment)
@@ -55,7 +55,7 @@ def fetch_environment():
 # -------------------------------------- PREFERENCES -----------------------------------------
 
 # 1. Fetch all activity information
-@app.route('/activities', methods=['GET'])
+@app.route('/api/activities', methods=['GET'])
 def fetch_activities():
 	activities = db_service.fetch_activities()
 	return jsonify([activity for activity in activities if activity is not None])
@@ -67,14 +67,14 @@ def fetch_activities():
 # b. Username
 # c. User Activity Preferences
 # d. User Recording Schedules
-@app.route('/users/<int:user_id>/info', methods=['GET'])
+@app.route('/api/users/<int:user_id>/info', methods=['GET'])
 def fetch_user_info(user_id):
 	user_info = db_service.fetch_user(user_id=user_id)
 	return jsonify(user_info)
 
 
 # 3. End point to build all the user schedules based on preference selection
-@app.route('/users/<int:user_id>/preferences/<category>', methods=['POST'])
+@app.route('/api/users/<int:user_id>/preferences/<category>', methods=['POST'])
 def update_activity_preferences(user_id, category):
 	try:
 		request_data = request.data.decode('utf-8')
@@ -111,13 +111,13 @@ def update_activity_preferences(user_id, category):
 # 1. First fetches user info which have all information about all schedules
 # 2. Fetch an unassigned recording information for an activity
 
-@app.route('/error_tags', methods=['GET'])
+@app.route('/api/error_tags', methods=['GET'])
 def fetch_error_tags():
 	error_tags = ErrorTag.get_step_error_tag_list()
 	return jsonify(error_tags)
 
 
-@app.route('/users/<int:user_id>/activities/<int:activity_id>/recordings/<label>', methods=['GET'])
+@app.route('/api/users/<int:user_id>/activities/<int:activity_id>/recordings/<label>', methods=['GET'])
 def fetch_activity_recording(user_id, activity_id, label):
 	activity_recordings = db_service.fetch_all_activity_recordings(activity_id)
 	is_error = (label == const.ERROR)
@@ -158,7 +158,7 @@ def fetch_activity_recording(user_id, activity_id, label):
 		return jsonify(response)
 
 
-@app.route('/users/<int:user_id>/environment/<int:environment_id>/select/recordings/<recording_id>', methods=['POST'])
+@app.route('/api/users/<int:user_id>/environment/<int:environment_id>/select/recordings/<recording_id>', methods=['POST'])
 def select_recording(user_id, environment_id, recording_id):
 	recording_dict = db_service.fetch_recording(recording_id)
 	recording = Recording.from_dict(recording_dict)
@@ -176,7 +176,7 @@ def select_recording(user_id, environment_id, recording_id):
 
 
 # 3. Fetch all the recordings by a user
-@app.route('/users/<int:user_id>/recordings', methods=['GET'])
+@app.route('/api/users/<int:user_id>/recordings', methods=['GET'])
 def fetch_user_recordings(user_id):
 	user_recordings = db_service.fetch_user_recordings(user_id)
 	return jsonify([recording.to_dict() for recording in user_recordings])
@@ -184,7 +184,7 @@ def fetch_user_recordings(user_id):
 
 # 4. Update activity recording
 # Use this for intermediate update steps of recording instances
-@app.route('/recordings/<recording_id>', methods=['POST'])
+@app.route('/api/recordings/<recording_id>', methods=['POST'])
 def update_recording(recording_id):
 	recording_dict = json.loads(request.data)
 	try:
@@ -199,7 +199,7 @@ def update_recording(recording_id):
 
 
 # 5. Use this when recording is finished
-@app.route('/recordings/<recording_id>/user/<int:user_id>', methods=['POST'])
+@app.route('/api/recordings/<recording_id>/user/<int:user_id>', methods=['POST'])
 def update_recording_finished(recording_id, user_id):
 	recording_dict = json.loads(request.data)
 	try:
@@ -221,7 +221,7 @@ def update_recording_finished(recording_id, user_id):
 # --------------------------------------------------------------------------------------------
 # -------------------------------------- STATS -----------------------------------------
 
-@app.route('/users/<int:user_id>/stats', methods=['GET'])
+@app.route('/api/users/<int:user_id>/stats', methods=['GET'])
 def fetch_stats(user_id):
 	# 1. Fetch all the recordings by a user
 	recordings = dict(db_service.fetch_user_recordings(user_id))

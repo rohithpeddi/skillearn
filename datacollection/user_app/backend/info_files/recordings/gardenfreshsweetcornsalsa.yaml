@@ -5,12 +5,12 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Slice-Slice 1 garlic clove
   - description: Add-Add the corn to the bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: Peel-Peel one onion
   - description: Slice-Slice 1 jalapeno
-  - description: add diced cilantro to a bowl
-  - description: add sliced garlic to the bowl
+  - description: add-add diced cilantro to a bowl
+  - description: add-add sliced garlic to the bowl
   - description: add-add sliced jalapeno to the bowl
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1/2 onion into pieces
@@ -27,12 +27,12 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Slice-Slice 1 garlic clove
   - description: Add-Add the corn to the bowl
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Peel-Peel one onion
-  - description: add sliced garlic to the bowl
+  - description: add-add sliced garlic to the bowl
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1 jalapeno
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Slice-Slice 1/2 onion into pieces
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add sliced jalapeno to the bowl
@@ -48,13 +48,13 @@
   - description: Slice-Slice 1 garlic clove
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Peel-Peel one onion
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add sliced garlic to the bowl
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Add-Add the corn to the bowl
   - description: Slice-Slice 1 jalapeno
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced jalapeno to the bowl
@@ -68,12 +68,12 @@
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Take-Take 1/2 tomato
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Slice-Slice 1 jalapeno
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Peel-Peel one onion
   - description: cut-cut onion into two pieces
   - description: add-add sliced jalapeno to the bowl
@@ -91,14 +91,14 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Slice-Slice 1 jalapeno
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Add-Add the corn to the bowl
   - description: Take-Take 1/2 tomato
   - description: Dice-Dice 1/4 cup Cilantro
   - description: chop-chop tomato into small pieces
   - description: Slice-Slice 1 garlic clove
   - description: Peel-Peel one onion
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: cut-cut onion into two pieces
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add sliced garlic to the bowl
@@ -112,7 +112,7 @@
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: Slice-Slice 1 garlic clove
   - description: Slice-Slice 1 jalapeno
@@ -120,7 +120,7 @@
   - description: Take-Take 1/2 tomato
   - description: Peel-Peel one onion
   - description: cut-cut onion into two pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Slice-Slice 1/2 onion into pieces
   - description: chop-chop tomato into small pieces
@@ -136,7 +136,7 @@
   - description: Add-Add the corn to the bowl
   - description: Peel-Peel one onion
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Slice-Slice 1 garlic clove
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
@@ -144,7 +144,7 @@
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1/2 onion into pieces
   - description: Slice-Slice 1 jalapeno
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add lime juice to the bowl
   - description: Take-Take 1/2 tomato
   - description: add-add sliced onion to the bowl
@@ -159,8 +159,8 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Slice-Slice 1 garlic clove
   - description: Add-Add the corn to the bowl
-  - description: add diced cilantro to a bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: add-add diced cilantro to a bowl
+  - description: Rinse-Rinse a tomato
   - description: add sliced garlic to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add lime juice to the bowl
@@ -180,9 +180,9 @@
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: cut-cut onion into two pieces
   - description: Add-Add the corn to the bowl
   - description: Slice-Slice 1 garlic clove
@@ -200,13 +200,13 @@
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Take-Take 1/2 tomato
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add lime juice to the bowl
   - description: chop-chop tomato into small pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Slice-Slice 1 jalapeno
   - description: Peel-Peel one onion
   - description: Add-Add the corn to the bowl
@@ -224,7 +224,7 @@
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add lime juice to the bowl
   - description: cut-cut onion into two pieces
@@ -232,7 +232,7 @@
   - description: Take-Take 1/2 tomato
   - description: Slice-Slice 1 jalapeno
   - description: Slice-Slice 1/2 onion into pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: chop-chop tomato into small pieces
   - description: add-add sliced jalapeno to the bowl
   - description: Slice-Slice 1 garlic clove
@@ -246,13 +246,13 @@
   - description: Slice-Slice 1 garlic clove
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Peel-Peel one onion
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Extract-Extract lime juice from 1/2 lime
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: add-add sliced garlic to the bowl
   - description: Add-Add the corn to the bowl
   - description: Slice-Slice 1 jalapeno
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: cut-cut onion into two pieces
   - description: Take-Take 1/2 tomato
   - description: add-add lime juice to the bowl
@@ -271,14 +271,14 @@
   - description: Slice-Slice 1 jalapeno
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1 garlic clove
   - description: Take-Take 1/2 tomato
   - description: chop-chop tomato into small pieces
   - description: add-add sliced garlic to the bowl
   - description: Slice-Slice 1/2 onion into pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add lime juice to the bowl
   - description: add-add sliced jalapeno to the bowl
   - description: add-add chopped tomato to the bowl
@@ -294,7 +294,7 @@
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced onion to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Slice-Slice 1 garlic clove
   - description: add-add sliced garlic to the bowl
   - description: add-add lime juice to the bowl
@@ -302,7 +302,7 @@
   - description: Take-Take 1/2 tomato
   - description: Slice-Slice 1 jalapeno
   - description: chop-chop tomato into small pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add chopped tomato to the bowl
   - description: add-add sliced jalapeno to the bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
@@ -315,12 +315,12 @@
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced onion to the bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Slice-Slice 1 jalapeno
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Slice-Slice 1 garlic clove
   - description: Take-Take 1/2 tomato
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: chop-chop tomato into small pieces
   - description: add-add chopped tomato to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
@@ -335,7 +335,7 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
   - description: Slice-Slice 1 garlic clove
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Take-Take 1/2 tomato
   - description: cut-cut onion into two pieces
   - description: Add-Add the corn to the bowl
@@ -344,7 +344,7 @@
   - description: Slice-Slice 1 jalapeno
   - description: Slice-Slice 1/2 onion into pieces
   - description: chop-chop tomato into small pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add sliced garlic to the bowl
   - description: add-add chopped tomato to the bowl
   - description: add-add sliced jalapeno to the bowl
@@ -360,10 +360,10 @@
   - description: Slice-Slice 1 jalapeno
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add sliced garlic to the bowl
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: cut-cut onion into two pieces
   - description: Add-Add the corn to the bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Take-Take 1/2 tomato
   - description: Slice-Slice 1/2 onion into pieces
   - description: chop-chop tomato into small pieces
@@ -378,14 +378,14 @@
   - description: Add-Add the corn to the bowl
   - description: Peel-Peel one onion
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1 jalapeno
   - description: add-add lime juice to the bowl
   - description: Take-Take 1/2 tomato
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: chop-chop tomato into small pieces
   - description: add-add chopped tomato to the bowl
   - description: Slice-Slice 1 garlic clove
@@ -403,8 +403,8 @@
   - description: Extract-Extract lime juice from 1/2 lime
   - description: Slice-Slice 1 jalapeno
   - description: Slice-Slice 1 garlic clove
-  - description: Rinse-Rinse the tomatoes
-  - description: add diced cilantro to a bowl
+  - description: Rinse-Rinse a tomato
+  - description: add-add diced cilantro to a bowl
   - description: Take-Take 1/2 tomato
   - description: cut-cut onion into two pieces
   - description: chop-chop tomato into small pieces
@@ -424,7 +424,7 @@
   - description: Add-Add the corn to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
   - description: Slice-Slice 1 jalapeno
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: cut-cut onion into two pieces
   - description: Take-Take 1/2 tomato
   - description: add-add lime juice to the bowl
@@ -434,7 +434,7 @@
   - description: add-add sliced onion to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
   - description: chop-chop tomato into small pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add chopped tomato to the bowl
   - description: add-add sliced garlic to the bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
@@ -445,13 +445,13 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
   - description: Slice-Slice 1 garlic clove
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Add-Add the corn to the bowl
   - description: Slice-Slice 1 jalapeno
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add lime juice to the bowl
   - description: add-add sliced garlic to the bowl
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Take-Take 1/2 tomato
   - description: chop-chop tomato into small pieces
   - description: cut-cut onion into two pieces
@@ -469,13 +469,13 @@
   - description: Peel-Peel one onion
   - description: cut-cut onion into two pieces
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: add-add lime juice to the bowl
   - description: Take-Take 1/2 tomato
   - description: Dice-Dice 1/4 cup Cilantro
   - description: chop-chop tomato into small pieces
   - description: add-add chopped tomato to the bowl
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Slice-Slice 1 garlic clove
   - description: add-add sliced jalapeno to the bowl
   - description: Slice-Slice 1/2 onion into pieces
@@ -492,11 +492,11 @@
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Peel-Peel one onion
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: add-add lime juice to the bowl
   - description: add-add sliced jalapeno to the bowl
   - description: Take-Take 1/2 tomato
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced garlic to the bowl
@@ -508,13 +508,13 @@
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: Slice-Slice 1 garlic clove
   - description: Slice-Slice 1 jalapeno
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add lime juice to the bowl
   - description: add-add sliced garlic to the bowl
   - description: Add-Add the corn to the bowl
@@ -539,11 +539,11 @@
   - description: add-add lime juice to the bowl
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Slice-Slice 1 garlic clove
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Slice-Slice 1/2 onion into pieces
   - description: Take-Take 1/2 tomato
   - description: chop-chop tomato into small pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add chopped tomato to the bowl
   - description: add-add sliced onion to the bowl
   - description: add-add sliced garlic to the bowl
@@ -551,7 +551,7 @@
 - errors:
   - description: add-add sliced jalapeno to the bowl
     tag: Missing Step
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
     tag: Missing Step
   - description: add-add sliced onion to the bowl
     tag: Missing Step
@@ -570,7 +570,7 @@
   - description: Dice-Dice 1/4 cup Cilantro
   - description: chop-chop tomato into small pieces
   - description: add-add chopped tomato to the bowl
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Slice-Slice 1 garlic clove
   - description: add-add sliced garlic to the bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
@@ -579,7 +579,7 @@
     tag: Missing Step
   - description: add-add chopped tomato to the bowl
     tag: Missing Step
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
     tag: Missing Step
   recording_id: 27
   steps:
@@ -590,7 +590,7 @@
   - description: Slice-Slice 1 jalapeno
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add lime juice to the bowl
   - description: Take-Take 1/2 tomato
@@ -603,7 +603,7 @@
 - errors:
   - description: add-add sliced onion to the bowl
     tag: Missing Step
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
     tag: Missing Step
   recording_id: 28
   steps:
@@ -615,7 +615,7 @@
   - description: add-add sliced garlic to the bowl
   - description: Peel-Peel one onion
   - description: cut-cut onion into two pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add sliced jalapeno to the bowl
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: add-add lime juice to the bowl
@@ -626,7 +626,7 @@
   - description: add-add chopped tomato to the bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
 - errors:
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
     tag: Missing Step
   - description: Add-Add the corn to the bowl
     tag: Missing Step
@@ -639,7 +639,7 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
   - description: Slice-Slice 1 garlic clove
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add lime juice to the bowl
   - description: cut-cut onion into two pieces
@@ -666,13 +666,13 @@
   - description: Slice-Slice 1 jalapeno
   - description: add-add sliced jalapeno to the bowl
   - description: Slice-Slice 1 garlic clove
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Peel-Peel one onion
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add lime juice to the bowl
   - description: Add-Add the corn to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: chop-chop tomato into small pieces
   - description: add-add chopped tomato to the bowl
   - description: cut-cut onion into two pieces
@@ -690,11 +690,11 @@
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: cut-cut onion into two pieces
   - description: Add-Add the corn to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Slice-Slice 1 jalapeno
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add lime juice to the bowl
@@ -707,7 +707,7 @@
 - errors:
   - description: Dice-Dice 1/4 cup Cilantro
     tag: Missing Step
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
     tag: Missing Step
   - description: Add-Add the corn to the bowl
     tag: Missing Step
@@ -718,7 +718,7 @@
   - description: Slice-Slice 1 garlic clove
   - description: Peel-Peel one onion
   - description: Slice-Slice 1 jalapeno
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add sliced jalapeno to the bowl
   - description: add-add sliced garlic to the bowl
@@ -745,12 +745,12 @@
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: Add-Add the corn to the bowl
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1 garlic clove
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add lime juice to the bowl
   - description: chop-chop tomato into small pieces
   - description: Slice-Slice 1/2 onion into pieces
@@ -776,8 +776,8 @@
   - description: add-add sliced jalapeno to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
-  - description: add diced cilantro to a bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: add-add diced cilantro to a bowl
+  - description: Rinse-Rinse a tomato
   - description: add-add lime juice to the bowl
   - description: Take-Take 1/2 tomato
   - description: chop-chop tomato into small pieces
@@ -789,10 +789,12 @@
     tag: Missing Step
   - description: Extract-Extract lime juice from 1/2 lime
     tag: Missing Step
+  - description: add-add lime juice to the bowl
+    tag: Missing Step
   recording_id: 35
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Slice-Slice 1 garlic clove
   - description: Add-Add the corn to the bowl
@@ -803,7 +805,6 @@
   - description: add-add sliced jalapeno to the bowl
   - description: Peel-Peel one onion
   - description: cut-cut onion into two pieces
-  - description: add-add lime juice to the bowl
   - description: add-add sliced garlic to the bowl
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add chopped tomato to the bowl
@@ -820,10 +821,10 @@
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Take-Take 1/2 tomato
   - description: Slice-Slice 1 jalapeno
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced jalapeno to the bowl
@@ -848,8 +849,8 @@
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Slice-Slice 1 garlic clove
-  - description: add diced cilantro to a bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: add-add diced cilantro to a bowl
+  - description: Rinse-Rinse a tomato
   - description: Take-Take 1/2 tomato
   - description: chop-chop tomato into small pieces
   - description: Extract-Extract lime juice from 1/2 lime
@@ -868,17 +869,18 @@
     tag: Missing Step
   - description: add-add sliced garlic to the bowl
     tag: Missing Step
+  - description: add-add sliced jalapeno to the bowl
+    tag: Missing Step
   recording_id: 38
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: Slice-Slice 1 garlic clove
   - description: Cut-Cut 3/4 cup of corn from the cob
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Peel-Peel one onion
-  - description: add-add jalapeno to the bowl
   - description: Add-Add the corn to the bowl
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add lime juice to the bowl
@@ -892,6 +894,8 @@
     tag: Missing Step
   - description: Add-Add the corn to the bowl
     tag: Missing Step
+  - description: add-add sliced garlic to the bowl
+    tag: Missing Step
   recording_id: 39
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
@@ -899,15 +903,14 @@
   - description: Slice-Slice 1 jalapeno
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Peel-Peel one onion
   - description: cut-cut onion into two pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Take-Take 1/2 tomato
   - description: add-add sliced jalapeno to the bowl
   - description: chop-chop tomato into small pieces
   - description: add-add lime juice to the bowl
-  - description: add-add garlic to the bowl
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced onion to the bowl
   - description: add-add chopped tomato to the bowl
@@ -923,13 +926,13 @@
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Take-Take 1/2 tomato
   - description: cut-cut onion into two pieces
   - description: Add-Add the corn to the bowl
   - description: Slice-Slice 1 garlic clove
   - description: Slice-Slice 1 jalapeno
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add sliced jalapeno to the bowl
   - description: chop-chop tomato into small pieces
   - description: Slice-Slice 1/2 onion into pieces
@@ -951,10 +954,10 @@
   - description: Dice-Dice 1/4 cup Cilantro
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1/2 onion into pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Add-Add the corn to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Slice-Slice 1 garlic clove
   - description: add-add sliced onion to the bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
@@ -976,7 +979,7 @@
   - description: Slice-Slice 1 jalapeno
   - description: add-add sliced jalapeno to the bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Peel-Peel one onion
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add lime juice to the bowl
@@ -986,11 +989,13 @@
   - description: cut-cut onion into two pieces
   - description: chop-chop tomato into small pieces
   - description: Slice-Slice 1/2 onion into pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add chopped tomato to the bowl
   - description: add-add sliced onion to the bowl
 - errors:
   - description: Slice-Slice 1 jalapeno
+    tag: Missing Step
+  - description: add-add sliced jalapeno to the bowl
     tag: Missing Step
   - tag: Order Error
   recording_id: 43
@@ -1000,15 +1005,14 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Peel-Peel one onion
   - description: Slice-Slice 1 garlic clove
-  - description: Rinse-Rinse the tomatoes
-  - description: add diced cilantro to a bowl
+  - description: Rinse-Rinse a tomato
+  - description: add-add diced cilantro to a bowl
   - description: Add-Add the corn to the bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
   - description: Take-Take 1/2 tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: cut-cut onion into two pieces
   - description: chop-chop tomato into small pieces
-  - description: add-add sliced jalapeno to the bowl
   - description: add-add sliced garlic to the bowl
   - description: add-add chopped tomato to the bowl
   - description: Slice-Slice 1/2 onion into pieces
@@ -1021,14 +1025,15 @@
     tag: Missing Step
   - description: Take-Take 1/2 tomato
     tag: Missing Step
+  - description: add-add sliced garlic to the bowl
+    tag: Missing Step
   - tag: Order Error
   recording_id: 44
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: add-add sliced garlic to the bowl
   - description: Peel-Peel one onion
   - description: Slice-Slice 1 jalapeno
   - description: cut-cut onion into two pieces
@@ -1040,7 +1045,7 @@
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced onion to the bowl
   - description: add-add chopped tomato to the bowl
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
 - errors:
   - description: cut-cut onion into two pieces
     tag: Missing Step
@@ -1054,9 +1059,9 @@
   - description: Slice-Slice 1 jalapeno
   - description: add-add sliced jalapeno to the bowl
   - description: Extract-Extract lime juice from 1/2 lime
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Slice-Slice 1 garlic clove
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Take-Take 1/2 tomato
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: chop-chop tomato into small pieces
@@ -1069,6 +1074,8 @@
 - errors:
   - description: chop-chop tomato into small pieces
     tag: Missing Step
+  - description: add-add chopped tomato to the bowl
+    tag: Missing Step
   - tag: Order Error
   recording_id: 46
   steps:
@@ -1079,17 +1086,16 @@
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: cut-cut onion into two pieces
   - description: Peel-Peel one onion
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
   - description: Take-Take 1/2 tomato
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add sliced jalapeno to the bowl
   - description: Add-Add the corn to the bowl
   - description: add-add sliced garlic to the bowl
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add lime juice to the bowl
-  - description: add-add chopped tomato to the bowl
   - description: add-add sliced onion to the bowl
 - errors:
   - description: add-add sliced jalapeno to the bowl
@@ -1106,7 +1112,7 @@
   - description: Dice-Dice 1/4 cup Cilantro
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Add-Add the corn to the bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: chop-chop tomato into small pieces
   - description: Extract-Extract lime juice from 1/2 lime
   - description: add-add lime juice to the bowl
@@ -1114,7 +1120,7 @@
   - description: cut-cut onion into two pieces
   - description: add-add chopped tomato to the bowl
   - description: Slice-Slice 1/2 onion into pieces
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: add-add sliced onion to the bowl
   - description: add-add sliced garlic to the bowl
@@ -1141,7 +1147,7 @@
   - description: cut-cut onion into two pieces
   - description: Take-Take 1/2 tomato
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add chopped tomato to the bowl
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced onion to the bowl
@@ -1155,7 +1161,7 @@
   steps:
   - description: add-Measure 1/4 teaspoon salt and add it to the bowl
   - description: Slice-Slice 1 garlic clove
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: Cut-Cut 3/4 cup of corn from the cob
   - description: Take-Take 1/2 tomato
   - description: Peel-Peel one onion
@@ -1163,7 +1169,7 @@
   - description: Slice-Slice 1 jalapeno
   - description: Slice-Slice 1/2 onion into pieces
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
   - description: add-add sliced garlic to the bowl
   - description: Mix-Mix all the ingredients in the bowl and serve
   - description: add-add sliced jalapeno to the bowl
@@ -1185,7 +1191,7 @@
   - description: Peel-Peel one onion
   - description: Slice-Slice 1 garlic clove
   - description: add-add sliced jalapeno to the bowl
-  - description: Rinse-Rinse the tomatoes
+  - description: Rinse-Rinse a tomato
   - description: cut-cut onion into two pieces
   - description: Slice-Slice 1/2 onion into pieces
   - description: add-add sliced garlic to the bowl
@@ -1195,5 +1201,5 @@
   - description: chop-chop tomato into small pieces
   - description: add-add lime juice to the bowl
   - description: Dice-Dice 1/4 cup Cilantro
-  - description: add diced cilantro to a bowl
+  - description: add-add diced cilantro to a bowl
 

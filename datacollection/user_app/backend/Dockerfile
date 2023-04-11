@@ -3,9 +3,12 @@ FROM python:3.9
 
 WORKDIR /app
 
-COPY requirements.txt .
+COPY user-requirements.txt .
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN apt-get update
+RUN apt-get install -y portaudio19-dev python3-pyaudio ffmpeg libsm6 libxext6 libgl1 libglib2.0-0 libgl1-mesa-glx libfontconfig1 libxrender1
+
+RUN pip install --no-cache-dir -r user-requirements.txt
 
 COPY . .
 

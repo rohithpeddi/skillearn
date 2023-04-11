@@ -476,6 +476,8 @@
 - errors:
   - description: cut-cut avocado into thin slices
     tag: Missing Step
+  - description: top-top lettuce leaves with the tuna mixture
+    tag: Missing Step
   recording_id: 26
   steps:
   - description: Open-Open a can of tuna
@@ -491,13 +493,10 @@
   - description: place-place avocado slices on each leaf
   - description: Season-season 1/4 tsp pepper on the bowl
   - description: Season-Season bowl with 1/4 tsp salt
-  - description: top-top lettuce leaves with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: secure-secure the wrap with a toothpick
 - errors:
   - description: Add-1 tsp Sriracha sauce to the bowl
-    tag: Missing Step
-  - description: drain-drain excess water from can
     tag: Missing Step
   - description: Chop-Chop 1 scallion
     tag: Missing Step
@@ -509,6 +508,7 @@
   steps:
   - description: Open-Open a can of tuna
   - description: Take-Take 1 ripe avocado
+  - description: drain-drain excess water from can
   - description: Lay-Lay out 2 large lettuce leaves
   - description: cut-cut avocado into thin slices
   - description: Add-1/4 cup mayonnaise to the bowl
@@ -542,7 +542,7 @@
   - description: Roll-Roll up the lettuce wraps
   - description: secure-secure the wrap with a toothpick
 - errors:
-  - description: Add-Add 1 can drained tuna to the bowl
+  - description: Roll-Roll up the lettuce wraps
     tag: Missing Step
   - description: secure-secure the wrap with a toothpick
     tag: Missing Step
@@ -561,10 +561,10 @@
   - description: Mix-Mix the contents of the bowl
   - description: Season-Season bowl with 1/4 tsp salt
   - description: Season-season 1/4 tsp pepper on the bowl
-  - description: top-top lettuce leaves with the tuna mixture
-  - description: Roll-Roll up the lettuce wraps
-- errors:
   - description: Add-Add 1 can drained tuna to the bowl
+  - description: top-top lettuce leaves with the tuna mixture
+- errors:
+  - description: place-place avocado slices on each leaf
     tag: Missing Step
   recording_id: 30
   steps:
@@ -573,10 +573,10 @@
   - description: Take-Take 1 ripe avocado
   - description: cut-cut avocado into thin slices
   - description: Add-add chopped scallion to the bowl
-  - description: place-place avocado slices on each leaf
   - description: Open-Open a can of tuna
   - description: Add-1 tsp Sriracha sauce to the bowl
   - description: drain-drain excess water from can
+  - description: Open-Open a can of tuna
   - description: Add-1/4 cup mayonnaise to the bowl
   - description: Mix-Mix the contents of the bowl
   - description: Season-Season bowl with 1/4 tsp salt
@@ -676,6 +676,8 @@
     tag: Missing Step
   - description: Add-Add 1 can drained tuna to the bowl
     tag: Missing Step
+  - description: top-top lettuce leaves with the tuna mixture
+    tag: Missing Step
   recording_id: 35
   steps:
   - description: Take-Take 1 ripe avocado
@@ -690,7 +692,6 @@
   - description: Season-Season bowl with 1/4 tsp salt
   - description: Season-season 1/4 tsp pepper on the bowl
   - description: place-place avocado slices on each leaf
-  - description: top-top lettuce leaves with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
   - description: secure-secure the wrap with a toothpick
 - errors:
@@ -718,7 +719,7 @@
 - errors:
   - description: Add-add chopped scallion to the bowl
     tag: Missing Step
-  - description: Add-Add 1 can drained tuna to the bowl
+  - description: Add-1 tsp Sriracha sauce to the bowl
     tag: Missing Step
   recording_id: 37
   steps:
@@ -728,7 +729,7 @@
   - description: Lay-Lay out 2 large lettuce leaves
   - description: Chop-Chop 1 scallion
   - description: Take-Take 1 ripe avocado
-  - description: Add-1 tsp Sriracha sauce to the bowl
+  - description: Add-Add 1 can drained tuna to the bowl
   - description: Mix-Mix the contents of the bowl
   - description: Season-season 1/4 tsp pepper on the bowl
   - description: cut-cut avocado into thin slices
@@ -788,8 +789,6 @@
 - errors:
   - description: Add-add chopped scallion to the bowl
     tag: Missing Step
-  - description: drain-drain excess water from can
-    tag: Missing Step
   - description: place-place avocado slices on each leaf
     tag: Missing Step
   - tag: Order Error
@@ -798,6 +797,7 @@
   - description: Add-1/4 cup mayonnaise to the bowl
   - description: Add-1 tsp Sriracha sauce to the bowl
   - description: Open-Open a can of tuna
+  - description: drain-drain excess water from can
   - description: Mix-Mix the contents of the bowl
   - description: Add-Add 1 can tuna in a bowl
   - description: Chop-Chop 1 scallion
@@ -811,6 +811,8 @@
   - description: cut-cut avocado into thin slices
 - errors:
   - description: Chop-Chop 1 scallion
+    tag: Missing Step
+  - description: Add-add chopped scallion to the bowl
     tag: Missing Step
   - description: Season-Season bowl with 1/4 tsp salt
     tag: Missing Step
@@ -828,7 +830,6 @@
   - description: cut-cut avocado into thin slices
   - description: place-place avocado slices on each leaf
   - description: Add-Add 1 can drained tuna to the bowl
-  - description: Add-add chopped scallion to the bowl
   - description: Add-1/4 cup mayonnaise to the bowl
   - description: top-top lettuce leaves with the tuna mixture
   - description: Roll-Roll up the lettuce wraps
@@ -856,7 +857,7 @@
   - description: Roll-Roll up the lettuce wraps
   - description: secure-secure the wrap with a toothpick
 - errors:
-  - description: drain-drain excess water from can
+  - description: place-place avocado slices on each leaf
     tag: Missing Step
   - description: cut-cut avocado into thin slices
     tag: Missing Step
@@ -871,12 +872,12 @@
   - description: Add-add chopped scallion to the bowl
   - description: Add-1 tsp Sriracha sauce to the bowl
   - description: secure-secure the wrap with a toothpick
+  - description: drain-drain excess water from can
   - description: Add-Add 1 can drained tuna to the bowl
   - description: Lay-Lay out 2 large lettuce leaves
   - description: Mix-Mix the contents of the bowl
   - description: Season-season 1/4 tsp pepper on the bowl
   - description: Season-Season bowl with 1/4 tsp salt
-  - description: place-place avocado slices on each leaf
   - description: top-top lettuce leaves with the tuna mixture
 - errors:
   - description: Season-season 1/4 tsp pepper on the bowl
@@ -906,6 +907,8 @@
     tag: Missing Step
   - description: Roll-Roll up the lettuce wraps
     tag: Missing Step
+  - description: secure-secure the wrap with a toothpick
+    tag: Missing Step
   - tag: Order Error
   recording_id: 45
   steps:
@@ -923,19 +926,18 @@
   - description: Lay-Lay out 2 large lettuce leaves
   - description: top-top lettuce leaves with the tuna mixture
   - description: place-place avocado slices on each leaf
-  - description: secure-secure the wrap with a toothpick
 - errors:
   - description: Lay-Lay out 2 large lettuce leaves
     tag: Missing Step
   - tag: Order Error
   recording_id: 46
   steps:
+  - description: Take-Take 1 ripe avocado
   - description: Chop-Chop 1 scallion
   - description: Open-Open a can of tuna
   - description: Add-add chopped scallion to the bowl
   - description: cut-cut avocado into thin slices
   - description: drain-drain excess water from can
-  - description: Take-Take 1 ripe avocado
   - description: Season-season 1/4 tsp pepper on the bowl
   - description: Add-Add 1 can drained tuna to the bowl
   - description: Add-1 tsp Sriracha sauce to the bowl
