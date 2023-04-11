@@ -1,4 +1,4 @@
- - recording_id: 1
+- recording_id: 1
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
   - description: place-place slices of tomato on a pan over medium heat
@@ -263,13 +263,12 @@
 - errors:
   - description: Cook-Cook the slices for 1 minute
     tag: Missing Step
-  - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
-      slice
-    tag: Missing Step
   recording_id: 27
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
   - description: place-place slices of tomato on a pan over medium heat
+  - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
+      slice
   - description: Cover-Cover the pan
   - description: cook-cook for another minute or until the cheese is melted
   - description: Place-Place each slice of tomato on a cracker to serve
@@ -277,13 +276,14 @@
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
     tag: Missing Step
+  - description: cook-cook for another minute or until the cheese is melted
+    tag: Missing Step
   recording_id: 28
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
   - description: place-place slices of tomato on a pan over medium heat
   - description: Cook-Cook the slices for 1 minute
   - description: Cover-Cover the pan
-  - description: cook-cook for another minute or until the cheese is melted
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
   - description: cook-cook for another minute or until the cheese is melted
@@ -300,6 +300,8 @@
 - errors:
   - description: cook-cook for another minute or until the cheese is melted
     tag: Missing Step
+  - description: Cover-Cover the pan
+    tag: Missing Step
   recording_id: 30
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
@@ -307,7 +309,6 @@
   - description: Cook-Cook the slices for 1 minute
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
-  - description: Cover-Cover the pan
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
@@ -381,9 +382,9 @@
   recording_id: 36
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
-  - description: Cook-Cook the slices for 1 minute
   - description: place-place slices of tomato on a pan over medium heat
   - description: Cover-Cover the pan
+  - description: Cook-Cook the slices for 1 minute
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
   - tag: Order Error
@@ -428,10 +429,10 @@
   recording_id: 40
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
-  - description: place-place slices of tomato on a pan over medium heat
-  - description: Cook-Cook the slices for 1 minute
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
+  - description: place-place slices of tomato on a pan over medium heat
+  - description: Cook-Cook the slices for 1 minute
   - description: cook-cook for another minute or until the cheese is melted
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
@@ -460,82 +461,94 @@
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
   - tag: Order Error
-  recording_id: 44
+  recording_id: 43
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
   - description: place-place slices of tomato on a pan over medium heat
-  - description: Cook-Cook the slices for 1 minute
   - description: Cover-Cover the pan
+  - description: Cook-Cook the slices for 1 minute
   - description: cook-cook for another minute or until the cheese is melted
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
     tag: Missing Step
-  - description: Cover-Cover the pan
-    tag: Missing Step
   - description: cook-cook for another minute or until the cheese is melted
+    tag: Missing Step
+  - tag: Order Error
+  recording_id: 44
+  steps:
+  - description: Cut-Cut 1 medium tomato into 4 slices
+  - description: place-place slices of tomato on a pan over medium heat
+  - description: Cook-Cook the slices for 1 minute
+  - description: Cover-Cover the pan
+  - description: Place-Place each slice of tomato on a cracker to serve
+- errors:
+  - description: Cook-Cook the slices for 1 minute
     tag: Missing Step
   - tag: Order Error
   recording_id: 45
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
   - description: place-place slices of tomato on a pan over medium heat
-  - description: Cook-Cook the slices for 1 minute
+  - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
+      slice
+  - description: cook-cook for another minute or until the cheese is melted
+  - description: Cover-Cover the pan
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
-  - description: Cook-Cook the slices for 1 minute
-    tag: Missing Step
   - tag: Order Error
   recording_id: 46
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
   - description: place-place slices of tomato on a pan over medium heat
+  - description: Cover-Cover the pan
+  - description: Cook-Cook the slices for 1 minute
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
   - description: cook-cook for another minute or until the cheese is melted
-  - description: Cover-Cover the pan
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
+  - description: Cook-Cook the slices for 1 minute
+    tag: Missing Step
+  - description: Cover-Cover the pan
+    tag: Missing Step
   - tag: Order Error
   recording_id: 47
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
-  - description: place-place slices of tomato on a pan over medium heat
-  - description: Cover-Cover the pan
-  - description: Cook-Cook the slices for 1 minute
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
+  - description: place-place slices of tomato on a pan over medium heat
   - description: cook-cook for another minute or until the cheese is melted
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
-  - description: Cook-Cook the slices for 1 minute
+  - description: cook-cook for another minute or until the cheese is melted
     tag: Missing Step
   - description: Cover-Cover the pan
-    tag: Missing Step
   - tag: Order Error
   recording_id: 48
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
   - description: place-place slices of tomato on a pan over medium heat
+  - description: Cook-Cook the slices for 1 minute
+  - description: Place-Place each slice of tomato on a cracker to serve
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
-  - description: cook-cook for another minute or until the cheese is melted
-  - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
   - description: cook-cook for another minute or until the cheese is melted
     tag: Missing Step
-  - description: Cover-Cover the pan
   - tag: Order Error
   recording_id: 49
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
-  - description: place-place slices of tomato on a pan over medium heat
-  - description: Cook-Cook the slices for 1 minute
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
+  - description: place-place slices of tomato on a pan over medium heat
+  - description: Cover-Cover the pan
+  - description: Cook-Cook the slices for 1 minute
   - description: Place-Place each slice of tomato on a cracker to serve
 - errors:
   - description: cook-cook for another minute or until the cheese is melted
@@ -544,9 +557,9 @@
   recording_id: 50
   steps:
   - description: Cut-Cut 1 medium tomato into 4 slices
+  - description: place-place slices of tomato on a pan over medium heat
+  - description: Cook-Cook the slices for 1 minute
+  - description: Cover-Cover the pan
+  - description: Place-Place each slice of tomato on a cracker to serve
   - description: top-top with a 1/2 tbsp shredded low-fat mozzarella cheese on each
       slice
-  - description: place-place slices of tomato on a pan over medium heat
-  - description: Cover-Cover the pan
-  - description: Cook-Cook the slices for 1 minute
-  - description: Place-Place each slice of tomato on a cracker to serve

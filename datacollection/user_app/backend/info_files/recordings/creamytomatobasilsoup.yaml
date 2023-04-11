@@ -905,8 +905,8 @@
   - description: Stir-Stir 1/4 can crushed tomatoes in the pot
   - description: Add-Add the onion to the pot
   - description: Stir-Stir 1/2 cup vegetable broth in the pot
-  - description: Stir-Stir 1/16 cup chopped fresh basil in the pot
   - description: Chop-Chop 1/16 cup basil
+  - description: Stir-Stir 1/16 cup chopped fresh basil in the pot
   - description: Peel-Peel one garlic clove
   - description: mince-mince the garlic clove
   - description: Add-add garlic to the pot
@@ -932,11 +932,11 @@
   - description: Stir-Stir 1/4 can crushed tomatoes in the pot
   - description: Add-Add the onion to the pot
   - description: mince-mince the garlic clove
+  - description: Chop-Chop 1/16 cup basil
   - description: Add-add garlic to the pot
   - description: Stir-Stir 1/16 cup chopped fresh basil in the pot
   - description: Stir-Stir 1/2 cup vegetable broth in the pot
   - description: Bring-Bring the contents of the pot to a boil
-  - description: Chop-Chop 1/16 cup basil
   - description: Stir-Stir in the 1/8 cup heavy cream in the pot
   - description: Season-Season pot with 1/4 tsp pepper
   - description: Transfer-Transfer the contents of the pot to a serving bowl
@@ -1022,7 +1022,6 @@
   recording_id: 48
   steps:
   - description: Peel-Peel one garlic clove
-  - description: Add-add garlic to the pot
   - description: Peel-Peel an onion
   - description: heat-In a pot, heat 1 tbsp olive oil over medium heat
   - description: mince-mince the garlic clove
@@ -1035,6 +1034,7 @@
   - description: Bring-Bring the contents of the pot to a boil
   - description: reduce-reduce the heat and simmer for 2 minutes
   - description: Stir-Stir 1/16 cup chopped fresh basil in the pot
+  - description: Add-add garlic to the pot
   - description: Transfer-Transfer the contents of the pot to a serving bowl
 - errors:
   - tag: Order Error
