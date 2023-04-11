@@ -7,30 +7,30 @@ from ..models.activity import Activity
 from ..models.recording import Recording
 from ..models.user import User
 
-# firebaseProdConfig = {
-# 	"apiKey": "AIzaSyBN101vsa7m1bgoaBMhgC0POAU8TVQhU0o",
-# 	"authDomain": "ego-proc-errors.firebaseapp.com",
-# 	"projectId": "ego-proc-errors",
-# 	"storageBucket": "ego-proc-errors.appspot.com",
-# 	"messagingSenderId": "676090535211",
-# 	"appId": "1:676090535211:web:5ffd195bd98f51820bb96e",
-# 	"databaseURL": "https://ego-proc-errors-default-rtdb.firebaseio.com",
-# 	"measurementId": "G-QM9RPQ6M5D"
-# }
-#
-# firebase = pyrebase.initialize_app(firebaseProdConfig)
-
-firebaseDevConfig = {
-	"apiKey": "AIzaSyCzBlh4hXDXJqIBZEkcF0kXh70K6-RuEsc",
-	"authDomain": "ego-proc-mistakes.firebaseapp.com",
-	"projectId": "ego-proc-mistakes",
-	"storageBucket": "ego-proc-mistakes.appspot.com",
-	"messagingSenderId": "310348437552",
-	"appId": "1:310348437552:web:77b182eafb9f4eff0af5f5",
-	"databaseURL": "https://ego-proc-mistakes-default-rtdb.firebaseio.com",
+firebaseProdConfig = {
+	"apiKey": "AIzaSyBN101vsa7m1bgoaBMhgC0POAU8TVQhU0o",
+	"authDomain": "ego-proc-errors.firebaseapp.com",
+	"projectId": "ego-proc-errors",
+	"storageBucket": "ego-proc-errors.appspot.com",
+	"messagingSenderId": "676090535211",
+	"appId": "1:676090535211:web:5ffd195bd98f51820bb96e",
+	"databaseURL": "https://ego-proc-errors-default-rtdb.firebaseio.com",
+	"measurementId": "G-QM9RPQ6M5D"
 }
 
-firebase = pyrebase.initialize_app(firebaseDevConfig)
+firebase = pyrebase.initialize_app(firebaseProdConfig)
+
+# firebaseDevConfig = {
+# 	"apiKey": "AIzaSyCzBlh4hXDXJqIBZEkcF0kXh70K6-RuEsc",
+# 	"authDomain": "ego-proc-mistakes.firebaseapp.com",
+# 	"projectId": "ego-proc-mistakes",
+# 	"storageBucket": "ego-proc-mistakes.appspot.com",
+# 	"messagingSenderId": "310348437552",
+# 	"appId": "1:310348437552:web:77b182eafb9f4eff0af5f5",
+# 	"databaseURL": "https://ego-proc-mistakes-default-rtdb.firebaseio.com",
+# }
+#
+# firebase = pyrebase.initialize_app(firebaseDevConfig)
 
 
 class FirebaseService:

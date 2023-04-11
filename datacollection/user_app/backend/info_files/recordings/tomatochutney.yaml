@@ -624,7 +624,7 @@
   - description: Take-Take the pan off the heat
   - description: Transfer-Transfer it to a serving bowl
 - errors:
-    - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
+  - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
         until the mixture becomes thick
     tag: Missing Step
   recording_id: 29

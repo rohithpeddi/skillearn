@@ -1,7 +1,7 @@
 
 import argparse
-import hl2ss
-import hl2ss_3dcv
+from ..hololens import hl2ss
+from ..hololens import hl2ss_3dcv
 
 parser = argparse.ArgumentParser(description='HL2SS RM Calibration Downloader Tool.')
 parser.add_argument('--host', help='HL2 IP address (e.g. 192.168.1.0)', required=True)

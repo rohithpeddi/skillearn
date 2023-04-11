@@ -3,8 +3,8 @@ import fractions
 import numpy as np
 import time
 import av
-import hl2ss
-import hl2ss_io
+from ..hololens import hl2ss
+from ..hololens import hl2ss_io
 
 
 #------------------------------------------------------------------------------

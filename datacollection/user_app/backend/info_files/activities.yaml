@@ -782,7 +782,7 @@
     - I4: "1/4 tsp pepper"
     - I5: "1 tbsp olive oil"
 - id: 13
-  name: "Butter corn Cup"
+  name: "Butter Corn Cup"
   category: "Veg"
   activity_type: "Microwave"
   steps:
@@ -1453,7 +1453,7 @@
     - I5: "1 strawberry"
     - I6: "maple syrup"
 - id: 22
-  name: "Herb Omlet with Fried Tomatoes"
+  name: "Herb Omelet with Fried Tomatoes"
   category: "Non-Veg"
   activity_type: "Pan"
   steps:

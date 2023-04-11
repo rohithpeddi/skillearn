@@ -1,8 +1,8 @@
 
 import multiprocessing as mp
 import struct
-import hl2ss
-import hl2ss_mp
+from ..hololens import hl2ss
+from ..hololens import hl2ss_mp
 
 
 _MAGIC = 'X38HL2SS'

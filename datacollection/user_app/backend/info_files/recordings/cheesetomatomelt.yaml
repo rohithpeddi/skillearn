@@ -528,6 +528,7 @@
   - description: cook-cook for another minute or until the cheese is melted
     tag: Missing Step
   - description: Cover-Cover the pan
+    tag: Missing Step
   - tag: Order Error
   recording_id: 48
   steps:
