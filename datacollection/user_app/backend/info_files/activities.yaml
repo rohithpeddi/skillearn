@@ -265,6 +265,7 @@
     - I1: "1 garlic clove"
     - I2: "1 medium onion"
     - I3: "Microwave safe cover"
+    - I4: "Basil"
 - id: 5
   name: "Coffee"
   category: "Veg"
@@ -1696,7 +1697,7 @@
       description: "The recipe doesn't specify how long to cook the tofu after adding the sesame oil and soy sauce, so the cook may overcook or undercook it."
   required_items:
     - I0: "1/4 block tofu"
-    - I1: "1 tbsp oilve oil"
+    - I1: "1 tbsp olive oil"
     - I2: "1/4 tsp salt"
     - I3: "1 tbsp sesame oil"
     - I4: "1 tbsp soy sauce"
