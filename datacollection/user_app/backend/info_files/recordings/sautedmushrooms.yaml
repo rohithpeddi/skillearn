@@ -5,10 +5,10 @@
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: mince-mince garlic cloves
   - description: Add-Add chopped shallot to the pan
@@ -28,9 +28,9 @@
   - description: Slice-Slice the mushrooms
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -44,13 +44,13 @@
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Rinse-Rinse 3 mushrooms under cold water
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: Chop-Chop 1 shallot
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -70,8 +70,8 @@
   - description: Chop-Chop 1 shallot
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: Peel-Peel 4 garlic cloves
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: Peel-Peel 2 garlic cloves
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -84,7 +84,7 @@
   - description: Transfer-Transfer the contents of the pan to a serving dish
 - recording_id: 5
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Chop-Chop 1 shallot
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
@@ -93,7 +93,7 @@
   - description: Slice-Slice the mushrooms
   - description: mince-mince garlic cloves
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -109,11 +109,11 @@
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Slice-Slice the mushrooms
   - description: mince-mince garlic cloves
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Chop-Chop 1 shallot
   - description: Add-Add chopped shallot to the pan
@@ -130,11 +130,11 @@
   - description: Chop-Chop 1 shallot
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: mince-mince garlic cloves
@@ -147,7 +147,7 @@
   - description: Transfer-Transfer the contents of the pan to a serving dish
 - recording_id: 8
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
@@ -156,7 +156,7 @@
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
   - description: mince-mince garlic cloves
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -170,14 +170,14 @@
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Chop-Chop 1 shallot
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
   - description: mince-mince garlic cloves
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -190,7 +190,7 @@
 - recording_id: 10
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Chop-Chop 1 shallot
   - description: mince-mince garlic cloves
@@ -198,7 +198,7 @@
   - description: Slice-Slice the mushrooms
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -211,7 +211,7 @@
 - recording_id: 11
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Chop-Chop 1 shallot
   - description: mince-mince garlic cloves
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
@@ -219,7 +219,7 @@
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -238,8 +238,8 @@
   - description: Chop-Chop 1 shallot
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: Peel-Peel 4 garlic cloves
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: Peel-Peel 2 garlic cloves
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: mince-mince garlic cloves
   - description: Add-Add chopped shallot to the pan
@@ -253,7 +253,7 @@
 - recording_id: 13
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Chop-Chop 1 shallot
@@ -261,7 +261,7 @@
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -273,7 +273,7 @@
   - description: Transfer-Transfer the contents of the pan to a serving dish
 - recording_id: 14
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
@@ -282,7 +282,7 @@
   - description: Slice-Slice the mushrooms
   - description: Chop-Chop 1 shallot
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -294,7 +294,7 @@
   - description: Transfer-Transfer the contents of the pan to a serving dish
 - recording_id: 15
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: Chop-Chop 1 shallot
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
@@ -303,7 +303,7 @@
   - description: mince-mince garlic cloves
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -319,12 +319,12 @@
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Pull-Pull out mushroom stems
   - description: mince-mince garlic cloves
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -342,8 +342,8 @@
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: Peel-Peel 4 garlic cloves
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: Peel-Peel 2 garlic cloves
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Chop-Chop 1 shallot
   - description: Add-Add chopped shallot to the pan
@@ -360,13 +360,13 @@
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Pull-Pull out mushroom stems
   - description: mince-mince garlic cloves
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
   - description: Chop-Chop 1 shallot
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -383,10 +383,10 @@
   - description: Pull-Pull out mushroom stems
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Slice-Slice the mushrooms
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Chop-Chop 1 shallot
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: mince-mince garlic cloves
@@ -399,7 +399,7 @@
   - description: Transfer-Transfer the contents of the pan to a serving dish
 - recording_id: 20
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
@@ -407,7 +407,7 @@
   - description: Chop-Chop 1 shallot
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: mince-mince garlic cloves
   - description: Add-Add chopped shallot to the pan
@@ -426,9 +426,9 @@
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Slice-Slice the mushrooms
   - description: Chop-Chop 1 shallot
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -442,7 +442,7 @@
 - recording_id: 22
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
@@ -450,7 +450,7 @@
   - description: add-Once the pan is hot, add the mushrooms
   - description: mince-mince garlic cloves
   - description: Chop-Chop 1 shallot
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -469,9 +469,9 @@
   - description: Slice-Slice the mushrooms
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Add-Add chopped shallot to the pan
   - description: mince-mince garlic cloves
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -489,9 +489,9 @@
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
   - description: Chop-Chop 1 shallot
   - description: Add-Add chopped shallot to the pan
@@ -504,7 +504,7 @@
   - description: Transfer-Transfer the contents of the pan to a serving dish
 - recording_id: 25
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: Chop-Chop 1 shallot
@@ -513,7 +513,7 @@
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -530,13 +530,13 @@
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Rinse-Rinse 3 mushrooms under cold water
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
   - description: Chop-Chop 1 shallot
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: mince-mince garlic cloves
@@ -555,12 +555,12 @@
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: Chop-Chop 1 shallot
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: mince-mince garlic cloves
@@ -581,12 +581,12 @@
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: Chop-Chop 1 shallot
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: mince-mince garlic cloves
@@ -603,14 +603,14 @@
   recording_id: 29
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Chop-Chop 1 shallot
   - description: Slice-Slice the mushrooms
   - description: mince-mince garlic cloves
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: cook-cook the pan, often stirring, for 1 minute
   - description: Add-1/4 tbsp balsamic vinegar to the pan
@@ -630,9 +630,9 @@
   - description: Pull-Pull out mushroom stems
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Slice-Slice the mushrooms
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -648,13 +648,13 @@
   recording_id: 31
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Chop-Chop 1 shallot
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -677,10 +677,10 @@
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Chop-Chop 1 shallot
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: cook-cook the pan, often stirring, for 1 minute
   - description: mince-mince garlic cloves
   - description: Add-Add 2 cloves of minced garlic to the pan
@@ -690,6 +690,9 @@
   - description: Transfer-Transfer the contents of the pan to a serving dish
 - errors:
   - description: add-Once the pan is hot, add the mushrooms
+    tag: Missing Step
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
+      and brown
     tag: Missing Step
   - description: cook-cook the pan, often stirring, for 1 minute
     tag: Missing Step
@@ -701,10 +704,8 @@
   - description: Chop-Chop 1 shallot
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
-      and brown
   - description: Add-Add chopped shallot to the pan
   - description: Add-1/4 tbsp balsamic vinegar to the pan
   - description: Add-Add 2 cloves of minced garlic to the pan
@@ -719,13 +720,13 @@
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Chop-Chop 1 shallot
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: mince-mince garlic cloves
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -747,10 +748,10 @@
   - description: Chop-Chop 1 shallot
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -770,12 +771,12 @@
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
   - description: Chop-Chop 1 shallot
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: Add-Add 2 cloves of minced garlic to the pan
@@ -786,12 +787,12 @@
 - errors:
   - description: Season-pepper on pan to taste
     tag: Missing Step
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
     tag: Missing Step
   recording_id: 37
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
@@ -820,11 +821,11 @@
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Chop-Chop 1 shallot
   - description: Pull-Pull out mushroom stems
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Slice-Slice the mushrooms
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -841,13 +842,13 @@
     tag: Missing Step
   recording_id: 39
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: Chop-Chop 1 shallot
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -860,7 +861,7 @@
 - errors:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
     tag: Missing Step
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
     tag: Missing Step
   - description: mince-mince garlic cloves
     tag: Missing Step
@@ -876,7 +877,7 @@
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -898,11 +899,11 @@
   - description: Slice-Slice the mushrooms
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
   - description: cook-cook the pan, often stirring, for 1 minute
   - description: Season-pepper on pan to taste
@@ -918,12 +919,12 @@
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Slice-Slice the mushrooms
   - description: Chop-Chop 1 shallot
   - description: add-Once the pan is hot, add the mushrooms
   - description: mince-mince garlic cloves
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -944,7 +945,7 @@
   steps:
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Add-1/4 tbsp balsamic vinegar to the pan
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
@@ -952,7 +953,7 @@
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: cook-cook the pan, often stirring, for 1 minute
   - description: Add-Add 2 cloves of minced garlic to the pan
@@ -964,7 +965,7 @@
   - tag: Order Error
   recording_id: 44
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: mince-mince garlic cloves
   - description: Rinse-Rinse 3 mushrooms under cold water
@@ -974,7 +975,7 @@
   - description: Chop-Chop 1 shallot
   - description: Add-Add 2 cloves of minced garlic to the pan
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add chopped shallot to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -993,18 +994,18 @@
   recording_id: 45
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
-      and brown
   - description: Pull-Pull out mushroom stems
   - description: Chop-Chop 1 shallot
   - description: mince-mince garlic cloves
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
   - description: Add-Add chopped shallot to the pan
-  - description: cook-cook the pan, often stirring, for 1 minute
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
+      and brown
   - description: Add-1/4 tbsp balsamic vinegar to the pan
+  - description: cook-cook the pan, often stirring, for 1 minute
   - description: Season-Season pan with salt
   - description: Season-pepper on pan to taste
   - description: Transfer-Transfer the contents of the pan to a serving dish
@@ -1018,17 +1019,17 @@
   - tag: Order Error
   recording_id: 46
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: mince-mince garlic cloves
   - description: Season-Season pan with salt
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: add-Once the pan is hot, add the mushrooms
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Chop-Chop 1 shallot
-  - description: add-Once the pan is hot, add the mushrooms
   - description: cook-cook the pan, often stirring, for 1 minute
   - description: Add-Add 2 cloves of minced garlic to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -1044,11 +1045,11 @@
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Season-Season pan with salt
   - description: cook-cook the pan, often stirring, for 1 minute
@@ -1068,7 +1069,7 @@
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
   - description: Pull-Pull out mushroom stems
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Slice-Slice the mushrooms
   - description: cook-cook the pan, often stirring, for 1 minute
   - description: Add-1/4 tbsp balsamic vinegar to the pan
@@ -1079,12 +1080,10 @@
   - description: Season-Season pan with salt
   - description: add-Once the pan is hot, add the mushrooms
   - description: Add-Add chopped shallot to the pan
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Transfer-Transfer the contents of the pan to a serving dish
 - errors:
-  - description: mince-mince garlic cloves
-    tag: Missing Step
   - description: Add-Add chopped shallot to the pan
     tag: Missing Step
   - description: Pull-Pull out mushroom stems
@@ -1094,17 +1093,18 @@
   steps:
   - description: Rinse-Rinse 3 mushrooms under cold water
   - description: pat-immediately pat rinsed mushrooms dry with a paper towel
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: Chop-Chop 1 shallot
+  - description: mince-mince garlic cloves
   - description: Slice-Slice the mushrooms
   - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   - description: add-Once the pan is hot, add the mushrooms
   - description: Add-1/4 tbsp balsamic vinegar to the pan
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Season-pepper on pan to taste
   - description: cook-cook the pan, often stirring, for 1 minute
-  - description: Add-Add 4 cloves of garlic to the pan
+  - description: Add-Add 2 cloves of minced garlic to the pan
   - description: cook-cook the pan, often stirring, for 1 minute
   - description: Season-Season pan with salt
   - description: Transfer-Transfer the contents of the pan to a serving dish
@@ -1118,13 +1118,13 @@
   - tag: Order Error
   recording_id: 50
   steps:
-  - description: Peel-Peel 4 garlic cloves
+  - description: Peel-Peel 2 garlic cloves
   - description: mince-mince garlic cloves
   - description: Chop-Chop 1 shallot
   - description: Pull-Pull out mushroom stems
   - description: Slice-Slice the mushrooms
   - description: add-Once the pan is hot, add the mushrooms
-  - description: cook-cook for 3-5 minutes, stirring often, until they start to soften
+  - description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften
       and brown
   - description: Add-Add 2 cloves of minced garlic to the pan
   - description: cook-cook the pan, often stirring, for 1 minute

@@ -11,9 +11,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 2
@@ -29,9 +29,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 3
@@ -48,8 +48,8 @@
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 4
@@ -65,9 +65,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 5
@@ -83,8 +83,8 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -102,8 +102,8 @@
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 7
@@ -119,9 +119,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 8
@@ -137,9 +137,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 9
@@ -155,9 +155,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 10
@@ -173,8 +173,8 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -192,8 +192,8 @@
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 12
@@ -210,8 +210,8 @@
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 13
@@ -227,9 +227,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 14
@@ -245,9 +245,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 15
@@ -263,9 +263,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 16
@@ -281,8 +281,8 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -299,8 +299,8 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -317,8 +317,8 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -335,9 +335,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 20
@@ -354,8 +354,8 @@
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 21
@@ -371,8 +371,8 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -389,9 +389,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 23
@@ -408,8 +408,8 @@
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 24
@@ -426,8 +426,8 @@
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - recording_id: 25
@@ -443,9 +443,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
@@ -463,9 +463,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
@@ -485,14 +485,14 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
   - description: Microwave-Microwave the ramen for 4 minutes
     tag: Missing Step
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
     tag: Missing Step
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
     tag: Missing Step
@@ -508,7 +508,7 @@
   - description: Add-Add the noodles to the bowl
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
 - errors:
@@ -527,12 +527,12 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
 - errors:
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
     tag: Missing Step
   recording_id: 30
   steps:
@@ -547,7 +547,7 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -567,14 +567,14 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
   - description: slice-slice 1/4 medium onion into pieces
     tag: Missing Step
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
     tag: Missing Step
   recording_id: 32
   steps:
@@ -588,12 +588,12 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
-  - description: Peel-Peel
+  - description: Peel-Peel 1 garlic clove
     tag: Missing Step
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
     tag: Missing Step
@@ -610,13 +610,10 @@
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
 - errors:
-  - description: Remove-Remove the noodles from the package(Break Noodles / Keep them
-      as a block)
-    tag: Missing Step
   - description: Peel-Peel 1 medium onion
     tag: Missing Step
   - description: Chop-Chop 1 garlic clove on a cutting board
@@ -627,19 +624,21 @@
   steps:
   - description: Peel-Peel 1 garlic clove
   - description: slice-slice 1/4 medium onion into pieces
+  - description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+      as a block)
   - description: Put-Put all the Vegetables in a microwave-safe bowl
   - description: Add-Add the noodles to the bowl
   - description: cover-cover the noodles with water
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
     tag: Missing Step
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
     tag: Missing Step
   recording_id: 35
   steps:
@@ -653,7 +652,7 @@
   - description: Add-Add the noodles to the bowl
   - description: cover-cover the noodles with water
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -673,9 +672,9 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
 - errors:
   - description: slice-slice 1/4 medium onion into pieces
@@ -693,9 +692,9 @@
   - description: Add-Add the noodles to the bowl
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
@@ -713,16 +712,16 @@
       as a block)
   - description: Peel-Peel 1 garlic clove
   - description: slice-slice 1/4 medium onion into pieces
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Add-Add the noodles to the bowl
   - description: Peel-Peel 1 medium onion
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Put-Put all the Vegetables in a microwave-safe bowl
   - description: Mix-Mix in the flavour packet to the bowl
 - errors:
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
     tag: Missing Step
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
     tag: Missing Step
@@ -734,7 +733,7 @@
   - description: Peel-Peel 1 garlic clove
   - description: Peel-Peel 1 medium onion
   - description: Chop-Chop 1 garlic clove on a cutting board
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Remove-Remove the noodles from the package(Break Noodles / Keep them
       as a block)
   - description: Put-Put all the Vegetables in a microwave-safe bowl
@@ -754,14 +753,14 @@
   - description: Remove-Remove the noodles from the package(Break Noodles / Keep them
       as a block)
   - description: slice-slice 1/4 medium onion into pieces
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Add-Add the noodles to the bowl
   - description: Put-Put all the Vegetables in a microwave-safe bowl
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: cover-cover the noodles with water
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
@@ -780,8 +779,8 @@
   - description: Peel-Peel 1 garlic clove
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
@@ -800,8 +799,8 @@
   - description: Chop-Chop 1 garlic clove on a cutting board
   - description: Microwave-Microwave the ramen for 4 minutes
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
-  - description: Add-Add basil to the bowl
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped basil to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
 - errors:
@@ -815,11 +814,11 @@
   - description: Chop-Chop 1 garlic clove on a cutting board
   - description: Put-Put all the Vegetables in a microwave-safe bowl
   - description: slice-slice 1/4 medium onion into pieces
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Add-Add the noodles to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
@@ -839,9 +838,9 @@
   - description: Add-Add the noodles to the bowl
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
@@ -859,9 +858,9 @@
   - description: slice-slice 1/4 medium onion into pieces
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
 - errors:
@@ -872,14 +871,14 @@
   - description: Peel-Peel 1 medium onion
   - description: Remove-Remove the noodles from the package(Break Noodles / Keep them
       as a block)
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Add-Add the noodles to the bowl
   - description: Put-Put all the Vegetables in a microwave-safe bowl
   - description: slice-slice 1/4 medium onion into pieces
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Chop-Chop 1 garlic clove on a cutting board
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
@@ -899,8 +898,8 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   - description: Microwave-Microwave the ramen for 4 minutes
-  - description: Add-Add basil to the bowl
+  - description: Add-Add chopped basil to the bowl
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  - description: Add-cilantro to the bowl
+  - description: Add-Add chopped cilantro to the bowl
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves

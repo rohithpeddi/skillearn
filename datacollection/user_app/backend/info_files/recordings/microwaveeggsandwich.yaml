@@ -7,10 +7,10 @@
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - recording_id: 2
@@ -20,11 +20,11 @@
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -36,11 +36,11 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - recording_id: 4
@@ -52,10 +52,10 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - recording_id: 5
@@ -67,10 +67,10 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - recording_id: 6
@@ -82,9 +82,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -97,10 +97,10 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - recording_id: 8
@@ -112,9 +112,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -127,9 +127,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -141,11 +141,11 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - recording_id: 11
@@ -157,9 +157,9 @@
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -172,24 +172,24 @@
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - recording_id: 13
   steps:
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -202,9 +202,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -215,11 +215,11 @@
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -231,10 +231,10 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -244,12 +244,12 @@
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -262,9 +262,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -274,12 +274,12 @@
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -289,12 +289,12 @@
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -307,9 +307,9 @@
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -320,11 +320,11 @@
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -337,9 +337,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -347,14 +347,14 @@
   steps:
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -367,9 +367,9 @@
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -381,13 +381,13 @@
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Pour-Pour 1 egg into the ramekin cup
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
@@ -402,9 +402,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: replace -replace the top of the English muffin
 - errors:
@@ -418,9 +418,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -433,12 +433,12 @@
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
@@ -452,15 +452,15 @@
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: stir-stir the ramekin cup
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
     tag: Missing Step
   recording_id: 31
   steps:
@@ -470,9 +470,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -487,14 +487,14 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
     tag: Missing Step
   - description: Place -Place the egg from the cup over the lettuce
     tag: Missing Step
@@ -507,8 +507,8 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: replace -replace the top of the English muffin
 - errors:
@@ -522,9 +522,9 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -542,9 +542,9 @@
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: stir-stir the ramekin cup
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
@@ -557,13 +557,13 @@
   steps:
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Pour-Pour 1 egg into the ramekin cup
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
@@ -573,13 +573,13 @@
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -591,13 +591,13 @@
   steps:
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Pour-Pour 1 egg into the ramekin cup
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -607,13 +607,13 @@
   steps:
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Pour-Pour 1 egg into the ramekin cup
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: stir-stir the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
   - description: Place -Place the egg from the cup over the lettuce
@@ -630,9 +630,9 @@
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: stir-stir the ramekin cup
   - description: replace -replace the top of the English muffin
@@ -649,9 +649,9 @@
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
 - errors:
@@ -663,11 +663,11 @@
   - description: stir-stir the ramekin cup
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -682,10 +682,10 @@
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
@@ -697,20 +697,20 @@
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
     tag: Missing Step
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
     tag: Missing Step
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
     tag: Missing Step
   - tag: Order Error
   recording_id: 45
@@ -722,7 +722,7 @@
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
@@ -731,19 +731,19 @@
   steps:
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
   - description: stir-stir the ramekin cup
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
 - errors:
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
     tag: Missing Step
   - tag: Order Error
   recording_id: 47
@@ -752,29 +752,29 @@
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Line -Line the bottom piece of the English muffin with lettuce
     tag: Missing Step
   - tag: Order Error
   recording_id: 48
   steps:
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   - description: Cut -Cut the English muffin into two pieces with a knife
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
   - description: stir-stir the ramekin cup
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
@@ -783,7 +783,7 @@
   recording_id: 49
   steps:
   - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Pour-Pour 1 egg into the ramekin cup
@@ -791,8 +791,8 @@
   - description: stir-stir the ramekin cup
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
-  - description: Top -Top with 1 tablespoon of salsa
-  - description: Line -Line the bottom of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
   - description: Place -Place the egg from the cup over the lettuce
   - description: replace -replace the top of the English muffin
 - errors:
@@ -803,10 +803,10 @@
   - description: Cut -Cut the English muffin into two pieces with a knife
   - description: Pour-Pour 1 egg into the ramekin cup
   - description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
-  - description: sprinkle -sprinkle with 1 tablespoon of cheese
+  - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   - description: Microwave -Microwave just until cheese melts, about 10 seconds
-  - description: Line -Line the bottom of the English muffin with lettuce
-  - description: Top -Top with 1 tablespoon of salsa
+  - description: Line -Line the bottom piece of the English muffin with lettuce
+  - description: Top -Top cup with 1 tablespoon of salsa
   - description: Microwave -Continue to Microwave for 15-30 more seconds or until
       the egg is almost set
   - description: stir-stir the ramekin cup
