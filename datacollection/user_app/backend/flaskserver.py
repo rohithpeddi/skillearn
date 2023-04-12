@@ -268,7 +268,7 @@ def fetch_stats(user_id):
 # --------------------------------------------------------------------------------------------
 # -------------------------------------- DATA CAPTURE -----------------------------------------
 
-@app.route("/start/recording/<recording_id>", methods=['POST'])
+@app.route("/api/start/recording/<recording_id>", methods=['POST'])
 def start_activity_recording(recording_id):
 	# 1. Fetch recording info from the request
 	recording_dict = json.loads(request.data)
@@ -284,7 +284,7 @@ def start_activity_recording(recording_id):
 		return "An error occurred: " + str(e), 500
 
 
-@app.route("/stop/recording/<recording_id>/<int:subprocess_id>", methods=['POST'])
+@app.route("/api/stop/recording/<recording_id>/<int:subprocess_id>", methods=['POST'])
 def stop_activity_recording(recording_id, subprocess_id):
 	try:
 		# 1. Interrupt the process with PID

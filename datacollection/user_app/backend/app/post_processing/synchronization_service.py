@@ -88,19 +88,19 @@ class SynchronizationService:
             self,
             base_stream: str,
             synchronize_streams: List[str],
-            data_parent_directory: str,
-            synchronized_parent_directory: str,
+            hololens_parent_directory: str,
+            synchronized_data_directory: str,
             recording: Recording
     ):
         self.base_stream = base_stream
         self.synchronize_streams = synchronize_streams
-        self.data_parent_directory = data_parent_directory
-        self.synchronized_parent_directory = synchronized_parent_directory
+        self.hololens_parent_directory = hololens_parent_directory
+        self.synchronized_data_directory = synchronized_data_directory
         self.recording = recording
         self.recording_id = self.recording.get_recording_id()
 
-        self.data_directory = os.path.join(self.data_parent_directory, self.recording_id)
-        self.synchronized_directory = self.synchronized_parent_directory
+        self.data_directory = os.path.join(self.hololens_parent_directory, self.recording_id)
+        self.synchronized_directory = self.synchronized_data_directory
 
         self.base_stream_directory = os.path.join(self.data_directory, self.base_stream)
         self.synchronized_base_stream_directory = os.path.join(self.synchronized_directory, self.base_stream)
@@ -122,7 +122,6 @@ class SynchronizationService:
 
     def get_device_id(self):
         hololens_info_file = os.path.join(self.data_directory, ppc_const.HOLOLENS_INFO_FILE_NAME)
-        hololens_info_data = None
         with open(hololens_info_file, 'r') as f:
             hololens_info_data = f.readlines()
         for line in hololens_info_data:
@@ -304,8 +303,8 @@ def synchronize_data_dir(data_root_dir, rec_instance, base_stream, sync_streams,
     pv_sync_stream = SynchronizationService(
         base_stream=base_stream,
         synchronize_streams=sync_streams,
-        data_parent_directory=hl2_data_parent_dir,
-        synchronized_parent_directory=hl2_sync_parent_dir,
+        hololens_parent_directory=hl2_data_parent_dir,
+        synchronized_data_directory=hl2_sync_parent_dir,
         recording=rec_instance,
     )
     pv_sync_stream.sync_streams()

@@ -51,7 +51,7 @@ class BoxService:
 		self.client = Client(ccg_auth)
 		
 		self.db_service = FirebaseService()
-		self.activities = [Activity.from_dict(activity_dict) for activity_dict in self.db_service.fetch_activities()]
+		self.activities = [Activity.from_dict(activity_dict) for activity_dict in self.db_service.fetch_activities() if activity_dict is not None]
 		self._create_activity_id_name_map()
 	
 	def _create_activity_id_name_map(self):

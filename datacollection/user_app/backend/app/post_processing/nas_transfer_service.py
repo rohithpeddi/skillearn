@@ -68,7 +68,7 @@ class NASTransferService:
         self._timed_transfer_to_nas(sftp_client, const.SYNC, local_hl2_sync_data_dir, remote_hl2_sync_data_dir)
 
         # 3. Transfer GOPRO data to NAS
-        local_go_pro_file = os.path.join(self.local_data_root_dir, const.GOPRO, self.recording.id[:-2] + '.MP4')
+        local_go_pro_file = os.path.join(self.local_data_root_dir, const.GOPRO, self.recording.id + '.MP4')
         self._timed_transfer_to_nas(sftp_client, const.GOPRO, local_go_pro_file, remote_hl2_gopro_data_dir, is_file=True)
 
         sftp_client.close()
@@ -79,9 +79,9 @@ class NASTransferService:
 
 def test_nas_transfer_service():
     # mocking the recording instance
-    rec_id = '13_43__'
-    rec_instance = Recording(id=rec_id, activity_id=0, is_error=False, steps=[])
-    data_dir = "../../../../../data/"
+    rec_id = '9_15'
+    rec_instance = Recording(id=rec_id, activity_id=9, is_error=False, steps=[])
+    data_dir = "../../../../../../data/"
 
     nas_transfer_service = NASTransferService(rec_instance, data_dir)
     nas_transfer_service.transfer_from_local_to_nas()

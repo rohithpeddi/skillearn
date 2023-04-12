@@ -19,12 +19,14 @@ class PostProcessingService:
     def __init__(
             self,
             recording,
-            data_parent_directory="../../../../../data"
+            data_parent_directory=os.path.join(os.getcwd(), os.path.join('..', 'data'))
     ):
         self.recording = recording
         self.data_parent_directory = data_parent_directory
 
-        self.data_directory = os.path.join(self.data_parent_directory, self.recording.id)
+        self.hololens_parent_directory = os.path.join(self.data_parent_directory, const.HOLOLENS)
+        self.hololens_data_directory = os.path.join(self.hololens_parent_directory, self.recording.id)
+        self.synchronized_data_directory = os.path.join(self.hololens_data_directory, const.SYNC)
 
         self.box_service = BoxService()
         self.db_service = FirebaseService()
@@ -38,14 +40,13 @@ class PostProcessingService:
         return converted_file_path
 
     def synchronize_data(self):
-        sync_parent_directory = os.path.join(self.data_directory, const.SYNC)
         base_stream = const.PHOTOVIDEO
         sync_streams = [const.DEPTH_AHAT, const.SPATIAL]
         pv_sync_stream = SynchronizationService(
             base_stream=base_stream,
             synchronize_streams=sync_streams,
-            data_parent_directory=self.data_parent_directory,
-            synchronized_parent_directory=sync_parent_directory,
+            hololens_parent_directory=self.hololens_parent_directory,
+            synchronized_data_directory=self.synchronized_data_directory,
             recording=self.recording
         )
         logger.info(f'Started synchronization for {self.recording.id}')
@@ -55,8 +56,8 @@ class PostProcessingService:
     def compress_data(self):
         # Compress the data
         logger.info(f'Started compressing data for {self.recording.id}')
-        cds = CompressDataService(data_dir=self.data_directory)
-        sync_cds = CompressDataService(data_dir=self.data_directory)
+        cds = CompressDataService(data_dir=self.hololens_data_directory)
+        sync_cds = CompressDataService(data_dir=self.synchronized_data_directory)
         cds.compress_depth()
         cds.compress_pv()
         sync_cds.compress_depth()
@@ -66,8 +67,8 @@ class PostProcessingService:
     def delete_uncompressed_data(self):
         # Delete the uncompressed data
         logger.info(f'Started deleting uncompressed data for {self.recording.id}')
-        cds = CompressDataService(data_dir=self.data_directory)
-        sync_cds = CompressDataService(data_dir=self.data_directory)
+        cds = CompressDataService(data_dir=self.hololens_data_directory)
+        sync_cds = CompressDataService(data_dir=self.synchronized_data_directory)
         cds.delete_pv_dir()
         cds.delete_depth_dir()
         sync_cds.delete_pv_dir()

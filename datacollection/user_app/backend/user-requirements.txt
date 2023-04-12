@@ -23,7 +23,6 @@ pynput
 websockets
 redis
 pyaudio==0.2.13
-paramiko
 pysftp==0.2.9
 tqdm
 mediapipe

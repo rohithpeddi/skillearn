@@ -24,7 +24,7 @@ class RecordingService:
             self.hololens_service = HololensService()
 
         self.file_dir = os.path.dirname(os.path.realpath(__file__))
-        self.data_dir = os.path.join(self.file_dir, "../../../../../data")
+        self.data_dir = os.path.join(os.getcwd(), "../data")
         self.go_pro_dir = os.path.join(self.data_dir, "gopro")
         self.hololens_dir = os.path.join(self.data_dir, "hololens")
 
@@ -86,7 +86,7 @@ class RecordingService:
 
         logger.info("Stopped all threads related to recording")
 
-        self.post_process_recording()
+        # self.post_process_recording()
 
     def post_process_recording(self):
         logger.info("Started post processing for recording: " + self.recording.id)
@@ -94,13 +94,13 @@ class RecordingService:
 
         # 1. Convert the 4K video to 360P video
         gopro_dir = os.path.join(post_processing_service.data_parent_directory, self.go_pro_dir)
-        video_file_path = os.path.join(gopro_dir, self.recording.id + '.mp4')
+        video_file_path = os.path.join(gopro_dir, self.recording.id + '.MP4')
        
         # Thread - 1
         # 1. Push the 360P to the box
         post_processing_threads = []
-        push_36op_thread = threading.Thread(target=post_processing_service.push_go_pro_360_to_box, args=(video_file_path,))
-        post_processing_threads.append(push_36op_thread)
+        push_360p_thread = threading.Thread(target=post_processing_service.push_go_pro_360_to_box, args=(video_file_path,))
+        post_processing_threads.append(push_360p_thread)
         
         # Thread - 2
         # 1. Synchronize the data and store in them in new file
