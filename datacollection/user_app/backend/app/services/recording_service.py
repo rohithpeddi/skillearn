@@ -4,7 +4,9 @@ from ..models.recording import Recording
 from ..post_processing.post_processing_service import PostProcessingService
 from ..services.hololens_service import HololensService
 from ..services.open_gopro_service import OpenGoProService
-from ..utils.logger_config import logger
+from ..utils.logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 def create_directories(dir_path):

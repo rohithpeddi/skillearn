@@ -5,7 +5,9 @@ from pathlib import Path
 
 from open_gopro import WirelessGoPro, Params
 from open_gopro.util import add_cli_args_and_parse, setup_logging
-from ..utils.logger_config import logger
+from ..utils.logger_config import get_logger
+
+logger = get_logger(__name__)
 
 """
 Open GoPro Python SDK - requires Python >= version 3.9 and < 3.11

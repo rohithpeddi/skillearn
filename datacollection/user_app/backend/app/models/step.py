@@ -1,3 +1,4 @@
+import json
 from typing import Optional
 
 from ..models.error import Error
@@ -50,3 +51,6 @@ class Step:
 			step.errors = step_errors_list
 		
 		return step
+	
+	def __str__(self):
+		return json.dumps(self.to_dict())

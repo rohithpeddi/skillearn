@@ -13,11 +13,13 @@ from app.models.error_tag import ErrorTag
 from app.models.recording import Recording
 from app.models.user import User
 from app.services import async_service
-from app.utils.logger_config import logger
+from app.utils.logger_config import setup_logging, get_logger
 
 app = Flask(__name__)
-
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
+db_service = FirebaseService()
+setup_logging()
+logger = get_logger(__name__)
 
 
 # --------------------------------------------------------------------------------------------
@@ -158,7 +160,8 @@ def fetch_activity_recording(user_id, activity_id, label):
 		return jsonify(response)
 
 
-@app.route('/api/users/<int:user_id>/environment/<int:environment_id>/select/recordings/<recording_id>', methods=['POST'])
+@app.route('/api/users/<int:user_id>/environment/<int:environment_id>/select/recordings/<recording_id>',
+           methods=['POST'])
 def select_recording(user_id, environment_id, recording_id):
 	recording_dict = db_service.fetch_recording(recording_id)
 	recording = Recording.from_dict(recording_dict)
@@ -206,11 +209,11 @@ def update_recording_finished(recording_id, user_id):
 		recording = Recording.from_dict(recording_dict)
 		assert recording.id == recording_id
 		recording.recorded_by = user_id
-		db_service.update_recording(recording)
 		
 		user = User.from_dict(db_service.fetch_user(user_id))
 		user.update_recording(recording.environment, recording.activity_id)
 		
+		db_service.update_recording(recording)
 		db_service.update_user(user)
 		return jsonify(recording.to_dict())
 	except Exception as e:
@@ -260,7 +263,8 @@ def fetch_stats(user_id):
 					else:
 						error_stats[error.tag] = 1
 	
-	stats = {const.RECORDING_STATS: recording_stats, const.ERROR_STATS: error_stats, const.USER_RECORDING_STATS: user_recording_stats}
+	stats = {const.RECORDING_STATS: recording_stats, const.ERROR_STATS: error_stats,
+	         const.USER_RECORDING_STATS: user_recording_stats}
 	
 	return jsonify(stats)
 
@@ -274,7 +278,8 @@ def start_activity_recording(recording_id):
 	recording_dict = json.loads(request.data)
 	try:
 		recording = Recording.from_dict(recording_dict)
-		child_subprocess_pid = async_service.create_async_subprocess(recording, const.ACTIVITY_RECORDING, db_service=db_service)
+		child_subprocess_pid = async_service.create_async_subprocess(recording, const.ACTIVITY_RECORDING,
+		                                                             db_service=db_service)
 		db_service.update_recording(recording)
 		logger.info("Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
 		response = {const.SUBPROCESS_ID: child_subprocess_pid}
@@ -301,5 +306,4 @@ def stop_activity_recording(recording_id, subprocess_id):
 
 # IMPORTANT - After every schedule change the current environment parameter in Firebase Directly
 if __name__ == "__main__":
-	db_service = FirebaseService()
 	app.run(threaded=True, host='0.0.0.0', port=5000)

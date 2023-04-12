@@ -2,8 +2,8 @@ import os
 import threading
 import time
 
-from datacollection.user_app.backend.models.recording import Recording
-from datacollection.user_app.backend.services.hololens_service import HololensService
+from datacollection.user_app.backend.app.models.recording import Recording
+from datacollection.user_app.backend.app.services.hololens_service import HololensService
 
 
 def record_all_streams(hololens_service: HololensService, recording: Recording, hololens_dir):

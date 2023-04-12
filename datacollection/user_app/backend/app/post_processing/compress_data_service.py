@@ -3,7 +3,9 @@ import shutil
 import time
 
 from ..utils.constants import Post_Processing_Constants as ppc_const
-from ..utils.logger_config import logger
+from ..utils.logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 class CompressDataService:

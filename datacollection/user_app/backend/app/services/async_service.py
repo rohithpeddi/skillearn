@@ -8,10 +8,11 @@ import datetime
 
 from .firebase_service import FirebaseService
 from .recording_service import RecordingService
-from ..utils.logger_config import logger
 from ..utils.constants import Async_Constants as const
 from ..models.recording import Recording
+from ..utils.logger_config import get_logger
 
+logger = get_logger(__name__)
 
 # async def upload_task(recording_instance: Recording):
 # 	# Create a DB service attached to the new child process

@@ -1,5 +1,5 @@
-from datacollection.user_app.backend.models.recording import Recording
-from datacollection.user_app.backend.post_processing.post_processing_service import PostProcessingService
+from datacollection.user_app.backend.app.models.recording import Recording
+from datacollection.user_app.backend.app.post_processing.post_processing_service import PostProcessingService
 
 
 def test_sync_pv_base():

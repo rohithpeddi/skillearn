@@ -3,9 +3,10 @@ import time
 
 import pysftp
 from ..utils.constants import Post_Processing_Constants as const
-from ..utils.logger_config import logger
 from ..models.recording import Recording
+from ..utils.logger_config import get_logger
 
+logger = get_logger(__name__)
 
 class NASTransferService:
 

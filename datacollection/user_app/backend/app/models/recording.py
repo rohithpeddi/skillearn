@@ -35,7 +35,8 @@ class Recording:
 		return self.id
 	
 	def __str__(self):
-		return f"Recording: {self.id} - {self.activity_id} - {self.is_error} - {self.environment}"
+		return f"Recording: ID: {self.id} - ACTIVITY: {self.activity_id} - IS_ERROR: {self.is_error} " \
+		       f"- ENVIRONMENT: {self.environment} - RECORDED_BY: {self.recorded_by} - SELECTED_BY: {self.selected_by}"
 	
 	def update_parameters(self):
 		if self.errors is not None and len(self.errors) > 0:
@@ -111,3 +112,4 @@ class Recording:
 			
 		recording.recording_info = RecordingInfo.from_dict(recording_dict[const.RECORDING_INFO])
 		return recording
+	

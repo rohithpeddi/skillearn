@@ -9,9 +9,10 @@ import cv2
 from ..hololens import hl2ss
 from ..models.recording import Recording
 from ..utils.constants import Post_Processing_Constants as ppc_const
-from ..utils.logger_config import logger
 from ..post_processing.compress_data_service import CompressDataService
+from ..utils.logger_config import get_logger
 
+logger = get_logger(__name__)
 UNIX_EPOCH = 11644473600
 
 

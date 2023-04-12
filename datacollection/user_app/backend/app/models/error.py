@@ -1,3 +1,4 @@
+import json
 from typing import Optional
 
 from ..utils.constants import Recording_Constants as const
@@ -29,3 +30,6 @@ class Error:
 			error.description = error_dict[const.DESCRIPTION]
 		
 		return error
+	
+	def __str__(self):
+		return json.dumps(self.to_dict())

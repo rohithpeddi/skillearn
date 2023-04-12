@@ -88,3 +88,6 @@ class Activity:
 			steps=step_list,
 			required_items=activity_yaml_dict[const.REQUIRED_ITEMS]
 		)
+	
+	def __str__(self):
+		return self.to_dict().__str__()

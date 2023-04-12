@@ -10,8 +10,10 @@ import yaml
 from ..models.error import Error
 from ..models.error_tag import ErrorTag
 from ..models.step import Step
-from .logger_config import logger
 from .constants import LightTag_Constants as const
+from .logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 def create_directories(dir_path):

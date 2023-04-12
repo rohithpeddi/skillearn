@@ -26,3 +26,4 @@ pyaudio==0.2.13
 pysftp==0.2.9
 tqdm
 mediapipe
+gunicorn

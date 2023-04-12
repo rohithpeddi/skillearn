@@ -1,8 +1,12 @@
 import random
+import json
+
 from typing import List
 from ..utils.constants import User_Constants as const
-from ..utils.logger_config import logger
 from ..models.schedule import Schedule
+from ..utils.logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 class User:
@@ -109,3 +113,6 @@ class User:
 					schedule = Schedule.from_dict(schedule_dict)
 					user.recording_schedules[schedule_dict[const.ENVIRONMENT]] = schedule
 		return user
+	
+	def __str__(self):
+		return json.dumps(self.to_dict())

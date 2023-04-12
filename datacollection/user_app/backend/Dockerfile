@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r user-requirements.txt
 
 COPY . .
 
-CMD ["python", "flaskserver.py"]
+CMD ["gunicorn", "flaskserver:app", "-b", "0.0.0.0:8080", "--workers", "15"]

@@ -6,8 +6,7 @@ from fractions import Fraction
 import av
 import cv2
 
-from datacollection.backend.Recording import Recording
-from datacollection.backend.constants import *
+from datacollection.user_app.backend.app.hololens import hl2ss
 
 logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Started Audio Video Muxing Service')

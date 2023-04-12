@@ -1,2 +1,5 @@
-const API_BASE_URL = 'http://localhost/api';
+// const API_BASE_URL = 'http://192.168.0.219/api';
+// export default API_BASE_URL;
+
+const API_BASE_URL = 'http://cs92606.utdallas.edu/api';
 export default API_BASE_URL;

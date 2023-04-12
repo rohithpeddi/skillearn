@@ -1,8 +1,7 @@
 import os
 import numpy as np
-import _init_paths
-from datacollection.backend.post_processing.SequenceLoader import SequenceLoader
 
+from datacollection.user_app.backend.app.post_processing.sequence_loader import SequenceLoader
 
 if __name__ == "__main__":
     curr_dir = os.path.dirname(os.path.abspath(__file__))

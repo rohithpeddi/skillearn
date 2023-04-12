@@ -5,9 +5,10 @@ from boxsdk import Client, CCGAuth
 from ..models.activity import Activity
 from ..services.firebase_service import FirebaseService
 from ..models.recording import Recording
-from ..utils.logger_config import logger
 from ..utils.constants import Box_Constants as const
+from ..utils.logger_config import get_logger
 
+logger = get_logger(__name__)
 
 # Folder structure in BOX
 # - Activity

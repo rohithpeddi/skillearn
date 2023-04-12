@@ -1,6 +1,6 @@
 import os
 
-from datacollection.user_app.backend.post_processing.sequence_viewer import SequenceViewer
+from datacollection.user_app.backend.app.post_processing.sequence_viewer import SequenceViewer
 
 if __name__ == "__main__":
     curr_dir = os.path.dirname(__file__)

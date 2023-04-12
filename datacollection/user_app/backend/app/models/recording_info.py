@@ -41,3 +41,6 @@ class RecordingInfo:
 			recording_info.end_time = json.loads(recording_info_dict[const.END_TIME])
 		
 		return recording_info
+	
+	def __str__(self):
+		return json.dumps(self.to_dict())

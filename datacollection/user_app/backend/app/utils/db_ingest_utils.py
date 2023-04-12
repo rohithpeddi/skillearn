@@ -8,7 +8,9 @@ from ..models.recording_ingestion_helper import RecordingIngestionHelper
 from ..models.user import User
 from .constants import DatabaseIngestion_Constants as const
 
-from .logger_config import logger
+from .logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 class FirebaseIngestion:
@@ -48,7 +50,7 @@ class ActivitiesIngestion(FirebaseIngestion):
 	def ingest(self):
 		if self.remove_past_data:
 			self.db_service.remove_all_activities()
-			
+		
 		activities_yaml_file_path = os.path.join(self.data_directory, const.ACTIVITIES_YAML_FILE_NAME)
 		with open(activities_yaml_file_path, 'r') as activities_yaml_file:
 			activities_data = yaml.safe_load(activities_yaml_file)

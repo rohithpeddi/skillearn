@@ -15,8 +15,10 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
+    volumes:
+      - ./backend_logs:/app/logs
     ports:
-      - "5000:5000"
+      - "8080:8080"
     restart: unless-stopped
 
   nginx:

@@ -208,6 +208,10 @@ class Firebase_Constants:
     
     RECORDED_BY = "recorded_by"
     ACTIVITY_ID = "activity_id"
+    
+    DEPLOYMENT = "production"
+    DEVELOPMENT = "development"
+    PRODUCTION = "production"
 
 
 # # ---------------------------------------------------------------------------------------

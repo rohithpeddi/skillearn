@@ -1,3 +1,4 @@
+import json
 from typing import List, Optional
 from ..utils.constants import User_Constants as const
 
@@ -49,3 +50,6 @@ class Schedule:
 			schedule.is_done_recording = schedule_dict[const.IS_DONE_RECORDING]
 		
 		return schedule
+	
+	def __str__(self):
+		return json.dumps(self.to_dict())

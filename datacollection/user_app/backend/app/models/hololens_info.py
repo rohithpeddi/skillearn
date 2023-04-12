@@ -1,3 +1,5 @@
+import json
+
 from ..utils.constants import Recording_Constants as const
 
 
@@ -72,3 +74,6 @@ class HololensInfo:
 		# 	hololens_info.device_ip = const.DEFAULT_HOLOLENS_IP
 		
 		return hololens_info
+	
+	def __str__(self):
+		return json.dumps(self.to_dict())

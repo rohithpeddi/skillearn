@@ -72,7 +72,7 @@ const Recording = (props) => {
 					}
 				});
 				
-				const requiredErrorTypes = ["Preparation Error","Measurement Error","Timing Error","Technique Error","Temperature Error","Missing Step","Order Error"];
+				const requiredErrorTypes = ["Preparation Error","Measurement Error","Timing Error","Technique Error","Temperature Error"];
 				
 				const hasAtLeastOneErrorOfEachType = requiredErrorTypes.every(
 					(type) => errorDict[type] && errorDict[type] > 0
@@ -83,8 +83,8 @@ const Recording = (props) => {
 					return false;
 				}
 				
-				if (totalErrors < recording.steps.length){
-					alert("Please add " + (recording.steps.length - totalErrors) + " more errors to proceed to recording" );
+				if (totalErrors < Math.floor(0.6 * recording.steps.length)){
+					alert("Please add " + (Math.floor(0.6 * recording.steps.length) - totalErrors) + " more errors to proceed to recording" );
 					return false;
 				}
 				
@@ -105,6 +105,9 @@ const Recording = (props) => {
 		if (validateStep(activeStep)) {
 			// Perform API call
 			// Replace the API call URL and request data with your specific API requirements
+			// let updatedRecording = recording;
+			// updatedRecording.recorded_by = userData.id;
+			// setRecording(updatedRecording);
 			let url = `${API_BASE_URL}/recordings/${recording.id}/user/${userData.id}`;
 			axios.post(url, recording)
 				.then(response => {
