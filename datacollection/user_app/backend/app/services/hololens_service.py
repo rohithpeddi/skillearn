@@ -72,21 +72,36 @@ class Producer(StreamProcessor):
 	def _fetch_stream_client(self, stream_port):
 		stream_client = None
 		if stream_port == hl2ss.StreamPort.PHOTO_VIDEO:
-			stream_client = hl2ss.rx_pv(self.device_ip, stream_port, hl2ss.ChunkSize.PHOTO_VIDEO,
-			                            hl2ss.StreamMode.MODE_1,
-			                            const.PV_FRAME_WIDTH, const.PV_FRAME_HEIGHT, const.PV_FRAMERATE,
-			                            const.PV_VIDEO_PROFILE_RAW,
-			                            const.PV_VIDEO_BITRATE_RAW)
-		
+			stream_client = hl2ss.rx_pv(
+				self.device_ip, stream_port, hl2ss.ChunkSize.PHOTO_VIDEO, hl2ss.StreamMode.MODE_1,
+				const.PV_FRAME_WIDTH, const.PV_FRAME_HEIGHT,
+				const.PV_FRAMERATE, const.PV_VIDEO_PROFILE_RAW, const.PV_VIDEO_BITRATE_RAW
+			)
 		elif stream_port == hl2ss.StreamPort.RM_DEPTH_AHAT:
-			stream_client = hl2ss.rx_rm_depth_ahat(self.device_ip, stream_port, hl2ss.ChunkSize.RM_DEPTH_AHAT,
-			                                       const.AHAT_MODE, const.AHAT_PROFILE_RAW, const.AHAT_BITRATE_RAW)
+			stream_client = hl2ss.rx_rm_depth_ahat(
+				self.device_ip, stream_port, hl2ss.ChunkSize.RM_DEPTH_AHAT, hl2ss.StreamMode.MODE_1,
+				const.AHAT_PROFILE_RAW, const.AHAT_BITRATE_RAW
+			)
 		elif stream_port == hl2ss.StreamPort.MICROPHONE:
-			stream_client = hl2ss.rx_microphone(self.device_ip, stream_port, hl2ss.ChunkSize.MICROPHONE,
-			                                    const.AUDIO_PROFILE_DECODED)
+			stream_client = hl2ss.rx_microphone(
+				self.device_ip, stream_port, hl2ss.ChunkSize.MICROPHONE, const.AUDIO_PROFILE_DECODED
+			)
 		elif stream_port == hl2ss.StreamPort.SPATIAL_INPUT:
-			stream_client = hl2ss.rx_si(self.device_ip, stream_port, hl2ss.ChunkSize.SPATIAL_INPUT)
-		
+			stream_client = hl2ss.rx_si(
+				self.device_ip, stream_port, hl2ss.ChunkSize.SPATIAL_INPUT
+			)
+		elif stream_port == hl2ss.StreamPort.RM_IMU_ACCELEROMETER:
+			stream_client = hl2ss.rx_rm_imu(
+				self.device_ip, stream_port, hl2ss.ChunkSize.RM_IMU_ACCELEROMETER, hl2ss.StreamMode.MODE_1
+			)
+		elif stream_port == hl2ss.StreamPort.RM_IMU_GYROSCOPE:
+			stream_client = hl2ss.rx_rm_imu(
+				self.device_ip, stream_port, hl2ss.ChunkSize.RM_IMU_GYROSCOPE, hl2ss.StreamMode.MODE_1
+			)
+		elif stream_port == hl2ss.StreamPort.RM_IMU_MAGNETOMETER:
+			stream_client = hl2ss.rx_rm_imu(
+				self.device_ip, stream_port, hl2ss.ChunkSize.RM_IMU_MAGNETOMETER, hl2ss.StreamMode.MODE_1
+			)
 		return stream_client
 	
 	def _process_stream(self, stream_port):
@@ -156,6 +171,7 @@ class Consumer(StreamProcessor):
 		# This packet has timestamp, payload and necessary pose information
 		stream_packet = hl2ss.unpack_packet(stream_data)
 		stream_name = self.port_to_stream[stream_port]
+
 		if stream_port == hl2ss.StreamPort.PHOTO_VIDEO:
 			# Here we need to save
 			# 1. Pose information
@@ -165,12 +181,13 @@ class Consumer(StreamProcessor):
 			pv_file_name = f'{self.recording.get_recording_id()}_{stream_name}_{stream_packet.timestamp}.jpg'
 			pv_file_path = os.path.join(kwargs[const.PV_DATA_DIRECTORY], pv_file_name)
 			
-			frame_nv12 = np.frombuffer(stream_packet.payload, dtype=np.uint8,
-			                           count=int((const.PV_STRIDE * const.PV_FRAME_HEIGHT * 3) / 2)).reshape(
-				(int(const.PV_FRAME_HEIGHT * 3 / 2), const.PV_STRIDE))
+			frame_nv12 = np.frombuffer(
+				stream_packet.payload, dtype=np.uint8,
+				count=int((const.PV_STRIDE * const.PV_FRAME_HEIGHT * 3) / 2)
+			).reshape((int(const.PV_FRAME_HEIGHT * 3 / 2), const.PV_STRIDE))
 			frame_bgr = cv2.cvtColor(frame_nv12[:, :const.PV_FRAME_WIDTH], cv2.COLOR_YUV2BGR_NV12)
-			
 			cv2.imwrite(pv_file_path, frame_bgr)
+
 		elif stream_port == hl2ss.StreamPort.RM_DEPTH_AHAT:
 			# Here we need to save
 			# 1. Pose information
@@ -181,26 +198,42 @@ class Consumer(StreamProcessor):
 			ab_file_name = f'{self.recording.get_recording_id()}_{stream_name}_ab_{stream_packet.timestamp}.png'
 			ab_file_path = os.path.join(kwargs[const.DEPTH_AHAT_AB_DATA_DIRECTORY], ab_file_name)
 			
-			ab_data = np.frombuffer(stream_packet.payload, dtype=np.uint16,
-			                        offset=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS * hl2ss._SIZEOF.WORD,
-			                        count=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS).reshape(
-				hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE)
-			
+			ab_data = np.frombuffer(
+				stream_packet.payload, dtype=np.uint16,
+				offset=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS * hl2ss._SIZEOF.WORD,
+				count=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS
+			).reshape(hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE)
 			cv2.imwrite(ab_file_path, ab_data)
 			
 			# 3. AHAT depth information
 			depth_file_name = f'{self.recording.get_recording_id()}_{stream_name}_depth_{stream_packet.timestamp}.png'
 			depth_file_path = os.path.join(kwargs[const.DEPTH_AHAT_DEPTH_DATA_DIRECTORY], depth_file_name)
 			
-			depth_data = np.frombuffer(stream_packet.payload, dtype=np.uint16,
-			                           count=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS).reshape(
-				hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE)
-			
+			depth_data = np.frombuffer(
+				stream_packet.payload, dtype=np.uint16, count=hl2ss.Parameters_RM_DEPTH_AHAT.PIXELS
+			).reshape(hl2ss.Parameters_RM_DEPTH_AHAT.SHAPE)
 			cv2.imwrite(depth_file_path, depth_data)
+
 		elif stream_port == hl2ss.StreamPort.MICROPHONE:
-			kwargs[const.MICROPHONE_DATA_WRITER].write((stream_packet.timestamp, stream_packet.payload))
+			kwargs[const.MICROPHONE_DATA_WRITER].write(
+				(stream_packet.timestamp, stream_packet.payload)
+			)
+
 		elif stream_port == hl2ss.StreamPort.SPATIAL_INPUT:
 			kwargs[const.SPATIAL_DATA_WRITER].write((stream_packet.timestamp, stream_packet.payload))
+
+		elif stream_port == hl2ss.StreamPort.RM_IMU_ACCELEROMETER:
+			kwargs[const.IMU_ACCELEROMETER_DATA_WRITER].write(
+				(stream_packet.timestamp, (stream_packet.payload, stream_packet.pose))
+			)
+		elif stream_port == hl2ss.StreamPort.RM_IMU_GYROSCOPE:
+			kwargs[const.IMU_GYROSCOPE_DATA_WRITER].write(
+				(stream_packet.timestamp, (stream_packet.payload, stream_packet.pose))
+			)
+		elif stream_port == hl2ss.StreamPort.RM_IMU_MAGNETOMETER:
+			kwargs[const.IMU_MAGNETOMETER_DATA_WRITER].write(
+				(stream_packet.timestamp, (stream_packet.payload, stream_packet.pose))
+			)
 	
 	def _fetch_stream_kwargs(self, stream_port):
 		stream_directory = self.port_to_dir[stream_port]
@@ -210,8 +243,9 @@ class Consumer(StreamProcessor):
 			# Here we need to save
 			# 1. Pose information
 			# 2. PV payload information
-			stream_file_path = os.path.join(stream_directory,
-			                                f'{self.recording.get_recording_id()}_{stream_name}_pose.pkl')
+			stream_file_path = os.path.join(
+				stream_directory, f'{self.recording.get_recording_id()}_{stream_name}_pose.pkl'
+			)
 			kwargs[const.PV_POSE_WRITER] = FileWriter(stream_file_path, file_extension=".pkl")
 			kwargs[const.PV_DATA_DIRECTORY] = os.path.join(stream_directory, const.FRAMES)
 		elif stream_port == hl2ss.StreamPort.RM_DEPTH_AHAT:
@@ -219,8 +253,9 @@ class Consumer(StreamProcessor):
 			# 1. Pose information
 			# 2. AHAT AB information
 			# 3. AHAT depth information
-			stream_file_path = os.path.join(stream_directory,
-			                                f'{self.recording.get_recording_id()}_{stream_name}_pose.pkl')
+			stream_file_path = os.path.join(
+				stream_directory, f'{self.recording.get_recording_id()}_{stream_name}_pose.pkl'
+			)
 			kwargs[const.DEPTH_AHAT_POSE_WRITER] = FileWriter(stream_file_path, file_extension=".pkl")
 			kwargs[const.DEPTH_AHAT_AB_DATA_DIRECTORY] = os.path.join(stream_directory, const.AB)
 			kwargs[const.DEPTH_AHAT_DEPTH_DATA_DIRECTORY] = os.path.join(stream_directory, const.DEPTH)
@@ -235,6 +270,23 @@ class Consumer(StreamProcessor):
 			# 1. Dump of the spatial data into a pickle file
 			stream_file_path = os.path.join(stream_directory, f'{self.recording.get_recording_id()}_{stream_name}.pkl')
 			kwargs[const.SPATIAL_DATA_WRITER] = FileWriter(stream_file_path, file_extension=".pkl")
+
+		# IMU Data Writers
+		elif stream_port == hl2ss.StreamPort.RM_IMU_ACCELEROMETER:
+			# Here we need to save
+			# 1. Dump of the IMU accelerometer data into a pickle file
+			stream_file_path = os.path.join(stream_directory, f'{self.recording.get_recording_id()}_{stream_name}.pkl')
+			kwargs[const.IMU_ACCELEROMETER_DATA_WRITER] = FileWriter(stream_file_path, file_extension=".pkl")
+		elif stream_port == hl2ss.StreamPort.RM_IMU_GYROSCOPE:
+			# Here we need to save
+			# 1. Dump of the IMU gyroscope data into a pickle file
+			stream_file_path = os.path.join(stream_directory, f'{self.recording.get_recording_id()}_{stream_name}.pkl')
+			kwargs[const.IMU_GYROSCOPE_DATA_WRITER] = FileWriter(stream_file_path, file_extension=".pkl")
+		elif stream_port == hl2ss.StreamPort.RM_IMU_MAGNETOMETER:
+			# Here we need to save
+			# 1. Dump of the IMU magnetometer data into a pickle file
+			stream_file_path = os.path.join(stream_directory, f'{self.recording.get_recording_id()}_{stream_name}.pkl')
+			kwargs[const.IMU_MAGNETOMETER_DATA_WRITER] = FileWriter(stream_file_path, file_extension=".pkl")
 		
 		return kwargs
 	
@@ -256,8 +308,10 @@ class Consumer(StreamProcessor):
 				# Finished processing of the streams
 				if not self.enable_streams:
 					done_processing = True
-					logger.log(logging.INFO,
-					           f"Finished {stream_name} Consumer processing for recording {self.recording.__str__()}")
+					logger.log(
+						logging.INFO,
+						f"Finished {stream_name} Consumer processing for recording {self.recording.__str__()}"
+					)
 				break
 			else:
 				# Convert the bytes received from stream data into byte array
@@ -266,8 +320,11 @@ class Consumer(StreamProcessor):
 		if not done_processing:
 			# Might be a temporary hold on the data, can come back in sometime
 			# So make the process recursive
-			logger.log(logging.INFO,
-			           f"Reached Timeout {self.port_to_stream[stream_port]} Consumer but stream data is not yet done, so initialized processing again")
+			logger.log(
+				logging.INFO,
+				f"Reached Timeout {self.port_to_stream[stream_port]} "
+				f"Consumer but stream data is not yet done, so initialized processing again"
+			)
 			self._process_stream(stream_port)
 		else:
 			if stream_port == hl2ss.StreamPort.MICROPHONE:
@@ -278,6 +335,12 @@ class Consumer(StreamProcessor):
 				kwargs[const.DEPTH_AHAT_POSE_WRITER].close()
 			elif stream_port == hl2ss.StreamPort.PHOTO_VIDEO:
 				kwargs[const.PV_POSE_WRITER].close()
+			elif stream_port == hl2ss.StreamPort.RM_IMU_ACCELEROMETER:
+				kwargs[const.IMU_ACCELEROMETER_DATA_WRITER].close()
+			elif stream_port == hl2ss.StreamPort.RM_IMU_GYROSCOPE:
+				kwargs[const.IMU_GYROSCOPE_DATA_WRITER].close()
+			elif stream_port == hl2ss.StreamPort.RM_IMU_MAGNETOMETER:
+				kwargs[const.IMU_MAGNETOMETER_DATA_WRITER].close()
 			return
 
 
@@ -320,9 +383,9 @@ class HololensService:
 			hl2ss.StreamPort.MICROPHONE: os.path.join(self.rec_data_dir, const.MICROPHONE),
 			hl2ss.StreamPort.RM_DEPTH_AHAT: os.path.join(self.rec_data_dir, const.DEPTH_AHAT),
 			hl2ss.StreamPort.SPATIAL_INPUT: os.path.join(self.rec_data_dir, const.SPATIAL),
-			hl2ss.StreamPort.RM_IMU_ACCELEROMETER: os.path.join(self.rec_data_dir, const.IMU_ACCELEROMETER),
-			hl2ss.StreamPort.RM_IMU_GYROSCOPE: os.path.join(self.rec_data_dir, const.IMU_GYROSCOPE),
-			hl2ss.StreamPort.RM_IMU_MAGNETOMETER: os.path.join(self.rec_data_dir, const.IMU_MAGNETOMETER),
+			hl2ss.StreamPort.RM_IMU_ACCELEROMETER: os.path.join(self.rec_data_dir, const.IMU),
+			hl2ss.StreamPort.RM_IMU_GYROSCOPE: os.path.join(self.rec_data_dir, const.IMU),
+			hl2ss.StreamPort.RM_IMU_MAGNETOMETER: os.path.join(self.rec_data_dir, const.IMU),
 			hl2ss.StreamPort.RM_VLC_LEFTFRONT: os.path.join(self.rec_data_dir, const.VLC_LEFTFRONT),
 			hl2ss.StreamPort.RM_VLC_LEFTLEFT: os.path.join(self.rec_data_dir, const.VLC_LEFTLEFT),
 			hl2ss.StreamPort.RM_VLC_RIGHTFRONT: os.path.join(self.rec_data_dir, const.VLC_RIGHTFRONT),
@@ -373,7 +436,7 @@ class HololensService:
 		self.producer.start_processing_streams()
 		
 		self.consumer = Consumer(self.redis_pool, self.recording, self.port_to_stream, self.active_streams,
-		                         self.port_to_dir)
+								 self.port_to_dir)
 		self.consumer.start_processing_streams()
 		
 		while self.rm_enable:
@@ -409,11 +472,11 @@ class HololensService:
 		if hololens_info.depth_ahat:
 			active_streams.append(hl2ss.StreamPort.RM_DEPTH_AHAT)
 		
-		if hololens_info.imu_gyroscope:
-			active_streams.append(hl2ss.StreamPort.RM_IMU_GYROSCOPE)
-		
 		if hololens_info.imu_accelerometer:
 			active_streams.append(hl2ss.StreamPort.RM_IMU_ACCELEROMETER)
+
+		if hololens_info.imu_gyroscope:
+			active_streams.append(hl2ss.StreamPort.RM_IMU_GYROSCOPE)
 		
 		if hololens_info.imu_magnetometer:
 			active_streams.append(hl2ss.StreamPort.RM_IMU_MAGNETOMETER)

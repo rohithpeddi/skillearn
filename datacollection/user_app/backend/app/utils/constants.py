@@ -83,6 +83,8 @@ class Recording_Constants:
     HOLOLENS_INFO = "hololens_info"
     GOPRO = "gopro"
 
+    RECORDING_DATA_DIRECTORY = "/home/ptg/CODE/data"
+
 
 # # ---------------------------------------------------------------------------------------
 # # ------------------------ ASYNC SERVICE PROPERTIES -----------------------------------
@@ -100,6 +102,7 @@ class Post_Processing_Constants:
     SPATIAL = "spatial"
     DEPTH_AHAT = "depth_ahat"
     DEPTH_LT = "depth_lt"
+    IMU = "imu"
     IMU_ACCELEROMETER = "imu_accelerometer"
     IMU_GYROSCOPE = "imu_gyroscope"
     IMU_MAGNETOMETER = "imu_magnetometer"
@@ -111,6 +114,7 @@ class Post_Processing_Constants:
     AB = "ab"
     DEPTH = "depth"
     VLC_LIST = [VLC_LEFTLEFT, VLC_LEFTFRONT, VLC_RIGHTFRONT, VLC_RIGHTRIGHT]
+    IMU_LIST = [IMU_MAGNETOMETER, IMU_GYROSCOPE, IMU_MAGNETOMETER]
     RAW = "raw"
     SYNC = "sync"
     GOPRO = "gopro"
@@ -147,6 +151,7 @@ class Hololens_Constants:
     SPATIAL = "spatial"
     DEPTH_AHAT = "depth_ahat"
     DEPTH_LT = "depth_lt"
+    IMU = "imu"
     IMU_ACCELEROMETER = "imu_accelerometer"
     IMU_GYROSCOPE = "imu_gyroscope"
     IMU_MAGNETOMETER = "imu_magnetometer"
@@ -158,14 +163,13 @@ class Hololens_Constants:
     AB = "ab"
     DEPTH = "depth"
     FRAMES = "frames"
-    
+
     PV_FRAME_WIDTH = 640
     PV_FRAME_HEIGHT = 360
     PV_FRAMERATE = 30
     PV_VIDEO_PROFILE_RAW = hl2ss.VideoProfile.RAW
     PV_VIDEO_BITRATE_RAW = 250 * 1024 * 1024
-    
-    AHAT_MODE = hl2ss.StreamMode.MODE_1
+
     AHAT_PROFILE_RAW = hl2ss.VideoProfile.RAW
     AHAT_BITRATE_RAW = 1
     
@@ -181,7 +185,11 @@ class Hololens_Constants:
     DEPTH_AHAT_DEPTH_DATA_DIRECTORY = "depth_ahat_depth_data"
     
     SPATIAL_DATA_WRITER = "spatial_data_writer"
-    
+
+    IMU_ACCELEROMETER_DATA_WRITER = "imu_accelerometer_data_writer"
+    IMU_GYROSCOPE_DATA_WRITER = "imu_gyroscope_data_writer"
+    IMU_MAGNETOMETER_DATA_WRITER = "imu_magnetometer_data_writer"
+
     MICROPHONE_DATA_WRITER = "mc_data_writer"
     DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
     PV_POSE_WRITER = "pv_pose_writer"

@@ -254,6 +254,15 @@ class SynchronizationService:
                 elif stream_name in ppc_const.VLC_LIST:
                     # TODO: Add VLC frame synchronization code
                     logger.log(logging.ERROR, f"Need to implement the VLC Frames Sync Code")
+                elif stream_name == ppc_const.IMU_LIST:
+                    # 1. Synchronize IMU data
+                    imu_directory = os.path.join(self.data_directory, ppc_const.IMU)
+                    synchronized_imu_directory = os.path.join(self.synchronized_directory, ppc_const.IMU)
+                    create_directories(synchronized_imu_directory)
+                    imu_data_file = f'{self.recording.id}_{stream_name}.pkl'
+                    imu_file_path = os.path.join(imu_directory, imu_data_file)
+                    sync_imu_file_path = os.path.join(synchronized_imu_directory, imu_data_file)
+                    self.create_synchronized_stream_pkl_data(imu_file_path, sync_imu_file_path)
                 else:
                     logger.log(logging.ERROR, f"Cannot synchronize {stream_name} data with PV as base stream")
                     continue
@@ -328,7 +337,10 @@ def synchronize_data_dir(data_root_dir, rec_instance, base_stream, sync_streams,
 
 def test_sync_pv_base():
     base_stream = ppc_const.PHOTOVIDEO
-    sync_streams = [ppc_const.DEPTH_AHAT, ppc_const.SPATIAL]
+    sync_streams = [
+        ppc_const.DEPTH_AHAT, ppc_const.SPATIAL,
+        ppc_const.IMU_ACCELEROMETER, ppc_const.IMU_GYROSCOPE, ppc_const.IMU_MAGNETOMETER,
+    ]
     # sync_streams = [ppc_const.SPATIAL]
     data_root_dir = "/home/ptg/CODE/data/"
     rec_ids = [

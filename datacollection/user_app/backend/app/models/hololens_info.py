@@ -10,16 +10,16 @@ class HololensInfo:
 		self.mc = True
 		self.depth_ahat = True
 		self.spatial = True
+
+		self.imu_accelerometer = True
+		self.imu_gyroscope = True
+		self.imu_magnetometer = True
 		
 		self.depth_lt = False
 		self.vlc_leftleft = False
 		self.vlc_leftfront = False
 		self.vlc_rightright = False
 		self.vlc_rightfront = False
-		
-		self.imu_accelerometer = False
-		self.imu_gyroscope = False
-		self.imu_magnetometer = False
 		
 		self.device_ip = const.DEFAULT_HOLOLENS_IP
 		

@@ -5,6 +5,7 @@ from ..post_processing.post_processing_service import PostProcessingService
 from ..services.hololens_service import HololensService
 from ..services.open_gopro_service import OpenGoProService
 from ..utils.logger_config import get_logger
+from ..utils.constants import Recording_Constants as const
 
 logger = get_logger(__name__)
 
@@ -26,7 +27,7 @@ class RecordingService:
             self.hololens_service = HololensService()
 
         self.file_dir = os.path.dirname(os.path.realpath(__file__))
-        self.data_dir = os.path.join(os.getcwd(), "../data")
+        self.data_dir = const.RECORDING_DATA_DIRECTORY
         self.go_pro_dir = os.path.join(self.data_dir, "gopro")
         self.hololens_dir = os.path.join(self.data_dir, "hololens")
 
