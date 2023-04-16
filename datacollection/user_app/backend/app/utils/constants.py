@@ -72,6 +72,7 @@ class Recording_Constants:
     SPATIAL = "spatial"
     DEPTH_AHAT = "depth_ahat"
     DEPTH_LT = "depth_lt"
+    IMU = "imu"
     IMU_ACCELEROMETER = "imu_accelerometer"
     IMU_GYROSCOPE = "imu_gyroscope"
     IMU_MAGNETOMETER = "imu_magnetometer"

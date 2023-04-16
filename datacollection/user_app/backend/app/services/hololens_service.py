@@ -471,14 +471,10 @@ class HololensService:
 		
 		if hololens_info.depth_ahat:
 			active_streams.append(hl2ss.StreamPort.RM_DEPTH_AHAT)
-		
-		if hololens_info.imu_accelerometer:
-			active_streams.append(hl2ss.StreamPort.RM_IMU_ACCELEROMETER)
 
-		if hololens_info.imu_gyroscope:
+		if hololens_info.imu:
+			active_streams.append(hl2ss.StreamPort.RM_IMU_ACCELEROMETER)
 			active_streams.append(hl2ss.StreamPort.RM_IMU_GYROSCOPE)
-		
-		if hololens_info.imu_magnetometer:
 			active_streams.append(hl2ss.StreamPort.RM_IMU_MAGNETOMETER)
 		
 		if hololens_info.mc:

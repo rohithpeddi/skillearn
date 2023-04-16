@@ -11,6 +11,7 @@ class HololensInfo:
 		self.depth_ahat = True
 		self.spatial = True
 
+		self.imu = True
 		self.imu_accelerometer = True
 		self.imu_gyroscope = True
 		self.imu_magnetometer = True
@@ -27,7 +28,7 @@ class HololensInfo:
 		return not self.pv and not self.mc and not self.depth_ahat and not self.spatial and not self.depth_lt \
 		       and not self.vlc_leftleft and not self.vlc_leftfront and not self.vlc_rightright \
 		       and not self.vlc_rightfront and not self.imu_accelerometer and not self.imu_gyroscope \
-		       and not self.imu_magnetometer
+		       and not self.imu_magnetometer and not self.imu
 	
 	def is_enabled(self):
 		return not self.is_disabled()
@@ -44,6 +45,7 @@ class HololensInfo:
 			const.VLC_RIGHTRIGHT: self.vlc_rightright,
 			const.VLC_RIGHTFRONT: self.vlc_rightfront,
 			const.DEVICE_IP: self.device_ip,
+			const.IMU: self.imu,
 			const.IMU_ACCELEROMETER: self.imu_accelerometer,
 			const.IMU_GYROSCOPE: self.imu_gyroscope,
 			const.IMU_MAGNETOMETER: self.imu_magnetometer
@@ -63,9 +65,12 @@ class HololensInfo:
 		hololens_info.vlc_rightright = hololens_info_dict[const.VLC_RIGHTRIGHT]
 		hololens_info.vlc_rightfront = hololens_info_dict[const.VLC_RIGHTFRONT]
 
-		hololens_info.imu_accelerometer = hololens_info_dict[const.IMU_ACCELEROMETER]
-		hololens_info.imu_gyroscope = hololens_info_dict[const.IMU_GYROSCOPE]
-		hololens_info.imu_magnetometer = hololens_info_dict[const.IMU_MAGNETOMETER]
+		# ToDo: Separate IMU is not yet implemented in frontend and need to change after the update
+		if const.IMU in hololens_info_dict:
+			hololens_info.imu = hololens_info_dict[const.IMU]
+			hololens_info.imu_accelerometer = hololens_info_dict[const.IMU]
+			hololens_info.imu_gyroscope = hololens_info_dict[const.IMU]
+			hololens_info.imu_magnetometer = hololens_info_dict[const.IMU]
 
 		hololens_info.device_ip = const.DEFAULT_HOLOLENS_IP
 		# if const.DEVICE_IP in hololens_info_dict and hololens_info_dict[const.DEVICE_IP] != "":

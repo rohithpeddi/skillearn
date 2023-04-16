@@ -112,6 +112,9 @@ const RecordingRecordingInfo = (props) => {
 					<button className="recRecordButton" onClick={() => handleHololensToggle("spatial")}>
 						{hololensToggles.spatial ? "Disable Spatial" : "Enable Spatial"}
 					</button>
+					<button className="recRecordButton" onClick={() => handleHololensToggle("imu")}>
+						{hololensToggles.imu ? "Disable IMU" : "Enable IMU"}
+					</button>
 				</div>
 				
 			</div>
