@@ -34,7 +34,7 @@ const RecordingSelectionCard = (props) => {
 				<label htmlFor="select" className="rscLabel">Select {label} Activity:</label>
 				<select id="select" value={selectedActivityId} onChange={handleSelectChange} className="rscSelect">
 					<option value="">--Please select an activity--</option>
-					{activityIds.map((activityId) => (
+					{activityIds?.length > 0 && activityIds.map((activityId) => (
 						<option key={activityId} value={activityId}>
 							{activityIdToActivityName[activityId]}
 						</option>
