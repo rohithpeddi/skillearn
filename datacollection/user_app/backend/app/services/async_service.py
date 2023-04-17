@@ -33,8 +33,10 @@ def update_activity_recording_interrupt_handler(
 	recording_service.stop_recording()
 	logger.info("Stopped all threads related to recording")
 	
-	recording.recording_info.end_time = datetime.datetime.now().isoformat()
-	db_service.update_recording(recording)
+	updated_recording = db_service.fetch_recording(recording.id)
+	
+	updated_recording.recording_info.end_time = datetime.datetime.now().isoformat()
+	db_service.update_recording(updated_recording)
 	logger.info("Updated activity recording end time in Firebase Database")
 	
 	sys.exit(0)
