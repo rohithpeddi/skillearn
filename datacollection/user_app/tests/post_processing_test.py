@@ -2,8 +2,10 @@ import os
 
 from datacollection.user_app.backend.app.models.recording import Recording
 from datacollection.user_app.backend.app.post_processing.directory_post_processing_service import \
-    DirectoryPostProcessingService
-from datacollection.user_app.backend.app.post_processing.recording_post_processing_service import RecordingPostProcessingService
+	DirectoryPostProcessingService
+from datacollection.user_app.backend.app.post_processing.recording_post_processing_service import \
+	RecordingPostProcessingService
+
 
 # if __name__ == '__main__':
 #     rec_id = '18_1'
@@ -14,10 +16,19 @@ from datacollection.user_app.backend.app.post_processing.recording_post_processi
 #
 #     post_processing_service.process_and_push_data_to_nas()
 
-if __name__ == '__main__':
-    data_directory = "../../../../../data"
-    data_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), data_directory)
-    directory_post_processing_service = DirectoryPostProcessingService(data_directory)
-    
-    directory_post_processing_service.push_gopro_to_360p_directory()
+def create_directory_if_not_exists(directory):
+	if not os.path.exists(directory):
+		os.makedirs(directory)
 
+
+if __name__ == '__main__':
+	data_parent_directory = "../../../../../data"
+	data_parent_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), data_parent_directory)
+	
+	gopro_parent_directory = os.path.join(data_parent_directory, 'gopro')
+	gopro_360p_parent_directory = os.path.join(data_parent_directory, 'gopro_360p')
+	create_directory_if_not_exists(gopro_parent_directory)
+	
+	directory_post_processing_service = DirectoryPostProcessingService(data_parent_directory)
+	
+	directory_post_processing_service.push_gopro_to_360p_directory(gopro_parent_directory, gopro_360p_parent_directory)
