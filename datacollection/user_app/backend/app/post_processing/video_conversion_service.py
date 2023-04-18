@@ -38,8 +38,12 @@ class VideoConversionService:
 	def get_ffmpeg_scale(self, conversion_type):
 		return f'{self.RES_MAP[conversion_type]["width"]}:{self.RES_MAP[conversion_type]["height"]}'
 	
-	def convert_video(self, video_file_path, conversion_type=RES_360P):
-		converted_video_file_path = video_file_path.replace('.MP4', f'_{conversion_type}.mp4')
+	def convert_video(self, video_file_path, output_file_path=None, conversion_type=RES_360P):
+		if output_file_path is None:
+			converted_video_file_path = video_file_path.replace('.MP4', f'_{conversion_type}.mp4')
+		else:
+			converted_video_file_path = output_file_path
+		
 		convert_command = self.FFMPEG_COMMAND.format(
 			self.ffmpeg_path,
 			video_file_path,

@@ -1,7 +1,7 @@
 import os
 import threading
 from ..models.recording import Recording
-from ..post_processing.post_processing_service import PostProcessingService
+from ..post_processing.recording_post_processing_service import RecordingPostProcessingService
 from ..services.hololens_service import HololensService
 from ..services.open_gopro_service import OpenGoProService
 from ..utils.logger_config import get_logger
@@ -93,7 +93,7 @@ class RecordingService:
 
     def post_process_recording(self):
         logger.info("Started post processing for recording: " + self.recording.id)
-        post_processing_service = PostProcessingService(self.recording)
+        post_processing_service = RecordingPostProcessingService(self.recording)
 
         # 1. Convert the 4K video to 360P video
         gopro_dir = os.path.join(post_processing_service.data_parent_directory, self.go_pro_dir)

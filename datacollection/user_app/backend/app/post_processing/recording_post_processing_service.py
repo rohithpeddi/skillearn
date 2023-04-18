@@ -16,7 +16,7 @@ from ..utils.logger_config import get_logger
 logger = get_logger(__name__)
 
 
-class PostProcessingService:
+class RecordingPostProcessingService:
 	
 	def __init__(
 			self,
@@ -34,10 +34,10 @@ class PostProcessingService:
 		self.db_service = FirebaseService()
 		self.nas_transfer_service = NASTransferService(self.recording, self.data_parent_directory)
 	
-	def change_video_resolution(self, video_file_path, resolution=None):
+	def change_video_resolution(self, video_file_path, output_file_path, resolution=None):
 		logger.info(f'Started changing video resolution for {self.recording.id}')
 		video_conversion_service = VideoConversionService()
-		converted_file_path = video_conversion_service.convert_video(video_file_path)
+		converted_file_path = video_conversion_service.convert_video(video_file_path, output_file_path)
 		logger.info(f'Finished changing video resolution for {self.recording.id}')
 		return converted_file_path
 	
@@ -83,9 +83,9 @@ class PostProcessingService:
 		sequence_viewer.load(sequence_folder)
 		sequence_viewer.run()
 	
-	def push_go_pro_360_to_box(self, file_path):
-		converted_file_path = self.change_video_resolution(file_path)
-		self.box_service.upload_go_pro_360_video(self.recording, converted_file_path)
+	def push_go_pro_360_to_box(self, input_file_path, output_file_path=None):
+		output_file_path = self.change_video_resolution(input_file_path, output_file_path)
+		self.box_service.upload_go_pro_360_video(self.recording, output_file_path)
 	
 	def push_data_to_NAS(self):
 		self.nas_transfer_service.transfer_from_local_to_nas()
