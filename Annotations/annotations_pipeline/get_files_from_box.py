@@ -20,7 +20,7 @@ class BoxService:
 
     def download_file(self, file, ):
         file_path = os.path.join(self.save_path, f"{file.name}")
-        if file.name not in self.downloaded_files:
+        if file.name not in self.downloaded_files and "360p.mp4" in file.name:
             self.downloaded_files.append(file.name)
             with open(file_path, 'wb') as f:
                 # print(file_path)
