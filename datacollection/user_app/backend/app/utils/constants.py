@@ -119,6 +119,7 @@ class Post_Processing_Constants:
     RAW = "raw"
     SYNC = "sync"
     GOPRO = "gopro"
+    GOPRO_360P = "gopro_360p"
     HOLOLENS = "hololens"
     ZIP = "zip"
     AHAT = "ahat"

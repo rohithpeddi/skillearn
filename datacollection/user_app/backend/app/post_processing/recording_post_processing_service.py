@@ -76,7 +76,23 @@ class RecordingPostProcessingService:
 		sync_cds.delete_pv_dir()
 		sync_cds.delete_depth_dir()
 		logger.info(f'Finished deleting uncompressed data for {self.recording.id}')
-	
+
+	def compress_raw_data(self):
+		# Compress the data
+		logger.info(f'Started compressing data for {self.recording.id}')
+		cds = CompressDataService(data_dir=self.hololens_data_directory)
+		cds.compress_depth()
+		cds.compress_pv()
+		logger.info(f'Finished compressing data for {self.recording.id}')
+
+	def delete_uncompressed_raw_data(self):
+		# Delete the uncompressed data
+		logger.info(f'Started deleting uncompressed data for {self.recording.id}')
+		cds = CompressDataService(data_dir=self.hololens_data_directory)
+		cds.delete_pv_dir()
+		cds.delete_depth_dir()
+		logger.info(f'Finished deleting uncompressed data for {self.recording.id}')
+
 	def verify_3d_information(self):
 		sequence_folder = os.path.join(self.data_parent_directory, self.recording.id, const.SYNC)
 		sequence_viewer = SequenceViewer()
@@ -86,8 +102,20 @@ class RecordingPostProcessingService:
 	def push_go_pro_360_to_box(self, input_file_path, output_file_path=None):
 		output_file_path = self.change_video_resolution(input_file_path, output_file_path)
 		self.box_service.upload_go_pro_360_video(self.recording, output_file_path)
-	
+
+	def push_raw_data_to_NAS(self):
+		try:
+			self.compress_raw_data()
+		except FileNotFoundError:
+			logger.info(f'No raw data found for {self.recording.id}')
+			return
+
+		self.delete_uncompressed_raw_data()
+		self.nas_transfer_service.transfer_from_local_to_nas()
+
 	def push_data_to_NAS(self):
+		self.compress_raw_data()
+		self.delete_uncompressed_raw_data()
 		self.nas_transfer_service.transfer_from_local_to_nas()
 	
 	def process_and_push_data_to_nas(self):

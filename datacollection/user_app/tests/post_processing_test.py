@@ -22,13 +22,15 @@ def create_directory_if_not_exists(directory):
 
 
 if __name__ == '__main__':
-	data_parent_directory = "../../../../../data"
+	data_parent_directory = "../../../../data"
 	data_parent_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), data_parent_directory)
 	
 	gopro_parent_directory = os.path.join(data_parent_directory, 'gopro')
 	gopro_360p_parent_directory = os.path.join(data_parent_directory, 'gopro_360p')
-	create_directory_if_not_exists(gopro_parent_directory)
+	create_directory_if_not_exists(gopro_360p_parent_directory)
+
+	hololens_parent_directory = os.path.join(data_parent_directory, 'hololens')
 	
 	directory_post_processing_service = DirectoryPostProcessingService(data_parent_directory)
-	
+	# directory_post_processing_service.push_data_to_NAS()
 	directory_post_processing_service.push_gopro_to_360p_directory(gopro_parent_directory, gopro_360p_parent_directory)
