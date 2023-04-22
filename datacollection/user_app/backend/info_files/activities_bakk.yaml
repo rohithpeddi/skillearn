@@ -363,6 +363,74 @@
     - I7: "1 coffee dripper"
     - I8: "1 thermometer"
     - I9: "1 weighing scale"
+- id: 6
+  name: "Apple Crisp in a Mug"
+  category: "Veg"
+  activity_type: "Microwave"
+  steps:
+    - S0:
+      description: "Combine 1 tablespoon of softened butter (Make sure it is softened) and 1 tablespoon of white sugar in a bowl using a spoon."
+    - S1:
+      description: "Add 2 tablespoons of flour to the bowl."
+    - S2:
+      description: "Add 2 tablespoons oats to the bowl."
+    - S3:
+      description: "Add 1/2 teaspoon salt to the bowl."
+    - S4:
+      description: "Add 4 dashes (4 sprinkles or 4/5 tsp) of ground cinnamon to the bowl."
+    - S5:
+      description: "Mix the crumble mixture well."
+    - S6:
+      description: "Spray oil on a microwave-safe cup."
+    - S7:
+      description: "Flatten 1/2 the crumble mixture into the bottom to form a crust."
+    - S8:
+      description: "Microwave crust for 30 seconds on high."
+    - S9:
+      description: "Cut 1/2 apple cored (apple after removing outer skin and seeds) into thin slices and add them on top of the crust."
+    - S10:
+      description: "dd 1 tablespoon of brown sugar on the top of apple slices."
+    - S11:
+      description: "Pour the remaining 1/2 the crumble mixture on top of apple slices."
+    - S12:
+      description: "Microwave for 1 minute and 30 seconds."
+  error_hints:
+    - E0:
+      tag: Preparation Error
+      description: "Not softening the butter or not measuring the ingredients correctly."
+    - E1:
+      tag: Measurement Error
+      description: "Not measuring the ingredients correctly or using the wrong amount."
+    - E2:
+      tag: Technique Error
+      description: "Not mixing the crumble mixture properly or using the wrong utensil."
+    - E3:
+      tag: Technique Error
+      description: "Not spraying the oil evenly or using the wrong type of oil."
+    - E4:
+      tag: Technique Error
+      description: "Not flattening the crumble mixture evenly or not microwaving it for the correct amount of time."
+    - E5:
+      tag: Preparation Error
+      description: "Not coring the apple correctly or not slicing it into thin slices."
+    - E6:
+      tag: Measurement Error
+      description: "Not measuring the brown sugar correctly or using the wrong amount."
+    - E7:
+      tag: Order Error
+      description: "Not adding the crumble mixture at the correct time or in the correct order."
+    - E8:
+      tag: Timing Error
+      description: "Overcooking or undercooking the crumble or not microwaving it for the correct amount of time."
+  required_items:
+    - I0: "1 tbsp softened butter"
+    - I1: "1 tbsp white sugar"
+    - I2: "2 tbsp flour"
+    - I3: "2 tbsp oats"
+    - I4: "1/2 tsp salt"
+    - I5: "4 dashes cinnamon"
+    - I6: "cooking spray"
+    - I7: "1/2 apple"
 - id: 7
   name: "Breakfast Burritos"
   category: "Non-Veg"
@@ -592,6 +660,72 @@
     - I2: "Jam"
     - I3: "5 toothpicks"
     - I4: "Floss"
+- id: 11
+  name: "Garden Fresh Sweet Corn Salsa"
+  category: "Veg"
+  activity_type: "Nothing"
+  steps:
+    - S0:
+      description: "Chop 1/4 cup Cilantro and add it to a bowl."
+    - S1:
+      description: "Slice 1 garlic clove and add it to the bowl."
+    - S2:
+      description: "Slice 1 jalapeno and add it to the bowl."
+    - S3:
+      description: "Extract lime juice from 1/2 lime and add it to the bowl."
+    - S4:
+      description: "Peel one onion and cut it into two pieces."
+    - S5:
+      description: "Slice 1/2 onion into pieces and add it to the bowl."
+    - S6:
+      description: "Rinse the tomatoes."
+    - S7:
+      description: "Take 1/2 tomato and chop it into small pieces and add it to the bowl."
+    - S8:
+      description: "Measure 1/4 teaspoon salt and add it to the bowl."
+    - S9:
+      description: "Cut 3/4 cup of corn from the cob."
+    - S10:
+      description: "Add the corn to the bowl."
+    - S11:
+      description: "Mix all the ingredients in the bowl and serve."
+  error_hints:
+    - E0:
+      tag: Measurement Error
+      description: "Not measuring the cilantro correctly or using the wrong amount."
+    - E1:
+      tag: Preparation Error
+      description: "Not peeling the garlic or adding any garlic skin to the bowl."
+    - E2:
+      tag: Technique Error
+      description: "Not slicing the jalapeno evenly or removing the seeds and membranes if desired."
+    - E3:
+      tag: Measurement Error
+      description: "Not extracting the right amount of lime juice or using a different type of citrus."
+    - E4:
+      tag: Preparation Error
+      description: "Not peeling the onion or cutting it evenly, or not using the correct amount."
+    - E5:
+      tag: Technique Error
+      description: "Not chopping the tomato evenly or using the wrong type of tomato."
+    - E6:
+      tag: Measurement Error
+      description: "Not measuring the salt correctly or using too much or too little."
+    - E7:
+      tag: Technique Error
+      description: "Not cutting the corn evenly or removing any kernels or silk that might be left."
+    - E8:
+      tag: Order Error
+      description: "Not adding the ingredients to the bowl in the right order or not mixing them properly before serving."
+  required_items:
+    - I0: "1/4 cup cilantro"
+    - I1: "1 garlic clove"
+    - I2: "1 jalapeno"
+    - I3: "1/2 lime"
+    - I4: "1/2 onion"
+    - I5: "1/2 tomato"
+    - I6: "1/4 tsp salt"
+    - I7: "1 corn cob"
 - id: 12
   name: "Tomato Mozzarella Salad"
   category: "Veg"
@@ -708,6 +842,121 @@
     - I2: "1 tsp pepper"
     - I3: "1 tsp salt"
     - I4: "1/3 Lime"
+- id: 14
+  name: "Spicy Masala Bread"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - S0:
+      description: "Chop 1 green chilli."
+    - S1:
+      description: "Chop 1/2 medium onion."
+    - S2:
+      description: "Chop 1 medium tomato."
+    - S3:
+      description: "Chop 3 tbsp cilantro leaves."
+    - S4:
+      description: "Cut 2 slices of bread into bite-size pieces."
+    - S5:
+      description: "Heat a pan with 1 tbsp oil on medium heat"
+    - S6:
+      description: "Add 1/2 tsp cumin and wait till it sizzles."
+    - S7:
+      description: "Add chopped chillies and Onions and Wait until the onion turns golden."
+    - S8:
+      description: "Add 1 teaspoon of ginger garlic paste."
+    - S9:
+      description: "Saute until the raw smell goes off."
+    - S10:
+      description: "Add chopped tomatoes."
+    - S11:
+      description: "Add 1 tsp salt, 3/4 tsp chilli powder, and 1/2 tsp garam masala."
+    - S12:
+      description: "Mix all ingredients and cook until the masala leaves the pan."
+    - S13:
+      description: "Pour 3 tbsp of water and cook further until water evaporates."
+    - S14:
+      description: "Transfer the bread slices and turn off the stove."
+    - S15:
+      description: "Gently mix the bread and mixture."
+    - S16:
+      description: "Avoid overmixing as the bread gets mushy."
+    - S17:
+      description: "Sprinkle 3 tbsp chopped cilantro leaves."
+  error_hints:
+    - E0:
+      tag: Preparation Error
+      description: "The person might not remove the seeds from the green chilli, which could make the dish spicier than intended."
+    - E1:
+      tag: Preparation Error
+      description: "The person might chop the onion too finely or too coarsely, which could affect the texture of the dish."
+    - E2:
+      tag: Measurement Error
+      description: "The person might chop more or less than 1/2 medium onion."
+    - E3:
+      tag: Preparation Error
+      description: "The person might chop the tomato too finely or too coarsely, which could affect the texture of the dish."
+    - E4:
+      tag: Measurement Error
+      description: " The person might chop more or less than 1 medium tomato."
+    - E5:
+      tag: Preparation Error
+      description: "The person might not chop the cilantro leaves finely enough, resulting in larger chunks in the dish."
+    - E6:
+      tag: Measurement Error
+      description: "The person might chop more or less than 3 tbsp of cilantro leaves."
+    - E7:
+      tag: Technique Error
+      description: "The person might not cut the bread slices into bite-size pieces, resulting in unevenly sized pieces in the dish."
+    - E8:
+      tag: Temperature Error
+      description: "The person might not heat the pan to the right temperature, resulting in the ingredients not cooking properly."
+    - E9:
+      tag: Timing Error
+      description: "The person might not wait until the oil is hot enough before adding the cumin, resulting in the cumin not sizzling properly."
+    - E10:
+      tag: Preparation Error
+      description: "The person might not use fresh ginger and garlic to make the paste, resulting in a less flavorful dish."
+    - E11:
+      tag: Measurement Error
+      description: "The person might add more or less than 1 teaspoon of ginger garlic paste."
+    - E12:
+      tag: Timing Error
+      description: " The person might not wait until the raw smell of the ginger garlic paste goes off before adding the tomatoes, resulting in an undercooked taste."
+    - E13:
+      tag: Measurement Error
+      description: "The person might add more or less than 1 tsp salt, 3/4 tsp chilli powder, and/or 1/2 tsp garam masala."
+    - E14:
+      tag: Timing Error
+      description: "The person might not cook the masala until it leaves the pan, resulting in an undercooked taste."
+    - E15:
+      tag: Preparation Error
+      description: "The person might not mix the ingredients evenly, resulting in uneven seasoning."
+    - E16:
+      tag: Measurement Error
+      description: "The person might add more or less than 3 tbsp of water."
+    - E17:
+      tag: Technique Error
+      description: "The person might not mix the bread and mixture gently enough, resulting in the bread getting mushy."
+    - E18:
+      tag: Missing Step
+      description: "The person might forget to turn off the stove."
+    - E19:
+      tag: Measurement Error
+      description: " The person might sprinkle more or less than 3 tbsp chopped cilantro leaves."
+  required_items:
+    - I0: "1 green chilli"
+    - I1: "3 tbsp cilantro"
+    - I2: "2 bread slices"
+    - I3: "1 tbsp oil"
+    - I4: "1/2 medium onion"
+    - I5: "1 medium tomato"
+    - I6: "1/2 tsp cumin"
+    - I7: "1 tsp ginger garlic paste"
+    - I8: "1 tsp salt"
+    - I9: "3/4 tsp chilli powder"
+    - I10: "1/2 tsp garam masala powder"
+    - I11: "3 tbsp water"
 - id: 15
   name: "Tomato Chutney"
   category: "Veg"
@@ -1009,6 +1258,67 @@
     - I2: "1 garlic cloves"
     - I3: "1/6 cup grated parmesan cheese"
     - I4: "salt & pepper to taste"
+- id: 19
+  name: "Grilled Cheese Sandwich"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - S0:
+      description: "Place 1 of the bread slices on the work surface."
+    - S1:
+      description: "Top it with 2 slices of American cheese."
+    - S2:
+      description: "Top with the another bread slice to make 1 sandwich."
+    - S3:
+      description: "Spread softened butter on the outside surface of the sandwich"
+    - S4:
+      description: "Heat a nonstick skillet or griddle over medium-low heat."
+    - S5:
+      description: "Place sandwiches on the skillet and cover with a pan lid."
+    - S6:
+      description: "Cook for 2 to 3 minutes or until the bread is golden brown on the first side."
+    - S7:
+      description: "Carefully flip the sandwiches using a large spatula, cover again, and cook for 2 to 3 minutes on the second side until the cheese melts and the bread is nicely browned and crisp."
+    - S8:
+      description: "Serve the sandwiches immediately"
+  error_hints:
+    - E0:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the bread slices, so the cook may use slices that are too large or too small."
+    - E1:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to place the cheese slices, so the cook may place them unevenly."
+    - E2:
+      tag: Technique Error
+      description: "The recipe doesn't specify how thinly to spread the butter on the bread, so the cook may use too much or too little."
+    - E3:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the skillet or griddle, so the cook may use too high or too low heat."
+    - E4:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the first side of the sandwich, so the cook may overcook or undercook it."
+    - E5:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to cover the sandwich with a pan lid, so the cook may use a lid that is too small or too large."
+    - E6:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the skillet or griddle, so the cook may use too high or too low heat."
+    - E7:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the second side of the sandwich, so the cook may overcook or undercook it."
+    - E8:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to flip the sandwich, so the cook may flip it incorrectly."
+    - E9:
+      tag: Missing Step
+      description: "The recipe doesn't mention if the sandwiches should be cut before serving, so the cook may serve them whole."
+    - E10:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the serving temperature, so the cook may serve the sandwiches too hot or too cold."
+  required_items:
+    - I0: "2 bread slices"
+    - I1: "2 American cheese slices"
+    - I2: "3 tbsp softened unsalted butter"
 - id: 20
   name: "Sauted Mushrooms"
   category: "Veg"
@@ -1286,6 +1596,50 @@
     - I8: "5 broccoli florets"
     - I9: "2 cremini mushrooms"
     - I10: "1 bell pepper"
+- id: 24
+  name: "Cheese Tomato Melt"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - S0:
+      description: "Cut 1 medium tomato into 4 slices."
+    - S1:
+      description: "place slices of tomato on a pan over medium heat."
+    - S2:
+      description: "Cook for 1 minute, then top with a 1/2 tbsp shredded low-fat mozzarella cheese on each slice."
+    - S3:
+      description: "Cover the pan and cook for another minute or until the cheese is melted."
+    - S4:
+      description: "Place each slice of tomato on a cracker to serve"
+  error_hints:
+    - E0:
+      tag: Preparation Error
+      description: "The recipe doesn't specify how thick the tomato slices should be, so the cook may cut them too thick or too thin."
+    - E1:
+      tag: Measurement Error
+      description: "The recipe doesn't specify the size of the tomato, so the cook may use a tomato that is too small or too large."
+    - E2:
+      tag: Measurement Error
+      description: "The recipe specifies only a half tablespoon of shredded low-fat mozzarella cheese for each slice of tomato, so the cook may use too much or too little cheese."
+    - E3:
+      tag: Technique Error
+      description: "The recipe doesn't specify how to place the cheese on the tomato slices, so the cheese may not melt evenly."
+    - E4:
+      tag: Timing Error
+      description: "The recipe doesn't specify how long to cook the tomato slices, so the cook may overcook or undercook them."
+    - E5:
+      tag: Missing Step
+      description: "The recipe doesn't specify if the pan should be greased before cooking, so the tomato slices may stick to the pan."
+    - E6:
+      tag: Missing Step
+      description: "The recipe doesn't mention what type of cracker to serve the tomato slices on, so the cook may use the wrong type of cracker."
+    - E7:
+      tag: Temperature Error
+      description: "The recipe doesn't specify the exact temperature for the pan, so the cook may use too high or too low heat."
+  required_items:
+    - I0: "1 tomato"
+    - I1: "2 tbsp shredded mozzarella cheese"
+    - I2: "4 crackers"
 - id: 25
   name: "Pan Fried Tofu"
   category: "Veg"
@@ -1591,3 +1945,68 @@
     - I4: "1/16 cup fresh/dried basil leaves"
     - I5: "1/4 tsp salt"
     - I6: "1/4 tsp pepper"
+- id: 30
+  name: "Creamy Tomato Basil Soup"
+  category: "Veg"
+  activity_type: "Pan"
+  steps:
+    - S0:
+      description: "Chop 1/16 cup basil."
+    - S1:
+      description: "Peel an onion."
+    - S2:
+      description: "Dice 1/4 cup of onion."
+    - S3:
+      description: "Peel one garlic clove and mince it."
+    - S4:
+      description: "In a pot, heat 1 tbsp olive oil over medium heat."
+    - S5:
+      description: "Add the onion and garlic and cook for 2-3 minutes, until softened."
+    - S6:
+      description: "Stir in 1/4 can crushed tomatoes and 1/2 cup vegetable broth."
+    - S7:
+      description: "Bring to a boil, then reduce the heat and simmer for 2 minutes."
+    - S8:
+      description: "Stir in the 1/8 cup heavy cream and 1/16 cup chopped fresh basil."
+    - S9:
+      description: "Season with 1/4 tsp salt and 1/4 tsp pepper."
+    - S10:
+      description: "Transfer to a serving bowl"
+  error_hints:
+    - E0:
+      tag: Technique Error
+      description: "Chopping the basil too finely or too coarsely."
+    - E1:
+      tag: Technique Error
+      description: "Dicing the onion too finely or too coarsely."
+    - E2:
+      tag: Technique Error
+      description: "Mincing the garlic too finely or leaving it too chunky."
+    - E3:
+      tag: Temperature Error
+      description: "Not heating the pot to the correct temperature before adding the olive oil and ingredients."
+    - E4:
+      tag: Measurement Error
+      description: "Not using the correct amount of crushed tomatoes or vegetable broth."
+    - E5:
+      tag: Timing Error
+      description: "Over- or under-cooking the tomato mixture, resulting in it being too thin or too thick."
+    - E6:
+      tag: Measurement Error
+      description: "Using too much or too little heavy cream or fresh basil."
+    - E7:
+      tag: Technique Error
+      description: "Not properly incorporating the cream and basil into the tomato mixture."
+    - E8:
+      tag: Timing Error
+      description: "Not serving the dish immediately, causing it to become cold or lose its texture."
+  required_items:
+    - I0: "1 tbsp olive oil"
+    - I1: "1 onion"
+    - I2: "1 garlic clove"
+    - I3: "1 can (28 oz.) crushed tomatoes"
+    - I4: "1/2 cup vegetable broth"
+    - I5: "1/8 cup heavy cream"
+    - I6: "1/16 cup fresh basil"
+    - I7: "1/4 tsp Salt"
+    - I8: "1/4 tsp pepper"
