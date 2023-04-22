@@ -32,7 +32,7 @@ class BoxService:
         items = self.client.folder(id).get_items()
         # Print the folder name and the names of the items in the folder
         print(f"Folder name: {folders.name}")
-        # Download the contents of each file in the folder parallelly
+        # Download the contents of each file in the folder in parallel
         with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
             futures = []
             for item in items:
