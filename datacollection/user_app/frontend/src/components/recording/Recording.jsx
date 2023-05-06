@@ -54,40 +54,40 @@ const Recording = (props) => {
 				// Validate Step 1 Recording Selection
 				return true;
 			case 1:
-				// Validate Step 2 Recording Preparation
-				if (!recording.is_error) {
-					return true;
-				}
-				
-				const errorDict = {};
-				let totalErrors = 0;
-				recording.steps.forEach((step) => {
-					if (step.errors && step.errors.length > 0) {
-						step.errors.forEach((error) => {
-							if (error.tag){
-								errorDict[error.tag] = (errorDict[error.tag] || 0) + 1;
-								totalErrors = totalErrors + 1;
-							}
-						});
-					}
-				});
-				
-				const requiredErrorTypes = ["Preparation Error","Measurement Error","Timing Error","Technique Error","Temperature Error"];
-				
-				const hasAtLeastOneErrorOfEachType = requiredErrorTypes.every(
-					(type) => errorDict[type] && errorDict[type] > 0
-				);
-				
-				if (!hasAtLeastOneErrorOfEachType) {
-					alert("Please make sure you have at least one error of each type");
-					return false;
-				}
-				
-				if (totalErrors < Math.floor(0.6 * recording.steps.length)){
-					alert("Please add " + (Math.floor(0.6 * recording.steps.length) - totalErrors) + " more errors to proceed to recording" );
-					return false;
-				}
-				
+				// // Validate Step 2 Recording Preparation
+				// if (!recording.is_error) {
+				// 	return true;
+				// }
+				//
+				// const errorDict = {};
+				// let totalErrors = 0;
+				// recording.steps.forEach((step) => {
+				// 	if (step.errors && step.errors.length > 0) {
+				// 		step.errors.forEach((error) => {
+				// 			if (error.tag){
+				// 				errorDict[error.tag] = (errorDict[error.tag] || 0) + 1;
+				// 				totalErrors = totalErrors + 1;
+				// 			}
+				// 		});
+				// 	}
+				// });
+				//
+				// const requiredErrorTypes = ["Preparation Error","Measurement Error","Timing Error","Technique Error","Temperature Error"];
+				//
+				// const hasAtLeastOneErrorOfEachType = requiredErrorTypes.every(
+				// 	(type) => errorDict[type] && errorDict[type] > 0
+				// );
+				//
+				// if (!hasAtLeastOneErrorOfEachType) {
+				// 	alert("Please make sure you have at least one error of each type");
+				// 	return false;
+				// }
+				//
+				// if (totalErrors < Math.floor(0.6 * recording.steps.length)){
+				// 	alert("Please add " + (Math.floor(0.6 * recording.steps.length) - totalErrors) + " more errors to proceed to recording" );
+				// 	return false;
+				// }
+				//
 				return true;
 				
 			case 2:
