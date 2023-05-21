@@ -77,4 +77,7 @@ if __name__ == '__main__':
         command += create_bash_file_for_project_generation(recording_id, folder, video_save_path) + "\n"
 
     with open("create_projects.sh", "w") as f:
-        f.write(f"#!/bin/bash\n\n{command}")
+        f.write(f"#!/bin/bash\n\n"
+                'eval "$(conda shell.bash hook)"' "\n"
+                "conda activate /home/sxa180157/mambaforge/envs/annot" "\n"
+                f"{command}")

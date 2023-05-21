@@ -26,7 +26,7 @@ class BoxService:
                 # print(file_path)
                 self.client.file(file.id).download_to(f)
 
-    def get_folders(self, id, max_workers=5):
+    def get_folders(self, id, max_workers=2):
         # There is a rate limit on box of 6 per second, so we need to use max 5 thread pools to download the files
         folders = self.client.folder(id).get()
         items = self.client.folder(id).get_items()
