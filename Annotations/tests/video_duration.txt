@@ -1,0 +1,619 @@
+-----------------------------------------
+Blender Banana Pancakes
+21_11_360p.mp4: 18.54 minutes
+21_14_360p.mp4: 9.26 minutes
+21_15_360p.mp4: 10.1 minutes
+21_17_360p.mp4: 15.95 minutes
+21_19_360p.mp4: 19.29 minutes
+21_24_360p.mp4: 13.28 minutes
+21_25_360p.mp4: 14.13 minutes
+21_29_360p.mp4: 9.58 minutes
+21_3_360p.mp4: 13.69 minutes
+21_37_360p.mp4: 18.15 minutes
+21_3_bak_360p.mp4: 15.47 minutes
+21_43_360p.mp4: 12.82 minutes
+21_44_360p.mp4: 15.88 minutes
+21_46_360p.mp4: 12.57 minutes
+21_47_360p.mp4: 12.52 minutes
+21_50_360p.mp4: 13.91 minutes
+21_8_360p.mp4: 15.78 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Blender Banana Pancakes duration: 240.91999999999996 minutes
+
+Avg Blender Banana Pancakes duration: 14.171764705882351 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Breakfast Burritos
+7_1_360p.mp4: 9.02 minutes
+7_18_360p.mp4: 10.1 minutes
+7_19_360p.mp4: 13.69 minutes
+7_24_360p.mp4: 12.83 minutes
+7_26_360p.mp4: 6.33 minutes
+7_30_360p.mp4: 6.49 minutes
+7_32_360p.mp4: 5.86 minutes
+7_35_360p.mp4: 6.12 minutes
+7_35_2_360p.mp4: 15.48 minutes
+7_38_360p.mp4: 7.7 minutes
+7_44_360p.mp4: 8.26 minutes
+7_48_360p.mp4: 10.05 minutes
+7_5_360p.mp4: 9.9 minutes
+7_50_360p.mp4: 11.46 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Breakfast Burritos duration: 133.29000000000002 minutes
+
+Avg Breakfast Burritos duration: 9.520714285714288 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Broccoli Stir Fry
+23_1_360p.mp4: 39.28 minutes
+23_12_360p.mp4: 31.96 minutes
+23_16_360p.mp4: 21.93 minutes
+23_17_360p.mp4: 27.66 minutes
+23_18_360p.mp4: 32.69 minutes
+23_19_360p.mp4: 30.05 minutes
+23_23_360p.mp4: 27.77 minutes
+23_24_360p.mp4: 29.92 minutes
+23_26_360p.mp4: 22.93 minutes
+23_32_360p.mp4: 20.15 minutes
+23_39_360p.mp4: 26.05 minutes
+23_5_360p.mp4: 30.38 minutes
+23_6_360p.mp4: 36.49 minutes
+23_9_360p.mp4: 36.43 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Broccoli Stir Fry duration: 413.69000000000005 minutes
+
+Avg Broccoli Stir Fry duration: 29.54928571428572 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Butter Corn Cup
+13_12_360p.mp4: 8.69 minutes
+13_14_360p.mp4: 13.81 minutes
+13_18_360p.mp4: 23.0 minutes
+13_20_360p.mp4: 16.31 minutes
+13_24_360p.mp4: 10.66 minutes
+13_31_360p.mp4: 7.85 minutes
+13_31_bak_360p.mp4: 11.01 minutes
+13_32_360p.mp4: 8.05 minutes
+13_36_360p.mp4: 11.98 minutes
+13_38_360p.mp4: 13.6 minutes
+13_41_360p.mp4: 15.24 minutes
+13_44_360p.mp4: 12.77 minutes
+13_45_360p.mp4: 12.14 minutes
+13_5_360p.mp4: 21.68 minutes
+13_9_360p.mp4: 12.28 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Butter Corn Cup duration: 199.07000000000002 minutes
+
+Avg Butter Corn Cup duration: 13.271333333333335 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Caprese Bruschetta
+29_18_360p.mp4: 14.3 minutes
+29_28_360p.mp4: 11.42 minutes
+29_29_360p.mp4: 10.84 minutes
+29_29_2_360p.mp4: 15.42 minutes
+29_32_360p.mp4: 15.34 minutes
+29_34_360p.mp4: 11.11 minutes
+29_35_360p.mp4: 10.68 minutes
+29_37_360p.mp4: 12.15 minutes
+29_45_360p.mp4: 17.59 minutes
+29_48_360p.mp4: 9.65 minutes
+29_49_360p.mp4: 12.94 minutes
+29_5_360p.mp4: 18.04 minutes
+29_6_360p.mp4: 21.35 minutes
+29_7_360p.mp4: 23.36 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Caprese Bruschetta duration: 204.19 minutes
+
+Avg Caprese Bruschetta duration: 14.584999999999999 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Cheese Pimiento
+27_13_360p.mp4: 19.18 minutes
+27_15_360p.mp4: 11.1 minutes
+27_17_360p.mp4: 15.39 minutes
+27_18_360p.mp4: 14.86 minutes
+27_26_360p.mp4: 12.21 minutes
+27_29_360p.mp4: 13.1 minutes
+27_3_360p.mp4: 11.74 minutes
+27_31_360p.mp4: 12.24 minutes
+27_34_360p.mp4: 10.5 minutes
+27_37_360p.mp4: 8.68 minutes
+27_4_360p.mp4: 10.75 minutes
+27_45_360p.mp4: 16.97 minutes
+27_49_360p.mp4: 8.88 minutes
+27_9_360p.mp4: 16.84 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Cheese Pimiento duration: 182.44 minutes
+
+Avg Cheese Pimiento duration: 13.031428571428572 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Coffee
+5_11_360p.mp4: 14.65 minutes
+5_15_360p.mp4: 14.61 minutes
+5_18_360p.mp4: 23.21 minutes
+5_19_360p.mp4: 13.74 minutes
+5_2_360p.mp4: 13.66 minutes
+5_22_360p.mp4: 15.64 minutes
+5_24_360p.mp4: 14.52 minutes
+5_27_360p.mp4: 19.16 minutes
+5_28_360p.mp4: 6.0 minutes
+5_3_360p.mp4: 9.33 minutes
+5_35_360p.mp4: 13.96 minutes
+5_37_360p.mp4: 12.84 minutes
+5_4.mp4: 13.29 minutes
+5_42_360p.mp4: 11.28 minutes
+5_44_360p.mp4: 17.01 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Coffee duration: 212.9 minutes
+
+Avg Coffee duration: 14.193333333333333 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Cucumber Raita
+17_10_360p.mp4: 14.63 minutes
+17_11_360p.mp4: 12.73 minutes
+17_14_360p.mp4: 10.41 minutes
+17_15_360p.mp4: 15.7 minutes
+17_16_360p.mp4: 16.18 minutes
+17_19_360p.mp4: 16.43 minutes
+17_2_360p.mp4: 10.74 minutes
+17_20_360p.mp4: 11.67 minutes
+17_21_360p.mp4: 13.32 minutes
+17_23_360p.mp4: 16.04 minutes
+17_29_360p.mp4: 12.27 minutes
+17_3_360p.mp4: 14.26 minutes
+17_37_360p.mp4: 12.15 minutes
+17_40_360p.mp4: 10.2 minutes
+17_45_360p.mp4: 12.91 minutes
+17_49_360p.mp4: 11.4 minutes
+17_5_360p.mp4: 14.95 minutes
+17_8_360p.mp4: 19.49 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Cucumber Raita duration: 245.48 minutes
+
+Avg Cucumber Raita duration: 13.637777777777778 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Dressed Up Meatballs
+2_13_360p.mp4: 22.09 minutes
+2_19_360p.mp4: 18.4 minutes
+2_26_360p.mp4: 21.1 minutes
+2_28_360p.mp4: 18.29 minutes
+2_3_360p.mp4: 27.77 minutes
+2_30_360p.mp4: 9.86 minutes
+2_38_360p.mp4: 22.1 minutes
+2_4_360p.mp4: 16.27 minutes
+2_41_360p.mp4: 20.92 minutes
+2_42_360p.mp4: 20.62 minutes
+2_46_360p.mp4: 11.2 minutes
+2_47_360p.mp4: 17.75 minutes
+2_5_360p.mp4: 16.56 minutes
+2_8_360p.mp4: 22.61 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Dressed Up Meatballs duration: 265.54 minutes
+
+Avg Dressed Up Meatballs duration: 18.967142857142857 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Herb Omelet with Fried Tomatoes
+22_13_360p.mp4: 13.63 minutes
+22_2_360p.mp4: 16.86 minutes
+22_21_360p.mp4: 11.85 minutes
+22_24_360p.mp4: 32.87 minutes
+22_26_360p.mp4: 9.57 minutes
+22_30_360p.mp4: 7.85 minutes
+22_32_360p.mp4: 10.21 minutes
+22_38_360p.mp4: 13.44 minutes
+22_4_360p.mp4: 22.15 minutes
+22_40_360p.mp4: 7.56 minutes
+22_41_360p.mp4: 8.48 minutes
+22_6_360p.mp4: 13.46 minutes
+22_8_360p.mp4: 9.72 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Herb Omelet with Fried Tomatoes duration: 177.65 minutes
+
+Avg Herb Omelet with Fried Tomatoes duration: 13.665384615384616 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Microwave Egg Sandwich
+1_10_360p.mp4: 7.88 minutes
+1_14_360p.mp4: 11.82 minutes
+1_19_360p.mp4: 11.57 minutes
+1_20_360p.mp4: 11.35 minutes
+1_25_360p.mp4: 10.17 minutes
+1_28_360p.mp4: 7.46 minutes
+1_28_bak_360p.mp4: 9.28 minutes
+1_30_360p.mp4: 7.82 minutes
+1_32_360p.mp4: 6.04 minutes
+1_33_360p.mp4: 10.61 minutes
+1_34_360p.mp4: 5.72 minutes
+1_36_360p.mp4: 8.4 minutes
+1_36_bak_360p.mp4: 13.21 minutes
+1_37_360p.mp4: 10.19 minutes
+1_42_360p.mp4: 6.4 minutes
+1_43_360p.mp4: 7.36 minutes
+1_43_2_360p.mp4: 10.7 minutes
+1_49_360p.mp4: 6.39 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Microwave Egg Sandwich duration: 162.37 minutes
+
+Avg Microwave Egg Sandwich duration: 9.020555555555555 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Microwave French Toast
+9_12_360p.mp4: 11.08 minutes
+9_13_360p.mp4: 9.39 minutes
+9_15_360p.mp4: 14.19 minutes
+9_19_360p.mp4: 13.91 minutes
+9_2_360p.mp4: 12.64 minutes
+9_22_360p.mp4: 14.3 minutes
+9_24_360p.mp4: 12.19 minutes
+9_25_360p.mp4: 14.23 minutes
+9_36_360p.mp4: 6.62 minutes
+9_4_360p.mp4: 14.77 minutes
+9_45_360p.mp4: 5.26 minutes
+9_47_360p.mp4: 8.37 minutes
+9_8_360p.mp4: 9.28 minutes
+9_8_2_360p.mp4: 10.02 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Microwave French Toast duration: 156.25 minutes
+
+Avg Microwave French Toast duration: 11.160714285714286 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Microwave Mug Pizza
+3_11_360p.mp4: 10.03 minutes
+3_12_360p.mp4: 11.0 minutes
+3_13_360p.mp4: 14.72 minutes
+3_14_360p.mp4: 10.07 minutes
+3_18_360p.mp4: 15.91 minutes
+3_2_360p.mp4: 10.96 minutes
+3_22_360p.mp4: 16.53 minutes
+3_34_360p.mp4: 9.7 minutes
+3_36_360p.mp4: 15.77 minutes
+3_46_360p.mp4: 11.57 minutes
+3_49_360p.mp4: 13.0 minutes
+3_5_360p.mp4: 9.71 minutes
+3_50_360p.mp4: 7.53 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Microwave Mug Pizza duration: 156.5 minutes
+
+Avg Microwave Mug Pizza duration: 12.038461538461538 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Mug Cake
+26_17_360p.mp4: 26.81 minutes
+26_18_360p.mp4: 15.24 minutes
+26_19_360p.mp4: 22.47 minutes
+26_29_360p.mp4: 11.93 minutes
+26_30_360p.mp4: 14.58 minutes
+26_34_360p.mp4: 13.94 minutes
+26_36_360p.mp4: 11.41 minutes
+26_37_360p.mp4: 13.38 minutes
+26_39_360p.mp4: 11.72 minutes
+26_4_360p.mp4: 16.18 minutes
+26_42_360p.mp4: 13.9 minutes
+26_46_360p.mp4: 13.04 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Mug Cake duration: 184.6 minutes
+
+Avg Mug Cake duration: 15.383333333333333 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Pan Fried Tofu
+25_1_360p.mp4: 29.35 minutes
+25_11_360p.mp4: 22.1 minutes
+25_13_360p.mp4: 20.58 minutes
+25_2_360p.mp4: 18.69 minutes
+25_22_360p.mp4: 23.68 minutes
+25_3_360p.mp4: 22.27 minutes
+25_4_360p.mp4: 28.53 minutes
+25_40_360p.mp4: 14.62 minutes
+25_41_360p.mp4: 16.93 minutes
+25_42_360p.mp4: 19.8 minutes
+25_48_360p.mp4: 12.79 minutes
+25_5_360p.mp4: 23.03 minutes
+25_6_360p.mp4: 35.71 minutes
+25_9_360p.mp4: 17.64 minutes
+25_9_2_360p.mp4: 35.45 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Pan Fried Tofu duration: 341.17 minutes
+
+Avg Pan Fried Tofu duration: 22.744666666666667 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Pinwheels
+10_16_360p.mp4: 16.23 minutes
+10_18_360p.mp4: 10.34 minutes
+10_24_360p.mp4: 11.49 minutes
+10_26_360p.mp4: 6.99 minutes
+10_31_360p.mp4: 6.74 minutes
+10_42_360p.mp4: 12.48 minutes
+10_46_360p.mp4: 11.82 minutes
+10_47_360p.mp4: 7.71 minutes
+10_48_360p.mp4: 10.83 minutes
+10_50_360p.mp4: 4.22 minutes
+10_6_360p.mp4: 5.47 minutes
+10_7_360p.mp4: 10.62 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Pinwheels duration: 114.94 minutes
+
+Avg Pinwheels duration: 9.578333333333333 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Ramen
+4_17_360p.mp4: 12.69 minutes
+4_2_360p.mp4: 12.91 minutes
+4_20_360p.mp4: 12.16 minutes
+4_22_360p.mp4: 14.84 minutes
+4_24_360p.mp4: 20.08 minutes
+4_3_360p.mp4: 13.4 minutes
+4_30_360p.mp4: 13.05 minutes
+4_32_360p.mp4: 12.66 minutes
+4_35_360p.mp4: 9.21 minutes
+4_36_360p.mp4: 17.41 minutes
+4_40_360p.mp4: 10.87 minutes
+4_43_360p.mp4: 13.5 minutes
+4_44_360p.mp4: 10.14 minutes
+4_5_360p.mp4: 11.19 minutes
+4_7_360p.mp4: 14.85 minutes
+4_9_360p.mp4: 13.63 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Ramen duration: 212.59 minutes
+
+Avg Ramen duration: 13.286875 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Sauted Mushrooms
+20_14_360p.mp4: 33.71 minutes
+20_16_360p.mp4: 27.08 minutes
+20_17_360p.mp4: 31.62 minutes
+20_19_360p.mp4: 22.31 minutes
+20_22_360p.mp4: 17.75 minutes
+20_25_360p.mp4: 19.56 minutes
+20_26_360p.mp4: 18.2 minutes
+20_29_360p.mp4: 20.46 minutes
+20_32_360p.mp4: 19.76 minutes
+20_39_360p.mp4: 10.33 minutes
+20_44_360p.mp4: 10.37 minutes
+20_47_360p.mp4: 19.45 minutes
+20_48_360p.mp4: 14.25 minutes
+20_9_360p.mp4: 31.1 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Sauted Mushrooms duration: 295.95000000000005 minutes
+
+Avg Sauted Mushrooms duration: 21.139285714285716 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Scrambled Eggs
+16_1_360p.mp4: 18.01 minutes
+16_10_360p.mp4: 19.74 minutes
+16_18_360p.mp4: 23.55 minutes
+16_2_360p.mp4: 20.4 minutes
+16_23_360p.mp4: 21.51 minutes
+16_26_360p.mp4: 16.27 minutes
+16_27_360p.mp4: 13.76 minutes
+16_28_360p.mp4: 18.28 minutes
+16_35_360p.mp4: 21.19 minutes
+16_39_360p.mp4: 11.76 minutes
+16_42_360p.mp4: 15.84 minutes
+16_44_360p.mp4: 18.58 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Scrambled Eggs duration: 218.89 minutes
+
+Avg Scrambled Eggs duration: 18.24083333333333 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Spiced Hot Chocolate
+8_11_360p.mp4: 7.12 minutes
+8_15_360p.mp4: 8.58 minutes
+8_16_360p.mp4: 7.71 minutes
+8_19_360p.mp4: 9.03 minutes
+8_20_360p.mp4: 9.81 minutes
+8_26_360p.mp4: 7.51 minutes
+8_3_360p.mp4: 7.03 minutes
+8_30_360p.mp4: 6.26 minutes
+8_31_360p.mp4: 4.45 minutes
+8_35_360p.mp4: 7.18 minutes
+8_40_360p.mp4: 6.63 minutes
+8_44_360p.mp4: 5.79 minutes
+8_45_360p.mp4: 6.27 minutes
+8_50_360p.mp4: 4.39 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Spiced Hot Chocolate duration: 97.76 minutes
+
+Avg Spiced Hot Chocolate duration: 6.982857142857143 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Spicy Tuna Avocado Wraps
+28_10_360p.mp4: 18.54 minutes
+28_14_360p.mp4: 18.27 minutes
+28_2_360p.mp4: 14.76 minutes
+28_21_360p.mp4: 15.83 minutes
+28_24_360p.mp4: 17.84 minutes
+28_25_360p.mp4: 17.47 minutes
+28_26_360p.mp4: 13.46 minutes
+28_28_360p.mp4: 13.03 minutes
+28_29_360p.mp4: 9.69 minutes
+28_3_360p.mp4: 16.93 minutes
+28_38_360p.mp4: 11.32 minutes
+28_42_360p.mp4: 17.24 minutes
+28_44_360p.mp4: 13.57 minutes
+28_45_360p.mp4: 13.98 minutes
+28_49_360p.mp4: 19.15 minutes
+28_50_360p.mp4: 12.68 minutes
+28_7_360p.mp4: 18.23 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Spicy Tuna Avocado Wraps duration: 261.99 minutes
+
+Avg Spicy Tuna Avocado Wraps duration: 15.411176470588236 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Tomato Chutney
+15_17_360p.mp4: 18.25 minutes
+15_18_360p.mp4: 28.76 minutes
+15_19_360p.mp4: 27.15 minutes
+15_2_360p.mp4: 25.64 minutes
+15_28_360p.mp4: 14.86 minutes
+15_29_360p.mp4: 21.55 minutes
+15_30_360p.mp4: 10.67 minutes
+15_33_360p.mp4: 10.79 minutes
+15_37_360p.mp4: 10.88 minutes
+15_39_360p.mp4: 13.91 minutes
+15_4_360p.mp4: 20.72 minutes
+15_41_360p.mp4: 18.21 minutes
+15_46_360p.mp4: 19.85 minutes
+15_5_360p.mp4: 41.17 minutes
+15_8_360p.mp4: 38.84 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Tomato Chutney duration: 321.25 minutes
+
+Avg Tomato Chutney duration: 21.416666666666668 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Tomato Mozzarella Salad
+12_10_360p.mp4: 6.56 minutes
+12_12_360p.mp4: 8.91 minutes
+12_13_360p.mp4: 8.76 minutes
+12_15_360p.mp4: 7.71 minutes
+12_17_360p.mp4: 4.12 minutes
+12_19_360p.mp4: 7.37 minutes
+12_19_2_360p.mp4: 6.32 minutes
+12_2_360p.mp4: 7.14 minutes
+12_26_360p.mp4: 5.49 minutes
+12_38_360p.mp4: 5.97 minutes
+12_41_360p.mp4: 7.84 minutes
+12_43_360p.mp4: 3.34 minutes
+12_48_360p.mp4: 5.01 minutes
+12_5_360p.mp4: 7.95 minutes
+12_51_360p.mp4: 3.99 minutes
+12_9_360p.mp4: 7.53 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Tomato Mozzarella Salad duration: 104.01 minutes
+
+Avg Tomato Mozzarella Salad duration: 6.500625 minutes
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Zoodles
+18_1_360p.mp4: 22.73 minutes
+18_11_360p.mp4: 13.08 minutes
+18_19_360p.mp4: 14.73 minutes
+18_1_2_360p.mp4: 13.82 minutes
+18_2_360p.mp4: 11.23 minutes
+18_24_360p.mp4: 17.89 minutes
+18_27_360p.mp4: 10.94 minutes
+18_28_360p.mp4: 11.72 minutes
+18_3_360p.mp4: 11.97 minutes
+18_31_360p.mp4: 7.37 minutes
+18_33_360p.mp4: 11.08 minutes
+18_41_360p.mp4: 10.06 minutes
+18_45_360p.mp4: 16.84 minutes
+18_49_360p.mp4: 25.37 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Zoodles duration: 198.83000000000004 minutes
+
+Avg Zoodles duration: 14.20214285714286 minutes
+
+-----------------------------------------
+-----------------------------------------
+Total Zoodles duration: 5102.270000000001 minutes
+
+Avg Zoodles duration: 14.57791428571429 minutes
+
+-----------------------------------------

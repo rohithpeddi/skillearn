@@ -1,0 +1,128 @@
+- id: 1
+  users:
+    - id: 1
+      username: rohith
+      environment_name: rohith
+    - id: 2
+      username: shivvrat
+      environment_name: rohith
+    - id: 3
+      username: bharath
+      environment_name: rohith
+    - id: 4
+      username: likhitha
+      environment_name: rohith
+    - id: 5
+      username: akshay
+      environment_name: rohith
+    - id: 6
+      username: jikai
+      environment_name: rohith
+    - id: 7
+      username: qifan
+      environment_name: rohith
+    - id: 8
+      username: vasundhara
+      environment_name: rohith
+- id: 2
+  users:
+    - id: 1
+      username: rohith
+      environment_name: akshay
+    - id: 2
+      username: shivvrat
+      environment_name: akshay
+    - id: 3
+      username: bharath
+      environment_name: akshay
+    - id: 4
+      username: likhitha
+      environment_name: akshay
+    - id: 5
+      username: akshay
+      environment_name: akshay
+    - id: 6
+      username: jikai
+      environment_name: akshay
+    - id: 7
+      username: qifan
+      environment_name: akshay
+- id: 3
+  users:
+    - id: 7
+      username: qifan
+      environment_name: shivvrat
+    - id: 8
+      username: vasundhara
+      environment_name: akshay
+- id: 5
+  users:
+    - id: 1
+      username: rohith
+      environment_name: shivvrat
+    - id: 2
+      username: shivvrat
+      environment_name: shivvrat
+    - id: 3
+      username: bharath
+      environment_name: shivvrat
+    - id: 4
+      username: likhitha
+      environment_name: shivvrat
+    - id: 5
+      username: akshay
+      environment_name: shivvrat
+    - id: 6
+      username: jikai
+      environment_name: shivvrat
+    - id: 8
+      username: vasundhara
+      environment_name: shivvrat
+- id: 6
+  users:
+    - id: 1
+      username: rohith
+      environment_name: bharath
+    - id: 2
+      username: shivvrat
+      environment_name: bharath
+    - id: 3
+      username: bharath
+      environment_name: bharath
+    - id: 4
+      username: likhitha
+      environment_name: bharath
+    - id: 5
+      username: akshay
+      environment_name: aksahyfriend
+    - id: 6
+      username: jikai
+      environment_name: jikai
+    - id: 7
+      username: qifan
+      environment_name: bharath
+    - id: 8
+      username: vasundhara
+      environment_name: bharath
+- id: 7
+  users:
+    - id: 1
+      username: rohith
+      environment_name: vasundhara
+    - id: 4
+      username: likhitha
+      environment_name: vasundhara
+    - id: 5
+      username: akshay
+      environment_name: vasundhara
+    - id: 6
+      username: jikai
+      environment_name: vasundhara
+    - id: 8
+      username: vasundhara
+      environment_name: vasundhara
+- id: 9
+  users:
+    - id: 7
+      username: qifan
+      environment_name: qifan
