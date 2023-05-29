@@ -31,6 +31,13 @@ def multithreaded_copy_file_if_different(file_name, source_folder, destination_p
     # Destination recording folder
     destination_recording_folder = os.path.join(destination_parent_folder, file_name[:-4])
     destination_recording_gopro_folder = os.path.join(destination_recording_folder, 'gopro')
+
+    if not os.path.isdir(destination_recording_gopro_folder):
+        os.makedirs(destination_recording_gopro_folder)
+        print("Created folder: " + destination_recording_gopro_folder)
+    else:
+        print("Folder already exists: " + destination_recording_gopro_folder)
+
     destination_gopro_file = os.path.join(destination_recording_gopro_folder, file_name)
 
     if os.path.isfile(source_gopro_file):

@@ -46,7 +46,12 @@ class FirebaseUtils:
 		self.environments = [Environment.from_dict(environment) for environment in self.environments_info_list]
 		self.environment_id_to_environment_map = {environment.get_id(): environment for environment in self.environments}
 	
-	def process_environment_recordings(self):
+	def process_environment_recordings(self, is_missing_gopro=False):
+
+		if is_missing_gopro:
+			with open('missing_gopro.txt', 'r') as missing_gopro_text:
+				missing_gopro_list = missing_gopro_text.read().splitlines()
+
 		for environment_id in range(1, 10):
 			print(f"Processing environment {environment_id}...")
 			environment_recordings = dict(self.db_service.fetch_environment_recordings(environment_id))
@@ -62,7 +67,7 @@ class FirebaseUtils:
 				recording = Recording.from_dict(recording_dict)
 				user_recordings.setdefault(recording.selected_by, []).append(recording)
 			
-			with open('recording_info_selected.txt', 'a') as recording_info_text:
+			with open('recording_info_missing.txt', 'a') as recording_info_text:
 				recording_info_text.write(
 					f"------------------------------------------------------------------------ \n")
 				recording_info_text.write(f"Environment {environment_id}:\n")
@@ -71,15 +76,23 @@ class FirebaseUtils:
 				for user_id, recordings in user_recordings.items():
 					if user_id < 0 or user_id >= 9:
 						continue
+
 					username = environment.get_user_environment(user_id).get_username()
 					environment_name = environment.get_user_environment(user_id).get_environment_name()
-					
+
+					if is_missing_gopro:
+						if all(recording.id not in missing_gopro_list for recording in recordings):
+							continue
+
 					recording_info_text.write(f"\tUser {user_id}: {username} recorded at {environment_name}\n")
 					for recording in recordings:
+						if is_missing_gopro:
+							if recording.id not in missing_gopro_list:
+								continue
 						if recording.activity_id not in self.activity_id_to_activity_name_map:
 							continue
 						activity_name = self.activity_id_to_activity_name_map[recording.activity_id]
-						recording_info_text.write(f"\t\t{activity_name} - {recording.id}\n")
+						recording_info_text.write(f"\t\t{activity_name} - {recording.id} - {recording.recording_info.start_time}\n")
 				recording_info_text.write("\n\n")
 			
 			print("Finished processing environment: ", environment_id)
@@ -87,4 +100,4 @@ class FirebaseUtils:
 
 if __name__ == '__main__':
 	firebase_utils = FirebaseUtils()
-	firebase_utils.process_environment_recordings()
+	firebase_utils.process_environment_recordings(is_missing_gopro=True)
