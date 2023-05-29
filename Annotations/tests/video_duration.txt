@@ -612,8 +612,8 @@ Avg Zoodles duration: 14.20214285714286 minutes
 
 -----------------------------------------
 -----------------------------------------
-Total Zoodles duration: 5102.270000000001 minutes
+Total duration: 5102.270000000001 minutes
 
-Avg Zoodles duration: 14.57791428571429 minutes
+Avg duration: 14.57791428571429 minutes
 
 -----------------------------------------

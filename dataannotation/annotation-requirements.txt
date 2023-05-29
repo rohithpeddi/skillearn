@@ -12,3 +12,5 @@ requests-toolbelt==0.10.1
 websockets
 opencv-python==4.7.0.68
 av==10.0.0
+Flask~=2.2.2
+flask-cors

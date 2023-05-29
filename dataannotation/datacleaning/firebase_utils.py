@@ -44,14 +44,15 @@ class FirebaseUtils:
 		self.activity_id_to_activity_name_map = {activity.id: activity.name for activity in self.activities}
 		
 		self.environments = [Environment.from_dict(environment) for environment in self.environments_info_list]
-		self.environment_id_to_environment_map = {environment.get_id(): environment for environment in self.environments}
+		self.environment_id_to_environment_map = {environment.get_id(): environment for environment in
+		                                          self.environments}
 	
 	def process_environment_recordings(self, is_missing_gopro=False):
-
+		
 		if is_missing_gopro:
 			with open('missing_gopro.txt', 'r') as missing_gopro_text:
 				missing_gopro_list = missing_gopro_text.read().splitlines()
-
+		
 		for environment_id in range(1, 10):
 			print(f"Processing environment {environment_id}...")
 			environment_recordings = dict(self.db_service.fetch_environment_recordings(environment_id))
@@ -76,14 +77,14 @@ class FirebaseUtils:
 				for user_id, recordings in user_recordings.items():
 					if user_id < 0 or user_id >= 9:
 						continue
-
+					
 					username = environment.get_user_environment(user_id).get_username()
 					environment_name = environment.get_user_environment(user_id).get_environment_name()
-
+					
 					if is_missing_gopro:
 						if all(recording.id not in missing_gopro_list for recording in recordings):
 							continue
-
+					
 					recording_info_text.write(f"\tUser {user_id}: {username} recorded at {environment_name}\n")
 					for recording in recordings:
 						if is_missing_gopro:
@@ -92,12 +93,116 @@ class FirebaseUtils:
 						if recording.activity_id not in self.activity_id_to_activity_name_map:
 							continue
 						activity_name = self.activity_id_to_activity_name_map[recording.activity_id]
-						recording_info_text.write(f"\t\t{activity_name} - {recording.id} - {recording.recording_info.start_time}\n")
+						recording_info_text.write(
+							f"\t\t{activity_name} - {recording.id} - {recording.recording_info.start_time}\n")
 				recording_info_text.write("\n\n")
 			
 			print("Finished processing environment: ", environment_id)
+	
+	def tackle_recording_repetition(self, recording_id, recording_one_environment, recording_one_selected_by,
+	                                recording_two_environment, recording_two_selected_by):
+		recording = self.db_service.fetch_recording(recording_id)
+		
+		activity_id, recording_num = recording_id.split('_')
+		first_recording_num = int(recording_num)
+		second_recording_num = first_recording_num + 100
+		
+		first_recording = Recording.from_dict(recording)
+		first_recording.id = activity_id + '_' + str(first_recording_num)
+		first_recording.selected_by = recording_one_selected_by
+		first_recording.environment_id = recording_one_environment
+		first_recording.recorded_by = recording_one_selected_by
+		
+		second_recording = Recording.from_dict(recording)
+		second_recording.id = activity_id + '_' + str(second_recording_num)
+		second_recording.selected_by = recording_two_selected_by
+		second_recording.environment_id = recording_two_environment
+		second_recording.recorded_by = recording_two_selected_by
+		
+		self.db_service.update_recording(first_recording)
+		self.db_service.update_recording(second_recording)
 
 
 if __name__ == '__main__':
 	firebase_utils = FirebaseUtils()
-	firebase_utils.process_environment_recordings(is_missing_gopro=True)
+	# firebase_utils.process_environment_recordings(is_missing_gopro=True)
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='1_43',
+	# 	recording_one_environment=1,
+	# 	recording_one_selected_by=7,
+	# 	recording_two_environment=1,
+	# 	recording_two_selected_by=7
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='7_35',
+	# 	recording_one_environment=1,
+	# 	recording_one_selected_by=1,
+	# 	recording_two_environment=1,
+	# 	recording_two_selected_by=1
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='9_8',
+	# 	recording_one_environment=9,
+	# 	recording_one_selected_by=7,
+	# 	recording_two_environment=2,
+	# 	recording_two_selected_by=7
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='12_19',
+	# 	recording_one_environment=6,
+	# 	recording_one_selected_by=3,
+	# 	recording_two_environment=6,
+	# 	recording_two_selected_by=5
+	# )
+
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='18_1',
+	# 	recording_one_environment=1,
+	# 	recording_one_selected_by=8,
+	# 	recording_two_environment=6,
+	# 	recording_two_selected_by=8
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='21_3',
+	# 	recording_one_environment=1,
+	# 	recording_one_selected_by=1,
+	# 	recording_two_environment=1,
+	# 	recording_two_selected_by=1
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='25_9',
+	# 	recording_one_environment=6,
+	# 	recording_one_selected_by=2,
+	# 	recording_two_environment=7,
+	# 	recording_two_selected_by=5
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='26_36',
+	# 	recording_one_environment=7,
+	# 	recording_one_selected_by=6,
+	# 	recording_two_environment=6,
+	# 	recording_two_selected_by=2
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='29_29',
+	# 	recording_one_environment=7,
+	# 	recording_one_selected_by=8,
+	# 	recording_two_environment=7,
+	# 	recording_two_selected_by=1
+	# )
+
+	firebase_utils.tackle_recording_repetition(
+		recording_id='1_36',
+		recording_one_environment=1,
+		recording_one_selected_by=3,
+		recording_two_environment=1,
+		recording_two_selected_by=3
+	)
