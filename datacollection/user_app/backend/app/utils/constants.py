@@ -219,6 +219,7 @@ class Firebase_Constants:
     RECORDINGS = "recordings"
     
     RECORDED_BY = "recorded_by"
+    SELECTED_BY = "selected_by"
     ACTIVITY_ID = "activity_id"
     
     ENVIRONMENT = "environment"
@@ -309,6 +310,9 @@ class FlaskServer_constants:
     
     RECORDING = "recording"
     ACTIVITY_NAME = "activity_name"
+    
+    UPDATE_PENDING = "PENDING"
+    UPDATED = "UPDATED"
 
 
 # # ---------------------------------------------------------------------------------------

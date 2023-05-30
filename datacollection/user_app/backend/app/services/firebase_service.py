@@ -97,6 +97,9 @@ class FirebaseService:
 	def fetch_user_recordings(self, user_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.RECORDED_BY).equal_to(user_id).get().val()
 	
+	def fetch_user_selections(self, user_id):
+		return self.db.child(const.RECORDINGS).order_by_child(const.SELECTED_BY).equal_to(user_id).get().val()
+	
 	def fetch_all_activity_recordings(self, activity_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.ACTIVITY_ID).equal_to(activity_id).get().val()
 	

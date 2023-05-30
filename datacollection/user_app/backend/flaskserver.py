@@ -311,7 +311,7 @@ def stop_activity_recording(recording_id, subprocess_id):
 @app.route('/api/users/<int:user_id>/review/recordings', methods=['GET'])
 def fetch_user_review_recordings(user_id):
 	try:
-		user_recordings = dict(db_service.fetch_user_recordings(user_id))
+		user_recordings = dict(db_service.fetch_user_selections(user_id))
 		
 		environments_list = db_service.fetch_environments()
 		environments = [Environment.from_dict(environment) for environment in environments_list if
@@ -338,9 +338,11 @@ def fetch_user_review_recordings(user_id):
 				if recording.environment == environment.get_id():
 					if recording.activity_id not in activity_id_name_map:
 						continue
+						
 					user_environment_recording_dict = {
 						const.RECORDING: recording.to_dict(),
-						const.ACTIVITY_NAME: activity_id_name_map[recording.activity_id]
+						const.ACTIVITY_NAME: activity_id_name_map[recording.activity_id],
+						const.STATUS: const.UPDATED if recording.selected_by == recording.recorded_by else const.UPDATE_PENDING
 					}
 					environment_recordings.append(user_environment_recording_dict)
 			environment_recording_review_dict[const.ENVIRONMENT_RECORDINGS] = environment_recordings
@@ -358,4 +360,4 @@ def fetch_user_review_recordings(user_id):
 # IMPORTANT - After every schedule change the current environment parameter in Firebase Directly
 if __name__ == "__main__":
 	app.run(threaded=True, host='0.0.0.0', port=5000)
-	# test()
+# test()
