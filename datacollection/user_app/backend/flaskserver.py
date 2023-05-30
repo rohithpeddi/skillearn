@@ -14,7 +14,7 @@ from app.models.recording import Recording
 from app.models.user import User
 from app.services import async_service
 from app.utils.logger_config import setup_logging, get_logger
-from datacollection.user_app.backend.app.models.environment import Environment
+from app.models.environment import Environment
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
