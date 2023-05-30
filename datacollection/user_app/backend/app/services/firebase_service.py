@@ -2,8 +2,11 @@
 import time
 
 import pyrebase
+
 from ..utils.constants import Firebase_Constants as const
 from ..models.activity import Activity
+from ..models.environment import Environment
+from ..models.user_environment import UserEnvironment
 from ..models.recording import Recording
 from ..models.user import User
 from ..utils.logger_config import get_logger
@@ -102,13 +105,25 @@ class FirebaseService:
 	
 	def remove_all_recordings(self):
 		self.db.child(const.RECORDINGS).remove()
-		
+	
 	def fetch_environment_recordings(self, environment):
 		return self.db.child(const.RECORDINGS).order_by_child(const.ENVIRONMENT).equal_to(environment).get().val()
-
-
-# ---------------------- END RECORDING ----------------------
-
+	
+	# ---------------------- END RECORDING ----------------------
+	
+	# ---------------------- BEGIN USER ENVIRONMENT ----------------------
+	
+	def update_environment(self, environment: Environment):
+		self.db.child(const.ENVIRONMENTS).child(environment.get_id()).set(environment.to_dict())
+		logger.info(f"Updated environment in the firebase - {environment.__str__()}")
+		
+	def fetch_environments(self):
+		return self.db.child(const.ENVIRONMENTS).get().val()
+		
+	def remove_all_environments(self):
+		self.db.child(const.ENVIRONMENTS).remove()
+	
+	
 
 if __name__ == "__main__":
 	db_service = FirebaseService()

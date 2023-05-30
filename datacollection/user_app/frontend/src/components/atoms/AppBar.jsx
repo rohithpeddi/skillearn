@@ -20,8 +20,11 @@ const AppBar = ({ userData }) => {
 				navigate("/recording");
 				break;
 			case 3:
+				navigate("/review");
+				break;
+			case 4:
 				// TODO: Currently no annotation page
-				navigate("/home");
+				navigate("/");
 				break;
 			default:
 				break;
@@ -42,6 +45,7 @@ const AppBar = ({ userData }) => {
 							<Tab label="Home" />
 							<Tab label="Preferences" />
 							<Tab label="Recording" />
+							<Tab label="Review" />
 							<Tab label="Annotation" />
 						</Tabs>
 						<button className="logout-button" onClick={handleLogout}>
@@ -50,7 +54,7 @@ const AppBar = ({ userData }) => {
 					</>
 				) : (
 					<Tabs>
-						DARPA - PTG DATA COLLECTION TOOL
+						DATA COLLECTION TOOL
 					</Tabs>
 				)
 			}

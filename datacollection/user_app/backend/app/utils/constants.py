@@ -22,6 +22,8 @@ class User_Constants:
     ERROR_RECORDINGS = "error_activities"
     RECORDED_LIST = "recorded_list"
     IS_DONE_RECORDING = "recording_status"
+    
+    ENVIRONMENT_NAME = "environment_name"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -83,7 +85,7 @@ class Recording_Constants:
     
     HOLOLENS_INFO = "hololens_info"
     GOPRO = "gopro"
-
+    
     RECORDING_DATA_DIRECTORY = "/home/ptg/CODE/data"
 
 
@@ -125,14 +127,14 @@ class Post_Processing_Constants:
     AHAT = "ahat"
     FRAMES = "frames"
     LONGTHROW = "longthrow"
-
+    
     NAS_USERNAME = "ptg"
     NAS_PASSWORD = "darpa@NAS#DS1522"
     NAS_HOSTNAME = "ptg-nas"
     NAS_HOST_IP = "192.168.1.172"
     NAS_LOGIN_PORT = 5001
     NAS_SFTP_PORT = 22
-
+    
     NAS_DATA_ROOT_DIR = "/NetBackup/PTG"
     HOLOLENS_INFO_FILE_NAME = 'Hololens2Info.dat'
 
@@ -165,13 +167,13 @@ class Hololens_Constants:
     AB = "ab"
     DEPTH = "depth"
     FRAMES = "frames"
-
+    
     PV_FRAME_WIDTH = 640
     PV_FRAME_HEIGHT = 360
     PV_FRAMERATE = 30
     PV_VIDEO_PROFILE_RAW = hl2ss.VideoProfile.RAW
     PV_VIDEO_BITRATE_RAW = 250 * 1024 * 1024
-
+    
     AHAT_PROFILE_RAW = hl2ss.VideoProfile.RAW
     AHAT_BITRATE_RAW = 1
     
@@ -187,11 +189,11 @@ class Hololens_Constants:
     DEPTH_AHAT_DEPTH_DATA_DIRECTORY = "depth_ahat_depth_data"
     
     SPATIAL_DATA_WRITER = "spatial_data_writer"
-
+    
     IMU_ACCELEROMETER_DATA_WRITER = "imu_accelerometer_data_writer"
     IMU_GYROSCOPE_DATA_WRITER = "imu_gyroscope_data_writer"
     IMU_MAGNETOMETER_DATA_WRITER = "imu_magnetometer_data_writer"
-
+    
     MICROPHONE_DATA_WRITER = "mc_data_writer"
     DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
     PV_POSE_WRITER = "pv_pose_writer"
@@ -220,10 +222,13 @@ class Firebase_Constants:
     ACTIVITY_ID = "activity_id"
     
     ENVIRONMENT = "environment"
+    ENVIRONMENTS = "environments"
     
     DEPLOYMENT = "production"
     DEVELOPMENT = "development"
     PRODUCTION = "production"
+    
+    USER_ENVIRONMENT = "user_environment"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -298,6 +303,12 @@ class FlaskServer_constants:
     STATUS = "status"
     SUCCESS = "success"
     SUBPROCESS_ID = "subprocess_id"
+    
+    ENVIRONMENT_NAME = "environment_name"
+    ENVIRONMENT_RECORDINGS = "environment_recordings"
+    
+    RECORDING = "recording"
+    ACTIVITY_NAME = "activity_name"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -310,13 +321,14 @@ class DatabaseIngestion_Constants:
     
     USERS_YAML_FILE_NAME = "users.yaml"
     ACTIVITIES_YAML_FILE_NAME = "activities.yaml"
+    ENVIRONMENTS_YAML_FILE_NAME = "environments.yaml"
     
     RECORDING_ID = "recording_id"
     STEPS = "steps"
     ERRORS = "errors"
     NAME = "name"
     ID = "id"
-    
+
 
 # # ---------------------------------------------------------------------------------------
 # # ------------------------ BOX PROPERTIES -----------------------------------
@@ -332,4 +344,10 @@ class Box_Constants:
     PRETRAINED_FEATURES = "pretrained_features"
     GOPRO = "gopro"
 
-    
+
+# # ---------------------------------------------------------------------------------------
+# # ------------------------ ENVIRONMENT PROPERTIES -----------------------------------
+
+class Environment_Constants:
+    ID = "id"
+    USERS = "users"

@@ -53,7 +53,7 @@ class FirebaseUtils:
 			with open('missing_gopro.txt', 'r') as missing_gopro_text:
 				missing_gopro_list = missing_gopro_text.read().splitlines()
 		
-		for environment_id in range(1, 10):
+		for environment_id in range(1, 12):
 			print(f"Processing environment {environment_id}...")
 			environment_recordings = dict(self.db_service.fetch_environment_recordings(environment_id))
 			
@@ -68,7 +68,7 @@ class FirebaseUtils:
 				recording = Recording.from_dict(recording_dict)
 				user_recordings.setdefault(recording.selected_by, []).append(recording)
 			
-			with open('recording_info_missing.txt', 'a') as recording_info_text:
+			with open('recording_info_selected.txt', 'a') as recording_info_text:
 				recording_info_text.write(
 					f"------------------------------------------------------------------------ \n")
 				recording_info_text.write(f"Environment {environment_id}:\n")
@@ -90,6 +90,7 @@ class FirebaseUtils:
 						if is_missing_gopro:
 							if recording.id not in missing_gopro_list:
 								continue
+						
 						if recording.activity_id not in self.activity_id_to_activity_name_map:
 							continue
 						activity_name = self.activity_id_to_activity_name_map[recording.activity_id]
@@ -110,99 +111,135 @@ class FirebaseUtils:
 		first_recording = Recording.from_dict(recording)
 		first_recording.id = activity_id + '_' + str(first_recording_num)
 		first_recording.selected_by = recording_one_selected_by
-		first_recording.environment_id = recording_one_environment
+		first_recording.environment = recording_one_environment
 		first_recording.recorded_by = recording_one_selected_by
 		
 		second_recording = Recording.from_dict(recording)
 		second_recording.id = activity_id + '_' + str(second_recording_num)
 		second_recording.selected_by = recording_two_selected_by
-		second_recording.environment_id = recording_two_environment
+		second_recording.environment = recording_two_environment
 		second_recording.recorded_by = recording_two_selected_by
 		
 		self.db_service.update_recording(first_recording)
 		self.db_service.update_recording(second_recording)
+	
+	def change_user_recordings_environment(self, user_id, old_environment_id, new_environment_id):
+		user_recordings = dict(self.db_service.fetch_user_recordings(user_id))
+		user_environment_recordings = []
+		for recording_id, recording_dict in user_recordings.items():
+			recording = Recording.from_dict(recording_dict)
+			if recording.environment == old_environment_id:
+				user_environment_recordings.append(recording)
+		
+		for recording in user_environment_recordings:
+			recording.environment = new_environment_id
+			self.db_service.update_recording(recording)
+			
+	def fetch_all_recordings(self):
+		activities_dict_list = self.db_service.fetch_activities()
+		activities = [Activity.from_dict(activity_dict) for activity_dict in activities_dict_list if activity_dict is not None]
+		
+		for activity in activities:
+			activity_recordings_dict = dict(self.db_service.fetch_all_activity_recordings(activity.id))
+			activity_recordings = [Recording.from_dict(recording_dict) for recording_dict in activity_recordings_dict.values()]
+			
+			with open("activity_recordings.txt", "a") as activity_recordings_file:
+				activity_recordings_file.write(f"------------------------------------------------------------------------ \n")
+				activity_recordings_file.write(f"Activity {activity.id} - {activity.name}:\n")
+				activity_recordings_file.write(f"------------------------------------------------------------------------ \n")
+				for recording in activity_recordings:
+					if recording.selected_by == -1:
+						continue
+					activity_recordings_file.write(f"\t{recording.id} recorded at {recording.environment} by {recording.selected_by} on {recording.recording_info.start_time}\n")
+				activity_recordings_file.write("\n\n")
 
 
 if __name__ == '__main__':
 	firebase_utils = FirebaseUtils()
-	# firebase_utils.process_environment_recordings(is_missing_gopro=True)
-	
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='1_43',
-	# 	recording_one_environment=1,
-	# 	recording_one_selected_by=7,
-	# 	recording_two_environment=1,
-	# 	recording_two_selected_by=7
-	# )
-	
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='7_35',
-	# 	recording_one_environment=1,
-	# 	recording_one_selected_by=1,
-	# 	recording_two_environment=1,
-	# 	recording_two_selected_by=1
-	# )
-	
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='9_8',
-	# 	recording_one_environment=9,
-	# 	recording_one_selected_by=7,
-	# 	recording_two_environment=2,
-	# 	recording_two_selected_by=7
-	# )
-	
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='12_19',
-	# 	recording_one_environment=6,
-	# 	recording_one_selected_by=3,
-	# 	recording_two_environment=6,
-	# 	recording_two_selected_by=5
-	# )
+	# firebase_utils.fetch_all_recordings()
+	firebase_utils.process_environment_recordings(is_missing_gopro=False)
+# firebase_utils.change_user_recordings_environment(
+# 	user_id=8,
+# 	old_environment_id=2,
+# 	new_environment_id=2
+# )
 
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='18_1',
-	# 	recording_one_environment=1,
-	# 	recording_one_selected_by=8,
-	# 	recording_two_environment=6,
-	# 	recording_two_selected_by=8
-	# )
-	
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='21_3',
-	# 	recording_one_environment=1,
-	# 	recording_one_selected_by=1,
-	# 	recording_two_environment=1,
-	# 	recording_two_selected_by=1
-	# )
-	
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='25_9',
-	# 	recording_one_environment=6,
-	# 	recording_one_selected_by=2,
-	# 	recording_two_environment=7,
-	# 	recording_two_selected_by=5
-	# )
-	
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='26_36',
-	# 	recording_one_environment=7,
-	# 	recording_one_selected_by=6,
-	# 	recording_two_environment=6,
-	# 	recording_two_selected_by=2
-	# )
-	
-	# firebase_utils.tackle_recording_repetition(
-	# 	recording_id='29_29',
-	# 	recording_one_environment=7,
-	# 	recording_one_selected_by=8,
-	# 	recording_two_environment=7,
-	# 	recording_two_selected_by=1
-	# )
-
-	firebase_utils.tackle_recording_repetition(
-		recording_id='1_36',
-		recording_one_environment=1,
-		recording_one_selected_by=3,
-		recording_two_environment=1,
-		recording_two_selected_by=3
-	)
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='1_43',
+# 	recording_one_environment=1,
+# 	recording_one_selected_by=7,
+# 	recording_two_environment=1,
+# 	recording_two_selected_by=7
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='7_35',
+# 	recording_one_environment=1,
+# 	recording_one_selected_by=1,
+# 	recording_two_environment=1,
+# 	recording_two_selected_by=1
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='9_8',
+# 	recording_one_environment=9,
+# 	recording_one_selected_by=7,
+# 	recording_two_environment=2,
+# 	recording_two_selected_by=7
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='12_19',
+# 	recording_one_environment=6,
+# 	recording_one_selected_by=3,
+# 	recording_two_environment=6,
+# 	recording_two_selected_by=5
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='18_1',
+# 	recording_one_environment=1,
+# 	recording_one_selected_by=8,
+# 	recording_two_environment=6,
+# 	recording_two_selected_by=8
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='21_3',
+# 	recording_one_environment=1,
+# 	recording_one_selected_by=1,
+# 	recording_two_environment=1,
+# 	recording_two_selected_by=1
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='25_9',
+# 	recording_one_environment=6,
+# 	recording_one_selected_by=2,
+# 	recording_two_environment=7,
+# 	recording_two_selected_by=5
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='26_36',
+# 	recording_one_environment=7,
+# 	recording_one_selected_by=6,
+# 	recording_two_environment=6,
+# 	recording_two_selected_by=2
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='29_29',
+# 	recording_one_environment=7,
+# 	recording_one_selected_by=8,
+# 	recording_two_environment=7,
+# 	recording_two_selected_by=1
+# )
+#
+# firebase_utils.tackle_recording_repetition(
+# 	recording_id='1_36',
+# 	recording_one_environment=1,
+# 	recording_one_selected_by=3,
+# 	recording_two_environment=1,
+# 	recording_two_selected_by=3
+# )

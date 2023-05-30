@@ -1,6 +1,7 @@
 import os
 import yaml
 
+from ..models.environment import Environment
 from ..services.firebase_service import FirebaseService
 from ..models.activity import Activity
 from ..models.recording import Recording
@@ -116,3 +117,21 @@ class ActivityRecordingsIngestion(FirebaseIngestion):
 				self.db_service.update_recording(recording)
 			
 			logger.info("----------------------------------------")
+			
+			
+class EnvironmentIngestion(FirebaseIngestion):
+	
+	def __init__(self, data_directory, remove_past_data=False):
+		super().__init__(data_directory, remove_past_data)
+	
+	def ingest(self):
+		if self.remove_past_data:
+			self.db_service.remove_all_environments()
+		
+		environments_yaml_file_path = os.path.join(self.data_directory, const.ENVIRONMENTS_YAML_FILE_NAME)
+		with open(environments_yaml_file_path, 'r') as environments_yaml_file:
+			environments_data = yaml.safe_load(environments_yaml_file)
+		
+		for environment_data in environments_data:
+			environment = Environment.from_dict(environment_data)
+			self.db_service.update_environment(environment)

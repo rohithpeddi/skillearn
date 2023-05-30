@@ -14,6 +14,7 @@ from app.models.recording import Recording
 from app.models.user import User
 from app.services import async_service
 from app.utils.logger_config import setup_logging, get_logger
+from datacollection.user_app.backend.app.models.environment import Environment
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
@@ -304,6 +305,57 @@ def stop_activity_recording(recording_id, subprocess_id):
 		return "An error occurred: " + str(e), 500
 
 
+# --------------------------------------------------------------------------------------------
+# -------------------------------------- REVIEW -----------------------------------------
+
+@app.route('/api/users/<int:user_id>/review/recordings', methods=['GET'])
+def fetch_user_review_recordings(user_id):
+	try:
+		user_recordings = dict(db_service.fetch_user_recordings(user_id))
+		
+		environments_list = db_service.fetch_environments()
+		environments = [Environment.from_dict(environment) for environment in environments_list if
+		                environment is not None]
+		
+		activities_list = db_service.fetch_activities()
+		activities = [Activity.from_dict(activity) for activity in activities_list if activity is not None]
+		activity_id_name_map = {activity.id: activity.name for activity in activities}
+		
+		recordings_review_dict = []
+		for environment in environments:
+			if environment.get_user_environment(user_id) is None:
+				continue
+			
+			current_environment_name = environment.get_user_environment(
+				user_id).get_environment_name()
+			
+			environment_recording_review_dict = {const.ENVIRONMENT_NAME: current_environment_name}
+			
+			environment_recordings = []
+			
+			for recording_id, user_recording_dict in user_recordings.items():
+				recording = Recording.from_dict(user_recording_dict)
+				if recording.environment == environment.get_id():
+					if recording.activity_id not in activity_id_name_map:
+						continue
+					user_environment_recording_dict = {
+						const.RECORDING: recording.to_dict(),
+						const.ACTIVITY_NAME: activity_id_name_map[recording.activity_id]
+					}
+					environment_recordings.append(user_environment_recording_dict)
+			environment_recording_review_dict[const.ENVIRONMENT_RECORDINGS] = environment_recordings
+			recordings_review_dict.append(environment_recording_review_dict)
+		return jsonify(recordings_review_dict)
+	except Exception as e:
+		logger.error("An error occurred: " + str(e))
+		return "An error occurred: " + str(e), 500
+
+
+# def test():
+# 	recordings_review_dict = fetch_user_recordings(1)
+
+
 # IMPORTANT - After every schedule change the current environment parameter in Firebase Directly
 if __name__ == "__main__":
 	app.run(threaded=True, host='0.0.0.0', port=5000)
+	# test()

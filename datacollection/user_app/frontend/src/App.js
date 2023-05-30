@@ -84,6 +84,19 @@ const App = () => {
                                 }
                             />
                             <Route
+                                path="/review"
+                                element={
+                                    <Recording
+                                        userData={userData}
+                                        environment={environment}
+                                        activities={activities}
+                                        setUserData={setUserData}
+                                        setEnvironment={setEnvironment}
+                                        setActivities={setActivities}
+                                    />
+                                }
+                            />
+                            <Route
                                 path="/annotation"
                                 element={
                                     <Annotation

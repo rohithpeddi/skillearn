@@ -47,11 +47,6 @@
     - id: 7
       username: qifan
       environment_name: akshay
-- id: 3
-  users:
-    - id: 7
-      username: qifan
-      environment_name: shivvrat
     - id: 8
       username: vasundhara
       environment_name: akshay
@@ -75,6 +70,9 @@
     - id: 6
       username: jikai
       environment_name: shivvrat
+    - id: 7
+      username: qifan
+      environment_name: shivvrat
     - id: 8
       username: vasundhara
       environment_name: shivvrat
@@ -92,12 +90,6 @@
     - id: 4
       username: likhitha
       environment_name: bharath
-    - id: 5
-      username: akshay
-      environment_name: aksahyfriend
-    - id: 6
-      username: jikai
-      environment_name: jikai
     - id: 7
       username: qifan
       environment_name: bharath
@@ -126,3 +118,13 @@
     - id: 7
       username: qifan
       environment_name: qifan
+- id: 10
+  users:
+    - id: 6
+      username: jikai
+      environment_name: jikai
+- id: 11
+  users:
+    - id: 5
+      username: akshay
+      environment_name: mohammed
