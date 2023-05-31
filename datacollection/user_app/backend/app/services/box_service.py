@@ -2,6 +2,7 @@ import os
 
 from boxsdk import Client, CCGAuth
 
+from datacollection.user_app.backend.app.models.annotation import Annotation
 from ..models.activity import Activity
 from ..services.firebase_service import FirebaseService
 from ..models.recording import Recording
@@ -158,11 +159,13 @@ class BoxService:
 		pretrained_feature_folder_id = self._fetch_subfolder(recording_folder_id, const.PRETRAINED_FEATURES)
 		self.client.folder(folder_id=pretrained_feature_folder_id).upload(file_path)
 		
-	def upload_annotations(self, recording, file_path):
-		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[recording.activity_id])
-		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording.id)
+	def upload_annotation(self, annotation: Annotation, backup_annotation_file_path):
+		recording_id = annotation.recording_id
+		activity_id = recording_id.split('_')[0]
+		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[activity_id])
+		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording_id)
 		annotations_folder_id = self._fetch_subfolder(recording_folder_id, const.ANNOTATIONS)
-		self.client.folder(folder_id=annotations_folder_id).upload(file_path)
+		self.client.folder(folder_id=annotations_folder_id).upload(backup_annotation_file_path)
 
 
 if __name__ == '__main__':

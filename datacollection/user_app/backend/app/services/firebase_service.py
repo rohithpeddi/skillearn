@@ -119,14 +119,42 @@ class FirebaseService:
 	def update_environment(self, environment: Environment):
 		self.db.child(const.ENVIRONMENTS).child(environment.get_id()).set(environment.to_dict())
 		logger.info(f"Updated environment in the firebase - {environment.__str__()}")
-		
+	
 	def fetch_environments(self):
 		return self.db.child(const.ENVIRONMENTS).get().val()
-		
+	
 	def remove_all_environments(self):
 		self.db.child(const.ENVIRONMENTS).remove()
 	
+	# ---------------------- END USER ENVIRONMENT ----------------------
 	
+	# ---------------------- BEGIN ANNOTATIONS ----------------------
+	def fetch_annotation_assignment(self):
+		return self.db.child(const.ANNOTATION_ASSIGNMENTS).get().val()
+	
+	def update_annotation_assignment(self, annotation_assignment):
+		self.db.child(const.ANNOTATION_ASSIGNMENTS).child(annotation_assignment.user_id).set(annotation_assignment.to_dict())
+		logger.info(f"Updated annotation assignment in the firebase - {annotation_assignment.__str__()}")
+		
+	def remove_all_annotation_assignments(self):
+		self.db.child(const.ANNOTATION_ASSIGNMENTS).remove()
+		
+	def fetch_user_annotation_assignment(self, user_id):
+		return self.db.child(const.ANNOTATION_ASSIGNMENTS).child(user_id).get().val()
+	
+	def update_annotation(self, annotation):
+		self.db.child(const.ANNOTATIONS).child(annotation.id).set(annotation.to_dict())
+		logger.info(f"Updated annotation in the firebase - {annotation.__str__()}")
+		
+	def fetch_annotations(self):
+		return self.db.child(const.ANNOTATIONS).get().val()
+	
+	def fetch_annotation(self, annotation_id):
+		return self.db.child(const.ANNOTATIONS).child(annotation_id).get().val()
+	
+	def delete_annotation(self, annotation_id):
+		self.db.child(const.ANNOTATIONS).child(annotation_id).remove()
+
 
 if __name__ == "__main__":
 	db_service = FirebaseService()

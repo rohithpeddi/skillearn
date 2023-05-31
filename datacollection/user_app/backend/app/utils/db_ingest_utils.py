@@ -1,6 +1,7 @@
 import os
 import yaml
 
+from ..models.annotation_assignment import AnnotationAssignment
 from ..models.environment import Environment
 from ..services.firebase_service import FirebaseService
 from ..models.activity import Activity
@@ -135,3 +136,21 @@ class EnvironmentIngestion(FirebaseIngestion):
 		for environment_data in environments_data:
 			environment = Environment.from_dict(environment_data)
 			self.db_service.update_environment(environment)
+
+
+class AnnotationAssignmentIngestion(FirebaseIngestion):
+	
+	def __init__(self, data_directory, remove_past_data=False):
+		super().__init__(data_directory, remove_past_data)
+	
+	def ingest(self):
+		if self.remove_past_data:
+			self.db_service.remove_all_annotation_assignments()
+		
+		annotation_assignment_yaml_file_path = os.path.join(self.data_directory, const.ANNOTATION_ASSIGNMENT_YAML_FILE_NAME)
+		with open(annotation_assignment_yaml_file_path, 'r') as annotations_yaml_file:
+			annotation_assignment_data = yaml.safe_load(annotations_yaml_file)
+		
+		for annotation_assignment_data in annotation_assignment_data:
+			annotation_assignment = AnnotationAssignment.from_dict(annotation_assignment_data)
+			self.db_service.update_annotation_assignment(annotation_assignment)

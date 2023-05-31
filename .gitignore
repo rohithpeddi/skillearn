@@ -5,6 +5,8 @@ __pycache__/
 .idea/
 
 datacollection/error/data/
+datacollection/user_app/backend/info_files/project_xmls/
+datacollection/user_app/backend/info_files/annotations_backup/
 
 data/
 # C extensions

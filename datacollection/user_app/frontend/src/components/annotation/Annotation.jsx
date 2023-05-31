@@ -1,3 +1,0 @@
-const Annotation = () => {
-//    Import AppBar
-}

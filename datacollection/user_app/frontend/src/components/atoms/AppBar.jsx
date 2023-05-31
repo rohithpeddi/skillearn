@@ -23,8 +23,10 @@ const AppBar = ({ userData }) => {
 				navigate("/review");
 				break;
 			case 4:
-				// TODO: Currently no annotation page
-				navigate("/");
+				navigate("/labelstudio");
+				break;
+			case 5:
+				navigate("/actionannotation");
 				break;
 			default:
 				break;
@@ -46,7 +48,8 @@ const AppBar = ({ userData }) => {
 							<Tab label="Preferences" />
 							<Tab label="Recording" />
 							<Tab label="Review" />
-							<Tab label="Annotation" />
+							<Tab label="Label Studio" />
+							<Tab label="Action Annotation" />
 						</Tabs>
 						<button className="logout-button" onClick={handleLogout}>
 							Logout

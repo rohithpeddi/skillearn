@@ -2,7 +2,6 @@ import os
 import sys
 
 
-
 def generate_recipe_xml(steps: list, recording_id: str):
     xml_string = '<View>\n'
     xml_string += f'  <Header value="Labeling Recording ID {recording_id}"/>\n'

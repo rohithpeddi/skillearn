@@ -1,4 +1,4 @@
-from datacollection.user_app.backend.app.utils.db_ingest_utils import ActivitiesIngestion, UserIngestion, EnvironmentIngestion
+from datacollection.user_app.backend.app.utils.db_ingest_utils import ActivitiesIngestion, UserIngestion, EnvironmentIngestion, AnnotationAssignmentIngestion
 import os
 
 if __name__ == "__main__":
@@ -11,5 +11,8 @@ if __name__ == "__main__":
 	# activities_ingestion = ActivitiesIngestion(info_directory, remove_past_data=True)
 	# activities_ingestion.ingest()
 	
-	environment_ingestion = EnvironmentIngestion(info_directory, remove_past_data=True)
-	environment_ingestion.ingest()
+	# environment_ingestion = EnvironmentIngestion(info_directory, remove_past_data=True)
+	# environment_ingestion.ingest()
+	
+	annotation_assignment_ingestion = AnnotationAssignmentIngestion(info_directory, remove_past_data=True)
+	annotation_assignment_ingestion.ingest()

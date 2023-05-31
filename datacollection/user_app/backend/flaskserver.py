@@ -15,10 +15,14 @@ from app.models.user import User
 from app.services import async_service
 from app.utils.logger_config import setup_logging, get_logger
 from app.models.environment import Environment
+from app.models.annotation_assignment import AnnotationAssignment
+from app.services.label_studio_service import LabelStudioService
+from app.models.annotation import Annotation
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 db_service = FirebaseService()
+label_studio_service = LabelStudioService()
 setup_logging()
 logger = get_logger(__name__)
 
@@ -338,7 +342,7 @@ def fetch_user_review_recordings(user_id):
 				if recording.environment == environment.get_id():
 					if recording.activity_id not in activity_id_name_map:
 						continue
-						
+					
 					user_environment_recording_dict = {
 						const.RECORDING: recording.to_dict(),
 						const.ACTIVITY_NAME: activity_id_name_map[recording.activity_id],
@@ -348,6 +352,121 @@ def fetch_user_review_recordings(user_id):
 			environment_recording_review_dict[const.ENVIRONMENT_RECORDINGS] = environment_recordings
 			recordings_review_dict.append(environment_recording_review_dict)
 		return jsonify(recordings_review_dict)
+	except Exception as e:
+		logger.error("An error occurred: " + str(e))
+		return "An error occurred: " + str(e), 500
+
+
+# --------------------------------------------------------------------------------------------
+# -------------------------------------- ANNOTATION -----------------------------------------
+
+@app.route('/api/users/<int:user_id>/annotation/assignments', methods=['GET'])
+def fetch_user_annotation_assignments(user_id):
+	try:
+		user_annotation_assignment = db_service.fetch_user_annotation_assignment(user_id)
+		annotation_assignment = AnnotationAssignment.from_dict(user_annotation_assignment)
+		
+		annotation_assignment_list = []
+		for activity_id in annotation_assignment.activities:
+			activity_recordings_dict = {}
+			activity_recordings_dict = dict(db_service.fetch_all_activity_recordings(activity_id))
+			activity_recordings = [Recording.from_dict(recording) for recording in activity_recordings_dict.values()]
+			filtered_activity_recordings = []
+			for recording in activity_recordings:
+				if 0 < recording.selected_by < 9:
+					filtered_activity_recordings.append(recording)
+			
+			activity_recordings_dict[const.ACTIVITY_ID] = activity_id
+			activity_recordings_dict[const.RECORDINGS] = [recording.to_dict() for recording in filtered_activity_recordings]
+			annotation_assignment_list.append(activity_recordings_dict)
+		
+		return jsonify(annotation_assignment_list)
+	except Exception as e:
+		logger.error("An error occurred: " + str(e))
+		return "An error occurred: " + str(e), 500
+
+
+# 1. Create all activity projects
+@app.route('/api/users/<int:user_id>/annotation/activities/<int:activity_id>/projects', methods=['POST'])
+def create_activity_annotation_projects(user_id, activity_id):
+	try:
+		activity_recordings = db_service.fetch_all_activity_recordings(activity_id)
+		activity_recordings = [Recording.from_dict(recording) for recording in activity_recordings]
+		
+		activity_annotation_projects = []
+		for recording in activity_recordings:
+			label_studio_project_id = label_studio_service.generate_project(recording)
+			annotation = Annotation(recording.id, user_id, label_studio_project_id)
+			db_service.update_annotation(annotation)
+			activity_annotation_projects.append(annotation.response_to_dict())
+		return jsonify(activity_annotation_projects)
+	except Exception as e:
+		logger.error("An error occurred: " + str(e))
+		return "An error occurred: " + str(e), 500
+
+
+# 2. Create a single project for a recording of a particular activity
+@app.route('/api/users/<int:user_id>/annotation/recording/<recording_id>/project', methods=['POST'])
+def create_recording_annotation_project(user_id, recording_id):
+	try:
+		recording = Recording.from_dict(db_service.fetch_recording(recording_id))
+		label_studio_project_id = label_studio_service.generate_project(recording)
+		annotation = Annotation(recording.id, user_id, label_studio_project_id)
+		db_service.update_annotation(annotation)
+		return jsonify(annotation.response_to_dict())
+	except Exception as e:
+		logger.error("An error occurred: " + str(e))
+		return "An error occurred: " + str(e), 500
+
+
+# 3. Backup all annotations of a project
+@app.route('/api/users/<int:user_id>/annotation/activities/<int:activity_id>/backup/projects', methods=['POST'])
+def backup_activity_annotation_projects(user_id, activity_id):
+	try:
+		activity_recordings = db_service.fetch_all_activity_recordings(activity_id)
+		activity_recordings = [Recording.from_dict(recording) for recording in activity_recordings]
+		
+		for recording in activity_recordings:
+			annotation_id = recording.id + "_" + str(user_id)
+			annotation = Annotation.from_dict(db_service.fetch_annotation(annotation_id))
+			label_studio_service.backup_annotations_project(annotation)
+		
+		return jsonify({const.STATUS: const.SUCCESS})
+	except Exception as e:
+		logger.error("An error occurred: " + str(e))
+		return "An error occurred: " + str(e), 500
+
+
+# 4. Backup a single project
+@app.route('/api/users/<int:user_id>/annotation/recording/<recording_id>/backup/project', methods=['POST'])
+def backup_recording_annotation_project(user_id, recording_id):
+	try:
+		recording = Recording.from_dict(db_service.fetch_recording(recording_id))
+		annotation_id = recording.id + "_" + str(user_id)
+		annotation = Annotation.from_dict(db_service.fetch_annotation(annotation_id))
+		label_studio_service.backup_annotations_project(annotation)
+	except Exception as e:
+		logger.error("An error occurred: " + str(e))
+		return "An error occurred: " + str(e), 500
+
+
+# 5. Delete all activity projects
+@app.route('/api/users/<int:user_id>/annotation/activities/<int:activity_id>/backup/projects', methods=['POST'])
+def delete_activity_annotation_projects(user_id, activity_id):
+	try:
+		label_studio_service.delete_all_activity_annotations_projects(activity_id, user_id)
+	except Exception as e:
+		logger.error("An error occurred: " + str(e))
+		return "An error occurred: " + str(e), 500
+
+
+# 6. Delete a project
+@app.route('/api/users/<int:user_id>/annotation/recording/<recording_id>/delete/project', methods=['POST'])
+def delete_recording_annotation_project(user_id, recording_id):
+	try:
+		annotation_id = recording_id + "_" + str(user_id)
+		annotation = Annotation.from_dict(db_service.fetch_annotation(annotation_id))
+		label_studio_service.delete_annotation_project(annotation)
 	except Exception as e:
 		logger.error("An error occurred: " + str(e))
 		return "An error occurred: " + str(e), 500
