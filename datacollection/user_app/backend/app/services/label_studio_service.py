@@ -26,14 +26,12 @@ class LabelStudioService:
 		self.box_service = BoxService()
 		
 		self.label_studio_client = Client(url=const.LABEL_STUDIO_URL, api_key=const.LABEL_STUDIO_API_AUTH_TOKEN)
-		self.activity_xml_directory = "../../info_files/project_xmls"
+		self.activity_xml_directory = "./info_files/project_xmls"
 		create_directories(self.activity_xml_directory)
-		self.annotations_backup_directory = "../../info_files/annotations_backup"
+		self.annotations_backup_directory = "./info_files/annotations_backup"
 		create_directories(self.annotations_backup_directory)
 	
 	def _save_activity_xml(self, activity_xml, recording):
-		# Save the created activity XML to a file.
-		
 		logger.info(f'Saving activity XML for recording {recording.id}')
 		with open(f'{self.activity_xml_directory}/{recording.id}.xml', 'w') as file:
 			file.write(activity_xml)
@@ -80,10 +78,10 @@ class LabelStudioService:
 		# TODO: Add other things like error tags and description information
 		step_array = []
 		for idx, step in enumerate(recording.steps):
-			if 'modified_description' not in step:
-				description = step['description']
+			if step.modified_description is None or step.modified_description == '':
+				description = step.description
 			else:
-				description = step['modified_description']
+				description = step.modified_description
 			step_array.append({'step_number': idx, 'modified_description': description})
 		
 		xml_string = '<View>\n'
@@ -109,8 +107,8 @@ class LabelStudioService:
 		return xml_string
 	
 	def fetch_project_id_to_annotation_map(self):
-		annotations = self.db_service.fetch_annotations()
-		annotations = [Annotation.from_dict(annotation) for annotation in annotations]
+		annotations = dict(self.db_service.fetch_annotations())
+		annotations = [Annotation.from_dict(annotation) for annotation in annotations.values()]
 		
 		project_id_to_annotation_map = {}
 		for annotation in annotations:
@@ -186,5 +184,5 @@ class LabelStudioService:
 		for project in projects:
 			annotation = project_id_to_annotation_map[project.id]
 			annotation_activity_id = annotation.recording_id.split('_')[0]
-			if annotation_activity_id == activity_id and annotation.user_id == user_id:
+			if str(annotation_activity_id) == str(activity_id) and str(annotation.user_id) == str(user_id):
 				self.delete_annotation_project(project_id_to_annotation_map[project.id])

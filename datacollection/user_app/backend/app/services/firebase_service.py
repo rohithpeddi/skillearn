@@ -143,7 +143,7 @@ class FirebaseService:
 		return self.db.child(const.ANNOTATION_ASSIGNMENTS).child(user_id).get().val()
 	
 	def update_annotation(self, annotation):
-		self.db.child(const.ANNOTATIONS).child(annotation.id).set(annotation.to_dict())
+		self.db.child(const.ANNOTATIONS).child(annotation.annotation_id).set(annotation.to_dict())
 		logger.info(f"Updated annotation in the firebase - {annotation.__str__()}")
 		
 	def fetch_annotations(self):

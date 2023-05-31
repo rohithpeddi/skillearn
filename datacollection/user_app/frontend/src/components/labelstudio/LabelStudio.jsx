@@ -37,27 +37,75 @@ const LabelStudio = (props) => {
 	}, [activities]);
 	
 	const handleCreateProjectsButtonClick = (annotationActivity) => {
-
+		let url = `${API_BASE_URL}/users/${userData.id}/annotation/activities/${annotationActivity.activity_id}/create/projects`;
+		axios.post(url)
+			.then((response) => {
+				alert('Successfully created projects for activity: ' + annotationActivity.activity_id)
+			})
+			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
+				console.error('Error during API call:', apiError);
+			});
 	}
 	
 	const handleDeleteProjectsButtonClick = (annotationActivity) => {
-
+		let url = `${API_BASE_URL}/users/${userData.id}/annotation/activities/${annotationActivity.activity_id}/delete/projects`;
+		axios.post(url)
+			.then((response) => {
+				alert('Successfully deleted projects for activity: ' + annotationActivity.activity_id)
+			})
+			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
+				console.error('Error during API call:', apiError);
+			});
 	}
 	
 	const handleBackupAnnotationsButtonClick = (annotationActivity) => {
-
+		let url = `${API_BASE_URL}/users/${userData.id}/annotation/activities/${annotationActivity.activity_id}/backup/projects`;
+		axios.post(url)
+			.then((response) => {
+				alert('Successfully backed up projects for activity: ' + annotationActivity.activity_id)
+			})
+			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
+				console.error('Error during API call:', apiError);
+			});
 	}
 	
-	const handleCreateRecordingProjectButtonClick = (annotationActivitiyRecording) => {
-
+	const handleCreateRecordingProjectButtonClick = (annotationActivityRecording) => {
+		let url = `${API_BASE_URL}/users/${userData.id}/annotation/recording/${annotationActivityRecording.id}/create/project`;
+		axios.post(url)
+			.then((response) => {
+				alert('Successfully created project for recording: ' + annotationActivityRecording.id)
+			})
+			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
+				console.error('Error during API call:', apiError);
+			});
 	}
 	
-	const handleDeleteRecordingProjectButtonClick = (annotationActivitiyRecording) => {
-
+	const handleDeleteRecordingProjectButtonClick = (annotationActivityRecording) => {
+		let url = `${API_BASE_URL}/users/${userData.id}/annotation/recording/${annotationActivityRecording.id}/delete/project`;
+		axios.post(url)
+			.then((response) => {
+				alert('Successfully deleted project for recording: ' + annotationActivityRecording.id)
+			})
+			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
+				console.error('Error during API call:', apiError);
+			});
 	}
 	
-	const handleBackupRecordingAnnotationButtonClick = (annotationActivitiyRecording) => {
-
+	const handleBackupRecordingAnnotationButtonClick = (annotationActivityRecording) => {
+		let url = `${API_BASE_URL}/users/${userData.id}/annotation/recording/${annotationActivityRecording.id}/backup/project`;
+		axios.post(url)
+			.then((response) => {
+				alert('Successfully backed up project for recording: ' + annotationActivityRecording.id)
+			})
+			.catch((apiError) => {
+				alert('Error during API call: ' + apiError)
+				console.error('Error during API call:', apiError);
+			});
 	}
 	
 	
@@ -80,18 +128,18 @@ const LabelStudio = (props) => {
 									<thead>
 									<tr>
 										<th>{activityIdToActivityNameMap[annotationActivity.activity_id]}</th>
-										<th><button className="labelStudioButtonCreate" onClick={(annotationActivity) => handleCreateProjectsButtonClick(annotationActivity)}>Create Projects</button></th>
-										<th><button className="labelStudioButtonDelete" onClick={(annotationActivity) => handleDeleteProjectsButtonClick(annotationActivity)}>Delete Projects</button></th>
-										<th><button className="labelStudioButtonBackup" onClick={(annotationActivity) => handleBackupAnnotationsButtonClick(annotationActivity)}>Backup Annotations</button></th>
+										<th><button className="labelStudioButtonCreate" onClick={() => handleCreateProjectsButtonClick(annotationActivity)}>Create Projects</button></th>
+										<th><button className="labelStudioButtonBackup" onClick={() => handleBackupAnnotationsButtonClick(annotationActivity)}>Backup Annotations</button></th>
+										<th><button className="labelStudioButtonDelete" onClick={() => handleDeleteProjectsButtonClick(annotationActivity)}>Delete Projects</button></th>
 									</tr>
 									</thead>
 									<tbody>
 									{annotationActivity.recordings.map((annotationActivityRecording, annotationActivityRecordingIndex) => (
 										<tr key={annotationActivityRecordingIndex}>
 											<td>{annotationActivityRecording.id}</td>
-											<td><button className="labelStudioButtonCreate" onClick={(annotationActivityRecording) => handleCreateRecordingProjectButtonClick(annotationActivityRecording)}>Create Recording Project</button></td>
-											<td><button className="labelStudioButtonDelete" onClick={(annotationActivityRecording) => handleDeleteRecordingProjectButtonClick(annotationActivityRecording)}>Delete Recording Project</button></td>
-											<td><button className="labelStudioButtonBackup" onClick={(annotationActivityRecording) => handleBackupRecordingAnnotationButtonClick(annotationActivityRecording)}>Backup Recording Annotation</button></td>
+											<td><button className="labelStudioButtonCreate" onClick={() => handleCreateRecordingProjectButtonClick(annotationActivityRecording)}>Create Recording Project</button></td>
+											<td><button className="labelStudioButtonBackup" onClick={() => handleBackupRecordingAnnotationButtonClick(annotationActivityRecording)}>Backup Recording Annotation</button></td>
+											<td><button className="labelStudioButtonDelete" onClick={() => handleDeleteRecordingProjectButtonClick(annotationActivityRecording)}>Delete Recording Project</button></td>
 										</tr>
 									))}
 									</tbody>
