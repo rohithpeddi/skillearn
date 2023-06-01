@@ -1,5 +1,6 @@
 import json
 import os
+import random
 import time
 
 from .box_service import BoxService
@@ -17,6 +18,10 @@ logger = get_logger(__name__)
 def create_directories(dir_path):
 	if not os.path.exists(dir_path):
 		os.makedirs(dir_path)
+
+
+def generate_random_color():
+	return '#' + ''.join([random.choice('0123456789ABCDEF') for _ in range(6)])
 
 
 class LabelStudioService:
@@ -75,14 +80,22 @@ class LabelStudioService:
 		return label_studio_project.id
 	
 	def generate_activity_xml(self, recording: Recording):
-		# TODO: Add other things like error tags and description information
 		step_array = []
 		for idx, step in enumerate(recording.steps):
+			step_alias = ''
+			if step.errors is not None and len(step.errors) > 0:
+				for error in step.errors:
+					step_alias += f' (ErrorTag:{error.tag}, ErrorDescription:{error.description}),'
+				step_alias += f' (StepDescription: {step.description})'
+			
 			if step.modified_description is None or step.modified_description == '':
 				description = step.description
+				step_alias += f' (StepDescription: {step.description})'
 			else:
 				description = step.modified_description
-			step_array.append({'step_number': idx, 'modified_description': description})
+				step_alias += f', (StepModifiedDescription: {step.modified_description})'
+
+			step_array.append({'step_number': idx, 'modified_description': description, 'step_alias': step_alias})
 		
 		xml_string = '<View>\n'
 		xml_string += f'  <Header value="Labeling Recording ID {recording.id}"/>\n'
@@ -93,9 +106,9 @@ class LabelStudioService:
 		xml_string += '      <Filter toName="action" minlength="0" name="filter"/>\n'
 		xml_string += '      <Labels name="action" toName="audio" choice="single" showInline="true">\n'
 		xml_string += '        <Label value="Type Action." background="#000000"/>\n'
-		# TODO: Add Alias for each step
 		for activity_step in step_array:
-			xml_string += f"<Label value=\"S{activity_step['step_number']}: {activity_step['modified_description']}\"  background=\"#FF0000\"/>\n"
+			random_color = generate_random_color()
+			xml_string += f"<Label alias=\"{activity_step['step_alias']}\" value=\"S{activity_step['step_number']}: {activity_step['modified_description']}\"  background=\"{random_color}\"/>\n"
 		xml_string += '      </Labels>\n'
 		xml_string += '    </View>\n'
 		xml_string += '  </View>\n'
