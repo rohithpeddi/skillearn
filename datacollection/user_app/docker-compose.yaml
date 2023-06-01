@@ -18,7 +18,7 @@ services:
     volumes:
       - ./backend_logs:/app/logs
     ports:
-      - "8000:8000"
+      - "7000:7000"
     restart: unless-stopped
 
   nginx:

@@ -3,7 +3,7 @@ import time
 
 from boxsdk import Client, CCGAuth
 
-from datacollection.user_app.backend.app.models.annotation import Annotation
+from ..models.annotation import Annotation
 from ..models.activity import Activity
 from ..services.firebase_service import FirebaseService
 from ..models.recording import Recording
