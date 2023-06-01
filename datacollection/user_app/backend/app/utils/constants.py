@@ -373,8 +373,6 @@ class Environment_Constants:
 class Annotation_Constants:
 	VIDEO_DIRECTORY = "video_directory"
 	
-	LOCAL_VIDEO_DIRECTORY_PATH = "D:\DATA\COLLECTED\PTG\ERROR-DATASET\ERROR-DATASET"
-	
 	USER_ID = "user_id"
 	USERNAME = "username"
 	ACTIVITIES = "activities"
@@ -385,4 +383,5 @@ class Annotation_Constants:
 	LABEL_STUDIO_PROJECT_ID = "label_studio_project_id"
 	
 	LABEL_STUDIO_URL = "http://localhost:8080"
+	LOCAL_VIDEO_DIRECTORY_PATH = "D:\DATA\COLLECTED\PTG\PEDDI"
 	LABEL_STUDIO_API_AUTH_TOKEN = "8120b6dbc45b6be110f92223ab898db63c6e4ce3"

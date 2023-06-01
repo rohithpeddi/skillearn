@@ -1,4 +1,5 @@
 import os
+import time
 
 from boxsdk import Client, CCGAuth
 
@@ -162,10 +163,12 @@ class BoxService:
 	def upload_annotation(self, annotation: Annotation, backup_annotation_file_path):
 		recording_id = annotation.recording_id
 		activity_id = recording_id.split('_')[0]
-		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[activity_id])
+		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[int(activity_id)])
 		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording_id)
 		annotations_folder_id = self._fetch_subfolder(recording_folder_id, const.ANNOTATIONS)
-		self.client.folder(folder_id=annotations_folder_id).upload(backup_annotation_file_path)
+		current_timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+		timed_annotation_folder_id = self._fetch_subfolder(annotations_folder_id, f"{current_timestamp}")
+		self.client.folder(folder_id=timed_annotation_folder_id).upload(backup_annotation_file_path)
 
 
 if __name__ == '__main__':

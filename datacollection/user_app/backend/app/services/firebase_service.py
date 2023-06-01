@@ -153,7 +153,8 @@ class FirebaseService:
 		return self.db.child(const.ANNOTATIONS).child(annotation_id).get().val()
 	
 	def delete_annotation(self, annotation_id):
-		self.db.child(const.ANNOTATIONS).child(annotation_id).remove()
+		logger.info(f"Deleting annotation {annotation_id} is withdrawn")
+		# self.db.child(const.ANNOTATIONS).child(annotation_id).remove()
 
 
 if __name__ == "__main__":

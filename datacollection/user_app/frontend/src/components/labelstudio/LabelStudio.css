@@ -7,6 +7,17 @@
     padding: 20px;
 }
 
+.labelStudioActivityHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Set the background color as desired */
+    padding: 10px; /* Adjust the padding as needed */
+    z-index: 9999; /* Ensure a high z-index value to position it above other elements */
+}
+
+
 .labelStudioHeader {
     margin-bottom: 10px;
 }

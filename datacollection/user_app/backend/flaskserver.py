@@ -437,7 +437,10 @@ def backup_activity_annotation_projects(user_id, activity_id):
 		
 		for recording in activity_recordings:
 			annotation_id = recording.id + "_" + str(user_id)
-			annotation = Annotation.from_dict(db_service.fetch_annotation(annotation_id))
+			annotation_dict = db_service.fetch_annotation(annotation_id)
+			if annotation_dict is None:
+				continue
+			annotation = Annotation.from_dict(annotation_dict)
 			label_studio_service.backup_annotations_project(annotation)
 		
 		return jsonify({const.STATUS: const.SUCCESS})
@@ -452,7 +455,10 @@ def backup_recording_annotation_project(user_id, recording_id):
 	try:
 		recording = Recording.from_dict(db_service.fetch_recording(recording_id))
 		annotation_id = recording.id + "_" + str(user_id)
-		annotation = Annotation.from_dict(db_service.fetch_annotation(annotation_id))
+		annotation_dict = db_service.fetch_annotation(annotation_id)
+		if annotation_dict is None:
+			return jsonify({const.ERROR: "No annotation found for this recording."}), 500
+		annotation = Annotation.from_dict(annotation_dict)
 		label_studio_service.backup_annotations_project(annotation)
 		return jsonify({const.STATUS: const.SUCCESS})
 	except Exception as e:
@@ -476,9 +482,11 @@ def delete_activity_annotation_projects(user_id, activity_id):
 def delete_recording_annotation_project(user_id, recording_id):
 	try:
 		annotation_id = recording_id + "_" + str(user_id)
-		annotation = Annotation.from_dict(db_service.fetch_annotation(annotation_id))
+		annotation_dict = db_service.fetch_annotation(annotation_id)
+		if annotation_dict is None:
+			return jsonify({const.ERROR: "No annotation found for this recording."}), 500
+		annotation = Annotation.from_dict(annotation_dict)
 		label_studio_service.delete_annotation_project(annotation)
-		
 		return jsonify({const.STATUS: const.SUCCESS})
 	except Exception as e:
 		logger.error("An error occurred: " + str(e))

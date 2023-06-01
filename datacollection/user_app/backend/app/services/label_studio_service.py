@@ -129,12 +129,18 @@ class LabelStudioService:
 		label_studio_project = self.label_studio_client.get_project(annotation.label_studio_project_id)
 		
 		annotations = label_studio_project.export_tasks()
+		
+		if len(annotations) == 0:
+			logger.info(f"No annotations found for project '{label_studio_project.title}'")
+			return
+		
 		current_timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
 		
 		project_name = label_studio_project.title.replace('mp4', 'json')
 		
-		timestamped_backup_path = os.path.join(self.annotations_backup_directory, current_timestamp)
-		backup_annotation_file_path = os.path.join(timestamped_backup_path, project_name)
+		backup_annotation_directory_path = f"{self.annotations_backup_directory}/{current_timestamp}"
+		create_directories(backup_annotation_directory_path)
+		backup_annotation_file_path = f"{self.annotations_backup_directory}/{current_timestamp}/{project_name}"
 		
 		with open(backup_annotation_file_path, 'w') as backup_file:
 			json.dump(annotations, backup_file)
