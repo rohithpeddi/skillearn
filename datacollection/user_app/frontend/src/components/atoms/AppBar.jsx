@@ -23,9 +23,12 @@ const AppBar = ({ userData }) => {
 				navigate("/review");
 				break;
 			case 4:
-				navigate("/labelstudio");
+				navigate("/annotationreview");
 				break;
 			case 5:
+				navigate("/labelstudio");
+				break;
+			case 6:
 				navigate("/actionannotation");
 				break;
 			default:
@@ -48,6 +51,7 @@ const AppBar = ({ userData }) => {
 							<Tab label="Preferences" />
 							<Tab label="Recording" />
 							<Tab label="Review" />
+							<Tab label="Annotation Review" />
 							<Tab label="Label Studio" />
 							<Tab label="Action Annotation" />
 						</Tabs>

@@ -365,6 +365,7 @@ class Box_Constants:
 class Environment_Constants:
 	ID = "id"
 	USERS = "users"
+	NAME = "name"
 
 
 # # ---------------------------------------------------------------------------------------

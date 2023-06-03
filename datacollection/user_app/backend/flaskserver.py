@@ -12,7 +12,7 @@ from app.models.activity import Activity
 from app.models.error_tag import ErrorTag
 from app.models.recording import Recording
 from app.models.user import User
-from app.services import async_service
+# from app.services import async_service
 from app.utils.logger_config import setup_logging, get_logger
 from app.models.environment import Environment
 from app.models.annotation_assignment import AnnotationAssignment
@@ -277,21 +277,21 @@ def fetch_stats(user_id):
 # --------------------------------------------------------------------------------------------
 # -------------------------------------- DATA CAPTURE -----------------------------------------
 
-@app.route("/api/start/recording/<recording_id>", methods=['POST'])
-def start_activity_recording(recording_id):
-	# 1. Fetch recording info from the request
-	recording_dict = json.loads(request.data)
-	try:
-		recording = Recording.from_dict(recording_dict)
-		child_subprocess_pid = async_service.create_async_subprocess(recording, const.ACTIVITY_RECORDING,
-		                                                             db_service=db_service)
-		db_service.update_recording(recording)
-		logger.info("Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
-		response = {const.SUBPROCESS_ID: child_subprocess_pid}
-		return jsonify(response)
-	except Exception as e:
-		logger.error("An error occurred: " + str(e))
-		return "An error occurred: " + str(e), 500
+# @app.route("/api/start/recording/<recording_id>", methods=['POST'])
+# def start_activity_recording(recording_id):
+# 	# 1. Fetch recording info from the request
+# 	recording_dict = json.loads(request.data)
+# 	try:
+# 		recording = Recording.from_dict(recording_dict)
+# 		child_subprocess_pid = async_service.create_async_subprocess(recording, const.ACTIVITY_RECORDING,
+# 		                                                             db_service=db_service)
+# 		db_service.update_recording(recording)
+# 		logger.info("Started new asynchronous subprocess with PID - {}".format(child_subprocess_pid))
+# 		response = {const.SUBPROCESS_ID: child_subprocess_pid}
+# 		return jsonify(response)
+# 	except Exception as e:
+# 		logger.error("An error occurred: " + str(e))
+# 		return "An error occurred: " + str(e), 500
 
 
 @app.route("/api/stop/recording/<recording_id>/<int:subprocess_id>", methods=['POST'])
@@ -315,43 +315,72 @@ def stop_activity_recording(recording_id, subprocess_id):
 @app.route('/api/users/<int:user_id>/review/recordings', methods=['GET'])
 def fetch_user_review_recordings(user_id):
 	try:
-		user_recordings = dict(db_service.fetch_user_selections(user_id))
-		
-		environments_list = db_service.fetch_environments()
-		environments = [Environment.from_dict(environment) for environment in environments_list if
-		                environment is not None]
-		
-		activities_list = db_service.fetch_activities()
-		activities = [Activity.from_dict(activity) for activity in activities_list if activity is not None]
-		activity_id_name_map = {activity.id: activity.name for activity in activities}
-		
-		recordings_review_dict = []
-		for environment in environments:
-			if environment.get_user_environment(user_id) is None:
-				continue
+		if user_id == 0:
+			# admin user - fetch all the recordings
+			user_recordings = dict(db_service.fetch_all_selected_recordings())
+			environments_list = db_service.fetch_environments()
+			environments = [Environment.from_dict(environment) for environment in environments_list if
+							environment is not None]
 			
-			current_environment_name = environment.get_user_environment(
-				user_id).get_environment_name()
+			activities_list = db_service.fetch_activities()
+			activities = [Activity.from_dict(activity) for activity in activities_list if activity is not None]
+			activity_id_name_map = {activity.id: activity.name for activity in activities}
 			
-			environment_recording_review_dict = {const.ENVIRONMENT_NAME: current_environment_name}
-			
-			environment_recordings = []
-			
-			for recording_id, user_recording_dict in user_recordings.items():
-				recording = Recording.from_dict(user_recording_dict)
-				if recording.environment == environment.get_id():
+			recordings_review_dict = []
+			for environment in environments:
+				environment_recordings = []
+				environment_recording_review_dict = {const.ENVIRONMENT_NAME: environment.get_name()}
+				for recording_id, user_recording_dict in user_recordings.items():
+					recording = Recording.from_dict(user_recording_dict)
 					if recording.activity_id not in activity_id_name_map:
 						continue
-					
-					user_environment_recording_dict = {
-						const.RECORDING: recording.to_dict(),
-						const.ACTIVITY_NAME: activity_id_name_map[recording.activity_id],
-						const.STATUS: const.UPDATED if recording.selected_by == recording.recorded_by else const.UPDATE_PENDING
-					}
-					environment_recordings.append(user_environment_recording_dict)
-			environment_recording_review_dict[const.ENVIRONMENT_RECORDINGS] = environment_recordings
-			recordings_review_dict.append(environment_recording_review_dict)
-		return jsonify(recordings_review_dict)
+					if recording.environment == environment.get_id():
+						user_environment_recording_dict = {
+							const.RECORDING: recording.to_dict(),
+							const.ACTIVITY_NAME: activity_id_name_map[recording.activity_id],
+							const.STATUS: const.UPDATED if recording.selected_by == recording.recorded_by else const.UPDATE_PENDING
+						}
+						environment_recordings.append(user_environment_recording_dict)
+				environment_recording_review_dict[const.ENVIRONMENT_RECORDINGS] = environment_recordings
+				recordings_review_dict.append(environment_recording_review_dict)
+			return jsonify(recordings_review_dict)
+		else:
+			user_recordings = dict(db_service.fetch_user_selections(user_id))
+			environments_list = db_service.fetch_environments()
+			environments = [Environment.from_dict(environment) for environment in environments_list if
+			                environment is not None]
+			
+			activities_list = db_service.fetch_activities()
+			activities = [Activity.from_dict(activity) for activity in activities_list if activity is not None]
+			activity_id_name_map = {activity.id: activity.name for activity in activities}
+			
+			recordings_review_dict = []
+			for environment in environments:
+				if environment.get_user_environment(user_id) is None:
+					continue
+				
+				current_environment_name = environment.get_user_environment(
+					user_id).get_environment_name()
+				
+				environment_recording_review_dict = {const.ENVIRONMENT_NAME: current_environment_name}
+				
+				environment_recordings = []
+				
+				for recording_id, user_recording_dict in user_recordings.items():
+					recording = Recording.from_dict(user_recording_dict)
+					if recording.environment == environment.get_id():
+						if recording.activity_id not in activity_id_name_map:
+							continue
+						
+						user_environment_recording_dict = {
+							const.RECORDING: recording.to_dict(),
+							const.ACTIVITY_NAME: activity_id_name_map[recording.activity_id],
+							const.STATUS: const.UPDATED if recording.selected_by == recording.recorded_by else const.UPDATE_PENDING
+						}
+						environment_recordings.append(user_environment_recording_dict)
+				environment_recording_review_dict[const.ENVIRONMENT_RECORDINGS] = environment_recordings
+				recordings_review_dict.append(environment_recording_review_dict)
+			return jsonify(recordings_review_dict)
 	except Exception as e:
 		logger.error("An error occurred: " + str(e))
 		return "An error occurred: " + str(e), 500

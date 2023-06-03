@@ -9,6 +9,7 @@ import AdminPage from "./components/admin/AdminPage";
 import Review from "./components/review/Review";
 import LabelStudio from "./components/labelstudio/LabelStudio";
 import ActionAnnotation from "./components/actionannotation/ActionAnnotation";
+import AnnotationReview from "./components/annotationreview/AnnotationReview";
 
 const App = () => {
     const [userData, setUserData] = useState(false);
@@ -89,6 +90,19 @@ const App = () => {
                                 path="/review"
                                 element={
                                     <Review
+                                        userData={userData}
+                                        environment={environment}
+                                        activities={activities}
+                                        setUserData={setUserData}
+                                        setEnvironment={setEnvironment}
+                                        setActivities={setActivities}
+                                    />
+                                }
+                            />
+                            <Route
+                                path="/annotationreview"
+                                element={
+                                    <AnnotationReview
                                         userData={userData}
                                         environment={environment}
                                         activities={activities}

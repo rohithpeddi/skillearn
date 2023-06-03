@@ -34,7 +34,7 @@ const Recording = (props) => {
 			});
 	}, []);
 	
-	const steps = ["Activity Selection", "Activity Preparation", "Activity Recording", "Activity Recording Review"];
+	const steps = ["Activity Selection", "Activity Preparation", "Activity Recording", "Activity Recording AnnotationReview"];
 	
 	const handleNext = () => {
 		if (validateStep(activeStep)) {
@@ -94,7 +94,7 @@ const Recording = (props) => {
 				// Validate Step 3 Recording Recording
 				return true;
 			case 3:
-				// Validate Step 4 Recording Review
+				// Validate Step 4 Recording AnnotationReview
 				return true;
 			default:
 				return false;

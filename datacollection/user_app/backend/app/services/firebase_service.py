@@ -100,6 +100,15 @@ class FirebaseService:
 	def fetch_user_selections(self, user_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.SELECTED_BY).equal_to(user_id).get().val()
 	
+	def fetch_all_selected_recordings(self):
+		all_recordings = self.db.child(const.RECORDINGS).get()
+		selected_recordings = {}
+		for recording in all_recordings.each():
+			if recording.val()[const.SELECTED_BY] != -1:
+				selected_recordings[recording.key()] = recording.val()
+		
+		return selected_recordings
+	
 	def fetch_all_activity_recordings(self, activity_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.ACTIVITY_ID).equal_to(activity_id).get().val()
 	
@@ -133,19 +142,20 @@ class FirebaseService:
 		return self.db.child(const.ANNOTATION_ASSIGNMENTS).get().val()
 	
 	def update_annotation_assignment(self, annotation_assignment):
-		self.db.child(const.ANNOTATION_ASSIGNMENTS).child(annotation_assignment.user_id).set(annotation_assignment.to_dict())
+		self.db.child(const.ANNOTATION_ASSIGNMENTS).child(annotation_assignment.user_id).set(
+			annotation_assignment.to_dict())
 		logger.info(f"Updated annotation assignment in the firebase - {annotation_assignment.__str__()}")
-		
+	
 	def remove_all_annotation_assignments(self):
 		self.db.child(const.ANNOTATION_ASSIGNMENTS).remove()
-		
+	
 	def fetch_user_annotation_assignment(self, user_id):
 		return self.db.child(const.ANNOTATION_ASSIGNMENTS).child(user_id).get().val()
 	
 	def update_annotation(self, annotation):
 		self.db.child(const.ANNOTATIONS).child(annotation.annotation_id).set(annotation.to_dict())
 		logger.info(f"Updated annotation in the firebase - {annotation.__str__()}")
-		
+	
 	def fetch_annotations(self):
 		return self.db.child(const.ANNOTATIONS).get().val()
 	
@@ -154,7 +164,7 @@ class FirebaseService:
 	
 	def delete_annotation(self, annotation_id):
 		logger.info(f"Deleting annotation {annotation_id} is withdrawn")
-		# self.db.child(const.ANNOTATIONS).child(annotation_id).remove()
+	# self.db.child(const.ANNOTATIONS).child(annotation_id).remove()
 
 
 if __name__ == "__main__":
