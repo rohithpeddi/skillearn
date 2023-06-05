@@ -5,9 +5,10 @@ decord==0.6.0
 einops==0.4.1
 pandas==1.3.5
 pytorchvideo==0.1.5
-transformers==4.21
+transformers==4.27
 ftfy==4.4.3
 spacy==3.4.1
 scikit-learn==1.0.2
 git+https://github.com/Maluuba/nlg-eval.git@master
 matplotlib==3.4.3
+moviepy
