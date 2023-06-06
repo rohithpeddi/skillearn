@@ -1,0 +1,24 @@
+Recipe: Spicy Tuna Avocado Wraps
+-----------------------------------------------------
+Description: 
+Take 1 ripe avocado and cut it into thin slices.
+Chop 1 scallion.
+Open a can of tuna and drain excess water.
+Add 1 can drained tuna, 1/4 cup mayonnaise, 1 tsp Sriracha sauce, and chopped scallion in a bowl.
+Mix the contents of the bowl.
+Season with 1/4 tsp salt and 1/4 tsp pepper.
+Lay out 2 large lettuce leaves, place avocado slices on each leaf, and top with the tuna mixture.
+Roll up the lettuce wraps and secure wrap with a toothpick.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Mix-Mix the contents of the bowl
+Missing Step: secure-secure the wrap with a toothpick
+Missing Step: Season-season 1/4 tsp pepper on the bowl
+Order Error: None
+Technique Error: Didn't open the can of Tuna. made in Open-Open a can of tuna
+Preparation Error: Didn't wash the scallion. made in Chop-Chop 1 scallion
+Preparation Error: Didn't wash the lettuce leaves and the leaves are not large. made in Lay-Lay out 2 large lettuce leaves
+Technique Error: Didn't drain the excess water as the can is not opened. made in drain-drain excess water from can
+Technique Error: Didn't properly roll the leaves. made in Roll-Roll up the lettuce wraps
+Technique Error: Adding the tuna can to the bowl without opening it. made in Add-Add 1 can drained tuna to the bowl

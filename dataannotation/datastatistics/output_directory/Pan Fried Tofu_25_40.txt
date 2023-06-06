@@ -1,0 +1,27 @@
+Recipe: Pan Fried Tofu
+-----------------------------------------------------
+Description: 
+Cut 1/4 block or 3 ounces of fresh tofu into large cubes and pat it dry with a towel.
+Add 1 tablespoon of olive oil to a non-stick pan and add the tofu cubes and a 1/4 tsp of salt.
+Turn on the heat to medium
+Cook 5 to 6 minutes until tofu cubes are lightly browned on the bottom.
+Briefly remove the pan from the heat to reduce spitting.
+Flip the tofu with tongs.
+Return the heat to medium and cook until browned.
+Briefly remove from the heat again and drizzle with the 1 tablespoons sesame oil and 1 tablespoon soy sauce (watch for spitting).
+Return to low heat and cook 2 minutes, then flip and cook 2 minutes until the colour is darkened.
+Transfer to a serving dish
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Turn-Turn on the heat to medium
+Preparation Error: Cut into small cubes rather than big cubes made in Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about 1 in x 1 in)
+Measurement Error: Use a tbsp instead of a tsp made in add-add 1/4 tsp salt to the pan
+Technique Error: Do not pat enough so the tofu is still wet after this step made in pat-pat tofu dry with a towel
+Technique Error: Drop a few tofu cubes while adding made in add-add the tofu cubes to the pan
+Timing Error: Under cook the tofu so that its still raw made in Cook-Cook 5 to 6 minutes until tofu cubes are lightly browned on the bottom
+Technique Error: Safetly issue - Do not place it on the stove top, but something else made in remove-Briefly remove from the heat again
+Measurement Error: drizzle two tbsp rather than 1 tbsp made in drizzle-drizzle with the 1 tablespoons sesame oil on the pan
+Temperature Error: Use medium heat instead of low heat made in Return-Return to low heat
+Technique Error: Do not flip all the tofu pieces made in flip-flip tofu on the pan
+Timing Error: Over cook the tofu made in cook-cook pan for 2 minutes until the colour is darkened

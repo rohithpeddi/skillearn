@@ -1,0 +1,25 @@
+Recipe: Cucumber Raita
+-----------------------------------------------------
+Description: 
+In a mixing bowl, whisk 1 cup of chilled curd until smooth.
+Use fresh homemade or packaged curd.
+Avoid using sour-tasting curd.
+Rinse, peel and chop or grate 1 medium-sized cucumber (You need 1 cup of chopped or grated cucumber).
+Add the chopped or grated cucumber to the whisked curd.
+Add 1 teaspoon of cumin powder, 1/2 teaspoon of chaat masala powder, 1/4 teaspoon of red chilli powder and 1/4 teaspoon salt.
+Lastly, add 1 tablespoon of chopped cilantro leaves
+Combine all the ingredients.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: chop or grate-chop or grate the cucumber
+Missing Step: Add-Add the chopped or grated cucumber to the whisked curd
+Order Error: None
+Preparation Error: bowl not washed before taking for cooking. Add-Add 1 teaspoon of cumin powder to the bowl performed before bowl being cleaned. made in Add-Add 1 teaspoon of cumin powder to the bowl
+Measurement Error: add-add 1 tablespoon of chopped cilantro leaves to the bowl made in add-add 1 tablespoon of chopped cilantro leaves to the bowl
+Timing Error: Rinse-Rinse 1 medium sized cucumber [rinsed not done properly. should be done for atleast 30 seconds under water but did only for 5 seconds] made in Rinse-Rinse 1 medium sized cucumber
+Measurement Error: whisk-In a mixing bowl, whisk 1/2 cup of chilled curd until smooth. Use fresh homemade or packaged curd made in whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd
+Technique Error: improper peeling of cucumber. thick peels made. many of the cucumber wasted in peels. made in peel-peel the cucumber
+Measurement Error: Add-1/2 teaspoon salt to the bowl.  made in Add-1/4 teaspoon salt to the bowl
+Temperature Error: NULL made in Add-1/4 teaspoon of red chilli powder to the bowl
+Measurement Error: Add-1 teaspoon of chaat masala powder to the bowl made in Add-1/2 teaspoon of chaat masala powder to the bowl

@@ -1,0 +1,26 @@
+Recipe: Caprese Bruschetta
+-----------------------------------------------------
+Description: 
+Slice 2 1/2 inch thick rounds from a baguette (slice slanted)
+Brush 2 slices of baguette with olive oil on both sides.
+Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy.
+Cut 1/4 cup of cherry tomatoes into halves.
+In a bowl, add the cut cherry tomatoes, 1/8 cup shredded mozzarella, 1/16 cup basil, 1/4 tsp salt, and 1/4 tsp pepper.
+Combine the contents of the bowl.
+Spoon the mixture onto the bread.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Combine-Combine the contents of the bowl
+Missing Step: add-1/4 tsp salt to a bowl
+Preparation Error: add-1/4 tsp pepper to plate made in add-1/4 tsp pepper to a bowl
+Preparation Error: Cut-Cut 1/4 cup of normal tomatoes into halves made in Cut-Cut 1/4 cup of cherry tomatoes into halves
+Technique Error: Slice-Slice two 1/2 inch thick rounds from a baguette (slice straight) made in Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+Measurement Error: add-1/8 cup basil to a plate made in add-1/16 cup basil to a bowl
+Preparation Error: add-1/8 cup basil to a plate made in add-1/16 cup basil to a bowl
+Measurement Error: add-1/8 cup shredded mozzarella to a plate made in add-1/8 cup shredded mozzarella to a bowl
+Preparation Error: add-1/8 cup shredded mozzarella to a plate made in add-1/8 cup shredded mozzarella to a bowl
+Preparation Error: Brush-Brush 2 slices of baguette with softened butter on both sides made in Brush-Brush 2 slices of baguette with olive oil on both sides
+Timing Error: Toast-Toast both sides of the slices on the pan for 1 minute and transfer the slices to a bowl made in Toast-Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transfer the slices to a plate
+Preparation Error: add-In a plate, add the cut cherry tomatoes made in add-In a bowl, add the cut cherry tomatoes
+Temperature Error: NULL made in Spoon-Spoon the mixture from the bowl onto the bread

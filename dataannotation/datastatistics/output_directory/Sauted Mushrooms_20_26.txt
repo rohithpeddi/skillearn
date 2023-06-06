@@ -1,0 +1,31 @@
+Recipe: Sauted Mushrooms
+-----------------------------------------------------
+Description: 
+Chop 1 shallot
+Rinse 3 mushrooms under cold water and pat them dry with a paper towel.
+Pull out the stems.
+Slice the mushrooms.
+Heat 1 tbsp olive oil in a large skillet over medium-high heat.
+Once the pan is hot, add the mushrooms and cook for 3 minutes, stirring often, until they start to soften and brown.
+Add chopped shallot and cook, often stirring, for 1 minute.
+Peel 2 garlic cloves and mince them.
+Add 2 cloves of minced garlic and 1/4 tbsp balsamic vinegar and cook, often stirring, for 1 minute.
+Season with salt and pepper to taste.
+Transfer the contents of the pan to a serving dish.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Add-1/4 tbsp balsamic vinegar to the pan
+Measurement Error: Add 2 tbsp oil instead of 1 tbsp made in Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+Temperature Error: heat set to low heat instead of medium-high heat made in Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+Preparation Error: Use hot water also to rinse  made in Rinse-Rinse 3 mushrooms under cold water
+Technique Error: peel improperly made in Peel-Peel 2 garlic cloves
+Other: Use cloth towel to pat instead of paper towel made in pat-immediately pat rinsed mushrooms dry with a paper towel
+Technique Error: pull only half stem made in Pull-Pull out mushroom stems
+Preparation Error: Use scallion instead of shallot made in Chop-Chop 1 shallot
+Preparation Error: chop instead of slice made in Slice-Slice the mushrooms
+Technique Error: dont wait for pan to be hot and spill while adding to pan made in add-Once the pan is hot, add the mushrooms
+Technique Error:  cook for 4mins instead of 3-5mins and dont wait till mushrooms are soft and brown made in cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown
+Timing Error: NULL made in cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown
+Preparation Error: spill while adding scallion to the pan made in Add-Add chopped shallot to the pan
+Order Error: this step is executed after adding mince garlic to the pan  made in Add-Add chopped shallot to the pan

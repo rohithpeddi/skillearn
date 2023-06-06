@@ -1,0 +1,33 @@
+Recipe: Dressed Up Meatballs
+-----------------------------------------------------
+Description: 
+Cut 1/4 medium carrot into short, thin strips.
+Peel one medium onion and cut it into two pieces.
+Slice 1/8 medium onion.
+Peel 1 garlic clove.
+Cut and Mince 1/8 garlic clove.
+Place-Place 5 meatballs in a Microwave-safe plate.
+Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder.
+Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl.
+Pour the sauces over the meatballs.
+Microwave, covered, on high for 5 minutes
+Stir the contents in the microwave with a spoon
+Microwave, covered, on high for 5 minutes
+Stir the contents in the microwave with a spoon.
+Microwave for 1 more minute.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Stir-Stir the contents in the microwave with a spoon
+Missing Step: Stir-Stir the contents in the microwave with a spoon
+Technique Error: Not peel well made in Peel-Peel one medium onion
+Measurement Error: Pouring many balls, more than 5 made in Place-Place 5 meatballs in a Microwave-safe plate
+Measurement Error: Butter inside 1/2 tsp, so not enough soy oil  made in Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl
+Measurement Error: Almost 1/2 garlic clove, and slice it made in Cut-Cut 1/8 garlic clove
+Technique Error: Not thin made in Cut-Cut 1/4 medium carrot into short, thin strips
+Measurement Error: Almost 1/4 garlic cloves  made in Mince-Mince 1/8 garlic clove
+Technique Error: Likely chopping  made in Mince-Mince 1/8 garlic clove
+Measurement Error: Seasoning pepper on top, no measuring  made in Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder.
+Technique Error: Seasoning pepper on top, no measuring made in Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder.
+Timing Error: 1 min made in Microwave-Microwave the plate, covered, on high for 1.5 minutes
+Timing Error: 1 min made in Microwave-Microwave the plate, covered, on high for 1.5 minutes

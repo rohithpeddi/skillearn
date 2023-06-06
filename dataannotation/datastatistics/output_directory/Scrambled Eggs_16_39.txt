@@ -1,0 +1,31 @@
+Recipe: Scrambled Eggs
+-----------------------------------------------------
+Description: 
+Chop 1/4 medium onion.
+Chop 1/4 tomato.
+Chop 1 green chili.
+Peel 2 garlic cloves.
+Mince peeled garlic cloves.
+Chop 1 tbsp cilantro.
+Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat, and add chopped onions and 1/3 tsp salt.
+Sauté the onions on medium heat until they are soft and translucent.
+Add garlic, and chili to the pan.
+Cook for 1 minute, mixing everything.
+Add tomatoes and 1/8 tsp of turmeric to the pan.
+Cook covered for 1 minute or until the tomatoes soften.
+Whisk one egg with 1 tbsp milk and 1/3 tsp salt.
+Slowly pour the whisked eggs into the pan.
+Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked.
+Garnish with 1 tbsp chopped cilantro and serve.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Chop-Chop 1/4 medium onion
+Missing Step: Whisk-Whisk the egg mixture in the bowl
+Missing Step: Cook-Cook covered for 1 minute or until the tomatoes soften
+Missing Step: add-add chopped onions to the pan
+Missing Step: Saute-Saute the onions on medium heat until they are soft and translucent
+Order Error: None
+Technique Error: Chop, but all connected  made in Chop-Chop 1 green chilli
+Preparation Error: A cup, not bowl made in add-add  1 tbsp milk to the bowl
+Technique Error: One slove is not well peeled  made in Peel-Peel 2 garlic cloves

@@ -1,0 +1,42 @@
+Recipe: Dressed Up Meatballs
+-----------------------------------------------------
+Description: 
+Cut 1/4 medium carrot into short, thin strips.
+Peel one medium onion and cut it into two pieces.
+Slice 1/8 medium onion.
+Peel 1 garlic clove.
+Cut and Mince 1/8 garlic clove.
+Place-Place 5 meatballs in a Microwave-safe plate.
+Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder.
+Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl.
+Pour the sauces over the meatballs.
+Microwave, covered, on high for 5 minutes
+Stir the contents in the microwave with a spoon
+Microwave, covered, on high for 5 minutes
+Stir the contents in the microwave with a spoon.
+Microwave for 1 more minute.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Cut-Cut 1/4 medium carrot into short, thin strips
+Missing Step: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder.
+Order Error: None
+Other: Peel-Peel one medium onion improperly made in Peel-Peel one medium onion
+Other: Chop carrot instead of slice or cut made in Peel-Peel one medium onion
+Order Error: Place meat balls after the sauces are poured made in Place-Place 5 meatballs in a Microwave-safe plate
+Other: Mix-Mix 1/2 cup sweet-and-sour sauce and 1/2 cup soy sauce in a small bowl made in Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl
+Timing Error: Microwave-Microwave the plate, covered, on high for 3 minutes made in Microwave-Microwave the plate, covered, on high for 1.5 minutes
+Other: Microwave-Microwave the plate, uncovered, on high for 3 minutes made in Microwave-Microwave the plate, covered, on high for 1.5 minutes
+Technique Error: Chop instead of slice made in Slice-Slice 1/8 medium onion
+Measurement Error: Chop 1/2 onion instead of 1/8th made in Slice-Slice 1/8 medium onion
+Other: Microwave-Microwave for 1 more minute made in Microwave-Microwave for 1 more minute
+Other: NONE made in Microwave-Microwave for 1 more minute
+Other: NONE made in Microwave-Microwave for 1 more minute
+Other: NONE made in Microwave-Microwave for 1 more minute
+Other: NONE made in Microwave-Microwave for 1 more minute
+Other: NONE made in Microwave-Microwave for 1 more minute
+Temperature Error: NONE made in Microwave-Microwave for 1 more minute
+Technique Error: NONE made in Microwave-Microwave for 1 more minute
+Timing Error: NONE made in Microwave-Microwave for 1 more minute
+Measurement Error: NONE made in Microwave-Microwave for 1 more minute
+Preparation Error: NONE made in Microwave-Microwave for 1 more minute

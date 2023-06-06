@@ -1,0 +1,27 @@
+Recipe: Breakfast Burritos
+-----------------------------------------------------
+Description: 
+Extract the contents of an egg and add it to a microwave-safe bowl.
+Whisk the egg.
+Microwave for 3 minutes, stirring in between.
+Add 1 tbsp salsa to the bowl.
+Sprinkle oregano in the bowl.
+Add 1/2 tbsp sweet and sour sauce to the bowl.
+Mix the contents of the bowl well.
+Place 8 inch tortilla on a cutting board.
+Pour egg mixture on top of the tortilla.
+Sprinkle 1 tbsp shredded cheddar cheese on top of the egg.
+Roll the tortilla from one end to another into a log shape, about 1.5 inches thick.
+Roll it tight enough to prevent gaps but not so tight that the filling leaks.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Technique Error: Not extracting egg correctly and adding shells to the bowl and remove them later made in add-Extract and add contents of an egg to a microwave-safe bowl
+Measurement Error: Add 1/2 tsp instead of 1/2 tbsp to the bowl made in Add-Add 1/2 tbsp sweet and sour sauce to the bowl
+Timing Error: Microwave for 30 sec instead of 3 min made in Microwave-Microwave for 3 minutes, stirring in between
+Preparation Error: Sprinkle basil instead of oregano made in Sprinkle-Sprinkle oregano in the bowl
+Preparation Error: Using dirty spoon to scoop cheddar cheese made in Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg
+Technique Error: Roll improperly such that filling leaks made in Roll-Roll the tortilla from one end to another into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps but not so tight that the filling leaks
+Temperature Error: NULL made in Place-Place 8 inch tortilla on a cutting board
+Missing Step: Step doesnot make sense made in Place-Place 8 inch tortilla on a cutting board

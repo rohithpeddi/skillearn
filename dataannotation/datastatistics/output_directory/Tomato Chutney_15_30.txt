@@ -1,0 +1,28 @@
+Recipe: Tomato Chutney
+-----------------------------------------------------
+Description: 
+Peel 4 large garlic cloves.
+mince the garlic.
+Take 1 tomato.
+Chop them up roughly and puree them without any water in a blender/mixer.
+Heat 3 tbsp oil in a pan over medium heat.
+Add 1/4 tsp mustard and 1/2 tsp cumin seeds.
+When the seeds begin to sizzle, add minced garlic.
+Lower the heat.
+Saute the garlic for 2-3 minutes.
+Add 2 tbsp red chili powder and mix well.
+Add tomato puree and 1/2 tsp salt.
+Mix well.
+Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick.
+Take the pan off the heat.
+Transfer it to a serving bowl.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Add-Add 2 tbsp red chili powder to the pan
+Measurement Error: only 2 garlic are peeled and minced instead of 4 made in Peel-Peel 4 large garlic cloves
+Measurement Error: mince only 2 garlic instead of 4 made in mince-mince the garlic
+Technique Error: burn mustard made in add-When mustard and cumin seeds begin to sizzle, add minced garlic
+Preparation Error: spill garlic while adding made in add-When mustard and cumin seeds begin to sizzle, add minced garlic
+Timing Error: saute the garlic only for 1 min and burn it made in Saute-Saute the garlic for 2-3 minutes
+Timing Error: simmer only for 1 min made in simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick

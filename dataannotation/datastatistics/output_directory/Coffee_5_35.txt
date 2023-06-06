@@ -1,0 +1,33 @@
+Recipe: Coffee
+-----------------------------------------------------
+Description: 
+Measure 12 ounces of cold water and transfer it to a kettle.
+Boil the water.
+While the water is boiling, assemble the filter cone.
+Place the dripper on top of a coffee mug.
+Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle.
+Place the paper filter in the dripper and spread open to create a cone.
+Weigh the coffee beans (8 oz – 12 oz).
+Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds.
+Transfer the grounds to the filter cone.
+Once the water has boiled, check the temperature of the water(The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius).
+If the water is too hot, let it cool briefly.
+Pour a small amount of water into the filter to wet the grounds.
+Wait about 30 seconds for the coffee to bloom(You will see small bubbles or foam on the coffee grounds during this step).
+Slowly pour the rest of the water over the grounds in a circular motion.
+Do not overfill beyond the top of the paper filter.
+Let the coffee drain completely into the mug before removing the dripper.
+Discard the paper filter and coffee grounds.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Measure-Measure 12 ounces of cold water
+Missing Step: pour-Slowly pour the rest of the water over the grounds in a circular motion. Do not overfill beyond the top of the paper filter
+Measurement Error: coffee beans 1.4 oz made in Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
+Preparation Error: coffee beans 1.4 oz made in Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
+Technique Error: not cone shape made in spread-spread open filter in dripper to create a cone
+Timing Error: 15 secs made in Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds
+Technique Error: 15 secs made in Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds
+Temperature Error: too hot made in check-Once the water has boiled, check the temperature of the water. (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius. If the water is too hot, let it cool briefly.)
+Preparation Error: too hot made in check-Once the water has boiled, check the temperature of the water. (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius. If the water is too hot, let it cool briefly.)
+Technique Error: Pour a big amount of water into the filter to wet the grounds made in Pour-Pour a small amount of water into the filter to wet the grounds

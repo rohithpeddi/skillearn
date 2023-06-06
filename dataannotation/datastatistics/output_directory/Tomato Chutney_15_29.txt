@@ -1,0 +1,32 @@
+Recipe: Tomato Chutney
+-----------------------------------------------------
+Description: 
+Peel 4 large garlic cloves.
+mince the garlic.
+Take 1 tomato.
+Chop them up roughly and puree them without any water in a blender/mixer.
+Heat 3 tbsp oil in a pan over medium heat.
+Add 1/4 tsp mustard and 1/2 tsp cumin seeds.
+When the seeds begin to sizzle, add minced garlic.
+Lower the heat.
+Saute the garlic for 2-3 minutes.
+Add 2 tbsp red chili powder and mix well.
+Add tomato puree and 1/2 tsp salt.
+Mix well.
+Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick.
+Take the pan off the heat.
+Transfer it to a serving bowl.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick
+Measurement Error: Take 2 tomatoes rather than one tomato made in Take-Take 1 tomato
+Measurement Error: Use a tsp rather than tbsp made in Heat-Heat 3 tbsp oil in a pan over medium heat
+Temperature Error: Use low heat instead of medium heat made in Heat-Heat 3 tbsp oil in a pan over medium heat
+Preparation Error: Slice rather than chop made in Chop-Chop tomato roughly (anysize chunks are fine)
+Technique Error: Break the garlic while peeling made in Peel-Peel 4 large garlic cloves
+Timing Error: Saute for 1 minute made in Saute-Saute the garlic for 2-3 minutes
+Measurement Error: Add 4 tbsp instead of 2 tbsp made in Add-Add 2 tbsp red chili powder to the pan
+Technique Error: Do not blend enough - Leave some chunks made in puree-puree tomatoes without any water in a blender/mixer
+Measurement Error: Add 1 tsp rather than 1/2 tsp made in Add-1/2 tsp salt to the pan
+Technique Error: Spill while transfering made in Transfer-Transfer it to a serving bowl

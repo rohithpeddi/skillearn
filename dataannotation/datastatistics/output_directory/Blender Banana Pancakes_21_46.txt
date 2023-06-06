@@ -1,0 +1,25 @@
+Recipe: Blender Banana Pancakes
+-----------------------------------------------------
+Description: 
+Add 1 banana, 1 egg, 1 heaped tbsp flour and 1/2 tsp baking powder to a blender and blitz for 20 seconds.
+Melt a small knob of butter in a non-stick frying pan over low-medium heat.
+Pour three little puddles straight from the blender into the frying pan.
+Cook for 1 min or until the tops start to bubble.
+Flip with a fork or a fish slice spatula and cook for 20-30 seconds more.
+Transfer to a plate.
+Chop 1 strawberry.
+Serve the pancakes with chopped strawberries and a splash of maple syrup if you like.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Technique Error: Slice made in Chop-Chop 1 strawberry
+Preparation Error: 2 strawberry made in Chop-Chop 1 strawberry
+Measurement Error: 2 strawberry made in Chop-Chop 1 strawberry
+Timing Error: 30 secs made in blitz-blitz the blender for 20 seconds
+Preparation Error: medium knob of butter made in Melt-Melt a small knob of butter in a non-stick frying pan over low-medium heat
+Temperature Error: medium heat made in Melt-Melt a small knob of butter in a non-stick frying pan over low-medium heat
+Measurement Error: medium knob of butter made in Melt-Melt a small knob of butter in a non-stick frying pan over low-medium heat
+Technique Error: pour made in splash-splash maple syrup on plate
+Temperature Error: 2 mins made in Cook-Cook for 1 min or until the tops start to bubble
+Timing Error: 2 mins made in Cook-Cook for 1 min or until the tops start to bubble

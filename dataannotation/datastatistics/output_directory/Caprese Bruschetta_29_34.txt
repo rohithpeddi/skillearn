@@ -1,0 +1,18 @@
+Recipe: Caprese Bruschetta
+-----------------------------------------------------
+Description: 
+Slice 2 1/2 inch thick rounds from a baguette (slice slanted)
+Brush 2 slices of baguette with olive oil on both sides.
+Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy.
+Cut 1/4 cup of cherry tomatoes into halves.
+In a bowl, add the cut cherry tomatoes, 1/8 cup shredded mozzarella, 1/16 cup basil, 1/4 tsp salt, and 1/4 tsp pepper.
+Combine the contents of the bowl.
+Spoon the mixture onto the bread.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Brush-Brush 2 slices of baguette with olive oil on both sides
+Missing Step: add-In a bowl, add the cut cherry tomatoes
+Technique Error: toast but do not until charred and crispy made in Toast-Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transfer the slices to a plate
+Technique Error: cut cherry tomatoes in to 4 parts instead of halves made in Cut-Cut 1/4 cup of cherry tomatoes into halves
+Technique Error: mozzarella added is not fully shredded made in add-1/8 cup shredded mozzarella to a bowl

@@ -1,0 +1,24 @@
+Recipe: Cheese Pimiento
+-----------------------------------------------------
+Description: 
+Chop 1/4 red bell pepper into tiny bits.
+Place the chopped pepper in a microwave-safe bowl.
+Add 1 tablespoons of water to the bowl.
+Microwave-Microwave the bowl, covered, for 2 minutes.
+Add 1/3 cup cheddar cheese to a microwave-safe cup.
+Melt the cheese by microwaving it for 30 sec. (Check after 30 seconds and microwave for 10 seconds more if needed).
+Mix the cheese and red bell pepper in the bowl and add 1/2 tbsp softened butter.
+Add 1/4 teaspoon salt.
+Add 1/4 teaspoon pepper.
+Mix-Mix all the ingredients of the bowl well.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Add-Add 1/4 teaspoon salt to the bowl
+Measurement Error: Add 2 tablespoonds of water rather than 1 made in Add-Add 1 tablespoons of water to the bowl
+Preparation Error: Slice instead of chopping made in Chop-Chop 1/4 red bell pepper into tiny bits
+Technique Error: Not spreading the chopped pepper made in Place-Place the chopped pepper in the microwave-safe bowl
+Timing Error: Microwave for 10 seconds rather than 30 seconds made in Melt-Melt the cheese by microwaving cup for 30 sec. (Check after 30 seconds and microwave for 10 seconds more if needed).
+Timing Error: Microwave for 30 seconds rather than 2 minutes made in Microwave-Microwave the bowl, covered, for 2 minutes
+Measurement Error: Add 1 tbsp rather than 1/2 tbsp made in add-add 1/2 tbsp softened butter to the bowl
+Temperature Error: null made in Mix-Mix all the ingredients of the bowl well

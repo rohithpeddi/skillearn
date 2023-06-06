@@ -1,0 +1,84 @@
+Recipe: Pinwheels
+-----------------------------------------------------
+Description: 
+Place 8-inch flour tortilla on cutting board.
+Use a butter knife to scoop nut butter from the jar.
+Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges.
+Clean the knife by wiping it with a paper towel.
+Use the knife to scoop jelly from the jar.
+Spread jelly over the nut butter.
+Clean the knife by wiping with a paper towel.
+Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick.
+Roll it tight enough to prevent gaps, but not so tight that the filling leaks.
+Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart.
+Trim the ends of the tortilla roll with the butter knife, leaving ½ inch margin between the last toothpick and the end of the roll.
+Discard ends.
+Slide floss under the tortilla, perpendicular to the length of the roll.
+Place the floss halfway between two toothpicks.
+Cross the floss's two ends over the tortilla roll's top.
+Holding one end of the floss in each hand, pull the floss ends in opposite directions to slice.
+Continue slicing with floss to create 1 more pinwheel.
+Continue slicing with floss to create 1 more pinwheel.
+Continue slicing with floss to create 1 more pinwheel.
+Place the pinwheels on a plate.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: slicing-Continue slicing with floss to create 1 more pinwheel
+Missing Step: slicing-Continue slicing with floss to create 1 more pinwheel
+Missing Step: slicing-Continue slicing with floss to create 1 more pinwheel
+Order Error: None
+Preparation Error: placed 8 inch flour tortilla on plate instead of cutting board.  made in Place-Place 8-inch flour tortilla on cutting board
+Technique Error: techique error while scooping through jelly as the knife was not slanted and just put vertically. Also did the two times whereas should have been done 3 times. made in scoop-Use the knife to scoop jelly from the jar
+Technique Error: Jelly is spread on tortilla improperly. Jelly is spread on boundary and not in the middle portion. jelly is overflowed from the tortilla. made in Spread-Spread jelly over the nut butter
+Technique Error: use spoon to scoop nut butter from the jar. knife should have been used. made in scoop-Use a butter knife to scoop nut butter from the jar
+Measurement Error: Spread nut butter onto the tortilla. leaving 2-inch uncovered at the edges.  made in Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges
+Technique Error: Improper Cleaning of the knife with paper towel. paper towel did not cover down side of the knife. made in Clean-Clean the knife by wiping it with a paper towel
+Measurement Error: Roll the tortilla from one end to the other into a log shape, about 2.5 inches thick. Roll it loosely with huge gaps. filling does not leak.  made in Roll-Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight that the filling leaks
+Measurement Error: used 3 toothpicks only instead of 5. placed them 2 inch apart instead of 1 inch apart.  made in Secure-Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart
+Technique Error: Slide floss under the tortilla, parallel to the length of the roll. Did parallel instead of perpendicular. made in Slide-Slide floss under the tortilla, perpendicular to the length of the roll
+Preparation Error: used spoon base instead of butter knife to trim the ends of tortilla roll. Left 1/2 inch margin between last toothpick and end of the roll. made in Trim-Trim the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll
+Timing Error: NULL made in Discard-Discard ends of the tortilla
+Temperature Error: NULL made in Place-Place the pinwheels on a plate
+Recipe: Pinwheels
+-----------------------------------------------------
+Description: 
+Place 8-inch flour tortilla on cutting board.
+Use a butter knife to scoop nut butter from the jar.
+Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges.
+Clean the knife by wiping it with a paper towel.
+Use the knife to scoop jelly from the jar.
+Spread jelly over the nut butter.
+Clean the knife by wiping with a paper towel.
+Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick.
+Roll it tight enough to prevent gaps, but not so tight that the filling leaks.
+Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart.
+Trim the ends of the tortilla roll with the butter knife, leaving ½ inch margin between the last toothpick and the end of the roll.
+Discard ends.
+Slide floss under the tortilla, perpendicular to the length of the roll.
+Place the floss halfway between two toothpicks.
+Cross the floss's two ends over the tortilla roll's top.
+Holding one end of the floss in each hand, pull the floss ends in opposite directions to slice.
+Continue slicing with floss to create 1 more pinwheel.
+Continue slicing with floss to create 1 more pinwheel.
+Continue slicing with floss to create 1 more pinwheel.
+Place the pinwheels on a plate.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: slicing-Continue slicing with floss to create 1 more pinwheel
+Missing Step: slicing-Continue slicing with floss to create 1 more pinwheel
+Missing Step: slicing-Continue slicing with floss to create 1 more pinwheel
+Order Error: None
+Preparation Error: placed 8 inch flour tortilla on plate instead of cutting board.  made in Place-Place 8-inch flour tortilla on cutting board
+Technique Error: techique error while scooping through jelly as the knife was not slanted and just put vertically. Also did the two times whereas should have been done 3 times. made in scoop-Use the knife to scoop jelly from the jar
+Technique Error: Jelly is spread on tortilla improperly. Jelly is spread on boundary and not in the middle portion. jelly is overflowed from the tortilla. made in Spread-Spread jelly over the nut butter
+Technique Error: use spoon to scoop nut butter from the jar. knife should have been used. made in scoop-Use a butter knife to scoop nut butter from the jar
+Measurement Error: Spread nut butter onto the tortilla. leaving 2-inch uncovered at the edges.  made in Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges
+Technique Error: Improper Cleaning of the knife with paper towel. paper towel did not cover down side of the knife. made in Clean-Clean the knife by wiping it with a paper towel
+Measurement Error: Roll the tortilla from one end to the other into a log shape, about 2.5 inches thick. Roll it loosely with huge gaps. filling does not leak.  made in Roll-Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight that the filling leaks
+Measurement Error: used 3 toothpicks only instead of 5. placed them 2 inch apart instead of 1 inch apart.  made in Secure-Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart
+Technique Error: Slide floss under the tortilla, parallel to the length of the roll. Did parallel instead of perpendicular. made in Slide-Slide floss under the tortilla, perpendicular to the length of the roll
+Preparation Error: used spoon base instead of butter knife to trim the ends of tortilla roll. Left 1/2 inch margin between last toothpick and end of the roll. made in Trim-Trim the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll
+Timing Error: NULL made in Discard-Discard ends of the tortilla
+Temperature Error: NULL made in Place-Place the pinwheels on a plate

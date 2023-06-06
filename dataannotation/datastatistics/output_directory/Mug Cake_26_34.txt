@@ -1,0 +1,40 @@
+Recipe: Mug Cake
+-----------------------------------------------------
+Description: 
+Place the paper cupcake liner inside the mug.
+Set aside.
+Measure and add 2 tbsp flour, 1.5 tbsp sugar, 1/4 tsp baking powder, and a pinch of salt to the mixing bowl.
+Whisk to combine.
+Measure and add 2 tsp vegetable oil, 2 tbsp water, and 1/4 tsp vanilla extract to the bowl.
+Whisk batter until no lumps remain.
+Pour batter into prepared mug.
+Microwave the mug and batter on high power for 60 seconds.
+Check if the cake is done by inserting and toothpick into the center of the cake and then removing it.
+If wet batter clings to the toothpick, microwave for an additional 5 seconds.
+If the toothpick comes out clean, continue.
+Invert the mug to release the cake onto a plate.
+Allow to cool until it is no longer hot to the touch, then carefully remove the paper liner.
+While the cake is cooling, prepare to pipe the frosting.
+Scoop 4 spoonfuls of chocolate frosting into a zip-top bag and seal, removing as much air as possible.
+Use scissors to cut one corner from the bag to create a small opening ¼-inch in diameter.
+Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
+Missing Step: Place-Place the paper cupcake liner inside the mug
+Missing Step: Set-Set aside the lined mug
+Missing Step: seal-seal zip top bag, removing as much air as possible
+Measurement Error: Add 3 tbsp instead of 1.5 tbsp made in Measure and add-1.5 tbsp sugar to the mixing bowl
+Other: Add baking soda instead of baking powder made in Measure and add-1/4 tsp baking powder to the bowl
+Preparation Error: drop/ spill salt while trying to measure and trasfer made in Measure and add-a pinch of salt to the mixing bowl
+Other: NULL made in Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl
+Preparation Error: spilling vanilla extract in the process made in Measure and add-1/4 tsp vanilla extract to the bowl
+Measurement Error: add 1 tsp instead of 2 tsp made in Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+Measurement Error: use tsp instead of tbsp made in Measure and add-2 tbsp water to the bowl
+Technique Error: whish incompletely made in Whisk-Whisk batter until no lumps remain
+Timing Error: Time is set to 90 sec instead of 60 sec made in Microwave-Microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue
+Preparation Error: use unclean plate made in Invert-Invert the mug to release the cake onto a plate
+Preparation Error: let the cake be hot made in Allow-Allow to cool until it is no longer hot to the touch
+Missing Step: This step is not performed as liner was not placed in the mug made in remove-then carefully remove the paper liner
+Temperature Error: dont wait till its cool made in Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag

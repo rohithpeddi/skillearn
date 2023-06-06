@@ -1,0 +1,24 @@
+Recipe: Caprese Bruschetta
+-----------------------------------------------------
+Description: 
+Slice 2 1/2 inch thick rounds from a baguette (slice slanted)
+Brush 2 slices of baguette with olive oil on both sides.
+Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy.
+Cut 1/4 cup of cherry tomatoes into halves.
+In a bowl, add the cut cherry tomatoes, 1/8 cup shredded mozzarella, 1/16 cup basil, 1/4 tsp salt, and 1/4 tsp pepper.
+Combine the contents of the bowl.
+Spoon the mixture onto the bread.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Preparation Error: add-1/4 tsp salt to a bowl, not washing the bowl made in add-1/4 tsp salt to a bowl
+Measurement Error: Cut-Cut 1/2 cup of cherry tomatoes into halves made in Cut-Cut 1/4 cup of cherry tomatoes into halves
+Preparation Error: Slice-Slice 4 1/4 inch thick rounds from a baguette (slice slanted). Also baguette are expired. made in Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+Measurement Error: add-1/8 cup basil to a bowl made in add-1/16 cup basil to a bowl
+Measurement Error: add-1/2 tsp pepper to a bowl made in add-1/4 tsp pepper to a bowl
+Technique Error: pour olive oil using a spoon on 4 slices of baguette. did not use brush. Pour on both sides. made in Brush-Brush 2 slices of baguette with olive oil on both sides
+Temperature Error: NULL made in Combine-Combine the contents of the bowl
+Measurement Error: add-1/4 cup shredded mozzarella to a bowl made in add-1/8 cup shredded mozzarella to a bowl
+Timing Error: Toast-Toast both sides of the slices on the pan for 30 seconds  made in Toast-Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy
+Preparation Error: Did not use spoon for taking mixture from bowl on the bread. Direclty poured it. made in Spoon-Spoon the mixture from the bowl onto the bread

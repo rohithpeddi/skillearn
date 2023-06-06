@@ -1,0 +1,32 @@
+Recipe: Sauted Mushrooms
+-----------------------------------------------------
+Description: 
+Chop 1 shallot
+Rinse 3 mushrooms under cold water and pat them dry with a paper towel.
+Pull out the stems.
+Slice the mushrooms.
+Heat 1 tbsp olive oil in a large skillet over medium-high heat.
+Once the pan is hot, add the mushrooms and cook for 3 minutes, stirring often, until they start to soften and brown.
+Add chopped shallot and cook, often stirring, for 1 minute.
+Peel 2 garlic cloves and mince them.
+Add 2 cloves of minced garlic and 1/4 tbsp balsamic vinegar and cook, often stirring, for 1 minute.
+Season with salt and pepper to taste.
+Transfer the contents of the pan to a serving dish.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Season-Season pan with salt
+Preparation Error: Use cloth instead of paper towel made in pat-pat rinsed mushrooms dry with a paper towel
+Technique Error: Chop the mushrooms made in Slice-Slice the mushrooms
+Temperature Error: Used lower heat made in Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+Preparation Error: Heat pan only, and forget to add oil made in Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+Measurement Error: Used less shallot made in Chop-Chop 1 shallot
+Preparation Error: Use onion instead of shallot made in Chop-Chop 1 shallot
+Order Error: add oil now made in add-Once the pan is hot, add the mushrooms
+Timing Error: Cook for one minute made in cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown
+Technique Error: Spill made in Add-Add chopped shallot to the pan
+Measurement Error: Use 1 garlic clove made in Peel-Peel 2 garlic cloves
+Technique Error: Slice garlic cloves made in mince-mince garlic cloves
+Preparation Error: Add 1 clove of sliced garlic due to previous step errors made in Add-Add 2 cloves of minced garlic to the pan
+Measurement Error: Add 1/2 tbsp balsamic vinegar made in Add-1/4 tbsp balsamic vinegar to the pan
+Preparation Error: Add honey instead of balsamic vinegar made in Add-1/4 tbsp balsamic vinegar to the pan

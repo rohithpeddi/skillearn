@@ -1,0 +1,24 @@
+Recipe: Herb Omelet with Fried Tomatoes
+-----------------------------------------------------
+Description: 
+Take a tomato and cut it into two pieces.
+Heat 1 tbsp oil in a small non-stick frying pan, then cook the tomatoes cut-side down until they start to soften and colour.
+Chop 2 tbsp cilantro.
+Meanwhile, crack one egg in a bowl and add the chopped cilantro and 1/2 tsp ground black pepper.
+Beat the contents of the bowl.
+Scoop the tomatoes from the pan and put tomatoes on a serving plate.
+Pour the egg mixture into the pan and stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space.
+Stop stirring when it’s nearly cooked to allow it to set into an omelette.
+Transfer it to the plate and serve with the tomatoes.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: add-add the chopped cilantro to the bowl
+Missing Step: stir-stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space
+Technique Error: Adding more pepper due improper transfer from the shaker to the measuring utensil made in add-1/2 tsp ground black pepper to the bowl
+Technique Error: Spilling oil onto the pan while measuring 1 tbsp from the bottle made in Heat-Heat 1 tbsp oil in a small non-stick frying pan
+Measurement Error: Add more oil due to spillage made in Heat-Heat 1 tbsp oil in a small non-stick frying pan
+Technique Error: spilled egg mixture while beating swiflty made in Beat-Beat the contents of the bowl
+Order Error: Scooped the tomatoes after making omelet made in Scoop-Scoop the tomatoes from the pan
+Order Error: Transfering tomatoes after making omelet made in put-put tomatoes on a serving plate
+Technique Error: Did not stop stirring when its nearly cooked thus making it into smaller pieces made in Stop-Stop stirring when it's nearly cooked to allow it to set into an omelette

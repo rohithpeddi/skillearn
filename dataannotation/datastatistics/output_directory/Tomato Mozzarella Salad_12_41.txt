@@ -1,0 +1,26 @@
+Recipe: Tomato Mozzarella Salad
+-----------------------------------------------------
+Description: 
+Rinse a tomato and gently dry it with a tea towel.
+Slice one tomato into about ½ inch thick slices.
+Place the thick slices of tomatoes on a platter, ensuring they only make a single layer.
+Season the tomato slices with salt.
+Sprinkle mozzarella cheese on top of the tomato throughout the platter.
+Garnish with italian seasoning.
+Season with ¼ teaspoon black pepper.
+Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Preparation Error: Rinse-Rinse a tomato. Before taking the tomato from fridge spilled other tomato on ground made in Rinse-Rinse a tomato
+Technique Error: Cut tomatoes vertical in uneven direction. Slice action is forced and not seamless. Mess of tomato is made. made in Slice-Slice one tomato into about 1/2 inch thick slices
+Preparation Error: Took transparent glass cover of platter instead of platter itself and sprinkled black pepper with spillage. made in Season-Season platter with 1/4 teaspoon black pepper
+Technique Error: Took transparent glass cover of platter instead of platter itself and sprinkled black pepper with spillage. made in Season-Season platter with 1/4 teaspoon black pepper
+Preparation Error: Sprinkle-Sprinkle cheddar cheese on top of the tomato throughout the platter with spillage. made in Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter
+Technique Error: Sprinkle-Sprinkle cheddar cheese on top of the tomato throughout the platter with spillage. made in Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter
+Preparation Error: Season-Season the tomato slices with powdered sugar. Also seasoning done from huge height. made in Season-Season the tomato slices with salt
+Technique Error: Garnish-Garnish glass cover of platter with italian seasoning  with spilling made in Garnish-Garnish platter with italian seasoning
+Preparation Error: Garnish-Garnish glass cover of platter with italian seasoning with spilling made in Garnish-Garnish platter with italian seasoning
+Technique Error: Place-Place the thick slices of tomatoes on a platter in no order as such. Haphazard way of just throwing on glass cover. made in Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer
+Preparation Error: Add-Add a drizzle of apple cider vinegar, about 1 tablespoon, over the entire glass cover of platter made in Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter

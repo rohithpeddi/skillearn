@@ -1,0 +1,35 @@
+Recipe: Broccoli Stir Fry
+-----------------------------------------------------
+Description: 
+Peel 2 cloves of garlic and mince them.
+Combine 1/6 cup water, 1/8 cup soy sauce, 1 tablespoon honey, 2 cloves minced garlic, 1/2 tablespoon minced fresh ginger, 1/8 teaspoon black pepper, 1 teaspoon cornstarch in a small bowl.
+Whisk.
+Set aside.
+Take 5 in number broccoli florets.
+Take 2 cremini mushrooms, and slice them.
+Take 1 bell pepper and slice 1/3 of the bell pepper.
+Heat 2 tablespoons olive oil in a skillet over medium-high heat.
+Add the broccoli and sliced mushrooms and cook, stirring often, for 4 minutes.
+If the pan gets too hot on medium-high, turn the heat down to medium.
+Add the bell pepper and continue cooking, stirring often, for 2-3 minutes, until vegetables are crisp-tender.
+Whisk the sauce again to recombine the ingredients.
+Pour the sauce into the pan and cook, stirring, for 1 minute until the sauce thickens.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Add-Add 1/2 tablespoon minced ginger to the bowl
+Missing Step: Whisk-Whisk the contents of bowl
+Missing Step: Whisk-Whisk the sauce again to recombine the ingredients
+Preparation Error: Take spoilt bell pepper made in Take-Take 1 bell pepper
+Measurement Error: Add-Add 1/2 cup soy sauce to the bowl made in Add-Add 1/8 cup soy sauce to the bowl
+Technique Error: Spill while measuring the cornstarch made in Add-Add 1 teaspoon cornstarch to the bowl
+Technique Error: Peel-Peel 2 cloves of garlic improperly made in Peel-Peel 2 cloves of garlic
+Missing Step: Do not mince garlic made in mince-mince garlic
+Temperature Error: Heat-Heat 2 tablespoons olive oil in a skillet over high heat made in Heat-Heat 2 tablespoons olive oil in a skillet over medium-high heat
+Order Error: Add bell pepper before cooking for 4 min  made in Add-Add bell pepper to the skillet
+Temperature Error: Cook - Cook, stirring, for 1 minute until mixture is burnt made in cook-cook, stirring, for 1 minute until the sauce thickens
+Timing Error: Cook until it is burnt  made in cook-cook, stirring, for 1 minute until the sauce thickens
+Other: NONE made in cook-cook, stirring, for 1 minute until the sauce thickens
+Other: NONE made in cook-cook, stirring, for 1 minute until the sauce thickens
+Other: NONE made in cook-cook, stirring, for 1 minute until the sauce thickens
+Other: NONE made in cook-cook, stirring, for 1 minute until the sauce thickens

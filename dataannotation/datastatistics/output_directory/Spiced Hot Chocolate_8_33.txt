@@ -1,0 +1,22 @@
+Recipe: Spiced Hot Chocolate
+-----------------------------------------------------
+Description: 
+Fill a microwave-safe mug with skimmed milk.
+Microwave the contents of the mug for 1 minute.
+Add 2 pieces of chocolate to the mug.
+Add a 1/5 teaspoon of cinnamon to the mug.
+Add 1 teaspoon of white sugar.
+Mix the contents of the mug.
+Heat the contents of the mug for 1 minute and serve.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Heat-Heat the contents of the mug for 1 minute and serve
+Technique Error: Half Fill- Half Fill a microwave-safe mug with whole milk made in Fill-Fill a microwave-safe mug with skimmed milk
+Preparation Error: Half Fill- Half Fill a microwave-safe mug with whole milk made in Fill-Fill a microwave-safe mug with skimmed milk
+Timing Error: Microwave-Microwave the contents of the mug for 2 minute at 10% power made in Microwave-Microwave the contents of the mug for 1 minute
+Temperature Error: Microwave-Microwave the contents of the mug for 2 minute at 10% power made in Microwave-Microwave the contents of the mug for 1 minute
+Measurement Error: Add-Add 5 pieces of chocolate to the mug made in Add-Add 2 pieces of chocolate to the mug
+Preparation Error: Add-Add 1 teaspoon of corn starch to the mug made in Add-Add 1 teaspoon of white sugar to the mug
+Preparation Error: Add-Add 1/5 teaspoon ground cumin to the mug made in Add-Add 1/5 teaspoon cinnamon to the mug
+Technique Error:  Mix-Mix the contents of the mug with spilling made in Mix-Mix the contents of the mug

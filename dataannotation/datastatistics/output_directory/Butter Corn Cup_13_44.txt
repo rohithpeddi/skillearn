@@ -1,0 +1,21 @@
+Recipe: Butter Corn Cup
+-----------------------------------------------------
+Description: 
+Measure 2 cups of frozen corn.
+Thaw the frozen corn by putting it in a sieve and running it under cold water.
+Add the corn into a microwave-safe bowl.
+Microwave the corn for 2 minutes.
+Add 1 teaspoon of softened butter and 1 teaspoon of pepper powder to the bowl and then stir.
+Microwave the corn for 3 more minutes.
+Add 1 teaspoon salt to the bowl.
+Extract lime juice from 1/3 lime and add it to the bowl.
+Mix the contents of the bowl well.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Preparation Error: spill the corn while adding it to seive made in Thaw-Thaw the frozen corn by putting it in a sieve and running it under cold water
+Preparation Error: spill some corn in sink while thawing made in Thaw-Thaw the frozen corn by putting it in a sieve and running it under cold water
+Preparation Error: spill while mixing made in Mix-Mix the contents of the bowl well
+Preparation Error: spill some salt while adding made in Add-Add 1 teaspoon salt to the bowl
+Timing Error: stopped the microwave at 2 mins only made in Microwave-Microwave the corn for 3 more minutes

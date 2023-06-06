@@ -1,0 +1,36 @@
+Recipe: Scrambled Eggs
+-----------------------------------------------------
+Description: 
+Chop 1/4 medium onion.
+Chop 1/4 tomato.
+Chop 1 green chili.
+Peel 2 garlic cloves.
+Mince peeled garlic cloves.
+Chop 1 tbsp cilantro.
+Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat, and add chopped onions and 1/3 tsp salt.
+Sauté the onions on medium heat until they are soft and translucent.
+Add garlic, and chili to the pan.
+Cook for 1 minute, mixing everything.
+Add tomatoes and 1/8 tsp of turmeric to the pan.
+Cook covered for 1 minute or until the tomatoes soften.
+Whisk one egg with 1 tbsp milk and 1/3 tsp salt.
+Slowly pour the whisked eggs into the pan.
+Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked.
+Garnish with 1 tbsp chopped cilantro and serve.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Garnish-Garnish with 1 tbsp chopped cilantro and serve
+Preparation Error: slice instead of chop made in Chop-Chop 1/4 medium onion
+Measurement Error: 1/2 instead of 1/4 made in Chop-Chop 1/4 tomato
+Temperature Error: high level heat instead of medium heat made in Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat
+Preparation Error: sliced instead of chopped made in add-add chopped onions to the pan
+Measurement Error: 1 instead of 1/3 made in add-add 1/3 tsp salt to the pan
+Technique Error: pour some tomatoes outside made in Add-Add tomatoes to the pan
+Technique Error: mince instead of chop made in Chop-Chop 1 green chilli
+Preparation Error: not pour into the pan made in Chop-Chop 1 green chilli
+Technique Error: splashing some salt made in add-add 1/3 tsp salt to the bowl
+Missing Step: not peel 1 garlic clove made in Add-Add chilli to the pan
+Technique Error: chop instead of mince made in Mince-Mince peeled garlic cloves
+Timing Error: 30 seconds instead of 1 minute made in Cook-Cook covered for 1 minute or until the tomatoes soften
+Technique Error: rapidly instead of slowly made in pour-Slowly pour the whisked eggs into the pan

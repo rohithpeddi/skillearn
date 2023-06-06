@@ -1,0 +1,23 @@
+Recipe: Microwave Egg Sandwich
+-----------------------------------------------------
+Description: 
+Coat a 6-oz. ramekin cup with cooking spray.
+Pour 1 egg into the ramekin cup.
+Microwave the ramekin cup uncovered on high for 30 seconds and stir.
+Continue to Microwave for 15-30 more seconds or until the egg is almost set.
+Top with 1 tablespoon of salsa and sprinkle with 1 tablespoon of cheese.
+Microwave just until cheese melts, about 10 seconds.
+Cut the English muffin into two pieces with a knife.
+Line the bottom of the English muffin with lettuce.
+Place the egg from the cup over the lettuce and replace the top of the English muffin.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Preparation Error: mark cup made in Coat -Coat a 6-oz. ramekin cup with cooking spray
+Timing Error: 20 secs made in Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
+Temperature Error: 20 secs not enough temperature made in Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
+Measurement Error: 2 tablespoon made in Top -Top cup with 1 tablespoon of salsa
+Timing Error: 10 seconds made in Microwave -Continue to Microwave for 15-30 more seconds or until the egg is almost set
+Technique Error: pour  made in sprinkle -sprinkle 1 tablespoon of cheese on cup
+Timing Error: 30 secs made in Microwave -Microwave just until cheese melts, about 10 seconds

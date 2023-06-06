@@ -1,0 +1,25 @@
+Recipe: Herb Omelet with Fried Tomatoes
+-----------------------------------------------------
+Description: 
+Take a tomato and cut it into two pieces.
+Heat 1 tbsp oil in a small non-stick frying pan, then cook the tomatoes cut-side down until they start to soften and colour.
+Chop 2 tbsp cilantro.
+Meanwhile, crack one egg in a bowl and add the chopped cilantro and 1/2 tsp ground black pepper.
+Beat the contents of the bowl.
+Scoop the tomatoes from the pan and put tomatoes on a serving plate.
+Pour the egg mixture into the pan and stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space.
+Stop stirring when it’s nearly cooked to allow it to set into an omelette.
+Transfer it to the plate and serve with the tomatoes.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Transfer-Transfer omelette to the plate and serve with the tomatoes
+Measurement Error: Chop 1 tbsp cilantro made in Chop-Chop 2 tbsp cilantro
+Preparation Error: Half tomato only made in Take-Take a tomato
+Technique Error: Chop tomato into many pieces made in Cut-Cut tomato into two pieces
+Timing Error: cook the tomatoes cut-side down just several seconds, without waiting for they starting to soften and color made in cook-cook the tomatoes cut-side down until they start to soften and colour
+Technique Error: pour the tomatoes directly made in Scoop-Scoop the tomatoes from the pan
+Preparation Error: metal spoon made in stir-stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space
+Timing Error: fully cooked made in Stop-Stop stirring when it's nearly cooked to allow it to set into an omelette
+Technique Error: set into small pieces instead of an omelette made in Stop-Stop stirring when it's nearly cooked to allow it to set into an omelette
+Temperature Error: fully cooked made in Stop-Stop stirring when it's nearly cooked to allow it to set into an omelette

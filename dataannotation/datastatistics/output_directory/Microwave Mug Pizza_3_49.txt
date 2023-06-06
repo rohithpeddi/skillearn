@@ -1,0 +1,28 @@
+Recipe: Microwave Mug Pizza
+-----------------------------------------------------
+Description: 
+Take a microwavable mug.
+Measure 4 tablespoons of flour and add it to the mug.
+Measure 1/8 teaspoon of baking powder and add it to the mug.
+Measure 1/16 teaspoon of baking soda and add it to the mug.
+Measure 1/8 teaspoon of salt and add it to the mug.
+Stir the contents in the mug well.
+Add in 3 tablespoons of milk and 1 tablespoon of olive oil to the mug.
+Mix the contents of the mug thoroughly(There might be some lumps, but that is ok).
+Take 1 tablespoon of marinara sauce and spread it around the surface of the batter.
+Sprinkle 1 generous tablespoon of mozzarella cheese on top of the sauce.
+Sprinkle dried Italian herbs inside the mug.
+Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Preparation Error: Take-Take a microwavable mug without cleaning in the sink made in Take-Take a microwavable mug
+Measurement Error: add-Measure 1/4 teaspoon of baking powder and add it to the mug made in add-Measure 1/8 teaspoon of baking powder and add it to the mug
+Measurement Error: add-Measure 5 tablespoons of flour and add it to the mug made in add-Measure 4 tablespoons of flour and add it to the mug
+Measurement Error: add-Measure 1/4 teaspoon of salt and add it to the mug made in add-Measure 1/8 teaspoon of salt and add it to the mug
+Technique Error: Add-Add in 3 tablespoons of curd to the mug made in Add-Add in 3 tablespoons of milk to the mug
+Technique Error: Take-Take 1 tablespoon of tomato ketchup made in Take-Take 1 tablespoon of marinara sauce
+Technique Error: spread-spread tomato ketchup on the edge of batter made in spread-spread marinara sauce around the surface of the batter
+Temperature Error: NONE made in Mix-Mix the contents of the mug thoroughly. (There might be some lumps, but that is ok.)
+Timing Error: Microwave-Microwave for 2 minutes, or until it rises and the toppings are bubbling made in Microwave-Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling

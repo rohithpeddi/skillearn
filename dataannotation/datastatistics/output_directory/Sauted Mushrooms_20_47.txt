@@ -1,0 +1,32 @@
+Recipe: Sauted Mushrooms
+-----------------------------------------------------
+Description: 
+Chop 1 shallot
+Rinse 3 mushrooms under cold water and pat them dry with a paper towel.
+Pull out the stems.
+Slice the mushrooms.
+Heat 1 tbsp olive oil in a large skillet over medium-high heat.
+Once the pan is hot, add the mushrooms and cook for 3 minutes, stirring often, until they start to soften and brown.
+Add chopped shallot and cook, often stirring, for 1 minute.
+Peel 2 garlic cloves and mince them.
+Add 2 cloves of minced garlic and 1/4 tbsp balsamic vinegar and cook, often stirring, for 1 minute.
+Season with salt and pepper to taste.
+Transfer the contents of the pan to a serving dish.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Add-1/4 tbsp balsamic vinegar to the pan
+Order Error: None
+Measurement Error: Instead of 1 shallot using only half shallot. made in Chop-Chop 1 shallot
+Temperature Error: Setting it to low-medium heat instead of medium-high heat. made in Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+Preparation Error: Not rinsing one mushroom and rinsing only two mushrooms. made in Rinse-Rinse 3 mushrooms under cold water
+Technique Error: Apply more pressure while pating rinsed mushrooms. made in pat-pat rinsed mushrooms dry with a paper towel
+Preparation Error: Not completely peeling the garlic cloves. made in Peel-Peel 2 garlic cloves
+Preparation Error: Leaving stem to one of the mushroom. made in Pull-Pull out mushroom stems
+Technique Error: Instead of slicing, chopping the mushrooms. made in Slice-Slice the mushrooms
+Timing Error: Cooking for less than 3 minutes instead of 3-5 minutes and not making the mushrooms to turn brown. made in cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown
+Preparation Error: Sprinkling the salt out of the pan. made in Season-Season pan with salt
+Timing Error: Cooking for only 30 seconds instead of 1 minute. made in cook-cook the pan, often stirring, for 1 minute
+Technique Error: Instead of mincing the garlic cloves only chopping. made in mince-mince garlic cloves
+Preparation Error: While adding the minced garlic drop some of them. made in Add-Add 2 cloves of minced garlic to the pan
+Timing Error: Instead of 1 minute cooking only for 15 seconds. made in cook-cook the pan, often stirring, for 1 minute

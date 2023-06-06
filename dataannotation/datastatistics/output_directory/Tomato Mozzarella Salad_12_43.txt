@@ -1,0 +1,25 @@
+Recipe: Tomato Mozzarella Salad
+-----------------------------------------------------
+Description: 
+Rinse a tomato and gently dry it with a tea towel.
+Slice one tomato into about ½ inch thick slices.
+Place the thick slices of tomatoes on a platter, ensuring they only make a single layer.
+Season the tomato slices with salt.
+Sprinkle mozzarella cheese on top of the tomato throughout the platter.
+Garnish with italian seasoning.
+Season with ¼ teaspoon black pepper.
+Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Garnish-Garnish platter with italian seasoning
+Missing Step: Season-Season the tomato slices with salt
+Missing Step: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter
+Missing Step: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter
+Order Error: None
+Timing Error: Rinse for too short made in Rinse-Rinse a tomato
+Temperature Error: Rinse with hot water made in Rinse-Rinse a tomato
+Preparation Error: Use a paper towel instead made in dry-gently dry it with a tea towel
+Technique Error: Cut tomato instead of slicing made in Slice-Slice one tomato into about 1/2 inch thick slices
+Measurement Error: Cut into big slices made in Slice-Slice one tomato into about 1/2 inch thick slices
+Technique Error: Spill made in Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer

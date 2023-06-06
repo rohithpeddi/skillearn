@@ -1,0 +1,25 @@
+Recipe: Ramen
+-----------------------------------------------------
+Description: 
+Remove the noodles from the package(Break Noodles / Keep them as a block).
+Peel and Chop 1 garlic clove on a cutting board.
+Peel 1 medium onion and slice 1/4 medium onion into pieces.
+Put all the Vegetables in a microwave-safe bowl.
+Add the noodles to the bowl and cover them with water.
+Cover with a lid (or paper towel) to prevent splattering.
+Microwave the ramen for 4 minutes.
+Add basil and cilantro to the bowl.
+Let the noodles sit for about 1 minute after the microwave stops.
+Mix in the flavour packet.
+Stir noodles with a spoon or fork until the flavouring dissolves.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Technique Error: Peeled garlic improperly made in Peel-Peel 1 garlic clove
+Preparation Error: Placing things before cutting them  made in Put-Put all the Vegetables in a microwave-safe bowl
+Preparation Error: Using a plate instead of bowl made in cover-cover the noodles with water
+Missing Step: Did not cover the lid with a paper towel made in Cover-Cover with a lid (or paper towel) to prevent splattering
+Preparation Error: Using non-microwaveable things and using things which does not fit into microwave  made in Microwave-Microwave the ramen for 4 minutes
+Other: Added them before  made in Add-Add the noodles to the bowl
+Technique Error: Stir fast to spill the water out of the bowl made in Stir-Stir noodles with a spoon or fork until the flavouring dissolves

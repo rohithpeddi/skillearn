@@ -1,0 +1,38 @@
+Recipe: Coffee
+-----------------------------------------------------
+Description: 
+Measure 12 ounces of cold water and transfer it to a kettle.
+Boil the water.
+While the water is boiling, assemble the filter cone.
+Place the dripper on top of a coffee mug.
+Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle.
+Place the paper filter in the dripper and spread open to create a cone.
+Weigh the coffee beans (8 oz – 12 oz).
+Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds.
+Transfer the grounds to the filter cone.
+Once the water has boiled, check the temperature of the water(The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius).
+If the water is too hot, let it cool briefly.
+Pour a small amount of water into the filter to wet the grounds.
+Wait about 30 seconds for the coffee to bloom(You will see small bubbles or foam on the coffee grounds during this step).
+Slowly pour the rest of the water over the grounds in a circular motion.
+Do not overfill beyond the top of the paper filter.
+Let the coffee drain completely into the mug before removing the dripper.
+Discard the paper filter and coffee grounds.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: check-Once the water has boiled, check the temperature of the water. (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius. If the water is too hot, let it cool briefly.)
+Preparation Error: Measure-Measure 12 ounces of milk made in Measure-Measure 12 ounces of cold water
+Preparation Error: transfer-transfer milk to a microwave safe bowl made in transfer-transfer water to a kettle
+Technique Error: Prepare-Prepare the filter insert taking it fully made in Prepare-Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle
+Technique Error: Boil-Boil the milk in microwave. (While the milk is boiling, assemble the filter cone) made in Boil-Boil the water. (While the water is boiling, assemble the filter cone)
+Preparation Error: NULL made in Place-Place the paper filter in the dripper
+Technique Error: Null made in spread-spread open filter in dripper to create a cone
+Measurement Error: Weigh-Weigh the coffee beans 0.4oz-0.6oz made in Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
+Timing Error: Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 40 seconds made in Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds
+Technique Error: Grind-Grind the coffee beans using stone mortar until the coffee grounds are the consistency of coarse, about 40 seconds made in Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds
+Preparation Error: Pour-Pour a small amount of milk into the filter to wet the grounds made in Pour-Pour a small amount of water into the filter to wet the grounds
+Timing Error: Wait-Wait about 1 minute for the coffee to bloom. (You will see small bubbles or foam on the coffee grounds during this step.) made in Wait-Wait about 30 seconds for the coffee to bloom. (You will see small bubbles or foam on the coffee grounds during this step.)
+Technique Error: pour-fast pour the rest of the milk over the grounds in a bulk and immediately made in pour-Slowly pour the rest of the water over the grounds in a circular motion. Do not overfill beyond the top of the paper filter
+Preparation Error: pour-fast pour the rest of the milk over the grounds in a bulk and immediately made in pour-Slowly pour the rest of the water over the grounds in a circular motion. Do not overfill beyond the top of the paper filter
+Temperature Error: NULL made in Discard-Discard the paper filter and coffee grounds

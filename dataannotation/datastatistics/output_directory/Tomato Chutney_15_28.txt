@@ -1,0 +1,34 @@
+Recipe: Tomato Chutney
+-----------------------------------------------------
+Description: 
+Peel 4 large garlic cloves.
+mince the garlic.
+Take 1 tomato.
+Chop them up roughly and puree them without any water in a blender/mixer.
+Heat 3 tbsp oil in a pan over medium heat.
+Add 1/4 tsp mustard and 1/2 tsp cumin seeds.
+When the seeds begin to sizzle, add minced garlic.
+Lower the heat.
+Saute the garlic for 2-3 minutes.
+Add 2 tbsp red chili powder and mix well.
+Add tomato puree and 1/2 tsp salt.
+Mix well.
+Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick.
+Take the pan off the heat.
+Transfer it to a serving bowl.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Peel-Peel 4 large garlic cloves
+Missing Step: mince-mince the garlic
+Missing Step: Saute-Saute the garlic for 2-3 minutes
+Missing Step: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+Measurement Error: Heat 5 tbsp oil in a pan over medium heat made in Heat-Heat 3 tbsp oil in a pan over medium heat
+Temperature Error: Changed to medium heat made in Heat-Heat 3 tbsp oil in a pan over medium heat
+Temperature Error: Increase heat from medium to high made in Lower-Lower the heat
+Preparation Error: did not wash the tomato before taking for cooking made in Take-Take 1 tomato
+Technique Error: slice instead of chopping the tomatoes made in Chop-Chop tomato roughly (anysize chunks are fine)
+Technique Error: making puree of tomatoes with water in blender/mixer made in puree-puree tomatoes without any water in a blender/mixer
+Measurement Error: Add-1 tsp salt to the pan  made in Add-1/2 tsp salt to the pan
+Timing Error: simmer-Allow the mixture to simmer over high heat for 2 minutes  made in simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick
+Temperature Error: simmer-Allow the mixture to simmer over high heat for 2 minutes  made in simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick

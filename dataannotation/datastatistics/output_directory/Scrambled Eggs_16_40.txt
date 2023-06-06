@@ -1,0 +1,39 @@
+Recipe: Scrambled Eggs
+-----------------------------------------------------
+Description: 
+Chop 1/4 medium onion.
+Chop 1/4 tomato.
+Chop 1 green chili.
+Peel 2 garlic cloves.
+Mince peeled garlic cloves.
+Chop 1 tbsp cilantro.
+Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat, and add chopped onions and 1/3 tsp salt.
+Sauté the onions on medium heat until they are soft and translucent.
+Add garlic, and chili to the pan.
+Cook for 1 minute, mixing everything.
+Add tomatoes and 1/8 tsp of turmeric to the pan.
+Cook covered for 1 minute or until the tomatoes soften.
+Whisk one egg with 1 tbsp milk and 1/3 tsp salt.
+Slowly pour the whisked eggs into the pan.
+Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked.
+Garnish with 1 tbsp chopped cilantro and serve.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: add-add 1/3 tsp salt to the pan
+Missing Step: Cook-Cook for 1 minute, mixing everything
+Order Error: None
+Measurement Error: Using 3 tbsp of oil instead of 2 tbsp. made in Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat
+Temperature Error: Low heat instead of medium. made in Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat
+Technique Error: Instead of chopping doing a slicing. made in Chop-Chop 1/4 medium onion
+Preparation Error: Not washing the green chilli. made in Chop-Chop 1 green chilli
+Measurement Error: Using 1 tbsp instead of 1 tsp. made in Chop-Chop 1 tsp cilantro
+Preparation Error: Leaving the egg shell remains in the bowl. made in Crack-Crack one egg in the bowl
+Measurement Error: Using 1/2 tomato instead of 1/4 tomato. made in Chop-Chop 1/4 tomato
+Preparation Error: Not properly peeling the Garlic cloves. made in Peel-Peel 2 garlic cloves
+Measurement Error: Adding the 1/3 tbsp instead of 1/3 tsp. made in add-add 1/3 tsp salt to the bowl
+Measurement Error: Adding 1 tsp milk to the bowl instead of 1 tbsp. made in add-add  1 tbsp milk to the bowl
+Timing Error: Covering more than a minute instead of 1 minute. made in Cook-Cook covered for 1 minute or until the tomatoes soften
+Preparation Error: Pouring very fastly into the pan instead of slowly. made in pour-Slowly pour the whisked eggs into the pan
+Timing Error: Mixing with a spatula less than 3 minutes intead of exactly 3 minutes. made in mixing-Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked
+Measurement Error: Adding 1/8 tbsp turmeric instead of 1/8 tsp. made in Add-Add 1/8 tsp of turmeric to the pan

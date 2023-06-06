@@ -1,0 +1,34 @@
+Recipe: Tomato Chutney
+-----------------------------------------------------
+Description: 
+Peel 4 large garlic cloves.
+mince the garlic.
+Take 1 tomato.
+Chop them up roughly and puree them without any water in a blender/mixer.
+Heat 3 tbsp oil in a pan over medium heat.
+Add 1/4 tsp mustard and 1/2 tsp cumin seeds.
+When the seeds begin to sizzle, add minced garlic.
+Lower the heat.
+Saute the garlic for 2-3 minutes.
+Add 2 tbsp red chili powder and mix well.
+Add tomato puree and 1/2 tsp salt.
+Mix well.
+Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick.
+Take the pan off the heat.
+Transfer it to a serving bowl.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Mix-Mix well tomato puree with contents in the pan
+Missing Step: simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick
+Measurement Error: NONE made in Take-Take 1 tomato
+Technique Error: Peel-Peel 4 large garlic cloves. Peel not done correctly. Did not press the cloves. Did not remove all the peels completely. made in Peel-Peel 4 large garlic cloves
+Technique Error: mince-mince the garlic incorrectly. Just pressing the clove from top to down with knife. Spilling the cloves in the process. made in mince-mince the garlic
+Technique Error: Slice-Slice tomato roughly made in Chop-Chop tomato roughly (anysize chunks are fine)
+Technique Error: Heat-Heat 3 tbsp oil in a pan over medium heat. Spilling happened while putting oil in the pan. made in Heat-Heat 3 tbsp oil in a pan over medium heat
+Preparation Error: Add-Add 1/4 tsp red chilli flakes to the pan made in Add-Add 1/4 tsp mustard to the pan
+Timing Error: puree-puree tomatoes without any water in a blender/mixer. Puree not formed properly. Should be done for more time. made in puree-puree tomatoes without any water in a blender/mixer
+Timing Error: add-When mustard and cumin seeds are burnt, add minced garlic made in add-When mustard and cumin seeds begin to sizzle, add minced garlic
+Temperature Error: Turn off the heat. Because of smoke and pungent odor. made in Lower-Lower the heat
+Timing Error: Saute-Saute the garlic for 1-2 minutes made in Saute-Saute the garlic for 2-3 minutes
+Order Error: mix-mix well contents of the pan. Done after putting salt.  made in mix-mix well contents of the pan

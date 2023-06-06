@@ -1,0 +1,41 @@
+Recipe: Mug Cake
+-----------------------------------------------------
+Description: 
+Place the paper cupcake liner inside the mug.
+Set aside.
+Measure and add 2 tbsp flour, 1.5 tbsp sugar, 1/4 tsp baking powder, and a pinch of salt to the mixing bowl.
+Whisk to combine.
+Measure and add 2 tsp vegetable oil, 2 tbsp water, and 1/4 tsp vanilla extract to the bowl.
+Whisk batter until no lumps remain.
+Pour batter into prepared mug.
+Microwave the mug and batter on high power for 60 seconds.
+Check if the cake is done by inserting and toothpick into the center of the cake and then removing it.
+If wet batter clings to the toothpick, microwave for an additional 5 seconds.
+If the toothpick comes out clean, continue.
+Invert the mug to release the cake onto a plate.
+Allow to cool until it is no longer hot to the touch, then carefully remove the paper liner.
+While the cake is cooling, prepare to pipe the frosting.
+Scoop 4 spoonfuls of chocolate frosting into a zip-top bag and seal, removing as much air as possible.
+Use scissors to cut one corner from the bag to create a small opening ¼-inch in diameter.
+Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Measure and add-1/4 tsp baking powder to the bowl
+Missing Step: Microwave-Microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue
+Missing Step: seal-seal zip top bag, removing as much air as possible
+Preparation Error: Measure and add-Measure and add 2 tbsp flour to the mixing bowl (without cleaning bowl first) made in Measure and add-Measure and add 2 tbsp flour to the mixing bowl
+Technique Error: Measure and add-1.5 tbsp salt to the mixing bowl made in Measure and add-1.5 tbsp sugar to the mixing bowl
+Technique Error: Measure and add-a pinch of sugar to the mixing bowl made in Measure and add-a pinch of salt to the mixing bowl
+Measurement Error: Measure and add-1/2 tsp vanilla extract to the bowl made in Measure and add-1/4 tsp vanilla extract to the bowl
+Technique Error: Measure and add-2 tbsp milk to the bowl made in Measure and add-2 tbsp water to the bowl
+Technique Error: Measure and add-Measure and add 2 tsp olive oil to the bowl made in Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+Technique Error: Whisk-Whisk batter with a spoon until no lumps remain made in Whisk-Whisk batter until no lumps remain
+Temperature Error: NULL made in Pour-Pour batter into prepared mug
+Preparation Error: Invert-Invert the mug to release the cake onto a bowl made in Invert-Invert the mug to release the cake onto a plate
+Timing Error: Allow-No time to allow for cooling so that it is still hot to the touch made in Allow-Allow to cool until it is no longer hot to the touch
+Technique Error: remove- remove the paper liner by pulling strongly (not carefully) made in remove-then carefully remove the paper liner
+Measurement Error: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 2 spoonfuls of chocolate frosting into a polythene  made in Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag
+Technique Error: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 2 spoonfuls of chocolate frosting into a polythene  made in Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag
+Technique Error: cut-Use knife to cut one corner from the bag to create a small opening 1/4 inch in diameter made in cut-Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter
+Technique Error: Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the bowl in a square around the base of the cake made in Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake

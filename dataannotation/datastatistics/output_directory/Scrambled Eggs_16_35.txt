@@ -1,0 +1,37 @@
+Recipe: Scrambled Eggs
+-----------------------------------------------------
+Description: 
+Chop 1/4 medium onion.
+Chop 1/4 tomato.
+Chop 1 green chili.
+Peel 2 garlic cloves.
+Mince peeled garlic cloves.
+Chop 1 tbsp cilantro.
+Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat, and add chopped onions and 1/3 tsp salt.
+Sauté the onions on medium heat until they are soft and translucent.
+Add garlic, and chili to the pan.
+Cook for 1 minute, mixing everything.
+Add tomatoes and 1/8 tsp of turmeric to the pan.
+Cook covered for 1 minute or until the tomatoes soften.
+Whisk one egg with 1 tbsp milk and 1/3 tsp salt.
+Slowly pour the whisked eggs into the pan.
+Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked.
+Garnish with 1 tbsp chopped cilantro and serve.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Mince-Mince peeled garlic cloves
+Missing Step: add-add  1 tbsp milk to the bowl
+Technique Error: Half peel garlic made in Peel-Peel 2 garlic cloves
+Technique Error: Crack the egg with shells in the bowl made in Crack-Crack one egg in the bowl
+Technique Error: Mince onion instead of chopping it made in Chop-Chop 1/4 medium onion
+Technique Error: Throw onions outside the pan while adding them made in add-add chopped onions to the pan
+Measurement Error: Chop 1/2 tomato instead of 1/4 tomato made in Chop-Chop 1/4 tomato
+Measurement Error: Adding 1/2 tsp salt  made in add-add 1/3 tsp salt to the pan
+Temperature Error: Saute onions in high heat made in Saute-Saute the onions on medium heat until they are soft and translucent
+Timing Error: Cook for 3 min instead of 1 min made in Cook-Cook for 1 minute, mixing everything
+Preparation Error: Using spoilt cilantro instead of good ones made in Chop-Chop 1 tsp cilantro
+Technique Error: Spilling while whisking the egg mixture in the bowl made in Whisk-Whisk the egg mixture in the bowl
+Missing Step: Tomatoes already softened so missed this step made in Cook-Cook covered for 1 minute or until the tomatoes soften
+Technique Error: Transfer completely at once made in pour-Slowly pour the whisked eggs into the pan
+Technique Error: Mixing the dish instead of garnishing it made in Garnish-Garnish with 1 tbsp chopped cilantro and serve

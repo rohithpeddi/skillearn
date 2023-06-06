@@ -1,0 +1,25 @@
+Recipe: Herb Omelet with Fried Tomatoes
+-----------------------------------------------------
+Description: 
+Take a tomato and cut it into two pieces.
+Heat 1 tbsp oil in a small non-stick frying pan, then cook the tomatoes cut-side down until they start to soften and colour.
+Chop 2 tbsp cilantro.
+Meanwhile, crack one egg in a bowl and add the chopped cilantro and 1/2 tsp ground black pepper.
+Beat the contents of the bowl.
+Scoop the tomatoes from the pan and put tomatoes on a serving plate.
+Pour the egg mixture into the pan and stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space.
+Stop stirring when it’s nearly cooked to allow it to set into an omelette.
+Transfer it to the plate and serve with the tomatoes.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Measurement Error: two instead of one tomato made in Take-Take a tomato
+Measurement Error: 1 instead of 2 tbsp made in Chop-Chop 2 tbsp cilantro
+Technique Error: Splash some pepper outside made in add-1/2 tsp ground black pepper to the bowl
+Timing Error: Close the fire early made in Heat-Heat 1 tbsp oil in a small non-stick frying pan
+Technique Error: Slowly stir the contents made in Beat-Beat the contents of the bowl
+Timing Error: cook the tomatoes in a short time made in cook-cook the tomatoes cut-side down until they start to soften and colour
+Preparation Error: bowl instead of plate made in put-put tomatoes on a serving plate
+Technique Error: stir rapidly instead of gently made in stir-stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space
+Temperature Error: Null made in Transfer-Transfer omelette to the plate and serve with the tomatoes

@@ -1,0 +1,20 @@
+Recipe: Cucumber Raita
+-----------------------------------------------------
+Description: 
+In a mixing bowl, whisk 1 cup of chilled curd until smooth.
+Use fresh homemade or packaged curd.
+Avoid using sour-tasting curd.
+Rinse, peel and chop or grate 1 medium-sized cucumber (You need 1 cup of chopped or grated cucumber).
+Add the chopped or grated cucumber to the whisked curd.
+Add 1 teaspoon of cumin powder, 1/2 teaspoon of chaat masala powder, 1/4 teaspoon of red chilli powder and 1/4 teaspoon salt.
+Lastly, add 1 tablespoon of chopped cilantro leaves
+Combine all the ingredients.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: peel-peel the cucumber
+Order Error: None
+Preparation Error: spill some cumin powder  made in Add-Add 1 teaspoon of cumin powder to the bowl
+Preparation Error: add scallions instead of cilantro made in add-add 1 tablespoon of chopped cilantro leaves to the bowl
+Preparation Error: use zuchini instead of cucumber made in Rinse-Rinse 1 medium sized cucumber
+Preparation Error: use zucchini instead of cucumber and chop or grate only half zucchini instead of full made in chop or grate-chop or grate the cucumber

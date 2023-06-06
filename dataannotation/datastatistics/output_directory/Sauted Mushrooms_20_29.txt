@@ -1,0 +1,28 @@
+Recipe: Sauted Mushrooms
+-----------------------------------------------------
+Description: 
+Chop 1 shallot
+Rinse 3 mushrooms under cold water and pat them dry with a paper towel.
+Pull out the stems.
+Slice the mushrooms.
+Heat 1 tbsp olive oil in a large skillet over medium-high heat.
+Once the pan is hot, add the mushrooms and cook for 3 minutes, stirring often, until they start to soften and brown.
+Add chopped shallot and cook, often stirring, for 1 minute.
+Peel 2 garlic cloves and mince them.
+Add 2 cloves of minced garlic and 1/4 tbsp balsamic vinegar and cook, often stirring, for 1 minute.
+Season with salt and pepper to taste.
+Transfer the contents of the pan to a serving dish.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Add-Add chopped shallot to the pan
+Missing Step: Pull-Pull out mushroom stems
+Measurement Error: use 2 mushrooms instead of 3 made in Rinse-Rinse 3 mushrooms under cold water
+Preparation Error: peel only partially made in Peel-Peel 2 garlic cloves
+Technique Error: squeeze instead of patting made in pat-pat rinsed mushrooms dry with a paper towel
+Temperature Error: use low heat instead of high heat made in Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+Technique Error: chop shallot without peeling it made in Chop-Chop 1 shallot
+Technique Error: chop instead of slice made in Slice-Slice the mushrooms
+Timing Error: cook for 2 mins instead of 1 min made in cook-cook the pan, often stirring, for 1 minute
+Measurement Error: add 1 tbsp balsamic vinegar instead of 1/4 tbsp made in Add-1/4 tbsp balsamic vinegar to the pan
+Preparation Error: spill some pepper outside made in Season-pepper on pan to taste

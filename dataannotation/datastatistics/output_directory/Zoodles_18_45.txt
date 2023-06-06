@@ -1,0 +1,28 @@
+Recipe: Zoodles
+-----------------------------------------------------
+Description: 
+Spiralize 1 medium zucchini into thin noodles using a spiralizer.
+Heat a large pan on medium heat.
+Melt 1 tablespoons of softened butter.
+Peel 1 garlic cloves.
+Add 1 large minced garlic cloves to the pan.
+Cook garlic until fragrant (about 1 minutes).
+Be careful not to burn garlic.
+Add the zucchini noodles and 1/6 cup grated parmesan cheese and season with salt & pepper to taste.
+Cook for 1 minutes or until the zoodles are done.
+Remove from heat and serve immediately.
+Top with more parmesan if desired.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Preparation Error: Heat-Heat a large saucepan on medium heat made in Heat-Heat a large pan on medium heat
+Technique Error: Peel-Peel 1 garlic cloves without pressing the garlic. made in Peel-Peel 1 garlic cloves
+Preparation Error: Melt-Melt 1 tablespoons of clarified butter(ghee) made in Melt-Melt 1 tablespoons of softened butter
+Timing Error: Cook-Cook garlic until it burns (about 2.5 minutes). Put melted ghee at the start of cooking. made in Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic
+Preparation Error: Cook-Cook garlic until it burns (about 2.5 minutes). Put melted ghee at the start of cooking. made in Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic
+Technique Error: season-season with salt. Spillage happens. made in season-season with salt
+Technique Error: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer. Did not remove top part of zucchini. Just pressing the zucchini against the spiralizer at the start. Incomplete action of spiralizing. Used both ends of zucchini. Spilling happens. made in Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+Technique Error: Add-Add 1 large sliced garlic cloves to the pan. Throwing cloves. Spilling also. made in Add-Add 1 large minced garlic cloves to the pan
+Technique Error: Add-Add the zucchini noodles. Improper way of transferring. Not taking the chopping board and trasferring with hand. Spilling the noodles as well. made in Add-Add the zucchini noodles
+Technique Error: Cook-Cook for 2 minutes with improper action. Just pressing the zoodles. Taking zoodles in the spoon and out of container. Spilling the zoodles as well. made in Cook-Cook for 2 minutes or until the zoodles are done

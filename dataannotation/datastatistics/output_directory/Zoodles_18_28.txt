@@ -1,0 +1,27 @@
+Recipe: Zoodles
+-----------------------------------------------------
+Description: 
+Spiralize 1 medium zucchini into thin noodles using a spiralizer.
+Heat a large pan on medium heat.
+Melt 1 tablespoons of softened butter.
+Peel 1 garlic cloves.
+Add 1 large minced garlic cloves to the pan.
+Cook garlic until fragrant (about 1 minutes).
+Be careful not to burn garlic.
+Add the zucchini noodles and 1/6 cup grated parmesan cheese and season with salt & pepper to taste.
+Cook for 1 minutes or until the zoodles are done.
+Remove from heat and serve immediately.
+Top with more parmesan if desired.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: season-pepper to taste
+Missing Step: Top-Top with more parmesan if desired
+Technique Error: Peel improperly made in Peel-Peel 1 garlic cloves
+Preparation Error: heat the wrong pan and turn off the heat and turn on the heat for the correct pan made in Heat-Heat a large pan on medium heat
+Temperature Error: Burn the butter by heating on high made in Melt-Melt 1 tablespoons of softened butter
+Technique Error: Chop the garlic instead of mincing made in Add-Add 1 large minced garlic cloves to the pan
+Timing Error: Cook until the garlic is burnt made in Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic
+Technique Error: Spill while adding grated cheese made in Add-1/6 cup grated parmesan cheese
+Technique Error: Spill outside while sauteing to cook made in Cook-Cook for 2 minutes or until the zoodles are done
+Measurement Error: NONE made in Remove-Remove from heat

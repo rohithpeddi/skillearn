@@ -1,0 +1,36 @@
+Recipe: Dressed Up Meatballs
+-----------------------------------------------------
+Description: 
+Cut 1/4 medium carrot into short, thin strips.
+Peel one medium onion and cut it into two pieces.
+Slice 1/8 medium onion.
+Peel 1 garlic clove.
+Cut and Mince 1/8 garlic clove.
+Place-Place 5 meatballs in a Microwave-safe plate.
+Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder.
+Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl.
+Pour the sauces over the meatballs.
+Microwave, covered, on high for 5 minutes
+Stir the contents in the microwave with a spoon
+Microwave, covered, on high for 5 minutes
+Stir the contents in the microwave with a spoon.
+Microwave for 1 more minute.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder.
+Missing Step: Stir-Stir the contents in the microwave with a spoon
+Preparation Error: Not properly peeling the garlic clove. made in Peel-Peel 1 garlic clove
+Measurement Error: Using 1/2 garlic instead of 1/8 garlic. made in Cut-Cut 1/8 garlic clove
+Measurement Error: Using 1/2 garlic clove instead of 1/8. made in Mince-Mince 1/8 garlic clove
+Technique Error: Cutting into long instead of short. made in Cut-Cut 1/4 medium carrot into short, thin strips
+Measurement Error: Using 6 meatballs instead of 5 meatballs. made in Place-Place 5 meatballs in a Microwave-safe plate
+Technique Error: Cutting into 4 pieces instead of 1. made in cut-Cut onion into two pieces
+Measurement Error: Slicing 1/4 onion instead of 1/8 onion. made in Slice-Slice 1/8 medium onion
+Measurement Error: Mixing 1/2 cup instead of 1/4 cup sweet and sour sauce and 1 teaspoon of soy sauce instead of 1/2 teaspoon. made in Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl
+Preparation Error: Spill soy sauce while measuring. made in Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl
+Technique Error: Instead of pouring sauces over meatballs, put the meatballs into the sauces. made in Pour-Pour the sauces over the meatballs
+Preparation Error: Microwave the plate uncovered without covering it. made in Microwave-Microwave the plate, covered, on high for 5 minutes
+Technique Error: Using a fork instead of a spoon. made in Stir-Stir the contents in the microwave with a spoon
+Temperature Error: Instead of high power level we microwave on a medium power level. made in Microwave-Microwave the plate, covered, on high for 5 minutes
+Timing Error: Microwave for more than a minute. made in Microwave-Microwave for 1 more minute

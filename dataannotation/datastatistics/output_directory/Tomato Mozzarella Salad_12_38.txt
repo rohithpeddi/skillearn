@@ -1,0 +1,28 @@
+Recipe: Tomato Mozzarella Salad
+-----------------------------------------------------
+Description: 
+Rinse a tomato and gently dry it with a tea towel.
+Slice one tomato into about ½ inch thick slices.
+Place the thick slices of tomatoes on a platter, ensuring they only make a single layer.
+Season the tomato slices with salt.
+Sprinkle mozzarella cheese on top of the tomato throughout the platter.
+Garnish with italian seasoning.
+Season with ¼ teaspoon black pepper.
+Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter.
+
+-----------------------------------------------------
+Errors made:
+Order Error: None
+Preparation Error: NOT Rinse-Do not Rinse 2 cherry tomato made in Rinse-Rinse a tomato
+Technique Error: NOT Rinse-Do not Rinse 2 cherry tomato made in Rinse-Rinse a tomato
+Technique Error: wet it with a tea towel made in dry-gently dry it with a tea towel
+Measurement Error: Slice-Slice one tomato into about 1 inch thick slices made in Slice-Slice one tomato into about 1/2 inch thick slices
+Technique Error: Place-Place the thick slices of tomatoes on a platter, making a double layer of tomatoes made in Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer
+Preparation Error: Season-Season the tomato slices with sugar made in Season-Season the tomato slices with salt
+Measurement Error: Season-Season platter with 1/2 teaspoon black pepper made in Season-Season platter with 1/4 teaspoon black pepper
+Technique Error: Sprinkle-Sprinkle cheddar cheese on boundary of the plater. made in Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter
+Preparation Error: Sprinkle-Sprinkle cheddar cheese on boundary of the plater. made in Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter
+Timing Error: NULL made in Garnish-Garnish platter with italian seasoning
+Temperature Error: NULL made in Garnish-Garnish platter with italian seasoning
+Measurement Error: Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon, over the entire platter made in Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter
+Preparation Error: Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon, over the entire platter made in Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter

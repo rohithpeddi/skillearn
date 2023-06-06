@@ -1,0 +1,39 @@
+Recipe: Scrambled Eggs
+-----------------------------------------------------
+Description: 
+Chop 1/4 medium onion.
+Chop 1/4 tomato.
+Chop 1 green chili.
+Peel 2 garlic cloves.
+Mince peeled garlic cloves.
+Chop 1 tbsp cilantro.
+Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat, and add chopped onions and 1/3 tsp salt.
+Sauté the onions on medium heat until they are soft and translucent.
+Add garlic, and chili to the pan.
+Cook for 1 minute, mixing everything.
+Add tomatoes and 1/8 tsp of turmeric to the pan.
+Cook covered for 1 minute or until the tomatoes soften.
+Whisk one egg with 1 tbsp milk and 1/3 tsp salt.
+Slowly pour the whisked eggs into the pan.
+Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked.
+Garnish with 1 tbsp chopped cilantro and serve.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: add-add  1 tbsp milk to the bowl
+Order Error: None
+Technique Error: Throw egg into the bowl while cracking it made in Crack-Crack one egg in the bowl
+Technique Error: Chop-Chop 1 green chilli improperly made in Chop-Chop 1 green chilli
+Measurement Error: Chop-Chop 1 tsp cilantro made in Chop-Chop 1 tsp cilantro
+Technique Error: Peel-Peel 2 garlic cloves improperly made in Peel-Peel 2 garlic cloves
+Measurement Error: Chop-Chop 1/2 tomato made in Chop-Chop 1/4 tomato
+Technique Error: Cut-Cut peeled garlic cloves instead of mincing it made in Mince-Mince peeled garlic cloves
+Technique Error: Drop while adding oil to the pan made in Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat
+Temperature Error: Heat-Heat oil in a heavy-bottomed or nonstick pan on high heat made in Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat
+Other: Saute-Saute the mixture made in Saute-Saute the onions on medium heat until they are soft and translucent
+Temperature Error: Cook-Cook until something is burnt made in Cook-Cook covered for 1 minute or until the tomatoes soften
+Preparation Error: NONE made in Garnish-Garnish with 1 tbsp chopped cilantro and serve
+Measurement Error: NONE made in Garnish-Garnish with 1 tbsp chopped cilantro and serve
+Timing Error: NONE made in Garnish-Garnish with 1 tbsp chopped cilantro and serve
+Technique Error: NONE made in Garnish-Garnish with 1 tbsp chopped cilantro and serve
+Temperature Error: NONE made in Garnish-Garnish with 1 tbsp chopped cilantro and serve

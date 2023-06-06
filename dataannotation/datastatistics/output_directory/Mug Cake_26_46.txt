@@ -1,0 +1,37 @@
+Recipe: Mug Cake
+-----------------------------------------------------
+Description: 
+Place the paper cupcake liner inside the mug.
+Set aside.
+Measure and add 2 tbsp flour, 1.5 tbsp sugar, 1/4 tsp baking powder, and a pinch of salt to the mixing bowl.
+Whisk to combine.
+Measure and add 2 tsp vegetable oil, 2 tbsp water, and 1/4 tsp vanilla extract to the bowl.
+Whisk batter until no lumps remain.
+Pour batter into prepared mug.
+Microwave the mug and batter on high power for 60 seconds.
+Check if the cake is done by inserting and toothpick into the center of the cake and then removing it.
+If wet batter clings to the toothpick, microwave for an additional 5 seconds.
+If the toothpick comes out clean, continue.
+Invert the mug to release the cake onto a plate.
+Allow to cool until it is no longer hot to the touch, then carefully remove the paper liner.
+While the cake is cooling, prepare to pipe the frosting.
+Scoop 4 spoonfuls of chocolate frosting into a zip-top bag and seal, removing as much air as possible.
+Use scissors to cut one corner from the bag to create a small opening ¼-inch in diameter.
+Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: remove-then carefully remove the paper liner
+Missing Step: Allow-Allow to cool until it is no longer hot to the touch
+Missing Step: seal-seal zip top bag, removing as much air as possible
+Order Error: None
+Preparation Error: Used a mug instead of mixing bowl made in Measure and add-1.5 tbsp sugar to the mixing bowl
+Preparation Error: Did not clean the measuring cup before scooping flour and adding it to the cup made in Measure and add-Measure and add 2 tbsp flour to the mixing bowl
+Technique Error: Spill powder while opening the cup made in Measure and add-1/4 tsp baking powder to the bowl
+Technique Error: Dropping salt outside while adding it to the bowl made in Measure and add-a pinch of salt to the mixing bowl
+Technique Error: Dropping and adding water while measuring made in Measure and add-2 tbsp water to the bowl
+Technique Error: Spilling vanilla extract while measuring and adding it to the mug made in Measure and add-1/4 tsp vanilla extract to the bowl
+Technique Error: Dropping the vegetable oil bottle and spilling the oil on the kitchen top made in Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+Measurement Error: Adding more than 2 tsp oil to the mug made in Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+Measurement Error: Using only 1.5 spoons of frosting instead of 4 spoons made in Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag
+Technique Error: Squeezing on top of the cake instead of a circle around the base of the cake made in Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake

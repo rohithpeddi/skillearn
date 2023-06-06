@@ -1,0 +1,28 @@
+Recipe: Cucumber Raita
+-----------------------------------------------------
+Description: 
+In a mixing bowl, whisk 1 cup of chilled curd until smooth.
+Use fresh homemade or packaged curd.
+Avoid using sour-tasting curd.
+Rinse, peel and chop or grate 1 medium-sized cucumber (You need 1 cup of chopped or grated cucumber).
+Add the chopped or grated cucumber to the whisked curd.
+Add 1 teaspoon of cumin powder, 1/2 teaspoon of chaat masala powder, 1/4 teaspoon of red chilli powder and 1/4 teaspoon salt.
+Lastly, add 1 tablespoon of chopped cilantro leaves
+Combine all the ingredients.
+
+-----------------------------------------------------
+Errors made:
+Missing Step: Add-1/4 teaspoon salt to the bowl
+Preparation Error: Rinse-Rinse 1 medium sized zucchini.  made in Rinse-Rinse 1 medium sized cucumber
+Technique Error: Rinse-Rinse 1 medium sized zucchini. Incomplete rinse. Rinse only half side of zucchini. made in Rinse-Rinse 1 medium sized cucumber
+Preparation Error: whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd made in whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd
+Technique Error: whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd. Whisking not done properly. Instead of moving hand in circular motion. Used hands by just pusing up and down the curd.  made in whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd
+Technique Error: add-add 1 tablespoon of chopped cilantro leaves to the bowl. Chopping done using peeler. The leaves were not chopped properly and still had stems in them. Whole leafs still exist. made in add-add 1 tablespoon of chopped cilantro leaves to the bowl
+Technique Error: peel-peel the zucchini using fork. Use fork to remove the skin of zucchini. Did not remove the zucchini's top bud as well. After peeling skin of zucchini still visible. made in peel-peel the cucumber
+Preparation Error: peel-peel the zucchini using fork. Use fork to remove the skin of zucchini. Did not remove the zucchini's top bud as well. After peeling skin of zucchini still visible. made in peel-peel the cucumber
+Preparation Error: Add-Add 1 teaspoon of cinnamon powder to the coffee mug made in Add-Add 1 teaspoon of cumin powder to the bowl
+Technique Error: chop or grate-chop or grate the zucchini. Action for chop not proper. Just pressing the zucchini instead of actually cutting it. Also a lot spillage of big chunks of zucchini were made. final pieces after chop quite large. made in chop or grate-chop or grate the cucumber
+Technique Error: Add-1/2 teaspoon of chaat masala powder to the mug. Action was not proper should be gently put inside mug but instead forcefully transferred. Spillage might also have happened. made in Add-1/2 teaspoon of chaat masala powder to the bowl
+Technique Error: Add-Add the chopped or grated zucchini to the whisked curd. Directly transferring the entire cutting board and not the chopped zucchini. Spilling happens. kitchen platform became messy. made in Add-Add the chopped or grated cucumber to the whisked curd
+Preparation Error: Combine-Combine all the ingredients in the mug using kitchen knife. Combine not done properly instead of circular motion did up and down of knife on mixture. made in Combine-Combine all the ingredients in the bowl
+Technique Error: Combine-Combine all the ingredients in the mug using kitchen knife. Combine not done properly instead of circular motion did up and down of knife on mixture. made in Combine-Combine all the ingredients in the bowl
