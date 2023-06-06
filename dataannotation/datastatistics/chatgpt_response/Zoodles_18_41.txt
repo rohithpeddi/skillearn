@@ -1,0 +1,7 @@
+Measurement - Wrong unit used - (Melt, teaspoon)
+Measurement - Insufficient quantity used - (Add, 1/6 cup)
+Technique - Wrong method used - (Peel, chop)
+Technique - Wrong method used - (Add, chop, garlic)
+Preparation - Spillage occurred - (Season, salt), (Top, parmesan)
+Timing - Insufficient cooking time given - (Cook, 2 minutes)
+Temperature - Wrong heat level used - (Heat, low heat)

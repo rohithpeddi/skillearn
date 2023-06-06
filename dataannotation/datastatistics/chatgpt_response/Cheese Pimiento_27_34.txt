@@ -1,0 +1,8 @@
+Measurement - Incorrect water measurement - (Add, 2 tablespoons)
+Preparation - Wrong cutting technique - (Chop, slice)
+Preparation - Not spreading ingredient - (Place, bowl)
+Timing - Incorrect microwave time - (Microwave, 30 seconds) and (Microwave, 2 minutes)
+Temperature - Missing instruction - (Mix, well)
+Measurement - Incorrect butter measurement - (Add, 1/2 tbsp instead of 1 tbsp)
+Technique - Incorrect cheese melting time - (Microwave, 10 seconds instead of 30 seconds)
+Missing Step - Missing salt addition - (Add, salt)

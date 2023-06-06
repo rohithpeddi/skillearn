@@ -1,0 +1,4 @@
+Preparation - Spilled corn while thawing - (Put, corn, sieve), (Run, water)
+Preparation - Spilled corn while mixing - (Mix, contents)
+Preparation - Spilled salt while adding - (Add, salt)
+Timing - Stopped microwave early - (Microwave, corn, 3 minutes)

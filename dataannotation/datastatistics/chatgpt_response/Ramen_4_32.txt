@@ -1,0 +1,6 @@
+Technique - Incorrect noodle handling - (Break, noodles) (Keep, block)
+Technique - Incomplete peeling - (Peel, onion) (Peel, garlic clove)
+Missing Step - Onion not sliced - (Slice, onion)
+Missing Step - Basil not added - (Add, basil)
+Technique - Incorrect microwave covering - (Cover, lid) (Cover, paper towel) 
+Technique - Incorrect noodle mixing - (Stir, with spoon or fork)

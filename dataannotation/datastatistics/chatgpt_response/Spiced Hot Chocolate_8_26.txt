@@ -1,0 +1,7 @@
+Preparation - Wrong type of milk used - (Fill, mug, skimmed milk)
+Measurement - Incorrect amount of cinnamon used - (Add, cinnamon, more)
+Missing Step - Cinnamon not mentioned - (Add, cinnamon)
+Technique - Spill made while filling the mug - (Fill, mug)
+Timing - Microwave time too long - (Microwave, 1 minute)
+Temperature - Incorrect microwave power used - (Heat, mug, low power)
+Timing - Incorrect heating time mentioned - (Heat, mug, 1 minute and serve)

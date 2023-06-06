@@ -1,0 +1,6 @@
+Timing - Insufficient time - (Microwave, 30 seconds)
+Temperature - Insufficient temperature - (Microwave, high)
+Measurement - Incorrect measurement - (Top, 2 tablespoons)
+Technique - Incorrect verb used - (Sprinkle, pour)
+Timing - Incorrect timing - (Microwave, 15-30 more seconds)
+Timing - Incorrect timing - (Microwave, 10 seconds)

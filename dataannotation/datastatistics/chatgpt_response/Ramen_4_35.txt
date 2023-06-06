@@ -1,0 +1,8 @@
+Missing Step - No covering mentioned - (Cover, lid/paper towel)
+Missing Step - Missing ingredient in steps - (Add, basil)
+Preparation - Incorrect onion size mentioned - (Peel, medium onion)
+Technique - Incorrect onion cutting technique mentioned - (Slice, onion into pieces)
+Technique - Incorrect garlic cutting technique mentioned - (Chop, garlic clove)
+Temperature - Incorrect time mentioned - (Microwave, 4 minutes)
+Timing - Incorrect time mentioned - (Let, 1 minute)
+Measurement - Missing ingredient preparation mentioned - (Chop, cilantro)

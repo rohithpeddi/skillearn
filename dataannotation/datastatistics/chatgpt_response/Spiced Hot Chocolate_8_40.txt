@@ -1,0 +1,5 @@
+Measurement - Incorrect measurement - (Measure, 1/4 tsp) in Add-Add 1/5 teaspoon cinnamon to the mug
+Preparation - Wrong container used - (Use, mug) in Add-Add 1/5 teaspoon cinnamon to the mug
+Timing - Incorrect timing - (Microwave, 1.5 minutes) in Microwave-Microwave the contents of the mug for 1 minute
+Technique - Spillage - (Spill, milk) in Fill-Fill a microwave-safe mug with skimmed milk
+Measurement - Incorrect measurement - (Use, tablespoon) in Add-Add 1 teaspoon of white sugar to the mug

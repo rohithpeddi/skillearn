@@ -1,0 +1,8 @@
+Timing - Early heating - (Heat, oil)
+Measurement - Incorrect quantity - (Take, tomato)
+Measurement - Incorrect quantity - (Chop, cilantro)
+Technique - Incorrect pepper usage - (Add, pepper, outside)
+Timing - Insufficient cooking time - (Cook, tomatoes)
+Preparation - Incorrect serving surface - (Put, plate)
+Technique - Incorrect stirring technique - (Stir, gently)
+Temperature - Missing temperature - (Transfer, omelette)

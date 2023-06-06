@@ -1,0 +1,7 @@
+Technique - Inadequate preheating - (Check, pan)
+Technique - Insufficient cooking time - (Cook, mushrooms)
+Technique - Inadequate stirring - (Stir, often)
+Preparation - Improper garlic peeling - (Peel, garlic)
+Missing Step - Rinsing mushrooms - (Rinse, mushrooms)
+Missing Step - Drying mushrooms - (Pat, dry)
+Missing Step - Seasoning pan - (Season, pan)

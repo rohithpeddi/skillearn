@@ -1,0 +1,8 @@
+Extraction - Egg shells added - (Extract, egg)
+Measurement - Incorrect measurement - (Add, 1/2 tsp)
+Timing - Incorrect timing - (Microwave, 30 sec)
+Preparation - Wrong ingredient used - (Sprinkle, basil)
+Preparation - Dirty utensil used - (Sprinkle, cheddar cheese)
+Technique - Improper rolling technique - (Roll, tightly and prevent gaps)
+Temperature - Missing temperature - (Place, tortilla)
+Missing Step - Unclear step - (Place, tortilla)

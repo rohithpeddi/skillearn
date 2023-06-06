@@ -1,0 +1,4 @@
+Temperature - High heat used - (Toast, too high)
+Technique - Bread scorched - (Toast, scorched)
+Timing - Toasted for too long - (Toast, more than 3 mins)
+Missing Step - Spooning not mentioned - (Spoon, mixture onto bread)

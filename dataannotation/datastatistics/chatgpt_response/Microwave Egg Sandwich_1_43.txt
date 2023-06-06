@@ -1,0 +1,7 @@
+Measurement - Incorrect egg amount - (Pour, 2 eggs)
+Preparation - Missing cooking spray - (Coat, ramekin cup)
+Temperature - Incorrect microwave setting - (Microwave, medium)
+Technique - Incorrect cutting tool used - (Cut, hand)
+Measurement - Incorrect cheese amount - (Sprinkle, 2 tablespoons)
+Timing - Incorrect melting time - (Microwave, 20 seconds)
+Measurement - Incorrect salsa amount - (Top, 1 tablespoon)

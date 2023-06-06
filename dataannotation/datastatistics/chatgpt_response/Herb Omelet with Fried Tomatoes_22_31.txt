@@ -1,0 +1,7 @@
+Technique - Improper tomato cutting - (Cut, tomato)
+Technique - Not washing and chopping cilantro - (Wash, chop, cilantro)
+Technique - Inadequate tomato cooking - (Cook, tomatoes)
+Missing Step - Beat egg mixture - (Beat, contents of bowl)
+Technique - Improper stirring technique - (Stir, gently)
+Technique - Stop stirring too early - (Stop, stirring) 
+Missing Step - Transfer omelette to the plate - (Transfer, omelette)

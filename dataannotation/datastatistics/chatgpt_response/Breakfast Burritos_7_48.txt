@@ -1,0 +1,6 @@
+Timing - Incorrect microwave time - (Microwave, 3 minutes)
+Temperature - Incorrect microwave power - (Microwave, 3 minutes)
+Technique - No stirring mentioned - (Stir, in between)
+Measurement - Incorrect cheese measurement - (Sprinkle, 1/2 tbsp)
+Technique - Incorrect cheese application - (Sprinkle, on top)
+Preparation - Cheese measurement incorrect - (Sprinkle, 1/2 tbsp)

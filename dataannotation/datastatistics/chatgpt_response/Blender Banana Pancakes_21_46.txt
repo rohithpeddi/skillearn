@@ -1,0 +1,7 @@
+Timing - Incorrect cooking time - (Cook, 2 mins)
+Temperature - Incorrect heat level - (Melt, low-medium heat)
+Measurement - Incorrect amount of ingredient - (Chop, 2 strawberries)
+Preparation - Incorrect ingredient preparation - (Chop, instead of slice)
+Measurement - Incorrect amount of ingredient - (Blitz, 30 seconds)
+Measurement - Incorrect amount of ingredient - (Melt, small knob of butter)
+Technique - Incorrect verb used - (Splash, instead of pour)

@@ -1,0 +1,8 @@
+Preparation - Wrong ingredient mentioned - (Rinse, zucchini)
+Preparation - Wrong tool used - (Peel, fork)
+Preparation - Wrong ingredient added - (Add, cinnamon powder)
+Missing Step - Salt not mentioned - (Add, salt)
+Technique - Whisking not done properly - (Whisk, up and down)
+Technique - Chopping not done properly - (Chop, stems)
+Technique - Spillage during ingredient transfer - (Add, forcefully)
+Technique - Combining not done properly - (Combine, up and down)

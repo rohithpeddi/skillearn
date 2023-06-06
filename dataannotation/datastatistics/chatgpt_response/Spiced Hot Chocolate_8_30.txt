@@ -1,0 +1,8 @@
+Preparation - Unwashed mug used - (Fill, mug)
+Preparation - Spilled milk - (Fill, mug)
+Measurement - Incorrect chocolate amount - (Add, chocolate)
+Measurement - Incorrect cinnamon amount - (Add, cinnamon)
+Measurement - Incorrect sugar amount - (Add, sugar)
+Technique - Failure to mix - (Mix, contents)
+Timing - Incorrect heating time - (Heat, contents, 2 minutes)
+Temperature - Incorrect heat level - (Heat, contents, low heat)

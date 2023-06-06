@@ -1,0 +1,8 @@
+Measurement - Incorrect measurement for mayonnaise - (Add, 1 cup mayonnaise)
+Technique - Incorrectly adding Sriracha sauce to the bowl - (Add, 1 tsp Sriracha sauce, forcefully)
+Technique - Incorrectly adding chopped scallions to the bowl - (Add, chopped scallion, carelessly)
+Technique - Incorrectly mixing the contents of the bowl - (Mix, contents of the bowl, vigorously)
+Missing Step - Missing step of cutting avocado into thin slices - (Cut, avocado into thin slices)
+Missing Step - Missing step of topping lettuce leaves with the tuna mixture - (Top, lettuce leaves with the tuna mixture)
+Technique - Incorrect rolling of lettuce wraps - (Roll, lettuce wraps, carefully)
+Preparation - Not securing the wrap with a toothpick mentioned - (Secure, wrap with a toothpick)

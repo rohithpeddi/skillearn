@@ -1,0 +1,8 @@
+Measurement - Incorrect egg measurement - (Pour, 2 eggs)
+Preparation - Wrong container used - (Pour, bowl)
+Technique - Incorrect cutting tool used - (Cut, hand)
+Timing - Incorrect timing mentioned - (Microwave, 15 seconds)
+Technique - Stirring too rapidly - (Stir, rapidly)
+Measurement - Incorrect salsa measurement - (Top, 2 tablespoons)
+Preparation - Incorrect placement of egg - (Place, under lettuce)
+Temperature - No temperature mentioned - (Replace, null)

@@ -27,7 +27,11 @@ def convert_seconds_to_ffmpeg_time(seconds):
 def build_ffmpeg_splice_command(input_video_path, start_time, clip_length, output_video_path):
     start_time = convert_seconds_to_ffmpeg_time(start_time)
     clip_length = convert_seconds_to_ffmpeg_time(clip_length)
-    command = f"ffmpeg -ss {start_time} -t {clip_length} -i {input_video_path} -c copy {output_video_path}"
+    
+    ffmpeg_path = "ffmpeg"
+    ffmpeg_path = r'D:\SOFTWARES\ffmpeg-master-latest-win64-gpl\ffmpeg-master-latest-win64-gpl\bin\ffmpeg'
+    
+    command = f"{ffmpeg_path} -ss {start_time} -t {clip_length} -i {input_video_path} -c copy {output_video_path}"
     return command
 
 
@@ -57,6 +61,6 @@ def splice_video(video_path, output_directory):
 
 
 if __name__ == '__main__':
-    video_path = '/home/rxp190007/DATA/ANNOTATION/12_2/12_2_360p.mp4'
-    output_directory = '/home/rxp190007/DATA/ANNOTATION/12_2/12_2_360p_spliced'
+    video_path = r'D:\DATA\COLLECTED\PTG\TEST\12_2_360p.mp4'
+    output_directory = r'D:\DATA\COLLECTED\PTG\TEST\12_2\12_2_360p_spliced'
     splice_video(video_path, output_directory)

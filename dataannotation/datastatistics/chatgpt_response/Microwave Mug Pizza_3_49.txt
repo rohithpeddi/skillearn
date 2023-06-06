@@ -1,0 +1,7 @@
+Measurement - Wrong flour measurement - (Measure, 5 tablespoons)
+Measurement - Wrong baking powder measurement - (Measure, 1/4 teaspoon)
+Measurement - Wrong salt measurement - (Measure, 1/4 teaspoon)
+Technique - Wrong dairy product used - (Add, curd)
+Technique - Wrong sauce used - (Take, tomato ketchup)
+Technique - Wrong spreading technique - (Spread, on the edge of batter)
+Timing - Incorrect microwave time - (Microwave, 2 minutes)

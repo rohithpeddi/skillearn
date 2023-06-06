@@ -1,0 +1,7 @@
+Preparation - Wrong utensil used - (Whisk, spoon)
+Preparation - Incorrect cutting instruction - (Cut, bread)
+Technique - Incorrect coating technique - (Roll, butter, inside)
+Measurement - Incorrect measurement instruction - (Add, vanilla extract, 1 tsp)
+Timing - Incorrect timing instruction - (Melt, butter, 60 seconds)
+Timing - Incorrect timing instruction - (Microwave, 45 seconds)
+Temperature - Incorrect temperature instruction - (Microwave, medium)

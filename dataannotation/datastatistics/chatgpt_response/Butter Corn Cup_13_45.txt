@@ -1,0 +1,7 @@
+Measurement - Incorrect amount of corn - (Measure, 3 cups)
+Preparation - Wrong thawing method - (Thaw, under hot water)
+Timing - Incorrect microwave time - (Microwave, 1 minute 30 seconds)
+Measurement - Incorrect amount of salt - (Add, 1.5 tsp)
+Technique - Inadequate stirring - (Stir, well)
+Technique - Spilling lime juice - (Extract, lime juice, clumsily)
+Temperature - Missing temperature - (Mix, well, null)

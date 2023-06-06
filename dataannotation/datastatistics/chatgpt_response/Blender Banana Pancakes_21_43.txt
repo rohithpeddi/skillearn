@@ -1,0 +1,8 @@
+Technique - Spilled powder - (Add, baking powder)
+Technique - Improper egg cracking - (Add, egg)
+Technique - Dropped flour - (Add, flour)
+Missing Step - Forgot to chop strawberries - (Chop, strawberry)
+Preparation - Large puddle poured - (Pour, little puddles)
+Preparation - Wrong spatula used - (Flip, fish slice spatula)
+Technique - Flipped too early - (Flip, before solid)
+Missing Step - Forgot to add strawberries to plate - (Serve, strawberries)

@@ -1,0 +1,7 @@
+Measurement - Wrong spoon used - (Add, 1 teaspoon sugar)
+Measurement - Incorrect measurement - (Add, 1/4 teaspoon cinnamon)
+Technique - Insufficient mixing - (Mix, contents thoroughly)
+Measurement - Incorrect quantity - (Add, 1 piece chocolate)
+Timing - Insufficient microwaving - (Microwave, contents for 1 minute)
+Preparation - Spillage while filling - (Spill, milk while filling) 
+Temperature - No temperature mentioned - (Heat, contents for 1 minute and serve)

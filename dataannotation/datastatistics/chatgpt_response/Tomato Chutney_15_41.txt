@@ -1,0 +1,13 @@
+Measurement - Incorrect oil measurement - (Use, 1/2 tbsp) in Heat
+Preparation - Incomplete garlic peeling - (Peel, garlic) in Peel
+Technique - Incorrect garlic cutting - (Mince, garlic) in mince
+Measurement - Incorrect tomato measurement - (Take, 2 tomatoes) in Take
+Preparation - Unnecessary step - (Do not wash, tomatoes) in Take
+Temperature - Incorrect heat adjustment - (Lower, heat) in Lower
+Technique - Incorrect tomato chopping - (Chop, roughly) in Chop
+Technique - Incorrect tomato pureeing - (Puree, without any water) in puree
+Preparation - Spilled ingredient - (Add, 1/4 tsp mustard) in Add
+Preparation - Spilled ingredient - (Add, tomato puree to the pan) in Add
+Measurement - Incorrect salt measurement - (Add, 1/2 cup salt) in Add
+Preparation - Spilled ingredient - (Mix, tomato puree with contents in the pan) in Mix
+Timing - Incorrect cooking time - (Allow, to simmer over low heat for 5 minutes or until the mixture becomes thick) in simmer

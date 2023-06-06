@@ -1,0 +1,4 @@
+Technique - Incorrect slicing angle - (Slice, horizantally)
+Technique - Incorrect oil application - (Brush, slices, with oil)
+Technique - Incorrect measuring technique - (Drop, measuring utensil)
+Missing Step - Cherry tomatoes not added to bowl - (Add, cherry tomatoes)

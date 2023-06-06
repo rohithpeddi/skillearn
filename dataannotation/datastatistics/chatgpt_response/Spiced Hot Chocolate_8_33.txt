@@ -1,0 +1,7 @@
+Timing - Incorrect microwave time - (Microwave, 2 minutes)
+Temperature - Incorrect microwave power - (Microwave, 10% power)
+Technique - Incorrect filling of mug - (Half fill, whole milk)
+Preparation - Incorrect ingredient measurement - (Add, 5 pieces of chocolate)
+Preparation - Incorrect ingredient used - (Add, corn starch instead of white sugar)
+Preparation - Incorrect spice used - (Add, ground cumin instead of cinnamon)
+Technique - Incorrect mixing technique - (Mix, spilling)

@@ -1,0 +1,5 @@
+Preparation - Wrong ingredient used - (Use, zucchini)
+Missing Step - Peel cucumber not mentioned - (Peel, cucumber)
+Preparation - Incorrect measurement - (Add, half zucchini)
+Preparation - Spilled ingredient - (Spill, cumin powder)
+Preparation - Wrong ingredient added - (Add, scallions)

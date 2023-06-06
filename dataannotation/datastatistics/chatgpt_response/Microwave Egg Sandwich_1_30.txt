@@ -1,0 +1,8 @@
+Preparation - Wrong cup used - (Pour, large cup)
+Missing Step - No coating mentioned - (Coat, ramekin cup)
+Timing - Incorrect timing mentioned - (Microwave, 10 secs)
+Temperature - Incorrect temperature mentioned - (Microwave, high)
+Measurement - Incorrect measurement mentioned - (Top, 1/2 tablespoon salsa)
+Technique - Incorrect verb used - (Sprinkle, pour directly)
+Timing - Incorrect instruction mentioned - (Microwave, until egg is almost set)
+Technique - Incorrect verb used - (Replace, flipped top muffin)

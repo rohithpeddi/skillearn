@@ -1,0 +1,7 @@
+Preparation - Improperly peeled garlic - (Peel, garlic)
+Preparation - Placing things before cutting them - (Put, Vegetables)
+Preparation - Using a plate instead of bowl - (Cover, water)
+Missing Step - Not covering lid with a paper towel - (Cover, lid, paper towel)
+Preparation - Using non-microwaveable things and using things which does not fit into microwave - (Microwave, ramen)
+Other - Adding noodles before other ingredients - (Add, noodles)
+Technique - Stirring too fast and spilling water - (Stir, noodles, fast)

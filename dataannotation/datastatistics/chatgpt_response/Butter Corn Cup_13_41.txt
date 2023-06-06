@@ -1,0 +1,5 @@
+Measurement - Excess pepper added - (Add, pepper, extra)
+Preparation - Spillage while adding - (Add, corn, spillage)
+Preparation - Spillage while mixing - (Mix, contents, spill)
+Other - Lime juice added directly - (Extract, lime juice, directly)
+Other - Redundant step - (Add, lime juice, included)

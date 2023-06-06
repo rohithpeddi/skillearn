@@ -1,0 +1,8 @@
+Measurement - Incorrect amount of banana - (Add, half banana)
+Timing - Incorrect time for blending - (Blitz, 25 secs)
+Temperature - Incorrect heat level for melting butter - (Melt, low-medium heat)
+Technique - Incorrect cutting technique for strawberry - (Chop, not slice)
+Timing - Incorrect time for cooking on second side - (Cook, 20 secs)
+Temperature - Not cooking long enough on second side - (Cook, 20-30 secs, not enough heat)
+Preparation - Incorrect surface for transferring pancakes - (Transfer, plate instead of bowl)
+Missing Step - No mention of when to add maple syrup - (Add, maple syrup)

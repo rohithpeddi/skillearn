@@ -1,0 +1,7 @@
+Timing - Short rinse time - (Rinse, tomato)
+Temperature - Hot water used - (Rinse, tomato)
+Preparation - Wrong drying tool used - (Dry, tea towel)
+Technique - Wrong cutting method used - (Slice, tomato)
+Measurement - Incorrect size of slices - (Slice, tomato)
+Technique - Improperly placing tomato slices - (Place, platter, single layer)
+Missing Step - Steps not mentioned - (Garnish, Italian seasoning), (Season, tomato), (Sprinkle, mozzarella cheese), (Add, olive oil)

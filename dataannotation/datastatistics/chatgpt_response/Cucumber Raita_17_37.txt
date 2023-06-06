@@ -1,0 +1,9 @@
+Measurement - Incorrect amount of salt - (Add, 1/4 teaspoon)
+Measurement - Incorrect amount of chaat masala powder - (Add, 1/2 teaspoon)
+Measurement - Incorrect amount of cilantro leaves - (Add, 1 tablespoon)
+Measurement - Incorrect amount of curd - (Whisk, 1 cup)
+Temperature - Missing instruction for chilli powder - (Add, 1/4 teaspoon, red)
+Timing - Insufficient rinsing of cucumber - (Rinse, 1 medium-sized cucumber, for at least 30 seconds)
+Technique - Improper peeling of cucumber - (Peel, thick)
+Preparation - Unwashed bowl used - (Wash, bowl)
+Order - None

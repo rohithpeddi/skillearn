@@ -1,0 +1,7 @@
+Measurement - Incorrect coffee measurement - (Weigh, coffee beans) 
+Preparation - Incorrect coffee preparation - (Grind, coffee beans) 
+Technique - Incorrect filter shape - (Spread, filter in dripper)
+Timing - Incorrect grinding time - (Grind, coffee beans, 20 seconds) 
+Temperature - Incorrect water temperature - (Check, water temperature) 
+Preparation - Not enough water added to wet grounds - (Pour, small amount of water) 
+Technique - Incorrect water pouring technique - (Slowly pour, water in circular motion)

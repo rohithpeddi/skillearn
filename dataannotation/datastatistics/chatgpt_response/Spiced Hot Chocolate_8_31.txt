@@ -1,0 +1,5 @@
+Timing - Incorrect microwave time - (Microwave, 35 seconds)
+Missing Step - Missing sugar addition step - (Add, sugar)
+Missing Step - Missing chocolate addition step - (Add, chocolate)
+Technique - Incorrect cinnamon measurement and mixing technique - (Add, 1/5 tsp cinnamon, hastily and up-down motion)
+Timing - Incorrect heating time and serving method - (Heat, 40 seconds, serve on glass plate cover)

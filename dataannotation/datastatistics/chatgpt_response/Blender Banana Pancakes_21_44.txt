@@ -1,0 +1,9 @@
+Measurement - Incorrect unit used - (Use, tsp) in Add-1/2 tsp baking powder to a blender
+Technique - Incorrect measurement technique - (Add, heaped) in Add-1 heaped tbsp flour to a blender
+Measurement - Incorrect quantity used - (Chop, 2) instead of (Chop, 1) in Chop- Chop 1 strawberry
+Preparation - Accidental spillage - (Splash, maple syrup) on plate
+Measurement - Incorrect quantity used - (Add, half) instead of (Add, 1) in Add-Add 1 banana to a blender
+Timing - Over-blending - (Blitz, for more than 20 seconds) in blitz-blitz the blender for 20 seconds
+Temperature - Incorrect heat level - (Melt, medium-low) instead of (Melt, low-medium) in Melt-Melt a small knob of butter in a non-stick frying pan over low-medium heat
+Technique - Incorrect pan used - (Use, non-stick) instead of (Use, steel) in Melt-Melt a small knob of butter in a non-stick frying pan over low-medium heat
+Technique - Mishandling while flipping - (Flip, one out of the pan) in Flip-Flip the pancakes with a fork or a fish slice spatula.

@@ -1,0 +1,8 @@
+Measurement - Incorrect coffee bean measurement - (Weigh, coffee beans)
+Technique - Improper placement of paper filter - (Place, paper filter)
+Timing - Inadequate grinding and waiting time - (Grind, coffee beans) (Wait, 30 seconds)
+Preparation - Spillage while transferring - (Transfer, coffee grounds) (Transfer, water to kettle)
+Measurement - Insufficient water measured - (Measure, cold water)
+Technique - Using excessive water instead of small - (Pour, small amount of water)
+Technique - Premature removal of dripper - (Let drain, coffee completely)
+Temperature - Using water below desired temperature - (Check, water temperature)

@@ -1,0 +1,7 @@
+Measurement - Too much oil used - (Heat, 1 tbsp oil)
+Measurement - No measurements used for cilantro - (Chop, cilantro)
+Technique - No measurements used for chopping - (Chop, cilantro)
+Measurement - No measurements used for black pepper - (Add, 1/2 tsp black pepper)
+Missing Step - Stirring not mentioned - (Stir, gently with a wooden spoon)
+Missing Step - Stop stirring not mentioned - (Stop, stirring)
+Technique - Incorrect transfer method - (Transfer, omelette to plate before flipping)

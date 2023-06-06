@@ -164,7 +164,16 @@ class FirebaseService:
 	
 	def delete_annotation(self, annotation_id):
 		logger.info(f"Deleting annotation {annotation_id} is withdrawn")
+	
 	# self.db.child(const.ANNOTATIONS).child(annotation_id).remove()
+	
+	# ---------------------- BEGIN NARRATION ----------------------
+	def fetch_narration(self, recording_id):
+		return self.db.child(const.NARRATIONS).child(recording_id).get().val()
+	
+	def update_narration(self, narration):
+		self.db.child(const.NARRATIONS).child(narration.recording_id).set(narration.to_dict())
+		logger.info(f"Updated narration in the firebase - {narration.__str__()}")
 
 
 if __name__ == "__main__":

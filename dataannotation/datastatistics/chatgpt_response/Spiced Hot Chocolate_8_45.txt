@@ -1,0 +1,6 @@
+Measurement - Wrong measurement used - (Add, cumin)
+Measurement - Added less than required - (Add, 2 pieces of chocolate)
+Preparation - Wrong ingredient used - (Add, salt instead of sugar)
+Technique - Spilled milk - (Fill, mug)
+Timing - Microwaved for longer - (Microwave, 61 seconds)
+Temperature - Used lower power - (Heat, lower power)

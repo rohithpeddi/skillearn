@@ -1,0 +1,8 @@
+Measurement - Incorrect oil quantity - (Heat, 5 tbsp oil)
+Temperature - Incorrect heat setting mentioned - (Heat, medium heat)
+Preparation - Unwashed ingredient used - (Take, tomato)
+Technique - Incorrect chopping technique used - (Chop, slice)
+Technique - Incorrect pureeing technique used - (Puree, with water)
+Measurement - Incorrect salt quantity mentioned - (Add, 1 tsp salt)
+Timing - Incorrect simmer time mentioned - (Simmer, high heat)
+Temperature - Incorrect heat setting mentioned - (Lower, high heat)

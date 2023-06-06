@@ -1,0 +1,5 @@
+Missing Step - Baking powder not added - (Add, baking powder)
+Measurement Error - Incorrect flour measurement - (Add, heaped tbsp flour)
+Technique Error - Incorrect flipping technique - (Flip, with fork/fish slice spatula)
+Technique Error - Incorrectly sliced strawberries - (Chop, strawberries)
+Preparation Error - Maple syrup spilled - (Splash, maple syrup on plate)

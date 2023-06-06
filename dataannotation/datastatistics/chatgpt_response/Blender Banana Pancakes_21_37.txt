@@ -1,0 +1,8 @@
+Preparation - Broken egg used - (Add, egg)
+Preparation - Incorrect measurement of flour - (Add, heaped tbsp flour)
+Measurement - Incorrect measurement of butter - (Melt, small knob of butter)
+Technique - Incorrect pouring technique - (Pour, three little puddles)
+Timing - Incorrect timing mentioned - (Cook, 1 min or until the tops start to bubble)
+Temperature - Incorrect temperature mentioned - (Cook, 1 min or until the tops start to bubble)
+Missing Step - Chopped strawberry not mentioned - (Chop, strawberry)
+Missing Step - Serving instructions not mentioned - (Serve, pancakes with strawberries)

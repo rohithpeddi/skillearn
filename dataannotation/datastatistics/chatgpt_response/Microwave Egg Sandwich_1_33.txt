@@ -1,0 +1,6 @@
+Measurement - Incorrect egg amount - (Pour, 2 eggs)
+Preparation - Wrong container used - (Coat, large bowl)
+Technique - Improper egg cracking - (Pour, spills)
+Missing Step - Not mentioned to top with salsa - (Top, salsa)
+Technique - Incorrect muffin cutting - (Cut, 3 pieces)
+Other - Incorrect word usage - (Replace, period)

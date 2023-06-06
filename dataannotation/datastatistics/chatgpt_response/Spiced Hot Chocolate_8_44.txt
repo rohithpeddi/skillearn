@@ -1,0 +1,8 @@
+Preparation - Spilled milk - (Fill, mug)
+Preparation - Expired milk used - (Fill, mug)
+Measurement - Incorrect measurement - (Add, 1/5 teaspoon, tablespoon)
+Measurement - Incorrect measurement - (Add, 5 pieces, 2 pieces)
+Technique - No spoon used for mixing - (Mix, contents)
+Timing - Incorrect heating time - (Heat, contents, 2 minutes)
+Temperature - Incorrect heating temperature - (Heat, contents, too high)
+Preparation - Milk spilled due to incorrect heating - (Heat, contents)

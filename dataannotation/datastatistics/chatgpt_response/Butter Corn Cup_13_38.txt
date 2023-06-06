@@ -1,0 +1,8 @@
+Measurement - Less corn used - (Measure, 2 cups)
+Technique - Spilled corn - (Add, corn into microwave-safe bowl)
+Timing - Incorrect microwave time - (Microwave, corn for 3 minutes)
+Temperature - Incorrect microwave power - (Microwave, corn on low power)
+Preparation - Unsoftened butter used - (Add, 1 teaspoon of softened butter)
+Missing Step - Thawing of frozen corn not mentioned - (Thaw, frozen corn)
+Missing Step - Stirring of the bowl not mentioned - (Stir, the bowl)
+Missing Step - Adding lime juice not mentioned - (Add, lime juice to the bowl)

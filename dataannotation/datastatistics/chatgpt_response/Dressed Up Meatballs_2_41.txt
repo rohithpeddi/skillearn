@@ -1,0 +1,8 @@
+Measurement - Incorrect onion amount - (Slice, 1/8 instead of 1/2)
+Technique - Incorrect carrot cut - (Chop, instead of slice or cut)
+Order - Incorrect order of steps - (Place meatballs after pouring sauces)
+Other - Improperly written step - (Peel onion written twice)
+Other - Incorrect sauce measurement - (Mix, 1/4 cup instead of 1/2 cup)
+Timing - Incorrect microwave time - (Microwave, covered, on high for 5 minutes, stir, repeat for 5 more minutes, microwave for 1 more minute)
+Technique - Incorrect onion slice - (Slice, 1/8 instead of 1/4)
+Temperature - Missing temperature - (None mentioned)

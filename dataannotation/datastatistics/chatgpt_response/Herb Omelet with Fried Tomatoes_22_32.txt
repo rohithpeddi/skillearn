@@ -1,0 +1,7 @@
+Measurement - Excessive pepper added - (Add, pepper, improperly)
+Measurement - Insufficient oil added - (Heat, oil, spillage)
+Technique - Egg mixture spilled while beating - (Beat, contents, swiftly)
+Missing Step - Chopped cilantro not added - (Add, cilantro)
+Technique - Omelette stirred too much - (Stop, stirring, too much)
+Order - Tomatoes scooped after making omelette - (Scoop, tomatoes)
+Order - Tomatoes transferred after making omelette - (Put, tomatoes)

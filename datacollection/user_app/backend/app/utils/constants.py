@@ -233,6 +233,8 @@ class Firebase_Constants:
 	PRODUCTION = "production"
 	
 	USER_ENVIRONMENT = "user_environment"
+	
+	NARRATIONS = "narrations"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -369,6 +371,14 @@ class Environment_Constants:
 
 
 # # ---------------------------------------------------------------------------------------
+# # ------------------------ NARRATION PROPERTIES -----------------------------------
+
+class Narration_Constants:
+	RECORDING_ID = "recording_id"
+	NARRATION_JSON = "narration_json"
+
+
+# # ---------------------------------------------------------------------------------------
 # # ------------------------ ANNOTATION PROPERTIES -----------------------------------
 
 class Annotation_Constants:
@@ -386,3 +396,4 @@ class Annotation_Constants:
 	LABEL_STUDIO_URL = "http://localhost:8080"
 	LOCAL_VIDEO_DIRECTORY_PATH = "D:\DATA\COLLECTED\PTG\PEDDI"
 	LABEL_STUDIO_API_AUTH_TOKEN = "8120b6dbc45b6be110f92223ab898db63c6e4ce3"
+	

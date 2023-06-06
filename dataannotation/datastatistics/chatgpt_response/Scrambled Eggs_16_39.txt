@@ -1,0 +1,8 @@
+Preparation - Wrong measurement used - (Add, cup)
+Technique - Incorrect chopping technique - (Chop, all connected)
+Preparation - Incorrect unit used - (Add, tbsp)
+Technique - Incorrect peeling technique - (Peel, garlic cloves)
+Missing Step - Chopping onions not mentioned - (Chop, onions)
+Missing Step - Whisking egg mixture not mentioned - (Whisk, egg mixture)
+Missing Step - Covering the pan not mentioned - (Cover, pan)
+Order - No errors found.

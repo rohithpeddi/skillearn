@@ -1,0 +1,5 @@
+Missing Step - Meatballs placement not mentioned - (Place, meatballs)
+Missing Step - Garlic peeling not mentioned - (Peel, garlic)
+Missing Step - Sauce pouring not mentioned - (Pour, sauces)
+Preparation - Carrot size too large - (Cut, carrot, thinly)
+Timing - Incorrect time mentioned - (Microwave, plate, 1 minute)

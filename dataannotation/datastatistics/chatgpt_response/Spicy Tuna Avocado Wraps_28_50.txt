@@ -1,0 +1,13 @@
+Measurement - Incorrect amount of Sriracha sauce - (Add, 1/2 tsp)
+Preparation - Not draining excess water from tuna - (Drain, excess water)
+Preparation - Using non-ripe avocado - (Take, ripe avocado)
+Technique - Cutting avocado into thick slices - (Cut, thick slices)
+Measurement - Incorrect amount of tuna - (Add, 1/2 can)
+Preparation - Spilling while mixing contents - (Mix, spill)
+Preparation - Using unwashed lettuce leaves - (Top, unwashed lettuce leaves)
+Measurement - Incorrect amount of salt - (Season, 1/2 tbsp)
+Technique - Incorrect rolling technique, resulting in spill - (Roll, improperly)
+Temperature - No temperature-related error
+Timing - No timing-related error
+Missing Step - Missing steps for adding mayonnaise, scallion, and lettuce leaves - (Add, mayonnaise/scallion/lettuce leaves) and (Lay, lettuce leaves)
+Other - Placing avocado slices on only one lettuce leaf - (Place, avocado slices)
