@@ -1,6 +1,6 @@
 import os
 
-from ..hololens import hl2ss
+# from ..hololens import hl2ss
 
 BASE_DIRECTORY = os.getcwd()
 
@@ -142,64 +142,64 @@ class Post_Processing_Constants:
 # # ---------------------------------------------------------------------------------------
 # # ------------------------ HOLOLENS SERVICE PROPERTIES -----------------------------------
 
-class Hololens_Constants:
-	DEFAULT_HOLOLENS_IP = "192.168.0.207"
-	DEVICE_IP = "device_ip"
-	
-	REDIS_HOST = "localhost"
-	REDIS_PORT = 6379
-	REDIS_MAX_CONNECTIONS = 20
-	
-	PHOTOVIDEO = "pv"
-	MICROPHONE = "mc"
-	SPATIAL = "spatial"
-	DEPTH_AHAT = "depth_ahat"
-	DEPTH_LT = "depth_lt"
-	IMU = "imu"
-	IMU_ACCELEROMETER = "imu_accelerometer"
-	IMU_GYROSCOPE = "imu_gyroscope"
-	IMU_MAGNETOMETER = "imu_magnetometer"
-	VLC_LEFTLEFT = "vlc_leftleft"
-	VLC_LEFTFRONT = "vlc_leftfront"
-	VLC_RIGHTFRONT = "vlc_rightleft"
-	VLC_RIGHTRIGHT = "vlc_rightright"
-	
-	AB = "ab"
-	DEPTH = "depth"
-	FRAMES = "frames"
-	
-	PV_FRAME_WIDTH = 640
-	PV_FRAME_HEIGHT = 360
-	PV_FRAMERATE = 30
-	PV_VIDEO_PROFILE_RAW = hl2ss.VideoProfile.RAW
-	PV_VIDEO_BITRATE_RAW = 250 * 1024 * 1024
-	
-	AHAT_PROFILE_RAW = hl2ss.VideoProfile.RAW
-	AHAT_BITRATE_RAW = 1
-	
-	AUDIO_PROFILE_RAW = hl2ss.AudioProfile.RAW
-	AUDIO_PROFILE_DECODED = hl2ss.AudioProfile.AAC_24000
-	AUDIO_FRAME_RATE = hl2ss.Parameters_MICROPHONE.SAMPLE_RATE
-	
-	PV_POSE_FILE_NAME = "pv_pose"
-	PV_DATA_DIRECTORY = "pv_data"
-	
-	DEPTH_AHAT_POSE_FILE_NAME = "depth_pose"
-	DEPTH_AHAT_AB_DATA_DIRECTORY = "depth_ahat_ab_data"
-	DEPTH_AHAT_DEPTH_DATA_DIRECTORY = "depth_ahat_depth_data"
-	
-	SPATIAL_DATA_WRITER = "spatial_data_writer"
-	
-	IMU_ACCELEROMETER_DATA_WRITER = "imu_accelerometer_data_writer"
-	IMU_GYROSCOPE_DATA_WRITER = "imu_gyroscope_data_writer"
-	IMU_MAGNETOMETER_DATA_WRITER = "imu_magnetometer_data_writer"
-	
-	MICROPHONE_DATA_WRITER = "mc_data_writer"
-	DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
-	PV_POSE_WRITER = "pv_pose_writer"
-	
-	PV_STRIDE = hl2ss.get_nv12_stride(PV_FRAME_WIDTH)
-
+# class Hololens_Constants:
+# 	DEFAULT_HOLOLENS_IP = "192.168.0.207"
+# 	DEVICE_IP = "device_ip"
+#
+# 	REDIS_HOST = "localhost"
+# 	REDIS_PORT = 6379
+# 	REDIS_MAX_CONNECTIONS = 20
+#
+# 	PHOTOVIDEO = "pv"
+# 	MICROPHONE = "mc"
+# 	SPATIAL = "spatial"
+# 	DEPTH_AHAT = "depth_ahat"
+# 	DEPTH_LT = "depth_lt"
+# 	IMU = "imu"
+# 	IMU_ACCELEROMETER = "imu_accelerometer"
+# 	IMU_GYROSCOPE = "imu_gyroscope"
+# 	IMU_MAGNETOMETER = "imu_magnetometer"
+# 	VLC_LEFTLEFT = "vlc_leftleft"
+# 	VLC_LEFTFRONT = "vlc_leftfront"
+# 	VLC_RIGHTFRONT = "vlc_rightleft"
+# 	VLC_RIGHTRIGHT = "vlc_rightright"
+#
+# 	AB = "ab"
+# 	DEPTH = "depth"
+# 	FRAMES = "frames"
+#
+# 	PV_FRAME_WIDTH = 640
+# 	PV_FRAME_HEIGHT = 360
+# 	PV_FRAMERATE = 30
+# 	PV_VIDEO_PROFILE_RAW = hl2ss.VideoProfile.RAW
+# 	PV_VIDEO_BITRATE_RAW = 250 * 1024 * 1024
+#
+# 	AHAT_PROFILE_RAW = hl2ss.VideoProfile.RAW
+# 	AHAT_BITRATE_RAW = 1
+#
+# 	AUDIO_PROFILE_RAW = hl2ss.AudioProfile.RAW
+# 	AUDIO_PROFILE_DECODED = hl2ss.AudioProfile.AAC_24000
+# 	AUDIO_FRAME_RATE = hl2ss.Parameters_MICROPHONE.SAMPLE_RATE
+#
+# 	PV_POSE_FILE_NAME = "pv_pose"
+# 	PV_DATA_DIRECTORY = "pv_data"
+#
+# 	DEPTH_AHAT_POSE_FILE_NAME = "depth_pose"
+# 	DEPTH_AHAT_AB_DATA_DIRECTORY = "depth_ahat_ab_data"
+# 	DEPTH_AHAT_DEPTH_DATA_DIRECTORY = "depth_ahat_depth_data"
+#
+# 	SPATIAL_DATA_WRITER = "spatial_data_writer"
+#
+# 	IMU_ACCELEROMETER_DATA_WRITER = "imu_accelerometer_data_writer"
+# 	IMU_GYROSCOPE_DATA_WRITER = "imu_gyroscope_data_writer"
+# 	IMU_MAGNETOMETER_DATA_WRITER = "imu_magnetometer_data_writer"
+#
+# 	MICROPHONE_DATA_WRITER = "mc_data_writer"
+# 	DEPTH_AHAT_POSE_WRITER = "depth_ahat_pose_writer"
+# 	PV_POSE_WRITER = "pv_pose_writer"
+#
+# 	PV_STRIDE = hl2ss.get_nv12_stride(PV_FRAME_WIDTH)
+#
 
 # # ---------------------------------------------------------------------------------------
 # # ------------------------ GO PRO SERVICE PROPERTIES -----------------------------------
