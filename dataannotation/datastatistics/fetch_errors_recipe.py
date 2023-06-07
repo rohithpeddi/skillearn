@@ -87,7 +87,7 @@ class ErrorStatistics:
 		self.video_files_directory = "D:\\DATA\\COLLECTED\\PTG\\ANNOTATION\\ANNOTATION"
 		
 		self._create_activity_step_ids_map()
-		
+	
 	def _create_activity_step_ids_map(self):
 		self.activity_id_to_step_id_map = {}
 		self.activity_id_to_id_step_map = {}
@@ -98,7 +98,7 @@ class ErrorStatistics:
 				print(f"Recording {recording.id} does not belong to any recipe. Skipping...")
 				print(f"-----------------------------------------------------")
 				continue
-				
+			
 			if recording.is_error:
 				print(f"Recording {recording.id} is an error recording. Skipping...")
 				print(f"-----------------------------------------------------")
@@ -115,8 +115,7 @@ class ErrorStatistics:
 					self.activity_id_to_id_step_map[activity_id][count] = step.description
 					self.activity_id_to_step_id_map[activity_id][step.description] = count
 					count += 1
-				
-			
+	
 	def fetch_activity_description(self, activity: Activity):
 		description = "\n"
 		for step in activity.steps:
@@ -377,14 +376,23 @@ class ErrorStatistics:
 					"end_time": end_time,
 					"labels": labels
 				}
-				count = self.activity_id_to_step_id_map[recording.activity_id][labels[0].strip('()').split(':')[1].strip()]
+				
+				if len(labels[0].strip('()').split(':')) >= 3:
+					count = self.activity_id_to_step_id_map[recording.activity_id][
+						labels[0].strip('()').split(':')[3].split(")")[0].strip()]
+				else:
+					count = self.activity_id_to_step_id_map[recording.activity_id][
+					labels[0].strip('()').split(':')[1].strip()]
+					
+					
 				step_annotation_dict_list.append(step_annotation_dict)
 				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
 				annotation_activity_directory = annotation_activity_directory.replace(" ", "")
 				if not os.path.exists(annotation_activity_directory):
 					os.makedirs(annotation_activity_directory)
 				with open(f"{annotation_activity_directory}/{recording.id}.csv", "a") as annotation_file:
-					annotation_file.write(f"{start_time},{end_time},\"{count} {labels[0].strip('()').split(':')[1].strip()}\"\n")
+					annotation_file.write(
+						f"{start_time},{end_time},\"{count} {labels[0].strip('()').split(':')[1].strip()}\"\n")
 		
 		return step_annotations
 	
@@ -397,7 +405,12 @@ class ErrorStatistics:
 				print(f"Recording {recording.id} does not belong to any recipe. Skipping...")
 				print(f"-----------------------------------------------------")
 				continue
-			if recording.is_error:
+			
+			recording_id = int(recording.id.split("_")[1])
+			
+			if recording_id > 25:
+				continue
+			if recording_id > 125:
 				continue
 			
 			if recording.activity_id == activity_id:
@@ -407,11 +420,11 @@ class ErrorStatistics:
 				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
 				annotation_activity_directory = annotation_activity_directory.replace(" ", "")
 				create_directory(annotation_activity_directory)
-			
-			# recording_annotation_file_path = f"{annotation_activity_directory}/{recording.id}.json"
-			# with open(recording_annotation_file_path, "w") as recording_annotation_file:
-			# 	json_data = json.dumps(recording_annotation, indent=4)
-			# 	recording_annotation_file.write(json_data)
+		
+		# recording_annotation_file_path = f"{annotation_activity_directory}/{recording.id}.json"
+		# with open(recording_annotation_file_path, "w") as recording_annotation_file:
+		# 	json_data = json.dumps(recording_annotation, indent=4)
+		# 	recording_annotation_file.write(json_data)
 	
 	def fetch_activity_error_categories_split(self):
 		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
