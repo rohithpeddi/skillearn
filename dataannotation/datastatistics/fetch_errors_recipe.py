@@ -72,6 +72,18 @@ class ErrorStatistics:
 		self.backup_recordings_directory = f"{self.backup_directory}/recordings"
 		create_directory(self.backup_recordings_directory)
 		
+		self.annotations_directory = "./annotations"
+		create_directory(self.annotations_directory)
+		
+		annotations = dict(self.db_service.fetch_annotations())
+		self.annotations = []
+		for annotation_id, annotation_dict in annotations.items():
+			annotation = Annotation.from_dict(annotation_dict)
+			# assert annotation_id == annotation.id
+			self.annotations.append(annotation)
+		
+		self.recording_id_to_annotation_map = {annotation.recording_id: annotation for annotation in self.annotations}
+		
 		self.video_files_directory = "D:\\DATA\\COLLECTED\\PTG\\ANNOTATION\\ANNOTATION"
 	
 	def fetch_activity_description(self, activity: Activity):
@@ -296,34 +308,59 @@ class ErrorStatistics:
 			if activity_id in annotation_assignment.activities:
 				return annotation_assignment.user_id
 	
-	def fetch_recording_annotation(self, recording_id):
-		recording = Recording.from_dict(self.db_service.fetch_recording(recording_id))
-		annotation_assignments_dict = self.db_service.fetch_annotation_assignment()
-		annotation_assignments_list = [AnnotationAssignment.from_dict(annotation_assignment_dict) for
-		                               annotation_assignment_dict in annotation_assignments_dict if
-		                               annotation_assignment_dict is not None]
+	def fetch_recording_annotation(self, recording: Recording):
+		# annotation_assignments_dict = self.db_service.fetch_annotation_assignment()
+		# annotation_assignments_list = [AnnotationAssignment.from_dict(annotation_assignment_dict) for
+		#                                annotation_assignment_dict in annotation_assignments_dict if
+		#                                annotation_assignment_dict is not None]
+		#
+		# user_id = self.fetch_user_id_for_activity(recording.activity_id, annotation_assignments_list)
+		# try:
+		# 	annotation = Annotation.from_dict(self.db_service.fetch_annotation(str(recording.id) + "_" + str(user_id)))
+		# except:
+		# 	print(f"Annotation not found for recording {recording.id}")
+		# 	return None
 		
-		user_id = self.fetch_user_id_for_activity(recording.activity_id, annotation_assignments_list)
-		annotation = Annotation.from_dict(self.db_service.fetch_annotation(str(recording.id) + "_" + str(user_id)))
+		annotation = self.recording_id_to_annotation_map[recording.id]
+		
+		if annotation is None:
+			print(f"Annotation not found for recording {recording.id}")
+			return None
 		
 		annotation_json = annotation.annotation_json
+		
+		if annotation_json is None:
+			print(f"Annotation json not found for recording {recording.id}")
+			return None
 		step_annotations = annotation_json[0]["annotations"][0]["result"]
 		
-		for step_annotation in step_annotations:
-			start_time = step_annotation["value"]["start"]
-			end_time = step_annotation["value"]["end"]
-			labels = step_annotation["value"]["labels"]
-			
-			print(f"Start time: {start_time}, End time: {end_time}, Labels: {labels}")
+		step_annotation_dict_list = []
+		generate_csv = True
+		if generate_csv:
+			for step_annotation in step_annotations:
+				start_time = step_annotation["value"]["start"]
+				end_time = step_annotation["value"]["end"]
+				labels = step_annotation["value"]["labels"]
+				step_annotation_dict = {
+					"start_time": start_time,
+					"end_time": end_time,
+					"labels": labels
+				}
+				step_annotation_dict_list.append(step_annotation_dict)
+				
+				if not os.path.exists(
+						f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"):
+					os.makedirs(
+						f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}")
+				
+				with open(
+						f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}/{recording.id}.csv",
+						"a") as annotation_file:
+					annotation_file.write(f"{start_time},{end_time},{labels[0]}\n")
+		
+		return step_annotations
 	
-	def fetch_annotation_for_acitivity(self, activity_id):
-		annotation_assignments_dict = self.db_service.fetch_annotation_assignment()
-		annotation_assignments_list = [AnnotationAssignment.from_dict(annotation_assignment_dict) for
-		                               annotation_assignment_dict in annotation_assignments_dict if
-		                               annotation_assignment_dict is not None]
-		
-		user_id = self.fetch_user_id_for_activity(activity_id, annotation_assignments_list)
-		
+	def fetch_annotations_for_activity(self, activity_id):
 		recordings_list = []
 		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
 		for recording_id, user_recording_dict in user_recordings.items():
@@ -334,6 +371,15 @@ class ErrorStatistics:
 				continue
 			if recording.activity_id == activity_id:
 				recordings_list.append(recording)
+				recording_annotation = self.fetch_recording_annotation(recording)
+				
+				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
+				create_directory(annotation_activity_directory)
+			
+			# recording_annotation_file_path = f"{annotation_activity_directory}/{recording.id}.json"
+			# with open(recording_annotation_file_path, "w") as recording_annotation_file:
+			# 	json_data = json.dumps(recording_annotation, indent=4)
+			# 	recording_annotation_file.write(json_data)
 	
 	def fetch_activity_error_categories_split(self):
 		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
@@ -376,4 +422,7 @@ if __name__ == '__main__':
 	# error_statistics.compile_error_categories()
 	# error_statistics.backup_all_recordings()
 	# error_statistics.fetch_recipe_error_normal_division_statistics()
-	error_statistics.fetch_activity_error_categories_split()
+	# error_statistics.fetch_activity_error_categories_split()
+	error_statistics.fetch_annotations_for_activity(10)
+	error_statistics.fetch_annotations_for_activity(8)
+	error_statistics.fetch_annotations_for_activity(12)
