@@ -30,11 +30,14 @@ def load_yaml_file(file_path):
 
 initialize_paths()
 
+from datacollection.user_app.backend.app.models.annotation import Annotation
+from datacollection.user_app.backend.app.models.annotation_assignment import AnnotationAssignment
 from datacollection.user_app.backend.app.services.firebase_service import FirebaseService
 from datacollection.user_app.backend.app.models.recording import Recording
 from datacollection.user_app.backend.app.models.activity import Activity
 from revChatGPT.V3 import Chatbot
 from moviepy.editor import VideoFileClip
+from datacollection.user_app.backend.app.models.error_tag import ErrorTag
 
 
 def create_directory(output_directory):
@@ -55,6 +58,7 @@ class ErrorStatistics:
 		self.activities_dict = self.db_service.fetch_activities()
 		self.activities = [Activity.from_dict(activity) for activity in self.activities_dict if activity is not None]
 		self.activity_id_to_activity_name_map = {activity.id: activity.name for activity in self.activities}
+		self.activity_name_to_activity_id_map = {activity.name: activity.id for activity in self.activities}
 		self.activity_id_to_activity_map = {activity.id: activity for activity in self.activities}
 		
 		self.output_directory = './output_directory'
@@ -221,11 +225,11 @@ class ErrorStatistics:
 			
 			if os.path.exists(os.path.join(self.video_files_directory, recording.id + "_360p.mp4")):
 				video_clip = VideoFileClip(os.path.join(self.video_files_directory, recording.id + "_360p.mp4"))
-				recording_video_duration = video_clip.duration/3600
+				recording_video_duration = video_clip.duration / 3600
 				video_clip.close()
 			elif os.path.exists(os.path.join(self.video_files_directory, recording.id + "_360p.MP4")):
 				video_clip = VideoFileClip(os.path.join(self.video_files_directory, recording.id + "_360p.MP4"))
-				recording_video_duration = video_clip.duration/3600
+				recording_video_duration = video_clip.duration / 3600
 				video_clip.close()
 			else:
 				print(f"Recording {recording.id} does not have a video. Skipping...")
@@ -274,6 +278,96 @@ class ErrorStatistics:
 		print(f"Total error recordings: {total_error_recordings}")
 		print(f"Total normal duration: {total_normal_duration}")
 		print(f"Total error duration: {total_error_duration}")
+	
+	def fetch_activity_details(self):
+		# 1. Activity name to activity id map
+		with open(f"{self.processed_files_directory}/activity_name_to_activity_id_map.json",
+		          "r") as activity_name_to_activity_id_map_file:
+			json_data = json.dumps(self.activity_name_to_activity_id_map, indent=4)
+			activity_name_to_activity_id_map_file.write(json_data)
+		
+		with open(f"{self.processed_files_directory}/activity_id_to_activity_name_map.json",
+		          "r") as activity_id_to_activity_name_map_file:
+			json_data = json.dumps(self.activity_id_to_activity_name_map, indent=4)
+			activity_id_to_activity_name_map_file.write(json_data)
+	
+	def fetch_user_id_for_activity(self, activity_id, annotation_assignment_list):
+		for annotation_assignment in annotation_assignment_list:
+			if activity_id in annotation_assignment.activities:
+				return annotation_assignment.user_id
+	
+	def fetch_recording_annotation(self, recording_id):
+		recording = Recording.from_dict(self.db_service.fetch_recording(recording_id))
+		annotation_assignments_dict = self.db_service.fetch_annotation_assignment()
+		annotation_assignments_list = [AnnotationAssignment.from_dict(annotation_assignment_dict) for
+		                               annotation_assignment_dict in annotation_assignments_dict if
+		                               annotation_assignment_dict is not None]
+		
+		user_id = self.fetch_user_id_for_activity(recording.activity_id, annotation_assignments_list)
+		annotation = Annotation.from_dict(self.db_service.fetch_annotation(str(recording.id) + "_" + str(user_id)))
+		
+		annotation_json = annotation.annotation_json
+		step_annotations = annotation_json[0]["annotations"][0]["result"]
+		
+		for step_annotation in step_annotations:
+			start_time = step_annotation["value"]["start"]
+			end_time = step_annotation["value"]["end"]
+			labels = step_annotation["value"]["labels"]
+			
+			print(f"Start time: {start_time}, End time: {end_time}, Labels: {labels}")
+	
+	def fetch_annotation_for_acitivity(self, activity_id):
+		annotation_assignments_dict = self.db_service.fetch_annotation_assignment()
+		annotation_assignments_list = [AnnotationAssignment.from_dict(annotation_assignment_dict) for
+		                               annotation_assignment_dict in annotation_assignments_dict if
+		                               annotation_assignment_dict is not None]
+		
+		user_id = self.fetch_user_id_for_activity(activity_id, annotation_assignments_list)
+		
+		recordings_list = []
+		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
+		for recording_id, user_recording_dict in user_recordings.items():
+			recording = Recording.from_dict(user_recording_dict)
+			if recording.activity_id not in self.activity_id_to_activity_name_map:
+				print(f"Recording {recording.id} does not belong to any recipe. Skipping...")
+				print(f"-----------------------------------------------------")
+				continue
+			if recording.activity_id == activity_id:
+				recordings_list.append(recording)
+	
+	def fetch_activity_error_categories_split(self):
+		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
+		
+		activity_error_categories = {}
+		for recording_id, user_recording_dict in user_recordings.items():
+			recording = Recording.from_dict(user_recording_dict)
+			if recording.activity_id not in self.activity_id_to_activity_name_map:
+				print(f"Recording {recording.id} does not belong to any recipe. Skipping...")
+				print(f"-----------------------------------------------------")
+				continue
+			
+			activity_name = self.activity_id_to_activity_name_map[recording.activity_id]
+			if not activity_name in activity_error_categories:
+				activity_error_categories[activity_name] = {}
+				for error_tag in ErrorTag.mistake_tag_list:
+					activity_error_categories[activity_name][error_tag] = 0
+			
+			if recording.is_error:
+				recipe_errors = recording.errors
+				if recipe_errors is not None:
+					for recipe_error in recipe_errors:
+						activity_error_categories[activity_name][recipe_error.tag] += 1
+				for recipe_step in recording.steps:
+					step_errors = recipe_step.errors
+					if step_errors is not None:
+						for step_error in step_errors:
+							if step_error.tag == "Other":
+								continue
+							activity_error_categories[activity_name][step_error.tag] += 1
+		with open(f"{self.processed_files_directory}/activity_error_categories.json",
+		          'w') as activity_error_categories_file:
+			json_data = json.dumps(activity_error_categories, indent=4)
+			activity_error_categories_file.write(json_data)
 
 
 if __name__ == '__main__':
@@ -281,4 +375,5 @@ if __name__ == '__main__':
 	# error_statistics.fetch_error_script_for_all_recordings()
 	# error_statistics.compile_error_categories()
 	# error_statistics.backup_all_recordings()
-	error_statistics.fetch_recipe_error_normal_division_statistics()
+	# error_statistics.fetch_recipe_error_normal_division_statistics()
+	error_statistics.fetch_activity_error_categories_split()
