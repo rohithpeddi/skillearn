@@ -85,7 +85,38 @@ class ErrorStatistics:
 		self.recording_id_to_annotation_map = {annotation.recording_id: annotation for annotation in self.annotations}
 		
 		self.video_files_directory = "D:\\DATA\\COLLECTED\\PTG\\ANNOTATION\\ANNOTATION"
-	
+		
+		self._create_activity_step_ids_map()
+		
+	def _create_activity_step_ids_map(self):
+		self.activity_id_to_step_id_map = {}
+		self.activity_id_to_id_step_map = {}
+		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
+		for recording_id, user_recording_dict in user_recordings.items():
+			recording = Recording.from_dict(user_recording_dict)
+			if recording.activity_id not in self.activity_id_to_activity_name_map:
+				print(f"Recording {recording.id} does not belong to any recipe. Skipping...")
+				print(f"-----------------------------------------------------")
+				continue
+				
+			if recording.is_error:
+				print(f"Recording {recording.id} is an error recording. Skipping...")
+				print(f"-----------------------------------------------------")
+				continue
+			
+			activity_id = recording.activity_id
+			if activity_id not in self.activity_id_to_id_step_map:
+				print(f'Preparing activity id to step ids map for activity {activity_id}...')
+				self.activity_id_to_id_step_map[activity_id] = {}
+				self.activity_id_to_step_id_map[activity_id] = {}
+				activity_steps = recording.steps
+				count = 1
+				for step in activity_steps:
+					self.activity_id_to_id_step_map[activity_id][count] = step.description
+					self.activity_id_to_step_id_map[activity_id][step.description] = count
+					count += 1
+				
+			
 	def fetch_activity_description(self, activity: Activity):
 		description = "\n"
 		for step in activity.steps:
@@ -337,7 +368,6 @@ class ErrorStatistics:
 		step_annotation_dict_list = []
 		generate_csv = True
 		if generate_csv:
-			count = 1
 			for step_annotation in step_annotations:
 				start_time = step_annotation["value"]["start"]
 				end_time = step_annotation["value"]["end"]
@@ -347,6 +377,7 @@ class ErrorStatistics:
 					"end_time": end_time,
 					"labels": labels
 				}
+				count = self.activity_id_to_step_id_map[recording.activity_id][labels[0].strip('()').split(':')[1].strip()]
 				step_annotation_dict_list.append(step_annotation_dict)
 				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
 				annotation_activity_directory = annotation_activity_directory.replace(" ", "")
@@ -354,7 +385,6 @@ class ErrorStatistics:
 					os.makedirs(annotation_activity_directory)
 				with open(f"{annotation_activity_directory}/{recording.id}.csv", "a") as annotation_file:
 					annotation_file.write(f"{start_time},{end_time},\"{count} {labels[0].strip('()').split(':')[1].strip()}\"\n")
-				count += 1
 		
 		return step_annotations
 	
@@ -367,6 +397,9 @@ class ErrorStatistics:
 				print(f"Recording {recording.id} does not belong to any recipe. Skipping...")
 				print(f"-----------------------------------------------------")
 				continue
+			if recording.is_error:
+				continue
+			
 			if recording.activity_id == activity_id:
 				recordings_list.append(recording)
 				recording_annotation = self.fetch_recording_annotation(recording)
