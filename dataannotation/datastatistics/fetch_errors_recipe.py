@@ -337,6 +337,7 @@ class ErrorStatistics:
 		step_annotation_dict_list = []
 		generate_csv = True
 		if generate_csv:
+			count = 1
 			for step_annotation in step_annotations:
 				start_time = step_annotation["value"]["start"]
 				end_time = step_annotation["value"]["end"]
@@ -347,16 +348,13 @@ class ErrorStatistics:
 					"labels": labels
 				}
 				step_annotation_dict_list.append(step_annotation_dict)
-				
-				if not os.path.exists(
-						f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"):
-					os.makedirs(
-						f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}")
-				
-				with open(
-						f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}/{recording.id}.csv",
-						"a") as annotation_file:
-					annotation_file.write(f"{start_time},{end_time},{labels[0]}\n")
+				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
+				annotation_activity_directory = annotation_activity_directory.replace(" ", "")
+				if not os.path.exists(annotation_activity_directory):
+					os.makedirs(annotation_activity_directory)
+				with open(f"{annotation_activity_directory}/{recording.id}.csv", "a") as annotation_file:
+					annotation_file.write(f"{start_time},{end_time},\"{count} {labels[0].strip('()').split(':')[1].strip()}\"\n")
+				count += 1
 		
 		return step_annotations
 	
@@ -374,6 +372,7 @@ class ErrorStatistics:
 				recording_annotation = self.fetch_recording_annotation(recording)
 				
 				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
+				annotation_activity_directory = annotation_activity_directory.replace(" ", "")
 				create_directory(annotation_activity_directory)
 			
 			# recording_annotation_file_path = f"{annotation_activity_directory}/{recording.id}.json"
