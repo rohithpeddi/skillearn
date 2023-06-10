@@ -1,0 +1,218 @@
+{
+    "Pinwheels": {
+        "Preparation Error": 21,
+        "Measurement Error": 8,
+        "Order Error": 4,
+        "Timing Error": 5,
+        "Technique Error": 35,
+        "Temperature Error": 5,
+        "Missing Step": 22
+    },
+    "Tomato Mozzarella Salad": {
+        "Preparation Error": 14,
+        "Measurement Error": 7,
+        "Order Error": 5,
+        "Timing Error": 4,
+        "Technique Error": 18,
+        "Temperature Error": 4,
+        "Missing Step": 5
+    },
+    "Butter Corn Cup": {
+        "Preparation Error": 15,
+        "Measurement Error": 5,
+        "Order Error": 5,
+        "Timing Error": 6,
+        "Technique Error": 17,
+        "Temperature Error": 3,
+        "Missing Step": 15
+    },
+    "Tomato Chutney": {
+        "Preparation Error": 13,
+        "Measurement Error": 17,
+        "Order Error": 3,
+        "Timing Error": 11,
+        "Technique Error": 20,
+        "Temperature Error": 9,
+        "Missing Step": 18
+    },
+    "Scrambled Eggs": {
+        "Preparation Error": 25,
+        "Measurement Error": 27,
+        "Order Error": 4,
+        "Timing Error": 11,
+        "Technique Error": 35,
+        "Temperature Error": 10,
+        "Missing Step": 23
+    },
+    "Cucumber Raita": {
+        "Preparation Error": 13,
+        "Measurement Error": 6,
+        "Order Error": 4,
+        "Timing Error": 3,
+        "Technique Error": 15,
+        "Temperature Error": 3,
+        "Missing Step": 4
+    },
+    "Zoodles": {
+        "Preparation Error": 16,
+        "Measurement Error": 8,
+        "Order Error": 4,
+        "Timing Error": 7,
+        "Technique Error": 23,
+        "Temperature Error": 6,
+        "Missing Step": 9
+    },
+    "Microwave Egg Sandwich": {
+        "Preparation Error": 18,
+        "Measurement Error": 23,
+        "Order Error": 7,
+        "Timing Error": 18,
+        "Technique Error": 22,
+        "Temperature Error": 10,
+        "Missing Step": 13
+    },
+    "Sauted Mushrooms": {
+        "Preparation Error": 26,
+        "Measurement Error": 12,
+        "Order Error": 5,
+        "Timing Error": 10,
+        "Technique Error": 23,
+        "Temperature Error": 5,
+        "Missing Step": 10
+    },
+    "Blender Banana Pancakes": {
+        "Preparation Error": 16,
+        "Measurement Error": 11,
+        "Order Error": 6,
+        "Timing Error": 10,
+        "Technique Error": 22,
+        "Temperature Error": 8,
+        "Missing Step": 10
+    },
+    "Herb Omelet with Fried Tomatoes": {
+        "Preparation Error": 7,
+        "Measurement Error": 9,
+        "Order Error": 5,
+        "Timing Error": 5,
+        "Technique Error": 28,
+        "Temperature Error": 3,
+        "Missing Step": 7
+    },
+    "Broccoli Stir Fry": {
+        "Preparation Error": 5,
+        "Measurement Error": 8,
+        "Order Error": 2,
+        "Timing Error": 2,
+        "Technique Error": 11,
+        "Temperature Error": 3,
+        "Missing Step": 9
+    },
+    "Pan Fried Tofu": {
+        "Preparation Error": 2,
+        "Measurement Error": 4,
+        "Order Error": 7,
+        "Timing Error": 4,
+        "Technique Error": 11,
+        "Temperature Error": 2,
+        "Missing Step": 9
+    },
+    "Mug Cake": {
+        "Preparation Error": 30,
+        "Measurement Error": 15,
+        "Order Error": 2,
+        "Timing Error": 6,
+        "Technique Error": 34,
+        "Temperature Error": 4,
+        "Missing Step": 24
+    },
+    "Cheese Pimiento": {
+        "Preparation Error": 8,
+        "Measurement Error": 11,
+        "Order Error": 4,
+        "Timing Error": 6,
+        "Technique Error": 13,
+        "Temperature Error": 4,
+        "Missing Step": 4
+    },
+    "Spicy Tuna Avocado Wraps": {
+        "Preparation Error": 19,
+        "Measurement Error": 18,
+        "Order Error": 6,
+        "Timing Error": 8,
+        "Technique Error": 29,
+        "Temperature Error": 8,
+        "Missing Step": 23
+    },
+    "Caprese Bruschetta": {
+        "Preparation Error": 22,
+        "Measurement Error": 8,
+        "Order Error": 5,
+        "Timing Error": 5,
+        "Technique Error": 23,
+        "Temperature Error": 5,
+        "Missing Step": 11
+    },
+    "Dressed Up Meatballs": {
+        "Preparation Error": 14,
+        "Measurement Error": 23,
+        "Order Error": 5,
+        "Timing Error": 15,
+        "Technique Error": 20,
+        "Temperature Error": 7,
+        "Missing Step": 17
+    },
+    "Microwave Mug Pizza": {
+        "Preparation Error": 11,
+        "Measurement Error": 8,
+        "Order Error": 5,
+        "Timing Error": 3,
+        "Technique Error": 8,
+        "Temperature Error": 3,
+        "Missing Step": 3
+    },
+    "Ramen": {
+        "Preparation Error": 12,
+        "Measurement Error": 6,
+        "Order Error": 3,
+        "Timing Error": 10,
+        "Technique Error": 17,
+        "Temperature Error": 6,
+        "Missing Step": 8
+    },
+    "Coffee": {
+        "Preparation Error": 19,
+        "Measurement Error": 10,
+        "Order Error": 2,
+        "Timing Error": 8,
+        "Technique Error": 20,
+        "Temperature Error": 6,
+        "Missing Step": 9
+    },
+    "Breakfast Burritos": {
+        "Preparation Error": 16,
+        "Measurement Error": 12,
+        "Order Error": 6,
+        "Timing Error": 9,
+        "Technique Error": 17,
+        "Temperature Error": 8,
+        "Missing Step": 9
+    },
+    "Spiced Hot Chocolate": {
+        "Preparation Error": 14,
+        "Measurement Error": 13,
+        "Order Error": 5,
+        "Timing Error": 10,
+        "Technique Error": 12,
+        "Temperature Error": 7,
+        "Missing Step": 10
+    },
+    "Microwave French Toast": {
+        "Preparation Error": 9,
+        "Measurement Error": 5,
+        "Order Error": 2,
+        "Timing Error": 5,
+        "Technique Error": 6,
+        "Temperature Error": 4,
+        "Missing Step": 3
+    }
+}
