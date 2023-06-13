@@ -382,9 +382,8 @@ class ErrorStatistics:
 						labels[0].strip('()').split(':')[3].split(")")[0].strip()]
 				else:
 					count = self.activity_id_to_step_id_map[recording.activity_id][
-					labels[0].strip('()').split(':')[1].strip()]
-					
-					
+						labels[0].strip('()').split(':')[1].strip()]
+				
 				step_annotation_dict_list.append(step_annotation_dict)
 				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
 				annotation_activity_directory = annotation_activity_directory.replace(" ", "")
@@ -420,11 +419,11 @@ class ErrorStatistics:
 				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
 				annotation_activity_directory = annotation_activity_directory.replace(" ", "")
 				create_directory(annotation_activity_directory)
-		
-		# recording_annotation_file_path = f"{annotation_activity_directory}/{recording.id}.json"
-		# with open(recording_annotation_file_path, "w") as recording_annotation_file:
-		# 	json_data = json.dumps(recording_annotation, indent=4)
-		# 	recording_annotation_file.write(json_data)
+	
+	# recording_annotation_file_path = f"{annotation_activity_directory}/{recording.id}.json"
+	# with open(recording_annotation_file_path, "w") as recording_annotation_file:
+	# 	json_data = json.dumps(recording_annotation, indent=4)
+	# 	recording_annotation_file.write(json_data)
 	
 	def fetch_activity_error_categories_split(self):
 		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
@@ -459,6 +458,25 @@ class ErrorStatistics:
 		          'w') as activity_error_categories_file:
 			json_data = json.dumps(activity_error_categories, indent=4)
 			activity_error_categories_file.write(json_data)
+	
+	def fetch_total_steps_count(self):
+		total_steps_count = 0
+		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
+		for recording_id, user_recording_dict in user_recordings.items():
+			recording = Recording.from_dict(user_recording_dict)
+			if recording.activity_id not in self.activity_id_to_activity_name_map:
+				print(f"Recording {recording.id} does not belong to any recipe. Skipping...")
+				print(f"-----------------------------------------------------")
+				continue
+			
+			total_steps_count += len(recording.steps)
+		print(f"Total steps count: {total_steps_count}")
+	
+	def save_activity_id_to_activity_name_map(self):
+		with open(f"{self.processed_files_directory}/activity_id_to_activity_name_map.json",
+		          'w') as activity_id_to_activity_name_map_file:
+			json_data = json.dumps(self.activity_id_to_activity_name_map, indent=4)
+			activity_id_to_activity_name_map_file.write(json_data)
 
 
 if __name__ == '__main__':
@@ -468,6 +486,8 @@ if __name__ == '__main__':
 	# error_statistics.backup_all_recordings()
 	# error_statistics.fetch_recipe_error_normal_division_statistics()
 	# error_statistics.fetch_activity_error_categories_split()
-	error_statistics.fetch_annotations_for_activity(10)
-	error_statistics.fetch_annotations_for_activity(8)
-	error_statistics.fetch_annotations_for_activity(12)
+	# error_statistics.fetch_annotations_for_activity(10)
+	# error_statistics.fetch_annotations_for_activity(8)
+	# error_statistics.fetch_annotations_for_activity(12)
+	# error_statistics.fetch_total_steps_count()
+	error_statistics.save_activity_id_to_activity_name_map()

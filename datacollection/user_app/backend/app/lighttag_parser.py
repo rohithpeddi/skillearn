@@ -1,17 +1,43 @@
 import itertools
 import os
+import os.path as osp
 import json
 import random
+import sys
 
 import networkx as nx
 import matplotlib.pyplot as plt
 import yaml
 
-from ..models.error import Error
-from ..models.error_tag import ErrorTag
-from ..models.step import Step
-from .constants import LightTag_Constants as const
-from .logger_config import get_logger
+#
+# def add_path(path):
+# 	if path not in sys.path:
+# 		sys.path.insert(0, path)
+#
+#
+# def initialize_paths():
+# 	this_dir = osp.dirname(__file__)
+#
+# 	lib_path = osp.join(this_dir, "..", "models")
+# 	add_path(lib_path)
+#
+# 	lib_path = osp.join(this_dir, "..",  "services")
+# 	add_path(lib_path)
+#
+# 	lib_path = osp.join(this_dir, "..", "hololens")
+# 	add_path(lib_path)
+#
+# 	lib_path = osp.join(this_dir, "..", "post_processing")
+# 	add_path(lib_path)
+#
+#
+# initialize_paths()
+
+from datacollection.user_app.backend.app.models.error import Error
+from datacollection.user_app.backend.app.models.error_tag import ErrorTag
+from datacollection.user_app.backend.app.models.step import Step
+from datacollection.user_app.backend.app.utils.constants import LightTag_Constants as const
+from datacollection.user_app.backend.app.utils.logger_config import get_logger
 
 logger = get_logger(__name__)
 
@@ -93,9 +119,9 @@ class LightTagParser:
 	
 	def __init__(self, data_directory):
 		self.data_directory = data_directory
-		self.activity_data_directory = os.path.join(self.data_directory, "lighttag")
-		self.recording_data_directory = os.path.join(self.data_directory, "recordings")
-		self.dependency_graph_data_directory = os.path.join(self.data_directory, "graphs")
+		self.activity_data_directory = os.path.join(self.data_directory, "lighttag", "v2")
+		self.recording_data_directory = os.path.join(self.data_directory, "recordings", "v2")
+		self.dependency_graph_data_directory = os.path.join(self.data_directory, "graphs", "v2")
 		
 		create_directories(self.activity_data_directory)
 		create_directories(self.recording_data_directory)
@@ -124,9 +150,25 @@ class LightTagParser:
 		# Have a map of {Node ID: Node}
 		graph = nx.DiGraph()
 		
+		# Create map, inverse map of the node label and step information
+		step_counter = 0
+		node_id_to_step_info = {}
+		step_info_to_node_id = {}
+		node_id_to_step_id = {}
+		
 		relation_id_to_node_id = {}
 		node_id_to_node_attributes = {}
 		node_id_to_tagged_token_id = {}
+		
+		node_id_to_children = {}
+		node_id_to_parent = {}
+		start_node_id = "start_node"
+		graph.add_node(start_node_id, label="START")
+		node_id_to_step_info[step_counter] = "START"
+		step_info_to_node_id["START"] = start_node_id
+		node_id_to_step_id[start_node_id] = step_counter
+		step_counter += 1
+		
 		# 5. Add all nodes to the graph with Node ID as attribute
 		for relation_node in activity_json[const.RELATIONS]:
 			
@@ -154,8 +196,18 @@ class LightTagParser:
 			node_id_to_node_attributes[node_id] = node_attributes
 			node_id_to_tagged_token_id[node_id] = relation_node[const.TAGGED_TOKEN_ID]
 			
+			node_label = step_counter
+			node_id_to_step_info[step_counter] = step_info
+			step_info_to_node_id[step_info] = node_id
+			node_id_to_step_id[node_id] = step_counter
+			step_counter += 1
+			
+			node_id_to_children[node_id] = []
+			node_id_to_parent[node_id] = []
+			
 			graph.add_node(node_id, label=node_label, **node_attributes)
 		
+		edge_list = []
 		for relation_node in activity_json[const.RELATIONS]:
 			
 			if len(relation_node[const.CHILDREN]) < 1:
@@ -185,31 +237,58 @@ class LightTagParser:
 					logger.info(f"Adding the edge from {child_node_id} to {parent_node_id}")
 				
 				graph.add_edge(child_node_id, parent_node_id)
+				edge_list.append((node_id_to_step_id[child_node_id], node_id_to_step_id[parent_node_id]))
+				
+				if parent_node_id not in node_id_to_children:
+					node_id_to_children[parent_node_id] = []
+				node_id_to_children[child_node_id].append(parent_node_id)
+				node_id_to_parent[parent_node_id].append(child_node_id)
+		
+		for node_id, parents in node_id_to_parent.items():
+			if len(parents) < 1:
+				graph.add_edge(start_node_id, node_id)
+				edge_list.append((0, node_id_to_step_id[node_id]))
+		
+		end_node_id = "end_node"
+		graph.add_node(end_node_id, label="END")
+		node_id_to_step_info[step_counter] = "END"
+		step_info_to_node_id["END"] = end_node_id
+		node_id_to_step_id[end_node_id] = step_counter
+		
+		for node_id, children in node_id_to_children.items():
+			if len(children) < 1:
+				graph.add_edge(node_id, end_node_id)
+				edge_list.append((node_id_to_step_id[node_id], step_counter))
+		step_counter += 1
+		
+		recording_dict = {"steps": node_id_to_step_info, "edges": edge_list}
+		with open(os.path.join(self.recording_data_directory, activity_file_name), "w") as recording_text_file:
+			recording_text_file.write(json.dumps(recording_dict))
 		
 		plt.figure(figsize=(50, 50), dpi=150)
 		
-		labels = nx.get_node_attributes(graph, const.LABEL)
-		nx.draw_planar(
-			graph,
-			arrowsize=12,
-			with_labels=True,
-			node_size=8000,
-			node_color="#ffff8f",
-			linewidths=2.0,
-			width=1.5,
-			font_size=14,
-			labels=labels
-		)
-		
-		dependency_graph_path = os.path.join(self.dependency_graph_data_directory, f'{activity_file_name[:-5]}.png')
-		plt.savefig(dependency_graph_path)
-		plt.clf()
-		
-		# print(graph.nodes)
-		logger.info(f"Finished processing {activity_file_name}")
-		# print(graph.edges)
-		logger.info("--------------------------------------------------------------------------- \n")
-		
+		# labels = nx.get_node_attributes(graph, const.LABEL)
+		# nx.draw_planar(
+		# 	graph,
+		# 	arrowsize=8,  # smaller arrows
+		# 	with_labels=True,
+		# 	node_size=10000,  # larger nodes
+		# 	node_color="#ffff8f",
+		# 	linewidths=2.0,
+		# 	width=1.0,  # smaller edge width
+		# 	font_size=30,  # larger font
+		# 	labels=labels
+		# )
+		#
+		# dependency_graph_path = os.path.join(self.dependency_graph_data_directory, f'{activity_file_name[:-5]}.png')
+		# plt.savefig(dependency_graph_path)
+		# plt.clf()
+		#
+		# # print(graph.nodes)
+		# logger.info(f"Finished processing {activity_file_name}")
+		# # print(graph.edges)
+		# logger.info("--------------------------------------------------------------------------- \n")
+		#
 		# 6. Return graph
 		return graph
 	
@@ -301,14 +380,14 @@ class LightTagParser:
 	def generate_recording_data(self):
 		# self.generate_activity_recording_data("microwavemugpizza.json")
 		for activity_file_name in os.listdir(self.activity_data_directory):
-			if activity_file_name == "microwavemugpizza.json":
-				logger.info("Ignoring recipe {}".format(activity_file_name))
-				continue
 			self.generate_activity_recording_data(activity_file_name)
+	
+	def generate_dependency_graphs(self):
+		for activity_file_name in os.listdir(self.activity_data_directory):
+			dependency_graph = self.generate_dependency_graph(activity_file_name)
 
 
 if __name__ == "__main__":
-	current_directory = os.getcwd()
-	info_directory = os.path.join(current_directory, "info_files")
+	info_directory = r"C:\Users\rohit\PycharmProjects\skillearn\datacollection\user_app\backend\info_files"
 	parser = LightTagParser(info_directory)
-	parser.generate_recording_data()
+	parser.generate_dependency_graphs()

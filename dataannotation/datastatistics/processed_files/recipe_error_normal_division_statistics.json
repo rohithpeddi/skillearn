@@ -1,0 +1,146 @@
+{
+    "Pinwheels": {
+        "normal": 4,
+        "normal_duration": 0.7254,
+        "error": 8,
+        "error_duration": 1.18995
+    },
+    "Tomato Mozzarella Salad": {
+        "normal": 10,
+        "normal_duration": 1.2061666666666668,
+        "error": 6,
+        "error_duration": 0.5273444444444445
+    },
+    "Butter Corn Cup": {
+        "error": 8,
+        "error_duration": 1.5054583333333333,
+        "normal": 6,
+        "normal_duration": 1.6290944444444446
+    },
+    "Tomato Chutney": {
+        "normal": 7,
+        "normal_duration": 3.3424277777777776,
+        "error": 8,
+        "error_duration": 2.0120388888888887
+    },
+    "Scrambled Eggs": {
+        "normal": 3,
+        "normal_duration": 0.987525,
+        "error": 10,
+        "error_duration": 3.1251972222222224
+    },
+    "Cucumber Raita": {
+        "normal": 13,
+        "normal_duration": 3.109116666666667,
+        "error": 5,
+        "error_duration": 0.9820916666666666
+    },
+    "Zoodles": {
+        "error": 10,
+        "error_duration": 2.191825,
+        "normal": 3,
+        "normal_duration": 0.7432333333333334
+    },
+    "Microwave Egg Sandwich": {
+        "normal": 5,
+        "normal_duration": 0.8798611111111111,
+        "error": 12,
+        "error_duration": 1.671427777777778
+    },
+    "Sauted Mushrooms": {
+        "normal": 6,
+        "normal_duration": 2.7260555555555555,
+        "error": 8,
+        "error_duration": 2.2066305555555554
+    },
+    "Blender Banana Pancakes": {
+        "error": 11,
+        "error_duration": 2.418538888888889,
+        "normal": 7,
+        "normal_duration": 1.784486111111111
+    },
+    "Herb Omelet with Fried Tomatoes": {
+        "error": 9,
+        "error_duration": 1.7899888888888889,
+        "normal": 6,
+        "normal_duration": 1.728069444444444
+    },
+    "Broccoli Stir Fry": {
+        "normal": 11,
+        "normal_duration": 5.742655555555555,
+        "error": 3,
+        "error_duration": 1.152088888888889
+    },
+    "Pan Fried Tofu": {
+        "normal": 8,
+        "normal_duration": 3.3786916666666666,
+        "error": 7,
+        "error_duration": 2.3077027777777777
+    },
+    "Mug Cake": {
+        "error": 11,
+        "error_duration": 2.5446222222222223,
+        "normal": 3,
+        "normal_duration": 1.0909333333333333
+    },
+    "Cheese Pimiento": {
+        "normal": 6,
+        "normal_duration": 1.4685833333333334,
+        "error": 8,
+        "error_duration": 1.5719861111111109
+    },
+    "Spicy Tuna Avocado Wraps": {
+        "normal": 6,
+        "normal_duration": 1.7022083333333335,
+        "error": 11,
+        "error_duration": 2.664213888888889
+    },
+    "Caprese Bruschetta": {
+        "error": 11,
+        "error_duration": 2.4195138888888894,
+        "normal": 3,
+        "normal_duration": 0.9832944444444445
+    },
+    "Dressed Up Meatballs": {
+        "normal": 5,
+        "normal_duration": 1.6324666666666667,
+        "error": 10,
+        "error_duration": 3.0978611111111114
+    },
+    "Microwave Mug Pizza": {
+        "normal": 7,
+        "normal_duration": 1.465513888888889,
+        "error": 6,
+        "error_duration": 1.1428916666666669
+    },
+    "Ramen": {
+        "normal": 9,
+        "normal_duration": 2.0958555555555556,
+        "error": 7,
+        "error_duration": 1.4472416666666668
+    },
+    "Coffee": {
+        "normal": 7,
+        "normal_duration": 1.7458277777777775,
+        "error": 7,
+        "error_duration": 1.5809250000000001
+    },
+    "Breakfast Burritos": {
+        "normal": 4,
+        "normal_duration": 0.7117416666666667,
+        "error": 10,
+        "error_duration": 1.509661111111111
+    },
+    "Spiced Hot Chocolate": {
+        "error": 10,
+        "error_duration": 1.0084055555555558,
+        "normal": 5,
+        "normal_duration": 0.7027305555555555
+    },
+    "Microwave French Toast": {
+        "error": 5,
+        "error_duration": 0.6593083333333334,
+        "normal": 9,
+        "normal_duration": 1.9449472222222222
+    }
+}
