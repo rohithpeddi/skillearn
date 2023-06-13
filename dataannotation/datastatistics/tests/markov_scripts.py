@@ -231,4 +231,5 @@ if __name__ == '__main__':
 	# process_files_in_folder('/home/rohith/data/ptg')
 	# transfer_files_to_normal_error_folders('/home/rohith/data/ptg')
 	# rename_directories('/home/rohith/data/ptg')
-	prepare_egoprocel_data('/home/rohith/data/ptg')
+	# prepare_egoprocel_data('/home/rohith/data/ptg')
+	create_execution_scripts()
