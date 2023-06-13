@@ -413,7 +413,7 @@ class ErrorStatistics:
 				if not os.path.exists(annotation_activity_directory):
 					os.makedirs(annotation_activity_directory)
 					
-				annotation_file_directory = os.path.join(annotation_activity_directory, "normal")
+				annotation_file_directory = os.path.join(annotation_activity_directory, "annotations", "normal")
 				create_directory(annotation_file_directory)
 				annotation_file_path = os.path.join(annotation_file_directory, f"{recording.id}.csv")
 				with open(annotation_file_path, "a") as annotation_file:
