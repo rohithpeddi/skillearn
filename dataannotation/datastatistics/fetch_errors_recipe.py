@@ -434,7 +434,7 @@ class ErrorStatistics:
 			
 			recording_id = int(recording.id.split("_")[1])
 			
-			if recording_id > 25:
+			if 25 < recording_id < 100:
 				continue
 			if recording_id > 125:
 				continue
