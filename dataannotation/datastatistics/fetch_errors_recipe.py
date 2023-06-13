@@ -33,6 +33,7 @@ initialize_paths()
 from datacollection.user_app.backend.app.models.annotation import Annotation
 from datacollection.user_app.backend.app.models.annotation_assignment import AnnotationAssignment
 from datacollection.user_app.backend.app.services.firebase_service import FirebaseService
+from datacollection.user_app.backend.app.services.box_service import BoxService
 from datacollection.user_app.backend.app.models.recording import Recording
 from datacollection.user_app.backend.app.models.activity import Activity
 from revChatGPT.V3 import Chatbot
@@ -50,8 +51,8 @@ class ErrorStatistics:
 	def __init__(self):
 		self.db_service = FirebaseService()
 		self.box_service = BoxService()
-		self.box_service.root_folder_id = '210901008116'
-		self.box_recording_scripts_folder_id = '210901008116'
+		# self.box_service.root_folder_id = '210901008116'
+		# self.box_recording_scripts_folder_id = '210901008116'
 		
 		self.environments_info_list = load_yaml_file(
 			'../../datacollection/user_app/backend/info_files/environments.yaml')
@@ -71,6 +72,9 @@ class ErrorStatistics:
 		create_directory(self.backup_directory)
 		self.backup_recordings_directory = f"{self.backup_directory}/recordings"
 		create_directory(self.backup_recordings_directory)
+		
+		self.intermediate_directory = "./intermediate_directory"
+		create_directory(self.intermediate_directory)
 		
 		self.annotations_directory = "./annotations"
 		create_directory(self.annotations_directory)
@@ -361,7 +365,16 @@ class ErrorStatistics:
 		
 		if annotation_json is None:
 			print(f"Annotation json not found for recording {recording.id}")
-			return None
+			annotation_json_file_name = f"{recording.id}_360p.json"
+			annotation_json_file_path = os.path.join(self.intermediate_directory, annotation_json_file_name)
+			annotation_json = self.box_service.fetch_latest_annotation_json(recording.id, annotation_json_file_path)
+			if annotation_json is None:
+				print(f"Annotation json not found for recording {recording.id}")
+				return None
+			
+			annotation.annotation_json = annotation_json
+			self.db_service.update_annotation(annotation)
+		
 		step_annotations = annotation_json[0]["annotations"][0]["result"]
 		
 		step_annotation_dict_list = []
@@ -377,19 +390,33 @@ class ErrorStatistics:
 					"labels": labels
 				}
 				
+				def fetch_count(activity_step_id):
+					if activity_step_id in self.activity_id_to_step_id_map[recording.activity_id]:
+						return self.activity_id_to_step_id_map[recording.activity_id][activity_step_id]
+					else:
+						for key in self.activity_id_to_step_id_map[recording.activity_id]:
+							if activity_step_id[1:15] in key:
+								return self.activity_id_to_step_id_map[recording.activity_id][key]
+				
 				if len(labels[0].strip('()').split(':')) >= 3:
-					count = self.activity_id_to_step_id_map[recording.activity_id][
-						labels[0].strip('()').split(':')[3].split(")")[0].strip()]
+					try:
+						step_id = labels[0].strip('()').split(':')[3].split(")")[0].strip()
+					except:
+						step_id = labels[0].strip('()').split(':')[7].strip()
 				else:
-					count = self.activity_id_to_step_id_map[recording.activity_id][
-						labels[0].strip('()').split(':')[1].strip()]
+					step_id = labels[0].strip('()').split(':')[1].strip()
+				count = fetch_count(step_id)
 				
 				step_annotation_dict_list.append(step_annotation_dict)
-				annotation_activity_directory = f"{self.annotations_directory}/{self.activity_id_to_activity_name_map[recording.activity_id]}"
-				annotation_activity_directory = annotation_activity_directory.replace(" ", "")
+				activity_name = self.activity_id_to_activity_name_map[recording.activity_id].replace(" ", "")
+				annotation_activity_directory = os.path.join(self.annotations_directory, activity_name)
 				if not os.path.exists(annotation_activity_directory):
 					os.makedirs(annotation_activity_directory)
-				with open(f"{annotation_activity_directory}/{recording.id}.csv", "a") as annotation_file:
+					
+				annotation_file_directory = os.path.join(annotation_activity_directory, "normal")
+				create_directory(annotation_file_directory)
+				annotation_file_path = os.path.join(annotation_file_directory, f"{recording.id}.csv")
+				with open(annotation_file_path, "a") as annotation_file:
 					annotation_file.write(
 						f"{start_time},{end_time},\"{count} {labels[0].strip('()').split(':')[1].strip()}\"\n")
 		
@@ -477,17 +504,23 @@ class ErrorStatistics:
 		          'w') as activity_id_to_activity_name_map_file:
 			json_data = json.dumps(self.activity_id_to_activity_name_map, indent=4)
 			activity_id_to_activity_name_map_file.write(json_data)
+	
+	def generate_annotations_for_all_activities(self):
+		for activity in self.activities:
+			self.fetch_annotations_for_activity(activity.id)
+
 
 
 if __name__ == '__main__':
 	error_statistics = ErrorStatistics()
-	# error_statistics.fetch_error_script_for_all_recordings()
-	# error_statistics.compile_error_categories()
-	# error_statistics.backup_all_recordings()
-	# error_statistics.fetch_recipe_error_normal_division_statistics()
-	# error_statistics.fetch_activity_error_categories_split()
-	# error_statistics.fetch_annotations_for_activity(10)
-	# error_statistics.fetch_annotations_for_activity(8)
-	# error_statistics.fetch_annotations_for_activity(12)
-	# error_statistics.fetch_total_steps_count()
-	error_statistics.save_activity_id_to_activity_name_map()
+	error_statistics.generate_annotations_for_all_activities()
+# error_statistics.fetch_error_script_for_all_recordings()
+# error_statistics.compile_error_categories()
+# error_statistics.backup_all_recordings()
+# error_statistics.fetch_recipe_error_normal_division_statistics()
+# error_statistics.fetch_activity_error_categories_split()
+# error_statistics.fetch_annotations_for_activity(10)
+# error_statistics.fetch_annotations_for_activity(8)
+# error_statistics.fetch_annotations_for_activity(12)
+# error_statistics.fetch_total_steps_count()
+# error_statistics.save_activity_id_to_activity_name_map()

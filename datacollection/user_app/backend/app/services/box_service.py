@@ -1,3 +1,4 @@
+import json
 import os
 import time
 
@@ -11,6 +12,7 @@ from ..utils.constants import Box_Constants as const
 from ..utils.logger_config import get_logger
 
 logger = get_logger(__name__)
+
 
 # Folder structure in BOX
 # - Activity
@@ -54,7 +56,8 @@ class BoxService:
 		self.client = Client(ccg_auth)
 		
 		self.db_service = FirebaseService()
-		self.activities = [Activity.from_dict(activity_dict) for activity_dict in self.db_service.fetch_activities() if activity_dict is not None]
+		self.activities = [Activity.from_dict(activity_dict) for activity_dict in self.db_service.fetch_activities() if
+		                   activity_dict is not None]
 		self._create_activity_id_name_map()
 	
 	def _create_activity_id_name_map(self):
@@ -145,7 +148,7 @@ class BoxService:
 		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
 		gopro_path = os.path.join(recording_folder_path, const.GOPRO)
 		self._upload_files_in_path(gopro_folder_id, gopro_path)
-		
+	
 	def upload_go_pro_360_video(self, recording, file_path):
 		logger.info(f'Uploading GoPro 360 video for recording {recording.id}')
 		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[recording.activity_id])
@@ -159,7 +162,35 @@ class BoxService:
 		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording.id)
 		pretrained_feature_folder_id = self._fetch_subfolder(recording_folder_id, const.PRETRAINED_FEATURES)
 		self.client.folder(folder_id=pretrained_feature_folder_id).upload(file_path)
+	
+	def fetch_latest_annotation_json(self, recording_id, file_path):
+		activity_id = recording_id.split('_')[0]
+		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[int(activity_id)])
+		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording_id)
+		annotations_folder_id = self._fetch_subfolder(recording_folder_id, const.ANNOTATIONS)
+		annotation_folders = self.client.folder(folder_id=annotations_folder_id).get_items()
 		
+		latest_annotation_folder_id = None
+		# TODO: Check created timestamp and take the latest one only
+		for annotation_folder in annotation_folders:
+			latest_annotation_folder_id = annotation_folder.id
+			break
+		
+		if latest_annotation_folder_id is None:
+			return None
+		
+		# annotation_folders = sorted(annotation_folders, key=lambda x: x.created_at, reverse=True)
+		
+		# Fetch annotation json with file name recording_id + "_360p".json
+		annotation_files = self.client.folder(folder_id=latest_annotation_folder_id).get_items()
+		annotation_files = [file for file in annotation_files]
+		with open(os.path.join(file_path), 'wb') as annotation_json_file:
+			self.client.file(file_id=annotation_files[0].id).download_to(annotation_json_file)
+		with open(os.path.join(file_path), 'r') as annotation_json_file:
+			annotation_json = json.load(annotation_json_file)
+		
+		return annotation_json
+	
 	def upload_annotation(self, annotation: Annotation, backup_annotation_file_path):
 		recording_id = annotation.recording_id
 		activity_id = recording_id.split('_')[0]
