@@ -63,6 +63,24 @@ def extract_zip_file(zip_file_path, output_directory):
 		zip_ref.extractall(output_directory)
 
 
+def make_video(images_folder, video_name):
+	images = [img for img in os.listdir(images_folder) if img.endswith(".jpg")]
+	images = sorted(images, key=lambda x: int((x[:-4].split("-"))[-1]))
+	
+	frame = cv2.imread(os.path.join(images_folder, images[0]))
+	height, width, layers = frame.shape
+	
+	fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+	# video = cv2.VideoWriter(video_name, 0, 30, (width, height))
+	video = cv2.VideoWriter(video_name, fourcc, 30, (width, height))
+	
+	for image in images:
+		video.write(cv2.imread(os.path.join(images_folder, image)))
+	
+	cv2.destroyAllWindows()
+	video.release()
+
+
 class SynchronizationServiceV2:
 	
 	def __init__(
@@ -211,7 +229,8 @@ class SynchronizationServiceV2:
 		self.num_of_frames = len(self.base_stream_keys)
 		self.meta_yaml_data["num_of_frames"] = self.num_of_frames
 		
-		sample_base_stream_frame_path = os.path.join(raw_base_stream_frames_dir, os.listdir(raw_base_stream_frames_dir)[0])
+		sample_base_stream_frame_path = os.path.join(raw_base_stream_frames_dir,
+		                                             os.listdir(raw_base_stream_frames_dir)[0])
 		self.pv_width, self.pv_height = self.get_image_characteristics(sample_base_stream_frame_path)
 		self.meta_yaml_data["pv_width"] = self.pv_width
 		self.meta_yaml_data["pv_height"] = self.pv_height
@@ -236,6 +255,13 @@ class SynchronizationServiceV2:
 		shutil.copy(pv_pose_file_path, sync_pv_pose_file_path)
 		print("Done copying PV Pose into the sync output folder")
 		
+		recording_base_stream_mp4_file_path = os.path.join(self.raw_base_stream_directory, f"{self.recording.id}.mp4")
+		if not os.path.exists(recording_base_stream_mp4_file_path):
+			print("Recording base stream mp4 file does not exist")
+			print("Creating recording base stream mp4 file")
+			make_video(raw_base_stream_frames_dir, recording_base_stream_mp4_file_path)
+			print("Done creating recording base stream mp4 file")
+			
 		for stream_name in self.synchronize_streams:
 			if stream_name == const.DEPTH_AHAT:
 				# Files and directories
