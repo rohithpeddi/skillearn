@@ -1,36 +1,32 @@
 import os
 
 from datacollection.user_app.backend.app.models.recording import Recording
-from datacollection.user_app.backend.app.post_processing.directory_post_processing_service import \
-	DirectoryPostProcessingService
-from datacollection.user_app.backend.app.post_processing.recording_post_processing_service import \
-	RecordingPostProcessingService
-
-
-# if __name__ == '__main__':
-#     rec_id = '18_1'
-#     rec_instance = Recording(id=rec_id, activity_id=9, is_error=False, steps=[])
-#     data_dir = "../../../../data"
-#     data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), data_dir)
-#     post_processing_service = RecordingPostProcessingService(rec_instance, data_dir)
-#
-#     post_processing_service.process_and_push_data_to_nas()
-
-def create_directory_if_not_exists(directory):
-	if not os.path.exists(directory):
-		os.makedirs(directory)
-
+from datacollection.user_app.backend.app.services.box_service import BoxService
+from datacollection.user_app.backend.app.services.firebase_service import FirebaseService
+from datacollection.user_app.backend.app.services.synchronization_service import SynchronizationServiceV2
+from datacollection.user_app.backend.app.utils.constants import Synchronization_Constants as const
 
 if __name__ == '__main__':
-	data_parent_directory = "../../../../data"
-	data_parent_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), data_parent_directory)
+	data_parent_directory = "/home/ptg/CODE/DATA/data_2022_02_11"
 	
-	gopro_parent_directory = os.path.join(data_parent_directory, 'gopro')
-	gopro_360p_parent_directory = os.path.join(data_parent_directory, 'gopro_360p')
-	create_directory_if_not_exists(gopro_360p_parent_directory)
-
-	hololens_parent_directory = os.path.join(data_parent_directory, 'hololens')
+	box_service = BoxService()
+	db_service = FirebaseService()
 	
-	directory_post_processing_service = DirectoryPostProcessingService(data_parent_directory)
-	# directory_post_processing_service.push_data_to_NAS()
-	directory_post_processing_service.push_gopro_to_360p_directory(gopro_parent_directory, gopro_360p_parent_directory)
+	for data_recording_directory_name in os.listdir(data_parent_directory):
+		data_recording_directory_path = os.path.join(data_parent_directory, data_recording_directory_name)
+		if os.path.isdir(data_recording_directory_path):
+			recording = Recording.from_dict(db_service.fetch_recording(data_recording_directory_name))
+			print("-------------------------------------***************************-------------------------------------")
+			print("=====================================")
+			print(f"Synchronizing {recording.id}")
+			print("=====================================")
+			synchronization_service = SynchronizationServiceV2(data_parent_directory, recording, const.BASE_STREAM, const.SYNCHRONIZATION_STREAMS)
+			synchronization_service.sync_streams()
+			
+			print("-------------------------------------")
+			print(f"Uploading {recording.id}")
+			print("-------------------------------------")
+			box_service.upload_from_nas(recording, data_parent_directory)
+			
+		
+		

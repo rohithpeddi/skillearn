@@ -67,10 +67,10 @@ class SynchronizationServiceV2:
 	
 	def __init__(
 			self,
+			data_parent_directory: str,
+			recording: Recording,
 			base_stream: str,
 			synchronize_streams: List[str],
-			data_parent_directory: str,
-			recording: Recording
 	):
 		self.base_stream = base_stream
 		self.synchronize_streams = synchronize_streams
@@ -220,16 +220,21 @@ class SynchronizationServiceV2:
 		create_directories(sync_base_stream_frames_dir)
 		
 		# 2. Copy base stream frames into the sync output folder
+		print("Copying base stream frames into the sync output folder")
 		for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
 			src_file = os.path.join(raw_base_stream_frames_dir, self.ts_to_base_stream_frame[base_stream_key])
 			dest_file = os.path.join(sync_base_stream_frames_dir, self.pv_stream_suffix % base_stream_counter)
 			shutil.copy(src_file, dest_file)
+		print("Done copying base stream frames into the sync output folder")
 		
 		# Synchronize PV Pose
 		pv_pose_pkl = f'{self.recording.id}_pv_pose.pkl'
 		pv_pose_file_path = os.path.join(self.raw_base_stream_directory, pv_pose_pkl)
 		sync_pv_pose_file_path = os.path.join(self.sync_base_stream_directory, pv_pose_pkl)
+		
+		print("Copying PV Pose into the sync output folder")
 		shutil.copy(pv_pose_file_path, sync_pv_pose_file_path)
+		print("Done copying PV Pose into the sync output folder")
 		
 		for stream_name in self.synchronize_streams:
 			if stream_name == const.DEPTH_AHAT:
@@ -246,7 +251,9 @@ class SynchronizationServiceV2:
 				
 				depth_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.DEPTH_ZIP)
 				if os.path.exists(depth_frames_zip_file_path):
+					print("Extracting depth frames zip file")
 					extract_zip_file(depth_frames_zip_file_path, raw_depth_parent_directory)
+					print("Done extracting depth frames zip file")
 				
 				sync_depth_data_directory = os.path.join(sync_depth_parent_directory, const.DEPTH)
 				create_directories(sync_depth_data_directory)
@@ -255,7 +262,9 @@ class SynchronizationServiceV2:
 				
 				ab_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.AB_ZIP)
 				if os.path.exists(depth_frames_zip_file_path):
+					print("Extracting ab frames zip file")
 					extract_zip_file(ab_frames_zip_file_path, raw_depth_parent_directory)
+					print("Done extracting ab frames zip file")
 				
 				sync_depth_ab_directory = os.path.join(sync_depth_parent_directory, const.AB)
 				create_directories(sync_depth_ab_directory)
@@ -267,13 +276,16 @@ class SynchronizationServiceV2:
 				)
 				
 				# 1. Synchronize Pose
+				print("Synchronizing Depth Pose data")
 				self.create_sync_stream_pkl_data(
 					raw_depth_pose_file_path,
 					sync_depth_pose_file_path,
 					base_ts_to_stream_ts
 				)
+				print("Done synchronizing Depth Pose data")
 				
 				# 2. Synchronize Depth data
+				print("Synchronizing Depth data")
 				self.create_sync_stream_frames(
 					raw_depth_data_directory,
 					const.PNG_EXTENSION,
@@ -281,8 +293,10 @@ class SynchronizationServiceV2:
 					self.depth_stream_suffix,
 					base_ts_to_stream_ts
 				)
+				print("Done synchronizing Depth data")
 				
 				# 3. Synchronize Active Brightness data
+				print("Synchronizing Active Brightness data")
 				self.create_sync_stream_frames(
 					raw_depth_ab_directory,
 					const.PNG_EXTENSION,
@@ -290,6 +304,7 @@ class SynchronizationServiceV2:
 					self.ab_stream_suffix,
 					base_ts_to_stream_ts
 				)
+				print("Done synchronizing Active Brightness data")
 				
 				sample_depth_frame = os.path.join(raw_depth_data_directory, os.listdir(raw_depth_data_directory)[0])
 				self.depth_width, self.depth_height = self.get_image_characteristics(sample_depth_frame)
@@ -298,16 +313,24 @@ class SynchronizationServiceV2:
 				self.meta_yaml_data["depth_height"] = self.depth_height
 				
 				# 4. Compress all frames into a zip file in both raw and sync directories
+				print("Compressing Depth data")
 				CompressDataService.compress_dir(raw_depth_parent_directory, const.DEPTH)
 				CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
+				print("Done compressing Depth data")
+				print("Compressing Active Brightness data")
 				CompressDataService.compress_dir(raw_depth_parent_directory, const.AB)
 				CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
+				print("Done compressing Active Brightness data")
 				
 				# 5. Delete raw frames directory
+				print("Deleting frames directory")
 				CompressDataService.delete_dir(raw_depth_data_directory)
-				CompressDataService.delete_dir(raw_depth_ab_directory)
 				CompressDataService.delete_dir(sync_depth_data_directory)
+				print("Done deleting raw frames directory")
+				print("Deleting ab directory")
+				CompressDataService.delete_dir(raw_depth_ab_directory)
 				CompressDataService.delete_dir(sync_depth_ab_directory)
+				print("Done deleting ab directory")
 			elif stream_name == const.SPATIAL:
 				# 1. Synchronize spatial data
 				spatial_directory = os.path.join(self.raw_data_directory, const.SPATIAL)
@@ -323,7 +346,9 @@ class SynchronizationServiceV2:
 					[spatial_file_path]
 				)
 				
+				print("Synchronizing Spatial data")
 				self.create_sync_stream_pkl_data(spatial_file_path, sync_spatial_file_path, base_ts_to_stream_ts)
+				print("Done synchronizing Spatial data")
 			elif stream_name in const.IMU_LIST:
 				imu_directory = os.path.join(self.raw_data_directory, const.IMU)
 				sync_imu_directory = os.path.join(self.sync_data_directory, const.IMU)
@@ -338,15 +363,20 @@ class SynchronizationServiceV2:
 					[imu_file_path]
 				)
 				
+				print(f"Synchronizing {stream_name} data")
 				self.create_sync_stream_pkl_data(imu_file_path, sync_imu_file_path, base_ts_to_stream_ts)
+				print(f"Done synchronizing {stream_name} data")
 		
-		# Compress all streams into a zip file in both raw and sync directories
+		print("Compressing pv frames directory")
 		CompressDataService.compress_dir(self.raw_base_stream_directory, const.FRAMES)
 		CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
+		print("Done compressing pv frames directory")
 		
 		# Delete raw frames directory
+		print("Deleting pv frames directory")
 		CompressDataService.delete_dir(raw_base_stream_frames_dir)
 		CompressDataService.delete_dir(sync_base_stream_frames_dir)
+		print("Done deleting pv frames directory")
 		
 		with open(os.path.join(self.sync_data_directory, "meta.yaml"), "w") as meta_yaml_file:
 			for key, value in self.meta_yaml_data.items():
