@@ -56,8 +56,11 @@ class BoxService:
 		self.client = Client(ccg_auth)
 		
 		self.db_service = FirebaseService()
-		self.activities = [Activity.from_dict(activity_dict) for activity_dict in self.db_service.fetch_activities() if
-		                   activity_dict is not None]
+		self.activities = [
+			Activity.from_dict(activity_dict)
+			for activity_dict in self.db_service.fetch_activities()
+			if activity_dict is not None
+		]
 		self._create_activity_id_name_map()
 	
 	def _create_activity_id_name_map(self):
@@ -86,42 +89,20 @@ class BoxService:
 				self.client.folder(folder_id=parent_folder_id).create_subfolder(subfolder_name)).object_id
 		return subfolder_id
 	
-	def _create_folder_structure(self, recording: Recording):
-		activity_name = self.activity_id_name_map[recording.activity_id]
-		activity_folder_id = self._fetch_activity_folder(activity_name)
-		
-		# Create Recording folder
-		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording.id)
-		
-		# Create Raw folder structure
-		raw_folder_id = self._fetch_subfolder(recording_folder_id, const.RAW)
-		raw_pv_folder_id = self._fetch_subfolder(raw_folder_id, const.PV)
-		raw_depth_ahat_folder_id = self._fetch_subfolder(raw_folder_id, const.DEPTH_AHAT)
-		raw_microphone_folder_id = self._fetch_subfolder(raw_folder_id, const.MICROPHONE)
-		raw_spatial_folder_id = self._fetch_subfolder(raw_folder_id, const.SPATIAL)
-		
-		# Create Synchronized folder structure
-		synchronized_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNCHRONIZED)
-		sync_depth_ahat_folder_id = self._fetch_subfolder(synchronized_folder_id, const.DEPTH_AHAT)
-		sync_pv_folder_id = self._fetch_subfolder(synchronized_folder_id, const.PV)
-		sync_microphone_folder_id = self._fetch_subfolder(synchronized_folder_id, const.MICROPHONE)
-		sync_spatial_folder_id = self._fetch_subfolder(synchronized_folder_id, const.SPATIAL)
-		
-		# Create GoPro folder
-		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
-		
-		# Create Pretrained feature folder
-		pretrained_feature_folder_id = self._fetch_subfolder(recording_folder_id, const.PRETRAINED_FEATURES)
-		
-		# Create Annotations folder
-		annotations_folder_id = self._fetch_subfolder(recording_folder_id, const.ANNOTATIONS)
-	
 	def _upload_files_in_path(self, box_folder_id, folder_path):
 		box_folder = self.client.folder(folder_id=box_folder_id)
-		box_files = {item.name: item for item in box_folder.get_items(item_type='file')}
-		
+		box_files = {item for item in box_folder.get_items(item_type='file')}
 		for file_name in os.listdir(folder_path):
-			if file_name not in box_files:
+			is_item_present = False
+			local_file_size = os.path.getsize(os.path.join(folder_path, file_name))
+			for box_item in box_files:
+				if file_name == box_item.name:
+					if local_file_size == box_item.size:
+						is_item_present = True
+					else:
+						box_item.delete()
+						is_item_present = False
+			if not is_item_present:
 				file_path = os.path.join(folder_path, file_name)
 				box_folder.upload(file_path)
 	
@@ -131,23 +112,31 @@ class BoxService:
 			local_folder_path = os.path.join(parent_local_folder, folder)
 			self._upload_files_in_path(box_folder_id, local_folder_path)
 	
-	def upload_from_NAS(self, recording, recording_folder_path):
+	def upload_from_nas(self, recording, data_parent_directory):
 		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[recording.activity_id])
 		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording.id)
 		
-		raw_folder_id = self._fetch_subfolder(recording_folder_id, const.RAW)
-		raw_folder_path = os.path.join(recording_folder_path, const.RAW)
-		self._upload_folders_and_subfolders(raw_folder_id, raw_folder_path,
-		                                    [const.PV, const.DEPTH_AHAT, const.MICROPHONE, const.SPATIAL])
-		
-		synchronized_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNCHRONIZED)
-		sync_folder_path = os.path.join(recording_folder_path, const.SYNCHRONIZED)
-		self._upload_folders_and_subfolders(synchronized_folder_id, sync_folder_path,
-		                                    [const.PV, const.DEPTH_AHAT, const.MICROPHONE, const.SPATIAL])
+		data_recording_directory = os.path.join(data_parent_directory, recording.id)
+		raw_data_directory = os.path.join(data_recording_directory, const.RAW)
+		if os.path.exists(raw_data_directory):
+			raw_folder_id = self._fetch_subfolder(recording_folder_id, const.RAW)
+			self._upload_folders_and_subfolders(
+				raw_folder_id,
+				raw_data_directory,
+				[const.PV, const.DEPTH_AHAT, const.MICROPHONE, const.SPATIAL]
+			)
+		sync_data_directory = os.path.join(data_recording_directory, const.SYNCHRONIZED)
+		if os.path.exists(sync_data_directory):
+			sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNCHRONIZED)
+			self._upload_folders_and_subfolders(
+				sync_folder_id,
+				sync_data_directory,
+				[const.PV, const.DEPTH_AHAT, const.SPATIAL]
+			)
 		
 		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
-		gopro_path = os.path.join(recording_folder_path, const.GOPRO)
-		self._upload_files_in_path(gopro_folder_id, gopro_path)
+		local_gopro_path = os.path.join(data_recording_directory, const.GOPRO)
+		self._upload_files_in_path(gopro_folder_id, local_gopro_path)
 	
 	def upload_go_pro_360_video(self, recording, file_path):
 		logger.info(f'Uploading GoPro 360 video for recording {recording.id}')
