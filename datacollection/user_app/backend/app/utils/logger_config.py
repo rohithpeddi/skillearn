@@ -18,10 +18,12 @@ def setup_logging():
     log_directory = os.path.join(BASE_DIRECTORY, 'logs')
     if not os.path.exists(log_directory):
         os.makedirs(log_directory)
-        
+    
     log_file_path = os.path.join(log_directory, f"std_{timestamp}.log")
-    logging.basicConfig(filename=log_file_path, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.basicConfig(filename=log_file_path, filemode='w',
+                        format='%(asctime)s - %(levelname)s - %(threadName)s - %(message)s')
 
 
 def get_logger(name):
     return logging.getLogger(name)
+

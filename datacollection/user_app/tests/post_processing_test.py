@@ -17,11 +17,11 @@ if __name__ == '__main__':
 		if os.path.isdir(data_recording_directory_path):
 			recording = Recording.from_dict(db_service.fetch_recording(data_recording_directory_name))
 			print("-------------------------------------***************************-------------------------------------")
-			print("=====================================")
-			print(f"Synchronizing {recording.id}")
-			print("=====================================")
-			synchronization_service = SynchronizationServiceV2(data_parent_directory, recording, const.BASE_STREAM, const.SYNCHRONIZATION_STREAMS)
-			synchronization_service.sync_streams()
+			# print("=====================================")
+			# print(f"Synchronizing {recording.id}")
+			# print("=====================================")
+			# synchronization_service = SynchronizationServiceV2(data_parent_directory, recording, const.BASE_STREAM, const.SYNCHRONIZATION_STREAMS)
+			# synchronization_service.sync_streams()
 			
 			print("-------------------------------------")
 			print(f"Uploading {recording.id}")
