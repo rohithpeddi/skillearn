@@ -1,6 +1,7 @@
 import os
 import pickle
 import shutil
+import time
 import zipfile
 from typing import List
 
@@ -59,8 +60,10 @@ def get_ts_to_stream_frame(
 
 def extract_zip_file(zip_file_path, output_directory):
 	print("Extracting zip file: ", zip_file_path)
+	start_time = time.time()
 	with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
 		zip_ref.extractall(output_directory)
+	print("Extracting zip file took: ", time.time() - start_time)
 
 
 def make_video(images_folder, video_name):
@@ -96,8 +99,8 @@ class SynchronizationServiceV2:
 		self.recording_id = self.recording.get_recording_id()
 		self.data_recording_directory = os.path.join(data_parent_directory, self.recording_id)
 		
-		self.raw_data_directory = os.path.join(self.data_recording_directory, const.RAW, self.recording_id)
-		self.sync_data_directory = os.path.join(self.data_recording_directory, const.SYNC, self.recording_id)
+		self.raw_data_directory = os.path.join(self.data_recording_directory, const.RAW)
+		self.sync_data_directory = os.path.join(self.data_recording_directory, const.SYNC)
 		create_directories(self.sync_data_directory)
 		
 		self.raw_hololens_info_file = os.path.join(self.raw_data_directory, const.HOLOLENS_INFO_FILE_NAME)
@@ -220,17 +223,20 @@ class SynchronizationServiceV2:
 		self.meta_yaml_data["device_id"] = self.device_id
 		# 1. Create base stream keys used to synchronize the rest of the data
 		frames_zip_file_path = os.path.join(self.raw_base_stream_directory, const.FRAMES_ZIP)
-		if os.path.exists(frames_zip_file_path):
-			extract_zip_file(frames_zip_file_path, self.raw_base_stream_directory)
-		
 		raw_base_stream_frames_dir = os.path.join(self.raw_base_stream_directory, const.FRAMES)
+		if os.path.exists(frames_zip_file_path) and not os.path.exists(raw_base_stream_frames_dir):
+			extract_zip_file(frames_zip_file_path, raw_base_stream_frames_dir)
+
 		self.ts_to_base_stream_frame = get_ts_to_stream_frame(raw_base_stream_frames_dir, const.JPEG_EXTENSION, -1)
 		self.base_stream_keys = sorted(self.ts_to_base_stream_frame.keys())
 		self.num_of_frames = len(self.base_stream_keys)
 		self.meta_yaml_data["num_of_frames"] = self.num_of_frames
 		
-		sample_base_stream_frame_path = os.path.join(raw_base_stream_frames_dir,
-		                                             os.listdir(raw_base_stream_frames_dir)[0])
+		sample_base_stream_frame_path = os.path.join(
+			raw_base_stream_frames_dir,
+			os.listdir(raw_base_stream_frames_dir)[0]
+		)
+
 		self.pv_width, self.pv_height = self.get_image_characteristics(sample_base_stream_frame_path)
 		self.meta_yaml_data["pv_width"] = self.pv_width
 		self.meta_yaml_data["pv_height"] = self.pv_height
@@ -274,22 +280,20 @@ class SynchronizationServiceV2:
 				sync_depth_pose_file_path = os.path.join(sync_depth_parent_directory, depth_ahat_pkl)
 				
 				raw_depth_data_directory = os.path.join(raw_depth_parent_directory, const.DEPTH)
-				
 				depth_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.DEPTH_ZIP)
-				if os.path.exists(depth_frames_zip_file_path):
+				if os.path.exists(depth_frames_zip_file_path) and not os.path.exists(raw_depth_data_directory):
 					print("Extracting depth frames zip file")
-					extract_zip_file(depth_frames_zip_file_path, raw_depth_parent_directory)
+					extract_zip_file(depth_frames_zip_file_path, raw_depth_data_directory)
 					print("Done extracting depth frames zip file")
 				
 				sync_depth_data_directory = os.path.join(sync_depth_parent_directory, const.DEPTH)
 				create_directories(sync_depth_data_directory)
 				
 				raw_depth_ab_directory = os.path.join(raw_depth_parent_directory, const.AB)
-				
 				ab_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.AB_ZIP)
-				if os.path.exists(depth_frames_zip_file_path):
+				if os.path.exists(depth_frames_zip_file_path) and not os.path.exists(raw_depth_ab_directory):
 					print("Extracting ab frames zip file")
-					extract_zip_file(ab_frames_zip_file_path, raw_depth_parent_directory)
+					extract_zip_file(ab_frames_zip_file_path, raw_depth_ab_directory)
 					print("Done extracting ab frames zip file")
 				
 				sync_depth_ab_directory = os.path.join(sync_depth_parent_directory, const.AB)
@@ -340,11 +344,9 @@ class SynchronizationServiceV2:
 				
 				# 4. Compress all frames into a zip file in both raw and sync directories
 				print("Compressing Depth data")
-				CompressDataService.compress_dir(raw_depth_parent_directory, const.DEPTH)
 				CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
 				print("Done compressing Depth data")
 				print("Compressing Active Brightness data")
-				CompressDataService.compress_dir(raw_depth_parent_directory, const.AB)
 				CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
 				print("Done compressing Active Brightness data")
 				
@@ -394,7 +396,6 @@ class SynchronizationServiceV2:
 				print(f"Done synchronizing {stream_name} data")
 		
 		print("Compressing pv frames directory")
-		CompressDataService.compress_dir(self.raw_base_stream_directory, const.FRAMES)
 		CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
 		print("Done compressing pv frames directory")
 		

@@ -7,7 +7,7 @@ from datacollection.user_app.backend.app.services.synchronization_service import
 from datacollection.user_app.backend.app.utils.constants import Synchronization_Constants as const
 
 if __name__ == '__main__':
-	data_parent_directory = "/home/ptg/CODE/DATA/data_2022_02_11"
+	data_parent_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
 	
 	box_service = BoxService()
 	db_service = FirebaseService()
