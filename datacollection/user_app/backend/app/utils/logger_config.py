@@ -19,9 +19,11 @@ def setup_logging():
     if not os.path.exists(log_directory):
         os.makedirs(log_directory)
     
-    log_file_path = os.path.join(log_directory, f"std_{timestamp}.log")
-    logging.basicConfig(filename=log_file_path, filemode='w',
+    log_file_path = os.path.join(log_directory, f"std.log")
+    logging.basicConfig(filename=log_file_path, filemode='a', level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(threadName)s - %(message)s')
+
+    logging.getLogger('boxsdk').setLevel(logging.CRITICAL)
 
 
 def get_logger(name):

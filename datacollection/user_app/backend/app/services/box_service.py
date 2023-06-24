@@ -92,30 +92,31 @@ class BoxService:
 	
 	def _upload_files_in_path(self, box_folder_id, folder_path, recording_id):
 		box_folder = self.client.folder(folder_id=box_folder_id)
-		box_files = {item for item in box_folder.get_items(item_type='file')}
+		box_files = {item for item in box_folder.get_items(limit=1000)}
 		for file_name in os.listdir(folder_path):
 			if not file_name.endswith(".zip") \
 					and not file_name.endswith(".pkl") \
 					and not file_name.endswith(".MP4") \
 					and not file_name.endswith(".mp4"):
-				logger.info(f"[{recording_id}] Skipping file: ", file_name)
+				logger.info(f"[{recording_id}] Skipping file: {file_name}")
 				continue
 			is_item_present = False
 			local_file_size = os.path.getsize(os.path.join(folder_path, file_name))
 			for box_item in box_files:
 				if file_name == box_item.name:
-					if local_file_size == box_item.size:
+					box_file_size = box_item.get().size
+					if local_file_size == box_file_size:
 						is_item_present = True
-						logger.info(f"[{recording_id}] File already present: ", file_name)
+						logger.info(f"[{recording_id}] File already present: {file_name}")
 					else:
-						logger.info(f"[{recording_id}] Deleting file as the file size does not match: ", file_name)
+						logger.info(f"[{recording_id}] Deleting file as the file size does not match: {file_name}")
 						box_item.delete()
 						is_item_present = False
 			if not is_item_present:
 				file_path = os.path.join(folder_path, file_name)
-				logger.info(f"[{recording_id}] Uploading file: ", file_name)
+				logger.info(f"[{recording_id}] Uploading file: {file_name}")
 				box_folder.upload(file_path)
-				logger.info(f"[{recording_id}] Uploaded file: ", file_name)
+				logger.info(f"[{recording_id}] Uploaded file: {file_name}")
 	
 	def _upload_folders_and_subfolders(self, parent_box_folder_id, parent_local_folder, folders, recording_id):
 		for folder in folders:
@@ -135,7 +136,7 @@ class BoxService:
 			self._upload_folders_and_subfolders(
 				raw_folder_id,
 				raw_data_directory,
-				[const.PV, const.DEPTH_AHAT, const.MICROPHONE, const.SPATIAL],
+				[const.PV, const.DEPTH_AHAT, const.MICROPHONE, const.SPATIAL, const.IMU],
 				recording_id
 			)
 			logger.info(f"[{recording_id}] Raw data uploaded")
@@ -153,7 +154,7 @@ class BoxService:
 		logger.info(f"[{recording_id}] Uploading gopro data")
 		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
 		local_gopro_path = os.path.join(data_recording_directory, const.GOPRO)
-		self._upload_files_in_path(gopro_folder_id, local_gopro_path)
+		self._upload_files_in_path(gopro_folder_id, local_gopro_path, recording_id)
 		logger.info(f"[{recording_id}] Gopro data uploaded")
 	
 	def upload_go_pro_360_video(self, recording, file_path):
