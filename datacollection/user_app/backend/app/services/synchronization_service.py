@@ -161,9 +161,6 @@ class SynchronizationServiceV2:
 	def is_synchronizable(self):
 		if not os.path.exists(self.raw_base_stream_directory):
 			return False
-		for stream in self.synchronize_streams:
-			if not os.path.exists(os.path.join(self.raw_data_directory, stream)):
-				return False
 		return True
 	
 	def _get_device_id(self):
@@ -269,7 +266,7 @@ class SynchronizationServiceV2:
 		# 1. Create base stream keys used to synchronize the rest of the data
 		frames_zip_file_path = os.path.join(self.raw_base_stream_directory, const.FRAMES_ZIP)
 		raw_base_stream_frames_dir = os.path.join(self.raw_base_stream_directory, const.FRAMES)
-		if os.path.exists(frames_zip_file_path) and not os.path.exists(raw_base_stream_frames_dir):
+		if os.path.exists(frames_zip_file_path):
 			extract_zip_file(frames_zip_file_path, raw_base_stream_frames_dir, self.recording_id)
 		
 		self.ts_to_base_stream_frame = get_ts_to_stream_frame(raw_base_stream_frames_dir, const.JPEG_EXTENSION, -1)

@@ -29,7 +29,7 @@ def extract_zip_file(zip_file_path, output_directory, recording_id):
 
 def make_video(images_folder, video_name, recording_id):
 	images = [img for img in os.listdir(images_folder) if img.endswith(".jpg")]
-	images = sorted(images, key=lambda x: int((x[:-4].split("-"))[-1]))
+	images = sorted(images, key=lambda x: int((x[:-4].split("_"))[-1]))
 	
 	frame = cv2.imread(os.path.join(images_folder, images[0]))
 	height, width, layers = frame.shape
@@ -58,6 +58,10 @@ def unzip_recording_data(recording: Recording, data_parent_directory: str):
 	
 	raw_data_directory = os.path.join(data_recording_directory, const.RAW)
 	sync_data_directory = os.path.join(data_recording_directory, const.SYNC)
+
+	if not os.path.exists(raw_data_directory):
+		logger.info(f"[{recording_id}] Raw data directory does not exist, no unzipping required")
+		return
 	
 	raw_base_stream_directory = os.path.join(raw_data_directory, const.PHOTOVIDEO)
 	sync_base_stream_directory = os.path.join(sync_data_directory, const.PHOTOVIDEO)
@@ -100,7 +104,7 @@ def unzip_recording_data(recording: Recording, data_parent_directory: str):
 	logger.info(f"[{recording_id}] Finished unzipping recording data")
 
 
-def multithreading_unzip(recordings, data_parent_directory, max_workers=1):
+def multithreading_unzip(recordings, data_parent_directory, max_workers=10):
 	with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
 		futures = {
 			executor.submit(unzip_recording_data, recording, data_parent_directory): recording
