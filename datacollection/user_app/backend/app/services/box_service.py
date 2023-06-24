@@ -143,14 +143,14 @@ class BoxService:
 
 		sync_data_directory = os.path.join(data_recording_directory, const.SYNCHRONIZED)
 		if os.path.exists(sync_data_directory):
-			logger.info("Uploading synchronized data")
+			logger.info(f"[{recording_id}] Uploading synchronized data")
 			sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNCHRONIZED)
 			self._upload_folders_and_subfolders(
 				sync_folder_id,
 				sync_data_directory,
 				[const.PV, const.DEPTH_AHAT, const.SPATIAL, const.IMU]
 			)
-			logger.info("Synchronized data uploaded")
+			logger.info(f"[{recording_id}] Synchronized data uploaded")
 		
 		logger.info(f"[{recording_id}] Uploading gopro data")
 		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)

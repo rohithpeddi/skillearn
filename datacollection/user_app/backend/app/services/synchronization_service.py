@@ -11,6 +11,9 @@ from ..hololens import hl2ss
 from ..models.recording import Recording
 from ..post_processing.compress_data_service import CompressDataService
 from ..utils.constants import Synchronization_Constants as const
+from ..utils.logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 def create_directories(dir_path):
@@ -58,15 +61,17 @@ def get_ts_to_stream_frame(
 	return ts_to_stream_frame
 
 
-def extract_zip_file(zip_file_path, output_directory):
-	print("Extracting zip file: ", zip_file_path)
+def extract_zip_file(zip_file_path, output_directory, recording_id):
+	logger.info(f"[{recording_id}] Extracting zip file: {zip_file_path}")
 	start_time = time.time()
 	with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
 		zip_ref.extractall(output_directory)
-	print("Extracting zip file took: ", time.time() - start_time)
+	extraction_time = time.time() - start_time
+	extraction_time_readable = time.strftime("%H:%M:%S", time.gmtime(extraction_time))
+	logger.info(f"[{recording_id}] Extracting zip file took: {extraction_time_readable}")
 
 
-def make_video(images_folder, video_name):
+def make_video(images_folder, video_name, recording_id):
 	images = [img for img in os.listdir(images_folder) if img.endswith(".jpg")]
 	images = sorted(images, key=lambda x: int((x[:-4].split("-"))[-1]))
 	
@@ -77,11 +82,16 @@ def make_video(images_folder, video_name):
 	# video = cv2.VideoWriter(video_name, 0, 30, (width, height))
 	video = cv2.VideoWriter(video_name, fourcc, 30, (width, height))
 	
+	start_time = time.time()
 	for image in images:
 		video.write(cv2.imread(os.path.join(images_folder, image)))
 	
 	cv2.destroyAllWindows()
 	video.release()
+	
+	video_creation_time = time.time() - start_time
+	video_creation_time_readable = time.strftime("%H:%M:%S", time.gmtime(video_creation_time))
+	logger.info(f"[{recording_id}] Video creation took: {video_creation_time_readable}")
 
 
 class SynchronizationServiceV2:
@@ -160,10 +170,13 @@ class SynchronizationServiceV2:
 		
 		# 2. Use the base_stream_keys and loaded pickle file data to synchronize them
 		synced_ts_to_stream_payload = {}
-		for base_stream_key in self.base_stream_keys:
+		for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
+			if base_stream_key not in base_ts_to_stream_ts or base_ts_to_stream_ts[base_stream_key] is None:
+				logger.info(f"[{self.recording_id}] Skipping pkl frame %s" % base_stream_key)
+				continue
 			stream_ts = base_ts_to_stream_ts[base_stream_key]
 			stream_payload = ts_to_stream_payload[stream_ts]
-			synced_ts_to_stream_payload[base_stream_key] = (stream_ts, stream_payload)
+			synced_ts_to_stream_payload[base_stream_counter] = (stream_ts, stream_payload)
 		write_pickle_data(synced_ts_to_stream_payload, sync_stream_output_directory)
 	
 	def create_sync_stream_frames(
@@ -176,6 +189,9 @@ class SynchronizationServiceV2:
 	):
 		ts_to_stream_frame = get_ts_to_stream_frame(stream_directory, stream_extension)
 		for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
+			if base_stream_key not in base_ts_to_stream_ts or base_ts_to_stream_ts[base_stream_key] is None:
+				logger.info(f"[{self.recording_id}] Skipping frame %s" % base_stream_key)
+				continue
 			stream_ts = base_ts_to_stream_ts[base_stream_key]
 			shutil.copy(
 				os.path.join(stream_directory, ts_to_stream_frame[stream_ts]),
@@ -207,11 +223,13 @@ class SynchronizationServiceV2:
 			
 			stream_ts_idx -= 1
 			stream_ts = stream_keys[stream_ts_idx]
-			print("Base Stream Key: %d, Stream Timestamp: %d" % (base_stream_key, stream_ts))
+			logger.info(
+				f"[{self.recording_id}] Base Stream Key: %d, Stream Timestamp: %d" % (base_stream_key, stream_ts))
 			base_idx_to_stream_idx[base_stream_counter] = stream_ts_idx
 			
 			if abs(base_stream_key - stream_ts) > 1e8:
-				print("Difference between base stream key and stream timestamp is greater than 1 second")
+				logger.info(
+					f"[{self.recording_id}] Difference between base stream key and stream timestamp is greater than 1 second")
 				base_ts_to_stream_ts[base_stream_key] = None
 			else:
 				base_ts_to_stream_ts[base_stream_key] = stream_ts
@@ -219,14 +237,18 @@ class SynchronizationServiceV2:
 		return base_ts_to_stream_ts
 	
 	def sync_streams(self):
+		if not self.is_synchronizable():
+			logger.info(f"[{self.recording_id}] Cannot synchronize streams")
+			return
+		
 		# meta.yaml file data
 		self.meta_yaml_data["device_id"] = self.device_id
 		# 1. Create base stream keys used to synchronize the rest of the data
 		frames_zip_file_path = os.path.join(self.raw_base_stream_directory, const.FRAMES_ZIP)
 		raw_base_stream_frames_dir = os.path.join(self.raw_base_stream_directory, const.FRAMES)
 		if os.path.exists(frames_zip_file_path) and not os.path.exists(raw_base_stream_frames_dir):
-			extract_zip_file(frames_zip_file_path, raw_base_stream_frames_dir)
-
+			extract_zip_file(frames_zip_file_path, raw_base_stream_frames_dir, self.recording_id)
+		
 		self.ts_to_base_stream_frame = get_ts_to_stream_frame(raw_base_stream_frames_dir, const.JPEG_EXTENSION, -1)
 		self.base_stream_keys = sorted(self.ts_to_base_stream_frame.keys())
 		self.num_of_frames = len(self.base_stream_keys)
@@ -236,7 +258,7 @@ class SynchronizationServiceV2:
 			raw_base_stream_frames_dir,
 			os.listdir(raw_base_stream_frames_dir)[0]
 		)
-
+		
 		self.pv_width, self.pv_height = self.get_image_characteristics(sample_base_stream_frame_path)
 		self.meta_yaml_data["pv_width"] = self.pv_width
 		self.meta_yaml_data["pv_height"] = self.pv_height
@@ -245,29 +267,29 @@ class SynchronizationServiceV2:
 		create_directories(sync_base_stream_frames_dir)
 		
 		# 2. Copy base stream frames into the sync output folder
-		print("Copying base stream frames into the sync output folder")
+		logger.info(f"[{self.recording_id}] Copying base stream frames into the sync output folder")
 		for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
 			src_file = os.path.join(raw_base_stream_frames_dir, self.ts_to_base_stream_frame[base_stream_key])
 			dest_file = os.path.join(sync_base_stream_frames_dir, self.pv_stream_suffix % base_stream_counter)
 			shutil.copy(src_file, dest_file)
-		print("Done copying base stream frames into the sync output folder")
+		logger.info(f"[{self.recording_id}] Done copying base stream frames into the sync output folder")
 		
 		# Synchronize PV Pose
 		pv_pose_pkl = f'{self.recording.id}_pv_pose.pkl'
 		pv_pose_file_path = os.path.join(self.raw_base_stream_directory, pv_pose_pkl)
 		sync_pv_pose_file_path = os.path.join(self.sync_base_stream_directory, pv_pose_pkl)
 		
-		print("Copying PV Pose into the sync output folder")
+		logger.info(f"[{self.recording_id}] Copying PV Pose into the sync output folder")
 		shutil.copy(pv_pose_file_path, sync_pv_pose_file_path)
-		print("Done copying PV Pose into the sync output folder")
+		logger.info(f"[{self.recording_id}] Done copying PV Pose into the sync output folder")
 		
 		recording_base_stream_mp4_file_path = os.path.join(self.sync_base_stream_directory, f"{self.recording.id}.mp4")
 		if not os.path.exists(recording_base_stream_mp4_file_path):
-			print("Recording base stream mp4 file does not exist")
-			print("Creating recording base stream mp4 file")
-			make_video(raw_base_stream_frames_dir, recording_base_stream_mp4_file_path)
-			print("Done creating recording base stream mp4 file")
-			
+			logger.info(f"[{self.recording_id}] Recording base stream mp4 file does not exist")
+			logger.info(f"[{self.recording_id}] Creating recording base stream mp4 file")
+			make_video(raw_base_stream_frames_dir, recording_base_stream_mp4_file_path, self.recording_id)
+			logger.info(f"[{self.recording_id}] Done creating recording base stream mp4 file")
+		
 		for stream_name in self.synchronize_streams:
 			if stream_name == const.DEPTH_AHAT:
 				# Files and directories
@@ -282,9 +304,9 @@ class SynchronizationServiceV2:
 				raw_depth_data_directory = os.path.join(raw_depth_parent_directory, const.DEPTH)
 				depth_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.DEPTH_ZIP)
 				if os.path.exists(depth_frames_zip_file_path) and not os.path.exists(raw_depth_data_directory):
-					print("Extracting depth frames zip file")
-					extract_zip_file(depth_frames_zip_file_path, raw_depth_data_directory)
-					print("Done extracting depth frames zip file")
+					logger.info(f"[{self.recording_id}] Extracting depth frames zip file")
+					extract_zip_file(depth_frames_zip_file_path, raw_depth_data_directory, self.recording_id)
+					logger.info(f"[{self.recording_id}] Done extracting depth frames zip file")
 				
 				sync_depth_data_directory = os.path.join(sync_depth_parent_directory, const.DEPTH)
 				create_directories(sync_depth_data_directory)
@@ -292,9 +314,9 @@ class SynchronizationServiceV2:
 				raw_depth_ab_directory = os.path.join(raw_depth_parent_directory, const.AB)
 				ab_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.AB_ZIP)
 				if os.path.exists(depth_frames_zip_file_path) and not os.path.exists(raw_depth_ab_directory):
-					print("Extracting ab frames zip file")
-					extract_zip_file(ab_frames_zip_file_path, raw_depth_ab_directory)
-					print("Done extracting ab frames zip file")
+					logger.info(f"[{self.recording_id}] Extracting ab frames zip file")
+					extract_zip_file(ab_frames_zip_file_path, raw_depth_ab_directory, self.recording_id)
+					logger.info(f"[{self.recording_id}] Done extracting ab frames zip file")
 				
 				sync_depth_ab_directory = os.path.join(sync_depth_parent_directory, const.AB)
 				create_directories(sync_depth_ab_directory)
@@ -306,16 +328,16 @@ class SynchronizationServiceV2:
 				)
 				
 				# 1. Synchronize Pose
-				print("Synchronizing Depth Pose data")
+				logger.info(f"[{self.recording_id}] Synchronizing Depth Pose data")
 				self.create_sync_stream_pkl_data(
 					raw_depth_pose_file_path,
 					sync_depth_pose_file_path,
 					base_ts_to_stream_ts
 				)
-				print("Done synchronizing Depth Pose data")
+				logger.info(f"[{self.recording_id}] Done synchronizing Depth Pose data")
 				
 				# 2. Synchronize Depth data
-				print("Synchronizing Depth data")
+				logger.info(f"[{self.recording_id}] Synchronizing Depth data")
 				self.create_sync_stream_frames(
 					raw_depth_data_directory,
 					const.PNG_EXTENSION,
@@ -323,10 +345,10 @@ class SynchronizationServiceV2:
 					self.depth_stream_suffix,
 					base_ts_to_stream_ts
 				)
-				print("Done synchronizing Depth data")
+				logger.info(f"[{self.recording_id}] Done synchronizing Depth data")
 				
 				# 3. Synchronize Active Brightness data
-				print("Synchronizing Active Brightness data")
+				logger.info(f"[{self.recording_id}] Synchronizing Active Brightness data")
 				self.create_sync_stream_frames(
 					raw_depth_ab_directory,
 					const.PNG_EXTENSION,
@@ -334,7 +356,7 @@ class SynchronizationServiceV2:
 					self.ab_stream_suffix,
 					base_ts_to_stream_ts
 				)
-				print("Done synchronizing Active Brightness data")
+				logger.info(f"[{self.recording_id}] Done synchronizing Active Brightness data")
 				
 				sample_depth_frame = os.path.join(raw_depth_data_directory, os.listdir(raw_depth_data_directory)[0])
 				self.depth_width, self.depth_height = self.get_image_characteristics(sample_depth_frame)
@@ -343,22 +365,22 @@ class SynchronizationServiceV2:
 				self.meta_yaml_data["depth_height"] = self.depth_height
 				
 				# 4. Compress all frames into a zip file in both raw and sync directories
-				print("Compressing Depth data")
+				logger.info(f"[{self.recording_id}] Compressing Depth data")
 				CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
-				print("Done compressing Depth data")
-				print("Compressing Active Brightness data")
+				logger.info(f"[{self.recording_id}] Done compressing Depth data")
+				logger.info(f"[{self.recording_id}] Compressing Active Brightness data")
 				CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
-				print("Done compressing Active Brightness data")
-				
-				# # 5. Delete raw frames directory
-				# print("Deleting frames directory")
-				# CompressDataService.delete_dir(raw_depth_data_directory)
-				# CompressDataService.delete_dir(sync_depth_data_directory)
-				# print("Done deleting raw frames directory")
-				# print("Deleting ab directory")
-				# CompressDataService.delete_dir(raw_depth_ab_directory)
-				# CompressDataService.delete_dir(sync_depth_ab_directory)
-				# print("Done deleting ab directory")
+				logger.info(f"[{self.recording_id}] Done compressing Active Brightness data")
+			
+			# # 5. Delete raw frames directory
+			# logger.info("Deleting frames directory")
+			# CompressDataService.delete_dir(raw_depth_data_directory)
+			# CompressDataService.delete_dir(sync_depth_data_directory)
+			# logger.info("Done deleting raw frames directory")
+			# logger.info("Deleting ab directory")
+			# CompressDataService.delete_dir(raw_depth_ab_directory)
+			# CompressDataService.delete_dir(sync_depth_ab_directory)
+			# logger.info("Done deleting ab directory")
 			elif stream_name == const.SPATIAL:
 				# 1. Synchronize spatial data
 				spatial_directory = os.path.join(self.raw_data_directory, const.SPATIAL)
@@ -374,9 +396,9 @@ class SynchronizationServiceV2:
 					[spatial_file_path]
 				)
 				
-				print("Synchronizing Spatial data")
+				logger.info(f"[{self.recording_id}] Synchronizing Spatial data")
 				self.create_sync_stream_pkl_data(spatial_file_path, sync_spatial_file_path, base_ts_to_stream_ts)
-				print("Done synchronizing Spatial data")
+				logger.info(f"[{self.recording_id}] Done synchronizing Spatial data")
 			elif stream_name in const.IMU_LIST:
 				imu_directory = os.path.join(self.raw_data_directory, const.IMU)
 				sync_imu_directory = os.path.join(self.sync_data_directory, const.IMU)
@@ -391,19 +413,19 @@ class SynchronizationServiceV2:
 					[imu_file_path]
 				)
 				
-				print(f"Synchronizing {stream_name} data")
+				logger.info(f"[{self.recording_id}] Synchronizing {stream_name} data")
 				self.create_sync_stream_pkl_data(imu_file_path, sync_imu_file_path, base_ts_to_stream_ts)
-				print(f"Done synchronizing {stream_name} data")
+				logger.info(f"[{self.recording_id}] Done synchronizing {stream_name} data")
 		
-		print("Compressing pv frames directory")
+		logger.info(f"[{self.recording_id}] Compressing pv frames directory")
 		CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
-		print("Done compressing pv frames directory")
+		logger.info(f"[{self.recording_id}] Done compressing pv frames directory")
 		
 		# # Delete raw frames directory
-		# print("Deleting pv frames directory")
+		# logger.info("Deleting pv frames directory")
 		# CompressDataService.delete_dir(raw_base_stream_frames_dir)
 		# CompressDataService.delete_dir(sync_base_stream_frames_dir)
-		# print("Done deleting pv frames directory")
+		# logger.info("Done deleting pv frames directory")
 		
 		with open(os.path.join(self.sync_data_directory, "meta.yaml"), "w") as meta_yaml_file:
 			for key, value in self.meta_yaml_data.items():
