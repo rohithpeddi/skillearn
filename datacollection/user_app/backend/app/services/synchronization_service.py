@@ -61,7 +61,30 @@ def get_ts_to_stream_frame(
 	return ts_to_stream_frame
 
 
+def is_zip_extracted(zip_file_path, extract_dir):
+	with zipfile.ZipFile(zip_file_path, 'r') as zip_file:
+		# Get the list of files in the ZIP archive
+		zip_file_list = zip_file.namelist()
+	
+	# Get the list of files in the extraction directory
+	extracted_files = []
+	for root, dirs, files in os.walk(extract_dir):
+		for file in files:
+			extracted_files.append(os.path.join(root, file))
+	
+	# Compare the lists and check if they are the same
+	return sorted(zip_file_list) == sorted(extracted_files)
+
+
 def extract_zip_file(zip_file_path, output_directory, recording_id):
+	if is_zip_extracted(zip_file_path, output_directory):
+		logger.info(f"[{recording_id}] Zip file already extracted")
+		return
+	
+	if os.path.exists(output_directory):
+		logger.info(f"[{recording_id}] Deleting existing directory: {output_directory} as the zip file is not extracted properly")
+		shutil.rmtree(output_directory)
+	
 	logger.info(f"[{recording_id}] Extracting zip file: {zip_file_path}")
 	start_time = time.time()
 	with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
