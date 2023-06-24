@@ -130,26 +130,27 @@ class BoxService:
 		recording_id = recording.id
 		data_recording_directory = os.path.join(data_parent_directory, recording.id)
 		raw_data_directory = os.path.join(data_recording_directory, const.RAW)
-		if os.path.exists(raw_data_directory):
-			logger.info(f"[{recording_id}] Uploading raw data")
-			raw_folder_id = self._fetch_subfolder(recording_folder_id, const.RAW)
-			self._upload_folders_and_subfolders(
-				raw_folder_id,
-				raw_data_directory,
-				[const.PV, const.DEPTH_AHAT, const.MICROPHONE, const.SPATIAL, const.IMU],
-				recording_id
-			)
-			logger.info(f"[{recording_id}] Raw data uploaded")
-		# sync_data_directory = os.path.join(data_recording_directory, const.SYNCHRONIZED)
-		# if os.path.exists(sync_data_directory):
-		# 	logger.info("Uploading synchronized data")
-		# 	sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNCHRONIZED)
+		# if os.path.exists(raw_data_directory):
+		# 	logger.info(f"[{recording_id}] Uploading raw data")
+		# 	raw_folder_id = self._fetch_subfolder(recording_folder_id, const.RAW)
 		# 	self._upload_folders_and_subfolders(
-		# 		sync_folder_id,
-		# 		sync_data_directory,
-		# 		[const.PV, const.DEPTH_AHAT, const.SPATIAL]
+		# 		raw_folder_id,
+		# 		raw_data_directory,
+		# 		[const.PV, const.DEPTH_AHAT, const.MICROPHONE, const.SPATIAL, const.IMU],
+		# 		recording_id
 		# 	)
-		# 	logger.info("Synchronized data uploaded")
+		# 	logger.info(f"[{recording_id}] Raw data uploaded")
+
+		sync_data_directory = os.path.join(data_recording_directory, const.SYNCHRONIZED)
+		if os.path.exists(sync_data_directory):
+			logger.info("Uploading synchronized data")
+			sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNCHRONIZED)
+			self._upload_folders_and_subfolders(
+				sync_folder_id,
+				sync_data_directory,
+				[const.PV, const.DEPTH_AHAT, const.SPATIAL, const.IMU]
+			)
+			logger.info("Synchronized data uploaded")
 		
 		logger.info(f"[{recording_id}] Uploading gopro data")
 		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)

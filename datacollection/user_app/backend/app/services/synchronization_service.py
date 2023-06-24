@@ -261,7 +261,7 @@ class SynchronizationServiceV2:
 		shutil.copy(pv_pose_file_path, sync_pv_pose_file_path)
 		print("Done copying PV Pose into the sync output folder")
 		
-		recording_base_stream_mp4_file_path = os.path.join(self.raw_base_stream_directory, f"{self.recording.id}.mp4")
+		recording_base_stream_mp4_file_path = os.path.join(self.sync_base_stream_directory, f"{self.recording.id}.mp4")
 		if not os.path.exists(recording_base_stream_mp4_file_path):
 			print("Recording base stream mp4 file does not exist")
 			print("Creating recording base stream mp4 file")
@@ -350,15 +350,15 @@ class SynchronizationServiceV2:
 				CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
 				print("Done compressing Active Brightness data")
 				
-				# 5. Delete raw frames directory
-				print("Deleting frames directory")
-				CompressDataService.delete_dir(raw_depth_data_directory)
-				CompressDataService.delete_dir(sync_depth_data_directory)
-				print("Done deleting raw frames directory")
-				print("Deleting ab directory")
-				CompressDataService.delete_dir(raw_depth_ab_directory)
-				CompressDataService.delete_dir(sync_depth_ab_directory)
-				print("Done deleting ab directory")
+				# # 5. Delete raw frames directory
+				# print("Deleting frames directory")
+				# CompressDataService.delete_dir(raw_depth_data_directory)
+				# CompressDataService.delete_dir(sync_depth_data_directory)
+				# print("Done deleting raw frames directory")
+				# print("Deleting ab directory")
+				# CompressDataService.delete_dir(raw_depth_ab_directory)
+				# CompressDataService.delete_dir(sync_depth_ab_directory)
+				# print("Done deleting ab directory")
 			elif stream_name == const.SPATIAL:
 				# 1. Synchronize spatial data
 				spatial_directory = os.path.join(self.raw_data_directory, const.SPATIAL)
@@ -399,11 +399,11 @@ class SynchronizationServiceV2:
 		CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
 		print("Done compressing pv frames directory")
 		
-		# Delete raw frames directory
-		print("Deleting pv frames directory")
-		CompressDataService.delete_dir(raw_base_stream_frames_dir)
-		CompressDataService.delete_dir(sync_base_stream_frames_dir)
-		print("Done deleting pv frames directory")
+		# # Delete raw frames directory
+		# print("Deleting pv frames directory")
+		# CompressDataService.delete_dir(raw_base_stream_frames_dir)
+		# CompressDataService.delete_dir(sync_base_stream_frames_dir)
+		# print("Done deleting pv frames directory")
 		
 		with open(os.path.join(self.sync_data_directory, "meta.yaml"), "w") as meta_yaml_file:
 			for key, value in self.meta_yaml_data.items():

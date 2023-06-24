@@ -8,7 +8,7 @@ import cv2
 
 from datacollection.user_app.backend.app.hololens import hl2ss
 
-logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='raw_upload.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Started Audio Video Muxing Service')
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)

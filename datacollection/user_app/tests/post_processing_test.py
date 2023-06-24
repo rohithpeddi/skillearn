@@ -23,21 +23,21 @@ if __name__ == '__main__':
 		if os.path.isdir(data_recording_directory_path):
 			recording = Recording.from_dict(db_service.fetch_recording(data_recording_directory_name))
 			recording_list.append(recording)
-			# logger.info("-------------------------------------***************************-------------------------------------")
-			# # print("=====================================")
-			# # print(f"Synchronizing {recording.id}")
-			# # print("=====================================")
-			# # synchronization_service = SynchronizationServiceV2(data_parent_directory, recording, const.BASE_STREAM, const.SYNCHRONIZATION_STREAMS)
-			# # synchronization_service.sync_streams()
-			#
-			# logger.info("-------------------------------------")
-			# logger.info(f"Uploading {recording.id}")
-			# logger.info("-------------------------------------")
-			# box_service.upload_from_nas(recording, data_parent_directory)
+			logger.info("-------------------------------------***************************-------------------------------------")
+			print("=====================================")
+			print(f"Synchronizing {recording.id}")
+			print("=====================================")
+			synchronization_service = SynchronizationServiceV2(data_parent_directory, recording, const.BASE_STREAM, const.SYNCHRONIZATION_STREAMS)
+			synchronization_service.sync_streams()
 
-	logger.info("Uploading recordings to BOX")
-	recording_list.sort(key=lambda x: x.id)
-	box_service.upload_in_threads(recording_list, data_parent_directory)
+			logger.info("-------------------------------------")
+			logger.info(f"Uploading {recording.id}")
+			logger.info("-------------------------------------")
+			box_service.upload_from_nas(recording, data_parent_directory)
+
+	# logger.info("Uploading recordings to BOX")
+	# recording_list.sort(key=lambda x: x.id)
+	# box_service.upload_in_threads(recording_list, data_parent_directory)
 			
 		
 		

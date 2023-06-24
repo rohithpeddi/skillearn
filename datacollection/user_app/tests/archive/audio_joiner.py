@@ -15,7 +15,7 @@ import pyaudio
 from datacollection.backend.Recording import Recording
 from datacollection.backend.constants import *
 
-logging.basicConfig(filename='std.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='raw_upload.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 logging.warning('Started Audio Video Muxing Service')
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
