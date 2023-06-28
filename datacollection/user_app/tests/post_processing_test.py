@@ -41,11 +41,11 @@ def begin_post_processing():
     db_service = FirebaseService()
     box_service = BoxService()
     max_workers = 1
-
+    data_recording_directories = os.listdir(data_parent_directory)
     logger.info("Preparing to synchronize using ThreadPoolExecutor with max_workers = 1")
     # Create a ThreadPoolExecutor with a suitable number of threads (e.g., 4)
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        for data_recording_directory_name in os.listdir(data_parent_directory):
+        for data_recording_directory_name in [data_recording_directories[0]]:
             executor.submit(
                 process_directory,
                 data_parent_directory,
@@ -69,5 +69,5 @@ def begin_unzipping():
 
 
 if __name__ == '__main__':
-    # begin_post_processing()
-    begin_unzipping()
+    begin_post_processing()
+    # begin_unzipping()
