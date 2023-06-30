@@ -244,8 +244,7 @@ class SynchronizationServiceV2:
         ts_to_stream_frame_pkl = self.get_ts_pkl_frame_map(pkl_file_path)
         return ts_to_stream_frame_pkl.keys()
 
-    def create_base_ts_to_stream_ts_map(self, get_stream_keys_fn, params):
-        stream_keys = sorted(get_stream_keys_fn(**params))
+    def create_base_ts_to_stream_ts_map(self, stream_keys):
         base_ts_to_stream_ts = {}
         base_idx_to_stream_idx = {}
 
@@ -359,10 +358,8 @@ class SynchronizationServiceV2:
                 sync_depth_ab_directory = os.path.join(sync_depth_parent_directory, const.AB)
 
                 # 0. Create base stream timestamp - synchronize stream timestamp mapping
-                base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(
-                    self.get_stream_keys_from_dir,
-                    [raw_depth_data_directory, const.PNG_EXTENSION, -1]
-                )
+                stream_keys = self.get_stream_keys_from_dir(raw_depth_data_directory, const.PNG_EXTENSION, -1)
+                base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
 
                 if not os.path.exists(sync_depth_pose_file_path):
                     # 1. Synchronize Pose
@@ -432,11 +429,9 @@ class SynchronizationServiceV2:
                 spatial_data_file = f'{self.recording.id}_spatial.pkl'
                 spatial_file_path = os.path.join(spatial_directory, spatial_data_file)
                 sync_spatial_file_path = os.path.join(sync_spatial_directory, spatial_data_file)
-
-                base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(
-                    self.get_stream_keys_from_pkl,
-                    [spatial_file_path]
-                )
+                
+                stream_keys = self.get_stream_keys_from_pkl(spatial_file_path)
+                base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
 
                 logger.info(f"[{self.recording_id}] Synchronizing Spatial data")
                 self.create_sync_stream_pkl_data(spatial_file_path, sync_spatial_file_path, base_ts_to_stream_ts)
@@ -449,11 +444,9 @@ class SynchronizationServiceV2:
                 imu_data_file = f'{self.recording.id}_{stream_name}.pkl'
                 imu_file_path = os.path.join(imu_directory, imu_data_file)
                 sync_imu_file_path = os.path.join(sync_imu_directory, imu_data_file)
-
-                base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(
-                    self.get_stream_keys_from_pkl,
-                    [imu_file_path]
-                )
+                
+                stream_keys = self.get_stream_keys_from_pkl(imu_file_path)
+                base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
 
                 logger.info(f"[{self.recording_id}] Synchronizing {stream_name} data")
                 self.create_sync_stream_pkl_data(imu_file_path, sync_imu_file_path, base_ts_to_stream_ts)
