@@ -360,6 +360,10 @@ class SynchronizationServiceV2:
                 # 0. Create base stream timestamp - synchronize stream timestamp mapping
                 stream_keys = self.get_stream_keys_from_dir(raw_depth_data_directory, const.PNG_EXTENSION, -1)
                 base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
+                
+                if os.path.exists(sync_depth_pose_file_path):
+                    logger.info(f"[{self.recording_id}] Synchronized Depth Pose data already exists")
+                    shutil.rmtree(sync_depth_pose_file_path)
 
                 if not os.path.exists(sync_depth_pose_file_path):
                     # 1. Synchronize Pose
@@ -432,6 +436,10 @@ class SynchronizationServiceV2:
                 
                 stream_keys = self.get_stream_keys_from_pkl(spatial_file_path)
                 base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
+                
+                if os.path.exists(spatial_file_path):
+                    logger.info(f"[{self.recording_id}] Synchronized Spatial data already exists")
+                    shutil.rmtree(spatial_file_path)
 
                 if not os.path.exists(sync_spatial_file_path):
                     logger.info(f"[{self.recording_id}] Synchronizing Spatial data")
@@ -448,6 +456,10 @@ class SynchronizationServiceV2:
                 
                 stream_keys = self.get_stream_keys_from_pkl(imu_file_path)
                 base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
+                
+                if os.path.exists(imu_file_path):
+                    logger.info(f"[{self.recording_id}] Synchronized {stream_name} data already exists")
+                    shutil.rmtree(imu_file_path)
 
                 if not os.path.exists(sync_imu_file_path):
                     logger.info(f"[{self.recording_id}] Synchronizing {stream_name} data")
