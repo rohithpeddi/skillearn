@@ -17,9 +17,7 @@ def process_directory(data_parent_directory, data_recording_directory_name, db_s
     data_recording_directory_path = os.path.join(data_parent_directory, data_recording_directory_name)
     if os.path.isdir(data_recording_directory_path):
         recording = Recording.from_dict(db_service.fetch_recording(data_recording_directory_name))
-        logger.info("=====================================")
-        logger.info(f"Synchronizing {recording.id}")
-        logger.info("=====================================")
+        logger.info(f"[{recording.id}] BEGIN SYNCHRONIZATION")
         synchronization_service = SynchronizationServiceV2(
             data_parent_directory,
             recording,
@@ -34,13 +32,15 @@ def process_directory(data_parent_directory, data_recording_directory_name, db_s
         # logger.info("-------------------------------------")
         # box_service.upload_from_nas(recording, data_parent_directory)
 
+        logger.info(f"[{recording.id}] END SYNCHRONIZATION")
+
 
 def begin_post_processing():
     data_parent_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
 
     db_service = FirebaseService()
     box_service = BoxService()
-    max_workers = 1
+    max_workers = 10
     data_recording_directories = os.listdir(data_parent_directory)
     logger.info("Preparing to synchronize using ThreadPoolExecutor with max_workers = 1")
     # Create a ThreadPoolExecutor with a suitable number of threads (e.g., 4)
