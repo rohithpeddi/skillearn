@@ -238,11 +238,11 @@ class SynchronizationServiceV2:
 
     def get_stream_keys_from_dir(self, stream_directory, stream_extension, ts_index):
         ts_to_stream_frame = get_ts_to_stream_frame(stream_directory, stream_extension, ts_index)
-        return ts_to_stream_frame.keys()
+        return list(ts_to_stream_frame.keys())
 
     def get_stream_keys_from_pkl(self, pkl_file_path):
         ts_to_stream_frame_pkl = self.get_ts_pkl_frame_map(pkl_file_path)
-        return ts_to_stream_frame_pkl.keys()
+        return list(ts_to_stream_frame_pkl.keys())
 
     def create_base_ts_to_stream_ts_map(self, stream_keys):
         base_ts_to_stream_ts = {}
@@ -259,12 +259,12 @@ class SynchronizationServiceV2:
 
             stream_ts_idx -= 1
             stream_ts = stream_keys[stream_ts_idx]
-            logger.info(
+            logger.debug(
                 f"[{self.recording_id}] Base Stream Key: %d, Stream Timestamp: %d" % (base_stream_key, stream_ts))
             base_idx_to_stream_idx[base_stream_counter] = stream_ts_idx
 
             if abs(base_stream_key - stream_ts) > 1e8:
-                logger.info(
+                logger.error(
                     f"[{self.recording_id}] Difference between base stream key and stream timestamp is greater than 1 second")
                 base_ts_to_stream_ts[base_stream_key] = None
             else:
@@ -433,9 +433,10 @@ class SynchronizationServiceV2:
                 stream_keys = self.get_stream_keys_from_pkl(spatial_file_path)
                 base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
 
-                logger.info(f"[{self.recording_id}] Synchronizing Spatial data")
-                self.create_sync_stream_pkl_data(spatial_file_path, sync_spatial_file_path, base_ts_to_stream_ts)
-                logger.info(f"[{self.recording_id}] Done synchronizing Spatial data")
+                if not os.path.exists(sync_spatial_file_path):
+                    logger.info(f"[{self.recording_id}] Synchronizing Spatial data")
+                    self.create_sync_stream_pkl_data(spatial_file_path, sync_spatial_file_path, base_ts_to_stream_ts)
+                    logger.info(f"[{self.recording_id}] Done synchronizing Spatial data")
             elif stream_name in const.IMU_LIST:
                 imu_directory = os.path.join(self.raw_data_directory, const.IMU)
                 sync_imu_directory = os.path.join(self.sync_data_directory, const.IMU)
@@ -448,9 +449,10 @@ class SynchronizationServiceV2:
                 stream_keys = self.get_stream_keys_from_pkl(imu_file_path)
                 base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
 
-                logger.info(f"[{self.recording_id}] Synchronizing {stream_name} data")
-                self.create_sync_stream_pkl_data(imu_file_path, sync_imu_file_path, base_ts_to_stream_ts)
-                logger.info(f"[{self.recording_id}] Done synchronizing {stream_name} data")
+                if not os.path.exists(sync_imu_file_path):
+                    logger.info(f"[{self.recording_id}] Synchronizing {stream_name} data")
+                    self.create_sync_stream_pkl_data(imu_file_path, sync_imu_file_path, base_ts_to_stream_ts)
+                    logger.info(f"[{self.recording_id}] Done synchronizing {stream_name} data")
 
         logger.info(f"[{self.recording_id}] Compressing pv frames directory")
         CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
