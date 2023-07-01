@@ -437,9 +437,10 @@ class SynchronizationServiceV2:
                 stream_keys = self.get_stream_keys_from_pkl(spatial_file_path)
                 base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
                 
-                if os.path.exists(spatial_file_path):
+                if os.path.exists(sync_spatial_file_path):
                     logger.info(f"[{self.recording_id}] Synchronized Spatial data already exists")
-                    shutil.rmtree(spatial_file_path)
+                    logger.info(f"[{self.recording_id}] Deleting existing synchronized Spatial data {sync_spatial_file_path}")
+                    shutil.rmtree(sync_spatial_file_path)
 
                 if not os.path.exists(sync_spatial_file_path):
                     logger.info(f"[{self.recording_id}] Synchronizing Spatial data")
@@ -457,9 +458,10 @@ class SynchronizationServiceV2:
                 stream_keys = self.get_stream_keys_from_pkl(imu_file_path)
                 base_ts_to_stream_ts = self.create_base_ts_to_stream_ts_map(stream_keys)
                 
-                if os.path.exists(imu_file_path):
+                if os.path.exists(sync_imu_file_path):
                     logger.info(f"[{self.recording_id}] Synchronized {stream_name} data already exists")
-                    shutil.rmtree(imu_file_path)
+                    logger.info(f"[{self.recording_id}] Deleting existing synchronized {stream_name} data {sync_imu_file_path}")
+                    shutil.rmtree(sync_imu_file_path)
 
                 if not os.path.exists(sync_imu_file_path):
                     logger.info(f"[{self.recording_id}] Synchronizing {stream_name} data")
