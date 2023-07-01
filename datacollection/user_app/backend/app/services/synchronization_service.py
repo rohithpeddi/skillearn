@@ -302,14 +302,14 @@ class SynchronizationServiceV2:
         sync_base_stream_frames_dir = os.path.join(self.sync_base_stream_directory, const.FRAMES)
 
         # 2. Copy base stream frames into the sync output folder
-        if not os.path.exists(sync_base_stream_frames_dir):
-            create_directories(sync_base_stream_frames_dir)
-            logger.info(f"[{self.recording_id}] Copying base stream frames into the sync output folder")
-            for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
-                src_file = os.path.join(raw_base_stream_frames_dir, self.ts_to_base_stream_frame[base_stream_key])
-                dest_file = os.path.join(sync_base_stream_frames_dir, self.pv_stream_suffix % base_stream_counter)
-                shutil.copy(src_file, dest_file)
-            logger.info(f"[{self.recording_id}] Done copying base stream frames into the sync output folder")
+        # if not os.path.exists(sync_base_stream_frames_dir):
+        #     create_directories(sync_base_stream_frames_dir)
+        #     logger.info(f"[{self.recording_id}] Copying base stream frames into the sync output folder")
+        #     for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
+        #         src_file = os.path.join(raw_base_stream_frames_dir, self.ts_to_base_stream_frame[base_stream_key])
+        #         dest_file = os.path.join(sync_base_stream_frames_dir, self.pv_stream_suffix % base_stream_counter)
+        #         shutil.copy(src_file, dest_file)
+        #     logger.info(f"[{self.recording_id}] Done copying base stream frames into the sync output folder")
 
         # Synchronize PV Pose
         pv_pose_pkl = f'{self.recording.id}_pv_pose.pkl'
@@ -371,31 +371,31 @@ class SynchronizationServiceV2:
                     )
                     logger.info(f"[{self.recording_id}] Done synchronizing Depth Pose data")
 
-                if not os.path.exists(sync_depth_data_directory):
-                    create_directories(sync_depth_data_directory)
-                    # 2. Synchronize Depth data
-                    logger.info(f"[{self.recording_id}] Synchronizing Depth data")
-                    self.create_sync_stream_frames(
-                        raw_depth_data_directory,
-                        const.PNG_EXTENSION,
-                        sync_depth_data_directory,
-                        self.depth_stream_suffix,
-                        base_ts_to_stream_ts
-                    )
-                    logger.info(f"[{self.recording_id}] Done synchronizing Depth data")
-
-                if not os.path.exists(sync_depth_ab_directory):
-                    create_directories(sync_depth_ab_directory)
-                    # 3. Synchronize Active Brightness data
-                    logger.info(f"[{self.recording_id}] Synchronizing Active Brightness data")
-                    self.create_sync_stream_frames(
-                        raw_depth_ab_directory,
-                        const.PNG_EXTENSION,
-                        sync_depth_ab_directory,
-                        self.ab_stream_suffix,
-                        base_ts_to_stream_ts
-                    )
-                    logger.info(f"[{self.recording_id}] Done synchronizing Active Brightness data")
+                # if not os.path.exists(sync_depth_data_directory):
+                #     create_directories(sync_depth_data_directory)
+                #     # 2. Synchronize Depth data
+                #     logger.info(f"[{self.recording_id}] Synchronizing Depth data")
+                #     self.create_sync_stream_frames(
+                #         raw_depth_data_directory,
+                #         const.PNG_EXTENSION,
+                #         sync_depth_data_directory,
+                #         self.depth_stream_suffix,
+                #         base_ts_to_stream_ts
+                #     )
+                #     logger.info(f"[{self.recording_id}] Done synchronizing Depth data")
+                #
+                # if not os.path.exists(sync_depth_ab_directory):
+                #     create_directories(sync_depth_ab_directory)
+                #     # 3. Synchronize Active Brightness data
+                #     logger.info(f"[{self.recording_id}] Synchronizing Active Brightness data")
+                #     self.create_sync_stream_frames(
+                #         raw_depth_ab_directory,
+                #         const.PNG_EXTENSION,
+                #         sync_depth_ab_directory,
+                #         self.ab_stream_suffix,
+                #         base_ts_to_stream_ts
+                #     )
+                #     logger.info(f"[{self.recording_id}] Done synchronizing Active Brightness data")
 
                 sample_depth_frame = os.path.join(raw_depth_data_directory, os.listdir(raw_depth_data_directory)[0])
                 self.depth_width, self.depth_height = self.get_image_characteristics(sample_depth_frame)
@@ -403,13 +403,13 @@ class SynchronizationServiceV2:
                 self.meta_yaml_data["depth_width"] = self.depth_width
                 self.meta_yaml_data["depth_height"] = self.depth_height
 
-                # 4. Compress all frames into a zip file in both raw and sync directories
-                logger.info(f"[{self.recording_id}] Compressing Depth data")
-                CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
-                logger.info(f"[{self.recording_id}] Done compressing Depth data")
-                logger.info(f"[{self.recording_id}] Compressing Active Brightness data")
-                CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
-                logger.info(f"[{self.recording_id}] Done compressing Active Brightness data")
+                # # 4. Compress all frames into a zip file in both raw and sync directories
+                # logger.info(f"[{self.recording_id}] Compressing Depth data")
+                # CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
+                # logger.info(f"[{self.recording_id}] Done compressing Depth data")
+                # logger.info(f"[{self.recording_id}] Compressing Active Brightness data")
+                # CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
+                # logger.info(f"[{self.recording_id}] Done compressing Active Brightness data")
 
             # # 5. Delete raw frames directory
             # logger.info("Deleting frames directory")
@@ -454,9 +454,9 @@ class SynchronizationServiceV2:
                     self.create_sync_stream_pkl_data(imu_file_path, sync_imu_file_path, base_ts_to_stream_ts)
                     logger.info(f"[{self.recording_id}] Done synchronizing {stream_name} data")
 
-        logger.info(f"[{self.recording_id}] Compressing pv frames directory")
-        CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
-        logger.info(f"[{self.recording_id}] Done compressing pv frames directory")
+        # logger.info(f"[{self.recording_id}] Compressing pv frames directory")
+        # CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
+        # logger.info(f"[{self.recording_id}] Done compressing pv frames directory")
 
         # # Delete raw frames directory
         # logger.info("Deleting pv frames directory")

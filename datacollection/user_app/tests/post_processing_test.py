@@ -45,7 +45,7 @@ def begin_post_processing():
     logger.info("Preparing to synchronize using ThreadPoolExecutor with max_workers = 1")
     # Create a ThreadPoolExecutor with a suitable number of threads (e.g., 4)
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        for data_recording_directory_name in [data_recording_directories[0]]:
+        for data_recording_directory_name in data_recording_directories:
             executor.submit(
                 process_directory,
                 data_parent_directory,
