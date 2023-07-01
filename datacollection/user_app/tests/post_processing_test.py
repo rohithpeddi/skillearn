@@ -29,10 +29,10 @@ def process_directory(data_parent_directory, data_recording_directory_name, db_s
 
         synchronization_service.sync_streams()
 
-        logger.info("-------------------------------------")
-        logger.info(f"Uploading {recording.id}")
-        logger.info("-------------------------------------")
-        box_service.upload_from_nas(recording, data_parent_directory)
+        # logger.info("-------------------------------------")
+        # logger.info(f"Uploading {recording.id}")
+        # logger.info("-------------------------------------")
+        # box_service.upload_from_nas(recording, data_parent_directory)
 
 
 def begin_post_processing():
