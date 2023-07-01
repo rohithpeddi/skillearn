@@ -363,7 +363,8 @@ class SynchronizationServiceV2:
                 
                 if os.path.exists(sync_depth_pose_file_path):
                     logger.info(f"[{self.recording_id}] Synchronized Depth Pose data already exists")
-                    shutil.rmtree(sync_depth_pose_file_path)
+                    logger.info(f"[{self.recording_id}] Removing existing Synchronized Depth Pose data {sync_depth_pose_file_path}")
+                    os.remove(sync_depth_pose_file_path)
 
                 if not os.path.exists(sync_depth_pose_file_path):
                     # 1. Synchronize Pose
@@ -440,7 +441,7 @@ class SynchronizationServiceV2:
                 if os.path.exists(sync_spatial_file_path):
                     logger.info(f"[{self.recording_id}] Synchronized Spatial data already exists")
                     logger.info(f"[{self.recording_id}] Deleting existing synchronized Spatial data {sync_spatial_file_path}")
-                    shutil.rmtree(sync_spatial_file_path)
+                    os.remove(sync_spatial_file_path)
 
                 if not os.path.exists(sync_spatial_file_path):
                     logger.info(f"[{self.recording_id}] Synchronizing Spatial data")
@@ -461,7 +462,7 @@ class SynchronizationServiceV2:
                 if os.path.exists(sync_imu_file_path):
                     logger.info(f"[{self.recording_id}] Synchronized {stream_name} data already exists")
                     logger.info(f"[{self.recording_id}] Deleting existing synchronized {stream_name} data {sync_imu_file_path}")
-                    shutil.rmtree(sync_imu_file_path)
+                    os.remove(sync_imu_file_path)
 
                 if not os.path.exists(sync_imu_file_path):
                     logger.info(f"[{self.recording_id}] Synchronizing {stream_name} data")
