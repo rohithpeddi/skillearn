@@ -316,10 +316,10 @@ class SynchronizationServiceV2:
         pv_pose_file_path = os.path.join(self.raw_base_stream_directory, pv_pose_pkl)
         sync_pv_pose_file_path = os.path.join(self.sync_base_stream_directory, pv_pose_pkl)
 
-        if not os.path.exists(sync_pv_pose_file_path):
-            logger.info(f"[{self.recording_id}] Copying PV Pose into the sync output folder")
-            shutil.copy(pv_pose_file_path, sync_pv_pose_file_path)
-            logger.info(f"[{self.recording_id}] Done copying PV Pose into the sync output folder")
+        # if not os.path.exists(sync_pv_pose_file_path):
+        #     logger.info(f"[{self.recording_id}] Copying PV Pose into the sync output folder")
+        #     shutil.copy(pv_pose_file_path, sync_pv_pose_file_path)
+        #     logger.info(f"[{self.recording_id}] Done copying PV Pose into the sync output folder")
 
         recording_base_stream_mp4_file_path = os.path.join(self.sync_base_stream_directory, f"{self.recording.id}.mp4")
         if not os.path.exists(recording_base_stream_mp4_file_path):
