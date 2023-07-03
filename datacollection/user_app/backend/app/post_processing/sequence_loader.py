@@ -46,8 +46,8 @@ class SequenceLoader:
             self._depth_scale,
         ) = self.load_depth_calibration_info(depth_mode=self._depth_mode)
 
-        self.spatial_data = self.load_spatial_data()
-        self.pv_pose_data = self.load_pv_pose_data()
+        # self.spatial_data = self.load_spatial_data()
+        # self.pv_pose_data = self.load_pv_pose_data()
 
         self._frame_id = -1
         self._points = None
@@ -256,9 +256,9 @@ class SequenceLoader:
                 self._data_folder, "pv/frames/color-{:06d}.jpg".format(self._frame_id)
             )
         )
-        self._color_pose = self.pv_pose_data[self._frame_id][0]
-        self._spatial = self.spatial_data[self._frame_id][0]
-        self.project_spatial(self._color_img, self._color_pose, self._spatial)
+        # self._color_pose = self.pv_pose_data[self._frame_id][0]
+        # self._spatial = self.spatial_data[self._frame_id][0]
+        # self.project_spatial(self._color_img, self._color_pose, self._spatial)
 
     @property
     def device_id(self):
