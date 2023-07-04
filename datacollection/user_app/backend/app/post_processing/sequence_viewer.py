@@ -36,14 +36,14 @@ class SequenceViewer:
 
     def load(self, sequence_folder):
         self._loader.load(sequence_folder)
-        self._depth_width = self._loader.depth_width
-        self._depth_height = self._loader.depth_height
+        self._depth_width = int(self._loader.depth_width * 0.75)
+        self._depth_height = int(self._loader.depth_height * 0.75)
         self._color_width = self._loader.pv_width
         self._color_height = self._loader.pv_height
         self._num_frames = self._loader.num_frames
 
     def run(self):
-        self._width = 1200
+        self._width = 1500
         self._height = 1200
         self._count = 0
         # control flags
@@ -100,6 +100,7 @@ class SequenceViewer:
         em = self._window.theme.font_size
         margin = 0.3 * em
         self._panel = gui.Vert(margin, gui.Margins(margin, margin, margin, margin))
+        
         self._widgetColor = gui.ImageWidget(
             o3d.t.geometry.Image(
                 o3c.Tensor.zeros(
@@ -109,6 +110,7 @@ class SequenceViewer:
         )
         self._panel.add_child(gui.Label("PV Image"))
         self._panel.add_child(self._widgetColor)
+        
         self._widgetDepth = gui.ImageWidget(
             o3d.t.geometry.Image(
                 o3c.Tensor.zeros(
