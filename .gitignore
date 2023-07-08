@@ -151,3 +151,8 @@ dmypy.json
 
 !/annotations/recipe_extraction/output/recipes_with_max_7_actions.csv
 /.idea/
+
+# IDEs and editors
+.idea
+.eclipse
+.vscode
