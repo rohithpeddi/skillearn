@@ -16,7 +16,14 @@ def verify_data():
                 with open(pv_data_file, 'rb') as f:
                     pv_data = pickle.load(f)
                     print(pv_data)
+                    
+                    
+def verify_pkl_data():
+    pkl_file_path = r"D:\DATA\OPEN\ActionGenome\action_genome_v1.0\person_bbox.pkl"
+    with open(pkl_file_path, 'rb') as f:
+        pkl_data = pickle.load(f)
+        print(pkl_data)
 
 
 if __name__ == '__main__':
-    verify_data()
+    verify_pkl_data()

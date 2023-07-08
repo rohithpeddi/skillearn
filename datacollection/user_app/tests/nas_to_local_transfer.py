@@ -20,10 +20,11 @@ def transfer_raw_depth_files_from_nas_to_local(recording_id, remote_raw_director
 
 def begin_nas_to_local_transfer():
 	data_parent_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
-	recording_list = []
-	for data_recording_directory_name in os.listdir(data_parent_directory):
-		data_recording_directory_path = os.path.join(data_parent_directory, data_recording_directory_name)
-		if os.path.isdir(data_recording_directory_path):
-			raw_directory_path = os.path.join(data_recording_directory_path, "raw")
-			if os.path.isdir(raw_directory_path):
-				recording_list.append(data_recording_directory_path)
+	# recording_list = []
+	# for data_recording_directory_name in os.listdir(data_parent_directory):
+	# 	data_recording_directory_path = os.path.join(data_parent_directory, data_recording_directory_name)
+	# 	if os.path.isdir(data_recording_directory_path):
+	# 		raw_directory_path = os.path.join(data_recording_directory_path, "raw")
+	# 		if os.path.isdir(raw_directory_path):
+	# 			recording_list.append(data_recording_directory_path)
+	recording_list = ["10_50"]

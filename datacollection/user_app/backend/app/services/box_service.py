@@ -47,11 +47,7 @@ logger = get_logger(__name__)
 class BoxService:
 	
 	def __init__(self):
-		self.user_id = '23441227496'
-		self.root_folder_id = '202193575471'
-		self.client_id = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b'
-		self.client_secret = 'TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
-		self.ccg_credentials = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
+
 		
 		ccg_auth = CCGAuth(client_id=self.client_id, client_secret=self.client_secret, user=self.user_id)
 		self.client = Client(ccg_auth)
