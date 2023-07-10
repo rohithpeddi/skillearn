@@ -354,7 +354,8 @@ class Box_Constants:
 	PV = "pv"
 	DEPTH_AHAT = "depth_ahat"
 	SPATIAL = "spatial"
-	MICROPHONE = "microphone"
+	MICROPHONE = "mc"
+	IMU = "imu"
 	SYNCHRONIZED = "synchronized"
 	ANNOTATIONS = "annotations"
 	PRETRAINED_FEATURES = "pretrained_features"
@@ -396,4 +397,39 @@ class Annotation_Constants:
 	LABEL_STUDIO_URL = "http://localhost:8080"
 	LOCAL_VIDEO_DIRECTORY_PATH = "D:\DATA\COLLECTED\PTG\PEDDI"
 	LABEL_STUDIO_API_AUTH_TOKEN = "8120b6dbc45b6be110f92223ab898db63c6e4ce3"
+
+
+# # ---------------------------------------------------------------------------------------
+# # ------------------------ SYNCHRONIZATION PROPERTIES -----------------------------------
+
+class Synchronization_Constants:
+	RAW = "raw"
+	SYNC = "sync"
+	HOLOLENS_INFO_FILE_NAME = 'Hololens2Info.dat'
+	PHOTOVIDEO = "pv"
 	
+	AHAT = "ahat"
+	FRAMES = "frames"
+	FRAMES_ZIP = "frames.zip"
+	
+	JPEG_EXTENSION = ".jpg"
+	PNG_EXTENSION = ".png"
+	
+	DEPTH = "depth"
+	DEPTH_ZIP = "depth.zip"
+	
+	DEPTH_AHAT = "depth_ahat"
+	
+	AB = "ab"
+	AB_ZIP = "ab.zip"
+	
+	SPATIAL = "spatial"
+	
+	IMU = "imu"
+	IMU_ACCELEROMETER = "imu_accelerometer"
+	IMU_GYROSCOPE = "imu_gyroscope"
+	IMU_MAGNETOMETER = "imu_magnetometer"
+	IMU_LIST = [IMU_ACCELEROMETER, IMU_GYROSCOPE, IMU_MAGNETOMETER]
+	
+	BASE_STREAM = PHOTOVIDEO
+	SYNCHRONIZATION_STREAMS = [DEPTH_AHAT, SPATIAL, IMU_ACCELEROMETER, IMU_GYROSCOPE, IMU_MAGNETOMETER]

@@ -23,14 +23,14 @@ class CompressDataService:
 	
 	@classmethod
 	def compress_dir(cls, base_dir_path, file_name, root_dir=None, compress_format=ppc_const.ZIP):
-		file_count = len(os.listdir(base_dir_path))
 		if root_dir is None:
 			root_dir = base_dir_path
 		file_path = os.path.join(root_dir, file_name)
+		file_count = len(os.listdir(file_path))
 		
 		logger.info(f'Archiving {root_dir} - {file_name} ({file_count} files) STARTED')
 		start_time = time.time()
-		shutil.make_archive(file_path, compress_format, base_dir_path)
+		shutil.make_archive(base_name=file_path, format=compress_format, root_dir=root_dir, base_dir=file_path)
 		end_time = time.time()
 		logger.info(f'Archiving {root_dir} - {file_name} ({file_count} files) FINISHED')
 		logger.info(f'Archive {file_path}.zip ({file_count} files) took {(end_time - start_time):.2f} seconds')

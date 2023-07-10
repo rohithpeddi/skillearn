@@ -15,7 +15,7 @@ class PanRecipeUpdate:
 	
 	def __init__(self):
 		self.db_versions_dir = ""
-		self.current_version = 1
+		self.current_version = 3
 		self.db_service = FirebaseService()
 	
 	# self._create_new_version_db()
@@ -91,7 +91,36 @@ class PanRecipeUpdate:
 				print(f"Updating recording: {recording.id}")
 				self.db_service.update_recording(recording)
 				print(f"Recording: {recording.id} updated")
+	
+	def download_all_recorded_activities_from_db(self):
+		# 1. Download all the recording objects from the firebase which are nor yet recorded
+		
+		activity_list = self.db_service.fetch_activities()
+		activities = [Activity.from_dict(activity) for activity in activity_list if activity is not None]
+		
+		db_version_path = f"../backend/info_files/db_versions/v_{self.current_version}"
+		create_directories(db_version_path)
+		for activity in activities:
+			activity_version_path = os.path.join(db_version_path, f"{activity.name}.yaml")
+			
+			all_activity_recordings = self.db_service.fetch_all_activity_recordings(activity.id)
+			
+			activity_recording_list = []
+			for (recording_id, recording_dict) in all_activity_recordings.items():
+				recording = Recording.from_dict(recording_dict)
+				if recording.recorded_by != -1:
+					activity_recording_list.append(recording)
+			
+			sorted_recorded_activity_recordings = sorted(activity_recording_list,
+			                                               key=lambda x: int(x.id.split("_")[-1]))
+			
+			sorted_recorded_activity_recordings_dict_list = [recording.to_dict() for recording in
+			                                                   sorted_recorded_activity_recordings]
+			
+			with open(activity_version_path, 'w') as yaml_file:
+				yaml.dump(sorted_recorded_activity_recordings_dict_list, yaml_file)
 
 
 if __name__ == '__main__':
 	pan_recipe_update = PanRecipeUpdate()
+	pan_recipe_update.download_all_recorded_activities_from_db()

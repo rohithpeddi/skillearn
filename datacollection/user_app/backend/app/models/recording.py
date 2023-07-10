@@ -30,7 +30,7 @@ class Recording:
 		self.selected_by = const.DUMMY_USER_ID
 		
 		self.recording_info = RecordingInfo()
-
+	
 	def get_recording_id(self):
 		return self.id
 	
@@ -41,7 +41,7 @@ class Recording:
 	def update_parameters(self):
 		if self.errors is not None and len(self.errors) > 0:
 			self.is_error = True
-			
+		
 		for step in self.steps:
 			if step.errors is not None and len(step.errors) > 0:
 				self.is_error = True
@@ -109,7 +109,6 @@ class Recording:
 		
 		if const.IS_PREPARED in recording_dict:
 			recording.is_prepared = recording_dict[const.IS_PREPARED]
-			
+		
 		recording.recording_info = RecordingInfo.from_dict(recording_dict[const.RECORDING_INFO])
 		return recording
-	
