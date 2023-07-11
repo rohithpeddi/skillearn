@@ -24,14 +24,10 @@ def process_directory(data_parent_directory, data_recording_directory_name, db_s
             const.BASE_STREAM,
             const.SYNCHRONIZATION_STREAMS
         )
-
         synchronization_service.sync_streams()
-
-        # logger.info("-------------------------------------")
-        # logger.info(f"Uploading {recording.id}")
-        # logger.info("-------------------------------------")
-        # box_service.upload_from_nas(recording, data_parent_directory)
-
+        logger.info(f"[{recording.id}] BEGIN UPLOADING TO BOX")
+        box_service.upload_from_nas(recording, data_parent_directory)
+        logger.info(f"[{recording.id}] END UPLOADING TO BOX")
         logger.info(f"[{recording.id}] END SYNCHRONIZATION")
 
 

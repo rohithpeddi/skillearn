@@ -215,6 +215,21 @@ class SynchronizationServiceV2:
             stream_payload = ts_to_stream_payload[stream_ts]
             synced_ts_to_stream_payload[base_stream_counter] = (stream_ts, stream_payload)
         write_pickle_data(synced_ts_to_stream_payload, sync_stream_output_directory)
+        
+    def create_sync_pv_stream_pkl_data(self, stream_pkl_file_path, sync_stream_output_path):
+        # 1. Load pickle file data into a dictionary
+        ts_to_stream_payload = self.get_ts_pkl_frame_map(stream_pkl_file_path)
+        
+        # 2. Use the base_stream_keys and loaded pickle file data to synchronize them
+        synced_ts_to_stream_payload = {}
+        for base_stream_counter, base_stream_key in enumerate(self.base_stream_keys):
+            if base_stream_key not in ts_to_stream_payload or ts_to_stream_payload[base_stream_key] is None:
+                logger.info(f"[{self.recording_id}] Skipping pkl frame %s" % base_stream_key)
+                continue
+            stream_ts = base_stream_key
+            stream_payload = ts_to_stream_payload[stream_ts]
+            synced_ts_to_stream_payload[base_stream_counter] = (stream_ts, stream_payload)
+        write_pickle_data(synced_ts_to_stream_payload, sync_stream_output_path)
     
     def create_sync_stream_frames(
             self,
@@ -313,16 +328,22 @@ class SynchronizationServiceV2:
             end_base_stream_time = time.strftime("%H:%M:%S", time.gmtime(time.time() - start_base_stream_time))
             logger.info(
                 f"[{self.recording_id}] Done copying base stream frames into the sync output folder : {end_base_stream_time}")
+        else:
+            logger.info(f"[{self.recording_id}] Skipping copying base stream frames into the sync output folder")
         
         # Synchronize PV Pose
         pv_pose_pkl = f'{self.recording.id}_pv_pose.pkl'
-        pv_pose_file_path = os.path.join(self.raw_base_stream_directory, pv_pose_pkl)
+        raw_pv_pose_file_path = os.path.join(self.raw_base_stream_directory, pv_pose_pkl)
         sync_pv_pose_file_path = os.path.join(self.sync_base_stream_directory, pv_pose_pkl)
         
-        # if not os.path.exists(sync_pv_pose_file_path):
-        #     logger.info(f"[{self.recording_id}] Copying PV Pose into the sync output folder")
-        #     shutil.copy(pv_pose_file_path, sync_pv_pose_file_path)
-        #     logger.info(f"[{self.recording_id}] Done copying PV Pose into the sync output folder")
+        if not os.path.exists(sync_pv_pose_file_path):
+            logger.info(f"[{self.recording_id}] Copying PV Pose into the sync output folder")
+            start_pv_pose_time = time.time()
+            self.create_sync_pv_stream_pkl_data(raw_pv_pose_file_path, sync_pv_pose_file_path)
+            end_pv_pose_time = time.strftime("%H:%M:%S", time.gmtime(time.time() - start_pv_pose_time))
+            logger.info(f"[{self.recording_id}] Done copying PV Pose into the sync output folder : {end_pv_pose_time}")
+        else:
+            logger.info(f"[{self.recording_id}] Skipping copying PV Pose into the sync output folder")
         
         recording_base_stream_mp4_file_path = os.path.join(self.sync_base_stream_directory, f"{self.recording.id}.mp4")
         if not os.path.exists(recording_base_stream_mp4_file_path):
@@ -330,6 +351,8 @@ class SynchronizationServiceV2:
             logger.info(f"[{self.recording_id}] Creating recording base stream mp4 file")
             make_video(raw_base_stream_frames_dir, recording_base_stream_mp4_file_path, self.recording_id)
             logger.info(f"[{self.recording_id}] Done creating recording base stream mp4 file")
+        else:
+            logger.info(f"[{self.recording_id}] Skipping creation of recording base stream mp4 file")
         
         for stream_name in self.synchronize_streams:
             if stream_name == const.DEPTH_AHAT:
@@ -343,20 +366,24 @@ class SynchronizationServiceV2:
                 sync_depth_pose_file_path = os.path.join(sync_depth_parent_directory, depth_ahat_pkl)
                 
                 raw_depth_data_directory = os.path.join(raw_depth_parent_directory, const.DEPTH)
-                depth_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.DEPTH_ZIP)
-                if os.path.exists(depth_frames_zip_file_path) and not os.path.exists(raw_depth_data_directory):
+                raw_depth_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.DEPTH_ZIP)
+                if os.path.exists(raw_depth_frames_zip_file_path) and not os.path.exists(raw_depth_data_directory):
                     logger.info(f"[{self.recording_id}] Extracting depth frames zip file")
-                    extract_zip_file(depth_frames_zip_file_path, raw_depth_data_directory, self.recording_id)
+                    extract_zip_file(raw_depth_frames_zip_file_path, raw_depth_data_directory, self.recording_id)
                     logger.info(f"[{self.recording_id}] Done extracting depth frames zip file")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping extracting depth frames zip file")
                 
                 sync_depth_data_directory = os.path.join(sync_depth_parent_directory, const.DEPTH)
                 
                 raw_depth_ab_directory = os.path.join(raw_depth_parent_directory, const.AB)
-                ab_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.AB_ZIP)
-                if os.path.exists(depth_frames_zip_file_path) and not os.path.exists(raw_depth_ab_directory):
+                raw_ab_frames_zip_file_path = os.path.join(raw_depth_parent_directory, const.AB_ZIP)
+                if os.path.exists(raw_depth_frames_zip_file_path) and not os.path.exists(raw_depth_ab_directory):
                     logger.info(f"[{self.recording_id}] Extracting ab frames zip file")
-                    extract_zip_file(ab_frames_zip_file_path, raw_depth_ab_directory, self.recording_id)
+                    extract_zip_file(raw_ab_frames_zip_file_path, raw_depth_ab_directory, self.recording_id)
                     logger.info(f"[{self.recording_id}] Done extracting ab frames zip file")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping extracting ab frames zip file")
                 
                 sync_depth_ab_directory = os.path.join(sync_depth_parent_directory, const.AB)
                 
@@ -383,6 +410,8 @@ class SynchronizationServiceV2:
                         time.gmtime(time.time() - start_depth_pose_time)
                     )
                     logger.info(f"[{self.recording_id}] Done synchronizing Depth Pose data : {total_depth_pose_time}")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping synchronizing Depth Pose data")
                 
                 if not os.path.exists(sync_depth_data_directory):
                     create_directories(sync_depth_data_directory)
@@ -401,6 +430,8 @@ class SynchronizationServiceV2:
                         time.gmtime(time.time() - start_depth_time)
                     )
                     logger.info(f"[{self.recording_id}] Done synchronizing Depth data : {total_depth_time}")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping synchronizing Depth data")
                 
                 if not os.path.exists(sync_depth_ab_directory):
                     create_directories(sync_depth_ab_directory)
@@ -419,6 +450,8 @@ class SynchronizationServiceV2:
                         time.gmtime(time.time() - start_ab_time)
                     )
                     logger.info(f"[{self.recording_id}] Done synchronizing Active Brightness data : {total_ab_time}")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping synchronizing Active Brightness data")
                 
                 sample_depth_frame = os.path.join(raw_depth_data_directory, os.listdir(raw_depth_data_directory)[0])
                 self.depth_width, self.depth_height = self.get_image_characteristics(sample_depth_frame)
@@ -426,13 +459,32 @@ class SynchronizationServiceV2:
                 self.meta_yaml_data["depth_width"] = self.depth_width
                 self.meta_yaml_data["depth_height"] = self.depth_height
             
-            # # 4. Compress all frames into a zip file in both raw and sync directories
-            # logger.info(f"[{self.recording_id}] Compressing Depth data")
-            # CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
-            # logger.info(f"[{self.recording_id}] Done compressing Depth data")
-            # logger.info(f"[{self.recording_id}] Compressing Active Brightness data")
-            # CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
-            # logger.info(f"[{self.recording_id}] Done compressing Active Brightness data")
+                # 4. Compress all frames into a zip file in both raw and sync directories
+                sync_depth_frames_zip_file_path = os.path.join(sync_depth_parent_directory, const.DEPTH_ZIP)
+                if not os.path.exists(sync_depth_frames_zip_file_path):
+                    logger.info(f"[{self.recording_id}] Compressing Depth data")
+                    start_compress_depth_time = time.time()
+                    CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
+                    total_compress_depth_time = time.strftime(
+                        "%H:%M:%S",
+                        time.gmtime(time.time() - start_compress_depth_time)
+                    )
+                    logger.info(f"[{self.recording_id}] Done compressing Depth data : {total_compress_depth_time}")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping compressing Depth data")
+                    
+                sync_depth_ab_frames_zip_file_path = os.path.join(sync_depth_parent_directory, const.AB_ZIP)
+                if not os.path.exists(sync_depth_ab_frames_zip_file_path):
+                    logger.info(f"[{self.recording_id}] Compressing Active Brightness data")
+                    start_compress_ab_time = time.time()
+                    CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
+                    total_compress_ab_time = time.strftime(
+                        "%H:%M:%S",
+                        time.gmtime(time.time() - start_compress_ab_time)
+                    )
+                    logger.info(f"[{self.recording_id}] Done compressing Active Brightness data : {total_compress_ab_time}")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping compressing Active Brightness data")
             
             # # 5. Delete raw frames directory
             # logger.info("Deleting frames directory")
@@ -470,6 +522,8 @@ class SynchronizationServiceV2:
                         time.gmtime(time.time() - start_spatial_time)
                     )
                     logger.info(f"[{self.recording_id}] Done synchronizing Spatial data : {total_spatial_time}")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping synchronizing Spatial data")
                     
             elif stream_name in const.IMU_LIST:
                 imu_directory = os.path.join(self.raw_data_directory, const.IMU)
@@ -497,10 +551,21 @@ class SynchronizationServiceV2:
                         time.gmtime(time.time() - start_imu_time)
                     )
                     logger.info(f"[{self.recording_id}] Done synchronizing {stream_name} data : {total_imu_time}")
+                else:
+                    logger.info(f"[{self.recording_id}] Skipping synchronizing {stream_name} data")
         
-        # logger.info(f"[{self.recording_id}] Compressing pv frames directory")
-        # CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
-        # logger.info(f"[{self.recording_id}] Done compressing pv frames directory")
+        sync_pv_frames_zip_file_path = os.path.join(self.sync_base_stream_directory, const.FRAMES_ZIP)
+        if not os.path.exists(sync_pv_frames_zip_file_path):
+            logger.info(f"[{self.recording_id}] Compressing pv frames directory")
+            start_compress_pv_time = time.time()
+            CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
+            total_compress_pv_time = time.strftime(
+                "%H:%M:%S",
+                time.gmtime(time.time() - start_compress_pv_time)
+            )
+            logger.info(f"[{self.recording_id}] Done compressing pv frames directory : {total_compress_pv_time}")
+        else:
+            logger.info(f"[{self.recording_id}] Skipping compressing pv frames directory")
         
         # # Delete raw frames directory
         # logger.info("Deleting pv frames directory")
