@@ -125,7 +125,7 @@ class BoxService:
 		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording.id)
 		recording_id = recording.id
 		data_recording_directory = os.path.join(data_parent_directory, recording.id)
-		raw_data_directory = os.path.join(data_recording_directory, const.RAW)
+		# raw_data_directory = os.path.join(data_recording_directory, const.RAW)
 		# if os.path.exists(raw_data_directory):
 		# 	logger.info(f"[{recording_id}] Uploading raw data")
 		# 	raw_folder_id = self._fetch_subfolder(recording_folder_id, const.RAW)
@@ -137,10 +137,10 @@ class BoxService:
 		# 	)
 		# 	logger.info(f"[{recording_id}] Raw data uploaded")
 
-		sync_data_directory = os.path.join(data_recording_directory, const.SYNCHRONIZED)
+		sync_data_directory = os.path.join(data_recording_directory, const.SYNC)
 		if os.path.exists(sync_data_directory):
 			logger.info(f"[{recording_id}] Uploading synchronized data")
-			sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNCHRONIZED)
+			sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNC)
 			self._upload_folders_and_subfolders(
 				sync_folder_id,
 				sync_data_directory,

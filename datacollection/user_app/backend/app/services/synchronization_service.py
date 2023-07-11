@@ -460,31 +460,31 @@ class SynchronizationServiceV2:
                 self.meta_yaml_data["depth_height"] = self.depth_height
             
                 # 4. Compress all frames into a zip file in both raw and sync directories
-                sync_depth_frames_zip_file_path = os.path.join(sync_depth_parent_directory, const.DEPTH_ZIP)
-                if not os.path.exists(sync_depth_frames_zip_file_path):
-                    logger.info(f"[{self.recording_id}] Compressing Depth data")
-                    start_compress_depth_time = time.time()
-                    CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
-                    total_compress_depth_time = time.strftime(
-                        "%H:%M:%S",
-                        time.gmtime(time.time() - start_compress_depth_time)
-                    )
-                    logger.info(f"[{self.recording_id}] Done compressing Depth data : {total_compress_depth_time}")
-                else:
-                    logger.info(f"[{self.recording_id}] Skipping compressing Depth data")
-                    
-                sync_depth_ab_frames_zip_file_path = os.path.join(sync_depth_parent_directory, const.AB_ZIP)
-                if not os.path.exists(sync_depth_ab_frames_zip_file_path):
-                    logger.info(f"[{self.recording_id}] Compressing Active Brightness data")
-                    start_compress_ab_time = time.time()
-                    CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
-                    total_compress_ab_time = time.strftime(
-                        "%H:%M:%S",
-                        time.gmtime(time.time() - start_compress_ab_time)
-                    )
-                    logger.info(f"[{self.recording_id}] Done compressing Active Brightness data : {total_compress_ab_time}")
-                else:
-                    logger.info(f"[{self.recording_id}] Skipping compressing Active Brightness data")
+                # sync_depth_frames_zip_file_path = os.path.join(sync_depth_parent_directory, const.DEPTH_ZIP)
+                # if not os.path.exists(sync_depth_frames_zip_file_path):
+                #     logger.info(f"[{self.recording_id}] Compressing Depth data")
+                #     start_compress_depth_time = time.time()
+                #     CompressDataService.compress_dir(sync_depth_parent_directory, const.DEPTH)
+                #     total_compress_depth_time = time.strftime(
+                #         "%H:%M:%S",
+                #         time.gmtime(time.time() - start_compress_depth_time)
+                #     )
+                #     logger.info(f"[{self.recording_id}] Done compressing Depth data : {total_compress_depth_time}")
+                # else:
+                #     logger.info(f"[{self.recording_id}] Skipping compressing Depth data")
+                #
+                # sync_depth_ab_frames_zip_file_path = os.path.join(sync_depth_parent_directory, const.AB_ZIP)
+                # if not os.path.exists(sync_depth_ab_frames_zip_file_path):
+                #     logger.info(f"[{self.recording_id}] Compressing Active Brightness data")
+                #     start_compress_ab_time = time.time()
+                #     CompressDataService.compress_dir(sync_depth_parent_directory, const.AB)
+                #     total_compress_ab_time = time.strftime(
+                #         "%H:%M:%S",
+                #         time.gmtime(time.time() - start_compress_ab_time)
+                #     )
+                #     logger.info(f"[{self.recording_id}] Done compressing Active Brightness data : {total_compress_ab_time}")
+                # else:
+                #     logger.info(f"[{self.recording_id}] Skipping compressing Active Brightness data")
             
             # # 5. Delete raw frames directory
             # logger.info("Deleting frames directory")
@@ -554,18 +554,18 @@ class SynchronizationServiceV2:
                 else:
                     logger.info(f"[{self.recording_id}] Skipping synchronizing {stream_name} data")
         
-        sync_pv_frames_zip_file_path = os.path.join(self.sync_base_stream_directory, const.FRAMES_ZIP)
-        if not os.path.exists(sync_pv_frames_zip_file_path):
-            logger.info(f"[{self.recording_id}] Compressing pv frames directory")
-            start_compress_pv_time = time.time()
-            CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
-            total_compress_pv_time = time.strftime(
-                "%H:%M:%S",
-                time.gmtime(time.time() - start_compress_pv_time)
-            )
-            logger.info(f"[{self.recording_id}] Done compressing pv frames directory : {total_compress_pv_time}")
-        else:
-            logger.info(f"[{self.recording_id}] Skipping compressing pv frames directory")
+        # sync_pv_frames_zip_file_path = os.path.join(self.sync_base_stream_directory, const.FRAMES_ZIP)
+        # if not os.path.exists(sync_pv_frames_zip_file_path):
+        #     logger.info(f"[{self.recording_id}] Compressing pv frames directory")
+        #     start_compress_pv_time = time.time()
+        #     CompressDataService.compress_dir(self.sync_base_stream_directory, const.FRAMES)
+        #     total_compress_pv_time = time.strftime(
+        #         "%H:%M:%S",
+        #         time.gmtime(time.time() - start_compress_pv_time)
+        #     )
+        #     logger.info(f"[{self.recording_id}] Done compressing pv frames directory : {total_compress_pv_time}")
+        # else:
+        #     logger.info(f"[{self.recording_id}] Skipping compressing pv frames directory")
         
         # # Delete raw frames directory
         # logger.info("Deleting pv frames directory")
