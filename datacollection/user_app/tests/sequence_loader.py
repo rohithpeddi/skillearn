@@ -15,7 +15,7 @@ def show_image(img, title="show_image"):
 
 
 if __name__ == "__main__":
-    rec_id = "4_22"
+    rec_id = "12_19"
 
     loader = SequenceLoader(rec_id=rec_id, device="cuda:0", debug=True)
 
@@ -48,6 +48,6 @@ if __name__ == "__main__":
         depth_colored.device,
     )
 
-    # show_image(color_img, title="color_img")
-    # show_image(depth_img, title="depth_img")
-    # show_image(depth_colored, title="depth_colored")
+    show_image(color_img, title="color_img")
+    show_image(depth_img, title="depth_img")
+    show_image(depth_colored, title="depth_colored")
