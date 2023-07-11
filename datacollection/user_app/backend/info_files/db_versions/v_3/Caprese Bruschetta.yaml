@@ -200,7 +200,7 @@
     errors:
     - description: Do not make slanted cuts
       tag: Technique Error
-    modified_description: 'Slice-Slice two 1/2 inch thick rounds from a baguette '
+    modified_description: Slice-Slice two 1/2 inch thick rounds from a baguette
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
     errors:
     - description: Pour olive ol instead of brushing
@@ -300,16 +300,14 @@
       straight)
   - description: add-1/16 cup basil to a bowl
     errors:
-    - description: add-1/8 cup basil to a plate
+    - description: add-1/8 cup basil to a plate instead of 1/16 cup
       tag: Measurement Error
-    - description: add-1/8 cup basil to a plate
+    - description: add-1/8 cup basil to a plate instead of bowl
       tag: Preparation Error
     modified_description: add-1/8 cup basil to a plate
   - description: add-1/8 cup shredded mozzarella to a bowl
     errors:
-    - description: add-1/8 cup shredded mozzarella to a plate
-      tag: Measurement Error
-    - description: add-1/8 cup shredded mozzarella to a plate
+    - description: add-1/8 cup shredded mozzarella to a plate instead of bowl
       tag: Preparation Error
     modified_description: add-1/8 cup shredded mozzarella to a plate
   - description: Brush-Brush 2 slices of baguette with olive oil on both sides
@@ -332,10 +330,6 @@
       tag: Preparation Error
     modified_description: add-In a plate, add the cut cherry tomatoes
   - description: Spoon-Spoon the mixture from the bowl onto the bread
-    errors:
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: Spoon-Spoon the mixture from the bowl onto the bread
 - activity_id: 29
   environment: 6
   errors:
@@ -373,7 +367,7 @@
       until lightly charred and crispy and transfer the slices to a plate
     errors:
     - description: toast but do not until charred and crispy
-      tag: Technique Error
+      tag: Timing Error
     modified_description: Toast-Toast both sides of the slices on the pan for 2 to
       3 minutes and dont wait until lightly charred and crispy and transfer the slices
       to a plate
@@ -388,7 +382,7 @@
   - description: add-1/8 cup shredded mozzarella to a bowl
     errors:
     - description: mozzarella added is not fully shredded
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: add-1/8 cup mozzarella to a bowl and cheese is not fully
       shredded
   - description: Combine-Combine the contents of the bowl
@@ -430,17 +424,17 @@
   steps:
   - description: add-1/16 cup basil to a bowl
     errors:
-    - description: add-1/16 cup oregano to a plate
+    - description: add-1/16 cup oregano to a plate instead of basil to bowl
       tag: Preparation Error
     modified_description: add-1/16 cup oregano to a plate
   - description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
     errors:
-    - description: 'Slice-Slice 3 1/2 inch thick rounds from a muffin (slice straight)
-        using peeler. '
+    - description: Slice-Slice three 1/2 inch thick rounds from a muffin (slice straight)
+        using peeler.
       tag: Technique Error
     - description: Slice-Slice 3 1/2 inch thick rounds from a muffin (slice straight)
         using peeler.
-      tag: Preparation Error
+      tag: Measurement Error
     modified_description: Slice-Slice 3 1/2 inch thick rounds from a muffin (slice
       straight) using peeler.
   - description: add-1/4 tsp salt to a bowl
@@ -576,9 +570,12 @@
     modified_description: Cut-Cut 1/2 cup of cherry tomatoes into halves
   - description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
     errors:
-    - description: Slice-Slice 4 1/4 inch thick rounds from a baguette (slice slanted).
+    - description: Slice-Slice four 1/4 inch thick rounds from a baguette (slice slanted).
         Also baguette are expired.
       tag: Preparation Error
+    - description: Slice-Slice four 1/4 inch thick rounds from a baguette (slice slanted).
+        Also baguette are expired.
+      tag: Measurement Error
     modified_description: Slice-Slice 4 1/4 inch thick rounds from a baguette (slice
       slanted)
   - description: add-1/16 cup basil to a bowl
@@ -600,10 +597,6 @@
     modified_description: pour olive oil using a spoon on 4 slices of baguette. did
       not use brush
   - description: Combine-Combine the contents of the bowl
-    errors:
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: Combine-Combine the contents of the bowl
   - description: add-1/8 cup shredded mozzarella to a bowl
     errors:
     - description: add-1/4 cup shredded mozzarella to a bowl
@@ -612,15 +605,15 @@
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy
     errors:
-    - description: 'Toast-Toast both sides of the slices on the pan for 30 seconds '
+    - description: Toast-Toast both sides of the slices on the pan for 30 seconds
       tag: Timing Error
-    modified_description: 'Toast-Toast both sides of the slices on the pan for 30
-      seconds '
+    modified_description: Toast-Toast both sides of the slices on the pan for 30
+      seconds
   - description: Spoon-Spoon the mixture from the bowl onto the bread
     errors:
     - description: Did not use spoon for taking mixture from bowl on the bread. Direclty
         poured it.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Directly pour mixture from the bowl onto the bread
 - activity_id: 29
   environment: 2
@@ -653,12 +646,12 @@
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     errors:
     - description: Slice instead of cut
-      tag: Preparation Error
-    modified_description: Cut-Slice 1/4 cup of cherry tomatoes into halves
+      tag: Technique Error
+    modified_description: Slice-Slice 1/4 cup of cherry tomatoes into halves
   - description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
   - description: add-1/16 cup basil to a bowl
     errors:
-    - description: Added more
+    - description: Added more basil than specified
       tag: Measurement Error
     modified_description: add-1/4 cup basil to a bowl
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
@@ -666,13 +659,13 @@
     errors:
     - description: Toasted for less time than specified
       tag: Timing Error
-    - description: Used underheated pan
+    - description: Used under heated pan
       tag: Temperature Error
     modified_description: Toast-Toast both sides of the slices on the pan for 1 minute
       on low heat
   - description: add-1/8 cup shredded mozzarella to a bowl
     errors:
-    - description: Spill
+    - description: Spill while adding
       tag: Technique Error
     modified_description: add-1/8 cup shredded mozzarella to a bowl, but spill
   - description: add-1/4 tsp salt to a bowl
@@ -687,7 +680,7 @@
   - description: Combine-Combine the contents of the bowl
   - description: Spoon-Spoon the mixture from the bowl onto the bread
     errors:
-    - description: Spill
+    - description: Spill while spooning the mixture from bowl onto the bread
       tag: Technique Error
     modified_description: Spoon-Spoon the mixture from the bowl onto the bread but
       spill
@@ -722,7 +715,7 @@
   - description: add-1/4 tsp pepper to a bowl
     errors:
     - description: spill pepper while measuring
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: add-1/4 tsp pepper to a bowl and spill some outside whille
       adding in the bowl
   - description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
@@ -738,13 +731,13 @@
     modified_description: add-1/4 cup shredded mozzarella to a bowl
   - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
     errors:
-    - description: Cut-mince 1/4 cup of cherry tomatoes instead of cutting into halves
-      tag: Preparation Error
+    - description: mince 1/4 cup of cherry tomatoes instead of cutting into halves
+      tag: Technique Error
     modified_description: Cut-mince 1/4 cup of cherry tomatoes into halves
   - description: add-In a bowl, add the cut cherry tomatoes
     errors:
     - description: spill some outside while adding to bowl
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: add-In a bowl, add the cut cherry tomatoes and spill some
       outside
   - description: add-1/16 cup basil to a bowl
@@ -752,11 +745,11 @@
     errors:
     - description: Dip baugette in olive oil instead of brushing
       tag: Technique Error
-    modified_description: Brush- Dip 2 slices of baguette with olive oil on both sides
+    modified_description: Dip- Dip 2 slices of baguette with olive oil on both sides
   - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
       until lightly charred and crispy and transfer the slices to a plate
     errors:
-    - description: toast for only 1/2 min and there baugette slices are not chopped
+    - description: toast for only 1/2 min and there baugette slices are not charred
       tag: Timing Error
     modified_description: Toast-Toast both sides of the slices on the pan for 1/2
       min and transfer the slices to a plate
@@ -771,10 +764,6 @@
     modified_description: Spoon-Spoon the mixture from the bowl onto the bread using
       a Fork and spill some outside
   - description: add-1/4 tsp salt to a bowl
-    errors:
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: add-1/4 tsp salt to a bowl
   - description: Combine-Combine the contents of the bowl
 - activity_id: 29
   environment: 7

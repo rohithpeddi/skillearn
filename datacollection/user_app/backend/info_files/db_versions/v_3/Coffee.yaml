@@ -486,7 +486,7 @@
   steps:
   - description: Measure-Measure 12 ounces of cold water
     errors:
-    - description: Measure-Measure 12 ounces of milk
+    - description: Measure-Measure 12 ounces of milk instead of water
       tag: Preparation Error
     modified_description: Measure-Measure 12 ounces of milk
   - description: transfer-transfer water to a kettle
@@ -511,12 +511,12 @@
       assemble the filter cone)
   - description: Place-Place the paper filter in the dripper
     errors:
-    - description: 'NULL'
-      tag: Preparation Error
-    modified_description: Place-Place the paper filter in the dripper
+    - description: place the improperly folded filter paper in dripper
+      tag: Technique Error
+    modified_description: Place-Place the paper filter in the dripper which is not folded properly
   - description: spread-spread open filter in dripper to create a cone
     errors:
-    - description: 'Null'
+    - description: unsuccessful in creating cone with improperly folded filter paper
       tag: Technique Error
     modified_description: spread-spread open filter in dripper to create a cone
   - description: Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
@@ -554,20 +554,16 @@
       motion. Do not overfill beyond the top of the paper filter
     errors:
     - description: pour-fast pour the rest of the milk over the grounds in a bulk
-        and immediately
+        and immediately spilling some outside
       tag: Technique Error
-    - description: pour-fast pour the rest of the milk over the grounds in a bulk
+    - description: pour-fast pour the rest of the milk instead of water over the grounds in a bulk
         and immediately
       tag: Preparation Error
     modified_description: pour-fast pour the rest of the milk over the grounds in
-      a bulk and immediately
+      a bulk and immediately spilling some outside
   - description: drain-Let the coffee drain completely into the mug before removing
       the dripper
   - description: Discard-Discard the paper filter and coffee grounds
-    errors:
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: Discard-Discard the paper filter and coffee grounds
 - activity_id: 5
   environment: 9
   errors:
@@ -575,6 +571,13 @@
     tag: Missing Step
   - description: Grind-Grind the coffee beans until the coffee grounds are the consistency
       of coarse sand, about 20 seconds
+    tag: Missing Step
+  - description: Prepare-Prepare the filter insert by folding the paper filter in
+      half to create a semi-circle, and in half again to create a quarter-circle
+    tag: Missing Step
+  - description: spread-spread open filter in dripper to create a cone
+    tag: Missing Step
+  - description: Boil-Boil the water. (While the water is boiling, assemble the filter
     tag: Missing Step
   id: '5_28'
   is_error: true
@@ -607,7 +610,7 @@
     modified_description: Measure-Measure 16 ounces of cold water
   - description: transfer-transfer water to a kettle
     errors:
-    - description: Splashing some water
+    - description: spill some water while transferring
       tag: Technique Error
     modified_description: transfer-transfer water to a kettle, but splash some water
       outside
@@ -616,22 +619,7 @@
     - description: 4oz instead of (8-12oz)
       tag: Measurement Error
     modified_description: Weigh-Weigh the coffee beans (4oz)
-  - description: Boil-Boil the water. (While the water is boiling, assemble the filter
-      cone)
-    errors:
-    - description: Forget to boil the water
-      tag: Preparation Error
-    modified_description: Boil-Don't boil the water. (assemble the filter cone)
   - description: Place-Place the dripper on top of a coffee mug
-  - description: Prepare-Prepare the filter insert by folding the paper filter in
-      half to create a semi-circle, and in half again to create a quarter-circle
-    errors:
-    - description: Missing step
-      tag: Missing Step
-  - description: spread-spread open filter in dripper to create a cone
-    errors:
-    - description: Missing  step
-      tag: Missing Step
   - description: check-Once the water has boiled, check the temperature of the water.
       (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
       Celsius. If the water is too hot, let it cool briefly.)
@@ -660,7 +648,7 @@
       the dripper
     errors:
     - description: remove the dripper in advance
-      tag: Technique Error
+      tag: Timing Error
     modified_description: drain-Let the coffee drain into the mug, and remove the
       dripper in advance
   - description: Discard-Discard the paper filter and coffee grounds
@@ -701,16 +689,14 @@
   - description: Place-Place the dripper on top of a coffee mug
   - description: Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
     errors:
-    - description: coffee beans 1.4 oz
+    - description: Weigh coffee beans for 1.4 oz which is more than prescribed weight
       tag: Measurement Error
-    - description: coffee beans 1.4 oz
-      tag: Preparation Error
     modified_description: Weigh the coffee beans 1.4 oz
   - description: Place-Place the paper filter in the dripper
   - description: transfer-transfer water to a kettle
   - description: spread-spread open filter in dripper to create a cone
     errors:
-    - description: not cone shape
+    - description: not forming cone shape after spread open
       tag: Technique Error
     modified_description: spread open filter in dripper to any shape (not cone)
   - description: Grind-Grind the coffee beans until the coffee grounds are the consistency
@@ -718,8 +704,6 @@
     errors:
     - description: 15 secs
       tag: Timing Error
-    - description: 15 secs
-      tag: Technique Error
     modified_description: Grind the coffee beans about 15 seconds
   - description: Boil-Boil the water. (While the water is boiling, assemble the filter
       cone)
@@ -727,10 +711,8 @@
       (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
       Celsius. If the water is too hot, let it cool briefly.)
     errors:
-    - description: too hot
+    - description: Heating water to a very high temperature instead of prescribed temperature
       tag: Temperature Error
-    - description: too hot
-      tag: Preparation Error
     modified_description: Once the water has boiled, check the temperature of the
       water. Make sure it's too hot (The water should be between 195-205 degrees Fahrenheit
       or between 91-96 degrees Celsius. )
@@ -754,6 +736,9 @@
   - description: check-Once the water has boiled, check the temperature of the water.
       (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
       Celsius. If the water is too hot, let it cool briefly.)
+    tag: Missing Step
+  - description: Boil-Boil the water. (While the water is boiling, assemble the filter
+      cone)
     tag: Missing Step
   id: '5_37'
   is_error: true
@@ -787,16 +772,10 @@
     modified_description: Measure-Measure 8 ounces of cold water
   - description: transfer-transfer water to a kettle
     errors:
-    - description: pour some water out of kettle
+    - description: transfer-transfer water to a kettle, while splashing some water outside
       tag: Technique Error
     modified_description: transfer-transfer water to a kettle, while splashing some
       water outside
-  - description: Boil-Boil the water. (While the water is boiling, assemble the filter
-      cone)
-    errors:
-    - description: not boil the water
-      tag: Temperature Error
-    modified_description: Boil-Don't boil the water
   - description: Weigh-Weigh the coffee beans (8oz-12 oz)
     errors:
     - description: 4 instead of (8oz-12oz)
@@ -873,7 +852,7 @@
     errors:
     - description: Not properly placing the paper filter.
       tag: Technique Error
-    modified_description: ' Place-Place the paper filter improperly in the dripper.'
+    modified_description: Place-Place the paper filter improperly in the dripper.
   - description: Place-Place the dripper on top of a coffee mug
   - description: spread-spread open filter in dripper to create a cone
   - description: Grind-Grind the coffee beans until the coffee grounds are the consistency
@@ -886,18 +865,18 @@
   - description: Transfer-Transfer the grounds to the filter cone
     errors:
     - description: Spill some while transferring.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Transfer-Transfer the grounds to the filter cone and spill
       some.
   - description: Measure-Measure 12 ounces of cold water
     errors:
     - description: Measuring less than 12 ounces.
       tag: Measurement Error
-    modified_description: ' Measure-Measure 10 ounces of cold water.'
+    modified_description: Measure-Measure 10 ounces of cold water.
   - description: transfer-transfer water to a kettle
     errors:
     - description: Spill some out of the kettle.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Transfer-Transfer water to a kettle and spill some.
   - description: Pour-Pour a small amount of water into the filter to wet the grounds
     errors:
@@ -918,7 +897,7 @@
       the dripper
     errors:
     - description: removing the dripper before the coffee drains completely.
-      tag: Technique Error
+      tag: Timing Error
     modified_description: Drain-remove the dripper before coffee drains completely.
   - description: Boil-Boil the water. (While the water is boiling, assemble the filter
       cone)
@@ -965,29 +944,29 @@
     - description: Weigh-Weigh the coffee beans (0.8oz-0.12 oz) directly without using
         any container. Spilling the coffee beans.
       tag: Technique Error
-    - description: ' Weigh-Weigh the coffee beans (0.6-0.7 oz) as coffee beans got
-        spilled.'
+    - description: Weigh-Weigh the coffee beans (0.6-0.7 oz) as coffee beans got
+        spilled.
       tag: Measurement Error
-    modified_description: ' Weigh-Weigh the coffee beans (0.6-0.7 oz)'
+    modified_description: Weigh-Weigh the coffee beans (0.6-0.7 oz)
   - description: Place-Place the paper filter in the dripper
     errors:
     - description: Place-Place 3 paper filter in the dripper
-      tag: Preparation Error
+      tag: Measurement Error
     modified_description: Place-Place 3 paper filter in the dripper
   - description: Place-Place the dripper on top of a coffee mug
     errors:
-    - description: Place-Place the dripper on top of a bowl. Used bowl instead of
+    - description: Place-Place the dripper on top of a bowl. Use bowl instead of
         coffee mug.
       tag: Preparation Error
     modified_description: Place-Place the dripper on top of a bowl
   - description: spread-spread open filter in dripper to create a cone
     errors:
-    - description: spread-spread open 3 filters in dripper to create a 3 cones without
+    - description: spread-spread open 3 filters in dripper to create 3 cones one on top of another without
         actually folding but just compressing. 3 Filters were just squashed and tried
         to make ice cream cone structure of filters. No folding was done.
       tag: Technique Error
-    modified_description: spread-spread open 3 filters in dripper to create a 3 cones
-      without actually folding but just compressing.
+    modified_description: spread-spread open 3 filters in dripper to create 3 cones
+      without actually folding but just compressing one on top of another.
   - description: Grind-Grind the coffee beans until the coffee grounds are the consistency
       of coarse sand, about 20 seconds
     errors:
@@ -1001,8 +980,8 @@
         coffee grinder spilling occurs. Also timing is less so coffee beans are not
         properly grinded and are like pebbles.
       tag: Technique Error
-    modified_description: 'Grind-Grind the coffee beans until the coffee grounds are
-      the consistency of coarse sand, about 5 seconds. '
+    modified_description: Grind-Grind the coffee beans until the coffee grounds are
+      the consistency of coarse sand, about 5 seconds.
   - description: Transfer-Transfer the grounds to the filter cone
   - description: Measure-Measure 12 ounces of cold water
     errors:
@@ -1021,11 +1000,11 @@
     modified_description: transfer-transfer water to a mixer
   - description: Pour-Pour a small amount of water into the filter to wet the grounds
     errors:
-    - description: 'Pour-Pour a water from tap into the filter by using measuring
-        tsp to wet the grounds '
+    - description: Pour-Pour a water from tap into the filter by using measuring
+        tsp to wet the grounds
       tag: Preparation Error
-    modified_description: 'Pour-Pour a water from tap into the filter by using measuring
-      tsp to wet the grounds '
+    modified_description: Pour-Pour a water from tap into the filter by using measuring
+      tsp to wet the grounds
   - description: Wait-Wait about 30 seconds for the coffee to bloom. (You will see
       small bubbles or foam on the coffee grounds during this step.)
   - description: pour-Slowly pour the rest of the water over the grounds in a circular

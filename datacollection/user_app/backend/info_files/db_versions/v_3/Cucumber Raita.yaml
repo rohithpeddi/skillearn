@@ -523,7 +523,7 @@
   steps:
   - description: Rinse-Rinse 1 medium sized cucumber
     errors:
-    - description: 'Rinse-Rinse 1 medium sized zucchini. '
+    - description: Rinse-Rinse 1 medium sized zucchini instead of cucumber.
       tag: Preparation Error
     - description: Rinse-Rinse 1 medium sized zucchini. Incomplete rinse. Rinse only
         half side of zucchini.
@@ -535,10 +535,10 @@
     - description: whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth.
         Use fresh homemade or packaged curd
       tag: Preparation Error
-    - description: 'whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth.
+    - description: whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth.
         Use fresh homemade or packaged curd. Whisking not done properly. Instead of
         moving hand in circular motion. Used hands by just pusing up and down the
-        curd. '
+        curd.
       tag: Technique Error
     modified_description: whisk-In a coffee mug, whisk 1 cup of chilled curd until
       smooth. Use fresh homemade or packaged curd. Whisking not done properly.
@@ -573,7 +573,7 @@
         Just pressing the zucchini instead of actually cutting it. Also a lot spillage
         of big chunks of zucchini were made. final pieces after chop quite large.
       tag: Technique Error
-    modified_description: chop or grate-chop or grate the zucchini.
+    modified_description: chop or grate-chop or grate the zucchini improperly.
   - description: Add-1/2 teaspoon of chaat masala powder to the bowl
     errors:
     - description: Add-1/2 teaspoon of chaat masala powder to the mug. Action was
@@ -598,7 +598,7 @@
         Combine not done properly instead of circular motion did up and down of knife
         on mixture.
       tag: Technique Error
-    modified_description: Combine all the ingredients in the mug using kitchen knife.
+    modified_description: Combine all the ingredients in the mug using kitchen knife improperly.
 - activity_id: 17
   environment: 1
   errors:
@@ -640,14 +640,14 @@
       the bowl]
   - description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
     errors:
-    - description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
+    - description: add-add 2 tablespoons instead of 1 tablespoon of chopped cilantro leaves to the bowl
       tag: Measurement Error
     modified_description: add-add 2 tablespoon of chopped cilantro leaves to the bowl
   - description: Rinse-Rinse 1 medium sized cucumber
     errors:
     - description: Rinse-Rinse 1 medium sized cucumber [rinsed not done properly.
         should be done for atleast 30 seconds under water but did only for 5 seconds]
-      tag: Timing Error
+      tag: Preparation Error
     modified_description: Rinse-Rinse 1 medium sized cucumber[ rinse time only 5 seconds]
   - description: whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth.
       Use fresh homemade or packaged curd
@@ -665,14 +665,10 @@
     modified_description: peel-peel the cucumber [not properly]
   - description: Add-1/4 teaspoon salt to the bowl
     errors:
-    - description: 'Add-1/2 teaspoon salt to the bowl. '
+    - description: Add-1/2 teaspoon salt to the bowl.
       tag: Measurement Error
     modified_description: Add-1/2 teaspoon salt to the bowl
   - description: Add-1/4 teaspoon of red chilli powder to the bowl
-    errors:
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: Add-1/4 teaspoon of red chilli powder to the bowl
   - description: Add-1/2 teaspoon of chaat masala powder to the bowl
     errors:
     - description: Add-1 teaspoon of chaat masala powder to the bowl
@@ -711,8 +707,8 @@
   steps:
   - description: Add-Add 1 teaspoon of cumin powder to the bowl
     errors:
-    - description: 'spill some cumin powder '
-      tag: Preparation Error
+    - description: spill some cumin powder
+      tag: Technique Error
     modified_description: Add-Add 1 teaspoon of cumin powder to the bowl and spill
       some out while adding
   - description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
@@ -733,7 +729,7 @@
     errors:
     - description: use zucchini instead of cucumber and chop or grate only half zucchini
         instead of full
-      tag: Preparation Error
+      tag: Measurement Error
     modified_description: chop or grate-chop or grate only 1/2 of zucchini instead
       of one medium cucumber
   - description: Add-1/4 teaspoon salt to the bowl
@@ -797,23 +793,19 @@
   - description: Add-1/4 teaspoon salt to the bowl
     errors:
     - description: spill while adding
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Add-1/4 teaspoon salt to the bowl and spill some outside
   - description: whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth.
       Use fresh homemade or packaged curd
     errors:
     - description: forgot to whisk the curd
-      tag: Other
+      tag: Preparation Error
     modified_description: whisk-In a mixing bowl, take 1 cup of chilled curd and forgot
       to whisk until smooth. Use fresh homemade or packaged curd
   - description: Combine-Combine all the ingredients in the bowl
     errors:
     - description: spill some ingredients out while combining
       tag: Technique Error
-    - description: 'NULL'
-      tag: Timing Error
-    - description: 'NULL'
-      tag: Temperature Error
     modified_description: Combine-Combine all the ingredients in the bowl and spill
       some out
 - activity_id: 17
@@ -847,11 +839,10 @@
   - description: Add-1/4 teaspoon of red chilli powder to the bowl
     errors:
     - description: Added tablespoon instead of teaspoon
-      tag: Technique Error
+      tag: Measurement Error
     modified_description: Add-1/4 tablespoon of red chilli powder to the bowl instead
       of teaspoon
   - description: Rinse-Rinse 1 medium sized cucumber
-    modified_description: Rinse-Rinse 1 medium sized cucumber
   - description: Add-Add 1 teaspoon of cumin powder to the bowl
     errors:
     - description: add turmeric instead of cumin powder
@@ -863,12 +854,6 @@
       tag: Technique Error
     modified_description: Peel only half the cucumber
   - description: Add-1/2 teaspoon of chaat masala powder to the bowl
-    errors:
-    - description: 'NULL'
-      tag: Timing Error
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: Add-1/2 teaspoon of chaat masala powder to the bowl
   - description: Add-1/4 teaspoon salt to the bowl
     errors:
     - description: Add 1 teaspoon instead of 1/4 teaspoon
@@ -886,6 +871,6 @@
   - description: chop or grate-chop or grate the cucumber
     errors:
     - description: cut cucumber into thin strips instead of chop/ grate
-      tag: Other
+      tag: Technique Error
     modified_description: cut cucumber into thin strips
   - description: Add-Add the chopped or grated cucumber to the whisked curd

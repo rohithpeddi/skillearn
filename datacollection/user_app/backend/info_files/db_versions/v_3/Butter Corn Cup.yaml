@@ -293,6 +293,8 @@
   errors:
   - description: Add-Add 1 teaspoon of softened butter
     tag: Missing Step
+  - description: Add-Add 1 teaspoon salt to the bowl
+    tag: Missing Step
   id: '13_31'
   is_error: true
   recorded_by: 8
@@ -319,7 +321,7 @@
   steps:
   - description: Measure-Measure 2 cups of frozen corn
     errors:
-    - description: Added more
+    - description: Added 3 cups instead of 2 cups
       tag: Measurement Error
     modified_description: Measure-Measure 3 cups of frozen corn
   - description: Thaw-Thaw the frozen corn by putting it in a sieve and running it
@@ -332,35 +334,30 @@
   - description: Add-Add the corn into a microwave-safe bowl
   - description: Microwave-Microwave the corn for 2 minutes
     errors:
-    - description: Microwaved too quickly
+    - description: Microwaved only for 30 secs
       tag: Timing Error
     modified_description: Microwave-Microwave the corn for 30 seconds
   - description: Add-1 teaspoon of pepper powder to the bowl
     errors:
-    - description: Spill
+    - description: Spill while adding
       tag: Technique Error
     modified_description: Add-1 teaspoon of pepper powder to the bowl but spill
   - description: stir-then stir the bowl
     errors:
     - description: Do not stir enough
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: stir-then stir the bowl for 5 seconds
   - description: Microwave-Microwave the corn for 3 more minutes
     errors:
-    - description: Undercooked
+    - description: Microwave the corn for 2 more minutes rather than 3 mins
       tag: Timing Error
     modified_description: Microwave-Microwave the corn for 2 more minutes
-  - description: Add-Add 1 teaspoon salt to the bowl
-    errors:
-    - description: Skip
-      tag: Missing Step
-    modified_description: Skip this step
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add lime juice to the bowl
   - description: Mix-Mix the contents of the bowl well
     errors:
     - description: Mix for very little time
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Mix-Mix the contents of the bowl for 5 seconds
 - activity_id: 13
   environment: 6
@@ -404,7 +401,7 @@
       it under cold water, but spill by mixing vigorously
   - description: Add-Add the corn into a microwave-safe bowl
     errors:
-    - description: Spill
+    - description: Spill while adding
       tag: Technique Error
     modified_description: Add-Add the corn into a microwave-safe bowl but spill
   - description: Microwave-Microwave the corn for 2 minutes
@@ -413,27 +410,27 @@
     - description: Added garlic butter instead of plain butter
       tag: Preparation Error
     - description: Used hands to add butter
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Add-Add 1 teaspoon of softened butter with hands
   - description: stir-then stir the bowl
     errors:
-    - description: Spill
+    - description: Spill while stirring
       tag: Technique Error
     modified_description: stir-then stir the bowl but spill
   - description: Add-Add 1 teaspoon salt to the bowl
   - description: Extract-Extract lime juice from 1/3 lime
     errors:
-    - description: Spill
+    - description: Spill while extracting
       tag: Technique Error
     modified_description: Extract-Extract lime juice from 1/3 lime but spill
   - description: add-add lime juice to the bowl
     errors:
-    - description: Spill
+    - description: Spill while adding
       tag: Technique Error
     modified_description: add-add lime juice to the bowl but spill
   - description: Mix-Mix the contents of the bowl well
     errors:
-    - description: Spill
+    - description: Spill while  mixing
       tag: Technique Error
     modified_description: Mix-Mix the contents of the bowl well but spill
 - activity_id: 13
@@ -442,6 +439,8 @@
   - description: stir-then stir the bowl
     tag: Missing Step
   - description: Microwave-Microwave the corn for 3 more minutes
+    tag: Missing Step
+  - description: Extract-Extract lime juice from 1/3 lime
     tag: Missing Step
   id: '13_36'
   is_error: true
@@ -484,9 +483,9 @@
       as lid. Put running cold water on cup. Spillage of corn occurs.
   - description: Add-Add the corn into a microwave-safe bowl
     errors:
-    - description: 'Add-Add the corn into a microwave-safe small glass. '
+    - description: Add-Add the corn into a microwave-safe small glass.
       tag: Preparation Error
-    modified_description: 'Add-Add the corn into a microwave-safe small glass. '
+    modified_description: Add-Add the corn into a microwave-safe small glass.
   - description: Microwave-Microwave the corn for 2 minutes
     errors:
     - description: Microwave-Microwave the corn. Timer started from 20 minutes and
@@ -495,7 +494,7 @@
     - description: Microwave-Microwave the corn. Timer started from 20 minutes and
         stopped at 16:16. Did for 3:44 minutes. While removing from microwave did
         not use gloves
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Microwave-Microwave the corn. Timer started from 20 minutes
       and stopped at 16:16. Did for 3:44 minutes. While removing from microwave did
       not use gloves
@@ -514,11 +513,6 @@
     - description: Add-Add 1 teaspoon of vegetable oil.
       tag: Preparation Error
     modified_description: Add-Add 1 teaspoon of vegetable oil.
-  - description: Extract-Extract lime juice from 1/3 lime
-    errors:
-    - description: Extract-Extract lime juice from 1/3 lime
-      tag: Missing Step
-    modified_description: Extract-Extract lime juice from 1/3 lime
   - description: Add-Add 1 teaspoon salt to the bowl
     errors:
     - description: Add-Add 1 teaspoon sugar to the bowl
@@ -636,7 +630,7 @@
   - description: Add-Add the corn into a microwave-safe bowl
     errors:
     - description: spillage while adding
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Add-Add the corn into a microwave-safe bowl and spill some
       while adding
   - description: Microwave-Microwave the corn for 2 minutes
@@ -644,9 +638,12 @@
     errors:
     - description: spilled some pepper into corn bowl while measuring leading to adding
         extra pepper
+      tag: Technique Error
+    - description: spilled some pepper into corn bowl while measuring leading to adding
+        extra pepper
       tag: Measurement Error
     modified_description: Add-1 teaspoon of pepper powder to the bowl and spill some
-      while measuring
+      while measuring in to the bowl.
   - description: Extract-Extract lime juice from 1/3 lime
     errors:
     - description: directly extract lime juice to the bowl. so next step becomes obselete
@@ -665,7 +662,7 @@
   - description: Mix-Mix the contents of the bowl well
     errors:
     - description: spilled some corn out
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Mix-Mix the contents of the bowl well and spill some corn
       out while stirring
 - activity_id: 13
@@ -701,9 +698,9 @@
       under cold water
     errors:
     - description: spill the corn while adding it to seive
-      tag: Preparation Error
+      tag: Technique Error
     - description: spill some corn in sink while thawing
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Thaw-Thaw the frozen corn by putting it in a sieve and running
       it under cold water. Spill some out while putting corn in seive and spill some
       corn in sink while thawing
@@ -715,13 +712,13 @@
   - description: Mix-Mix the contents of the bowl well
     errors:
     - description: spill while mixing
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Mix-Mix the contents of the bowl well and spill them out
       while mixing
   - description: Add-Add 1 teaspoon salt to the bowl
     errors:
     - description: spill some salt while adding
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Add-Add 1 teaspoon salt to the bowl and spill some out
   - description: Extract-Extract lime juice from 1/3 lime
   - description: add-add lime juice to the bowl
@@ -768,7 +765,7 @@
       under cold water
     errors:
     - description: Thaw under hot water
-      tag: Preparation Error
+      tag: Temperature Error
     modified_description: Thaw-Thaw the frozen corn by putting it in a sieve and running
       it under hot water
   - description: Add-Add the corn into a microwave-safe bowl
@@ -797,6 +794,4 @@
       tag: Technique Error
     modified_description: stir-stir the contents in bowl 2 times
   - description: Mix-Mix the contents of the bowl well
-    errors:
-    - description: 'null'
-      tag: Temperature Error
+
