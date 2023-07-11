@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 import cv2
 import matplotlib.pyplot as plt
@@ -18,8 +19,12 @@ class SequenceLoader:
         self._logger = self._init_logger(debug)
         self._rec_id = rec_id
         self._device = device
-        self._data_folder = Path(DATA_ROOT) / "hololens" / rec_id / "sync"
-        self._calib_folder = Path(DATA_ROOT) / "calibration"
+        # self._data_folder = Path(DATA_ROOT) / "hololens" / rec_id / "sync"
+        # self._calib_folder = Path(DATA_ROOT) / "calibration"
+
+        # self._data_folder = Path(f"/data/WEBSITE/{rec_id}") / "sync"
+        self._data_folder = Path(f"/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG/{rec_id}") / "sync"
+        self._calib_folder = Path("/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup") / "calibration"
 
         # load meta data
         self._load_meta_data()
@@ -44,7 +49,7 @@ class SequenceLoader:
             for i in range(self._num_frames)
         ]
         self._depth_files = [
-            str(self._data_folder / "depth" / "frames" / f"depth-{i:06d}.png")
+            str(self._data_folder / "depth_ahat" / "depth" / f"depth-{i:06d}.png")
             for i in range(self._num_frames)
         ]
 
@@ -98,13 +103,12 @@ class SequenceLoader:
         )  # shape: [H, W]
         return depth
 
-    def _colorize_depth(self, depth, min_depth=None, max_depth=None):
+    def _colorize_depth(self, depth, min_depth=0.0, max_depth=2.0):
         # Min-max depth normalization
-        if min_depth is None:
-            min_depth = torch.min(depth)
-        if max_depth is None:
-            max_depth = torch.max(depth)
-        depth_norm = (depth - min_depth) / (max_depth - min_depth)
+        depth_scale = depth / self._depth_scale
+        depth_scale[depth_scale < min_depth] = 0.0
+        depth_scale[depth_scale > max_depth] = 0.0
+        depth_norm = (depth_scale - min_depth) / (max_depth - min_depth)
         # Apply colormap
         depth_colored = self._colormap(depth_norm.cpu().numpy())[:, :, :3] * 255
         return torch.from_numpy(depth_colored.astype(np.uint8))

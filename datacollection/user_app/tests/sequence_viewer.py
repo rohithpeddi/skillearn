@@ -6,7 +6,7 @@ from datacollection.user_app.backend.app.post_processing import (
 
 
 if __name__ == "__main__":
-    rec_id = "4_22"
+    rec_id = "7_5"
 
     loader = SequenceLoader(rec_id=rec_id, device="cuda:0", debug=False)
 
