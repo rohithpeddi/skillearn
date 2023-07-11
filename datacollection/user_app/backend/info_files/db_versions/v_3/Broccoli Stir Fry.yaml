@@ -614,12 +614,12 @@
   steps:
   - description: Add-Add 1 tablespoon honey to the bowl
     errors:
-    - description: Spill
+    - description: Spill while adding
       tag: Technique Error
     modified_description: Add-Add 1 tablespoon honey to the bowl but spill
   - description: Add-Add 1 teaspoon cornstarch to the bowl
     errors:
-    - description: Spill
+    - description: Spill while adding
       tag: Technique Error
     modified_description: Add-Add 1 teaspoon cornstarch to the bowl but spill
   - description: Add-Add 1/8 teaspoon black pepper to the bowl
@@ -627,7 +627,7 @@
   - description: mince-mince garlic
   - description: Add-Add 1/8 cup soy sauce to the bowl
     errors:
-    - description: Spill
+    - description: Spill while adding
       tag: Technique Error
     modified_description: Add-Add 1/8 cup soy sauce to the bowl but spill
   - description: Take-Take 2 cremini mushrooms
@@ -635,14 +635,14 @@
   - description: Take-Take 1 bell pepper
   - description: Add-Add 1/6 cup water the bowl
     errors:
-    - description: Spill
+    - description: Spill the water while adding
       tag: Technique Error
     modified_description: Add-Add 1/6 cup water the bowl but spill
   - description: slice-slice mushrooms
   - description: slice-slice 1/3 of the bell pepper
   - description: Whisk-Whisk the contents of bowl
     errors:
-    - description: Spill
+    - description: Spill while whisking
       tag: Technique Error
     modified_description: Whisk-Whisk the contents of bowl, spilling due to vigorous
       whisking
@@ -660,7 +660,7 @@
   - description: continue cooking-continue cooking, stirring often, for 2-3 minutes,
       until vegetables are crisp-tender
     errors:
-    - description: Spill
+    - description: Spill while cooking/ stirring
       tag: Technique Error
     modified_description: continue cooking-continue cooking, stirring often, for 2-3
       minutes, until vegetables are crisp-tender. Spill while stirring
@@ -668,7 +668,7 @@
   - description: Pour-Pour the sauce into the skillet
   - description: cook-cook, stirring, for 1 minute until the sauce thickens
     errors:
-    - description: Spill
+    - description: Spill while stirring
       tag: Technique Error
     modified_description: cook-cook, stirring, for 1 minute until the sauce thickens,
       spill
@@ -680,6 +680,8 @@
   - description: Whisk-Whisk the contents of bowl
     tag: Missing Step
   - description: Whisk-Whisk the sauce again to recombine the ingredients
+    tag: Missing Step
+  - description: mince-mince garlic
     tag: Missing Step
   id: '23_32'
   is_error: true
@@ -728,11 +730,6 @@
     - description: Peel-Peel 2 cloves of garlic improperly
       tag: Technique Error
     modified_description: Peel-Peel 2 cloves of garlic improperly
-  - description: mince-mince garlic
-    errors:
-    - description: Do not mince garlic
-      tag: Missing Step
-    modified_description: mince-add without mincing garlic
   - description: Add-Add 1/6 cup water the bowl
   - description: Add-Add 1/8 teaspoon black pepper to the bowl
   - description: Add-Add 2 cloves minced garlic to the bowl
@@ -751,7 +748,7 @@
       on medium-high, turn the heat down to medium
   - description: Add-Add bell pepper to the skillet
     errors:
-    - description: 'Add bell pepper before cooking for 4 min '
+    - description: Add bell pepper before cooking for 4 min
       tag: Order Error
     modified_description: Add-Add bell pepper before cooking for 4 min
   - description: continue cooking-continue cooking, stirring often, for 2-3 minutes,
@@ -759,23 +756,18 @@
   - description: Pour-Pour the sauce into the skillet
   - description: cook-cook, stirring, for 1 minute until the sauce thickens
     errors:
-    - description: Cook - Cook, stirring, for 1 minute until mixture is burnt
-      tag: Temperature Error
-    - description: 'Cook until it is burnt '
+    - description: Cook until it is burnt
       tag: Timing Error
-    - description: NONE
-      tag: Other
-    - description: NONE
-      tag: Other
-    - description: NONE
-      tag: Other
-    - description: NONE
-      tag: Other
     modified_description: Cook - Cook, stirring, for 1 minute until mixture is burnt
 - activity_id: 23
   environment: 1
   errors:
   - description: Peel-Peel 2 cloves of garlic
+    tag: Missing Step
+  - description: continue cooking-continue cooking, stirring often, for 2-3 minutes,
+      until vegetables are crisp-tender
+    tag: Missing Step
+  - description: Heat-Heat 2 tablespoons olive oil in a skillet over medium-high heat
     tag: Missing Step
   - tag: Order Error
   id: '23_39'
@@ -805,16 +797,10 @@
   - description: mince-mince garlic
     errors:
     - description: Mince one garlic finely and one garlic large pieces.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Mince-Mince two garlic improperly one garlic finely and
       other with large pieces.
   - description: Add-Add 2 cloves minced garlic to the bowl
-  - description: continue cooking-continue cooking, stirring often, for 2-3 minutes,
-      until vegetables are crisp-tender
-    errors:
-    - description: This step is not feasible to do.
-      tag: Missing Step
-    modified_description: Skip this step.
   - description: Add-Add 1/8 teaspoon black pepper to the bowl
     errors:
     - description: Add 1/4 tsp instead of 1/8 tsp.
@@ -825,12 +811,12 @@
     - description: Add 1/2 cup instead of 1/6 cup.
       tag: Measurement Error
     - description: Spill the contents while pouring water.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Add-Add 1/6 cup water the bowl and spill.
   - description: Whisk-Whisk the contents of bowl
     errors:
     - description: Spill while whisking the bowl.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Whisk-Whisk the contents of bowl and also spill the contents.
   - description: Set-Set aside the sauce mixture
   - description: Take-Take 2 cremini mushrooms
@@ -843,17 +829,17 @@
   - description: Take-Take 5 in number broccoli florets
     errors:
     - description: Take only 4 broccoli florets instead of 5
-      tag: Other
+      tag: Measurement Error
     modified_description: Take-Take 4 in number broccoli florets
   - description: Add-Add 1/2 tablespoon minced ginger to the bowl
     errors:
     - description: Add 1/2 teaspoon instead of 1/2 table spoon.
       tag: Measurement Error
-    modified_description: ' Add-Add 1/2 teaspoon minced ginger to the bowl.'
+    modified_description: Add-Add 1/2 teaspoon minced ginger to the bowl.
   - description: Pour-Pour the sauce into the skillet
     errors:
     - description: Sauce is spilled while pouring.
-      tag: Preparation Error
+      tag: Measurement Error
     modified_description: Pour-Pour the sauce into the skillet and also try to spill
       the sauce.
   - description: slice-slice mushrooms
@@ -866,20 +852,13 @@
     - description: Instead of 1/3 using 1/2 bell pepper.
       tag: Measurement Error
     modified_description: Slice-Slice 1/2 of the bell pepper.
-  - description: Heat-Heat 2 tablespoons olive oil in a skillet over medium-high heat
-    errors:
-    - description: Not feasible step.
-      tag: Missing Step
-    modified_description: Skip this step.
   - description: Add-Add broccoli to the skillet
   - description: Add-add sliced mushrooms to the skillet
   - description: cook-cook, stirring often, for 4 minutes. If the pan gets too hot
       on medium-high, turn the heat down to medium
     errors:
-    - description: Changing the heat down to low-high instead of medium.
+    - description: Changing the heat down to low-high instead of medium. Need to set a temperature for this.
       tag: Temperature Error
-    - description: Need to set a temperature for this.
-      tag: Other
     modified_description: Cook-Cook, stirring often, for 4 minutes. If the pan gets
       too hot on medium-high, turn the heat down to medium
   - description: Add-Add bell pepper to the skillet
@@ -896,6 +875,6 @@
     modified_description: Add-Add 1 teaspoon honey to the bowl.
   - description: cook-cook, stirring, for 1 minute until the sauce thickens
     errors:
-    - description: Stir for less than a minute than 1 minute.
+    - description: cook for less than a minute than 1 minute.
       tag: Timing Error
     modified_description: Cook-Cook, stirring, for 0.5 minute until the sauce thickens.
