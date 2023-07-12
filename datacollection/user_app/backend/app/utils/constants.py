@@ -356,7 +356,7 @@ class Box_Constants:
 	SPATIAL = "spatial"
 	MICROPHONE = "mc"
 	IMU = "imu"
-	SYNCHRONIZED = "synchronized"
+	SYNC = "sync"
 	ANNOTATIONS = "annotations"
 	PRETRAINED_FEATURES = "pretrained_features"
 	GOPRO = "gopro"

@@ -47,8 +47,12 @@ logger = get_logger(__name__)
 class BoxService:
 	
 	def __init__(self):
+		self.user_id = '23441227496'
+		self.root_folder_id = '202193575471'
+		self.client_id = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b'
+		self.client_secret = 'TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
+		self.ccg_credentials = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
 
-		
 		ccg_auth = CCGAuth(client_id=self.client_id, client_secret=self.client_secret, user=self.user_id)
 		self.client = Client(ccg_auth)
 		
@@ -111,8 +115,13 @@ class BoxService:
 			if not is_item_present:
 				file_path = os.path.join(folder_path, file_name)
 				logger.info(f"[{recording_id}] Uploading file: {file_name}")
+				upload_start_time = time.time()
 				box_folder.upload(file_path)
-				logger.info(f"[{recording_id}] Uploaded file: {file_name}")
+				total_compress_pv_time = time.strftime(
+					"%H:%M:%S",
+					time.gmtime(time.time() - upload_start_time)
+				)
+				logger.info(f"[{recording_id}] Uploaded file: {file_name}, Time taken: {total_compress_pv_time}")
 	
 	def _upload_folders_and_subfolders(self, parent_box_folder_id, parent_local_folder, folders, recording_id):
 		for folder in folders:
@@ -125,7 +134,7 @@ class BoxService:
 		recording_folder_id = self._fetch_subfolder(activity_folder_id, recording.id)
 		recording_id = recording.id
 		data_recording_directory = os.path.join(data_parent_directory, recording.id)
-		raw_data_directory = os.path.join(data_recording_directory, const.RAW)
+		# raw_data_directory = os.path.join(data_recording_directory, const.RAW)
 		# if os.path.exists(raw_data_directory):
 		# 	logger.info(f"[{recording_id}] Uploading raw data")
 		# 	raw_folder_id = self._fetch_subfolder(recording_folder_id, const.RAW)
@@ -137,14 +146,15 @@ class BoxService:
 		# 	)
 		# 	logger.info(f"[{recording_id}] Raw data uploaded")
 
-		sync_data_directory = os.path.join(data_recording_directory, const.SYNCHRONIZED)
+		sync_data_directory = os.path.join(data_recording_directory, const.SYNC)
 		if os.path.exists(sync_data_directory):
 			logger.info(f"[{recording_id}] Uploading synchronized data")
-			sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNCHRONIZED)
+			sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNC)
 			self._upload_folders_and_subfolders(
 				sync_folder_id,
 				sync_data_directory,
-				[const.PV, const.DEPTH_AHAT, const.SPATIAL, const.IMU]
+				[const.PV, const.DEPTH_AHAT, const.SPATIAL, const.IMU],
+				recording_id
 			)
 			logger.info(f"[{recording_id}] Synchronized data uploaded")
 		
