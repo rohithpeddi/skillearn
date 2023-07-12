@@ -508,8 +508,6 @@
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the
       microwave for about 30 seconds
     errors:
-    - description: Not sure how much butter, but not 1 tbsp
-      tag: Preparation Error
     - description: Not 1 tbsp butter
       tag: Measurement Error
     - description: Not enough 30 secs
@@ -537,13 +535,15 @@
     errors:
     - description: More than 1/4 tsp
       tag: Measurement Error
-    - description: 'Measure on top of mug, should measure well at somewhere else '
+    - description: Measure on top of mug to spill
       tag: Technique Error
   - description: stir-stir the mug
   - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     errors:
     - description: Not exact bite-size, larger
       tag: Technique Error
+    - description: Not exact bite-size, larger
+      tag: Measurement Error
   - description: add-add bread pieces to the egg mixture in the mug, pressing the
       bread down into the egg
   - description: Put-Put the cup's contents on a plate
@@ -585,6 +585,8 @@
     errors:
     - description: cut into two pieces
       tag: Preparation Error
+    - description: Not exact bite-size, larger
+      tag: Measurement Error
     modified_description: Cut or tear-Cut or tear 1 slices of bread into two pieces
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the
       microwave for about 30 seconds
@@ -618,7 +620,7 @@
       tag: Timing Error
     - description: medium instead of high
       tag: Temperature Error
-    modified_description: Microwave-Microwave on ,medium for 90 seconds until the
+    modified_description: Microwave-Microwave on ,medium for 45 seconds until the
       egg is cooked through
   - description: Put-Put the cup's contents on a plate
   - description: cut-cut the contents on plate, and serve
