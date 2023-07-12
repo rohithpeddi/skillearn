@@ -402,8 +402,8 @@
   - description: Take-Take a tomato
     errors:
     - description: Half tomato only
-      tag: Preparation Error
-    modified_description: 'Take half tomato '
+      tag: Measurement Error
+    modified_description: Take half tomato
   - description: Cut-Cut tomato into two pieces
     errors:
     - description: Chop tomato into many pieces
@@ -495,7 +495,7 @@
       tag: Technique Error
   - description: add-1/2 tsp ground black pepper to the bowl
     errors:
-    - description: 'No measurements used, pour directly '
+    - description: No measurements used, pour directly
       tag: Measurement Error
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
@@ -507,7 +507,7 @@
   - description: Pour-Pour the egg mixture into the pan
   - description: Transfer-Transfer omelette to the plate and serve with the tomatoes
     errors:
-    - description: 'Try to flip over before transferring '
+    - description: Try to flip over before transferring
       tag: Technique Error
 - activity_id: 22
   environment: 6
@@ -542,8 +542,8 @@
   steps:
   - description: Chop-Chop 2 tbsp cilantro
     errors:
-    - description: Didn't wash and chop the cilantro.
-      tag: Technique Error
+    - description: Didn't wash and did not chop the cilantro.
+      tag: Preparation Error
     modified_description: Take-Take 2 tbsp cilantro without washing it.
   - description: Take-Take a tomato
   - description: Cut-Cut tomato into two pieces
@@ -557,7 +557,7 @@
       colour
     errors:
     - description: Didn't cook the tomatoes until they soften and change in colour.
-      tag: Technique Error
+      tag: Timing Error
     modified_description: Cook-Cook the tomatoes cut-side down and don't turn them
       to soften and colour
   - description: add-add the chopped cilantro to the bowl
@@ -680,8 +680,8 @@
     errors:
     - description: splashing some part of the egg
       tag: Technique Error
-    modified_description: ' crack-crack one egg in a bowl, but splashing some part
-      of the egg'
+    modified_description: crack-crack one egg in a bowl, but splashing some part
+      of the egg
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
     errors:
     - description: not heat the oil
@@ -691,7 +691,7 @@
   - description: Cut-Cut tomato into two pieces
     errors:
     - description: Cut some small pieces, not two pieces
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Cut-Cut tomato into some small pieces
   - description: add-1/2 tsp ground black pepper to the bowl
     errors:
@@ -707,8 +707,8 @@
     errors:
     - description: Pour some part of the egg outside the pan
       tag: Technique Error
-    modified_description: ' Pour-Pour the egg mixture into the pan, but some part
-      of the egg is outside'
+    modified_description: Pour-Pour the egg mixture into the pan, but some part
+      of the egg is outside
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
     errors:
@@ -815,9 +815,6 @@
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
   - description: Transfer-Transfer omelette to the plate and serve with the tomatoes
-    errors:
-    - description: 'Null'
-      tag: Temperature Error
 - activity_id: 22
   environment: 7
   errors:
@@ -854,15 +851,15 @@
   - description: Cut-Cut tomato into two pieces
   - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
     errors:
-    - description: not a small pan, it's a medium side pan
+    - description: not a small pan, it's a medium size pan
       tag: Preparation Error
   - description: cook-cook the tomatoes cut-side down until they start to soften and
       colour
   - description: add-add the chopped cilantro to the bowl
   - description: Beat-Beat the contents of the bowl
     errors:
-    - description: using hand finger? to beat the contents...
-      tag: Technique Error
+    - description: using hand finger to beat the contents...
+      tag: Preparation Error
   - description: Scoop-Scoop the tomatoes from the pan
     errors:
     - description: more like pour them out
