@@ -37,14 +37,25 @@ def process_directory(
 		
 		recording_id = recording.id
 		
-		remote_sync_data_directory = os.path.join(data_recording_directory_path, recording.id, const.SYNC)
+		remote_sync_data_directory = os.path.join(data_recording_directory_path, const.SYNC)
 		local_sync_data_directory = os.path.join(temp_local_data_directory, recording.id, const.SYNC)
 		if not os.path.exists(local_sync_data_directory):
 			os.makedirs(local_sync_data_directory)
 		
 		start_nas_to_local_time = time.time()
 		logger.info(f"[{recording.id}] BEGIN NAS TO LOCAL")
-		shutil.copytree(remote_sync_data_directory, local_sync_data_directory)
+
+		for item in os.listdir(remote_sync_data_directory):
+			source_item_path = os.path.join(remote_sync_data_directory, item)
+			destination_item_path = os.path.join(local_sync_data_directory, item)
+			try:
+				if os.path.isdir(source_item_path):
+					shutil.copytree(source_item_path, destination_item_path, symlinks=False, ignore=None)
+				else:
+					shutil.copy2(source_item_path, destination_item_path)
+			except Exception as e:
+				logger.error(f"[{recording.id}] Error copying files from NAS to local : {e}")
+
 		total_nas_to_local_time = time.strftime(
 			"%H:%M:%S",
 			time.gmtime(time.time() - start_nas_to_local_time)
@@ -68,8 +79,8 @@ def process_directory(
 		else:
 			logger.info(f"[{recording_id}] Skipping compressing Depth data")
 		
-		sync_depth_ab_frames_zip_file_path = os.path.join(local_sync_depth_parent_directory, const.AB_ZIP)
-		if not os.path.exists(sync_depth_ab_frames_zip_file_path):
+		local_sync_depth_ab_frames_zip_file_path = os.path.join(local_sync_depth_parent_directory, const.AB_ZIP)
+		if not os.path.exists(local_sync_depth_ab_frames_zip_file_path):
 			logger.info(f"[{recording_id}] Compressing Active Brightness data")
 			start_compress_ab_time = time.time()
 			CompressDataService.compress_dir(local_sync_depth_parent_directory, const.AB)
@@ -109,8 +120,9 @@ def begin_post_processing():
 	
 	db_service = FirebaseService()
 	box_service = BoxService()
-	max_workers = 1
+	max_workers = 12
 	data_recording_directories = os.listdir(data_parent_directory)
+	# data_recording_directories = ['10_50']
 	logger.info("Preparing to synchronize using ThreadPoolExecutor with max_workers = 1")
 	# Create a ThreadPoolExecutor with a suitable number of threads (e.g., 4)
 	with ThreadPoolExecutor(max_workers=max_workers) as executor:
