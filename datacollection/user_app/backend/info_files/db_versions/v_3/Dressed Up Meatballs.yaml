@@ -37,19 +37,19 @@
   - description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
       powder.
   - description: Pour-Pour the sauces over the meatballs
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
-    - description: Microwave the plate, covered, on high for 5 minutes instead of
+    - description: Microwave the plate, covered, on high for 1.5 minutes instead of
         1.5 minutes
       tag: Timing Error
-    modified_description: Microwave-Microwave the plate, covered, on high for 5 minutes
+    modified_description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
-    - description: Microwave the plate, covered, on high for 5 minutes instead of
+    - description: Microwave the plate, covered, on high for 1.5 minutes instead of
         1.5 minutes
       tag: Timing Error
-    modified_description: Microwave-Microwave the plate, covered, on high for 5 minutes
+    modified_description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
   - description: Microwave-Microwave for 1 more minute
 - activity_id: 2
@@ -96,9 +96,9 @@
     modified_description: Top-Top the plate with the carrots, onion, garlic and 1/4
       tsp pepper powder, but put extra 1/4 tsp pepper to the bowl
   - description: Pour-Pour the sauces over the meatballs
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
   - description: Microwave-Microwave for 1 more minute
 - activity_id: 2
@@ -140,9 +140,9 @@
   - description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
       powder.
   - description: Pour-Pour the sauces over the meatballs
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
   - description: Microwave-Microwave for 1 more minute
 - activity_id: 2
@@ -228,9 +228,9 @@
   - description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
       powder.
   - description: Pour-Pour the sauces over the meatballs
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
   - description: Microwave-Microwave for 1 more minute
 - activity_id: 2
@@ -272,9 +272,9 @@
   - description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
       powder.
   - description: Pour-Pour the sauces over the meatballs
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
   - description: Microwave-Microwave for 1 more minute
 - activity_id: 2
@@ -406,7 +406,7 @@
       tag: Technique Error
     modified_description: Put-Put the meatballs over the sauce and transfer to the
       plate.
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
     - description: Microwave the plate uncovered without covering it.
       tag: Preparation Error
@@ -417,7 +417,7 @@
     - description: Using a fork instead of a spoon.
       tag: Preparation Error
     modified_description: Stir-Stir the contents in the microwave with a fork.
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
     - description: Instead of high power level we microwave on a medium power level.
       tag: Temperature Error
@@ -664,17 +664,17 @@
       tag: Measurement Error
     modified_description: Top-Top the plate with the carrots, onion, garlic and 1/2
       tsp pepper powder.
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
     - description: Instead of high using medium power level.
       tag: Temperature Error
     - description: Not using the microwave cover to cover the contents.
       tag: Preparation Error
     modified_description: Microwave-Microwave the plate, covered, on medium power
-      level for 5 minutes.
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+      level for 1.5 minutes.
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
-    - description: Instead of 5 minutes only 3 minutes.
+    - description: Instead of 1.5 minutes only 3 minutes.
       tag: Timing Error
     - description: Not using the microwave cover to cover the contents.
       tag: Preparation Error
@@ -818,7 +818,7 @@
     - description: Microwave-safe bowl
       tag: Preparation Error
     modified_description: Place 5 meatballs in a Microwave-safe bowl
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
     - description: 2 mins
       tag: Timing Error
@@ -841,7 +841,7 @@
       powder.
   - description: Pour-Pour the sauces over the meatballs
   - description: Stir-Stir the contents in the microwave with a spoon
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   - description: Stir-Stir the contents in the microwave with a spoon
   - description: Microwave-Microwave for 1 more minute
     errors:
@@ -960,9 +960,9 @@
     - description: 3 meatballs instead of 5 meatballs
       tag: Measurement Error
     modified_description: Place-Place 3 meatballs in a Microwave-safe plate
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
-    - description: 3 instead of 5 minutes
+    - description: 3 instead of 1.5 minutes
       tag: Timing Error
     - description: medium instead of high
       tag: Temperature Error
@@ -991,9 +991,9 @@
   - description: Pour-Pour the sauces over the meatballs
   - description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
       powder.
-  - description: Microwave-Microwave the plate, covered, on high for 5 minutes
+  - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
     errors:
-    - description: 1 minute instead of 5 minutes
+    - description: 1 minute instead of 1.5 minutes
       tag: Timing Error
     modified_description: Microwave-Microwave the plate, covered, on high for 1 minute
   - description: Stir-Stir the contents in the microwave with a spoon
