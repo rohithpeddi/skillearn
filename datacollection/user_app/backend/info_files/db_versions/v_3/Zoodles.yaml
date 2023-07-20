@@ -251,7 +251,7 @@
   steps:
   - description: Peel-Peel 1 garlic cloves
     errors:
-    - description: Do not peel garlic
+    - description: Do not peel garlic properly
       tag: Technique Error
     modified_description: Peel-Do not peel 1 garlic cloves
   - description: Heat-Heat a large pan on medium heat
@@ -268,7 +268,7 @@
   - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
     errors:
     - description: Grate 1 medium zucchini into thin noodles
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Grate -Grate 1 medium zucchini into thin noodles using a
       grater
   - description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not
@@ -295,10 +295,6 @@
 - activity_id: 18
   environment: 2
   errors:
-  - description: season-pepper to taste
-    tag: Missing Step
-  - description: Top-Top with more parmesan if desired
-    tag: Missing Step
   id: '18_28'
   is_error: true
   recorded_by: 3
@@ -347,8 +343,11 @@
       tag: Technique Error
     modified_description: Add-Add 1 large chopped  garlic clove to the pan
   - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
-    modified_description: ' Spiralize-Spiralize 1 medium zucchini into thin noodles
-      using a spiralizer, stop after doing it till half'
+    errors:
+    - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer, stop after doing it till half
+      tag: Technique Error
+    modified_description: Spiralize-Spiralize 1 medium zucchini into thin noodles
+      using a spiralizer, stop after doing it till half
   - description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not
       to burn garlic
     errors:
@@ -356,11 +355,8 @@
       tag: Timing Error
     modified_description: Cook-Cook garlic until fragrant (about 1 minutes). burn
       garlic
+  - description: season-pepper to taste
   - description: season-season with salt
-    errors:
-    - description: NONE
-      tag: Other
-    modified_description: Season-Season with pepper and salt to taste.
   - description: Add-1/6 cup grated parmesan cheese
     errors:
     - description: Spill while adding grated cheese
@@ -374,13 +370,7 @@
       tag: Technique Error
     modified_description: Cook-Spill and burn the zoodles while sauteing to cook
   - description: Remove-Remove from heat
-    errors:
-    - description: NONE
-      tag: Measurement Error
-    - description: NONE
-      tag: Other
-    modified_description: ' Remove-Remove from heat and top with more parmesan if
-      desired.'
+  - description: Top-Top with more parmesan if desired
 - activity_id: 18
   environment: 5
   errors:
@@ -429,7 +419,7 @@
   - description: Peel-Peel 1 garlic cloves
     errors:
     - description: peel only halfway
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Peel- incompletely Peel 1 garlic cloves
   - description: Add-Add 1 large minced garlic cloves to the pan
     errors:
@@ -447,12 +437,12 @@
   - description: Add-1/6 cup grated parmesan cheese
     errors:
     - description: spill while adding
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Add-1/6 cup grated parmesan cheese and spill some outside
   - description: Remove-Remove from heat
   - description: Top-Top with more parmesan if desired
     errors:
-    - description: 'top with cheddar cheese '
+    - description: top with cheddar cheese
       tag: Preparation Error
     modified_description: Top-Top with more cheddar if desired
 - activity_id: 18
@@ -495,26 +485,29 @@
   - description: season-season with salt
     errors:
     - description: spilled salt while adding
-      tag: Preparation Error
-    modified_description: 'season-season with salt and spill some out while doing
-      it '
+      tag: Technique Error
+    modified_description: season-season with salt and spill some out while doing
+      it
   - description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not
       to burn garlic
   - description: Top-Top with more parmesan if desired
     errors:
     - description: spill some out while adding
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Top-Top with more parmesan if desired and spilled some outside
   - description: Remove-Remove from heat
   - description: Cook-Cook for 2 minutes or until the zoodles are done
     errors:
     - description: did not put pan on heat to cook
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Cook-Cook for 2 minutes or until the zoodles are done and
       did not put pan on heat to cook
 - activity_id: 18
   environment: 6
   errors:
+  - description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not
+      to burn garlic
+    tag: Missing Step
   - tag: Order Error
   id: '18_41'
   is_error: true
@@ -546,10 +539,6 @@
       tag: Temperature Error
     modified_description: Heat-Heat a large pan on low heat.
   - description: Peel-Peel 1 garlic cloves
-    errors:
-    - description: Improperly peel garlic.
-      tag: Measurement Error
-    modified_description: Peel-Peel 1 garlic cloves.
   - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
     errors:
     - description: Instead of spiralizing chopping the zucchini.
@@ -575,15 +564,8 @@
   - description: season-season with salt
     errors:
     - description: Spilled some salt.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: season-season with salt and spill some outside.
-  - description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not
-      to burn garlic
-    errors:
-    - description: Step cannot be achieved.
-      tag: Missing Step
-    modified_description: ' Cook-Cook garlic until fragrant (about 1 minutes). Be
-      careful not to burn garlic'
   - description: Cook-Cook for 2 minutes or until the zoodles are done
     errors:
     - description: Cooking for less than 2 minutes.
@@ -593,7 +575,7 @@
   - description: Top-Top with more parmesan if desired
     errors:
     - description: Spill some parmeasan while adding.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Top-Top with more parmesan if desired and spill some.
   - description: Remove-Remove from heat
 - activity_id: 18
@@ -633,7 +615,7 @@
     errors:
     - description: Peel-Peel 1 garlic cloves without pressing the garlic.
       tag: Technique Error
-    modified_description: 'Peel-Peel 1 garlic cloves without pressing the garlic. '
+    modified_description: Peel-Peel 1 garlic cloves without pressing the garlic.
   - description: Melt-Melt 1 tablespoons of softened butter
     errors:
     - description: Melt-Melt 1 tablespoons of clarified butter(ghee)
@@ -662,6 +644,8 @@
         against the spiralizer at the start. Incomplete action of spiralizing. Used
         both ends of zucchini. Spilling happens.
       tag: Technique Error
+    - description: Did not remove top part of zucchini.
+      tag: Preparation Error
     modified_description: Spiralize-Spiralize 1 medium zucchini into thin noodles
       using a spiralizer. Did not remove top part of zucchini. Just pressing the zucchini
       against the spiralizer at the start. Incomplete action of spiralizing. Used
@@ -773,10 +757,6 @@
     modified_description: Add-1/4 cup grated parmesan cheese
   - description: Remove-Remove from heat
   - description: Top-Top with more parmesan if desired
-    errors:
-    - description: 'NULL'
-      tag: Preparation Error
-    modified_description: Top-Top with more parmesan if desired
 - activity_id: 18
   environment: 6
   id: '18_101'
@@ -806,7 +786,7 @@
   - description: Peel-Peel 1 garlic cloves
     errors:
     - description: Peeled all in the bulbs
-      tag: Technique Error
+      tag: Measurement Error
     modified_description: Peel all cloves in a bulb of garlic
   - description: Heat-Heat a large pan on medium heat
   - description: Melt-Melt 1 tablespoons of softened butter
@@ -817,8 +797,8 @@
   - description: Add-Add 1 large minced garlic cloves to the pan
   - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
     errors:
-    - description: Less than 1 medium zucchini used
-      tag: Technique Error
+    - description: did not remove ends to spiralize
+      tag: Preparation Error
     modified_description: Use 1 zucchini in the spiraler
   - description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not
       to burn garlic

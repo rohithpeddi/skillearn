@@ -318,7 +318,7 @@
       in the bowl
     errors:
     - description: Leave lumps
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: (NOT ENOUGH) Whisk-Whisk to combine mixture of flour, sugar
       and baking powder in the bowl
   - description: Measure and add-2 tbsp water to the bowl
@@ -574,7 +574,7 @@
   - description: Whisk-Whisk batter until no lumps remain
     errors:
     - description: whisk incompletely
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Whisk-Whisk batter until with visible lumps remaining
   - description: Pour-Pour batter into prepared mug
   - description: Microwave-Microwave the mug and batter on high power for 60 seconds.
@@ -768,7 +768,7 @@
     - description: Pour-Pour batter into small bowl
       tag: Preparation Error
     - description: Pour-Pour batter into small bowl without using spoon
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Pour-Pour batter into small bowl without using spoon
   - description: Microwave-Microwave the mug and batter on high power for 60 seconds.
       Check if the cake is done by inserting and toothpick into the center of the
@@ -952,7 +952,7 @@
       in the bowl
     errors:
     - description: Under mixed
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Whisk-Whisk to combine mixture of flour, sugar and baking
       powder in the bowl for only 5 seconds
   - description: Pour-Pour batter into prepared mug
@@ -1112,7 +1112,7 @@
       in the bowl
     errors:
     - description: Do not whisk enough
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Whisk-Whisk a little to combine mixture of flour, sugar
       and baking powder in the bowl
   - description: Measure and add-Measure and add 2 tsp vegetable oil to the bowl
@@ -1127,7 +1127,7 @@
   - description: Whisk-Whisk batter until no lumps remain
     errors:
     - description: Do not whisk enough - ingredients will be not mixed properly
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Whisk- (Do not whisk enough) Whisk batter until no lumps
       remain
   - description: Pour-Pour batter into prepared mug
@@ -1151,7 +1151,7 @@
   - description: Allow-Allow to cool until it is no longer hot to the touch
     errors:
     - description: did not wait the cake to be cool
-      tag: Technique Error
+      tag: Timing Error
   - description: remove-then carefully remove the paper liner
   - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
       4 spoonfuls of chocolate frosting into a zip-top bag

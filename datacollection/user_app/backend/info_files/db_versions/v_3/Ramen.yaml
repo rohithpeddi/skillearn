@@ -433,7 +433,7 @@
   - description: cover-cover the noodles with water
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering
     errors:
-    - description: 'Cover improperly '
+    - description: Cover improperly
       tag: Technique Error
     modified_description: Cover-Cover improperly with a lid (or paper towel) to prevent
       splattering
@@ -441,7 +441,7 @@
     errors:
     - description: Microwave for 2 min instead of 4 min
       tag: Timing Error
-    - description: 'Microwave on high '
+    - description: Microwave on high
       tag: Temperature Error
     modified_description: Microwave - Microwave on high for 2 min
   - description: Add-Add chopped cilantro to the bowl
@@ -548,6 +548,8 @@
   - description: slice-slice 1/4 medium onion into pieces
     errors:
     - description: chop onion into pieces
+      tag: Measurement Error
+    - description: chop instead of slice
       tag: Technique Error
     modified_description: Chop 1/4 onion into pieces
   - description: Chop-Chop 1 garlic clove on a cutting board
@@ -569,7 +571,7 @@
     modified_description: Microwave-Microwave the ramen for 1 minutes
   - description: Add-Add chopped cilantro to the bowl
     errors:
-    - description: no chopping
+    - description: no chopping, measurement
       tag: Measurement Error
     modified_description: Add fresh cilantro to the bowl without chopping
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
@@ -627,7 +629,7 @@
   - description: Put-Put all the Vegetables in a microwave-safe bowl
     errors:
     - description: Spilling some vegetables on the countertop.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Put-Put all the Vegetables in a microwave-safe bowl and
       spill some on counter top.
   - description: Add-Add the noodles to the bowl
@@ -650,19 +652,17 @@
     modified_description: Let-Let the noodles sit for about 1/2 minute after the microwave
       stops
   - description: Add-Add chopped cilantro to the bowl
-    errors:
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: Add-Add chopped cilantro to the bowl.
   - description: Mix-Mix in the flavour packet to the bowl
     errors:
     - description: While mixing the flavour packet and spilled some out of the bowl.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Mix-Mix in the flavour packet to the bowl and spill some
       on countertop.
 - activity_id: 4
   environment: 2
   errors:
+  - description: Mix-Mix in the flavour packet to the bowl
+    tag: Missing Step
   - tag: Order Error
   id: '4_40'
   is_error: true
@@ -700,7 +700,7 @@
     modified_description: Prepare 1 medium onion and don't peel it
   - description: Chop-Chop 1 garlic clove on a cutting board
     errors:
-    - description: Since instead of chop
+    - description: Slice instead of chop
       tag: Technique Error
     modified_description: Since-Since 1 garlic clove on a cutting board
   - description: Remove-Remove the noodles from the package(Break Noodles / Keep them
@@ -724,10 +724,6 @@
     - description: 1 instead of 4 minutes
       tag: Timing Error
     modified_description: Microwave-Microwave the ramen for 1 minute
-  - description: Mix-Mix in the flavour packet to the bowl
-    errors:
-    - description: Missing
-      tag: Missing Step
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
     errors:
     - description: 30 seconds instead of 1 minute
@@ -741,9 +737,6 @@
       tag: Preparation Error
     modified_description: cover-cover half of the noodles with water
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
-    errors:
-    - description: 'Null'
-      tag: Temperature Error
 - activity_id: 4
   environment: 7
   errors:
@@ -783,7 +776,7 @@
   - description: Chop-Chop 1 garlic clove on a cutting board
   - description: Put-Put all the Vegetables in a microwave-safe bowl
     errors:
-    - description: 'Placing things before cutting them '
+    - description: Placing things before cutting them
       tag: Preparation Error
   - description: slice-slice 1/4 medium onion into pieces
   - description: Add-Add basil to the bowl
@@ -797,14 +790,14 @@
       tag: Missing Step
   - description: Microwave-Microwave the ramen for 4 minutes
     errors:
-    - description: 'Using non-microwaveable things and using things which does not
-        fit into microwave '
+    - description: Using non-microwaveable things and using things which does not
+        fit into microwave
       tag: Preparation Error
   - description: Add-Add chopped cilantro to the bowl
   - description: Add-Add the noodles to the bowl
     errors:
-    - description: 'Added them before '
-      tag: Other
+    - description: Added them before
+      tag: Order Error
   - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   - description: Mix-Mix in the flavour packet to the bowl
   - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
@@ -845,15 +838,11 @@
     errors:
     - description: no peeling
       tag: Preparation Error
-    - description: no peeling
-      tag: Technique Error
     modified_description: Take 1 medium onion without peeling
   - description: Peel-Peel 1 garlic clove
     errors:
     - description: no peeling
       tag: Preparation Error
-    - description: no peeling
-      tag: Technique Error
     modified_description: Take 1 garlic clove without peeling
   - description: slice-slice 1/4 medium onion into pieces
   - description: Remove-Remove the noodles from the package(Break Noodles / Keep them
@@ -863,7 +852,7 @@
   - description: cover-cover the noodles with water
     errors:
     - description: no cover
-      tag: Measurement Error
+      tag: Technique Error
     modified_description: pour water no cover noodles
   - description: Add-Add the noodles to the bowl
   - description: Cover-Cover with a lid (or paper towel) to prevent splattering

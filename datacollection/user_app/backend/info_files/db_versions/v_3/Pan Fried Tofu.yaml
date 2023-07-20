@@ -537,7 +537,7 @@
       1 in x 1 in)
     errors:
     - description: Cut into small cubes rather than big cubes
-      tag: Preparation Error
+      tag: Measurement Error
     modified_description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into small cubes
       (about 1 in x 1 in)
   - description: add-add 1/4 tsp salt to the pan
@@ -550,7 +550,7 @@
     errors:
     - description: Do not pat enough so the tofu is still wet after this step
       tag: Technique Error
-    modified_description: '(not enough) pat-pat tofu dry with a towel '
+    modified_description: (not enough) pat-pat tofu dry with a towel
   - description: add-add the tofu cubes to the pan
     errors:
     - description: Drop a few tofu cubes while adding
@@ -568,11 +568,11 @@
   - description: cook-cook until tofu turns brown
   - description: remove-Briefly remove from the heat again
     errors:
-    - description: Safetly issue - Do not place it on the stove top, but something
+    - description: Safety issue - Do not place it on the stove top, but something
         else
       tag: Technique Error
-    modified_description: '(place it on something) remove-Briefly remove from the
-      heat again '
+    modified_description: (place it on something) remove-Briefly remove from the
+      heat again
   - description: drizzle-drizzle with the 1 tablespoons sesame oil on the pan
     errors:
     - description: drizzle two tbsp rather than 1 tbsp
@@ -602,6 +602,8 @@
   environment: 7
   errors:
   - description: Turn-Turn on the heat to medium
+    tag: Missing Step
+  - description: remove-Briefly remove the pan from the heat to reduce spitting
     tag: Missing Step
   - tag: Order Error
   id: '25_41'
@@ -635,11 +637,6 @@
       tag: Technique Error
     modified_description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes
       (about 1 in x 1 in)
-  - description: remove-Briefly remove the pan from the heat to reduce spitting
-    errors:
-    - description: Missing step
-      tag: Missing Step
-    modified_description: .
   - description: pat-pat tofu dry with a towel
   - description: Add-Add 1 tablespoon of olive oil to a non-stick pan
     errors:
@@ -757,8 +754,8 @@
       1 in x 1 in)
     errors:
     - description: Slices will burn quickly and will not taste the same
-      tag: Preparation Error
-    modified_description: 'Cut-Cut 1/4 block or 3 ounces of fresh tofu into slices '
+      tag: Technique Error
+    modified_description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into slices
   - description: add-add 1/4 tsp salt to the pan
     errors:
     - description: Use a tbsp instead of a tsp
@@ -773,17 +770,17 @@
   - description: Cook-Cook 5 to 6 minutes until tofu cubes are lightly browned on
       the bottom
     errors:
-    - description: 'Under cook - The tofu cubes will not be cooked enough '
+    - description: Under cook - The tofu cubes will not be cooked enough
       tag: Timing Error
-    modified_description: 'Cook-Cook 2 minutes '
+    modified_description: Cook-Cook 2 minutes
   - description: Flip-Flip the tofu with tongs
     errors:
     - description: Use a spoon - might break the tofu cubes
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: Flip-Flip the tofu with spoon
   - description: Return-Return the heat to medium
     errors:
-    - description: 'This might burn the tofu '
+    - description: This might burn the tofu
       tag: Temperature Error
     modified_description: Return-Return the heat to high
   - description: drizzle-drizzle with the 1 tablespoons sesame oil on the pan
@@ -791,7 +788,7 @@
     errors:
     - description: Under-cook
       tag: Timing Error
-    modified_description: ' cook-cook pan for 1 minutes'
+    modified_description: cook-cook pan for 1 minutes
   - description: remove-Briefly remove from the heat again
   - description: drizzle-drizzle 1 tablespoon soy sauce (watch for spitting) on the
       pan
@@ -801,7 +798,7 @@
     errors:
     - description: Spill some cooked tofu pieces
       tag: Technique Error
-    modified_description: '[Spill] Transfer-Transfer to a serving dish'
+    modified_description: [Spill] Transfer-Transfer to a serving dish
 - activity_id: 25
   environment: 7
   id: '25_109'

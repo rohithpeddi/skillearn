@@ -368,7 +368,7 @@
     errors:
     - description: Increase heat from medium to high
       tag: Temperature Error
-    modified_description: 'Higher: Increase heat from medium to high'
+    modified_description: Higher- Increase heat from medium to high
   - description: Add-Add 2 tbsp red chili powder to the pan
   - description: Take-Take 1 tomato
     errors:
@@ -388,7 +388,7 @@
   - description: mix-mix well contents of the pan
   - description: Add-1/2 tsp salt to the pan
     errors:
-    - description: 'Add-1 tsp salt to the pan '
+    - description: Add-1 tsp salt to the pan
       tag: Measurement Error
     modified_description: Add-1/2 tsp salt to the pan
   - description: Add-Add tomato puree to the pan
@@ -396,12 +396,12 @@
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
     errors:
-    - description: 'simmer-Allow the mixture to simmer over high heat for 2 minutes '
+    - description: simmer-Allow the mixture to simmer over high heat for 2 minutes
       tag: Timing Error
-    - description: 'simmer-Allow the mixture to simmer over high heat for 2 minutes '
+    - description: simmer-Allow the mixture to simmer over high heat for 2 minutes
       tag: Temperature Error
-    modified_description: 'simmer-Allow the mixture to simmer over high heat for 2
-      minutes '
+    modified_description: simmer-Allow the mixture to simmer over high heat for 2
+      minutes
   - description: Take-Take the pan off the heat
   - description: Transfer-Transfer it to a serving bowl
 - activity_id: 15
@@ -438,7 +438,7 @@
     errors:
     - description: Take 2 tomatoes rather than one tomato
       tag: Measurement Error
-    modified_description: ' Take-Take 2 tomato'
+    modified_description: Take-Take 2 tomato
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
     errors:
     - description: Use a tsp rather than tbsp
@@ -451,8 +451,8 @@
   - description: Chop-Chop tomato roughly (anysize chunks are fine)
     errors:
     - description: Slice rather than chop
-      tag: Preparation Error
-    modified_description: 'Slice-Slice tomato roughly '
+      tag: Technique Error
+    modified_description: Slice-Slice tomato roughly
   - description: Peel-Peel 4 large garlic cloves
     errors:
     - description: Break the garlic while peeling
@@ -475,7 +475,7 @@
   - description: puree-puree tomatoes without any water in a blender/mixer
     errors:
     - description: Do not blend enough - Leave some chunks
-      tag: Technique Error
+      tag: Preparation Error
     modified_description: puree-puree tomatoes without any water in a blender/mixer
       leving some chunks
   - description: mix-mix well contents of the pan
@@ -542,9 +542,9 @@
     - description: burn mustard
       tag: Technique Error
     - description: spill garlic while adding
-      tag: Preparation Error
-    modified_description: 'add-When mustard and cumin seeds begin to sizzle and burn
-      them, add minced garlic and spill it '
+      tag: Technique Error
+    modified_description: add-When mustard and cumin seeds begin to sizzle and burn
+      them, add minced garlic and spill it
   - description: Lower-Lower the heat
   - description: Saute-Saute the garlic for 2-3 minutes
     errors:
@@ -578,6 +578,8 @@
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
     tag: Missing Step
+  - description: Add-1/2 tsp salt to the pan
+    tag: Missing Step
   id: '15_33'
   is_error: true
   recorded_by: 8
@@ -604,7 +606,7 @@
   steps:
   - description: Take-Take 1 tomato
     errors:
-    - description: Added more
+    - description: Take 2 tomatoes
       tag: Measurement Error
     modified_description: Take-Take 2 tomatoes
   - description: Peel-Peel 4 large garlic cloves
@@ -636,11 +638,6 @@
     modified_description: Add-Add 1 tbsp red chili powder to the pan
   - description: mix-mix well contents of the pan
   - description: Add-Add tomato puree to the pan
-  - description: Add-1/2 tsp salt to the pan
-    errors:
-    - description: Forgot step
-      tag: Missing Step
-    modified_description: Skip
   - description: Mix-Mix well tomato puree with contents in the pan
     errors:
     - description: Leave tomatoes uncooked
@@ -652,6 +649,8 @@
   environment: 2
   errors:
   - description: Add-Add 2 tbsp red chili powder to the pan
+    tag: Missing Step
+  - description: Chop-Chop tomato roughly (anysize chunks are fine)
     tag: Missing Step
   id: '15_37'
   is_error: true
@@ -678,7 +677,7 @@
   selected_by: 4
   steps:
   - description: Peel-Peel 4 large garlic cloves
-    modified_description: 'Peel-Peel 4 large garlic cloves incompletely '
+    modified_description: Peel-Peel 4 large garlic cloves incompletely
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
     errors:
     - description: heart only 2 tbsp oil instead of 3 tbsp
@@ -687,7 +686,7 @@
   - description: Add-1/2 tsp cumin seeds to the pan
     errors:
     - description: spill some out while adding
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Add-1/2 tsp cumin seeds to the pan and spill some out while
       adding
   - description: mince-mince the garlic
@@ -699,7 +698,7 @@
   - description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
   - description: Lower-Lower the heat
     errors:
-    - description: increase the great instead of reducing
+    - description: increase the heat instead of reducing
       tag: Temperature Error
     modified_description: Higher-increase the heat
   - description: Take-Take 1 tomato
@@ -709,19 +708,13 @@
     modified_description: Take-Take 1 soiled tomato
   - description: Saute-Saute the garlic for 2-3 minutes
     errors:
-    - description: "Don't saut\xE9, just leave it in pan for 1 min"
+    - description: Don't saute, just leave it in pan for 1 min
       tag: Timing Error
-    - description: "Don't saut\xE9, just leave it in pan for 1 min"
+    - description: Don't saute, just leave it in pan for 1 min
       tag: Technique Error
-    - description: "Don't saut\xE9 garlic, just leave it in pan for 1 min"
+    - description: Don't saute garlic, just leave it in pan for 1 min
       tag: Temperature Error
-    modified_description: "Leave-Don't saut\xE9, just leave it in pan for 1 min, so\
-      \ garlic may be burnt on one side"
-  - description: Chop-Chop tomato roughly (anysize chunks are fine)
-    errors:
-    - description: Don't perform this step
-      tag: Missing Step
-    modified_description: 'null'
+    modified_description: Leave-Don't saute, just leave it in pan for 1 min, so garlic may be burnt on one side
   - description: mix-mix well contents of the pan
   - description: puree-puree tomatoes without any water in a blender/mixer
   - description: Add-1/2 tsp salt to the pan
@@ -774,10 +767,6 @@
   selected_by: 5
   steps:
   - description: Take-Take 1 tomato
-    errors:
-    - description: NONE
-      tag: Measurement Error
-    modified_description: Take-Take 1 tomato
   - description: Peel-Peel 4 large garlic cloves
     errors:
     - description: Peel-Peel 4 large garlic cloves. Peel not done correctly. Did not
@@ -835,9 +824,9 @@
   - description: Add-Add 2 tbsp red chili powder to the pan
   - description: mix-mix well contents of the pan
     errors:
-    - description: 'mix-mix well contents of the pan. Done after putting salt. '
+    - description: mix-mix well contents of the pan. Done after putting salt.
       tag: Order Error
-    modified_description: 'mix-mix well contents of the pan. Done after putting salt. '
+    modified_description: mix-mix well contents of the pan. Done after putting salt.
   - description: Add-1/2 tsp salt to the pan
   - description: Add-Add tomato puree to the pan
   - description: Take-Take the pan off the heat
@@ -886,7 +875,7 @@
       1/2 tbsp utensil
   - description: Add-Add 1/4 tsp mustard to the pan
     errors:
-    - description: 'spilled some out '
+    - description: spilled some out
       tag: Preparation Error
     modified_description: Add-Add 1/4 tsp mustard to the pan and spill some out while
       adding
@@ -908,7 +897,7 @@
     errors:
     - description: Turn off the heat
       tag: Temperature Error
-    modified_description: ' Turn off-turnoff the heat'
+    modified_description: Turn off-turnoff the heat
   - description: Chop-Chop tomato roughly (anysize chunks are fine)
     errors:
     - description: crush tomaotes instead of chop
@@ -919,7 +908,7 @@
     - description: add 1 cup water in addition to tomatoes
       tag: Technique Error
     - description: spill some water while adding to blender
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: puree-puree tomatoes with 1 cup water in a blender/mixer
       and spill some water while adding water to the blender
   - description: mix-mix well contents of the pan
@@ -937,7 +926,7 @@
   - description: Mix-Mix well tomato puree with contents in the pan
     errors:
     - description: spill some out while mixing
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Mix-Mix well tomato puree with contents in the pan and spill
       some out while mixing
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
@@ -951,6 +940,8 @@
 - activity_id: 15
   environment: 7
   errors:
+  - description: Add-Add 2 tbsp red chili powder to the pan
+    tag: Missing Step
   - tag: Order Error
   id: '15_46'
   is_error: true
@@ -1009,8 +1000,4 @@
       until the mixture becomes thick
   - description: Mix-Mix well tomato puree with contents in the pan
   - description: Transfer-Transfer it to a serving bowl
-  - description: Add-Add 2 tbsp red chili powder to the pan
-    errors:
-    - description: Did not add red chilli powder to the pan
-      tag: Missing Step
-    modified_description: '[]'
+

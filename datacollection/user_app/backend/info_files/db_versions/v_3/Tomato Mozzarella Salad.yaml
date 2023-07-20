@@ -411,14 +411,14 @@
   - description: Rinse-Rinse a tomato
   - description: dry-gently dry it with a tea towel
     errors:
-    - description: 'Not drying it completely '
+    - description: Not drying it completely
       tag: Technique Error
     modified_description: dry-gently dry half tomato with a tea towel
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
     errors:
     - description: Chop instead of slice
-      tag: Preparation Error
-    modified_description: ' Chop-Chop one tomato into pieces'
+      tag: Technique Error
+    modified_description: Chop-Chop one tomato into pieces
   - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
       only make a single layer
     errors:
@@ -434,10 +434,6 @@
     errors:
     - description: Add 1/8 teaspoon rather than 1/4 teaspoon
       tag: Measurement Error
-    - description: 'null'
-      tag: Temperature Error
-    - description: 'null'
-      tag: Timing Error
     modified_description: Season-Season platter with 1/8 teaspoon black pepper
 - activity_id: 12
   environment: 5
@@ -469,10 +465,12 @@
   steps:
   - description: Rinse-Rinse a tomato
     errors:
-    - description: NOT Rinse-Do not Rinse 2 cherry tomato
+    - description: NOT Rinse-Do not Rinse
       tag: Preparation Error
-    - description: NOT Rinse-Do not Rinse 2 cherry tomato
+    - description: use cherry tomato instead of normal tomato
       tag: Technique Error
+    - description: use 2 cherry tomato instead of one normal tomato
+      tag: Measurement Error
     modified_description: NOT Rinse-Do not Rinse 2 cherry tomato
   - description: dry-gently dry it with a tea towel
     errors:
@@ -511,17 +509,10 @@
       tag: Preparation Error
     modified_description: Sprinkle-Sprinkle cheddar cheese on boundary of the plater.
   - description: Garnish-Garnish platter with italian seasoning
-    errors:
-    - description: 'NULL'
-      tag: Timing Error
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: Garnish-Garnish platter with italian seasoning
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
     errors:
-    - description: Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon,
-        over the entire platter
+    - description: 2 teaspoon instead of tablespoon
       tag: Measurement Error
     - description: Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon,
         over the entire platter
@@ -560,7 +551,7 @@
     errors:
     - description: Rinse-Rinse a tomato. Before taking the tomato from fridge spilled
         other tomato on ground
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Rinse-Rinse a tomato after spilling tomato on ground.
   - description: dry-gently dry it with a tea towel
   - description: Slice-Slice one tomato into about 1/2 inch thick slices
@@ -568,6 +559,8 @@
     - description: Cut tomatoes vertical in uneven direction. Slice action is forced
         and not seamless. Mess of tomato is made.
       tag: Technique Error
+    - description: use unclean chopping board
+      tag: Preparation Error
     modified_description: Slice-Slice one tomato into about 1/2 inch thick slices.
       slice not done properly.
   - description: Season-Season platter with 1/4 teaspoon black pepper
@@ -584,19 +577,22 @@
       the platter
     errors:
     - description: Sprinkle-Sprinkle cheddar cheese on top of the tomato throughout
-        the platter with spillage.
+        with spillage on chopping board.
       tag: Preparation Error
     - description: Sprinkle-Sprinkle cheddar cheese on top of the tomato throughout
-        the platter with spillage.
+        with spillage on chopping board.
       tag: Technique Error
     modified_description: Sprinkle-Sprinkle cheddar cheese on top of the tomato throughout
-      the platter with spillage.
+      with spillage on chopping board.
   - description: Season-Season the tomato slices with salt
     errors:
     - description: Season-Season the tomato slices with powdered sugar. Also seasoning
         done from huge height.
       tag: Preparation Error
-    modified_description: Season-Season the tomato slices with powdered sugar
+    - description: Season-Season the tomato slices with powdered sugar. Also seasoning
+        done from huge height.
+      tag: Technique Error
+    modified_description: Season-Season the tomato slices with powdered sugar from huge height
   - description: Garnish-Garnish platter with italian seasoning
     errors:
     - description: Garnish-Garnish glass cover of platter with italian seasoning  with
@@ -676,7 +672,7 @@
     errors:
     - description: Cut tomato instead of slicing
       tag: Technique Error
-    - description: Cut into big slices
+    - description: Cut into big chunks
       tag: Measurement Error
     modified_description: Slice-Cut one tomato into about 1 inch thick cubes
   - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
@@ -690,6 +686,14 @@
 - activity_id: 12
   environment: 2
   errors:
+  - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
+      the platter
+    tag: Missing Step
+  - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
+      over the entire platter
+    tag: Missing Step
+    modified_description: Add a drizzle of sesame oil, about 1 tablespoon, over the
+      entire platter, and 1 more tablespoon after heating it in a pan
   - tag: Order Error
   id: '12_48'
   is_error: true
@@ -730,7 +734,7 @@
       only make a single layer
     errors:
     - description: Instead of a single layer, pile up the cut tomatoes
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Place-Place the thick slices of tomatoes on a platter, ensuring
       they are piled up over each other
   - description: Season-Season the tomato slices with salt
@@ -740,19 +744,6 @@
     - description: Added more black pepper
       tag: Measurement Error
     modified_description: Season-Season platter with 1 teaspoon black pepper
-  - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
-      the platter
-  - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
-      over the entire platter
-    errors:
-    - description: Used hot olive oil
-      tag: Temperature Error
-    - description: Used sesame oil
-      tag: Preparation Error
-    - description: Added one extra spoon of sesame oil
-      tag: Measurement Error
-    modified_description: Add a drizzle of sesame oil, about 1 tablespoon, over the
-      entire platter, and 1 more tablespoon after heating it in a pan
 - activity_id: 12
   environment: 7
   errors:
@@ -792,7 +783,7 @@
       tag: Technique Error
     - description: Used hands
       tag: Technique Error
-    modified_description: eason-Season platter with 1/4 teaspoon black pepper, spilling
+    modified_description: Season-Season platter with 1/4 teaspoon black pepper, spilling
       the whole bottle, mix with hands
   - description: Garnish-Garnish platter with italian seasoning
   - description: Season-Season the tomato slices with salt
@@ -801,8 +792,8 @@
     errors:
     - description: Spill
       tag: Technique Error
-    modified_description: ' Sprinkle-Sprinkle mozzarella cheese on top of the tomato
-      throughout the platter, spill'
+    modified_description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato
+      throughout the platter, spill
   - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
       over the entire platter
     errors:
