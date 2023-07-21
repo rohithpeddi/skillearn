@@ -306,7 +306,7 @@
   - description: Chop-Chop 1/4 medium onion
     errors:
     - description: Slice instead of chop
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Slice-Slice 1/4 medium onion
   - description: Chop-Chop 1/4 tomato
   - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium
@@ -361,7 +361,7 @@
   - description: Mince-Mince peeled garlic cloves
     errors:
     - description: Chop instead of mince
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Chop-Chop peeled garlic cloves
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
     errors:
@@ -524,7 +524,7 @@
   - description: Chop-Chop 1/4 medium onion
     errors:
     - description: slice instead of chop
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Slice-Slice 1/4 medium onion
   - description: Chop-Chop 1/4 tomato
     errors:
@@ -541,7 +541,7 @@
   - description: add-add chopped onions to the pan
     errors:
     - description: sliced instead of chopped
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: add-add sliced onions to the pan
   - description: add-add 1/3 tsp salt to the pan
     errors:
@@ -560,7 +560,7 @@
       tag: Technique Error
     - description: not pour into the pan
       tag: Preparation Error
-    modified_description: ' Chop-Chop 1 green chilli, and not pour into the pan'
+    modified_description: Chop-Chop 1 green chilli, and not pour into the pan
   - description: Add-Add 1/8 tsp of turmeric to the pan
   - description: Crack-Crack one egg in the bowl
   - description: add-add 1/3 tsp salt to the bowl
@@ -572,11 +572,11 @@
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
     modified_description: Saute-Saute the onions on medium heat for a little time
   - description: Peel-Peel 2 garlic cloves
-  - description: Add-Add chilli to the pan
     errors:
     - description: not peel 1 garlic clove
-      tag: Missing Step
+      tag: Preparation Error
     modified_description: Peel-Peel 1 garlic clove
+  - description: Add-Add chilli to the pan
   - description: Mince-Mince peeled garlic cloves
     errors:
     - description: chop instead of mince
@@ -603,6 +603,8 @@
   - description: Mince-Mince peeled garlic cloves
     tag: Missing Step
   - description: add-add  1 tbsp milk to the bowl
+    tag: Missing Step
+  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
     tag: Missing Step
   id: '16_35'
   is_error: true
@@ -639,12 +641,12 @@
     errors:
     - description: Crack the egg with shells in the bowl
       tag: Technique Error
-    modified_description: 'Crack-Spill while cracking an egg in the bowl '
+    modified_description: Crack-Spill while cracking an egg in the bowl
   - description: Chop-Chop 1/4 medium onion
     errors:
     - description: Mince onion instead of chopping it
       tag: Technique Error
-    modified_description: 'Chop-Mince 1/4 medium onion '
+    modified_description: Chop-Mince 1/4 medium onion
   - description: add-add chopped onions to the pan
     errors:
     - description: Throw onions outside the pan while adding them
@@ -659,7 +661,7 @@
   - description: Chop-Chop 1 green chilli
   - description: add-add 1/3 tsp salt to the pan
     errors:
-    - description: 'Adding 1/2 tsp salt '
+    - description: Adding 1/2 tsp salt
       tag: Measurement Error
     modified_description: add-add 1/2 tsp salt to the pan
   - description: Add-Add tomatoes to the pan
@@ -688,10 +690,6 @@
     - description: Spilling while whisking the egg mixture in the bowl
       tag: Technique Error
     modified_description: Whisk-Spill while whisking the egg mixture in the bowl
-  - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-    errors:
-    - description: Tomatoes already softened so missed this step
-      tag: Missing Step
   - description: pour-Slowly pour the whisked eggs into the pan
     errors:
     - description: Transfer completely at once
@@ -704,7 +702,7 @@
     errors:
     - description: Mixing the dish instead of garnishing it
       tag: Technique Error
-    modified_description: ' Mix-Mix with 1 tbsp chopped cilantro and serve'
+    modified_description: Mix-Mix with 1 tbsp chopped cilantro and serve
 - activity_id: 16
   environment: 7
   errors:
@@ -748,7 +746,7 @@
   - description: Add-Add 1/8 tsp of turmeric to the pan
   - description: Chop-Chop 1 green chilli
     errors:
-    - description: 'Chop, but all connected '
+    - description: Chop, but all connected
       tag: Technique Error
   - description: add-add  1 tbsp milk to the bowl
     errors:
@@ -759,13 +757,9 @@
   - description: Chop-Chop 1/4 tomato
   - description: Peel-Peel 2 garlic cloves
     errors:
-    - description: 'One slove is not well peeled '
+    - description: One clove is not well peeled
       tag: Technique Error
   - description: Cook-Cook for 1 minute, mixing everything
-    errors:
-    - description: Nill error
-      tag: Other
-    modified_description: Cook-Cook for 1 minute, mixing everything
   - description: add-add 1/3 tsp salt to the bowl
   - description: Mince-Mince peeled garlic cloves
     errors:
@@ -788,8 +782,10 @@
       are almost cooked
   - description: Add-Add garlic to the pan
     errors:
-    - description: spill and readd the spilled garlic into the pan
+    - description: spill and re-add the spilled garlic into the pan
       tag: Preparation Error
+    - description: spill and re-add the spilled garlic into the pan
+      tag: Technique Error
     modified_description: Add-Add garlic to the pan. spill some out while adding and
       readd the spilled garlic into the pan.
   - description: Add-Add tomatoes to the pan
@@ -872,7 +868,7 @@
   - description: Peel-Peel 2 garlic cloves
     errors:
     - description: Not properly peeling the Garlic cloves.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Peel-Peel 2 garlic cloves improperly.
   - description: add-add 1/3 tsp salt to the bowl
     errors:
@@ -895,7 +891,7 @@
   - description: pour-Slowly pour the whisked eggs into the pan
     errors:
     - description: Pouring very fastly into the pan instead of slowly.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Pour-Fastly pour the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
@@ -1001,24 +997,24 @@
       tag: Temperature Error
     modified_description: Cook-Cook until something is burnt
   - description: Cook-Cook for 1 minute, mixing everything
+    errors:
+    - description: Cook for 2 minutes, mixing and spilling things
+      tag: Timing Error
+    - description: Cook for 2 minutes, mixing and spilling things
+      tag: Technique Error
     modified_description: Cook-Cook for 2 minutes, mixing and spilling things
   - description: pour-Slowly pour the whisked eggs into the pan
+    errors:
+    - description: pour-Spill while pouring the whisked eggs into the pan
+      tag: Technique Error
     modified_description: pour-Spill while pouring the whisked eggs into the pan
   - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs
       are almost cooked
   - description: Add-Add chilli to the pan
   - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
     errors:
-    - description: NONE
-      tag: Preparation Error
-    - description: NONE
-      tag: Measurement Error
-    - description: NONE
-      tag: Timing Error
-    - description: NONE
+    - description: Mix-Mix with 1 tbsp chopped cilantro and serve
       tag: Technique Error
-    - description: NONE
-      tag: Temperature Error
     modified_description: Mix-Mix with 1 tbsp chopped cilantro and serve
 - activity_id: 16
   environment: 1
@@ -1059,14 +1055,14 @@
     errors:
     - description: 3 tbsp oil
       tag: Measurement Error
-    - description: small heat
+    - description: low heat used instead of medium heat
       tag: Temperature Error
     modified_description: Heat-Heat 3 tbsp oil in a heavy-bottomed or nonstick pan
       on small heat
   - description: Peel-Peel 2 garlic cloves
     errors:
     - description: 3 garlic clove
-      tag: Preparation Error
+      tag: Measurement Error
     modified_description: Peel 3 garlic cloves
   - description: Chop-Chop 1/4 tomato
     errors:
@@ -1077,13 +1073,13 @@
     modified_description: Slice one small tomato
   - description: add-add 1/3 tsp salt to the pan
     errors:
-    - description: 1/4 tsp
+    - description: 1/4 tsp instead of 1/3 tsp
       tag: Measurement Error
     modified_description: add 1/4 tsp salt to the pan
   - description: Chop-Chop 1 tsp cilantro
     errors:
     - description: two tsp cilantro
-      tag: Preparation Error
+      tag: Measurement Error
     - description: 2 tsp
       tag: Measurement Error
     modified_description: Chop 2 tsp cilantro
@@ -1094,11 +1090,9 @@
     modified_description: Slice peeled garlic cloves
   - description: Add-Add 1/8 tsp of turmeric to the pan
     errors:
-    - description: brown sugur
+    - description: brown sugar
       tag: Preparation Error
-    - description: Missed
-      tag: Preparation Error
-    modified_description: Add 1/8 tsp of brown sugur to the pan
+    modified_description: Add 1/8 tsp of brown sugar to the pan
   - description: Crack-Crack one egg in the bowl
   - description: add-add 1 tbsp milk to the bowl
   - description: Chop-Chop 1 green chilli
@@ -1109,15 +1103,13 @@
   - description: Add-Add garlic to the pan
   - description: Chop-Chop 1/4 medium onion
     errors:
-    - description: 1/2 onion
-      tag: Preparation Error
-    - description: 1/2 onion
+    - description: 1/2 onion instead of 1/4 medium onion
       tag: Measurement Error
     modified_description: Chop 1/2 medium onion
   - description: Add-Add chilli to the pan
   - description: Cook-Cook for 1 minute, mixing everything
     errors:
-    - description: 2 mins
+    - description: 2 mins instead of 1 min
       tag: Timing Error
     modified_description: Cook for 2 minute, mixing everything
   - description: Whisk-Whisk the egg mixture in the bowl
