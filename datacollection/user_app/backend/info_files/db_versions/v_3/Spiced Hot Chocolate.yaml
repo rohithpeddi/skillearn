@@ -250,10 +250,12 @@
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
     errors:
-    - description: Microwave on low power
+    - description: Microwave on low and high power
       tag: Temperature Error
-    - description: Mic4owaved on high for 8 secs
+    - description: Microwaved on high for 8 secs
       tag: Preparation Error
+    - description: Microwaved on high for 8 secs on high. And 1 minute on low power
+      tag: Timing Error
     modified_description: Heat-Heat the contents of the mug for 8 secs on high. And
       1 minute on low power and serve
 - activity_id: 8
@@ -302,10 +304,10 @@
     modified_description: Add-Add 4 pieces of chocolate to the mug
   - description: Add-Add 1/5 teaspoon cinnamon to the mug
     errors:
-    - description: ' Add-Add 1/4 teaspoon cinnamon to the mug. Instead of 1/5 added
-        1/4 tsp of cinnamon.'
+    - description: Instead of 1/5 added
+        1/4 tsp of cinnamon.
       tag: Measurement Error
-    modified_description: ' Add-Add 1/4 teaspoon cinnamon to the mug'
+    modified_description: Add-Add 1/4 teaspoon cinnamon to the mug
   - description: Add-Add 1 teaspoon of white sugar to the mug
     errors:
     - description: Add-Add 2 teaspoon of white sugar to the mug. Instead of 1 tsp
@@ -313,10 +315,6 @@
       tag: Measurement Error
     modified_description: Add-Add 2 teaspoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
-    errors:
-    - description: 'NULL'
-      tag: Technique Error
-    modified_description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
     errors:
     - description: Heat-Heat the contents of the mug for 2 minute and serve
@@ -324,7 +322,7 @@
     - description: Heat-Heat the contents of the mug for 2 minute and serve. On low
         heat
       tag: Temperature Error
-    modified_description: 'Heat-Heat the contents of the mug for 2 minute and serve. '
+    modified_description: Heat-Heat the contents of the mug for 2 minute and serve.
 - activity_id: 8
   environment: 7
   errors:
@@ -376,7 +374,7 @@
         mixing the contents of mug. Instead did hastily and spilling the milk. Also
         motion was up-down and sideways instead of cicular.
       tag: Technique Error
-    modified_description: 'Mix-Mix the contents of the mug. '
+    modified_description: Mix-Mix the contents of the mug.
   - description: Heat-Heat the contents of the mug for 1 minute and serve
     errors:
     - description: Heat-Heat the contents of the mug for 40 seconds and serve it on
@@ -418,7 +416,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
     errors:
     - description: Half Fill- Half Fill a microwave-safe mug with whole milk
-      tag: Technique Error
+      tag: Measurement Error
     - description: Half Fill- Half Fill a microwave-safe mug with whole milk
       tag: Preparation Error
     modified_description: Half Fill- Half Fill a microwave-safe mug with whole milk
@@ -449,9 +447,9 @@
     modified_description: Add-Add 1/5 teaspoon ground cumin to the mug
   - description: Mix-Mix the contents of the mug
     errors:
-    - description: ' Mix-Mix the contents of the mug with spilling'
+    - description: Mix-Mix the contents of the mug with spilling
       tag: Technique Error
-    modified_description: ' Mix-Mix the contents of the mug with spilling'
+    modified_description: Mix-Mix the contents of the mug with spilling
 - activity_id: 8
   environment: 5
   errors:
@@ -483,7 +481,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
     errors:
     - description: Spill some while filling the mug.
-      tag: Preparation Error
+      tag: Technique Error
     modified_description: Fill-Fill a microwave-safe mug with skimmed milk and spill
       some.
   - description: Add-Add 1 teaspoon of white sugar to the mug
@@ -512,10 +510,6 @@
       tag: Measurement Error
     modified_description: Add-Add 1 piece of chocolate to the mug.
   - description: Heat-Heat the contents of the mug for 1 minute and serve
-    errors:
-    - description: 'NULL'
-      tag: Temperature Error
-    modified_description: Heat-Heat the contents of the mug for 1 minute and serve
 - activity_id: 8
   environment: 5
   errors:
@@ -570,9 +564,6 @@
     modified_description: Add-Add 1 tablespoon of white sugar to the mug
   - description: Mix-Mix the contents of the mug
   - description: Heat-Heat the contents of the mug for 1 minute and serve
-    errors:
-    - description: NA
-      tag: Temperature Error
 - activity_id: 8
   environment: 1
   errors:
@@ -608,7 +599,7 @@
   - description: Fill-Fill a microwave-safe mug with skimmed milk
     errors:
     - description: spilling milk while filling the milk
-      tag: Preparation Error
+      tag: Technique Error
     - description: Used expired milk for the recipe
       tag: Preparation Error
     modified_description: Fill-Fill a microwave-safe mug with expired skimmed milk
@@ -621,12 +612,14 @@
   - description: Add-Add 1/5 teaspoon cinnamon to the mug
     errors:
     - description: use tablespoon in place of teaspoon
-      tag: Technique Error
+      tag: Measurement Error
     modified_description: Add-Add 1/5 tablespoon cinnamon to the mug
   - description: Mix-Mix the contents of the mug
     errors:
     - description: Mix-Mix the contents of the mug without using a spoon
-      tag: Other
+      tag: Preparation Error
+    - description: Mix the contents of the mug by rotating motion of the cup
+      tag: Technique Error
     modified_description: Mix-Mix the contents of the mug by rotating motion of the
       cup
   - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -699,7 +692,7 @@
     errors:
     - description: Used lower power than specified
       tag: Temperature Error
-    - description: 'Microwaved for 61 seconds '
+    - description: Microwaved for 61 seconds
       tag: Timing Error
     modified_description: Heat-Heat the contents of the mug for 61 seconds and serve
 - activity_id: 8
