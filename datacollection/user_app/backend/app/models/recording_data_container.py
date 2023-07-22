@@ -46,12 +46,9 @@ class RecordingDataContainer:
 		self.recording_data_json = None
 	
 	def update_recording_data_json(self):
-		self.recording_data_json = {
-			const.GOPRO: {
-				const.RESOLUTION_360P: self.GOPRO_RESOLUTION_360p,
-				const.RESOLUTION_4K: self.GOPRO_RESOLUTION_4k
-			}
-		}
+		self.recording_data_json = {const.GOPRO: {}}
+		self.recording_data_json[const.GOPRO][const.RESOLUTION_4K] = self.GOPRO_RESOLUTION_4k
+		self.recording_data_json[const.GOPRO][const.RESOLUTION_360P] = self.GOPRO_RESOLUTION_360p
 		
 		if self.is_holo_lens_enabled:
 			
