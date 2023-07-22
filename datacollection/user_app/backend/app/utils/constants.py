@@ -88,8 +88,8 @@ class Recording_Constants:
 	
 	RECORDING_DATA_DIRECTORY = "/home/ptg/CODE/data"
 	
-	GOPRO_RESOLUTION_4K = "4k"
-	GOPRO_RESOLUTION_360P = "360p"
+	GOPRO_RESOLUTION_4K = "gopro_4k"
+	GOPRO_RESOLUTION_360P = "gopro_360p"
 	
 	HOLOLENS = "hololens"
 	RAW = "raw"
