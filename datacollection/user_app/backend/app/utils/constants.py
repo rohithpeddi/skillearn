@@ -87,6 +87,44 @@ class Recording_Constants:
 	GOPRO = "gopro"
 	
 	RECORDING_DATA_DIRECTORY = "/home/ptg/CODE/data"
+	
+	RESOLUTION_4K = "4k"
+	RESOLUTION_360P = "360p"
+	
+	HOLOLENS = "hololens"
+	RAW = "raw"
+	SYNC = "sync"
+	
+	PV = "pv"
+	MC = "mc"
+	
+	AB_ZIP = "ab.zip"
+	DEPTH_ZIP = "depth.zip"
+	FRAMES_ZIP = "frames.zip"
+	
+	DEPTH_POSE = "depth_pose_pkl"
+	PV_POSE = "pv_pose_pkl"
+	SPATIAL_POSE = "spatial_pkl"
+	
+	MC_PKL = "mc_pkl"
+	PV_VIDEO = "pv_video"
+	
+	IMU_ACCELEROMETER_PKL = "imu_accelerometer_pkl"
+	IMU_GYROSCOPE_PKL = "imu_gyroscope_pkl"
+	IMU_MAGNETOMETER_PKL = "imu_magnetometer_pkl"
+	
+	IS_HOLO_LENS_ENABLED = "is_holo_lens_enabled"
+	IS_SPATIAL_ENABLED = "is_spatial_enabled"
+	
+	DATA_JSON = "data_json"
+	
+	HOLOLENS_DEVICE_INFO = "hololens_device_info"
+	
+	RECORDING_ID = "recording_id"
+	METADATA = "metadata"
+	DOWNLOAD_LINKS = "download_links"
+	FILE_SIZES = "file_sizes"
+	RECORDING = "recording"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -235,6 +273,8 @@ class Firebase_Constants:
 	USER_ENVIRONMENT = "user_environment"
 	
 	NARRATIONS = "narrations"
+	
+	RECORDING_SUMMARIES = "recording_summaries"
 
 
 # # ---------------------------------------------------------------------------------------

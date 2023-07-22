@@ -157,7 +157,42 @@ class FirebaseUtils:
 if __name__ == '__main__':
 	firebase_utils = FirebaseUtils()
 	# firebase_utils.fetch_all_recordings()
-	firebase_utils.process_environment_recordings(is_missing_gopro=False)
+	# firebase_utils.process_environment_recordings(is_missing_gopro=False)
+
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='4_20',
+	# 	recording_one_environment=10,
+	# 	recording_one_selected_by=6,
+	# 	recording_two_environment=10,
+	# 	recording_two_selected_by=6
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='4_22',
+	# 	recording_one_environment=1,
+	# 	recording_one_selected_by=3,
+	# 	recording_two_environment=6,
+	# 	recording_two_selected_by=3
+	# )
+	
+	# firebase_utils.tackle_recording_repetition(
+	# 	recording_id='16_10',
+	# 	recording_one_environment=10,
+	# 	recording_one_selected_by=6,
+	# 	recording_two_environment=10,
+	# 	recording_two_selected_by=6
+	# )
+	
+	firebase_utils.tackle_recording_repetition(
+		recording_id='22_37',
+		recording_one_environment=6,
+		recording_one_selected_by=3,
+		recording_two_environment=6,
+		recording_two_selected_by=3
+	)
+	
+
+	
 # firebase_utils.change_user_recordings_environment(
 # 	user_id=8,
 # 	old_environment_id=2,

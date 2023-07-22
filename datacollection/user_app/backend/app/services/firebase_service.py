@@ -3,6 +3,7 @@ import time
 
 import pyrebase
 
+from ..models.recording_summary import RecordingSummary
 from ..utils.constants import Firebase_Constants as const
 from ..models.activity import Activity
 from ..models.environment import Environment
@@ -174,6 +175,20 @@ class FirebaseService:
 	def update_narration(self, narration):
 		self.db.child(const.NARRATIONS).child(narration.recording_id).set(narration.to_dict())
 		logger.info(f"Updated narration in the firebase - {narration.__str__()}")
+	
+	# ---------------------- BEGIN RECORDING SUMMARY ----------------------
+	
+	def update_recording_summary(self, recording_summary: RecordingSummary):
+		self.db.child(const.RECORDING_SUMMARIES).child(recording_summary.recording_id).set(recording_summary.to_dict())
+		logger.info(f"Updated recording in the firebase - {recording_summary.__str__()}")
+		
+	def fetch_recording_summary(self, recording_id):
+		return self.db.child(const.RECORDING_SUMMARIES).child(recording_id).get().val()
+	
+	def remove_all_recording_summaries(self):
+		self.db.child(const.RECORDING_SUMMARIES).remove()
+
+	# ---------------------- END RECORDING SUMMARY ----------------------
 
 
 if __name__ == "__main__":
