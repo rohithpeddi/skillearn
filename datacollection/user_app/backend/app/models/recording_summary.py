@@ -17,6 +17,8 @@ class RecordingSummary:
 		self.is_hololens_enabled = is_hololens_enabled
 		self.is_spatial_enabled = is_spatial_enabled
 		
+		self.duration = None
+		
 		self.metadata = RecordingDataContainer(
 			is_hololens_enabled=self.is_hololens_enabled,
 			is_spatial_enabled=self.is_spatial_enabled
@@ -36,6 +38,7 @@ class RecordingSummary:
 			const.RECORDING: self.recording.to_dict(),
 			const.IS_HOLO_LENS_ENABLED: self.is_hololens_enabled,
 			const.IS_SPATIAL_ENABLED: self.is_spatial_enabled,
+			const.DURATION: self.duration,
 			const.METADATA: self.metadata.to_dict(),
 			const.DOWNLOAD_LINKS: self.download_links.to_dict(),
 			const.FILE_SIZES: self.file_sizes.to_dict()
@@ -54,6 +57,8 @@ class RecordingSummary:
 			is_hololens_enabled=is_holo_lens_enabled,
 			is_spatial_enabled=is_spatial_enabled
 		)
+		
+		recording_summary.duration = recording_summary_dict[const.DURATION]
 		
 		recording_summary.metadata = RecordingDataContainer.from_dict(
 			recording_summary_dict[const.METADATA]

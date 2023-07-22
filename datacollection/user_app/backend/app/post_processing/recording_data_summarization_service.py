@@ -1,5 +1,7 @@
 import os
 
+from moviepy.video.io.VideoFileClip import VideoFileClip
+
 from ..models.recording import Recording
 from ..models.recording_summary import RecordingSummary
 from ..services.firebase_service import FirebaseService
@@ -8,28 +10,22 @@ from ..utils.constants import Recording_Constants as const
 
 
 def get_file_size(file_path):
-	"""Gets the file size in human readable format.
-
-  Args:
-    file_path: The path to the file.
-
-  Returns:
-    The file size in human readable format.
-  """
-	
-	size = get_file_size(file_path)
-	
+	size = os.path.getsize(file_path)
 	if size < 1024:
 		return str(size) + " bytes"
-	
 	elif size < 1048576:
 		return str(size // 1024) + " KB"
-	
 	elif size < 1073741824:
 		return str(size // 1048576) + " MB"
-	
 	else:
 		return str(size // 1073741824) + " GB"
+
+
+def get_video_duration(video_path):
+	video_clip = VideoFileClip(video_path)
+	recording_duration = video_clip.duration / 3600
+	video_clip.close()
+	return recording_duration
 
 
 class RecordingDataSummarizationService:
@@ -65,6 +61,8 @@ class RecordingDataSummarizationService:
 			self.is_spatial_enabled
 		)
 		
+		recording_duration = None
+		
 		gopro_data_directory = os.path.join(self.recording_data_directory, const.GOPRO)
 		if os.path.exists(gopro_data_directory):
 			# 1. Update Metadata, Download Links, File Sizes
@@ -77,6 +75,9 @@ class RecordingDataSummarizationService:
 			if os.path.exists(gopro_360p_file):
 				recording_summary.metadata.GOPRO_RESOLUTION_360p = True
 				recording_summary.file_sizes.GOPRO_RESOLUTION_360p = get_file_size(gopro_360p_file)
+				
+				recording_duration = get_video_duration(gopro_360p_file)
+				recording_summary.recording_duration = recording_duration
 		
 		if os.path.exists(raw_data_directory):
 			raw_depth_ahat_directory = os.path.join(raw_data_directory, const.DEPTH_AHAT)
@@ -179,6 +180,15 @@ class RecordingDataSummarizationService:
 				if os.path.exists(sync_frames_zip_file):
 					recording_summary.metadata.HOLOLENS_SYNC_PV_FRAMES_ZIP = True
 					recording_summary.file_sizes.HOLOLENS_SYNC_PV_FRAMES_ZIP = get_file_size(sync_frames_zip_file)
+				
+				sync_pv_video_file = os.path.join(sync_pv_directory, f"{self.recording_id}.mp4")
+				if os.path.exists(sync_pv_video_file):
+					recording_summary.metadata.HOLOLENS_SYNC_PV_VIDEO = True
+					recording_summary.file_sizes.HOLOLENS_SYNC_PV_VIDEO = get_file_size(sync_pv_video_file)
+					
+					if recording_duration is None:
+						recording_duration = get_video_duration(sync_pv_video_file)
+						recording_summary.recording_duration = recording_duration
 				
 				if self.is_spatial_enabled:
 					sync_pv_pose_pkl_file = os.path.join(sync_pv_directory, f"{self.recording_id}_pv_pose.pkl")

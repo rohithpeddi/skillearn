@@ -150,6 +150,8 @@ class Recording_Constants:
 	
 	HOLOLENS_RAW_DEPTH_POSE_PKL = "hololens_raw_depth_pose_pkl"
 	HOLOLENS_SYNC_DEPTH_POSE_PKL = "hololens_sync_depth_pose_pkl"
+	
+	DURATION = "duration"
 
 
 # # ---------------------------------------------------------------------------------------
