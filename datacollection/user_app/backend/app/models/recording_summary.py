@@ -18,15 +18,15 @@ class RecordingSummary:
 		self.is_spatial_enabled = is_spatial_enabled
 		
 		self.metadata = RecordingDataContainer(
-			is_holo_lens_enabled=self.is_hololens_enabled,
+			is_hololens_enabled=self.is_hololens_enabled,
 			is_spatial_enabled=self.is_spatial_enabled
 		)
 		self.download_links = RecordingDataContainer(
-			is_holo_lens_enabled=self.is_hololens_enabled,
+			is_hololens_enabled=self.is_hololens_enabled,
 			is_spatial_enabled=self.is_spatial_enabled
 		)
 		self.file_sizes = RecordingDataContainer(
-			is_holo_lens_enabled=self.is_hololens_enabled,
+			is_hololens_enabled=self.is_hololens_enabled,
 			is_spatial_enabled=self.is_spatial_enabled
 		)
 		

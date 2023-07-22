@@ -5,10 +5,10 @@ class RecordingDataContainer:
 	
 	def __init__(
 			self,
-			is_holo_lens_enabled: bool,
+			is_hololens_enabled: bool,
 			is_spatial_enabled: bool,
 	):
-		self.is_hololens_enabled = is_holo_lens_enabled
+		self.is_hololens_enabled = is_hololens_enabled
 		self.is_spatial_enabled = is_spatial_enabled
 		
 		self.GOPRO_RESOLUTION_360p = None
