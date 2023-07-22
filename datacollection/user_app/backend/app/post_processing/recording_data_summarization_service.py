@@ -79,7 +79,7 @@ class RecordingDataSummarizationService:
 				recording_summary.file_sizes.GOPRO_RESOLUTION_360p = get_file_size(gopro_360p_file)
 				
 				recording_duration = get_video_duration(gopro_360p_file)
-				recording_summary.recording_duration = recording_duration
+				recording_summary.duration = recording_duration
 		
 		if os.path.exists(raw_data_directory):
 			raw_depth_ahat_directory = os.path.join(raw_data_directory, const.DEPTH_AHAT)
@@ -190,7 +190,7 @@ class RecordingDataSummarizationService:
 					
 					if recording_duration is None:
 						recording_duration = get_video_duration(sync_pv_video_file)
-						recording_summary.recording_duration = recording_duration
+						recording_summary.duration = recording_duration
 				
 				if self.is_spatial_enabled:
 					sync_pv_pose_pkl_file = os.path.join(sync_pv_directory, f"{self.recording_id}_pv_pose.pkl")
