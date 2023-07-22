@@ -40,8 +40,7 @@ class RecordingDataSummarizationService:
 		self.db_service = FirebaseService()
 		self.recording_summary = self.db_service.fetch_recording_summary(self.recording_id)
 		
-		if self.recording_summary is None:
-			self.recording_summary = self.create_recording_summary()
+		self.create_recording_summary()
 	
 	def create_recording_summary(self):
 		recording_dict = self.db_service.fetch_recording(self.recording_id)
