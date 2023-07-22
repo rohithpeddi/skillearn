@@ -23,7 +23,7 @@ def get_file_size(file_path):
 
 def get_video_duration(video_path):
 	video_clip = VideoFileClip(video_path)
-	recording_duration = round(video_clip.duration / 3600, 3)
+	recording_duration = round(video_clip.duration / 60, 3)
 	video_clip.close()
 	return recording_duration
 
