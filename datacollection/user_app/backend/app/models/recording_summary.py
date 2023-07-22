@@ -9,24 +9,24 @@ class RecordingSummary:
 			self,
 			recording_id: str,
 			recording: Recording,
-			is_holo_lens_enabled: bool,
+			is_hololens_enabled: bool,
 			is_spatial_enabled: bool,
 	):
 		self.recording = recording
 		self.recording_id = recording_id
-		self.is_holo_lens_enabled = is_holo_lens_enabled
+		self.is_hololens_enabled = is_hololens_enabled
 		self.is_spatial_enabled = is_spatial_enabled
 		
 		self.metadata = RecordingDataContainer(
-			is_holo_lens_enabled=self.is_holo_lens_enabled,
+			is_holo_lens_enabled=self.is_hololens_enabled,
 			is_spatial_enabled=self.is_spatial_enabled
 		)
 		self.download_links = RecordingDataContainer(
-			is_holo_lens_enabled=self.is_holo_lens_enabled,
+			is_holo_lens_enabled=self.is_hololens_enabled,
 			is_spatial_enabled=self.is_spatial_enabled
 		)
 		self.file_sizes = RecordingDataContainer(
-			is_holo_lens_enabled=self.is_holo_lens_enabled,
+			is_holo_lens_enabled=self.is_hololens_enabled,
 			is_spatial_enabled=self.is_spatial_enabled
 		)
 		
@@ -34,7 +34,7 @@ class RecordingSummary:
 		return {
 			const.RECORDING_ID: self.recording_id,
 			const.RECORDING: self.recording.to_dict(),
-			const.IS_HOLO_LENS_ENABLED: self.is_holo_lens_enabled,
+			const.IS_HOLO_LENS_ENABLED: self.is_hololens_enabled,
 			const.IS_SPATIAL_ENABLED: self.is_spatial_enabled,
 			const.METADATA: self.metadata.to_dict(),
 			const.DOWNLOAD_LINKS: self.download_links.to_dict(),
@@ -51,7 +51,7 @@ class RecordingSummary:
 		recording_summary = cls(
 			recording_id=recording_id,
 			recording=recording,
-			is_holo_lens_enabled=is_holo_lens_enabled,
+			is_hololens_enabled=is_holo_lens_enabled,
 			is_spatial_enabled=is_spatial_enabled
 		)
 		

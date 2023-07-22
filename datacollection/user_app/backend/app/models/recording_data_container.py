@@ -145,6 +145,8 @@ class RecordingDataContainer:
 				
 				rdc_dict[const.HOLOLENS_RAW_DEPTH_POSE_PKL] = self.HOLOLENS_RAW_DEPTH_POSE_PKL
 				rdc_dict[const.HOLOLENS_SYNC_DEPTH_POSE_PKL] = self.HOLOLENS_SYNC_DEPTH_POSE_PKL
+				
+		return rdc_dict
 	
 	@classmethod
 	def from_dict(cls, recording_data_container_dict) -> "RecordingDataContainer":
