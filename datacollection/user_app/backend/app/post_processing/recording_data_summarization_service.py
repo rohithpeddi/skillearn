@@ -257,43 +257,43 @@ class RecordingDataSummarizationService:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.SYNC} - {const.PV}")
 						for pv_data_item in sync_data_item.get_items():
 							if pv_data_item.name == const.FRAMES_ZIP:
-								self.recording_summary.download_links.HOLOLENS_SYNC_PV_FRAMES_ZIP = pv_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_PV_FRAMES_ZIP = pv_data_item.get_shared_link_download_url(
 									access='open')
 							elif pv_data_item.name == f"{self.recording_id}.mp4":
-								self.recording_summary.download_links.HOLOLENS_SYNC_PV_VIDEO = pv_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_PV_VIDEO = pv_data_item.get_shared_link_download_url(
 									access='open')
 							elif pv_data_item.name == f"{self.recording_id}_pv_pose.pkl":
-								self.recording_summary.download_links.HOLOLENS_SYNC_PV_POSE_PKL = pv_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_PV_POSE_PKL = pv_data_item.get_shared_link_download_url(
 									access='open')
 					elif sync_data_item.name == const.SPATIAL:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.SYNC} - {const.SPATIAL}")
 						for spatial_data_item in sync_data_item.get_items():
 							if spatial_data_item.name == f"{self.recording_id}_spatial.pkl":
-								self.recording_summary.download_links.HOLOLENS_SYNC_SPATIAL_PKL = spatial_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_SPATIAL_PKL = spatial_data_item.get_shared_link_download_url(
 									access='open')
 					elif sync_data_item.name == const.IMU:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.SYNC} - {const.IMU}")
 						for imu_data_item in sync_data_item.get_items():
 							if imu_data_item.name == f"{self.recording_id}_imu_accelerometer.pkl":
-								self.recording_summary.download_links.HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL = imu_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL = imu_data_item.get_shared_link_download_url(
 									access='open')
 							elif imu_data_item.name == f"{self.recording_id}_imu_gyroscope.pkl":
-								self.recording_summary.download_links.HOLOLENS_SYNC_IMU_GYROSCOPE_PKL = imu_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_IMU_GYROSCOPE_PKL = imu_data_item.get_shared_link_download_url(
 									access='open')
 							elif imu_data_item.name == f"{self.recording_id}_imu_magnetometer.pkl":
-								self.recording_summary.download_links.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL = imu_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL = imu_data_item.get_shared_link_download_url(
 									access='open')
 					elif recording_specific_item.name == const.DEPTH_AHAT:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.SYNC} - {const.DEPTH_AHAT}")
 						for depth_ahat_data_item in sync_data_item.get_items():
 							if depth_ahat_data_item.name == f"{self.recording_id}_depth_ahat_pose.pkl":
-								self.recording_summary.download_links.HOLOLENS_SYNC_DEPTH_POSE_PKL = depth_ahat_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_DEPTH_POSE_PKL = depth_ahat_data_item.get_shared_link_download_url(
 									access='open')
 							elif recording_specific_item.name == const.DEPTH_ZIP:
-								self.recording_summary.download_links.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP = depth_ahat_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP = depth_ahat_data_item.get_shared_link_download_url(
 									access='open')
 							elif recording_specific_item.name == const.AB_ZIP:
-								self.recording_summary.download_links.HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP = depth_ahat_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP = depth_ahat_data_item.get_shared_link_download_url(
 									access='open')
 			elif recording_specific_item.name == const.RAW:
 				for raw_data_item in recording_specific_item.get_items():
@@ -301,55 +301,55 @@ class RecordingDataSummarizationService:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.RAW} - {const.PV}")
 						for pv_data_item in raw_data_item.get_items():
 							if pv_data_item.name == const.FRAMES_ZIP:
-								self.recording_summary.download_links.HOLOLENS_RAW_PV_FRAMES_ZIP = pv_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_PV_FRAMES_ZIP = pv_data_item.get_shared_link_download_url(
 									access='open')
 							elif pv_data_item.name == f"{self.recording_id}_pv_pose.pkl":
-								self.recording_summary.download_links.HOLOLENS_RAW_PV_POSE_PKL = pv_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_PV_POSE_PKL = pv_data_item.get_shared_link_download_url(
 									access='open')
 					elif raw_data_item.name == const.SPATIAL:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.RAW} - {const.SPATIAL}")
 						for spatial_data_item in raw_data_item.get_items():
 							if spatial_data_item.name == f"{self.recording_id}_spatial.pkl":
-								self.recording_summary.download_links.HOLOLENS_RAW_SPATIAL_PKL = spatial_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_SPATIAL_PKL = spatial_data_item.get_shared_link_download_url(
 									access='open')
 					elif raw_data_item.name == const.IMU:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.RAW} - {const.IMU}")
 						for imu_data_item in raw_data_item.get_items():
 							if imu_data_item.name == f"{self.recording_id}_imu_accelerometer.pkl":
-								self.recording_summary.download_links.HOLOLENS_RAW_IMU_ACCELEROMETER_PKL = imu_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_IMU_ACCELEROMETER_PKL = imu_data_item.get_shared_link_download_url(
 									access='open')
 							elif imu_data_item.name == f"{self.recording_id}_imu_gyroscope.pkl":
-								self.recording_summary.download_links.HOLOLENS_RAW_IMU_GYROSCOPE_PKL = imu_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_IMU_GYROSCOPE_PKL = imu_data_item.get_shared_link_download_url(
 									access='open')
 							elif imu_data_item.name == f"{self.recording_id}_imu_magnetometer.pkl":
-								self.recording_summary.download_links.HOLOLENS_RAW_IMU_MAGNETOMETER_PKL = imu_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_IMU_MAGNETOMETER_PKL = imu_data_item.get_shared_link_download_url(
 									access='open')
 					elif raw_data_item.name == const.DEPTH_AHAT:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.RAW} - {const.DEPTH_AHAT}")
 						for depth_ahat_data_item in raw_data_item.get_items():
 							if depth_ahat_data_item.name == f"{self.recording_id}_depth_ahat_pose.pkl":
-								self.recording_summary.download_links.HOLOLENS_RAW_DEPTH_POSE_PKL = depth_ahat_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_DEPTH_POSE_PKL = depth_ahat_data_item.get_shared_link_download_url(
 									access='open')
 							elif recording_specific_item.name == const.DEPTH_ZIP:
-								self.recording_summary.download_links.HOLOLENS_RAW_DEPTH_AHAT_DEPTH_ZIP = depth_ahat_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_DEPTH_AHAT_DEPTH_ZIP = depth_ahat_data_item.get_shared_link_download_url(
 									access='open')
 							elif recording_specific_item.name == const.AB_ZIP:
-								self.recording_summary.download_links.HOLOLENS_RAW_DEPTH_AHAT_AB_ZIP = depth_ahat_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_DEPTH_AHAT_AB_ZIP = depth_ahat_data_item.get_shared_link_download_url(
 									access='open')
 					elif recording_specific_item.name == const.MC:
 						logger.info(f"[{self.recording_id}] Updating download links for {const.RAW} - {const.MC}")
 						for mc_data_item in raw_data_item.get_items():
 							if mc_data_item.name == f"{self.recording_id}_mc.pkl":
-								self.recording_summary.download_links.HOLOLENS_RAW_MC_PKL = mc_data_item.get_shared_link(
+								self.recording_summary.download_links.HOLOLENS_RAW_MC_PKL = mc_data_item.get_shared_link_download_url(
 									access='open')
 			elif recording_specific_item.name == const.GOPRO:
 				logger.info(f"[{self.recording_id}] Updating download links for {const.GOPRO}")
 				for gopro_data_item in recording_specific_item.get_items():
 					if gopro_data_item.name == f"{self.recording_id}.MP4":
-						self.recording_summary.download_links.GOPRO_RESOLUTION_4k = gopro_data_item.get_shared_link(
+						self.recording_summary.download_links.GOPRO_RESOLUTION_4k = gopro_data_item.get_shared_link_download_url(
 							access='open')
 					elif gopro_data_item.name == f"{self.recording_id}_360p.mp4":
-						self.recording_summary.download_links.GOPRO_RESOLUTION_360p = gopro_data_item.get_shared_link(
+						self.recording_summary.download_links.GOPRO_RESOLUTION_360p = gopro_data_item.get_shared_link_download_url(
 							access='open')
 		
 		logger.info(f"[{self.recording_id}] Updating recording summary in firebase database")
