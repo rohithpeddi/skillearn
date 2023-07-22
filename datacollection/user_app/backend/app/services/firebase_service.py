@@ -116,9 +116,6 @@ class FirebaseService:
 	def fetch_recording(self, recording_id):
 		return self.db.child(const.RECORDINGS).child(recording_id).get().val()
 	
-	def remove_all_recordings(self):
-		self.db.child(const.RECORDINGS).remove()
-	
 	def fetch_environment_recordings(self, environment):
 		return self.db.child(const.RECORDINGS).order_by_child(const.ENVIRONMENT).equal_to(environment).get().val()
 	

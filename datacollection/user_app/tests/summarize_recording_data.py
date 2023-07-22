@@ -2,6 +2,7 @@ import os
 
 from datacollection.user_app.backend.app.post_processing.recording_data_summarization_service import \
 	RecordingDataSummarizationService
+from datacollection.user_app.backend.app.services.firebase_service import FirebaseService
 from datacollection.user_app.backend.app.utils.logger_config import get_logger, setup_logging
 
 setup_logging()
@@ -30,6 +31,12 @@ def summarize_recording_data(recording_id, data_directory):
 
 
 def summarize_all_recordings(data_directory):
+	
+	db_service = FirebaseService()
+	logger.info("Removing all recording summaries from the database")
+	db_service.remove_all_recording_summaries()
+	logger.info("Finished removing all recording summaries from the database")
+	
 	recording_directories = os.listdir(data_directory)
 	
 	def sort_key(file_name):
