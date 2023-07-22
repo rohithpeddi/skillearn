@@ -88,8 +88,8 @@ class Recording_Constants:
 	
 	RECORDING_DATA_DIRECTORY = "/home/ptg/CODE/data"
 	
-	RESOLUTION_4K = "4k"
-	RESOLUTION_360P = "360p"
+	GOPRO_RESOLUTION_4K = "4k"
+	GOPRO_RESOLUTION_360P = "360p"
 	
 	HOLOLENS = "hololens"
 	RAW = "raw"
@@ -125,6 +125,31 @@ class Recording_Constants:
 	DOWNLOAD_LINKS = "download_links"
 	FILE_SIZES = "file_sizes"
 	RECORDING = "recording"
+	
+	HOLOLENS_RAW_PV_FRAMES_ZIP = "hololens_raw_pv_frames_zip"
+	HOLOLENS_RAW_DEPTH_AHAT_AB_ZIP = "hololens_raw_depth_ahat_ab_zip"
+	HOLOLENS_RAW_DEPTH_AHAT_DEPTH_ZIP = "hololens_raw_depth_ahat_depth_zip"
+	HOLOLENS_RAW_MC_PKL = "hololens_raw_mc_pkl"
+	
+	HOLOLENS_SYNC_PV_FRAMES_ZIP = "hololens_sync_pv_frames_zip"
+	HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP = "hololens_sync_depth_ahat_ab_zip"
+	HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP = "hololens_sync_depth_ahat_depth_zip"
+	
+	HOLOLENS_RAW_SPATIAL_POSE_PKL = "hololens_raw_spatial_pose_pkl"
+	HOLOLENS_RAW_IMU_MAGNETOMETER_PKL = "hololens_raw_imu_magnetometer_pkl"
+	HOLOLENS_RAW_IMU_GYROSCOPE_PKL = "hololens_raw_imu_gyroscope_pkl"
+	HOLOLENS_RAW_IMU_ACCELEROMETER_PKL = "hololens_raw_imu_accelerometer_pkl"
+	
+	HOLOLENS_SYNC_SPATIAL_POSE_PKL = "hololens_sync_spatial_pose_pkl"
+	HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL = "hololens_sync_imu_magnetometer_pkl"
+	HOLOLENS_SYNC_IMU_GYROSCOPE_PKL = "hololens_sync_imu_gyroscope_pkl"
+	HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL = "hololens_sync_imu_accelerometer_pkl"
+	
+	HOLOLENS_RAW_PV_POSE_PKL = "hololens_raw_pv_pose_pkl"
+	HOLOLENS_SYNC_PV_POSE_PKL = "hololens_sync_pv_pose_pkl"
+	
+	HOLOLENS_RAW_DEPTH_POSE_PKL = "hololens_raw_depth_pose_pkl"
+	HOLOLENS_SYNC_DEPTH_POSE_PKL = "hololens_sync_depth_pose_pkl"
 
 
 # # ---------------------------------------------------------------------------------------
