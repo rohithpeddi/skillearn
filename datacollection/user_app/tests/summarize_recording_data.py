@@ -2,6 +2,10 @@ import os
 
 from datacollection.user_app.backend.app.post_processing.recording_data_summarization_service import \
 	RecordingDataSummarizationService
+from datacollection.user_app.backend.app.utils.logger_config import get_logger, setup_logging
+
+setup_logging()
+logger = get_logger(__name__)
 
 
 def check_if_spatial_is_valid(recording_id):
@@ -23,14 +27,23 @@ def summarize_recording_data(recording_id, data_directory):
 		recording_data_directory,
 		is_spatial_enabled
 	)
-	
-	
+
+
 def summarize_all_recordings(data_directory):
-	for recording_id in os.listdir(data_directory):
+	recording_directories = os.listdir(data_directory)
+	
+	def sort_key(file_name):
+		parts = file_name.split("_")
+		return int(parts[0]), int(parts[1])
+	
+	sorted_recording_directories = sorted(recording_directories, key=sort_key)
+	
+	for recording_id in sorted_recording_directories:
+		logger.info(f"Summarizing recording {recording_id}")
 		summarize_recording_data(recording_id, data_directory)
-		
+		logger.info(f"Finished summarizing recording {recording_id}")
+
 
 if __name__ == "__main__":
 	data_parent_directory = ""
 	summarize_all_recordings(data_parent_directory)
-	

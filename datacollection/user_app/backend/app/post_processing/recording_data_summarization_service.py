@@ -43,6 +43,9 @@ class RecordingDataSummarizationService:
 		self.create_recording_summary()
 	
 	def create_recording_summary(self):
+		
+		self.db_service.remove_all_recording_summaries()
+		
 		recording_dict = self.db_service.fetch_recording(self.recording_id)
 		recording = Recording.from_dict(recording_dict)
 		
@@ -233,5 +236,5 @@ class RecordingDataSummarizationService:
 						recording_summary.file_sizes.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL = get_file_size(
 							sync_imu_magnetometer_pkl_file)
 		
-		self.db_service.update_recording_summary(recording_summary.to_dict())
+		self.db_service.update_recording_summary(recording_summary)
 		return recording_summary
