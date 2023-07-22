@@ -54,60 +54,63 @@ class RecordingDataContainer:
 		}
 		
 		if self.is_holo_lens_enabled:
-			self.recording_data_json[const.HOLOLENS] = {
-				const.RAW: {
-					const.PV: {
-						const.FRAMES_ZIP: self.HOLOLENS_RAW_PV_FRAMES_ZIP
-					},
-					const.DEPTH_AHAT: {
-						const.AB_ZIP: self.HOLOLENS_RAW_DEPTH_AHAT_AB_ZIP,
-						const.DEPTH_ZIP: self.HOLOLENS_RAW_DEPTH_AHAT_DEPTH_ZIP
-					},
-					const.MC: {
-						const.MC_PKL: self.HOLOLENS_RAW_MC_PKL,
-					},
-					const.HOLOLENS_DEVICE_INFO: self.HOLOLENS_DEVICE_INFO
-				},
-				const.SYNC: {
-					const.PV: {
-						const.FRAMES_ZIP: self.HOLOLENS_SYNC_PV_FRAMES_ZIP,
-						const.PV_VIDEO: self.HOLOLENS_SYNC_PV_VIDEO
-					},
-					const.DEPTH_AHAT: {
-						const.AB_ZIP: self.HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP,
-						const.DEPTH_ZIP: self.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP
-					}
-				}
-			}
+			
+			self.recording_data_json[const.HOLOLENS] = {}
+			self.recording_data_json[const.HOLOLENS][const.RAW] = {}
+			self.recording_data_json[const.HOLOLENS][const.SYNC] = {}
+			
+			self.recording_data_json[const.HOLOLENS][const.RAW][const.PV] = {}
+			self.recording_data_json[const.HOLOLENS][const.RAW][const.DEPTH_AHAT] = {}
+			self.recording_data_json[const.HOLOLENS][const.RAW][const.MC] = {}
+			
+			self.recording_data_json[const.HOLOLENS][const.SYNC][const.PV] = {}
+			self.recording_data_json[const.HOLOLENS][const.SYNC][const.DEPTH_AHAT] = {}
+			
+			self.recording_data_json[const.HOLOLENS][const.RAW][const.PV][
+				const.FRAMES_ZIP] = self.HOLOLENS_RAW_PV_FRAMES_ZIP
+			self.recording_data_json[const.HOLOLENS][const.RAW][const.DEPTH_AHAT][
+				const.AB_ZIP] = self.HOLOLENS_RAW_DEPTH_AHAT_AB_ZIP
+			self.recording_data_json[const.HOLOLENS][const.RAW][const.DEPTH_AHAT][
+				const.DEPTH_ZIP] = self.HOLOLENS_RAW_DEPTH_AHAT_DEPTH_ZIP
+			self.recording_data_json[const.HOLOLENS][const.RAW][const.MC][const.MC_PKL] = self.HOLOLENS_RAW_MC_PKL
+			self.recording_data_json[const.HOLOLENS][const.RAW][const.HOLOLENS_DEVICE_INFO] = self.HOLOLENS_DEVICE_INFO
+			
+			self.recording_data_json[const.HOLOLENS][const.SYNC][const.PV][
+				const.FRAMES_ZIP] = self.HOLOLENS_SYNC_PV_FRAMES_ZIP
+			self.recording_data_json[const.HOLOLENS][const.SYNC][const.PV][const.PV_VIDEO] = self.HOLOLENS_SYNC_PV_VIDEO
+			self.recording_data_json[const.HOLOLENS][const.SYNC][const.DEPTH_AHAT][
+				const.AB_ZIP] = self.HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP
+			self.recording_data_json[const.HOLOLENS][const.SYNC][const.DEPTH_AHAT][
+				const.DEPTH_ZIP] = self.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP
 			
 			if self.is_spatial_enabled:
-				self.recording_data_json[const.HOLOLENS][const.RAW][const.SPATIAL] = {
-					const.SPATIAL_POSE: self.HOLOLENS_RAW_SPATIAL_PKL
-				}
-				self.recording_data_json[const.HOLOLENS][const.SYNC][const.SPATIAL] = {
-					const.SPATIAL_POSE: self.HOLOLENS_SYNC_SPATIAL_PKL
-				}
+				self.recording_data_json[const.HOLOLENS][const.RAW][const.SPATIAL_POSE] = self.HOLOLENS_RAW_SPATIAL_PKL
+				self.recording_data_json[const.HOLOLENS][const.SYNC][
+					const.SPATIAL_POSE] = self.HOLOLENS_SYNC_SPATIAL_PKL
 				
-				self.recording_data_json[const.HOLOLENS][const.RAW][const.IMU] = {
-					const.IMU_MAGNETOMETER_PKL: self.HOLOLENS_RAW_IMU_MAGNETOMETER_PKL,
-					const.IMU_GYROSCOPE_PKL: self.HOLOLENS_RAW_IMU_GYROSCOPE_PKL,
-					const.IMU_ACCELEROMETER_PKL: self.HOLOLENS_RAW_IMU_ACCELEROMETER_PKL,
-				}
-				self.recording_data_json[const.HOLOLENS][const.SYNC][const.IMU] = {
-					const.IMU_MAGNETOMETER_PKL: self.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL,
-					const.IMU_GYROSCOPE_PKL: self.HOLOLENS_SYNC_IMU_GYROSCOPE_PKL,
-					const.IMU_ACCELEROMETER_PKL: self.HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL
-				}
+				self.recording_data_json[const.HOLOLENS][const.RAW][const.IMU][
+					const.IMU_MAGNETOMETER_PKL] = self.HOLOLENS_RAW_IMU_MAGNETOMETER_PKL
+				self.recording_data_json[const.HOLOLENS][const.RAW][const.IMU][
+					const.IMU_GYROSCOPE_PKL] = self.HOLOLENS_RAW_IMU_GYROSCOPE_PKL
+				self.recording_data_json[const.HOLOLENS][const.RAW][const.IMU][
+					const.IMU_ACCELEROMETER_PKL] = self.HOLOLENS_RAW_IMU_ACCELEROMETER_PKL
 				
-				self.recording_data_json[const.HOLOLENS][const.RAW][const.DEPTH_AHAT][
-					const.DEPTH_POSE] = self.HOLOLENS_RAW_DEPTH_POSE_PKL
-				self.recording_data_json[const.HOLOLENS][const.SYNC][const.DEPTH_AHAT][
-					const.DEPTH_POSE] = self.HOLOLENS_SYNC_DEPTH_POSE_PKL
+				self.recording_data_json[const.HOLOLENS][const.SYNC][const.IMU][
+					const.IMU_MAGNETOMETER_PKL] = self.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL
+				self.recording_data_json[const.HOLOLENS][const.SYNC][const.IMU][
+					const.IMU_GYROSCOPE_PKL] = self.HOLOLENS_SYNC_IMU_GYROSCOPE_PKL
+				self.recording_data_json[const.HOLOLENS][const.SYNC][const.IMU][
+					const.IMU_ACCELEROMETER_PKL] = self.HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL
 				
 				self.recording_data_json[const.HOLOLENS][const.RAW][const.PV][
 					const.PV_POSE] = self.HOLOLENS_RAW_PV_POSE_PKL
 				self.recording_data_json[const.HOLOLENS][const.SYNC][const.PV][
 					const.PV_POSE] = self.HOLOLENS_SYNC_PV_POSE_PKL
+				
+				self.recording_data_json[const.HOLOLENS][const.RAW][const.DEPTH_AHAT][
+					const.DEPTH_POSE] = self.HOLOLENS_RAW_DEPTH_POSE_PKL
+				self.recording_data_json[const.HOLOLENS][const.SYNC][const.DEPTH_AHAT][
+					const.DEPTH_POSE] = self.HOLOLENS_SYNC_DEPTH_POSE_PKL
 	
 	def to_dict(self):
 		return {
