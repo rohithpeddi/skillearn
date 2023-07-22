@@ -43,12 +43,15 @@ class RecordingDataSummarizationService:
 		
 		self.db_service = FirebaseService()
 		self.box_service = BoxService()
-		self.recording_summary = RecordingSummary.from_dict(self.db_service.fetch_recording_summary(self.recording_id))
 		
-		if self.recording_summary is None:
+		self.recording_summary = None
+		self.recording_summary_dict = self.db_service.fetch_recording_summary(self.recording_id)
+		
+		if self.recording_summary_dict is None:
 			logger.info("Creating recording summary for recording id: {}".format(self.recording_id))
 			self.create_recording_summary()
 		else:
+			self.recording_summary = RecordingSummary.from_dict(self.recording_summary_dict)
 			logger.info("Recording summary already exists for recording id: {}".format(self.recording_id))
 	
 	def create_recording_summary(self):
@@ -242,6 +245,7 @@ class RecordingDataSummarizationService:
 						recording_summary.file_sizes.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL = get_file_size(
 							sync_imu_magnetometer_pkl_file)
 		
+		self.recording_summary = recording_summary
 		self.db_service.update_recording_summary(recording_summary)
 		return recording_summary
 	
