@@ -2,8 +2,10 @@ import os
 
 from datacollection.user_app.backend.app.post_processing.recording_data_summarization_service import \
 	RecordingDataSummarizationService
+from datacollection.user_app.backend.app.services.box_service import BoxService
 from datacollection.user_app.backend.app.services.firebase_service import FirebaseService
 from datacollection.user_app.backend.app.utils.logger_config import get_logger, setup_logging
+from datacollection.user_app.backend.app.utils.constants import Recording_Constants as const
 
 setup_logging()
 logger = get_logger(__name__)
@@ -31,8 +33,6 @@ def summarize_recording_data(recording_id, data_directory):
 
 
 def summarize_all_recordings(data_directory):
-	
-	db_service = FirebaseService()
 	logger.info("Removing all recording summaries from the database")
 	db_service.remove_all_recording_summaries()
 	logger.info("Finished removing all recording summaries from the database")
@@ -52,5 +52,7 @@ def summarize_all_recordings(data_directory):
 
 
 if __name__ == "__main__":
+	db_service = FirebaseService()
+	box_service = BoxService()
 	data_parent_directory = ""
 	summarize_all_recordings(data_parent_directory)

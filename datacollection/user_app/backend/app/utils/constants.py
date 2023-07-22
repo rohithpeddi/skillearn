@@ -113,7 +113,7 @@ class Recording_Constants:
 	IMU_GYROSCOPE_PKL = "imu_gyroscope_pkl"
 	IMU_MAGNETOMETER_PKL = "imu_magnetometer_pkl"
 	
-	IS_HOLO_LENS_ENABLED = "is_holo_lens_enabled"
+	IS_HOLOLENS_ENABLED = "is_hololens_enabled"
 	IS_SPATIAL_ENABLED = "is_spatial_enabled"
 	
 	DATA_JSON = "data_json"
@@ -134,13 +134,14 @@ class Recording_Constants:
 	HOLOLENS_SYNC_PV_FRAMES_ZIP = "hololens_sync_pv_frames_zip"
 	HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP = "hololens_sync_depth_ahat_ab_zip"
 	HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP = "hololens_sync_depth_ahat_depth_zip"
+	HOLOLENS_SYNC_PV_VIDEO = "hololens_sync_pv_video"
 	
-	HOLOLENS_RAW_SPATIAL_POSE_PKL = "hololens_raw_spatial_pose_pkl"
+	HOLOLENS_RAW_SPATIAL_PKL = "hololens_raw_spatial_pkl"
 	HOLOLENS_RAW_IMU_MAGNETOMETER_PKL = "hololens_raw_imu_magnetometer_pkl"
 	HOLOLENS_RAW_IMU_GYROSCOPE_PKL = "hololens_raw_imu_gyroscope_pkl"
 	HOLOLENS_RAW_IMU_ACCELEROMETER_PKL = "hololens_raw_imu_accelerometer_pkl"
 	
-	HOLOLENS_SYNC_SPATIAL_POSE_PKL = "hololens_sync_spatial_pose_pkl"
+	HOLOLENS_SYNC_SPATIAL_PKL = "hololens_sync_spatial_pkl"
 	HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL = "hololens_sync_imu_magnetometer_pkl"
 	HOLOLENS_SYNC_IMU_GYROSCOPE_PKL = "hololens_sync_imu_gyroscope_pkl"
 	HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL = "hololens_sync_imu_accelerometer_pkl"

@@ -3,6 +3,7 @@ import json
 import os
 import time
 
+import boxsdk
 from boxsdk import Client, CCGAuth
 
 from ..models.annotation import Annotation
@@ -52,7 +53,7 @@ class BoxService:
 		self.client_id = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b'
 		self.client_secret = 'TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
 		self.ccg_credentials = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
-
+		
 		ccg_auth = CCGAuth(client_id=self.client_id, client_secret=self.client_secret, user=self.user_id)
 		self.client = Client(ccg_auth)
 		
@@ -145,7 +146,7 @@ class BoxService:
 		# 		recording_id
 		# 	)
 		# 	logger.info(f"[{recording_id}] Raw data uploaded")
-
+		
 		sync_data_directory = os.path.join(data_recording_directory, const.SYNC)
 		if os.path.exists(sync_data_directory):
 			logger.info(f"[{recording_id}] Uploading synchronized data")
@@ -157,12 +158,12 @@ class BoxService:
 				recording_id
 			)
 			logger.info(f"[{recording_id}] Synchronized data uploaded")
-		
-		# logger.info(f"[{recording_id}] Uploading gopro data")
-		# gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
-		# local_gopro_path = os.path.join(data_recording_directory, const.GOPRO)
-		# self._upload_files_in_path(gopro_folder_id, local_gopro_path, recording_id)
-		# logger.info(f"[{recording_id}] Gopro data uploaded")
+	
+	# logger.info(f"[{recording_id}] Uploading gopro data")
+	# gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
+	# local_gopro_path = os.path.join(data_recording_directory, const.GOPRO)
+	# self._upload_files_in_path(gopro_folder_id, local_gopro_path, recording_id)
+	# logger.info(f"[{recording_id}] Gopro data uploaded")
 	
 	def upload_go_pro_360_video(self, recording, file_path):
 		logger.info(f'Uploading GoPro 360 video for recording {recording.id}')
@@ -228,6 +229,27 @@ class BoxService:
 					future.result()
 				except Exception as exc:
 					logger.error('%r generated an exception: %s' % (recording, exc))
+	
+	def _make_folder_shareable(self, folder):
+		shared_link = folder.get_shared_link(access='open')
+		logger.info(f"Folder {folder.object_id} is already shareable with url: {shared_link}")
+	
+	def _make_file_shareable(self, file):
+		shared_link = file.get_shared_link(access='open')
+		logger.info(f"File {file.object_id} is already shareable with url: {shared_link}")
+	
+	def _process_folder(self, folder):
+		self._make_folder_shareable(folder)
+		
+		for item in folder.get_items():
+			if isinstance(item, boxsdk.object.folder.Folder):
+				self._process_folder(item)
+			elif isinstance(item, boxsdk.object.file.File):
+				self._make_file_shareable(item)
+				
+	def make_data_shareable(self):
+		root_folder = self.client.folder(folder_id=self.root_folder_id)
+		self._process_folder(root_folder)
 
 
 if __name__ == '__main__':

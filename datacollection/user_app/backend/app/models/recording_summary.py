@@ -36,7 +36,7 @@ class RecordingSummary:
 		return {
 			const.RECORDING_ID: self.recording_id,
 			const.RECORDING: self.recording.to_dict(),
-			const.IS_HOLO_LENS_ENABLED: self.is_hololens_enabled,
+			const.IS_HOLOLENS_ENABLED: self.is_hololens_enabled,
 			const.IS_SPATIAL_ENABLED: self.is_spatial_enabled,
 			const.DURATION: self.duration,
 			const.METADATA: self.metadata.to_dict(),
@@ -48,7 +48,7 @@ class RecordingSummary:
 	def from_dict(cls, recording_summary_dict) -> "RecordingSummary":
 		recording_id = recording_summary_dict[const.RECORDING_ID]
 		recording = Recording.from_dict(recording_summary_dict[const.RECORDING])
-		is_holo_lens_enabled = recording_summary_dict[const.IS_HOLO_LENS_ENABLED]
+		is_holo_lens_enabled = recording_summary_dict[const.IS_HOLOLENS_ENABLED]
 		is_spatial_enabled = recording_summary_dict[const.IS_SPATIAL_ENABLED]
 		
 		recording_summary = cls(
