@@ -58,7 +58,8 @@ class RecordingSummary:
 			is_spatial_enabled=is_spatial_enabled
 		)
 		
-		recording_summary.duration = recording_summary_dict[const.DURATION]
+		if const.DURATION in recording_summary_dict:
+			recording_summary.duration = recording_summary_dict[const.DURATION]
 		
 		recording_summary.metadata = RecordingDataContainer.from_dict(
 			recording_summary_dict[const.METADATA]

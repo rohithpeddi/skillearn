@@ -178,14 +178,17 @@ class FirebaseService:
 	def update_recording_summary(self, recording_summary: RecordingSummary):
 		self.db.child(const.RECORDING_SUMMARIES).child(recording_summary.recording_id).set(recording_summary.to_dict())
 		logger.info(f"Updated recording in the firebase - {recording_summary.__str__()}")
-		
+	
 	def fetch_recording_summary(self, recording_id):
 		return self.db.child(const.RECORDING_SUMMARIES).child(recording_id).get().val()
 	
 	def remove_all_recording_summaries(self):
 		self.db.child(const.RECORDING_SUMMARIES).remove()
+	
+	def fetch_recording_summaries(self):
+		return self.db.child(const.RECORDING_SUMMARIES).get().val()
 
-	# ---------------------- END RECORDING SUMMARY ----------------------
+# ---------------------- END RECORDING SUMMARY ----------------------
 
 
 if __name__ == "__main__":
