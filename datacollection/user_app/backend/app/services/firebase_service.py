@@ -1,4 +1,5 @@
 # This file contains all files related to firebase
+import json
 import time
 
 import pyrebase
@@ -97,6 +98,9 @@ class FirebaseService:
 	
 	def fetch_user_recordings(self, user_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.RECORDED_BY).equal_to(user_id).get().val()
+
+	def fetch_user_selections(self, user_id):
+		return self.db.child(const.RECORDINGS).order_by_child(const.SELECTED_BY).equal_to(user_id).get().val()
 	
 	def fetch_user_selections(self, user_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.SELECTED_BY).equal_to(user_id).get().val()
@@ -176,7 +180,12 @@ class FirebaseService:
 	# ---------------------- BEGIN RECORDING SUMMARY ----------------------
 	
 	def update_recording_summary(self, recording_summary: RecordingSummary):
-		self.db.child(const.RECORDING_SUMMARIES).child(recording_summary.recording_id).set(recording_summary.to_dict())
+
+		self.db\
+			.child(const.RECORDING_SUMMARIES)\
+			.child(recording_summary.recording_id)\
+			.set(recording_summary.to_dict())
+
 		logger.info(f"Updated recording in the firebase - {recording_summary.__str__()}")
 	
 	def fetch_recording_summary(self, recording_id):

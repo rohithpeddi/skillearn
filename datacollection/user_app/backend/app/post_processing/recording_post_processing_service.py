@@ -106,11 +106,10 @@ class RecordingPostProcessingService:
 	def push_raw_data_to_NAS(self):
 		try:
 			self.compress_raw_data()
+			self.delete_uncompressed_raw_data()
 		except FileNotFoundError:
 			logger.info(f'No raw data found for {self.recording.id}')
-			return
 
-		self.delete_uncompressed_raw_data()
 		self.nas_transfer_service.transfer_from_local_to_nas()
 
 	def push_data_to_NAS(self):

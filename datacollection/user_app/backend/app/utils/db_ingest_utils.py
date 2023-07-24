@@ -82,8 +82,10 @@ class ActivityRecordingsIngestion(FirebaseIngestion):
 				if name in processed_activity_name:
 					return _activity
 			return None
-		
-		for activity_recordings_file_name in os.listdir(self.recordings_directory):
+
+		# activities = os.listdir(self.recordings_directory)
+		activities = ["sautedmushrooms.yaml"]
+		for activity_recordings_file_name in activities:
 			logger.info("----------------------------------------")
 			logger.info(f'Processing activity recordings file: {activity_recordings_file_name}')
 			

@@ -28,7 +28,7 @@ class NASTransferService:
                     logger.info(f"File {dst_path} already exists on NAS. Skipping transfer.")
                     continue
                 except FileNotFoundError:
-                    logger.info(f"File {dst_path} does not exist on NAS. Transferring...")
+                    logger.info(f"File {dst_path} does not exist on NAS . Transferring...")
                 sftp_client.put(src_path, dst_path)
                 logger.info(f'Transferred {item} to NAS')
             elif os.path.isdir(src_path):
@@ -90,20 +90,22 @@ class NASTransferService:
             if os.path.isdir(node_path) and node not in (const.SYNC, const.GOPRO):
                 remote_node_path = os.path.join(remote_hl2_raw_data_dir, node)
                 self._timed_transfer_to_nas(sftp_client, node, node_path, remote_node_path)
+            elif node not in (const.SYNC, const.GOPRO) and not os.path.isdir(node_path):
+                self._timed_transfer_to_nas(sftp_client, node, node_path, remote_hl2_raw_data_dir, is_file=True)
 
         # # 2. Transfer Synchronized data to NAS
         # local_hl2_sync_data_dir = os.path.join(local_hl2_data_dir, const.SYNC)
         # self._timed_transfer_to_nas(sftp_client, const.SYNC, local_hl2_sync_data_dir, remote_hl2_sync_data_dir)
 
         # 3. Transfer GOPRO data to NAS
-        # local_go_pro_file = os.path.join(self.local_data_root_dir, const.GOPRO, self.recording.id + '.MP4')
-        # self._timed_transfer_to_nas(sftp_client, self.recording.id + '.MP4', local_go_pro_file,
-        #                             remote_hl2_gopro_data_dir, is_file=True)
-        #
-        # local_go_pro_360p_file = os.path.join(self.local_data_root_dir, const.GOPRO_360P,
-        #                                       self.recording.id + '_360p.mp4')
-        # self._timed_transfer_to_nas(sftp_client, self.recording.id + '_360p.mp4', local_go_pro_360p_file,
-        #                             remote_hl2_gopro_data_dir, is_file=True)
+        local_go_pro_file = os.path.join(self.local_data_root_dir, const.GOPRO, self.recording.id + '.MP4')
+        self._timed_transfer_to_nas(sftp_client, self.recording.id + '.MP4', local_go_pro_file,
+                                    remote_hl2_gopro_data_dir, is_file=True)
+
+        local_go_pro_360p_file = os.path.join(self.local_data_root_dir, const.GOPRO_360P,
+                                              self.recording.id + '_360p.mp4')
+        self._timed_transfer_to_nas(sftp_client, self.recording.id + '_360p.mp4', local_go_pro_360p_file,
+                                    remote_hl2_gopro_data_dir, is_file=True)
 
         sftp_client.close()
 

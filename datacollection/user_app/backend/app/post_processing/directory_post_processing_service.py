@@ -65,6 +65,13 @@ class DirectoryPostProcessingService:
         #     logger.info("----------------------------------------------------------------------------------------")
 
         for hololens_video_name in hololens_videos:
+
+            if hololens_video_name in ["2_22", "5_4", "26_24"]:
+                print("-------------------***************-------------------")
+                print(f'Skipping {hololens_video_name}')
+                print("-------------------***************-------------------")
+                continue
+
             logger.info("----------------------------------------------------------------------------------------")
             logger.info(f'Started uploading to NAS for {hololens_video_name}')
             activity_id = int(hololens_video_name.split("_")[0])

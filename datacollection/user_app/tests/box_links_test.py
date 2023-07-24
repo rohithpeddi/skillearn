@@ -28,11 +28,14 @@ def update_file_download_links():
 			# Recording Specific folders are the third level of folders in the recording folder
 			# Fetching download summary for each recording id
 			recording_id = recording_folder.name
-			
-			recording_data_summarization_service = RecordingDataSummarizationService(
-				recording_id, None, None
-			)
-			recording_data_summarization_service.update_recording_summary_download_links(recording_folder)
+			try:
+				recording_data_summarization_service = RecordingDataSummarizationService(
+					recording_id, None, None
+				)
+				recording_data_summarization_service.update_recording_summary_download_links(recording_folder)
+			except Exception as e:
+				logger.error(f"[{recording_id}] Error while updating file download links for recording {e}")
+				continue
 	
 	logger.info("Finished updating file download links")
 

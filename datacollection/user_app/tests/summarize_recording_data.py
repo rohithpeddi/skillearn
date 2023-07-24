@@ -54,5 +54,5 @@ def summarize_all_recordings(data_directory):
 if __name__ == "__main__":
 	db_service = FirebaseService()
 	box_service = BoxService()
-	data_parent_directory = ""
+	data_parent_directory = "/run/user/1008/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
 	summarize_all_recordings(data_parent_directory)

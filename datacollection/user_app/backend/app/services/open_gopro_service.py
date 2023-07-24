@@ -94,6 +94,7 @@ class OpenGoProService:
         self.gopro.close()
         self.gopro = WirelessGoPro(enable_wifi=True, sudo_password=self.sudo_password)
         self.gopro.open()
+        self.gopro.ble_command.set_turbo_mode(mode=Params.Toggle.ENABLE)
 
     def close_wifi_connection(self):
         if not self.gopro.is_open or not self.enable_wifi:
@@ -102,6 +103,7 @@ class OpenGoProService:
         self.gopro.close()
         self.gopro = WirelessGoPro(enable_wifi=False, sudo_password=self.sudo_password)
         self.gopro.open()
+        self.gopro.ble_command.set_turbo_mode(mode=Params.Toggle.DISABLE)
 
     def download_most_recent_video(self, folder_path, file_name=None):
         # The video (is most likely) the difference between the two sets

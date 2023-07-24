@@ -113,7 +113,7 @@ def extract_zip_file(zip_file_path, output_directory, recording_id):
 
 def make_video(images_folder, video_name, recording_id):
     images = [img for img in os.listdir(images_folder) if img.endswith(".jpg")]
-    images = sorted(images, key=lambda x: int((x[:-4].split("-"))[-1]))
+    images = sorted(images, key=lambda x: int((x[:-4].split("_"))[-1]))
     
     frame = cv2.imread(os.path.join(images_folder, images[0]))
     height, width, layers = frame.shape
@@ -345,7 +345,7 @@ class SynchronizationServiceV2:
         else:
             logger.info(f"[{self.recording_id}] Skipping copying PV Pose into the sync output folder")
         
-        recording_base_stream_mp4_file_path = os.path.join(self.sync_base_stream_directory, f"{self.recording.id}.mp4")
+        recording_base_stream_mp4_file_path = os.path.join(self.sync_base_stream_directory, f"{self.recording_id}.mp4")
         if not os.path.exists(recording_base_stream_mp4_file_path):
             logger.info(f"[{self.recording_id}] Recording base stream mp4 file does not exist")
             logger.info(f"[{self.recording_id}] Creating recording base stream mp4 file")
