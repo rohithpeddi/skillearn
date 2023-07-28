@@ -67,11 +67,11 @@ def compare_and_transfer_info_files(source_parent_directory, destination_parent_
             source_recording_info_file_path = os.path.join(source_recording_directory, "Hololens2Info.dat")
             destination_recording_folder = os.path.join(destination_parent_directory, recording_id, "raw")
             destination_recording_info_file_path = os.path.join(destination_recording_folder, "Hololens2Info.dat")
-
+            
             if not os.path.isdir(destination_recording_folder):
                 print("Recording folder does not exist. Skipping this recording.")
                 continue
-
+            
             if os.path.isfile(source_recording_info_file_path):
                 if not os.path.isfile(destination_recording_info_file_path):
                     print(f"Copying file {destination_recording_info_file_path}")
@@ -86,8 +86,53 @@ def compare_and_transfer_info_files(source_parent_directory, destination_parent_
                     print(f"File {destination_recording_info_file_path} already exists.")
 
 
+def check_file_size_and_transfer(source_file_path, destination_file_path):
+    if os.path.isfile(source_file_path):
+        if not os.path.isfile(destination_file_path):
+            print(f"Copying file {destination_file_path}")
+            shutil.copyfile(source_file_path, destination_file_path)
+        else:
+            if os.path.getsize(source_file_path) != os.path.getsize(destination_file_path):
+                print(f"File {destination_file_path} has a different size.")
+                print("Deleting the file and copying again.")
+                shutil.rmtree(destination_file_path)
+                shutil.copyfile(source_file_path, destination_file_path)
+            print(f"File {destination_file_path} already exists.")
+
+
+def compare_and_transfer(source_parent_directory, destination_parent_directory):
+    for recording_id in os.listdir(source_parent_directory):
+        print("----------------------------------------------------------")
+        print(f"Processing recording {recording_id}")
+        source_sync_directory = os.path.join(source_parent_directory, recording_id, "sync")
+        destination_sync_directory = os.path.join(destination_parent_directory, recording_id, "sync")
+        
+        source_depth_ahat_directory = os.path.join(source_sync_directory, "depth_ahat")
+        source_ab_zip_file = os.path.join(source_depth_ahat_directory, "ab.zip")
+        source_depth_zip_file = os.path.join(source_depth_ahat_directory, "depth.zip")
+        
+        destination_depth_ahat_directory = os.path.join(destination_sync_directory, "depth_ahat")
+        destination_ab_zip_file = os.path.join(destination_depth_ahat_directory, "ab.zip")
+        destination_depth_zip_file = os.path.join(destination_depth_ahat_directory, "depth.zip")
+        
+        check_file_size_and_transfer(source_ab_zip_file, destination_ab_zip_file)
+        check_file_size_and_transfer(source_depth_zip_file, destination_depth_zip_file)
+        
+        source_pv_directory = os.path.join(source_sync_directory, "pv")
+        source_pv_zip_file = os.path.join(source_pv_directory, "frames.zip")
+        
+        destination_pv_directory = os.path.join(destination_sync_directory, "pv")
+        destination_pv_zip_file = os.path.join(destination_pv_directory, "frames.zip")
+        
+        check_file_size_and_transfer(source_pv_zip_file, destination_pv_zip_file)
+    
+    
+
 if __name__ == '__main__':
+    # source_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/BACKUP_STUFF/PTG_HOLOLENS_BACKUP/hololens_bak_bharath"
+    # destination_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
+    #
+    # compare_and_transfer_info_files(source_directory, destination_directory)
+    
     source_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/BACKUP_STUFF/PTG_HOLOLENS_BACKUP/hololens_bak_bharath"
     destination_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
-
-    compare_and_transfer_info_files(source_directory, destination_directory)
