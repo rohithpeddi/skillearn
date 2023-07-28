@@ -17,6 +17,9 @@ class PanRecipeUpdate:
 		self.db_versions_dir = ""
 		self.current_version = 3
 		self.db_service = FirebaseService()
+		
+		self.activity_list = self.db_service.fetch_activities()
+		self.activities = [Activity.from_dict(activity) for activity in self.activity_list if activity is not None]
 	
 	# self._create_new_version_db()
 	# self._update_version_db(version=self.current_version)
@@ -24,12 +27,9 @@ class PanRecipeUpdate:
 	def _create_new_version_db(self):
 		# 1. Download all the recording objects from the firebase which are nor yet recorded
 		
-		activity_list = self.db_service.fetch_activities()
-		activities = [Activity.from_dict(activity) for activity in activity_list if activity is not None]
-		
 		db_version_path = f"../backend/info_files/db_versions/v_{self.current_version}"
 		create_directories(db_version_path)
-		for activity in activities:
+		for activity in self.activities:
 			activity_version_path = os.path.join(db_version_path, f"{activity.name}.yaml")
 			
 			all_activity_recordings = self.db_service.fetch_all_activity_recordings(activity.id)

@@ -114,6 +114,9 @@ class FirebaseService:
 		
 		return selected_recordings
 	
+	def fetch_all_recordings(self):
+		return self.db.child(const.RECORDINGS).get().val()
+	
 	def fetch_all_activity_recordings(self, activity_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.ACTIVITY_ID).equal_to(activity_id).get().val()
 	

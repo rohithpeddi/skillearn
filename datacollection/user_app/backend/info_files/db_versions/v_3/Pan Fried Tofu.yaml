@@ -798,7 +798,7 @@
     errors:
     - description: Spill some cooked tofu pieces
       tag: Technique Error
-    modified_description: [Spill] Transfer-Transfer to a serving dish
+    modified_description: Spill while transferring to a serving dish
 - activity_id: 25
   environment: 7
   id: '25_109'
