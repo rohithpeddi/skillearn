@@ -16,7 +16,7 @@ def get_symbol_for_status(status):
 		return f"<td><i class=\"fas fa-times\" style=\"color: #d30d0d;\"></i></td>\n"
 
 
-def make_overview_table():
+def make_overview_table(version):
 	overview_table = ""
 	overview_table += "<div class=\"columns is-centered\">\n"
 	overview_table += "<div class=\"column is-fullwidth\">\n"
@@ -62,17 +62,17 @@ def make_overview_table():
 	overview_table += "</div>\n"
 	
 	current_directory = os.getcwd()
-	website_directory = os.path.join(current_directory, "../backend/website_files")
+	website_directory = os.path.join(current_directory, f"../backend/website_files/{version}")
 	if not os.path.exists(website_directory):
 		os.makedirs(website_directory)
 	
-	with open(os.path.join(website_directory, "overview_table.html"), "w") as f:
+	with open(os.path.join(website_directory, f"overview_table.html"), "w") as f:
 		f.write(overview_table)
 	
 	return overview_table
 
 
-def make_recipe_table():
+def make_recipe_table(version):
 	recipe_table = ""
 	recipe_table += "<div class=\"columns is-centered\">\n"
 	recipe_table += "<div class=\"column is-fullwidth\">\n"
@@ -109,17 +109,17 @@ def make_recipe_table():
 	recipe_table += "</div>\n"
 	
 	current_directory = os.getcwd()
-	website_directory = os.path.join(current_directory, "../backend/website_files")
+	website_directory = os.path.join(current_directory, f"../backend/website_files/{version}")
 	if not os.path.exists(website_directory):
 		os.makedirs(website_directory)
 	
-	with open(os.path.join(website_directory, "recipe_table.html"), "w") as f:
+	with open(os.path.join(website_directory, f"recipe_table.html"), "w") as f:
 		f.write(recipe_table)
 	
 	return recipe_table
 
 
-def make_data_2d_table():
+def make_data_2d_table(version):
 	data2d_table = ""
 	data2d_table += "<div class=\"columns is-centered\">\n"
 	data2d_table += "<div class=\"column is-fullwidth\">\n"
@@ -172,17 +172,17 @@ def make_data_2d_table():
 	data2d_table += "</div>\n"
 	
 	current_directory = os.getcwd()
-	website_directory = os.path.join(current_directory, "../backend/website_files")
+	website_directory = os.path.join(current_directory, f"../backend/website_files/{version}")
 	if not os.path.exists(website_directory):
 		os.makedirs(website_directory)
 	
-	with open(os.path.join(website_directory, "data2d_table.html"), "w") as f:
+	with open(os.path.join(website_directory, f"data2d_table.html"), "w") as f:
 		f.write(data2d_table)
 	
 	return data2d_table
 
 
-def make_data3d_table():
+def make_data3d_table(version):
 	data3d_table = ""
 	data3d_table += "<div class=\"columns is-centered\">\n"
 	data3d_table += "<div class=\"column is-fullwidth\">\n"
@@ -246,11 +246,11 @@ def make_data3d_table():
 	data3d_table += "</div>\n"
 	
 	current_directory = os.getcwd()
-	website_directory = os.path.join(current_directory, "../backend/website_files")
+	website_directory = os.path.join(current_directory, f"../backend/website_files/{version}")
 	if not os.path.exists(website_directory):
 		os.makedirs(website_directory)
 	
-	with open(os.path.join(website_directory, "data3d_table.html"), "w") as f:
+	with open(os.path.join(website_directory, f"data3d_table.html"), "w") as f:
 		f.write(data3d_table)
 	
 	return data3d_table
@@ -268,7 +268,7 @@ if __name__ == '__main__':
 	for activity in activities:
 		activity_id_name_map[activity.id] = activity.name
 	
-	# make_overview_table()
-	# make_recipe_table()
-	make_data_2d_table()
-	make_data3d_table()
+	make_overview_table(version=1)
+	make_recipe_table(version=1)
+	make_data_2d_table(version=1)
+	make_data3d_table(version=1)

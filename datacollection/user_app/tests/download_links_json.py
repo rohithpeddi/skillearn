@@ -5,7 +5,7 @@ from datacollection.user_app.backend.app.models.recording_summary import Recordi
 from datacollection.user_app.backend.app.services.firebase_service import FirebaseService
 
 
-def prepare_download_links_json():
+def prepare_download_links_json(version):
 	recording_download_links_dict = {}
 	recording_summary_dict_list = dict(db_service.fetch_recording_summaries())
 	for index, (recording_id, recording_summary_dict) in enumerate(recording_summary_dict_list.items()):
@@ -17,10 +17,10 @@ def prepare_download_links_json():
 	if not os.path.exists(website_directory):
 		os.makedirs(website_directory)
 	
-	with open(os.path.join(website_directory, "recording_download_links.json"), "w") as recording_download_links_file:
+	with open(os.path.join(website_directory, f"recording_download_links_{version}.json"), "w") as recording_download_links_file:
 		recording_download_links_file.write(json.dumps(recording_download_links_dict))
 
 
 if __name__ == "__main__":
 	db_service = FirebaseService()
-	prepare_download_links_json()
+	prepare_download_links_json(version=1)

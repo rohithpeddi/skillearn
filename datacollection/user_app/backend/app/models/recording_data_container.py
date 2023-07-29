@@ -123,7 +123,7 @@ class RecordingDataContainer:
 				rdc.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP = rdc_dict[const.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP]
 			
 			if rdc.is_spatial_enabled:
-				if const.HOLOLENS_SYNC_SPATIAL_PKL in rdc_dict:
+				if const.HOLOLENS_RAW_SPATIAL_PKL in rdc_dict:
 					rdc.HOLOLENS_RAW_SPATIAL_PKL = rdc_dict[const.HOLOLENS_RAW_SPATIAL_PKL]
 
 				if const.HOLOLENS_RAW_IMU_ACCELEROMETER_PKL in rdc_dict:
@@ -135,7 +135,7 @@ class RecordingDataContainer:
 				if const.HOLOLENS_RAW_IMU_GYROSCOPE_PKL in rdc_dict:
 					rdc.HOLOLENS_RAW_IMU_GYROSCOPE_PKL = rdc_dict[const.HOLOLENS_RAW_IMU_GYROSCOPE_PKL]
 
-				if const.HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL in rdc_dict:
+				if const.HOLOLENS_RAW_DEPTH_POSE_PKL in rdc_dict:
 					rdc.HOLOLENS_RAW_DEPTH_POSE_PKL = rdc_dict[const.HOLOLENS_RAW_DEPTH_POSE_PKL]
 
 				if const.HOLOLENS_RAW_PV_POSE_PKL in rdc_dict:
