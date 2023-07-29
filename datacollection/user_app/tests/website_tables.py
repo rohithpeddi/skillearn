@@ -268,7 +268,7 @@ if __name__ == '__main__':
 	for activity in activities:
 		activity_id_name_map[activity.id] = activity.name
 	
-	make_overview_table(version=1)
-	make_recipe_table(version=1)
-	make_data_2d_table(version=1)
-	make_data3d_table(version=1)
+	# make_recipe_table(version=2)
+	make_overview_table(version=2)
+	make_data_2d_table(version=2)
+	make_data3d_table(version=2)

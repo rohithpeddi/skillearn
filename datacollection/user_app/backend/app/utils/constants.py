@@ -102,6 +102,10 @@ class Recording_Constants:
 	DEPTH_ZIP = "depth.zip"
 	FRAMES_ZIP = "frames.zip"
 	
+	VIDEO = "video"
+	POSE = "pose"
+	
+	
 	DEPTH_POSE = "depth_pose_pkl"
 	PV_POSE = "pv_pose_pkl"
 	SPATIAL_POSE = "spatial_pkl"
