@@ -5,8 +5,12 @@ from datacollection.user_app.backend.app.services.firebase_service import Fireba
 
 if __name__ == '__main__':
 	db_service = FirebaseService()
-	recording_id_list = ["2_22", "16_40", "21_28", "22_31", "22_10", "26_24", "26_136"]
+	recording_id_list = ["2_22", "16_40", "21_28", "22_31", "22_10", "26_24", "5_4", "8_33"]
+	# , "26_136", "26_36"
 	for recording_id in recording_id_list:
 		recording_dict = db_service.fetch_recording(recording_id)
 		recording = Recording.from_dict(recording_dict)
 		nas_to_box_service = NasToBoxPostProcessingService(recording)
+		nas_to_box_service.nas_root_directory = r"C:\Users\james\Documents\GitHub\GoPro-Box-Integration\datacollection\user_app\tests\test_data"
+		
+		

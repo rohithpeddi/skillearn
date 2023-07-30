@@ -147,23 +147,23 @@ class BoxService:
 		# 	)
 		# 	logger.info(f"[{recording_id}] Raw data uploaded")
 		
-		sync_data_directory = os.path.join(data_recording_directory, const.SYNC)
-		if os.path.exists(sync_data_directory):
-			logger.info(f"[{recording_id}] Uploading synchronized data")
-			sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNC)
-			self._upload_folders_and_subfolders(
-				sync_folder_id,
-				sync_data_directory,
-				[const.PV, const.DEPTH_AHAT, const.SPATIAL, const.IMU],
-				recording_id
-			)
-			logger.info(f"[{recording_id}] Synchronized data uploaded")
+		# sync_data_directory = os.path.join(data_recording_directory, const.SYNC)
+		# if os.path.exists(sync_data_directory):
+		# 	logger.info(f"[{recording_id}] Uploading synchronized data")
+		# 	sync_folder_id = self._fetch_subfolder(recording_folder_id, const.SYNC)
+		# 	self._upload_folders_and_subfolders(
+		# 		sync_folder_id,
+		# 		sync_data_directory,
+		# 		[const.PV, const.DEPTH_AHAT, const.SPATIAL, const.IMU],
+		# 		recording_id
+		# 	)
+		# 	logger.info(f"[{recording_id}] Synchronized data uploaded")
 	
-	# logger.info(f"[{recording_id}] Uploading gopro data")
-	# gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
-	# local_gopro_path = os.path.join(data_recording_directory, const.GOPRO)
-	# self._upload_files_in_path(gopro_folder_id, local_gopro_path, recording_id)
-	# logger.info(f"[{recording_id}] Gopro data uploaded")
+		logger.info(f"[{recording_id}] Uploading gopro data")
+		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
+		local_gopro_path = os.path.join(data_recording_directory, const.GOPRO)
+		self._upload_files_in_path(gopro_folder_id, local_gopro_path, recording_id)
+		logger.info(f"[{recording_id}] Gopro data uploaded")
 	
 	def upload_go_pro_360_video(self, recording, file_path):
 		logger.info(f'Uploading GoPro 360 video for recording {recording.id}')

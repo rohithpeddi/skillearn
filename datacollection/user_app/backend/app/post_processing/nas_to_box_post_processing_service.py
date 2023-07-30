@@ -16,17 +16,18 @@ class NasToBoxPostProcessingService:
 		self.box_service = BoxService()
 		
 		self.nas_root_directory = const.NAS_DATA_ROOT_DIR
-		self.nas_recording_parent_directory = os.path.join(self.nas_root_directory, self.recording.id)
 		
+	def _init_file_paths(self):
+		self.nas_recording_parent_directory = os.path.join(self.nas_root_directory, self.recording.id)
 		self.nas_recording_gopro_directory = os.path.join(self.nas_recording_parent_directory, const.GOPRO)
 		
-		self.gopro_video_name = f'{self.recording.id}.MP4'
-		self.gopro_video_360p_name = f'{self.recording.id}_360p.MP4'
-		self.gopro_video_file_path = os.path.join(self.nas_recording_gopro_directory, self.gopro_video_name)
+		self.gopro_4k_name = f'{self.recording.id}.mp4'
+		self.gopro_video_360p_name = f'{self.recording.id}_360p.mp4'
+		self.gopro_4k_file_path = os.path.join(self.nas_recording_gopro_directory, self.gopro_4k_name)
 		self.gopro_video_360p_file_path = os.path.join(self.nas_recording_gopro_directory, self.gopro_video_360p_name)
 	
 	def convert_gopro_to_360p(self):
-		self.change_video_resolution(self.gopro_video_file_path, self.gopro_video_360p_file_path)
+		self.change_video_resolution(self.gopro_4k_file_path, self.gopro_video_360p_file_path)
 	
 	def transfer_gopro_360p_to_box(self):
 		self.box_service.upload_go_pro_360_video(self.recording, self.gopro_video_360p_file_path)
@@ -38,11 +39,10 @@ class NasToBoxPostProcessingService:
 		logger.info(f'Finished changing video resolution for {self.recording.id}')
 		return converted_file_path
 	
-	def synchronize_data(self):
-		pass
+	def transfer_gopro_to_box(self):
+		if os.path.exists(self.gopro_4k_file_path) and not os.path.exists(self.gopro_video_360p_file_path):
+			self.convert_gopro_to_360p()
+		self.box_service.upload_from_nas(self.recording, self.nas_recording_parent_directory)
+		
+		
 	
-	def raw_data_to_box(self):
-		pass
-	
-	def sync_data_to_box(self):
-		pass
