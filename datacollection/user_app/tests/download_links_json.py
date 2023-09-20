@@ -23,4 +23,4 @@ def prepare_download_links_json(version):
 
 if __name__ == "__main__":
 	db_service = FirebaseService()
-	prepare_download_links_json(version=4)
+	prepare_download_links_json(version=7)

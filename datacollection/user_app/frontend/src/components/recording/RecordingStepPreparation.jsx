@@ -112,8 +112,6 @@ const RecordingStepPreparation = (props) => {
 					                                   stepIndex={stepIndex}
 					                                   handleDeleteStepError={handleDeleteStepError}
 					                                   handleDeleteAllStepErrors={handleDeleteAllStepErrors} />
-					
-			
 					): null
 			}
 			

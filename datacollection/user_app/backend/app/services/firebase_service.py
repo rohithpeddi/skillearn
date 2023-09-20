@@ -4,6 +4,7 @@ import time
 
 import pyrebase
 
+from ..models.recording_annotation import RecordingAnnotation
 from ..models.recording_summary import RecordingSummary
 from ..utils.constants import Firebase_Constants as const
 from ..models.activity import Activity
@@ -98,7 +99,7 @@ class FirebaseService:
 	
 	def fetch_user_recordings(self, user_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.RECORDED_BY).equal_to(user_id).get().val()
-
+	
 	def fetch_user_selections(self, user_id):
 		return self.db.child(const.RECORDINGS).order_by_child(const.SELECTED_BY).equal_to(user_id).get().val()
 	
@@ -111,8 +112,15 @@ class FirebaseService:
 		for recording in all_recordings.each():
 			if recording.val()[const.SELECTED_BY] != -1:
 				selected_recordings[recording.key()] = recording.val()
-		
 		return selected_recordings
+	
+	def fetch_all_recorded_recordings(self):
+		all_recordings = self.db.child(const.RECORDINGS).get()
+		recorded_recordings = {}
+		for recording in all_recordings.each():
+			if recording.val()[const.RECORDED_BY] != -1:
+				recorded_recordings[recording.key()] = recording.val()
+		return recorded_recordings
 	
 	def fetch_all_recordings(self):
 		return self.db.child(const.RECORDINGS).get().val()
@@ -183,12 +191,12 @@ class FirebaseService:
 	# ---------------------- BEGIN RECORDING SUMMARY ----------------------
 	
 	def update_recording_summary(self, recording_summary: RecordingSummary):
-
-		self.db\
-			.child(const.RECORDING_SUMMARIES)\
-			.child(recording_summary.recording_id)\
+		
+		self.db \
+			.child(const.RECORDING_SUMMARIES) \
+			.child(recording_summary.recording_id) \
 			.set(recording_summary.to_dict())
-
+		
 		logger.info(f"Updated recording in the firebase - {recording_summary.__str__()}")
 	
 	def fetch_recording_summary(self, recording_id):
@@ -199,8 +207,41 @@ class FirebaseService:
 	
 	def fetch_recording_summaries(self):
 		return self.db.child(const.RECORDING_SUMMARIES).get().val()
+	
+	# ---------------------- END RECORDING SUMMARY ----------------------
 
-# ---------------------- END RECORDING SUMMARY ----------------------
+	# ---------------------- BEGIN STEP DICTIONARY ----------------------
+
+	def update_step_dictionary(self, step_dictionary):
+		self.db.child(const.STEP_DICTIONARY).set(step_dictionary)
+		logger.info(f"Updated step dictionary in the firebase - {step_dictionary.__str__()}")
+		
+	def fetch_step_dictionary(self):
+		return self.db.child(const.STEP_DICTIONARY).get().val()
+
+	# ---------------------- END STEP DICTIONARY ----------------------
+	
+	# ---------------------- BEGIN RECORDING ANNOTATION ----------------------
+	
+	def update_recording_annotation(self, recording_annotation: RecordingAnnotation):
+
+		self.db \
+			.child(const.RECORDING_ANNOTATIONS) \
+			.child(recording_annotation.recording_id) \
+			.set(recording_annotation.to_dict())
+
+		logger.info(f"Updated recording in the firebase - {recording_annotation.__str__()}")
+
+	def fetch_recording_annotation(self, recording_id):
+		return self.db.child(const.RECORDING_ANNOTATIONS).child(recording_id).get().val()
+
+	def remove_all_recording_annotations(self):
+		self.db.child(const.RECORDING_ANNOTATIONS).remove()
+
+	def fetch_recording_annotations(self):
+		return self.db.child(const.RECORDING_ANNOTATIONS).get().val()
+
+	# ---------------------- END RECORDING ANNOTATION ----------------------
 
 
 if __name__ == "__main__":
