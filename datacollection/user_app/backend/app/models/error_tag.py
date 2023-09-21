@@ -18,8 +18,10 @@ class ErrorTag:
 	# wv = api.load('word2vec-google-news-300')
 	# wv = api.load("glove-twitter-25")
 	
-	mistake_tag_list = [PREPARATION_ERROR, MEASUREMENT_ERROR, ORDER_ERROR, TIMING_ERROR,
-	                    TECHNIQUE_ERROR, TEMPERATURE_ERROR, MISSING_STEP, OTHER]
+	mistake_tag_list = [
+		PREPARATION_ERROR, MEASUREMENT_ERROR, ORDER_ERROR, TIMING_ERROR,
+		TECHNIQUE_ERROR, TEMPERATURE_ERROR, MISSING_STEP, OTHER
+	]
 	
 	@classmethod
 	def get_step_error_tag_list(cls):
@@ -34,21 +36,21 @@ class ErrorTag:
 	@classmethod
 	def get_similarity_score(cls, sample_tag, tag) -> float:
 		return 0
-	
-	# # get embeddings for the strings
-	# try:
-	# 	sample_tag_embedding = cls.wv[sample_tag]
-	# except KeyError:
-	# 	return 0
-	# try:
-	# 	tag_embedding = cls.wv[tag]
-	# except KeyError:
-	# 	return 0
-	#
-	# # compute cosine similarity
-	# cosine_similarity_score = np.dot(sample_tag_embedding, tag_embedding) / (
-	# 			np.linalg.norm(sample_tag_embedding) * np.linalg.norm(tag_embedding))
-	# return cosine_similarity_score
+
+# # get embeddings for the strings
+# try:
+# 	sample_tag_embedding = cls.wv[sample_tag]
+# except KeyError:
+# 	return 0
+# try:
+# 	tag_embedding = cls.wv[tag]
+# except KeyError:
+# 	return 0
+#
+# # compute cosine similarity
+# cosine_similarity_score = np.dot(sample_tag_embedding, tag_embedding) / (
+# 			np.linalg.norm(sample_tag_embedding) * np.linalg.norm(tag_embedding))
+# return cosine_similarity_score
 
 # @classmethod
 # def get_best_tag(cls, sample_tag) -> str:
