@@ -30,6 +30,7 @@ from datacollection.user_app.backend.app.models.recording_annotation import Reco
 def generate_step_annotation_csv():
 	annotation_csv_path = "annotation_csvs/step_annotations.csv"
 	os.makedirs(os.path.dirname(annotation_csv_path), exist_ok=True)
+	activity_idx_step_idx_global_map = {}
 	step_idx_description_global_map = {}
 	with open(annotation_csv_path, "w", newline='') as step_annotation_csv_file:
 		writer = csv.writer(step_annotation_csv_file, quoting=csv.QUOTE_NONNUMERIC)
@@ -38,8 +39,12 @@ def generate_step_annotation_csv():
 		])
 		for recording_annotation in recording_annotations:
 			recording_id = recording_annotation.recording_id
+			if recording_annotation.activity_id not in activity_idx_step_idx_global_map:
+				activity_idx_step_idx_global_map[recording_annotation.activity_id] = []
 			for step_annotation in recording_annotation.step_annotations:
 				step_id = step_annotation.step_id
+				if step_id not in activity_idx_step_idx_global_map[recording_annotation.activity_id]:
+					activity_idx_step_idx_global_map[recording_annotation.activity_id].append(step_id)
 				step_description = step_annotation.description
 				step_start_time = step_annotation.start_time
 				step_end_time = step_annotation.end_time
@@ -58,6 +63,18 @@ def generate_step_annotation_csv():
 		writer.writerow(["step_idx", "step_description"])
 		for step_idx, step_description in sorted(step_idx_description_global_map.items(), key=lambda x: int(x[0])):
 			writer.writerow([f"{step_idx}", f"{step_description}"])
+	activity_idx_step_idx_annotation_csv_path = "annotation_csvs/activity_idx_step_idx.csv"
+	os.makedirs(os.path.dirname(activity_idx_step_idx_annotation_csv_path), exist_ok=True)
+	with open(activity_idx_step_idx_annotation_csv_path, "w", newline='') as activity_idx_step_idx_annotation_csv_file:
+		writer = csv.writer(activity_idx_step_idx_annotation_csv_file, quoting=csv.QUOTE_NONNUMERIC)
+		writer.writerow(["activity_idx", "activity_name", "step_indices"])
+		for activity_idx, step_idx_list in sorted(activity_idx_step_idx_global_map.items(), key=lambda x: int(x[0])):
+			writer.writerow(
+				[
+					f"{activity_idx}", f"{activity_id_to_activity_name_map[activity_idx]}",
+					f"{','.join([str(step_idx) for step_idx in step_idx_list])}"
+				]
+			)
 
 
 def fetch_average_segments_by_recipe():
@@ -177,6 +194,7 @@ if __name__ == '__main__':
 	activities_dict = db_service.fetch_activities()
 	activities = [Activity.from_dict(activity) for activity in activities_dict if activity is not None]
 	activity_id_to_activity_name_map = {activity.id: activity.name for activity in activities}
+	activity_name_to_activity_id_map = {activity.name.replace(" ", "").lower(): activity.id for activity in activities}
 	
 	generate_step_annotation_csv()
 	fetch_average_segments_by_recipe()
