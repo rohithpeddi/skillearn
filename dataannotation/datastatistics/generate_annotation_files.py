@@ -77,6 +77,56 @@ def generate_step_annotation_csv():
 			)
 
 
+def generate_step_annotation_json():
+	step_annotation_json_path = "annotation_jsons/step_annotations.json"
+	os.makedirs(os.path.dirname(step_annotation_json_path), exist_ok=True)
+	activity_idx_step_idx_global_map = {}
+	step_idx_description_global_map = {}
+	recording_annotation_dict_list = []
+	for recording_annotation in recording_annotations:
+		recording_annotation_dict = {}
+		recording_id = recording_annotation.recording_id
+		if recording_annotation.activity_id not in activity_idx_step_idx_global_map:
+			activity_idx_step_idx_global_map[recording_annotation.activity_id] = []
+		recording_annotation_dict["recording_id"] = recording_id
+		step_annotation_dict_list = []
+		for step_annotation in recording_annotation.step_annotations:
+			step_annotation_dict = {}
+			step_id = step_annotation.step_id
+			if step_id not in activity_idx_step_idx_global_map[recording_annotation.activity_id]:
+				activity_idx_step_idx_global_map[recording_annotation.activity_id].append(step_id)
+			step_description = step_annotation.description
+			step_start_time = step_annotation.start_time
+			step_end_time = step_annotation.end_time
+			has_errors = len(step_annotation.errors) > 0
+			
+			step_annotation_dict["step_id"] = step_id
+			step_annotation_dict["start_time"] = step_start_time
+			step_annotation_dict["end_time"] = step_end_time
+			step_annotation_dict["description"] = step_description
+			step_annotation_dict["has_errors"] = has_errors
+			
+			step_annotation_dict_list.append(step_annotation_dict)
+			if step_id not in step_idx_description_global_map:
+				step_idx_description_global_map[step_id] = step_description
+		recording_annotation_dict["steps"] = step_annotation_dict_list
+		recording_annotation_dict_list.append(recording_annotation_dict)
+	
+	with open(step_annotation_json_path, "w") as step_annotation_json_file:
+		json.dump(recording_annotation_dict_list, step_annotation_json_file, indent=4)
+	
+	step_idx_description_annotation_json_path = "annotation_jsons/step_idx_description.json"
+	os.makedirs(os.path.dirname(step_idx_description_annotation_json_path), exist_ok=True)
+	with open(step_idx_description_annotation_json_path, "w", newline='') as step_idx_description_annotation_json_file:
+		json.dump(step_idx_description_global_map, step_idx_description_annotation_json_file, indent=4)
+	
+	activity_idx_step_idx_annotation_json_path = "annotation_jsons/activity_idx_step_idx.json"
+	os.makedirs(os.path.dirname(activity_idx_step_idx_annotation_json_path), exist_ok=True)
+	with open(activity_idx_step_idx_annotation_json_path, "w",
+	          newline='') as activity_idx_step_idx_annotation_json_file:
+		json.dump(activity_idx_step_idx_global_map, activity_idx_step_idx_annotation_json_file, indent=4)
+
+
 def fetch_average_segments_by_recipe():
 	average_segment_length = {}
 	total_segments = {}
@@ -115,7 +165,7 @@ def fetch_average_segments_by_recipe():
 		writer.writerow("\n=============================================================================")
 
 
-def generate_error_category_map():
+def generate_error_category_csv():
 	error_idx_category_map = {}
 	error_category_idx_map = {}
 	error_category_idx = 0
@@ -133,8 +183,23 @@ def generate_error_category_map():
 	return error_idx_category_map, error_category_idx_map
 
 
+def generate_error_category_json():
+	error_idx_category_map = {}
+	error_category_idx_map = {}
+	error_category_idx = 0
+	for error_tag in ErrorTag.mistake_tag_list:
+		error_category_idx_map[error_tag] = error_category_idx
+		error_idx_category_map[error_category_idx] = error_tag
+		error_category_idx += 1
+	error_category_idx_json_path = "annotation_jsons/error_category_idx.json"
+	os.makedirs(os.path.dirname(error_category_idx_json_path), exist_ok=True)
+	with open(error_category_idx_json_path, "w", newline='') as error_category_idx_json_file:
+		json.dump(error_category_idx_map, error_category_idx_json_file, indent=4)
+	return error_idx_category_map, error_category_idx_map
+
+
 def generate_error_annotations_csv():
-	error_idx_category_map, error_category_idx_map = generate_error_category_map()
+	error_idx_category_map, error_category_idx_map = generate_error_category_csv()
 	error_annotation_csv_path = "annotation_csvs/error_annotations.csv"
 	os.makedirs(os.path.dirname(error_annotation_csv_path), exist_ok=True)
 	with open(error_annotation_csv_path, "w", newline='') as error_annotation_csv_file:
@@ -178,6 +243,18 @@ def generate_error_annotations_csv():
 				writer.writerow(error_annotation_row)
 
 
+def generate_error_annotations_json():
+	error_annotation_json_path = "annotation_jsons/error_annotations.json"
+	os.makedirs(os.path.dirname(error_annotation_json_path), exist_ok=True)
+	recording_annotation_dict_list = []
+	for recording_annotation in recording_annotations:
+		recording_annotation_dict = recording_annotation.to_dict()
+		recording_annotation_dict_list.append(recording_annotation_dict)
+	with open(error_annotation_json_path, "w") as error_annotation_json_file:
+		json.dump(recording_annotation_dict_list, error_annotation_json_file, indent=4)
+		
+
+
 if __name__ == '__main__':
 	db_service = FirebaseService()
 	
@@ -196,6 +273,10 @@ if __name__ == '__main__':
 	activity_id_to_activity_name_map = {activity.id: activity.name for activity in activities}
 	activity_name_to_activity_id_map = {activity.name.replace(" ", "").lower(): activity.id for activity in activities}
 	
-	generate_step_annotation_csv()
-	fetch_average_segments_by_recipe()
-	generate_error_annotations_csv()
+	# generate_step_annotation_csv()
+	# fetch_average_segments_by_recipe()
+	# generate_error_annotations_csv()
+	
+	generate_step_annotation_json()
+	generate_error_category_json()
+	generate_error_annotations_json()
