@@ -500,40 +500,6 @@ class ErrorStatistics:
 		
 		return activity_annotations_counter
 	
-	def fetch_activity_error_categories_split(self):
-		user_recordings = dict(self.db_service.fetch_all_recorded_recordings())
-		
-		activity_error_categories = {}
-		for recording_id, user_recording_dict in user_recordings.items():
-			recording = Recording.from_dict(user_recording_dict)
-			if recording.activity_id not in self.activity_id_to_activity_name_map:
-				print(f"Recording {recording.id} does not belong to any recipe. Skipping...")
-				print(f"-----------------------------------------------------")
-				continue
-			
-			activity_name = self.activity_id_to_activity_name_map[recording.activity_id]
-			if not activity_name in activity_error_categories:
-				activity_error_categories[activity_name] = {}
-				for error_tag in ErrorTag.mistake_tag_list:
-					activity_error_categories[activity_name][error_tag] = 0
-			
-			if recording.is_error:
-				recipe_errors = recording.errors
-				if recipe_errors is not None:
-					for recipe_error in recipe_errors:
-						activity_error_categories[activity_name][recipe_error.tag] += 1
-				for recipe_step in recording.steps:
-					step_errors = recipe_step.errors
-					if step_errors is not None:
-						for step_error in step_errors:
-							if step_error.tag == "Other":
-								continue
-							activity_error_categories[activity_name][step_error.tag] += 1
-		with open(f"{self.processed_files_directory}/v{self.version}/activity_error_categories.json",
-		          'w') as activity_error_categories_file:
-			json_data = json.dumps(activity_error_categories, indent=4)
-			activity_error_categories_file.write(json_data)
-	
 	def fetch_total_steps_count(self):
 		total_steps_count = 0
 		user_recordings = dict(self.db_service.fetch_all_selected_recordings())
@@ -564,9 +530,8 @@ class ErrorStatistics:
 
 if __name__ == '__main__':
 	error_statistics = ErrorStatistics()
-	error_statistics.generate_annotations_for_all_activities()
-# error_statistics.fetch_activity_error_categories_split()
-# error_statistics.fetch_recipe_error_normal_division_statistics()
+	# error_statistics.generate_annotations_for_all_activities()
+	error_statistics.fetch_recipe_error_normal_division_statistics()
 # error_statistics.fetch_error_script_for_all_recordings()
 # error_statistics.compile_error_categories()
 # error_statistics.backup_all_recordings()
