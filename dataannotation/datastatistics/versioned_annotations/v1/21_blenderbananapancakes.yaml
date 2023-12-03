@@ -1,0 +1,1526 @@
+- activity_id: 21
+  is_error: true
+  recording_id: '21_3'
+  step_annotations:
+  - description: Add-Add 1 banana to a blender
+    end_time: 48.37810684713376
+    start_time: 1.3075164012738856
+    step_id: 225
+  - description: Add-1 egg to a blender
+    end_time: 91.526148089172
+    start_time: 52.30065605095541
+    step_id: 229
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 139.90425493630576
+    start_time: 107.21634490445861
+    step_id: 221
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 189.5898781847134
+    start_time: 141.21177133757962
+    step_id: 232
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 252.35066544585985
+    start_time: 194.81994378980892
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 402.7150515923567
+    start_time: 274.5784442675159
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 455.0157076433121
+    start_time: 402.7150515923567
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 554.3869541401275
+    start_time: 455.0157076433121
+    step_id: 226
+  - description: Chop-Chop 1 strawberry
+    end_time: 644.6055858280255
+    start_time: 570.077150955414
+    step_id: 233
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 670.7559138535032
+    start_time: 644.6055858280256
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 712.5964386942675
+    errors:
+    - description: Did not turn off the stove after 30 seconds
+      tag: Preparation Error
+    start_time: 670.7559138535032
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 760.9745455414014
+    start_time: 709.9814058917198
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 788.432389968153
+    errors:
+    - description: Spilled while adding strawberries to the plate
+      tag: Technique Error
+    start_time: 764.897094745223
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 821.1203
+    start_time: 789.7399063694268
+    step_id: 224
+- activity_id: 21
+  is_error: false
+  recording_id: '21_8'
+  step_annotations:
+  - description: Add-1 egg to a blender
+    end_time: 69.33540204140127
+    start_time: 22.60937023089172
+    step_id: 229
+  - description: Add-Add 1 banana to a blender
+    end_time: 107.01768575955414
+    start_time: 70.8426933901274
+    step_id: 225
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 150.72913487261144
+    start_time: 119.07601654936306
+    step_id: 232
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 185.3968358933121
+    start_time: 159.77288296496815
+    step_id: 221
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 322.5603486273886
+    start_time: 271.31244277070067
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 449.1728219203822
+    start_time: 351.1988842531847
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 524.537389356688
+    start_time: 480.82594024363055
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 636.0769491624203
+    start_time: 524.5373893566879
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 715.9633906449045
+    start_time: 673.7592328805733
+    step_id: 228
+  - description: Chop-Chop 1 strawberry
+    end_time: 807.9081629171975
+    start_time: 756.6602570605096
+    step_id: 233
+  - description: cook-cook for 20-30 seconds more
+    end_time: 833.5321158455414
+    start_time: 807.9081629171975
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 892.3164784458598
+    start_time: 859.1560687738853
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 913.4185573280255
+    start_time: 892.31647844586
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 946.578967
+    start_time: 913.4185573280255
+    step_id: 224
+- activity_id: 21
+  is_error: false
+  recording_id: '21_11'
+  step_annotations:
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 78.75054196967794
+    start_time: 58.039354657576034
+    step_id: 221
+  - description: Add-1 egg to a blender
+    end_time: 166.1054682969136
+    start_time: 137.494912338898
+    step_id: 229
+  - description: Add-Add 1 banana to a blender
+    end_time: 214.0686826739033
+    start_time: 167.06562645716338
+    step_id: 225
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 293.95879252683
+    start_time: 273.5226811282474
+    step_id: 232
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 369.5724047015855
+    start_time: 324.6129596247039
+    step_id: 227
+  - description: Chop-Chop 1 strawberry
+    end_time: 541.9169441629655
+    start_time: 488.10185081336454
+    step_id: 233
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 696.5501870789069
+    start_time: 590.2824078062774
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 742.1908358690748
+    start_time: 712.217872484487
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 931.4893222007757
+    start_time: 756.4199678862517
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 968.2122964050574
+    start_time: 935.5145181673251
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 1000.593791021082
+    start_time: 969.9396239232082
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 1034.6539766853864
+    start_time: 1006.7246244406568
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 1061.2209215035437
+    start_time: 1046.9156435245359
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 1100.0495331608506
+    start_time: 1079.613421762268
+    step_id: 224
+- activity_id: 21
+  is_error: true
+  recording_id: '21_14'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 56.92352478658325
+    start_time: 14.162768585987264
+    step_id: 232
+  - description: Add-Add 1 banana to a blender
+    end_time: 86.81178716368531
+    start_time: 64.34285401543734
+    step_id: 225
+  - description: Chop-Chop 1 strawberry
+    end_time: 132.7709686032834
+    start_time: 112.68510412227387
+    step_id: 233
+  - description: Add-1 egg to a blender
+    end_time: 160.62480619843018
+    start_time: 149.73077800534026
+    step_id: 229
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 195.3495210639043
+    start_time: 168.45488896221354
+    step_id: 221
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 232.45730459661684
+    start_time: 200.11565839838113
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 339.0145178602777
+    start_time: 265.4798275569207
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 414.59183844983903
+    errors:
+    - description: Drop the blender
+      tag: Timing Error
+    modified_description: Pour-Pour three little puddles straight from the blender
+      into the frying pan, but drop the blender
+    start_time: 371.69660243954746
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 437.40120997912106
+    start_time: 415.9535919739753
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 463.9554036997778
+    start_time: 437.7416483601551
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 491.5309125635366
+    start_time: 464.63628046184584
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 510.935900282478
+    start_time: 492.55222770663875
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 524.6556758044065
+    start_time: 513.0437903222352
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 541.9489153269607
+    start_time: 526.2135810048616
+    step_id: 224
+- activity_id: 21
+  is_error: false
+  recording_id: '21_15'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 31.844232802547772
+    start_time: 3.859907006369427
+    step_id: 232
+  - description: Add-1 egg to a blender
+    end_time: 64.65344235668789
+    start_time: 32.80920955414013
+    step_id: 229
+  - description: Add-Add 1 banana to a blender
+    end_time: 94.56772165605095
+    start_time: 63.68846560509555
+    step_id: 225
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 121.58707070063696
+    start_time: 95.53269840764331
+    step_id: 221
+  - description: Chop-Chop 1 strawberry
+    end_time: 162.11609426751593
+    start_time: 120.62209394904458
+    step_id: 233
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 202.05109083125504
+    start_time: 161.15111751592357
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 389.6990937977335
+    start_time: 302.1121861181784
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 430.3796312101911
+    start_time: 396.60544490445864
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 504.6828410828026
+    start_time: 437.1344684713375
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 536.5270738853503
+    start_time: 502.75288757961783
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 578.0210742038217
+    start_time: 558.7215391719745
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 585.7408882165605
+    start_time: 578.986050955414
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 602.1454929936306
+    start_time: 585.7408882165605
+    step_id: 224
+- activity_id: 21
+  is_error: false
+  recording_id: '21_17'
+  step_annotations:
+  - description: Add-Add 1 banana to a blender
+    end_time: 56.385097326433126
+    start_time: 35.05019563535032
+    step_id: 225
+  - description: Add-1 egg to a blender
+    end_time: 124.96156704777071
+    start_time: 106.67450845541401
+    step_id: 229
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 175.2509781767516
+    start_time: 156.9639195843949
+    step_id: 221
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 224.01646775636945
+    start_time: 190.49019367038215
+    step_id: 232
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 316.27253198642956
+    start_time: 246.87529099681527
+    step_id: 227
+  - description: Chop-Chop 1 strawberry
+    end_time: 444.68531629702534
+    start_time: 389.00565871128333
+    step_id: 233
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 615.2408990070353
+    start_time: 451.1324345437955
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 648.793192760821
+    start_time: 624.176923091335
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 778.3216593550209
+    start_time: 658.7569209603748
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 826.9680970351956
+    start_time: 780.6660659902101
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 863.2464675924344
+    start_time: 830.4247746997866
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 907.7901936610281
+    start_time: 893.7237538498933
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 915.8487337414275
+    start_time: 907.0572088594681
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 943.5423948476625
+    start_time: 920.098328495771
+    step_id: 224
+- activity_id: 21
+  is_error: false
+  recording_id: '21_19'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 73.70845433121019
+    start_time: 1.842711358280255
+    step_id: 232
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 128.98979507961783
+    start_time: 77.3938770477707
+    step_id: 221
+  - description: Chop-Chop 1 strawberry
+    end_time: 294.83381732484077
+    start_time: 158.4731768121019
+    step_id: 233
+  - description: Add-Add 1 banana to a blender
+    end_time: 350.1151580732484
+    start_time: 296.67652868312103
+    step_id: 225
+  - description: Add-1 egg to a blender
+    end_time: 407.2392101799363
+    start_time: 355.6432921480892
+    step_id: 229
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 654.1625321894904
+    start_time: 573.0832324251593
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 768.4106364028663
+    start_time: 659.6906662643313
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 820.0065544347135
+    start_time: 784.9950386273886
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 945.3109267977707
+    start_time: 820.0065544347133
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 989.5359993964969
+    start_time: 950.8390608726115
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 1024.5475152038218
+    start_time: 987.6932880382167
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 1066.9298764442676
+    start_time: 1042.9746287866242
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 1092.727835460191
+    start_time: 1066.9298764442676
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 1142.4810421337581
+    start_time: 1096.4132581767517
+    step_id: 224
+- activity_id: 21
+  is_error: false
+  recording_id: '21_24'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 55.8428359044586
+    start_time: 1.2691553614649682
+    step_id: 232
+  - description: Add-Add 1 banana to a blender
+    end_time: 92.64834138694268
+    start_time: 55.8428359044586
+    step_id: 225
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 241.61858013872796
+    start_time: 211.84336117213724
+    step_id: 221
+  - description: Add-1 egg to a blender
+    end_time: 189.87803570498014
+    start_time: 164.00776348810624
+    step_id: 229
+  - description: Chop-Chop 1 strawberry
+    end_time: 163.72104162898088
+    start_time: 97.72496283280255
+    step_id: 233
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 281.1561659796107
+    start_time: 242.5948168261571
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 401.84329689301524
+    start_time: 297.28658396048843
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 448.01184259713386
+    start_time: 402.322249584395
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 634.5776807324842
+    start_time: 445.47353187420384
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 690.4205166369426
+    start_time: 633.3085253710192
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 729.7643328423567
+    start_time: 691.6896719984077
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 751.3399739872611
+    start_time: 729.7643328423567
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 770.3773044092356
+    start_time: 757.6857507945859
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 790.6837901926752
+    start_time: 771.6464597707006
+    step_id: 224
+- activity_id: 21
+  is_error: false
+  recording_id: '21_25'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 57.921413288916725
+    start_time: 38.0924609918101
+    step_id: 232
+  - description: Add-Add 1 banana to a blender
+    end_time: 97.57931788312999
+    start_time: 67.31407490333567
+    step_id: 225
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 148.19532769416534
+    start_time: 125.2354881922524
+    step_id: 221
+  - description: Chop-Chop 1 strawberry
+    end_time: 230.12020955326378
+    start_time: 188.37504682251296
+    step_id: 233
+  - description: Add-1 egg to a blender
+    end_time: 262.7336179366628
+    start_time: 245.51373831022812
+    step_id: 229
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 318.8286803561092
+    start_time: 289.6070664445836
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 487.11386761444845
+    start_time: 342.5712416592237
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 516.2996501408074
+    start_time: 491.25255250235693
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 675.1921757847277
+    start_time: 529.6059207612343
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 726.5909073969647
+    start_time: 679.62759932487
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 763.9006465875731
+    start_time: 731.5481454712412
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 794.4267968344345
+    start_time: 769.9015137301185
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 804.6698606668459
+    start_time: 795.2095186356361
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 830.4319996897071
+    start_time: 814.2557491315413
+    step_id: 224
+- activity_id: 21
+  is_error: true
+  recording_id: '21_28'
+  step_annotations:
+  - description: Add-1 egg to a blender
+    end_time: 60.65929363784665
+    start_time: 7.720273735725938
+    step_id: 229
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 119.11279477977163
+    errors:
+    - description: Not a heaped tbsp flour.
+      tag: Measurement Error
+    modified_description: Add-Add 1 tbsp flour to a blender.
+    start_time: 80.51142610114192
+    step_id: 232
+  - description: Add-Add 1 banana to a blender
+    end_time: 140.0678234910277
+    start_time: 119.1127947797716
+    step_id: 225
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 209.55028711256114
+    start_time: 142.27361598694944
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 334.17756313213704
+    start_time: 218.37345709624793
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 384.910790538336
+    start_time: 351.8239030995105
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 496.30331158238164
+    start_time: 387.11658303425776
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 543.7278502446982
+    errors:
+    - description: Didn't flip the pancakes properly.
+      tag: Technique Error
+    modified_description: lip-Flip the pancakes with a fork or a fish slice spatula
+      improperly.
+    start_time: 494.09751908645995
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 566.888671451876
+    start_time: 541.5220577487764
+    step_id: 230
+  - description: Chop-Chop 1 strawberry
+    end_time: 596.6668701468188
+    errors:
+    - description: Sliced the strawberries instead of chopping.
+      tag: Technique Error
+    modified_description: Slice-Slice 1 strawberry
+    start_time: 567.9915676998368
+    step_id: 233
+  - description: Transfer-Transfer to a plate
+    end_time: 636.3711350734093
+    start_time: 595.563973898858
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 649.6058900489396
+    start_time: 635.2682388254486
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 669.4580225122348
+    errors:
+    - description: Spill the maple syrup while splashing on plate.
+      tag: Technique Error
+    modified_description: splash-splash maple syrup on plate and spill some.
+    start_time: 648.5029938009787
+    step_id: 224
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 221
+- activity_id: 21
+  is_error: true
+  recording_id: '21_29'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 68.64341560509551
+    errors:
+    - description: Spill some flour outside while adding to blender
+      tag: Technique Error
+    modified_description: Add-1 heaped tbsp flour to a blender, but splash some flour
+      outside
+    start_time: 21.050647452229295
+    step_id: 232
+  - description: Add-1 egg to a blender
+    end_time: 106.16848280254776
+    errors:
+    - description: Add 2 eggs instead of  1 egg
+      tag: Measurement Error
+    modified_description: Add-2 eggs to a blender
+    start_time: 75.96537993630572
+    step_id: 229
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 161.08321528662418
+    start_time: 118.98192038216558
+    step_id: 221
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 222.40466656050953
+    errors:
+    - description: 40 instead of 20 seconds
+      tag: Timing Error
+    modified_description: blitz-blitz the blender for 40 seconds
+    start_time: 163.828951910828
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 284.64136337579623
+    errors:
+    - description: high-medium instead of low-medium
+      tag: Temperature Error
+    modified_description: Melt-Melt a small knob of butter in a non-stick frying pan
+      over high-medium heat
+    start_time: 231.5571219745223
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 343.21707802547775
+    errors:
+    - description: Pour the three puddles together from blender into the pan
+      tag: Technique Error
+    modified_description: Pour-Pour three little puddles straight from the blender
+      into the frying pan, but put them together
+    start_time: 284.6413633757962
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 395.3860738853503
+    start_time: 343.2170780254777
+    step_id: 226
+  - description: Chop-Chop 1 strawberry
+    end_time: 502.46980222929926
+    errors:
+    - description: mince instead of chopping 1 strawberry
+      tag: Technique Error
+    modified_description: Mince-Mince 1 strawberry
+    start_time: 422.8434401273885
+    step_id: 233
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 517.1137308917197
+    start_time: 504.30029331210187
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 532.6729050955413
+    errors:
+    - description: 10 instead of 20-30 seconds
+      tag: Timing Error
+    modified_description: cook-cook for 10 seconds more
+    start_time: 520.7747130573248
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 546.4015882165604
+    errors:
+    - description: Bowl instead of plate
+      tag: Preparation Error
+    modified_description: Transfer-Transfer to a bowl
+    start_time: 530.8424140127388
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 562.8760079617834
+    start_time: 544.5710971337579
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 574.7742
+    start_time: 562.8760079617833
+    step_id: 224
+  - description: Add-Add 1 banana to a blender
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 225
+- activity_id: 21
+  is_error: true
+  recording_id: '21_32'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 49.512
+    start_time: 7.2780000000000005
+    step_id: 232
+  - description: Add-Add 1 banana to a blender
+    end_time: 93.669
+    start_time: 51.49
+    step_id: 225
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 156.392
+    start_time: 106.247
+    step_id: 221
+  - description: Chop-Chop 1 strawberry
+    end_time: 216.815
+    errors:
+    - description: Didn't wash the strawberry.
+      tag: Preparation Error
+    modified_description: Chop-Chop 1 unwashed strawberry
+    start_time: 175.225
+    step_id: 233
+  - description: Add-1 egg to a blender
+    end_time: 247.473
+    start_time: 220.293
+    step_id: 229
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 308.073
+    start_time: 250.183
+    step_id: 227
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 399.007
+    errors:
+    - description: Not using a proper frying pan.
+      tag: Technique Error
+    modified_description: Pour-Pour three little puddles straight from the blender
+      into the tawa pan
+    start_time: 326.395
+    step_id: 231
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 469.298
+    errors:
+    - description: Flipping early before the pan cakes gets settled.
+      tag: Preparation Error
+    modified_description: Flip-Flip the pancakes with a spatula too early.
+    start_time: 415.286
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 500.744
+    start_time: 475.11
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 545.706
+    start_time: 501.329
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 556.28
+    start_time: 546.266
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 575.283
+    errors:
+    - description: Using siracha sauce instead of maple syrup.
+      tag: Preparation Error
+    modified_description: Splash-Splash siracha sauce on the plate.
+    start_time: 557.223
+    step_id: 224
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 223
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 226
+- activity_id: 21
+  is_error: true
+  recording_id: '21_37'
+  step_annotations:
+  - description: Add-1 egg to a blender
+    end_time: 57.23440652866242
+    errors:
+    - description: Add 1 already broken egg to a blender
+      tag: Preparation Error
+    modified_description: Add-1 broken egg to a blender
+    start_time: 8.671879777070064
+    step_id: 229
+  - description: Add-Add 1 banana to a blender
+    end_time: 93.6563015923567
+    start_time: 57.234406528662426
+    step_id: 225
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 192.51573105095542
+    errors:
+    - description: Add 1 flattened tbsp of flour to a blender instead of heaped tbsp
+      tag: Measurement Error
+    modified_description: Add-1 flattened tbsp flour to a blender
+    start_time: 102.32818136942674
+    step_id: 232
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 225.46887420382168
+    start_time: 189.0469791401274
+    step_id: 221
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 303.51579219745224
+    start_time: 251.48451353503188
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 537.656546178344
+    errors:
+    - description: Melt a spoon of butter instead of small knob of butter in a non-stick
+        frying pan
+      tag: Measurement Error
+    modified_description: Melt a spoon of butter in a non-stick frying pan over low-medium
+      heat
+    start_time: 305.25016815286625
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 563.6721855095541
+    errors:
+    - description: Pour one puddle instead of three little puddles straight from the
+        blender into the frying pan
+      tag: Measurement Error
+    modified_description: Pour one puddle straight from the blender into the frying
+      pan
+    start_time: 535.9221702229299
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 919.2192563694268
+    errors:
+    - description: Cook until it's solid
+      tag: Timing Error
+    modified_description: Cook for until it's solid
+    start_time: 561.9378095541401
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 969.5161590764333
+    start_time: 917.4848804140128
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 1014.6099339171975
+    start_time: 967.7817831210192
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 1025.5493677602942
+    start_time: 1013.5426005827578
+    step_id: 234
+  - description: splash-splash maple syrup on plate
+    end_time: 1057.1700541932362
+    start_time: 1033.8235624591373
+    step_id: 224
+  - description: Chop-Chop 1 strawberry
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 233
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 222
+- activity_id: 21
+  is_error: true
+  recording_id: '21_43'
+  step_annotations:
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 71.03168262101912
+    errors:
+    - description: Spilling the powder onto hands while adding it to the blender
+      tag: Technique Error
+    start_time: 11.022157648089172
+    step_id: 221
+  - description: Add-Add 1 banana to a blender
+    end_time: 101.64878719904458
+    start_time: 73.48105098726116
+    step_id: 225
+  - description: Add-1 egg to a blender
+    end_time: 160.43362798885352
+    errors:
+    - description: Cracking the egg improperly such that some part of the egg shell
+        falls into the blender
+      tag: Technique Error
+    start_time: 118.79436576273885
+    step_id: 229
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 197.17415348248406
+    errors:
+    - description: Dropping flour while adding heaped measuring utensil into the blender
+      tag: Technique Error
+    start_time: 178.8038907356688
+    step_id: 232
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 307.3957299633758
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 213.09504786305732
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 401.69641206369425
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 338.0128345414013
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 450.6837793885351
+    errors:
+    - description: Pour one large puddle instead of little puddles
+      tag: Measurement Error
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 422.5160431767516
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 595.1965129968153
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 453.13314775477704
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 676.0256690828026
+    errors:
+    - description: Not using fish slice spatula resulting in making a large ball
+      tag: Preparation Error
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 592.7471446305733
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 727.4624047738854
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 673.5763007165605
+    step_id: 230
+  - description: splash-splash maple syrup on plate
+    end_time: 722.1874082623241
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 709.09214202707
+    step_id: 224
+  - description: Transfer-Transfer to a plate
+    end_time: 748.3770207822721
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 727.6523745645442
+    step_id: 234
+  - description: Chop-Chop 1 strawberry
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 233
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 762.9782460843949
+    start_time: 755.6301409856687
+    step_id: 222
+- activity_id: 21
+  is_error: true
+  recording_id: '21_44'
+  step_annotations:
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 63.712374840764326
+    errors:
+    - description: Using Tbsp instead of tsp.
+      tag: Measurement Error
+    modified_description: Add-1/2 Tbsp baking powder to a blender.
+    start_time: 13.652651751592357
+    step_id: 221
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 100.11944617834396
+    errors:
+    - description: Adding without a heap instead of heaped tbsp.
+      tag: Measurement Error
+    modified_description: Add-1 tbsp flour to a blender.
+    start_time: 66.7462974522293
+    step_id: 232
+  - description: Chop-Chop 1 strawberry
+    end_time: 279.1208802547771
+    errors:
+    - description: Chopping two strawberries instead of one.
+      tag: Measurement Error
+    modified_description: Chop-Chop 2 strawberries.
+    start_time: 163.83182101910828
+    step_id: 233
+  - description: splash-splash maple syrup on plate
+    end_time: 358.00286815286626
+    errors:
+    - description: Spill some maple syrup.
+      tag: Technique Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: splash-splash maple syrup on plate and spill some.
+    start_time: 317.0449128980892
+    step_id: 224
+  - description: Add-Add 1 banana to a blender
+    end_time: 383.79121035031847
+    errors:
+    - description: Instead of full banana adding half.
+      tag: Measurement Error
+    modified_description: Add-Add 1/2 banana to a blender.
+    start_time: 354.9689455414013
+    step_id: 225
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 503.6311535031847
+    errors:
+    - description: Blitzing the blender for more than 20 seconds.
+      tag: Timing Error
+    modified_description: Blitz-Blitz the blender for 30 seconds.
+    start_time: 398.9608234076434
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 656.8442453821657
+    errors:
+    - description: Using a steel pan instead of a non-stick pan.
+      tag: Technique Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: Melt-Melt a small knob of butter in a steel frying pan over
+      low-medium heat
+    start_time: 523.351650477707
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 712.9718136942676
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 655.3272840764331
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 785.7859563694268
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 726.6244654458599
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 819.1591050955415
+    errors:
+    - description: While flipping put one out of the pan.
+      tag: Technique Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: Flip-Flip the pancakes with a fork or a fish slice spatula
+      and drop one out of the pan.
+    start_time: 782.7520337579618
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 855.5661764331211
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 816.1251824840765
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 878.3205960191083
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 852.5322538216561
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 907.1428608280254
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 878.3205960191083
+    step_id: 222
+  - description: Add-1 egg to a blender
+    end_time: 946.5838547770701
+    errors:
+    - description: Step performed after correct order
+      tag: Order Error
+    start_time: 907.1428608280254
+    step_id: 229
+- activity_id: 21
+  is_error: true
+  recording_id: '21_46'
+  step_annotations:
+  - description: Add-Add 1 banana to a blender
+    end_time: 51.62646875955415
+    start_time: 4.802462210191083
+    step_id: 225
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 102.05232196656051
+    start_time: 60.03077762738854
+    step_id: 221
+  - description: Add-1 egg to a blender
+    end_time: 135.6695574378981
+    start_time: 105.65416862420382
+    step_id: 229
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 177.69110177707006
+    start_time: 147.6757129633758
+    step_id: 232
+  - description: Chop-Chop 1 strawberry
+    end_time: 253.32988158757962
+    errors:
+    - description: Slice instead of chop
+      tag: Technique Error
+    - description: Use 2 strawberry instead of 1
+      tag: Measurement Error
+    modified_description: Slice 2 strawberry
+    start_time: 198.10156617038217
+    step_id: 233
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 332.57050805573255
+    errors:
+    - description: 30 secs
+      tag: Timing Error
+    modified_description: blitz the blender for 30 seconds
+    start_time: 290.54896371656054
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 439.4252922324841
+    errors:
+    - description: Use medium knob of butter instead of small knob
+      tag: Measurement Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: Melt a medium knob of butter in a non-stick frying pan over
+      medium heat
+    start_time: 336.17235471337585
+    step_id: 223
+  - description: splash-splash maple syrup on plate
+    end_time: 479.0456054665606
+    errors:
+    - description: pour maple syrup on plate instead of splashing
+      tag: Technique Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: pour maple syrup on plate instead of splashing
+    start_time: 457.4345255207007
+    step_id: 224
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 522.2677653582803
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 483.84806767675167
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 665.141016111465
+    errors:
+    - description: Cook for 2 mins instead of 1 min
+      tag: Timing Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: Cook for 2 mins
+    start_time: 524.6689964633757
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 693.9557893726114
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 662.7397850063695
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 721.5699470812101
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 691.554558267516
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 740.7797959219746
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 719.1687159761148
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 753.986567
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 738.378564816879
+    step_id: 222
+- activity_id: 21
+  is_error: true
+  recording_id: '21_47'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 316.96633121019113
+    errors:
+    - description: Miss initially and add it later; and blend again
+      tag: Order Error
+    modified_description: Add - Miss initially and add it later and blend again
+    start_time: 276.298952866242
+    step_id: 232
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 149.51242038216563
+    errors:
+    - description: Add-1 tbsp baking powder instead of 1/2 tsp to a blender
+      tag: Measurement Error
+    modified_description: Add-1 tbsp baking powder to a blender
+    start_time: 107.64894267515925
+    step_id: 221
+  - description: Add-Add 1 banana to a blender
+    end_time: 82.53085605095542
+    start_time: 49.04007388535032
+    step_id: 225
+  - description: Chop-Chop 1 strawberry
+    end_time: 702.1103261146496
+    errors:
+    - description: Cut instead of chopping a strawberry
+      tag: Technique Error
+    modified_description: Cut-Cut 1 strawberry into pieces
+    start_time: 663.8351464968152
+    step_id: 233
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 255.9652636942675
+    errors:
+    - description: Blend the contents improperly for 30 seconds
+      tag: Timing Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: blitz-blitz the blender improperly for 30 seconds
+    start_time: 185.39540127388534
+    step_id: 227
+  - description: Add-1 egg to a blender
+    end_time: 187.7876
+    errors:
+    - description: Crack egg such that it falls into the blender
+      tag: Technique Error
+    - description: Step performed after correct order
+      tag: Order Error
+    modified_description: Add - Add 1 improperly cracked egg into the blender
+    start_time: 166.25781146496814
+    step_id: 229
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 444.9489630573248
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 368.398603821656
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 607.618476433121
+    errors:
+    - description: Cook on high for 1 minute
+      tag: Temperature Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: Cook-Cook on high for 1 min or until the tops start to bubble
+    start_time: 566.951098089172
+    step_id: 226
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 565.7549987261146
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 544.2252101910829
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: -1.0
+    errors:
+    - description: Cook on high for 1 minute
+      tag: Temperature Error
+    - description: Cook on high for 1 minute
+      tag: Timing Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: cook-cook for 1 minute or until its burnt
+    start_time: -1.0
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 635.1287617834394
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 606.4223770700637
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 741.5816050955412
+    errors:
+    - description: Drop while adding maple syrup into the plate
+      tag: Technique Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: Serve-Drop while adding maple syrup into the plate before
+      serving and have cut strawberries instead of chopped strawberries
+    start_time: 699.718127388535
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 224
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 223
+- activity_id: 21
+  is_error: true
+  recording_id: '21_50'
+  step_annotations:
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 77.10250318471338
+    start_time: 25.257716560509554
+    step_id: 232
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 112.99504777070064
+    start_time: 87.73733121019109
+    step_id: 221
+  - description: Add-Add 1 banana to a blender
+    end_time: 172.81595541401273
+    errors:
+    - description: Add half banana instead of 1 banana
+      tag: Measurement Error
+    modified_description: Add 1/2 banana to a blender
+    start_time: 118.31246178343949
+    step_id: 225
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 253.90651910828024
+    errors:
+    - description: blitz for 25 secs instead of 20 secs
+      tag: Timing Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: blitz-blitz the blender for 25 seconds
+    start_time: 210.0378535031847
+    step_id: 227
+  - description: Add-1 egg to a blender
+    end_time: 346.9612643312102
+    start_time: 327.0209617834395
+    step_id: 229
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 466.6030796178344
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 358.92544585987264
+    step_id: 231
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 623.4667929936305
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 535.7294617834394
+    step_id: 228
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 677.9702866242037
+    errors:
+    - description: used medium heat instead of low-medium heat
+      tag: Temperature Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: Melt a small knob of butter in a non-stick frying pan over
+      medium heat
+    start_time: 624.7961464968153
+    step_id: 223
+  - description: Chop-Chop 1 strawberry
+    end_time: 763.0489108280253
+    errors:
+    - description: Slice instead of chop
+      tag: Technique Error
+    - description: Step performed after correct order
+      tag: Order Error
+    modified_description: Slice 1 strawberry
+    start_time: 713.8628312101911
+    step_id: 233
+  - description: cook-cook for 20-30 seconds more
+    end_time: 781.6598598726115
+    errors:
+    - description: cook for 20 secs
+      tag: Timing Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: cook for 20 seconds
+    start_time: 765.7076178343948
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 810.9056369426751
+    errors:
+    - description: Use bowl instead plate
+      tag: Preparation Error
+    - description: Step performed before correct order
+      tag: Order Error
+    modified_description: Transfer to a bowl
+    start_time: 784.3185668789807
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 833.5046464968152
+    errors:
+    - description: Step performed before correct order
+      tag: Order Error
+    start_time: 810.9056369426751
+    step_id: 222
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 226
+  - description: splash-splash maple syrup on plate
+    end_time: -1.0
+    start_time: -1.0
+    step_id: 224
+- activity_id: 21
+  is_error: true
+  recording_id: '21_103'
+  step_annotations:
+  - description: Add-Add 1 banana to a blender
+    end_time: 62.061043652866246
+    start_time: 13.298795068471339
+    step_id: 225
+  - description: Add-1 egg to a blender
+    end_time: 112.30093613375797
+    start_time: 79.79277041082803
+    step_id: 229
+  - description: Add-1/2 tsp baking powder to a blender
+    end_time: 178.7949114761147
+    start_time: 149.24203354617836
+    step_id: 221
+  - description: Add-1 heaped tbsp flour to a blender
+    end_time: 233.46773564649683
+    start_time: 196.52663823407644
+    step_id: 232
+  - description: blitz-blitz the blender for 20 seconds
+    end_time: 351.67924736624207
+    start_time: 264.49825747292994
+    step_id: 227
+  - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+      heat
+    end_time: 468.4131151894905
+    start_time: 362.02275464171976
+    step_id: 223
+  - description: Pour-Pour three little puddles straight from the blender into the
+      frying pan
+    end_time: 506.8318564984078
+    start_time: 475.80133467197453
+    step_id: 231
+  - description: Cook-Cook for 1 min or until the tops start to bubble
+    end_time: 582.1916952197453
+    start_time: 511.2647881878981
+    step_id: 226
+  - description: Chop-Chop 1 strawberry
+    end_time: 682.6714801815286
+    start_time: 613.2222170461783
+    step_id: 233
+  - description: Flip-Flip the pancakes with a fork or a fish slice spatula
+    end_time: 725.5231531799362
+    start_time: 690.0596996640127
+    step_id: 228
+  - description: cook-cook for 20-30 seconds more
+    end_time: 763.9418944888537
+    errors:
+    - description: Did not turn off the stove after 30 seconds
+      tag: Preparation Error
+    start_time: 731.4337287659237
+    step_id: 230
+  - description: Transfer-Transfer to a plate
+    end_time: 823.0476503487262
+    start_time: 800.8829919012738
+    step_id: 234
+  - description: Serve-Serve the pancakes with chopped strawberries
+    end_time: 842.2570210031846
+    errors:
+    - description: Spilled while adding strawberries to the plate
+      tag: Technique Error
+    start_time: 827.4805820382167
+    step_id: 222
+  - description: splash-splash maple syrup on plate
+    end_time: 866.5836181544128
+    start_time: 843.2831857222918
+    step_id: 224

@@ -356,13 +356,13 @@ if __name__ == '__main__':
 	activity_id_to_activity_name_map = {activity.id: activity.name for activity in activities}
 	activity_name_to_activity_id_map = {activity.name.replace(" ", "").lower(): activity.id for activity in activities}
 	
-	# generate_activity_step_description_csv()
+	generate_activity_step_description_csv()
 	generate_complete_step_annotation_json()
 
-# generate_step_annotation_csv()
-# fetch_average_segments_by_recipe()
-# generate_error_annotations_csv()
-
-# generate_step_annotation_json()
-# generate_error_category_json()
-# generate_error_annotations_json()
+	generate_step_annotation_csv()
+	fetch_average_segments_by_recipe()
+	generate_error_annotations_csv()
+	
+	generate_step_annotation_json()
+	generate_error_category_json()
+	generate_error_annotations_json()
