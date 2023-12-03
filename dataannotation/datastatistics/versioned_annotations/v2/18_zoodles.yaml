@@ -119,6 +119,10 @@
     step_id: 197
   - description: Top-Top with more parmesan if desired
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 195
 - activity_id: 18
@@ -246,6 +250,10 @@
     step_id: 197
   - description: Top-Top with more parmesan if desired
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 195
 - activity_id: 18

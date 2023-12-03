@@ -268,8 +268,8 @@
     step_id: 238
   - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
       an omelette
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 571
+    start_time: 551
     step_id: 245
   - description: Transfer-Transfer omelette to the plate and serve with the tomatoes
     end_time: 582.582

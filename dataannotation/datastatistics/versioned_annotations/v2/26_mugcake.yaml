@@ -774,8 +774,8 @@
     start_time: 547.3100481597812
     step_id: 296
   - description: Set-Set aside the lined mug
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 613
+    start_time: 611
     step_id: 301
   - description: Whisk-Whisk batter until no lumps remain
     end_time: 683.41

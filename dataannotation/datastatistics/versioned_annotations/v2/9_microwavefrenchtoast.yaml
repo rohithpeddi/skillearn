@@ -55,8 +55,8 @@
   step_annotations:
   - description: melt-In a large mug, melt 1 tablespoon of softened butter in the
       microwave for about 30 seconds
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 193
+    start_time: 65
     step_id: 94
   - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     end_time: 268.093197022293
@@ -569,6 +569,10 @@
   - description: add-add bread pieces to the egg mixture in the mug, pressing the
       bread down into the egg
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 92
   - description: Microwave-Microwave on high for 90 seconds until the egg is cooked
@@ -593,6 +597,10 @@
     step_id: 96
   - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 99
 - activity_id: 9

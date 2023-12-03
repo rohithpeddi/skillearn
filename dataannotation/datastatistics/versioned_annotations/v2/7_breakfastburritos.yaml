@@ -1044,8 +1044,9 @@
   - description: Mix-Mix the contents of the bowl well
     end_time: -1.0
     errors:
-    - description: Step performed before correct order
-      tag: Order Error
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 76
   - description: Add-Add 1/2 tbsp sweet and sour sauce to the bowl
@@ -1083,14 +1084,14 @@
     start_time: 651.8649767785969
     step_id: 82
   - description: Place-Place 8 inch tortilla on a cutting board
-    end_time: -1.0
+    end_time: 749
     errors:
     - description: use plate instead of cutting board
       tag: Preparation Error
     - description: Step performed after correct order
       tag: Order Error
     modified_description: Place-Place 8 inch tortilla on a plate
-    start_time: -1.0
+    start_time: 737
     step_id: 81
   - description: Pour-Pour egg mixture on top of the tortilla
     end_time: 775.2519831670681

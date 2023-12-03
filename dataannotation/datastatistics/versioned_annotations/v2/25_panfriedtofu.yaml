@@ -41,8 +41,8 @@
     start_time: 994.486
     step_id: 285
   - description: Return-Return the heat to medium
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1083
+    start_time: 1072
     step_id: 287
   - description: cook-cook until tofu turns brown
     end_time: 1259.3577748862406
@@ -287,12 +287,12 @@
     start_time: 579.5729480048367
     step_id: 292
   - description: remove-Briefly remove the pan from the heat to reduce spitting
-    end_time: -1.0
+    end_time: 980
     errors:
     - description: Did this after next step
       tag: Order Error
     modified_description: remove-Briefly remove the pan from the heat to reduce spitting
-    start_time: -1.0
+    start_time: 972
     step_id: 280
   - description: Flip-Flip the tofu with tongs
     end_time: 968.71478452237
@@ -303,8 +303,8 @@
     start_time: 908.6875863361548
     step_id: 285
   - description: Return-Return the heat to medium
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 982
+    start_time: 980
     step_id: 287
   - description: cook-cook until tofu turns brown
     end_time: 1227.4527077388148
@@ -386,8 +386,8 @@
     start_time: 691.146
     step_id: 285
   - description: Return-Return the heat to medium
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 759
+    start_time: 755
     step_id: 287
   - description: cook-cook until tofu turns brown
     end_time: 899.7943450704225
@@ -469,8 +469,8 @@
     start_time: 1120
     step_id: 285
   - description: Return-Return the heat to medium
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1205
+    start_time: 1201
     step_id: 287
   - description: cook-cook until tofu turns brown
     end_time: 1525.1039706598049
@@ -552,8 +552,8 @@
     start_time: 626.1692054366197
     step_id: 285
   - description: Return-Return the heat to medium
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 676
+    start_time: 670
     step_id: 287
   - description: cook-cook until tofu turns brown
     end_time: 806.2215227508125
@@ -703,6 +703,10 @@
     step_id: 275
   - description: pat-pat tofu dry with a towel
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 293
   - description: add-add the tofu cubes to the pan
@@ -719,12 +723,12 @@
     start_time: 611.302
     step_id: 280
   - description: Flip-Flip the tofu with tongs
-    end_time: 685
+    end_time: 684
     start_time: 615.964
     step_id: 285
   - description: Return-Return the heat to medium
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 689
+    start_time: 686
     step_id: 287
   - description: cook-cook until tofu turns brown
     end_time: 775.7840377681474
@@ -814,8 +818,8 @@
     start_time: 812.6046422535211
     step_id: 285
   - description: Return-Return the heat to medium
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 898
+    start_time: 895
     step_id: 287
   - description: cook-cook until tofu turns brown
     end_time: 1077.3167605633803

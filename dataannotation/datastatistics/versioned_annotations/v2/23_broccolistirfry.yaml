@@ -411,8 +411,8 @@
     start_time: 1952.9253035418938
     step_id: 274
   - description: Whisk-Whisk the sauce again to recombine the ingredients
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 2043
+    start_time: 2036
     step_id: 272
   - description: Pour-Pour the sauce into the skillet
     end_time: 2079.382347243449
@@ -483,8 +483,8 @@
     start_time: 1046.6827946485841
     step_id: 271
   - description: Set-Set aside the sauce mixture
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1041
+    start_time: 1036
     step_id: 251
   - description: slice-slice 1/3 of the bell pepper
     end_time: 1176.4643262049751
@@ -691,12 +691,12 @@
     start_time: 1013.7827594161184
     step_id: 263
   - description: Whisk-Whisk the contents of bowl
-    end_time: 794.3932883634867
+    end_time: 791
     start_time: 774.6378383634868
     step_id: 260
   - description: Set-Set aside the sauce mixture
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 798
+    start_time: 792
     step_id: 251
   - description: slice-slice mushrooms
     end_time: 895.2500594161185
@@ -793,8 +793,8 @@
     start_time: 1076.59144097201
     step_id: 270
   - description: Set-Set aside the sauce mixture
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1066
+    start_time: 1063
     step_id: 251
   - description: Take-Take 1 bell pepper
     end_time: 1183.5112865678748
@@ -1059,7 +1059,7 @@
     start_time: 1576.7157087743478
     step_id: 264
 - activity_id: 23
-  is_error: false
+  is_error: true
   recording_id: '23_24'
   step_annotations:
   - description: Add-Add 1 tablespoon honey to the bowl
@@ -1104,6 +1104,10 @@
     step_id: 255
   - description: Add-Add 1/2 tablespoon minced ginger to the bowl
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 267
   - description: Add-Add 1/8 teaspoon black pepper to the bowl
@@ -1123,8 +1127,8 @@
     start_time: 1017.8551959703947
     step_id: 260
   - description: Set-Set aside the sauce mixture
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1088
+    start_time: 1068
     step_id: 251
   - description: Heat-Heat 2 tablespoons olive oil in a skillet over medium-high heat
     end_time: 1188.8069293037279

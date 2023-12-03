@@ -48,8 +48,8 @@
     start_time: 1513.9112362868248
     step_id: 209
   - description: cook-cook the pan, often stirring, for 1 minute
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1596
+    start_time: 1536
     step_id: 207
   - description: Add-Add 2 cloves of minced garlic to the pan
     end_time: 1618.9564635682818
@@ -125,8 +125,8 @@
     start_time: 1533.2095807770552
     step_id: 209
   - description: cook-cook the pan, often stirring, for 1 minute
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1650
+    start_time: 1554
     step_id: 207
   - description: Add-Add 2 cloves of minced garlic to the pan
     end_time: 1661.0624709354568
@@ -202,12 +202,12 @@
     start_time: 1262.4214204612656
     step_id: 209
   - description: cook-cook the pan, often stirring, for 1 minute
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1344
+    start_time: 1284
     step_id: 207
   - description: Add-1/4 tbsp balsamic vinegar to the pan
     end_time: 1403.115715804985
-    start_time: 1323.909221762271
+    start_time: 1377
     step_id: 217
   - description: Add-Add 2 cloves of minced garlic to the pan
     end_time: 1444.8461663180972
@@ -279,8 +279,8 @@
     start_time: 1355.589
     step_id: 209
   - description: cook-cook the pan, often stirring, for 1 minute
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1441
+    start_time: 1381
     step_id: 207
   - description: Add-1/4 tbsp balsamic vinegar to the pan
     end_time: 1524.973
@@ -356,8 +356,8 @@
     start_time: 1108.46
     step_id: 209
   - description: cook-cook the pan, often stirring, for 1 minute
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1181
+    start_time: 1121
     step_id: 207
   - description: Add-1/4 tbsp balsamic vinegar to the pan
     end_time: 1222.218
@@ -433,8 +433,8 @@
     start_time: 524.402
     step_id: 209
   - description: cook-cook the pan, often stirring, for 1 minute
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 571
+    start_time: 534
     step_id: 207
   - description: Add-Add 2 cloves of minced garlic to the pan
     end_time: 576.583
@@ -519,12 +519,12 @@
     start_time: 783.892
     step_id: 209
   - description: cook-cook the pan, often stirring, for 1 minute
-    end_time: -1.0
+    end_time: 855
     errors:
     - description: Pan too hot, burnt
       tag: Preparation Error
     modified_description: cook-cook the pan, often stirring, for 1 minute; burn
-    start_time: -1.0
+    start_time: 795
     step_id: 207
   - description: Add-Add 2 cloves of minced garlic to the pan
     end_time: 872.202

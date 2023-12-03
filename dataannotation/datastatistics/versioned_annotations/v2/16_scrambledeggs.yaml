@@ -659,8 +659,8 @@
     start_time: 1016.6223450598226
     step_id: 178
   - description: add-add chopped onions to the pan
-    end_time: -1.0
-    start_time: -1.0
+    end_time: 1057
+    start_time: 1046
     step_id: 179
   - description: Saute-Saute the onions on medium heat until they are soft and translucent
     end_time: 1370.033
@@ -1211,6 +1211,10 @@
     step_id: 176
   - description: Add-Add chilli to the pan
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 162
   - description: Mince-Mince peeled garlic cloves

@@ -681,12 +681,12 @@
   recording_id: '15_29'
   step_annotations:
   - description: Take-Take 1 tomato
-    end_time: -1.0
+    end_time: 28
     errors:
     - description: Take 2 tomatoes rather than one tomato
       tag: Measurement Error
     modified_description: Take-Take 2 tomato
-    start_time: -1.0
+    start_time: 8
     step_id: 149
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat
     end_time: 101
@@ -795,6 +795,10 @@
   - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or
       until the mixture becomes thick
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 153
 - activity_id: 15
@@ -1084,6 +1088,10 @@
     step_id: 148
   - description: mix-mix well contents of the pan
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 157
   - description: puree-puree tomatoes without any water in a blender/mixer
@@ -1127,10 +1135,18 @@
     step_id: 156
   - description: Add-Add 2 tbsp red chili powder to the pan
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 147
   - description: Chop-Chop tomato roughly (anysize chunks are fine)
     end_time: -1.0
+    errors:
+      - description: Skipped this step
+        tag: Missing Step
+    modified_description: Skipped this step
     start_time: -1.0
     step_id: 155
 - activity_id: 15
