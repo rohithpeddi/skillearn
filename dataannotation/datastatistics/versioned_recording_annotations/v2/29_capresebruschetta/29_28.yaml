@@ -7,14 +7,13 @@ step_annotations:
   errors:
   - description: The measuring spoon was wet
     tag: Preparation Error
+  - description: Add twice the amount of salt
+    tag: Measurement Error
   modified_description: add-1/4 tsp salt to a bowl
   start_time: 6.876395224633849
   step_id: 343
 - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   end_time: 152.85723433490955
-  errors:
-  - description: Wrongly cut the cherry tomatoes
-    tag: Technique Error
   modified_description: Cut-Cut 1/4 cup of cherry tomatoes into halves
   start_time: 51.5293577760123
   step_id: 350
@@ -25,7 +24,7 @@ step_annotations:
 - description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
   end_time: 264.9189961225035
   errors:
-  - description: Do not make slanted cuts
+  - description: Cut it straight instead of slanted cuts
     tag: Technique Error
   modified_description: Slice-Slice two 1/2 inch thick rounds from a baguette
   start_time: 204.80923884180174
@@ -56,10 +55,17 @@ step_annotations:
   step_id: 348
 - description: Spoon-Spoon the mixture from the bowl onto the bread
   end_time: 534.1248376582178
+  errors:
+  - description: Used hands to add mixture instead of spoon
+    tag: Preparation Error
   start_time: 519.9561091563381
   step_id: 345
 - description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
     until lightly charred and crispy and transfer the slices to a plate
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 352

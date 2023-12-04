@@ -9,7 +9,7 @@ step_annotations:
 - description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
   end_time: 122.88636405195608
   errors:
-  - description: Slice horizantally instead of slantly
+  - description: Do not slice slanted
     tag: Technique Error
   start_time: 58.54966052000118
   step_id: 344
@@ -29,16 +29,16 @@ step_annotations:
   start_time: 178.52891845797112
   step_id: 342
 - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
-  end_time: 375.0166887042117
-  start_time: 305.4634956966929
+  end_time: 296
+  start_time: 240
   step_id: 350
 - description: Brush-Brush 2 slices of baguette with olive oil on both sides
-  end_time: -1.0
+  end_time: 364
   errors:
   - description: Instead of brushing the slices with oil pouring oil onto brush and
       the slices then perform brushing action
     tag: Technique Error
-  start_time: -1.0
+  start_time: 308
   step_id: 349
 - description: Combine-Combine the contents of the bowl
   end_time: 403.41757584894856
@@ -55,5 +55,9 @@ step_annotations:
   step_id: 345
 - description: add-In a bowl, add the cut cherry tomatoes
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 351

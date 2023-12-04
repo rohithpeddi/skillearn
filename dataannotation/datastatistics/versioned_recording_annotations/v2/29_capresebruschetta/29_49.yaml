@@ -5,16 +5,15 @@ step_annotations:
 - description: add-1/4 tsp pepper to a bowl
   end_time: 74.89527657639215
   errors:
-  - description: spill pepper while measuring
+  - description: Spill while adding pepper to a bowl
     tag: Technique Error
-  modified_description: add-1/4 tsp pepper to a bowl and spill some outside whille
-    adding in the bowl
+  modified_description: add-1/4 tsp pepper to a bowl and spill some outside while adding in the bowl
   start_time: 5.843001692933505
   step_id: 346
 - description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
   end_time: 129.84532630759514
   errors:
-  - description: slice it thicker on one end and thinner on other end
+  - description: Slice into wedges instead of rounds
     tag: Technique Error
   modified_description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice
     slanted) and slice it thicker on one end and thinner on other end
@@ -39,12 +38,9 @@ step_annotations:
 - description: add-In a bowl, add the cut cherry tomatoes
   end_time: 447.388534046317
   errors:
-  - description: spill some outside while adding to bowl
+  - description: Spill some tomatoes outside while adding in the bowl
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: add-In a bowl, add the cut cherry tomatoes and spill some
-    outside
+  modified_description: add-In a bowl, add the cut cherry tomatoes and spill some outside
   start_time: 419.6703673677455
   step_id: 351
 - description: add-1/16 cup basil to a bowl
@@ -54,7 +50,7 @@ step_annotations:
 - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   end_time: 561.6651861421816
   errors:
-  - description: Dip baugette in olive oil instead of brushing
+  - description: Dip baguette in olive oil instead of brushing
     tag: Technique Error
   modified_description: Dip- Dip 2 slices of baguette with olive oil on both sides
   start_time: 520.8173615632342
@@ -65,8 +61,6 @@ step_annotations:
   errors:
   - description: toast for only 1/2 min and there baugette slices are not charred
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Toast-Toast both sides of the slices on the pan for 1/2 min
     and transfer the slices to a plate
   start_time: 562.6377533940613
@@ -74,13 +68,11 @@ step_annotations:
 - description: Spoon-Spoon the mixture from the bowl onto the bread
   end_time: 726.0290517098508
   errors:
-  - description: Use fork instead of a spoon and spill some out while placing mixture
-      on the bread
+  - description: Use fork instead of a spoon
     tag: Preparation Error
-  - description: Use fork instead of a spoon and spill some out while placing mixture
-      on the bread
+  - description: spill some out while placing mixture on the bread
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed before adding salt and combining the contents of the bowl
     tag: Order Error
   modified_description: Spoon-Spoon the mixture from the bowl onto the bread using
     a Fork and spill some outside
@@ -89,14 +81,14 @@ step_annotations:
 - description: add-1/4 tsp salt to a bowl
   end_time: 755.6923528921815
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after spooning the mixture on the bread
     tag: Order Error
   start_time: 726.5153353357905
   step_id: 343
 - description: Combine-Combine the contents of the bowl
   end_time: 770.7671452963169
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after spooning the mixture on the bread
     tag: Order Error
   start_time: 756.1786365181214
   step_id: 348

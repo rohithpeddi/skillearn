@@ -4,10 +4,6 @@ recording_id: '29_45'
 step_annotations:
 - description: add-1/4 tsp salt to a bowl
   end_time: 87.98433254103031
-  errors:
-  - description: add-1/4 tsp salt to a bowl, not washing the bowl
-    tag: Preparation Error
-  modified_description: add-1/4 tsp salt to a bowl, not washing the bowl
   start_time: 12.578049183887455
   step_id: 343
 - description: Cut-Cut 1/4 cup of cherry tomatoes into halves
@@ -21,14 +17,13 @@ step_annotations:
 - description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
   end_time: 447.81782505230854
   errors:
-  - description: Slice-Slice four 1/4 inch thick rounds from a baguette (slice slanted).
-      Also baguette are expired.
+  - description: Using soiled baguette
     tag: Preparation Error
   - description: Slice-Slice four 1/4 inch thick rounds from a baguette (slice slanted).
-      Also baguette are expired.
     tag: Measurement Error
-  modified_description: Slice-Slice 4 1/4 inch thick rounds from a baguette (slice
-    slanted)
+  - description: Slice both vertically and horizontally
+    tag: Technique Error
+  modified_description: Slice-Slice 4 1/4 inch thick rounds from a baguette (slice slanted)
   start_time: 311.5573481086995
   step_id: 344
 - description: add-1/16 cup basil to a bowl
@@ -49,25 +44,20 @@ step_annotations:
   step_id: 346
 - description: add-In a bowl, add the cut cherry tomatoes
   end_time: 672.0522992459175
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 650.2241645899024
   step_id: 351
 - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   end_time: 777.2242207703537
   errors:
-  - description: pour olive oil using a spoon on 4 slices of baguette. did not use
-      brush. Pour on both sides.
-    tag: Technique Error
-  modified_description: pour olive oil using a spoon on 4 slices of baguette. did
-    not use brush
+  - description: Use spoon instead of brush to apply olive oil
+    tag: Preparation Error
+  modified_description: pour olive oil using a spoon on 4 slices of baguette. did not use brush
   start_time: 688.5887648944138
   step_id: 349
 - description: Combine-Combine the contents of the bowl
   end_time: 814.9273624489251
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding cheese to the bowl
     tag: Order Error
   start_time: 781.8544311519325
   step_id: 348
@@ -76,7 +66,7 @@ step_annotations:
   errors:
   - description: add-1/4 cup shredded mozzarella to a bowl
     tag: Measurement Error
-  - description: Step performed after correct order
+  - description: Step performed after combining the contents of the bowl
     tag: Order Error
   modified_description: add-1/8 cup shredded mozzarella to a bowl
   start_time: 834.1096626011808
@@ -87,19 +77,14 @@ step_annotations:
   errors:
   - description: Toast-Toast both sides of the slices on the pan for 30 seconds
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Toast-Toast both sides of the slices on the pan for 30 seconds
   start_time: 900.2555251951657
   step_id: 352
 - description: Spoon-Spoon the mixture from the bowl onto the bread
   end_time: 1055.687967
   errors:
-  - description: Did not use spoon for taking mixture from bowl on the bread. Direclty
-      poured it.
+  - description: Did not use spoon but poured mixture directly from the bowl onto the bread
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Directly pour mixture from the bowl onto the bread
   start_time: 1037.828584099624
   step_id: 345

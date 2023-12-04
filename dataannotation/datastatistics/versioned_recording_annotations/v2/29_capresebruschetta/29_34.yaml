@@ -14,7 +14,7 @@ step_annotations:
     until lightly charred and crispy and transfer the slices to a plate
   end_time: 380.42653967927635
   errors:
-  - description: toast but do not until charred and crispy
+  - description: Toast but do not until charred and crispy
     tag: Timing Error
   modified_description: Toast-Toast both sides of the slices on the pan for 2 to 3
     minutes and dont wait until lightly charred and crispy and transfer the slices
@@ -30,8 +30,7 @@ step_annotations:
   errors:
   - description: cut cherry tomatoes in to 4 parts instead of halves
     tag: Technique Error
-  modified_description: Cut-Cut 1/4 cup of cherry tomatoes into 4 parts instead of
-    halves
+  modified_description: Cut-Cut 1/4 cup of cherry tomatoes into 4 parts instead of halves
   start_time: 425.1081440652412
   step_id: 350
 - description: add-1/4 tsp pepper to a bowl
@@ -40,10 +39,6 @@ step_annotations:
   step_id: 346
 - description: add-1/8 cup shredded mozzarella to a bowl
   end_time: 601.7466361705043
-  errors:
-  - description: mozzarella added is not fully shredded
-    tag: Preparation Error
-  modified_description: add-1/8 cup mozzarella to a bowl and cheese is not fully shredded
   start_time: 556.6474466968201
   step_id: 342
 - description: Combine-Combine the contents of the bowl
@@ -56,9 +51,17 @@ step_annotations:
   step_id: 345
 - description: Brush-Brush 2 slices of baguette with olive oil on both sides
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 349
 - description: add-In a bowl, add the cut cherry tomatoes
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 351
