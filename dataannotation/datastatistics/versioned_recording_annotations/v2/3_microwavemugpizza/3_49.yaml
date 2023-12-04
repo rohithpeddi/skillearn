@@ -5,7 +5,7 @@ step_annotations:
 - description: Take-Take a microwavable mug
   end_time: 24.842771632239383
   errors:
-  - description: Take-Take a microwavable mug without cleaning in the sink
+  - description: Take a soiled mug without cleaning it
     tag: Preparation Error
   modified_description: Take-Take a microwavable mug (not washed)
   start_time: 6.022490092664093
@@ -45,9 +45,6 @@ step_annotations:
   step_id: 38
 - description: Add-1 tablespoon of olive oil to the mug
   end_time: 246.9220937992278
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 215.30402081274133
   step_id: 34
 - description: Add-Add in 3 tablespoons of milk to the mug
@@ -55,15 +52,13 @@ step_annotations:
   errors:
   - description: Add-Add in 3 tablespoons of curd to the mug
     tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-Add in 3 tablespoons of curd to the mug
   start_time: 308.65261724903473
   step_id: 41
 - description: Sprinkle-Sprinkle dried Italian herbs inside the mug
   end_time: 383.18093214575293
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before mixing and spreading marinara sauce
     tag: Order Error
   start_time: 356.07972672876446
   step_id: 29
@@ -72,8 +67,6 @@ step_annotations:
   errors:
   - description: Take-Take 1 tablespoon of tomato ketchup
     tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Take-Take 1 tablespoon of tomato ketchup
   start_time: 424.5855515328185
   step_id: 30
@@ -82,24 +75,22 @@ step_annotations:
   errors:
   - description: spread-spread tomato ketchup on the edge of batter
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after sprinkling dried italian herbs
     tag: Order Error
   modified_description: spread-spread tomato ketchup on the edge of batter
   start_time: 457.7092470424711
   step_id: 31
-- description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
-    of the sauce
+- description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top of the sauce
   end_time: 541.2712970781854
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before mixing the contents of the mug
     tag: Order Error
   start_time: 508.9004128301158
   step_id: 39
-- description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps,
-    but that is ok.)
+- description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps, but that is ok.)
   end_time: 593.9680853889961
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after sprinkling cheese and herbs
     tag: Order Error
   start_time: 547.2937871708494
   step_id: 37
@@ -110,8 +101,6 @@ step_annotations:
   - description: Microwave-Microwave for 2 minutes, or until it rises and the toppings
       are bubbling
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Microwave-Microwave for 2 minutes, or until it rises and the
     toppings are bubbling
   start_time: 616.5524232364864

@@ -13,7 +13,7 @@ step_annotations:
 - description: Stir-Stir the contents in the mug well
   end_time: 85.94899054054054
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding ingredients to the mug
     tag: Order Error
   start_time: 72.46679594594595
   step_id: 38
@@ -28,14 +28,14 @@ step_annotations:
 - description: Add-1 tablespoon of olive oil to the mug
   end_time: 205.60346756756758
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding flour to the mug
     tag: Order Error
   start_time: 172.4597391891892
   step_id: 34
 - description: Add-Add in 3 tablespoons of milk to the mug
   end_time: 256.7234554054054
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding flour to the mug
     tag: Order Error
   start_time: 215.15335540540542
   step_id: 41
@@ -43,30 +43,24 @@ step_annotations:
     but that is ok.)
   end_time: 280.31729594594594
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding flour to the mug
     tag: Order Error
   start_time: 257.8469716216216
   step_id: 37
 - description: Take-Take 1 tablespoon of marinara sauce
   end_time: 327.50497702702705
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 292.67597432432433
   step_id: 30
 - description: add-Measure 4 tablespoons of flour and add it to the mug
   end_time: 407.83638648648656
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after adding milk and olive oil to the mug
     tag: Order Error
   start_time: 337.05486486486484
   step_id: 33
 - description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
     of the sauce
   end_time: 471.8768108108108
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 434.2390175675676
   step_id: 39
 - description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
@@ -79,9 +73,17 @@ step_annotations:
   step_id: 32
 - description: spread-spread marinara sauce around the surface of the batter
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 31
 - description: Sprinkle-Sprinkle dried Italian herbs inside the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 29

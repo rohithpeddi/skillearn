@@ -54,39 +54,31 @@ step_annotations:
   errors:
   - description: invert tablespoon and use it
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-1 tablespoon of olive oil to the mug and invert tablespoon
     to measure
   start_time: 231.2300336727799
   step_id: 34
 - description: Add-Add in 3 tablespoons of milk to the mug
   end_time: 302.2746237287644
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 263.40116879247097
   step_id: 41
 - description: Sprinkle-Sprinkle dried Italian herbs inside the mug
   end_time: 350.5313264083012
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before mixing the contents of the mug and spreading sauce
     tag: Order Error
   start_time: 322.3815831785714
   step_id: 29
 - description: Take-Take 1 tablespoon of marinara sauce
   end_time: 437.6614840241312
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 401.46895701447875
   step_id: 30
 - description: spread-spread marinara sauce around the surface of the batter
   end_time: 448.385195730695
   errors:
-  - description: instead of spreading on top mix it with contents of the mug
+  - description: Mix the marinara sauce completely instead of spreading
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after adding italian herbs
     tag: Order Error
   modified_description: spread-mix marinara sauce with the batter batter
   start_time: 436.3210200608108
@@ -94,16 +86,13 @@ step_annotations:
 - description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
     of the sauce
   end_time: 508.0358420984556
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 478.5456349054054
   step_id: 39
 - description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps,
     but that is ok.)
   end_time: 538.196281273166
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after sprinkling cheese
     tag: Order Error
   start_time: 519.4297857866795
   step_id: 37
@@ -113,8 +102,6 @@ step_annotations:
   errors:
   - description: Microvawe for 2 mins instead of 1 min 20 secs
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Microwave-Microwave for 2 minute, or until it rises and the
     toppings are bubbling
   start_time: 536.8558173098456
