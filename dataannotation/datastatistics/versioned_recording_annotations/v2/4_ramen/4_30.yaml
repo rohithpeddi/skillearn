@@ -7,15 +7,13 @@ step_annotations:
   errors:
   - description: Peel 2 garlic cloves
     tag: Measurement Error
+  - description: Peeled improperly
+    tag: Technique Error
   modified_description: Peel-Peel 2 garlic cloves
   start_time: 61.556053204353084
   step_id: 14
 - description: Chop-Chop 1 garlic clove on a cutting board
   end_time: 164.264
-  errors:
-  - description: Chop garlic clove on the plate
-    tag: Preparation Error
-  modified_description: Chop-Chop 1 garlic clove on a plate
   start_time: 123.11210640870617
   step_id: 51
 - description: Remove-Remove the noodles from the package(Break Noodles / Keep them
@@ -37,11 +35,6 @@ step_annotations:
   step_id: 46
 - description: Put-Put all the Vegetables in a microwave-safe bowl
   end_time: 354.972
-  errors:
-  - description: Spill outside vegetables while adding them to the bowl
-    tag: Technique Error
-  modified_description: Put-Put all the Vegetables in a microwave-safe bowl while
-    spilling
   start_time: 333.34970350665054
   step_id: 54
 - description: Add-Add the noodles to the bowl
@@ -53,12 +46,23 @@ step_annotations:
   start_time: 384.4885784764208
   step_id: 55
 - description: Cover-Cover with a lid (or paper towel) to prevent splattering
-  end_time: 451.09
+  end_time: -1.0
   errors:
-  - description: Cover improperly
-    tag: Technique Error
-  modified_description: Cover-Cover improperly with a lid (or paper towel) to prevent
-    splattering
+  - description: Missed this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 444
+  errors:
+  - description: Microwave for 16 seconds
+    tag: Timing Error
+  modified_description: Microwave for 16 seconds, stop microwaving to add cover
+  start_time: 420
+  step_id: 45
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 451.09
   start_time: 444.1505992744862
   step_id: 49
 - description: Microwave-Microwave the ramen for 4 minutes
@@ -66,8 +70,6 @@ step_annotations:
   errors:
   - description: Microwave for 2 min instead of 4 min
     tag: Timing Error
-  - description: Microwave on high
-    tag: Temperature Error
   modified_description: Microwave - Microwave on high for 2 min
   start_time: 454.567777509069
   step_id: 45
@@ -95,5 +97,9 @@ step_annotations:
   step_id: 43
 - description: Add-Add basil to the bowl
   end_time: -1.0
+  errors:
+  - description: Missed this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 50

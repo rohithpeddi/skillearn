@@ -16,7 +16,6 @@ step_annotations:
   step_id: 14
 - description: Chop-Chop 1 garlic clove on a cutting board
   end_time: 311.394
-  modified_description: Chop-Chop 1 garlic clove on a cutting board
   start_time: 272.504
   step_id: 51
 - description: slice-slice 1/4 medium onion into pieces
@@ -35,10 +34,9 @@ step_annotations:
 - description: Put-Put all the Vegetables in a microwave-safe bowl
   end_time: 525.117
   errors:
-  - description: Spilling some vegetables on the countertop.
+  - description: Spilling some vegetables on the counter top.
     tag: Technique Error
-  modified_description: Put-Put all the Vegetables in a microwave-safe bowl and spill
-    some on counter top.
+  modified_description: Put-Put all the Vegetables in a microwave-safe bowl and spill some on counter top.
   start_time: 506.3865336154777
   step_id: 54
 - description: Add-Add the noodles to the bowl
@@ -87,11 +85,10 @@ step_annotations:
   errors:
   - description: While mixing the flavour packet and spilled some out of the bowl.
     tag: Technique Error
-  modified_description: Mix-Mix in the flavour packet to the bowl and spill some on
-    countertop.
+  modified_description: Mix-Mix in the flavour packet to the bowl and spill some on countertop.
   start_time: 986.2540717049577
   step_id: 42
 - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
-  end_time: -1.0
-  start_time: -1.0
+  end_time: 1044
+  start_time: 1011
   step_id: 43

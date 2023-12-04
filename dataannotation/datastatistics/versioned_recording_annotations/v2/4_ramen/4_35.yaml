@@ -4,10 +4,6 @@ recording_id: '4_35'
 step_annotations:
 - description: Peel-Peel 1 medium onion
   end_time: 70.19285550181378
-  errors:
-  - description: peel any size onion
-    tag: Preparation Error
-  modified_description: Randomly pick any size onion and peel
   start_time: 18.718094800483676
   step_id: 47
 - description: Peel-Peel 1 garlic clove
@@ -17,9 +13,7 @@ step_annotations:
 - description: slice-slice 1/4 medium onion into pieces
   end_time: 170.098
   errors:
-  - description: chop onion into pieces
-    tag: Measurement Error
-  - description: chop instead of slice
+  - description: chop onion instead of slice
     tag: Technique Error
   modified_description: Chop 1/4 onion into pieces
   start_time: 134.36918053204352
@@ -27,13 +21,12 @@ step_annotations:
 - description: Chop-Chop 1 garlic clove on a cutting board
   end_time: 190.18
   errors:
-  - description: slice garlic clove into pieces
+  - description: slice garlic clove instead of chopping
     tag: Technique Error
   modified_description: Slice 1 garlic clove on a cutting board
   start_time: 177.8219006045949
   step_id: 51
-- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
-    as a block)
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them as a block)
   end_time: 220.28
   start_time: 208.5730563482467
   step_id: 44
@@ -52,9 +45,7 @@ step_annotations:
 - description: Microwave-Microwave the ramen for 4 minutes
   end_time: 373.665
   errors:
-  - description: 1 minutes
-    tag: Temperature Error
-  - description: 1 min
+  - description: Microwave for 1 min instead of 4 min
     tag: Timing Error
   modified_description: Microwave-Microwave the ramen for 1 minutes
   start_time: 296.146999879081
@@ -62,15 +53,15 @@ step_annotations:
 - description: Add-Add chopped cilantro to the bowl
   end_time: 426.51
   errors:
-  - description: no chopping, measurement
-    tag: Measurement Error
+  - description: Add fresh cilantro to the bowl without chopping
+    tag: Technique Error
   modified_description: Add fresh cilantro to the bowl without chopping
   start_time: 420.48862962515113
   step_id: 53
 - description: Let-Let the noodles sit for about 1 minute after the microwave stops
-  end_time: 485.33345804111246
+  end_time: 495
   errors:
-  - description: 2 minutes
+  - description: Let the noodles sit for 2 minutes instead of 1 minute
     tag: Timing Error
   modified_description: Let the noodles sit for about 2 minute after the microwave
     stops
@@ -86,9 +77,17 @@ step_annotations:
   step_id: 43
 - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   end_time: -1.0
+  errors:
+  - description: Missed this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 49
 - description: Add-Add basil to the bowl
   end_time: -1.0
+  errors:
+  - description: Missed this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 50

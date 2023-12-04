@@ -5,34 +5,34 @@ step_annotations:
 - description: Peel-Peel 1 medium onion
   end_time: 30
   errors:
-  - description: no peeling
-    tag: Preparation Error
+  - description: Do not peel onion
+    tag: Technique Error
   modified_description: Take 1 medium onion without peeling
   start_time: 20.599054897218863
   step_id: 47
 - description: Peel-Peel 1 garlic clove
   end_time: 34.255
-  errors:
-  - description: no peeling
-    tag: Preparation Error
-  modified_description: Take 1 garlic clove without peeling
   start_time: 30.01
   step_id: 14
 - description: slice-slice 1/4 medium onion into pieces
   end_time: 71.096
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 55.91172043530833
   step_id: 46
-- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
-    as a block)
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them as a block)
   end_time: 101.501
-  errors:
-  - description: Step performed after correct order
-    tag: Order Error
   start_time: 94.16710810157194
   step_id: 44
+- description: Add-Add the noodles to the bowl
+  end_time: 131.708
+  errors:
+  - description: Step performed before adding vegetables to the bowl
+    tag: Order Error
+  start_time: 108.14503821039902
+  step_id: 52
+- description: Peel-Peel 1 garlic clove
+  end_time: 158
+  start_time: 140
+  step_id: 14
 - description: Chop-Chop 1 garlic clove on a cutting board
   end_time: 169.435
   start_time: 157.25
@@ -40,61 +40,40 @@ step_annotations:
 - description: Put-Put all the Vegetables in a microwave-safe bowl
   end_time: 195.69102152357917
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding noodles to the bowl
     tag: Order Error
   start_time: 180.24173035066502
   step_id: 54
 - description: cover-cover the noodles with water
   end_time: 226.68200000000002
   errors:
-  - description: no cover
+  - description: Add a little amount that does not cover the noodles with water
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: pour water no cover noodles
   start_time: 222.9112012091898
   step_id: 55
-- description: Add-Add the noodles to the bowl
-  end_time: 131.708
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: 108.14503821039902
-  step_id: 52
 - description: Cover-Cover with a lid (or paper towel) to prevent splattering
   end_time: 248.281
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 242.77457557436514
   step_id: 49
 - description: Microwave-Microwave the ramen for 4 minutes
   end_time: 443.201
   errors:
-  - description: 3 mins
+  - description: Microwave for 3 mins instead of 4 mins
     tag: Timing Error
-  - description: 3 mins
-    tag: Temperature Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Microwave the ramen for 3 minutes
   start_time: 252.33842249093104
   step_id: 45
 - description: Add-Add basil to the bowl
   end_time: 460.157
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 456.1219298669891
   step_id: 50
 - description: Let-Let the noodles sit for about 1 minute after the microwave stops
   end_time: 541.4608715840386
   errors:
-  - description: 30 secs
+  - description: Let the noodles sit for 30 secs instead of 1 min
     tag: Timing Error
-  - description: 30 secs
-    tag: Temperature Error
-  - description: Step performed before correct order
+  - description: Step performed before adding cilantro
     tag: Order Error
   modified_description: Let the noodles sit for 30 secs after the microwave stops
   start_time: 509.0909281741233
@@ -102,26 +81,19 @@ step_annotations:
 - description: Add-Add chopped cilantro to the bowl
   end_time: 573.359
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after letting the noodles sit
     tag: Order Error
   start_time: 564.2669680773881
   step_id: 53
 - description: Mix-Mix in the flavour packet to the bowl
   end_time: 590.429
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: 585.6017035066506
+  start_time: 585.601
   step_id: 42
 - description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
   end_time: 604.2
   errors:
-  - description: no flavouring dissolves
+  - description: Stir improperly such that flavouring does not dissolve
     tag: Technique Error
-  - description: no flavouring dissolves
-    tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Stir noodles with a spoon or fork three times
   start_time: 597.3725920193469
   step_id: 43
