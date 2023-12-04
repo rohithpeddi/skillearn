@@ -52,8 +52,7 @@ step_annotations:
   modified_description: Place-Place 6 meatballs in a Microwave-safe plate.
   start_time: 546.9621800955415
   step_id: 21
-- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
-    powder
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder
   end_time: 728.5789657643312
   errors:
   - description: Using the 1/2 tsp instead of 1/4 tsp.

@@ -5,7 +5,7 @@ step_annotations:
 - description: Peel-Peel one medium onion
   end_time: 54.61273230254777
   errors:
-  - description: Not peel well
+  - description: Peel improperly
     tag: Technique Error
   start_time: 16.00718015764331
   step_id: 17
@@ -39,9 +39,9 @@ step_annotations:
 - description: Cut-Cut 1/8 garlic clove
   end_time: 229.75011520382162
   errors:
-  - description: Almost 1/2 garlic clove, and slice it
+  - description: Use 1/2 garlic clove
     tag: Measurement Error
-  - description: Almost 1/2 garlic clove, and slice it
+  - description: Slice garlic clove
     tag: Technique Error
   start_time: 215.6261327117834
   step_id: 16
@@ -95,9 +95,17 @@ step_annotations:
   step_id: 25
 - description: Stir-Stir the contents in the microwave with a spoon
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 18
 - description: Stir-Stir the contents in the microwave with a spoon
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 18

@@ -49,17 +49,15 @@ step_annotations:
   start_time: 517.1025732484077
   step_id: 21
 - description: Mince-Mince 1/8 garlic clove
-  end_time: 648.1251847133758
-  start_time: 574.7525222929937
+  end_time: 640
+  start_time: 582
   step_id: 26
-- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
-    powder
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder
   end_time: 745.9554012738854
   errors:
   - description: using 1/2 tsp instead of 1/4 tsp.
     tag: Measurement Error
-  modified_description: Top-Top the plate with the carrots, onion, garlic and 1/2
-    tsp pepper powder.
+  modified_description: Top-Top the plate with the carrots, onion, garlic and 1/2 tsp pepper powder.
   start_time: 651.6191210191083
   step_id: 24
 - description: Pour-Pour the sauces over the meatballs
@@ -67,8 +65,7 @@ step_annotations:
   errors:
   - description: Spill some while pouring the sauces.
     tag: Preparation Error
-  modified_description: Pour-Pour the sauces over the meatballs and spill some out
-    of the plate.
+  modified_description: Pour-Pour the sauces over the meatballs and spill some out of the plate.
   start_time: 749.4493375796179
   step_id: 15
 - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes

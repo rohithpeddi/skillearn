@@ -6,11 +6,18 @@ step_annotations:
   end_time: 70.59313411146498
   start_time: 20.322265880573248
   step_id: 17
+- description: Peel-Peel 1 garlic clove
+  end_time: 90
+  errors:
+  - description: Peeled the garlic improperly
+    tag: Technique Error
+  start_time: 71
+  step_id: 14
 - description: Cut-Cut 1/8 garlic clove
   end_time: 109.0984799904459
   errors:
-  - description: Step performed before correct order
-    tag: Order Error
+  - description: Cut 1/2 garlic clove
+    tag: Measurement Error
   start_time: 94.12417881528664
   step_id: 16
 - description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in
@@ -21,28 +28,28 @@ step_annotations:
 - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   end_time: 294.3
   errors:
-  - description: 1 mins rather than 1.5 mins
+  - description: Microwave for 1 min instead of 1.5 mins
     tag: Timing Error
+  - description: Microwave empty bowl without meatballs, sauces and vegetables
+    tag: Order Error
   start_time: 221.4
   step_id: 20
 - description: Mince-Mince 1/8 garlic clove
   end_time: 268.4678282117835
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 244.93678350796182
   step_id: 26
 - description: Stir-Stir the contents in the microwave with a spoon
   end_time: 300.7
+  errors:
+  - description: Stirring the contents without adding meatballs, sauces and vegetables
+    tag: Order Error
   start_time: 293.48
   step_id: 18
 - description: Cut-Cut 1/4 medium carrot into short, thin strips
   end_time: 404.3061317292994
   errors:
-  - description: really large carrot taken instead of medium carrot
+  - description: Took a large carrot instead of a medium carrot
     tag: Measurement Error
-  - description: Step performed after correct order
-    tag: Order Error
   start_time: 341.20014820541405
   step_id: 22
 - description: cut-Cut onion into two pieces
@@ -51,55 +58,47 @@ step_annotations:
   step_id: 27
 - description: Slice-Slice 1/8 medium onion
   end_time: 447.0898493726115
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 420.35002584554144
   step_id: 19
-- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
-    powder
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder
   end_time: 516.6133905429937
   errors:
-  - description: Step performed before correct order
+  - description: Topping after microwaving
     tag: Order Error
   start_time: 449.2290352547771
   step_id: 24
 - description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
   end_time: 586.1369317133758
   errors:
-  - description: 1 mins
+  - description: Microwave for 1 min instead of 1.5 mins
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 516.6133905429937
   step_id: 20
-- description: Microwave-Microwave for 1 more minute
-  end_time: 650.3125081783439
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: 586.1369317133758
-  step_id: 25
 - description: Stir-Stir the contents in the microwave with a spoon
-  end_time: 670.6347740589173
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: 650.312508178344
+  end_time: 668
+  start_time: 659
   step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 25
 - description: Place-Place 5 meatballs in a Microwave-safe plate
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 21
-- description: Peel-Peel 1 garlic clove
-  end_time: -1.0
-  start_time: -1.0
-  step_id: 14
 - description: Pour-Pour the sauces over the meatballs
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 15

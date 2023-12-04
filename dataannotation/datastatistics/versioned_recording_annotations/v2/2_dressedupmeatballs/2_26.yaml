@@ -108,7 +108,7 @@ step_annotations:
   modified_description: Microwave-Microwave the plate, covered, on medium for 5 minutes
   start_time: 987.9832805254779
   step_id: 20
-- description: Microwave-Microwave for 1 more minute
+- description: Microwave-Microwave for 1.5 minutes
   end_time: 1177.514766993631
   errors:
   - description: Microwave for more than a minute.
@@ -119,9 +119,16 @@ step_annotations:
 - description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
     powder
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 24
 - description: Stir-Stir the contents in the microwave with a spoon
   end_time: 992.0158653439491
+  errors:
+    - description: Using a fork instead of a spoon.
+      tag: Preparation Error
   start_time: 961.7714792054142
   step_id: 18
