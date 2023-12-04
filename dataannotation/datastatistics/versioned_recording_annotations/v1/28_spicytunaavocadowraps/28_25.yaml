@@ -1,0 +1,76 @@
+activity_id: 28
+is_error: true
+recording_id: '28_25'
+step_annotations:
+- description: Add-1/4 cup mayonnaise to the bowl
+  end_time: 68.583
+  errors:
+  - description: Did not add mayonnaise to the bowl
+    tag: Missing Step
+  modified_description: 'Measure -1/4 cup mayonnaise '
+  start_time: 6.212
+  step_id: 327
+- description: Take-Take 1 ripe avocado
+  end_time: 83.765
+  start_time: 68.583
+  step_id: 335
+- description: Open-Open a can of tuna
+  end_time: 151.962
+  start_time: 83.765
+  step_id: 336
+- description: Lay-Lay out 2 large lettuce leaves
+  end_time: 264.697
+  start_time: 155.09
+  step_id: 329
+- description: Chop-Chop 1 scallion
+  end_time: 352.631
+  start_time: 264.697
+  step_id: 340
+- description: cut-cut avocado into thin slices
+  end_time: 514.6659999999999
+  start_time: 374.951
+  step_id: 341
+- description: place-place avocado slices on each leaf
+  end_time: 608.876
+  start_time: 531.475
+  step_id: 325
+- description: drain-drain excess water from can
+  end_time: 673.799
+  start_time: 639.605
+  step_id: 328
+- description: Add-Add 1 can drained tuna to the bowl
+  end_time: 689.198
+  start_time: 673.799
+  step_id: 334
+- description: Add-1 tsp Sriracha sauce to the bowl
+  end_time: 777.625
+  start_time: 689.198
+  step_id: 339
+- description: Add-add chopped scallion to the bowl
+  end_time: 785.543
+  start_time: 777.625
+  step_id: 333
+- description: Mix-Mix the contents of the bowl
+  end_time: 863.701
+  start_time: 785.543
+  step_id: 331
+- description: Season-season 1/4 tsp pepper on the bowl
+  end_time: 888.21
+  start_time: 865.966
+  step_id: 326
+- description: Season-Season bowl with 1/4 tsp salt
+  end_time: 919.163
+  start_time: 905.956
+  step_id: 338
+- description: top-top lettuce leaves with the tuna mixture
+  end_time: 962.846
+  start_time: 919.163
+  step_id: 332
+- description: Roll-Roll up the lettuce wraps
+  end_time: 1044.703
+  start_time: 974.93
+  step_id: 330
+- description: secure-secure the wrap with a toothpick
+  end_time: 1044.703
+  start_time: 1000.837
+  step_id: 337

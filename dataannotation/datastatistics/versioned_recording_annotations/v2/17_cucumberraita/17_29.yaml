@@ -1,0 +1,116 @@
+activity_id: 17
+is_error: true
+recording_id: '17_29'
+step_annotations:
+- description: Rinse-Rinse 1 medium sized cucumber
+  end_time: 72.50293239961391
+  errors:
+  - description: Rinse-Rinse 1 medium sized zucchini instead of cucumber.
+    tag: Preparation Error
+  - description: Rinse-Rinse 1 medium sized zucchini. Incomplete rinse. Rinse only
+      half side of zucchini.
+    tag: Technique Error
+  modified_description: Rinse-Rinse 1 medium sized zucchini. Incomplete rinse.
+  start_time: 7.818943690154439
+  step_id: 189
+- description: whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use
+    fresh homemade or packaged curd
+  end_time: 206.1357881949807
+  errors:
+  - description: whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth.
+      Use fresh homemade or packaged curd
+    tag: Preparation Error
+  - description: whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth.
+      Use fresh homemade or packaged curd. Whisking not done properly. Instead of
+      moving hand in circular motion. Used hands by just pusing up and down the curd.
+    tag: Technique Error
+  modified_description: whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth.
+    Use fresh homemade or packaged curd. Whisking not done properly.
+  start_time: 78.1894369015444
+  step_id: 183
+- description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
+  end_time: 321.9983174218147
+  errors:
+  - description: add-add 1 tablespoon of chopped cilantro leaves to the bowl. Chopping
+      done using peeler. The leaves were not chopped properly and still had stems
+      in them. Whole leafs still exist.
+    tag: Technique Error
+  modified_description: add-add 1 tablespoon of chopped cilantro leaves to the bowl.
+    Chopping done using peeler.
+  start_time: 255.89270258687256
+  step_id: 187
+- description: peel-peel the cucumber
+  end_time: 427.19865070752894
+  errors:
+  - description: peel-peel the zucchini using fork. Use fork to remove the skin of
+      zucchini. Did not remove the zucchini's top bud as well. After peeling skin
+      of zucchini still visible.
+    tag: Technique Error
+  - description: peel-peel the zucchini using fork. Use fork to remove the skin of
+      zucchini. Did not remove the zucchini's top bud as well. After peeling skin
+      of zucchini still visible.
+    tag: Preparation Error
+  modified_description: peel-peel the zucchini using fork.
+  start_time: 323.4199435472973
+  step_id: 182
+- description: Add-Add 1 teaspoon of cumin powder to the bowl
+  end_time: 511.78540517374523
+  errors:
+  - description: Add-Add 1 teaspoon of cinnamon powder to the coffee mug
+    tag: Preparation Error
+  modified_description: Add-Add 1 teaspoon of cinnamon powder to the coffee mug
+  start_time: 474.1123128484557
+  step_id: 188
+- description: Add-1/4 teaspoon of red chilli powder to the bowl
+  end_time: 549.4584974990347
+  start_time: 518.182722738417
+  step_id: 181
+- description: chop or grate-chop or grate the cucumber
+  end_time: 624.0938690868727
+  errors:
+  - description: chop or grate-chop or grate the zucchini. Action for chop not proper.
+      Just pressing the zucchini instead of actually cutting it. Also a lot spillage
+      of big chunks of zucchini were made. final pieces after chop quite large.
+    tag: Technique Error
+  modified_description: chop or grate-chop or grate the zucchini improperly.
+  start_time: 567.9396371303089
+  step_id: 185
+- description: Add-1/2 teaspoon of chaat masala powder to the bowl
+  end_time: 670.2967181650579
+  errors:
+  - description: Add-1/2 teaspoon of chaat masala powder to the mug. Action was not
+      proper should be gently put inside mug but instead forcefully transferred. Spillage
+      might also have happened.
+    tag: Technique Error
+  modified_description: Add-1/2 teaspoon of chaat masala powder to the mug
+  start_time: 631.912812777027
+  step_id: 191
+- description: Add-Add the chopped or grated cucumber to the whisked curd
+  end_time: 693.7535492355212
+  errors:
+  - description: Add-Add the chopped or grated zucchini to the whisked curd. Directly
+      transferring the entire cutting board and not the chopped zucchini. Spilling
+      happens. kitchen platform became messy.
+    tag: Technique Error
+  modified_description: Add-Add the chopped or grated zucchini to the whisked curd
+  start_time: 676.6940357297296
+  step_id: 190
+- description: Combine-Combine all the ingredients in the bowl
+  end_time: 726.4509501216216
+  errors:
+  - description: Combine-Combine all the ingredients in the mug using kitchen knife.
+      Combine not done properly instead of circular motion did up and down of knife
+      on mixture.
+    tag: Preparation Error
+  - description: Combine-Combine all the ingredients in the mug using kitchen knife.
+      Combine not done properly instead of circular motion did up and down of knife
+      on mixture.
+    tag: Technique Error
+  modified_description: Combine all the ingredients in the mug using kitchen knife
+    improperly.
+  start_time: 699.4400537374518
+  step_id: 186
+- description: Add-1/4 teaspoon salt to the bowl
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 184

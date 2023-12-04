@@ -1,0 +1,115 @@
+activity_id: 18
+is_error: true
+recording_id: '18_41'
+step_annotations:
+- description: Heat-Heat a large pan on medium heat
+  end_time: 10.806000000000001
+  errors:
+  - description: Heating the pan on a low heat.
+    tag: Temperature Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Heat-Heat a large pan on low heat.
+  start_time: 4.298
+  step_id: 196
+- description: Peel-Peel 1 garlic cloves
+  end_time: 56.995
+  start_time: 13.205
+  step_id: 200
+- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+  end_time: 212.886
+  errors:
+  - description: Instead of spiralizing chopping the zucchini.
+    tag: Technique Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Chop-chop 1 medium zucchini into thin noodles.
+  start_time: 65.262
+  step_id: 203
+- description: Melt-Melt 1 tablespoons of softened butter
+  end_time: 285.125
+  errors:
+  - description: Using teaspoon instead of tablespoon.
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Melt-Melt 1 teaspoon of softened butter.
+  start_time: 218.27
+  step_id: 204
+- description: Add-Add 1 large minced garlic cloves to the pan
+  end_time: 325.738
+  errors:
+  - description: Instead of mincing chopping the garlic.
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add 1 large chopped garlic cloves to the pan
+  start_time: 288.214
+  step_id: 199
+- description: season-pepper to taste
+  end_time: 338.35
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 327.804
+  step_id: 194
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 399.918
+  errors:
+  - description: Using less than 1/6 cup.
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-less than 1/6 cup grated parmesan cheese.
+  start_time: 338.869
+  step_id: 193
+- description: Add-Add the zucchini noodles
+  end_time: 408.579
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 401.502
+  step_id: 201
+- description: season-season with salt
+  end_time: 424.553
+  errors:
+  - description: Spilled some salt.
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: season-season with salt and spill some outside.
+  start_time: 410.802
+  step_id: 198
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: 585.728
+  errors:
+  - description: Cooking for less than 2 minutes.
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Cook-Cook for 1 minute 30 seconds or until the zoodles are
+    done.
+  start_time: 480.009
+  step_id: 192
+- description: Top-Top with more parmesan if desired
+  end_time: 592.037
+  errors:
+  - description: Spill some parmeasan while adding.
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Top-Top with more parmesan if desired and spill some.
+  start_time: 586.051
+  step_id: 195
+- description: Remove-Remove from heat
+  end_time: 599.5360000000001
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 594.258
+  step_id: 197
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
+    burn garlic
+  end_time: 478.766
+  start_time: 427.363
+  step_id: 202

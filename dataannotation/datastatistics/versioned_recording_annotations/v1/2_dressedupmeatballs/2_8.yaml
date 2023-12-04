@@ -1,0 +1,70 @@
+activity_id: 2
+is_error: false
+recording_id: '2_8'
+step_annotations:
+- description: Peel-Peel 1 garlic clove
+  end_time: 84.1076234029364
+  start_time: 4.426717021207177
+  step_id: 14
+- description: Cut-Cut 1/8 garlic clove
+  end_time: 137.2282276574225
+  start_time: 86.32098191353998
+  step_id: 16
+- description: Peel-Peel one medium onion
+  end_time: 292.16332339967374
+  start_time: 135.0148691468189
+  step_id: 17
+- description: cut-Cut onion into two pieces
+  end_time: 301.0167574420881
+  start_time: 287.73660637846655
+  step_id: 27
+- description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in
+    a small bowl
+  end_time: 498.00566488580745
+  start_time: 301.0167574420881
+  step_id: 23
+- description: Mince-Mince 1/8 garlic clove
+  end_time: 559.979703182708
+  start_time: 500.2190233964111
+  step_id: 26
+- description: Cut-Cut 1/4 medium carrot into short, thin strips
+  end_time: 728.1949499885808
+  start_time: 573.2598542463296
+  step_id: 22
+- description: Place-Place 5 meatballs in a Microwave-safe plate
+  end_time: 792.3823467960848
+  start_time: 732.621667009788
+  step_id: 21
+- description: Slice-Slice 1/8 medium onion
+  end_time: 825.5827244551388
+  start_time: 799.0224223278957
+  step_id: 19
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
+    powder
+  end_time: 940.6773670065253
+  start_time: 836.6495170081566
+  step_id: 24
+- description: Pour-Pour the sauces over the meatballs
+  end_time: 965.0243106231649
+  start_time: 938.4640084959217
+  step_id: 15
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 1117.7
+  start_time: 1004.8
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 1153.15
+  start_time: 1115.5
+  step_id: 18
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 1257.1876340228384
+  start_time: 1153.15978402447
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 1281.534577639478
+  start_time: 1254.974275512235
+  step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: 1352.3620499787928
+  start_time: 1277.1078606182707
+  step_id: 25

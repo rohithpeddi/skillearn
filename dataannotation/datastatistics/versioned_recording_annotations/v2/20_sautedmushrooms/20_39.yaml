@@ -1,0 +1,95 @@
+activity_id: 20
+is_error: true
+recording_id: '20_39'
+step_annotations:
+- description: Peel-Peel 2 garlic cloves
+  end_time: 79.646
+  errors:
+  - description: Improperly peel the garlic cloves.
+    tag: Technique Error
+  modified_description: Peel-Peel 2 garlic cloves improperly.
+  start_time: 12.397
+  step_id: 176
+- description: Pull-Pull out mushroom stems
+  end_time: 96.072
+  start_time: 82.084
+  step_id: 214
+- description: Slice-Slice the mushrooms
+  end_time: 111.7
+  start_time: 96.491
+  step_id: 210
+- description: Chop-Chop 1 shallot
+  end_time: 182.467
+  start_time: 114.581
+  step_id: 212
+- description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+  end_time: 218.994
+  start_time: 185.138
+  step_id: 215
+- description: add-Once the pan is hot, add the mushrooms
+  end_time: 233.864
+  errors:
+  - description: Not waiting enough for pan to be hot enough and added the mushrooms
+      even if the pan is not heated enough.
+    tag: Timing Error
+  modified_description: Add-Add the mushrooms even if the pan is not heated enough.
+  start_time: 227.26
+  step_id: 208
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
+    soften and brown
+  end_time: 402.56600000000003
+  errors:
+  - description: Didn't cook properly the mushrooms to turn brown.
+    tag: Technique Error
+  modified_description: Cook-Cook for 3 minutes, stirring often, don't make the mushrooms
+    turn to brown on both sides.
+  start_time: 235.024
+  step_id: 213
+- description: Add-Add chopped shallot to the pan
+  end_time: 417.237
+  start_time: 402.903
+  step_id: 209
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 207
+- description: mince-mince garlic cloves
+  end_time: 465.23
+  start_time: 442.21
+  step_id: 211
+- description: Add-Add 2 cloves of minced garlic to the pan
+  end_time: 472.699
+  start_time: 466.586
+  step_id: 218
+- description: Add-1/4 tbsp balsamic vinegar to the pan
+  end_time: 541.466
+  start_time: 485.22
+  step_id: 217
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 602.555
+  errors:
+  - description: Didn't stir properly for 1 minute and stopped at 45 seconds.
+    tag: Timing Error
+  modified_description: Cook-Cook the pan, often stirring, for 45 seconds.
+  start_time: 542.481
+  step_id: 207
+- description: Season-pepper on pan to taste
+  end_time: 570.819
+  start_time: 558.261
+  step_id: 219
+- description: Transfer-Transfer the contents of the pan to a serving dish
+  end_time: 615.028
+  start_time: 602.87
+  step_id: 216
+- description: Rinse-Rinse 3 mushrooms under cold water
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 206
+- description: Season-Season pan with salt
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 220
+- description: pat-pat rinsed mushrooms dry with a paper towel
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 205

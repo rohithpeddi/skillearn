@@ -1,0 +1,36 @@
+activity_id: 8
+is_error: true
+recording_id: '8_11'
+step_annotations:
+- description: Fill-Fill a microwave-safe mug with skimmed milk
+  end_time: 92.3053490941514
+  start_time: 7.227750037760416
+  step_id: 88
+- description: Microwave-Microwave the contents of the mug for 1 minute
+  end_time: 173.90493309477793
+  start_time: 99.79645844502859
+  step_id: 89
+- description: Add-Add 1/5 teaspoon cinnamon to the mug
+  end_time: 220.99190615743458
+  start_time: 174.97509157347469
+  step_id: 84
+- description: Add-Add 2 pieces of chocolate to the mug
+  end_time: 253.6317397576852
+  start_time: 222.8646834951539
+  step_id: 90
+- description: Add-Add 1 teaspoon of white sugar to the mug
+  end_time: 310.35013912861257
+  errors:
+  - description: Used tablespoon instead of teaspoon.
+    tag: Measurement Error
+  modified_description: ' Add-Add 1 tablespoon of white sugar to the mug'
+  start_time: 258.7149925314947
+  step_id: 87
+- description: Mix-Mix the contents of the mug
+  end_time: 347.80568588299855
+  start_time: 313.8281541843769
+  step_id: 85
+- description: Heat-Heat the contents of the mug for 1 minute and serve
+  end_time: 416.02828889991576
+  start_time: 347.5381462633243
+  step_id: 83

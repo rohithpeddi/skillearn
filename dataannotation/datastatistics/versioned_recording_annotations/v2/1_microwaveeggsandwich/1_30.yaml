@@ -1,0 +1,84 @@
+activity_id: 1
+is_error: true
+recording_id: '1_30'
+step_annotations:
+- description: Pour-Pour 1 egg into the ramekin cup
+  end_time: 45.265
+  errors:
+  - description: large cup instead of ramekin cup
+    tag: Preparation Error
+  modified_description: Pour 1 egg into any large cup
+  start_time: 3.207
+  step_id: 1
+- description: Cut -Cut the English muffin into two pieces with a knife
+  end_time: 86.981
+  start_time: 49.962
+  step_id: 12
+- description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
+  end_time: 122.465
+  errors:
+  - description: Microwaved for 10 secs instead of 30 seconds
+    tag: Timing Error
+  modified_description: Microwave the ramekin cup uncovered on high for 10 seconds
+  start_time: 96.884
+  step_id: 4
+- description: Line -Line the bottom piece of the English muffin with lettuce
+  end_time: 159.447
+  start_time: 129.86
+  step_id: 9
+- description: stir-stir the ramekin cup
+  end_time: 194.256
+  start_time: 165.13
+  step_id: 11
+- description: Top -Top cup with 1 tablespoon of salsa
+  end_time: 252.806
+  errors:
+  - description: 1/2  tablespoon of salsa
+    tag: Measurement Error
+  modified_description: Top cup with 1/2 tablespoon of salsa
+  start_time: 197.12
+  step_id: 6
+- description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  end_time: 314.825
+  errors:
+  - description: pour directly
+    tag: Technique Error
+  modified_description: pour 1 tablespoon of cheese on cup
+  start_time: 253.504
+  step_id: 5
+- description: Microwave -Microwave just until cheese melts, about 10 seconds
+  end_time: 444.966
+  errors:
+  - description: Until egg is solid
+    tag: Timing Error
+  start_time: 315.32
+  step_id: 10
+- description: Place -Place the egg from the cup over the lettuce
+  end_time: 453.747
+  start_time: 445.484
+  step_id: 2
+- description: replace -replace the top of the English muffin
+  end_time: 460.279
+  errors:
+  - description: flipped top muffin
+    tag: Technique Error
+  modified_description: flip over the top muffin and re-place it on top
+  start_time: 453.8
+  step_id: 7
+- description: Coat -Coat a 6-oz. ramekin cup with cooking spray
+  end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 3
+- description: Microwave -Continue to Microwave for 15-30 more seconds or until the
+    egg is almost set
+  end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 8

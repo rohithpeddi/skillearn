@@ -1,0 +1,53 @@
+activity_id: 1
+is_error: false
+recording_id: '1_14'
+step_annotations:
+- description: Cut -Cut the English muffin into two pieces with a knife
+  end_time: 87.74
+  start_time: 0.799
+  step_id: 12
+- description: Coat -Coat a 6-oz. ramekin cup with cooking spray
+  end_time: 120.33434778237728
+  start_time: 93.5002075103489
+  step_id: 3
+- description: Pour-Pour 1 egg into the ramekin cup
+  end_time: 192.0318163217031
+  start_time: 125.3657490833826
+  step_id: 1
+- description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
+  end_time: 247.79651407451212
+  start_time: 200.417485156712
+  step_id: 4
+- description: stir-stir the ramekin cup
+  end_time: 285.49209207569487
+  start_time: 252.82791537551745
+  step_id: 11
+- description: Microwave -Continue to Microwave for 15-30 more seconds or until the
+    egg is almost set
+  end_time: 337.41851752198846
+  start_time: 290.5273669004071
+  step_id: 8
+- description: Top -Top cup with 1 tablespoon of salsa
+  end_time: 424.1495179198004
+  start_time: 344.8223834096065
+  step_id: 6
+- description: Line -Line the bottom piece of the English muffin with lettuce
+  end_time: 484.0855751052803
+  start_time: 428.38029842701076
+  step_id: 9
+- description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  end_time: 572.2268356721625
+  start_time: 487.25866048568804
+  step_id: 5
+- description: Microwave -Microwave just until cheese melts, about 10 seconds
+  end_time: 654.3744905204966
+  start_time: 578.5730064329779
+  step_id: 10
+- description: Place -Place the egg from the cup over the lettuce
+  end_time: 693.5092102121923
+  start_time: 684.3425191132366
+  step_id: 2
+- description: replace -replace the top of the English muffin
+  end_time: 696.7887888109601
+  start_time: 693.5125136620838
+  step_id: 7

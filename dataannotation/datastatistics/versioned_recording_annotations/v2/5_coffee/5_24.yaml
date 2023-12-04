@@ -1,0 +1,76 @@
+activity_id: 5
+is_error: false
+recording_id: '5_24'
+step_annotations:
+- description: Measure-Measure 12 ounces of cold water
+  end_time: 36.569
+  start_time: 2.023
+  step_id: 68
+- description: Place-Place the dripper on top of a coffee mug
+  end_time: 67.788
+  start_time: 39.509
+  step_id: 69
+- description: Prepare-Prepare the filter insert by folding the paper filter in half
+    to create a semi-circle, and in half again to create a quarter-circle
+  end_time: 105.24199999999999
+  start_time: 73.547
+  step_id: 62
+- description: Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
+  end_time: 209.063
+  start_time: 112.02799999999999
+  step_id: 65
+- description: transfer-transfer water to a kettle
+  end_time: 244.414
+  start_time: 213.837
+  step_id: 70
+- description: Place-Place the paper filter in the dripper
+  end_time: 257.677
+  start_time: 249.266
+  step_id: 60
+- description: spread-spread open filter in dripper to create a cone
+  end_time: 269.576
+  start_time: 257.895
+  step_id: 59
+- description: Grind-Grind the coffee beans until the coffee grounds are the consistency
+    of coarse sand, about 20 seconds
+  end_time: 386.205
+  start_time: 279.291
+  step_id: 67
+- description: Boil-Boil the water. (While the water is boiling, assemble the filter
+    cone)
+  end_time: 536.333
+  start_time: 386.767
+  step_id: 64
+- description: Transfer-Transfer the grounds to the filter cone
+  end_time: 598.517
+  start_time: 481.303
+  step_id: 58
+- description: check-Once the water has boiled, check the temperature of the water.
+    (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
+    Celsius. If the water is too hot, let it cool briefly.)
+  end_time: 652.332
+  start_time: 603.51
+  step_id: 71
+- description: Pour-Pour a small amount of water into the filter to wet the grounds
+  end_time: 669.433
+  start_time: 658.345
+  step_id: 57
+- description: Wait-Wait about 30 seconds for the coffee to bloom. (You will see small
+    bubbles or foam on the coffee grounds during this step.)
+  end_time: 730.04
+  start_time: 669.893
+  step_id: 56
+- description: pour-Slowly pour the rest of the water over the grounds in a circular
+    motion. Do not overfill beyond the top of the paper filter
+  end_time: 773.438
+  start_time: 733.66
+  step_id: 61
+- description: drain-Let the coffee drain completely into the mug before removing
+    the dripper
+  end_time: 821.138
+  start_time: 785.8886415874538
+  step_id: 66
+- description: Discard-Discard the paper filter and coffee grounds
+  end_time: 853.478
+  start_time: 823.19
+  step_id: 63

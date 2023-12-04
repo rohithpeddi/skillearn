@@ -1,0 +1,77 @@
+activity_id: 20
+is_error: false
+recording_id: '20_16'
+step_annotations:
+- description: Chop-Chop 1 shallot
+  end_time: 388.18
+  start_time: 0
+  step_id: 212
+- description: Rinse-Rinse 3 mushrooms under cold water
+  end_time: 455.39402838557066
+  start_time: 394.86697397989354
+  step_id: 206
+- description: pat-pat rinsed mushrooms dry with a paper towel
+  end_time: 497.07214370195146
+  start_time: 458.2762690715553
+  step_id: 205
+- description: Peel-Peel 2 garlic cloves
+  end_time: 589.8985937315199
+  start_time: 504.39212004730933
+  step_id: 176
+- description: Pull-Pull out mushroom stems
+  end_time: 621.3744920165583
+  start_time: 590.859340626848
+  step_id: 214
+- description: mince-mince garlic cloves
+  end_time: 744.5788438793613
+  start_time: 627.36772264932
+  step_id: 211
+- description: Slice-Slice the mushrooms
+  end_time: 863.7114589000593
+  start_time: 792.6161886457717
+  step_id: 210
+- description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+  end_time: 968.472
+  start_time: 871.3974340626849
+  step_id: 215
+- description: add-Once the pan is hot, add the mushrooms
+  end_time: 1043.371128326434
+  start_time: 973.2366049674748
+  step_id: 208
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
+    soften and brown
+  end_time: 1261.4606735659372
+  start_time: 1046.2533690124187
+  step_id: 213
+- description: Add-Add chopped shallot to the pan
+  end_time: 1283.1155209320611
+  start_time: 1262.4214204612656
+  step_id: 209
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 1344
+  start_time: 1284
+  step_id: 207
+- description: Add-1/4 tbsp balsamic vinegar to the pan
+  end_time: 1403.115715804985
+  start_time: 1377
+  step_id: 217
+- description: Add-Add 2 cloves of minced garlic to the pan
+  end_time: 1444.8461663180972
+  start_time: 1432.4736209343585
+  step_id: 218
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 1523.525
+  start_time: 1444.9663852348415
+  step_id: 207
+- description: Season-pepper on pan to taste
+  end_time: 1532.299798344175
+  start_time: 1509.333372560615
+  step_id: 219
+- description: Season-Season pan with salt
+  end_time: 1554.877350384388
+  start_time: 1532.871671496156
+  step_id: 220
+- description: Transfer-Transfer the contents of the pan to a serving dish
+  end_time: 1620.0480147841515
+  start_time: 1576.5399053814313
+  step_id: 216

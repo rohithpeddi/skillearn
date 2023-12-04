@@ -1,0 +1,51 @@
+activity_id: 9
+is_error: false
+recording_id: '9_19'
+step_annotations:
+- description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
+    for about 30 seconds
+  end_time: 194.01579649681526
+  start_time: 13.288753184713375
+  step_id: 94
+- description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
+  end_time: 249.82855987261144
+  start_time: 224.57992882165604
+  step_id: 99
+- description: Roll-Roll the butter around in the mug to coat it
+  end_time: 280.3926921974523
+  start_time: 249.82855987261144
+  step_id: 98
+- description: whisk-In the mug, whisk one egg with a fork until well blended
+  end_time: 378.7294657643312
+  start_time: 324.24557770700636
+  step_id: 101
+- description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
+  end_time: 445.1732316878981
+  start_time: 394.6759695859873
+  step_id: 95
+- description: Add-Add 1/4 teaspoon vanilla extract to the mug
+  end_time: 528.8923767515923
+  start_time: 455.8042342356688
+  step_id: 100
+- description: stir-stir the mug
+  end_time: 562.1142597133758
+  start_time: 530.2212520700637
+  step_id: 93
+- description: add-add bread pieces to the egg mixture in the mug, pressing the bread
+    down into the egg
+  end_time: 632.5446515923568
+  start_time: 570.0875116242039
+  step_id: 92
+- description: Microwave-Microwave on high for 90 seconds until the egg is cooked
+    through
+  end_time: 768.0899340764331
+  start_time: 644.5045294585988
+  step_id: 91
+- description: Put-Put the mug's contents on a plate
+  end_time: 797.3251910828025
+  start_time: 770.7476847133757
+  step_id: 97
+- description: cut-cut the contents on plate, and serve
+  end_time: 829.2181987261147
+  start_time: 794.6674404458598
+  step_id: 96

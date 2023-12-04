@@ -1,0 +1,139 @@
+activity_id: 22
+is_error: true
+recording_id: '22_38'
+step_annotations:
+- description: Take-Take a tomato
+  end_time: 35.03741555501931
+  start_time: 14.014966222007724
+  step_id: 247
+- description: crack-crack one egg in a bowl
+  end_time: 100.440591257722
+  errors:
+  - description: splashing some part of the egg
+    tag: Technique Error
+  modified_description: crack-crack one egg in a bowl, but splashing some part of
+    the egg
+  start_time: 52.16681871525097
+  step_id: 239
+- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+  end_time: 244.48329965057914
+  errors:
+  - description: not heat the oil
+    tag: Temperature Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Heat-Put 1 tbsp oil in a small non-stick frying pan, but don't
+    heat
+  start_time: 211.7817117992278
+  step_id: 235
+- description: Cut-Cut tomato into two pieces
+  end_time: 318.4511769333977
+  errors:
+  - description: Cut some small pieces, not two pieces
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Cut-Cut tomato into some small pieces
+  start_time: 284.97097984749036
+  step_id: 246
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 379.18269722876454
+  errors:
+  - description: 2 instead of 1/2
+    tag: Measurement Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: add-2 tsp ground black pepper to the bowl
+  start_time: 333.24475238996143
+  step_id: 249
+- description: Beat-Beat the contents of the bowl
+  end_time: 399.4265373272201
+  errors:
+  - description: very slow stir
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Stir the contents of the bowl very slowly
+  start_time: 377.62547875965254
+  step_id: 248
+- description: Pour-Pour the egg mixture into the pan
+  end_time: 518.5537502142857
+  errors:
+  - description: Pour some part of the egg outside the pan
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Pour-Pour the egg mixture into the pan, but some part of the
+    egg is outside
+  start_time: 474.9516330791506
+  step_id: 241
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 585.5141443861004
+  errors:
+  - description: just cook a little time
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: cook-cook the tomatoes cut-side down for a little time
+  start_time: 518.5537502142857
+  step_id: 240
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 631.4520892249036
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Pour the tomatoes from the pan
+  start_time: 608.87242142278
+  step_id: 244
+- description: put-put tomatoes on a serving plate
+  end_time: 636.9023538667955
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 593.3002367316602
+  step_id: 236
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 710.8702311496141
+  errors:
+  - description: 1 instead of 2 tbsp
+    tag: Measurement Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Chop-Chop 1 tbsp cilantro
+  start_time: 650.9173200888032
+  step_id: 237
+- description: add-add the chopped cilantro to the bowl
+  end_time: 731.8926804826255
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 710.0916219150579
+  step_id: 242
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 757.5867852229729
+  errors:
+  - description: stir rapidly
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: stir-stir rapidly with a wooden spoon so the egg that sets
+    on the base of the pan moves to enable the uncooked egg to flow into the space
+  start_time: 731.1140712480695
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: 769.2659237413128
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 756.029566753861
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: 788.7311546052124
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 767.7087052722009
+  step_id: 243

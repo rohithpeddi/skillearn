@@ -1,0 +1,176 @@
+activity_id: 15
+is_error: true
+recording_id: '15_41'
+step_annotations:
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 158.613
+  errors:
+  - description: Peel garlic partially
+    tag: Preparation Error
+  modified_description: Peel-partially Peel 4 large garlic cloves with some peel still
+    on
+  start_time: 1.612
+  step_id: 145
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 275.319
+  errors:
+  - description: use 1/2 tbsp instead of 1 tbsp
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Heat-Heat 1 1/2 tbsp oil in a pan over medium heat using 1/2
+    tbsp utensil
+  start_time: 193.614
+  step_id: 154
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 314.061
+  errors:
+  - description: spilled some out
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add 1/4 tsp mustard to the pan and spill some out while
+    adding
+  start_time: 283.097
+  step_id: 139
+- description: mince-mince the garlic
+  end_time: 408.435
+  errors:
+  - description: slice the garlic instead of mince
+    tag: Technique Error
+  modified_description: slice-slice the garlic
+  start_time: 325.508
+  step_id: 140
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 442.878
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 315.209
+  step_id: 141
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: 500.322
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 484.544
+  step_id: 152
+- description: Take-Take 1 tomato
+  end_time: 535.657
+  errors:
+  - description: Take 2 tomatoes instead of 1
+    tag: Measurement Error
+  - description: donot wash the tomatoes
+    tag: Preparation Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Take-Take 2 tomatoes and dont wash them
+  start_time: 507.508
+  step_id: 149
+- description: Lower-Lower the heat
+  end_time: 541.28
+  errors:
+  - description: Turn off the heat
+    tag: Temperature Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Turn off-turnoff the heat
+  start_time: 537.434
+  step_id: 151
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 597.213
+  errors:
+  - description: crush tomaotes instead of chop
+    tag: Technique Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: crush-crush tomato roughly (anysize chunks are fine)
+  start_time: 544.657
+  step_id: 155
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 685.288
+  errors:
+  - description: add 1 cup water in addition to tomatoes
+    tag: Technique Error
+  - description: spill some water while adding to blender
+    tag: Technique Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: puree-puree tomatoes with 1 cup water in a blender/mixer and
+    spill some water while adding water to the blender
+  start_time: 602.435
+  step_id: 150
+- description: mix-mix well contents of the pan
+  end_time: 730.4
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 694.955
+  step_id: 157
+- description: Add-1/2 tsp salt to the pan
+  end_time: 777.068
+  errors:
+  - description: add 1/2 cup salt instead of 1/2 tsp
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-1/2 cup salt to the pan
+  start_time: 734.438
+  step_id: 146
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: 858.55
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 778.105
+  step_id: 147
+- description: Add-Add tomato puree to the pan
+  end_time: 878.774
+  errors:
+  - description: spill some out while adding to the pan
+    tag: Preparation Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Add-Add tomato puree to the pan and spill some outside
+  start_time: 861.995
+  step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 919.996
+  errors:
+  - description: spill some out while mixing
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Mix-Mix well tomato puree with contents in the pan and spill
+    some out while mixing
+  start_time: 883.626
+  step_id: 144
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: 1052.8
+  errors:
+  - description: cook for only 2 mins instead of cooking till mixture is thick
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: simmer-Allow the mixture to simmer over low heat for 2 minutes
+  start_time: 924.996
+  step_id: 153
+- description: Take-Take the pan off the heat
+  end_time: 1061
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 1053.183
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 1086.554
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 1066.665
+  step_id: 156
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 148

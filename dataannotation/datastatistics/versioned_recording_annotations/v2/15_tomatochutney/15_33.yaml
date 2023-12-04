@@ -1,0 +1,109 @@
+activity_id: 15
+is_error: true
+recording_id: '15_33'
+step_annotations:
+- description: Take-Take 1 tomato
+  end_time: 48.63074861759318
+  errors:
+  - description: Take 2 tomatoes
+    tag: Measurement Error
+  modified_description: Take-Take 2 tomatoes
+  start_time: 15.229211513086318
+  step_id: 149
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 162.78790074692043
+  errors:
+  - description: Took small garlic cloves
+    tag: Measurement Error
+  modified_description: Peel-Peel 4 small garlic cloves
+  start_time: 52.43598702190408
+  step_id: 145
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 234.66462616168198
+  errors:
+  - description: Used high heat instead of medium heat
+    tag: Temperature Error
+  modified_description: Heat-Heat 3 tbsp oil in a pan over high heat
+  start_time: 169.97557328839656
+  step_id: 154
+- description: mince-mince the garlic
+  end_time: 294.28002782921953
+  errors:
+  - description: Slice
+    tag: Technique Error
+  modified_description: Slice the garlic
+  start_time: 235.93303896311895
+  step_id: 140
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 336.13765027663953
+  start_time: 303.1589174392783
+  step_id: 155
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 499.3400973948629
+  start_time: 339.0972801466591
+  step_id: 150
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 535.2784601022437
+  errors:
+  - description: Added more
+    tag: Measurement Error
+  modified_description: Add-Add 1 tsp mustard to the pan
+  start_time: 508.21898700492164
+  step_id: 139
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: 549.653805185196
+  errors:
+  - description: Added less
+    tag: Measurement Error
+  modified_description: Add-Add 1 tsp red chili powder to the pan
+  start_time: 537.8152857051176
+  step_id: 147
+- description: mix-mix well contents of the pan
+  end_time: 554.3046521237982
+  start_time: 550.4994137194873
+  step_id: 157
+- description: Add-Add tomato puree to the pan
+  end_time: 576.136
+  start_time: 557.2642819938178
+  step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 597.0078831055096
+  errors:
+  - description: Leave tomatoes uncooked
+    tag: Timing Error
+  modified_description: Mix-Mix well tomato puree with contents in the pan
+  start_time: 579.2501038853919
+  step_id: 144
+- description: Take-Take the pan off the heat
+  end_time: 624.0673562028315
+  start_time: 618.1480964627924
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 643.9391567586773
+  start_time: 627.8725946071424
+  step_id: 156
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 152
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 141
+- description: Lower-Lower the heat
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 151
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 148
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 153
+- description: Add-1/2 tsp salt to the pan
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 146

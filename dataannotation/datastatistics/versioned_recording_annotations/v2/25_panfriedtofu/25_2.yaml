@@ -1,0 +1,83 @@
+activity_id: 25
+is_error: false
+recording_id: '25_2'
+step_annotations:
+- description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
+    1 in x 1 in)
+  end_time: 94.632
+  start_time: 54.68355633802817
+  step_id: 275
+- description: pat-pat tofu dry with a towel
+  end_time: 166.886
+  start_time: 108.15192253521126
+  step_id: 293
+- description: Add-Add 1 tablespoon of olive oil to a non-stick pan
+  end_time: 315.9494366197183
+  start_time: 301.36715492957745
+  step_id: 291
+- description: add-add the tofu cubes to the pan
+  end_time: 343.89880985915494
+  start_time: 323.2405774647887
+  step_id: 279
+- description: add-add 1/4 tsp salt to the pan
+  end_time: 385.21527464788727
+  start_time: 374.2785633802817
+  step_id: 286
+- description: Turn-Turn on the heat to medium
+  end_time: 237.177
+  start_time: 232.4
+  step_id: 276
+- description: Cook-Cook 5 to 6 minutes until tofu cubes are lightly browned on the
+    bottom
+  end_time: 488.50643661971833
+  start_time: 388.8608450704225
+  step_id: 292
+- description: remove-Briefly remove the pan from the heat to reduce spitting
+  end_time: 492.101
+  start_time: 489.012
+  step_id: 280
+- description: Flip-Flip the tofu with tongs
+  end_time: 563.133
+  start_time: 494.227
+  step_id: 285
+- description: Return-Return the heat to medium
+  end_time: 572.607
+  start_time: 568.139
+  step_id: 287
+- description: cook-cook until tofu turns brown
+  end_time: 665.709
+  start_time: 581.645
+  step_id: 290
+- description: remove-Briefly remove from the heat again
+  end_time: 668.506
+  start_time: 666
+  step_id: 282
+- description: drizzle-drizzle 1 tablespoon soy sauce (watch for spitting) on the
+    pan
+  end_time: 741.2659859154929
+  start_time: 704.8102816901409
+  step_id: 277
+- description: drizzle-drizzle with the 1 tablespoons sesame oil on the pan
+  end_time: 776.5065
+  start_time: 753.4178873239437
+  step_id: 278
+- description: Return-Return to low heat
+  end_time: 786.938
+  start_time: 782
+  step_id: 284
+- description: cook-cook pan for 2 minutes
+  end_time: 902.8862746478874
+  start_time: 792.3039718309859
+  step_id: 289
+- description: flip-flip tofu on the pan
+  end_time: 970.645
+  start_time: 904
+  step_id: 281
+- description: cook-cook pan for 2 minutes until the colour is darkened
+  end_time: 1066.9369436619718
+  start_time: 970.012
+  step_id: 288
+- description: Transfer-Transfer to a serving dish
+  end_time: 1110.6837887323943
+  start_time: 1068.582
+  step_id: 283

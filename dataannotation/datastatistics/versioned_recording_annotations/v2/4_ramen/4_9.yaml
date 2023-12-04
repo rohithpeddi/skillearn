@@ -1,0 +1,65 @@
+activity_id: 4
+is_error: false
+recording_id: '4_9'
+step_annotations:
+- description: Peel-Peel 1 medium onion
+  end_time: 70.87181217768148
+  start_time: 25.691031914409532
+  step_id: 47
+- description: Peel-Peel 1 garlic clove
+  end_time: 147.94490792091008
+  start_time: 97.791
+  step_id: 14
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: 205.52825531527625
+  start_time: 179.83722340086675
+  step_id: 46
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 249.682
+  start_time: 232.99108253412783
+  step_id: 44
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 268.42698862296857
+  start_time: 250.70903557854822
+  step_id: 51
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 287.03083931961
+  start_time: 279.94365810184183
+  step_id: 54
+- description: Add-Add the noodles to the bowl
+  end_time: 295.661
+  start_time: 292.3462252329361
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 321.58084775622973
+  start_time: 298.5475087984832
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 345.5000843661972
+  start_time: 338.41290314842905
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 598.882
+  start_time: 345.64300000000003
+  step_id: 45
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 620.1283565547129
+  start_time: 612.269
+  step_id: 53
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 746.496
+  start_time: 622.786049511376
+  step_id: 48
+- description: Add-Add basil to the bowl
+  end_time: 751.023
+  start_time: 747
+  step_id: 50
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 767.187366823402
+  start_time: 753.0130043878657
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 813.382
+  start_time: 780.4758316067173
+  step_id: 43

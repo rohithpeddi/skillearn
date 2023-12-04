@@ -1,0 +1,96 @@
+activity_id: 25
+is_error: true
+recording_id: '25_4'
+step_annotations:
+- description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
+    1 in x 1 in)
+  end_time: 172.99
+  errors:
+  - description: Tofucrumbled instead of staying in cubes
+    tag: Technique Error
+  modified_description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes
+    (about 1 in x 1 in) but crumble it
+  start_time: 157.31265731559853
+  step_id: 275
+- description: pat-pat tofu dry with a towel
+  end_time: 142.753
+  start_time: 130.334
+  step_id: 293
+- description: Add-Add 1 tablespoon of olive oil to a non-stick pan
+  end_time: 300.485
+  start_time: 291.716
+  step_id: 291
+- description: add-add the tofu cubes to the pan
+  end_time: 498.986
+  start_time: 490.5671024183797
+  step_id: 279
+- description: add-add 1/4 tsp salt to the pan
+  end_time: 560.341
+  start_time: 530.153
+  step_id: 286
+- description: Turn-Turn on the heat to medium
+  end_time: 466.077
+  start_time: 460.9
+  step_id: 276
+- description: Cook-Cook 5 to 6 minutes until tofu cubes are lightly browned on the
+    bottom
+  end_time: 894.708
+  start_time: 579.5729480048367
+  step_id: 292
+- description: remove-Briefly remove the pan from the heat to reduce spitting
+  end_time: 980
+  errors:
+  - description: Did this after next step
+    tag: Order Error
+  modified_description: remove-Briefly remove the pan from the heat to reduce spitting
+  start_time: 972
+  step_id: 280
+- description: Flip-Flip the tofu with tongs
+  end_time: 968.71478452237
+  errors:
+  - description: Performed before previous step
+    tag: Order Error
+  modified_description: Flip-Flip the tofu with tongs
+  start_time: 908.6875863361548
+  step_id: 285
+- description: Return-Return the heat to medium
+  end_time: 982
+  start_time: 980
+  step_id: 287
+- description: cook-cook until tofu turns brown
+  end_time: 1227.4527077388148
+  start_time: 991.4837217654172
+  step_id: 290
+- description: remove-Briefly remove from the heat again
+  end_time: 1240.71
+  start_time: 1235.7323212817412
+  step_id: 282
+- description: drizzle-drizzle 1 tablespoon soy sauce (watch for spitting) on the
+    pan
+  end_time: 1279.200292382104
+  start_time: 1261.78
+  step_id: 277
+- description: drizzle-drizzle with the 1 tablespoons sesame oil on the pan
+  end_time: 1298.1779999999999
+  start_time: 1291.6197126964933
+  step_id: 278
+- description: Return-Return to low heat
+  end_time: 1314.087
+  start_time: 1308.1789397823457
+  step_id: 284
+- description: cook-cook pan for 2 minutes
+  end_time: 1450.345
+  start_time: 1320.5983600967352
+  step_id: 289
+- description: flip-flip tofu on the pan
+  end_time: 1512.749
+  start_time: 1459.2818869407497
+  step_id: 281
+- description: cook-cook pan for 2 minutes until the colour is darkened
+  end_time: 1645.922
+  start_time: 1510.309
+  step_id: 288
+- description: Transfer-Transfer to a serving dish
+  end_time: 1694.6
+  start_time: 1682.8314525997582
+  step_id: 283

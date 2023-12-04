@@ -1,0 +1,62 @@
+activity_id: 21
+is_error: false
+recording_id: '21_19'
+step_annotations:
+- description: Add-1 heaped tbsp flour to a blender
+  end_time: 73.70845433121019
+  start_time: 1.842711358280255
+  step_id: 232
+- description: Add-1/2 tsp baking powder to a blender
+  end_time: 128.98979507961783
+  start_time: 77.3938770477707
+  step_id: 221
+- description: Chop-Chop 1 strawberry
+  end_time: 294.83381732484077
+  start_time: 158.4731768121019
+  step_id: 233
+- description: Add-Add 1 banana to a blender
+  end_time: 350.1151580732484
+  start_time: 296.67652868312103
+  step_id: 225
+- description: Add-1 egg to a blender
+  end_time: 407.2392101799363
+  start_time: 355.6432921480892
+  step_id: 229
+- description: blitz-blitz the blender for 20 seconds
+  end_time: 654.1625321894904
+  start_time: 573.0832324251593
+  step_id: 227
+- description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+    heat
+  end_time: 768.4106364028663
+  start_time: 659.6906662643313
+  step_id: 223
+- description: Pour-Pour three little puddles straight from the blender into the frying
+    pan
+  end_time: 820.0065544347135
+  start_time: 784.9950386273886
+  step_id: 231
+- description: Cook-Cook for 1 min or until the tops start to bubble
+  end_time: 945.3109267977707
+  start_time: 820.0065544347133
+  step_id: 226
+- description: Flip-Flip the pancakes with a fork or a fish slice spatula
+  end_time: 989.5359993964969
+  start_time: 950.8390608726115
+  step_id: 228
+- description: cook-cook for 20-30 seconds more
+  end_time: 1024.5475152038218
+  start_time: 987.6932880382167
+  step_id: 230
+- description: Transfer-Transfer to a plate
+  end_time: 1066.9298764442676
+  start_time: 1042.9746287866242
+  step_id: 234
+- description: Serve-Serve the pancakes with chopped strawberries
+  end_time: 1092.727835460191
+  start_time: 1066.9298764442676
+  step_id: 222
+- description: splash-splash maple syrup on plate
+  end_time: 1142.4810421337581
+  start_time: 1096.4132581767517
+  step_id: 224

@@ -1,0 +1,74 @@
+activity_id: 4
+is_error: true
+recording_id: '4_32'
+step_annotations:
+- description: Peel-Peel 1 medium onion
+  end_time: 90.099
+  errors:
+  - description: Did not peel completely
+    tag: Technique Error
+  start_time: 36.733189842805324
+  step_id: 47
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 146.749
+  errors:
+  - description: Throw the noodles block while opening from the package
+    tag: Technique Error
+  start_time: 119.38286698911729
+  step_id: 44
+- description: Peel-Peel 1 garlic clove
+  end_time: 210.624
+  errors:
+  - description: Peel garlic clove incompletely
+    tag: Technique Error
+  start_time: 189.17592769044742
+  step_id: 14
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 248.825
+  start_time: 230.5007662636034
+  step_id: 51
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 283
+  start_time: 278.2539130592503
+  step_id: 54
+- description: Add-Add the noodles to the bowl
+  end_time: 286.375
+  start_time: 283.01
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 326.638
+  start_time: 320.4970813784764
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 343.311
+  start_time: 340.70033579201936
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 597.168
+  start_time: 347.12864401451026
+  step_id: 45
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 660.115
+  start_time: 649.2591304715841
+  step_id: 53
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 692.4206285368803
+  start_time: 632.505
+  step_id: 48
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 717.725
+  start_time: 709.8688937122129
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 750.683
+  start_time: 726.3988291414752
+  step_id: 43
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 46
+- description: Add-Add basil to the bowl
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 50

@@ -1,0 +1,66 @@
+activity_id: 8
+is_error: true
+recording_id: '8_45'
+step_annotations:
+- description: Fill-Fill a microwave-safe mug with skimmed milk
+  end_time: 38.89748798448269
+  errors:
+  - description: Spill
+    tag: Technique Error
+  modified_description: Fill-Fill a microwave-safe mug with skimmed milk but spill
+  start_time: 4.4823636849839446
+  step_id: 88
+- description: Add-Add 2 pieces of chocolate to the mug
+  end_time: 61.9980508704476
+  errors:
+  - description: Added fewer pieces than needed
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add 1 piece of chocolate to the mug
+  start_time: 39.13320801393131
+  step_id: 90
+- description: Add-Add 1/5 teaspoon cinnamon to the mug
+  end_time: 97.12033525829222
+  errors:
+  - description: Added cumin
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add 1/5 teaspoon cinnamon to the mug
+  start_time: 61.9980508704476
+  step_id: 84
+- description: Add-Add 1 teaspoon of white sugar to the mug
+  end_time: 114.09217737859296
+  errors:
+  - description: Added salt instead of sugar
+    tag: Preparation Error
+  modified_description: Add-Add 1 teaspoon of salt to the mug
+  start_time: 97.12033525829222
+  step_id: 87
+- description: Microwave-Microwave the contents of the mug for 1 minute
+  end_time: 254.5813149299714
+  errors:
+  - description: Microwaved for longer than specified
+    tag: Timing Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Microwave-Microwave the contents of the mug for 2 minutes
+  start_time: 120.92805823260298
+  step_id: 89
+- description: Heat-Heat the contents of the mug for 1 minute and serve
+  end_time: 373.38420977207664
+  errors:
+  - description: Used lower power than specified
+    tag: Temperature Error
+  - description: Microwaved for 61 seconds
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Heat-Heat the contents of the mug for 61 seconds and serve
+  start_time: 260.23859563673835
+  step_id: 83
+- description: Mix-Mix the contents of the mug
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 85

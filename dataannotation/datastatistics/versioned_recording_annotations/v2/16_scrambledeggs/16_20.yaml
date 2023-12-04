@@ -1,0 +1,98 @@
+activity_id: 16
+is_error: false
+recording_id: '16_20'
+step_annotations:
+- description: Crack-Crack one egg in the bowl
+  end_time: 63.96191685783579
+  start_time: 20.484796644590748
+  step_id: 167
+- description: Chop-Chop 1/4 tomato
+  end_time: 156.03111260353114
+  start_time: 72.91308866644506
+  step_id: 169
+- description: add-add 1 tbsp milk to the bowl
+  end_time: 204.62318813598148
+  start_time: 167.5397620717431
+  step_id: 177
+- description: Peel-Peel 2 garlic cloves
+  end_time: 320.98842164790204
+  start_time: 212.29562111478944
+  step_id: 176
+- description: Chop-Chop 1 green chilli
+  end_time: 391.3190572869749
+  start_time: 351.67815356313383
+  step_id: 161
+- description: add-add 1/3 tsp salt to the bowl
+  end_time: 498.73311899028613
+  start_time: 418.1725727128027
+  step_id: 164
+- description: Mince-Mince peeled garlic cloves
+  end_time: 570.3424934591602
+  start_time: 507.6842907988954
+  step_id: 180
+- description: Whisk-Whisk the egg mixture in the bowl
+  end_time: 611.2621360128028
+  start_time: 581.8511429273722
+  step_id: 159
+- description: Chop-Chop 1 tsp cilantro
+  end_time: 760.8745790995576
+  start_time: 620.213307821412
+  step_id: 158
+- description: Chop-Chop 1/4 medium onion
+  end_time: 1057.2
+  start_time: 1047.541
+  step_id: 163
+- description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium
+    heat
+  end_time: 1007.6711732512133
+  start_time: 939.8980152717431
+  step_id: 173
+- description: add-add 1/3 tsp salt to the pan
+  end_time: 1042.197121655849
+  start_time: 1016.6223450598226
+  step_id: 178
+- description: add-add chopped onions to the pan
+  end_time: 1057
+  start_time: 1046
+  step_id: 179
+- description: Saute-Saute the onions on medium heat until they are soft and translucent
+  end_time: 1370.033
+  start_time: 1070.05
+  step_id: 166
+- description: Add-Add chilli to the pan
+  end_time: 1377.971
+  start_time: 1370.226
+  step_id: 162
+- description: Add-Add garlic to the pan
+  end_time: 1396.099
+  start_time: 1378.243
+  step_id: 160
+- description: Cook-Cook for 1 minute, mixing everything
+  end_time: 1472.057
+  start_time: 1399.801
+  step_id: 165
+- description: Add-Add tomatoes to the pan
+  end_time: 1482.643
+  start_time: 1472.525
+  step_id: 175
+- description: Add-Add 1/8 tsp of turmeric to the pan
+  end_time: 1549.546
+  start_time: 1501.313
+  step_id: 168
+- description: Cook-Cook covered for 1 minute or until the tomatoes soften
+  end_time: 1644.42
+  start_time: 1550.022
+  step_id: 170
+- description: pour-Slowly pour the whisked eggs into the pan
+  end_time: 1674.42
+  start_time: 1653.4342823008824
+  step_id: 172
+- description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs are
+    almost cooked
+  end_time: 1872.293
+  start_time: 1680.845
+  step_id: 171
+- description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
+  end_time: 1917.084
+  start_time: 1899.771
+  step_id: 174

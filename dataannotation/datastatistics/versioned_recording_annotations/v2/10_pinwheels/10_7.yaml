@@ -1,0 +1,92 @@
+activity_id: 10
+is_error: true
+recording_id: '10_7'
+step_annotations:
+- description: Place-Place 8-inch flour tortilla on cutting board
+  end_time: 54.041
+  start_time: 3.079
+  step_id: 115
+- description: scoop-Use a butter knife to scoop nut butter from the jar
+  end_time: 85.953
+  start_time: 55.005
+  step_id: 113
+- description: Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered
+    at the edges
+  end_time: 160.334
+  start_time: 85.964
+  step_id: 112
+- description: Clean-Clean the knife by wiping it with a paper towel
+  end_time: 173.183
+  start_time: 162.53
+  step_id: 118
+- description: scoop-Use the knife to scoop jelly from the jar
+  end_time: 199.738
+  start_time: 178.20600000000002
+  step_id: 111
+- description: Spread-Spread jelly over the nut butter
+  end_time: 230.414
+  start_time: 200.282
+  step_id: 107
+- description: Clean-Clean the knife by wiping with a paper towel
+  end_time: 246.506
+  start_time: 238.24099999999999
+  step_id: 104
+- description: Roll-Roll the tortilla from one end to the other into a log shape,
+    about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight
+    that the filling leaks
+  end_time: 300.569
+  errors:
+  - description: Filling leaked
+    tag: Technique Error
+  modified_description: Roll-Roll the tortilla from one end to the other into a log
+    shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but so tight
+    that the filling leaks
+  start_time: 284.877
+  step_id: 116
+- description: Secure-Secure the rolled tortilla by inserting 5 toothpicks about 1
+    inch apart
+  end_time: 335.487
+  start_time: 262.557
+  step_id: 110
+- description: Trim-Trim the ends of the tortilla roll with the butter knife, leaving
+    1/2 inch margin between the last toothpick and the end of the roll
+  end_time: 358.272
+  start_time: 343.585
+  step_id: 114
+- description: Discard-Discard ends of the tortilla
+  end_time: 365.538
+  start_time: 360.874
+  step_id: 103
+- description: Slide-Slide floss under the tortilla, perpendicular to the length of
+    the roll
+  end_time: 397.581
+  start_time: 372.256
+  step_id: 106
+- description: Place-Place the floss halfway between toothpicks
+  end_time: 399.976
+  start_time: 397.89
+  step_id: 117
+- description: Cross-Cross the floss's two ends over the tortilla roll's top
+  end_time: 436.613
+  start_time: 433.642
+  step_id: 105
+- description: pull-pull the floss ends in opposite directions to slice
+  end_time: 449.363
+  start_time: 436.866
+  step_id: 108
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 470.19
+  start_time: 461.2
+  step_id: 102
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 486.45
+  start_time: 471.2
+  step_id: 102
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 506.745
+  start_time: 487.057
+  step_id: 102
+- description: Place-Place the pinwheels on a plate
+  end_time: 548.796
+  start_time: 525.12
+  step_id: 109

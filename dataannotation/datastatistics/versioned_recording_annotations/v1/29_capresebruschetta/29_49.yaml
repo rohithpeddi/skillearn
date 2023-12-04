@@ -1,0 +1,102 @@
+activity_id: 29
+is_error: true
+recording_id: '29_49'
+step_annotations:
+- description: add-1/4 tsp pepper to a bowl
+  end_time: 74.89527657639215
+  errors:
+  - description: spill pepper while measuring
+    tag: Technique Error
+  modified_description: add-1/4 tsp pepper to a bowl and spill some outside whille
+    adding in the bowl
+  start_time: 5.843001692933505
+  step_id: 346
+- description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+  end_time: 129.84532630759514
+  errors:
+  - description: slice it thicker on one end and thinner on other end
+    tag: Technique Error
+  modified_description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice
+    slanted) and slice it thicker on one end and thinner on other end
+  start_time: 93.37405436210643
+  step_id: 344
+- description: add-1/8 cup shredded mozzarella to a bowl
+  end_time: 188.68564504631695
+  errors:
+  - description: add-1/4 cup instead of 1/8 cup shredded mozzarella to a bowl
+    tag: Measurement Error
+  modified_description: add-1/4 cup shredded mozzarella to a bowl
+  start_time: 132.76302806323426
+  step_id: 342
+- description: Cut-Cut 1/4 cup of cherry tomatoes into halves
+  end_time: 415.7800983602268
+  errors:
+  - description: mince 1/4 cup of cherry tomatoes instead of cutting into halves
+    tag: Technique Error
+  modified_description: Cut-mince 1/4 cup of cherry tomatoes into halves
+  start_time: 190.14449592413652
+  step_id: 350
+- description: add-In a bowl, add the cut cherry tomatoes
+  end_time: 447.388534046317
+  errors:
+  - description: spill some outside while adding to bowl
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: add-In a bowl, add the cut cherry tomatoes and spill some
+    outside
+  start_time: 419.6703673677455
+  step_id: 351
+- description: add-1/16 cup basil to a bowl
+  end_time: 514.4956744260162
+  start_time: 460.031908320753
+  step_id: 347
+- description: Brush-Brush 2 slices of baguette with olive oil on both sides
+  end_time: 561.6651861421816
+  errors:
+  - description: Dip baugette in olive oil instead of brushing
+    tag: Technique Error
+  modified_description: Dip- Dip 2 slices of baguette with olive oil on both sides
+  start_time: 520.8173615632342
+  step_id: 349
+- description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
+    until lightly charred and crispy and transfer the slices to a plate
+  end_time: 687.1263616346628
+  errors:
+  - description: toast for only 1/2 min and there baugette slices are not charred
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Toast-Toast both sides of the slices on the pan for 1/2 min
+    and transfer the slices to a plate
+  start_time: 562.6377533940613
+  step_id: 352
+- description: Spoon-Spoon the mixture from the bowl onto the bread
+  end_time: 726.0290517098508
+  errors:
+  - description: Use fork instead of a spoon and spill some out while placing mixture
+      on the bread
+    tag: Preparation Error
+  - description: Use fork instead of a spoon and spill some out while placing mixture
+      on the bread
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Spoon-Spoon the mixture from the bowl onto the bread using
+    a Fork and spill some outside
+  start_time: 687.6126452606027
+  step_id: 345
+- description: add-1/4 tsp salt to a bowl
+  end_time: 755.6923528921815
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 726.5153353357905
+  step_id: 343
+- description: Combine-Combine the contents of the bowl
+  end_time: 770.7671452963169
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 756.1786365181214
+  step_id: 348

@@ -1,0 +1,76 @@
+activity_id: 1
+is_error: true
+recording_id: '1_33'
+step_annotations:
+- description: Coat -Coat a 6-oz. ramekin cup with cooking spray
+  end_time: 70.494
+  errors:
+  - description: Coating a large bowl instead of 6-oz ramekin cup
+    tag: Preparation Error
+  start_time: 8.595
+  step_id: 3
+- description: Pour-Pour 1 egg into the ramekin cup
+  end_time: 255.707
+  errors:
+  - description: Accidentally, cracked an egg such that it spills on the kitchen top and floor and clean it
+    tag: Technique Error
+  - description: Cracking another egg thus making a measurement error
+    tag: Measurement Error
+  start_time: 79.569
+  step_id: 1
+- description: Cut -Cut the English muffin into two pieces with a knife
+  end_time: 337.069
+  errors:
+  - description: Cut the muffin improperly such that it results into 3 pieces
+    tag: Technique Error
+  - description: Cut the muffin improperly such that it results into 3 pieces
+    tag: Measurement Error
+  start_time: 278.5853726157889
+  step_id: 12
+- description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
+  end_time: 394.555
+  start_time: 343.947
+  step_id: 4
+- description: stir-stir the ramekin cup
+  end_time: 432.764
+  start_time: 398.511
+  step_id: 11
+- description: Microwave -Continue to Microwave for 15-30 more seconds or until the
+    egg is almost set
+  end_time: 500.192
+  start_time: 432.966
+  step_id: 8
+- description: Line -Line the bottom piece of the English muffin with lettuce
+  end_time: 489.73104949843434
+  start_time: 453.9597429201151
+  step_id: 9
+- description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  end_time: 540.3806871314528
+  start_time: 505.875621493959
+  step_id: 5
+- description: Microwave -Microwave just until cheese melts, about 10 seconds
+  end_time: 604.9589751135512
+  start_time: 541.3303678370719
+  step_id: 10
+- description: replace -replace the top of the English muffin
+  end_time: 631.2334746356795
+  errors:
+  - description: add and replace - add contents of the bowl to the lettuce and replace
+      the top of the English muffin
+    tag: Other
+  modified_description: add and replace - add contents of the bowl to the lettuce
+    and replace the top of the English muffin
+  start_time: 606.8583365247894
+  step_id: 7
+- description: Top -Top cup with 1 tablespoon of salsa
+  end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 6
+- description: Place -Place the egg from the cup over the lettuce
+  end_time: 620
+  start_time: 610
+  step_id: 2

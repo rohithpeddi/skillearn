@@ -1,0 +1,62 @@
+activity_id: 21
+is_error: false
+recording_id: '21_8'
+step_annotations:
+- description: Add-1 egg to a blender
+  end_time: 69.33540204140127
+  start_time: 22.60937023089172
+  step_id: 229
+- description: Add-Add 1 banana to a blender
+  end_time: 107.01768575955414
+  start_time: 70.8426933901274
+  step_id: 225
+- description: Add-1 heaped tbsp flour to a blender
+  end_time: 150.72913487261144
+  start_time: 119.07601654936306
+  step_id: 232
+- description: Add-1/2 tsp baking powder to a blender
+  end_time: 185.3968358933121
+  start_time: 159.77288296496815
+  step_id: 221
+- description: blitz-blitz the blender for 20 seconds
+  end_time: 322.5603486273886
+  start_time: 271.31244277070067
+  step_id: 227
+- description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+    heat
+  end_time: 449.1728219203822
+  start_time: 351.1988842531847
+  step_id: 223
+- description: Pour-Pour three little puddles straight from the blender into the frying
+    pan
+  end_time: 524.537389356688
+  start_time: 480.82594024363055
+  step_id: 231
+- description: Cook-Cook for 1 min or until the tops start to bubble
+  end_time: 636.0769491624203
+  start_time: 524.5373893566879
+  step_id: 226
+- description: Flip-Flip the pancakes with a fork or a fish slice spatula
+  end_time: 715.9633906449045
+  start_time: 673.7592328805733
+  step_id: 228
+- description: Chop-Chop 1 strawberry
+  end_time: 807.9081629171975
+  start_time: 756.6602570605096
+  step_id: 233
+- description: cook-cook for 20-30 seconds more
+  end_time: 833.5321158455414
+  start_time: 807.9081629171975
+  step_id: 230
+- description: Transfer-Transfer to a plate
+  end_time: 892.3164784458598
+  start_time: 859.1560687738853
+  step_id: 234
+- description: Serve-Serve the pancakes with chopped strawberries
+  end_time: 913.4185573280255
+  start_time: 892.31647844586
+  step_id: 222
+- description: splash-splash maple syrup on plate
+  end_time: 946.578967
+  start_time: 913.4185573280255
+  step_id: 224

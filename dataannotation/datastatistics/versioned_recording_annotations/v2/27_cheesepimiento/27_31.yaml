@@ -1,0 +1,59 @@
+activity_id: 27
+is_error: true
+recording_id: '27_31'
+step_annotations:
+- description: Add-Add 1/3 cup cheddar cheese to a microwave-safe cup
+  end_time: 108.79132595541402
+  errors:
+  - description: spill some cheese while adding
+    tag: Technique Error
+  modified_description: Add-Add 1/3 cup cheddar cheese to a microwave-safe cup and
+    spill some outside while adding
+  start_time: 51.47116496815287
+  step_id: 316
+- description: Add-Add 1 tablespoons of water to the bowl
+  end_time: 152.07389649681528
+  start_time: 115.81012117834395
+  step_id: 320
+- description: Chop-Chop 1/4 red bell pepper into tiny bits
+  end_time: 288.940403343949
+  start_time: 168.4510853503185
+  step_id: 321
+- description: Melt-Melt the cheese by microwaving cup for 30 sec. (Check after 30
+    seconds and microwave for 10 seconds more if needed)
+  end_time: 354.44915875796175
+  start_time: 290.1102025477707
+  step_id: 323
+- description: Place-Place the chopped pepper in the microwave-safe bowl
+  end_time: 391.8827332802548
+  errors:
+  - description: spill some bellpepper while adding
+    tag: Technique Error
+  modified_description: Place-Place the chopped pepper in the microwave-safe bowl
+    and spill some bellpepper while transferring to bowl
+  start_time: 361.4679539808917
+  step_id: 322
+- description: Microwave-Microwave the bowl, covered, for 2 minutes
+  end_time: 528.7492401273886
+  start_time: 393.05253248407644
+  step_id: 318
+- description: Mix-Mix the cheese and red bell pepper in the bowl
+  end_time: 627.0123732484077
+  start_time: 528.7492401273885
+  step_id: 317
+- description: Add-Add 1/4 teaspoon salt to the bowl
+  end_time: 646.8989597133759
+  start_time: 629.3519716560511
+  step_id: 315
+- description: add-add 1/2 tbsp softened butter to the bowl
+  end_time: 693.6909278662421
+  start_time: 648.0687589171974
+  step_id: 314
+- description: Mix-Mix all the ingredients of the bowl well
+  end_time: 733.4641007961784
+  start_time: 692.5211286624204
+  step_id: 324
+- description: Add-Add 1/4 teaspoon pepper to the bowl
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 319

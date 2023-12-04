@@ -1,0 +1,68 @@
+activity_id: 1
+is_error: true
+recording_id: '1_34'
+step_annotations:
+- description: Pour-Pour 1 egg into the ramekin cup
+  end_time: 31.659
+  errors:
+  - description: With egg shell
+    tag: Technique Error
+  start_time: 1.3719999999999999
+  step_id: 1
+- description: Cut -Cut the English muffin into two pieces with a knife
+  end_time: 83.385
+  start_time: 40.805
+  step_id: 12
+- description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
+  end_time: 149.567
+  start_time: 87.014
+  step_id: 4
+- description: stir-stir the ramekin cup
+  end_time: 161.876
+  start_time: 150.39274015722512
+  step_id: 11
+- description: Microwave -Continue to Microwave for 15-30 more seconds or until the
+    egg is almost set
+  end_time: 194.062
+  start_time: 164.21938243817988
+  step_id: 8
+- description: Line -Line the bottom piece of the English muffin with lettuce
+  end_time: 217.179
+  errors:
+  - description: The top piece
+    tag: Technique Error
+  start_time: 200.993
+  step_id: 9
+- description: Top -Top cup with 1 tablespoon of salsa
+  end_time: 245.179
+  start_time: 219.01385369974128
+  step_id: 6
+- description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  end_time: 286.39
+  errors:
+  - description: Not using measurements
+    tag: Measurement Error
+  start_time: 255.88489978228725
+  step_id: 5
+- description: Microwave -Microwave just until cheese melts, about 10 seconds
+  end_time: 315.925
+  errors:
+  - description: Not melt
+    tag: Timing Error
+  start_time: 287.29356866741904
+  step_id: 10
+- description: Place -Place the egg from the cup over the lettuce
+  end_time: 332.213
+  start_time: 316.8245453909397
+  step_id: 2
+- description: replace -replace the top of the English muffin
+  end_time: 335.7721662944703
+  errors:
+  - description: Replace with the bottom piece
+    tag: Technique Error
+  start_time: 333.72377484543995
+  step_id: 7
+- description: Coat -Coat a 6-oz. ramekin cup with cooking spray
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 3

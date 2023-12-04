@@ -1,0 +1,65 @@
+activity_id: 29
+is_error: true
+recording_id: '29_28'
+step_annotations:
+- description: add-1/4 tsp salt to a bowl
+  end_time: 47.23580368453359
+  errors:
+  - description: The measuring spoon was wet
+    tag: Preparation Error
+  modified_description: add-1/4 tsp salt to a bowl
+  start_time: 6.876395224633849
+  step_id: 343
+- description: Cut-Cut 1/4 cup of cherry tomatoes into halves
+  end_time: 152.85723433490955
+  errors:
+  - description: Wrongly cut the cherry tomatoes
+    tag: Technique Error
+  modified_description: Cut-Cut 1/4 cup of cherry tomatoes into halves
+  start_time: 51.5293577760123
+  step_id: 350
+- description: add-1/8 cup shredded mozzarella to a bowl
+  end_time: 196.65148606799224
+  start_time: 159.72692088127545
+  step_id: 342
+- description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+  end_time: 264.9189961225035
+  errors:
+  - description: Do not make slanted cuts
+    tag: Technique Error
+  modified_description: Slice-Slice two 1/2 inch thick rounds from a baguette
+  start_time: 204.80923884180174
+  step_id: 344
+- description: Brush-Brush 2 slices of baguette with olive oil on both sides
+  end_time: 293.2564531262629
+  errors:
+  - description: Pour olive ol instead of brushing
+    tag: Technique Error
+  modified_description: Pour-Pour 2 slices of baguette with olive oil on both sides
+  start_time: 270.07126103227796
+  step_id: 349
+- description: add-1/16 cup basil to a bowl
+  end_time: 428.5034070078419
+  start_time: 298.4087180360373
+  step_id: 347
+- description: add-1/4 tsp pepper to a bowl
+  end_time: 462.42248433052356
+  start_time: 439.23729223653856
+  step_id: 346
+- description: add-In a bowl, add the cut cherry tomatoes
+  end_time: 485.6076764245085
+  start_time: 470.15088169518526
+  step_id: 351
+- description: Combine-Combine the contents of the bowl
+  end_time: 513.51577801912
+  start_time: 484.7489656062128
+  step_id: 348
+- description: Spoon-Spoon the mixture from the bowl onto the bread
+  end_time: 534.1248376582178
+  start_time: 519.9561091563381
+  step_id: 345
+- description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
+    until lightly charred and crispy and transfer the slices to a plate
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 352

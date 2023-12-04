@@ -1,0 +1,142 @@
+activity_id: 2
+is_error: true
+recording_id: '2_47'
+step_annotations:
+- description: Peel-Peel 1 garlic clove
+  end_time: 120.38310789331211
+  errors:
+  - description: 2 instead of 1 garlic clove
+    tag: Measurement Error
+  modified_description: Peel-Peel 2 garlic cloves
+  start_time: 18.650904039808914
+  step_id: 14
+- description: Peel-Peel one medium onion
+  end_time: 178.0313567436306
+  start_time: 118.68757116242038
+  step_id: 17
+- description: cut-Cut onion into two pieces
+  end_time: 191.5956505907643
+  errors:
+  - description: cut into 4 pieces
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: cut-Cut onion into four pieces
+  start_time: 176.33582001273885
+  step_id: 27
+- description: Slice-Slice 1/8 medium onion
+  end_time: 207.6
+  errors:
+  - description: Chop instead of slice
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Chop-Chop 1/8 medium onion
+  start_time: 189.6
+  step_id: 19
+- description: Cut-Cut 1/4 medium carrot into short, thin strips
+  end_time: 279.76356059713373
+  errors:
+  - description: the size of carrot is not thin strips
+    tag: Technique Error
+  modified_description: Cut-Cut 1/4 medium carrot into short strips
+  start_time: 239.07067905573248
+  step_id: 22
+- description: Place-Place 5 meatballs in a Microwave-safe plate
+  end_time: 320.456442138535
+  errors:
+  - description: 3 meatballs instead of 5 meatballs
+    tag: Measurement Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Place-Place 3 meatballs in a Microwave-safe plate
+  start_time: 281.45909732802545
+  step_id: 21
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 509.4
+  errors:
+  - description: 3 instead of 1.5 minutes
+    tag: Timing Error
+  - description: medium instead of high
+    tag: Temperature Error
+  modified_description: Microwave-Microwave the plate, covered, on medium for 3 minutes
+  start_time: 313.2
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 569.7
+  errors:
+  - description: Stir the contents outside the microwave
+    tag: Technique Error
+  - description: Meatball dropped while stirring
+    tag: Technique Error
+  modified_description: Stir-Stir the contents outside the microwave with a spoon
+    and meatball drop on the ground
+  start_time: 547.65
+  step_id: 18
+- description: Cut-Cut 1/8 garlic clove
+  end_time: 593.4378558121019
+  errors:
+  - description: 1/2 instead of 1/8
+    tag: Measurement Error
+  modified_description: Cut-Cut 1/2 garlic clove
+  start_time: 576.4824885031848
+  step_id: 16
+- description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in
+    a small bowl
+  end_time: 715.5165004363057
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 596.8289292738854
+  step_id: 23
+- description: Mince-Mince 1/8 garlic clove
+  end_time: 746.0361615923566
+  errors:
+  - description: Chop instead of mince
+    tag: Technique Error
+  modified_description: Chop-Chop 1/8 garlic clove
+  start_time: 717.2120371671974
+  step_id: 26
+- description: Pour-Pour the sauces over the meatballs
+  end_time: 786.729043133758
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 747.7316983232485
+  step_id: 15
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
+    powder
+  end_time: 851.1594389076433
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 790.1201165955413
+  step_id: 24
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 947.8050325684715
+  errors:
+  - description: 1 minute instead of 1.5 minutes
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Microwave-Microwave the plate, covered, on high for 1 minute
+  start_time: 854.5505123694268
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 966.4559366082804
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 942.7184223757962
+  step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: 1054.6238466146497
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 968.151473339172
+  step_id: 25

@@ -1,0 +1,65 @@
+activity_id: 4
+is_error: false
+recording_id: '4_22'
+step_annotations:
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 51.12554176489708
+  start_time: 21.22192299674973
+  step_id: 44
+- description: Peel-Peel 1 garlic clove
+  end_time: 108.03888071072589
+  start_time: 78.13526194257855
+  step_id: 14
+- description: Peel-Peel 1 medium onion
+  end_time: 155.3058910216685
+  start_time: 114.79131075514627
+  step_id: 47
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 181.35097833586133
+  start_time: 161.09368820260022
+  step_id: 51
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: 256.592341687974
+  start_time: 189.06804124377032
+  step_id: 46
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 302.894719135428
+  start_time: 285.5313275926327
+  step_id: 54
+- description: Add-Add the noodles to the bowl
+  end_time: 321.2227435417118
+  start_time: 305.088
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 351.55
+  start_time: 330.869072176598
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 377.1
+  start_time: 373.31291817009753
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 643.551
+  start_time: 377.529
+  step_id: 45
+- description: Add-Add basil to the bowl
+  end_time: 668.4905743976165
+  start_time: 660.7735114897074
+  step_id: 50
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 743.7319377497291
+  start_time: 669.4552072611051
+  step_id: 48
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 781.3526194257854
+  start_time: 770.7416579274106
+  step_id: 53
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 845.9830212795233
+  start_time: 832.4781611906826
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 886.4976015460455
+  start_time: 851.7708184604551
+  step_id: 43

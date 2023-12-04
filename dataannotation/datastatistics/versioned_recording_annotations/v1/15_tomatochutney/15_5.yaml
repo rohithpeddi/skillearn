@@ -1,0 +1,81 @@
+activity_id: 15
+is_error: false
+recording_id: '15_5'
+step_annotations:
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 335.031
+  start_time: 3
+  step_id: 145
+- description: Take-Take 1 tomato
+  end_time: 364.003
+  start_time: 340.553
+  step_id: 149
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 602.542
+  start_time: 369
+  step_id: 155
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 840.013
+  start_time: 605.48
+  step_id: 150
+- description: mince-mince the garlic
+  end_time: 1047.474
+  start_time: 845.128
+  step_id: 140
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 1183.4470000000001
+  start_time: 1065.02
+  step_id: 154
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 1248
+  start_time: 1205.197
+  step_id: 139
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 1260.291
+  start_time: 1249
+  step_id: 141
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: 1765.261
+  start_time: 1717.902
+  step_id: 152
+- description: Lower-Lower the heat
+  end_time: 1768.5
+  start_time: 1766.567
+  step_id: 151
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: 1854
+  start_time: 1778
+  step_id: 148
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: 1908
+  start_time: 1856
+  step_id: 147
+- description: mix-mix well contents of the pan
+  end_time: 1971
+  start_time: 1908.5
+  step_id: 157
+- description: Add-1/2 tsp salt to the pan
+  end_time: 2040
+  start_time: 2013.374
+  step_id: 146
+- description: Add-Add tomato puree to the pan
+  end_time: 2071
+  start_time: 2041
+  step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 2210.46
+  start_time: 2091.778
+  step_id: 144
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: 2411.1
+  start_time: 2211
+  step_id: 153
+- description: Take-Take the pan off the heat
+  end_time: 2423.004
+  start_time: 2419
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 2460
+  start_time: 2425.279
+  step_id: 156

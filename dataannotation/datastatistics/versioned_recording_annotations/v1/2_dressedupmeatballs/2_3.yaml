@@ -1,0 +1,80 @@
+activity_id: 2
+is_error: true
+recording_id: '2_3'
+step_annotations:
+- description: Place-Place 5 meatballs in a Microwave-safe plate
+  end_time: 82.25356206528662
+  start_time: 2.6533407117834398
+  step_id: 21
+- description: Peel-Peel 1 garlic clove
+  end_time: 143.28039843630575
+  start_time: 98.17360633598726
+  step_id: 14
+- description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in
+    a small bowl
+  end_time: 321.05422612579616
+  start_time: 161.85378341878982
+  step_id: 23
+- description: Peel-Peel one medium onion
+  end_time: 429.8411953089171
+  start_time: 329.0142482611465
+  step_id: 17
+- description: Cut-Cut 1/8 garlic clove
+  end_time: 451.06792100318467
+  start_time: 435.14787673248406
+  step_id: 16
+- description: Mince-Mince 1/8 garlic clove
+  end_time: 498.82805381528664
+  start_time: 456.37460242675155
+  step_id: 26
+- description: cut-Cut onion into two pieces
+  end_time: 525.361460933121
+  start_time: 504.1347352388535
+  step_id: 27
+- description: Cut-Cut 1/4 medium carrot into short, thin strips
+  end_time: 665.9885186576433
+  start_time: 533.3214830684713
+  step_id: 22
+- description: Slice-Slice 1/8 medium onion
+  end_time: 727.0153550286625
+  start_time: 663.3351779458599
+  step_id: 19
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
+    powder
+  end_time: 803.9622356703823
+  start_time: 727.0153550286624
+  step_id: 24
+- description: Pour-Pour the sauces over the meatballs
+  end_time: 841.1090056353504
+  start_time: 806.6155763821656
+  step_id: 15
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 1204.6
+  errors:
+  - description: Microwave the plate, covered, on high for 5 minutes instead of 1.5
+      minutes
+    tag: Timing Error
+  modified_description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  start_time: 843
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 1219.2
+  start_time: 1207.6
+  step_id: 18
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 1564.8
+  errors:
+  - description: Microwave the plate, covered, on high for 5 minutes instead of 1.5
+      minutes
+    tag: Timing Error
+  modified_description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  start_time: 1228.8
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 1602.6177899171973
+  start_time: 1562.8176792404458
+  step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: 1653.0312634410827
+  start_time: 1597.3111084936306
+  step_id: 25

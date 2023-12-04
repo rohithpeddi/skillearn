@@ -1,0 +1,106 @@
+activity_id: 23
+is_error: false
+recording_id: '23_17'
+step_annotations:
+- description: Add-Add 1 tablespoon honey to the bowl
+  end_time: 54.083793626644734
+  start_time: 5.215048889802631
+  step_id: 252
+- description: Add-Add 1 teaspoon cornstarch to the bowl
+  end_time: 117.50918573190788
+  start_time: 60.32235678453947
+  step_id: 254
+- description: Add-Add 1/8 teaspoon black pepper to the bowl
+  end_time: 154.94056467927632
+  start_time: 124.78750941611843
+  step_id: 268
+- description: Peel-Peel 2 cloves of garlic
+  end_time: 239.1611673108552
+  start_time: 158.05984625822367
+  step_id: 257
+- description: mince-mince garlic
+  end_time: 362.89266994243417
+  start_time: 242.2804488898026
+  step_id: 262
+- description: Add-Add 1/8 cup soy sauce to the bowl
+  end_time: 429.43734362664475
+  start_time: 367.0517120476974
+  step_id: 250
+- description: Take-Take 2 cremini mushrooms
+  end_time: 450.2325541529605
+  start_time: 433.5963857319079
+  step_id: 270
+- description: Add-Add 1/2 tablespoon minced ginger to the bowl
+  end_time: 555.2483673108552
+  start_time: 453.3518357319079
+  step_id: 267
+- description: Add-Add 1/6 cup water the bowl
+  end_time: 593.7195067845396
+  start_time: 558.3676488898026
+  step_id: 269
+- description: Take-Take 5 in number broccoli florets
+  end_time: 649.866575205592
+  start_time: 599.9580699424341
+  step_id: 273
+- description: Add-Add 2 cloves minced garlic to the bowl
+  end_time: 677.9401094161184
+  start_time: 658.1846594161184
+  step_id: 255
+- description: Take-Take 1 bell pepper
+  end_time: 745.5245436266446
+  start_time: 686.2581936266447
+  step_id: 271
+- description: slice-slice 1/3 of the bell pepper
+  end_time: 1059.5322225740128
+  start_time: 1013.7827594161184
+  step_id: 263
+- description: Whisk-Whisk the contents of bowl
+  end_time: 791
+  start_time: 774.6378383634868
+  step_id: 260
+- description: Set-Set aside the sauce mixture
+  end_time: 798
+  start_time: 792
+  step_id: 251
+- description: slice-slice mushrooms
+  end_time: 895.2500594161185
+  start_time: 797.5125699424342
+  step_id: 259
+- description: Heat-Heat 2 tablespoons olive oil in a skillet over medium-high heat
+  end_time: 1006.5044357319077
+  start_time: 900.4488620476973
+  step_id: 266
+- description: Add-Add broccoli to the skillet
+  end_time: 1180.1444436266447
+  start_time: 1165.5877962582238
+  step_id: 265
+- description: Add-add sliced mushrooms to the skillet
+  end_time: 1195.7408515213817
+  start_time: 1183.263725205592
+  step_id: 258
+- description: cook-cook, stirring often, for 4 minutes. If the pan gets too hot on
+    medium-high, turn the heat down to medium
+  end_time: 1370.4206199424339
+  start_time: 1199.8998936266446
+  step_id: 253
+- description: Add-Add bell pepper to the skillet
+  end_time: 1378.7387041529605
+  start_time: 1372.5001409950657
+  step_id: 261
+- description: continue cooking-continue cooking, stirring often, for 2-3 minutes,
+    until vegetables are crisp-tender
+  end_time: 1487.9135594161185
+  start_time: 1384.977267310855
+  step_id: 274
+- description: Whisk-Whisk the sauce again to recombine the ingredients
+  end_time: 1502.4702067845392
+  start_time: 1487.9135594161182
+  step_id: 272
+- description: Pour-Pour the sauce into the skillet
+  end_time: 1512.867812047697
+  start_time: 1500.3906857319078
+  step_id: 256
+- description: cook-cook, stirring, for 1 minute until the sauce thickens
+  end_time: 1574.2136831003288
+  start_time: 1513.907572574013
+  step_id: 264

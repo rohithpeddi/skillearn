@@ -1,0 +1,68 @@
+activity_id: 8
+is_error: true
+recording_id: '8_35'
+step_annotations:
+- description: Fill-Fill a microwave-safe mug with skimmed milk
+  end_time: 87.68161298820293
+  errors:
+  - description: Spill some while filling the mug.
+    tag: Technique Error
+  modified_description: Fill-Fill a microwave-safe mug with skimmed milk and spill
+    some.
+  start_time: 7.557960294593906
+  step_id: 88
+- description: Add-Add 1 teaspoon of white sugar to the mug
+  end_time: 145.4138071849448
+  errors:
+  - description: Using tablespoon instead of teaspoon.
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add 1 tablespoon of white sugar to the mug.
+  start_time: 87.41183637980694
+  step_id: 87
+- description: Microwave-Microwave the contents of the mug for 1 minute
+  end_time: 224.45835344496987
+  errors:
+  - description: Microwaving for less than a minutes.
+    tag: Timing Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Microwave-Microwave the contents of the mug for 45 seconds.
+  start_time: 148.65112648569666
+  step_id: 89
+- description: Add-Add 1/5 teaspoon cinnamon to the mug
+  end_time: 286.7767499844436
+  errors:
+  - description: Adding 1/4 teaspoon instead of 1/5 teaspoon.
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add 1/4 teaspoon cinnamon to the mug.
+  start_time: 230.3934388296816
+  step_id: 84
+- description: Mix-Mix the contents of the mug
+  end_time: 297.29803771188716
+  errors:
+  - description: Not mixing the contents of the mug thoroughly.
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Mix-Mix the contents of the mug only once.
+  start_time: 286.7767499844435
+  step_id: 85
+- description: Add-Add 2 pieces of chocolate to the mug
+  end_time: 335.33653949572175
+  errors:
+  - description: Adding only one piece instead of two.
+    tag: Measurement Error
+  modified_description: Add-Add 1 piece of chocolate to the mug.
+  start_time: 299.99580379584705
+  step_id: 90
+- description: Heat-Heat the contents of the mug for 1 minute and serve
+  end_time: 414.6508623641428
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 338.5738587964736
+  step_id: 83

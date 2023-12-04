@@ -1,0 +1,164 @@
+activity_id: 16
+is_error: true
+recording_id: '16_39'
+step_annotations:
+- description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium
+    heat
+  end_time: 53.936
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 8.172
+  step_id: 173
+- description: Add-Add 1/8 tsp of turmeric to the pan
+  end_time: 115.936
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 64.2
+  step_id: 168
+- description: Chop-Chop 1 green chilli
+  end_time: 153.735
+  errors:
+  - description: Chop, but all connected
+    tag: Technique Error
+  start_time: 120.147
+  step_id: 161
+- description: add-add 1 tbsp milk to the bowl
+  end_time: 227.603
+  errors:
+  - description: A cup, not bowl
+    tag: Preparation Error
+  start_time: 159.543
+  step_id: 177
+- description: add-add 1/3 tsp salt to the pan
+  end_time: 271.809
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 240.761
+  step_id: 178
+- description: Crack-Crack one egg in the bowl
+  end_time: 286.03
+  start_time: 271.967
+  step_id: 167
+- description: Chop-Chop 1/4 tomato
+  end_time: 316.405
+  start_time: 296.78499999999997
+  step_id: 169
+- description: Peel-Peel 2 garlic cloves
+  end_time: 407.463
+  errors:
+  - description: One clove is not well peeled
+    tag: Technique Error
+  start_time: 324.212
+  step_id: 176
+- description: Cook-Cook for 1 minute, mixing everything
+  end_time: 506.043847141503
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 446.03611218377057
+  step_id: 165
+- description: add-add 1/3 tsp salt to the bowl
+  end_time: 525.3445806074404
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 513.7641405278779
+  step_id: 164
+- description: Mince-Mince peeled garlic cloves
+  end_time: 568.5080390858093
+  errors:
+  - description: cut the garlic cloves instead of mince
+    tag: Technique Error
+  modified_description: cut-Cut the peeled garlic cloves instead of mincing
+  start_time: 536.5740982603494
+  step_id: 180
+- description: Add-Add chilli to the pan
+  end_time: 445.336
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 424.927
+  step_id: 162
+- description: Chop-Chop 1 tsp cilantro
+  end_time: 621.8482479371271
+  errors:
+  - description: chop 1 tbsp cilantro instead of 1 tsp cilantro
+    tag: Measurement Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Chop-chop 1 tbsp cilantro instead of 1 tsp cilantro
+  start_time: 592.370764098241
+  step_id: 158
+- description: pour-Slowly pour the whisked eggs into the pan
+  end_time: 640.201
+  errors:
+  - description: whisk the eggs while pouring into the pan
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: pour- instead of directly pouring eggs into pan, whisk the
+    eggs as you Slowly pour the eggs into the pan
+  start_time: 626.059317056968
+  step_id: 172
+- description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs are
+    almost cooked
+  end_time: 685.3652071613936
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 650.6238869227064
+  step_id: 171
+- description: Add-Add garlic to the pan
+  end_time: 587.4578501250933
+  errors:
+  - description: spill and re-add the spilled garlic into the pan
+    tag: Preparation Error
+  - description: spill and re-add the spilled garlic into the pan
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add garlic to the pan. spill some out while adding and
+    readd the spilled garlic into the pan.
+  start_time: 575.5264876188775
+  step_id: 160
+- description: Add-Add tomatoes to the pan
+  end_time: 445.964
+  errors:
+  - description: added chopped  tomato, garlic full cloves to the pan
+    tag: Other
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add chopped tomatoes and full cloves of garlic to the
+    pan
+  start_time: 424.27892173125935
+  step_id: 175
+- description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
+  end_time: 692.3836556944618
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 685.47
+  step_id: 174
+- description: Chop-Chop 1/4 medium onion
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 163
+- description: Whisk-Whisk the egg mixture in the bowl
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 159
+- description: Cook-Cook covered for 1 minute or until the tomatoes soften
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 170
+- description: add-add chopped onions to the pan
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 179
+- description: Saute-Saute the onions on medium heat until they are soft and translucent
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 166

@@ -1,0 +1,118 @@
+activity_id: 3
+is_error: true
+recording_id: '3_49'
+step_annotations:
+- description: Take-Take a microwavable mug
+  end_time: 24.842771632239383
+  errors:
+  - description: Take-Take a microwavable mug without cleaning in the sink
+    tag: Preparation Error
+  modified_description: Take-Take a microwavable mug (not washed)
+  start_time: 6.022490092664093
+  step_id: 36
+- description: add-Measure 1/8 teaspoon of baking powder and add it to the mug
+  end_time: 45.16867569498069
+  errors:
+  - description: add-Measure 1/4 teaspoon of baking powder and add it to the mug
+    tag: Measurement Error
+  modified_description: add-Measure 1/4 teaspoon of baking powder and add it to the
+    mug
+  start_time: 27.101205416988414
+  step_id: 40
+- description: add-Measure 4 tablespoons of flour and add it to the mug
+  end_time: 117.4385568069498
+  errors:
+  - description: add-Measure 5 tablespoons of flour and add it to the mug
+    tag: Measurement Error
+  modified_description: add-Measure 5 tablespoons of flour and add it to the mug
+  start_time: 61.73052344980695
+  step_id: 33
+- description: add-Measure 1/16 teaspoon of baking soda and add it to the mug
+  end_time: 141.52851717760618
+  start_time: 118.94417933011583
+  step_id: 35
+- description: add-Measure 1/8 teaspoon of salt and add it to the mug
+  end_time: 162.6072325019305
+  errors:
+  - description: add-Measure 1/4 teaspoon of salt and add it to the mug
+    tag: Measurement Error
+  modified_description: add-Measure 1/4 teaspoon of salt and add it to the mug
+  start_time: 150.56225231660233
+  step_id: 28
+- description: Stir-Stir the contents in the mug well
+  end_time: 209.2815307200772
+  start_time: 173.89940142567568
+  step_id: 38
+- description: Add-1 tablespoon of olive oil to the mug
+  end_time: 246.9220937992278
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 215.30402081274133
+  step_id: 34
+- description: Add-Add in 3 tablespoons of milk to the mug
+  end_time: 351.56285915926645
+  errors:
+  - description: Add-Add in 3 tablespoons of curd to the mug
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add in 3 tablespoons of curd to the mug
+  start_time: 308.65261724903473
+  step_id: 41
+- description: Sprinkle-Sprinkle dried Italian herbs inside the mug
+  end_time: 383.18093214575293
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 356.07972672876446
+  step_id: 29
+- description: Take-Take 1 tablespoon of marinara sauce
+  end_time: 459.214869565637
+  errors:
+  - description: Take-Take 1 tablespoon of tomato ketchup
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Take-Take 1 tablespoon of tomato ketchup
+  start_time: 424.5855515328185
+  step_id: 30
+- description: spread-spread marinara sauce around the surface of the batter
+  end_time: 469.7542272277992
+  errors:
+  - description: spread-spread tomato ketchup on the edge of batter
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: spread-spread tomato ketchup on the edge of batter
+  start_time: 457.7092470424711
+  step_id: 31
+- description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
+    of the sauce
+  end_time: 541.2712970781854
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 508.9004128301158
+  step_id: 39
+- description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps,
+    but that is ok.)
+  end_time: 593.9680853889961
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 547.2937871708494
+  step_id: 37
+- description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
+    the toppings are bubbling
+  end_time: 765.6090530299227
+  errors:
+  - description: Microwave-Microwave for 2 minutes, or until it rises and the toppings
+      are bubbling
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Microwave-Microwave for 2 minutes, or until it rises and the
+    toppings are bubbling
+  start_time: 616.5524232364864
+  step_id: 32

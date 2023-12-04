@@ -1,0 +1,82 @@
+activity_id: 27
+is_error: true
+recording_id: '27_29'
+step_annotations:
+- description: Chop-Chop 1/4 red bell pepper into tiny bits
+  end_time: 165.17902668152865
+  start_time: 45.04882545859872
+  step_id: 321
+- description: Add-Add 1/3 cup cheddar cheese to a microwave-safe cup
+  end_time: 301.5768593200637
+  errors:
+  - description: Add-Add 1/2 cup cheddar cheese to a microwave-safe cup
+    tag: Measurement Error
+  modified_description: Add-Add 1/2 cup cheddar cheese to a microwave-safe cup
+  start_time: 211.47920840286622
+  step_id: 316
+- description: Melt-Melt the cheese by microwaving cup for 30 sec. (Check after 30
+    seconds and microwave for 10 seconds more if needed)
+  end_time: 391.6745102372612
+  errors:
+  - description: Melt-Melt the cheese by microwaving cup for 60 sec. (Check after
+      1 minute and microwave for 20 seconds more if needed).
+    tag: Timing Error
+  modified_description: Melt-Melt the cheese by microwaving cup for 60 sec. (Check
+    after 1 minute and microwave for 20 seconds more if needed).
+  start_time: 304.0795718455414
+  step_id: 323
+- description: Place-Place the chopped pepper in the microwave-safe bowl
+  end_time: 432.9692669076433
+  errors:
+  - description: Place-Place the chopped pepper in the microwave-safe bowl.  Should
+      have covered the complete base of the bowl but put in just one side instead.
+      wrong technique.
+    tag: Technique Error
+  modified_description: Place-Place the chopped pepper in the microwave-safe bowl
+    in one side only.
+  start_time: 405.43942912738856
+  step_id: 322
+- description: Microwave-Microwave the bowl, covered, for 2 minutes
+  end_time: 513.0560677229299
+  errors:
+  - description: Microwave-Microwave the bowl, covered, for 1 minutes
+    tag: Timing Error
+  modified_description: Microwave-Microwave the bowl, covered, for 1 minutes
+  start_time: 434.22062317038217
+  step_id: 318
+- description: Mix-Mix the cheese and red bell pepper in the bowl
+  end_time: 555.602180656051
+  start_time: 519.3128490366242
+  step_id: 317
+- description: Add-Add 1/4 teaspoon pepper to the bowl
+  end_time: 625.6781313694268
+  errors:
+  - description: Add-Add 1/2 teaspoon pepper to the bowl
+    tag: Measurement Error
+  modified_description: Add-Add 1/2 teaspoon pepper to the bowl
+  start_time: 563.1103182324841
+  step_id: 319
+- description: add-add 1/2 tbsp softened butter to the bowl
+  end_time: 690.7486570318471
+  errors:
+  - description: add-add 1/4 tbsp softened butter to the bowl
+    tag: Measurement Error
+  modified_description: add-add 1/4 tbsp softened butter to the bowl
+  start_time: 656.962037937898
+  step_id: 314
+- description: Add-Add 1/4 teaspoon salt to the bowl
+  end_time: 723.2839198630572
+  errors:
+  - description: Add-Add 1/2 teaspoon salt to the bowl
+    tag: Measurement Error
+  modified_description: Add-Add 1/2 teaspoon salt to the bowl
+  start_time: 703.2622196592356
+  step_id: 315
+- description: Mix-Mix all the ingredients of the bowl well
+  end_time: 782.0976642117835
+  start_time: 725.786632388535
+  step_id: 324
+- description: Add-Add 1 tablespoons of water to the bowl
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 320

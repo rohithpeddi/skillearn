@@ -1,0 +1,65 @@
+activity_id: 4
+is_error: false
+recording_id: '4_2'
+step_annotations:
+- description: Peel-Peel 1 garlic clove
+  end_time: 44.490563868905745
+  start_time: 20.98611503250271
+  step_id: 14
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 146.90280522751897
+  start_time: 122.55891178981582
+  step_id: 51
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 90.178
+  start_time: 73.87112491440953
+  step_id: 44
+- description: Peel-Peel 1 medium onion
+  end_time: 212.37948412892743
+  start_time: 167.04947565872155
+  step_id: 47
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: 252.636
+  start_time: 230.00782075622968
+  step_id: 46
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 277.8561630303359
+  start_time: 267.78282781473456
+  step_id: 54
+- description: Add-Add the noodles to the bowl
+  end_time: 287.92949824593717
+  start_time: 283.892
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 314.47
+  start_time: 302.200056468039
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 329.9017283109426
+  start_time: 324.8650607031419
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 584.647
+  start_time: 330.7411729122427
+  step_id: 45
+- description: Add-Add basil to the bowl
+  end_time: 663.776
+  start_time: 657.684
+  step_id: 50
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 711.8490219024919
+  start_time: 588.450665511376
+  step_id: 48
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 719.4040233141928
+  start_time: 714.3673557063922
+  step_id: 53
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 732.8351369349946
+  start_time: 727.798469327194
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 766.894
+  start_time: 742.0690275492957
+  step_id: 43

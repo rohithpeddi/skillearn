@@ -1,0 +1,86 @@
+activity_id: 18
+is_error: true
+recording_id: '18_27'
+step_annotations:
+- description: Peel-Peel 1 garlic cloves
+  end_time: 23.19
+  errors:
+  - description: Do not peel garlic properly
+    tag: Technique Error
+  modified_description: Peel-Do not peel 1 garlic cloves
+  start_time: 5.098
+  step_id: 200
+- description: Heat-Heat a large pan on medium heat
+  end_time: 46.461
+  errors:
+  - description: Heat-Heat a large pan on high heat
+    tag: Temperature Error
+  modified_description: Heat-Heat a large pan on high heat
+  start_time: 24.265
+  step_id: 196
+- description: Melt-Melt 1 tablespoons of softened butter
+  end_time: 112.042
+  start_time: 54.113
+  step_id: 204
+- description: Add-Add 1 large minced garlic cloves to the pan
+  end_time: 146.201
+  errors:
+  - description: Add un peeled not minced garlic clove to the pan
+    tag: Preparation Error
+  modified_description: Add-Add 1 large garlic clove to the pan
+  start_time: 117.80799999999999
+  step_id: 199
+- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+  end_time: 191.256
+  errors:
+  - description: Grate 1 medium zucchini into thin noodles
+    tag: Technique Error
+  modified_description: Grate -Grate 1 medium zucchini into thin noodles using a grater
+  start_time: 150.126
+  step_id: 203
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
+    burn garlic
+  end_time: 435.985
+  errors:
+  - description: Wash all dishes while cooking for 3 minutes to burn the garlic
+    tag: Timing Error
+  modified_description: Cook-Wash all dishes while cooking for 3 minutes to burn the
+    garlic
+  start_time: 195.548
+  step_id: 202
+- description: season-pepper to taste
+  end_time: 458.23
+  start_time: 442.212
+  step_id: 194
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 510.178
+  errors:
+  - description: Add-1 cup grated parmesan cheese
+    tag: Measurement Error
+  modified_description: Add-1 cup grated parmesan cheese
+  start_time: 476.49
+  step_id: 193
+- description: Add-Add the zucchini noodles
+  end_time: 531.033
+  start_time: 518.962
+  step_id: 201
+- description: season-season with salt
+  end_time: 623.696
+  errors:
+  - description: Drop salt spoon while seasoning
+    tag: Technique Error
+  modified_description: season-season with salt (drop the spoon)
+  start_time: 577.389
+  step_id: 198
+- description: Remove-Remove from heat
+  end_time: 652.028
+  start_time: 647.88
+  step_id: 197
+- description: Top-Top with more parmesan if desired
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 195
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 192

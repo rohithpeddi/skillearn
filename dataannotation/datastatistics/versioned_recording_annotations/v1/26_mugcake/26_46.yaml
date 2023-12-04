@@ -1,0 +1,146 @@
+activity_id: 26
+is_error: true
+recording_id: '26_46'
+step_annotations:
+- description: Measure and add-1.5 tbsp sugar to the mixing bowl
+  end_time: 77.934
+  errors:
+  - description: Used a mug instead of mixing bowl
+    tag: Preparation Error
+  start_time: 0
+  step_id: 297
+- description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
+  end_time: 103.62641139168278
+  errors:
+  - description: Did not clean the measuring cup before scooping flour and adding
+      it to the cup
+    tag: Preparation Error
+  start_time: 78.447
+  step_id: 299
+- description: Measure and add-1/4 tsp baking powder to the bowl
+  end_time: 138.002
+  errors:
+  - description: Spill powder while opening the cup
+    tag: Technique Error
+  start_time: 106.70920336363567
+  step_id: 304
+- description: Place-Place the paper cupcake liner inside the mug
+  end_time: 181.0359945652913
+  start_time: 140.11741264939727
+  step_id: 303
+- description: Measure and add-a pinch of salt to the mixing bowl
+  end_time: 198.6465234911191
+  errors:
+  - description: Dropping salt outside while adding it to the bowl
+    tag: Technique Error
+  start_time: 183.10782149774164
+  step_id: 310
+- description: Whisk-Whisk to combine mixture of flour, sugar and baking powder in
+    the bowl
+  end_time: 244.74467273813897
+  start_time: 210.04157161959594
+  step_id: 308
+- description: Set-Set aside the lined mug
+  end_time: 253.54993720105287
+  start_time: 249.442
+  step_id: 301
+- description: Measure and add-2 tbsp water to the bowl
+  end_time: 278.34000000000003
+  errors:
+  - description: Dropping and adding water while measuring
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 253.54993720105287
+  step_id: 296
+- description: Measure and add-1/4 tsp vanilla extract to the bowl
+  end_time: 310.525177843437
+  errors:
+  - description: Spilling vanilla extract while measuring and adding it to the mug
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 279.96573058979465
+  step_id: 313
+- description: Whisk-Whisk batter until no lumps remain
+  end_time: 347.3001058944304
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 313.1149615089999
+  step_id: 294
+- description: Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+  end_time: 397.541909006351
+  errors:
+  - description: Dropping the vegetable oil bottle and spilling the oil on the kitchen
+      top
+    tag: Technique Error
+  - description: Adding more than 2 tsp oil to the mug
+    tag: Measurement Error
+  start_time: 358.6951540229072
+  step_id: 300
+- description: Pour-Pour batter into prepared mug
+  end_time: 422.84505459803603
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 404.27534653681454
+  step_id: 307
+- description: Microwave-Microwave the mug and batter on high power for 60 seconds.
+    Check if the cake is done by inserting and toothpick into the center of the cake
+    and then removing it. If wet batter clings to the toothpick, microwave for an
+    additional 5 seconds. If the toothpick comes out clean, continue
+  end_time: 561.7346349316547
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 423.4109977823741
+  step_id: 312
+- description: Invert-Invert the mug to release the cake onto a plate
+  end_time: 597.3705550107915
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 578.1459139154676
+  step_id: 309
+- description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
+    4 spoonfuls of chocolate frosting into a zip-top bag
+  end_time: 717.5941287107629
+  errors:
+  - description: Using only 1.5 spoons of frosting instead of 4 spoons
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 604.2476576246512
+  step_id: 298
+- description: cut-Use scissors to cut one corner from the bag to create a small opening
+    1/4 inch in diameter
+  end_time: 725.1238913036825
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 717.9642924596453
+  step_id: 306
+- description: Squeeze-Squeeze the frosting through the opening to apply small dollops
+    of frosting to the plate in a circle around the base of the cake
+  end_time: 782.114667
+  errors:
+  - description: Squeezing on top of the cake instead of a circle around the base
+      of the cake
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 731.4284032674154
+  step_id: 302
+- description: remove-then carefully remove the paper liner
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 295
+- description: Allow-Allow to cool until it is no longer hot to the touch
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 305
+- description: seal-seal zip top bag, removing as much air as possible
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 311

@@ -1,0 +1,156 @@
+activity_id: 26
+is_error: true
+recording_id: '26_30'
+step_annotations:
+- description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
+  end_time: 41.46574633392064
+  errors:
+  - description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl (without
+      cleaning bowl first)
+    tag: Preparation Error
+  modified_description: Measure and add-Measure and add 2 tbsp flour to the mixing
+    bowl (without cleaning bowl first)
+  start_time: 3.5251930953664266
+  step_id: 299
+- description: Measure and add-1.5 tbsp sugar to the mixing bowl
+  end_time: 91.35054781424193
+  errors:
+  - description: Measure and add-1.5 tbsp salt to the mixing bowl
+    tag: Preparation Error
+  modified_description: Measure and add-1.5 tbsp salt to the mixing bowl
+  start_time: 54.815200251189715
+  step_id: 297
+- description: Measure and add-a pinch of salt to the mixing bowl
+  end_time: 122.96767551303711
+  errors:
+  - description: Measure and add-a pinch of sugar to the mixing bowl
+    tag: Preparation Error
+  modified_description: Measure and add-a pinch of sugar to the mixing bowl
+  start_time: 92.75575348974394
+  step_id: 310
+- description: Whisk-Whisk to combine mixture of flour, sugar and baking powder in
+    the bowl
+  end_time: 211.49563306966363
+  start_time: 167.93425712910138
+  step_id: 308
+- description: Measure and add-1/4 tsp vanilla extract to the bowl
+  end_time: 278.242902656009
+  errors:
+  - description: Measure and add-1/2 tsp vanilla extract to the bowl
+    tag: Measurement Error
+  modified_description: Measure and add-1/2 tsp vanilla extract to the bowl
+  start_time: 222.03467563592866
+  step_id: 313
+- description: Measure and add-2 tbsp water to the bowl
+  end_time: 343.58496656685236
+  errors:
+  - description: Measure and add-2 tbsp milk to the bowl
+    tag: Preparation Error
+  modified_description: Measure and add-2 tbsp milk to the bowl
+  start_time: 286.674136709021
+  step_id: 296
+- description: Place-Place the paper cupcake liner inside the mug
+  end_time: 387.19710837233066
+  start_time: 344.27142071354314
+  step_id: 303
+- description: Set-Set aside the lined mug
+  end_time: 391.735012441214
+  start_time: 386.361
+  step_id: 301
+- description: Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+  end_time: 430.00511561022586
+  errors:
+  - description: Measure and add-Measure and add 2 tsp olive oil to the bowl
+    tag: Preparation Error
+  modified_description: Measure and add-Measure and add 2 tsp olive oil to the bowl
+  start_time: 399.7931935869327
+  step_id: 300
+- description: Whisk-Whisk batter until no lumps remain
+  end_time: 498.15759087207323
+  errors:
+  - description: Whisk-Whisk batter with a spoon until no lumps remain
+    tag: Preparation Error
+  modified_description: Whisk-Whisk batter with a spoon until no lumps remain
+  start_time: 447.57018655400094
+  step_id: 294
+- description: Pour-Pour batter into prepared mug
+  end_time: 580.3621228889407
+  start_time: 518.5330731668524
+  step_id: 307
+- description: Invert-Invert the mug to release the cake onto a plate
+  end_time: 627.4365130182581
+  errors:
+  - description: Invert-Invert the mug to release the cake onto a bowl
+    tag: Preparation Error
+  modified_description: Invert-Invert the mug to release the cake onto a bowl
+  start_time: 599.3323995082178
+  step_id: 309
+- description: Allow-Allow to cool until it is no longer hot to the touch
+  end_time: -1.0
+  errors:
+  - description: Allow-No time to allow for cooling so that it is still hot to the
+      touch
+    tag: Timing Error
+  modified_description: Allow-No time to allow for cooling so that it is still hot
+    to the touch
+  start_time: -1.0
+  step_id: 305
+- description: remove-then carefully remove the paper liner
+  end_time: 649.9198038262901
+  errors:
+  - description: remove- remove the paper liner by pulling strongly (not carefully)
+    tag: Technique Error
+  modified_description: remove- remove the paper liner by pulling strongly (not carefully)
+  start_time: 635.8677470712701
+  step_id: 295
+- description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
+    4 spoonfuls of chocolate frosting into a zip-top bag
+  end_time: 751.0946124624347
+  errors:
+  - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
+      2 spoonfuls of chocolate frosting into a polythene
+    tag: Measurement Error
+  - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
+      2 spoonfuls of chocolate frosting into a polythene
+    tag: Preparation Error
+  modified_description: Scoop-While the cake is cooling, prepare to pipe the frosting.
+    Scoop 2 spoonfuls of chocolate frosting into a polythene
+  start_time: 659.7562435548042
+  step_id: 298
+- description: cut-Use scissors to cut one corner from the bag to create a small opening
+    1/4 inch in diameter
+  end_time: 786.0747765469721
+  errors:
+  - description: cut-Use knife to cut one corner from the bag to create a small opening
+      1/4 inch in diameter
+    tag: Preparation Error
+  modified_description: cut-Use knife to cut one corner from the bag to create a small
+    opening 1/4 inch in diameter
+  start_time: 752.9855286166986
+  step_id: 306
+- description: Squeeze-Squeeze the frosting through the opening to apply small dollops
+    of frosting to the plate in a circle around the base of the cake
+  end_time: 866.3214778535994
+  errors:
+  - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
+      of frosting to the bowl in a square around the base of the cake
+    tag: Technique Error
+  modified_description: Squeeze-Squeeze the frosting through the opening to apply
+    small dollops of frosting to the bowl in a square around the base of the cake
+  start_time: 787.44
+  step_id: 302
+- description: Measure and add-1/4 tsp baking powder to the bowl
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 304
+- description: Microwave-Microwave the mug and batter on high power for 60 seconds.
+    Check if the cake is done by inserting and toothpick into the center of the cake
+    and then removing it. If wet batter clings to the toothpick, microwave for an
+    additional 5 seconds. If the toothpick comes out clean, continue
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 312
+- description: seal-seal zip top bag, removing as much air as possible
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 311

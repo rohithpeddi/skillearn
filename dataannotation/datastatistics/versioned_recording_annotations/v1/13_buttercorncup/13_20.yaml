@@ -1,0 +1,53 @@
+activity_id: 13
+is_error: false
+recording_id: '13_20'
+step_annotations:
+- description: Measure-Measure 2 cups of frozen corn
+  end_time: 89.07923946695557
+  start_time: 49.841955416034665
+  step_id: 129
+- description: Thaw-Thaw the frozen corn by putting it in a sieve and running it under
+    cold water
+  end_time: 134.67932633694474
+  start_time: 98.62344369555795
+  step_id: 137
+- description: Add-Add the corn into a microwave-safe bowl
+  end_time: 172.85614325135427
+  start_time: 156.94913620368362
+  step_id: 132
+- description: Microwave-Microwave the corn for 2 minutes
+  end_time: 325.526
+  start_time: 184.52128175297943
+  step_id: 133
+- description: Add-1 teaspoon of pepper powder to the bowl
+  end_time: 464.48460579198263
+  start_time: 447.51713160780065
+  step_id: 130
+- description: Add-Add 1 teaspoon of softened butter
+  end_time: 513.2660940715059
+  start_time: 474.028810020585
+  step_id: 138
+- description: stir-then stir the bowl
+  end_time: 560.9871152145179
+  start_time: 515.3870283445287
+  step_id: 135
+- description: Microwave-Microwave the corn for 3 more minutes
+  end_time: 771.354
+  start_time: 569.4708523066089
+  step_id: 134
+- description: Extract-Extract lime juice from 1/3 lime
+  end_time: 870.324
+  start_time: 823.982965069339
+  step_id: 131
+- description: add-add lime juice to the bowl
+  end_time: 878.0667890314193
+  start_time: 870.6435190758397
+  step_id: 128
+- description: Add-Add 1 teaspoon salt to the bowl
+  end_time: 933.2110801300108
+  start_time: 909.8808031267605
+  step_id: 136
+- description: Mix-Mix the contents of the bowl well
+  end_time: 975.843
+  start_time: 935.3320144030336
+  step_id: 76

@@ -1,0 +1,86 @@
+activity_id: 10
+is_error: false
+recording_id: '10_16'
+step_annotations:
+- description: Place-Place 8-inch flour tortilla on cutting board
+  end_time: 54.331
+  start_time: 4.014
+  step_id: 115
+- description: scoop-Use a butter knife to scoop nut butter from the jar
+  end_time: 106.608
+  start_time: 58.904
+  step_id: 113
+- description: Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered
+    at the edges
+  end_time: 186.299
+  start_time: 107.06700000000001
+  step_id: 112
+- description: Clean-Clean the knife by wiping it with a paper towel
+  end_time: 220.112
+  start_time: 193.264
+  step_id: 118
+- description: scoop-Use the knife to scoop jelly from the jar
+  end_time: 260.016
+  start_time: 225.067
+  step_id: 111
+- description: Spread-Spread jelly over the nut butter
+  end_time: 301.615
+  start_time: 260.391
+  step_id: 107
+- description: Clean-Clean the knife by wiping with a paper towel
+  end_time: 332.118
+  start_time: 305.717
+  step_id: 104
+- description: Roll-Roll the tortilla from one end to the other into a log shape,
+    about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight
+    that the filling leaks
+  end_time: 395.122
+  start_time: 372.0827445978215
+  step_id: 116
+- description: Secure-Secure the rolled tortilla by inserting 5 toothpicks about 1
+    inch apart
+  end_time: 493.319
+  start_time: 405.039
+  step_id: 110
+- description: Trim-Trim the ends of the tortilla roll with the butter knife, leaving
+    1/2 inch margin between the last toothpick and the end of the roll
+  end_time: 552.438
+  start_time: 521.099
+  step_id: 114
+- description: Discard-Discard ends of the tortilla
+  end_time: 557.865
+  start_time: 541.749
+  step_id: 103
+- description: Slide-Slide floss under the tortilla, perpendicular to the length of
+    the roll
+  end_time: 629.229
+  start_time: 573.597
+  step_id: 106
+- description: Place-Place the floss halfway between toothpicks
+  end_time: 637.986
+  start_time: 632.946
+  step_id: 117
+- description: Cross-Cross the floss's two ends over the tortilla roll's top
+  end_time: 650.371
+  start_time: 637.946
+  step_id: 105
+- description: pull-pull the floss ends in opposite directions to slice
+  end_time: 700.563
+  start_time: 681.177
+  step_id: 108
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 760.2
+  start_time: 705.1
+  step_id: 102
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 851
+  start_time: 761
+  step_id: 102
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 900.188
+  start_time: 853.279
+  step_id: 102
+- description: Place-Place the pinwheels on a plate
+  end_time: 965.384
+  start_time: 928.144
+  step_id: 109

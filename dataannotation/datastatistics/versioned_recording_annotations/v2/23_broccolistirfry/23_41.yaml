@@ -1,0 +1,183 @@
+activity_id: 23
+is_error: true
+recording_id: '23_41'
+step_annotations:
+- description: Take-Take 5 in number broccoli florets
+  end_time: 44.49503522868377
+  start_time: 10.019799731995032
+  step_id: 273
+- description: Peel-Peel 2 cloves of garlic
+  end_time: 134.01943708298842
+  start_time: 53.39187019557119
+  step_id: 257
+- description: mince-mince garlic
+  end_time: 240.22540450020693
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 142.36021986444536
+  step_id: 262
+- description: Add-Add 2 cloves minced garlic to the bowl
+  end_time: 270.8082746988824
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 256.3509178776904
+  step_id: 255
+- description: Add-Add 1/2 tablespoon minced ginger to the bowl
+  end_time: 288.0458924472268
+  errors:
+  - description: add approximately without measuring
+    tag: Measurement Error
+  modified_description: Add-Add 1/2 tablespoon minced ginger to the bowl approximately
+    without measuring
+  start_time: 271.3643268843129
+  step_id: 267
+- description: Take-Take 1 bell pepper
+  end_time: 313.0682407915977
+  start_time: 297.49877959954466
+  step_id: 271
+- description: Add-Add 1/8 cup soy sauce to the bowl
+  end_time: 347.5434762882864
+  errors:
+  - description: spill extra into bowl while measuring 1/8 cup
+    tag: Technique Error
+  modified_description: Add-Add 1/8 cup soy sauce to the bowl andd add extra as you
+    spilled while measuring
+  start_time: 314.1803451624586
+  step_id: 250
+- description: Add-Add 1/8 teaspoon black pepper to the bowl
+  end_time: 400.36843390418045
+  errors:
+  - description: add more than 1/8 tsp
+    tag: Measurement Error
+  modified_description: Add-Add more than 1/8 teaspoon black pepper to the bowl
+  start_time: 358.6645199968957
+  step_id: 268
+- description: Take-Take 2 cremini mushrooms
+  end_time: 426.50288661941227
+  start_time: 409.8213210564983
+  step_id: 270
+- description: slice-slice 1/3 of the bell pepper
+  end_time: 451.5252349637831
+  errors:
+  - description: slice incorrectly so that all slices are still attached on one end
+      and not fully forming slices
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: slice-slice 1/3 of the bell pepper and all the slices are
+    still attached at one end
+  start_time: 427.05893880484274
+  step_id: 263
+- description: Heat-Heat 2 tablespoons olive oil in a skillet over medium-high heat
+  end_time: 500.45782728166387
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 459.8660177452401
+  step_id: 266
+- description: Whisk-Whisk the contents of bowl
+  end_time: 541.0496368180877
+  errors:
+  - description: whisk with hand
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Whisk-Whisk the contents of bowl with hand
+  start_time: 514.915184102856
+  step_id: 260
+- description: slice-slice mushrooms
+  end_time: 572.7446113876241
+  start_time: 543.82989774524
+  step_id: 259
+- description: Set-Set aside the sauce mixture
+  end_time: 594.9866988048427
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 590.538281321399
+  step_id: 251
+- description: Add-Add 1 tablespoon honey to the bowl
+  end_time: 630.5740386723922
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 595.5427509902731
+  step_id: 252
+- description: Add-Add broccoli to the skillet
+  end_time: 660.6008566856374
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 656.1524392021937
+  step_id: 265
+- description: Add-add sliced mushrooms to the skillet
+  end_time: 668.9416394670943
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 661.7129610564983
+  step_id: 258
+- description: cook-cook, stirring often, for 4 minutes. If the pan gets too hot on
+    medium-high, turn the heat down to medium
+  end_time: 693.4079356260347
+  errors:
+  - description: cook only for 20- 30 sec instead of 4 mins
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: cook-cook, stirring often, for 20-30 sec. If the pan gets
+    too hot on medium-high, turn the heat down to medium
+  start_time: 679.5066309902732
+  step_id: 253
+- description: Add-Add bell pepper to the skillet
+  end_time: 698.412
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 693.9639878114652
+  step_id: 261
+- description: continue cooking-continue cooking, stirring often, for 2-3 minutes,
+    until vegetables are crisp-tender
+  end_time: 743.4526323147765
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 698.616
+  step_id: 274
+- description: Whisk-Whisk the sauce again to recombine the ingredients
+  end_time: 743.4526323147765
+  errors:
+  - description: use a spoon instead of whisker
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Whisk-Whisk the sauce again with spoon to recombine the ingredients
+  start_time: 726.2150145664322
+  step_id: 272
+- description: Pour-Pour the sauce into the skillet
+  end_time: 752.3494672816639
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 744.0086845002069
+  step_id: 256
+- description: cook-cook, stirring, for 1 minute until the sauce thickens
+  end_time: 832.4209819836506
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 753.4615716525248
+  step_id: 264
+- description: Add-Add 1 teaspoon cornstarch to the bowl
+  end_time: 810.1788945664321
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 778.4839199968957
+  step_id: 254
+- description: Add-Add 1/6 cup water the bowl
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 269

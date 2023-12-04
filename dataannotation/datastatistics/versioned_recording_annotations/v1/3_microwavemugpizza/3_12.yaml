@@ -1,0 +1,68 @@
+activity_id: 3
+is_error: true
+recording_id: '3_12'
+step_annotations:
+- description: Take-Take a microwavable mug
+  end_time: 11.467054059845566
+  start_time: 3.185292794401544
+  step_id: 36
+- description: add-Measure 1/8 teaspoon of salt and add it to the mug
+  end_time: 61.15762165250966
+  start_time: 35.03822073841699
+  step_id: 28
+- description: add-Measure 4 tablespoons of flour and add it to the mug
+  end_time: 152.2569955723938
+  start_time: 80.2693784189189
+  step_id: 33
+- description: add-Measure 1/16 teaspoon of baking soda and add it to the mug
+  end_time: 183.47286495752894
+  start_time: 165.6352253088803
+  step_id: 35
+- description: add-Measure 1/8 teaspoon of baking powder and add it to the mug
+  end_time: 225.51872984362936
+  start_time: 208.318148753861
+  step_id: 40
+- description: Stir-Stir the contents in the mug well
+  end_time: 256.0975406698842
+  start_time: 235.074608226834
+  step_id: 38
+- description: Add-Add in 3 tablespoons of milk to the mug
+  end_time: 283.4910587017375
+  start_time: 258.6457749054054
+  step_id: 41
+- description: Add-1 tablespoon of olive oil to the mug
+  end_time: 312.7957524102316
+  start_time: 291.7728199671814
+  step_id: 34
+- description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps,
+    but that is ok.)
+  end_time: 366.30867135617757
+  start_time: 314.06986952799224
+  step_id: 37
+- description: Take-Take 1 tablespoon of marinara sauce
+  end_time: 426.8292344498069
+  start_time: 382.2351353281854
+  step_id: 30
+- description: spread-spread marinara sauce around the surface of the batter
+  end_time: 437.02217139189185
+  start_time: 426.19217589092665
+  step_id: 31
+- description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
+    of the sauce
+  end_time: 501.3650858388031
+  start_time: 452.3115768050193
+  step_id: 39
+- description: Sprinkle-Sprinkle dried Italian herbs inside the mug
+  end_time: 515.3803741341699
+  start_time: 504.5503786332046
+  step_id: 29
+- description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
+    the toppings are bubbling
+  end_time: 645.9773787046331
+  errors:
+  - description: Rose above the brim
+    tag: Other
+  modified_description: Microwave-Microwave for 1 minute 20 seconds, or until it rises
+    and the toppings are bubbling
+  start_time: 516.6544912519305
+  step_id: 32

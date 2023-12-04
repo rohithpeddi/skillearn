@@ -1,0 +1,159 @@
+activity_id: 10
+is_error: true
+recording_id: '10_47'
+step_annotations:
+- description: Place-Place 8-inch flour tortilla on cutting board
+  end_time: 20.672
+  start_time: 2.132
+  step_id: 115
+- description: Spread-Spread jelly over the nut butter
+  end_time: 73.991
+  errors:
+  - description: did not spread the jelly fully over tortilla
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Spread-Spread jelly and did not cover the full surface
+  start_time: 59.208
+  step_id: 107
+- description: scoop-Use the knife to scoop jelly from the jar
+  end_time: 59.16
+  errors:
+  - description: use spoon instead of knife
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: scoop-Use the spoon instead of knife to scoop jelly from the
+    jar
+  start_time: 31.561
+  step_id: 111
+- description: Clean-Clean the knife by wiping with a paper towel
+  end_time: 94.547
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 74.135
+  step_id: 104
+- description: scoop-Use a butter knife to scoop nut butter from the jar
+  end_time: 115.67
+  errors:
+  - description: use spoon instead of butter knife
+    tag: Preparation Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: scoop-Use a spoon instead of butter knife to scoop nut butter
+    from the jar
+  start_time: 95.517
+  step_id: 113
+- description: Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered
+    at the edges
+  end_time: 153.24
+  errors:
+  - description: 'spread the nutbutter around jelly '
+    tag: Technique Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Spread-Spread nut butter around the jelly, leaving 1/2-inch
+    uncovered at the edges
+  start_time: 118.398
+  step_id: 112
+- description: Roll-Roll the tortilla from one end to the other into a log shape,
+    about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight
+    that the filling leaks
+  end_time: 185.00900000000001
+  errors:
+  - description: leakage of filling while rolling
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Roll-Roll the tortilla from one end to the other into a log
+    shape, about 1.5 inches thick. Roll it tight enough to prevent gaps and filling
+    leaked mistakenly while rolling
+  start_time: 162.071
+  step_id: 116
+- description: Slide-Slide floss under the tortilla, perpendicular to the length of
+    the roll
+  end_time: 237.519
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 212.328
+  step_id: 106
+- description: Place-Place the floss halfway between toothpicks
+  end_time: 238.054
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 237.029
+  step_id: 117
+- description: Cross-Cross the floss's two ends over the tortilla roll's top
+  end_time: 248.977
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 238.235
+  step_id: 105
+- description: Trim-Trim the ends of the tortilla roll with the butter knife, leaving
+    1/2 inch margin between the last toothpick and the end of the roll
+  end_time: 281.04200000000003
+  errors:
+  - description: use spoon and fingers of hand instead of butter knife to trim
+    tag: Technique Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Trim-Trim the ends of the tortilla roll with the spoon or
+    hand instead of butter knife, leaving 1/2 inch margin between the last toothpick
+    and the end of the roll
+  start_time: 263.438
+  step_id: 114
+- description: Discard-Discard ends of the tortilla
+  end_time: 304.253
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 296.21500000000003
+  step_id: 103
+- description: Secure-Secure the rolled tortilla by inserting 5 toothpicks about 1
+    inch apart
+  end_time: 347.337
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 308.15510890457097
+  step_id: 110
+- description: Clean-Clean the knife by wiping it with a paper towel
+  end_time: 373.349
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 357.281
+  step_id: 118
+- description: pull-pull the floss ends in opposite directions to slice
+  end_time: 388.344
+  start_time: 382.7064157682379
+  step_id: 108
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 402
+  start_time: 389
+  step_id: 102
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 415
+  start_time: 403
+  step_id: 102
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 429.61161300329496
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 415.98199999999997
+  step_id: 102
+- description: Place-Place the pinwheels on a plate
+  end_time: 456.932
+  errors:
+  - description: use a cup instead of a plate
+    tag: Preparation Error
+  modified_description: Place-Place the pinwheels in a cup instead of a plate
+  start_time: 435.377
+  step_id: 109

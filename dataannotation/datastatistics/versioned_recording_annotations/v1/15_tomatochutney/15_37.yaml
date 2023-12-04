@@ -1,0 +1,134 @@
+activity_id: 15
+is_error: true
+recording_id: '15_37'
+step_annotations:
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 124.045
+  modified_description: Peel-Peel 4 large garlic cloves incompletely
+  start_time: 3.243
+  step_id: 145
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 199.387
+  errors:
+  - description: heart only 2 tbsp oil instead of 3 tbsp
+    tag: Measurement Error
+  modified_description: Heat-Heat 2 tbsp oil in a pan over medium heat
+  start_time: 126.986
+  step_id: 154
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 262.528
+  errors:
+  - description: spill some out while adding
+    tag: Technique Error
+  modified_description: Add-1/2 tsp cumin seeds to the pan and spill some out while
+    adding
+  start_time: 201.035
+  step_id: 141
+- description: mince-mince the garlic
+  end_time: 303.45
+  errors:
+  - description: crush the garlic instead of mincing
+    tag: Technique Error
+  modified_description: Crush the garlic
+  start_time: 263.33
+  step_id: 140
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 362.487
+  start_time: 307.331
+  step_id: 139
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: 377.38
+  start_time: 356.149
+  step_id: 152
+- description: Lower-Lower the heat
+  end_time: 382.35
+  errors:
+  - description: increase the heat instead of reducing
+    tag: Temperature Error
+  modified_description: Higher-increase the heat
+  start_time: 380.072
+  step_id: 151
+- description: Take-Take 1 tomato
+  end_time: 397.112
+  errors:
+  - description: Use a soiled tomato and don't wash it
+    tag: Preparation Error
+  modified_description: Take-Take 1 soiled tomato
+  start_time: 392.15
+  step_id: 149
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: 470.72
+  errors:
+  - description: Don't saute, just leave it in pan for 1 min
+    tag: Timing Error
+  - description: Don't saute, just leave it in pan for 1 min
+    tag: Technique Error
+  - description: Don't saute garlic, just leave it in pan for 1 min
+    tag: Temperature Error
+  modified_description: Leave-Don't saute, just leave it in pan for 1 min, so garlic
+    may be burnt on one side
+  start_time: 408.104
+  step_id: 148
+- description: mix-mix well contents of the pan
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 157
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 466.091
+  start_time: 414.521
+  step_id: 150
+- description: Add-1/2 tsp salt to the pan
+  end_time: 499.431
+  start_time: 471.85
+  step_id: 146
+- description: Add-Add tomato puree to the pan
+  end_time: 523.139
+  start_time: 504.154
+  step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 555.99
+  errors:
+  - description: Spill out while mixing
+    tag: Technique Error
+  modified_description: Mix-Mix well tomato puree with contents in the pan and spill
+    out while mixing
+  start_time: 529.34
+  step_id: 144
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: 604.5
+  errors:
+  - description: Simmer for one min instead of 5 mins
+    tag: Timing Error
+  modified_description: simmer-Allow the mixture to simmer over low heat for 1 minutes
+    or until the mixture becomes thick
+  start_time: 559.241
+  step_id: 153
+- description: Take-Take the pan off the heat
+  end_time: 609.85
+  start_time: 604.433
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 642.377
+  start_time: 610.33
+  step_id: 156
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 147
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 155

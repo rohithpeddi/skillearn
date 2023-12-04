@@ -1,0 +1,97 @@
+activity_id: 26
+is_error: true
+recording_id: '26_24'
+step_annotations:
+- description: Measure and add-1/4 tsp baking powder to the bowl
+  end_time: 133.5651449927096
+  start_time: 3.83807887910085
+  step_id: 304
+- description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
+  end_time: 180.38970731773998
+  start_time: 135.635
+  step_id: 299
+- description: Measure and add-1.5 tbsp sugar to the mixing bowl
+  end_time: 254.08082179647627
+  start_time: 182.924
+  step_id: 297
+- description: Place-Place the paper cupcake liner inside the mug
+  end_time: 306.652
+  errors:
+  - description: Used wrong shaped mug
+    tag: Preparation Error
+  start_time: 262.5245953304982
+  step_id: 303
+- description: Measure and add-a pinch of salt to the mixing bowl
+  end_time: 373.82888282442286
+  start_time: 312.41962075880923
+  step_id: 310
+- description: Whisk-Whisk to combine mixture of flour, sugar and baking powder in
+    the bowl
+  end_time: 425.0326302311814
+  start_time: 387.6459667891859
+  step_id: 308
+- description: Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+  end_time: 477
+  start_time: 425.3360934383702
+  step_id: 300
+- description: Measure and add-1/4 tsp vanilla extract to the bowl
+  end_time: 543.4719692806804
+  start_time: 484.36555454252726
+  step_id: 313
+- description: Measure and add-2 tbsp water to the bowl
+  end_time: 611.7897733286756
+  start_time: 547.3100481597812
+  step_id: 296
+- description: Set-Set aside the lined mug
+  end_time: 613
+  start_time: 611
+  step_id: 301
+- description: Whisk-Whisk batter until no lumps remain
+  end_time: 683.41
+  start_time: 613.3250048803159
+  step_id: 294
+- description: Pour-Pour batter into prepared mug
+  end_time: 757.6367707345079
+  start_time: 684.318
+  step_id: 307
+- description: Microwave-Microwave the mug and batter on high power for 60 seconds.
+    Check if the cake is done by inserting and toothpick into the center of the cake
+    and then removing it. If wet batter clings to the toothpick, microwave for an
+    additional 5 seconds. If the toothpick comes out clean, continue
+  end_time: 912.2497507654472
+  start_time: 762.242465389429
+  step_id: 312
+- description: Invert-Invert the mug to release the cake onto a plate
+  end_time: 931.8855518456866
+  start_time: 917.3008521051033
+  step_id: 309
+- description: Allow-Allow to cool until it is no longer hot to the touch
+  end_time: 963.0500801641513
+  start_time: 932.0084470834234
+  step_id: 305
+- description: remove-then carefully remove the paper liner
+  end_time: 971.2270604102363
+  errors:
+  - description: Flipped the cake after removing the paper liner
+    tag: Other
+  start_time: 963.139011260131
+  step_id: 295
+- description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
+    4 spoonfuls of chocolate frosting into a zip-top bag
+  end_time: 1107.6695645085053
+  start_time: 980.2453457223571
+  step_id: 298
+- description: seal-seal zip top bag, removing as much air as possible
+  end_time: 1156.7969741609963
+  start_time: 1109.9724118359659
+  step_id: 311
+- description: cut-Use scissors to cut one corner from the bag to create a small opening
+    1/4 inch in diameter
+  end_time: 1182.8959105388822
+  start_time: 1158.3322057126368
+  step_id: 306
+- description: Squeeze-Squeeze the frosting through the opening to apply small dollops
+    of frosting to the plate in a circle around the base of the cake
+  end_time: 1255.051793465978
+  start_time: 1190.572068297084
+  step_id: 302

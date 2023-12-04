@@ -1,0 +1,98 @@
+activity_id: 28
+is_error: true
+recording_id: '28_26'
+step_annotations:
+- description: Open-Open a can of tuna
+  end_time: 83.43180405405406
+  start_time: 47.56392567567568
+  step_id: 336
+- description: drain-drain excess water from can
+  end_time: 115.40099999999998
+  start_time: 91.22916891891893
+  step_id: 328
+- description: Add-1/4 cup mayonnaise to the bowl
+  end_time: 222.22489864864863
+  errors:
+  - description: Add-1 cup mayonnaise to the bowl
+    tag: Measurement Error
+  modified_description: Add-1 cup mayonnaise to the bowl
+  start_time: 121.63889189189192
+  step_id: 327
+- description: Chop-Chop 1 scallion
+  end_time: 389.0885067567568
+  errors:
+  - description: Chop-Chop 1 bunch of scallions
+    tag: Measurement Error
+  modified_description: Chop-Chop 1 scallion bunch
+  start_time: 265.8901418918919
+  step_id: 340
+- description: Add-1 tsp Sriracha sauce to the bowl
+  end_time: 437.43216891891893
+  errors:
+  - description: Press the sauce more to spill it
+    tag: Technique Error
+  modified_description: Add-Press the sauce bottle tightly to spill 1 tsp Sriracha
+    sauce to the bowl
+  start_time: 395.32639864864865
+  step_id: 339
+- description: Add-Add 1 can drained tuna to the bowl
+  end_time: 453.8066351351352
+  start_time: 437.43216891891893
+  step_id: 334
+- description: Take-Take 1 ripe avocado
+  end_time: 472.52031081081077
+  start_time: 455.3661081081081
+  step_id: 335
+- description: Add-add chopped scallion to the bowl
+  end_time: 568.4278986486486
+  errors:
+  - description: Drop the chopped scallions while adding to the bowl
+    tag: Technique Error
+  modified_description: Add - Drop while adding chopped scallions to the bowl
+  start_time: 545.035804054054
+  step_id: 333
+- description: Lay-Lay out 2 large lettuce leaves
+  end_time: 608.9741959459459
+  start_time: 578.564472972973
+  step_id: 329
+- description: Mix-Mix the contents of the bowl
+  end_time: 667.4544324324323
+  errors:
+  - description: Spill while mixing the contents with a whisker
+    tag: Technique Error
+  modified_description: Whisk-Whisk the contents of the bowl
+  start_time: 620.6702432432432
+  step_id: 331
+- description: Season-season 1/4 tsp pepper on the bowl
+  end_time: 714.2386216216216
+  start_time: 693.965472972973
+  step_id: 326
+- description: Season-Season bowl with 1/4 tsp salt
+  end_time: 737.6307162162162
+  start_time: 718.9170405405406
+  step_id: 338
+- description: Roll-Roll up the lettuce wraps
+  end_time: 769.5999121621621
+  errors:
+  - description: Roll up so that inside contents spill outside
+    tag: Technique Error
+  modified_description: Roll-Roll up the lettuce wraps to spill the inside contents
+    outside
+  start_time: 750.1065
+  step_id: 330
+- description: secure-secure the wrap with a toothpick
+  end_time: 797.6704256756757
+  start_time: 770.3796486486486
+  step_id: 337
+- description: cut-cut avocado into thin slices
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 341
+- description: top-top lettuce leaves with the tuna mixture
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 332
+- description: place-place avocado slices on each leaf
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 325

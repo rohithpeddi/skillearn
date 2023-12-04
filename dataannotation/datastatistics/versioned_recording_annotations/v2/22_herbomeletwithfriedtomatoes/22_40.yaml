@@ -1,0 +1,129 @@
+activity_id: 22
+is_error: true
+recording_id: '22_40'
+step_annotations:
+- description: Take-Take a tomato
+  end_time: 19.101648677766896
+  errors:
+  - description: two instead of one tomato
+    tag: Measurement Error
+  modified_description: Take-Take two tomatoes
+  start_time: 4.44224387855044
+  step_id: 247
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 71.96435083251714
+  errors:
+  - description: 1 instead of 2 tbsp
+    tag: Measurement Error
+  modified_description: Chop-Chop 1 tbsp cilantro
+  start_time: 26.209238883447597
+  step_id: 237
+- description: Cut-Cut tomato into two pieces
+  end_time: 93.73134583741428
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 77.7392678746327
+  step_id: 246
+- description: crack-crack one egg in a bowl
+  end_time: 122.60593104799216
+  start_time: 99.06203849167481
+  step_id: 239
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 174.58018442703232
+  errors:
+  - description: Splash some pepper outside
+    tag: Technique Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: add-1/2 tsp ground black pepper to the bowl, but splash some
+    pepper outside
+  start_time: 155.03431136141037
+  step_id: 249
+- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+  end_time: 244.76763770812929
+  errors:
+  - description: Close the fire early
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Heat-Heat 1 tbsp oil in a small non-stick frying pan, but
+    close the fire early and heat a short time
+  start_time: 206.12011596474045
+  step_id: 235
+- description: add-add the chopped cilantro to the bowl
+  end_time: 264.3135107737512
+  start_time: 250.54255475024485
+  step_id: 242
+- description: Beat-Beat the contents of the bowl
+  end_time: 288.3016277179237
+  errors:
+  - description: Slowly stir the contents
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Stir the contents of the bowl slowly
+  start_time: 265.2019595494614
+  step_id: 248
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 310.95707149853087
+  errors:
+  - description: cook the tomatoes in a short time
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: cook-cook the tomatoes cut-side down in a short time
+  start_time: 287.85740333006856
+  step_id: 240
+- description: Pour-Pour the egg mixture into the pan
+  end_time: 318.0646617042115
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 311.40129588638587
+  step_id: 241
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 381.1445247796278
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 372.26003702252694
+  step_id: 244
+- description: put-put tomatoes on a serving plate
+  end_time: 384.6983198824681
+  errors:
+  - description: bowl instead of plate
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: put-put tomatoes on a serving bowl
+  start_time: 379.3676272282076
+  step_id: 236
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 406.9095392752203
+  errors:
+  - description: stir rapidly instead of gently
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: stir-stir rapidly with a wooden spoon so the egg that sets
+    on the base of the pan moves to enable the uncooked egg to flow into the space
+  start_time: 387.36366620959836
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: 424.234290401567
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 417.1267001958864
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: 442.00326591576885
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 430.0092074436826
+  step_id: 243

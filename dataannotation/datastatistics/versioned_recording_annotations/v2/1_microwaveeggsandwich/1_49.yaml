@@ -1,0 +1,108 @@
+activity_id: 1
+is_error: true
+recording_id: '1_49'
+step_annotations:
+- description: Coat -Coat a 6-oz. ramekin cup with cooking spray
+  end_time: 31.173
+  errors:
+  - description: regular oil instead of cooking spray
+    tag: Preparation Error
+  - description: Bowl instead of ramekin cup
+    tag: Preparation Error
+  modified_description: Coat -Coat a bowl with cooking spray
+  start_time: 2.104336428661891
+  step_id: 3
+- description: sprinkle -sprinkle 1 tablespoon of cheese on cup
+  end_time: 74.629
+  errors:
+  - description: uses butter inplace of cheese
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: sprinkle -sprinkle 1 tablespoon of butter on cup
+  start_time: 36.842
+  step_id: 5
+- description: Microwave -Microwave just until cheese melts, about 10 seconds
+  end_time: 101.798
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 75.11423669668774
+  step_id: 10
+- description: Cut -Cut the English muffin into two pieces with a knife
+  end_time: 147.55225785034264
+  errors:
+  - description: hands instead of a knife
+    tag: Preparation Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Cut -Cut the English muffin into two pieces with hands
+  start_time: 99.89566498609601
+  step_id: 12
+- description: Pour-Pour 1 egg into the ramekin cup
+  end_time: 183.5806420557131
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 160.51485110941772
+  step_id: 1
+- description: Microwave-Microwave the ramekin cup uncovered on high for 30 seconds
+  end_time: 218.155
+  errors:
+  - description: medium instead of high
+    tag: Temperature Error
+  - description: 15 seconds instead of 30 seconds
+    tag: Timing Error
+  modified_description: Microwave-Microwave the ramekin cup uncovered on medium for
+    15 seconds
+  start_time: 190.055
+  step_id: 4
+- description: stir-stir the ramekin cup
+  end_time: 231.42786129141672
+  start_time: 218.27464166088464
+  step_id: 11
+- description: Microwave -Continue to Microwave for 15-30 more seconds or until the
+    egg is almost set
+  end_time: 280.609
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 236.57477332075538
+  step_id: 8
+- description: Top -Top cup with 1 tablespoon of salsa
+  end_time: 315.4940911039478
+  errors:
+  - description: 2 instead of 1 tablespoon
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Top -Top cup with 2 tablespoon of salsa
+  start_time: 282.3251024704321
+  step_id: 6
+- description: Line -Line the bottom piece of the English muffin with lettuce
+  end_time: 346.94744239435056
+  errors:
+  - description: two pieces instead of bottom piece
+    tag: Measurement Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Line -Line the two pieces of the English muffin with lettuce
+  start_time: 316.2565965897757
+  step_id: 9
+- description: Place -Place the egg from the cup over the lettuce
+  end_time: 369.250727854818
+  errors:
+  - description: under instead of over
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Place -Place the egg from the cup under the lettuce
+  start_time: 354.953749995544
+  step_id: 2
+- description: replace -replace the top of the English muffin
+  end_time: 378.5914200562103
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 370.5851124550169
+  step_id: 7

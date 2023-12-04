@@ -1,0 +1,107 @@
+activity_id: 13
+is_error: true
+recording_id: '13_41'
+step_annotations:
+- description: Measure-Measure 2 cups of frozen corn
+  end_time: 136.03081632406287
+  start_time: 94.00503567110036
+  step_id: 129
+- description: Thaw-Thaw the frozen corn by putting it in a sieve and running it under
+    cold water
+  end_time: 222.811
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 106.98400000000001
+  step_id: 137
+- description: Add-Add the corn into a microwave-safe bowl
+  end_time: 264.862
+  errors:
+  - description: spillage while adding
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Add-Add the corn into a microwave-safe bowl and spill some
+    while adding
+  start_time: 252.15468391777512
+  step_id: 132
+- description: Microwave-Microwave the corn for 2 minutes
+  end_time: 406.304
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 276.48539903264816
+  step_id: 133
+- description: Add-1 teaspoon of pepper powder to the bowl
+  end_time: 444.012
+  errors:
+  - description: spilled some pepper into corn bowl while measuring leading to adding
+      extra pepper
+    tag: Technique Error
+  - description: spilled some pepper into corn bowl while measuring leading to adding
+      extra pepper
+    tag: Measurement Error
+  modified_description: Add-1 teaspoon of pepper powder to the bowl and spill some
+    while measuring in to the bowl.
+  start_time: 436.058
+  step_id: 130
+- description: Extract-Extract lime juice from 1/3 lime
+  end_time: 495.554
+  errors:
+  - description: directly extract lime juice to the bowl. so next step becomes obselete
+    tag: Other
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Extract-Extract lime juice from 1/3 lime directly into the
+    bowl
+  start_time: 455.647
+  step_id: 131
+- description: add-add lime juice to the bowl
+  end_time: 495.652
+  errors:
+  - description: this step is included into the above step
+    tag: Other
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: add-add lime juice to the bowl
+  start_time: 455.647
+  step_id: 128
+- description: Add-Add 1 teaspoon of softened butter
+  end_time: 605.937
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 571.7718051995164
+  step_id: 138
+- description: stir-then stir the bowl
+  end_time: 648.068
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 613.7975858524788
+  step_id: 135
+- description: Microwave-Microwave the corn for 3 more minutes
+  end_time: 841.303
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 654.7174249093108
+  step_id: 134
+- description: Add-Add 1 teaspoon salt to the bowl
+  end_time: 878.164
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 852.6809706166867
+  step_id: 136
+- description: Mix-Mix the contents of the bowl well
+  end_time: 901.66
+  errors:
+  - description: spilled some corn out
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Mix-Mix the contents of the bowl well and spill some corn
+    out while stirring
+  start_time: 882.5413937122129
+  step_id: 76

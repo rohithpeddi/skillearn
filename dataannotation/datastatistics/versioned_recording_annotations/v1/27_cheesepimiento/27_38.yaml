@@ -1,0 +1,94 @@
+activity_id: 27
+is_error: true
+recording_id: '27_38'
+step_annotations:
+- description: Add-Add 1/3 cup cheddar cheese to a microwave-safe cup
+  end_time: 60.99238323564306
+  errors:
+  - description: use mozarella cheese instead of cheddar
+    tag: Preparation Error
+  modified_description: Add-Add 1/3 cup mozarella cheese to a microwave-safe cup
+  start_time: 6.105938329046068
+  step_id: 316
+- description: Chop-Chop 1/4 red bell pepper into tiny bits
+  end_time: 219.17206820951634
+  errors:
+  - description: 'chop on floor '
+    tag: Preparation Error
+  modified_description: Chop-Chop 1/4 red bell pepper into tiny bits on floor
+  start_time: 70.52127992081616
+  step_id: 321
+- description: Place-Place the chopped pepper in the microwave-safe bowl
+  end_time: 247.75875826503562
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 222.98362688358557
+  step_id: 322
+- description: Microwave-Microwave the bowl, covered, for 2 minutes
+  end_time: 331.61304909455885
+  errors:
+  - description: Microwave uncovered instead of covered
+    tag: Preparation Error
+  - description: microwave only for 30 sec instead of 2 minutes
+    tag: Timing Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Microwave-Microwave the bowl, uncovered, for 30 secs
+  start_time: 257.2876549502087
+  step_id: 318
+- description: Add-Add 1 tablespoons of water to the bowl
+  end_time: 368.20401236562344
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 339.9984781775111
+  step_id: 320
+- description: Mix-Mix the cheese and red bell pepper in the bowl
+  end_time: 423.0904572722204
+  errors:
+  - description: Mix with bare hands
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Mix-Mix the cheese and red bell pepper in the bowl with bare
+    hands
+  start_time: 376.2082855811688
+  step_id: 317
+- description: add-add 1/2 tbsp softened butter to the bowl
+  end_time: 483.3130843225144
+  errors:
+  - description: use 1 tbsp butter instead of 1/2 tbsp
+    tag: Measurement Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: add-add 1 tbsp softened butter to the bowl
+  start_time: 433.3816656922074
+  step_id: 314
+- description: Add-Add 1/4 teaspoon pepper to the bowl
+  end_time: 532.4821912180075
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 501.2274100906398
+  step_id: 319
+- description: Mix-Mix all the ingredients of the bowl well
+  end_time: 550.015361118726
+  errors:
+  - description: mix incompletely, so that cheese and bell pepper seperates
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Mix-Mix all the ingredients of the bowl well. but keep the
+    bell pepper and cheese seperated
+  start_time: 533.6256588202283
+  step_id: 324
+- description: Melt-Melt the cheese by microwaving cup for 30 sec. (Check after 30
+    seconds and microwave for 10 seconds more if needed)
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 323
+- description: Add-Add 1/4 teaspoon salt to the bowl
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 315
