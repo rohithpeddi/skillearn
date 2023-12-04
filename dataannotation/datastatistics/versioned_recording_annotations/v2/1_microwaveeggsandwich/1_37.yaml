@@ -22,10 +22,8 @@ step_annotations:
   errors:
   - description: 20 secs
     tag: Timing Error
-  - description: 20 secs not enough temperature
+  - description: Microwave set on power level low instead of high
     tag: Temperature Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Microwave-Microwave the ramekin cup uncovered on high for
     20 seconds
   start_time: 94.8443532677578
@@ -35,16 +33,13 @@ step_annotations:
   errors:
   - description: 2 tablespoon instead of 1 tbsp salsa
     tag: Measurement Error
-  - description: Step performed before correct order
+  - description: Step performed before microwaving completely until egg is almost set
     tag: Order Error
   modified_description: Top cup with 2 tablespoon of salsa
   start_time: 185.72548013647983
   step_id: 6
 - description: Cut -Cut the English muffin into two pieces with a knife
   end_time: 316.001
-  errors:
-  - description: Step performed after correct order
-    tag: Order Error
   start_time: 259.153
   step_id: 12
 - description: Line -Line the bottom piece of the English muffin with lettuce
@@ -58,49 +53,33 @@ step_annotations:
   end_time: 391.405
   start_time: 376.831
   step_id: 11
-- description: Microwave -Continue to Microwave for 15-30 more seconds or until the
-    egg is almost set
+- description: Microwave -Continue to Microwave for 15-30 more seconds or until the egg is almost set
   end_time: 430.408
   errors:
   - description: 10 seconds
     tag: Timing Error
-  - description: Step performed before correct order
+  - description: Step performed after adding salsa to the bowl
     tag: Order Error
   modified_description: Microwave -Continue to Microwave for 10 more seconds
   start_time: 393.138
   step_id: 8
 - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   end_time: 480.076
-  errors:
-  - description: pour instead of sprinkling
-    tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: pour 1 tablespoon of cheese on cup
   start_time: 438.837
   step_id: 5
 - description: Microwave -Microwave just until cheese melts, about 10 seconds
   end_time: 586.739
   errors:
-  - description: 30 secs
+  - description: Microwaved for 30 seconds instead of 10 seconds
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Microwave just until cheese and egg cooked melts, about 30
-    seconds
+  modified_description: Microwave just until cheese and egg cooked melts, about 30 seconds
   start_time: 481.292
   step_id: 10
 - description: Place -Place the egg from the cup over the lettuce
   end_time: 595.921
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 588.063
   step_id: 2
 - description: replace -replace the top of the English muffin
   end_time: 604.912
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 596.274
   step_id: 7

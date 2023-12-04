@@ -7,7 +7,7 @@ step_annotations:
   errors:
   - description: bowl instead of ramekin cup
     tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed before coating with cooking spray
     tag: Order Error
   modified_description: Pour-Pour 1 egg into the bowl
   start_time: 0.071
@@ -19,16 +19,16 @@ step_annotations:
     tag: Timing Error
   - description: medium instead of high
     tag: Temperature Error
-  - description: Step performed before correct order
+  - description: Step performed before coating with cooking spray
     tag: Order Error
   modified_description: Microwave-Microwave the ramekin cup uncovered on medium for
     60 seconds
   start_time: 33.325
   step_id: 4
 - description: stir-stir the ramekin cup
-  end_time: 136.67000000000002
+  end_time: 136.670
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before coating with cooking spray
     tag: Order Error
   start_time: 62.116
   step_id: 11
@@ -37,7 +37,7 @@ step_annotations:
   errors:
   - description: use regular oil instead of cooking spray
     tag: Preparation Error
-  - description: Step performed after correct order
+  - description: Step performed after adding egg, microwaving and stirring
     tag: Order Error
   modified_description: Put some oil into a 6-oz. ramekin cup
   start_time: 137.161
@@ -63,11 +63,8 @@ step_annotations:
     egg is almost set
   end_time: 274.524
   errors:
-  - description: just microwave for the given time and do not check if egg is set
-      or not
+  - description: Not checking if the egg is set or not and microwaving for only 30 seconds
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Microwave -Continue to Microwave for 15-30 more seconds or
     until the egg is almost set
   start_time: 229.025
@@ -77,39 +74,26 @@ step_annotations:
   errors:
   - description: 2 instead of 1 tablespoon
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Top -Top cup with 2 tablespoon of salsa
   start_time: 246.315
   step_id: 6
 - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   end_time: 320.906
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 292.943
   step_id: 5
 - description: Microwave -Microwave just until cheese melts, about 10 seconds
   end_time: 354.832
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 321.543
   step_id: 10
 - description: Place -Place the egg from the cup over the lettuce
   end_time: 377.415
   errors:
-  - description: under instead of over
-    tag: Technique Error
-  - description: Step performed before correct order
+  - description: Removing the placed lettuce on one piece of the muffin and placing egg on it and then lining it with lettuce.
     tag: Order Error
   modified_description: Place -Place the egg from the cup under the lettuce
   start_time: 355.451
   step_id: 2
 - description: replace -replace the top of the English muffin
   end_time: 383.7334159237281
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 378.342
   step_id: 7

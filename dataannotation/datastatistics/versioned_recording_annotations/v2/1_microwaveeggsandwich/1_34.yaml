@@ -5,7 +5,7 @@ step_annotations:
 - description: Pour-Pour 1 egg into the ramekin cup
   end_time: 31.659
   errors:
-  - description: With egg shell
+  - description: Cracked egg with shell and did not clear it
     tag: Technique Error
   start_time: 1.3719999999999999
   step_id: 1
@@ -19,6 +19,10 @@ step_annotations:
   step_id: 4
 - description: stir-stir the ramekin cup
   end_time: 161.876
+  errors:
+    - description: Stirring with knife
+      tag: Preparation Error
+  modified_description: Stirred ramekin cup with knife
   start_time: 150.39274015722512
   step_id: 11
 - description: Microwave -Continue to Microwave for 15-30 more seconds or until the
@@ -40,14 +44,14 @@ step_annotations:
 - description: sprinkle -sprinkle 1 tablespoon of cheese on cup
   end_time: 286.39
   errors:
-  - description: Not using measurements
+  - description: Sprinkled cheese on top of the cup without measuring it
     tag: Measurement Error
   start_time: 255.88489978228725
   step_id: 5
 - description: Microwave -Microwave just until cheese melts, about 10 seconds
   end_time: 315.925
   errors:
-  - description: Not melt
+  - description: Did not wait for cheese to melt
     tag: Timing Error
   start_time: 287.29356866741904
   step_id: 10
@@ -64,5 +68,9 @@ step_annotations:
   step_id: 7
 - description: Coat -Coat a 6-oz. ramekin cup with cooking spray
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 3
