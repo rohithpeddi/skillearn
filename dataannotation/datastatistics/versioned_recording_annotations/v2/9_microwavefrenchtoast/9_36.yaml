@@ -14,17 +14,12 @@ step_annotations:
   step_id: 94
 - description: Roll-Roll the butter around in the mug to coat it
   end_time: 119.56865302547772
-  errors:
-  - description: Roll some butter outside
-    tag: Technique Error
-  modified_description: Roll-Roll the butter around in the cup to coat it, but some
-    butter outside
   start_time: 101.8547785031847
   step_id: 98
 - description: whisk-In the mug, whisk one egg with a fork until well blended
   end_time: 198.01581162420385
   errors:
-  - description: two instead of one egg
+  - description: Whisk 2 eggs instead of 1 egg
     tag: Measurement Error
   modified_description: whisk-In the mug, whisk two eggs with a fork until well blended
   start_time: 137.28252754777068
@@ -58,9 +53,9 @@ step_annotations:
     through
   end_time: 375.7871952229299
   errors:
-  - description: 45 instead of 90 seconds
+  - description: Microwave for 45 seconds instead of 90 seconds
     tag: Timing Error
-  - description: medium instead of high
+  - description: Put microwave on medium instead of high
     tag: Temperature Error
   modified_description: Microwave-Microwave on medium for 45 seconds until the egg
     is cooked through

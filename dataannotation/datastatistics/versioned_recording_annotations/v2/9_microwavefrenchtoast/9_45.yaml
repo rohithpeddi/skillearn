@@ -5,7 +5,7 @@ step_annotations:
 - description: Add-Add 1/4 teaspoon vanilla extract to the mug
   end_time: 34.192969815286624
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding butter and whisking
     tag: Order Error
   start_time: 10.559593619426751
   step_id: 100
@@ -13,12 +13,12 @@ step_annotations:
     for about 30 seconds
   end_time: 82.9682355812102
   errors:
-  - description: Not 1 tbsp butter
+  - description: Added 1.5 tbsp butter
     tag: Measurement Error
   - description: Not enough 30 secs
     tag: Timing Error
-  - description: Not enough 30 secs
-    tag: Temperature Error
+  - description: Step performed after adding vanilla extract
+    tag: Order Error
   start_time: 35.701483189490446
   step_id: 94
 - description: Roll-Roll the butter around in the mug to coat it
@@ -26,18 +26,18 @@ step_annotations:
   errors:
   - description: Just shake cup, not really coat it
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after adding vanilla extract
     tag: Order Error
   start_time: 84.47674895541401
   step_id: 98
 - description: whisk-In the mug, whisk one egg with a fork until well blended
   end_time: 126.71512343312102
   errors:
-  - description: Not blended well
+  - description: Not whisked well
     tag: Technique Error
   - description: Use a tsp, not fork
     tag: Preparation Error
-  - description: Step performed after correct order
+  - description: Step performed after adding vanilla extract
     tag: Order Error
   start_time: 106.60161177707006
   step_id: 101
@@ -49,7 +49,7 @@ step_annotations:
     tag: Timing Error
   - description: Egg not well done
     tag: Temperature Error
-  - description: Step performed before correct order
+  - description: Step performed before sprinkling cinnamon
     tag: Order Error
   start_time: 127.72079901592356
   step_id: 91
@@ -60,23 +60,21 @@ step_annotations:
     tag: Measurement Error
   - description: Measure on top of mug to spill
     tag: Technique Error
+  - description: Step performed after microwaving for 90 secs
+    tag: Order Error
   start_time: 189.56984735828024
   step_id: 95
 - description: stir-stir the mug
   end_time: 227.2826817133758
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after microwaving for 90 secs
     tag: Order Error
   start_time: 212.19754797133757
   step_id: 93
 - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   end_time: 255.94443582324843
   errors:
-  - description: Not exact bite-size, larger
-    tag: Technique Error
-  - description: Not exact bite-size, larger
-    tag: Measurement Error
-  - description: Step performed after correct order
+  - description: Step performed after microwaving for 90 secs
     tag: Order Error
   start_time: 228.7911950875796
   step_id: 99
@@ -84,21 +82,15 @@ step_annotations:
     down into the egg
   end_time: 275.55510968789804
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after microwaving for 90 secs
     tag: Order Error
   start_time: 242.367815455414
   step_id: 92
 - description: Put-Put the mug's contents on a plate
   end_time: 293.657270178344
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 277.06362306210195
   step_id: 97
 - description: cut-cut the contents on plate, and serve
   end_time: 314.77645741719743
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 296.1714591353503
   step_id: 96

@@ -5,8 +5,6 @@ step_annotations:
 - description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
   end_time: 50.36002308917198
   errors:
-  - description: cut into two pieces
-    tag: Preparation Error
   - description: Not exact bite-size, larger
     tag: Measurement Error
   modified_description: Cut or tear-Cut or tear 1 slices of bread into two pieces
@@ -16,7 +14,7 @@ step_annotations:
     for about 30 seconds
   end_time: 167.86674363057327
   errors:
-  - description: 60 instead of 30 seconds
+  - description: Microwaved for 60 seconds instead of 30 seconds
     tag: Timing Error
   modified_description: melt-In a large mug, melt 1 tablespoon of softened butter
     in the microwave for about 60 seconds
@@ -27,8 +25,6 @@ step_annotations:
   errors:
   - description: Splash some butter outside
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Roll-Roll the butter around in the cup to coat it, but splash
     some butter outside the cup
   start_time: 166.2680127388535
@@ -38,8 +34,6 @@ step_annotations:
   errors:
   - description: Spoon instead of fork
     tag: Preparation Error
-  - description: Step performed after correct order
-    tag: Order Error
   modified_description: whisk-In the mug, whisk one egg with a spoon until well blended
   start_time: 200.64072691082802
   step_id: 101
@@ -48,8 +42,6 @@ step_annotations:
   errors:
   - description: 1 tsp instead of 1/4
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-Add 1 teaspoon vanilla extract to the mug
   start_time: 264.58996257961786
   step_id: 100
@@ -65,32 +57,32 @@ step_annotations:
     tag: Timing Error
   - description: medium instead of high
     tag: Temperature Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Microwave-Microwave on ,medium for 45 seconds until the egg
     is cooked through
   start_time: 363.711277866242
   step_id: 91
 - description: Put-Put the mug's contents on a plate
   end_time: 490.01101831210195
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 474.8230748407644
   step_id: 97
 - description: cut-cut the contents on plate, and serve
   end_time: 500.40276910828027
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 488.41228742038214
   step_id: 96
 - description: add-add bread pieces to the egg mixture in the mug, pressing the bread
     down into the egg
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 92
 - description: stir-stir the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 93
