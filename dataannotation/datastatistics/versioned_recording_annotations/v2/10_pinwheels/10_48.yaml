@@ -5,7 +5,7 @@ step_annotations:
 - description: Place-Place 8-inch flour tortilla on cutting board
   end_time: 57.486
   errors:
-  - description: 'placed 8 inch flour tortilla on plate instead of cutting board. '
+  - description: Placed on a plate instead of cutting board
     tag: Preparation Error
   modified_description: Place-Place 8-inch flour tortilla on plate
   start_time: 2.459
@@ -13,51 +13,38 @@ step_annotations:
 - description: scoop-Use the knife to scoop jelly from the jar
   end_time: 165.486
   errors:
-  - description: techique error while scooping through jelly as the knife was not
-      slanted and just put vertically. Also did the two times whereas should have
-      been done 3 times.
+  - description: Did not scoop properly
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed before applying nut butter
     tag: Order Error
-  modified_description: scoop-Use the knife to scoop jelly from the jar with improper
-    technique. improper as vertical scooping of knife and no. of times reduced
   start_time: 66.459
   step_id: 111
 - description: Spread-Spread jelly over the nut butter
   end_time: 197.478
   errors:
-  - description: Jelly is spread on tortilla improperly. Jelly is spread on boundary
-      and not in the middle portion. jelly is overflowed from the tortilla.
+  - description: Spread on the boundary
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed before applying nut butter
     tag: Order Error
-  modified_description: Spread-Spread jelly over the tortilla with improper technique.
-    Jelly on boundary and not middle, overflow from boundary
   start_time: 174.196
   step_id: 107
 - description: scoop-Use a butter knife to scoop nut butter from the jar
   end_time: 231.014
   errors:
-  - description: use spoon to scoop nut butter from the jar. knife should have been
-      used.
-    tag: Technique Error
-  - description: Step performed after correct order
+  - description: Used normal butter instead of nut butter
+    tag: Preparation Error
+  - description: Step performed after applying jelly
     tag: Order Error
-  modified_description: scoop-Use a butter knife to scoop nut butter from the jar.
-    Improper preparation as spoon is used instead of knife.
   start_time: 214.323
   step_id: 113
 - description: Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered
     at the edges
   end_time: 252.287
   errors:
-  - description: 'Spread nut butter onto the tortilla. leaving 2-inch uncovered at
-      the edges. '
+  - description: Did not spread the butter properly, instead leave drops of butter on the tortilla
     tag: Measurement Error
-  - description: Step performed after correct order
+  - description: Step performed after applying jelly
     tag: Order Error
-  modified_description: Spread-Spread nut butter onto the tortilla. leaving 2-inch
-    uncovered at the edges.
   start_time: 232.906
   step_id: 112
 - description: Clean-Clean the knife by wiping it with a paper towel
@@ -66,8 +53,6 @@ step_annotations:
   - description: Improper Cleaning of the knife with paper towel. paper towel did
       not cover down side of the knife.
     tag: Technique Error
-  - description: Step performed after correct order
-    tag: Order Error
   modified_description: Clean-Clean the knife by wiping it with a paper towel. Improper
     technique (down side of knife not cleaned)
   start_time: 260.687
@@ -77,11 +62,8 @@ step_annotations:
     that the filling leaks
   end_time: 306.47
   errors:
-  - description: 'Roll the tortilla from one end to the other into a log shape, about
-      2.5 inches thick. Roll it loosely with huge gaps. filling does not leak. '
+  - description: Roll into a large log
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Roll-Roll the tortilla from one end to the other into a log
     shape, about 2.5 inches thick. Roll it loosely with huge gaps. filling does not
     leak. improper measurement.
@@ -91,31 +73,20 @@ step_annotations:
     inch apart
   end_time: 345.161
   errors:
-  - description: 'used 3 toothpicks only instead of 5. placed them 2 inch apart instead
-      of 1 inch apart. '
+  - description: Used 3 toothpicks instead of 5
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: 'Secure-Secure the rolled tortilla by inserting 3 toothpicks
-    about 2 inch apart, improper measurement '
   start_time: 322.206
   step_id: 110
 - description: Clean-Clean the knife by wiping with a paper towel
   end_time: 375.797
-  errors:
-  - description: Step performed after correct order
-    tag: Order Error
   start_time: 360.27
   step_id: 104
-- description: Slide-Slide floss under the tortilla, perpendicular to the length of
-    the roll
+- description: Slide-Slide floss under the tortilla, perpendicular to the length of the roll
   end_time: 412.152
   errors:
   - description: Slide floss under the tortilla, parallel to the length of the roll.
       Did parallel instead of perpendicular.
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Slide-Slide floss under the tortilla, parallel to the length
     of the roll
   start_time: 382.352
@@ -123,21 +94,21 @@ step_annotations:
 - description: Place-Place the floss halfway between toothpicks
   end_time: 423.397
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before trimming the edges
     tag: Order Error
   start_time: 413.034
   step_id: 117
 - description: Cross-Cross the floss's two ends over the tortilla roll's top
   end_time: 466.05261481489254
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before trimming the edges
     tag: Order Error
   start_time: 453.379
   step_id: 105
 - description: pull-pull the floss ends in opposite directions to slice
   end_time: 573.87
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before trimming the edges
     tag: Order Error
   start_time: 467.216
   step_id: 108
@@ -145,10 +116,9 @@ step_annotations:
     1/2 inch margin between the last toothpick and the end of the roll
   end_time: 611.889
   errors:
-  - description: used spoon base instead of butter knife to trim the ends of tortilla
-      roll. Left 1/2 inch margin between last toothpick and end of the roll.
+  - description: Trim the same end twice
     tag: Preparation Error
-  - description: Step performed after correct order
+  - description: Step performed after placing floss and slicing
     tag: Order Error
   modified_description: Trim-Trim the ends of the tortilla roll with the spoon base,
     leaving 1/2 inch margin between the last toothpick and the end of the roll
@@ -156,33 +126,35 @@ step_annotations:
   step_id: 114
 - description: Discard-Discard ends of the tortilla
   end_time: 619.971
-  errors:
-  - description: 'NULL'
-    tag: Timing Error
-  - description: Step performed after correct order
-    tag: Order Error
   modified_description: Discard-Discard ends of the tortilla
   start_time: 613.653
   step_id: 103
 - description: Place-Place the pinwheels on a plate
   end_time: 635.489
-  errors:
-  - description: 'NULL'
-    tag: Temperature Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Place-Place the pinwheels on a plate
   start_time: 625.835
   step_id: 109
 - description: slicing-Continue slicing with floss to create 1 more pinwheel
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 102
 - description: slicing-Continue slicing with floss to create 1 more pinwheel
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 102
 - description: slicing-Continue slicing with floss to create 1 more pinwheel
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 102

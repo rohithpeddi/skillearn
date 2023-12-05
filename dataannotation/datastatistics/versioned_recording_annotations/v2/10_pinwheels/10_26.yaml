@@ -21,10 +21,8 @@ step_annotations:
 - description: scoop-Use the knife to scoop jelly from the jar
   end_time: 73.351
   errors:
-  - description: Might have cut the jelly bottle with knife
-    tag: Technique Error
-  modified_description: scoop-Use the knife to scoop jelly from the jar (pierce the
-    jar accidently)
+  - description: Using kitchen knife instead of buttering knife (might cut the tortilla)
+    tag: Preparation Error
   start_time: 53.565
   step_id: 111
 - description: Spread-Spread jelly over the nut butter
@@ -59,14 +57,8 @@ step_annotations:
     1/2 inch margin between the last toothpick and the end of the roll
   end_time: 224.797
   errors:
-  - description: No margins are left. The last pinwheels will be very small and toothpicks
-      will be at the ends
-    tag: Measurement Error
-  - description: No margins are left. The last pinwheels will be very small and toothpicks
-      will be at the ends
-    tag: Technique Error
-  modified_description: Trim-Trim the ends of the tortilla roll with the butter knife
-    at the last toothpick
+  - description: Not able to trim the ends of the tortilla roll with the butter knife
+    tag: Preparation Error
   start_time: 214.143
   step_id: 114
 - description: pull-pull the floss ends in opposite directions to slice
@@ -107,27 +99,51 @@ step_annotations:
   step_id: 109
 - description: Discard-Discard ends of the tortilla
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 103
 - description: scoop-Use a butter knife to scoop nut butter from the jar
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 113
 - description: Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered
     at the edges
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 112
 - description: Slide-Slide floss under the tortilla, perpendicular to the length of
     the roll
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 106
 - description: Place-Place the floss halfway between toothpicks
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 117
 - description: Cross-Cross the floss's two ends over the tortilla roll's top
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 105

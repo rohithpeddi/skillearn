@@ -6,7 +6,7 @@ step_annotations:
   end_time: 187.814
   errors:
   - description: Use tortilla after heating it on pan for 1 minute
-    tag: Temperature Error
+    tag: Preparation Error
   modified_description: Place-Place 8-inch flour tortilla on cutting board after heating
     it on a pan for 1 minute
   start_time: 0
@@ -23,8 +23,8 @@ step_annotations:
     at the edges
   end_time: 298.152
   errors:
-  - description: Apply all over the tortiall
-    tag: Preparation Error
+  - description: Spreading the complete tortilla
+    tag: Technique Error
   modified_description: Spread-Spread nut butter onto the whole tortilla
   start_time: 222.93099999999998
   step_id: 112
@@ -36,6 +36,10 @@ step_annotations:
   end_time: 383.913
   start_time: 312.954
   step_id: 111
+- description: Spread-Spread jelly over the nut butter
+  end_time: 383
+  start_time: 355
+  step_id: 107
 - description: Clean-Clean the knife by wiping with a paper towel
   end_time: 413.246
   start_time: 388.136
@@ -69,20 +73,13 @@ step_annotations:
   errors:
   - description: Use a normal knife instead
     tag: Preparation Error
-  modified_description: ' Trim-Trim the ends of the tortilla roll with a normal knife,
-    leaving 1/2 inch margin between the last toothpick and the end of the roll'
   start_time: 527.167
   step_id: 114
 - description: Discard-Discard ends of the tortilla
-  end_time: -1.0
-  errors:
-  - description: Skip this step
-    tag: Missing Step
-  modified_description: Skip this step
-  start_time: -1.0
+  end_time: 685
+  start_time: 683
   step_id: 103
-- description: Slide-Slide floss under the tortilla, perpendicular to the length of
-    the roll
+- description: Slide-Slide floss under the tortilla, perpendicular to the length of the roll
   end_time: 565.478
   start_time: 551.922
   step_id: 106
@@ -90,44 +87,49 @@ step_annotations:
   end_time: 589.475
   start_time: 566.027
   step_id: 117
+- description: Cross-Cross the floss's two ends over the tortilla roll's top
+  end_time: 593
+  start_time: 590
+  step_id: 105
 - description: pull-pull the floss ends in opposite directions to slice
   end_time: 598.017
   errors:
-  - description: Pull at separate times
-    tag: Timing Error
-  modified_description: Pull-pull the floss ends in opposite directions to slice but
-    at different times
-  start_time: 590.093
+  - description: Do not pull tightly
+    tag: Technique Error
+  modified_description: Pull-pull the floss ends in opposite directions to slice but at different times
+  start_time: 593
   step_id: 108
 - description: slicing-Continue slicing with floss to create 1 more pinwheel
-  end_time: -1.0
+  end_time: 606
   errors:
-  - description: Due to error in previous step, this won't work
+  - description: Use knife instead to slice
     tag: Preparation Error
-  modified_description: Skip this step
-  start_time: -1.0
+  start_time: 604
   step_id: 102
 - description: slicing-Continue slicing with floss to create 1 more pinwheel
-  end_time: -1.0
+  end_time: 616
   errors:
   - description: Use knife instead to slice
     tag: Preparation Error
   modified_description: slicing-Continue slicing with knife to create 1 more pinwheel
-  start_time: -1.0
+  start_time: 612.5
+  step_id: 102
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 618
+  errors:
+  - description: Use knife instead to slice
+    tag: Preparation Error
+  start_time: 616
+  step_id: 102
+- description: slicing-Continue slicing with floss to create 1 more pinwheel
+  end_time: 620
+  errors:
+  - description: Use knife instead to slice
+    tag: Preparation Error
+  start_time: 618
   step_id: 102
 - description: Place-Place the pinwheels on a plate
   end_time: 676.239
   start_time: 650.952
   step_id: 109
-- description: Spread-Spread jelly over the nut butter
-  end_time: -1.0
-  start_time: -1.0
-  step_id: 107
-- description: Cross-Cross the floss's two ends over the tortilla roll's top
-  end_time: -1.0
-  start_time: -1.0
-  step_id: 105
-- description: slicing-Continue slicing with floss to create 1 more pinwheel
-  end_time: 623.094
-  start_time: 603.019
-  step_id: 102
+
