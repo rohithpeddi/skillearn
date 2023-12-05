@@ -27,14 +27,17 @@ step_annotations:
 - description: Place-Place the chopped pepper in the microwave-safe bowl
   end_time: 391.8827332802548
   errors:
-  - description: spill some bellpepper while adding
+  - description: spill some bell pepper while adding to bowl
     tag: Technique Error
   modified_description: Place-Place the chopped pepper in the microwave-safe bowl
-    and spill some bellpepper while transferring to bowl
+    and spill some bell pepper while transferring to bowl
   start_time: 361.4679539808917
   step_id: 322
 - description: Microwave-Microwave the bowl, covered, for 2 minutes
   end_time: 528.7492401273886
+  errors:
+  - description: Did not cover the bowl
+    tag: Preparation Error
   start_time: 393.05253248407644
   step_id: 318
 - description: Mix-Mix the cheese and red bell pepper in the bowl
@@ -55,5 +58,9 @@ step_annotations:
   step_id: 324
 - description: Add-Add 1/4 teaspoon pepper to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 319

@@ -4,12 +4,15 @@ recording_id: '27_29'
 step_annotations:
 - description: Chop-Chop 1/4 red bell pepper into tiny bits
   end_time: 165.17902668152865
+  errors:
+  - description: Chopping bell pepper without removing the seeds
+    tag: Technique Error
   start_time: 45.04882545859872
   step_id: 321
 - description: Add-Add 1/3 cup cheddar cheese to a microwave-safe cup
   end_time: 301.5768593200637
   errors:
-  - description: Add-Add 1/2 cup cheddar cheese to a microwave-safe cup
+  - description: Add-Add 1/2 cup instead of 1/3 cup cheddar cheese
     tag: Measurement Error
   modified_description: Add-Add 1/2 cup cheddar cheese to a microwave-safe cup
   start_time: 211.47920840286622
@@ -18,8 +21,7 @@ step_annotations:
     seconds and microwave for 10 seconds more if needed)
   end_time: 391.6745102372612
   errors:
-  - description: Melt-Melt the cheese by microwaving cup for 60 sec. (Check after
-      1 minute and microwave for 20 seconds more if needed).
+  - description: Microwave for 60 seconds instead of 30 seconds.
     tag: Timing Error
   modified_description: Melt-Melt the cheese by microwaving cup for 60 sec. (Check
     after 1 minute and microwave for 20 seconds more if needed).
@@ -39,7 +41,7 @@ step_annotations:
 - description: Microwave-Microwave the bowl, covered, for 2 minutes
   end_time: 513.0560677229299
   errors:
-  - description: Microwave-Microwave the bowl, covered, for 1 minutes
+  - description: Microwave for 1 minute instead of 2 minutes.
     tag: Timing Error
   modified_description: Microwave-Microwave the bowl, covered, for 1 minutes
   start_time: 434.22062317038217
@@ -78,5 +80,9 @@ step_annotations:
   step_id: 324
 - description: Add-Add 1 tablespoons of water to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 320

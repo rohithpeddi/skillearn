@@ -15,16 +15,13 @@ step_annotations:
   errors:
   - description: Slice instead of chopping
     tag: Technique Error
+  - description: Used green bell pepper instead of red bell pepper
+    tag: Preparation Error
   modified_description: Slice - Slice 1/4 red bell pepper into tiny bits
   start_time: 79.23850112579619
   step_id: 321
 - description: Place-Place the chopped pepper in the microwave-safe bowl
   end_time: 164.49511626114648
-  errors:
-  - description: Not spreading the chopped pepper
-    tag: Technique Error
-  modified_description: Place-Place the chopped pepper (in a heap) in the microwave-safe
-    bowl
   start_time: 148.4468122356688
   step_id: 322
 - description: Add-Add 1/3 cup cheddar cheese to a microwave-safe cup
@@ -70,5 +67,9 @@ step_annotations:
   step_id: 324
 - description: Add-Add 1/4 teaspoon salt to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 315
