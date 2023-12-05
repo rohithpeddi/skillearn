@@ -4,18 +4,17 @@ recording_id: '13_44'
 step_annotations:
 - description: Measure-Measure 2 cups of frozen corn
   end_time: 124.489
+  errors:
+  - description: spill the corn while adding it to seive
+    tag: Technique Error
   start_time: 87.99641310157195
   step_id: 129
 - description: Thaw-Thaw the frozen corn by putting it in a sieve and running it under
     cold water
   end_time: 212.624
   errors:
-  - description: spill the corn while adding it to seive
-    tag: Technique Error
   - description: spill some corn in sink while thawing
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Thaw-Thaw the frozen corn by putting it in a sieve and running
     it under cold water. Spill some out while putting corn in seive and spill some
     corn in sink while thawing
@@ -30,9 +29,6 @@ step_annotations:
   step_id: 132
 - description: Microwave-Microwave the corn for 2 minutes
   end_time: 389.773
-  errors:
-  - description: Step performed after correct order
-    tag: Order Error
   start_time: 256.57901504353083
   step_id: 133
 - description: Add-1 teaspoon of pepper powder to the bowl
@@ -41,9 +37,6 @@ step_annotations:
   step_id: 130
 - description: Add-Add 1 teaspoon of softened butter
   end_time: 492.59
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 478.475
   step_id: 138
 - description: stir-then stir the bowl
@@ -66,22 +59,24 @@ step_annotations:
   errors:
   - description: spill some salt while adding
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-Add 1 teaspoon salt to the bowl and spill some out
   start_time: 553.9142635235792
   step_id: 136
 - description: Extract-Extract lime juice from 1/3 lime
   end_time: 601.555
   errors:
-  - description: Step performed after correct order
+  - description: Performed both steps together extraction and addition
+    tag: Preparation Error
+  - description: Step performed before microwaving
     tag: Order Error
   start_time: 578.366
   step_id: 131
 - description: add-add lime juice to the bowl
   end_time: 601.785
   errors:
-  - description: Step performed before correct order
+  - description: Performed both steps together extraction and addition
+    tag: Preparation Error
+  - description: Step performed before microwaving
     tag: Order Error
   start_time: 578.218
   step_id: 128

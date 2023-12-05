@@ -74,9 +74,17 @@ step_annotations:
   step_id: 76
 - description: Add-Add 1 teaspoon of softened butter
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 138
 - description: Add-Add 1 teaspoon salt to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 136

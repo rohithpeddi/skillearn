@@ -72,13 +72,25 @@ step_annotations:
   step_id: 76
 - description: Measure-Measure 2 cups of frozen corn
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 129
 - description: Add-1 teaspoon of pepper powder to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 130
 - description: Microwave-Microwave the corn for 3 more minutes
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 134
