@@ -5,9 +5,9 @@ step_annotations:
 - description: Fill-Fill a microwave-safe mug with skimmed milk
   end_time: 31.183259227766683
   errors:
-  - description: Half Fill- Half Fill a microwave-safe mug with whole milk
+  - description: Fill only half instead of full mug
     tag: Measurement Error
-  - description: Half Fill- Half Fill a microwave-safe mug with whole milk
+  - description: Filled whole milk instead of skimmed milk
     tag: Preparation Error
   modified_description: Half Fill- Half Fill a microwave-safe mug with whole milk
   start_time: 3.6928681770148026
@@ -15,9 +15,9 @@ step_annotations:
 - description: Microwave-Microwave the contents of the mug for 1 minute
   end_time: 171.03370497588696
   errors:
-  - description: Microwave-Microwave the contents of the mug for 2 minute at 10% power
+  - description: Microwave for 2 minutes instead of 1 minute
     tag: Timing Error
-  - description: Microwave-Microwave the contents of the mug for 2 minute at 10% power
+  - description: Set power level to 10% instead of 100%
     tag: Temperature Error
   modified_description: Microwave-Microwave the contents of the mug for 2 minute at
     10% power
@@ -42,7 +42,7 @@ step_annotations:
 - description: Add-Add 1/5 teaspoon cinnamon to the mug
   end_time: 258.3018591168645
   errors:
-  - description: Add-Add 1/5 teaspoon ground cumin to the mug
+  - description: Added cumin instead of cinnamon
     tag: Preparation Error
   modified_description: Add-Add 1/5 teaspoon ground cumin to the mug
   start_time: 240.22093077475918
@@ -57,5 +57,9 @@ step_annotations:
   step_id: 85
 - description: Heat-Heat the contents of the mug for 1 minute and serve
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 83

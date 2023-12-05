@@ -5,12 +5,8 @@ step_annotations:
 - description: Fill-Fill a microwave-safe mug with skimmed milk
   end_time: 102.9219715254934
   errors:
-  - description: Fill-Fill a microwave-safe mug with skimmed milk (did not wash the
-      mug)
+  - description: Using soiled mug without washing instead of a clean one.
     tag: Preparation Error
-  - description: Fill-Fill a microwave-safe mug with skimmed milk while spilling the
-      milk.
-    tag: Technique Error
   modified_description: Fill-Fill a microwave-safe mug with skimmed milk while spilling
     the milk.
   start_time: 0
@@ -57,5 +53,9 @@ step_annotations:
   step_id: 83
 - description: Microwave-Microwave the contents of the mug for 1 minute
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 89

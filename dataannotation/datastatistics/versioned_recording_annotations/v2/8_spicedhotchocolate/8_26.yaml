@@ -15,7 +15,7 @@ step_annotations:
 - description: Microwave-Microwave the contents of the mug for 1 minute
   end_time: 177.77410633908988
   errors:
-  - description: Too long
+  - description: Microwave the contents of the mug for 2 minutes
     tag: Timing Error
   modified_description: Microwave the contents of the mug for 2 minutes
   start_time: 47.127487479440795
@@ -23,7 +23,7 @@ step_annotations:
 - description: Add-Add 2 pieces of chocolate to the mug
   end_time: 219.5358765145285
   errors:
-  - description: Added more chocolate
+  - description: Added 4 pieces of chocolate to the mug
     tag: Measurement Error
   modified_description: Add-Add 4 pieces of chocolate to the mug
   start_time: 179.74932519873903
@@ -42,7 +42,7 @@ step_annotations:
   - description: Microwave on low and high power
     tag: Temperature Error
   - description: Microwaved on high for 8 secs
-    tag: Preparation Error
+    tag: Temperature Error
   - description: Microwaved on high for 8 secs on high. And 1 minute on low power
     tag: Timing Error
   modified_description: Heat-Heat the contents of the mug for 8 secs on high. And
@@ -51,5 +51,9 @@ step_annotations:
   step_id: 83
 - description: Add-Add 1/5 teaspoon cinnamon to the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 84

@@ -5,43 +5,49 @@ step_annotations:
 - description: Add-Add 1 teaspoon of white sugar to the mug
   end_time: 69.33500038377191
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding milk and microwaving it
     tag: Order Error
   start_time: 0.6628881030701754
   step_id: 87
 - description: Fill-Fill a microwave-safe mug with skimmed milk
   end_time: 92.28073020833335
+  errors:
+  - description: Step performed after adding sugar
+    tag: Order Error
   start_time: 69.33500038377193
   step_id: 88
 - description: Microwave-Microwave the contents of the mug for 1 minute
   end_time: 159.7973021381579
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after adding sugar
     tag: Order Error
   start_time: 96.07750564692981
   step_id: 89
 - description: Add-Add 2 pieces of chocolate to the mug
   end_time: 185.87949862938592
   errors:
-  - description: Spill
+  - description: Spill while adding chocolate
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-Add 2 pieces of chocolate to the mug and spill
   start_time: 163.26392319078946
   step_id: 90
 - description: Heat-Heat the contents of the mug for 1 minute and serve
   end_time: 251.74529862938596
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 186.37473020833332
   step_id: 83
 - description: Mix-Mix the contents of the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 85
 - description: Add-Add 1/5 teaspoon cinnamon to the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 84

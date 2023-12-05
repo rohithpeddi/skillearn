@@ -4,6 +4,9 @@ recording_id: '8_31'
 step_annotations:
 - description: Fill-Fill a microwave-safe mug with skimmed milk
   end_time: 45.36742129248904
+  errors:
+  - description: Spilled while filling the milk
+    tag: Technique Error
   start_time: 4.522356380208333
   step_id: 88
 - description: Microwave-Microwave the contents of the mug for 1 minute
@@ -30,7 +33,7 @@ step_annotations:
   errors:
   - description: Mix-Mix the contents of the mug. Not doing circular and slowly mixing
       the contents of mug. Instead did hastily and spilling the milk. Also motion
-      was up-down and sideways instead of cicular.
+      was up-down and sideways instead of circular.
     tag: Technique Error
   modified_description: Mix-Mix the contents of the mug.
   start_time: 152.8368133977522
@@ -49,9 +52,17 @@ step_annotations:
   step_id: 83
 - description: Add-Add 1 teaspoon of white sugar to the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 87
 - description: Add-Add 2 pieces of chocolate to the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 90

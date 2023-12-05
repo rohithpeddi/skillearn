@@ -18,8 +18,6 @@ step_annotations:
   errors:
   - description: add more (5) pieces of choclate
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-Add 5 pieces of chocolate to the mug
   start_time: 67.04815670650258
   step_id: 90
@@ -28,22 +26,15 @@ step_annotations:
   errors:
   - description: use tablespoon in place of teaspoon
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-Add 1/5 tablespoon cinnamon to the mug
   start_time: 121.24992332116423
   step_id: 84
 - description: Mix-Mix the contents of the mug
   end_time: 186.55325659184095
   errors:
-  - description: Mix-Mix the contents of the mug without using a spoon
-    tag: Preparation Error
-  - description: Mix the contents of the mug by rotating motion of the cup
+  - description: Mix the contents of the mug by rotating motion of the cup and not mixing the contents properly
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Mix-Mix the contents of the mug by rotating motion of the
-    cup
+  modified_description: Mix-Mix the contents of the mug by rotating motion of the cup
   start_time: 167.39761216577577
   step_id: 85
 - description: Heat-Heat the contents of the mug for 1 minute and serve
@@ -51,22 +42,25 @@ step_annotations:
   errors:
   - description: Heat-Heat the contents of the mug for 2 minutes instead of 1 min
     tag: Timing Error
-  - description: Heat-Heat the contents of the mug for 2 minutes instead of 1 min
-    tag: Temperature Error
-  - description: Milk rose up and spilled from cup in the microwave due to more temperature
-      and time
+  - description: Milk rose up and spilled from cup in the microwave due to more temperature and time
     tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Heat-Heat the contents of the mug for 2 minutes and this may
     lead to milk rising beyond the brim of the cup and spilling
   start_time: 186.77093436940984
   step_id: 83
 - description: Microwave-Microwave the contents of the mug for 1 minute
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 89
 - description: Add-Add 1 teaspoon of white sugar to the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 87
