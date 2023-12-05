@@ -5,27 +5,25 @@ step_annotations:
 - description: Rinse-Rinse a tomato
   end_time: 24.052
   errors:
-  - description: NOT Rinse-Do not Rinse
-    tag: Preparation Error
+  - description: Do not rinse
+    tag: Missing Step
   - description: use cherry tomato instead of normal tomato
-    tag: Technique Error
+    tag: Preparation Error
   - description: use 2 cherry tomato instead of one normal tomato
     tag: Measurement Error
-  modified_description: NOT Rinse-Do not Rinse 2 cherry tomato
   start_time: 11.691002187424427
   step_id: 125
 - description: dry-gently dry it with a tea towel
   end_time: 58.568
   errors:
-  - description: wet it with a tea towel
-    tag: Technique Error
-  modified_description: wet it with a tea towel
+  - description: Dry it with a wet tea towel
+    tag: Preparation Error
   start_time: 36.80500688633615
   step_id: 122
 - description: Slice-Slice one tomato into about 1/2 inch thick slices
   end_time: 93.167
   errors:
-  - description: Slice-Slice one tomato into about 1 inch thick slices
+  - description: Slice into larger slices about 1 inch thick
     tag: Measurement Error
   modified_description: Slice-Slice one tomato into about 1 inch thick slices
   start_time: 75.77501417775092
@@ -34,8 +32,7 @@ step_annotations:
     only make a single layer
   end_time: 126.075
   errors:
-  - description: Place-Place the thick slices of tomatoes on a platter, making a double
-      layer of tomatoes
+  - description: Make double layer instead of single layer
     tag: Technique Error
   modified_description: Place-Place the thick slices of tomatoes on a platter, making
     a double layer of tomatoes
@@ -44,7 +41,7 @@ step_annotations:
 - description: Season-Season the tomato slices with salt
   end_time: 162.243
   errors:
-  - description: Season-Season the tomato slices with sugar
+  - description: Season-Season the tomato slices with sugar instead of salt
     tag: Preparation Error
   modified_description: Season-Season the tomato slices with sugar
   start_time: 147.65302762636034
@@ -63,8 +60,6 @@ step_annotations:
   errors:
   - description: Sprinkle-Sprinkle cheddar cheese on boundary of the plater.
     tag: Technique Error
-  - description: Sprinkle-Sprinkle cheddar cheese on boundary of the plater.
-    tag: Preparation Error
   modified_description: Sprinkle-Sprinkle cheddar cheese on boundary of the plater.
   start_time: 229.92304301934703
   step_id: 124
@@ -76,10 +71,9 @@ step_annotations:
     the entire platter
   end_time: 349.286
   errors:
-  - description: 2 teaspoon instead of tablespoon
+  - description: Add 2 teaspoon instead of 1 tablespoon
     tag: Measurement Error
-  - description: Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon,
-      over the entire platter
+  - description: Using vegetable oil instead of olive oil
     tag: Preparation Error
   modified_description: Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon,
     over the entire platter

@@ -4,10 +4,6 @@ recording_id: '12_48'
 step_annotations:
 - description: Rinse-Rinse a tomato
   end_time: 11.81
-  errors:
-  - description: Rinsed for less time than specified
-    tag: Timing Error
-  modified_description: Rinse-Rinse a tomato for 1 second
   start_time: 9.122
   step_id: 125
 - description: dry-gently dry it with a tea towel
@@ -43,7 +39,7 @@ step_annotations:
 - description: Season-Season platter with 1/4 teaspoon black pepper
   end_time: 123.843
   errors:
-  - description: Added more black pepper
+  - description: Accidentally spilled a lot of black pepper
     tag: Measurement Error
   modified_description: Season-Season platter with 1 teaspoon black pepper
   start_time: 117.39192183675938
@@ -56,5 +52,9 @@ step_annotations:
 - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over
     the entire platter
   end_time: 295.422
+  errors:
+  - description: Add one tablespoon of oil, then heat another tablespoon of oil in
+      a pan and add it to the platter
+    tag: Preparation Error
   start_time: 187.89976343530836
   step_id: 121

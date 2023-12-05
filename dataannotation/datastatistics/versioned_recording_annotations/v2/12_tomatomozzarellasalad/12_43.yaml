@@ -5,8 +5,6 @@ step_annotations:
 - description: Rinse-Rinse a tomato
   end_time: 43.43
   errors:
-  - description: Rinse for too short
-    tag: Timing Error
   - description: Rinse with hot water
     tag: Temperature Error
   modified_description: Rinse a tomato for 1 second with hot water
@@ -14,10 +12,6 @@ step_annotations:
   step_id: 125
 - description: dry-gently dry it with a tea towel
   end_time: 61.116
-  errors:
-  - description: Use a paper towel instead
-    tag: Preparation Error
-  modified_description: dry-gently dry it with a paper towel
   start_time: 53.54422018500605
   step_id: 122
 - description: Slice-Slice one tomato into about 1/2 inch thick slices
@@ -27,14 +21,13 @@ step_annotations:
     tag: Technique Error
   - description: Cut into big chunks
     tag: Measurement Error
-  modified_description: Slice-Cut one tomato into about 1 inch thick cubes
   start_time: 78.49921873276905
   step_id: 119
 - description: Place-Place the thick slices of tomatoes on a platter, ensuring they
     only make a single layer
   end_time: 148.791
   errors:
-  - description: Spill
+  - description: Spill tomatoes while placing
     tag: Technique Error
   modified_description: Place the thick slices of tomatoes on a platter, ensuring
     they only make a single layer, but spill
@@ -46,19 +39,35 @@ step_annotations:
   step_id: 126
 - description: Garnish-Garnish platter with italian seasoning
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 127
 - description: Season-Season the tomato slices with salt
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 123
 - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
     the platter
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 124
 - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over
     the entire platter
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 121

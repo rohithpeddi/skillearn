@@ -22,16 +22,19 @@ step_annotations:
 - description: Season-Season platter with 1/4 teaspoon black pepper
   end_time: 143.507
   errors:
-  - description: Spilled the whole bottle
+  - description: Spilled the whole bottle of black pepper on the platter
     tag: Technique Error
-  - description: Used hands
-    tag: Technique Error
+  - description: Used hands to clean and spread the black pepper
+    tag: Preparation Error
   modified_description: Season-Season platter with 1/4 teaspoon black pepper, spilling
     the whole bottle, mix with hands
   start_time: 138.45197750906894
   step_id: 126
 - description: Garnish-Garnish platter with italian seasoning
   end_time: 180.133
+  errors:
+  - description: Spill some italian seasoning while garnishing
+    tag: Technique Error
   start_time: 174.07874159613058
   step_id: 127
 - description: Season-Season the tomato slices with salt
@@ -42,7 +45,7 @@ step_annotations:
     the platter
   end_time: 212.257
   errors:
-  - description: Spill
+  - description: Sprinkling from too high and spilling the cheese
     tag: Technique Error
   modified_description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
     the platter, spill
@@ -52,7 +55,7 @@ step_annotations:
     the entire platter
   end_time: 231.374
   errors:
-  - description: Spill
+  - description: Spilling the olive oil while drizzling
     tag: Technique Error
   modified_description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
     over the entire platter, spilling it

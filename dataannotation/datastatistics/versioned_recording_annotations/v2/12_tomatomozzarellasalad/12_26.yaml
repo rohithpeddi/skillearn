@@ -9,7 +9,7 @@ step_annotations:
 - description: dry-gently dry it with a tea towel
   end_time: 46.184
   errors:
-  - description: Not drying it completely
+  - description: Do not try the tomato completely
     tag: Technique Error
   modified_description: dry-gently dry half tomato with a tea towel
   start_time: 37.81569000604595
@@ -35,6 +35,9 @@ step_annotations:
 - description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
     the platter
   end_time: 190.903
+  errors:
+  - description: Poured the cheese instead of sprinkling it
+    tag: Technique Error
   start_time: 179.12695266021768
   step_id: 124
 - description: Season-Season the tomato slices with salt
@@ -56,5 +59,9 @@ step_annotations:
 - description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over
     the entire platter
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 121
