@@ -6,7 +6,7 @@ step_annotations:
     1 in x 1 in)
   end_time: 83.031
   errors:
-  - description: Slices will burn quickly and will not taste the same
+  - description: Sliced the cubes instead of cutting into cubes
     tag: Technique Error
   modified_description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into slices
   start_time: 52.908236252720684
@@ -29,9 +29,6 @@ step_annotations:
   step_id: 291
 - description: add-add the tofu cubes to the pan
   end_time: 175.293
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 150.442
   step_id: 279
 - description: Cook-Cook 5 to 6 minutes until tofu cubes are lightly browned on the
@@ -40,8 +37,6 @@ step_annotations:
   errors:
   - description: Under cook - The tofu cubes will not be cooked enough
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Cook-Cook 2 minutes
   start_time: 199.566154286578
   step_id: 292
@@ -50,8 +45,6 @@ step_annotations:
   errors:
   - description: Use a spoon - might break the tofu cubes
     tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Flip-Flip the tofu with spoon
   start_time: 336.01371093833137
   step_id: 285
@@ -60,8 +53,6 @@ step_annotations:
   errors:
   - description: This might burn the tofu
     tag: Temperature Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Return-Return the heat to high
   start_time: 367
   step_id: 287
@@ -106,9 +97,6 @@ step_annotations:
   step_id: 284
 - description: cook-cook pan for 2 minutes until the colour is darkened
   end_time: 594.0573895042322
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 510.025
   step_id: 288
 - description: Transfer-Transfer to a serving dish
@@ -116,28 +104,46 @@ step_annotations:
   errors:
   - description: Spill some cooked tofu pieces
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Spill while transferring to a serving dish
   start_time: 602.4113215441355
   step_id: 283
 - description: remove-Briefly remove the pan from the heat to reduce spitting
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 280
 - description: Turn-Turn on the heat to medium
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 276
 - description: pat-pat tofu dry with a towel
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 293
 - description: cook-cook until tofu turns brown
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 290
 - description: flip-flip tofu on the pan
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 281
