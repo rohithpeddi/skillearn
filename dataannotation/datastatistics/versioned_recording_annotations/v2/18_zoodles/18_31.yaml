@@ -7,6 +7,8 @@ step_annotations:
   errors:
   - description: use low heat instead of medium
     tag: Temperature Error
+  - description: Step performed before peeling garlic
+    tag: Order Error
   modified_description: Heat-Heat a large pan on low heat
   start_time: 2.027
   step_id: 196
@@ -15,6 +17,8 @@ step_annotations:
   errors:
   - description: 1/2 tbsp of butter instead of 1 tbsp
     tag: Measurement Error
+  - description: Step performed before peeling garlic
+    tag: Order Error
   modified_description: Melt-Melt 1 tablespoons of softened butter
   start_time: 27.553
   step_id: 204
@@ -23,6 +27,8 @@ step_annotations:
   errors:
   - description: peel only halfway
     tag: Technique Error
+  - description: Step performed before after heating pan and melting butter
+    tag: Order Error
   modified_description: Peel- incompletely Peel 1 garlic cloves
   start_time: 183.913
   step_id: 200
@@ -63,24 +69,40 @@ step_annotations:
 - description: Top-Top with more parmesan if desired
   end_time: 435.493
   errors:
-  - description: top with cheddar cheese
+  - description: top with cheddar cheese instead of parmesan
     tag: Preparation Error
   modified_description: Top-Top with more cheddar if desired
   start_time: 416.194
   step_id: 195
 - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 203
 - description: season-season with salt
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 198
 - description: Add-Add the zucchini noodles
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 201
 - description: Cook-Cook for 2 minutes or until the zoodles are done
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 192

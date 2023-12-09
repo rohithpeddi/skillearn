@@ -15,11 +15,16 @@ step_annotations:
   errors:
   - description: Heat-Heat a large pan on high heat
     tag: Temperature Error
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
   modified_description: Heat-Heat a large pan on high heat
   start_time: 24.265
   step_id: 196
 - description: Melt-Melt 1 tablespoons of softened butter
   end_time: 112.042
+  errors:
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
   start_time: 54.113
   step_id: 204
 - description: Add-Add 1 large minced garlic cloves to the pan
@@ -27,6 +32,10 @@ step_annotations:
   errors:
   - description: Add un peeled not minced garlic clove to the pan
     tag: Preparation Error
+  - description: Add 2 large cloves instead of 1
+    tag: Measurement Error
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
   modified_description: Add-Add 1 large garlic clove to the pan
   start_time: 117.80799999999999
   step_id: 199
@@ -35,6 +44,8 @@ step_annotations:
   errors:
   - description: Grate 1 medium zucchini into thin noodles
     tag: Technique Error
+  - description: Step performed after heating the pan and adding garlic
+    tag: Order Error
   modified_description: Grate -Grate 1 medium zucchini into thin noodles using a grater
   start_time: 150.126
   step_id: 203
@@ -50,6 +61,9 @@ step_annotations:
   step_id: 202
 - description: season-pepper to taste
   end_time: 458.23
+  errors:
+  - description: Add a lot of pepper instead of just seasoning
+    tag: Measurement Error
   start_time: 442.212
   step_id: 194
 - description: Add-1/6 cup grated parmesan cheese
@@ -57,6 +71,8 @@ step_annotations:
   errors:
   - description: Add-1 cup grated parmesan cheese
     tag: Measurement Error
+  - description: Spill some cheese while adding it
+    tag: Technique Error
   modified_description: Add-1 cup grated parmesan cheese
   start_time: 476.49
   step_id: 193
@@ -64,23 +80,29 @@ step_annotations:
   end_time: 531.033
   start_time: 518.962
   step_id: 201
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: 650
+  start_time: 532
+  step_id: 192
 - description: season-season with salt
   end_time: 623.696
   errors:
   - description: Drop salt spoon while seasoning
     tag: Technique Error
+  - description: Add more salt than needed due to dropping of the spoon
+    tag: Measurement Error
   modified_description: season-season with salt (drop the spoon)
-  start_time: 577.389
+  start_time: 600
   step_id: 198
 - description: Remove-Remove from heat
-  end_time: 652.028
-  start_time: 647.88
+  end_time: 653
+  start_time: 649
   step_id: 197
 - description: Top-Top with more parmesan if desired
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 195
-- description: Cook-Cook for 2 minutes or until the zoodles are done
-  end_time: -1.0
-  start_time: -1.0
-  step_id: 192

@@ -1,29 +1,37 @@
 activity_id: 18
-is_error: false
+is_error: true
 recording_id: '18_3'
 step_annotations:
-- description: Heat-Heat a large pan on medium heat
-  end_time: 170.751
-  start_time: 160.075
-  step_id: 196
-- description: Peel-Peel 1 garlic cloves
-  end_time: 339.193
-  start_time: 294.195
-  step_id: 200
 - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
   end_time: 153.77
   start_time: 8.589
   step_id: 203
+- description: Heat-Heat a large pan on medium heat
+  end_time: 170.751
+  errors:
+  - description: Step performed before peeling garlic
+    tag: Order Error
+  start_time: 160.075
+  step_id: 196
 - description: Melt-Melt 1 tablespoons of softened butter
   end_time: 289.576
+  errors:
+  - description: Step performed before peeling garlic
+    tag: Order Error
   start_time: 170.042
   step_id: 204
+- description: Peel-Peel 1 garlic cloves
+  end_time: 339.193
+  errors:
+  - description: Step performed after heating and melting the butter
+    tag: Order Error
+  start_time: 294.195
+  step_id: 200
 - description: Add-Add 1 large minced garlic cloves to the pan
   end_time: 386.848
   start_time: 339.554
   step_id: 199
-- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
-    burn garlic
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic
   end_time: 430.235
   start_time: 389.491
   step_id: 202

@@ -4,14 +4,13 @@ recording_id: '18_101'
 step_annotations:
 - description: Peel-Peel 1 garlic cloves
   end_time: 49.891
-  errors:
-  - description: Peeled all in the bulbs
-    tag: Measurement Error
-  modified_description: Peel all cloves in a bulb of garlic
   start_time: 2.128
   step_id: 200
 - description: Heat-Heat a large pan on medium heat
   end_time: 91.866
+  errors:
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
   start_time: 54.228
   step_id: 196
 - description: Melt-Melt 1 tablespoons of softened butter
@@ -19,26 +18,37 @@ step_annotations:
   errors:
   - description: Added garlic butter
     tag: Preparation Error
+  - description: Used hands to add butter to pan
+    tag: Preparation Error
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
   modified_description: Melt-Melt 1 tablespoons of softened garlic butter
   start_time: 221.69
   step_id: 204
 - description: Add-Add 1 large minced garlic cloves to the pan
   end_time: 436.723
+  errors:
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
   start_time: 292.628
   step_id: 199
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
+    burn garlic
+  end_time: 621
+  errors:
+  - description: Cook garlic for more than 1 minute
+    tag: Timing Error
+  start_time: 420
+  step_id: 202
 - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
   end_time: 622.202
   errors:
   - description: did not remove ends to spiralize
-    tag: Preparation Error
-  modified_description: Use 1 zucchini in the spiraler
+    tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 449.964
   step_id: 203
-- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
-    burn garlic
-  end_time: 619.4678495570643
-  start_time: 578.601
-  step_id: 202
 - description: Add-Add the zucchini noodles
   end_time: 648.019
   start_time: 621.179
@@ -56,7 +66,10 @@ step_annotations:
   start_time: 693.556796240073
   step_id: 193
 - description: Cook-Cook for 2 minutes or until the zoodles are done
-  end_time: 813.846
+  end_time: 813
+  errors:
+  - description: Spill while sauteing and cooking the zoodles
+    tag: Technique Error
   start_time: 685.15
   step_id: 192
 - description: Remove-Remove from heat

@@ -5,53 +5,43 @@ step_annotations:
 - description: Heat-Heat a large pan on medium heat
   end_time: 30.049
   errors:
-  - description: Heat-Heat a large saucepan on medium heat
-    tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed before spiralizing zucchini and peel garlic
     tag: Order Error
   modified_description: Heat-Heat a large saucepan on medium heat
   start_time: 5.128
   step_id: 196
 - description: Peel-Peel 1 garlic cloves
   end_time: 125.005
-  errors:
-  - description: Peel-Peel 1 garlic cloves without pressing the garlic.
-    tag: Technique Error
-  modified_description: Peel-Peel 1 garlic cloves without pressing the garlic.
   start_time: 47.522
   step_id: 200
-- description: Melt-Melt 1 tablespoons of softened butter
-  end_time: 229.798
-  errors:
-  - description: Melt-Melt 1 tablespoons of clarified butter(ghee)
-    tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Melt-Melt 1 tablespoons of clarified butter(ghee)
-  start_time: 142.257
-  step_id: 204
 - description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
     burn garlic
-  end_time: 422.367
+  end_time: 720
   errors:
-  - description: Cook-Cook garlic until it burns (about 2.5 minutes). Put melted ghee
-      at the start of cooking.
+  - description: Cook-Cook garlic until it burns (about 2.5 minutes).
     tag: Timing Error
-  - description: Cook-Cook garlic until it burns (about 2.5 minutes). Put melted ghee
-      at the start of cooking.
-    tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed before adding butter and spiralizing zucchini
     tag: Order Error
   modified_description: Cook-Cook garlic until it burns (about 2.5 minutes). Put melted
     ghee at the start of cooking.
-  start_time: 230.82
+  start_time: 232
   step_id: 202
+- description: Melt-Melt 1 tablespoons of softened butter
+  end_time: 321
+  errors:
+  - description: Melt-Melt 1 tablespoons of clarified butter(ghee)
+    tag: Preparation Error
+  - description: Step performed before spiralizing zucchini and after cooking garlic
+    tag: Order Error
+  modified_description: Melt-Melt 1 tablespoons of clarified butter(ghee)
+  start_time: 308
+  step_id: 204
 - description: season-season with salt
   end_time: 457.432
   errors:
-  - description: season-season with salt. Spillage happens.
-    tag: Technique Error
-  - description: Step performed before correct order
+  - description: Add a lot of salt, not season with salt
+    tag: Measurement Error
+  - description: Step performed before spiralizing the zucchini
     tag: Order Error
   modified_description: season-season with salt. Spillage happens.
   start_time: 434.024
@@ -64,9 +54,7 @@ step_annotations:
       spiralizer at the start. Incomplete action of spiralizing. Used both ends of
       zucchini. Spilling happens.
     tag: Technique Error
-  - description: Did not remove top part of zucchini.
-    tag: Preparation Error
-  - description: Step performed after correct order
+  - description: Step performed after heating the pan and garlic
     tag: Order Error
   modified_description: Spiralize-Spiralize 1 medium zucchini into thin noodles using
     a spiralizer. Did not remove top part of zucchini. Just pressing the zucchini
@@ -76,9 +64,6 @@ step_annotations:
   step_id: 203
 - description: season-pepper to taste
   end_time: 684.463
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 653.195
   step_id: 194
 - description: Add-Add 1 large minced garlic cloves to the pan
@@ -95,20 +80,14 @@ step_annotations:
   end_time: 759.478
   errors:
   - description: Add-Add the zucchini noodles. Improper way of transferring. Not taking
-      the chopping board and trasferring with hand. Spilling the noodles as well.
+      the chopping board and transferring with hand. Spilling the noodles as well.
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-Add the zucchini noodles. Improper way of transferring.
-    Not taking the chopping board and trasferring with hand. Spilling the noodles
-    as well.
+    Not taking the chopping board and transferring with hand. Spilling the noodles as well.
   start_time: 726.87
   step_id: 201
 - description: Add-1/6 cup grated parmesan cheese
   end_time: 814.779
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 771.139
   step_id: 193
 - description: Cook-Cook for 2 minutes or until the zoodles are done
@@ -117,8 +96,6 @@ step_annotations:
   - description: Cook-Cook for 2 minutes with improper action. Just pressing the zoodles.
       Taking zoodles in the spoon and out of container. Spilling the zoodles as well.
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Cook-Cook for 2 minutes with improper action. Just pressing
     the zoodles. Taking zoodles in the spoon and out of container. Spilling the zoodles
     as well.
@@ -126,15 +103,9 @@ step_annotations:
   step_id: 192
 - description: Remove-Remove from heat
   end_time: 974.083
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 967.303
   step_id: 197
 - description: Top-Top with more parmesan if desired
   end_time: 997.577
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 978.203
   step_id: 195

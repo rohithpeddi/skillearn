@@ -5,74 +5,76 @@ step_annotations:
 - description: Heat-Heat a large pan on medium heat
   end_time: 33.139
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before spiralizing the zucchini
     tag: Order Error
   start_time: 1.003
   step_id: 196
 - description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
   end_time: 188.208
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 36.269
   step_id: 203
 - description: Peel-Peel 1 garlic cloves
   end_time: 202.309
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   start_time: 189.059
   step_id: 200
 - description: Melt-Melt 1 tablespoons of softened butter
   end_time: 290.241
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 206.222
   step_id: 204
 - description: Add-Add 1 large minced garlic cloves to the pan
   end_time: 365.268
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 291.09000000000003
   step_id: 199
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
+    burn garlic
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 202
 - description: season-pepper to taste
   end_time: 380.772
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 365.804
   step_id: 194
 - description: Add-Add the zucchini noodles
   end_time: 401.71
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 383.249
   step_id: 201
 - description: season-season with salt
   end_time: 418.63
-  errors:
-  - description: spilled salt while adding
-    tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: season-season with salt and spill some out while doing it
   start_time: 407.019
   step_id: 198
-- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
-    burn garlic
-  end_time: 476.647
-  start_time: 436.244
-  step_id: 202
-- description: Top-Top with more parmesan if desired
-  end_time: 509.775
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: 581
+  errors:
+  - description: Step started before adding parmesan cheese
+    tag: Order Error
+  - description: Cook for more than 3 minutes
+    tag: Timing Error
+  modified_description: Cook-Cook for 2 minutes or until the zoodles are done and
+    did not put pan on heat to cook
+  start_time: 406
+  step_id: 192
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 509
   errors:
   - description: spill some out while adding
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Add without measuring the exact amount
+    tag: Measurement Error
+  - description: Step performed after cooking for 1 minute
     tag: Order Error
-  modified_description: Top-Top with more parmesan if desired and spilled some outside
-  start_time: 480.038
-  step_id: 195
+  start_time: 480
+  step_id: 193
 - description: Remove-Remove from heat
   end_time: 521.769
   errors:
@@ -80,18 +82,11 @@ step_annotations:
     tag: Order Error
   start_time: 510.55
   step_id: 197
-- description: Cook-Cook for 2 minutes or until the zoodles are done
-  end_time: 661.036
-  errors:
-  - description: did not put pan on heat to cook
-    tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Cook-Cook for 2 minutes or until the zoodles are done and
-    did not put pan on heat to cook
-  start_time: 522.493
-  step_id: 192
-- description: Add-1/6 cup grated parmesan cheese
+- description: Top-Top with more parmesan if desired
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
-  step_id: 193
+  step_id: 195

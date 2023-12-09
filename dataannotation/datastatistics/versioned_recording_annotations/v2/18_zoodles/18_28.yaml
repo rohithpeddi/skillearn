@@ -13,13 +13,23 @@ step_annotations:
 - description: Heat-Heat a large pan on medium heat
   end_time: 120.14182229718543
   errors:
-  - description: heat the wrong pan and turn off the heat and turn on the heat for
-      the correct pan
+  - description: Turn on the wrong burner and turn off the heat and turn on the correct burner
     tag: Preparation Error
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
   modified_description: Heat-Heat the wrong pan; turn off the heat; and turn on the
     heat for the correct pan
   start_time: 84.2882562044702
   step_id: 196
+- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+  end_time: 228.16815130380795
+  errors:
+  - description: Step performed after heating the pan and melting the butter
+    tag: Order Error
+  - description: Using soiled zuccini
+    tag: Preparation Error
+  start_time: 123.40123739652319
+  step_id: 203
 - description: Melt-Melt 1 tablespoons of softened butter
   end_time: 312.9129438865894
   errors:
@@ -37,12 +47,6 @@ step_annotations:
   modified_description: Add-Add 1 large chopped  garlic clove to the pan
   start_time: 288.7001460057947
   step_id: 199
-- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
-  end_time: 228.16815130380795
-  modified_description: Spiralize-Spiralize 1 medium zucchini into thin noodles using
-    a spiralizer
-  start_time: 123.40123739652319
-  step_id: 203
 - description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
     burn garlic
   end_time: 377.1699844163907
@@ -52,6 +56,29 @@ step_annotations:
   modified_description: Cook-Cook garlic until fragrant (about 1 minutes). burn garlic
   start_time: 323.6224506415563
   step_id: 202
+- description: Add-Add the zucchini noodles
+  end_time: 392.5357984561258
+  modified_description: Add-Drop while add the zucchini noodles into the pan
+  start_time: 381.826291701159
+  step_id: 201
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 453.0677931581126
+  errors:
+  - description: Spill while adding grated cheese
+    tag: Technique Error
+  - description: Add 1/3 cup grated parmesan cheese instead of 1/6 cup
+    tag: Measurement Error
+  modified_description: Add-1/6 cup grated parmesan cheese; spill
+  start_time: 416.7485963369205
+  step_id: 193
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: 651
+  errors:
+  - description: Spill outside while sauteing to cook
+    tag: Technique Error
+  modified_description: Cook-Spill and burn the zoodles while sauteing to cook
+  start_time: 460.0522540852649
+  step_id: 192
 - description: season-pepper to taste
   end_time: 556.4378148799668
   start_time: 511.2716342177152
@@ -60,27 +87,6 @@ step_annotations:
   end_time: 579.719351303808
   start_time: 562.0253836216887
   step_id: 198
-- description: Add-1/6 cup grated parmesan cheese
-  end_time: 453.0677931581126
-  errors:
-  - description: Spill while adding grated cheese
-    tag: Technique Error
-  modified_description: Add-1/6 cup grated parmesan cheese; spill
-  start_time: 416.7485963369205
-  step_id: 193
-- description: Add-Add the zucchini noodles
-  end_time: 392.5357984561258
-  modified_description: Add-Drop while add the zucchini noodles into the pan
-  start_time: 381.826291701159
-  step_id: 201
-- description: Cook-Cook for 2 minutes or until the zoodles are done
-  end_time: 501.0277581912252
-  errors:
-  - description: Spill outside while sauteing to cook
-    tag: Technique Error
-  modified_description: Cook-Spill and burn the zoodles while sauteing to cook
-  start_time: 460.0522540852649
-  step_id: 192
 - description: Remove-Remove from heat
   end_time: 650.9608527607616
   start_time: 603.9321491846026
