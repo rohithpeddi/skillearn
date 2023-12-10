@@ -41,8 +41,6 @@ step_annotations:
   errors:
   - description: Didn't flip the pancakes properly.
     tag: Technique Error
-  modified_description: lip-Flip the pancakes with a fork or a fish slice spatula
-    improperly.
   start_time: 494.09751908645995
   step_id: 228
 - description: cook-cook for 20-30 seconds more
@@ -52,7 +50,7 @@ step_annotations:
 - description: Chop-Chop 1 strawberry
   end_time: 596.6668701468188
   errors:
-  - description: Sliced the strawberries instead of chopping.
+  - description: Teared strawberries with hands instead of chopping them with a knife
     tag: Technique Error
   modified_description: Slice-Slice 1 strawberry
   start_time: 567.9915676998368
@@ -75,5 +73,9 @@ step_annotations:
   step_id: 224
 - description: Add-1/2 tsp baking powder to a blender
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 221

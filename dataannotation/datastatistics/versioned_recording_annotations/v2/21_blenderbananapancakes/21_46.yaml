@@ -40,10 +40,8 @@ step_annotations:
     heat
   end_time: 439.4252922324841
   errors:
-  - description: Use medium knob of butter instead of small knob
+  - description: Use a tablespoon of butter instead of a small knob
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Melt a medium knob of butter in a non-stick frying pan over
     medium heat
   start_time: 336.17235471337585
@@ -51,9 +49,9 @@ step_annotations:
 - description: splash-splash maple syrup on plate
   end_time: 479.0456054665606
   errors:
-  - description: pour maple syrup on plate instead of splashing
+  - description: Pour instead of splash maple syrup on plate
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed before making pan cakes
     tag: Order Error
   modified_description: pour maple syrup on plate instead of splashing
   start_time: 457.4345255207007
@@ -62,7 +60,7 @@ step_annotations:
     pan
   end_time: 522.2677653582803
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding maple syrup on plate
     tag: Order Error
   start_time: 483.84806767675167
   step_id: 231
@@ -71,7 +69,7 @@ step_annotations:
   errors:
   - description: Cook for 2 mins instead of 1 min
     tag: Timing Error
-  - description: Step performed before correct order
+  - description: Step performed after adding maple syrup on plate
     tag: Order Error
   modified_description: Cook for 2 mins
   start_time: 524.6689964633757
@@ -79,28 +77,30 @@ step_annotations:
 - description: Flip-Flip the pancakes with a fork or a fish slice spatula
   end_time: 693.9557893726114
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding maple syrup on plate
     tag: Order Error
+  - description: Not using a fork or a fish slice spatula
+    tag: Preparation Error
   start_time: 662.7397850063695
   step_id: 228
 - description: cook-cook for 20-30 seconds more
   end_time: 721.5699470812101
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding maple syrup on plate
     tag: Order Error
   start_time: 691.554558267516
   step_id: 230
 - description: Transfer-Transfer to a plate
   end_time: 740.7797959219746
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding maple syrup on plate
     tag: Order Error
   start_time: 719.1687159761148
   step_id: 234
 - description: Serve-Serve the pancakes with chopped strawberries
   end_time: 753.986567
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding maple syrup on plate
     tag: Order Error
   start_time: 738.378564816879
   step_id: 222

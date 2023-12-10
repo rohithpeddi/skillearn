@@ -30,17 +30,11 @@ step_annotations:
   step_id: 232
 - description: blitz-blitz the blender for 20 seconds
   end_time: 307.3957299633758
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 213.09504786305732
   step_id: 227
 - description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
     heat
   end_time: 401.69641206369425
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 338.0128345414013
   step_id: 223
 - description: Pour-Pour three little puddles straight from the blender into the frying
@@ -49,15 +43,13 @@ step_annotations:
   errors:
   - description: Pour one large puddle instead of little puddles
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 422.5160431767516
   step_id: 231
 - description: Cook-Cook for 1 min or until the tops start to bubble
   end_time: 595.1965129968153
   errors:
-  - description: Step performed before correct order
-    tag: Order Error
+  - description: Not cooking until required state is reached
+    tag: Technique Error
   start_time: 453.13314775477704
   step_id: 226
 - description: Flip-Flip the pancakes with a fork or a fish slice spatula
@@ -65,36 +57,41 @@ step_annotations:
   errors:
   - description: Not using fish slice spatula resulting in making a large ball
     tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
+  - description: Not flipping entire pancake at once
+    tag: Technique Error
   start_time: 592.7471446305733
   step_id: 228
 - description: cook-cook for 20-30 seconds more
   end_time: 727.4624047738854
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 673.5763007165605
   step_id: 230
 - description: splash-splash maple syrup on plate
   end_time: 722.1874082623241
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding strawberries to the plate
     tag: Order Error
   start_time: 709.09214202707
   step_id: 224
 - description: Transfer-Transfer to a plate
   end_time: 748.3770207822721
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding maple syrup to the plate
     tag: Order Error
   start_time: 727.6523745645442
   step_id: 234
 - description: Chop-Chop 1 strawberry
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 233
 - description: Serve-Serve the pancakes with chopped strawberries
-  end_time: 762.9782460843949
-  start_time: 755.6301409856687
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
   step_id: 222

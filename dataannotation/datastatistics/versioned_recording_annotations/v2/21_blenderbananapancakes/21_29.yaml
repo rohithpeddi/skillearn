@@ -16,6 +16,8 @@ step_annotations:
   errors:
   - description: Add 2 eggs instead of  1 egg
     tag: Measurement Error
+  - description: Dropping egg shell while adding to blender
+    tag: Technique Error
   modified_description: Add-2 eggs to a blender
   start_time: 75.96537993630572
   step_id: 229
@@ -35,7 +37,7 @@ step_annotations:
     heat
   end_time: 284.64136337579623
   errors:
-  - description: high-medium instead of low-medium
+  - description: Used high heat instead of low-medium heat
     tag: Temperature Error
   modified_description: Melt-Melt a small knob of butter in a non-stick frying pan
     over high-medium heat
@@ -45,14 +47,16 @@ step_annotations:
     pan
   end_time: 343.21707802547775
   errors:
-  - description: Pour the three puddles together from blender into the pan
-    tag: Technique Error
+  - description: Poured on large puddle instead of three little puddles
+    tag: Measurement Error
+  - description: Not using a proper frying pan.
+    tag: Preparation Error
   modified_description: Pour-Pour three little puddles straight from the blender into
     the frying pan, but put them together
   start_time: 284.6413633757962
   step_id: 231
 - description: Cook-Cook for 1 min or until the tops start to bubble
-  end_time: 395.3860738853503
+  end_time: 502
   start_time: 343.2170780254777
   step_id: 226
 - description: Chop-Chop 1 strawberry
@@ -65,6 +69,9 @@ step_annotations:
   step_id: 233
 - description: Flip-Flip the pancakes with a fork or a fish slice spatula
   end_time: 517.1137308917197
+  errors:
+  - description: Did not flip the entire pancake, but only a part of it
+    tag: Technique Error
   start_time: 504.30029331210187
   step_id: 228
 - description: cook-cook for 20-30 seconds more
@@ -93,5 +100,9 @@ step_annotations:
   step_id: 224
 - description: Add-Add 1 banana to a blender
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 225
