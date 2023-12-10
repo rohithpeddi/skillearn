@@ -7,6 +7,8 @@ step_annotations:
   errors:
   - description: Add 3 tbsp instead of 1.5 tbsp
     tag: Measurement Error
+  - description: Spilling while measuring the sugar
+    tag: Technique Error
   modified_description: Measure and add-3 tbsp sugar to the mixing bowl
   start_time: 0
   step_id: 297
@@ -87,25 +89,18 @@ step_annotations:
 - description: Invert-Invert the mug to release the cake onto a plate
   end_time: 656.3166911859352
   errors:
-  - description: use unclean plate
+  - description: Use butter knife to scrape the ingredients from the mug
     tag: Preparation Error
   modified_description: Invert-Invert the mug to release the cake onto a unclean plate
   start_time: 589.1411490172604
   step_id: 309
 - description: Allow-Allow to cool until it is no longer hot to the touch
-  end_time: -1.0
-  errors:
-  - description: let the cake be hot
-    tag: Timing Error
-  modified_description: Do not Allow-Do not Allow to cool
-  start_time: -1.0
+  end_time: 801
+  start_time: 653
   step_id: 305
 - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
     4 spoonfuls of chocolate frosting into a zip-top bag
   end_time: 775.8891562461761
-  errors:
-  - description: dont wait till its cool
-    tag: Temperature Error
   modified_description: Scoop-While the cake is hot, prepare to pipe the frosting.
     Scoop 4 spoonfuls of chocolate frosting into a zip-top bag
   start_time: 673.7823321497906
@@ -122,21 +117,41 @@ step_annotations:
   step_id: 302
 - description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 299
 - description: Place-Place the paper cupcake liner inside the mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 303
 - description: Set-Set aside the lined mug
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 301
 - description: seal-seal zip top bag, removing as much air as possible
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 311
 - description: remove-then carefully remove the paper liner
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 295

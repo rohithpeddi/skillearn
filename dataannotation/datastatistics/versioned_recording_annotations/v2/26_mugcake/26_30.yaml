@@ -4,18 +4,12 @@ recording_id: '26_30'
 step_annotations:
 - description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
   end_time: 41.46574633392064
-  errors:
-  - description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl (without
-      cleaning bowl first)
-    tag: Preparation Error
-  modified_description: Measure and add-Measure and add 2 tbsp flour to the mixing
-    bowl (without cleaning bowl first)
   start_time: 3.5251930953664266
   step_id: 299
 - description: Measure and add-1.5 tbsp sugar to the mixing bowl
   end_time: 91.35054781424193
   errors:
-  - description: Measure and add-1.5 tbsp salt to the mixing bowl
+  - description: Using salt in place of sugar
     tag: Preparation Error
   modified_description: Measure and add-1.5 tbsp salt to the mixing bowl
   start_time: 54.815200251189715
@@ -23,7 +17,7 @@ step_annotations:
 - description: Measure and add-a pinch of salt to the mixing bowl
   end_time: 122.96767551303711
   errors:
-  - description: Measure and add-a pinch of sugar to the mixing bowl
+  - description: Add a pinch of sugar to the mixing bowl instead of salt
     tag: Preparation Error
   modified_description: Measure and add-a pinch of sugar to the mixing bowl
   start_time: 92.75575348974394
@@ -68,17 +62,22 @@ step_annotations:
 - description: Whisk-Whisk batter until no lumps remain
   end_time: 498.15759087207323
   errors:
-  - description: Whisk-Whisk batter with a spoon until no lumps remain
+  - description: Use spoon instead of whisker to whisk batter until no lumps remain
+    tag: Preparation Error
+  - description: Using hands in the last few seconds of the video
     tag: Preparation Error
   modified_description: Whisk-Whisk batter with a spoon until no lumps remain
   start_time: 447.57018655400094
   step_id: 294
 - description: Pour-Pour batter into prepared mug
   end_time: 580.3621228889407
+  errors:
+  - description: Using hand to transfer batter into prepared mug
+    tag: Technique Error
   start_time: 518.5330731668524
   step_id: 307
 - description: Invert-Invert the mug to release the cake onto a plate
-  end_time: 627.4365130182581
+  end_time: 626
   errors:
   - description: Invert-Invert the mug to release the cake onto a bowl
     tag: Preparation Error
@@ -86,32 +85,29 @@ step_annotations:
   start_time: 599.3323995082178
   step_id: 309
 - description: Allow-Allow to cool until it is no longer hot to the touch
-  end_time: -1.0
+  end_time: 635
   errors:
   - description: Allow-No time to allow for cooling so that it is still hot to the
       touch
     tag: Timing Error
   modified_description: Allow-No time to allow for cooling so that it is still hot
     to the touch
-  start_time: -1.0
+  start_time: 626
   step_id: 305
 - description: remove-then carefully remove the paper liner
   end_time: 649.9198038262901
-  errors:
-  - description: remove- remove the paper liner by pulling strongly (not carefully)
-    tag: Technique Error
-  modified_description: remove- remove the paper liner by pulling strongly (not carefully)
   start_time: 635.8677470712701
   step_id: 295
 - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
     4 spoonfuls of chocolate frosting into a zip-top bag
   end_time: 751.0946124624347
   errors:
-  - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
-      2 spoonfuls of chocolate frosting into a polythene
+  - description: Scooped 2 spoonfuls instead of 4 spoonfuls of chocolate frosting
+      into a zip-top bag
     tag: Measurement Error
-  - description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
-      2 spoonfuls of chocolate frosting into a polythene
+  - description: Transferring with hand instead of scooping with a spoon
+    tag: Technique Error
+  - description: Using polythene bag instead of zip-top bag
     tag: Preparation Error
   modified_description: Scoop-While the cake is cooling, prepare to pipe the frosting.
     Scoop 2 spoonfuls of chocolate frosting into a polythene
@@ -121,8 +117,7 @@ step_annotations:
     1/4 inch in diameter
   end_time: 786.0747765469721
   errors:
-  - description: cut-Use knife to cut one corner from the bag to create a small opening
-      1/4 inch in diameter
+  - description: Use knife instead of scissors to cut one corner
     tag: Preparation Error
   modified_description: cut-Use knife to cut one corner from the bag to create a small
     opening 1/4 inch in diameter
@@ -132,15 +127,20 @@ step_annotations:
     of frosting to the plate in a circle around the base of the cake
   end_time: 866.3214778535994
   errors:
-  - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
-      of frosting to the bowl in a square around the base of the cake
+  - description: Squeeze in a square instead of circle
     tag: Technique Error
+  - description: Use bowl instead of plate
+    tag: Preparation Error
   modified_description: Squeeze-Squeeze the frosting through the opening to apply
     small dollops of frosting to the bowl in a square around the base of the cake
   start_time: 787.44
   step_id: 302
 - description: Measure and add-1/4 tsp baking powder to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 304
 - description: Microwave-Microwave the mug and batter on high power for 60 seconds.
@@ -148,9 +148,17 @@ step_annotations:
     and then removing it. If wet batter clings to the toothpick, microwave for an
     additional 5 seconds. If the toothpick comes out clean, continue
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 312
 - description: seal-seal zip top bag, removing as much air as possible
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 311

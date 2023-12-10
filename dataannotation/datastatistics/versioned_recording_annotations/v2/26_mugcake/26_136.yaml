@@ -4,15 +4,13 @@ recording_id: '26_136'
 step_annotations:
 - description: Measure and add-1/4 tsp baking powder to the bowl
   end_time: 61.038771844881275
-  errors:
-  - description: Use wet spoon
-    tag: Preparation Error
-  modified_description: Measure and add-1/4 tsp baking powder to the bowl using a
-    wet measuring spoon
   start_time: 0
   step_id: 304
 - description: Measure and add-a pinch of salt to the mixing bowl
   end_time: 76.30262758636148
+  errors:
+  - description: Seasoned salt instead of adding a pinch of salt
+    tag: Technique Error
   start_time: 63.78783677259212
   step_id: 310
 - description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
@@ -20,8 +18,7 @@ step_annotations:
   errors:
   - description: Drop the sugar box while taking flour
     tag: Technique Error
-  modified_description: Measure and add-Measure and add 2 tbsp flour to the mixing
-    bowl
+  modified_description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
   start_time: 79.73241335331501
   step_id: 299
 - description: Measure and add-1.5 tbsp sugar to the mixing bowl
@@ -29,17 +26,16 @@ step_annotations:
   errors:
   - description: use brown sugar instead of white sugar
     tag: Preparation Error
+  - description: Use of unclean measuring spoon
+    tag: Preparation Error
   modified_description: Measure and add-1.5 tbsp brown sugar to the mixing bowl
   start_time: 104.2370266294964
   step_id: 297
-- description: Whisk-Whisk to combine mixture of flour, sugar and baking powder in
-    the bowl
+- description: Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl
   end_time: 147.32713606294962
   errors:
-  - description: Do not whisk enough
+  - description: Whisked with spoon instead of a whisker
     tag: Preparation Error
-  modified_description: Whisk-Whisk a little to combine mixture of flour, sugar and
-    baking powder in the bowl
   start_time: 132.55338425719424
   step_id: 308
 - description: Measure and add-Measure and add 2 tsp vegetable oil to the bowl
@@ -67,12 +63,14 @@ step_annotations:
   start_time: 278.2389923417266
   step_id: 301
 - description: Whisk-Whisk batter until no lumps remain
-  end_time: -1.0
+  end_time: 290
   errors:
   - description: Do not whisk enough - ingredients will be not mixed properly
+    tag: Technique Error
+  - description: Use of unclean measuring instruments
     tag: Preparation Error
   modified_description: Whisk- (Do not whisk enough) Whisk batter until no lumps remain
-  start_time: -1.0
+  start_time: 278
   step_id: 294
 - description: Pour-Pour batter into prepared mug
   end_time: 309.0176419370503
@@ -98,15 +96,14 @@ step_annotations:
   - description: Cannot invert due to the tissue paper. Use a spoon to Invert the
       mug to release the cake onto a plate
     tag: Preparation Error
+  - description: Invert into a bowl instead of a plate
+    tag: Preparation Error
   modified_description: Invert-Use a spoon to Invert the mug to release the cake onto
     a plate
   start_time: 474.8119677571942
   step_id: 309
 - description: Allow-Allow to cool until it is no longer hot to the touch
   end_time: 578.6386123920863
-  errors:
-  - description: did not wait the cake to be cool
-    tag: Timing Error
   start_time: 511.74634727158275
   step_id: 305
 - description: remove-then carefully remove the paper liner
@@ -132,12 +129,16 @@ step_annotations:
   end_time: 675.9792196488419
   errors:
   - description: Cut the bag in half. Cannot use it since we used pieces
-    tag: Preparation Error
+    tag: Technique Error
   modified_description: cut-Use scissors to cut the bag in half
   start_time: 667.6014213687489
   step_id: 306
 - description: Squeeze-Squeeze the frosting through the opening to apply small dollops
     of frosting to the plate in a circle around the base of the cake
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 302

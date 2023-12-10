@@ -12,6 +12,9 @@ step_annotations:
   step_id: 297
 - description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
   end_time: 138.889
+  errors:
+  - description: Used soiled measuring spoon instead of clean one
+    tag: Preparation Error
   start_time: 109.324
   step_id: 299
 - description: Place-Place the paper cupcake liner inside the mug
@@ -54,11 +57,18 @@ step_annotations:
   errors:
   - description: Used hands to mix
     tag: Preparation Error
+  - description: Make a big lump instead of a smooth batter
+    tag: Technique Error
   modified_description: Whisk-Use hands to mix batter until no lumps remain
   start_time: 275.68399999999997
   step_id: 294
 - description: Pour-Pour batter into prepared mug
   end_time: 312.526
+  errors:
+  - description: Use hands to place the lump of batter into the mug
+    tag: Technique Error
+  - description: Has a lump instead of a smooth batter
+    tag: Preparation Error
   start_time: 301.671
   step_id: 307
 - description: Microwave-Microwave the mug and batter on high power for 60 seconds.
@@ -67,10 +77,8 @@ step_annotations:
     additional 5 seconds. If the toothpick comes out clean, continue
   end_time: 490.972
   errors:
-  - description: Disbalanced the microwave plate
-    tag: Technique Error
-  - description: Burnt the cake
-    tag: Timing Error
+  - description: Microwaved to get to a burnt stage
+    tag: Other
   modified_description: Microwave-Disbalanced the microwave plate. Fix it. Then, microwave
     the mug and batter on high power for 60 seconds. Check if the cake is done by
     inserting and toothpick into the center of the cake and then removing it. If wet
@@ -104,7 +112,7 @@ step_annotations:
     of frosting to the plate in a circle around the base of the cake
   end_time: 698.437
   errors:
-  - description: Put the frosting all over
+  - description: Make a big circle instead of small dollops
     tag: Technique Error
   modified_description: Squeeze-Squeeze the frosting through the opening to apply
     small dollops of frosting to the plate in a circle around the base of the cake.
@@ -113,9 +121,17 @@ step_annotations:
   step_id: 302
 - description: Measure and add-2 tbsp water to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 296
 - description: seal-seal zip top bag, removing as much air as possible
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 311
