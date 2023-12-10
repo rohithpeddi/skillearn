@@ -34,38 +34,48 @@ step_annotations:
   end_time: 245.26192829382956
   start_time: 225.57347074730657
   step_id: 239
-- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
-  end_time: 327.9534499892262
-  start_time: 274.5133509343781
-  step_id: 235
 - description: add-1/2 tsp ground black pepper to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 249
 - description: Beat-Beat the contents of the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 248
+- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+  end_time: 327.9534499892262
+  start_time: 274.5133509343781
+  step_id: 235
 - description: cook-cook the tomatoes cut-side down until they start to soften and
     colour
   end_time: 374.08069338393733
   errors:
-  - description: cook the tomatoes cut-side down just several seconds, without waiting
-      for they starting to soften and color
+  - description: Undercook, without waiting for them to start to soften and color
     tag: Timing Error
   modified_description: cook the tomatoes cut-side down for several seconds
   start_time: 331.8911414985308
   step_id: 240
 - description: Scoop-Scoop the tomatoes from the pan
-  end_time: 390.95651413809986
+  end_time: -1.0
   errors:
-  - description: pour the tomatoes directly
-    tag: Technique Error
-  modified_description: Pour the tomatoes directly from the pan
-  start_time: 383.6436584779628
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
   step_id: 244
 - description: put-put tomatoes on a serving plate
   end_time: 398.8318971567091
+  errors:
+    - description: Pour the tomatoes into the pan instead of putting them
+      tag: Technique Error
   start_time: 387.01882262879525
   step_id: 236
 - description: Pour-Pour the egg mixture into the pan
@@ -76,27 +86,21 @@ step_annotations:
     of the pan moves to enable the uncooked egg to flow into the space
   end_time: 524.2754980959844
   errors:
-  - description: metal spoon
+  - description: Used steel spoon instead of wooden spoon
     tag: Preparation Error
-  modified_description: stir-stir gently with a metal spoon so the egg that sets on
-    the base of the pan moves to enable the uncooked egg to flow into the space
   start_time: 446.0841952683643
   step_id: 238
 - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
     an omelette
   end_time: 533.2759358315376
   errors:
-  - description: fully cooked
-    tag: Timing Error
   - description: set into small pieces instead of an omelette
     tag: Technique Error
-  - description: fully cooked
-    tag: Temperature Error
   modified_description: Stop-Stop stirring when it's fully cooked to allow it to small
     pieces
   start_time: 519.7752792282076
   step_id: 245
 - description: Transfer-Transfer omelette to the plate and serve with the tomatoes
-  end_time: -1.0
-  start_time: -1.0
+  end_time: 567
+  start_time: 555
   step_id: 243

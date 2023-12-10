@@ -25,14 +25,22 @@ step_annotations:
     tag: Technique Error
   - description: Add more oil due to spillage
     tag: Measurement Error
+  - description: Step performed before beating the egg mixture
+    tag: Order Error
   start_time: 216.00423114593534
   step_id: 235
 - description: Take-Take a tomato
   end_time: 319.80626444662096
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 274.8053829578844
   step_id: 247
 - description: Cut-Cut tomato into two pieces
   end_time: 328.2064289911851
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 318.6062409402547
   step_id: 246
 - description: Beat-Beat the contents of the bowl
@@ -40,6 +48,8 @@ step_annotations:
   errors:
   - description: spilled egg mixture while beating swiflty
     tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 357.00699314397644
   step_id: 248
 - description: cook-cook the tomatoes cut-side down until they start to soften and
@@ -47,24 +57,21 @@ step_annotations:
   end_time: 432.60847404505387
   start_time: 404.40792164544564
   step_id: 240
-- description: Scoop-Scoop the tomatoes from the pan
-  end_time: -1.0
-  errors:
-  - description: Scooped the tomatoes after making omelet
-    tag: Order Error
-  start_time: -1.0
-  step_id: 244
-- description: put-put tomatoes on a serving plate
-  end_time: -1.0
-  errors:
-  - description: Transfering tomatoes after making omelet
-    tag: Order Error
-  start_time: -1.0
-  step_id: 236
 - description: Pour-Pour the egg mixture into the pan
   end_time: 443.4086856023506
+  errors:
+  - description: Step performed before putting tomatoes on the plate
+    tag: Order Error
   start_time: 431.40845053868753
   step_id: 241
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 526
+  errors:
+  - description: Step performed before putting tomatoes on the plate
+    tag: Order Error
+  start_time: 446
+  step_id: 238
 - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
     an omelette
   end_time: 541.8106131243879
@@ -72,18 +79,37 @@ step_annotations:
   - description: Did not stop stirring when its nearly cooked thus making it into
       smaller pieces
     tag: Technique Error
+  - description: Step performed before putting tomatoes on the plate
+    tag: Order Error
   start_time: 529.2103663075417
   step_id: 245
 - description: Transfer-Transfer omelette to the plate and serve with the tomatoes
   end_time: 585.6114711067581
+  errors:
+  - description: Step performed before putting tomatoes on the plate
+    tag: Order Error
   start_time: 544.2106601371205
   step_id: 243
+- description: put-put tomatoes on a serving plate
+  end_time: 578
+  errors:
+  - description: Step performed after putting the omelette on the plate
+    tag: Order Error
+  start_time: 570
+  step_id: 236
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 244
 - description: add-add the chopped cilantro to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 242
-- description: stir-stir gently with a wooden spoon so the egg that sets on the base
-    of the pan moves to enable the uncooked egg to flow into the space
-  end_time: -1.0
-  start_time: -1.0
-  step_id: 238

@@ -5,7 +5,7 @@ step_annotations:
 - description: Chop-Chop 2 tbsp cilantro
   end_time: 128.80820946229187
   errors:
-  - description: Didn't wash and did not chop the cilantro.
+  - description: Did not chop the cilantro using knofe but made into pieces using hands
     tag: Preparation Error
   modified_description: Take-Take 2 tbsp cilantro without washing it.
   start_time: 12.669659947110674
@@ -16,10 +16,6 @@ step_annotations:
   step_id: 247
 - description: Cut-Cut tomato into two pieces
   end_time: 186.5255492213516
-  errors:
-  - description: cutting the tomato into improper shapes.
-    tag: Technique Error
-  modified_description: Cut-Cut tomato into two improper shape pieces.
   start_time: 164.0017093153771
   step_id: 246
 - description: crack-crack one egg in a bowl
@@ -28,6 +24,9 @@ step_annotations:
   step_id: 239
 - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   end_time: 318.1492386718903
+  errors:
+  - description: Step performed before egg mixture is ready
+    tag: Order Error
   start_time: 260.43189891283055
   step_id: 235
 - description: cook-cook the tomatoes cut-side down until they start to soften and
@@ -36,20 +35,44 @@ step_annotations:
   errors:
   - description: Didn't cook the tomatoes until they soften and change in colour.
     tag: Timing Error
+  - description: Scooping and placing cooked items on the cutting board
+    tag: Preparation Error
+  - description: Step performed before egg mixture is ready
+    tag: Order Error
   modified_description: Cook-Cook the tomatoes cut-side down and don't turn them to
     soften and colour
   start_time: 367.4201384662096
   step_id: 240
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 510
+  errors:
+  - description: Scooping and placing cooked items on the cutting board
+    tag: Preparation Error
+  - description: Step performed before egg mixture is ready
+    tag: Order Error
+  start_time: 501
+  step_id: 244
 - description: add-add the chopped cilantro to the bowl
   end_time: 543.3876377316357
+  errors:
+  - description: Step performed after preparing tomatoes
+    tag: Order Error
   start_time: 530.0141077874632
   step_id: 242
 - description: Scoop-Scoop the tomatoes from the pan
-  end_time: 558.1689076699314
-  start_time: 544.0915077286974
+  end_time: 551
+  errors:
+  - description: Scooping and placing cooked items on the cutting board
+    tag: Preparation Error
+  - description: Step performed before egg mixture is ready
+    tag: Order Error
+  start_time: 544
   step_id: 244
 - description: add-1/2 tsp ground black pepper to the bowl
   end_time: 593.3624075230166
+  errors:
+  - description: Step performed after preparing tomatoes
+    tag: Order Error
   start_time: 572.9501776082271
   step_id: 249
 - description: put-put tomatoes on a serving plate
@@ -81,9 +104,17 @@ step_annotations:
   step_id: 245
 - description: Transfer-Transfer omelette to the plate and serve with the tomatoes
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 243
 - description: Beat-Beat the contents of the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 248

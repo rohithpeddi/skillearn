@@ -23,9 +23,9 @@ step_annotations:
 - description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
   end_time: 163.45972510714287
   errors:
-  - description: not a small pan, it's a medium size pan
+  - description: Using soiled pan
     tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed before preparing egg mixture
     tag: Order Error
   start_time: 141.86144311100384
   step_id: 235
@@ -33,20 +33,25 @@ step_annotations:
     colour
   end_time: 245.92589272876444
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before preparing egg mixture
     tag: Order Error
   start_time: 175.73147624131272
   step_id: 240
 - description: add-add the chopped cilantro to the bowl
   end_time: 295.012897265444
+  errors:
+  - description: Step performed after cooking the tomatoes
+    tag: Order Error
   start_time: 286.17723644884165
   step_id: 242
 - description: Beat-Beat the contents of the bowl
   end_time: 307.2846483996139
   errors:
-  - description: using hand finger to beat the contents...
+  - description: Using hand finger to beat the contents...
     tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Instead of beating the contents the bowl is just rotated in a circle
+    tag: Technique Error
+  - description: Step performed after cooking the tomatoes and before adding cilantro, egg and pepper
     tag: Order Error
   start_time: 294.5220272200772
   step_id: 248
@@ -55,14 +60,14 @@ step_annotations:
   errors:
   - description: more like pour them out
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed before preparing egg mixture
     tag: Order Error
   start_time: 318.0837893976834
   step_id: 244
 - description: put-put tomatoes on a serving plate
   end_time: 330.84641057722007
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before preparing egg mixture
     tag: Order Error
   start_time: 322.9924898513513
   step_id: 236
@@ -71,30 +76,24 @@ step_annotations:
   errors:
   - description: egg shells are in the bowl
     tag: Technique Error
-  - description: Step performed after correct order
+  - description: Step performed after transferring tomatoes to the plate
     tag: Order Error
   start_time: 347.04512207432424
   step_id: 239
 - description: add-1/2 tsp ground black pepper to the bowl
   end_time: 399.07734688320465
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after transferring tomatoes to the plate
     tag: Order Error
   start_time: 367.6616639797297
   step_id: 249
 - description: Pour-Pour the egg mixture into the pan
   end_time: 437.36521042181465
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 419.2030187432432
   step_id: 241
 - description: stir-stir gently with a wooden spoon so the egg that sets on the base
     of the pan moves to enable the uncooked egg to flow into the space
   end_time: 483.5069946862934
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 437.8560804671814
   step_id: 238
 - description: Stop-Stop stirring when it's nearly cooked to allow it to set into
@@ -103,14 +102,9 @@ step_annotations:
   errors:
   - description: not an exact omelette
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 484.488734777027
   step_id: 245
 - description: Transfer-Transfer omelette to the plate and serve with the tomatoes
   end_time: 503.632666546332
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 492.83352554826246
   step_id: 243
