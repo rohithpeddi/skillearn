@@ -9,7 +9,7 @@ step_annotations:
 - description: cut-cut avocado into thin slices
   end_time: 122.2058676196911
   errors:
-  - description: chop instead of slice
+  - description: Chop avocado with skin instead of cutting it
     tag: Technique Error
   modified_description: cut-cut avocado into chopped size
   start_time: 15.841501358108108
@@ -20,10 +20,6 @@ step_annotations:
   step_id: 336
 - description: Chop-Chop 1 scallion
   end_time: 276.0947379555984
-  errors:
-  - description: 2 instead of 1 scallion
-    tag: Measurement Error
-  modified_description: Chop-Chop 1 scallions
   start_time: 234.60509154150577
   step_id: 340
 - description: Lay-Lay out 2 large lettuce leaves
@@ -37,8 +33,8 @@ step_annotations:
 - description: drain-drain excess water from can
   end_time: 482.03425561100386
   errors:
-  - description: leave some water remaining
-    tag: Preparation Error
+  - description: Do not drain water completely instead leave some water remaining
+    tag: Technique Error
   modified_description: drain-drain excess water from can, but  leave some water remaining
   start_time: 460.912253800193
   step_id: 328
@@ -53,13 +49,17 @@ step_annotations:
 - description: Add-1 tsp Sriracha sauce to the bowl
   end_time: -1.0
   errors:
-  - description: Splashing some sauce
-    tag: Technique Error
-  modified_description: Add-1 tsp Sriracha sauce to the bowl, but splash some sauce
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 339
 - description: Add-Add 1 can drained tuna to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 334
 - description: place-place avocado slices on each leaf
@@ -76,6 +76,9 @@ step_annotations:
   step_id: 326
 - description: top-top lettuce leaves with the tuna mixture
   end_time: 730.9721340955598
+  errors:
+  - description: Top the lettuce leaves with the tuna from the can
+    tag: Preparation Error
   start_time: 691.745559304054
   step_id: 332
 - description: Roll-Roll up the lettuce wraps
@@ -88,13 +91,25 @@ step_annotations:
   step_id: 337
 - description: Add-add chopped scallion to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 333
 - description: Mix-Mix the contents of the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 331
 - description: Season-Season bowl with 1/4 tsp salt
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 338

@@ -7,7 +7,6 @@ step_annotations:
   errors:
   - description: Did not add mayonnaise to the bowl
     tag: Missing Step
-  modified_description: 'Measure -1/4 cup mayonnaise '
   start_time: 6.212
   step_id: 327
 - description: Take-Take 1 ripe avocado

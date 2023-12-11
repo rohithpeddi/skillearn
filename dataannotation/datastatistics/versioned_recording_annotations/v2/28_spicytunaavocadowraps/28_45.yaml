@@ -13,8 +13,6 @@ step_annotations:
 - description: Chop-Chop 1 scallion
   end_time: 235.53520337837836
   errors:
-  - description: 1/2 scallion
-    tag: Measurement Error
   - description: cut 1/2 scallion instead of chop
     tag: Technique Error
   modified_description: Cut 1/2 scallion
@@ -23,48 +21,42 @@ step_annotations:
 - description: drain-drain excess water from can
   end_time: 262.2453810810811
   errors:
-  - description: not all water
+  - description: Did not drain complete water from the can
     tag: Preparation Error
-  - description: half water
-    tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: drain half excess water from can
   start_time: 246.05739459459457
   step_id: 328
 - description: Add-1 tsp Sriracha sauce to the bowl
   end_time: 373.1330885135135
+  errors:
+  - description: Add to a mug instead of a bowl
+    tag: Preparation Error
   start_time: 335.0913202702702
   step_id: 339
 - description: cut-cut avocado into thin slices
   end_time: 480.7831986486487
   errors:
-  - description: thick slices instead of thin slices
+  - description: Cut into thick slices instead of thin slices
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: cut avocado into thin slices
   start_time: 381.2270817567568
   step_id: 341
 - description: Add-Add 1 can drained tuna to the bowl
   end_time: 501.0181817567567
   errors:
-  - description: cup instead of bowl
+  - description: Add to a mug instead of a bowl
     tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Add 1 can drained tuna to the cup
   start_time: 486.4489939189189
   step_id: 334
 - description: Add-1/4 cup mayonnaise to the bowl
   end_time: 616.762285135135
-  errors:
-  - description: Step performed after correct order
-    tag: Order Error
   start_time: 522.0625641891892
   step_id: 327
 - description: Add-add chopped scallion to the bowl
   end_time: 642.6630635135135
+  errors:
+  - description: Add full scallion instead of chopped scallion
+    tag: Preparation Error
   start_time: 621.618681081081
   step_id: 333
 - description: Mix-Mix the contents of the bowl
@@ -79,38 +71,48 @@ step_annotations:
   errors:
   - description: 1/2 tsp salt instead of 1/4 tsp
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Season-Season bowl with 1/2 tsp salt
   start_time: 649.1382581081082
   step_id: 338
 - description: Lay-Lay out 2 large lettuce leaves
   end_time: 738.9815831081082
-  errors:
-  - description: Step performed after correct order
-    tag: Order Error
   start_time: 692.0364222972973
   step_id: 329
 - description: top-top lettuce leaves with the tuna mixture
   end_time: 790.7831398648648
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before placing avocado slices on lettuce leaves
     tag: Order Error
   start_time: 761.6447641891891
   step_id: 332
 - description: place-place avocado slices on each leaf
   end_time: 797.2583344594594
+  errors:
+  - description: Step performed after adding tuna mixture to lettuce leaves
+    tag: Order Error
   start_time: 789.1643412162163
   step_id: 325
 - description: Season-season 1/4 tsp pepper on the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 326
 - description: Roll-Roll up the lettuce wraps
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 330
 - description: secure-secure the wrap with a toothpick
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 337

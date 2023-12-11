@@ -23,6 +23,8 @@ step_annotations:
   errors:
   - description: Chop-Chop 1 bunch of scallions
     tag: Measurement Error
+  - description: Not using cutting board to chop scallions
+    tag: Preparation Error
   modified_description: Chop-Chop 1 scallion bunch
   start_time: 265.8901418918919
   step_id: 340
@@ -31,6 +33,8 @@ step_annotations:
   errors:
   - description: Press the sauce more to spill it
     tag: Technique Error
+  - description: Addition of more than 1 tsp Sriracha sauce
+    tag: Measurement Error
   modified_description: Add-Press the sauce bottle tightly to spill 1 tsp Sriracha
     sauce to the bowl
   start_time: 395.32639864864865
@@ -57,10 +61,6 @@ step_annotations:
   step_id: 329
 - description: Mix-Mix the contents of the bowl
   end_time: 667.4544324324323
-  errors:
-  - description: Spill while mixing the contents with a whisker
-    tag: Technique Error
-  modified_description: Whisk-Whisk the contents of the bowl
   start_time: 620.6702432432432
   step_id: 331
 - description: Season-season 1/4 tsp pepper on the bowl
@@ -86,13 +86,25 @@ step_annotations:
   step_id: 337
 - description: cut-cut avocado into thin slices
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 341
 - description: top-top lettuce leaves with the tuna mixture
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 332
 - description: place-place avocado slices on each leaf
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 325

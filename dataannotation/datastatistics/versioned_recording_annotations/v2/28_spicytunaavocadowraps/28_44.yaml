@@ -21,7 +21,7 @@ step_annotations:
 - description: Add-1/4 cup mayonnaise to the bowl
   end_time: 314.31657644787646
   errors:
-  - description: 1/2 instead if 1/4
+  - description: Add 1/2 instead if 1/4 cup mayonnaise to the bowl
     tag: Measurement Error
   modified_description: Add-1/2 cup mayonnaise to the bowl
   start_time: 230.2368922480695
@@ -29,12 +29,8 @@ step_annotations:
 - description: Add-add chopped scallion to the bowl
   end_time: 339.4619025637065
   errors:
-  - description: Splash some scallion outside
+  - description: Spill some scallion outside
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Add-add chopped scallion to the bowl, but splash some scallion
-    outside
   start_time: 321.38869941795366
   step_id: 333
 - description: drain-drain excess water from can
@@ -42,26 +38,21 @@ step_annotations:
   errors:
   - description: Remain some water
     tag: Preparation Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: drain-drain excess water from can, but remain some water
   start_time: 342.6050683281853
   step_id: 328
 - description: cut-cut avocado into thin slices
   end_time: 457.3306187316602
   errors:
-  - description: chop instead of slice
+  - description: Cut into irregular shapes instead of slices
     tag: Technique Error
-  modified_description: cut-chop avocado
   start_time: 363.821437238417
   step_id: 341
 - description: Add-1 tsp Sriracha sauce to the bowl
   end_time: 506.8354795222008
   errors:
-  - description: 2 instead of 1 tsp
+  - description: Add 2 tsp instead of 1 tsp Sriracha sauce to the bowl
     tag: Measurement Error
-  - description: Step performed after correct order
-    tag: Order Error
   modified_description: Add-2 tsp Sriracha sauce to the bowl
   start_time: 465.1885331428571
   step_id: 339
@@ -70,7 +61,7 @@ step_annotations:
   errors:
   - description: place on only one leaf
     tag: Measurement Error
-  - description: Step performed before correct order
+  - description: Step performed before laying out the lettuce leaves
     tag: Order Error
   modified_description: place-place avocado slices on one leaf
   start_time: 612.1315326322393
@@ -78,50 +69,43 @@ step_annotations:
 - description: Lay-Lay out 2 large lettuce leaves
   end_time: 671.0658907162162
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after placing avocado slices on the leaf
     tag: Order Error
   start_time: 662.4221848638996
   step_id: 329
 - description: Add-Add 1 can drained tuna to the bowl
   end_time: 697.7827997142856
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 678.1380136862933
   step_id: 334
 - description: Mix-Mix the contents of the bowl
   end_time: 715.8560028600385
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 695.4254253909266
   step_id: 331
 - description: Season-Season bowl with 1/4 tsp salt
   end_time: 766.1466550916989
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 733.9292060057915
   step_id: 338
 - description: top-top lettuce leaves with the tuna mixture
   end_time: 800.7214785009653
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 777.1477352673745
   step_id: 332
 - description: Roll-Roll up the lettuce wraps
   end_time: 812.5083501177606
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 799.1498956187258
   step_id: 330
 - description: Season-season 1/4 tsp pepper on the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 326
 - description: secure-secure the wrap with a toothpick
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 337
