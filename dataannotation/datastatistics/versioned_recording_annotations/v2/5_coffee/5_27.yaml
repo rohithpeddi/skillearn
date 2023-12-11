@@ -22,7 +22,7 @@ step_annotations:
     to create a semi-circle, and in half again to create a quarter-circle
   end_time: 185.303
   errors:
-  - description: Prepare-Prepare the filter insert taking it fully
+  - description: Do not prepare the filter
     tag: Technique Error
   modified_description: Prepare-Prepare the filter insert taking it fully
   start_time: 146.197
@@ -31,15 +31,12 @@ step_annotations:
   end_time: 222.64
   start_time: 197.16
   step_id: 69
-- description: Boil-Boil the water. (While the water is boiling, assemble the filter
-    cone)
+- description: Boil-Boil the water. (While the water is boiling, assemble the filter cone)
   end_time: 400.193
   errors:
-  - description: Boil-Boil the milk in microwave. (While the milk is boiling, assemble
-      the filter cone)
-    tag: Technique Error
-  modified_description: Boil-Boil the milk in microwave. (While the milk is boiling,
-    assemble the filter cone)
+  - description: Microwave the milk instead of boiling it in a kettle
+    tag: Preparation Error
+  modified_description: Boil-Boil the milk in microwave. (While the milk is boiling, assemble the filter cone)
   start_time: 239.117
   step_id: 64
 - description: Place-Place the paper filter in the dripper
@@ -71,14 +68,10 @@ step_annotations:
     of coarse sand, about 20 seconds
   end_time: 805.777
   errors:
-  - description: Grind-Grind the coffee beans until the coffee grounds are the consistency
-      of coarse sand, about 40 seconds
+  - description: Grinding for 40 seconds instead of 20 seconds
     tag: Timing Error
-  - description: Grind-Grind the coffee beans using stone mortar until the coffee
-      grounds are the consistency of coarse, about 40 seconds
-    tag: Technique Error
-  modified_description: Grind-Grind the coffee beans using stone mortar until the
-    coffee grounds are the consistency of coarse, about 40 seconds
+  - description: Grinding using stone mortar instead of coffee grinder
+    tag: Preparation Error
   start_time: 583.323
   step_id: 67
 - description: Transfer-Transfer the grounds to the filter cone
@@ -90,8 +83,9 @@ step_annotations:
   errors:
   - description: Pour-Pour a small amount of milk into the filter to wet the grounds
     tag: Preparation Error
-  modified_description: Pour-Pour a small amount of milk into the filter to wet the
-    grounds
+  - description: Spill while pouring milk into the filter to wet the grounds
+    tag: Technique Error
+  modified_description: Pour-Pour a small amount of milk into the filter to wet the grounds
   start_time: 853.055
   step_id: 57
 - description: Wait-Wait about 30 seconds for the coffee to bloom. (You will see small
@@ -101,19 +95,18 @@ step_annotations:
   - description: Wait-Wait about 1 minute for the coffee to bloom. (You will see small
       bubbles or foam on the coffee grounds during this step.)
     tag: Timing Error
-  modified_description: Wait-Wait about 1 minute for the coffee to bloom. (You will
-    see small bubbles or foam on the coffee grounds during this step.)
+  modified_description: Wait-Wait about 1 minute for the coffee to bloom.
   start_time: 874.99
   step_id: 56
 - description: pour-Slowly pour the rest of the water over the grounds in a circular
     motion. Do not overfill beyond the top of the paper filter
   end_time: 1017.218
   errors:
-  - description: pour-fast pour the rest of the milk over the grounds in a bulk and
-      immediately spilling some outside
+  - description: Spill while pouring the milk
     tag: Technique Error
-  - description: pour-fast pour the rest of the milk instead of water over the grounds
-      in a bulk and immediately
+  - description: Did not pour in circular motion
+    tag: Technique Error
+  - description: Pour milk instead of water
     tag: Preparation Error
   modified_description: pour-fast pour the rest of the milk over the grounds in a
     bulk and immediately spilling some outside
@@ -132,5 +125,9 @@ step_annotations:
     (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
     Celsius. If the water is too hot, let it cool briefly.)
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 71

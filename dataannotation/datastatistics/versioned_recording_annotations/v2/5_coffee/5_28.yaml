@@ -5,7 +5,7 @@ step_annotations:
 - description: Measure-Measure 12 ounces of cold water
   end_time: 26.627
   errors:
-  - description: 16 instead of 12 ounces
+  - description: Measure 16 instead of 12 ounces
     tag: Measurement Error
   modified_description: Measure-Measure 16 ounces of cold water
   start_time: 4.265
@@ -13,16 +13,15 @@ step_annotations:
 - description: transfer-transfer water to a kettle
   end_time: 54.769
   errors:
-  - description: spill some water while transferring
+  - description: spill some water while transferring water to a kettle
     tag: Technique Error
-  modified_description: transfer-transfer water to a kettle, but splash some water
-    outside
+  modified_description: transfer-transfer water to a kettle, but spill some water outside
   start_time: 26.837
   step_id: 70
 - description: Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
   end_time: 147.713
   errors:
-  - description: 4oz instead of (8-12oz)
+  - description: Weighed 4oz instead of (0.8-0.12oz)
     tag: Measurement Error
   modified_description: Weigh-Weigh the coffee beans (4oz)
   start_time: 56.792
@@ -31,6 +30,10 @@ step_annotations:
   end_time: 184.359
   start_time: 175.09199999999998
   step_id: 69
+- description: Boil-Boil the water. (While the water is boiling, assemble the filter cone)
+  end_time: 175.05
+  start_time: 148.395
+  step_id: 64
 - description: check-Once the water has boiled, check the temperature of the water.
     (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
     Celsius. If the water is too hot, let it cool briefly.)
@@ -63,21 +66,14 @@ step_annotations:
 - description: pour-Slowly pour the rest of the water over the grounds in a circular
     motion. Do not overfill beyond the top of the paper filter
   end_time: 331.907
-  errors:
-  - description: overfill beyond the top of the paper filter
-    tag: Technique Error
-  modified_description: pour-Slowly pour the rest of the water over the grounds in
-    a circular motion. But overfill beyond the top of the paper filter
   start_time: 294.695
   step_id: 61
-- description: drain-Let the coffee drain completely into the mug before removing
-    the dripper
+- description: drain-Let the coffee drain completely into the mug before removing the dripper
   end_time: 340.87
   errors:
-  - description: remove the dripper in advance
+  - description: Remove the dripper before all the water is drained into the mug
     tag: Timing Error
-  modified_description: drain-Let the coffee drain into the mug, and remove the dripper
-    in advance
+  modified_description: drain-Let the coffee drain into the mug, and remove the dripper in advance
   start_time: 331.987
   step_id: 66
 - description: Discard-Discard the paper filter and coffee grounds
@@ -118,8 +114,4 @@ step_annotations:
   modified_description: Skipped this step
   start_time: -1.0
   step_id: 59
-- description: Boil-Boil the water. (While the water is boiling, assemble the filter
-    cone)
-  end_time: 175.05
-  start_time: 148.395
-  step_id: 64
+

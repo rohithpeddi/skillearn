@@ -20,20 +20,20 @@ step_annotations:
   errors:
   - description: Not properly placing the paper filter.
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed before placing the dripper on top of a coffee mug
     tag: Order Error
   modified_description: Place-Place the paper filter improperly in the dripper.
   start_time: 128.606
   step_id: 60
 - description: Place-Place the dripper on top of a coffee mug
   end_time: 159.909
+  errors:
+  - description: Step performed after placing the paper filter in the dripper
+    tag: Order Error
   start_time: 145.395
   step_id: 69
 - description: spread-spread open filter in dripper to create a cone
   end_time: 181.406
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 162.497
   step_id: 59
 - description: Grind-Grind the coffee beans until the coffee grounds are the consistency
@@ -48,13 +48,6 @@ step_annotations:
   step_id: 67
 - description: Transfer-Transfer the grounds to the filter cone
   end_time: 327.4613649323377
-  errors:
-  - description: Spill some while transferring.
-    tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Transfer-Transfer the grounds to the filter cone and spill
-    some.
   start_time: 269.971
   step_id: 58
 - description: Measure-Measure 12 ounces of cold water
@@ -62,30 +55,21 @@ step_annotations:
   errors:
   - description: Measuring less than 12 ounces.
     tag: Measurement Error
-  - description: Step performed after correct order
-    tag: Order Error
   modified_description: Measure-Measure 10 ounces of cold water.
   start_time: 482.481
   step_id: 68
 - description: transfer-transfer water to a kettle
   end_time: 394.622
-  errors:
-  - description: Spill some out of the kettle.
-    tag: Technique Error
-  - description: Step performed after correct order
-    tag: Order Error
-  modified_description: Transfer-Transfer water to a kettle and spill some.
   start_time: 362.329
   step_id: 70
 - description: Pour-Pour a small amount of water into the filter to wet the grounds
   end_time: 434.713
   errors:
   - description: Using large amount of water instead of small.
-    tag: Technique Error
-  - description: Step performed before correct order
+    tag: Measurement Error
+  - description: Step performed before boiling the water
     tag: Order Error
-  modified_description: Pour-Pour a large amount of water into the filter to wet the
-    grounds.
+  modified_description: Pour-Pour a large amount of water into the filter to wet the grounds.
   start_time: 396.36
   step_id: 57
 - description: Wait-Wait about 30 seconds for the coffee to bloom. (You will see small
@@ -94,7 +78,7 @@ step_annotations:
   errors:
   - description: Waiting for less than 30 seconds.
     tag: Timing Error
-  - description: Step performed before correct order
+  - description: Step performed before boiling the water
     tag: Order Error
   modified_description: Wait-Wait about 10 seconds for the coffee to bloom. (You will
     see small bubbles or foam on the coffee grounds during this step.)
@@ -104,26 +88,26 @@ step_annotations:
     motion. Do not overfill beyond the top of the paper filter
   end_time: 481.618
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before boiling the water
     tag: Order Error
   start_time: 458.202
   step_id: 61
 - description: drain-Let the coffee drain completely into the mug before removing
     the dripper
-  end_time: -1.0
+  end_time: 655
   errors:
   - description: removing the dripper before the coffee drains completely.
     tag: Timing Error
-  - description: Step performed before correct order
+  - description: Step performed before boiling the water
     tag: Order Error
   modified_description: Drain-remove the dripper before coffee drains completely.
-  start_time: -1.0
+  start_time: 482
   step_id: 66
 - description: Boil-Boil the water. (While the water is boiling, assemble the filter
     cone)
   end_time: 624.476
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after adding water to the filter cone
     tag: Order Error
   start_time: 501.08
   step_id: 64
@@ -134,6 +118,8 @@ step_annotations:
   errors:
   - description: Using less than the desired temperature.
     tag: Temperature Error
+  - description: Step performed after adding water to the filter cone
+    tag: Order Error
   modified_description: check-Once the water has boiled, check the temperature of
     the water. (The water should be between 180 - 190 degrees Fahrenheit or between
     82-87 degrees Celsius. If the water is too hot, let it cool briefly.)
@@ -141,8 +127,5 @@ step_annotations:
   step_id: 71
 - description: Discard-Discard the paper filter and coffee grounds
   end_time: 672.304
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: 654.207
+  start_time: 655.001
   step_id: 63
