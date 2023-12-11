@@ -11,17 +11,19 @@ step_annotations:
   errors:
   - description: add 2 teaspoons instead of 1 teaspoon
     tag: Measurement Error
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
   modified_description: Add-Add 2 teaspoon of cumin powder to the bowl
   start_time: 82.99005000000001
   step_id: 188
 - description: Add-1/4 teaspoon of red chilli powder to the bowl
   end_time: 210.83958648648647
   errors:
-  - description: Add-1/4 teaspoon of red chilli powder to the bowl and spill some
-      outside
-    tag: Preparation Error
-  modified_description: Add-1/4 teaspoon of red chilli powder to the bowl and spill
-    some outside
+  - description: Spill some outside while adding red chilli powder
+    tag: Technique Error
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
+  modified_description: Add-1/4 teaspoon of red chilli powder to the bowl and spill some outside
   start_time: 177.94262972972973
   step_id: 181
 - description: peel-peel the cucumber
@@ -29,17 +31,21 @@ step_annotations:
   errors:
   - description: peel the cucumber improperly. or half peeled
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: peel-peel the cucumber improperly
   start_time: 227.28806486486485
   step_id: 182
 - description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
   end_time: 453.08081351351353
+  errors:
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
   start_time: 289.3436878378379
   step_id: 187
 - description: Add-1/2 teaspoon of chaat masala powder to the bowl
   end_time: 524.1083337837838
+  errors:
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
   start_time: 462.8003689189189
   step_id: 191
 - description: chop or grate-chop or grate the cucumber
@@ -47,15 +53,13 @@ step_annotations:
   errors:
   - description: slice instead of chop or grate
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: chop or grate-slice the cucumber
   start_time: 532.332572972973
   step_id: 185
 - description: Add-Add the chopped or grated cucumber to the whisked curd
   end_time: 602.6124351351353
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before whisking curd in the bowl
     tag: Order Error
   start_time: 581.6780081081081
   step_id: 190
@@ -64,7 +68,7 @@ step_annotations:
   errors:
   - description: spill while adding
     tag: Technique Error
-  - description: Step performed after correct order
+  - description: Step performed before whisking curd in the bowl
     tag: Order Error
   modified_description: Add-1/4 teaspoon salt to the bowl and spill some outside
   start_time: 609.3413581081081
@@ -73,9 +77,9 @@ step_annotations:
     fresh homemade or packaged curd
   end_time: 729.7143135135135
   errors:
-  - description: forgot to whisk the curd
+  - description: Did not whisk, just added the curd
     tag: Preparation Error
-  - description: Step performed after correct order
+  - description: Step performed after adding ingredients to the bowl
     tag: Order Error
   modified_description: whisk-In a mixing bowl, take 1 cup of chilled curd and forgot
     to whisk until smooth. Use fresh homemade or packaged curd
@@ -86,9 +90,6 @@ step_annotations:
   errors:
   - description: spill some ingredients out while combining
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Combine-Combine all the ingredients in the bowl and spill
-    some out
+  modified_description: Combine-Combine all the ingredients in the bowl and spill some out
   start_time: 740.9291851351352
   step_id: 186

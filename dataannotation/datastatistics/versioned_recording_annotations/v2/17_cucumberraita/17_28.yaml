@@ -4,27 +4,24 @@ recording_id: '17_28'
 step_annotations:
 - description: whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use
     fresh homemade or packaged curd
-  end_time: 158.276
+  end_time: -1.0
   errors:
-  - description: Using a vanilla yogurt instead of curd.
-    tag: Preparation Error
-  - description: Using a vanilla yogurt instead of curd.
-    tag: Preparation Error
-  modified_description: Whisk-In a mixing bowl, whisk 1 cup of chilled curd until
-    smooth. Use Vanilla yogurt.
-  start_time: 3.092
+  - description: Did not whisk the curd completely
+    tag: Missing Step
+  modified_description: Skipped the Step.
+  start_time: -1.0
   step_id: 183
 - description: Rinse-Rinse 1 medium sized cucumber
   end_time: 195.494
   start_time: 177.428
   step_id: 189
 - description: peel-peel the cucumber
-  end_time: 206.413
+  end_time: -1.0
   errors:
   - description: Didn't peel the cucumber just cut the ends.
     tag: Missing Step
   modified_description: Skipped the Step.
-  start_time: 195.125
+  start_time: -1.0
   step_id: 182
 - description: Add-1/2 teaspoon of chaat masala powder to the bowl
   end_time: 258.21
@@ -41,8 +38,8 @@ step_annotations:
 - description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
   end_time: 360.711
   errors:
-  - description: Didn't wash and chop the cilantro.
-    tag: Preparation Error
+  - description: Made into pieces using hand instead of chopping.
+    tag: Technique Error
   modified_description: Add-Add 1 tablespoon of unwashed cilantro leaves to the bowl.
   start_time: 319.668
   step_id: 187
@@ -61,12 +58,15 @@ step_annotations:
 - description: Combine-Combine all the ingredients in the bowl
   end_time: 400.563
   errors:
-  - description: Didn't properly combine the ingridents.
+  - description: Did not combine all the ingredients in the bowl, just rotated the bowl in a circular motion.
     tag: Preparation Error
-  modified_description: ' Combine-Improperly combine all the ingredients in the bowl.'
   start_time: 393.239
   step_id: 186
 - description: Add-Add 1 teaspoon of cumin powder to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 188

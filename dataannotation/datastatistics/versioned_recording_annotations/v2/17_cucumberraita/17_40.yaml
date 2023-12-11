@@ -7,8 +7,8 @@ step_annotations:
   errors:
   - description: spill some cumin powder
     tag: Technique Error
-  modified_description: Add-Add 1 teaspoon of cumin powder to the bowl and spill some
-    out while adding
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
   start_time: 17.13439527027027
   step_id: 188
 - description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
@@ -16,6 +16,8 @@ step_annotations:
   errors:
   - description: add scallions instead of cilantro
     tag: Preparation Error
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
   modified_description: add-add 1 tablespoon of chopped scallions to the bowl instead
     of cilantro
   start_time: 125.25833783783784
@@ -23,28 +25,32 @@ step_annotations:
 - description: Rinse-Rinse 1 medium sized cucumber
   end_time: 243.4265810810811
   errors:
-  - description: use zuchini instead of cucumber
+  - description: Use zucchini instead of cucumber
     tag: Preparation Error
   modified_description: Rinse-Rinse 1 medium sized zucchini
   start_time: 229.8372331081081
   step_id: 189
 - description: Add-1/4 teaspoon of red chilli powder to the bowl
   end_time: 279.4678952702703
+  errors:
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
   start_time: 251.10751689189186
   step_id: 181
-- description: whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use
-    fresh homemade or packaged curd
+- description: whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd
   end_time: 389.9552027027027
+  errors:
+  - description: Step performed after adding ingredients to the bowl
+    tag: Order Error
   start_time: 293.05724324324325
   step_id: 183
 - description: chop or grate-chop or grate the cucumber
   end_time: 473.2638141891892
   errors:
-  - description: use zucchini instead of cucumber and chop or grate only half zucchini
-      instead of full
+  - description: use zucchini instead of cucumber and chop or grate only half zucchini instead of full
     tag: Measurement Error
-  - description: Step performed before correct order
-    tag: Order Error
+  - description: Use zucchini instead of cucumber
+    tag: Preparation Error
   modified_description: chop or grate-chop or grate only 1/2 of zucchini instead of
     one medium cucumber
   start_time: 391.1368851351352
@@ -55,26 +61,21 @@ step_annotations:
   step_id: 184
 - description: Add-1/2 teaspoon of chaat masala powder to the bowl
   end_time: 536.4838243243242
-  errors:
-  - description: Step performed after correct order
-    tag: Order Error
   start_time: 502.805875
   step_id: 191
 - description: Add-Add the chopped or grated cucumber to the whisked curd
   end_time: 564.8442027027027
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 548.3006486486486
   step_id: 190
 - description: Combine-Combine all the ingredients in the bowl
   end_time: 597.9313108108108
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 567.2075675675676
   step_id: 186
 - description: peel-peel the cucumber
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 182
