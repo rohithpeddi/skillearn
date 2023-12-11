@@ -43,6 +43,9 @@ step_annotations:
   step_id: 80
 - description: Place-Place 8 inch tortilla on a cutting board
   end_time: 298.5085858592477
+  errors:
+  - description: Using a soiled tortilla
+    tag: Preparation Error
   start_time: 246.65674400085175
   step_id: 81
 - description: Pour-Pour egg mixture on top of the tortilla
@@ -54,8 +57,7 @@ step_annotations:
   errors:
   - description: Put the cheese beside the egg
     tag: Technique Error
-  modified_description: Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese beside the
-    egg
+  modified_description: Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese beside the egg
   start_time: 317.7746371919545
   step_id: 75
 - description: Roll-Roll the tortilla from one end to another into a log shape, about
@@ -66,9 +68,17 @@ step_annotations:
   step_id: 78
 - description: Whisk-Whisk the egg
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 72
 - description: Mix-Mix the contents of the bowl well
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 76

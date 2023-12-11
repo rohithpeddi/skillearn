@@ -9,7 +9,7 @@ step_annotations:
 - description: Whisk-Whisk the egg
   end_time: 61.94048631828595
   errors:
-  - description: Splash some egg outside
+  - description: Splash some egg outside the bowl while whisking
     tag: Technique Error
   modified_description: Whisk-Whisk the egg, but splash some egg outside
   start_time: 33.9475881923461
@@ -17,9 +17,9 @@ step_annotations:
 - description: Microwave-Microwave for 3 minutes, stirring in between
   end_time: 167.74041624309797
   errors:
-  - description: No stirring in between
+  - description: The bowl is not stirred in between microwaving
     tag: Preparation Error
-  - description: 1.5 instead  of 3 mins
+  - description: Microwaved for 1.5 minutes instead of 3 minutes
     tag: Timing Error
   modified_description: Microwave-Microwave for 1.5 minutes, no stirring in between
   start_time: 64.58548456640625
@@ -31,7 +31,7 @@ step_annotations:
 - description: Add-Add 1/2 tbsp sweet and sour sauce to the bowl
   end_time: 279.71200874685735
   errors:
-  - description: 1 tbsp instead of 1/2 tbsp of sweet and sour sauce
+  - description: Add 1 tbsp instead of 1/2 tbsp of sweet and sour sauce
     tag: Measurement Error
   modified_description: Add-Add 1 tbsp sweet and sour sauce to the bowl
   start_time: 215.57080122994006
@@ -56,9 +56,17 @@ step_annotations:
   step_id: 78
 - description: Add-Add 1 tbsp salsa to the bowl
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 80
 - description: Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 75

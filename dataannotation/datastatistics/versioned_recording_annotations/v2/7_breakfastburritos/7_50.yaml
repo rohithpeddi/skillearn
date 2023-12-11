@@ -26,17 +26,15 @@ step_annotations:
 - description: Microwave-Microwave for 3 minutes, stirring in between
   end_time: 346.3682854360609
   errors:
-  - description: Instead of 3 minutes only for 2 minutes.
+  - description: Microwave for 2 min instead of 3 min.
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Microwave-Microwave for 2 minutes, stirring in between
   start_time: 177.064689904106
   step_id: 73
 - description: Pour-Pour egg mixture on top of the tortilla
   end_time: 381.69371758267744
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding salsa, oregano and sweet and sour sauce.
     tag: Order Error
   start_time: 347.2298813420759
   step_id: 79
@@ -45,7 +43,7 @@ step_annotations:
   errors:
   - description: Instead of 1 tbsp use 1/2 tbsp.
     tag: Measurement Error
-  - description: Step performed before correct order
+  - description: Step performed before adding salsa, oregano and sweet and sour sauce.
     tag: Order Error
   modified_description: Sprinkle-Sprinkle 1/2 tbsp shredded cheddar cheese on top
     of the egg
@@ -56,6 +54,8 @@ step_annotations:
   errors:
   - description: Instead of tablespoon using the teaspoon.
     tag: Measurement Error
+  - description: Step performed after pouring the egg mixture on top of the tortilla.
+    tag: Order Error
   modified_description: Add-Add 1/2 tsp sweet and sour sauce to the bowl.
   start_time: 467.4225102311736
   step_id: 74
@@ -64,9 +64,9 @@ step_annotations:
     filling leaks
   end_time: 554.8744946916999
   errors:
-  - description: Rolling it tighly and leak some contents.
+  - description: Rolling it tighly and leak some contents thus breaking the tortilla.
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after pouring the egg mixture on top of the tortilla.
     tag: Order Error
   modified_description: Roll-Roll the tortilla from one end to another into a log
     shape, about 1.5 inches thick. Roll it so tight that the filling leaks
@@ -77,6 +77,8 @@ step_annotations:
   errors:
   - description: Sprinking on the countertop also.
     tag: Technique Error
+  - description: Step performed after rolling the tortilla.
+    tag: Order Error
   modified_description: Sprinkle-Sprinkle oregano in the bowl and on countertop also.
   start_time: 561.7672619398202
   step_id: 82
@@ -85,7 +87,7 @@ step_annotations:
   errors:
   - description: Instead of mixing, whisking the contents of the bowl.
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after rolling the tortilla.
     tag: Order Error
   modified_description: Whisk-Whisk the contents of the bowl well.
   start_time: 603.985461334557
@@ -95,7 +97,7 @@ step_annotations:
   errors:
   - description: Adding 2 tbsp instead of 1 tbsp.
     tag: Measurement Error
-  - description: Step performed after correct order
+  - description: Step performed after rolling the tortilla.
     tag: Order Error
   modified_description: Add-Add 2 tbsp salsa to the bowl
   start_time: 626.3869548909481
