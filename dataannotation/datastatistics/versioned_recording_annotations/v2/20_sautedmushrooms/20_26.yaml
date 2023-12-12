@@ -9,6 +9,8 @@ step_annotations:
     tag: Measurement Error
   - description: heat set to low heat instead of medium-high heat
     tag: Temperature Error
+  - description: Step performed before preparing the ingredients
+    tag: Order Error
   modified_description: Heat-Heat 2 tbsp olive oil in a large skillet over low heat
   start_time: 4.28
   step_id: 215
@@ -17,14 +19,18 @@ step_annotations:
   errors:
   - description: Use hot water also to rinse
     tag: Temperature Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: Rinse-Rinse 3 mushrooms under cold water followed by hot water
   start_time: 77.871
   step_id: 206
 - description: Peel-Peel 2 garlic cloves
   end_time: 194.497
   errors:
-  - description: peel improperly
+  - description: Peel garlic cloves improperly
     tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: Peel-Peel 2 garlic cloves incompletely
   start_time: 163.255
   step_id: 176
@@ -33,14 +39,18 @@ step_annotations:
   errors:
   - description: Use cloth towel to pat instead of paper towel
     tag: Preparation Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: pat-immediately pat rinsed mushrooms dry with a cloth towel
   start_time: 195.688
   step_id: 205
 - description: Pull-Pull out mushroom stems
   end_time: 254.455
   errors:
-  - description: pull only half stem
+  - description: Pull only half stem out for one of the mushrooms
     tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: Pull-Pull out mushroom stems incompletely
   start_time: 225.122
   step_id: 214
@@ -49,6 +59,8 @@ step_annotations:
   errors:
   - description: Use scallion instead of shallot
     tag: Preparation Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: Chop-Chop 1 Scallion
   start_time: 266.758
   step_id: 212
@@ -57,6 +69,8 @@ step_annotations:
   errors:
   - description: chop instead of slice
     tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: chop-chop the mushrooms
   start_time: 345.44
   step_id: 210
@@ -65,43 +79,54 @@ step_annotations:
   errors:
   - description: dont wait for pan to be hot and spill while adding to pan
     tag: Timing Error
-  modified_description: add-add the mushrooms to the pan even if it is cold spilling
-    some outsideand increase heat to medium
+  - description: Spill while adding mushrooms to the pan
+    tag: Technique Error
+  - description: Step performed before mincing the garlic
+    tag: Order Error
+  modified_description: add-add the mushrooms to the pan even if it is cold spilling some outside and increase heat to medium
   start_time: 455.472
   step_id: 208
-- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
-    soften and brown
-  end_time: 870.375
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown
+  end_time: 800
   errors:
-  - description: cook for 6 mins instead of 3-5mins and dont wait till mushrooms are
-      soft and brown
+  - description: cook for 6 mins instead of 3-5 mins and dont wait till mushrooms are soft and brown
     tag: Timing Error
-  modified_description: cook-cook for 6 minutes, stirring often, and dont wait until
-    mushrooms start to soften and brown
+  - description: Step performed before mincing the garlic
+    tag: Order Error
+  modified_description: cook-cook for 6 minutes, stirring often, and dont wait until mushrooms start to soften and brown
   start_time: 485.737
   step_id: 213
+- description: mince-mince garlic cloves
+  end_time: 797.819
+  errors:
+  - description: Step performed after cooking the mushrooms
+    tag: Order Error
+  start_time: 715.019
+  step_id: 211
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 870
+  errors:
+  - description: Step performed before adding chopped scallion to the pan
+    tag: Order Error
+  start_time: 800
+  step_id: 207
+- description: Add-Add 2 cloves of minced garlic to the pan
+  end_time: 885.196
+  errors:
+  - description: Step performed before adding chopped scallion to the pan
+    tag: Order Error
+  start_time: 875.419
+  step_id: 218
 - description: Add-Add chopped shallot to the pan
   end_time: 924.386
   errors:
   - description: spill while adding scallion to the pan
     tag: Technique Error
-  - description: this step is executed after adding mince garlic to the pan
+  - description: Step performed after adding minced garlic to the pan
     tag: Order Error
-  modified_description: Add-Add chopped scalllion to the pan and spill while adding
+  modified_description: Add-Add chopped scallion to the pan and spill while adding
   start_time: 908.354
   step_id: 209
-- description: mince-mince garlic cloves
-  end_time: 797.819
-  start_time: 715.019
-  step_id: 211
-- description: cook-cook the pan, often stirring, for 1 minute
-  end_time: -1.0
-  start_time: -1.0
-  step_id: 207
-- description: Add-Add 2 cloves of minced garlic to the pan
-  end_time: 885.196
-  start_time: 875.419
-  step_id: 218
 - description: cook-cook the pan, often stirring, for 1 minute
   end_time: 1000.04
   start_time: 925.562840589259
@@ -120,5 +145,9 @@ step_annotations:
   step_id: 216
 - description: Add-1/4 tbsp balsamic vinegar to the pan
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 217

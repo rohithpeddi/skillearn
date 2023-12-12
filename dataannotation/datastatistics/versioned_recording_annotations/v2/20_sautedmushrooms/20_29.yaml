@@ -13,7 +13,7 @@ step_annotations:
 - description: Peel-Peel 2 garlic cloves
   end_time: 116.017
   errors:
-  - description: peel only partially
+  - description: Peel garlic cloves partially instead of fully
     tag: Technique Error
   modified_description: Peel-Peel 2 garlic cloves partially
   start_time: 55.779
@@ -21,16 +21,18 @@ step_annotations:
 - description: pat-pat rinsed mushrooms dry with a paper towel
   end_time: 154.662
   errors:
-  - description: squeeze instead of patting
+  - description: squeeze mushrooms instead of patting
     tag: Technique Error
   modified_description: squeeze-squeeze rinsed mushrooms dry with a paper towel
-  start_time: 118.90100000000001
+  start_time: 118.901
   step_id: 205
 - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
-  end_time: 229.63400000000001
+  end_time: 229.634
   errors:
   - description: use low heat instead of high heat
     tag: Temperature Error
+  - description: Step performed before preparing the ingredients
+    tag: Order Error
   modified_description: Heat-Heat 1 tbsp olive oil in a large skillet over low heat
   start_time: 185.598
   step_id: 215
@@ -39,19 +41,26 @@ step_annotations:
   errors:
   - description: chop shallot without peeling it
     tag: Preparation Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: Chop-Chop 1 shallot without peeling
   start_time: 235.90699999999998
   step_id: 212
 - description: Slice-Slice the mushrooms
   end_time: 570.769
   errors:
-  - description: chop instead of slice
+  - description: Chop mushrooms instead of slicing
     tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: chop-chop the mushrooms
   start_time: 425.407
   step_id: 210
 - description: mince-mince garlic cloves
   end_time: 665.132
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 575.095
   step_id: 211
 - description: add-Once the pan is hot, add the mushrooms
@@ -64,12 +73,12 @@ step_annotations:
   start_time: 696.558
   step_id: 213
 - description: cook-cook the pan, often stirring, for 1 minute
-  end_time: -1.0
+  end_time: 1005
   errors:
   - description: cook for 2 mins instead of 1 min
     tag: Timing Error
   modified_description: cook-cook the pan, often stirring, for 2 minute
-  start_time: -1.0
+  start_time: 885
   step_id: 207
 - description: Add-1/4 tbsp balsamic vinegar to the pan
   end_time: 1049.9
@@ -84,11 +93,17 @@ step_annotations:
   start_time: 1055.872
   step_id: 218
 - description: cook-cook the pan, often stirring, for 1 minute
-  end_time: 1140.225
+  end_time: 1215
+  errors:
+  - description: Cooked for 2.5 minutes instead of 1 minute
+    tag: Timing Error
   start_time: 1070.955
   step_id: 207
 - description: Season-Season pan with salt
   end_time: 1164.509
+  errors:
+  - description: Use hand to season the pan instead of using a spoon
+    tag: Preparation Error
   start_time: 1146.362
   step_id: 220
 - description: Season-pepper on pan to taste

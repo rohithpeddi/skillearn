@@ -17,7 +17,7 @@ step_annotations:
     tag: Measurement Error
   - description: accidentally spill some oil from bottle into pan
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   modified_description: Heat-Heat 1 tsp olive oil in a large skillet over medium-high
     heat and accidentally spill some oil from bottle into pan
@@ -26,10 +26,9 @@ step_annotations:
 - description: pat-pat rinsed mushrooms dry with a paper towel
   end_time: 201.798
   errors:
-  - description: Do not pat the mushrooms, rather crush them by holding them in paper
-      towel
+  - description: Crush the mushrooms rather than patting them dry
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   modified_description: pat-dry the rinsed mushrooms by squashing with a paper towel
   start_time: 170.70600000000002
@@ -39,7 +38,7 @@ step_annotations:
   errors:
   - description: Pull out the stems partially
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   modified_description: Pull-Pull out mushroom stems partially
   start_time: 205.879
@@ -49,7 +48,7 @@ step_annotations:
   errors:
   - description: Take only one garlic clove, rather than two
     tag: Measurement Error
-  - description: Step performed after correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   modified_description: Peel-Peel 1 garlic cloves
   start_time: 234.902
@@ -59,7 +58,7 @@ step_annotations:
   errors:
   - description: Chop instead of slice
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   modified_description: Chop-Chop the mushrooms
   start_time: 260.351
@@ -79,45 +78,42 @@ step_annotations:
     tag: Technique Error
   - description: Take 1 tbsp rather than 1/4
     tag: Measurement Error
-  - description: Step performed before correct order
+  - description: Step performed before preparing the ingredients and cooking shallot
     tag: Order Error
-  modified_description: (spill) Add-1 tbsp balsamic vinegar to the pan
   start_time: 441.086
   step_id: 217
 - description: mince-mince garlic cloves
   end_time: 488.385
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after cooking the pan and adding balsamic vinegar
     tag: Order Error
   start_time: 465.88
   step_id: 211
 - description: Add-Add 2 cloves of minced garlic to the pan
   end_time: 503.569
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before preparing the ingredients and cooking shallot
     tag: Order Error
   start_time: 492.328
   step_id: 218
 - description: cook-cook the pan, often stirring, for 1 minute
   end_time: 529.109
   errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  - description: Step performed before correct order
+  - description: Step performed before preparing the ingredients and cooking shallot
     tag: Order Error
   start_time: 504.057
   step_id: 207
 - description: Season-pepper on pan to taste
   end_time: 544.038
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before preparing the ingredients and cooking shallot
     tag: Order Error
-  start_time: 530.6610000000001
+  start_time: 530.661
   step_id: 219
 - description: Season-Season pan with salt
   end_time: 553.558
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before cooking shallot
     tag: Order Error
   start_time: 546.466
   step_id: 220
@@ -128,7 +124,7 @@ step_annotations:
     tag: Temperature Error
   - description: Do not wait for the pan to become hot
     tag: Timing Error
-  - description: Step performed before correct order
+  - description: Step performed after adding the minced garlic
     tag: Order Error
   modified_description: add-add the mushrooms
   start_time: 555.259
@@ -138,31 +134,30 @@ step_annotations:
   errors:
   - description: add whole shallot without chopping to the pan
     tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed after seasoning the pan
     tag: Order Error
   modified_description: Add-Add whole shallot without chopping or peeling to the pan
   start_time: 595.259
   step_id: 209
-- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
-    soften and brown
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown
   end_time: 715.19
   errors:
   - description: cook only for less than 2 mins
     tag: Timing Error
-  - description: Step performed before correct order
+  - description: Step performed after seasoning the pan
     tag: Order Error
-  modified_description: cook-cook only for less than 2 mins instead of 3-5 minutes,
-    stirring often, until mushrooms start to soften and brown
+  modified_description: cook-cook only for less than 2 mins instead of 3-5 minutes, stirring often, until mushrooms start to soften and brown
   start_time: 606.3739675783193
   step_id: 213
 - description: Transfer-Transfer the contents of the pan to a serving dish
   end_time: 742.42
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 717.9029515539532
   step_id: 216
 - description: Chop-Chop 1 shallot
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 212

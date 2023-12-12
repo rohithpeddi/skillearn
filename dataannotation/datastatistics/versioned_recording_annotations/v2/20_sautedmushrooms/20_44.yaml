@@ -15,7 +15,7 @@ step_annotations:
 - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   end_time: 178.573
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before preparing the ingredients
     tag: Order Error
   start_time: 36.834
   step_id: 215
@@ -26,7 +26,7 @@ step_annotations:
     tag: Preparation Error
   - description: Mince on paper towel
     tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   modified_description: mince-mince the onion on a paper towel
   start_time: 86.738
@@ -34,19 +34,22 @@ step_annotations:
 - description: Rinse-Rinse 3 mushrooms under cold water
   end_time: 162.982
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   start_time: 140.778
   step_id: 206
 - description: Add-1/4 tbsp balsamic vinegar to the pan
   end_time: 192.03
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before cooking mushrooms
     tag: Order Error
   start_time: 167.91
   step_id: 217
 - description: pat-pat rinsed mushrooms dry with a paper towel
   end_time: 218.5
+  errors:
+  - description: Step performed after adding balsamic vinegar to the pan
+    tag: Order Error
   start_time: 200.577
   step_id: 205
 - description: Pull-Pull out mushroom stems
@@ -54,18 +57,19 @@ step_annotations:
   errors:
   - description: Leave stem of one of the mushrooms
     tag: Technique Error
+  - description: Step performed after adding balsamic vinegar to the pan
+    tag: Order Error
   modified_description: Pull-Pull out mushroom stems
   start_time: 219
   step_id: 214
 - description: Chop-Chop 1 shallot
-  end_time: 290.66700000000003
+  end_time: 290.667
   errors:
   - description: Chop on paper towel
     tag: Preparation Error
-  - description: Add all things on the paper towel with shallot - peels of onion,
-      shallot and other things
+  - description: Did not peel the shallot
     tag: Preparation Error
-  - description: Step performed after correct order
+  - description: Step performed after adding balsamic vinegar to the pan
     tag: Order Error
   modified_description: Chop-Chop 1 shallot on a paper towel
   start_time: 236.55599999999998
@@ -75,7 +79,7 @@ step_annotations:
   errors:
   - description: Use onions instead of garlic
     tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed before adding shallot to the pan
     tag: Order Error
   modified_description: Add-Add minced onion to the pan
   start_time: 294.452
@@ -83,20 +87,18 @@ step_annotations:
 - description: add-Once the pan is hot, add the mushrooms
   end_time: 329
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding balsamic vinegar to the pan
     tag: Order Error
   start_time: 322.312
   step_id: 208
-- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
-    soften and brown
-  end_time: 400.221
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown
+  end_time: 410
   errors:
   - description: Undercook the mushroom
     tag: Timing Error
-  - description: Step performed before correct order
+  - description: Step performed after adding balsamic vinegar to the pan
     tag: Order Error
-  modified_description: cook-cook for 2 minutes, stirring often, until mushrooms start
-    to soften and brown
+  modified_description: cook-cook for 2 minutes, stirring often, until mushrooms start to soften and brown
   start_time: 339.203
   step_id: 213
 - description: Add-Add chopped shallot to the pan
@@ -104,22 +106,22 @@ step_annotations:
   errors:
   - description: add all the discarded vegetable cuts along with shoot on paper towel
     tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed after adding balsamic vinegar to the pan
     tag: Order Error
   modified_description: Add-Add chopped shallot to the pan along with all the other
     discarded vegetable cuts on the paper towel
   start_time: 401
   step_id: 209
 - description: cook-cook the pan, often stirring, for 1 minute
-  end_time: -1.0
-  start_time: -1.0
+  end_time: 502
+  start_time: 411
   step_id: 207
 - description: Season-pepper on pan to taste
   end_time: 517.428
   errors:
   - description: Pour instead of season
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed before cooking for a minute
     tag: Order Error
   modified_description: Add-pepper on pan to taste
   start_time: 505.242
@@ -127,30 +129,27 @@ step_annotations:
 - description: cook-cook the pan, often stirring, for 1 minute
   end_time: 570.772
   errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  - description: Step performed before correct order
+  - description: Step performed after seasoning pepper
     tag: Order Error
   start_time: 517.4836071584376
   step_id: 207
 - description: Season-Season pan with salt
   end_time: 581.768
   errors:
-  - description: pouring (large amount)
+  - description: Pour instead of season the salt
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Add-Add salt to pan
   start_time: 571.653
   step_id: 220
 - description: Transfer-Transfer the contents of the pan to a serving dish
   end_time: 606.221
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 582.742
   step_id: 216
 - description: Slice-Slice the mushrooms
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 210

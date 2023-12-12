@@ -16,6 +16,9 @@ step_annotations:
   step_id: 214
 - description: Slice-Slice the mushrooms
   end_time: 111.7
+  errors:
+  - description: Cut instead of slicing the mushrooms.
+    tag: Technique Error
   start_time: 96.491
   step_id: 210
 - description: Chop-Chop 1 shallot
@@ -24,37 +27,49 @@ step_annotations:
   step_id: 212
 - description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
   end_time: 218.994
+  errors:
+  - description: Step performed before preparing the ingredients
+    tag: Order Error
   start_time: 185.138
   step_id: 215
 - description: add-Once the pan is hot, add the mushrooms
   end_time: 233.864
   errors:
-  - description: Not waiting enough for pan to be hot enough and added the mushrooms
-      even if the pan is not heated enough.
+  - description: Not waiting enough for pan to be hot enough and added the mushrooms even if the pan is not heated enough.
     tag: Timing Error
+  - description: Step performed before preparing the ingredients
+    tag: Order Error
   modified_description: Add-Add the mushrooms even if the pan is not heated enough.
   start_time: 227.26
   step_id: 208
-- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
-    soften and brown
-  end_time: 402.56600000000003
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown
+  end_time: 402.566
   errors:
   - description: Didn't cook properly the mushrooms to turn brown.
     tag: Technique Error
-  modified_description: Cook-Cook for 3 minutes, stirring often, don't make the mushrooms
-    turn to brown on both sides.
+  - description: Step performed before preparing the ingredients
+    tag: Order Error
   start_time: 235.024
   step_id: 213
 - description: Add-Add chopped shallot to the pan
   end_time: 417.237
+  errors:
+  - description: Step performed before preparing the ingredients
+    tag: Order Error
   start_time: 402.903
   step_id: 209
 - description: cook-cook the pan, often stirring, for 1 minute
-  end_time: -1.0
-  start_time: -1.0
+  end_time: 488
+  errors:
+  - description: Step performed before preparing the ingredients
+    tag: Order Error
+  start_time: 418
   step_id: 207
 - description: mince-mince garlic cloves
   end_time: 465.23
+  errors:
+  - description: Step performed after cooking mushrooms
+    tag: Order Error
   start_time: 442.21
   step_id: 211
 - description: Add-Add 2 cloves of minced garlic to the pan
@@ -83,13 +98,25 @@ step_annotations:
   step_id: 216
 - description: Rinse-Rinse 3 mushrooms under cold water
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 206
 - description: Season-Season pan with salt
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 220
 - description: pat-pat rinsed mushrooms dry with a paper towel
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 205
