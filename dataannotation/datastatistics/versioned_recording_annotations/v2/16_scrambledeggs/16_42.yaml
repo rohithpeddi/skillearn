@@ -2,50 +2,18 @@ activity_id: 16
 is_error: true
 recording_id: '16_42'
 step_annotations:
-- description: Crack-Crack one egg in the bowl
-  end_time: 790.8871620357565
+- description: Chop-Chop 1/4 medium onion
+  end_time: 57.69089913172862
+  start_time: 19.87291007155955
+  step_id: 163
+- description: Chop-Chop 1/4 tomato
+  end_time: 117.72695676474703
   errors:
-  - description: Throw egg into the bowl while cracking it
-    tag: Technique Error
-  modified_description: Crack-Crack one egg in the bowl
-  start_time: 754.4873475653437
-  step_id: 167
-- description: add-add 1/3 tsp salt to the bowl
-  end_time: -1.0
-  modified_description: add-add 1/3 tsp salt to the plate
-  start_time: -1.0
-  step_id: 164
-- description: Whisk-Whisk the egg mixture in the bowl
-  end_time: 852.395
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: 839.414
-  step_id: 159
-- description: Add-Add 1/8 tsp of turmeric to the pan
-  end_time: 725.6511309069648
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  modified_description: Add-Add 1/8 tsp of turmeric to the pan
-  start_time: 687.3604169835437
-  step_id: 168
-- description: Chop-Chop 1 green chilli
-  end_time: 388.598303408208
-  errors:
-  - description: Chop-Chop 1 green chilli improperly
-    tag: Technique Error
-  modified_description: Chop-Chop 1 green chilli improperly
-  start_time: 358.34391216007276
-  step_id: 161
-- description: Chop-Chop 1 tsp cilantro
-  end_time: 497.3250219561941
-  errors:
-  - description: Chop-Chop 1 tsp cilantro
+  - description: Chop-Chop 1/2 tomato
     tag: Measurement Error
-  modified_description: Chop-Chop 1 tsp cilantro
-  start_time: 428.30719192138554
-  step_id: 158
+  modified_description: Chop-Chop 1/2 tomato
+  start_time: 60.5272483112413
+  step_id: 169
 - description: Peel-Peel 2 garlic cloves
   end_time: 213.58633513250487
   errors:
@@ -54,34 +22,6 @@ step_annotations:
   modified_description: Peel-Peel 2 garlic cloves improperly
   start_time: 131.90870266231042
   step_id: 176
-- description: add-add 1/3 tsp salt to the pan
-  end_time: 838.032
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: 813.141
-  step_id: 178
-- description: Chop-Chop 1/4 medium onion
-  end_time: 57.69089913172862
-  start_time: 19.87291007155955
-  step_id: 163
-- description: add-add chopped onions to the pan
-  end_time: 426.8890173316292
-  errors:
-  - description: Step performed after correct order
-    tag: Order Error
-  start_time: 416.9617952033348
-  step_id: 179
-- description: Chop-Chop 1/4 tomato
-  end_time: 117.72695676474703
-  errors:
-  - description: Chop-Chop 1/2 tomato
-    tag: Measurement Error
-  - description: Step performed after correct order
-    tag: Order Error
-  modified_description: Chop-Chop 1/2 tomato
-  start_time: 60.5272483112413
-  step_id: 169
 - description: Mince-Mince peeled garlic cloves
   end_time: 248.1990190223303
   errors:
@@ -90,20 +30,6 @@ step_annotations:
   modified_description: Cut-Cut peeled garlic cloves instead of mincing it
   start_time: 213.69010400492604
   step_id: 180
-- description: Add-Add tomatoes to the pan
-  end_time: -1.0
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: -1.0
-  step_id: 175
-- description: Add-Add garlic to the pan
-  end_time: 606.833
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: 593.306
-  step_id: 160
 - description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium
     heat
   end_time: 336.1258435872234
@@ -112,80 +38,156 @@ step_annotations:
     tag: Technique Error
   - description: Heat-Heat oil in a heavy-bottomed or nonstick pan on high heat
     tag: Temperature Error
-  - description: Step performed before correct order
+  - description: Step performed before preparing ingredients
     tag: Order Error
-  modified_description: Heat-Heat oil in a heavy-bottomed or nonstick pan on high
-    heat
+  modified_description: Heat-Heat oil in a heavy-bottomed or nonstick pan on high heat
   start_time: 264.7443892361543
   step_id: 173
-- description: Saute-Saute the onions on medium heat until they are soft and translucent
-  end_time: -1.0
+- description: Chop-Chop 1 green chilli
+  end_time: 388.598303408208
   errors:
-  - description: Saute-Saute the mixture
-    tag: Other
-  - description: Step performed before correct order
+  - description: Chop with knife and use hands to separate the cut parts
+    tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Chop-Chop 1 green chilli improperly
+  start_time: 358.34391216007276
+  step_id: 161
+- description: add-add chopped onions to the pan
+  end_time: 426.8890173316292
+  errors:
+  - description: Step performed before preparing ingredients
+    tag: Order Error
+  start_time: 416.9617952033348
+  step_id: 179
+- description: Chop-Chop 1 tsp cilantro
+  end_time: 497.3250219561941
+  errors:
+  - description: Chop-Chop 1 tsp cilantro
+    tag: Measurement Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Chop-Chop 1 tsp cilantro
+  start_time: 428.30719192138554
+  step_id: 158
+- description: Saute-Saute the onions on medium heat until they are soft and translucent
+  end_time: 576
+  errors:
+  - description: Step performed before adding salt and preparing ingredients
     tag: Order Error
   modified_description: Saute-Saute the mixture
-  start_time: -1.0
+  start_time: 506
   step_id: 166
+- description: Add-Add garlic to the pan
+  end_time: 606.833
+  errors:
+  - description: Step performed before preparing ingredients
+    tag: Order Error
+  start_time: 593.306
+  step_id: 160
+- description: Add-Add chilli to the pan
+  end_time: 606.833
+  errors:
+  - description: Step performed before preparing ingredients
+    tag: Order Error
+  start_time: 593.306
+  step_id: 162
+- description: Cook-Cook for 1 minute, mixing everything
+  end_time: 663
+  errors:
+  - description: Spill things while cooking
+    tag: Technique Error
+  - description: Step performed before preparing ingredients
+    tag: Order Error
+  - description: Cook on high heat instead of medium heat
+    tag: Temperature Error
+  modified_description: Cook-Cook for 2 minutes, mixing and spilling things
+  start_time: 608
+  step_id: 165
+- description: Add-Add tomatoes to the pan
+  end_time: 672
+  errors:
+  - description: Step performed before preparing ingredients
+    tag: Order Error
+  start_time: 669
+  step_id: 175
+- description: Add-Add 1/8 tsp of turmeric to the pan
+  end_time: 725.6511309069648
+  errors:
+  - description: Step performed before preparing ingredients
+    tag: Order Error
+  - description: Adding more than 1/8 tsp of turmeric
+    tag: Measurement Error
+  modified_description: Add-Add 1/8 tsp of turmeric to the pan
+  start_time: 687.3604169835437
+  step_id: 168
 - description: Cook-Cook covered for 1 minute or until the tomatoes soften
-  end_time: 580.9973227518182
+  end_time: 855
   errors:
   - description: Cook-Cook until something is burnt
-    tag: Temperature Error
-  - description: Step performed before correct order
+    tag: Timing Error
+  - description: Step performed before preparing ingredients
     tag: Order Error
   modified_description: Cook-Cook until something is burnt
-  start_time: 500.1613711357068
+  start_time: 735
   step_id: 170
-- description: Cook-Cook for 1 minute, mixing everything
-  end_time: -1.0
+- description: Crack-Crack one egg in the bowl
+  end_time: 790.8871620357565
   errors:
-  - description: Cook for 2 minutes, mixing and spilling things
-    tag: Timing Error
-  - description: Cook for 2 minutes, mixing and spilling things
+  - description: Throw egg into the bowl while cracking it
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after cooking tomatoes to the pan
     tag: Order Error
-  modified_description: Cook-Cook for 2 minutes, mixing and spilling things
-  start_time: -1.0
-  step_id: 165
+  modified_description: Crack-Crack one egg in the bowl
+  start_time: 754.4873475653437
+  step_id: 167
+- description: add-add 1 tbsp milk to the bowl
+  end_time: 811
+  errors:
+  - description: Step performed after cooking tomatoes to the pan
+    tag: Order Error
+  start_time: 795
+  step_id: 177
+- description: add-add 1/3 tsp salt to the bowl
+  end_time: 838.032
+  errors:
+  - description: Step performed after cooking tomatoes to the pan
+    tag: Order Error
+  start_time: 813.141
+  step_id: 164
+- description: Whisk-Whisk the egg mixture in the bowl
+  end_time: 852.395
+  errors:
+  - description: Step performed after cooking tomatoes to the pan
+    tag: Order Error
+  start_time: 839.414
+  step_id: 159
 - description: pour-Slowly pour the whisked eggs into the pan
   end_time: 870.977
   errors:
-  - description: pour-Spill while pouring the whisked eggs into the pan
+  - description: Pour at once instead of slowly pouring the whisked eggs
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: pour-Spill while pouring the whisked eggs into the pan
   start_time: 860.541
   step_id: 172
 - description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs are
     almost cooked
   end_time: 916.504
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 871.395
   step_id: 171
-- description: Add-Add chilli to the pan
-  end_time: -1.0
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
-  start_time: -1.0
-  step_id: 162
 - description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
   end_time: 940.359
   errors:
   - description: Mix-Mix with 1 tbsp chopped cilantro and serve
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Mix-Mix with 1 tbsp chopped cilantro and serve
   start_time: 919.777
   step_id: 174
-- description: add-add 1 tbsp milk to the bowl
+- description: add-add 1/3 tsp salt to the pan
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
-  step_id: 177
+  step_id: 178
