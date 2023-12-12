@@ -23,23 +23,33 @@ step_annotations:
   errors:
   - description: Used high heat instead of medium heat
     tag: Temperature Error
+  - description: Step performed before making the puree and mincing the garlic
+    tag: Order Error
   modified_description: Heat-Heat 3 tbsp oil in a pan over high heat
   start_time: 169.97557328839656
   step_id: 154
 - description: mince-mince the garlic
   end_time: 294.28002782921953
   errors:
-  - description: Slice
+  - description: Slice the garlic instead of mincing
     tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
   modified_description: Slice the garlic
   start_time: 235.93303896311895
   step_id: 140
 - description: Chop-Chop tomato roughly (anysize chunks are fine)
   end_time: 336.13765027663953
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 303.1589174392783
   step_id: 155
 - description: puree-puree tomatoes without any water in a blender/mixer
   end_time: 499.3400973948629
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 339.0972801466591
   step_id: 150
 - description: Add-Add 1/4 tsp mustard to the pan
@@ -53,7 +63,7 @@ step_annotations:
 - description: Add-Add 2 tbsp red chili powder to the pan
   end_time: 549.653805185196
   errors:
-  - description: Added less
+  - description: Added less than 2 tbsp red chili powder
     tag: Measurement Error
   modified_description: Add-Add 1 tsp red chili powder to the pan
   start_time: 537.8152857051176
@@ -84,26 +94,50 @@ step_annotations:
   step_id: 156
 - description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 152
 - description: Add-1/2 tsp cumin seeds to the pan
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 141
 - description: Lower-Lower the heat
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 151
 - description: Saute-Saute the garlic for 2-3 minutes
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 148
 - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
     the mixture becomes thick
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 153
 - description: Add-1/2 tsp salt to the pan
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 146

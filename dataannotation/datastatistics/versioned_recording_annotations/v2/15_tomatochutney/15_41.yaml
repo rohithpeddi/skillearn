@@ -7,8 +7,7 @@ step_annotations:
   errors:
   - description: Peel garlic partially
     tag: Preparation Error
-  modified_description: Peel-partially Peel 4 large garlic cloves with some peel still
-    on
+  modified_description: Peel-partially Peel 4 large garlic cloves with some peel still on
   start_time: 1.612
   step_id: 145
 - description: Heat-Heat 3 tbsp oil in a pan over medium heat
@@ -16,7 +15,7 @@ step_annotations:
   errors:
   - description: use 1/2 tbsp instead of 1 tbsp
     tag: Measurement Error
-  - description: Step performed before correct order
+  - description: Step performed before making puree and mincing garlic
     tag: Order Error
   modified_description: Heat-Heat 1 1/2 tbsp oil in a pan over medium heat using 1/2
     tbsp utensil
@@ -27,7 +26,7 @@ step_annotations:
   errors:
   - description: spilled some out
     tag: Preparation Error
-  - description: Step performed before correct order
+  - description: Step performed before making puree and mincing garlic
     tag: Order Error
   modified_description: Add-Add 1/4 tsp mustard to the pan and spill some out while
     adding
@@ -38,20 +37,22 @@ step_annotations:
   errors:
   - description: slice the garlic instead of mince
     tag: Technique Error
+  - description: Step performed after adding mustard seeds to the pan
+    tag: Order Error
   modified_description: slice-slice the garlic
   start_time: 325.508
   step_id: 140
 - description: Add-1/2 tsp cumin seeds to the pan
   end_time: 442.878
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before making puree
     tag: Order Error
   start_time: 315.209
   step_id: 141
 - description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
   end_time: 500.322
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before making puree
     tag: Order Error
   start_time: 484.544
   step_id: 152
@@ -62,7 +63,7 @@ step_annotations:
     tag: Measurement Error
   - description: donot wash the tomatoes
     tag: Preparation Error
-  - description: Step performed after correct order
+  - description: Step performed after adding minced garlic to the pan
     tag: Order Error
   modified_description: Take-Take 2 tomatoes and dont wash them
   start_time: 507.508
@@ -72,7 +73,7 @@ step_annotations:
   errors:
   - description: Turn off the heat
     tag: Temperature Error
-  - description: Step performed before correct order
+  - description: Step performed before making puree
     tag: Order Error
   modified_description: Turn off-turnoff the heat
   start_time: 537.434
@@ -80,9 +81,9 @@ step_annotations:
 - description: Chop-Chop tomato roughly (anysize chunks are fine)
   end_time: 597.213
   errors:
-  - description: crush tomaotes instead of chop
+  - description: crush tomatoes instead of chop
     tag: Technique Error
-  - description: Step performed after correct order
+  - description: Step performed after adding minced garlic to the pan
     tag: Order Error
   modified_description: crush-crush tomato roughly (anysize chunks are fine)
   start_time: 544.657
@@ -91,10 +92,10 @@ step_annotations:
   end_time: 685.288
   errors:
   - description: add 1 cup water in addition to tomatoes
-    tag: Technique Error
+    tag: Preparation Error
   - description: spill some water while adding to blender
     tag: Technique Error
-  - description: Step performed after correct order
+  - description: Step performed after adding minced garlic to the pan
     tag: Order Error
   modified_description: puree-puree tomatoes with 1 cup water in a blender/mixer and
     spill some water while adding water to the blender
@@ -103,7 +104,7 @@ step_annotations:
 - description: mix-mix well contents of the pan
   end_time: 730.4
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before adding red chili powder to the pan
     tag: Order Error
   start_time: 694.955
   step_id: 157
@@ -112,7 +113,7 @@ step_annotations:
   errors:
   - description: add 1/2 cup salt instead of 1/2 tsp
     tag: Measurement Error
-  - description: Step performed before correct order
+  - description: Step performed before adding red chili powder to the pan
     tag: Order Error
   modified_description: Add-1/2 cup salt to the pan
   start_time: 734.438
@@ -120,7 +121,7 @@ step_annotations:
 - description: Add-Add 2 tbsp red chili powder to the pan
   end_time: 858.55
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after adding salt and mixing
     tag: Order Error
   start_time: 778.105
   step_id: 147
@@ -139,8 +140,6 @@ step_annotations:
   errors:
   - description: spill some out while mixing
     tag: Technique Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: Mix-Mix well tomato puree with contents in the pan and spill
     some out while mixing
   start_time: 883.626
@@ -151,26 +150,22 @@ step_annotations:
   errors:
   - description: cook for only 2 mins instead of cooking till mixture is thick
     tag: Timing Error
-  - description: Step performed before correct order
-    tag: Order Error
   modified_description: simmer-Allow the mixture to simmer over low heat for 2 minutes
   start_time: 924.996
   step_id: 153
 - description: Take-Take the pan off the heat
   end_time: 1061
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 1053.183
   step_id: 143
 - description: Transfer-Transfer it to a serving bowl
   end_time: 1086.554
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 1066.665
   step_id: 156
 - description: Saute-Saute the garlic for 2-3 minutes
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 148

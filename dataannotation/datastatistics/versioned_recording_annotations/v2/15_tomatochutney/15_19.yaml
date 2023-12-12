@@ -8,38 +8,65 @@ step_annotations:
   step_id: 145
 - description: Heat-Heat 3 tbsp oil in a pan over medium heat
   end_time: 330.8564853570504
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
   start_time: 258.1523532244502
   step_id: 154
 - description: Add-Add 1/4 tsp mustard to the pan
   end_time: 384.365
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
   start_time: 338.232266877749
   step_id: 139
 - description: Add-1/2 tsp cumin seeds to the pan
   end_time: 422.264
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
   start_time: 385.506
   step_id: 141
 - description: mince-mince the garlic
   end_time: 604
+  errors:
+  - description: Step performed after heating and adding mustard and cumin seeds
+    tag: Order Error
   start_time: 425.298
   step_id: 140
 - description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
   end_time: 620.068
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
   start_time: 613.594
   step_id: 152
 - description: Take-Take 1 tomato
   end_time: 660
+  errors:
+  - description: Step performed after heating and adding mustard and cumin seeds
+    tag: Order Error
   start_time: 632.451
   step_id: 149
 - description: Lower-Lower the heat
   end_time: 688
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
   start_time: 661
   step_id: 151
 - description: Chop-Chop tomato roughly (anysize chunks are fine)
   end_time: 789
+  errors:
+  - description: Step performed after heating and adding mustard and cumin seeds
+    tag: Order Error
   start_time: 710
   step_id: 155
 - description: puree-puree tomatoes without any water in a blender/mixer
   end_time: 910
+  errors:
+  - description: Step performed after heating and adding mustard and cumin seeds
+    tag: Order Error
   start_time: 825.792
   step_id: 150
 - description: Saute-Saute the garlic for 2-3 minutes

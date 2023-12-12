@@ -11,7 +11,7 @@ step_annotations:
   errors:
   - description: Heating 4tbsps of oil instead of 3 tbsps
     tag: Measurement Error
-  - description: Step performed before correct order
+  - description: Step performed before making puree and mincing garlic
     tag: Order Error
   modified_description: Heat-Heat 4 tbsp oil in a pan over medium heat
   start_time: 127.941
@@ -21,60 +21,63 @@ step_annotations:
   errors:
   - description: Spill out while scooping and adding mustard seeds to the pan
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed before making puree and mincing garlic
     tag: Order Error
   start_time: 168.466
   step_id: 139
 - description: mince-mince the garlic
   end_time: 281.557
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
   start_time: 209
   step_id: 140
 - description: Take-Take 1 tomato
   end_time: 288.218
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after heating the pan
     tag: Order Error
   start_time: 282.399
   step_id: 149
 - description: Add-1/2 tsp cumin seeds to the pan
   end_time: 320.619
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before making puree
     tag: Order Error
   start_time: 292.263
   step_id: 141
 - description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
   end_time: 412
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before making puree
     tag: Order Error
   start_time: 387.116
   step_id: 152
 - description: Saute-Saute the garlic for 2-3 minutes
   end_time: 600
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before making puree and lower the heat
     tag: Order Error
   start_time: 414
   step_id: 148
 - description: Lower-Lower the heat
   end_time: 603
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before making puree
     tag: Order Error
   start_time: 600.067
   step_id: 151
 - description: Chop-Chop tomato roughly (anysize chunks are fine)
   end_time: 621.405
   errors:
-  - description: Step performed after correct order
+  - description: Step performed before making puree
     tag: Order Error
   start_time: 604
   step_id: 155
 - description: Take-Take the pan off the heat
   end_time: 629.382
   errors:
-  - description: Step performed before correct order
+  - description: Step performed before recipe is done
     tag: Order Error
   start_time: 622.947
   step_id: 143
@@ -83,14 +86,14 @@ step_annotations:
   errors:
   - description: Did not puree the tomatoes, instead left them as chunks
     tag: Technique Error
-  - description: Step performed after correct order
+  - description: Step performed after sauteing garlic and after taking the pan off heat
     tag: Order Error
   start_time: 632
   step_id: 150
 - description: mix-mix well contents of the pan
   end_time: 747.467
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after taking the pan off heat
     tag: Order Error
   start_time: 737.947
   step_id: 157
@@ -100,14 +103,14 @@ step_annotations:
   - description: Adding more salt to the pan instead of 1/2 tsp as there is no scooping
       and measuring
     tag: Technique Error
-  - description: Step performed before correct order
+  - description: Step performed after taking the pan off heat
     tag: Order Error
   start_time: 759.7387174788987
   step_id: 146
 - description: Add-Add tomato puree to the pan
   end_time: 808.88
   errors:
-  - description: Step performed after correct order
+  - description: Step performed after taking the pan off heat
     tag: Order Error
   start_time: 796.959
   step_id: 142
@@ -115,25 +118,26 @@ step_annotations:
     the mixture becomes thick
   end_time: 1100.484
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after taking the pan off heat
     tag: Order Error
   start_time: 810.134
   step_id: 153
 - description: Mix-Mix well tomato puree with contents in the pan
   end_time: 1118.366
   errors:
-  - description: Step performed before correct order
+  - description: Step performed after taking the pan off heat
     tag: Order Error
   start_time: 1101.083
   step_id: 144
 - description: Transfer-Transfer it to a serving bowl
   end_time: 1186.067
-  errors:
-  - description: Step performed before correct order
-    tag: Order Error
   start_time: 1137
   step_id: 156
 - description: Add-Add 2 tbsp red chili powder to the pan
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 147

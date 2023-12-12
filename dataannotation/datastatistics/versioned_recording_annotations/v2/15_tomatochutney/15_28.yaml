@@ -7,17 +7,23 @@ step_annotations:
   errors:
   - description: Heat 5 tbsp oil in a pan over medium heat
     tag: Measurement Error
-  - description: Changed to medium heat
-    tag: Temperature Error
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
   modified_description: Heat-Heat 5 tbsp oil in a pan over medium heat
   start_time: 15.956867900871792
   step_id: 154
 - description: Add-Add 1/4 tsp mustard to the pan
   end_time: 121.07795457239497
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
   start_time: 105.1326212008718
   step_id: 139
 - description: Add-1/2 tsp cumin seeds to the pan
   end_time: 147.65351019160028
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
   start_time: 121.66852247504397
   step_id: 141
 - description: Lower-Lower the heat
@@ -25,18 +31,23 @@ step_annotations:
   errors:
   - description: Increase heat from medium to high
     tag: Temperature Error
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
   modified_description: Higher- Increase heat from medium to high
   start_time: 159.4648682445804
   step_id: 151
 - description: Add-Add 2 tbsp red chili powder to the pan
   end_time: 252.77459686312346
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
   start_time: 221.47449802272607
   step_id: 147
 - description: Take-Take 1 tomato
   end_time: 273.4444734558387
   errors:
-  - description: did not wash the tomato before taking for cooking
-    tag: Preparation Error
+  - description: Step performed after adding red chili powder to the pan
+    tag: Order Error
   modified_description: Take-Take 1 tomato unwashed
   start_time: 258.6802758896135
   step_id: 149
@@ -45,6 +56,8 @@ step_annotations:
   errors:
   - description: slice instead of chopping the tomatoes
     tag: Technique Error
+  - description: Step performed after adding red chili powder to the pan
+    tag: Order Error
   modified_description: Slice-Slice tomato roughly (anysize chunks are fine)
   start_time: 288.2086710220638
   step_id: 155
@@ -53,6 +66,8 @@ step_annotations:
   errors:
   - description: making puree of tomatoes with water in blender/mixer
     tag: Technique Error
+  - description: Step performed after adding red chili powder to the pan
+    tag: Order Error
   modified_description: puree-puree tomatoes with 1 cup water in a blender/mixer
   start_time: 394.510893498885
   step_id: 150
@@ -77,9 +92,9 @@ step_annotations:
     the mixture becomes thick
   end_time: 821.4914871141168
   errors:
-  - description: simmer-Allow the mixture to simmer over high heat for 2 minutes
+  - description: Cooked for 2 minutes instead of 5 minutes
     tag: Timing Error
-  - description: simmer-Allow the mixture to simmer over high heat for 2 minutes
+  - description: Used high heat instead of low heat
     tag: Temperature Error
   modified_description: simmer-Allow the mixture to simmer over high heat for 2 minutes
   start_time: 615.9738569922625
@@ -94,17 +109,33 @@ step_annotations:
   step_id: 156
 - description: Peel-Peel 4 large garlic cloves
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 145
 - description: mince-mince the garlic
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 140
 - description: Saute-Saute the garlic for 2-3 minutes
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 148
 - description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
   end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 152

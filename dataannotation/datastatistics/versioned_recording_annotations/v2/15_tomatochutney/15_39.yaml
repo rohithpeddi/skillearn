@@ -9,8 +9,7 @@ step_annotations:
 - description: Peel-Peel 4 large garlic cloves
   end_time: 87.976
   errors:
-  - description: Peel-Peel 4 large garlic cloves. Peel not done correctly. Did not
-      press the cloves. Did not remove all the peels completely.
+  - description: Did not peel the garlic cloves correctly
     tag: Technique Error
   modified_description: Peel-Peel 4 large garlic cloves. Peel not done correctly.
     Did not press the cloves. Did not remove all the peels completely.
@@ -19,8 +18,7 @@ step_annotations:
 - description: mince-mince the garlic
   end_time: 128.22
   errors:
-  - description: mince-mince the garlic incorrectly. Just pressing the clove from
-      top to down with knife. Spilling the cloves in the process.
+  - description: Cut the garlic instead of mincing
     tag: Technique Error
   modified_description: mince-mince the garlic incorrectly. Just pressing the clove
     from top to down with knife. Spilling the cloves in the process.
@@ -40,6 +38,8 @@ step_annotations:
   - description: Heat-Heat 3 tbsp oil in a pan over medium heat. Spilling happened
       while putting oil in the pan.
     tag: Technique Error
+  - description: Step performed before making the puree
+    tag: Order Error
   modified_description: Heat-Heat 3 tbsp oil in a pan over medium heat. Spilling happened
     while putting oil in the pan.
   start_time: 212.253
@@ -47,25 +47,29 @@ step_annotations:
 - description: Add-Add 1/4 tsp mustard to the pan
   end_time: 400.366
   errors:
-  - description: Add-Add 1/4 tsp red chilli flakes to the pan
+  - description: Added red chilli flakes instead of mustard
     tag: Preparation Error
-  - description: 1/4 tbsp instead of 1/4 tsp
+  - description: Added 1/4 tbsp instead of 1/4 tsp
     tag: Measurement Error
+  - description: Step performed before making the puree
+    tag: Order Error
   modified_description: Add-Add 1/4 tbsp red chilli flakes to the pan
   start_time: 360.041
   step_id: 139
 - description: Add-1/2 tsp cumin seeds to the pan
   end_time: 454.3611159214611
+  errors:
+  - description: Step performed before making the puree
+    tag: Order Error
   start_time: 429.48792320622925
   step_id: 141
 - description: puree-puree tomatoes without any water in a blender/mixer
   end_time: 528.4279564512624
   errors:
-  - description: puree-puree tomatoes without any water in a blender/mixer. Puree
-      not formed properly. Should be done for more time.
+  - description: Did not puree the tomatoes correctly
     tag: Timing Error
-  modified_description: puree-puree tomatoes without any water in a blender/mixer.
-    Puree not formed properly. Should be done for more time.
+  - description: Step performed after adding mustard and cumin seeds to the pan
+    tag: Order Error
   start_time: 472.60145724596435
   step_id: 150
 - description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
@@ -100,22 +104,29 @@ step_annotations:
   modified_description: Add-Add less than 2 tbsp red chili powder to the pan
   start_time: 616.8659749943089
   step_id: 147
+- description: Add-1/2 tsp salt to the pan
+  end_time: 680.9835384380174
+  errors:
+  - description: Step performed before mixing the contents of the pan
+    tag: Order Error
+  start_time: 650.5829695638452
+  step_id: 146
 - description: mix-mix well contents of the pan
   end_time: 731.071262384106
   errors:
-  - description: mix-mix well contents of the pan. Done after putting salt.
+  - description: Step performed after adding the salt
     tag: Order Error
   modified_description: mix-mix well contents of the pan. Done after putting salt.
   start_time: 696.4601916830505
   step_id: 157
-- description: Add-1/2 tsp salt to the pan
-  end_time: 680.9835384380174
-  start_time: 650.5829695638452
-  step_id: 146
 - description: Add-Add tomato puree to the pan
   end_time: 747.8647899611962
   start_time: 734.0463495638451
   step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 808
+  start_time: 754
+  step_id: 144
 - description: Take-Take the pan off the heat
   end_time: 819.7206800274213
   start_time: 810.3241405572227
@@ -124,10 +135,6 @@ step_annotations:
   end_time: 831.8809075770902
   start_time: 822.4843681068916
   step_id: 156
-- description: Mix-Mix well tomato puree with contents in the pan
-  end_time: -1.0
-  start_time: -1.0
-  step_id: 144
 - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
     the mixture becomes thick
   end_time: -1.0
