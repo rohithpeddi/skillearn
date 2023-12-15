@@ -2,6 +2,8 @@ import json
 import os
 import sys
 import os.path as osp
+import matplotlib.pyplot as plt
+import numpy as np
 from moviepy.video.io.VideoFileClip import VideoFileClip
 from datacollection.user_app.backend.app.models.activity import Activity
 from datacollection.user_app.backend.app.models.recording_annotation import RecordingAnnotation
@@ -32,7 +34,8 @@ def check_is_error_recording(recording_annotation):
 			is_error = True
 			break
 	
-	assert is_error == is_error_boolean, f"Error in recording {recording_annotation.recording_id}"
+	error_text = f"Error in recording {recording_annotation.recording_id} - {is_error}, {is_error_boolean}"
+	assert is_error == is_error_boolean, f"Error in recording {error_text}"
 	return is_error
 
 
@@ -98,6 +101,84 @@ def fetch_recipe_error_normal_division_statistics():
 	print(f"Total duration: {total_normal_duration + total_error_duration}")
 
 
+def generate_statistics_chart():
+	# Assuming the data structure is as follows:
+	# Each tuple contains: (Category Name, Normal Recordings Count, Error Recordings Count, Normal Recordings Duration, Error Recordings Duration)
+	activity_division_statistics = json.load(
+		open(f"{processed_files_directory}/v{version}/recipe_error_normal_division_statistics.json", 'r')
+	)
+	
+	activity_names = []
+	normal_counts = []
+	error_counts = []
+	normal_durations = []
+	error_durations = []
+	for activity_name, activity_statistics in activity_division_statistics.items():
+		if type(activity_statistics) is not dict:
+			continue
+		
+		activity_names.append(activity_name)
+		normal_counts.append(activity_statistics["normal"])
+		error_counts.append(activity_statistics["error"])
+		normal_durations.append(activity_statistics["normal_duration"])
+		error_durations.append(activity_statistics["error_duration"])
+	
+	# Setting the positions and width for the bars
+	pos = np.arange(len(activity_names))
+	bar_width = 0.35
+	
+	# Let's use a larger figure size to prevent cutting off text.
+	plt.figure(figsize=(15, 8))
+	
+	# Using a more contrasting color scheme
+	colors_normal = 'turquoise'
+	colors_error = 'teal'
+	colors_normal_duration = 'lightcoral'
+	colors_error_duration = 'darkred'
+	
+	# Plotting with the new colors
+	fig, ax1 = plt.subplots(figsize=(15, 8))  # Making the figure larger
+	
+	# Bars for recordings count with new colors
+	bar1 = ax1.bar(pos - bar_width / 2, normal_counts, bar_width, label='Normal Recordings', color=colors_normal)
+	bar2 = ax1.bar(pos + bar_width / 2, error_counts, bar_width, label='Error Recordings', color=colors_error)
+	
+	# Set the y axis label
+	ax1.set_ylabel('Recordings Count', color='blue')
+	ax1.tick_params(axis='y', labelcolor='blue')
+	
+	# Creating a twin axis for durations
+	ax2 = ax1.twinx()
+	
+	# Bars for recordings duration with new colors
+	bar3 = ax2.bar(pos - bar_width / 2, normal_durations, bar_width, label='Normal Recordings Duration(Hr)', alpha=0.5,
+	        color=colors_normal_duration)
+	bar4 = ax2.bar(pos + bar_width / 2, error_durations, bar_width, label='Error Recordings Duration(Hr)', alpha=0.5,
+	        color=colors_error_duration)
+	
+	# Set the y axis label
+	ax2.set_ylabel('Recordings Duration(Hr)', color='green')
+	ax2.tick_params(axis='y', labelcolor='green')
+	
+	# Setting the x axis with category names and rotating them to fit
+	ax1.set_xticks(pos)
+	ax1.set_xticklabels(activity_names, rotation=45, ha='right')
+	
+	# Adding a legend
+	fig.legend(loc='center', bbox_to_anchor=(0.5, 1.1), ncol=4)
+	ax1.legend(handles=[bar1, bar2], loc='upper left')
+	ax2.legend(handles=[bar3, bar4], loc='upper right')
+	
+	# Resizable figure
+	fig.tight_layout()
+	
+	# Show the plot
+	versioned_files_directory = f"{processed_files_directory}/v{version}/assets"
+	os.makedirs(versioned_files_directory, exist_ok=True)
+	plt.savefig(f'{versioned_files_directory}/division_statistics.jpeg')
+	plt.show()
+
+
 if __name__ == '__main__':
 	version = 5
 	
@@ -121,4 +202,5 @@ if __name__ == '__main__':
 		key=lambda x: (int(x.activity_id), int(x.recording_id.split("_")[1]))
 	)
 	
-	fetch_recipe_error_normal_division_statistics()
+	# fetch_recipe_error_normal_division_statistics()
+	generate_statistics_chart()

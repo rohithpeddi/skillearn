@@ -1,0 +1,152 @@
+{
+    "Microwave Egg Sandwich": {
+        "normal": 5,
+        "normal_duration": 0.92,
+        "error": 13,
+        "error_duration": 1.8099999999999998
+    },
+    "Dressed Up Meatballs": {
+        "error": 10,
+        "error_duration": 3.09,
+        "normal": 6,
+        "normal_duration": 2.0
+    },
+    "Microwave Mug Pizza": {
+        "normal": 5,
+        "normal_duration": 1.03,
+        "error": 8,
+        "error_duration": 1.5899999999999999
+    },
+    "Ramen": {
+        "normal": 10,
+        "normal_duration": 2.41,
+        "error": 7,
+        "error_duration": 1.4399999999999997
+    },
+    "Coffee": {
+        "normal": 8,
+        "normal_duration": 1.97,
+        "error": 7,
+        "error_duration": 1.57
+    },
+    "Breakfast Burritos": {
+        "normal": 6,
+        "normal_duration": 1.2200000000000002,
+        "error": 10,
+        "error_duration": 1.52
+    },
+    "Spiced Hot Chocolate": {
+        "normal": 6,
+        "normal_duration": 0.8200000000000001,
+        "error": 10,
+        "error_duration": 1.0
+    },
+    "Microwave French Toast": {
+        "normal": 9,
+        "normal_duration": 1.95,
+        "error": 5,
+        "error_duration": 0.66
+    },
+    "Pinwheels": {
+        "normal": 4,
+        "normal_duration": 0.72,
+        "error": 8,
+        "error_duration": 1.2000000000000002
+    },
+    "Tomato Mozzarella Salad": {
+        "normal": 11,
+        "normal_duration": 1.31,
+        "error": 7,
+        "error_duration": 0.6400000000000001
+    },
+    "Butter Corn Cup": {
+        "normal": 5,
+        "normal_duration": 1.44,
+        "error": 9,
+        "error_duration": 1.67
+    },
+    "Tomato Chutney": {
+        "normal": 5,
+        "normal_duration": 2.6,
+        "error": 10,
+        "error_duration": 2.76
+    },
+    "Scrambled Eggs": {
+        "normal": 6,
+        "normal_duration": 2.6999999999999997,
+        "error": 10,
+        "error_duration": 3.11
+    },
+    "Cucumber Raita": {
+        "normal": 12,
+        "normal_duration": 2.91,
+        "error": 8,
+        "error_duration": 1.36
+    },
+    "Zoodles": {
+        "error": 11,
+        "error_duration": 2.3899999999999997,
+        "normal": 4,
+        "normal_duration": 1.15
+    },
+    "Sauted Mushrooms": {
+        "normal": 6,
+        "normal_duration": 2.73,
+        "error": 8,
+        "error_duration": 2.2
+    },
+    "Blender Banana Pancakes": {
+        "error": 12,
+        "error_duration": 2.5700000000000003,
+        "normal": 7,
+        "normal_duration": 1.7900000000000003
+    },
+    "Herb Omelet with Fried Tomatoes": {
+        "error": 11,
+        "error_duration": 2.14,
+        "normal": 6,
+        "normal_duration": 1.73
+    },
+    "Broccoli Stir Fry": {
+        "normal": 10,
+        "normal_duration": 5.24,
+        "error": 6,
+        "error_duration": 2.18
+    },
+    "Pan Fried Tofu": {
+        "normal": 7,
+        "normal_duration": 3.03,
+        "error": 8,
+        "error_duration": 2.64
+    },
+    "Mug Cake": {
+        "normal": 7,
+        "normal_duration": 2.44,
+        "error": 10,
+        "error_duration": 2.32
+    },
+    "Cheese Pimiento": {
+        "error": 9,
+        "error_duration": 1.72,
+        "normal": 6,
+        "normal_duration": 1.47
+    },
+    "Spicy Tuna Avocado Wraps": {
+        "normal": 7,
+        "normal_duration": 2.0,
+        "error": 11,
+        "error_duration": 2.6599999999999997
+    },
+    "Caprese Bruschetta": {
+        "error": 12,
+        "error_duration": 2.7300000000000004,
+        "normal": 6,
+        "normal_duration": 1.92
+    },
+    "total_normal_recordings": 164,
+    "total_error_recordings": 220,
+    "total_normal_duration": 47.5,
+    "total_error_duration": 46.969999999999985,
+    "total_duration": 94.46999999999998,
+    "total_recordings": 384
+}

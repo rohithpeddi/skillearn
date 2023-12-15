@@ -1,5 +1,5 @@
 activity_id: 3
-is_error: false
+is_error: true
 recording_id: '3_22'
 step_annotations:
 - description: Take-Take a microwavable mug
