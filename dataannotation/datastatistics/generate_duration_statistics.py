@@ -123,12 +123,6 @@ def generate_statistics_chart():
 		normal_durations.append(activity_statistics["normal_duration"])
 		error_durations.append(activity_statistics["error_duration"])
 
-	stats = zip(activity_names, normal_counts, error_counts, normal_durations, error_durations)
-	for ele in stats:
-		print(ele)
-
-
-
 	# Setting the positions and width for the bars
 	pos = np.arange(len(activity_names))
 	bar_width = 0.35
