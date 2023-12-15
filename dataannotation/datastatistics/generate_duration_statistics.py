@@ -150,8 +150,8 @@ def generate_statistics_chart():
 	bar2 = ax1.bar(pos, error_counts, bar_width, bottom=normal_counts, label='Error Recordings', color=colors_error)
 	
 	# Set the y axis label
-	ax1.set_ylabel('Recordings Count', color='blue')
-	ax1.tick_params(axis='y', labelcolor='blue')
+	ax1.set_ylabel('Recordings Count', color='teal')
+	ax1.tick_params(axis='y', labelcolor='teal')
 	
 	# Creating a twin axis for durations
 	ax2 = ax1.twinx()
@@ -163,8 +163,8 @@ def generate_statistics_chart():
 	        color=colors_error_duration)
 	
 	# Set the y axis label
-	ax2.set_ylabel('Recordings Duration(Hr)', color='green')
-	ax2.tick_params(axis='y', labelcolor='green')
+	ax2.set_ylabel('Recordings Duration(Hr)', color='darkred')
+	ax2.tick_params(axis='y', labelcolor='darkred')
 	
 	# Setting the x axis with category names and rotating them to fit
 	ax1.set_xticks(pos)
