@@ -122,7 +122,13 @@ def generate_statistics_chart():
 		error_counts.append(activity_statistics["error"])
 		normal_durations.append(activity_statistics["normal_duration"])
 		error_durations.append(activity_statistics["error_duration"])
-	
+
+	stats = zip(activity_names, normal_counts, error_counts, normal_durations, error_durations)
+	for ele in stats:
+		print(ele)
+
+
+
 	# Setting the positions and width for the bars
 	pos = np.arange(len(activity_names))
 	bar_width = 0.35
@@ -140,8 +146,8 @@ def generate_statistics_chart():
 	fig, ax1 = plt.subplots(figsize=(15, 8))  # Making the figure larger
 	
 	# Bars for recordings count with new colors
-	bar1 = ax1.bar(pos - bar_width / 2, normal_counts, bar_width, label='Normal Recordings', color=colors_normal)
-	bar2 = ax1.bar(pos + bar_width / 2, error_counts, bar_width, label='Error Recordings', color=colors_error)
+	bar1 = ax1.bar(pos, normal_counts, bar_width, label='Normal Recordings', color=colors_normal)
+	bar2 = ax1.bar(pos, error_counts, bar_width, bottom=normal_counts, label='Error Recordings', color=colors_error)
 	
 	# Set the y axis label
 	ax1.set_ylabel('Recordings Count', color='blue')
@@ -151,9 +157,9 @@ def generate_statistics_chart():
 	ax2 = ax1.twinx()
 	
 	# Bars for recordings duration with new colors
-	bar3 = ax2.bar(pos - bar_width / 2, normal_durations, bar_width, label='Normal Recordings Duration(Hr)', alpha=0.5,
+	bar3 = ax2.bar(pos+bar_width, normal_durations, bar_width, label='Normal Recordings Duration(Hr)', alpha=0.5,
 	        color=colors_normal_duration)
-	bar4 = ax2.bar(pos + bar_width / 2, error_durations, bar_width, label='Error Recordings Duration(Hr)', alpha=0.5,
+	bar4 = ax2.bar(pos + bar_width , error_durations, bar_width,bottom=normal_durations, label='Error Recordings Duration(Hr)', alpha=0.5,
 	        color=colors_error_duration)
 	
 	# Set the y axis label
@@ -173,9 +179,9 @@ def generate_statistics_chart():
 	fig.tight_layout()
 	
 	# Show the plot
-	versioned_files_directory = f"{processed_files_directory}/v{version}/assets"
-	os.makedirs(versioned_files_directory, exist_ok=True)
-	plt.savefig(f'{versioned_files_directory}/division_statistics.jpeg')
+	# versioned_files_directory = f"{processed_files_directory}/v{version}/assets"
+	# os.makedirs(versioned_files_directory, exist_ok=True)
+	# plt.savefig(f'{versioned_files_directory}/division_statistics.jpeg')
 	plt.show()
 
 
