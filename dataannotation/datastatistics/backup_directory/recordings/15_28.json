@@ -1,0 +1,151 @@
+{
+    "id": "15_28",
+    "activity_id": 15,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Heat-Heat 3 tbsp oil in a pan over medium heat",
+            "modified_description": "Heat-Heat 5 tbsp oil in a pan over medium heat",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Heat 5 tbsp oil in a pan over medium heat"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Changed to medium heat"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/4 tsp mustard to the pan"
+        },
+        {
+            "description": "Add-1/2 tsp cumin seeds to the pan"
+        },
+        {
+            "description": "Lower-Lower the heat",
+            "modified_description": "Higher: Increase heat from medium to high",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Increase heat from medium to high"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 tbsp red chili powder to the pan"
+        },
+        {
+            "description": "Take-Take 1 tomato",
+            "modified_description": "Take-Take 1 tomato unwashed",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "did not wash the tomato before taking for cooking"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop tomato roughly (anysize chunks are fine)",
+            "modified_description": "Slice-Slice tomato roughly (anysize chunks are fine)",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "slice instead of chopping the tomatoes"
+                }
+            ]
+        },
+        {
+            "description": "puree-puree tomatoes without any water in a blender/mixer",
+            "modified_description": "puree-puree tomatoes with 1 cup water in a blender/mixer",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "making puree of tomatoes with water in blender/mixer"
+                }
+            ]
+        },
+        {
+            "description": "mix-mix well contents of the pan"
+        },
+        {
+            "description": "Add-1/2 tsp salt to the pan",
+            "modified_description": "Add-1/2 tsp salt to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-1 tsp salt to the pan "
+                }
+            ]
+        },
+        {
+            "description": "Add-Add tomato puree to the pan"
+        },
+        {
+            "description": "Mix-Mix well tomato puree with contents in the pan"
+        },
+        {
+            "description": "simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick",
+            "modified_description": "simmer-Allow the mixture to simmer over high heat for 2 minutes ",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "simmer-Allow the mixture to simmer over high heat for 2 minutes "
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "simmer-Allow the mixture to simmer over high heat for 2 minutes "
+                }
+            ]
+        },
+        {
+            "description": "Take-Take the pan off the heat"
+        },
+        {
+            "description": "Transfer-Transfer it to a serving bowl"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Peel-Peel 4 large garlic cloves"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "mince-mince the garlic"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Saute-Saute the garlic for 2-3 minutes"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "add-When mustard and cumin seeds begin to sizzle, add minced garlic"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

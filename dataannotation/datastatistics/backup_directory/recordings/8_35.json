@@ -1,0 +1,106 @@
+{
+    "id": "8_35",
+    "activity_id": 8,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Fill-Fill a microwave-safe mug with skimmed milk",
+            "modified_description": "Fill-Fill a microwave-safe mug with skimmed milk and spill some.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Spill some while filling the mug."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 teaspoon of white sugar to the mug",
+            "modified_description": "Add-Add 1 tablespoon of white sugar to the mug.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using tablespoon instead of teaspoon."
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the contents of the mug for 1 minute",
+            "modified_description": "Microwave-Microwave the contents of the mug for 45 seconds.",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwaving for less than a minutes."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/5 teaspoon cinnamon to the mug",
+            "modified_description": "Add-Add 1/4 teaspoon cinnamon to the mug.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Adding 1/4 teaspoon instead of 1/5 teaspoon."
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the mug",
+            "modified_description": "Mix-Mix the contents of the mug only once.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not mixing the contents of the mug thoroughly."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 pieces of chocolate to the mug",
+            "modified_description": "Add-Add 1 piece of chocolate to the mug.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Adding only one piece instead of two."
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat the contents of the mug for 1 minute and serve",
+            "modified_description": "Heat-Heat the contents of the mug for 1 minute and serve",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

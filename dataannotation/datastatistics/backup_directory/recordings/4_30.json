@@ -1,0 +1,133 @@
+{
+    "id": "4_30",
+    "activity_id": 4,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 garlic clove",
+            "modified_description": "Peel-Peel 2 garlic cloves",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Peel 2 garlic cloves"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 garlic clove on a cutting board",
+            "modified_description": "Chop-Chop 1 garlic clove on a plate",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Chop garlic clove on the plate"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove the noodles from the package(Break Noodles / Keep them as a block)"
+        },
+        {
+            "description": "Peel-Peel 1 medium onion"
+        },
+        {
+            "description": "slice-slice 1/4 medium onion into pieces",
+            "modified_description": "slice-slice 1 medium onion instead of 1/4th onion",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Slice 1 onion instead of 1/4th onion"
+                }
+            ]
+        },
+        {
+            "description": "Put-Put all the Vegetables in a microwave-safe bowl",
+            "modified_description": "Put-Put all the Vegetables in a microwave-safe bowl while spilling",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill outside vegetables while adding them to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the noodles to the bowl"
+        },
+        {
+            "description": "cover-cover the noodles with water"
+        },
+        {
+            "description": "Cover-Cover with a lid (or paper towel) to prevent splattering",
+            "modified_description": "Cover-Cover improperly with a lid (or paper towel) to prevent splattering",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cover improperly "
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the ramen for 4 minutes",
+            "modified_description": "Microwave - Microwave on high for 2 min",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave for 2 min instead of 4 min"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Microwave on high "
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped cilantro to the bowl"
+        },
+        {
+            "description": "Let-Let the noodles sit for about 1 minute after the microwave stops"
+        },
+        {
+            "description": "Mix-Mix in the flavour packet to the bowl",
+            "modified_description": "Mix-Mix in the flavour packet to the bowl"
+        },
+        {
+            "description": "Stir-Stir noodles with a spoon or fork until the flavouring dissolves",
+            "modified_description": "Stir-Stir noodles with a spoon or fork spilling outside until the flavouring dissolves",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Water spilled outside when mixing the flavour"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add chopped basil to the bowl"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

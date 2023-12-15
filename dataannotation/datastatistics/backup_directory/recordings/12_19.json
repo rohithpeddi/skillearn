@@ -1,0 +1,58 @@
+{
+    "id": "12_19",
+    "activity_id": 12,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Rinse-Rinse a tomato"
+        },
+        {
+            "description": "dry-gently dry it with a tea towel"
+        },
+        {
+            "description": "Slice-Slice one tomato into about 1/2 inch thick slices"
+        },
+        {
+            "description": "Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer"
+        },
+        {
+            "description": "Season-Season the tomato slices with salt"
+        },
+        {
+            "description": "Garnish-Garnish platter with italian seasoning"
+        },
+        {
+            "description": "Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter"
+        },
+        {
+            "description": "Season-Season platter with 1/4 teaspoon black pepper"
+        },
+        {
+            "description": "Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-09T18:48:01.556553\"",
+        "end_time": "null"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "id": "22_4",
+    "activity_id": 22,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "crack-crack one egg in a bowl"
+        },
+        {
+            "description": "Chop-Chop 2 tbsp cilantro"
+        },
+        {
+            "description": "Take-Take a tomato"
+        },
+        {
+            "description": "Cut-Cut tomato into two pieces"
+        },
+        {
+            "description": "add-add the chopped cilantro to the bowl"
+        },
+        {
+            "description": "add-1/2 tsp ground black pepper to the bowl"
+        },
+        {
+            "description": "Beat-Beat the contents of the bowl"
+        },
+        {
+            "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan"
+        },
+        {
+            "description": "cook-cook the tomatoes cut-side down until they start to soften and colour"
+        },
+        {
+            "description": "Scoop-Scoop the tomatoes from the pan"
+        },
+        {
+            "description": "put-put tomatoes on a serving plate"
+        },
+        {
+            "description": "Pour-Pour the egg mixture into the pan"
+        },
+        {
+            "description": "stir-stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space"
+        },
+        {
+            "description": "Stop-Stop stirring when it's nearly cooked to allow it to set into an omelette"
+        },
+        {
+            "description": "Transfer-Transfer omelette to the plate and serve with the tomatoes"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

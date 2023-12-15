@@ -1,0 +1,121 @@
+{
+    "id": "7_35",
+    "activity_id": 7,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "add-Extract and add contents of an egg to a microwave-safe bowl",
+            "modified_description": "Add-Extract spilling and add contents of an egg to a microwave-safe bowl with shells",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not extracting egg correctly and adding shells to the bowl and remove them later"
+                }
+            ]
+        },
+        {
+            "description": "Whisk-Whisk the egg"
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl well"
+        },
+        {
+            "description": "Add-Add 1/2 tbsp sweet and sour sauce to the bowl",
+            "modified_description": "Add-Add 1/2 tsp sweet and sour sauce to the bowl instead of 1/2 tbsp",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 1/2 tsp instead of 1/2 tbsp to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 tbsp salsa to the bowl"
+        },
+        {
+            "description": "Microwave-Microwave for 3 minutes, stirring in between",
+            "modified_description": "Microwave-Microwave for 30 seconds",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave for 30 sec instead of 3 min"
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle oregano in the bowl",
+            "modified_description": "Sprinkle-Sprinkle basil in the bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Sprinkle basil instead of oregano"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour egg mixture on top of the tortilla"
+        },
+        {
+            "description": "Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Using dirty spoon to scoop cheddar cheese"
+                }
+            ]
+        },
+        {
+            "description": "Roll-Roll the tortilla from one end to another into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps but not so tight that the filling leaks",
+            "modified_description": "Roll-Roll the tortilla from one end to another into a log shape improperly, about 1.5 inches thick. Roll it loosely so that the filling leaks",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Roll improperly such that filling leaks"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place 8 inch tortilla on a cutting board",
+            "modified_description": "[]",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                },
+                {
+                    "tag": "Missing Step",
+                    "description": "Step doesnot make sense"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-20T16:35:32.081705\"",
+        "end_time": "null"
+    }
+}

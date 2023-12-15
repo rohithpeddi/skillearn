@@ -1,0 +1,126 @@
+{
+    "id": "17_45",
+    "activity_id": 17,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse 1 medium sized cucumber"
+        },
+        {
+            "description": "Add-Add 1 teaspoon of cumin powder to the bowl",
+            "modified_description": "Add-Add 2 teaspoon of cumin powder to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add 2 teaspoons instead of 1 teaspoon"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 teaspoon of red chilli powder to the bowl",
+            "modified_description": "Add-1/4 teaspoon of red chilli powder to the bowl and spill some outside",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Add-1/4 teaspoon of red chilli powder to the bowl and spill some outside"
+                }
+            ]
+        },
+        {
+            "description": "peel-peel the cucumber",
+            "modified_description": "peel-peel the cucumber improperly",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "peel the cucumber improperly. or half peeled"
+                }
+            ]
+        },
+        {
+            "description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl"
+        },
+        {
+            "description": "Add-1/2 teaspoon of chaat masala powder to the bowl"
+        },
+        {
+            "description": "chop or grate-chop or grate the cucumber",
+            "modified_description": "chop or grate-slice the cucumber",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "slice instead of chop or grate"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the chopped or grated cucumber to the whisked curd"
+        },
+        {
+            "description": "Add-1/4 teaspoon salt to the bowl",
+            "modified_description": "Add-1/4 teaspoon salt to the bowl and spill some outside",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill while adding"
+                }
+            ]
+        },
+        {
+            "description": "whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd",
+            "modified_description": "whisk-In a mixing bowl, take 1 cup of chilled curd and forgot to whisk until smooth. Use fresh homemade or packaged curd",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "forgot to whisk the curd"
+                }
+            ]
+        },
+        {
+            "description": "Combine-Combine all the ingredients in the bowl",
+            "modified_description": "Combine-Combine all the ingredients in the bowl and spill some out",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "spill some ingredients out while combining"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "NULL"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "id": "21_44",
+    "activity_id": 21,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Add-1/2 tsp baking powder to a blender",
+            "modified_description": "Add-1/2 Tbsp baking powder to a blender.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using Tbsp instead of tsp."
+                }
+            ]
+        },
+        {
+            "description": "Add-1 heaped tbsp flour to a blender",
+            "modified_description": "Add-1 tbsp flour to a blender.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Adding without a heap."
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 strawberry",
+            "modified_description": "Chop-Chop 2 strawberries.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Chopping two strawberries instead of one."
+                }
+            ]
+        },
+        {
+            "description": "splash-splash maple syrup on plate",
+            "modified_description": "splash-splash maple syrup on plate and spill some.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Spill some maple syrup."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 banana to a blender",
+            "modified_description": "Add-Add 1/2 banana to a blender.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Instead of full banana adding half."
+                }
+            ]
+        },
+        {
+            "description": "blitz-blitz the blender for 20 seconds",
+            "modified_description": "Blitz-Blitz the blender for 30 seconds.",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Bliting the blender for more than 20 seconds."
+                }
+            ]
+        },
+        {
+            "description": "Melt-Melt a small knob of butter in a non-stick frying pan over low-medium heat",
+            "modified_description": "Melt-Melt a small knob of butter in a steel frying pan over low-medium heat",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Instead of low-medium using mediym-low."
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Using a steel pan instead of a non-stick pan."
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour three little puddles straight from the blender into the frying pan"
+        },
+        {
+            "description": "Cook-Cook for 1 min or until the tops start to bubble"
+        },
+        {
+            "description": "Flip-Flip the pancakes with a fork or a fish slice spatula",
+            "modified_description": "Flip-Flip the pancakes with a fork or a fish slice spatula and drop one out of the pan.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "While flipping put one out of the pan."
+                }
+            ]
+        },
+        {
+            "description": "cook-cook for 20-30 seconds more"
+        },
+        {
+            "description": "Transfer-Transfer to a plate"
+        },
+        {
+            "description": "Serve-Serve the pancakes with chopped strawberries"
+        },
+        {
+            "description": "Add-1 egg to a blender"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-30T17:53:16.722638\"",
+        "end_time": "null"
+    }
+}

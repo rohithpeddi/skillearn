@@ -1,0 +1,146 @@
+{
+    "id": "17_29",
+    "activity_id": 17,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse 1 medium sized cucumber",
+            "modified_description": "Rinse-Rinse 1 medium sized zucchini. Incomplete rinse.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Rinse-Rinse 1 medium sized zucchini. "
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Rinse-Rinse 1 medium sized zucchini. Incomplete rinse. Rinse only half side of zucchini."
+                }
+            ]
+        },
+        {
+            "description": "whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd",
+            "modified_description": "whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd. Whisking not done properly.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "whisk-In a coffee mug, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd. Whisking not done properly. Instead of moving hand in circular motion. Used hands by just pusing up and down the curd. "
+                }
+            ]
+        },
+        {
+            "description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl",
+            "modified_description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl. Chopping done using peeler.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl. Chopping done using peeler. The leaves were not chopped properly and still had stems in them. Whole leafs still exist."
+                }
+            ]
+        },
+        {
+            "description": "peel-peel the cucumber",
+            "modified_description": "peel-peel the zucchini using fork.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "peel-peel the zucchini using fork. Use fork to remove the skin of zucchini. Did not remove the zucchini's top bud as well. After peeling skin of zucchini still visible."
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "peel-peel the zucchini using fork. Use fork to remove the skin of zucchini. Did not remove the zucchini's top bud as well. After peeling skin of zucchini still visible."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 teaspoon of cumin powder to the bowl",
+            "modified_description": "Add-Add 1 teaspoon of cinnamon powder to the coffee mug",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Add-Add 1 teaspoon of cinnamon powder to the coffee mug"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 teaspoon of red chilli powder to the bowl"
+        },
+        {
+            "description": "chop or grate-chop or grate the cucumber",
+            "modified_description": "chop or grate-chop or grate the zucchini.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "chop or grate-chop or grate the zucchini. Action for chop not proper. Just pressing the zucchini instead of actually cutting it. Also a lot spillage of big chunks of zucchini were made. final pieces after chop quite large."
+                }
+            ]
+        },
+        {
+            "description": "Add-1/2 teaspoon of chaat masala powder to the bowl",
+            "modified_description": "Add-1/2 teaspoon of chaat masala powder to the mug",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Add-1/2 teaspoon of chaat masala powder to the mug. Action was not proper should be gently put inside mug but instead forcefully transferred. Spillage might also have happened."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the chopped or grated cucumber to the whisked curd",
+            "modified_description": "Add-Add the chopped or grated zucchini to the whisked curd",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Add-Add the chopped or grated zucchini to the whisked curd. Directly transferring the entire cutting board and not the chopped zucchini. Spilling happens. kitchen platform became messy."
+                }
+            ]
+        },
+        {
+            "description": "Combine-Combine all the ingredients in the bowl",
+            "modified_description": "Combine all the ingredients in the mug using kitchen knife.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Combine-Combine all the ingredients in the mug using kitchen knife. Combine not done properly instead of circular motion did up and down of knife on mixture."
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Combine-Combine all the ingredients in the mug using kitchen knife. Combine not done properly instead of circular motion did up and down of knife on mixture."
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-1/4 teaspoon salt to the bowl"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-13T20:17:02.838687\"",
+        "end_time": "null"
+    }
+}

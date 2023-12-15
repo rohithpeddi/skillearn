@@ -1,0 +1,8 @@
+2.9320514046542137,53.200147268062736,[' (StepDescription: add-Extract and add contents of an egg to a microwave-safe bowl)']
+55.39632621355146,76.62605601994244,[' (StepDescription: Whisk-Whisk the egg)']
+78.09017531693492,259.64096814400256,[' (ErrorTag:Timing Error, ErrorDescription:2 mins), (StepDescription: Microwave-Microwave for 3 minutes, stirring in between) (StepDescription: Microwave-Microwave for 3 minutes, stirring in between)']
+299.17218916279955,327.23447568848877,[' (ErrorTag:Measurement Error, ErrorDescription:1 tbsp), (StepDescription: Add-Add 1/2 tbsp sweet and sour sauce to the bowl) (StepDescription: Add-Add 1/2 tbsp sweet and sour sauce to the bowl)']
+282.090797364554,298.44012951430335,[' (StepDescription: Add-Add 1 tbsp salsa to the bowl)']
+263.30126638648375,281.11471783322565,[' (ErrorTag:Preparation Error, ErrorDescription:Basil), (StepDescription: Sprinkle-Sprinkle oregano in the bowl) (StepDescription: Sprinkle-Sprinkle oregano in the bowl)']
+327.23447568848877,364.0814779961329,[' (ErrorTag:Technique Error, ErrorDescription:Not that well), (StepDescription: Mix-Mix the contents of the bowl well) (StepDescription: Mix-Mix the contents of the bowl well)']
+365.05755752746126,385.555227685356,[' (StepDescription: Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg)']

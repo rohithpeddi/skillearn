@@ -1,0 +1,120 @@
+{
+    "id": "13_45",
+    "activity_id": 13,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Measure-Measure 2 cups of frozen corn",
+            "modified_description": "Measure-Measure 3 cups of frozen corn",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Measure 3 cups instead of 2"
+                }
+            ]
+        },
+        {
+            "description": "Thaw-Thaw the frozen corn by putting it in a sieve and running it under cold water",
+            "modified_description": "Thaw-Thaw the frozen corn by putting it in a sieve and running it under hot water",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Thaw under hot water"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the corn into a microwave-safe bowl"
+        },
+        {
+            "description": "Microwave-Microwave the corn for 2 minutes",
+            "modified_description": "Microwave-Microwave the corn for 1 minute 30 seconds",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave for 1 minute 30 seconds"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 teaspoon of softened butter"
+        },
+        {
+            "description": "Add-1 teaspoon of pepper powder to the bowl"
+        },
+        {
+            "description": "Add-Add 1 teaspoon salt to the bowl",
+            "modified_description": "Add-Add 1.5 teaspoon salt to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 1.5 tsp"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the corn for 3 more minutes"
+        },
+        {
+            "description": "Extract-Extract lime juice from 1/3 lime",
+            "modified_description": "Extract-Extract (and spill) lime juice from 1/3 lime",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill some lime juice"
+                }
+            ]
+        },
+        {
+            "description": "add-add lime juice to the bowl"
+        },
+        {
+            "description": "stir-then stir the bowl",
+            "modified_description": "stir-stir the contents in bowl 2 times",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Do not stir enough"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl well",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "null"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 2,
+    "selected_by": 2,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-12T20:20:15.529043\"",
+        "end_time": "\"2023-04-12T20:37:03.804418\""
+    }
+}

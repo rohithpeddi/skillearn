@@ -1,0 +1,181 @@
+{
+    "id": "10_26",
+    "activity_id": 10,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Place-Place 8-inch flour tortilla on cutting board",
+            "modified_description": " Place-Place 8-inch flour tortilla on a plate",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use a plate instead of cutting board. "
+                }
+            ]
+        },
+        {
+            "description": "Clean-Clean the knife by wiping it with a paper towel",
+            "modified_description": "Clean-Clean the kitchen knife by wiping it with a paper towel",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Use a kitchen knife instead of a buttering knife (might cut the tortilla)"
+                }
+            ]
+        },
+        {
+            "description": "scoop-Use the knife to scoop jelly from the jar",
+            "modified_description": "scoop-Use the knife to scoop jelly from the jar (pierce the jar accidently)",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Might have cut the jelly bottle with knife"
+                }
+            ]
+        },
+        {
+            "description": "Spread-Spread jelly over the nut butter"
+        },
+        {
+            "description": "Clean-Clean the knife by wiping with a paper towel"
+        },
+        {
+            "description": "Roll-Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight that the filling leaks",
+            "modified_description": "Roll-Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it very tight.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Roll it tightly - The jelly spills out"
+                }
+            ]
+        },
+        {
+            "description": "Secure-Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart",
+            "modified_description": "Secure-Secure the rolled tortilla by inserting 5 toothpicks.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "The toothpicks are inserted at random places (not 1 inch apart)"
+                }
+            ]
+        },
+        {
+            "description": "Trim-Trim the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll",
+            "modified_description": "Trim-Trim the ends of the tortilla roll with the butter knife at the last toothpick",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "No margins are left. The last pinwheels will be very small and toothpicks will be at the ends"
+                }
+            ]
+        },
+        {
+            "description": "Slide-Slide floss under the tortilla, perpendicular to the length of the roll",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Used Scissors"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the floss halfway between toothpicks",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Used Scissors"
+                }
+            ]
+        },
+        {
+            "description": "Cross-Cross the floss's two ends over the tortilla roll's top",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Used Scissors"
+                }
+            ]
+        },
+        {
+            "description": "pull-pull the floss ends in opposite directions to slice",
+            "modified_description": "Slice the pinwheels using a scissor",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Use a scissor instead of floss"
+                }
+            ]
+        },
+        {
+            "description": "slicing-Continue slicing with floss to create 1 more pinwheel",
+            "modified_description": "Continue cutting with scissors to create 1 more pinwheel",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Use a scissor instead of floss"
+                }
+            ]
+        },
+        {
+            "description": "slicing-Continue slicing with floss to create 1 more pinwheel",
+            "modified_description": "Continue cutting with scissors to create 1 more pinwheel",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Use a scissor instead of floss"
+                }
+            ]
+        },
+        {
+            "description": "slicing-Continue slicing with floss to create 1 more pinwheel",
+            "modified_description": "Continue cutting with scissors to create 1 more pinwheel",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Use a scissor instead of floss"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the pinwheels on a plate"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Discard-Discard ends of the tortilla"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "scoop-Use a butter knife to scoop nut butter from the jar"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 2,
+    "selected_by": 2,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-06T16:42:33.866194\"",
+        "end_time": "null"
+    }
+}

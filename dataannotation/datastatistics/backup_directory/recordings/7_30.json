@@ -1,0 +1,93 @@
+{
+    "id": "7_30",
+    "activity_id": 7,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "add-Extract and add contents of an egg to a microwave-safe bowl"
+        },
+        {
+            "description": "Whisk-Whisk the egg"
+        },
+        {
+            "description": "Microwave-Microwave for 3 minutes, stirring in between",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "2 mins"
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle oregano in the bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Basil"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 tbsp salsa to the bowl"
+        },
+        {
+            "description": "Add-Add 1/2 tbsp sweet and sour sauce to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1 tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl well",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not that well"
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Place-Place 8 inch tortilla on a cutting board"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Pour-Pour egg mixture on top of the tortilla"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Roll-Roll the tortilla from one end to another into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps but not so tight that the filling leaks"
+        }
+    ],
+    "environment": 10,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

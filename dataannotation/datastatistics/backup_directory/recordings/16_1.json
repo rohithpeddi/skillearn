@@ -1,0 +1,100 @@
+{
+    "id": "16_1",
+    "activity_id": 16,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Chop-Chop 1/4 medium onion"
+        },
+        {
+            "description": "Chop-Chop 1 tsp cilantro"
+        },
+        {
+            "description": "Chop-Chop 1/4 tomato"
+        },
+        {
+            "description": "Chop-Chop 1 green chilli"
+        },
+        {
+            "description": "Peel-Peel 2 garlic cloves"
+        },
+        {
+            "description": "Mince-Mince peeled garlic cloves"
+        },
+        {
+            "description": "Crack-Crack one egg in the bowl"
+        },
+        {
+            "description": "add-add  1 tbsp milk to the bowl"
+        },
+        {
+            "description": "add-add 1/3 tsp salt to the bowl"
+        },
+        {
+            "description": "Whisk-Whisk the egg mixture in the bowl"
+        },
+        {
+            "description": "Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat"
+        },
+        {
+            "description": "add-add 1/3 tsp salt to the pan"
+        },
+        {
+            "description": "add-add chopped onions to the pan"
+        },
+        {
+            "description": "Saute-Saute the onions on medium heat until they are soft and translucent"
+        },
+        {
+            "description": "Add-Add garlic to the pan"
+        },
+        {
+            "description": "Add-Add chilli to the pan"
+        },
+        {
+            "description": "Cook-Cook for 1 minute, mixing everything"
+        },
+        {
+            "description": "Add-Add 1/8 tsp of turmeric to the pan"
+        },
+        {
+            "description": "Add-Add tomatoes to the pan"
+        },
+        {
+            "description": "Cook-Cook covered for 1 minute or until the tomatoes soften"
+        },
+        {
+            "description": "pour-Slowly pour the whisked eggs into the pan"
+        },
+        {
+            "description": "mixing-Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked"
+        },
+        {
+            "description": "Garnish-Garnish with 1 tbsp chopped cilantro and serve"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 7,
+    "selected_by": 7,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

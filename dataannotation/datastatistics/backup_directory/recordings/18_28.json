@@ -1,0 +1,131 @@
+{
+    "id": "18_28",
+    "activity_id": 18,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 garlic cloves",
+            "modified_description": "Peel-Peel 1 garlic clove improperly",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Peel improperly"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat a large pan on medium heat",
+            "modified_description": "Heat-Heat the wrong pan; turn off the heat; and turn on the heat for the correct pan",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "heat the wrong pan and turn off the heat and turn on the heat for the correct pan"
+                }
+            ]
+        },
+        {
+            "description": "Melt-Melt 1 tablespoons of softened butter",
+            "modified_description": "Melt-Melt 1 tablespoons of softened butter on high heat to burn it",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Burn the butter by heating on high"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 large minced garlic cloves to the pan",
+            "modified_description": "Add-Add 1 large chopped  garlic clove to the pan",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Chop the garlic instead of mincing"
+                }
+            ]
+        },
+        {
+            "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer",
+            "modified_description": " Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer, stop after doing it till half"
+        },
+        {
+            "description": "Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic",
+            "modified_description": "Cook-Cook garlic until fragrant (about 1 minutes). burn garlic",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Cook until the garlic is burnt"
+                }
+            ]
+        },
+        {
+            "description": "season-season with salt"
+        },
+        {
+            "description": "Add-1/6 cup grated parmesan cheese",
+            "modified_description": "Add-1/6 cup grated parmesan cheese; spill",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill while adding grated cheese"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the zucchini noodles",
+            "modified_description": "Add-Drop while add the zucchini noodles into the pan"
+        },
+        {
+            "description": "Cook-Cook for 2 minutes or until the zoodles are done",
+            "modified_description": "Cook-Spill and burn the zoodles while sauteing to cook",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill outside while sauteing to cook"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove from heat",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "NONE"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "season-pepper to taste"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Top-Top with more parmesan if desired"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-28T12:06:15.908204\"",
+        "end_time": "null"
+    }
+}

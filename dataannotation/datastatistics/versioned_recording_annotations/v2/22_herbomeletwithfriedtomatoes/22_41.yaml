@@ -20,7 +20,7 @@ step_annotations:
     tag: Order Error
   start_time: 121.73577125096524
   step_id: 246
-- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+- description: Heat-Heat 1 tbsp oil in a non-stick frying pan
   end_time: 163.45972510714287
   errors:
   - description: Using soiled pan

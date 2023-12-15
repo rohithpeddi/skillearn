@@ -1,0 +1,88 @@
+{
+    "id": "8_31",
+    "activity_id": 8,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Fill-Fill a microwave-safe mug with skimmed milk"
+        },
+        {
+            "description": "Microwave-Microwave the contents of the mug for 1 minute",
+            "modified_description": "Microwave-Microwave the contents of the mug for 35 seconds.",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave-Microwave the contents of the mug for 35 seconds. Started the timer from 7 minutes and stopped at 6:25."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/5 teaspoon cinnamon to the mug",
+            "modified_description": "Add-Add 1/5 teaspoon cinnamon to the mug",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Add-Add 1/5 teaspoon cinnamon to the mug. Spilling happened while adding. Also first put 1/2 tsp first and then to make 1/5 remove the added cinnamon from top of milk. Incorrect way to add 1/5 tsp cinnamon."
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the mug",
+            "modified_description": "Mix-Mix the contents of the mug. ",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Mix-Mix the contents of the mug. Not doing circular and slowly mixing the contents of mug. Instead did hastily and spilling the milk. Also motion was up-down and sideways instead of cicular."
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat the contents of the mug for 1 minute and serve",
+            "modified_description": "Heat the contents of the mug for 40 seconds and serve.",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Heat-Heat the contents of the mug for 40 seconds and serve it on glass plate cover. Also timing started from 10:30 and stopped at 9:50."
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Heat-Heat the contents of the mug for 40 seconds and serve it on glass plate cover. Also timing started from 10:30 and stopped at 9:50."
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add 1 teaspoon of white sugar to the mug"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add 2 pieces of chocolate to the mug"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-13T21:52:14.297489\"",
+        "end_time": "null"
+    }
+}

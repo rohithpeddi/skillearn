@@ -1,0 +1,106 @@
+{
+    "id": "12_48",
+    "activity_id": 12,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse a tomato",
+            "modified_description": "Rinse-Rinse a tomato for 1 second",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Rinsed for less time than specified"
+                }
+            ]
+        },
+        {
+            "description": "dry-gently dry it with a tea towel"
+        },
+        {
+            "description": "Slice-Slice one tomato into about 1/2 inch thick slices",
+            "modified_description": "Slice-Cut one tomato into about 1/2 inch thick slices",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cut instead of slice"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer",
+            "modified_description": "Place-Place the thick slices of tomatoes on a platter, ensuring they are piled up over each other",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Instead of a single layer, pile up the cut tomatoes"
+                }
+            ]
+        },
+        {
+            "description": "Season-Season the tomato slices with salt"
+        },
+        {
+            "description": "Garnish-Garnish platter with italian seasoning"
+        },
+        {
+            "description": "Season-Season platter with 1/4 teaspoon black pepper",
+            "modified_description": "Season-Season platter with 1 teaspoon black pepper",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Added more black pepper"
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter"
+        },
+        {
+            "description": "Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter",
+            "modified_description": "Add a drizzle of sesame oil, about 1 tablespoon, over the entire platter, and 1 more tablespoon after heating it in a pan",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Used hot olive oil"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Used sesame oil"
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": "Added one extra spoon of sesame oil"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-26T15:41:52.898330\"",
+        "end_time": "null"
+    }
+}

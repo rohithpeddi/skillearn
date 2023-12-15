@@ -1,0 +1,152 @@
+{
+    "id": "20_29",
+    "activity_id": 20,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse 3 mushrooms under cold water",
+            "modified_description": "Rinse-Rinse 2 mushrooms under cold water",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "use 2 mushrooms instead of 3"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 2 garlic cloves",
+            "modified_description": "Peel-Peel 2 garlic cloves partially",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "peel only partially"
+                }
+            ]
+        },
+        {
+            "description": "pat-pat rinsed mushrooms dry with a paper towel",
+            "modified_description": "squeeze-squeeze rinsed mushrooms dry with a paper towel",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "squeeze instead of patting"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat",
+            "modified_description": "Heat-Heat 1 tbsp olive oil in a large skillet over low heat",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "use low heat instead of high heat"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 shallot",
+            "modified_description": "Chop-Chop 1 shallot without peeling",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "chop shallot without peeling it"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice the mushrooms",
+            "modified_description": "chop-chop the mushrooms",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "chop instead of slice"
+                }
+            ]
+        },
+        {
+            "description": "mince-mince garlic cloves"
+        },
+        {
+            "description": "add-Once the pan is hot, add the mushrooms"
+        },
+        {
+            "description": "cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown"
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute",
+            "modified_description": "cook-cook the pan, often stirring, for 2 minute",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "cook for 2 mins instead of 1 min"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 tbsp balsamic vinegar to the pan",
+            "modified_description": "Add-1 tbsp balsamic vinegar to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add 1 tbsp balsamic vinegar instead of 1/4 tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 cloves of minced garlic to the pan"
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute"
+        },
+        {
+            "description": "Season-Season pan with salt"
+        },
+        {
+            "description": "Season-pepper on pan to taste",
+            "modified_description": "Season-pepper on pan to taste and spill some outside while adding",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill some pepper outside"
+                }
+            ]
+        },
+        {
+            "description": "Transfer-Transfer the contents of the pan to a serving dish"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add chopped shallot to the pan"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Pull-Pull out mushroom stems"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

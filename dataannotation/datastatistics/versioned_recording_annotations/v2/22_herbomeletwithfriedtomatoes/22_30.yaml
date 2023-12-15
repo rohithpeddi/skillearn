@@ -10,7 +10,7 @@ step_annotations:
   end_time: 44.30204427032322
   start_time: 31.380614691478947
   step_id: 246
-- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+- description: Heat-Heat 1 tbsp oil in a non-stick frying pan
   end_time: 83.06633300685603
   errors:
   - description: Chinese wok, not a pan

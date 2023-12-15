@@ -1,0 +1,116 @@
+{
+    "id": "7_44",
+    "activity_id": 7,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Place-Place 8 inch tortilla on a cutting board"
+        },
+        {
+            "description": "add-Extract and add contents of an egg to a microwave-safe bowl",
+            "modified_description": "Extract and add contents of an egg to a microwave-safe bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "broken egg with shells"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "broken egg with shells"
+                }
+            ]
+        },
+        {
+            "description": "Whisk-Whisk the egg"
+        },
+        {
+            "description": "Microwave-Microwave for 3 minutes, stirring in between",
+            "modified_description": "Microwave for 2 minutes, no stirring in between",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "no stirring in between"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "2 mins"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "2 mins "
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/2 tbsp sweet and sour sauce to the bowl",
+            "modified_description": "Add 1 tbsp sweet and sour sauce to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1 tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 tbsp salsa to the bowl"
+        },
+        {
+            "description": "Sprinkle-Sprinkle oregano in the bowl",
+            "modified_description": "pour oregano in the bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "pour"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl well",
+            "modified_description": "Mix the contents of the bowl but not that well",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "not very well..."
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour egg mixture on top of the tortilla"
+        },
+        {
+            "description": "Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg"
+        },
+        {
+            "description": "Roll-Roll the tortilla from one end to another into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps but not so tight that the filling leaks"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

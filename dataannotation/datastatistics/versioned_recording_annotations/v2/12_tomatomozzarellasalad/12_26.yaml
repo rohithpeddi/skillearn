@@ -6,12 +6,12 @@ step_annotations:
   end_time: 28.883
   start_time: 19.10687495042322
   step_id: 125
-- description: dry-gently dry it with a tea towel
+- description: dry-gently dry it with a paper/tea towel
   end_time: 46.184
   errors:
   - description: Do not try the tomato completely
     tag: Technique Error
-  modified_description: dry-gently dry half tomato with a tea towel
+  modified_description: dry-gently dry half tomato with a paper/tea towel
   start_time: 37.81569000604595
   step_id: 122
 - description: Slice-Slice one tomato into about 1/2 inch thick slices

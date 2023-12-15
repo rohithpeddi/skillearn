@@ -1,0 +1,123 @@
+{
+    "id": "27_29",
+    "activity_id": 27,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Chop-Chop 1/4 red bell pepper into tiny bits",
+            "modified_description": "Chop-Chop 1/4 red bell pepper into tiny bits",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/3 cup cheddar cheese to a microwave-safe cup",
+            "modified_description": "Add-Add 1/2 cup cheddar cheese to a microwave-safe cup",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-Add 1/2 cup cheddar cheese to a microwave-safe cup"
+                }
+            ]
+        },
+        {
+            "description": "Melt-Melt the cheese by microwaving cup for 30 sec. (Check after 30 seconds and microwave for 10 seconds more if needed).",
+            "modified_description": "Melt-Melt the cheese by microwaving cup for 60 sec. (Check after 1 minute and microwave for 20 seconds more if needed).",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Melt-Melt the cheese by microwaving cup for 60 sec. (Check after 1 minute and microwave for 20 seconds more if needed)."
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the chopped pepper in the microwave-safe bowl",
+            "modified_description": "Place-Place the chopped pepper in the microwave-safe bowl in one side only.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Place-Place the chopped pepper in the microwave-safe bowl.  Should have covered the complete base of the bowl but put in just one side instead. wrong technique."
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the bowl, covered, for 2 minutes",
+            "modified_description": "Microwave-Microwave the bowl, covered, for 1 minutes",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Microwave-Microwave the bowl, covered, for 1 minutes"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the cheese and red bell pepper in the bowl"
+        },
+        {
+            "description": "Add-Add 1/4 teaspoon pepper to the bowl",
+            "modified_description": "Add-Add 1/2 teaspoon pepper to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-Add 1/2 teaspoon pepper to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "add-add 1/2 tbsp softened butter to the bowl",
+            "modified_description": "add-add 1/4 tbsp softened butter to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-add 1/4 tbsp softened butter to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/4 teaspoon salt to the bowl",
+            "modified_description": "Add-Add 1/2 teaspoon salt to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-Add 1/2 teaspoon salt to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix all the ingredients of the bowl well"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add 1 tablespoons of water to the bowl"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-27T01:52:54.530200\"",
+        "end_time": "null"
+    }
+}

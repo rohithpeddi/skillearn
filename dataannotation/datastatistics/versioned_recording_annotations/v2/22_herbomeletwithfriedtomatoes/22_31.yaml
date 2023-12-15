@@ -22,7 +22,7 @@ step_annotations:
   end_time: 235.09257901860917
   start_time: 212.5687391126347
   step_id: 239
-- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+- description: Heat-Heat 1 tbsp oil in a non-stick frying pan
   end_time: 318.1492386718903
   errors:
   - description: Step performed before egg mixture is ready

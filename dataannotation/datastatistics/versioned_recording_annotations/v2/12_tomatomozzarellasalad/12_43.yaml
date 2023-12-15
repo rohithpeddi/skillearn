@@ -10,7 +10,7 @@ step_annotations:
   modified_description: Rinse a tomato for 1 second with hot water
   start_time: 29.558347794437726
   step_id: 125
-- description: dry-gently dry it with a tea towel
+- description: dry-gently dry it with a paper/tea towel
   end_time: 61.116
   start_time: 53.54422018500605
   step_id: 122

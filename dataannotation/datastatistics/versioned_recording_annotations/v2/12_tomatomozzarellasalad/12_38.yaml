@@ -13,10 +13,10 @@ step_annotations:
     tag: Measurement Error
   start_time: 11.691002187424427
   step_id: 125
-- description: dry-gently dry it with a tea towel
+- description: dry-gently dry it with a paper/tea towel
   end_time: 58.568
   errors:
-  - description: Dry it with a wet tea towel
+  - description: Dry it with a wet paper/tea towel
     tag: Preparation Error
   start_time: 36.80500688633615
   step_id: 122

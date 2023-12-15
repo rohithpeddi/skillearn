@@ -1,0 +1,88 @@
+{
+    "id": "25_2",
+    "activity_id": 25,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about 1 in x 1 in)"
+        },
+        {
+            "description": "pat-pat tofu dry with a towel"
+        },
+        {
+            "description": "Add-Add 1 tablespoon of olive oil to a non-stick pan"
+        },
+        {
+            "description": "add-add the tofu cubes to the pan"
+        },
+        {
+            "description": "add-add 1/4 tsp salt to the pan"
+        },
+        {
+            "description": "Turn-Turn on the heat to medium"
+        },
+        {
+            "description": "Cook-Cook 5 to 6 minutes until tofu cubes are lightly browned on the bottom"
+        },
+        {
+            "description": "remove-Briefly remove the pan from the heat to reduce spitting"
+        },
+        {
+            "description": "Flip-Flip the tofu with tongs"
+        },
+        {
+            "description": "Return-Return the heat to medium"
+        },
+        {
+            "description": "cook-cook until tofu turns brown"
+        },
+        {
+            "description": "remove-Briefly remove from the heat again"
+        },
+        {
+            "description": "drizzle-drizzle 1 tablespoon soy sauce (watch for spitting) on the pan"
+        },
+        {
+            "description": "drizzle-drizzle with the 1 tablespoons sesame oil on the pan"
+        },
+        {
+            "description": "Return-Return to low heat"
+        },
+        {
+            "description": "cook-cook pan for 2 minutes"
+        },
+        {
+            "description": "flip-flip tofu on the pan"
+        },
+        {
+            "description": "cook-cook pan for 2 minutes until the colour is darkened"
+        },
+        {
+            "description": "Transfer-Transfer to a serving dish"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-28T16:02:12.466816\"",
+        "end_time": "null"
+    }
+}

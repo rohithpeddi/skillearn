@@ -18,7 +18,7 @@ step_annotations:
   end_time: 184.20360822722822
   start_time: 112.8022095984329
   step_id: 237
-- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+- description: Heat-Heat 1 tbsp oil in a non-stick frying pan
   end_time: 262.80514789422136
   errors:
   - description: Spilling oil onto the pan while measuring 1 tbsp from the bottle

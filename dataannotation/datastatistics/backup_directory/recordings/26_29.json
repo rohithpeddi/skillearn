@@ -1,0 +1,172 @@
+{
+    "id": "26_29",
+    "activity_id": 26,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Measure and add-a pinch of salt to the mixing bowl"
+        },
+        {
+            "description": "Measure and add-1/4 tsp baking powder to the bowl",
+            "modified_description": "Measure and add-1/2 tsp baking powder to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add more baking powder. Might give bitter taste to the cupcake"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-1.5 tbsp sugar to the mixing bowl",
+            "modified_description": "Measure and add-2 tbsp sugar to the mixing bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add more sugar. Might make the cake very sweet"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-Measure and add 2 tbsp flour to the mixing bowl"
+        },
+        {
+            "description": "Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl",
+            "modified_description": "(NOT ENOUGH) Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Leave lumps "
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-2 tbsp water to the bowl"
+        },
+        {
+            "description": "Measure and add-Measure and add 2 tsp vegetable oil to the bowl"
+        },
+        {
+            "description": "Measure and add-1/4 tsp vanilla extract to the bowl"
+        },
+        {
+            "description": "Place-Place the paper cupcake liner inside the mug",
+            "modified_description": "Place-Place the FOLDED paper cupcake liner inside the mug",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Folded paper cupcake liner will not cover the bottom of the cup fully"
+                }
+            ]
+        },
+        {
+            "description": "Whisk-Whisk batter until no lumps remain",
+            "modified_description": "NOT ENOUGH Whisk-Whisk batter",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Do not whisk enough - lumps will lead to bad output"
+                }
+            ]
+        },
+        {
+            "description": "Set-Set aside the lined mug"
+        },
+        {
+            "description": "Pour-Pour batter into prepared mug"
+        },
+        {
+            "description": "Microwave-Microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue",
+            "modified_description": "Microwave-Microwave the mug and batter on high power for 90 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 15 seconds. If the toothpick comes out clean, continue",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave for 90 seconds. Might burn the cupcake"
+                }
+            ]
+        },
+        {
+            "description": "Invert-Invert the mug to release the cake onto a plate"
+        },
+        {
+            "description": "Allow-Allow to cool until it is no longer hot to the touch"
+        },
+        {
+            "description": "remove-then carefully remove the paper liner",
+            "modified_description": "[TEAR] remove-then remove the paper liner",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Break the cupcake while removing the paper linear"
+                }
+            ]
+        },
+        {
+            "description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag",
+            "modified_description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 1 spoonfuls of chocolate powder into a zip-top bag",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Take only 1 spoon, will not be enough for the forsting"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use 2ong ingredients "
+                }
+            ]
+        },
+        {
+            "description": "seal-seal zip top bag, removing as much air as possible",
+            "modified_description": "seal-seal zip top bag",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Do not remove the air"
+                }
+            ]
+        },
+        {
+            "description": "cut-Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter",
+            "modified_description": "cut-Use scissors to cut one corner from the bag to create a small opening 1/2 inch in diameter",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NA"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Make a big cut. This will lead to bigger frosting "
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 2,
+    "selected_by": 2,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

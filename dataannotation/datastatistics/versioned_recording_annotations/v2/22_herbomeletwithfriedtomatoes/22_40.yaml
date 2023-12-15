@@ -40,12 +40,12 @@ step_annotations:
     pepper outside
   start_time: 155.03431136141037
   step_id: 249
-- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+- description: Heat-Heat 1 tbsp oil in a non-stick frying pan
   end_time: 244.76763770812929
   errors:
   - description: Step performed before making the egg mixture
     tag: Order Error
-  modified_description: Heat-Heat 1 tbsp oil in a small non-stick frying pan, but
+  modified_description: Heat-Heat 1 tbsp oil in a non-stick frying pan, but
     close the fire early and heat a short time
   start_time: 206.12011596474045
   step_id: 235

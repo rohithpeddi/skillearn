@@ -1,0 +1,97 @@
+{
+    "id": "18_33",
+    "activity_id": 18,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Heat-Heat a large pan on medium heat"
+        },
+        {
+            "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer"
+        },
+        {
+            "description": "Peel-Peel 1 garlic cloves"
+        },
+        {
+            "description": "Melt-Melt 1 tablespoons of softened butter"
+        },
+        {
+            "description": "Add-Add 1 large minced garlic cloves to the pan"
+        },
+        {
+            "description": "season-pepper to taste"
+        },
+        {
+            "description": "Add-Add the zucchini noodles"
+        },
+        {
+            "description": "season-season with salt",
+            "modified_description": "season-season with salt and spill some out while doing it ",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spilled salt while adding"
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic"
+        },
+        {
+            "description": "Top-Top with more parmesan if desired",
+            "modified_description": "Top-Top with more parmesan if desired and spilled some outside",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill some out while adding"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove from heat"
+        },
+        {
+            "description": "Cook-Cook for 2 minutes or until the zoodles are done",
+            "modified_description": "Cook-Cook for 2 minutes or until the zoodles are done and did not put pan on heat to cook",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "did not put pan on heat to cook"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-1/6 cup grated parmesan cheese"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-06T22:36:52.525228\"",
+        "end_time": "null"
+    }
+}

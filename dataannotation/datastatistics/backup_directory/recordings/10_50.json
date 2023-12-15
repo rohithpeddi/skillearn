@@ -1,0 +1,168 @@
+{
+    "id": "10_50",
+    "activity_id": 10,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Place-Place 8-inch flour tortilla on cutting board",
+            "modified_description": "Place-Place 8-inch flour tortilla on a plate",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use a plate instead of a cutting board"
+                }
+            ]
+        },
+        {
+            "description": "Clean-Clean the knife by wiping it with a paper towel"
+        },
+        {
+            "description": "scoop-Use the knife to scoop jelly from the jar",
+            "modified_description": "(Spill)scoop-Use the knife to scoop jelly from the jar",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill some jelly while scooping"
+                }
+            ]
+        },
+        {
+            "description": "Spread-Spread jelly over the nut butter"
+        },
+        {
+            "description": "Clean-Clean the knife by wiping with a paper towel",
+            "modified_description": "not enough, Clean-Clean the knife by wiping with a paper towel",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Leave some jelly on the knife - unhyginic"
+                }
+            ]
+        },
+        {
+            "description": "Roll-Roll the tortilla from one end to the other into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps, but not so tight that the filling leaks",
+            "modified_description": "Roll-Roll the tortilla from one end to the other into a log shape, about 2 inches thick. ",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "There will be gaps in this case"
+                }
+            ]
+        },
+        {
+            "description": "Secure-Secure the rolled tortilla by inserting 5 toothpicks about 1 inch apart",
+            "modified_description": "Original Description: Secure-Secure the rolled tortilla by inserting 3 toothpicks ",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use only three toothpicks. "
+                }
+            ]
+        },
+        {
+            "description": "Slide-Slide floss under the tortilla, perpendicular to the length of the roll"
+        },
+        {
+            "description": "Trim-Trim the ends of the tortilla roll with the butter knife, leaving 1/2 inch margin between the last toothpick and the end of the roll",
+            "modified_description": "Trim-Trim the ends of the tortilla roll with the butter knife till the end toothpicks",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Trim too much. The toothpicks will be at the corner of the end pinwheels "
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the floss halfway between toothpicks",
+            "modified_description": "Place-Place the knife halfway between toothpicks",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "Use a knife instead of floss"
+                }
+            ]
+        },
+        {
+            "description": "Cross-Cross the floss's two ends over the tortilla roll's top",
+            "modified_description": "DO NOT DO THIS STEP",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Since we are using a knife we don't need to perform this step"
+                }
+            ]
+        },
+        {
+            "description": "pull-pull the floss ends in opposite directions to slice",
+            "modified_description": "Cut-Cut the pinwheels in irregular shapes",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cut the pinwheels in irregular shapes - Not perpendicular "
+                }
+            ]
+        },
+        {
+            "description": "slicing-Continue slicing with floss to create 1 more pinwheel"
+        },
+        {
+            "description": "slicing-Continue slicing with floss to create 1 more pinwheel"
+        },
+        {
+            "description": "slicing-Continue slicing with floss to create 1 more pinwheel"
+        },
+        {
+            "description": "Place-Place the pinwheels on a plate"
+        },
+        {
+            "description": "Discard-Discard ends of the tortilla",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NA"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "NA"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Spread-Spread nut butter onto the tortilla, leaving 1/2-inch uncovered at the edges"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "scoop-Use a butter knife to scoop nut butter from the jar"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 2,
+    "selected_by": 2,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-30T02:45:37.345782\"",
+        "end_time": "null"
+    }
+}

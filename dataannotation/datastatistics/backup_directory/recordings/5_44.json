@@ -1,0 +1,173 @@
+{
+    "id": "5_44",
+    "activity_id": 5,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Weigh-Weigh the coffee beans (0.8oz-0.12 oz)",
+            "modified_description": " Weigh-Weigh the coffee beans (0.6-0.7 oz)",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Weigh-Weigh the coffee beans (0.8oz-0.12 oz) directly without using any container. Spilling the coffee beans."
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": " Weigh-Weigh the coffee beans (0.6-0.7 oz) as coffee beans got spilled."
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the paper filter in the dripper",
+            "modified_description": "Place-Place 3 paper filter in the dripper",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Place-Place 3 paper filter in the dripper"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the dripper on top of a coffee mug",
+            "modified_description": "Place-Place the dripper on top of a bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Place-Place the dripper on top of a bowl. Used bowl instead of coffee mug."
+                }
+            ]
+        },
+        {
+            "description": "spread-spread open filter in dripper to create a cone",
+            "modified_description": "spread-spread open 3 filters in dripper to create a 3 cones without actually folding but just compressing.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "spread-spread open 3 filters in dripper to create a 3 cones without actually folding but just compressing. 3 Filters were just squashed and tried to make ice cream cone structure of filters. No folding was done."
+                }
+            ]
+        },
+        {
+            "description": "Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds",
+            "modified_description": "Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 5 seconds. ",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 5 seconds. While transferring from weighing scale to coffee grinder spilling occurs. Also timing is less so coffee beans are not properly grinded and are like pebbles."
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 5 seconds. While transferring from weighing scale to coffee grinder spilling occurs. Also timing is less so coffee beans are not properly grinded and are like pebbles."
+                }
+            ]
+        },
+        {
+            "description": "Transfer-Transfer the grounds to the filter cone"
+        },
+        {
+            "description": "Measure-Measure 12 ounces of cold water",
+            "modified_description": "Measure 12 ounces of cold water without using measuring jug.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Measure-Measure 12 ounces of cold water without using measuring jug. Used weighing scale instead. Got incorrect mesaurement of 12 ounces."
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": "Measure-Measure 12 ounces of cold water without using measuring jug. Used weighing scale instead. Got incorrect mesaurement of 12 ounces."
+                }
+            ]
+        },
+        {
+            "description": "transfer-transfer water to a kettle",
+            "modified_description": "transfer-transfer water to a mixer",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "transfer-transfer water to a mixer"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour a small amount of water into the filter to wet the grounds",
+            "modified_description": "Pour-Pour a water from tap into the filter by using measuring tsp to wet the grounds ",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Pour-Pour a water from tap into the filter by using measuring tsp to wet the grounds "
+                }
+            ]
+        },
+        {
+            "description": "Wait-Wait about 30 seconds for the coffee to bloom. (You will see small bubbles or foam on the coffee grounds during this step.)"
+        },
+        {
+            "description": "pour-Slowly pour the rest of the water over the grounds in a circular motion. Do not overfill beyond the top of the paper filter",
+            "modified_description": "pour-In a single shot pour the complete water over the grounds. Overfilling beyond paper filter occurs",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "pour-In a single shot pour the complete water over the grounds. Overfilling beyond paper filter occurs"
+                }
+            ]
+        },
+        {
+            "description": "drain-Let the coffee drain completely into the mug before removing the dripper"
+        },
+        {
+            "description": "Boil-Boil the water. (While the water is boiling, assemble the filter cone)",
+            "modified_description": "Boil-Boil the water in pan. Take water without measuring from tap. (While the water is boiling, assemble the filter cone)",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Boil-Boil the water in pan. Take water without measuring from tap. (While the water is boiling, assemble the filter cone)"
+                }
+            ]
+        },
+        {
+            "description": "check-Once the water has boiled, check the temperature of the water. (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius. If the water is too hot, let it cool briefly.)",
+            "modified_description": "check-Once the water has boiled, check the temperature of the water. (The water should be between 140-150 degrees Fahrenheit)",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "check-Once the water has boiled, check the temperature of the water. (The water should be between 140-150 degrees Fahrenheit)"
+                }
+            ]
+        },
+        {
+            "description": "Prepare-Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle"
+        },
+        {
+            "description": "Discard-Discard the paper filter and coffee grounds"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-13T21:32:06.138742\"",
+        "end_time": "null"
+    }
+}

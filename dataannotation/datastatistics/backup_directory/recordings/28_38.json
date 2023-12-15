@@ -1,0 +1,132 @@
+{
+    "id": "28_38",
+    "activity_id": 28,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Open-Open a can of tuna",
+            "modified_description": "Take-Take a can of tuna and don't open it.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Didn't open the can of Tuna."
+                }
+            ]
+        },
+        {
+            "description": "Add-1 tsp Sriracha sauce to the bowl"
+        },
+        {
+            "description": "Chop-Chop 1 scallion",
+            "modified_description": "Chop-Chop 1 scallion without washing it.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Didn't wash the scallion."
+                }
+            ]
+        },
+        {
+            "description": "Take-Take 1 ripe avocado"
+        },
+        {
+            "description": "Add-add chopped scallion to the bowl"
+        },
+        {
+            "description": "Lay-Lay out 2 large lettuce leaves",
+            "modified_description": "Lay-Lay out 2 improper lettuce leaves without washing them.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Didn't wash the lettuce leaves and the leaves are not large."
+                }
+            ]
+        },
+        {
+            "description": "cut-cut avocado into thin slices"
+        },
+        {
+            "description": "drain-drain excess water from can",
+            "modified_description": "Wash-Wash the Tuna can.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Didn't drain the excess water as the can is not opened."
+                }
+            ]
+        },
+        {
+            "description": "top-top lettuce leaves with the mixture"
+        },
+        {
+            "description": "place-place avocado slices on each leaf"
+        },
+        {
+            "description": "Season-Season bowl with 1/4 tsp salt"
+        },
+        {
+            "description": "Add-1/4 cup mayonnaise to the bowl"
+        },
+        {
+            "description": "Roll-Roll up the lettuce wraps",
+            "modified_description": "Roll-Roll up the lettuce wraps improperly.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Didn't properly roll the leaves."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 can drained tuna to the bowl",
+            "modified_description": "Add-Add 1 washed tuna can to the bowl.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Adding the tuna can to the bowl without opening it."
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Mix-Mix the contents of the bowl"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "secure-secure the wrap with a toothpick"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Season-season 1/4 tsp pepper on the bowl"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-10T17:21:00.030903\"",
+        "end_time": "null"
+    }
+}

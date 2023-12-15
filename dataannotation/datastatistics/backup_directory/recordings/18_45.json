@@ -1,0 +1,142 @@
+{
+    "id": "18_45",
+    "activity_id": 18,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Heat-Heat a large pan on medium heat",
+            "modified_description": "Heat-Heat a large saucepan on medium heat",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Heat-Heat a large saucepan on medium heat"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 1 garlic cloves",
+            "modified_description": "Peel-Peel 1 garlic cloves without pressing the garlic. ",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Peel-Peel 1 garlic cloves without pressing the garlic."
+                }
+            ]
+        },
+        {
+            "description": "Melt-Melt 1 tablespoons of softened butter",
+            "modified_description": "Melt-Melt 1 tablespoons of clarified butter(ghee)",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Melt-Melt 1 tablespoons of clarified butter(ghee)"
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic",
+            "modified_description": "Cook-Cook garlic until it burns (about 2.5 minutes). Put melted ghee at the start of cooking.",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Cook-Cook garlic until it burns (about 2.5 minutes). Put melted ghee at the start of cooking."
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Cook-Cook garlic until it burns (about 2.5 minutes). Put melted ghee at the start of cooking."
+                }
+            ]
+        },
+        {
+            "description": "season-season with salt",
+            "modified_description": "season-season with salt. Spillage happens.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "season-season with salt. Spillage happens."
+                }
+            ]
+        },
+        {
+            "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer",
+            "modified_description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer. Did not remove top part of zucchini. Just pressing the zucchini against the spiralizer at the start. Incomplete action of spiralizing. Used both ends of zucchini. Spilling happens.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer. Did not remove top part of zucchini. Just pressing the zucchini against the spiralizer at the start. Incomplete action of spiralizing. Used both ends of zucchini. Spilling happens."
+                }
+            ]
+        },
+        {
+            "description": "season-pepper to taste"
+        },
+        {
+            "description": "Add-Add 1 large minced garlic cloves to the pan",
+            "modified_description": "Add-Add 1 large sliced garlic cloves to the pan. Throwing cloves. Spilling also.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Add-Add 1 large sliced garlic cloves to the pan. Throwing cloves. Spilling also."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the zucchini noodles",
+            "modified_description": "Add-Add the zucchini noodles. Improper way of transferring. Not taking the chopping board and trasferring with hand. Spilling the noodles as well.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Add-Add the zucchini noodles. Improper way of transferring. Not taking the chopping board and trasferring with hand. Spilling the noodles as well."
+                }
+            ]
+        },
+        {
+            "description": "Add-1/6 cup grated parmesan cheese"
+        },
+        {
+            "description": "Cook-Cook for 2 minutes or until the zoodles are done",
+            "modified_description": "Cook-Cook for 2 minutes with improper action. Just pressing the zoodles. Taking zoodles in the spoon and out of container. Spilling the zoodles as well.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cook-Cook for 2 minutes with improper action. Just pressing the zoodles. Taking zoodles in the spoon and out of container. Spilling the zoodles as well."
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove from heat"
+        },
+        {
+            "description": "Top-Top with more parmesan if desired"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 11,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

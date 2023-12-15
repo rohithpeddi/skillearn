@@ -1,0 +1,99 @@
+{
+    "id": "7_48",
+    "activity_id": 7,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Place-Place 8 inch tortilla on a cutting board"
+        },
+        {
+            "description": "add-Extract and add contents of an egg to a microwave-safe bowl"
+        },
+        {
+            "description": "Add-Add 1/2 tbsp sweet and sour sauce to the bowl"
+        },
+        {
+            "description": "Microwave-Microwave for 3 minutes, stirring in between",
+            "modified_description": "Microwave for 2 minutes",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "2 mins"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "2 mins"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "no stirring"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 tbsp salsa to the bowl"
+        },
+        {
+            "description": "Whisk-Whisk the egg"
+        },
+        {
+            "description": "Sprinkle-Sprinkle oregano in the bowl"
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl well"
+        },
+        {
+            "description": "Pour-Pour egg mixture on top of the tortilla"
+        },
+        {
+            "description": "Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg",
+            "modified_description": "Pour 1 tbsp shredded cheddar cheese on top of the egg",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1/2 tbsp"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "pour"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "1/2 tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Roll-Roll the tortilla from one end to another into a log shape, about 1.5 inches thick. Roll it tight enough to prevent gaps but not so tight that the filling leaks"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

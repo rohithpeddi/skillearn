@@ -1,0 +1,5 @@
+0.6628881030701754,69.33500038377191,[' (StepDescription: Add-Add 1 teaspoon of white sugar to the mug)']
+69.33500038377193,92.28073020833335,[' (StepDescription: Fill-Fill a microwave-safe mug with skimmed milk)']
+96.07750564692981,159.7973021381579,[' (StepDescription: Microwave-Microwave the contents of the mug for 1 minute)']
+163.26392319078946,185.87949862938592,[' (ErrorTag:Technique Error, ErrorDescription:Spill), (StepDescription: Add-Add 2 pieces of chocolate to the mug), (StepModifiedDescription: Add-Add 2 pieces of chocolate to the mug and spill)']
+186.37473020833332,251.74529862938596,[' (StepDescription: Heat-Heat the contents of the mug for 1 minute and serve)']

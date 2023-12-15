@@ -1,0 +1,148 @@
+{
+    "id": "1_36",
+    "activity_id": 1,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Coat -Coat a 6-oz. ramekin cup with cooking spray",
+            "modified_description": "Coat -Coat a big microwavable cup with cooking spray",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Take a big cup instead of a 6 Oz ramekin cup."
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour 1 egg into the ramekin cup",
+            "modified_description": "Pour-Pour 2 eggs into the ramekin cup",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 2 eggs instead of 1 egg."
+                }
+            ]
+        },
+        {
+            "description": "sprinkle -sprinkle 1 tablespoon of cheese on cup",
+            "modified_description": "Sprinkle -Sprinkle 2 tablespoon of cheese on cup",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Instead of 1 Tbsp add 2 Tbsp of cheese."
+                }
+            ]
+        },
+        {
+            "description": "Cut -Cut the English muffin into two pieces with a knife",
+            "modified_description": "Cut -Cut the English muffin into two uneven pieces with a knife",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cutting into two uneven pieces."
+                }
+            ]
+        },
+        {
+            "description": "Microwave -Continue to Microwave for 15-30 more seconds or until the egg is almost set",
+            "modified_description": "Microwave -Microwave for 10 seconds",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave for less than 15 seconds."
+                }
+            ]
+        },
+        {
+            "description": "Top -Top cup with 1 tablespoon of salsa",
+            "modified_description": "Top -Top cup with 3 tablespoon of salsa",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 3 Tbsp of salsa instead of 1 Tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the ramekin cup uncovered on high for 30 seconds",
+            "modified_description": "Microwave-Microwave the ramekin cup uncovered on high for 1 minute 10 seconds",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave more than 30 seconds."
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave more than 30 seconds."
+                }
+            ]
+        },
+        {
+            "description": "Line -Line the bottom piece of the English muffin with lettuce",
+            "modified_description": "Line -Line the bottom piece of the English muffin with unwashed lettuce.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use the lettuce without washing."
+                }
+            ]
+        },
+        {
+            "description": "Place -Place the egg from the cup over the lettuce",
+            "modified_description": "Place -Place the egg from the cup below the lettuce.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Place the egg below the lettuce."
+                }
+            ]
+        },
+        {
+            "description": "replace -replace the top of the English muffin",
+            "modified_description": "Replace -Replace the top of the English muffin",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Microwave -Microwave just until cheese melts, about 10 seconds"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "stir-stir the ramekin cup"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

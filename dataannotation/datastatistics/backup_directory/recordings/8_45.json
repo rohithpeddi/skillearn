@@ -1,0 +1,104 @@
+{
+    "id": "8_45",
+    "activity_id": 8,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Fill-Fill a microwave-safe mug with skimmed milk",
+            "modified_description": "Fill-Fill a microwave-safe mug with skimmed milk but spill",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 pieces of chocolate to the mug",
+            "modified_description": "Add-Add 1 piece of chocolate to the mug",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Added fewer pieces than needed"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/5 teaspoon cinnamon to the mug",
+            "modified_description": "Add-Add 1/5 teaspoon cinnamon to the mug",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Added cumin"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 teaspoon of white sugar to the mug",
+            "modified_description": "Add-Add 1 teaspoon of salt to the mug",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Added salt instead of sugar"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the contents of the mug for 1 minute",
+            "modified_description": "Microwave-Microwave the contents of the mug for 2 minutes",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwaved for longer than specified"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat the contents of the mug for 1 minute and serve",
+            "modified_description": "Heat-Heat the contents of the mug for 61 seconds and serve",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Used lower power than specified"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwaved for 61 seconds "
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Mix-Mix the contents of the mug"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

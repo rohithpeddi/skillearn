@@ -2,6 +2,7 @@ import concurrent
 import json
 import os
 import time
+from datetime import datetime
 
 import boxsdk
 from boxsdk import Client, CCGAuth
@@ -231,11 +232,11 @@ class BoxService:
 					logger.error('%r generated an exception: %s' % (recording, exc))
 	
 	def _make_folder_shareable(self, folder):
-		shared_link = folder.get_shared_link(access='open')
+		shared_link = folder.get_shared_link(access='open', unshared_at=datetime(2035, 12, 30))
 		logger.info(f"Folder {folder.object_id} is already shareable with url: {shared_link}")
 	
 	def _make_file_shareable(self, file):
-		shared_link = file.get_shared_link(access='open')
+		shared_link = file.get_shared_link(access='open', unshared_at=datetime(2035, 12, 30))
 		logger.info(f"File {file.object_id} is already shareable with url: {shared_link}")
 	
 	def _process_folder(self, folder):

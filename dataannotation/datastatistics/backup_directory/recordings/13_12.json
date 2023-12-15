@@ -1,0 +1,98 @@
+{
+    "id": "13_12",
+    "activity_id": 13,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Measure-Measure 2 cups of frozen corn"
+        },
+        {
+            "description": "Thaw-Thaw the frozen corn by putting it in a sieve and running it under cold water"
+        },
+        {
+            "description": "Add-Add the corn into a microwave-safe bowl"
+        },
+        {
+            "description": "Microwave-Microwave the corn for 2 minutes"
+        },
+        {
+            "description": "Add-Add 1 teaspoon of softened butter"
+        },
+        {
+            "description": "Add-1 teaspoon of pepper powder to the bowl"
+        },
+        {
+            "description": "stir-then stir the bowl"
+        },
+        {
+            "description": "Microwave-Microwave the corn for 3 more minutes",
+            "modified_description": "Spilled the cord - Microwave-Microwave the corn for 3 more minutes",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spilled the corn"
+                }
+            ]
+        },
+        {
+            "description": "Extract-Extract lime juice from 1/3 lime",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "missing step"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 teaspoon salt to the bowl",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "missing step"
+                }
+            ]
+        },
+        {
+            "description": "add-add lime juice to the bowl",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "missing step"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl well",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "missing step"
+                }
+            ]
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 2,
+    "selected_by": 2,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-22T23:06:30.805390\"",
+        "end_time": "null"
+    }
+}

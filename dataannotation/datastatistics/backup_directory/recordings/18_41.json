@@ -1,0 +1,145 @@
+{
+    "id": "18_41",
+    "activity_id": 18,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Heat-Heat a large pan on medium heat",
+            "modified_description": "Heat-Heat a large pan on low heat.",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Heating the pan on a low heat."
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 1 garlic cloves",
+            "modified_description": "Peel-Peel 1 garlic cloves.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Improperly peel garlic."
+                }
+            ]
+        },
+        {
+            "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer",
+            "modified_description": "Chop-chop 1 medium zucchini into thin noodles.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Instead of spiralizing chopping the zucchini."
+                }
+            ]
+        },
+        {
+            "description": "Melt-Melt 1 tablespoons of softened butter",
+            "modified_description": "Melt-Melt 1 teaspoon of softened butter.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using teaspoon instead of tablespoon."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 large minced garlic cloves to the pan",
+            "modified_description": "Add-Add 1 large chopped garlic cloves to the pan",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Instead of mincing chopping the garlic."
+                }
+            ]
+        },
+        {
+            "description": "season-pepper to taste"
+        },
+        {
+            "description": "Add-1/6 cup grated parmesan cheese",
+            "modified_description": "Add-less than 1/6 cup grated parmesan cheese.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using less than 1/6 cup."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the zucchini noodles"
+        },
+        {
+            "description": "season-season with salt",
+            "modified_description": "season-season with salt and spill some outside.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Spilled some salt."
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic",
+            "modified_description": " Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Step cannot be achieved."
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook for 2 minutes or until the zoodles are done",
+            "modified_description": "Cook-Cook for 1 minute 30 seconds or until the zoodles are done.",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Cooking for less than 2 minutes."
+                }
+            ]
+        },
+        {
+            "description": "Top-Top with more parmesan if desired",
+            "modified_description": "Top-Top with more parmesan if desired and spill some.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Spill some parmeasan while adding."
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove from heat"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-09T22:57:42.974309\"",
+        "end_time": "null"
+    }
+}

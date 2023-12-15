@@ -1,0 +1,120 @@
+{
+    "id": "22_32",
+    "activity_id": 22,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "crack-crack one egg in a bowl"
+        },
+        {
+            "description": "add-1/2 tsp ground black pepper to the bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Adding more pepper due improper transfer from the shaker to the measuring utensil"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 2 tbsp cilantro"
+        },
+        {
+            "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spilling oil onto the pan while measuring 1 tbsp from the bottle"
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add more oil due to spillage"
+                }
+            ]
+        },
+        {
+            "description": "Take-Take a tomato"
+        },
+        {
+            "description": "Cut-Cut tomato into two pieces"
+        },
+        {
+            "description": "Beat-Beat the contents of the bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "spilled egg mixture while beating swiflty"
+                }
+            ]
+        },
+        {
+            "description": "cook-cook the tomatoes cut-side down until they start to soften and colour"
+        },
+        {
+            "description": "Scoop-Scoop the tomatoes from the pan",
+            "errors": [
+                {
+                    "tag": "Order Error",
+                    "description": "Scooped the tomatoes after making omelet"
+                }
+            ]
+        },
+        {
+            "description": "put-put tomatoes on a serving plate",
+            "errors": [
+                {
+                    "tag": "Order Error",
+                    "description": "Transfering tomatoes after making omelet"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour the egg mixture into the pan"
+        },
+        {
+            "description": "Stop-Stop stirring when it's nearly cooked to allow it to set into an omelette",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Did not stop stirring when its nearly cooked thus making it into smaller pieces"
+                }
+            ]
+        },
+        {
+            "description": "Transfer-Transfer omelette to the plate and serve with the tomatoes"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "add-add the chopped cilantro to the bowl"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "stir-stir gently with a wooden spoon so the egg that sets on the base of the pan moves to enable the uncooked egg to flow into the space"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-10T18:49:51.507485\"",
+        "end_time": "null"
+    }
+}

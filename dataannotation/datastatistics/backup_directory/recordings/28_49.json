@@ -1,0 +1,149 @@
+{
+    "id": "28_49",
+    "activity_id": 28,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Open-Open a can of tuna"
+        },
+        {
+            "description": "Add-1/4 cup mayonnaise to the bowl",
+            "modified_description": "Add-Add 1/2 cup partialled filled mayonnaise to the bowl.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using 1/2 cup instead of 1/4 cup and don't fill the cup completely."
+                }
+            ]
+        },
+        {
+            "description": "Take-Take 1 ripe avocado"
+        },
+        {
+            "description": "Lay-Lay out 2 large lettuce leaves"
+        },
+        {
+            "description": "Add-add chopped scallion to the bowl"
+        },
+        {
+            "description": "Add-1 tsp Sriracha sauce to the bowl",
+            "modified_description": " Add-Add 1 tbsp Sriracha sauce to the bowl.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using tablespoon instead of teaspoon."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 can tuna in a bowl",
+            "modified_description": "Add-Add 1 can tuna in a bowl and spill some on countertop.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Spill some tuna while adding."
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl",
+            "modified_description": "Mix-Mix the contents of the bowl and spill while mixing.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "While mixing spilling some of the contents."
+                }
+            ]
+        },
+        {
+            "description": "cut-cut avocado into thin slices",
+            "modified_description": "Cut-Cut avocado into thick slices.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Instead of thin slices cutting into thick slices."
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 scallion"
+        },
+        {
+            "description": "place-place avocado slices on each leaf"
+        },
+        {
+            "description": "Season-season 1/4 tsp pepper on the bowl",
+            "modified_description": "Season-season 1/2 tsp pepper on the bowl.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using 1/2 tsp instead of 1/4 tsp."
+                }
+            ]
+        },
+        {
+            "description": "top-top lettuce leaves with the tuna mixture"
+        },
+        {
+            "description": "Roll-Roll up the lettuce wraps",
+            "modified_description": "Roll-Roll up the lettuce wraps and spill while rolling.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not rolling properly and spill some contents."
+                }
+            ]
+        },
+        {
+            "description": "secure-secure the wrap with a toothpick",
+            "modified_description": " Secure-Secure the wrap with a toothpick.",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "NULL"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Season-Season bowl with 1/4 tsp salt"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "drain-drain excess water from can"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-23T23:56:57.773869\"",
+        "end_time": "null"
+    }
+}

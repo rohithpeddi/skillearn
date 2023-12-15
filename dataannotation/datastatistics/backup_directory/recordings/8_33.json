@@ -1,0 +1,105 @@
+{
+    "id": "8_33",
+    "activity_id": 8,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Fill-Fill a microwave-safe mug with skimmed milk",
+            "modified_description": "Half Fill- Half Fill a microwave-safe mug with whole milk",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Half Fill- Half Fill a microwave-safe mug with whole milk"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Half Fill- Half Fill a microwave-safe mug with whole milk"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the contents of the mug for 1 minute",
+            "modified_description": "Microwave-Microwave the contents of the mug for 2 minute at 10% power",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave-Microwave the contents of the mug for 2 minute at 10% power"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Microwave-Microwave the contents of the mug for 2 minute at 10% power"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 pieces of chocolate to the mug",
+            "modified_description": "Add-Add 5 pieces of chocolate to the mug",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-Add 5 pieces of chocolate to the mug"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 teaspoon of white sugar to the mug",
+            "modified_description": "Add-Add 1 teaspoon of corn starch to the mug",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Add-Add 1 teaspoon of corn starch to the mug"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/5 teaspoon cinnamon to the mug",
+            "modified_description": "Add-Add 1/5 teaspoon ground cumin to the mug",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Add-Add 1/5 teaspoon ground cumin to the mug"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the mug",
+            "modified_description": " Mix-Mix the contents of the mug with spilling",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": " Mix-Mix the contents of the mug with spilling"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Heat-Heat the contents of the mug for 1 minute and serve"
+        }
+    ],
+    "environment": 11,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

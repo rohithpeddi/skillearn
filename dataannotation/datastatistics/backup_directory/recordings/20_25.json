@@ -1,0 +1,106 @@
+{
+    "id": "20_25",
+    "activity_id": 20,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 2 garlic cloves"
+        },
+        {
+            "description": "Rinse-Rinse 3 mushrooms under cold water",
+            "modified_description": "Rinse-Rinse 2 mushrooms under cold water",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Took only 2 mushrooms"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 shallot"
+        },
+        {
+            "description": "mince-mince garlic cloves"
+        },
+        {
+            "description": "pat-pat rinsed mushrooms dry with a paper towel"
+        },
+        {
+            "description": "Pull-Pull out mushroom stems"
+        },
+        {
+            "description": "Slice-Slice the mushrooms"
+        },
+        {
+            "description": "Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat"
+        },
+        {
+            "description": "add-Once the pan is hot, add the mushrooms"
+        },
+        {
+            "description": "cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown",
+            "modified_description": "cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown; burn",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Burnt because of different type of utensils"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped shallot to the pan"
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute",
+            "modified_description": "cook-cook the pan, often stirring, for 1 minute; burn",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Pan too hot, burnt"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 cloves of minced garlic to the pan"
+        },
+        {
+            "description": "Add-1/4 tbsp balsamic vinegar to the pan"
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute"
+        },
+        {
+            "description": "Season-pepper on pan to taste"
+        },
+        {
+            "description": "Season-Season pan with salt"
+        },
+        {
+            "description": "Transfer-Transfer the contents of the pan to a serving dish"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-12T21:07:24.503919\"",
+        "end_time": "null"
+    }
+}

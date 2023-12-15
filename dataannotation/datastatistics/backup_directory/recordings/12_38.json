@@ -1,0 +1,142 @@
+{
+    "id": "12_38",
+    "activity_id": 12,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse a tomato",
+            "modified_description": "NOT Rinse-Do not Rinse 2 cherry tomato",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "NOT Rinse-Do not Rinse 2 cherry tomato"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "NOT Rinse-Do not Rinse 2 cherry tomato"
+                }
+            ]
+        },
+        {
+            "description": "dry-gently dry it with a tea towel",
+            "modified_description": "wet it with a tea towel",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "wet it with a tea towel"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice one tomato into about 1/2 inch thick slices",
+            "modified_description": "Slice-Slice one tomato into about 1 inch thick slices",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Slice-Slice one tomato into about 1 inch thick slices"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer",
+            "modified_description": "Place-Place the thick slices of tomatoes on a platter, making a double layer of tomatoes",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Place-Place the thick slices of tomatoes on a platter, making a double layer of tomatoes"
+                }
+            ]
+        },
+        {
+            "description": "Season-Season the tomato slices with salt",
+            "modified_description": "Season-Season the tomato slices with sugar",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Season-Season the tomato slices with sugar"
+                }
+            ]
+        },
+        {
+            "description": "Season-Season platter with 1/4 teaspoon black pepper",
+            "modified_description": "Season-Season platter with 1/2 teaspoon black pepper",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Season-Season platter with 1/2 teaspoon black pepper"
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter",
+            "modified_description": "Sprinkle-Sprinkle cheddar cheese on boundary of the plater.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Sprinkle-Sprinkle cheddar cheese on boundary of the plater."
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Sprinkle-Sprinkle cheddar cheese on boundary of the plater."
+                }
+            ]
+        },
+        {
+            "description": "Garnish-Garnish platter with italian seasoning",
+            "modified_description": "Garnish-Garnish platter with italian seasoning",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "NULL"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter",
+            "modified_description": "Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon, over the entire platter",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon, over the entire platter"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Add-Add a drizzle of extra-virgin vegetable oil, about 2 teaspoon, over the entire platter"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-04T00:26:40.628142\"",
+        "end_time": "null"
+    }
+}

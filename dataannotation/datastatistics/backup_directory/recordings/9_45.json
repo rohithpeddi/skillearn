@@ -1,0 +1,129 @@
+{
+    "id": "9_45",
+    "activity_id": 9,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Add-Add 1/4 teaspoon vanilla extract to the mug"
+        },
+        {
+            "description": "melt-In a large mug, melt 1 tablespoon of softened butter in the microwave for about 30 seconds",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Not sure how much butter, but not 1 tbsp"
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": "Not 1 tbsp butter"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "Not enough 30 secs"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Not enough 30 secs"
+                }
+            ]
+        },
+        {
+            "description": "Roll-Roll the butter around in the cup to coat it",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Just shake cup, not really coat it"
+                }
+            ]
+        },
+        {
+            "description": "whisk-In the mug, whisk one egg with a fork until well blended",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not blended well"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use a tsp, not fork"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave on high for 90 seconds until the egg is cooked through",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Not enough 90 secs"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Egg not well done"
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "More than 1/4 tsp"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Measure on top of mug, should measure well at somewhere else "
+                }
+            ]
+        },
+        {
+            "description": "stir-stir the mug"
+        },
+        {
+            "description": "Cut or tear-Cut or tear 1 slices of bread into bite-size pieces",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not exact bite-size, larger"
+                }
+            ]
+        },
+        {
+            "description": "add-add bread pieces to the egg mixture in the mug, pressing the bread down into the egg"
+        },
+        {
+            "description": "Put-Put the cup's contents on a plate"
+        },
+        {
+            "description": "cut-cut the contents on plate, and serve"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 10,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

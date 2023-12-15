@@ -1,0 +1,7 @@
+7.6,213.613,[' (StepDescription: Chop-Chop 2 tbsp cilantro)']
+228.052,272.856,[' (StepDescription: add-1/2 tsp ground black pepper to the bowl)']
+273.81,325.089,[' (ErrorTag:Preparation Error, ErrorDescription:Using a big frying pan.), (StepDescription: Heat-Heat 1 tbsp oil in a small non-stick frying pan), (StepModifiedDescription: Heat-Heat 1 tbsp oil in a big frying pan.)']
+338.305,372.623,[' (ErrorTag:Preparation Error, ErrorDescription:Using a cherry tomato instead of a tomato.), (StepDescription: Take-Take a tomato), (StepModifiedDescription: Take-Take a cherry tomato.)']
+373.006,380.807,[' (StepDescription: Cut-Cut tomato into two pieces)']
+392.298,679.668,[' (StepDescription: cook-cook the tomatoes cut-side down until they start to soften and colour)']
+529.422,619.27,[' (StepDescription: crack-crack one egg in a bowl)']

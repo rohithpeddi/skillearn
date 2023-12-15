@@ -1,0 +1,145 @@
+{
+    "id": "2_30",
+    "activity_id": 2,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel one medium onion",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not peel well"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place 5 meatballs in a Microwave-safe plate",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Pouring many balls, more than 5"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 1 garlic clove"
+        },
+        {
+            "description": "cut-Cut onion into two pieces"
+        },
+        {
+            "description": "Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Butter inside 1/2 tsp, so not enough soy oil "
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice 1/8 medium onion"
+        },
+        {
+            "description": "Cut-Cut 1/8 garlic clove",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Almost 1/2 garlic clove, and slice it"
+                }
+            ]
+        },
+        {
+            "description": "Cut-Cut 1/4 medium carrot into short, thin strips",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not thin"
+                }
+            ]
+        },
+        {
+            "description": "Mince-Mince 1/8 garlic clove",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Almost 1/4 garlic cloves "
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Likely chopping "
+                }
+            ]
+        },
+        {
+            "description": "Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Seasoning pepper on top, no measuring "
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Seasoning pepper on top, no measuring"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour the sauces over the meatballs"
+        },
+        {
+            "description": "Microwave-Microwave the plate, covered, on high for 1.5 minutes",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "1 min"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the plate, covered, on high for 1.5 minutes",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "1 min"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave for 1 more minute"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Stir-Stir the contents in the microwave with a spoon"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Stir-Stir the contents in the microwave with a spoon"
+        }
+    ],
+    "environment": 10,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

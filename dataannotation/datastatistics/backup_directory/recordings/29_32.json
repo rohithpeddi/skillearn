@@ -1,0 +1,139 @@
+{
+    "id": "29_32",
+    "activity_id": 29,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "add-1/4 tsp pepper to a bowl",
+            "modified_description": "add-1/4 tsp pepper to a plate",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "add-1/4 tsp pepper to plate"
+                }
+            ]
+        },
+        {
+            "description": "Cut-Cut 1/4 cup of cherry tomatoes into halves",
+            "modified_description": "Cut-Cut 1/4 cup of normal tomatoes into halves",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Cut-Cut 1/4 cup of normal tomatoes into halves"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)",
+            "modified_description": "Slice-Slice two 1/2 inch thick rounds from a baguette (slice straight)",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Slice-Slice two 1/2 inch thick rounds from a baguette (slice straight)"
+                }
+            ]
+        },
+        {
+            "description": "add-1/16 cup basil to a bowl",
+            "modified_description": "add-1/8 cup basil to a plate",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-1/8 cup basil to a plate"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "add-1/8 cup basil to a plate"
+                }
+            ]
+        },
+        {
+            "description": "add-1/8 cup shredded mozzarella to a bowl",
+            "modified_description": "add-1/8 cup shredded mozzarella to a plate",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-1/8 cup shredded mozzarella to a plate"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "add-1/8 cup shredded mozzarella to a plate"
+                }
+            ]
+        },
+        {
+            "description": "Brush-Brush 2 slices of baguette with olive oil on both sides",
+            "modified_description": "Brush-Brush 2 slices of baguette with softened butter on both sides",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Brush-Brush 2 slices of baguette with softened butter on both sides"
+                }
+            ]
+        },
+        {
+            "description": "Toast-Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transfer the slices to a plate",
+            "modified_description": "Toast-Toast both sides of the slices on the pan for 1 minute and transfer the slices to a bowl",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Toast-Toast both sides of the slices on the pan for 1 minute and transfer the slices to a bowl"
+                }
+            ]
+        },
+        {
+            "description": "add-In a bowl, add the cut cherry tomatoes",
+            "modified_description": "add-In a plate, add the cut cherry tomatoes",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "add-In a plate, add the cut cherry tomatoes"
+                }
+            ]
+        },
+        {
+            "description": "Spoon-Spoon the mixture from the bowl onto the bread",
+            "modified_description": "Spoon-Spoon the mixture from the bowl onto the bread",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Combine-Combine the contents of the bowl"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "add-1/4 tsp salt to a bowl"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

@@ -6,8 +6,6 @@ import sys
 import yaml
 
 from datacollection.user_app.backend.app.models.activity import Activity
-from datacollection.user_app.backend.app.models.error_tag import ErrorTag
-from datacollection.user_app.backend.app.models.recording import Recording
 
 
 def add_path(path):
@@ -58,7 +56,8 @@ def store_versioned_annotation_files(version):
 		activity_name = activity_name.replace(" ", "").lower()
 		print("------------------------------------------------------------------------")
 		print(f"Storing activity annotation: {activity_id}_{activity_name}")
-		activity_annotation_directory_path = osp.join(version_annotation_directory_path, f"{activity_id}_{activity_name}")
+		activity_annotation_directory_path = osp.join(version_annotation_directory_path,
+		                                              f"{activity_id}_{activity_name}")
 		if not osp.exists(activity_annotation_directory_path):
 			os.makedirs(activity_annotation_directory_path)
 		
@@ -77,25 +76,25 @@ def update_versioned_annotations(version=3):
 	activities = [Activity.from_dict(activity) for activity in activities_dict if activity is not None]
 	activity_id_to_activity_name_map = {activity.id: activity.name for activity in activities}
 	
-	recording_annotation_directory_path = f"versioned_annotations/v{version}"
-	activity_recording_annotations_list = os.listdir(recording_annotation_directory_path)
+	activities_directory_path = f"versioned_recording_annotations/v{version}"
+	activities_list = os.listdir(activities_directory_path)
 	
-	for activity_recording_annotations_file in activity_recording_annotations_list:
-		activity_id = activity_recording_annotations_file.split("_")[0]
+	for activity_directory in activities_list:
+		activity_id = int(activity_directory.split("_")[0])
 		print("------------------------------------------------------------------------")
-		print(f"Updating activity: {activity_id}")
-		activity_recording_annotations_file_path = osp.join(recording_annotation_directory_path,
-		                                                    activity_recording_annotations_file)
-		with open(activity_recording_annotations_file_path, "r") as activity_recording_annotations_file:
-			activity_recording_annotations = yaml.safe_load(activity_recording_annotations_file)
+		print(f"Updating activity: {activity_id}-{activity_id_to_activity_name_map[activity_id]}")
 		
-		for recording_annotation in activity_recording_annotations:
-			print(f"Updating recording annotation: {recording_annotation['recording_id']}")
+		activity_directory_path = osp.join(activities_directory_path, activity_directory)
+		for recording_annotation_file_name in os.listdir(activity_directory_path):
+			recording_id = recording_annotation_file_name[:-5]
+			print(f"Updating recording: {recording_id}")
+			recording_annotation_file_path = osp.join(activity_directory_path, recording_annotation_file_name)
+			with open(recording_annotation_file_path, "r") as recording_annotation_file:
+				recording_annotation = yaml.safe_load(recording_annotation_file)
 			recording_annotation = RecordingAnnotation.from_dict(recording_annotation)
 			db_service.update_recording_annotation(recording_annotation)
-		print("------------------------------------------------------------------------")
 
 
 if __name__ == "__main__":
-	store_versioned_annotation_files(version=1)
-	# update_versioned_annotations(version=1)
+	# store_versioned_annotation_files(version=1)
+	update_versioned_annotations(version=2)

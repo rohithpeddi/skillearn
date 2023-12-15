@@ -1,0 +1,126 @@
+{
+    "id": "26_39",
+    "activity_id": 26,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Measure and add-1/4 tsp baking powder to the bowl"
+        },
+        {
+            "description": "Measure and add-1.5 tbsp sugar to the mixing bowl"
+        },
+        {
+            "description": "Measure and add-Measure and add 2 tbsp flour to the mixing bowl"
+        },
+        {
+            "description": "Place-Place the paper cupcake liner inside the mug"
+        },
+        {
+            "description": "Measure and add-a pinch of salt to the mixing bowl"
+        },
+        {
+            "description": "Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl",
+            "modified_description": "Whisk-Mix with hands to combine mixture of flour, sugar and baking powder in the bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Used hands instead of whisk"
+                }
+            ]
+        },
+        {
+            "description": "Set-Set aside the lined mug"
+        },
+        {
+            "description": "Measure and add-Measure and add 2 tsp vegetable oil to the bowl"
+        },
+        {
+            "description": "Measure and add-1/4 tsp vanilla extract to the bowl"
+        },
+        {
+            "description": "Whisk-Whisk batter until no lumps remain",
+            "modified_description": "Whisk-Use hands to mix batter until no lumps remain",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Used hands to mix"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour batter into prepared mug"
+        },
+        {
+            "description": "Microwave-Microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue",
+            "modified_description": "Microwave-Disbalanced the microwave plate. Fix it. Then, microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue. Burn the cake",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Disbalanced the microwave plate"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "Burnt the cake"
+                }
+            ]
+        },
+        {
+            "description": "Invert-Invert the mug to release the cake onto a plate"
+        },
+        {
+            "description": "Allow-Allow to cool until it is no longer hot to the touch"
+        },
+        {
+            "description": "remove-then carefully remove the paper liner"
+        },
+        {
+            "description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag"
+        },
+        {
+            "description": "seal-seal zip top bag, removing as much air as possible"
+        },
+        {
+            "description": "cut-Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter"
+        },
+        {
+            "description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake",
+            "modified_description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake. Put the frosting all over.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Put the frosting all over"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Measure and add-2 tbsp water to the bowl"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-14T00:29:23.429259\"",
+        "end_time": "null"
+    }
+}
