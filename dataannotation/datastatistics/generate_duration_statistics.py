@@ -175,7 +175,7 @@ def generate_statistics_chart():
 	# Show the plot
 	versioned_files_directory = f"{processed_files_directory}/v{version}/assets"
 	os.makedirs(versioned_files_directory, exist_ok=True)
-	plt.savefig(f'{versioned_files_directory}/division_statistics.jpeg')
+	plt.savefig(f'{versioned_files_directory}/NormalErrorRecordingStatistics.png')
 	plt.show()
 
 
