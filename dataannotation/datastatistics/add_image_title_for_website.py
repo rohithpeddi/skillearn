@@ -17,7 +17,7 @@ def generate_title(image_name, title_text, font_size=50):
 	image_width, image_height = image.size
 	# Create a new image with additional space at the top for the title
 	# Define the size of the additional space
-	additional_space = 100  # 100 pixels for the title
+	additional_space = 0  # 100 pixels for the title
 	
 	# Create a new image with the additional space
 	new_image_height = image_height + additional_space
