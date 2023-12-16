@@ -5243,7 +5243,7 @@
     {
         "recording_id": "3_22",
         "activity_id": 3,
-        "is_error": false,
+        "is_error": true,
         "step_annotations": [
             {
                 "description": "Take-Take a microwavable mug",
@@ -16784,7 +16784,7 @@
                 "end_time": 37.153765287107255
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 52.015271401950166,
                 "end_time": 75.70079677248104
@@ -16845,7 +16845,7 @@
                 "end_time": 32.05079809967497
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 33.08469481256771,
                 "end_time": 46.00840372372697
@@ -16906,7 +16906,7 @@
                 "end_time": 48.204
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 49.26,
                 "end_time": 59.037
@@ -16974,7 +16974,7 @@
                 "end_time": 35.22131828385699
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 50.386052544962084,
                 "end_time": 58.21301216359697
@@ -17035,7 +17035,7 @@
                 "end_time": 28.1418732156013
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 50.31425817334778,
                 "end_time": 59.69488257854822
@@ -17096,7 +17096,7 @@
                 "end_time": 41.68931830985915
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 42.584,
                 "end_time": 61.375940845070424
@@ -17157,7 +17157,7 @@
                 "end_time": 40.133
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 40.994,
                 "end_time": 48.279
@@ -17218,7 +17218,7 @@
                 "end_time": 26.06923566197183
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 32.085213122426865,
                 "end_time": 42.11184222318526
@@ -17279,7 +17279,7 @@
                 "end_time": 17.639
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 18.061,
                 "end_time": 27.835
@@ -17340,7 +17340,7 @@
                 "end_time": 20.082359154929577
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 23.027771830985916,
                 "end_time": 36.951540845070426
@@ -17401,7 +17401,7 @@
                 "end_time": 33.70430985915493
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 33.992,
                 "end_time": 46.035154929577466
@@ -17462,7 +17462,7 @@
                 "end_time": 28.883
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "errors": [
                     {
@@ -17472,7 +17472,7 @@
                 ],
                 "start_time": 37.81569000604595,
                 "end_time": 46.184,
-                "modified_description": "dry-gently dry half tomato with a tea towel"
+                "modified_description": "dry-gently dry half tomato with a paper/tea towel"
             },
             {
                 "description": "Slice-Slice one tomato into about 1/2 inch thick slices",
@@ -17578,12 +17578,12 @@
                 "end_time": 24.052
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "errors": [
                     {
                         "tag": "Preparation Error",
-                        "description": "Dry it with a wet tea towel"
+                        "description": "Dry it with a wet paper/tea towel"
                     }
                 ],
                 "start_time": 36.80500688633615,
@@ -17691,7 +17691,7 @@
                 "end_time": 49.498
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 70.57207351874244,
                 "end_time": 80.539
@@ -17845,7 +17845,7 @@
                 "modified_description": "Rinse a tomato for 1 second with hot water"
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 53.54422018500605,
                 "end_time": 61.116
@@ -17951,7 +17951,7 @@
                 "end_time": 11.81
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 13.810814333736396,
                 "end_time": 18.081
@@ -18039,7 +18039,7 @@
                 "end_time": 23.433
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 25,
                 "end_time": 29.544145828295044
@@ -18131,7 +18131,7 @@
                 "end_time": 32.080260563380286
             },
             {
-                "description": "dry-gently dry it with a tea towel",
+                "description": "dry-gently dry it with a paper/tea towel",
                 "step_id": 122,
                 "start_time": 35.91073943661972,
                 "end_time": 51.7114647887324
@@ -20610,7 +20610,7 @@
     {
         "recording_id": "15_19",
         "activity_id": 15,
-        "is_error": false,
+        "is_error": true,
         "step_annotations": [
             {
                 "description": "Peel-Peel 4 large garlic cloves",
@@ -35593,7 +35593,7 @@
                 "end_time": 371.317
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 375.5,
                 "end_time": 444.541
@@ -35697,7 +35697,7 @@
                 "end_time": 580.594
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 691.596,
                 "end_time": 733.404
@@ -35794,7 +35794,7 @@
                 "end_time": 284.199
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 283.8008899054276,
                 "end_time": 467.1115
@@ -35891,7 +35891,7 @@
                 "end_time": 257.591
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 100.233,
                 "end_time": 125.092
@@ -35976,7 +35976,7 @@
                 "end_time": 341.047
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 375.872,
                 "end_time": 394.372
@@ -36092,7 +36092,7 @@
                 "end_time": 280.44100000000003
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 320.291,
                 "end_time": 343.505
@@ -36189,7 +36189,7 @@
                 "end_time": 317.651
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 322.989,
                 "end_time": 414.047
@@ -36286,7 +36286,7 @@
                 "end_time": 533.019
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 538.77,
                 "end_time": 768.106
@@ -36418,7 +36418,7 @@
                 "modified_description": "Skipped this step"
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "start_time": 274.5133509343781,
                 "end_time": 327.9534499892262
@@ -36518,7 +36518,7 @@
                 "end_time": 44.30204427032322
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "errors": [
                     {
@@ -36710,7 +36710,7 @@
                 "end_time": 235.09257901860917
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "errors": [
                     {
@@ -36894,7 +36894,7 @@
                 "end_time": 184.20360822722822
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "errors": [
                     {
@@ -37069,7 +37069,7 @@
                 "end_time": 82.062
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "errors": [
                     {
@@ -37265,7 +37265,7 @@
                 "modified_description": "crack-crack one egg in a bowl, but splashing some part of the egg"
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "errors": [
                     {
@@ -37279,7 +37279,7 @@
                 ],
                 "start_time": 211.7817117992278,
                 "end_time": 244.48329965057914,
-                "modified_description": "Heat-Put 1 tbsp oil in a small non-stick frying pan, but don't heat"
+                "modified_description": "Heat-Put 1 tbsp oil in a non-stick frying pan, but don't heat"
             },
             {
                 "description": "Cut-Cut tomato into two pieces",
@@ -37517,7 +37517,7 @@
                 "modified_description": "add-1/2 tsp ground black pepper to the bowl, but splash some pepper outside"
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "errors": [
                     {
@@ -37527,7 +37527,7 @@
                 ],
                 "start_time": 206.12011596474045,
                 "end_time": 244.76763770812929,
-                "modified_description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan, but close the fire early and heat a short time"
+                "modified_description": "Heat-Heat 1 tbsp oil in a non-stick frying pan, but close the fire early and heat a short time"
             },
             {
                 "description": "add-add the chopped cilantro to the bowl",
@@ -37675,7 +37675,7 @@
                 "end_time": 140.3888329749035
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "errors": [
                     {
@@ -37840,7 +37840,7 @@
                 "end_time": 272.856
             },
             {
-                "description": "Heat-Heat 1 tbsp oil in a small non-stick frying pan",
+                "description": "Heat-Heat 1 tbsp oil in a non-stick frying pan",
                 "step_id": 235,
                 "errors": [
                     {
@@ -42178,7 +42178,7 @@
     {
         "recording_id": "25_13",
         "activity_id": 25,
-        "is_error": false,
+        "is_error": true,
         "step_annotations": [
             {
                 "description": "Add-Add 1 tablespoon of olive oil to a non-stick pan",
