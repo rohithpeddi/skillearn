@@ -189,7 +189,7 @@ def process_directory(
 
         try:
             upload_to_box(box_service, recording, temp_local_data_directory)
-            logger.info(f"[{recording.id}] END SYNCHRONIZATION")
+            # logger.info(f"[{recording.id}] END SYNCHRONIZATION")
         except Exception as e:
             logger.error(f"[{recording.id}] Error while uploading to box {e}")
 
