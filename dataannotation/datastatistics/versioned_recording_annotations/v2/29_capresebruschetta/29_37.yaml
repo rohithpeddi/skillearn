@@ -1,0 +1,69 @@
+activity_id: 29
+is_error: true
+recording_id: '29_37'
+step_annotations:
+- description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+  end_time: 73.53600068594338
+  start_time: 11.881362556244126
+  step_id: 344
+- description: add-1/4 tsp salt to a bowl
+  end_time: 132.45043267654486
+  start_time: 76.73290784822407
+  step_id: 343
+- description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
+    until lightly charred and crispy and transfer the slices to a plate
+  end_time: 338.8792951552416
+  errors:
+  - description: Toasting for more than 3 minutes
+    tag: Timing Error
+  - description: Toast on high temperature to make it scorched
+    tag: Temperature Error
+  - description: Step performed before brushing with olive oil
+    tag: Order Error
+  start_time: 145.69476234885065
+  step_id: 352
+- description: add-1/8 cup shredded mozzarella to a bowl
+  end_time: 403.73084044722157
+  start_time: 350.7535217579985
+  step_id: 342
+- description: Brush-Brush 2 slices of baguette with olive oil on both sides
+  end_time: 467.21228266965255
+  errors:
+  - description: Step performed after toasting
+    tag: Order Error
+  start_time: 406.92774760950226
+  step_id: 349
+- description: add-1/16 cup basil to a bowl
+  end_time: 529.7803228457178
+  start_time: 473.1493959710311
+  step_id: 347
+- description: Cut-Cut 1/4 cup of cherry tomatoes into halves
+  end_time: 632.5380530618831
+  start_time: 531.1504259152666
+  step_id: 350
+- description: add-In a bowl, add the cut cherry tomatoes
+  end_time: 653.0895991051162
+  start_time: 644.8689806878231
+  step_id: 351
+- description: Combine-Combine the contents of the bowl
+  end_time: 671.3576400324346
+  errors:
+  - description: Step performed before adding salt to the bowl
+    tag: Order Error
+  start_time: 655.829805244214
+  step_id: 348
+- description: add-1/4 tsp pepper to a bowl
+  end_time: 728.894833
+  errors:
+  - description: Step performed after combining
+    tag: Order Error
+  start_time: 687.342175843838
+  step_id: 346
+- description: Spoon-Spoon the mixture from the bowl onto the bread
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 345

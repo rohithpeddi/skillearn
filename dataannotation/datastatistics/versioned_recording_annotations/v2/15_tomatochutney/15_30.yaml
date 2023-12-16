@@ -1,0 +1,135 @@
+activity_id: 15
+is_error: true
+recording_id: '15_30'
+step_annotations:
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 45.677
+  errors:
+  - description: Spill and as a consequence added more oil than required
+    tag: Measurement Error
+  - description: Spill oil while adding to the pan
+    tag: Technique Error
+  - description: Step performed before making the puree and mincing the garlic
+    tag: Order Error
+  start_time: 5.434
+  step_id: 154
+- description: Take-Take 1 tomato
+  end_time: 60.094
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 48.516
+  step_id: 149
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 109.45
+  errors:
+  - description: Step performed before making the puree and mincing the garlic
+    tag: Order Error
+  start_time: 70.4
+  step_id: 139
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 135.293
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 111.12100000000001
+  step_id: 155
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 215.649
+  errors:
+  - description: only 2 garlic are peeled and minced instead of 4
+    tag: Measurement Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Peel-Peel 2 instead of 4 large garlic cloves
+  start_time: 139.693
+  step_id: 145
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 271.037
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 219.566
+  step_id: 150
+- description: mince-mince the garlic
+  end_time: 334.443
+  errors:
+  - description: mince only 2 garlic instead of 4
+    tag: Measurement Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: mince-mince only 2 garlic instead of 4
+  start_time: 273.604
+  step_id: 140
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 371.598
+  start_time: 335.345
+  step_id: 141
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: 395.42
+  errors:
+  - description: burn mustard due to cooking for too long
+    tag: Temperature Error
+  - description: spill garlic while adding
+    tag: Technique Error
+  modified_description: add-When mustard and cumin seeds begin to sizzle and burn
+    them, add minced garlic and spill it
+  start_time: 372.464
+  step_id: 152
+- description: Lower-Lower the heat
+  end_time: 405.397
+  errors:
+  - description: High heat instead of low heat
+    tag: Temperature Error
+  start_time: 401.897
+  step_id: 151
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: 415.486
+  errors:
+  - description: saute the garlic only for 1 min and burn it
+    tag: Timing Error
+  modified_description: Saute-Saute the garlic for 1 min and burn the garlic
+  start_time: 406.401
+  step_id: 148
+- description: mix-mix well contents of the pan
+  end_time: 432.169
+  start_time: 415.25
+  step_id: 157
+- description: Add-1/2 tsp salt to the pan
+  end_time: 448.584
+  start_time: 435.611
+  step_id: 146
+- description: Add-Add tomato puree to the pan
+  end_time: 471.269
+  start_time: 451.709
+  step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 499.405
+  start_time: 472.211
+  step_id: 144
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: 582.25
+  errors:
+  - description: simmer only for 1 min
+    tag: Timing Error
+  modified_description: simmer-Allow the mixture to simmer over low heat for 1 minute
+    instead of 5 minutes or until the mixture becomes thick
+  start_time: 507.122
+  step_id: 153
+- description: Take-Take the pan off the heat
+  end_time: 588.066
+  start_time: 582.75
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 634.994
+  start_time: 592.093
+  step_id: 156
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 147

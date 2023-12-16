@@ -1,0 +1,104 @@
+activity_id: 21
+is_error: true
+recording_id: '21_47'
+step_annotations:
+- description: Add-Add 1 banana to a blender
+  end_time: 82.53085605095542
+  start_time: 49.04007388535032
+  step_id: 225
+- description: Add-1/2 tsp baking powder to a blender
+  end_time: 149.51242038216563
+  errors:
+  - description: Add-1 tbsp baking powder instead of 1/2 tsp to a blender
+    tag: Measurement Error
+  modified_description: Add-1 tbsp baking powder to a blender
+  start_time: 107.64894267515925
+  step_id: 221
+- description: Add-1 egg to a blender
+  end_time: 187.7876
+  errors:
+  - description: Crack egg such that it falls into the blender
+    tag: Technique Error
+  modified_description: Add - Add 1 improperly cracked egg into the blender
+  start_time: 166.25781146496814
+  step_id: 229
+- description: blitz-blitz the blender for 20 seconds
+  end_time: 255.9652636942675
+  errors:
+  - description: Blend the contents improperly for 30 seconds
+    tag: Timing Error
+  - description: Step performed before adding flour to the blender
+    tag: Order Error
+  modified_description: blitz-blitz the blender improperly for 30 seconds
+  start_time: 185.39540127388534
+  step_id: 227
+- description: Add-1 heaped tbsp flour to a blender
+  end_time: 316.96633121019113
+  errors:
+  - description: Step performed after blending it once
+    tag: Order Error
+  start_time: 276.298952866242
+  step_id: 232
+- description: blitz-blitz the blender for 20 seconds
+  end_time: 315
+  start_time: 295
+  step_id: 227
+- description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+    heat
+  end_time: 398
+  start_time: 330
+  step_id: 223
+- description: Pour-Pour three little puddles straight from the blender into the frying
+    pan
+  end_time: 444.9489630573248
+  errors:
+  - description: Spooning the batter into the pan instead of pouring
+    tag: Technique Error
+  start_time: 368.398603821656
+  step_id: 231
+- description: Cook-Cook for 1 min or until the tops start to bubble
+  end_time: 607.618476433121
+  errors:
+  - description: Cook on high for 1 minute
+    tag: Temperature Error
+  modified_description: Cook-Cook on high for 1 min or until the tops start to bubble
+  start_time: 566.951098089172
+  step_id: 226
+- description: Flip-Flip the pancakes with a fork or a fish slice spatula
+  end_time: 565.7549987261146
+  start_time: 544.2252101910829
+  step_id: 228
+- description: cook-cook for 20-30 seconds more
+  end_time: 610
+  errors:
+  - description: Cook on high for 1 minute
+    tag: Temperature Error
+  - description: Cook on high for 1 minute
+    tag: Timing Error
+  modified_description: cook-cook for 1 minute or until its burnt
+  start_time: 563
+  step_id: 230
+- description: Transfer-Transfer to a plate
+  end_time: 635.1287617834394
+  start_time: 606.4223770700637
+  step_id: 234
+- description: Chop-Chop 1 strawberry
+  end_time: 702.1103261146496
+  errors:
+  - description: Cut instead of chopping a strawberry
+    tag: Technique Error
+  modified_description: Cut-Cut 1 strawberry into pieces
+  start_time: 663.8351464968152
+  step_id: 233
+- description: Serve-Serve the pancakes with chopped strawberries
+  end_time: 741.5816050955412
+  start_time: 699.718127388535
+  step_id: 222
+- description: splash-splash maple syrup on plate
+  end_time: 739
+  errors:
+  - description: Drop while adding maple syrup into the plate
+    tag: Technique Error
+  start_time: 712
+  step_id: 224
+

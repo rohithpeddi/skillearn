@@ -1,0 +1,132 @@
+activity_id: 25
+is_error: true
+recording_id: '25_41'
+step_annotations:
+- description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes (about
+    1 in x 1 in)
+  end_time: 52.68
+  errors:
+  - description: Cut tofu into pyramid shapes instead of large cubes
+    tag: Technique Error
+  modified_description: Cut-Cut 1/4 block or 3 ounces of fresh tofu into large cubes
+    (about 1 in x 1 in)
+  start_time: 31.939283434099153
+  step_id: 275
+- description: pat-pat tofu dry with a towel
+  end_time: 95.675
+  start_time: 61.421698911729145
+  step_id: 293
+- description: Add-Add 1 tablespoon of olive oil to a non-stick pan
+  end_time: 123.843
+  errors:
+  - description: Dropping some oil from the tablespoon while adding it to the pan
+    tag: Technique Error
+  start_time: 115.33
+  step_id: 291
+- description: add-add the tofu cubes to the pan
+  end_time: 147.868
+  start_time: 132.67086964933495
+  step_id: 279
+- description: Turn-Turn on the heat to medium
+  end_time: 153
+  errors:
+  - description: Step performed before adding salt to the pan
+    tag: Order Error
+  start_time: 148
+  step_id: 276
+- description: Cook-Cook 5 to 6 minutes until tofu cubes are lightly browned on the
+    bottom
+  end_time: 545
+  errors:
+  - description: Step performed before adding salt to the pan
+    tag: Order Error
+  start_time: 170.554
+  step_id: 292
+- description: Flip-Flip the tofu with tongs
+  end_time: 597.5360000000001
+  errors:
+  - description: Step performed before adding salt
+    tag: Order Error
+  start_time: 549.1099882708585
+  step_id: 285
+- description: Return-Return the heat to medium
+  end_time: 600.044
+  errors:
+  - description: Step performed before adding salt
+    tag: Order Error
+  start_time: 598.389
+  step_id: 287
+- description: cook-cook until tofu turns brown
+  end_time: 692.8367637243047
+  errors:
+  - description: Step performed before adding salt
+    tag: Order Error
+  start_time: 604.3895172914148
+  step_id: 290
+- description: remove-Briefly remove from the heat again
+  end_time: 697.948
+  errors:
+  - description: Step performed before adding salt
+    tag: Order Error
+  start_time: 694.522
+  step_id: 282
+- description: drizzle-drizzle 1 tablespoon soy sauce (watch for spitting) on the
+    pan
+  end_time: 733.3750850060459
+  errors:
+  - description: Step performed before adding salt
+    tag: Order Error
+  start_time: 721.0907452237002
+  step_id: 277
+- description: drizzle-drizzle with the 1 tablespoons sesame oil on the pan
+  end_time: 765.486
+  errors:
+  - description: Dropping the measuring utensil on the pan while drizzling oil
+    tag: Technique Error
+  - description: Step performed before adding salt
+    tag: Order Error
+  start_time: 740.7456888754534
+  step_id: 278
+- description: Return-Return to low heat
+  end_time: 781.339
+  errors:
+  - description: Step performed before adding salt
+    tag: Order Error
+  start_time: 777.5987082224909
+  step_id: 284
+- description: cook-cook pan for 2 minutes
+  end_time: 826
+  errors:
+  - description: Step performed before adding salt
+    tag: Order Error
+  - description: Left to cook for only 1 minute
+    tag: Timing Error
+  start_time: 780
+  step_id: 289
+- description: add-add 1/4 tsp salt to the pan
+  end_time: 814.736
+  errors:
+  - description: Step performed after heating tofu and flipping it
+    tag: Order Error
+  start_time: 811.309
+  step_id: 286
+- description: flip-flip tofu on the pan
+  end_time: 852.705
+  start_time: 825.5076333736397
+  step_id: 281
+- description: cook-cook pan for 2 minutes until the colour is darkened
+  end_time: 983.244
+  start_time: 854.9900488512696
+  step_id: 288
+- description: Transfer-Transfer to a serving dish
+  end_time: 1003.402
+  start_time: 988.8893524788392
+  step_id: 283
+- description: remove-Briefly remove the pan from the heat to reduce spitting
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 280

@@ -1,0 +1,151 @@
+{
+    "id": "15_33",
+    "activity_id": 15,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Take-Take 1 tomato",
+            "modified_description": "Take-Take 2 tomatoes",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Added more"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 4 large garlic cloves",
+            "modified_description": "Peel-Peel 4 small garlic cloves",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Took small garlic cloves"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat 3 tbsp oil in a pan over medium heat",
+            "modified_description": "Heat-Heat 3 tbsp oil in a pan over high heat",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Used high heat instead of medium heat"
+                }
+            ]
+        },
+        {
+            "description": "mince-mince the garlic",
+            "modified_description": "Slice the garlic",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Slice"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop tomato roughly (anysize chunks are fine)"
+        },
+        {
+            "description": "puree-puree tomatoes without any water in a blender/mixer"
+        },
+        {
+            "description": "Add-Add 1/4 tsp mustard to the pan",
+            "modified_description": "Add-Add 1 tsp mustard to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Added more"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 tbsp red chili powder to the pan",
+            "modified_description": "Add-Add 1 tbsp red chili powder to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Added less"
+                }
+            ]
+        },
+        {
+            "description": "mix-mix well contents of the pan"
+        },
+        {
+            "description": "Add-Add tomato puree to the pan"
+        },
+        {
+            "description": "Add-1/2 tsp salt to the pan",
+            "modified_description": "Skip",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Forgot step"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix well tomato puree with contents in the pan",
+            "modified_description": "Mix-Mix well tomato puree with contents in the pan",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Leave tomatoes uncooked"
+                }
+            ]
+        },
+        {
+            "description": "Take-Take the pan off the heat"
+        },
+        {
+            "description": "Transfer-Transfer it to a serving bowl"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "add-When mustard and cumin seeds begin to sizzle, add minced garlic"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Add-1/2 tsp cumin seeds to the pan"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Lower-Lower the heat"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Saute-Saute the garlic for 2-3 minutes"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-16T18:20:44.032401\"",
+        "end_time": "\"2023-04-16T18:36:21.378922\""
+    }
+}

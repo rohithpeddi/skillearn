@@ -1,0 +1,68 @@
+activity_id: 8
+is_error: true
+recording_id: '8_31'
+step_annotations:
+- description: Fill-Fill a microwave-safe mug with skimmed milk
+  end_time: 45.36742129248904
+  errors:
+  - description: Spilled while filling the milk
+    tag: Technique Error
+  start_time: 4.522356380208333
+  step_id: 88
+- description: Microwave-Microwave the contents of the mug for 1 minute
+  end_time: 97.76293488898027
+  errors:
+  - description: Microwave-Microwave the contents of the mug for 35 seconds. Started
+      the timer from 7 minutes and stopped at 6:25.
+    tag: Timing Error
+  modified_description: Microwave-Microwave the contents of the mug for 35 seconds.
+  start_time: 48.04578620476974
+  step_id: 89
+- description: Add-Add 1/5 teaspoon cinnamon to the mug
+  end_time: 146.47569673108552
+  errors:
+  - description: Add-Add 1/5 teaspoon cinnamon to the mug. Spilling happened while
+      adding. Also first put 1/2 tsp first and then to make 1/5 remove the added cinnamon
+      from top of milk. Incorrect way to add 1/5 tsp cinnamon.
+    tag: Technique Error
+  modified_description: Add-Add 1/5 teaspoon cinnamon to the mug
+  start_time: 99.77170857319079
+  step_id: 84
+- description: Mix-Mix the contents of the mug
+  end_time: 170.7483787486294
+  errors:
+  - description: Mix-Mix the contents of the mug. Not doing circular and slowly mixing
+      the contents of mug. Instead did hastily and spilling the milk. Also motion
+      was up-down and sideways instead of circular.
+    tag: Technique Error
+  modified_description: Mix-Mix the contents of the mug.
+  start_time: 152.8368133977522
+  step_id: 85
+- description: Heat-Heat the contents of the mug for 1 minute and serve
+  end_time: 233.18776076617323
+  errors:
+  - description: Heat-Heat the contents of the mug for 40 seconds and serve it on
+      glass plate cover. Also timing started from 10:30 and stopped at 9:50.
+    tag: Timing Error
+  - description: Heat-Heat the contents of the mug for 40 seconds and serve it on
+      glass plate cover. Also timing started from 10:30 and stopped at 9:50.
+    tag: Preparation Error
+  modified_description: Heat the contents of the mug for 40 seconds and serve.
+  start_time: 175.93771076617324
+  step_id: 83
+- description: Add-Add 1 teaspoon of white sugar to the mug
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 87
+- description: Add-Add 2 pieces of chocolate to the mug
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 90

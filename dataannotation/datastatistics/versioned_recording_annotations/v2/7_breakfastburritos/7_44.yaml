@@ -1,0 +1,86 @@
+activity_id: 7
+is_error: true
+recording_id: '7_44'
+step_annotations:
+- description: Place-Place 8 inch tortilla on a cutting board
+  end_time: 23.91514183799342
+  start_time: 1.5574681537828947
+  step_id: 81
+- description: add-Extract and add contents of an egg to a microwave-safe bowl
+  end_time: 86.33031420641447
+  errors:
+  - description: Using a mug instead of a bowl
+    tag: Preparation Error
+  start_time: 28.57299052220395
+  step_id: 77
+- description: Whisk-Whisk the egg
+  end_time: 115.20897604851974
+  errors:
+  - description: Using a mug instead of a bowl
+    tag: Preparation Error
+  start_time: 88.81450017132674
+  step_id: 72
+- description: Microwave-Microwave for 3 minutes, stirring in between
+  end_time: 258.3601922765899
+  errors:
+  - description: Microwave without stirring in between
+    tag: Preparation Error
+  - description: Microwave 2 mins instead of 3 mins
+    tag: Timing Error
+  - description: Using a mug instead of a bowl
+    tag: Preparation Error
+  modified_description: Microwave for 2 minutes, no stirring in between
+  start_time: 116.14054578536185
+  step_id: 73
+- description: Add-Add 1/2 tbsp sweet and sour sauce to the bowl
+  end_time: 293.1387957853618
+  errors:
+  - description: 1 tbsp instead of 1/2 tbsp
+    tag: Measurement Error
+  - description: Using a mug instead of a bowl
+    tag: Preparation Error
+  modified_description: Add 1 tbsp sweet and sour sauce to the bowl
+  start_time: 259.29176201343205
+  step_id: 74
+- description: Add-Add 1 tbsp salsa to the bowl
+  end_time: 326.6753063116776
+  errors:
+  - description: Using unclean measuring spoon to add salsa
+    tag: Preparation Error
+  - description: Using a mug instead of a bowl
+    tag: Preparation Error
+  start_time: 296.5545514871162
+  step_id: 80
+- description: Sprinkle-Sprinkle oregano in the bowl
+  end_time: 351.2066427151864
+  modified_description: pour oregano in the bowl
+  start_time: 327.2963528029057
+  step_id: 82
+- description: Mix-Mix the contents of the bowl well
+  end_time: 380.0853045572917
+  errors:
+  - description: Using a mug instead of a bowl
+    tag: Preparation Error
+  modified_description: Mix the contents of the bowl but not that well
+  start_time: 351.82768920641445
+  step_id: 76
+- description: Pour-Pour egg mixture on top of the tortilla
+  end_time: 407.4113501713268
+  errors:
+  - description: Using a mug instead of a bowl
+    tag: Preparation Error
+  start_time: 380.3958278029057
+  step_id: 79
+- description: Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg
+  end_time: 449.9530348204496
+  errors:
+  - description: Using mozzarella cheese instead of cheddar cheese
+    tag: Preparation Error
+  start_time: 414.55338482044954
+  step_id: 75
+- description: Roll-Roll the tortilla from one end to another into a log shape, about
+    1.5 inches thick. Roll it tight enough to prevent gaps but not so tight that the
+    filling leaks
+  end_time: 488.1473940309759
+  start_time: 450.2635580660636
+  step_id: 78

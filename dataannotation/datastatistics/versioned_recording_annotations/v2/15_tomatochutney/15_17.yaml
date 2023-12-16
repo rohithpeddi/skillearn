@@ -1,0 +1,123 @@
+activity_id: 15
+is_error: true
+recording_id: '15_17'
+step_annotations:
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 50.777
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  start_time: 3.051
+  step_id: 154
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 220.365
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 51.122
+  step_id: 145
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 256.721
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  start_time: 221.54500000000002
+  step_id: 139
+- description: Take-Take 1 tomato
+  end_time: 286.772
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 257.725
+  step_id: 149
+- description: mince-mince the garlic
+  end_time: 367.329
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 287.12
+  step_id: 140
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 397.834
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 372.161
+  step_id: 141
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: 419.939
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 398.925
+  step_id: 152
+- description: Lower-Lower the heat
+  end_time: 425.566
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 423.85
+  step_id: 151
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 476.55899999999997
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 432.88
+  step_id: 155
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: 508.769
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 477.181
+  step_id: 148
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: 584.219
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 509.265
+  step_id: 147
+- description: mix-mix well contents of the pan
+  end_time: 611.432
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 588.198
+  step_id: 157
+- description: Add-1/2 tsp salt to the pan
+  end_time: 675.121
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 611.833
+  step_id: 146
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 762.131
+  errors:
+  - description: Step performed after adding salt to the pan
+    tag: Order Error
+  start_time: 678.991
+  step_id: 150
+- description: Add-Add tomato puree to the pan
+  end_time: 774.026
+  start_time: 761.359
+  step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 840.856
+  start_time: 778.986
+  step_id: 144
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: 1054.617
+  start_time: 847.374
+  step_id: 153
+- description: Take-Take the pan off the heat
+  end_time: 1058.45
+  start_time: 1056.238
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 1082.766
+  start_time: 1059.31
+  step_id: 156

@@ -1,0 +1,84 @@
+{
+    "id": "18_2",
+    "activity_id": 18,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer"
+        },
+        {
+            "description": "Peel-Peel 1 garlic cloves"
+        },
+        {
+            "description": "Heat-Heat a large pan on medium heat"
+        },
+        {
+            "description": "Melt-Melt 1 tablespoons of softened butter"
+        },
+        {
+            "description": "Add-Add 1 large minced garlic cloves to the pan"
+        },
+        {
+            "description": "Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic"
+        },
+        {
+            "description": "Add-Add the zucchini noodles"
+        },
+        {
+            "description": "Add-1/6 cup grated parmesan cheese",
+            "modified_description": "Add-1/6 cup grated parmesan cheese, but spill",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill"
+                }
+            ]
+        },
+        {
+            "description": "season-season with salt"
+        },
+        {
+            "description": "season-pepper to taste"
+        },
+        {
+            "description": "Cook-Cook for 2 minutes or until the zoodles are done",
+            "modified_description": "Cook-Cook for 2 minutes or until the zoodles are done, but spill",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove from heat"
+        },
+        {
+            "description": "Top-Top with more parmesan if desired"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-26T16:27:32.106442\"",
+        "end_time": "null"
+    }
+}

@@ -1,0 +1,114 @@
+activity_id: 3
+is_error: true
+recording_id: '3_50'
+step_annotations:
+- description: Take-Take a microwavable mug
+  end_time: 11.336550442084942
+  start_time: 3.9241905376447876
+  step_id: 36
+- description: add-Measure 1/8 teaspoon of baking powder and add it to the mug
+  end_time: 60.6069427480695
+  errors:
+  - description: Using soiled measuring spoons (might contaminate the ingredients)
+    tag: Preparation Error
+  modified_description: add-Measure 1/8 teaspoon of baking powder using soiled measuring spoon
+  start_time: 35.317714838803084
+  step_id: 40
+- description: add-Measure 4 tablespoons of flour and add it to the mug
+  end_time: 102.4649751496139
+  errors:
+  - description: Not using dried and cleaned measuring spoons (might contaminate the ingredients)
+    tag: Preparation Error
+  modified_description: add-Measure 4 tablespoons of flour using dirty measuring spoon and add it to the mug
+  start_time: 69.76338733590734
+  step_id: 33
+- description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top of the sauce
+  end_time: 153.0434309681467
+  errors:
+  - description: Not using dried and cleaned measuring spoons (might contaminate the ingredients)
+    tag: Preparation Error
+  - description: Use cheddar cheese instead of mozzarella cheese
+    tag: Preparation Error
+  - description: Step performed before adding milk and olive oil
+    tag: Order Error
+  modified_description: Sprinkle-Sprinkle 1 generous tablespoon of cheddar cheese
+    on top of the sauce
+  start_time: 118.59775847104247
+  step_id: 39
+- description: add-Measure 1/8 teaspoon of salt and add it to the mug
+  end_time: 187.05308229440155
+  errors:
+  - description: Not using dried and cleaned measuring spoons (might contaminate the
+      ingredients)
+    tag: Preparation Error
+  - description: Step performed after adding cheese
+    tag: Order Error
+  modified_description: add-Measure 1/8 teaspoon of salt using dirty measuring spoon
+    and add it to the mug
+  start_time: 169.6122354604247
+  step_id: 28
+- description: Stir-Stir the contents in the mug well
+  end_time: 203.62188678667957
+  errors:
+  - description: Step performed after adding cheese
+    tag: Order Error
+  start_time: 191.41329400289578
+  step_id: 38
+- description: Add-Add in 3 tablespoons of milk to the mug
+  end_time: 233.7073475752896
+  errors:
+  - description: Step performed after adding cheese and before adding baking soda
+    tag: Order Error
+  start_time: 208.85414083687257
+  step_id: 41
+- description: Add-1 tablespoon of olive oil to the mug
+  end_time: 263.79280836389967
+  errors:
+  - description: Step performed after adding cheese and before adding baking soda
+    tag: Order Error
+  modified_description: Add-1 tablespoon of olive oil to the mug and leave the cap open
+  start_time: 245.47991918822396
+  step_id: 34
+- description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps,
+    but that is ok.)
+  end_time: 286.0298880772201
+  errors:
+  - description: Step performed after adding cheese and before adding baking soda
+    tag: Order Error
+  start_time: 269.0250624140927
+  step_id: 37
+- description: Take-Take 1 tablespoon of marinara sauce
+  end_time: 312.19115832818534
+  errors:
+  - description: Use salsa sauce instead of marinara sauce
+    tag: Preparation Error
+  - description: Step performed after adding cheese and before adding baking soda
+    tag: Order Error
+  modified_description: Take-Take 1 tablespoon of salsa sauce
+  start_time: 291.69816329826256
+  step_id: 30
+- description: spread-spread marinara sauce around the surface of the batter
+  end_time: 330.06802633301163
+  errors:
+  - description: Step performed after adding cheese and before adding baking soda
+    tag: Order Error
+  start_time: 324.3997511119692
+  step_id: 31
+- description: add-Measure 1/16 teaspoon of baking soda and add it to the mug
+  end_time: 350.12500019208494
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 335.7363015540541
+  step_id: 35
+- description: Sprinkle-Sprinkle dried Italian herbs inside the mug
+  end_time: 368.43788936776065
+  start_time: 359.71746595077224
+  step_id: 29
+- description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling
+  end_time: 444.74159426640927
+  errors:
+    - description: Microwaving it for 1 minute instead of 1 minute 20 seconds
+      tag: Timing Error
+  start_time: 372.36207990540544
+  step_id: 32

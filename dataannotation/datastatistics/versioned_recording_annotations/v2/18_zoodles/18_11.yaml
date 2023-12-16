@@ -1,0 +1,71 @@
+activity_id: 18
+is_error: true
+recording_id: '18_11'
+step_annotations:
+- description: Peel-Peel 1 garlic cloves
+  end_time: 53.67
+  start_time: 1.627
+  step_id: 200
+- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+  end_time: 282.581
+  start_time: 54.863
+  step_id: 203
+- description: Heat-Heat a large pan on medium heat
+  end_time: 337.796
+  start_time: 283.945
+  step_id: 196
+- description: Melt-Melt 1 tablespoons of softened butter
+  end_time: 418.336
+  start_time: 340.321
+  step_id: 204
+- description: Add-Add 1 large minced garlic cloves to the pan
+  end_time: 538.743
+  start_time: 418.604
+  step_id: 199
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
+    burn garlic
+  end_time: 581.525
+  start_time: 538.824
+  step_id: 202
+- description: Add-Add the zucchini noodles
+  end_time: 598.189
+  start_time: 581.997
+  step_id: 201
+- description: season-season with salt
+  end_time: 623.457
+  start_time: 603.504
+  step_id: 198
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 651.467
+  errors:
+  - description: Added pepper to taste in this step
+    tag: Preparation Error
+  modified_description: season-pepper to taste
+  start_time: 626.234
+  step_id: 193
+- description: season-pepper to taste
+  end_time: 701.813
+  errors:
+  - description: Added cheese in this step instead of period and spiked some out while
+      adding
+    tag: Preparation Error
+  modified_description: Add-1/6 cup grated parmesan cheese and spoiled some out while
+    adding
+  start_time: 661.994
+  step_id: 194
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: 769.436
+  start_time: 704.935
+  step_id: 192
+- description: Remove-Remove from heat
+  end_time: 784.091
+  start_time: 770
+  step_id: 197
+- description: Top-Top with more parmesan if desired
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 195

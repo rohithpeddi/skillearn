@@ -1,0 +1,81 @@
+activity_id: 15
+is_error: false
+recording_id: '15_8'
+step_annotations:
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 249.318
+  start_time: 3.926
+  step_id: 145
+- description: Take-Take 1 tomato
+  end_time: 277.871
+  start_time: 250.7
+  step_id: 149
+- description: mince-mince the garlic
+  end_time: 536.32
+  start_time: 278.653
+  step_id: 140
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 608.146
+  start_time: 537.02
+  step_id: 155
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 838.184
+  start_time: 628.28
+  step_id: 150
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 1017.032
+  start_time: 842.032
+  step_id: 154
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 1079.062
+  start_time: 1028.728
+  step_id: 141
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 1110.353
+  start_time: 1087.325
+  step_id: 139
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: 1534.73
+  start_time: 1515.27
+  step_id: 152
+- description: Lower-Lower the heat
+  end_time: 1544.781
+  start_time: 1541.398
+  step_id: 151
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: 1703.162
+  start_time: 1546.357
+  step_id: 148
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: 1766.517
+  start_time: 1664.565
+  step_id: 147
+- description: mix-mix well contents of the pan
+  end_time: 1821.734
+  start_time: 1773.373
+  step_id: 157
+- description: Add-Add tomato puree to the pan
+  end_time: 1837.206
+  start_time: 1822.789
+  step_id: 142
+- description: Add-1/2 tsp salt to the pan
+  end_time: 1901.957
+  start_time: 1869.581
+  step_id: 146
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 1928.11
+  start_time: 1838.499
+  step_id: 144
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: 2247.665
+  start_time: 1940.29
+  step_id: 153
+- description: Take-Take the pan off the heat
+  end_time: 2257.028
+  start_time: 2252.332
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 2315.628
+  start_time: 2261.959
+  step_id: 156

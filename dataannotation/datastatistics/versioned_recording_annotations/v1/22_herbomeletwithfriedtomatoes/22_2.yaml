@@ -1,0 +1,76 @@
+activity_id: 22
+is_error: true
+recording_id: '22_2'
+step_annotations:
+- description: Take-Take a tomato
+  end_time: 71.208
+  start_time: 0
+  step_id: 247
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 139.666
+  errors:
+  - description: Didn't measure the Cilantro.
+    tag: Preparation Error
+  modified_description: Chop-Chop cilantro.
+  start_time: 74.325
+  step_id: 237
+- description: Cut-Cut tomato into two pieces
+  end_time: 159.53300000000002
+  start_time: 146.66
+  step_id: 246
+- description: crack-crack one egg in a bowl
+  end_time: 200.855
+  start_time: 163.211
+  step_id: 239
+- description: add-add the chopped cilantro to the bowl
+  end_time: 228.605
+  start_time: 212.583
+  step_id: 242
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 296.39
+  start_time: 265.347
+  step_id: 249
+- description: Beat-Beat the contents of the bowl
+  end_time: 371.317
+  start_time: 311.688
+  step_id: 248
+- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+  end_time: 444.541
+  start_time: 375.5
+  step_id: 235
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 792.031
+  start_time: 447.75
+  step_id: 240
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 801.095
+  start_time: 794.993
+  step_id: 244
+- description: put-put tomatoes on a serving plate
+  end_time: 801.095
+  start_time: 794.993
+  step_id: 236
+- description: Pour-Pour the egg mixture into the pan
+  end_time: 856.351
+  start_time: 842.333
+  step_id: 241
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 967.43
+  errors:
+  - description: The egg cooked so fast and.not able to stir properly.
+    tag: Technique Error
+  modified_description: stir-stir gently with a wooden spoon so the egg that sets
+    on the base of the pan moves to enable the uncooked egg to flow into the space
+  start_time: 860.446
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: 994.75
+  start_time: 973.23
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: 1005.069
+  start_time: 994.75
+  step_id: 243

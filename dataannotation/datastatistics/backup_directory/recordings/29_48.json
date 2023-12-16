@@ -1,0 +1,115 @@
+{
+    "id": "29_48",
+    "activity_id": 29,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Cut-Cut 1/4 cup of cherry tomatoes into halves",
+            "modified_description": "Cut-Slice 1/4 cup of cherry tomatoes into halves",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Slice instead of cut"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)"
+        },
+        {
+            "description": "add-1/16 cup basil to a bowl",
+            "modified_description": "add-1/4 cup basil to a bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Added more"
+                }
+            ]
+        },
+        {
+            "description": "Toast-Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transfer the slices to a plate",
+            "modified_description": "Toast-Toast both sides of the slices on the pan for 1 minute on low heat",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Toasted for less time than specified"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Used underheated pan"
+                }
+            ]
+        },
+        {
+            "description": "add-1/8 cup shredded mozzarella to a bowl",
+            "modified_description": "add-1/8 cup shredded mozzarella to a bowl, but spill",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill"
+                }
+            ]
+        },
+        {
+            "description": "add-1/4 tsp salt to a bowl"
+        },
+        {
+            "description": "add-In a bowl, add the cut cherry tomatoes"
+        },
+        {
+            "description": "Brush-Brush 2 slices of baguette with olive oil on both sides",
+            "modified_description": "Brush-Brush 2 slices of baguette with sesame oil on both sides",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Used sesame oil instead of olive oil"
+                }
+            ]
+        },
+        {
+            "description": "add-1/4 tsp pepper to a bowl"
+        },
+        {
+            "description": "Combine-Combine the contents of the bowl"
+        },
+        {
+            "description": "Spoon-Spoon the mixture from the bowl onto the bread",
+            "modified_description": "Spoon-Spoon the mixture from the bowl onto the bread but spill",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

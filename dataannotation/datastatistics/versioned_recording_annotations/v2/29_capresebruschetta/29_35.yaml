@@ -1,0 +1,103 @@
+activity_id: 29
+is_error: true
+recording_id: '29_35'
+step_annotations:
+- description: add-1/16 cup basil to a bowl
+  end_time: 168.22938268071545
+  errors:
+  - description: add-1/16 cup oregano to a plate instead of basil to bowl
+    tag: Preparation Error
+  - description: Spill while measuring oregano
+    tag: Technique Error
+  modified_description: add-1/16 cup oregano to a plate
+  start_time: 6.831554526580121
+  step_id: 347
+- description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+  end_time: 283.8576774777079
+  errors:
+  - description: Using muffin instead of baguette
+    tag: Preparation Error
+  - description: Using peeler instead of knife to slice
+    tag: Preparation Error
+  - description: Not slicing slanted
+    tag: Technique Error
+  - description: Making into 3 pieces instead of 2 slices
+    tag: Measurement Error
+  modified_description: Slice-Slice 3 1/2 inch thick rounds from a muffin (slice straight)
+    using peeler.
+  start_time: 177.46358677908637
+  step_id: 344
+- description: add-1/4 tsp salt to a bowl
+  end_time: 332.4376207778332
+  errors:
+  - description: Spill while adding salt to the plate
+    tag: Technique Error
+  modified_description: add-1/4 tsp salt to a plate
+  start_time: 290.28147163309643
+  step_id: 343
+- description: add-1/8 cup shredded mozzarella to a bowl
+  end_time: 360.140233072946
+  errors:
+  - description: Using hand to add mozzarella to a plate instead of using measuring cup
+    tag: Preparation Error
+  - description: Not adding 1/8 cup of mozzarella
+    tag: Measurement Error
+  modified_description: add-1/8 cup shredded cheddar to a plate.
+  start_time: 336.0510049902393
+  step_id: 342
+- description: add-1/4 tsp pepper to a bowl
+  end_time: 469.34473371455
+  errors:
+  - description: add-1/4 tsp pepper to a plate.
+    tag: Preparation Error
+  - description: Unable to open the container and replaced with other pepper powder container. Spilled while transferring
+    tag: Technique Error
+  modified_description: add-1/4 tsp pepper to a plate
+  start_time: 361.7461816117931
+  step_id: 346
+- description: Combine-Combine the contents of the bowl
+  end_time: 530.7722653254522
+  start_time: 480.1848863517681
+  step_id: 348
+- description: Brush-Brush 2 slices of baguette with olive oil on both sides
+  end_time: 572.9284144701891
+  errors:
+  - description: Using vegetable oil instead of olive oil
+    tag: Preparation Error
+  - description: Directly applying oil instead of using brush
+    tag: Technique Error
+  modified_description: No Brush-Directly apply 3 slices of cut muffin with vegetable oil on both sides without using brush
+  start_time: 533.9841624031465
+  step_id: 349
+- description: Spoon-Spoon the mixture from the bowl onto the bread
+  end_time: 622.7128191744497
+  errors:
+  - description: Using fork instead of spoon
+    tag: Preparation Error
+  start_time: 584.5715413768307
+  step_id: 345
+- description: Cut-Cut 1/4 cup of cherry tomatoes into halves
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 350
+- description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
+    until lightly charred and crispy and transfer the slices to a plate
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 352
+- description: add-In a bowl, add the cut cherry tomatoes
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 351

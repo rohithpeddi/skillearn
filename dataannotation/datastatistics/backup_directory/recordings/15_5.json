@@ -1,0 +1,88 @@
+{
+    "id": "15_5",
+    "activity_id": 15,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Peel-Peel 4 large garlic cloves"
+        },
+        {
+            "description": "Take-Take 1 tomato"
+        },
+        {
+            "description": "Chop-Chop tomato roughly (anysize chunks are fine)"
+        },
+        {
+            "description": "puree-puree tomatoes without any water in a blender/mixer"
+        },
+        {
+            "description": "mince-mince the garlic"
+        },
+        {
+            "description": "Heat-Heat 3 tbsp oil in a pan over medium heat"
+        },
+        {
+            "description": "Add-Add 1/4 tsp mustard to the pan"
+        },
+        {
+            "description": "Add-1/2 tsp cumin seeds to the pan"
+        },
+        {
+            "description": "add-When mustard and cumin seeds begin to sizzle, add minced garlic"
+        },
+        {
+            "description": "Lower-Lower the heat"
+        },
+        {
+            "description": "Saute-Saute the garlic for 2-3 minutes"
+        },
+        {
+            "description": "Add-Add 2 tbsp red chili powder to the pan"
+        },
+        {
+            "description": "mix-mix well contents of the pan"
+        },
+        {
+            "description": "Add-1/2 tsp salt to the pan"
+        },
+        {
+            "description": "Add-Add tomato puree to the pan"
+        },
+        {
+            "description": "Mix-Mix well tomato puree with contents in the pan"
+        },
+        {
+            "description": "simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick"
+        },
+        {
+            "description": "Take-Take the pan off the heat"
+        },
+        {
+            "description": "Transfer-Transfer it to a serving bowl"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

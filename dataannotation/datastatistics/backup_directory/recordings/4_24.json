@@ -1,0 +1,76 @@
+{
+    "id": "4_24",
+    "activity_id": 4,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 medium onion"
+        },
+        {
+            "description": "Peel-Peel 1 garlic clove"
+        },
+        {
+            "description": "Chop-Chop 1 garlic clove on a cutting board"
+        },
+        {
+            "description": "slice-slice 1/4 medium onion into pieces"
+        },
+        {
+            "description": "Put-Put all the Vegetables in a microwave-safe bowl"
+        },
+        {
+            "description": "Remove-Remove the noodles from the package(Break Noodles / Keep them as a block)"
+        },
+        {
+            "description": "Add-Add the noodles to the bowl"
+        },
+        {
+            "description": "cover-cover the noodles with water"
+        },
+        {
+            "description": "Cover-Cover with a lid (or paper towel) to prevent splattering"
+        },
+        {
+            "description": "Microwave-Microwave the ramen for 4 minutes"
+        },
+        {
+            "description": "Let-Let the noodles sit for about 1 minute after the microwave stops"
+        },
+        {
+            "description": "Add-Add chopped cilantro to the bowl"
+        },
+        {
+            "description": "Add-Add basil to the bowl"
+        },
+        {
+            "description": "Mix-Mix in the flavour packet to the bowl"
+        },
+        {
+            "description": "Stir-Stir noodles with a spoon or fork until the flavouring dissolves"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-28T16:39:54.437039\"",
+        "end_time": "null"
+    }
+}

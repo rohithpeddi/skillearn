@@ -1,0 +1,59 @@
+activity_id: 8
+is_error: true
+recording_id: '8_26'
+step_annotations:
+- description: Fill-Fill a microwave-safe mug with skimmed milk
+  end_time: 44.0235721285636
+  errors:
+  - description: Spill
+    tag: Technique Error
+  - description: Used whole milk
+    tag: Preparation Error
+  modified_description: Fill a microwave-safe mug with whole milk but spill
+  start_time: 1.9796278303179826
+  step_id: 88
+- description: Microwave-Microwave the contents of the mug for 1 minute
+  end_time: 177.77410633908988
+  errors:
+  - description: Microwave the contents of the mug for 2 minutes
+    tag: Timing Error
+  modified_description: Microwave the contents of the mug for 2 minutes
+  start_time: 47.127487479440795
+  step_id: 89
+- description: Add-Add 2 pieces of chocolate to the mug
+  end_time: 219.5358765145285
+  errors:
+  - description: Added 4 pieces of chocolate to the mug
+    tag: Measurement Error
+  modified_description: Add-Add 4 pieces of chocolate to the mug
+  start_time: 179.74932519873903
+  step_id: 90
+- description: Add-Add 1 teaspoon of white sugar to the mug
+  end_time: 283.5894023917215
+  start_time: 220.10022476014254
+  step_id: 87
+- description: Mix-Mix the contents of the mug
+  end_time: 314.91073002330046
+  start_time: 285.5646212513706
+  step_id: 85
+- description: Heat-Heat the contents of the mug for 1 minute and serve
+  end_time: 445.27517476014253
+  errors:
+  - description: Microwave on low and high power
+    tag: Temperature Error
+  - description: Microwaved on high for 8 secs
+    tag: Temperature Error
+  - description: Microwaved on high for 8 secs on high. And 1 minute on low power
+    tag: Timing Error
+  modified_description: Heat-Heat the contents of the mug for 8 secs on high. And
+    1 minute on low power and serve
+  start_time: 321.96508309347587
+  step_id: 83
+- description: Add-Add 1/5 teaspoon cinnamon to the mug
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 84

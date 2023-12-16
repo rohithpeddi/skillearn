@@ -1,0 +1,135 @@
+activity_id: 26
+is_error: true
+recording_id: '26_29'
+step_annotations:
+- description: Measure and add-a pinch of salt to the mixing bowl
+  end_time: 38.700853379708384
+  start_time: 0.609
+  step_id: 310
+- description: Measure and add-1/4 tsp baking powder to the bowl
+  end_time: 87.83789194046173
+  errors:
+  - description: Add more baking powder. Might give bitter taste to the cupcake
+    tag: Measurement Error
+  modified_description: Measure and add-1/2 tsp baking powder to the bowl
+  start_time: 39.5705354781288
+  step_id: 304
+- description: Measure and add-1.5 tbsp sugar to the mixing bowl
+  end_time: 119.58128853280682
+  errors:
+  - description: Add more sugar. Might make the cake very sweet
+    tag: Measurement Error
+  modified_description: Measure and add-2 tbsp sugar to the mixing bowl
+  start_time: 88.142
+  step_id: 297
+- description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
+  end_time: 144.8020693869988
+  start_time: 124.79938112332928
+  step_id: 299
+- description: Whisk-Whisk to combine mixture of flour, sugar and baking powder in
+    the bowl
+  end_time: 160.89118820777645
+  errors:
+  - description: Use spoon instead of a whisker
+    tag: Preparation Error
+  start_time: 150.02016197752127
+  step_id: 308
+- description: Measure and add-2 tbsp water to the bowl
+  end_time: 180.02419437302552
+  start_time: 164.8047576506683
+  step_id: 296
+- description: Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+  end_time: 238.72773601640338
+  start_time: 186.54681011117862
+  step_id: 300
+- description: Measure and add-1/4 tsp vanilla extract to the bowl
+  end_time: 270.6160707782881
+  start_time: 242.78624362883488
+  step_id: 313
+- description: Place-Place the paper cupcake liner inside the mug
+  end_time: 310.0416680868773
+  errors:
+  - description: Folded paper cupcake liner will not cover the bottom of the cup fully
+    tag: Technique Error
+  modified_description: Place-Place the FOLDED paper cupcake liner inside the mug
+  start_time: 280.90731778979347
+  step_id: 303
+- description: Whisk-Whisk batter until no lumps remain
+  end_time: 325.6959458584447
+  errors:
+  - description: Did not whisk completely. Will lead to lumps in the cupcake
+    tag: Technique Error
+  - description: Used spoon instead of whisker
+    tag: Preparation Error
+  modified_description: NOT ENOUGH Whisk-Whisk batter
+  start_time: 312.2158733329283
+  step_id: 294
+- description: Set-Set aside the lined mug
+  end_time: 329.044
+  start_time: 327.4353100552856
+  step_id: 301
+- description: Pour-Pour batter into prepared mug
+  end_time: 346.56831622053465
+  start_time: 330.0443563505468
+  step_id: 307
+- description: Microwave-Microwave the mug and batter on high power for 60 seconds.
+    Check if the cake is done by inserting and toothpick into the center of the cake
+    and then removing it. If wet batter clings to the toothpick, microwave for an
+    additional 5 seconds. If the toothpick comes out clean, continue
+  end_time: 572.7355616023744
+  errors:
+  - description: Microwave for 90 seconds.
+    tag: Timing Error
+  start_time: 352.149964442364
+  step_id: 312
+- description: Invert-Invert the mug to release the cake onto a plate
+  end_time: 586.6005753845687
+  start_time: 575.2947081051033
+  step_id: 309
+- description: Allow-Allow to cool until it is no longer hot to the touch
+  end_time: 617.9091309277036
+  start_time: 587.3389999999999
+  step_id: 305
+- description: remove-then carefully remove the paper liner
+  end_time: 629.214998207169
+  start_time: 619.6484951245444
+  step_id: 295
+- description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
+    4 spoonfuls of chocolate frosting into a zip-top bag
+  end_time: 700.5289302776429
+  errors:
+  - description: Take only 1 spoon, will not be enough for the forsting
+    tag: Measurement Error
+  - description: Used cocoa powder instead of chocolate frosting
+    tag: Preparation Error
+  modified_description: Scoop-While the cake is cooling, prepare to pipe the frosting.
+    Scoop 1 spoonfuls of chocolate powder into a zip-top bag
+  start_time: 634.4330907976914
+  step_id: 298
+- description: seal-seal zip top bag, removing as much air as possible
+  end_time: 696.0769862023955
+  errors:
+  - description: Do not remove the air
+    tag: Technique Error
+  modified_description: seal-seal zip top bag
+  start_time: 688.705395082451
+  step_id: 311
+- description: cut-Use scissors to cut one corner from the bag to create a small opening
+    1/4 inch in diameter
+  end_time: 715.5827132669675
+  errors:
+  - description: Cut a bigger hole in the bag
+    tag: Measurement Error
+  modified_description: cut-Use scissors to cut one corner from the bag to create
+    a small opening 1/2 inch in diameter
+  start_time: 700.5910504275299
+  step_id: 306
+- description: Squeeze-Squeeze the frosting through the opening to apply small dollops
+    of frosting to the plate in a circle around the base of the cake
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 302

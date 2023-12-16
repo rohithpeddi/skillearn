@@ -1,0 +1,100 @@
+{
+    "id": "1_34",
+    "activity_id": 1,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Pour-Pour 1 egg into the ramekin cup",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "With egg shell\u2026"
+                }
+            ]
+        },
+        {
+            "description": "Cut -Cut the English muffin into two pieces with a knife"
+        },
+        {
+            "description": "Microwave-Microwave the ramekin cup uncovered on high for 30 seconds"
+        },
+        {
+            "description": "stir-stir the ramekin cup"
+        },
+        {
+            "description": "Microwave -Continue to Microwave for 15-30 more seconds or until the egg is almost set"
+        },
+        {
+            "description": "Line -Line the bottom piece of the English muffin with lettuce",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "The top piece "
+                }
+            ]
+        },
+        {
+            "description": "Top -Top cup with 1 tablespoon of salsa"
+        },
+        {
+            "description": "sprinkle -sprinkle 1 tablespoon of cheese on cup",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Not using measurements"
+                }
+            ]
+        },
+        {
+            "description": "Microwave -Microwave just until cheese melts, about 10 seconds",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Not melt"
+                }
+            ]
+        },
+        {
+            "description": "Place -Place the egg from the cup over the lettuce"
+        },
+        {
+            "description": "replace -replace the top of the English muffin",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Replace with the bottom piece "
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Coat -Coat a 6-oz. ramekin cup with cooking spray"
+        }
+    ],
+    "environment": 10,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

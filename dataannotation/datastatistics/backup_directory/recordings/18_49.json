@@ -1,0 +1,139 @@
+{
+    "id": "18_49",
+    "activity_id": 18,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 garlic cloves",
+            "modified_description": "Peel-Peel 2 garlic",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "wrongly peel the entire garlic. not pressing it against the hard surface before peeling."
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": "take entire garlic instead of garlic clove. quantity 2 instead of 1"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat a large pan on medium heat",
+            "modified_description": "Heat-Heat a large pan on high heat",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Heat-Heat a large pan on high heat"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 large minced garlic cloves to the pan",
+            "modified_description": "Add-Add 2 large sliced garlic to the pan",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Add-Add 2 large sliced garlic to the pan. mince not done properly instead slicing done"
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic",
+            "modified_description": "Cook-Cook garlic until fragrant (about 3 minutes). Burn the garlic.",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Cook-Cook garlic until fragrant (about 3 minutes). Burn the garlic."
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Cook-Cook garlic until fragrant (about 3 minutes). Burn the garlic."
+                }
+            ]
+        },
+        {
+            "description": "season-pepper to taste"
+        },
+        {
+            "description": "season-season with salt"
+        },
+        {
+            "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer"
+        },
+        {
+            "description": "Add-Add the zucchini noodles"
+        },
+        {
+            "description": "Melt-Melt 1 tablespoons of softened butter",
+            "modified_description": "Freeze- Freeze 1 tablespoons of softened butter",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Freeze-Freeze 1 tablespoons of softened butter"
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook for 2 minutes or until the zoodles are done",
+            "modified_description": "Cook-Cook for 4 minutes or until the zoodles are done",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Cook-Cook for 4 minutes or until the zoodles are done"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/6 cup grated parmesan cheese",
+            "modified_description": "Add-1/4 cup grated parmesan cheese",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-1/4 cup grated parmesan cheese"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove from heat"
+        },
+        {
+            "description": "Top-Top with more parmesan if desired",
+            "modified_description": "Top-Top with more parmesan if desired",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "NULL"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-24T23:26:55.284549\"",
+        "end_time": "null"
+    }
+}

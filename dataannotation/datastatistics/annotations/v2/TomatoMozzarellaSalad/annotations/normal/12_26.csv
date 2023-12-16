@@ -1,0 +1,8 @@
+19.10687495042322,28.883,[' (StepDescription: Rinse-Rinse a tomato)']
+37.81569000604595,46.184,[' (ErrorTag:Technique Error, ErrorDescription:Not drying it completely ), (StepDescription: dry-gently dry it with a tea towel), (StepModifiedDescription: dry-gently dry half tomato with a tea towel)']
+50.15554674486095,120.934,[' (ErrorTag:Preparation Error, ErrorDescription:Chop instead of slice), (StepDescription: Slice-Slice one tomato into about 1/2 inch thick slices), (StepModifiedDescription:  Chop-Chop one tomato into pieces)']
+140.11708296977025,151.67000000000002,[' (ErrorTag:Technique Error, ErrorDescription:Tomatoes are not placed in a single layer), (StepDescription: Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer), (StepModifiedDescription: Place-Place the thick slices of tomatoes on a platter, not making a single layer.)']
+179.12695266021768,190.903,[' (StepDescription: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter)']
+216.9426426662636,224.913,[' (StepDescription: Season-Season the tomato slices with salt)']
+229.28249940507862,235.437,[' (StepDescription: Garnish-Garnish platter with italian seasoning)']
+252.36997330350664,265.35,[' (ErrorTag:Measurement Error, ErrorDescription:Add 1/8 teaspoon rather than 1/4 teaspoon), (ErrorTag:Temperature Error, ErrorDescription:null), (ErrorTag:Timing Error, ErrorDescription:null), (StepDescription: Season-Season platter with 1/4 teaspoon black pepper), (StepModifiedDescription: Season-Season platter with 1/8 teaspoon black pepper)']

@@ -1,0 +1,82 @@
+{
+    "id": "28_10",
+    "activity_id": 28,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Chop-Chop 1 scallion"
+        },
+        {
+            "description": "Add-1 tsp Sriracha sauce to the bowl"
+        },
+        {
+            "description": "Add-1/4 cup mayonnaise to the bowl"
+        },
+        {
+            "description": "Open-Open a can of tuna"
+        },
+        {
+            "description": "drain-drain excess water from can"
+        },
+        {
+            "description": "Add-add chopped scallion to the bowl"
+        },
+        {
+            "description": "Add-Add 1 can drained tuna to the bowl"
+        },
+        {
+            "description": "Take-Take 1 ripe avocado"
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl"
+        },
+        {
+            "description": "Season-season 1/4 tsp pepper on the bowl"
+        },
+        {
+            "description": "Lay-Lay out 2 large lettuce leaves"
+        },
+        {
+            "description": "Season-Season bowl with 1/4 tsp salt"
+        },
+        {
+            "description": "cut-cut avocado into thin slices"
+        },
+        {
+            "description": "place-place avocado slices on each leaf"
+        },
+        {
+            "description": "top-top lettuce leaves with the tuna mixture"
+        },
+        {
+            "description": "Roll-Roll up the lettuce wraps"
+        },
+        {
+            "description": "secure-secure the wrap with a toothpick"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

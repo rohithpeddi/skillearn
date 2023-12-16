@@ -1,0 +1,75 @@
+activity_id: 7
+is_error: true
+recording_id: '7_48'
+step_annotations:
+- description: Place-Place 8 inch tortilla on a cutting board
+  end_time: 20.40711101073974
+  start_time: 4.539504879160792
+  step_id: 81
+- description: add-Extract and add contents of an egg to a microwave-safe bowl
+  end_time: 86.52213655898535
+  start_time: 25.318512908609414
+  step_id: 77
+- description: Add-Add 1/2 tbsp sweet and sour sauce to the bowl
+  end_time: 189.6615764142485
+  errors:
+  - description: Step performed before whisking and microwaving
+    tag: Order Error
+  start_time: 92.94473904081491
+  step_id: 74
+- description: Microwave-Microwave for 3 minutes, stirring in between
+  end_time: 334.3590323284089
+  errors:
+  - description: Microwave for 2 mins instead of 3 mins
+    tag: Timing Error
+  - description: Do not stir in between
+    tag: Preparation Error
+  - description: Step performed before whisking and after adding sweet and sour sauce
+    tag: Order Error
+  modified_description: Microwave for 2 minutes without stirring
+  start_time: 195.70637875008808
+  step_id: 73
+- description: Add-Add 1 tbsp salsa to the bowl
+  end_time: 386.49545247502544
+  errors:
+  - description: Step performed before whisking the contents of the bowl
+    tag: Order Error
+  start_time: 337.38143349632867
+  step_id: 80
+- description: Whisk-Whisk the egg
+  end_time: 414.0748631322936
+  errors:
+  - description: Step performed after microwaving the contents of the bowl
+    tag: Order Error
+  - description: Using spoon instead of whisk
+    tag: Preparation Error
+  start_time: 387.62885291299534
+  step_id: 72
+- description: Sprinkle-Sprinkle oregano in the bowl
+  end_time: 449.58807685535123
+  start_time: 417.09726430021345
+  step_id: 82
+- description: Mix-Mix the contents of the bowl well
+  end_time: 471.50048532276975
+  start_time: 449.9658770013412
+  step_id: 76
+- description: Pour-Pour egg mixture on top of the tortilla
+  end_time: 498.70209583404795
+  start_time: 479.43428838855925
+  step_id: 79
+- description: Sprinkle-Sprinkle 1 tbsp shredded cheddar cheese on top of the egg
+  end_time: 557.6389186084841
+  errors:
+  - description: 1/2 tbsp instead of 1 tbsp
+    tag: Measurement Error
+  - description: Using hands instead of spoon to remove cheese from the packet
+    tag: Preparation Error
+  modified_description: Pour 1/2 tbsp shredded cheddar cheese on top of the egg
+  start_time: 504.3690980238976
+  step_id: 75
+- description: Roll-Roll the tortilla from one end to another into a log shape, about
+    1.5 inches thick. Roll it tight enough to prevent gaps but not so tight that the
+    filling leaks
+  end_time: 599.9525349593613
+  start_time: 559.150119192444
+  step_id: 78

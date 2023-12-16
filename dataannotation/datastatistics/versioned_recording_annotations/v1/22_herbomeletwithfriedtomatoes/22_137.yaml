@@ -1,0 +1,131 @@
+activity_id: 22
+is_error: true
+recording_id: '22_137'
+step_annotations:
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 213.613
+  start_time: 7.6
+  step_id: 237
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 272.856
+  start_time: 228.052
+  step_id: 249
+- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+  end_time: 325.089
+  errors:
+  - description: Using a big frying pan.
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Heat-Heat 1 tbsp oil in a big frying pan.
+  start_time: 273.81
+  step_id: 235
+- description: Take-Take a tomato
+  end_time: 372.623
+  errors:
+  - description: Using a cherry tomato instead of a tomato.
+    tag: Preparation Error
+  modified_description: Take-Take a cherry tomato.
+  start_time: 338.305
+  step_id: 247
+- description: Cut-Cut tomato into two pieces
+  end_time: 380.807
+  start_time: 373.006
+  step_id: 246
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 679.668
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 392.298
+  step_id: 240
+- description: crack-crack one egg in a bowl
+  end_time: 619.27
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 529.422
+  step_id: 239
+- description: Beat-Beat the contents of the bowl
+  end_time: -1.0
+  errors:
+  - description: Didn't do the step.
+    tag: Missing Step
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Didn't do the step.
+  start_time: -1.0
+  step_id: 248
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: -1.0
+  errors:
+  - description: Didn't do the step.
+    tag: Missing Step
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Didn't do the step.
+  start_time: -1.0
+  step_id: 244
+- description: put-put tomatoes on a serving plate
+  end_time: -1.0
+  errors:
+  - description: Didn't do the step.
+    tag: Missing Step
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Didn't do the step.
+  start_time: -1.0
+  step_id: 236
+- description: add-add the chopped cilantro to the bowl
+  end_time: -1.0
+  errors:
+  - description: Didn't do the step.
+    tag: Missing Step
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Didn't do the step.
+  start_time: -1.0
+  step_id: 242
+- description: Pour-Pour the egg mixture into the pan
+  end_time: -1.0
+  errors:
+  - description: Didn't do the step.
+    tag: Missing Step
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Didn't do the step.
+  start_time: -1.0
+  step_id: 241
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: -1.0
+  errors:
+  - description: Didn't do the step.
+    tag: Missing Step
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Didn't do the step.
+  start_time: -1.0
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: -1.0
+  errors:
+  - description: Didn't do the step.
+    tag: Missing Step
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Didn't do the step.
+  start_time: -1.0
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: -1.0
+  errors:
+  - description: Didn't do the step.
+    tag: Missing Step
+  - description: Step performed before correct order
+    tag: Order Error
+  modified_description: Didn't do the step.
+  start_time: -1.0
+  step_id: 243

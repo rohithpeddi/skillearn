@@ -93,7 +93,7 @@ class LabelStudioService:
 				step_alias += f' (StepDescription: {step.description})'
 			else:
 				description = step.modified_description
-				step_alias += f', (StepModifiedDescription: {step.modified_description})'
+				step_alias += f'(StepDescription: {step.description}), (StepModifiedDescription: {step.modified_description})'
 
 			step_array.append({'step_number': idx, 'modified_description': description, 'step_alias': step_alias})
 		

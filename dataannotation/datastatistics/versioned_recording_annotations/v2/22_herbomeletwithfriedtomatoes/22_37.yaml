@@ -1,0 +1,114 @@
+activity_id: 22
+is_error: true
+recording_id: '22_37'
+step_annotations:
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 47.521
+  start_time: 6.414
+  step_id: 237
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 82.062
+  start_time: 56.094
+  step_id: 249
+- description: Heat-Heat 1 tbsp oil in a non-stick frying pan
+  end_time: 111.253
+  errors:
+  - description: Not using a proper frying pan.
+    tag: Preparation Error
+  - description: Step performed before beating the egg mixture
+    tag: Order Error
+  modified_description: Heat-Heat 1 tbsp oil in a big tawa pan.
+  start_time: 87.255
+  step_id: 235
+- description: Take-Take a tomato
+  end_time: 134.118
+  errors:
+  - description: Using a cherry tomato instead of a Tomato.
+    tag: Preparation Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Take-Take a cherry tomato.
+  start_time: 112.70400000000001
+  step_id: 247
+- description: Cut-Cut tomato into two pieces
+  end_time: 145.856
+  errors:
+  - description: Step performed after heating the pan
+    tag: Order Error
+  - description: Using a cherry tomato instead of a tomato.
+    tag: Preparation Error
+  start_time: 135.003
+  step_id: 246
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 333.201
+  errors:
+  - description: Step performed before beating the egg mixture
+    tag: Order Error
+  - description: Using a cherry tomato instead of a tomato.
+    tag: Preparation Error
+  start_time: 145.993
+  step_id: 240
+- description: crack-crack one egg in a bowl
+  end_time: 220.075
+  errors:
+  - description: Step performed after cooking the tomatoes
+    tag: Order Error
+  start_time: 193.313
+  step_id: 239
+- description: Beat-Beat the contents of the bowl
+  end_time: 306.702
+  errors:
+  - description: Step performed after cooking the tomatoes and before adding cilantro to the bowl
+    tag: Order Error
+  start_time: 253.035
+  step_id: 248
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 356.174
+  errors:
+  - description: Not using a proper item for scooping.
+    tag: Preparation Error
+  - description: Step performed before adding cilantro to the bowl
+    tag: Order Error
+  start_time: 335.084
+  step_id: 244
+- description: put-put tomatoes on a serving plate
+  end_time: 360.132
+  errors:
+  - description: Step performed before adding cilantro to the bowl
+    tag: Order Error
+  modified_description: put-put tomatoes on a serving plate
+  start_time: 352.375
+  step_id: 236
+- description: add-add the chopped cilantro to the bowl
+  end_time: 394.003
+  errors:
+  - description: Step performed after cooking the tomatoes
+    tag: Order Error
+  start_time: 371.205
+  step_id: 242
+- description: Pour-Pour the egg mixture into the pan
+  end_time: 412.508
+  start_time: 394.824
+  step_id: 241
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 522.66
+  errors:
+  - description: Using wooden spatula instead of a spoon and not properly stirring
+      the contents.
+    tag: Preparation Error
+  - description: Stirring action is not correct
+    tag: Technique Error
+  modified_description: Stir-Stir improperly with a wooden spatula.
+  start_time: 432.235
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: 525.258
+  start_time: 520.092
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: 552.154
+  start_time: 530.297
+  step_id: 243

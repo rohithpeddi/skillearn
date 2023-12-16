@@ -1,0 +1,90 @@
+activity_id: 12
+is_error: true
+recording_id: '12_41'
+step_annotations:
+- description: Rinse-Rinse a tomato
+  end_time: 49.498
+  start_time: 46.392
+  step_id: 125
+- description: dry-gently dry it with a paper/tea towel
+  end_time: 80.539
+  start_time: 70.57207351874244
+  step_id: 122
+- description: Slice-Slice one tomato into about 1/2 inch thick slices
+  end_time: 125.858
+  errors:
+  - description: Slicing improperly done. Slices are not of uniform thickness.
+    tag: Technique Error
+  - description: Use soiled chopping board for slicing tomato
+    tag: Preparation Error
+  start_time: 95.04464740024184
+  step_id: 119
+- description: Season-Season platter with 1/4 teaspoon black pepper
+  end_time: 241.748
+  errors:
+  - description: Spilled while measuring black pepper
+    tag: Technique Error
+  - description: Took a lid instead of plate for platter
+    tag: Preparation Error
+  - description: Step performed before placing tomato slices on platter
+    tag: Order Error
+  modified_description: Season-Season glass cover of platter with 1/4 teaspoon black
+    pepper
+  start_time: 196.3497206771463
+  step_id: 126
+- description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
+    the platter
+  end_time: 270.043
+  errors:
+  - description: Sprinkle on chopping board instead of platter
+    tag: Preparation Error
+  - description: Spill while sprinkling mozzarella cheese
+    tag: Technique Error
+  - description: Step performed before placing tomato slices on platter
+    tag: Order Error
+  start_time: 255.5392016928658
+  step_id: 124
+- description: Season-Season the tomato slices with salt
+  end_time: 308.744
+  errors:
+  - description: Season tomato slices with powdered sugar instead of salt
+    tag: Preparation Error
+  - description: Seasoning performed in salt bae style
+    tag: Technique Error
+  - description: Seasoned on chopping board instead of platter
+    tag: Preparation Error
+  - description: Step performed before placing tomato slices on platter
+    tag: Order Error
+  modified_description: Season-Season the tomato slices with powdered sugar from huge
+    height
+  start_time: 298.22392357920194
+  step_id: 123
+- description: Garnish-Garnish platter with italian seasoning
+  end_time: 362.53557122128177
+  errors:
+  - description: Garnishing on chopping board instead of platter
+    tag: Preparation Error
+  - description: Step performed before placing tomato slices on platter
+    tag: Order Error
+  modified_description: Garnish-Garnish glass cover of platter with italian seasoning
+  start_time: 354.56775646916566
+  step_id: 127
+- description: Place-Place the thick slices of tomatoes on a platter, ensuring they
+    only make a single layer
+  end_time: 395.008
+  errors:
+  - description: Throwing tomato slices on platter instead of placing
+    tag: Technique Error
+  - description: Step performed after seasoning and garnishing the platter
+    tag: Order Error
+  start_time: 380.17858960096737
+  step_id: 120
+- description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter
+  end_time: 454.091
+  errors:
+  - description: Used apple cider vinegar instead of olive oil
+    tag: Preparation Error
+  modified_description: Add-Add a drizzle of apple cider vinegar, about 1 tablespoon,
+    over the entire glass cover of platter
+  start_time: 427.9854781136639
+  step_id: 121

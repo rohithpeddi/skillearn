@@ -1,0 +1,145 @@
+{
+    "id": "28_29",
+    "activity_id": 28,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Chop-Chop 1 scallion"
+        },
+        {
+            "description": "Lay-Lay out 2 large lettuce leaves"
+        },
+        {
+            "description": "Add-1 tsp Sriracha sauce to the bowl",
+            "modified_description": "Add-1 tsp Sriracha sauce to the mug cup",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "mug cup instead of bowl"
+                }
+            ]
+        },
+        {
+            "description": "Take-Take 1 ripe avocado"
+        },
+        {
+            "description": "Open-Open a can of tuna"
+        },
+        {
+            "description": "drain-drain excess water from can",
+            "modified_description": "drain-drain excess water from can, but remain some water",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "remain some water"
+                }
+            ]
+        },
+        {
+            "description": "Add-add chopped scallion to the bowl"
+        },
+        {
+            "description": "cut-cut avocado into thin slices",
+            "modified_description": "Chop- Chop the avocado",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "chop instead of slice"
+                }
+            ]
+        },
+        {
+            "description": "place-place avocado slices on each leaf",
+            "modified_description": "place-place avocado slices on just one leaf",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "place on just one leaf"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 cup mayonnaise to the bowl",
+            "modified_description": "Add-1/2 cup mayonnaise to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1/2 instead of 1/4 cup"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl",
+            "modified_description": "Mix-Mix the contents of the bowl, but splash some of them outside ",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Splash some contents outside"
+                }
+            ]
+        },
+        {
+            "description": "Season-Season bowl with 1/4 tsp salt",
+            "modified_description": "Season-Season bowl with 1 tsp salt",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1 instead of 1/4 tsp"
+                }
+            ]
+        },
+        {
+            "description": "Season-season 1/4 tsp pepper on the bowl"
+        },
+        {
+            "description": "Add-Add 1 can drained tuna to the bowl"
+        },
+        {
+            "description": "top-top lettuce leaves with the tuna mixture",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Null"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "Null"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Roll-Roll up the lettuce wraps"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "secure-secure the wrap with a toothpick"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 7,
+    "selected_by": 7,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "id": "4_35",
+    "activity_id": 4,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 medium onion",
+            "modified_description": "Randomly pick any size onion and peel",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "peel any size onion"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 1 garlic clove"
+        },
+        {
+            "description": "slice-slice 1/4 medium onion into pieces",
+            "modified_description": "Chop 1/4 onion into pieces",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "chop onion into pieces"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 garlic clove on a cutting board",
+            "modified_description": "Slice 1 garlic clove on a cutting board",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "slice garlic clove into pieces"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove the noodles from the package(Break Noodles / Keep them as a block)"
+        },
+        {
+            "description": "Put-Put all the Vegetables in a microwave-safe bowl"
+        },
+        {
+            "description": "Add-Add the noodles to the bowl"
+        },
+        {
+            "description": "cover-cover the noodles with water"
+        },
+        {
+            "description": "Microwave-Microwave the ramen for 4 minutes",
+            "modified_description": "Microwave-Microwave the ramen for 1 minutes",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "1 minutes"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "1 min"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped cilantro to the bowl",
+            "modified_description": "Add fresh cilantro to the bowl without chopping",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "no chopping"
+                }
+            ]
+        },
+        {
+            "description": "Let-Let the noodles sit for about 1 minute after the microwave stops",
+            "modified_description": "Let the noodles sit for about 2 minute after the microwave stops",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "2 minutes"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix in the flavour packet to the bowl"
+        },
+        {
+            "description": "Stir-Stir noodles with a spoon or fork until the flavouring dissolves"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Cover-Cover with a lid (or paper towel) to prevent splattering"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add chopped basil to the bowl"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

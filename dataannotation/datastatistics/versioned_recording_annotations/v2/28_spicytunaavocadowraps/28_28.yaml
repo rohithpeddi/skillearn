@@ -1,0 +1,115 @@
+activity_id: 28
+is_error: true
+recording_id: '28_28'
+step_annotations:
+- description: Take-Take 1 ripe avocado
+  end_time: 15.841501358108104
+  start_time: 3.7717860376447883
+  step_id: 335
+- description: cut-cut avocado into thin slices
+  end_time: 122.2058676196911
+  errors:
+  - description: Chop avocado with skin instead of cutting it
+    tag: Technique Error
+  modified_description: cut-cut avocado into chopped size
+  start_time: 15.841501358108108
+  step_id: 341
+- description: Open-Open a can of tuna
+  end_time: 214.2374469382239
+  start_time: 125.22329644980694
+  step_id: 336
+- description: Chop-Chop 1 scallion
+  end_time: 276.0947379555984
+  start_time: 234.60509154150577
+  step_id: 340
+- description: Lay-Lay out 2 large lettuce leaves
+  end_time: 457.8948249700772
+  errors:
+  - description: roll the lettuce leaves together
+    tag: Preparation Error
+  modified_description: Put and roll 2 large lettuce leaves
+  start_time: 288.1644532760618
+  step_id: 329
+- description: drain-drain excess water from can
+  end_time: 482.03425561100386
+  errors:
+  - description: Do not drain water completely instead leave some water remaining
+    tag: Technique Error
+  modified_description: drain-drain excess water from can, but  leave some water remaining
+  start_time: 460.912253800193
+  step_id: 328
+- description: Add-1/4 cup mayonnaise to the bowl
+  end_time: 555.9612619488416
+  errors:
+  - description: 1/2 instead of 1/4 cup
+    tag: Measurement Error
+  modified_description: Add-1/2 cup mayonnaise to the bowl
+  start_time: 498.6301141766409
+  step_id: 327
+- description: Add-1 tsp Sriracha sauce to the bowl
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 339
+- description: Add-Add 1 can drained tuna to the bowl
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 334
+- description: place-place avocado slices on each leaf
+  end_time: 597.4509083629343
+  errors:
+  - description: Just put on one leaf
+    tag: Measurement Error
+  modified_description: place-place avocado slices on just one leaf
+  start_time: 561.2417624015444
+  step_id: 325
+- description: Season-season 1/4 tsp pepper on the bowl
+  end_time: 635.1687687393821
+  start_time: 611.7836953059845
+  step_id: 326
+- description: top-top lettuce leaves with the tuna mixture
+  end_time: 730.9721340955598
+  errors:
+  - description: Top the lettuce leaves with the tuna from the can
+    tag: Preparation Error
+  start_time: 691.745559304054
+  step_id: 332
+- description: Roll-Roll up the lettuce wraps
+  end_time: 752.0941359063705
+  start_time: 730.9721340955597
+  step_id: 330
+- description: secure-secure the wrap with a toothpick
+  end_time: 781.514067
+  start_time: 754.3572075289575
+  step_id: 337
+- description: Add-add chopped scallion to the bowl
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 333
+- description: Mix-Mix the contents of the bowl
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 331
+- description: Season-Season bowl with 1/4 tsp salt
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 338

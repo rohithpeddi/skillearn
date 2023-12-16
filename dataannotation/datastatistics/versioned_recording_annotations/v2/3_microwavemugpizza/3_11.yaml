@@ -1,0 +1,63 @@
+activity_id: 3
+is_error: false
+recording_id: '3_11'
+step_annotations:
+- description: Take-Take a microwavable mug
+  end_time: 11.087
+  start_time: 4.625
+  step_id: 36
+- description: add-Measure 1/16 teaspoon of baking soda and add it to the mug
+  end_time: 85.625
+  start_time: 14.666
+  step_id: 35
+- description: add-Measure 4 tablespoons of flour and add it to the mug
+  end_time: 122.426
+  start_time: 90.236
+  step_id: 33
+- description: add-Measure 1/8 teaspoon of salt and add it to the mug
+  end_time: 164.684
+  start_time: 130.15
+  step_id: 28
+- description: add-Measure 1/8 teaspoon of baking powder and add it to the mug
+  end_time: 197.128
+  start_time: 184.611
+  step_id: 40
+- description: Stir-Stir the contents in the mug well
+  end_time: 177.77100000000002
+  start_time: 169.5
+  step_id: 38
+- description: Add-Add in 3 tablespoons of milk to the mug
+  end_time: 259.927
+  start_time: 223.272
+  step_id: 41
+- description: Add-1 tablespoon of olive oil to the mug
+  end_time: 286.122
+  start_time: 263.716
+  step_id: 34
+- description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps,
+    but that is ok.)
+  end_time: 359.80899999999997
+  start_time: 293.725
+  step_id: 37
+- description: Take-Take 1 tablespoon of marinara sauce
+  end_time: 405.25
+  start_time: 367.779
+  step_id: 30
+- description: spread-spread marinara sauce around the surface of the batter
+  end_time: 432.585
+  start_time: 407.58
+  step_id: 31
+- description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
+    of the sauce
+  end_time: 475.658
+  start_time: 443.776
+  step_id: 39
+- description: Sprinkle-Sprinkle dried Italian herbs inside the mug
+  end_time: 489.704
+  start_time: 478.032
+  step_id: 29
+- description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
+    the toppings are bubbling
+  end_time: 594.2909999999999
+  start_time: 494.062
+  step_id: 32

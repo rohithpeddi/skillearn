@@ -1,0 +1,49 @@
+activity_id: 17
+is_error: false
+recording_id: '17_5'
+step_annotations:
+- description: whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use
+    fresh homemade or packaged curd
+  end_time: 159.80599999999998
+  start_time: 0
+  step_id: 183
+- description: Add-1/4 teaspoon of red chilli powder to the bowl
+  end_time: 226.34199999999998
+  start_time: 159.80599999999998
+  step_id: 181
+- description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
+  end_time: 340.954
+  start_time: 226.34199999999998
+  step_id: 187
+- description: Add-Add 1 teaspoon of cumin powder to the bowl
+  end_time: 398.376
+  start_time: 370.083
+  step_id: 188
+- description: Rinse-Rinse 1 medium sized cucumber
+  end_time: 435.876
+  start_time: 407.096
+  step_id: 189
+- description: Add-1/4 teaspoon salt to the bowl
+  end_time: 473.841
+  start_time: 447.368
+  step_id: 184
+- description: peel-peel the cucumber
+  end_time: 623.165
+  start_time: 498.012
+  step_id: 182
+- description: Add-1/2 teaspoon of chaat masala powder to the bowl
+  end_time: 720.561
+  start_time: 674.035
+  step_id: 191
+- description: chop or grate-chop or grate the cucumber
+  end_time: 780.05
+  start_time: 730.802
+  step_id: 185
+- description: Add-Add the chopped or grated cucumber to the whisked curd
+  end_time: 808.163
+  start_time: 790.645
+  step_id: 190
+- description: Combine-Combine all the ingredients in the bowl
+  end_time: 892.737
+  start_time: 857.916
+  step_id: 186

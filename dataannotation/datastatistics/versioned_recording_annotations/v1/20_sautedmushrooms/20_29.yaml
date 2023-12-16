@@ -1,0 +1,114 @@
+activity_id: 20
+is_error: true
+recording_id: '20_29'
+step_annotations:
+- description: Rinse-Rinse 3 mushrooms under cold water
+  end_time: 49.116
+  errors:
+  - description: use 2 mushrooms instead of 3
+    tag: Measurement Error
+  modified_description: Rinse-Rinse 2 mushrooms under cold water
+  start_time: 1.518
+  step_id: 206
+- description: Peel-Peel 2 garlic cloves
+  end_time: 116.017
+  errors:
+  - description: peel only partially
+    tag: Technique Error
+  modified_description: Peel-Peel 2 garlic cloves partially
+  start_time: 55.779
+  step_id: 176
+- description: pat-pat rinsed mushrooms dry with a paper towel
+  end_time: 154.662
+  errors:
+  - description: squeeze instead of patting
+    tag: Technique Error
+  modified_description: squeeze-squeeze rinsed mushrooms dry with a paper towel
+  start_time: 118.90100000000001
+  step_id: 205
+- description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+  end_time: 229.63400000000001
+  errors:
+  - description: use low heat instead of high heat
+    tag: Temperature Error
+  modified_description: Heat-Heat 1 tbsp olive oil in a large skillet over low heat
+  start_time: 185.598
+  step_id: 215
+- description: Chop-Chop 1 shallot
+  end_time: 414.96500000000003
+  errors:
+  - description: chop shallot without peeling it
+    tag: Preparation Error
+  modified_description: Chop-Chop 1 shallot without peeling
+  start_time: 235.90699999999998
+  step_id: 212
+- description: Slice-Slice the mushrooms
+  end_time: 570.769
+  errors:
+  - description: chop instead of slice
+    tag: Technique Error
+  modified_description: chop-chop the mushrooms
+  start_time: 425.407
+  step_id: 210
+- description: mince-mince garlic cloves
+  end_time: 665.132
+  start_time: 575.095
+  step_id: 211
+- description: add-Once the pan is hot, add the mushrooms
+  end_time: 691.246
+  start_time: 669.458
+  step_id: 208
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
+    soften and brown
+  end_time: 882.698
+  start_time: 696.558
+  step_id: 213
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: -1.0
+  errors:
+  - description: cook for 2 mins instead of 1 min
+    tag: Timing Error
+  modified_description: cook-cook the pan, often stirring, for 2 minute
+  start_time: -1.0
+  step_id: 207
+- description: Add-1/4 tbsp balsamic vinegar to the pan
+  end_time: 1049.9
+  errors:
+  - description: add 1 tbsp balsamic vinegar instead of 1/4 tbsp
+    tag: Measurement Error
+  modified_description: Add-1 tbsp balsamic vinegar to the pan
+  start_time: 1006.904
+  step_id: 217
+- description: Add-Add 2 cloves of minced garlic to the pan
+  end_time: 1070.246
+  start_time: 1055.872
+  step_id: 218
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 1140.225
+  start_time: 1070.955
+  step_id: 207
+- description: Season-Season pan with salt
+  end_time: 1164.509
+  start_time: 1146.362
+  step_id: 220
+- description: Season-pepper on pan to taste
+  end_time: 1185.161
+  errors:
+  - description: spill some pepper outside
+    tag: Technique Error
+  modified_description: Season-pepper on pan to taste and spill some outside while
+    adding
+  start_time: 1166.341
+  step_id: 219
+- description: Transfer-Transfer the contents of the pan to a serving dish
+  end_time: 1223.529
+  start_time: 1190.993
+  step_id: 216
+- description: Add-Add chopped shallot to the pan
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 209
+- description: Pull-Pull out mushroom stems
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 214

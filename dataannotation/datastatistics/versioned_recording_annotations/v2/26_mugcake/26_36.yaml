@@ -1,0 +1,113 @@
+activity_id: 26
+is_error: true
+recording_id: '26_36'
+step_annotations:
+- description: Measure and add-1/4 tsp baking powder to the bowl
+  end_time: 57.227877725290696
+  errors:
+  - description: Dropping the measuring instrument in the bowl
+    tag: Technique Error
+  start_time: 10.793893229166668
+  step_id: 304
+- description: Measure and add-a pinch of salt to the mixing bowl
+  end_time: 74.38862515521524
+  start_time: 63.47971389693709
+  step_id: 310
+- description: Measure and add-Measure and add 2 tbsp flour to the mixing bowl
+  end_time: 150.25514436051327
+  start_time: 100.6691840956126
+  step_id: 299
+- description: Measure and add-1.5 tbsp sugar to the mixing bowl
+  end_time: 196.86594700951989
+  errors:
+  - description: Use of soiled measuring instrument
+    tag: Preparation Error
+  start_time: 159.18061720819537
+  step_id: 297
+- description: Whisk-Whisk to combine mixture of flour, sugar and baking powder in
+    the bowl
+  end_time: 219.6754887313742
+  errors:
+  - description: use spoon to whisk instead of whisker
+    tag: Preparation Error
+  modified_description: Whisk-Whisk with spoon to combine mixture of flour, sugar
+    and baking powder in the bowl
+  start_time: 205.79141985720202
+  step_id: 308
+- description: Measure and add-Measure and add 2 tsp vegetable oil to the bowl
+  end_time: 285.62481588369207
+  start_time: 228.1051019764073
+  step_id: 300
+- description: Place-Place the paper cupcake liner inside the mug
+  end_time: 316.36811124793047
+  start_time: 294.0544291287252
+  step_id: 303
+- description: Set-Set aside the lined mug
+  end_time: 322
+  start_time: 315
+  step_id: 301
+- description: Measure and add-2 tbsp water to the bowl
+  end_time: 346.11968740687087
+  start_time: 325.29358409561263
+  step_id: 296
+- description: Measure and add-1/4 tsp vanilla extract to the bowl
+  end_time: 390.25119204263245
+  start_time: 357.524458267798
+  step_id: 313
+- description: Whisk-Whisk batter until no lumps remain
+  end_time: 438.8454331022352
+  errors:
+  - description: use a spoon to whisk instead of whisker
+    tag: Preparation Error
+  modified_description: Whisk-Whisk batter with spoon until no lumps remain
+  start_time: 394.71392846647353
+  step_id: 294
+- description: Pour-Pour batter into prepared mug
+  end_time: 471.07630727442057
+  start_time: 445.2916079366723
+  step_id: 307
+- description: Microwave-Microwave the mug and batter on high power for 60 seconds.
+    Check if the cake is done by inserting and toothpick into the center of the cake
+    and then removing it. If wet batter clings to the toothpick, microwave for an
+    additional 5 seconds. If the toothpick comes out clean, continue
+  end_time: 560.8268953538908
+  start_time: 476.0349033009106
+  step_id: 312
+- description: Invert-Invert the mug to release the cake onto a plate
+  end_time: 582.644717870447
+  start_time: 571.2399470095199
+  step_id: 309
+- description: Allow-Allow to cool until it is no longer hot to the touch
+  end_time: 593.0577695260762
+  errors:
+  - description: did not wait the cake to be cool
+    tag: Technique Error
+  start_time: 583.1405774730961
+  step_id: 305
+- description: remove-then carefully remove the paper liner
+  end_time: 607.4376980028974
+  start_time: 593.5536291287252
+  step_id: 295
+- description: Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop
+    4 spoonfuls of chocolate frosting into a zip-top bag
+  end_time: 686.7752344267384
+  start_time: 617.8507496585265
+  step_id: 298
+- description: seal-seal zip top bag, removing as much air as possible
+  end_time: 713.0557933671358
+  start_time: 688.2628132346855
+  step_id: 311
+- description: cut-Use scissors to cut one corner from the bag to create a small opening
+    1/4 inch in diameter
+  end_time: 742.3115099234271
+  start_time: 716.5268105856788
+  step_id: 306
+- description: Squeeze-Squeeze the frosting through the opening to apply small dollops
+    of frosting to the plate in a circle around the base of the cake
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 302

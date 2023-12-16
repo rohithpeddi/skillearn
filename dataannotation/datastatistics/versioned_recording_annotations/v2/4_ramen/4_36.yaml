@@ -1,0 +1,94 @@
+activity_id: 4
+is_error: true
+recording_id: '4_36'
+step_annotations:
+- description: Peel-Peel 1 medium onion
+  end_time: 140
+  start_time: 25.256186215235793
+  step_id: 47
+- description: Peel-Peel 1 garlic clove
+  end_time: 245.312
+  errors:
+  - description: Peeling two garlic cloves instead of one.
+    tag: Measurement Error
+  modified_description: Peel-Peel 2 garlic cloves.
+  start_time: 170.47925695284158
+  step_id: 14
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 311.394
+  start_time: 272.504
+  step_id: 51
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: 417.054
+  errors:
+  - description: Chopping the 1/4 onion instead of slicing.
+    tag: Technique Error
+  modified_description: Chop-Chop 1/4 medium onion into pieces
+  start_time: 344.74694183796856
+  step_id: 46
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 485.546
+  start_time: 467.23944498186216
+  step_id: 44
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 525.117
+  errors:
+  - description: Spilling some vegetables on the counter top.
+    tag: Technique Error
+  modified_description: Put-Put all the Vegetables in a microwave-safe bowl and spill some on counter top.
+  start_time: 506.3865336154777
+  step_id: 54
+- description: Add-Add the noodles to the bowl
+  end_time: 580.629
+  start_time: 568.2641898428053
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 594.8340000000001
+  start_time: 584.6807108827086
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 614.039
+  errors:
+  - description: Not covering the paper towel properly.
+    tag: Technique Error
+  modified_description: Cover-Cover with a paper towel improperly.
+  start_time: 608.6740877871825
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 801.788
+  errors:
+  - description: Instead of 4 minute microwaving only for two and half minutes.
+    tag: Timing Error
+  modified_description: Microwave-Microwave the ramen for 2.5 minutes
+  start_time: 641.5071298669891
+  step_id: 45
+- description: Add-Add basil to the bowl
+  end_time: 814.5120054413543
+  start_time: 803.1467216444981
+  step_id: 50
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 887.7549454655381
+  errors:
+  - description: Allowing it to sit only for 1/2 minute instead of 1 minute.
+    tag: Timing Error
+  modified_description: Let-Let the noodles sit for about 1/2 minute after the microwave
+    stops
+  start_time: 853.6590940749699
+  step_id: 48
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 946.062
+  start_time: 940.543
+  step_id: 53
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 1003.196
+  errors:
+  - description: While mixing the flavour packet and spilled some out of the bowl.
+    tag: Technique Error
+  modified_description: Mix-Mix in the flavour packet to the bowl and spill some on countertop.
+  start_time: 986.2540717049577
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 1044
+  start_time: 1011
+  step_id: 43

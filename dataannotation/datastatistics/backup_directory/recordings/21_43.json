@@ -1,0 +1,125 @@
+{
+    "id": "21_43",
+    "activity_id": 21,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Add-1/2 tsp baking powder to a blender",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spilling the powder onto hands while adding it to the blender"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 banana to a blender"
+        },
+        {
+            "description": "Add-1 egg to a blender",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cracking the egg improperly such that some part of the egg shell falls into the blender"
+                }
+            ]
+        },
+        {
+            "description": "Add-1 heaped tbsp flour to a blender",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Dropping flour while adding heaped measuring utensil into the blender"
+                }
+            ]
+        },
+        {
+            "description": "blitz-blitz the blender for 20 seconds"
+        },
+        {
+            "description": "Melt-Melt a small knob of butter in a non-stick frying pan over low-medium heat"
+        },
+        {
+            "description": "Chop-Chop 1 strawberry",
+            "modified_description": ".",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Did not chop strawberry"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour three little puddles straight from the blender into the frying pan",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Pour one large puddle instead of little puddles"
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook for 1 min or until the tops start to bubble"
+        },
+        {
+            "description": "Flip-Flip the pancakes with a fork or a fish slice spatula",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Not using fish slice spatula"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Trying to flip before its is solid resulting in making a large ball"
+                }
+            ]
+        },
+        {
+            "description": "cook-cook for 20-30 seconds more"
+        },
+        {
+            "description": "splash-splash maple syrup on plate"
+        },
+        {
+            "description": "Transfer-Transfer to a plate"
+        },
+        {
+            "description": "Serve-Serve the pancakes with chopped strawberries",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Miss adding strawberries to the plate"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-10T17:47:22.905673\"",
+        "end_time": "null"
+    }
+}

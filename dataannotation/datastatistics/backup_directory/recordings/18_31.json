@@ -1,0 +1,125 @@
+{
+    "id": "18_31",
+    "activity_id": 18,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Heat-Heat a large pan on medium heat",
+            "modified_description": "Heat-Heat a large pan on low heat",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "use low heat instead of medium"
+                }
+            ]
+        },
+        {
+            "description": "Melt-Melt 1 tablespoons of softened butter",
+            "modified_description": "Melt-Melt 1 tablespoons of softened butter",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1/2 tbsp of butter instead of 1 tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 1 garlic cloves",
+            "modified_description": "Peel- incompletely Peel 1 garlic cloves",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "peel only halfway"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 large minced garlic cloves to the pan",
+            "modified_description": "Add-Add 1 large crushed garlic cloves to the pan",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "crushed instead of minced"
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic",
+            "modified_description": "Cook-Cook garlic until fragrant (about 1/2 minutes). Be careful not to burn garlic",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "1/2 min instead of 1 min"
+                }
+            ]
+        },
+        {
+            "description": "season-pepper to taste"
+        },
+        {
+            "description": "Add-1/6 cup grated parmesan cheese",
+            "modified_description": "Add-1/6 cup grated parmesan cheese and spill some outside",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill while adding"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove from heat"
+        },
+        {
+            "description": "Top-Top with more parmesan if desired",
+            "modified_description": "Top-Top with more cheddar if desired",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "top with cheddar cheese "
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "season-season with salt"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add the zucchini noodles"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Cook-Cook for 2 minutes or until the zoodles are done"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

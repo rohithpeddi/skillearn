@@ -1,0 +1,149 @@
+{
+    "id": "4_40",
+    "activity_id": 4,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 garlic clove",
+            "modified_description": "Peel-Peel 2 garlic cloves",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "2 instead of 1 garlic clove"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 1 medium onion",
+            "modified_description": "Prepare 1 medium onion and don't peel it",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Not peel"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 garlic clove on a cutting board",
+            "modified_description": "Since-Since 1 garlic clove on a cutting board",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Since instead of chop"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove the noodles from the package(Break Noodles / Keep them as a block)",
+            "modified_description": "Remove-Remove the noodles from the package(Separate the noodles into 2 pieces)",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Separate the noodles into 2 pieces"
+                }
+            ]
+        },
+        {
+            "description": "slice-slice 1/4 medium onion into pieces",
+            "modified_description": "Chop-Chop 1/4 medium onion into pieces",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Chop instead of slice"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped cilantro to the bowl"
+        },
+        {
+            "description": "Add-Add the noodles to the bowl"
+        },
+        {
+            "description": "Put-Put all the Vegetables in a microwave-safe bowl"
+        },
+        {
+            "description": "Cover-Cover with a lid (or paper towel) to prevent splattering"
+        },
+        {
+            "description": "Microwave-Microwave the ramen for 4 minutes",
+            "modified_description": "Microwave-Microwave the ramen for 1 minute",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "1 instead of 4 minutes"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix in the flavour packet to the bowl",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Missing"
+                }
+            ]
+        },
+        {
+            "description": "Let-Let the noodles sit for about 1 minute after the microwave stops",
+            "modified_description": "Let-Let the noodles sit for about 30 seconds after the microwave stops",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "30 seconds instead of 1 minute"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped basil to the bowl"
+        },
+        {
+            "description": "cover-cover the noodles with water",
+            "modified_description": "cover-cover half of the noodles with water",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "the water does not cover the noodles, half cover"
+                }
+            ]
+        },
+        {
+            "description": "Stir-Stir noodles with a spoon or fork until the flavouring dissolves",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Null"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 7,
+    "selected_by": 7,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

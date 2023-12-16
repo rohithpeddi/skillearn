@@ -1,0 +1,82 @@
+activity_id: 29
+is_error: true
+recording_id: '29_48'
+step_annotations:
+- description: Cut-Cut 1/4 cup of cherry tomatoes into halves
+  end_time: 108.47967756382167
+  errors:
+  - description: Using normal tomatoes instead of cherry tomatoes
+    tag: Preparation Error
+  start_time: 0.7312472386336936
+  step_id: 350
+- description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+  end_time: 143.30745302246828
+  errors:
+  - description: Do not slice the baguette slanted
+    tag: Technique Error
+  start_time: 110.29362420229285
+  step_id: 344
+- description: add-1/16 cup basil to a bowl
+  end_time: 190.83285495041312
+  errors:
+  - description: Added 1/4 cup basil instead of 1/16 cup basil
+    tag: Measurement Error
+  modified_description: add-1/4 cup basil to a bowl
+  start_time: 144.75861033324523
+  step_id: 347
+- description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
+    until lightly charred and crispy and transfer the slices to a plate
+  end_time: 329.7811674573054
+  errors:
+  - description: Toasted for 1 minute instead of 2 to 3 minutes
+    tag: Timing Error
+  - description: Step performed before brushing the bread with olive oil
+    tag: Order Error
+  - description: Toasted on low heat
+    tag: Temperature Error
+  modified_description: Toast-Toast both sides of the slices on the pan for 1 minute
+    on low heat
+  start_time: 192.64680158888433
+  step_id: 352
+- description: add-1/8 cup shredded mozzarella to a bowl
+  end_time: 361.34383896670386
+  errors:
+  - description: Spill while adding mozzarella to a bowl
+    tag: Technique Error
+  modified_description: add-1/8 cup shredded mozzarella to a bowl, but spill
+  start_time: 335.94858602810734
+  step_id: 342
+- description: add-1/4 tsp salt to a bowl
+  end_time: 400.88787568537555
+  start_time: 374.04146543600206
+  step_id: 343
+- description: add-In a bowl, add the cut cherry tomatoes
+  end_time: 424.46918198550077
+  start_time: 405.9669262730948
+  step_id: 351
+- description: Brush-Brush 2 slices of baguette with olive oil on both sides
+  end_time: 472.3573732411399
+  errors:
+  - description: Used sesame oil instead of olive oil
+    tag: Preparation Error
+  - description: Step performed after toasting the bread
+    tag: Order Error
+  modified_description: Brush-Brush 2 slices of baguette with sesame oil on both sides
+  start_time: 429.1854432455259
+  step_id: 349
+- description: add-1/4 tsp pepper to a bowl
+  end_time: 491.94799693662867
+  start_time: 475.9852665180823
+  step_id: 346
+- description: Combine-Combine the contents of the bowl
+  end_time: 508.9990953382577
+  start_time: 495.575890213571
+  step_id: 348
+- description: Spoon-Spoon the mixture from the bowl onto the bread
+  end_time: 575
+  errors:
+  - description: Spill while spooning the mixture from bowl onto the bread
+    tag: Technique Error
+  modified_description: Spoon-Spoon the mixture from the bowl onto the bread but spill
+  start_time: 550
+  step_id: 345

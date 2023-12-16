@@ -1,0 +1,106 @@
+{
+    "id": "8_44",
+    "activity_id": 8,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Fill-Fill a microwave-safe mug with skimmed milk",
+            "modified_description": "Fill-Fill a microwave-safe mug with expired skimmed milk and spill some milk out while filling",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spilling milk while filling the milk"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Used expired milk for the recipe"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 pieces of chocolate to the mug",
+            "modified_description": "Add-Add 5 pieces of chocolate to the mug",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add more (5) pieces of choclate"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/5 teaspoon cinnamon to the mug",
+            "modified_description": "Add-Add 1/5 tablespoon cinnamon to the mug",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "use tablespoon in place of teaspoon"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the contents of the mug",
+            "modified_description": "Mix-Mix the contents of the mug by rotating motion of the cup",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "Mix-Mix the contents of the mug without using a spoon"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat the contents of the mug for 1 minute and serve",
+            "modified_description": "Heat-Heat the contents of the mug for 2 minutes and this may lead to milk rising beyond the brim of the cup and spilling",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Heat-Heat the contents of the mug for 2 minutes instead of 1 min"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Heat-Heat the contents of the mug for 2 minutes instead of 1 min"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Milk rose up and spilled from cup in the microwave due to more temperature and time"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Microwave-Microwave the contents of the mug for 1 minute"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add 1 teaspoon of white sugar to the mug"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-13T02:00:05.299564\"",
+        "end_time": "\"2023-04-13T02:07:10.316164\""
+    }
+}

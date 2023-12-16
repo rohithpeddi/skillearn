@@ -1,0 +1,75 @@
+activity_id: 2
+is_error: true
+recording_id: '2_4'
+step_annotations:
+- description: Place-Place 5 meatballs in a Microwave-safe plate
+  end_time: 50.71661603024698
+  start_time: 1.5541534506369428
+  step_id: 21
+- description: Peel-Peel 1 garlic clove
+  end_time: 100.30754832137032
+  start_time: 50.949865814029366
+  step_id: 14
+- description: Cut-Cut 1/8 garlic clove
+  end_time: 125.782481228385
+  start_time: 103.49191493474714
+  step_id: 16
+- description: Peel-Peel one medium onion
+  end_time: 178.32453034910276
+  start_time: 127.3746645350734
+  step_id: 17
+- description: Cut-Cut 1/4 medium carrot into short, thin strips
+  end_time: 313.6601114176183
+  start_time: 178.3245303491028
+  step_id: 22
+- description: Mince-Mince 1/8 garlic clove
+  end_time: 345.50377755138663
+  start_time: 318.4366613376835
+  step_id: 26
+- description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in
+    a small bowl
+  end_time: 445.811325872757
+  start_time: 358.241244004894
+  step_id: 23
+- description: cut-Cut onion into two pieces
+  end_time: 466.50970885970634
+  start_time: 445.8113258727569
+  step_id: 27
+- description: Slice-Slice 1/8 medium onion
+  end_time: 493.57682507340945
+  start_time: 464.9175255530179
+  step_id: 19
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper
+    powder
+  end_time: 562.0407072610114
+  errors:
+  - description: Put extra 1/4 tsp pepper to the bowl
+    tag: Preparation Error
+  modified_description: Top-Top the plate with the carrots, onion, garlic and 1/4
+    tsp pepper powder, but put extra 1/4 tsp pepper to the bowl
+  start_time: 493.57682507340945
+  step_id: 24
+- description: Pour-Pour the sauces over the meatballs
+  end_time: 577.9625403278957
+  start_time: 560.4485239543229
+  step_id: 15
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 757.8
+  start_time: 582.7
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 777
+  start_time: 757.8
+  step_id: 18
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 874.1086353719413
+  start_time: 776.9854536639477
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 894.8070183588907
+  start_time: 874.1086353719413
+  step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: 971.2318170799348
+  start_time: 893.2148350522024
+  step_id: 25

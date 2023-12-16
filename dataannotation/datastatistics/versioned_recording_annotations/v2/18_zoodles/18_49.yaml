@@ -1,0 +1,118 @@
+activity_id: 18
+is_error: true
+recording_id: '18_49'
+step_annotations:
+- description: Peel-Peel 1 garlic cloves
+  end_time: 328.309
+  errors:
+  - description: Peel entire garlic instead of 1 garlic clove
+    tag: Measurement Error
+  - description: Peel cloves improperly
+    tag: Technique Error
+  modified_description: Peel-Peel 2 garlic
+  start_time: 0
+  step_id: 200
+- description: Heat-Heat a large pan on medium heat
+  end_time: 343.138
+  errors:
+  - description: Heat-Heat a large pan on high heat
+    tag: Temperature Error
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
+  modified_description: Heat-Heat a large pan on high heat
+  start_time: 335.423
+  step_id: 196
+- description: Add-Add 1 large minced garlic cloves to the pan
+  end_time: 685.025
+  errors:
+  - description: Add-Add 2 large sliced garlic to the pan. mince not done properly
+      instead slicing done
+    tag: Technique Error
+  - description: Add cloves along with peeled skin
+    tag: Preparation Error
+  - description: Add all cloves in a garlic instead of 1
+    tag: Measurement Error
+  - description: Step performed before spiralizing zucchini and melting butter in the pan
+    tag: Order Error
+  start_time: 360.851
+  step_id: 199
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
+    burn garlic
+  end_time: 858.835
+  errors:
+  - description: Cook-Cook garlic until fragrant (about 3 minutes). Burn the garlic.
+    tag: Timing Error
+  - description: Cook-Cook garlic until fragrant (about 3 minutes). Burn the garlic.
+    tag: Technique Error
+  - description: Step performed before spiralizing zucchini and melting butter in the pan
+    tag: Order Error
+  modified_description: Cook-Cook garlic until fragrant (about 3 minutes). Burn the
+    garlic.
+  start_time: 686.074
+  step_id: 202
+- description: season-pepper to taste
+  end_time: 876.025
+  errors:
+  - description: Step performed before spiralizing zucchini and melting butter in the pan
+    tag: Order Error
+  start_time: 859.983
+  step_id: 194
+- description: season-season with salt
+  end_time: 887.891
+  errors:
+  - description: Step performed before spiralizing zucchini and melting butter in the pan
+    tag: Order Error
+  start_time: 878.864
+  step_id: 198
+- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+  end_time: 1077.667
+  errors:
+  - description: Step performed after seasoning
+    tag: Order Error
+  start_time: 906.809
+  step_id: 203
+- description: Add-Add the zucchini noodles
+  end_time: 1105.553
+  errors:
+  - description: Step performed after seasoning
+    tag: Order Error
+  start_time: 1085.84
+  step_id: 201
+- description: Melt-Melt 1 tablespoons of softened butter
+  end_time: 1168.434
+  errors:
+  - description: Freeze-Freeze 1 tablespoons of softened butter
+    tag: Temperature Error
+  - description: Step performed after correct order
+    tag: Order Error
+  modified_description: Freeze- Freeze 1 tablespoons of softened butter
+  start_time: 1116.563
+  step_id: 204
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: 1391.256
+  errors:
+  - description: Cook-Cook for 4 minutes or until the zoodles are done
+    tag: Timing Error
+  - description: Step performed before adding parmesan cheese
+    tag: Order Error
+  modified_description: Cook-Cook for 4 minutes or until the zoodles are done
+  start_time: 1190.263
+  step_id: 192
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 1459.186
+  errors:
+  - description: Add-1/4 cup grated parmesan cheese
+    tag: Measurement Error
+  - description: Step performed after cooking zoodles
+    tag: Order Error
+  modified_description: Add-1/4 cup grated parmesan cheese
+  start_time: 1391.816
+  step_id: 193
+- description: Remove-Remove from heat
+  end_time: 1463.482
+  start_time: 1459.624
+  step_id: 197
+- description: Top-Top with more parmesan if desired
+  end_time: 1494.415
+  start_time: 1481.08
+  step_id: 195

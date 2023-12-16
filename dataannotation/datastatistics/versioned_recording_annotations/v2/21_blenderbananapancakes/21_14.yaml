@@ -1,0 +1,67 @@
+activity_id: 21
+is_error: true
+recording_id: '21_14'
+step_annotations:
+- description: Add-1 heaped tbsp flour to a blender
+  end_time: 56.92352478658325
+  start_time: 14.162768585987264
+  step_id: 232
+- description: Add-Add 1 banana to a blender
+  end_time: 86.81178716368531
+  start_time: 64.34285401543734
+  step_id: 225
+- description: Chop-Chop 1 strawberry
+  end_time: 132.7709686032834
+  start_time: 112.68510412227387
+  step_id: 233
+- description: Add-1 egg to a blender
+  end_time: 160.62480619843018
+  start_time: 149.73077800534026
+  step_id: 229
+- description: Add-1/2 tsp baking powder to a blender
+  end_time: 195.3495210639043
+  start_time: 168.45488896221354
+  step_id: 221
+- description: blitz-blitz the blender for 20 seconds
+  end_time: 232.45730459661684
+  start_time: 200.11565839838113
+  step_id: 227
+- description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+    heat
+  end_time: 339.0145178602777
+  start_time: 265.4798275569207
+  step_id: 223
+- description: Pour-Pour three little puddles straight from the blender into the frying
+    pan
+  end_time: 414.59183844983903
+  errors:
+  - description: Drop the blender
+    tag: Timing Error
+  modified_description: Pour-Pour three little puddles straight from the blender into
+    the frying pan, but drop the blender
+  start_time: 371.69660243954746
+  step_id: 231
+- description: Cook-Cook for 1 min or until the tops start to bubble
+  end_time: 437.40120997912106
+  start_time: 415.9535919739753
+  step_id: 226
+- description: Flip-Flip the pancakes with a fork or a fish slice spatula
+  end_time: 463.9554036997778
+  start_time: 437.7416483601551
+  step_id: 228
+- description: cook-cook for 20-30 seconds more
+  end_time: 491.5309125635366
+  start_time: 464.63628046184584
+  step_id: 230
+- description: Transfer-Transfer to a plate
+  end_time: 510.935900282478
+  start_time: 492.55222770663875
+  step_id: 234
+- description: Serve-Serve the pancakes with chopped strawberries
+  end_time: 524.6556758044065
+  start_time: 513.0437903222352
+  step_id: 222
+- description: splash-splash maple syrup on plate
+  end_time: 541.9489153269607
+  start_time: 526.2135810048616
+  step_id: 224

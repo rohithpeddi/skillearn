@@ -1,0 +1,116 @@
+activity_id: 22
+is_error: true
+recording_id: '22_41'
+step_annotations:
+- description: Take-Take a tomato
+  end_time: 26.99785249517375
+  start_time: 22.580022086872585
+  step_id: 247
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 121.24490120559845
+  errors:
+  - description: not really chop, just cut into pieces
+    tag: Technique Error
+  start_time: 29.943072767374517
+  step_id: 237
+- description: Cut-Cut tomato into two pieces
+  end_time: 140.3888329749035
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 121.73577125096524
+  step_id: 246
+- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+  end_time: 163.45972510714287
+  errors:
+  - description: not a small pan, it's a medium size pan
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 141.86144311100384
+  step_id: 235
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 245.92589272876444
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 175.73147624131272
+  step_id: 240
+- description: add-add the chopped cilantro to the bowl
+  end_time: 295.012897265444
+  start_time: 286.17723644884165
+  step_id: 242
+- description: Beat-Beat the contents of the bowl
+  end_time: 307.2846483996139
+  errors:
+  - description: using hand finger to beat the contents...
+    tag: Preparation Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 294.5220272200772
+  step_id: 248
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 324.46509998745177
+  errors:
+  - description: more like pour them out
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 318.0837893976834
+  step_id: 244
+- description: put-put tomatoes on a serving plate
+  end_time: 330.84641057722007
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 322.9924898513513
+  step_id: 236
+- description: crack-crack one egg in a bowl
+  end_time: 359.80774325386096
+  errors:
+  - description: egg shells are in the bowl
+    tag: Technique Error
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 347.04512207432424
+  step_id: 239
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 399.07734688320465
+  errors:
+  - description: Step performed after correct order
+    tag: Order Error
+  start_time: 367.6616639797297
+  step_id: 249
+- description: Pour-Pour the egg mixture into the pan
+  end_time: 437.36521042181465
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 419.2030187432432
+  step_id: 241
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 483.5069946862934
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 437.8560804671814
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: 489.88830527606177
+  errors:
+  - description: not an exact omelette
+    tag: Technique Error
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 484.488734777027
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: 503.632666546332
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 492.83352554826246
+  step_id: 243

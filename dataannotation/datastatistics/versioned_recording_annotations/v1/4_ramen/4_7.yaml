@@ -1,0 +1,65 @@
+activity_id: 4
+is_error: false
+recording_id: '4_7'
+step_annotations:
+- description: Peel-Peel 1 medium onion
+  end_time: 87.872
+  start_time: 27.993223463705306
+  step_id: 47
+- description: Peel-Peel 1 garlic clove
+  end_time: 138.54500000000002
+  start_time: 99.42420747453954
+  step_id: 14
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: 185.33444500108342
+  start_time: 164.09820651137596
+  step_id: 46
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 229.73748911592634
+  start_time: 194.9872806782232
+  step_id: 51
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 273.17524966305524
+  start_time: 256.76542901191766
+  step_id: 54
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 333.98811442903576
+  start_time: 305.9948909653304
+  step_id: 44
+- description: Add-Add the noodles to the bowl
+  end_time: 334.95339799674974
+  start_time: 315.294
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 353.2937857833153
+  start_time: 342.114
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 393.8356956273023
+  start_time: 388.0439942210184
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 684.288
+  start_time: 410.114
+  step_id: 45
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 794.328
+  start_time: 788.671
+  step_id: 53
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 816.6298982860238
+  start_time: 688.2471837800649
+  step_id: 48
+- description: Add-Add basil to the bowl
+  end_time: 832.0744353694474
+  start_time: 818.5604654214518
+  step_id: 50
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 852.206
+  start_time: 843.6578381820151
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 882.93
+  start_time: 864.8940766717227
+  step_id: 43

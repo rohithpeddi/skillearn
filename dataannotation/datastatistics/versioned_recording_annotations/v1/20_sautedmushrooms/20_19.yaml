@@ -1,0 +1,77 @@
+activity_id: 20
+is_error: false
+recording_id: '20_19'
+step_annotations:
+- description: Rinse-Rinse 3 mushrooms under cold water
+  end_time: 63.407
+  start_time: 0.957
+  step_id: 206
+- description: pat-pat rinsed mushrooms dry with a paper towel
+  end_time: 100.44
+  start_time: 64.402
+  step_id: 205
+- description: Pull-Pull out mushroom stems
+  end_time: 167.724
+  start_time: 107.189
+  step_id: 214
+- description: Slice-Slice the mushrooms
+  end_time: 286.696
+  start_time: 185.345
+  step_id: 210
+- description: Peel-Peel 2 garlic cloves
+  end_time: 365.714
+  start_time: 290.819
+  step_id: 176
+- description: Chop-Chop 1 shallot
+  end_time: 539.463
+  start_time: 372.78086508397394
+  step_id: 212
+- description: mince-mince garlic cloves
+  end_time: 680.543
+  start_time: 555.794
+  step_id: 211
+- description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+  end_time: 735.201
+  start_time: 685.405
+  step_id: 215
+- description: add-Once the pan is hot, add the mushrooms
+  end_time: 819.219
+  start_time: 770.324
+  step_id: 208
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
+    soften and brown
+  end_time: 1107.129
+  start_time: 820.717
+  step_id: 213
+- description: Add-Add chopped shallot to the pan
+  end_time: 1120.949
+  start_time: 1108.46
+  step_id: 209
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 1181
+  start_time: 1121
+  step_id: 207
+- description: Add-1/4 tbsp balsamic vinegar to the pan
+  end_time: 1222.218
+  start_time: 1182.607
+  step_id: 217
+- description: Add-Add 2 cloves of minced garlic to the pan
+  end_time: 1245.583
+  start_time: 1235.133
+  step_id: 218
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 1277.038
+  start_time: 1246.749
+  step_id: 207
+- description: Season-pepper on pan to taste
+  end_time: 1288.048
+  start_time: 1278.133
+  step_id: 219
+- description: Season-Season pan with salt
+  end_time: 1297.46
+  start_time: 1288.379
+  step_id: 220
+- description: Transfer-Transfer the contents of the pan to a serving dish
+  end_time: 1327.289
+  start_time: 1312.417
+  step_id: 216

@@ -1,0 +1,202 @@
+{
+    "id": "16_40",
+    "activity_id": 16,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat",
+            "modified_description": "Heat-Heat 3 tbsp oil in a heavy-bottomed or nonstick pan on low heat",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using 3 tbsp of oil instead of 2 tbsp."
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Low heat instead of medium."
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1/4 medium onion",
+            "modified_description": "Slice-Slice 1/4 medium onion",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Instead of chopping doing a slicing."
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 green chilli",
+            "modified_description": "Chop-Chop 1 green chilli without cleaning.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Not washing the green chilli."
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 tsp cilantro",
+            "modified_description": "Chop-Chop 1 tbsp cilantro.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using 1 tbsp instead of 1 tsp."
+                }
+            ]
+        },
+        {
+            "description": "Crack-Crack one egg in the bowl",
+            "modified_description": "Crack-Crack one egg in the bowl with some egg shell remains in the bowl.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Leaving the egg shell remains in the bowl."
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1/4 tomato",
+            "modified_description": "Chop-Chop 1/8 tomato",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using 1/2 tomato instead of 1/4 tomato."
+                }
+            ]
+        },
+        {
+            "description": "Whisk-Whisk the egg mixture in the bowl"
+        },
+        {
+            "description": "Add-Add tomatoes to the pan"
+        },
+        {
+            "description": "add-add chopped onions to the pan"
+        },
+        {
+            "description": "Peel-Peel 2 garlic cloves",
+            "modified_description": "Peel-Peel 2 garlic cloves improperly.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Not properly peeling the Garlic cloves."
+                }
+            ]
+        },
+        {
+            "description": "add-add 1/3 tsp salt to the bowl",
+            "modified_description": "Add-Add 1/3 tbsp salt to the bowl.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Adding the 1/3 tbsp instead of 1/3 tsp."
+                }
+            ]
+        },
+        {
+            "description": "Mince-Mince peeled garlic cloves"
+        },
+        {
+            "description": "Saute-Saute the onions on medium heat until they are soft and translucent"
+        },
+        {
+            "description": "Add-Add chilli to the pan"
+        },
+        {
+            "description": "add-add  1 tbsp milk to the bowl",
+            "modified_description": "Add-Add 1 tsp milk to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Adding 1 tsp milk to the bowl instead of 1 tbsp."
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook covered for 1 minute or until the tomatoes soften",
+            "modified_description": "Cook-Cook covered for 1.5 minute or until the tomatoes soften",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Covering more than a minute instead of 1 minute."
+                }
+            ]
+        },
+        {
+            "description": "pour-Slowly pour the whisked eggs into the pan",
+            "modified_description": "Pour-Fastly pour the whisked eggs into the pan",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Pouring very fastly into the pan instead of slowly."
+                }
+            ]
+        },
+        {
+            "description": "mixing-Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked",
+            "modified_description": "Mixing-Keep mixing with a spatula for less than 3 minutes or until the eggs are almost cooked",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Mixing with a spatula less than 3 minutes intead of exactly 3 minutes."
+                }
+            ]
+        },
+        {
+            "description": "Garnish-Garnish with 1 tbsp chopped cilantro and serve"
+        },
+        {
+            "description": "Add-Add 1/8 tsp of turmeric to the pan",
+            "modified_description": "Add-Add 1/8 tbsp of turmeric to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Adding 1/8 tbsp turmeric instead of 1/8 tsp."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add garlic to the pan"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "add-add 1/3 tsp salt to the pan"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Cook-Cook for 1 minute, mixing everything"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

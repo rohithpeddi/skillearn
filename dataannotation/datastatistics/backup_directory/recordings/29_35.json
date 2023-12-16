@@ -1,0 +1,140 @@
+{
+    "id": "29_35",
+    "activity_id": 29,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "add-1/16 cup basil to a bowl",
+            "modified_description": "add-1/16 cup oregano to a plate",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "add-1/16 cup oregano to a plate"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)",
+            "modified_description": "Slice-Slice 3 1/2 inch thick rounds from a muffin (slice straight) using peeler.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Slice-Slice 3 1/2 inch thick rounds from a muffin (slice straight) using peeler. "
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Slice-Slice 3 1/2 inch thick rounds from a muffin (slice straight) using peeler."
+                }
+            ]
+        },
+        {
+            "description": "add-1/4 tsp salt to a bowl",
+            "modified_description": "add-1/4 tsp salt to a plate",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "add-1/4 tsp salt to a plate. Spilling happens."
+                }
+            ]
+        },
+        {
+            "description": "add-1/8 cup shredded mozzarella to a bowl",
+            "modified_description": "add-1/8 cup shredded cheddar to a plate.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "add-1/8 cup shredded cheddar to a plate. Opening the packet of cheddar in a wrong way. Did not use measuring cup to measure 1/8 cup. Did not close the fridge after taking out cheddar cheese from the fridge."
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "add-1/8 cup shredded cheddar to a plate. Opening the packet of cheddar in a wrong way. Did not use measuring cup to measure 1/8 cup. Did not close the fridge after taking out cheddar cheese from the fridge."
+                }
+            ]
+        },
+        {
+            "description": "add-1/4 tsp pepper to a bowl",
+            "modified_description": "add-1/4 tsp pepper to a plate",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "add-1/4 tsp pepper to a plate. Unable to open the container and replaced with other pepper powder container. Spilling happens while transferring pepper to plate."
+                }
+            ]
+        },
+        {
+            "description": "Combine-Combine the contents of the bowl",
+            "modified_description": "Combine-Combine the contents of the plate.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Combine-Combine the contents of the plate using peeler. Combine action not correct and not mixing all the ingredients on plate."
+                }
+            ]
+        },
+        {
+            "description": "Brush-Brush 2 slices of baguette with olive oil on both sides",
+            "modified_description": "No Brush-Directly apply 3 slices of cut muffin with vegetable oil on both sides without using brush",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "No Brush-Directly apply 3 slices of cut muffin with vegetable oil on both sides without using brush"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "No Brush-Directly apply 3 slices of cut muffin with vegetable oil on both sides without using brush"
+                }
+            ]
+        },
+        {
+            "description": "Spoon-Spoon the mixture from the bowl onto the bread",
+            "modified_description": "Spoon-Spoon the mixture from the plate onto the bread using fork.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Spoon-Spoon the mixture from the plate onto the bread using fork."
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Cut-Cut 1/4 cup of cherry tomatoes into halves"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Toast-Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transfer the slices to a plate"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "add-In a bowl, add the cut cherry tomatoes"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-13T19:10:00.165105\"",
+        "end_time": "null"
+    }
+}

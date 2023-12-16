@@ -1,0 +1,85 @@
+{
+    "id": "21_3",
+    "activity_id": 21,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Add-Add 1 banana to a blender"
+        },
+        {
+            "description": "Add-1 egg to a blender"
+        },
+        {
+            "description": "Add-1/2 tsp baking powder to a blender"
+        },
+        {
+            "description": "Add-1 heaped tbsp flour to a blender"
+        },
+        {
+            "description": "blitz-blitz the blender for 20 seconds"
+        },
+        {
+            "description": "Melt-Melt a small knob of butter in a non-stick frying pan over low-medium heat"
+        },
+        {
+            "description": "Pour-Pour three little puddles straight from the blender into the frying pan"
+        },
+        {
+            "description": "Cook-Cook for 1 min or until the tops start to bubble"
+        },
+        {
+            "description": "Chop-Chop 1 strawberry"
+        },
+        {
+            "description": "Flip-Flip the pancakes with a fork or a fish slice spatula"
+        },
+        {
+            "description": "cook-cook for 20-30 seconds more",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Did not turn off the stove after 30 seconds"
+                }
+            ]
+        },
+        {
+            "description": "Transfer-Transfer to a plate"
+        },
+        {
+            "description": "Serve-Serve the pancakes with chopped strawberries",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spilled while adding strawberries to the plate"
+                }
+            ]
+        },
+        {
+            "description": "splash-splash maple syrup on plate"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-19T14:31:35.064953\"",
+        "end_time": "null"
+    }
+}

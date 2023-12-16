@@ -1,0 +1,130 @@
+{
+    "id": "15_30",
+    "activity_id": 15,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Heat-Heat 3 tbsp oil in a pan over medium heat"
+        },
+        {
+            "description": "Take-Take 1 tomato"
+        },
+        {
+            "description": "Add-Add 1/4 tsp mustard to the pan"
+        },
+        {
+            "description": "Chop-Chop tomato roughly (anysize chunks are fine)"
+        },
+        {
+            "description": "Peel-Peel 4 large garlic cloves",
+            "modified_description": "Peel-Peel 2 instead of 4 large garlic cloves",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "only 2 garlic are peeled and minced instead of 4"
+                }
+            ]
+        },
+        {
+            "description": "puree-puree tomatoes without any water in a blender/mixer"
+        },
+        {
+            "description": "mince-mince the garlic",
+            "modified_description": "mince-mince only 2 garlic instead of 4",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "mince only 2 garlic instead of 4"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/2 tsp cumin seeds to the pan"
+        },
+        {
+            "description": "add-When mustard and cumin seeds begin to sizzle, add minced garlic",
+            "modified_description": "add-When mustard and cumin seeds begin to sizzle and burn them, add minced garlic and spill it ",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "burn mustard"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill garlic while adding"
+                }
+            ]
+        },
+        {
+            "description": "Lower-Lower the heat"
+        },
+        {
+            "description": "Saute-Saute the garlic for 2-3 minutes",
+            "modified_description": "Saute-Saute the garlic for 1 min and burn the garlic",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "saute the garlic only for 1 min and burn it"
+                }
+            ]
+        },
+        {
+            "description": "mix-mix well contents of the pan"
+        },
+        {
+            "description": "Add-1/2 tsp salt to the pan"
+        },
+        {
+            "description": "Add-Add tomato puree to the pan"
+        },
+        {
+            "description": "Mix-Mix well tomato puree with contents in the pan"
+        },
+        {
+            "description": "simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick",
+            "modified_description": "simmer-Allow the mixture to simmer over low heat for 1 minute instead of 5 minutes or until the mixture becomes thick",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "simmer only for 1 min"
+                }
+            ]
+        },
+        {
+            "description": "Take-Take the pan off the heat"
+        },
+        {
+            "description": "Transfer-Transfer it to a serving bowl"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add 2 tbsp red chili powder to the pan"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

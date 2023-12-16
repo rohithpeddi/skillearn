@@ -1,0 +1,119 @@
+activity_id: 28
+is_error: true
+recording_id: '28_38'
+step_annotations:
+- description: Open-Open a can of tuna
+  end_time: 28.202305405405404
+  errors:
+  - description: Didn't open the can of Tuna.
+    tag: Preparation Error
+  modified_description: Take-Take a can of tuna and don't open it.
+  start_time: 6.558675675675675
+  step_id: 336
+- description: Add-1 tsp Sriracha sauce to the bowl
+  end_time: 108.21814864864865
+  start_time: 56.40461081081081
+  step_id: 339
+- description: Chop-Chop 1 scallion
+  end_time: 224.96257567567565
+  start_time: 119.36789729729729
+  step_id: 340
+- description: Take-Take 1 ripe avocado
+  end_time: 238.73579459459458
+  start_time: 226.93017837837837
+  step_id: 335
+- description: Add-add chopped scallion to the bowl
+  end_time: 259.72355675675675
+  start_time: 239.3916621621622
+  step_id: 333
+- description: Lay-Lay out 2 large lettuce leaves
+  end_time: 306.94602162162164
+  errors:
+  - description: Didn't wash the lettuce leaves and the leaves are not large.
+    tag: Preparation Error
+  - description: Take small lettuce leaves.
+    tag: Measurement Error
+  modified_description: Lay-Lay out 2 improper lettuce leaves without washing them.
+  start_time: 266.28223243243247
+  step_id: 329
+- description: cut-cut avocado into thin slices
+  end_time: 442.7106081081081
+  start_time: 308.9136243243243
+  step_id: 341
+- description: drain-drain excess water from can
+  end_time: 463.0425027027026
+  errors:
+  - description: Didn't drain the excess water as the can is not opened.
+    tag: Preparation Error
+  modified_description: Wash-Wash the Tuna can.
+  start_time: 445.3340783783783
+  step_id: 328
+- description: top-top lettuce leaves with the tuna mixture
+  end_time: 486.6537351351351
+  errors:
+  - description: Step performed before placing avocado slices on each leaf and before adding salt to the bowl.
+    tag: Order Error
+  start_time: 465.0101054054054
+  step_id: 332
+- description: place-place avocado slices on each leaf
+  end_time: 511.57670270270273
+  errors:
+  - description: Step performed after topping the lettuce leaves with the tuna mixture
+    tag: Order Error
+  start_time: 485.99786756756765
+  step_id: 325
+- description: Season-Season bowl with 1/4 tsp salt
+  end_time: 550.2728891891891
+  errors:
+  - description: Step performed after topping lettuce leaves with the tuna mixture and before adding mayonnaise to the bowl.
+    tag: Order Error
+  start_time: 536.4996702702703
+  step_id: 338
+- description: Add-1/4 cup mayonnaise to the bowl
+  end_time: 609.3009702702702
+  errors:
+  - description: Step performed after topping lettuce leaves with the tuna mixture
+    tag: Order Error
+  start_time: 566.6695783783783
+  step_id: 327
+- description: Roll-Roll up the lettuce wraps
+  end_time: 634.2239378378379
+  errors:
+  - description: Didn't properly roll the leaves.
+    tag: Technique Error
+  - description: Step performed before adding the tuna to the bowl.
+    tag: Order Error
+  start_time: 610.6127054054054
+  step_id: 330
+- description: Add-Add 1 can drained tuna to the bowl
+  end_time: 649.3088918918919
+  errors:
+  - description: Dropping the tuna can to the bowl without opening it.
+    tag: Technique Error
+  modified_description: Add-Add 1 washed tuna can to the bowl.
+  start_time: 633.5680702702703
+  step_id: 334
+- description: Mix-Mix the contents of the bowl
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 331
+- description: secure-secure the wrap with a toothpick
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 337
+- description: Season-season 1/4 tsp pepper on the bowl
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 326

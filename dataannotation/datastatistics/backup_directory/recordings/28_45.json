@@ -1,0 +1,141 @@
+{
+    "id": "28_45",
+    "activity_id": 28,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Open-Open a can of tuna"
+        },
+        {
+            "description": "Take-Take 1 ripe avocado"
+        },
+        {
+            "description": "Chop-Chop 1 scallion",
+            "modified_description": "Cut 1/2 scallion",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "1/2 scallion"
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": "1/2 scallion"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "1/2 scallion"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "1/2 scallion"
+                }
+            ]
+        },
+        {
+            "description": "drain-drain excess water from can",
+            "modified_description": "drain half excess water from can",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "not all water"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "half water"
+                }
+            ]
+        },
+        {
+            "description": "Add-1 tsp Sriracha sauce to the bowl"
+        },
+        {
+            "description": "cut-cut avocado into thin slices",
+            "modified_description": "cut avocado into thin slices",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "thick slices"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 can drained tuna to the bowl",
+            "modified_description": "Add 1 can drained tuna to the cup",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "cup"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 cup mayonnaise to the bowl"
+        },
+        {
+            "description": "Add-add chopped scallion to the bowl"
+        },
+        {
+            "description": "Mix-Mix the contents of the bowl"
+        },
+        {
+            "description": "Season-Season bowl with 1/4 tsp salt",
+            "modified_description": "Season-Season bowl with 1/2 tsp salt",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1/2 tsp salt"
+                }
+            ]
+        },
+        {
+            "description": "Lay-Lay out 2 large lettuce leaves"
+        },
+        {
+            "description": "top-top lettuce leaves with the tuna mixture"
+        },
+        {
+            "description": "place-place avocado slices on each leaf"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Season-season 1/4 tsp pepper on the bowl"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Roll-Roll up the lettuce wraps"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "secure-secure the wrap with a toothpick"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 6,
+    "selected_by": 6,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

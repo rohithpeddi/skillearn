@@ -1,0 +1,131 @@
+{
+    "id": "12_41",
+    "activity_id": 12,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse a tomato",
+            "modified_description": "Rinse-Rinse a tomato after spilling tomato on ground.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Rinse-Rinse a tomato. Before taking the tomato from fridge spilled other tomato on ground"
+                }
+            ]
+        },
+        {
+            "description": "dry-gently dry it with a tea towel"
+        },
+        {
+            "description": "Slice-Slice one tomato into about 1/2 inch thick slices",
+            "modified_description": "Slice-Slice one tomato into about 1/2 inch thick slices. slice not done properly.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cut tomatoes vertical in uneven direction. Slice action is forced and not seamless. Mess of tomato is made."
+                }
+            ]
+        },
+        {
+            "description": "Season-Season platter with 1/4 teaspoon black pepper",
+            "modified_description": "Season-Season glass cover of platter with 1/4 teaspoon black pepper",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Took transparent glass cover of platter instead of platter itself and sprinkled black pepper with spillage."
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Took transparent glass cover of platter instead of platter itself and sprinkled black pepper with spillage."
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter",
+            "modified_description": "Sprinkle-Sprinkle cheddar cheese on top of the tomato throughout the platter with spillage.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Sprinkle-Sprinkle cheddar cheese on top of the tomato throughout the platter with spillage."
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Sprinkle-Sprinkle cheddar cheese on top of the tomato throughout the platter with spillage."
+                }
+            ]
+        },
+        {
+            "description": "Season-Season the tomato slices with salt",
+            "modified_description": "Season-Season the tomato slices with powdered sugar",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Season-Season the tomato slices with powdered sugar. Also seasoning done from huge height."
+                }
+            ]
+        },
+        {
+            "description": "Garnish-Garnish platter with italian seasoning",
+            "modified_description": "Garnish-Garnish glass cover of platter with italian seasoning",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Garnish-Garnish glass cover of platter with italian seasoning  with spilling"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Garnish-Garnish glass cover of platter with italian seasoning with spilling"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer",
+            "modified_description": "Place-Place the thick slices of tomatoes on a glass cover of platter in no order as such.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Place-Place the thick slices of tomatoes on a platter in no order as such. Haphazard way of just throwing on glass cover."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter",
+            "modified_description": "Add-Add a drizzle of apple cider vinegar, about 1 tablespoon, over the entire glass cover of platter",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Add-Add a drizzle of apple cider vinegar, about 1 tablespoon, over the entire glass cover of platter"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-13T20:32:26.756001\"",
+        "end_time": "null"
+    }
+}

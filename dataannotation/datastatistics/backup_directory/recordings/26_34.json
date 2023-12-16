@@ -1,0 +1,187 @@
+{
+    "id": "26_34",
+    "activity_id": 26,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Measure and add-1.5 tbsp sugar to the mixing bowl",
+            "modified_description": "Measure and add-3 tbsp sugar to the mixing bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 3 tbsp instead of 1.5 tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-1/4 tsp baking powder to the bowl",
+            "modified_description": "Measure and add-1/4 tsp baking soda to the bowl",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "Add baking soda instead of baking powder"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-a pinch of salt to the mixing bowl",
+            "modified_description": "Measure and add-a pinch of salt to the mixing bowl and spill while doing it ",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "drop/ spill salt while trying to measure and trasfer"
+                }
+            ]
+        },
+        {
+            "description": "Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl",
+            "modified_description": "Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-1/4 tsp vanilla extract to the bowl",
+            "modified_description": "Measure and add-1/4 tsp vanilla extract to the bowl and spill while doing the procedure",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spilling vanilla extract in the process"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-Measure and add 2 tsp vegetable oil to the bowl",
+            "modified_description": "Measure and add-Measure and add 1 tsp vegetable oil to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add 1 tsp instead of 2 tsp"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-2 tbsp water to the bowl",
+            "modified_description": "Measure and add-2 tsp water to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "use tsp instead of tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Whisk-Whisk batter until no lumps remain",
+            "modified_description": "Whisk-Whisk batter until with visible lumps remaining",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "whish incompletely"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour batter into prepared mug"
+        },
+        {
+            "description": "Microwave-Microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue",
+            "modified_description": "Microwave-Microwave the mug and batter on high power for 90 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Time is set to 90 sec instead of 60 sec"
+                }
+            ]
+        },
+        {
+            "description": "Invert-Invert the mug to release the cake onto a plate",
+            "modified_description": "Invert-Invert the mug to release the cake onto a unclean plate ",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "use unclean plate"
+                }
+            ]
+        },
+        {
+            "description": "Allow-Allow to cool until it is no longer hot to the touch",
+            "modified_description": "Do not Allow-Do not Allow to cool",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "let the cake be hot"
+                }
+            ]
+        },
+        {
+            "description": "remove-then carefully remove the paper liner",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "This step is not performed as liner was not placed in the mug"
+                }
+            ]
+        },
+        {
+            "description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag",
+            "modified_description": "Scoop-While the cake is hot, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "dont wait till its cool"
+                }
+            ]
+        },
+        {
+            "description": "cut-Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter"
+        },
+        {
+            "description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Measure and add-Measure and add 2 tbsp flour to the mixing bowl"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Place-Place the paper cupcake liner inside the mug"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Set-Set aside the lined mug"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "seal-seal zip top bag, removing as much air as possible"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-06T23:26:53.722788\"",
+        "end_time": "null"
+    }
+}

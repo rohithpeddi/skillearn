@@ -1,0 +1,136 @@
+{
+    "id": "29_49",
+    "activity_id": 29,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "add-1/4 tsp pepper to a bowl",
+            "modified_description": "add-1/4 tsp pepper to a bowl and spill some outside whille adding in the bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill pepper while measuring"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)",
+            "modified_description": "Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted) and slice it thicker on one end and thinner on other end",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "slice it thicker on one end and thinner on other end"
+                }
+            ]
+        },
+        {
+            "description": "add-1/8 cup shredded mozzarella to a bowl",
+            "modified_description": "add-1/4 cup shredded mozzarella to a bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-1/4 cup instead of 1/8 cup shredded mozzarella to a bowl"
+                }
+            ]
+        },
+        {
+            "description": "Cut-Cut 1/4 cup of cherry tomatoes into halves",
+            "modified_description": "Cut-mince 1/4 cup of cherry tomatoes into halves",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Cut-mince 1/4 cup of cherry tomatoes instead of cutting into halves"
+                }
+            ]
+        },
+        {
+            "description": "add-In a bowl, add the cut cherry tomatoes",
+            "modified_description": "add-In a bowl, add the cut cherry tomatoes and spill some outside",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill some outside while adding to bowl"
+                }
+            ]
+        },
+        {
+            "description": "add-1/16 cup basil to a bowl"
+        },
+        {
+            "description": "Brush-Brush 2 slices of baguette with olive oil on both sides",
+            "modified_description": "Brush- Dip 2 slices of baguette with olive oil on both sides",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Dip baugette in olive oil instead of brushing"
+                }
+            ]
+        },
+        {
+            "description": "Toast-Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy and transfer the slices to a plate",
+            "modified_description": "Toast-Toast both sides of the slices on the pan for 1/2 min and transfer the slices to a plate",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "toast for only 1/2 min and there baugette slices are not chopped"
+                }
+            ]
+        },
+        {
+            "description": "Spoon-Spoon the mixture from the bowl onto the bread",
+            "modified_description": "Spoon-Spoon the mixture from the bowl onto the bread using a Fork and spill some outside",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use fork instead of a spoon and spill some out while placing mixture on the bread"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Use fork instead of a spoon and spill some out while placing mixture on the bread"
+                }
+            ]
+        },
+        {
+            "description": "add-1/4 tsp salt to a bowl",
+            "modified_description": "add-1/4 tsp salt to a bowl",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Combine-Combine the contents of the bowl"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

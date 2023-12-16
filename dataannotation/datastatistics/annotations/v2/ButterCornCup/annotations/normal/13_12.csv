@@ -1,0 +1,8 @@
+28.82012392524377,102.28318491115925,[' (StepDescription: Measure-Measure 2 cups of frozen corn)']
+112.45499335536293,145.79592103358613,[' (StepDescription: Thaw-Thaw the frozen corn by putting it in a sieve and running it under cold water)']
+234.51669468580712,249.644,[' (StepDescription: Add-Add the corn into a microwave-safe bowl)']
+261.0764167345612,393.203,[' (StepDescription: Microwave-Microwave the corn for 2 minutes)']
+409.872,415.34884480498374,[' (StepDescription: Add-Add 1 teaspoon of softened butter)']
+463.38238468039003,475.2494945319609,[' (StepDescription: Add-1 teaspoon of pepper powder to the bowl)']
+480.90049922318525,500.6790156424701,[' (StepDescription: stir-then stir the bowl)']
+507.4602212719393,514.8065273705308,[' (ErrorTag:Technique Error, ErrorDescription:Spilled the corn), (StepDescription: Microwave-Microwave the corn for 3 more minutes), (StepModifiedDescription: Spilled the cord - Microwave-Microwave the corn for 3 more minutes)']

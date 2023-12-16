@@ -1,0 +1,139 @@
+{
+    "id": "29_45",
+    "activity_id": 29,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "add-1/4 tsp salt to a bowl",
+            "modified_description": "add-1/4 tsp salt to a bowl, not washing the bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "add-1/4 tsp salt to a bowl, not washing the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Cut-Cut 1/4 cup of cherry tomatoes into halves",
+            "modified_description": "Cut-Cut 1/2 cup of cherry tomatoes into halves",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Cut-Cut 1/2 cup of cherry tomatoes into halves"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)",
+            "modified_description": "Slice-Slice 4 1/4 inch thick rounds from a baguette (slice slanted)",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Slice-Slice 4 1/4 inch thick rounds from a baguette (slice slanted). Also baguette are expired."
+                }
+            ]
+        },
+        {
+            "description": "add-1/16 cup basil to a bowl",
+            "modified_description": "add-1/8 cup basil to a bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-1/8 cup basil to a bowl"
+                }
+            ]
+        },
+        {
+            "description": "add-1/4 tsp pepper to a bowl",
+            "modified_description": "add-1/2 tsp pepper to a bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-1/2 tsp pepper to a bowl"
+                }
+            ]
+        },
+        {
+            "description": "add-In a bowl, add the cut cherry tomatoes"
+        },
+        {
+            "description": "Brush-Brush 2 slices of baguette with olive oil on both sides",
+            "modified_description": "pour olive oil using a spoon on 4 slices of baguette. did not use brush",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "pour olive oil using a spoon on 4 slices of baguette. did not use brush. Pour on both sides."
+                }
+            ]
+        },
+        {
+            "description": "Combine-Combine the contents of the bowl",
+            "modified_description": "Combine-Combine the contents of the bowl",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "add-1/8 cup shredded mozzarella to a bowl",
+            "modified_description": "add-1/8 cup shredded mozzarella to a bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-1/4 cup shredded mozzarella to a bowl"
+                }
+            ]
+        },
+        {
+            "description": "Toast-Toast both sides of the slices on the pan for 2 to 3 minutes until lightly charred and crispy",
+            "modified_description": "Toast-Toast both sides of the slices on the pan for 30 seconds ",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Toast-Toast both sides of the slices on the pan for 30 seconds "
+                }
+            ]
+        },
+        {
+            "description": "Spoon-Spoon the mixture from the bowl onto the bread",
+            "modified_description": "Directly pour mixture from the bowl onto the bread",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Did not use spoon for taking mixture from bowl on the bread. Direclty poured it."
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-16T22:22:25.546505\"",
+        "end_time": "\"2023-04-16T22:46:23.439855\""
+    }
+}

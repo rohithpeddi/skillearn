@@ -1,0 +1,65 @@
+activity_id: 4
+is_error: false
+recording_id: '4_3'
+step_annotations:
+- description: Peel-Peel 1 medium onion
+  end_time: 95.8302957746479
+  start_time: 37.4609338028169
+  step_id: 47
+- description: Peel-Peel 1 garlic clove
+  end_time: 187.3046690140845
+  start_time: 138.5183366197183
+  step_id: 14
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 228.879
+  start_time: 219.985
+  step_id: 44
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 245.802
+  start_time: 231.73507887323944
+  step_id: 51
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: 267.619
+  start_time: 252.64350704225353
+  step_id: 46
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 297.81600000000003
+  start_time: 291.938
+  step_id: 54
+- description: Add-Add the noodles to the bowl
+  end_time: 306.792
+  start_time: 298.016
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 321.46708309859156
+  start_time: 311.0128690140845
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 348.185
+  start_time: 331.0501126760563
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 603.215
+  start_time: 350.21617183098596
+  step_id: 45
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 689.493
+  start_time: 610.7003394366197
+  step_id: 48
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 694.245
+  start_time: 690
+  step_id: 53
+- description: Add-Add basil to the bowl
+  end_time: 752.703414084507
+  start_time: 734.4085394366197
+  step_id: 50
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 760.5440746478873
+  start_time: 753.5745985915493
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 800.391
+  start_time: 766.6423661971832
+  step_id: 43

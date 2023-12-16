@@ -1,0 +1,117 @@
+activity_id: 5
+is_error: true
+recording_id: '5_28'
+step_annotations:
+- description: Measure-Measure 12 ounces of cold water
+  end_time: 26.627
+  errors:
+  - description: Measure 16 instead of 12 ounces
+    tag: Measurement Error
+  modified_description: Measure-Measure 16 ounces of cold water
+  start_time: 4.265
+  step_id: 68
+- description: transfer-transfer water to a kettle
+  end_time: 54.769
+  errors:
+  - description: spill some water while transferring water to a kettle
+    tag: Technique Error
+  modified_description: transfer-transfer water to a kettle, but spill some water outside
+  start_time: 26.837
+  step_id: 70
+- description: Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
+  end_time: 147.713
+  errors:
+  - description: Weighed 4oz instead of (0.8-0.12oz)
+    tag: Measurement Error
+  modified_description: Weigh-Weigh the coffee beans (4oz)
+  start_time: 56.792
+  step_id: 65
+- description: Place-Place the dripper on top of a coffee mug
+  end_time: 184.359
+  start_time: 175.09199999999998
+  step_id: 69
+- description: Boil-Boil the water. (While the water is boiling, assemble the filter cone)
+  end_time: 175.05
+  start_time: 148.395
+  step_id: 64
+- description: check-Once the water has boiled, check the temperature of the water.
+    (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
+    Celsius. If the water is too hot, let it cool briefly.)
+  end_time: 226.325
+  errors:
+  - description: The water temperature is wrong
+    tag: Temperature Error
+  modified_description: check-Once the water has boiled, check the temperature of
+    the water. But the water temperature is wrong
+  start_time: 207.097
+  step_id: 71
+- description: Transfer-Transfer the grounds to the filter cone
+  end_time: 255.253
+  start_time: 227.12
+  step_id: 58
+- description: Pour-Pour a small amount of water into the filter to wet the grounds
+  end_time: 280.759
+  start_time: 255.737
+  step_id: 57
+- description: Wait-Wait about 30 seconds for the coffee to bloom. (You will see small
+    bubbles or foam on the coffee grounds during this step.)
+  end_time: 294.272
+  errors:
+  - description: 15 instead of 30 seconds
+    tag: Timing Error
+  modified_description: Wait-Wait about 15 seconds for the coffee to bloom. (You will
+    see small bubbles or foam on the coffee grounds during this step.)
+  start_time: 280.866
+  step_id: 56
+- description: pour-Slowly pour the rest of the water over the grounds in a circular
+    motion. Do not overfill beyond the top of the paper filter
+  end_time: 331.907
+  start_time: 294.695
+  step_id: 61
+- description: drain-Let the coffee drain completely into the mug before removing the dripper
+  end_time: 340.87
+  errors:
+  - description: Remove the dripper before all the water is drained into the mug
+    tag: Timing Error
+  modified_description: drain-Let the coffee drain into the mug, and remove the dripper in advance
+  start_time: 331.987
+  step_id: 66
+- description: Discard-Discard the paper filter and coffee grounds
+  end_time: 355.523
+  start_time: 344.665
+  step_id: 63
+- description: Place-Place the paper filter in the dripper
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 60
+- description: Grind-Grind the coffee beans until the coffee grounds are the consistency
+    of coarse sand, about 20 seconds
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 67
+- description: Prepare-Prepare the filter insert by folding the paper filter in half
+    to create a semi-circle, and in half again to create a quarter-circle
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 62
+- description: spread-spread open filter in dripper to create a cone
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 59
+

@@ -1,0 +1,190 @@
+{
+    "id": "26_37",
+    "activity_id": 26,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Place-Place the paper cupcake liner inside the mug",
+            "modified_description": "Place-Place the paper towel inside the mug",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Place-Place the paper towel inside the mug"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-1.5 tbsp sugar to the mixing bowl"
+        },
+        {
+            "description": "Measure and add-1/4 tsp baking powder to the bowl"
+        },
+        {
+            "description": "Measure and add-a pinch of salt to the mixing bowl",
+            "modified_description": "Measure and add-a pinch of salt to the mixing bowl while spilling",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Measure and add-a pinch of salt to the mixing bowl while spilling"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-Measure and add 2 tbsp flour to the mixing bowl",
+            "modified_description": "Measure and add-Measure and add 2 tbsp corn starch to the mixing bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Measure and add-Measure and add 2 tbsp corn starch to the mixing bowl"
+                }
+            ]
+        },
+        {
+            "description": "Set-Set aside the lined mug"
+        },
+        {
+            "description": "Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl",
+            "modified_description": "Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl with faulty technique",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl with faulty technique"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-Measure and add 2 tsp vegetable oil to the bowl",
+            "modified_description": "Measure and add-Measure and add 2 tsp lime extract to the bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Measure and add-Measure and add 2 tsp lime extract to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-1/4 tsp vanilla extract to the bowl"
+        },
+        {
+            "description": "Whisk-Whisk batter until no lumps remain"
+        },
+        {
+            "description": "Pour-Pour batter into prepared mug",
+            "modified_description": " Pour-Pour batter into small bowl without using spoon",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Pour-Pour batter into small bowl"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": " Pour-Pour batter into small bowl without using spoon"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue",
+            "modified_description": "Microwave-Microwave the mug and batter on high power for 30 seconds. Smoke comes out. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave-Microwave the mug and batter on high power for 30 seconds. Smoke comes out. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue"
+                }
+            ]
+        },
+        {
+            "description": "Invert-Invert the mug to release the cake onto a plate",
+            "modified_description": "Invert-Invert the mug to release the cake onto a plate. Use knife and scratch surface to put it on plate.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Invert-Invert the mug to release the cake onto a plate. Use knife and scratch surface to put it on plate."
+                }
+            ]
+        },
+        {
+            "description": "Allow-Allow to cool until it is no longer hot to the touch",
+            "modified_description": " Allow-Allow to cool until it is no longer hot to the touch",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Null"
+                }
+            ]
+        },
+        {
+            "description": "remove-then carefully remove the paper liner",
+            "modified_description": "remove-then carefully remove the paper liner",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag",
+            "modified_description": " Scoop-While the cake is cooling, prepare to pipe the frosting. Put 4 chocolates of chocolate into a polythene",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": " Scoop-While the cake is cooling, prepare to pipe the frosting. Put 4 chocolates of chocolate into a polythene"
+                }
+            ]
+        },
+        {
+            "description": "cut-Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter",
+            "modified_description": "cut-Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "cut-Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter"
+                }
+            ]
+        },
+        {
+            "description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake",
+            "modified_description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Measure and add-2 tbsp water to the bowl"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "seal-seal zip top bag, removing as much air as possible"
+        }
+    ],
+    "environment": 11,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

@@ -1,0 +1,69 @@
+activity_id: 18
+is_error: true
+recording_id: '18_3'
+step_annotations:
+- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+  end_time: 153.77
+  start_time: 8.589
+  step_id: 203
+- description: Heat-Heat a large pan on medium heat
+  end_time: 170.751
+  errors:
+  - description: Step performed before peeling garlic
+    tag: Order Error
+  start_time: 160.075
+  step_id: 196
+- description: Melt-Melt 1 tablespoons of softened butter
+  end_time: 289.576
+  errors:
+  - description: Step performed before peeling garlic
+    tag: Order Error
+  start_time: 170.042
+  step_id: 204
+- description: Peel-Peel 1 garlic cloves
+  end_time: 339.193
+  errors:
+  - description: Step performed after heating and melting the butter
+    tag: Order Error
+  start_time: 294.195
+  step_id: 200
+- description: Add-Add 1 large minced garlic cloves to the pan
+  end_time: 386.848
+  start_time: 339.554
+  step_id: 199
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic
+  end_time: 430.235
+  start_time: 389.491
+  step_id: 202
+- description: Add-Add the zucchini noodles
+  end_time: 454.476
+  start_time: 437.45799999999997
+  step_id: 201
+- description: season-season with salt
+  end_time: 558.185
+  start_time: 530.207
+  step_id: 198
+- description: season-pepper to taste
+  end_time: 574.44
+  start_time: 558.111
+  step_id: 194
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 513.548
+  start_time: 468.258
+  step_id: 193
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: 704.155
+  start_time: 574.572
+  step_id: 192
+- description: Remove-Remove from heat
+  end_time: 706.696
+  start_time: 704.462
+  step_id: 197
+- description: Top-Top with more parmesan if desired
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 195

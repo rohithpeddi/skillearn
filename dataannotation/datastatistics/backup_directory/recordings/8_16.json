@@ -1,0 +1,52 @@
+{
+    "id": "8_16",
+    "activity_id": 8,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Fill-Fill a microwave-safe mug with skimmed milk"
+        },
+        {
+            "description": "Microwave-Microwave the contents of the mug for 1 minute"
+        },
+        {
+            "description": "Add-Add 2 pieces of chocolate to the mug"
+        },
+        {
+            "description": "Add-Add 1/5 teaspoon cinnamon to the mug"
+        },
+        {
+            "description": "Add-Add 1 teaspoon of white sugar to the mug"
+        },
+        {
+            "description": "Mix-Mix the contents of the mug"
+        },
+        {
+            "description": "Heat-Heat the contents of the mug for 1 minute and serve"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

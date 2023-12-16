@@ -1,0 +1,43 @@
+activity_id: 12
+is_error: false
+recording_id: '12_19'
+step_annotations:
+- description: Rinse-Rinse a tomato
+  end_time: 33.70430985915493
+  start_time: 24.250661971830986
+  step_id: 125
+- description: dry-gently dry it with a paper/tea towel
+  end_time: 46.035154929577466
+  start_time: 33.992
+  step_id: 122
+- description: Slice-Slice one tomato into about 1/2 inch thick slices
+  end_time: 122.89742253521128
+  start_time: 67.40861971830986
+  step_id: 119
+- description: Place-Place the thick slices of tomatoes on a platter, ensuring they
+    only make a single layer
+  end_time: 159.47892957746478
+  start_time: 136.87238028169014
+  step_id: 120
+- description: Season-Season the tomato slices with salt
+  end_time: 182.08547887323942
+  start_time: 169.7546338028169
+  step_id: 123
+- description: Garnish-Garnish platter with italian seasoning
+  end_time: 219.48904225352115
+  start_time: 193.5942676056338
+  step_id: 127
+- description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
+    the platter
+  end_time: 267.16830985915493
+  start_time: 242.09559154929576
+  step_id: 124
+- description: Season-Season platter with 1/4 teaspoon black pepper
+  end_time: 322.24608450704227
+  start_time: 284.0204647887324
+  step_id: 126
+- description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over
+    the entire platter
+  end_time: 369.993
+  start_time: 347.7298309859155
+  step_id: 121

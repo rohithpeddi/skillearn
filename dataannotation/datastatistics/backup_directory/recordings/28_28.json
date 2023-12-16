@@ -1,0 +1,152 @@
+{
+    "id": "28_28",
+    "activity_id": 28,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Take-Take 1 ripe avocado"
+        },
+        {
+            "description": "cut-cut avocado into thin slices",
+            "modified_description": "cut-cut avocado into chopped size",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "chop instead of slice"
+                }
+            ]
+        },
+        {
+            "description": "Open-Open a can of tuna"
+        },
+        {
+            "description": "Chop-Chop 1 scallion",
+            "modified_description": "Chop-Chop 1 scallions",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "2 instead of 1 scallion"
+                }
+            ]
+        },
+        {
+            "description": "Lay-Lay out 2 large lettuce leaves",
+            "modified_description": "Put and roll 2 large lettuce leaves",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "roll the lettuce leaves together"
+                }
+            ]
+        },
+        {
+            "description": "drain-drain excess water from can",
+            "modified_description": " drain-drain excess water from can, but  leave some water remaining",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "leave some water remaining"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 cup mayonnaise to the bowl",
+            "modified_description": " Add-1/2 cup mayonnaise to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1/2 instead of 1/4 cup"
+                }
+            ]
+        },
+        {
+            "description": "Add-1 tsp Sriracha sauce to the bowl",
+            "modified_description": "Add-1 tsp Sriracha sauce to the bowl, but splash some sauce",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Splashing some sauce"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1 can drained tuna to the bowl"
+        },
+        {
+            "description": "place-place avocado slices on each leaf",
+            "modified_description": "place-place avocado slices on just one leaf",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Just put on one leaf"
+                }
+            ]
+        },
+        {
+            "description": "Season-season 1/4 tsp pepper on the bowl"
+        },
+        {
+            "description": "Season-Season bowl with 1/4 tsp salt",
+            "modified_description": "Not do this step",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Missing step"
+                }
+            ]
+        },
+        {
+            "description": "top-top lettuce leaves with the tuna mixture"
+        },
+        {
+            "description": "Roll-Roll up the lettuce wraps"
+        },
+        {
+            "description": "secure-secure the wrap with a toothpick",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "null"
+                },
+                {
+                    "tag": "Timing Error",
+                    "description": "null"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-add chopped scallion to the bowl"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Mix-Mix the contents of the bowl"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 7,
+    "selected_by": 7,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

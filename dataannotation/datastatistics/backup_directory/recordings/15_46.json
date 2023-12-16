@@ -1,0 +1,125 @@
+{
+    "id": "15_46",
+    "activity_id": 15,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 4 large garlic cloves"
+        },
+        {
+            "description": "Heat-Heat 3 tbsp oil in a pan over medium heat",
+            "modified_description": "Heat-Heat 4 tbsp oil in a pan over medium heat",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Heating 4tbsps of oil instead of 3 tbsps"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/4 tsp mustard to the pan",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill out while scooping and adding mustard seeds to the pan"
+                }
+            ]
+        },
+        {
+            "description": "mince-mince the garlic"
+        },
+        {
+            "description": "Take-Take 1 tomato"
+        },
+        {
+            "description": "Add-1/2 tsp cumin seeds to the pan"
+        },
+        {
+            "description": "add-When mustard and cumin seeds begin to sizzle, add minced garlic"
+        },
+        {
+            "description": "Saute-Saute the garlic for 2-3 minutes"
+        },
+        {
+            "description": "Lower-Lower the heat"
+        },
+        {
+            "description": "Chop-Chop tomato roughly (anysize chunks are fine)"
+        },
+        {
+            "description": "Take-Take the pan off the heat"
+        },
+        {
+            "description": "puree-puree tomatoes without any water in a blender/mixer",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Did not puree the tomatoes, instead left them as chunks"
+                }
+            ]
+        },
+        {
+            "description": "mix-mix well contents of the pan"
+        },
+        {
+            "description": "Add-1/2 tsp salt to the pan",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Adding more salt to the pan instead of 1/2 tsp as there is no scooping and measuring"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add tomato puree to the pan"
+        },
+        {
+            "description": "simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick"
+        },
+        {
+            "description": "Mix-Mix well tomato puree with contents in the pan"
+        },
+        {
+            "description": "Transfer-Transfer it to a serving bowl"
+        },
+        {
+            "description": "Add-Add 2 tbsp red chili powder to the pan",
+            "modified_description": "[]",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Did not add red chilli powder to the pan"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-14T21:21:14.148588\"",
+        "end_time": "null"
+    }
+}

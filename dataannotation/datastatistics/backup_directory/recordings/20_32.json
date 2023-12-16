@@ -1,0 +1,177 @@
+{
+    "id": "20_32",
+    "activity_id": 20,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse 3 mushrooms under cold water"
+        },
+        {
+            "description": "pat-pat rinsed mushrooms dry with a paper towel",
+            "modified_description": "pat-pat rinsed mushrooms dry with a cloth towel",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use cloth instead of paper towel"
+                }
+            ]
+        },
+        {
+            "description": "Pull-Pull out mushroom stems"
+        },
+        {
+            "description": "Slice-Slice the mushrooms",
+            "modified_description": "Slice-Chop the mushrooms",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Chop the mushrooms"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat",
+            "modified_description": "Heat-Heat a large skillet over medium heat",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Used lower heat"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Heat pan only, and forget to add oil"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 shallot",
+            "modified_description": "Chop-Chop 1/2 onion",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Used less shallot"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use onion instead of shallot"
+                }
+            ]
+        },
+        {
+            "description": "add-Once the pan is hot, add the mushrooms",
+            "modified_description": "add-Once the pan is hot, add oil and mushrooms",
+            "errors": [
+                {
+                    "tag": "Order Error",
+                    "description": "add oil now"
+                }
+            ]
+        },
+        {
+            "description": "cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown",
+            "modified_description": "cook-cook for 1 minute, stirring often",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Cook for one minute"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped shallot to the pan",
+            "modified_description": "Add-Add chopped shallot to the pan but spill",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 2 garlic cloves",
+            "modified_description": "Peel-Peel 1 garlic clove",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Use 1 garlic clove"
+                }
+            ]
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute"
+        },
+        {
+            "description": "mince-mince garlic cloves",
+            "modified_description": "mince-slice garlic cloves",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Slice garlic cloves"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 2 cloves of minced garlic to the pan",
+            "modified_description": "Add-Add 1 clove of sliced garlic to the pan",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Add 1 clove of sliced garlic due to previous step errors"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 tbsp balsamic vinegar to the pan",
+            "modified_description": "Add-1/2 tbsp honey to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 1/2 tbsp balsamic vinegar"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Add honey instead of balsamic vinegar"
+                }
+            ]
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute"
+        },
+        {
+            "description": "Season-pepper on pan to taste"
+        },
+        {
+            "description": "Transfer-Transfer the contents of the pan to a serving dish"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Season-Season pan with salt"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-29T22:28:33.056463\"",
+        "end_time": "null"
+    }
+}

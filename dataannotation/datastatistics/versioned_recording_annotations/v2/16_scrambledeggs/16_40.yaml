@@ -1,0 +1,222 @@
+activity_id: 16
+is_error: true
+recording_id: '16_40'
+step_annotations:
+- description: Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium
+    heat
+  end_time: 130.312
+  errors:
+  - description: Using 3 tbsp of oil instead of 2 tbsp.
+    tag: Measurement Error
+  - description: Low heat instead of medium.
+    tag: Temperature Error
+  - description: Step performed before preparing the ingredients.
+    tag: Order Error
+  modified_description: Heat-Heat 3 tbsp oil in a heavy-bottomed or nonstick pan on
+    low heat
+  start_time: 3.943833317752362
+  step_id: 173
+- description: Chop-Chop 1/4 medium onion
+  end_time: 232.0752387888527
+  errors:
+  - description: Slice onion instead of chop.
+    tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Slice-Slice 1/4 medium onion
+  start_time: 132.27190514389994
+  step_id: 163
+- description: Chop-Chop 1 green chilli
+  end_time: 296.89799806715865
+  errors:
+  - description: Not washing the green chilli.
+    tag: Preparation Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Chop-Chop 1 green chilli without cleaning.
+  start_time: 236.2337110240591
+  step_id: 161
+- description: Chop-Chop 1 tsp cilantro
+  end_time: 424.938
+  errors:
+  - description: Using 1 tbsp instead of 1 tsp.
+    tag: Measurement Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Chop-Chop 1 tbsp cilantro.
+  start_time: 296.947405658072
+  step_id: 158
+- description: Crack-Crack one egg in the bowl
+  end_time: 514.0196563358443
+  errors:
+  - description: Crack with egg shells in the bowl
+    tag: Technique Error
+  - description: Leaving the egg shell remains in the bowl.
+    tag: Preparation Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Crack-Crack one egg in the bowl with some egg shell remains
+    in the bowl.
+  start_time: 430.850211631717
+  step_id: 167
+- description: Chop-Chop 1/4 tomato
+  end_time: 631.2885733686637
+  errors:
+  - description: Using 1/8 tomato instead of 1/4 tomato.
+    tag: Measurement Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Chop-Chop 1/8 tomato
+  start_time: 523.9999897003395
+  step_id: 169
+- description: Whisk-Whisk the egg mixture in the bowl
+  end_time: 677.863462402975
+  errors:
+  - description: Step performed after heating the pan and before mixing milk and salt.
+    tag: Order Error
+  start_time: 637.942128944994
+  step_id: 159
+- description: Add-Add tomatoes to the pan
+  end_time: 722.7749625432037
+  errors:
+  - description: Step performed before preparing the ingredients.
+    tag: Order Error
+  start_time: 698.6558235790069
+  step_id: 175
+- description: add-add chopped onions to the pan
+  end_time: 741.0722403781118
+  errors:
+  - description: Step performed before preparing the ingredients.
+    tag: Order Error
+  start_time: 722.7749625432037
+  step_id: 179
+- description: Peel-Peel 2 garlic cloves
+  end_time: 802.617629459166
+  errors:
+  - description: Not properly peeling the Garlic cloves.
+    tag: Technique Error
+  - description: Step performed after heating the pan and before mixing milk and salt.
+    tag: Order Error
+  modified_description: Peel-Peel 2 garlic cloves improperly.
+  start_time: 745.2307126133181
+  step_id: 176
+- description: add-add 1/3 tsp salt to the bowl
+  end_time: 977.2734633378333
+  errors:
+  - description: Adding the 1/3 tbsp instead of 1/3 tsp.
+    tag: Measurement Error
+  - description: Step performed after whisking the bowl and heating the pan.
+    tag: Order Error
+  modified_description: Add-Add 1/3 tbsp salt to the bowl.
+  start_time: 813.4296572707025
+  step_id: 164
+- description: Mince-Mince peeled garlic cloves
+  end_time: 1022.1849634780621
+  errors:
+  - description: Not properly peeling the Garlic cloves.
+    tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 982.2636300200809
+  step_id: 180
+- description: Saute-Saute the onions on medium heat until they are soft and translucent
+  end_time: 1145.383
+  errors:
+  - description: Step performed before preparing the ingredients.
+    tag: Order Error
+  start_time: 1032.9969912895986
+  step_id: 166
+- description: Add-Add chilli to the pan
+  end_time: 1163.951
+  errors:
+  - description: Step performed before preparing the ingredients.
+    tag: Order Error
+  start_time: 1146.256
+  step_id: 162
+- description: add-add 1 tbsp milk to the bowl
+  end_time: 1232.603658579504
+  errors:
+  - description: Adding 1 tsp milk to the bowl instead of 1 tbsp.
+    tag: Measurement Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  modified_description: Add-Add 1 tsp milk to the bowl
+  start_time: 1166.8997972632435
+  step_id: 177
+- description: Cook-Cook for 1 minute, mixing everything
+  end_time: 1265
+  errors:
+  - description: Cook for less than a minute.
+    tag: Timing Error
+  - description: Step performed before adding turmeric and garlic to the pan.
+    tag: Order Error
+  modified_description: Cook-Cook covered for 1.5 minute or until the tomatoes soften
+  start_time: 1233
+  step_id: 165
+- description: Cook-Cook covered for 1 minute or until the tomatoes soften
+  end_time: 1378.147
+  errors:
+  - description: Covering more than a minute instead of 1 minute.
+    tag: Timing Error
+  - description: Step performed before adding turmeric and garlic to the pan.
+    tag: Order Error
+  modified_description: Cook-Cook covered for 1.5 minute or until the tomatoes soften
+  start_time: 1265.098
+  step_id: 170
+- description: pour-Slowly pour the whisked eggs into the pan
+  end_time: 1384
+  errors:
+  - description: Pouring very fastly into the pan instead of slowly.
+    tag: Technique Error
+  - description: Step performed before adding turmeric and garlic to the pan.
+    tag: Order Error
+  modified_description: Pour-Fastly pour the whisked eggs into the pan
+  start_time: 1378.2
+  step_id: 172
+- description: mixing-Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked
+  end_time: 1554.1
+  errors:
+  - description: Mixing with a spatula less than 3 minutes instead of exactly 3 minutes.
+    tag: Timing Error
+  - description: Step performed before adding turmeric and garlic to the pan.
+    tag: Order Error
+  modified_description: Mixing-Keep mixing with a spatula for less than 3 minutes
+    or until the eggs are almost cooked
+  start_time: 1384.784
+  step_id: 171
+- description: Garnish-Garnish with 1 tbsp chopped cilantro and serve
+  end_time: 1575.361
+  errors:
+  - description: Step performed before adding turmeric and garlic to the pan.
+    tag: Order Error
+  start_time: 1554.2
+  step_id: 174
+- description: Add-Add 1/8 tsp of turmeric to the pan
+  end_time: 1641.519
+  errors:
+  - description: Adding 1/8 tbsp turmeric instead of 1/8 tsp.
+    tag: Measurement Error
+  - description: Step performed before adding garlic to the pan and after cooking the rest of the ingredients.
+    tag: Order Error
+  modified_description: Add-Add 1/8 tbsp of turmeric to the pan
+  start_time: 1577.905
+  step_id: 168
+- description: Add-Add garlic to the pan
+  end_time: 1651.926
+  errors:
+  - description: Step performed after cooking the rest of the ingredients.
+    tag: Order Error
+  start_time: 1642.292
+  step_id: 160
+- description: add-add 1/3 tsp salt to the pan
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 178
+
+
+
+

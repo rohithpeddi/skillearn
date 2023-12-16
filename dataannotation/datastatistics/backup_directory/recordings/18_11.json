@@ -1,0 +1,88 @@
+{
+    "id": "18_11",
+    "activity_id": 18,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 garlic cloves"
+        },
+        {
+            "description": "Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer"
+        },
+        {
+            "description": "Heat-Heat a large pan on medium heat"
+        },
+        {
+            "description": "Melt-Melt 1 tablespoons of softened butter"
+        },
+        {
+            "description": "Add-Add 1 large minced garlic cloves to the pan"
+        },
+        {
+            "description": "Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to burn garlic"
+        },
+        {
+            "description": "Add-Add the zucchini noodles"
+        },
+        {
+            "description": "season-season with salt"
+        },
+        {
+            "description": "Add-1/6 cup grated parmesan cheese",
+            "modified_description": "season-pepper to taste",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "Added pepper to taste in this step"
+                }
+            ]
+        },
+        {
+            "description": "season-pepper to taste",
+            "modified_description": "Add-1/6 cup grated parmesan cheese and spoiled some out while adding",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "added cheese in this step erroneously and spoiled some out while adding"
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Added cheese in this step instead of period and spiked some out while adding"
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook for 2 minutes or until the zoodles are done"
+        },
+        {
+            "description": "Remove-Remove from heat"
+        },
+        {
+            "description": "Top-Top with more parmesan if desired"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-24T18:41:28.255175\"",
+        "end_time": "null"
+    }
+}

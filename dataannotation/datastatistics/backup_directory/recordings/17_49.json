@@ -1,0 +1,123 @@
+{
+    "id": "17_49",
+    "activity_id": 17,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Add-1/4 teaspoon of red chilli powder to the bowl",
+            "modified_description": "Add-1/4 tablespoon of red chilli powder to the bowl instead of teaspoon",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Added tablespoon instead of teaspoon"
+                }
+            ]
+        },
+        {
+            "description": "Rinse-Rinse 1 medium sized cucumber",
+            "modified_description": "Rinse-Rinse 1 medium sized cucumber"
+        },
+        {
+            "description": "Add-Add 1 teaspoon of cumin powder to the bowl",
+            "modified_description": "Add-Add 1 teaspoon of turmeric to the bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "add turmeric instead of cumin powder"
+                }
+            ]
+        },
+        {
+            "description": "peel-peel the cucumber",
+            "modified_description": "Peel only half the cucumber",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "donot peel the cucumber properly"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/2 teaspoon of chaat masala powder to the bowl",
+            "modified_description": "Add-1/2 teaspoon of chaat masala powder to the bowl",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "NULL"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 teaspoon salt to the bowl",
+            "modified_description": "Add- Add 1 teaspoon salt to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 1 teaspoon instead of 1/4 teaspoon"
+                }
+            ]
+        },
+        {
+            "description": "whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd"
+        },
+        {
+            "description": "Combine-Combine all the ingredients in the bowl",
+            "modified_description": "Combine-Spill while combining all the ingredients in the bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spilling while combining in the bowl"
+                }
+            ]
+        },
+        {
+            "description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl"
+        },
+        {
+            "description": "chop or grate-chop or grate the cucumber",
+            "modified_description": "cut cucumber into thin strips",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "cut cucumber into thin strips instead of chop/ grate"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the chopped or grated cucumber to the whisked curd"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-13T01:13:53.316322\"",
+        "end_time": "\"2023-04-13T01:29:33.049283\""
+    }
+}

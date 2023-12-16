@@ -1,0 +1,67 @@
+activity_id: 22
+is_error: false
+recording_id: '22_4'
+step_annotations:
+- description: crack-crack one egg in a bowl
+  end_time: 59.136
+  start_time: 3.507165486533717
+  step_id: 239
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 304.456
+  start_time: 68.17099999999999
+  step_id: 237
+- description: Take-Take a tomato
+  end_time: 342.845
+  start_time: 305.214
+  step_id: 247
+- description: Cut-Cut tomato into two pieces
+  end_time: 350.276
+  start_time: 342.85
+  step_id: 246
+- description: add-add the chopped cilantro to the bowl
+  end_time: 469.139
+  start_time: 350.369
+  step_id: 242
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 516.981
+  start_time: 478.295
+  step_id: 249
+- description: Beat-Beat the contents of the bowl
+  end_time: 580.594
+  start_time: 536.575
+  step_id: 248
+- description: Heat-Heat 1 tbsp oil in a non-stick frying pan
+  end_time: 733.404
+  start_time: 691.596
+  step_id: 235
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 1039.913
+  start_time: 776.923
+  step_id: 240
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 1075.28
+  start_time: 1039.913
+  step_id: 244
+- description: put-put tomatoes on a serving plate
+  end_time: 1075.28
+  start_time: 1039.913
+  step_id: 236
+- description: Pour-Pour the egg mixture into the pan
+  end_time: 1121.088
+  start_time: 1104.973
+  step_id: 241
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 1149.413
+  start_time: 1122.1
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: 1305.617
+  start_time: 1174.878
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: 1312.141
+  start_time: 1306.022
+  step_id: 243

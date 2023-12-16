@@ -1,0 +1,6 @@
+1.9796278303179826,44.0235721285636,[' (ErrorTag:Technique Error, ErrorDescription:Spill), (ErrorTag:Preparation Error, ErrorDescription:Used whole milk), (StepDescription: Fill-Fill a microwave-safe mug with skimmed milk), (StepModifiedDescription: Fill a microwave-safe mug with whole milk but spill)']
+47.127487479440795,177.77410633908988,[' (ErrorTag:Timing Error, ErrorDescription:Too long), (StepDescription: Microwave-Microwave the contents of the mug for 1 minute), (StepModifiedDescription: Microwave the contents of the mug for 2 minutes)']
+179.74932519873903,219.5358765145285,[' (ErrorTag:Measurement Error, ErrorDescription:Added more chocolate), (StepDescription: Add-Add 2 pieces of chocolate to the mug), (StepModifiedDescription: Add-Add 4 pieces of chocolate to the mug)']
+220.10022476014254,283.5894023917215,[' (StepDescription: Add-Add 1 teaspoon of white sugar to the mug)']
+285.5646212513706,314.91073002330046,[' (StepDescription: Mix-Mix the contents of the mug)']
+321.96508309347587,445.27517476014253,[' (ErrorTag:Temperature Error, ErrorDescription:Microwave on low power), (ErrorTag:Preparation Error, ErrorDescription:Mic4owaved on high for 8 secs), (StepDescription: Heat-Heat the contents of the mug for 1 minute and serve), (StepModifiedDescription: Heat-Heat the contents of the mug for 8 secs on high. And 1 minute on low power and serve)']

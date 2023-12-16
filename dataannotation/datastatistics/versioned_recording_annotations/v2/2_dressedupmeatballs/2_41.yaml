@@ -1,0 +1,131 @@
+activity_id: 2
+is_error: true
+recording_id: '2_41'
+step_annotations:
+- description: Cut-Cut 1/4 medium carrot into short, thin strips
+  end_time: 90.6
+  errors:
+  - description: slice horizontally carrot instead of cut into short, thin strips
+    tag: Technique Error
+  - description: use 1/2 medium carrot instead of 1/4 medium carrot
+    tag: Measurement Error
+  modified_description: slice horizontally carrot instead of cut into short, thin strips
+  start_time: 30
+  step_id: 22
+- description: Peel-Peel one medium onion
+  end_time: 197.88765817356676
+  errors:
+  - description: Peel-Peel one medium onion improperly
+    tag: Technique Error
+  modified_description: Peel-Peel one medium onion improperly
+  start_time: 131.92510544904457
+  step_id: 17
+- description: cut-Cut onion into two pieces
+  end_time: 241.86269332324844
+  errors:
+  - description: cut-Cut onion into two pieces one large and one small
+    tag: Technique Error
+  modified_description: cut-Cut onion into two pieces one large and one small
+  start_time: 195.88879293949043
+  step_id: 27
+- description: Slice-Slice 1/8 medium onion
+  end_time: 281.83999800477704
+  errors:
+  - description: Chop instead of slice
+    tag: Technique Error
+  - description: Chop 1/2 onion instead of 1/8th
+    tag: Measurement Error
+  modified_description: Chop-Chop 1/2 medium onion
+  start_time: 237.86496285509554
+  step_id: 19
+- description: Peel-Peel 1 garlic clove
+  end_time: 323.8161679203821
+  errors:
+  - description: Peel-Peel garlic clove improperly
+    tag: Technique Error
+  modified_description: Peel-Peel 1 garlic improperly
+  start_time: 283.8388632388535
+  step_id: 14
+- description: Cut-Cut 1/8 garlic clove
+  end_time: 347.03528677841615
+  errors:
+  - description: Cut 1 garlic clove
+    tag: Measurement Error
+  modified_description: Cut-Cut 1 garlic clove
+  start_time: 319.8184374522292
+  step_id: 16
+- description: Mince-Mince 1/8 garlic clove
+  end_time: 380.18905200499984
+  errors:
+    - description: Mince 1 garlic clove
+      tag: Measurement Error
+  start_time: 346.3633723856392
+  step_id: 26
+- description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl
+  end_time: 491.7208475828025
+  errors:
+  - description: Mix-Mix 1/2 cup sweet-and-sour sauce and 1/2 cup soy sauce in a small bowl
+    tag: Measurement Error
+  modified_description: Mix-Mix 1/2 cup sweet-and-sour sauce and 1/2 cup soy sauce in a small bowl
+  start_time: 399.7730468152866
+  step_id: 23
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder
+  end_time: 514.6
+  errors:
+    - description: Step performed before adding meat balls
+      tag: Order Error
+  start_time: 501
+  step_id: 24
+- description: Pour-Pour the sauces over the meatballs
+  end_time: 539.693613200637
+  errors:
+  - description: Pouring sauces before placing meatballs
+    tag: Order Error
+  modified_description: Pour-Pour the sauces before the meatballs are placed
+  start_time: 493.71971281687894
+  step_id: 15
+- description: Place-Place 5 meatballs in a Microwave-safe plate
+  end_time: 621.6470877977707
+  errors:
+  - description: Place meat balls after the sauces are poured and topped with vegetables
+    tag: Order Error
+  modified_description: Place - Place meat balls after the sauces are poured
+  start_time: 577.6720526480891
+  step_id: 21
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder
+  end_time: 651
+  errors:
+    - description: Adding pepper powder after pouring sauces on the plate
+      tag: Order Error
+  start_time: 636
+  step_id: 24
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 925.4
+  errors:
+  - description: Microwave for 3 minutes instead of 1.5 minutes
+    tag: Timing Error
+  - description: Microwave without covering the plate
+    tag: Preparation Error
+  modified_description: Microwave-Microwave the plate, uncovered, on high for 3 minutes
+  start_time: 677.71
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 956
+  start_time: 928
+  step_id: 18
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 1053.6
+  start_time: 977.4450994633758
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 1100
+  start_time: 1084
+  step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: 1222.2
+  errors:
+  - description: Microwave-Microwave for 2 minutes instead of 1 min
+    tag: Timing Error
+  modified_description: Microwave-Microwave for 2 minutes instead of 1 min
+  start_time: 1097.4
+  step_id: 25

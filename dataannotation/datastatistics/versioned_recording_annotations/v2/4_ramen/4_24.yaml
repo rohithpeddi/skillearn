@@ -1,0 +1,65 @@
+activity_id: 4
+is_error: false
+recording_id: '4_24'
+step_annotations:
+- description: Peel-Peel 1 medium onion
+  end_time: 133.119
+  start_time: 33.93249014084507
+  step_id: 47
+- description: Peel-Peel 1 garlic clove
+  end_time: 255.7987718309859
+  start_time: 216.6458985915493
+  step_id: 14
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 370.867
+  start_time: 339.3249014084507
+  step_id: 51
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: 446.947
+  start_time: 409.80007323943664
+  step_id: 46
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 499.828
+  start_time: 488.1058197183098
+  step_id: 54
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 534.14
+  start_time: 516.8179267605633
+  step_id: 44
+- description: Add-Add the noodles to the bowl
+  end_time: 546.8351295774647
+  start_time: 535.0892676056338
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 588.5981943661972
+  start_time: 566.4115661971831
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 632.9714507042254
+  start_time: 625.140876056338
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 885.363
+  start_time: 633.107
+  step_id: 45
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 1068.8734394366197
+  start_time: 920.0925211267605
+  step_id: 48
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 1085.8396845070422
+  start_time: 1072.7887267605633
+  step_id: 53
+- description: Add-Add basil to the bowl
+  end_time: 1112.161
+  start_time: 1097.585546478873
+  step_id: 50
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 1155.0097605633803
+  start_time: 1141.9588028169014
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 1200.6881126760563
+  start_time: 1161.5352394366196
+  step_id: 43

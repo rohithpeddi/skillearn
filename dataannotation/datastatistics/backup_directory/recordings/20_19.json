@@ -1,0 +1,85 @@
+{
+    "id": "20_19",
+    "activity_id": 20,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Rinse-Rinse 3 mushrooms under cold water"
+        },
+        {
+            "description": "pat-pat rinsed mushrooms dry with a paper towel"
+        },
+        {
+            "description": "Pull-Pull out mushroom stems"
+        },
+        {
+            "description": "Slice-Slice the mushrooms"
+        },
+        {
+            "description": "Peel-Peel 2 garlic cloves"
+        },
+        {
+            "description": "Chop-Chop 1 shallot"
+        },
+        {
+            "description": "mince-mince garlic cloves"
+        },
+        {
+            "description": "Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat"
+        },
+        {
+            "description": "add-Once the pan is hot, add the mushrooms"
+        },
+        {
+            "description": "cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown"
+        },
+        {
+            "description": "Add-Add chopped shallot to the pan"
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute"
+        },
+        {
+            "description": "Add-1/4 tbsp balsamic vinegar to the pan"
+        },
+        {
+            "description": "Add-Add 2 cloves of minced garlic to the pan"
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute"
+        },
+        {
+            "description": "Season-pepper on pan to taste"
+        },
+        {
+            "description": "Season-Season pan with salt"
+        },
+        {
+            "description": "Transfer-Transfer the contents of the pan to a serving dish"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

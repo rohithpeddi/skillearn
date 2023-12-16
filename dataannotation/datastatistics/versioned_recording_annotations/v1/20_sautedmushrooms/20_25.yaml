@@ -1,0 +1,90 @@
+activity_id: 20
+is_error: true
+recording_id: '20_25'
+step_annotations:
+- description: Peel-Peel 2 garlic cloves
+  end_time: 100.069
+  start_time: 11.697318946963573
+  step_id: 176
+- description: Rinse-Rinse 3 mushrooms under cold water
+  end_time: 131.308
+  errors:
+  - description: Took only 2 mushrooms
+    tag: Measurement Error
+  modified_description: Rinse-Rinse 2 mushrooms under cold water
+  start_time: 102.75855276098643
+  step_id: 206
+- description: Chop-Chop 1 shallot
+  end_time: 240.087
+  start_time: 134.317
+  step_id: 212
+- description: mince-mince garlic cloves
+  end_time: 447.12
+  start_time: 241.934
+  step_id: 211
+- description: pat-pat rinsed mushrooms dry with a paper towel
+  end_time: 466.162
+  start_time: 449.22
+  step_id: 205
+- description: Pull-Pull out mushroom stems
+  end_time: 501.43
+  start_time: 474.751
+  step_id: 214
+- description: Slice-Slice the mushrooms
+  end_time: 531.961
+  start_time: 503.937
+  step_id: 210
+- description: Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat
+  end_time: 647.324
+  start_time: 540.056
+  step_id: 215
+- description: add-Once the pan is hot, add the mushrooms
+  end_time: 663.271
+  start_time: 653.333
+  step_id: 208
+- description: cook-cook for 3-5 minutes, stirring often, until mushrooms start to
+    soften and brown
+  end_time: 780.634
+  errors:
+  - description: Burnt because of different type of utensils
+    tag: Preparation Error
+  modified_description: cook-cook for 3-5 minutes, stirring often, until mushrooms
+    start to soften and brown; burn
+  start_time: 670.859
+  step_id: 213
+- description: Add-Add chopped shallot to the pan
+  end_time: 793.581
+  start_time: 783.892
+  step_id: 209
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 855
+  errors:
+  - description: Pan too hot, burnt
+    tag: Preparation Error
+  modified_description: cook-cook the pan, often stirring, for 1 minute; burn
+  start_time: 795
+  step_id: 207
+- description: Add-Add 2 cloves of minced garlic to the pan
+  end_time: 872.202
+  start_time: 861.858
+  step_id: 218
+- description: Add-1/4 tbsp balsamic vinegar to the pan
+  end_time: 923.891
+  start_time: 887.958
+  step_id: 217
+- description: cook-cook the pan, often stirring, for 1 minute
+  end_time: 953.249
+  start_time: 923.982
+  step_id: 207
+- description: Season-pepper on pan to taste
+  end_time: 968.033
+  start_time: 956.761
+  step_id: 219
+- description: Season-Season pan with salt
+  end_time: 983.999
+  start_time: 970.038
+  step_id: 220
+- description: Transfer-Transfer the contents of the pan to a serving dish
+  end_time: 1031.774
+  start_time: 995.836
+  step_id: 216

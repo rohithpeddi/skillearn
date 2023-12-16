@@ -1,0 +1,73 @@
+activity_id: 22
+is_error: true
+recording_id: '22_10'
+step_annotations:
+- description: crack-crack one egg in a bowl
+  end_time: 109.33
+  start_time: 55.698
+  step_id: 239
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 304.139
+  start_time: 125.135
+  step_id: 237
+- description: add-add the chopped cilantro to the bowl
+  end_time: 304.139
+  start_time: 125.135
+  step_id: 242
+- description: Take-Take a tomato
+  end_time: 331.303
+  start_time: 318.785
+  step_id: 247
+- description: Cut-Cut tomato into two pieces
+  end_time: 341.047
+  start_time: 331.303
+  step_id: 246
+- description: Heat-Heat 1 tbsp oil in a small non-stick frying pan
+  end_time: 394.372
+  start_time: 375.872
+  step_id: 235
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 834.739
+  start_time: 404.236
+  step_id: 240
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 853.697
+  start_time: 836.735
+  step_id: 244
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 918.742
+  start_time: 869.513
+  step_id: 249
+- description: Beat-Beat the contents of the bowl
+  end_time: 984.437
+  start_time: 929.537
+  step_id: 248
+- description: put-put tomatoes on a serving plate
+  end_time: 853.5
+  start_time: 842.925
+  step_id: 236
+- description: Pour-Pour the egg mixture into the pan
+  end_time: 1013.63
+  start_time: 989.472
+  step_id: 241
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 1207.756
+  errors:
+  - description: 'Stirred gently such that uncooked egg is transferred to the sides
+      of the pan '
+    tag: Technique Error
+  modified_description: stir-stir gently with a wooden spoon so the egg that uncooked
+    egg flows into the sides of the pan
+  start_time: 1034.998
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: 1273.815
+  start_time: 1207.756
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: 1280.719
+  start_time: 1273.815
+  step_id: 243

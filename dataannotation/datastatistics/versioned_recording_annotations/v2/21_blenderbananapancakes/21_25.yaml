@@ -1,0 +1,62 @@
+activity_id: 21
+is_error: false
+recording_id: '21_25'
+step_annotations:
+- description: Add-1 heaped tbsp flour to a blender
+  end_time: 57.921413288916725
+  start_time: 38.0924609918101
+  step_id: 232
+- description: Add-Add 1 banana to a blender
+  end_time: 97.57931788312999
+  start_time: 67.31407490333567
+  step_id: 225
+- description: Add-1/2 tsp baking powder to a blender
+  end_time: 148.19532769416534
+  start_time: 125.2354881922524
+  step_id: 221
+- description: Chop-Chop 1 strawberry
+  end_time: 230.12020955326378
+  start_time: 188.37504682251296
+  step_id: 233
+- description: Add-1 egg to a blender
+  end_time: 262.7336179366628
+  start_time: 245.51373831022812
+  step_id: 229
+- description: blitz-blitz the blender for 20 seconds
+  end_time: 318.8286803561092
+  start_time: 289.6070664445836
+  step_id: 227
+- description: Melt-Melt a small knob of butter in a non-stick frying pan over low-medium
+    heat
+  end_time: 487.11386761444845
+  start_time: 342.5712416592237
+  step_id: 223
+- description: Pour-Pour three little puddles straight from the blender into the frying
+    pan
+  end_time: 516.2996501408074
+  start_time: 491.25255250235693
+  step_id: 231
+- description: Cook-Cook for 1 min or until the tops start to bubble
+  end_time: 675.1921757847277
+  start_time: 529.6059207612343
+  step_id: 226
+- description: Flip-Flip the pancakes with a fork or a fish slice spatula
+  end_time: 726.5909073969647
+  start_time: 679.62759932487
+  step_id: 228
+- description: cook-cook for 20-30 seconds more
+  end_time: 763.9006465875731
+  start_time: 731.5481454712412
+  step_id: 230
+- description: Transfer-Transfer to a plate
+  end_time: 794.4267968344345
+  start_time: 769.9015137301185
+  step_id: 234
+- description: Serve-Serve the pancakes with chopped strawberries
+  end_time: 804.6698606668459
+  start_time: 795.2095186356361
+  step_id: 222
+- description: splash-splash maple syrup on plate
+  end_time: 830.4319996897071
+  start_time: 814.2557491315413
+  step_id: 224

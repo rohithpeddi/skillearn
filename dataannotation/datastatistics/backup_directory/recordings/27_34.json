@@ -1,0 +1,115 @@
+{
+    "id": "27_34",
+    "activity_id": 27,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Add-Add 1 tablespoons of water to the bowl",
+            "modified_description": "Add-Add 2 tablespoons of water to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 2 tablespoonds of water rather than 1"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1/4 red bell pepper into tiny bits",
+            "modified_description": "Slice - Slice 1/4 red bell pepper into tiny bits",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Slice instead of chopping"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the chopped pepper in the microwave-safe bowl",
+            "modified_description": "Place-Place the chopped pepper (in a heap) in the microwave-safe bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not spreading the chopped pepper"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/3 cup cheddar cheese to a microwave-safe cup"
+        },
+        {
+            "description": "Melt-Melt the cheese by microwaving cup for 30 sec. (Check after 30 seconds and microwave for 10 seconds more if needed).",
+            "modified_description": "Melt-Melt the cheese by microwaving cup for 10 sec. ",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave for 10 seconds rather than 30 seconds"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the bowl, covered, for 2 minutes",
+            "modified_description": "Microwave-Microwave the bowl, covered, for 30 seconds",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave for 30 seconds rather than 2 minutes"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix the cheese and red bell pepper in the bowl"
+        },
+        {
+            "description": "Add-Add 1/4 teaspoon pepper to the bowl"
+        },
+        {
+            "description": "add-add 1/2 tbsp softened butter to the bowl",
+            "modified_description": "add-add 1 tbsp softened butter to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add 1 tbsp rather than 1/2 tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix all the ingredients of the bowl well",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "null"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add 1/4 teaspoon salt to the bowl"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 2,
+    "selected_by": 2,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-12T16:24:52.896395\"",
+        "end_time": "\"2023-04-12T16:39:23.395527\""
+    }
+}

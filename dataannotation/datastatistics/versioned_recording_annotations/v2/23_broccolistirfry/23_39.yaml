@@ -1,0 +1,218 @@
+activity_id: 23
+is_error: true
+recording_id: '23_39'
+step_annotations:
+- description: Peel-Peel 2 cloves of garlic
+  end_time: 107
+  errors:
+  - description: Did not peel the garlic correctly.
+    tag: Technique Error
+  start_time: 48
+  step_id: 257
+- description: mince-mince garlic
+  end_time: 235.86742260874382
+  errors:
+  - description: Mince one garlic finely and one garlic large pieces.
+    tag: Technique Error
+  modified_description: Mince-Mince two garlic improperly one garlic finely and other
+    with large pieces.
+  start_time: 108
+  step_id: 262
+- description: Add-Add 2 cloves minced garlic to the bowl
+  end_time: 261.60397420332043
+  start_time: 243.69009538972662
+  step_id: 255
+- description: Add-Add 1/8 teaspoon black pepper to the bowl
+  end_time: 314.40387636067703
+  errors:
+  - description: Add 1/4 tsp instead of 1/8 tsp.
+    tag: Measurement Error
+  modified_description: Add-Add 1/4 teaspoon black pepper to the bowl
+  start_time: 270.33071189639134
+  step_id: 268
+- description: Add-Add 1/6 cup water the bowl
+  end_time: 345.74479331305804
+  errors:
+  - description: Add 1/2 cup instead of 1/6 cup.
+    tag: Measurement Error
+  - description: Spill the contents while pouring water.
+    tag: Technique Error
+  modified_description: Add-Add 1/6 cup water the bowl and spill.
+  start_time: 318.3214909797247
+  step_id: 269
+- description: Whisk-Whisk the contents of bowl
+  end_time: 385.90034315829615
+  errors:
+  - description: Spill while whisking the bowl.
+    tag: Technique Error
+  - description: Step performed before adding all ingredients.
+    tag: Order Error
+  modified_description: Whisk-Whisk the contents of bowl and also spill the contents.
+  start_time: 357.4976371702009
+  step_id: 260
+- description: Set-Set aside the sauce mixture
+  end_time: 391.77676508686756
+  errors:
+  - description: Step performed before adding all ingredients.
+    tag: Order Error
+  start_time: 385.90034315829615
+  step_id: 251
+- description: Take-Take 2 cremini mushrooms
+  end_time: 422
+  start_time: 404
+  step_id: 270
+- description: Take-Take 1 bell pepper
+  end_time: 452.49979168210564
+  start_time: 401.5708016344866
+  step_id: 271
+- description: Add-Add 1/8 cup soy sauce to the bowl
+  end_time: 503.42878172972473
+  errors:
+  - description: Add 1/4 cup instead of the 1/8 cup.
+    tag: Measurement Error
+  - description: Step performed after whisking and setting aside the sauce.
+    tag: Order Error
+  modified_description: Add-Add 1/4 cup soy sauce to the bowl
+  start_time: 456.4174063011532
+  step_id: 250
+- description: Take-Take 5 in number broccoli florets
+  end_time: 585.6986887297246
+  errors:
+  - description: Take only 4 broccoli florets instead of 5
+    tag: Measurement Error
+  modified_description: Take-Take 4 in number broccoli florets
+  start_time: 510.284607313058
+  step_id: 273
+- description: Add-Add 1/2 tablespoon minced ginger to the bowl
+  end_time: 649.3599262892485
+  errors:
+  - description: Add 1/2 teaspoon instead of 1/2 table spoon.
+    tag: Measurement Error
+  - description: Step performed after whisking and setting aside the sauce.
+    tag: Order Error
+  modified_description: Add-Add 1/2 teaspoon minced ginger to the bowl.
+  start_time: 589.6163033487722
+  step_id: 267
+- description: Pour-Pour the sauce into the skillet
+  end_time: 712.0417601940104
+  errors:
+  - description: Sauce is spilled while pouring.
+    tag: Measurement Error
+  - description: Step performed before adding all ingredients and heating the pan
+    tag: Order Error
+  modified_description: Pour-Pour the sauce into the skillet and also try to spill
+    the sauce.
+  start_time: 660.1333664916294
+  step_id: 256
+- description: slice-slice mushrooms
+  end_time: 871.6845559202008
+  errors:
+  - description: Instead of slicing the mushrooms chop the mushrooms.
+    tag: Technique Error
+  - description: Step performed after pouring sauce to the skillet.
+    tag: Order Error
+  modified_description: Chop-Chop mushrooms
+  start_time: 780
+  step_id: 259
+- description: slice-slice 1/3 of the bell pepper
+  end_time: 921.634142313058
+  errors:
+  - description: Instead of 1/3 using 1/2 bell pepper.
+    tag: Measurement Error
+  - description: Did not seed the bell pepper
+    tag: Preparation Error
+  - description: Step performed after pouring sauce to the skillet.
+    tag: Order Error
+  modified_description: Slice-Slice 1/2 of the bell pepper.
+  start_time: 876.5815741940103
+  step_id: 263
+- description: Add-Add broccoli to the skillet
+  end_time: 992.1512054559151
+  errors:
+  - description: Step performed after pouring sauce to the skillet and before heating
+    tag: Order Error
+  start_time: 934.3663898249627
+  step_id: 265
+- description: Add-add sliced mushrooms to the skillet
+  end_time: 1005.8628566225817
+  errors:
+  - description: Step performed after pouring sauce to the skillet and before heating
+    tag: Order Error
+  start_time: 993.1306091106769
+  step_id: 258
+- description: cook-cook, stirring often, for 4 minutes. If the pan gets too hot on
+    medium-high, turn the heat down to medium
+  end_time: 1319.272026146391
+  errors:
+  - description: Changing the heat down to low-high instead of medium. Need to set
+      a temperature for this.
+    tag: Temperature Error
+  - description: Step performed after pouring sauce to the skillet and before heating
+    tag: Order Error
+  modified_description: Cook-Cook, stirring often, for 4 minutes. If the pan gets
+    too hot on medium-high, turn the heat down to medium
+  start_time: 1038.1831772297246
+  step_id: 253
+- description: Add-Add bell pepper to the skillet
+  end_time: 1332.004273658296
+  errors:
+  - description: Step performed after pouring sauce to the skillet and cooking
+    tag: Order Error
+  start_time: 1320.251429801153
+  step_id: 261
+- description: Add-Add 1 teaspoon cornstarch to the bowl
+  end_time: 1391.747896598772
+  errors:
+  - description: Add 1/2 teaspoon cornstarch instead of 1 teaspoon.
+    tag: Measurement Error
+  - description: Step performed after pouring sauce to the skillet and cooking
+    tag: Order Error
+  modified_description: Add-Add 1/2 teaspoon cornstarch to the bowl
+  start_time: 1333.9630809678197
+  step_id: 254
+- description: Whisk-Whisk the sauce again to recombine the ingredients
+  end_time: 1464.2084638690476
+  errors:
+  - description: Step performed after pouring sauce to the skillet and cooking
+    tag: Order Error
+  - description: Whisking inside the skillet instead of the bowl.
+    tag: Preparation Error
+  start_time: 1431.9034464440103
+  step_id: 272
+- description: Add-Add 1 tablespoon honey to the bowl
+  end_time: 1518.090968063058
+  errors:
+  - description: Add 1 teaspoon instead of 1 tablespoon.
+    tag: Measurement Error
+  - description: Step performed after pouring sauce to the skillet and cooking
+    tag: Order Error
+  modified_description: Add-Add 1 teaspoon honey to the bowl.
+  start_time: 1465.2031707059152
+  step_id: 252
+- description: cook-cook, stirring, for 1 minute until the sauce thickens
+  end_time: 1559.225921563058
+  errors:
+  - description: cook for less than a minute than 1 minute.
+    tag: Timing Error
+  - description: Step performed after pouring sauce to the skillet and cooking
+    tag: Order Error
+  modified_description: Cook-Cook, stirring, for 0.5 minute until the sauce thickens.
+  start_time: 1522.0085826821055
+  step_id: 264
+- description: continue cooking-continue cooking, stirring often, for 2-3 minutes,
+    until vegetables are crisp-tender
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 274
+- description: Heat-Heat 2 tablespoons olive oil in a skillet over medium-high heat
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 266

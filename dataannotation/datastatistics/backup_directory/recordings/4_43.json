@@ -1,0 +1,125 @@
+{
+    "id": "4_43",
+    "activity_id": 4,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 garlic clove",
+            "modified_description": "Peel-Peel 1 garlic clove improperly",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Peeled garlic improperly"
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove the noodles from the package(Break Noodles / Keep them as a block)"
+        },
+        {
+            "description": "Peel-Peel 1 medium onion"
+        },
+        {
+            "description": "Chop-Chop 1 garlic clove on a cutting board"
+        },
+        {
+            "description": "Put-Put all the Vegetables in a microwave-safe bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Placing things before cutting them "
+                }
+            ]
+        },
+        {
+            "description": "slice-slice 1/4 medium onion into pieces"
+        },
+        {
+            "description": "Add-Add basil to the bowl"
+        },
+        {
+            "description": "cover-cover the noodles with water",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Using a plate instead of bowl"
+                }
+            ]
+        },
+        {
+            "description": "Cover-Cover with a lid (or paper towel) to prevent splattering",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Did not cover the lid with a paper towel"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the ramen for 4 minutes",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Using non-microwaveable things and using things which does not fit into microwave "
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped cilantro to the bowl"
+        },
+        {
+            "description": "Add-Add the noodles to the bowl",
+            "errors": [
+                {
+                    "tag": "Other",
+                    "description": "Added them before "
+                }
+            ]
+        },
+        {
+            "description": "Let-Let the noodles sit for about 1 minute after the microwave stops"
+        },
+        {
+            "description": "Mix-Mix in the flavour packet to the bowl"
+        },
+        {
+            "description": "Stir-Stir noodles with a spoon or fork until the flavouring dissolves",
+            "modified_description": "Stir-Stir noodles with a spoon or fork faster making it to spill until the flavouring dissolves",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Stir fast to spill the water out of the bowl"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-14T20:03:33.117595\"",
+        "end_time": "null"
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "id": "5_37",
+    "activity_id": 5,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Place-Place the dripper on top of a coffee mug"
+        },
+        {
+            "description": "Measure-Measure 12 ounces of cold water",
+            "modified_description": "Measure-Measure 8 ounces of cold water",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "8 instead of 12 ounces of water"
+                }
+            ]
+        },
+        {
+            "description": "transfer-transfer water to a kettle",
+            "modified_description": "transfer-transfer water to a kettle, while splashing some water outside",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "pour some water out of kettle"
+                }
+            ]
+        },
+        {
+            "description": "Boil-Boil the water. (While the water is boiling, assemble the filter cone)",
+            "modified_description": "Boil-Don't boil the water",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "not boil the water"
+                }
+            ]
+        },
+        {
+            "description": "Weigh-Weigh the coffee beans (8oz-12 oz)",
+            "modified_description": "Weigh-Weigh the coffee beans (4oz)",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "4 instead of (8oz-12oz)"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the paper filter in the dripper",
+            "modified_description": "Place-Place the ball paper filter in the dripper",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "roll the paper filter before placing into the dripper"
+                }
+            ]
+        },
+        {
+            "description": "Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds",
+            "modified_description": "Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 10 seconds",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "10 instead of 20 seconds"
+                }
+            ]
+        },
+        {
+            "description": "spread-spread open filter in dripper to create a cone",
+            "modified_description": "spread-spread open filter in dripper to create a cone, but forget to open the filter",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "forget to open the filter"
+                }
+            ]
+        },
+        {
+            "description": "Transfer-Transfer the grounds to the filter cone",
+            "modified_description": "Transfer-Transfer the grounds to the filter cone, while splashing some grounds outside",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "splashing some grounds outside"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour a small amount of water into the filter to wet the grounds"
+        },
+        {
+            "description": "Wait-Wait about 30 seconds for the coffee to bloom. (You will see small bubbles or foam on the coffee grounds during this step.)"
+        },
+        {
+            "description": "pour-Slowly pour the rest of the water over the grounds in a circular motion. Do not overfill beyond the top of the paper filter"
+        },
+        {
+            "description": "drain-Let the coffee drain completely into the mug before removing the dripper"
+        },
+        {
+            "description": "Discard-Discard the paper filter and coffee grounds"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Prepare-Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "check-Once the water has boiled, check the temperature of the water. (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius. If the water is too hot, let it cool briefly.)"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 7,
+    "selected_by": 7,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-17T11:32:34.818282\"",
+        "end_time": "null"
+    }
+}

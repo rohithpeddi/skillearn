@@ -1,0 +1,117 @@
+activity_id: 2
+is_error: true
+recording_id: '2_42'
+step_annotations:
+- description: Peel-Peel 1 garlic clove
+  end_time: 68.95795486464968
+  start_time: 5.910681845541401
+  step_id: 14
+- description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in
+    a small bowl
+  end_time: 242.33795566719743
+  errors:
+  - description: 1/2 tablespoon soy sauce instead of 1/2 tsp soy sauce
+    tag: Measurement Error
+  modified_description: Mix 1/4 cup sweet-and-sour sauce and 1/2 tablespoon soy sauce
+    in a small bowl
+  start_time: 86.69000040127389
+  step_id: 23
+- description: Place-Place 5 meatballs in a Microwave-safe plate
+  end_time: 321.1470469410828
+  errors:
+  - description: Using bowl instead of plate
+    tag: Preparation Error
+  modified_description: Place 5 meatballs in a Microwave-safe bowl
+  start_time: 248.24863751273887
+  step_id: 21
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 490
+  errors:
+  - description: Microwave for 2 mins instead of 1.5 mins
+    tag: Timing Error
+  - description: Microwave before adding vegetables and sauces
+    tag: Order Error
+  modified_description: Microwave the plate, covered, on high for 2 minutes
+  start_time: 378
+  step_id: 20
+- description: Cut-Cut 1/4 medium carrot into short, thin strips
+  end_time: 626.5322756273886
+  start_time: 506.34841143471334
+  step_id: 22
+- description: Peel-Peel one medium onion
+  end_time: 669.8772758280255
+  start_time: 632.44295747293
+  step_id: 17
+- description: cut-Cut onion into two pieces
+  end_time: 691.549775928344
+  start_time: 671.8475031098726
+  step_id: 27
+- description: Slice-Slice 1/8 medium onion
+  end_time: 728.9840942834396
+  errors:
+  - description: chop instead of slice
+    tag: Technique Error
+  modified_description: chop 1/8 medium onion
+  start_time: 691.5497759283439
+  step_id: 19
+- description: Cut-Cut 1/8 garlic clove
+  end_time: 746
+  modified_description: Cut 1/2 garlic clove
+  start_time: 728.9840942834396
+  step_id: 16
+- description: Mince-Mince 1/8 garlic clove
+  end_time: 770.3588672022292
+  start_time: 746.5
+  step_id: 26
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder
+  end_time: 868.870231294586
+  errors:
+    - description: Top meatballs after microwaving
+      tag: Order Error
+  start_time: 776.2695490477706
+  step_id: 24
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 888.57
+  errors:
+    - description: Stirring before adding sauces
+      tag: Order Error
+  start_time: 866.9
+  step_id: 18
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 945.7090952866243
+  errors:
+  - description: Step performed before correct order
+    tag: Order Error
+  start_time: 882.661822267516
+  step_id: 20
+- description: Pour-Pour the sauces over the meatballs
+  end_time: 956
+  errors:
+    - description: Step performed after microwaving and stirring
+      tag: Order Error
+  start_time: 941.7686407229298
+  step_id: 15
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 972
+  start_time: 957
+  step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: 1085
+  errors:
+  - description: Microwave for 1.5 mins instead of 1 min
+    tag: Timing Error
+  modified_description: Microwave for 1.5 more minute
+  start_time: 979
+  step_id: 25
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 1107.267732398089
+  start_time: 1085.5952322977707
+  step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: 1227.4515965907642
+  errors:
+  - description: Microwave for 1.5 mins instead of 1 min
+    tag: Timing Error
+  modified_description: Microwave for 1.5 more minute
+  start_time: 1099.3868232707007
+  step_id: 25

@@ -1,0 +1,162 @@
+{
+    "id": "2_47",
+    "activity_id": 2,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 garlic clove",
+            "modified_description": "Peel-Peel 2 garlic cloves",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "2 instead of 1 garlic clove"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel one medium onion"
+        },
+        {
+            "description": "cut-Cut onion into two pieces",
+            "modified_description": "cut-Cut onion into four pieces",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "cut into 4 pieces"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice 1/8 medium onion",
+            "modified_description": "Chop-Chop 1/8 medium onion",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Chop instead of slice"
+                }
+            ]
+        },
+        {
+            "description": "Cut-Cut 1/4 medium carrot into short, thin strips",
+            "modified_description": "Cut-Cut 1/4 medium carrot into short strips",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "the size of carrot is not thin strips"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place 5 meatballs in a Microwave-safe plate",
+            "modified_description": "Place-Place 3 meatballs in a Microwave-safe plate",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "3 meatballs instead of 5 meatballs"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the plate, covered, on high for 5 minutes",
+            "modified_description": "Microwave-Microwave the plate, covered, on medium for 3 minutes",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "3 instead of 5 minutes"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "medium instead of high"
+                }
+            ]
+        },
+        {
+            "description": "Stir-Stir the contents in the microwave with a spoon",
+            "modified_description": "Stir-Stir the contents outside the microwave with a spoon and meatball drop on the ground",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Stir the contents outside the microwave"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Meatball drop"
+                }
+            ]
+        },
+        {
+            "description": "Cut-Cut 1/8 garlic clove",
+            "modified_description": "Cut-Cut 1/2 garlic clove",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1/2 instead of 1/8"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl"
+        },
+        {
+            "description": "Mince-Mince 1/8 garlic clove",
+            "modified_description": "Chop-Chop 1/8 garlic clove",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Chop instead of mince"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour the sauces over the meatballs"
+        },
+        {
+            "description": "Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder."
+        },
+        {
+            "description": "Microwave-Microwave the plate, covered, on high for 5 minutes",
+            "modified_description": "Microwave-Microwave the plate, covered, on high for 1 minute",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "1 minute instead of 5 minutes"
+                }
+            ]
+        },
+        {
+            "description": "Stir-Stir the contents in the microwave with a spoon"
+        },
+        {
+            "description": "Microwave-Microwave for 1 more minute"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 9,
+    "recorded_by": 7,
+    "selected_by": 7,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

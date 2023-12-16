@@ -1,0 +1,141 @@
+{
+    "id": "3_49",
+    "activity_id": 3,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Take-Take a microwavable mug",
+            "modified_description": "Take-Take a microwavable mug (not washed)",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Take-Take a microwavable mug without cleaning in the sink"
+                }
+            ]
+        },
+        {
+            "description": "add-Measure 1/8 teaspoon of baking powder and add it to the mug",
+            "modified_description": "add-Measure 1/4 teaspoon of baking powder and add it to the mug",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-Measure 1/4 teaspoon of baking powder and add it to the mug"
+                }
+            ]
+        },
+        {
+            "description": "add-Measure 4 tablespoons of flour and add it to the mug",
+            "modified_description": "add-Measure 5 tablespoons of flour and add it to the mug",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-Measure 5 tablespoons of flour and add it to the mug"
+                }
+            ]
+        },
+        {
+            "description": "add-Measure 1/16 teaspoon of baking soda and add it to the mug"
+        },
+        {
+            "description": "add-Measure 1/8 teaspoon of salt and add it to the mug",
+            "modified_description": "add-Measure 1/4 teaspoon of salt and add it to the mug",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-Measure 1/4 teaspoon of salt and add it to the mug"
+                }
+            ]
+        },
+        {
+            "description": "Stir-Stir the contents in the mug well"
+        },
+        {
+            "description": "Add-1 tablespoon of olive oil to the mug"
+        },
+        {
+            "description": "Add-Add in 3 tablespoons of milk to the mug",
+            "modified_description": "Add-Add in 3 tablespoons of curd to the mug",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Add-Add in 3 tablespoons of curd to the mug"
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle dried Italian herbs inside the mug"
+        },
+        {
+            "description": "Take-Take 1 tablespoon of marinara sauce",
+            "modified_description": "Take-Take 1 tablespoon of tomato ketchup",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Take-Take 1 tablespoon of tomato ketchup"
+                }
+            ]
+        },
+        {
+            "description": "spread-spread marinara sauce around the surface of the batter",
+            "modified_description": "spread-spread tomato ketchup on the edge of batter",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "spread-spread tomato ketchup on the edge of batter"
+                }
+            ]
+        },
+        {
+            "description": "Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top of the sauce"
+        },
+        {
+            "description": "Mix-Mix the contents of the mug thoroughly. (There might be some lumps, but that is ok.)",
+            "modified_description": "Mix-Mix the contents of the mug thoroughly. (There might be some lumps, but that is ok.)",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NONE"
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave for 1 minute 20 seconds, or until it rises and the toppings are bubbling",
+            "modified_description": "Microwave-Microwave for 2 minutes, or until it rises and the toppings are bubbling",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave-Microwave for 2 minutes, or until it rises and the toppings are bubbling"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

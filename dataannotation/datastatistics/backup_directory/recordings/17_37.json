@@ -1,0 +1,127 @@
+{
+    "id": "17_37",
+    "activity_id": 17,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Add-Add 1 teaspoon of cumin powder to the bowl",
+            "modified_description": "Add-Add 1 teaspoon of cumin powder to the bowl [not washing the bowl]",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "bowl not washed before taking for cooking. Add-Add 1 teaspoon of cumin powder to the bowl performed before bowl being cleaned."
+                }
+            ]
+        },
+        {
+            "description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl",
+            "modified_description": "add-add 2 tablespoon of chopped cilantro leaves to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Rinse-Rinse 1 medium sized cucumber",
+            "modified_description": "Rinse-Rinse 1 medium sized cucumber[ rinse time only 5 seconds]",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Rinse-Rinse 1 medium sized cucumber [rinsed not done properly. should be done for atleast 30 seconds under water but did only for 5 seconds]"
+                }
+            ]
+        },
+        {
+            "description": "whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd",
+            "modified_description": "whisk-In a mixing bowl, whisk 1/2 cup of chilled curd until smooth. Use fresh homemade or packaged curd",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "whisk-In a mixing bowl, whisk 1/2 cup of chilled curd until smooth. Use fresh homemade or packaged curd"
+                }
+            ]
+        },
+        {
+            "description": "peel-peel the cucumber",
+            "modified_description": "peel-peel the cucumber [not properly]",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "improper peeling of cucumber. thick peels made. many of the cucumber wasted in peels."
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 teaspoon salt to the bowl",
+            "modified_description": "Add-1/2 teaspoon salt to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-1/2 teaspoon salt to the bowl. "
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 teaspoon of red chilli powder to the bowl",
+            "modified_description": "Add-1/4 teaspoon of red chilli powder to the bowl",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/2 teaspoon of chaat masala powder to the bowl",
+            "modified_description": "Add-1 teaspoon of chaat masala powder to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Add-1 teaspoon of chaat masala powder to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Combine-Combine all the ingredients in the bowl"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "chop or grate-chop or grate the cucumber"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add the chopped or grated cucumber to the whisked curd"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-16T23:40:33.855419\"",
+        "end_time": "\"2023-04-16T23:56:49.214076\""
+    }
+}

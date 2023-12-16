@@ -1,0 +1,86 @@
+activity_id: 18
+is_error: true
+recording_id: '18_31'
+step_annotations:
+- description: Heat-Heat a large pan on medium heat
+  end_time: 23.784
+  errors:
+  - description: use low heat instead of medium
+    tag: Temperature Error
+  modified_description: Heat-Heat a large pan on low heat
+  start_time: 2.027
+  step_id: 196
+- description: Melt-Melt 1 tablespoons of softened butter
+  end_time: 179.886
+  errors:
+  - description: 1/2 tbsp of butter instead of 1 tbsp
+    tag: Measurement Error
+  modified_description: Melt-Melt 1 tablespoons of softened butter
+  start_time: 27.553
+  step_id: 204
+- description: Peel-Peel 1 garlic cloves
+  end_time: 210.051
+  errors:
+  - description: peel only halfway
+    tag: Technique Error
+  modified_description: Peel- incompletely Peel 1 garlic cloves
+  start_time: 183.913
+  step_id: 200
+- description: Add-Add 1 large minced garlic cloves to the pan
+  end_time: 246.111
+  errors:
+  - description: crushed instead of minced
+    tag: Technique Error
+  modified_description: Add-Add 1 large crushed garlic cloves to the pan
+  start_time: 214.184
+  step_id: 199
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
+    burn garlic
+  end_time: 290.352
+  errors:
+  - description: 1/2 min instead of 1 min
+    tag: Timing Error
+  modified_description: Cook-Cook garlic until fragrant (about 1/2 minutes). Be careful
+    not to burn garlic
+  start_time: 251.026
+  step_id: 202
+- description: season-pepper to taste
+  end_time: 312.855
+  start_time: 291.5
+  step_id: 194
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 394.133
+  errors:
+  - description: spill while adding
+    tag: Technique Error
+  modified_description: Add-1/6 cup grated parmesan cheese and spill some outside
+  start_time: 312.981
+  step_id: 193
+- description: Remove-Remove from heat
+  end_time: 415.33
+  start_time: 396.45233876148006
+  step_id: 197
+- description: Top-Top with more parmesan if desired
+  end_time: 435.493
+  errors:
+  - description: top with cheddar cheese
+    tag: Preparation Error
+  modified_description: Top-Top with more cheddar if desired
+  start_time: 416.194
+  step_id: 195
+- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 203
+- description: season-season with salt
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 198
+- description: Add-Add the zucchini noodles
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 201
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 192

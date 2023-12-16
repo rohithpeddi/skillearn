@@ -1,0 +1,60 @@
+activity_id: 12
+is_error: true
+recording_id: '12_51'
+step_annotations:
+- description: Rinse-Rinse a tomato
+  end_time: 23.433
+  start_time: 17.089260822249095
+  step_id: 125
+- description: dry-gently dry it with a tea towel
+  end_time: 29.544145828295044
+  start_time: 25
+  step_id: 122
+- description: Slice-Slice one tomato into about 1/2 inch thick slices
+  end_time: 73.688
+  start_time: 43.447273276904475
+  step_id: 119
+- description: Place-Place the thick slices of tomatoes on a platter, ensuring they
+    only make a single layer
+  end_time: 110.928
+  start_time: 96.16329818621523
+  step_id: 120
+- description: Season-Season platter with 1/4 teaspoon black pepper
+  end_time: 143.507
+  errors:
+  - description: Spilled the whole bottle
+    tag: Technique Error
+  - description: Used hands
+    tag: Technique Error
+  modified_description: Season-Season platter with 1/4 teaspoon black pepper, spilling
+    the whole bottle, mix with hands
+  start_time: 138.45197750906894
+  step_id: 126
+- description: Garnish-Garnish platter with italian seasoning
+  end_time: 180.133
+  start_time: 174.07874159613058
+  step_id: 127
+- description: Season-Season the tomato slices with salt
+  end_time: 191.036
+  start_time: 186.82327509068924
+  step_id: 123
+- description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
+    the platter
+  end_time: 212.257
+  errors:
+  - description: Spill
+    tag: Technique Error
+  modified_description: Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout
+    the platter, spill
+  start_time: 204.20218440145104
+  step_id: 124
+- description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over
+    the entire platter
+  end_time: 231.374
+  errors:
+  - description: Spill
+    tag: Technique Error
+  modified_description: Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon,
+    over the entire platter, spilling it
+  start_time: 223.6086331318017
+  step_id: 121

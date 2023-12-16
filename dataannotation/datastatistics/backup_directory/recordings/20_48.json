@@ -1,0 +1,158 @@
+{
+    "id": "20_48",
+    "activity_id": 20,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse 3 mushrooms under cold water",
+            "modified_description": "Rinse-Rinse 4 mushrooms under cold water",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Take 4 mushrooms instead of 3"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat 1 tbsp olive oil in a large skillet over medium-high heat",
+            "modified_description": "Heat-Heat 1 tsp olive oil in a large skillet over medium-high heat",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Use a tsp rather than a tbsp"
+                }
+            ]
+        },
+        {
+            "description": "pat-pat rinsed mushrooms dry with a paper towel",
+            "modified_description": "pat-dry the rinsed mushrooms by squashing with a paper towel",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Do not pat the mushrooms, rather crush them by holding them in paper towel"
+                }
+            ]
+        },
+        {
+            "description": "Pull-Pull out mushroom stems",
+            "modified_description": "Pull-Pull out mushroom stems partially ",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Pull out the stems partially "
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 2 garlic cloves",
+            "modified_description": "Peel-Peel 1 garlic cloves",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Take only one garlic clove, rather than two"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice the mushrooms",
+            "modified_description": "Chop-Chop the mushrooms",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Chop instead of slice"
+                }
+            ]
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute",
+            "modified_description": "cook-cook the pan, often stirring, for 2 minute",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Cook for two minutes rather than one. "
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 tbsp balsamic vinegar to the pan",
+            "modified_description": "(spill) Add-1 tbsp balsamic vinegar to the pan ",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill some balsamic vinegar"
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": "Take 1 tbsp rather than 1/4"
+                }
+            ]
+        },
+        {
+            "description": "mince-mince garlic cloves"
+        },
+        {
+            "description": "Add-Add 2 cloves of minced garlic to the pan"
+        },
+        {
+            "description": "cook-cook the pan, often stirring, for 1 minute"
+        },
+        {
+            "description": "Season-pepper on pan to taste"
+        },
+        {
+            "description": "Season-Season pan with salt"
+        },
+        {
+            "description": "add-Once the pan is hot, add the mushrooms",
+            "modified_description": "add-add the mushrooms",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Do not wait for the pan to become hot"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped shallot to the pan"
+        },
+        {
+            "description": "cook-cook for 3-5 minutes, stirring often, until mushrooms start to soften and brown"
+        },
+        {
+            "description": "Transfer-Transfer the contents of the pan to a serving dish"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Chop-Chop 1 shallot"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 2,
+    "selected_by": 2,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

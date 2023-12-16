@@ -1,0 +1,72 @@
+activity_id: 28
+is_error: false
+recording_id: '28_24'
+step_annotations:
+- description: Chop-Chop 1 scallion
+  end_time: 105.625
+  start_time: 8.884
+  step_id: 340
+- description: Lay-Lay out 2 large lettuce leaves
+  end_time: 202.838
+  start_time: 105.625
+  step_id: 329
+- description: Take-Take 1 ripe avocado
+  end_time: 219.494
+  start_time: 202.838
+  step_id: 335
+- description: Open-Open a can of tuna
+  end_time: 354.576
+  start_time: 219.494
+  step_id: 336
+- description: Add-1/4 cup mayonnaise to the bowl
+  end_time: 427.137
+  start_time: 354.576
+  step_id: 327
+- description: cut-cut avocado into thin slices
+  end_time: 538.384
+  start_time: 437.016
+  step_id: 341
+- description: Add-1 tsp Sriracha sauce to the bowl
+  end_time: 701.5889999999999
+  start_time: 538.384
+  step_id: 339
+- description: drain-drain excess water from can
+  end_time: 761.954
+  start_time: 714.197
+  step_id: 328
+- description: Add-add chopped scallion to the bowl
+  end_time: 776.88
+  start_time: 761.954
+  step_id: 333
+- description: Add-Add 1 can drained tuna to the bowl
+  end_time: 785.898
+  start_time: 776.88
+  step_id: 334
+- description: Mix-Mix the contents of the bowl
+  end_time: 828.805
+  start_time: 785.898
+  step_id: 331
+- description: Season-season 1/4 tsp pepper on the bowl
+  end_time: 902.766
+  start_time: 828.805
+  step_id: 326
+- description: Season-Season bowl with 1/4 tsp salt
+  end_time: 925.848
+  start_time: 902.766
+  step_id: 338
+- description: place-place avocado slices on each leaf
+  end_time: 969.584
+  start_time: 925.848
+  step_id: 325
+- description: top-top lettuce leaves with the tuna mixture
+  end_time: 1010.461
+  start_time: 969.584
+  step_id: 332
+- description: Roll-Roll up the lettuce wraps
+  end_time: 1059.52
+  start_time: 1010.461
+  step_id: 330
+- description: secure-secure the wrap with a toothpick
+  end_time: 1059.52
+  start_time: 1020.125
+  step_id: 337

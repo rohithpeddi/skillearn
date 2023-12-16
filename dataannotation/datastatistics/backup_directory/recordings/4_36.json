@@ -1,0 +1,136 @@
+{
+    "id": "4_36",
+    "activity_id": 4,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 medium onion"
+        },
+        {
+            "description": "Peel-Peel 1 garlic clove",
+            "modified_description": "Peel-Peel 2 garlic cloves.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Peeling two garlic cloves instead of one."
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 garlic clove on a cutting board",
+            "modified_description": "Chop-Chop 1 garlic clove on a cutting board"
+        },
+        {
+            "description": "slice-slice 1/4 medium onion into pieces",
+            "modified_description": "Chop-Chop 1/4 medium onion into pieces",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Chopping the 1/4 onion instead of slicing."
+                }
+            ]
+        },
+        {
+            "description": "Remove-Remove the noodles from the package(Break Noodles / Keep them as a block)"
+        },
+        {
+            "description": "Put-Put all the Vegetables in a microwave-safe bowl",
+            "modified_description": "Put-Put all the Vegetables in a microwave-safe bowl and spill some on counter top.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Spilling some vegetables on the countertop."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add the noodles to the bowl"
+        },
+        {
+            "description": "cover-cover the noodles with water"
+        },
+        {
+            "description": "Cover-Cover with a lid (or paper towel) to prevent splattering",
+            "modified_description": "Cover-Cover with a paper towel improperly.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Not covering the paper towel properly."
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the ramen for 4 minutes",
+            "modified_description": "Microwave-Microwave the ramen for 2.5 minutes",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Instead of 4 minute microwaving only for two and half minutes."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped basil to the bowl"
+        },
+        {
+            "description": "Let-Let the noodles sit for about 1 minute after the microwave stops",
+            "modified_description": "Let-Let the noodles sit for about 1/2 minute after the microwave stops",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Allowing it to sit only for 1/2 minute instead of 1 minute."
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chopped cilantro to the bowl",
+            "modified_description": "Add-Add chopped cilantro to the bowl.",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix in the flavour packet to the bowl",
+            "modified_description": "Mix-Mix in the flavour packet to the bowl and spill some on countertop.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "While mixing the flavour packet and spilled some out of the bowl."
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Stir-Stir noodles with a spoon or fork until the flavouring dissolves"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-23T23:21:02.789479\"",
+        "end_time": "null"
+    }
+}

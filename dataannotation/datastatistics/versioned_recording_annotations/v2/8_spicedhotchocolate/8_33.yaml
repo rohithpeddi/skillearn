@@ -1,0 +1,65 @@
+activity_id: 8
+is_error: true
+recording_id: '8_33'
+step_annotations:
+- description: Fill-Fill a microwave-safe mug with skimmed milk
+  end_time: 31.183259227766683
+  errors:
+  - description: Fill only half instead of full mug
+    tag: Measurement Error
+  - description: Filled whole milk instead of skimmed milk
+    tag: Preparation Error
+  modified_description: Half Fill- Half Fill a microwave-safe mug with whole milk
+  start_time: 3.6928681770148026
+  step_id: 88
+- description: Microwave-Microwave the contents of the mug for 1 minute
+  end_time: 171.03370497588696
+  errors:
+  - description: Microwave for 2 minutes instead of 1 minute
+    tag: Timing Error
+  - description: Set power level to 10% instead of 100%
+    tag: Temperature Error
+  modified_description: Microwave-Microwave the contents of the mug for 2 minute at
+    10% power
+  start_time: 34.31974679731555
+  step_id: 89
+- description: Add-Add 2 pieces of chocolate to the mug
+  end_time: 196.3101048010749
+  errors:
+  - description: Add-Add 5 pieces of chocolate to the mug
+    tag: Measurement Error
+  modified_description: Add-Add 5 pieces of chocolate to the mug
+  start_time: 171.40270351348096
+  step_id: 90
+- description: Add-Add 1 teaspoon of white sugar to the mug
+  end_time: 239.6674329683682
+  errors:
+  - description: Add-Add 1 teaspoon of corn starch to the mug
+    tag: Preparation Error
+  modified_description: Add-Add 1 teaspoon of corn starch to the mug
+  start_time: 200.36908871460875
+  step_id: 87
+- description: Add-Add 1/5 teaspoon cinnamon to the mug
+  end_time: 258.3018591168645
+  errors:
+  - description: Added cumin instead of cinnamon
+    tag: Preparation Error
+  modified_description: Add-Add 1/5 teaspoon ground cumin to the mug
+  start_time: 240.22093077475918
+  step_id: 84
+- description: Mix-Mix the contents of the mug
+  end_time: 294.460833
+  errors:
+  - description: Mix-Mix the contents of the mug with spilling
+    tag: Technique Error
+  modified_description: Mix-Mix the contents of the mug with spilling
+  start_time: 259.2243554608494
+  step_id: 85
+- description: Heat-Heat the contents of the mug for 1 minute and serve
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 83

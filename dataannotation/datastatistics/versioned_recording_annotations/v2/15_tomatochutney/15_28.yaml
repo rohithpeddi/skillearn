@@ -1,0 +1,141 @@
+activity_id: 15
+is_error: true
+recording_id: '15_28'
+step_annotations:
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 54.93434947570623
+  errors:
+  - description: Heat 5 tbsp oil in a pan over medium heat
+    tag: Measurement Error
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  modified_description: Heat-Heat 5 tbsp oil in a pan over medium heat
+  start_time: 15.956867900871792
+  step_id: 154
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 121.07795457239497
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  start_time: 105.1326212008718
+  step_id: 139
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 147.65351019160028
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  start_time: 121.66852247504397
+  step_id: 141
+- description: Lower-Lower the heat
+  end_time: 163.00827566047445
+  errors:
+  - description: Increase heat from medium to high
+    tag: Temperature Error
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  modified_description: Higher- Increase heat from medium to high
+  start_time: 159.4648682445804
+  step_id: 151
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: 252.77459686312346
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  start_time: 221.47449802272607
+  step_id: 147
+- description: Take-Take 1 tomato
+  end_time: 273.4444734558387
+  errors:
+  - description: Step performed after adding red chili powder to the pan
+    tag: Order Error
+  modified_description: Take-Take 1 tomato unwashed
+  start_time: 258.6802758896135
+  step_id: 149
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 367.9353378796797
+  errors:
+  - description: slice instead of chopping the tomatoes
+    tag: Technique Error
+  - description: Step performed after adding red chili powder to the pan
+    tag: Order Error
+  modified_description: Slice-Slice tomato roughly (anysize chunks are fine)
+  start_time: 288.2086710220638
+  step_id: 155
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 490.7734616306731
+  errors:
+  - description: making puree of tomatoes with water in blender/mixer
+    tag: Technique Error
+  - description: Step performed after adding red chili powder to the pan
+    tag: Order Error
+  modified_description: puree-puree tomatoes with 1 cup water in a blender/mixer
+  start_time: 394.510893498885
+  step_id: 150
+- description: mix-mix well contents of the pan
+  end_time: 528.5698074002095
+  start_time: 496.0885727545142
+  step_id: 157
+- description: Add-1/2 tsp salt to the pan
+  end_time: 556.9170667273618
+  modified_description: Add-1/2 tsp salt to the pan
+  start_time: 540.9717333558386
+  step_id: 146
+- description: Add-Add tomato puree to the pan
+  end_time: 577.586943320077
+  start_time: 559.2793383379578
+  step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 611.8398816737194
+  start_time: 582.9020544439181
+  step_id: 144
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: 821.4914871141168
+  errors:
+  - description: Cooked for 2 minutes instead of 5 minutes
+    tag: Timing Error
+  - description: Used high heat instead of low heat
+    tag: Temperature Error
+  modified_description: simmer-Allow the mixture to simmer over high heat for 2 minutes
+  start_time: 615.9738569922625
+  step_id: 153
+- description: Take-Take the pan off the heat
+  end_time: 826.8065982379578
+  start_time: 822.0820550167658
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 886.4539564055076
+  start_time: 862.2406723968983
+  step_id: 156
+- description: Peel-Peel 4 large garlic cloves
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 145
+- description: mince-mince the garlic
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 140
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 148
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 152

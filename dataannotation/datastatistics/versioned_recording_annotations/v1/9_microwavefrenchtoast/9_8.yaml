@@ -1,0 +1,61 @@
+activity_id: 9
+is_error: true
+recording_id: '9_8'
+step_annotations:
+- description: melt-In a large mug, melt 1 tablespoon of softened butter in the microwave
+    for about 30 seconds
+  end_time: 72.73667675159236
+  errors:
+  - description: Bowl instead of mug
+    tag: Preparation Error
+  modified_description: melt-In a large bowl, melt 1 tablespoon of softened butter
+    in the microwave for about 30 seconds
+  start_time: 6.209228503184713
+  step_id: 94
+- description: Roll-Roll the butter around in the mug to coat it
+  end_time: 95.79952547770701
+  start_time: 71.84964410828026
+  step_id: 98
+- description: whisk-In the mug, whisk one egg with a fork until well blended
+  end_time: 173.858398089172
+  start_time: 109.99204777070064
+  step_id: 101
+- description: Add-Add 1/4 teaspoon vanilla extract to the mug
+  end_time: 221.75816082802547
+  start_time: 179.18059394904458
+  step_id: 100
+- description: Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg
+  end_time: 258.1264992038217
+  start_time: 235.06365047770703
+  step_id: 95
+- description: stir-stir the mug
+  end_time: 287.39857643312104
+  start_time: 261.6746297770701
+  step_id: 93
+- description: Cut or tear-Cut or tear 1 slices of bread into bite-size pieces
+  end_time: 370.7796449044586
+  errors:
+  - description: English Muffins instead of bread
+    tag: Preparation Error
+  modified_description: Cut or tear-Cut or tear 1 slices of English.Muffin into bite-size
+    pieces
+  start_time: 303.3651640127389
+  step_id: 99
+- description: add-add bread pieces to the egg mixture in the mug, pressing the bread
+    down into the egg
+  end_time: 410.6961138535032
+  start_time: 372.5537101910828
+  step_id: 92
+- description: Microwave-Microwave on high for 90 seconds until the egg is cooked
+    through
+  end_time: 519.8011289808917
+  start_time: 411.5831464968153
+  step_id: 91
+- description: Put-Put the mug's contents on a plate
+  end_time: 536.6547492038217
+  start_time: 519.8011289808917
+  step_id: 97
+- description: cut-cut the contents on plate, and serve
+  end_time: 556.1694673566878
+  start_time: 535.7677165605096
+  step_id: 96

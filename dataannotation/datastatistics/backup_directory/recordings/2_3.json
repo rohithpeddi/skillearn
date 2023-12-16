@@ -1,0 +1,93 @@
+{
+    "id": "2_3",
+    "activity_id": 2,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Place-Place 5 meatballs in a Microwave-safe plate"
+        },
+        {
+            "description": "Peel-Peel 1 garlic clove"
+        },
+        {
+            "description": "Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl"
+        },
+        {
+            "description": "Peel-Peel one medium onion"
+        },
+        {
+            "description": "Cut-Cut 1/8 garlic clove"
+        },
+        {
+            "description": "Mince-Mince 1/8 garlic clove"
+        },
+        {
+            "description": "cut-Cut onion into two pieces"
+        },
+        {
+            "description": "Cut-Cut 1/4 medium carrot into short, thin strips"
+        },
+        {
+            "description": "Slice-Slice 1/8 medium onion"
+        },
+        {
+            "description": "Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder."
+        },
+        {
+            "description": "Pour-Pour the sauces over the meatballs"
+        },
+        {
+            "description": "Microwave-Microwave the plate, covered, on high for 5 minutes",
+            "modified_description": "Microwave-Microwave the plate, covered, on high for 5 minutes",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave the plate, covered, on high for 5 minutes instead of 1.5 minutes"
+                }
+            ]
+        },
+        {
+            "description": "Stir-Stir the contents in the microwave with a spoon"
+        },
+        {
+            "description": "Microwave-Microwave the plate, covered, on high for 5 minutes",
+            "modified_description": "Microwave-Microwave the plate, covered, on high for 5 minutes",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave the plate, covered, on high for 5 minutes instead of 1.5 minutes"
+                }
+            ]
+        },
+        {
+            "description": "Stir-Stir the contents in the microwave with a spoon"
+        },
+        {
+            "description": "Microwave-Microwave for 1 more minute"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 7,
+    "selected_by": 7,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-17T23:39:19.900078\"",
+        "end_time": "null"
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "id": "15_37",
+    "activity_id": 15,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 4 large garlic cloves",
+            "modified_description": "Peel-Peel 4 large garlic cloves incompletely "
+        },
+        {
+            "description": "Heat-Heat 3 tbsp oil in a pan over medium heat",
+            "modified_description": "Heat-Heat 2 tbsp oil in a pan over medium heat",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "heart only 2 tbsp oil instead of 3 tbsp"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/2 tsp cumin seeds to the pan",
+            "modified_description": "Add-1/2 tsp cumin seeds to the pan and spill some out while adding",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill some out while adding"
+                }
+            ]
+        },
+        {
+            "description": "mince-mince the garlic",
+            "modified_description": "Crush the garlic",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "crush the garlic instead of mincing"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/4 tsp mustard to the pan"
+        },
+        {
+            "description": "add-When mustard and cumin seeds begin to sizzle, add minced garlic"
+        },
+        {
+            "description": "Lower-Lower the heat",
+            "modified_description": "Higher-increase the heat",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "increase the great instead of reducing"
+                }
+            ]
+        },
+        {
+            "description": "Take-Take 1 tomato",
+            "modified_description": "Take-Take 1 soiled tomato",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use a soiled tomato and don't wash it"
+                }
+            ]
+        },
+        {
+            "description": "Saute-Saute the garlic for 2-3 minutes",
+            "modified_description": "Leave-Don't saut\u00e9, just leave it in pan for 1 min, so garlic may be burnt on one side",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Don't saut\u00e9, just leave it in pan for 1 min"
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Don't saut\u00e9, just leave it in pan for 1 min"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Don't saut\u00e9 garlic, just leave it in pan for 1 min"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop tomato roughly (anysize chunks are fine)",
+            "modified_description": "null",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Don't perform this step"
+                }
+            ]
+        },
+        {
+            "description": "mix-mix well contents of the pan"
+        },
+        {
+            "description": "puree-puree tomatoes without any water in a blender/mixer"
+        },
+        {
+            "description": "Add-1/2 tsp salt to the pan"
+        },
+        {
+            "description": "Add-Add tomato puree to the pan"
+        },
+        {
+            "description": "Mix-Mix well tomato puree with contents in the pan",
+            "modified_description": "Mix-Mix well tomato puree with contents in the pan and spill out while mixing",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill out while mixing"
+                }
+            ]
+        },
+        {
+            "description": "simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick",
+            "modified_description": "simmer-Allow the mixture to simmer over low heat for 1 minutes or until the mixture becomes thick",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Simmer for one min instead of 5 mins"
+                }
+            ]
+        },
+        {
+            "description": "Take-Take the pan off the heat"
+        },
+        {
+            "description": "Transfer-Transfer it to a serving bowl"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add 2 tbsp red chili powder to the pan"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-26T17:23:25.272035\"",
+        "end_time": "null"
+    }
+}

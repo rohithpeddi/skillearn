@@ -1,0 +1,67 @@
+activity_id: 22
+is_error: false
+recording_id: '22_6'
+step_annotations:
+- description: Take-Take a tomato
+  end_time: 15.093
+  start_time: 3.568
+  step_id: 247
+- description: Chop-Chop 2 tbsp cilantro
+  end_time: 98.325
+  start_time: 19.284951483463033
+  step_id: 237
+- description: Cut-Cut tomato into two pieces
+  end_time: 106.438
+  start_time: 98.913
+  step_id: 246
+- description: add-add the chopped cilantro to the bowl
+  end_time: 126.154
+  start_time: 107.535
+  step_id: 242
+- description: add-1/2 tsp ground black pepper to the bowl
+  end_time: 217.958
+  start_time: 132.721
+  step_id: 249
+- description: crack-crack one egg in a bowl
+  end_time: 244.383
+  start_time: 218.25514648437502
+  step_id: 239
+- description: Beat-Beat the contents of the bowl
+  end_time: 284.199
+  start_time: 244.82774516858552
+  step_id: 248
+- description: Heat-Heat 1 tbsp oil in a non-stick frying pan
+  end_time: 467.1115
+  start_time: 283.8008899054276
+  step_id: 235
+- description: cook-cook the tomatoes cut-side down until they start to soften and
+    colour
+  end_time: 704.871
+  start_time: 470.203
+  step_id: 240
+- description: Scoop-Scoop the tomatoes from the pan
+  end_time: 715.515
+  start_time: 704.782
+  step_id: 244
+- description: put-put tomatoes on a serving plate
+  end_time: 715.515
+  start_time: 704.782
+  step_id: 236
+- description: Pour-Pour the egg mixture into the pan
+  end_time: 729.036
+  start_time: 719.5889999999999
+  step_id: 241
+- description: stir-stir gently with a wooden spoon so the egg that sets on the base
+    of the pan moves to enable the uncooked egg to flow into the space
+  end_time: 759.442
+  start_time: 737.642
+  step_id: 238
+- description: Stop-Stop stirring when it's nearly cooked to allow it to set into
+    an omelette
+  end_time: 789.5660181949013
+  start_time: 767.966
+  step_id: 245
+- description: Transfer-Transfer omelette to the plate and serve with the tomatoes
+  end_time: 796.652
+  start_time: 788.698
+  step_id: 243

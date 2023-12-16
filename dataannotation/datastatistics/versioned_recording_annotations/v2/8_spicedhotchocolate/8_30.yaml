@@ -1,0 +1,61 @@
+activity_id: 8
+is_error: true
+recording_id: '8_30'
+step_annotations:
+- description: Fill-Fill a microwave-safe mug with skimmed milk
+  end_time: 102.9219715254934
+  errors:
+  - description: Using soiled mug without washing instead of a clean one.
+    tag: Preparation Error
+  modified_description: Fill-Fill a microwave-safe mug with skimmed milk while spilling
+    the milk.
+  start_time: 0
+  step_id: 88
+- description: Add-Add 2 pieces of chocolate to the mug
+  end_time: 124.11795836759869
+  errors:
+  - description: Add-Add 4 pieces of chocolate to the mug
+    tag: Measurement Error
+  modified_description: Add-Add 4 pieces of chocolate to the mug
+  start_time: 104.33503731496711
+  step_id: 90
+- description: Add-Add 1/5 teaspoon cinnamon to the mug
+  end_time: 158.73807020970392
+  errors:
+  - description: Instead of 1/5 added 1/4 tsp of cinnamon.
+    tag: Measurement Error
+  modified_description: Add-Add 1/4 teaspoon cinnamon to the mug
+  start_time: 125.53102415707235
+  step_id: 84
+- description: Add-Add 1 teaspoon of white sugar to the mug
+  end_time: 195.2422697711075
+  errors:
+  - description: Add-Add 2 teaspoon of white sugar to the mug. Instead of 1 tsp add
+      2 tsp of sugar.
+    tag: Measurement Error
+  modified_description: Add-Add 2 teaspoon of white sugar to the mug
+  start_time: 158.50255924479166
+  step_id: 87
+- description: Mix-Mix the contents of the mug
+  end_time: 214.55416889391446
+  start_time: 195.0067588061952
+  step_id: 85
+- description: Heat-Heat the contents of the mug for 1 minute and serve
+  end_time: 368.34282898163383
+  errors:
+  - description: Heat-Heat the contents of the mug for 2 minute and serve
+    tag: Timing Error
+  - description: Heat-Heat the contents of the mug for 2 minute and serve. On low
+      heat
+    tag: Temperature Error
+  modified_description: Heat-Heat the contents of the mug for 2 minute and serve.
+  start_time: 220.67745398163382
+  step_id: 83
+- description: Microwave-Microwave the contents of the mug for 1 minute
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 89

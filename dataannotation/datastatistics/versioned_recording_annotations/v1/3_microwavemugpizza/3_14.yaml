@@ -1,0 +1,67 @@
+activity_id: 3
+is_error: true
+recording_id: '3_14'
+step_annotations:
+- description: Take-Take a microwavable mug
+  end_time: 19.438
+  start_time: 4.207
+  step_id: 36
+- description: add-Measure 1/8 teaspoon of baking powder and add it to the mug
+  end_time: 83.418
+  start_time: 19.438
+  step_id: 40
+- description: add-Measure 1/16 teaspoon of baking soda and add it to the mug
+  end_time: 98.30199999999999
+  start_time: 83.418
+  step_id: 35
+- description: add-Measure 1/8 teaspoon of salt and add it to the mug
+  end_time: 115.49600000000001
+  start_time: 103.291
+  step_id: 28
+- description: add-Measure 4 tablespoons of flour and add it to the mug
+  end_time: 160.584
+  start_time: 117.298
+  step_id: 33
+- description: Stir-Stir the contents in the mug well
+  end_time: 194.643
+  start_time: 173.202
+  step_id: 38
+- description: Add-1 tablespoon of olive oil to the mug
+  end_time: 224.801
+  start_time: 197.032
+  step_id: 34
+- description: Add-Add in 3 tablespoons of milk to the mug
+  end_time: 276.133
+  start_time: 229.934
+  step_id: 41
+- description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps,
+    but that is ok.)
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 37
+- description: Take-Take 1 tablespoon of marinara sauce
+  end_time: 334.275
+  start_time: 281.266
+  step_id: 30
+- description: spread-spread marinara sauce around the surface of the batter
+  end_time: 344.457
+  start_time: 334.275
+  step_id: 31
+- description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
+    of the sauce
+  end_time: 426.995
+  start_time: 371.75
+  step_id: 39
+- description: Sprinkle-Sprinkle dried Italian herbs inside the mug
+  end_time: 451.217
+  start_time: 435.5
+  step_id: 29
+- description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
+    the toppings are bubbling
+  end_time: 598.723
+  start_time: 452.25
+  step_id: 32

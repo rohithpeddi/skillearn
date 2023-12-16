@@ -1,0 +1,93 @@
+activity_id: 29
+is_error: true
+recording_id: '29_32'
+step_annotations:
+- description: add-1/4 tsp pepper to a bowl
+  end_time: 54.20542331278392
+  errors:
+  - description: add-1/4 tsp pepper to plate instead of a bowl
+    tag: Preparation Error
+  modified_description: add-1/4 tsp pepper to a plate
+  start_time: 6.351142335966871
+  step_id: 346
+- description: Cut-Cut 1/4 cup of cherry tomatoes into halves
+  end_time: 215.64155190927517
+  errors:
+  - description: Cut-Cut 1/4 cup of normal tomatoes into halves
+    tag: Preparation Error
+  modified_description: Cut-Cut 1/4 cup of normal tomatoes into halves
+  start_time: 55.358538517044565
+  step_id: 350
+- description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+  end_time: 316.5391322820821
+  errors:
+  - description: Cut straight instead of slanted
+    tag: Technique Error
+  modified_description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice straight)
+  start_time: 231.78516476892423
+  step_id: 344
+- description: add-1/16 cup basil to a bowl
+  end_time: 393.22129336541553
+  errors:
+  - description: Add 1/8 cup basil instead of 1/16 cup
+    tag: Measurement Error
+  - description: Add 1/8 cup basil to a plate instead of bowl
+    tag: Preparation Error
+  modified_description: add-1/8 cup basil to a plate
+  start_time: 342.4842243779468
+  step_id: 347
+- description: add-1/8 cup shredded mozzarella to a bowl
+  end_time: 469.90345444874873
+  errors:
+  - description: add-1/8 cup shredded mozzarella to a plate instead of bowl
+    tag: Preparation Error
+  modified_description: add-1/8 cup shredded mozzarella to a plate
+  start_time: 394.3744085696761
+  step_id: 342
+- description: Brush-Brush 2 slices of baguette with olive oil on both sides
+  end_time: 536.7841362958666
+  errors:
+  - description: Brush using softened butter instead of olive oil
+    tag: Preparation Error
+  modified_description: Brush-Brush 2 slices of baguette with softened butter on both sides
+  start_time: 472.7862424594005
+  step_id: 349
+- description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
+    until lightly charred and crispy and transfer the slices to a plate
+  end_time: 784.7039052119065
+  errors:
+  - description: Toast for 1 minute instead of 2 or 3 minutes
+    tag: Timing Error
+  modified_description: Toast-Toast both sides of the slices on the pan for 1 minute and transfer the slices to a bowl
+  start_time: 548.3152883384731
+  step_id: 352
+- description: add-In a bowl, add the cut cherry tomatoes
+  end_time: 805.4599788885984
+  errors:
+  - description: Add to a plate instead of cherry tomatoes
+    tag: Preparation Error
+  modified_description: add-In a plate, add the cut cherry tomatoes
+  start_time: 788.739808426819
+  step_id: 351
+- description: Combine-Combine the contents of the bowl
+  end_time: 850
+  errors:
+  - description: Combine the contents of the plate instead of the bowl
+    tag: Preparation Error
+  start_time: 818
+  step_id: 348
+- description: Spoon-Spoon the mixture from the bowl onto the bread
+  end_time: 901.7360897318296
+  errors:
+  - description: Pouring the mixture instead of spooning
+    tag: Technique Error
+  start_time: 879.8269008508771
+  step_id: 345
+- description: add-1/4 tsp salt to a bowl
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 343

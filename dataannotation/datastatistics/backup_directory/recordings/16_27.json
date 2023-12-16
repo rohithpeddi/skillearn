@@ -1,0 +1,189 @@
+{
+    "id": "16_27",
+    "activity_id": 16,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Chop-Chop 1/4 medium onion",
+            "modified_description": "Slice 1/4 medium onion",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "slice instead of chop"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/8 tsp of turmeric to the pan",
+            "modified_description": "Add-Add 1/2 tsp of turmeric to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1/2 instead of 1/8"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 tsp cilantro",
+            "modified_description": "Prepare 1 tsp cilantro",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "No chop before use the cilantro"
+                }
+            ]
+        },
+        {
+            "description": "Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat",
+            "modified_description": "Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on high heat",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "High heat instead of medium heat"
+                }
+            ]
+        },
+        {
+            "description": "add-add 1/3 tsp salt to the pan",
+            "modified_description": "add-add 1 tsp salt to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1 instead of 1/3 tsp"
+                }
+            ]
+        },
+        {
+            "description": "add-add  1 tbsp milk to the bowl",
+            "modified_description": "add-add 1 tbsp milk to the bowl, but splash some milk outside",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Splash some milk outside"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 green chilli",
+            "modified_description": "Chop-Chop 2 green chilli",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "2 instead of 1"
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel 2 garlic cloves",
+            "modified_description": "Peel-Peel 1 garlic clove",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "1 instead of 2 garlic cloves"
+                }
+            ]
+        },
+        {
+            "description": "add-add 1/3 tsp salt to the bowl"
+        },
+        {
+            "description": "Mince-Mince peeled garlic cloves",
+            "modified_description": "Chop peeled garlic cloves",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Chop instead of mince"
+                }
+            ]
+        },
+        {
+            "description": "add-add chopped onions to the pan"
+        },
+        {
+            "description": "Crack-Crack one egg in the bowl",
+            "modified_description": "Crack-Crack 2 eggs in the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "2 instead of one egg"
+                }
+            ]
+        },
+        {
+            "description": "Saute-Saute the onions on medium heat until they are soft and translucent",
+            "modified_description": "Saute-Saute the onions on medium heat, but remove them quickly",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "remove the onions quickly"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add chilli to the pan"
+        },
+        {
+            "description": "Add-Add garlic to the pan"
+        },
+        {
+            "description": "Whisk-Whisk the egg mixture in the bowl"
+        },
+        {
+            "description": "Cook-Cook for 1 minute, mixing everything",
+            "modified_description": "Cook-Cook for 30 seconds, mixing everything",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "30 seconds instead of 1 minute"
+                }
+            ]
+        },
+        {
+            "description": "pour-Slowly pour the whisked eggs into the pan"
+        },
+        {
+            "description": "mixing-Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked"
+        },
+        {
+            "description": "Garnish-Garnish with 1 tbsp chopped cilantro and serve"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Chop-Chop 1/4 tomato"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add tomatoes to the pan"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Cook-Cook covered for 1 minute or until the tomatoes soften"
+        }
+    ],
+    "environment": 9,
+    "recorded_by": 7,
+    "selected_by": 7,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

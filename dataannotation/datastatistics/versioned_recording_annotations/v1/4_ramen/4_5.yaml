@@ -1,0 +1,65 @@
+activity_id: 4
+is_error: false
+recording_id: '4_5'
+step_annotations:
+- description: Peel-Peel 1 medium onion
+  end_time: 36.37617372697725
+  start_time: 11.64037559263272
+  step_id: 47
+- description: Remove-Remove the noodles from the package(Break Noodles / Keep them
+    as a block)
+  end_time: 67.65968313217768
+  start_time: 53.10921364138679
+  step_id: 44
+- description: slice-slice 1/4 medium onion into pieces
+  end_time: 129.499178468039
+  start_time: 93.8505282156013
+  step_id: 46
+- description: Peel-Peel 1 garlic clove
+  end_time: 166.6028756695558
+  start_time: 138.22946016251353
+  step_id: 14
+- description: Chop-Chop 1 garlic clove on a cutting board
+  end_time: 190.6111503293608
+  start_time: 171.69553999133262
+  step_id: 51
+- description: Put-Put all the Vegetables in a microwave-safe bowl
+  end_time: 216.8019954127844
+  start_time: 209.161
+  step_id: 54
+- description: Add-Add the noodles to the bowl
+  end_time: 231.3524649035753
+  start_time: 219.7120893109426
+  step_id: 52
+- description: cover-cover the noodles with water
+  end_time: 246.63045786890578
+  start_time: 237.9001761744312
+  step_id: 55
+- description: Cover-Cover with a lid (or paper towel) to prevent splattering
+  end_time: 266.2735916814735
+  start_time: 261.1809273596967
+  step_id: 49
+- description: Microwave-Microwave the ramen for 4 minutes
+  end_time: 514.1
+  start_time: 267.72863863055255
+  step_id: 45
+- description: Add-Add basil to the bowl
+  end_time: 530.3646129393283
+  start_time: 520.9068077703142
+  step_id: 50
+- description: Add-Add chopped cilantro to the bowl
+  end_time: 538.3673711592634
+  start_time: 531.8196598884074
+  step_id: 53
+- description: Let-Let the noodles sit for about 1 minute after the microwave stops
+  end_time: 624.2151411549296
+  start_time: 542.004
+  step_id: 48
+- description: Mix-Mix in the flavour packet to the bowl
+  end_time: 637.3105636966415
+  start_time: 625.6701881040087
+  step_id: 42
+- description: Stir-Stir noodles with a spoon or fork until the flavouring dissolves
+  end_time: 667.8665496273023
+  start_time: 646.7683688656555
+  step_id: 43

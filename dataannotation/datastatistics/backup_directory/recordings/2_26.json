@@ -1,0 +1,178 @@
+{
+    "id": "2_26",
+    "activity_id": 2,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Peel-Peel 1 garlic clove",
+            "modified_description": "Peel-Peel 1 garlic clove not properly.",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Not properly peeling the garlic clove."
+                }
+            ]
+        },
+        {
+            "description": "Peel-Peel one medium onion"
+        },
+        {
+            "description": "Cut-Cut 1/8 garlic clove",
+            "modified_description": "Cut-Cut 1/2 garlic clove.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using 1/2 garlic instead of 1/8 garlic."
+                }
+            ]
+        },
+        {
+            "description": "Mince-Mince 1/8 garlic clove",
+            "modified_description": "Mince-Mince 1/2 garlic clove",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using 1/2 garlic clove instead of 1/8."
+                }
+            ]
+        },
+        {
+            "description": "Cut-Cut 1/4 medium carrot into short, thin strips",
+            "modified_description": "Cut-Cut 1/4 medium carrot into long, thin strips",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cutting into long instead of short."
+                }
+            ]
+        },
+        {
+            "description": "Place-Place 5 meatballs in a Microwave-safe plate",
+            "modified_description": "Place-Place 6 meatballs in a Microwave-safe plate",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Using 6 meatballs instead of 5 meatballs."
+                }
+            ]
+        },
+        {
+            "description": "cut-Cut onion into two pieces",
+            "modified_description": "Cut-Cut onion into four pieces",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cutting into 4 pieces instead of 1."
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice 1/8 medium onion",
+            "modified_description": "Slice-Slice 1/4 medium onion",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Slicing 1/4 onion instead of 1/8 onion."
+                }
+            ]
+        },
+        {
+            "description": "Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl",
+            "modified_description": "Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in a small bowl and spill soy while measuring.",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Mixing 1/2 cup instead of 1/4 cup sweet and sour sauce and 1 teaspoon of soy sauce instead of 1/2 teaspoon."
+                },
+                {
+                    "tag": "Preparation Error",
+                    "description": "Spill soy sauce while measuring."
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour the sauces over the meatballs",
+            "modified_description": "Put-Put the meatballs over the sauce and transfer to the plate.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Instead of pouring sauces over meatballs, put the meatballs into the sauces."
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the plate, covered, on high for 5 minutes",
+            "modified_description": "Microwave-Microwave the plate, uncovered, on high for 5 minutes",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Microwave the plate uncovered without covering it."
+                }
+            ]
+        },
+        {
+            "description": "Stir-Stir the contents in the microwave with a spoon",
+            "modified_description": "Stir-Stir the contents in the microwave with a fork.",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Using a fork instead of a spoon."
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave the plate, covered, on high for 5 minutes",
+            "modified_description": "Microwave-Microwave the plate, covered, on medium for 5 minutes",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Instead of high power level we microwave on a medium power level."
+                }
+            ]
+        },
+        {
+            "description": "Microwave-Microwave for 1 more minute",
+            "modified_description": "Microwave-Microwave for one and half minute.",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Microwave for more than a minute."
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder."
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Stir-Stir the contents in the microwave with a spoon"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 3,
+    "selected_by": 3,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

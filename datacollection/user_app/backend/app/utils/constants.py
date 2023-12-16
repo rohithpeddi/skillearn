@@ -52,6 +52,8 @@ class Recording_Constants:
 	DESCRIPTION = "description"
 	MODIFIED_DESCRIPTION = "modified_description"
 	
+	STEP_ID = "step_id"
+	
 	TAG = "tag"
 	
 	ACTIVITIES = "activities"
@@ -101,6 +103,10 @@ class Recording_Constants:
 	AB_ZIP = "ab.zip"
 	DEPTH_ZIP = "depth.zip"
 	FRAMES_ZIP = "frames.zip"
+	
+	VIDEO = "video"
+	POSE = "pose"
+	
 	
 	DEPTH_POSE = "depth_pose_pkl"
 	PV_POSE = "pv_pose_pkl"
@@ -153,6 +159,8 @@ class Recording_Constants:
 	HOLOLENS_SYNC_DEPTH_POSE_PKL = "hololens_sync_depth_pose_pkl"
 	
 	DURATION = "duration"
+	
+	STEP_ANNOTATIONS = "step_annotations"
 
 
 # # ---------------------------------------------------------------------------------------
@@ -303,6 +311,9 @@ class Firebase_Constants:
 	NARRATIONS = "narrations"
 	
 	RECORDING_SUMMARIES = "recording_summaries"
+	
+	RECORDING_ANNOTATIONS = "recording_annotations"
+	STEP_DICTIONARY = "step_dictionary"
 
 
 # # ---------------------------------------------------------------------------------------

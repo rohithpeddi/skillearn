@@ -13,7 +13,6 @@ def make_shareable_box_links():
 
 def update_file_download_links():
 	logger.info("Updating file download links")
-	
 	box_root_folder_id = box_service.root_folder_id
 	box_root_folder = box_service.client.folder(folder_id=box_root_folder_id)
 	
@@ -42,5 +41,5 @@ def update_file_download_links():
 
 if __name__ == '__main__':
 	box_service = BoxService()
-	# make_shareable_box_links()
-	update_file_download_links()
+	make_shareable_box_links()
+	# update_file_download_links()

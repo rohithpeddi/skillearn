@@ -1,0 +1,86 @@
+activity_id: 18
+is_error: true
+recording_id: '18_101'
+step_annotations:
+- description: Peel-Peel 1 garlic cloves
+  end_time: 49.891
+  start_time: 2.128
+  step_id: 200
+- description: Heat-Heat a large pan on medium heat
+  end_time: 91.866
+  errors:
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
+  start_time: 54.228
+  step_id: 196
+- description: Melt-Melt 1 tablespoons of softened butter
+  end_time: 285.086
+  errors:
+  - description: Added garlic butter
+    tag: Preparation Error
+  - description: Used hands to add butter to pan
+    tag: Preparation Error
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
+  modified_description: Melt-Melt 1 tablespoons of softened garlic butter
+  start_time: 221.69
+  step_id: 204
+- description: Add-Add 1 large minced garlic cloves to the pan
+  end_time: 436.723
+  errors:
+  - description: Step performed before spiralizing zucchini
+    tag: Order Error
+  start_time: 292.628
+  step_id: 199
+- description: Cook-Cook garlic until fragrant (about 1 minutes). Be careful not to
+    burn garlic
+  end_time: 621
+  errors:
+  - description: Cook garlic for more than 1 minute
+    tag: Timing Error
+  start_time: 420
+  step_id: 202
+- description: Spiralize-Spiralize 1 medium zucchini into thin noodles using a spiralizer
+  end_time: 622.202
+  errors:
+  - description: did not remove ends to spiralize
+    tag: Technique Error
+  - description: Step performed after heating the pan
+    tag: Order Error
+  start_time: 449.964
+  step_id: 203
+- description: Add-Add the zucchini noodles
+  end_time: 648.019
+  start_time: 621.179
+  step_id: 201
+- description: season-season with salt
+  end_time: 662.086
+  start_time: 652.046
+  step_id: 198
+- description: season-pepper to taste
+  end_time: 679.798
+  start_time: 665.959
+  step_id: 194
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 720.2956642158957
+  start_time: 693.556796240073
+  step_id: 193
+- description: Cook-Cook for 2 minutes or until the zoodles are done
+  end_time: 813
+  errors:
+  - description: Spill while sauteing and cooking the zoodles
+    tag: Technique Error
+  start_time: 685.15
+  step_id: 192
+- description: Remove-Remove from heat
+  end_time: 820.137
+  start_time: 816.1099411292604
+  step_id: 197
+- description: Top-Top with more parmesan if desired
+  end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 195

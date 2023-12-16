@@ -1,0 +1,81 @@
+activity_id: 15
+is_error: false
+recording_id: '15_18'
+step_annotations:
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 306.244
+  start_time: 0.653
+  step_id: 145
+- description: Take-Take 1 tomato
+  end_time: 361.116
+  start_time: 308.881
+  step_id: 149
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 437.5
+  start_time: 363.51
+  step_id: 155
+- description: mince-mince the garlic
+  end_time: 598.838
+  start_time: 438.2
+  step_id: 140
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 770.4110000000001
+  start_time: 615.369
+  step_id: 150
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 818.189
+  start_time: 773.823
+  step_id: 154
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 861.5
+  start_time: 821.443
+  step_id: 141
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 892.372
+  start_time: 862
+  step_id: 139
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: 1044.493
+  start_time: 1013.654
+  step_id: 152
+- description: Lower-Lower the heat
+  end_time: 1059.831
+  start_time: 1051.536
+  step_id: 151
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: 1182.479
+  start_time: 1066.663
+  step_id: 148
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: 1256.169
+  start_time: 1187.1970000000001
+  step_id: 147
+- description: mix-mix well contents of the pan
+  end_time: -1.0
+  start_time: -1.0
+  step_id: 157
+- description: Add-Add tomato puree to the pan
+  end_time: 1303.352
+  start_time: 1278.483
+  step_id: 142
+- description: Add-1/2 tsp salt to the pan
+  end_time: 1343.041
+  start_time: 1310.577
+  step_id: 146
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 1382.02
+  start_time: 1344.976
+  step_id: 144
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: 1687.731
+  start_time: 1383.168
+  step_id: 153
+- description: Take-Take the pan off the heat
+  end_time: 1692.604
+  start_time: 1687.181
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 1721.168
+  start_time: 1556.0529999999999
+  step_id: 156

@@ -1,0 +1,194 @@
+{
+    "id": "16_35",
+    "activity_id": 16,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Heat-Heat 2 tbsp oil in a heavy-bottomed or nonstick pan on medium heat"
+        },
+        {
+            "description": "Peel-Peel 2 garlic cloves",
+            "modified_description": "Peel-Do not completely peel 2 garlic cloves",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Half peel garlic"
+                }
+            ]
+        },
+        {
+            "description": "Crack-Crack one egg in the bowl",
+            "modified_description": "Crack-Spill while cracking an egg in the bowl ",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Crack the egg with shells in the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1/4 medium onion",
+            "modified_description": "Chop-Mince 1/4 medium onion ",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Mince onion instead of chopping it"
+                }
+            ]
+        },
+        {
+            "description": "add-add chopped onions to the pan",
+            "modified_description": "add-add chopped onions to the pan [throw some outside while adding into the pan]",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Throw onions outside the pan while adding them"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1/4 tomato",
+            "modified_description": "Chop-Chop 1/2 tomato",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Chop 1/2 tomato instead of 1/4 tomato"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 green chilli"
+        },
+        {
+            "description": "add-add 1/3 tsp salt to the pan",
+            "modified_description": "add-add 1/2 tsp salt to the pan",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Adding 1/2 tsp salt "
+                }
+            ]
+        },
+        {
+            "description": "Add-Add tomatoes to the pan"
+        },
+        {
+            "description": "Saute-Saute the onions on medium heat until they are soft and translucent",
+            "modified_description": "Saute-Saute the onions on high heat until they are brownish and burnt",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "Saute onions in high heat"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add garlic to the pan"
+        },
+        {
+            "description": "Add-Add chilli to the pan"
+        },
+        {
+            "description": "Cook-Cook for 1 minute, mixing everything",
+            "modified_description": "Cook-Cook for 3 minutes, mixing everything",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Cook for 3 min instead of 1 min"
+                }
+            ]
+        },
+        {
+            "description": "Chop-Chop 1 tsp cilantro",
+            "modified_description": "Chop-Chop spoilt 1 tsp cilantro",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Using spoilt cilantro instead of good ones"
+                }
+            ]
+        },
+        {
+            "description": "Add-Add 1/8 tsp of turmeric to the pan"
+        },
+        {
+            "description": "add-add 1/3 tsp salt to the bowl"
+        },
+        {
+            "description": "Whisk-Whisk the egg mixture in the bowl",
+            "modified_description": "Whisk-Spill while whisking the egg mixture in the bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spilling while whisking the egg mixture in the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Cook-Cook covered for 1 minute or until the tomatoes soften",
+            "errors": [
+                {
+                    "tag": "Missing Step",
+                    "description": "Tomatoes already softened so missed this step"
+                }
+            ]
+        },
+        {
+            "description": "pour-Slowly pour the whisked eggs into the pan",
+            "modified_description": "pour- Transfer the whisked eggs into the pan completely at once",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Transfer completely at once"
+                }
+            ]
+        },
+        {
+            "description": "mixing-Keep mixing with a spatula for 3 minutes or until the eggs are almost cooked"
+        },
+        {
+            "description": "Garnish-Garnish with 1 tbsp chopped cilantro and serve",
+            "modified_description": " Mix-Mix with 1 tbsp chopped cilantro and serve",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Mixing the dish instead of garnishing it"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Mince-Mince peeled garlic cloves"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "add-add  1 tbsp milk to the bowl"
+        }
+    ],
+    "environment": 1,
+    "recorded_by": 1,
+    "selected_by": 1,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-04-19T13:10:33.401919\"",
+        "end_time": "null"
+    }
+}

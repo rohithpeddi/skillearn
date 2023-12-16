@@ -1,0 +1,133 @@
+activity_id: 5
+is_error: true
+recording_id: '5_27'
+step_annotations:
+- description: Measure-Measure 12 ounces of cold water
+  end_time: 98.06700000000001
+  errors:
+  - description: Measure-Measure 12 ounces of milk instead of water
+    tag: Preparation Error
+  modified_description: Measure-Measure 12 ounces of milk
+  start_time: 4.264
+  step_id: 68
+- description: transfer-transfer water to a kettle
+  end_time: 121.42
+  errors:
+  - description: transfer-transfer milk to a microwave safe bowl
+    tag: Preparation Error
+  modified_description: transfer-transfer milk to a microwave safe bowl
+  start_time: 107.596
+  step_id: 70
+- description: Prepare-Prepare the filter insert by folding the paper filter in half
+    to create a semi-circle, and in half again to create a quarter-circle
+  end_time: 185.303
+  errors:
+  - description: Do not prepare the filter
+    tag: Technique Error
+  modified_description: Prepare-Prepare the filter insert taking it fully
+  start_time: 146.197
+  step_id: 62
+- description: Place-Place the dripper on top of a coffee mug
+  end_time: 222.64
+  start_time: 197.16
+  step_id: 69
+- description: Boil-Boil the water. (While the water is boiling, assemble the filter cone)
+  end_time: 400.193
+  errors:
+  - description: Microwave the milk instead of boiling it in a kettle
+    tag: Preparation Error
+  modified_description: Boil-Boil the milk in microwave. (While the milk is boiling, assemble the filter cone)
+  start_time: 239.117
+  step_id: 64
+- description: Place-Place the paper filter in the dripper
+  end_time: 426.843
+  errors:
+  - description: place the improperly folded filter paper in dripper
+    tag: Technique Error
+  modified_description: Place-Place the paper filter in the dripper which is not folded
+    properly
+  start_time: 413.174
+  step_id: 60
+- description: spread-spread open filter in dripper to create a cone
+  end_time: 455.037
+  errors:
+  - description: unsuccessful in creating cone with improperly folded filter paper
+    tag: Technique Error
+  modified_description: spread-spread open filter in dripper to create a cone
+  start_time: 440.742
+  step_id: 59
+- description: Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
+  end_time: 571.919
+  errors:
+  - description: Weigh-Weigh the coffee beans 0.4oz-0.6oz
+    tag: Measurement Error
+  modified_description: Weigh-Weigh the coffee beans 0.4oz-0.6oz
+  start_time: 476.088
+  step_id: 65
+- description: Grind-Grind the coffee beans until the coffee grounds are the consistency
+    of coarse sand, about 20 seconds
+  end_time: 805.777
+  errors:
+  - description: Grinding for 40 seconds instead of 20 seconds
+    tag: Timing Error
+  - description: Grinding using stone mortar instead of coffee grinder
+    tag: Preparation Error
+  start_time: 583.323
+  step_id: 67
+- description: Transfer-Transfer the grounds to the filter cone
+  end_time: 844.376
+  start_time: 823.112
+  step_id: 58
+- description: Pour-Pour a small amount of water into the filter to wet the grounds
+  end_time: 874.771
+  errors:
+  - description: Pour-Pour a small amount of milk into the filter to wet the grounds
+    tag: Preparation Error
+  - description: Spill while pouring milk into the filter to wet the grounds
+    tag: Technique Error
+  modified_description: Pour-Pour a small amount of milk into the filter to wet the grounds
+  start_time: 853.055
+  step_id: 57
+- description: Wait-Wait about 30 seconds for the coffee to bloom. (You will see small
+    bubbles or foam on the coffee grounds during this step.)
+  end_time: 974.528
+  errors:
+  - description: Wait-Wait about 1 minute for the coffee to bloom. (You will see small
+      bubbles or foam on the coffee grounds during this step.)
+    tag: Timing Error
+  modified_description: Wait-Wait about 1 minute for the coffee to bloom.
+  start_time: 874.99
+  step_id: 56
+- description: pour-Slowly pour the rest of the water over the grounds in a circular
+    motion. Do not overfill beyond the top of the paper filter
+  end_time: 1017.218
+  errors:
+  - description: Spill while pouring the milk
+    tag: Technique Error
+  - description: Did not pour in circular motion
+    tag: Technique Error
+  - description: Pour milk instead of water
+    tag: Preparation Error
+  modified_description: pour-fast pour the rest of the milk over the grounds in a
+    bulk and immediately spilling some outside
+  start_time: 975.065
+  step_id: 61
+- description: drain-Let the coffee drain completely into the mug before removing
+    the dripper
+  end_time: 1095.205
+  start_time: 1017.945
+  step_id: 66
+- description: Discard-Discard the paper filter and coffee grounds
+  end_time: 1140
+  start_time: 1112.929
+  step_id: 63
+- description: check-Once the water has boiled, check the temperature of the water.
+    (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
+    Celsius. If the water is too hot, let it cool briefly.)
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 71

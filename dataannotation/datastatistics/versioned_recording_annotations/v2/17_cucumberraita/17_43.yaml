@@ -1,0 +1,78 @@
+activity_id: 17
+is_error: true
+recording_id: '17_43'
+step_annotations:
+- description: Rinse-Rinse 1 medium sized cucumber
+  end_time: 39.037979154353785
+  start_time: 5.281342311969681
+  step_id: 189
+- description: chop or grate-chop or grate the cucumber
+  end_time: 58.026087378194845
+  errors:
+  - description: slice the cucumber into discs
+    tag: Technique Error
+  modified_description: slice the cucumber into discs instead of chopping or grating
+  start_time: 39.38961078812862
+  step_id: 185
+- description: Add-1/4 teaspoon salt to the bowl
+  end_time: 98.4637252623008
+  errors:
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
+  start_time: 64.00382515236703
+  step_id: 184
+- description: Add-Add 1 teaspoon of cumin powder to the bowl
+  end_time: 149.4503121596518
+  errors:
+  - description: add cumin seed instead of powder
+    tag: Preparation Error
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
+  modified_description: Add-Add 1 teaspoon of cumin seed to the bowl
+  start_time: 109.01267427554583
+  step_id: 188
+- description: add-add 1 tablespoon of chopped cilantro leaves to the bowl
+  end_time: 224.34785015369152
+  errors:
+  - description: Step performed before whisking curd in the bowl
+    tag: Order Error
+  start_time: 163.86720914442
+  step_id: 187
+- description: whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use
+    fresh homemade or packaged curd
+  end_time: 357.2646077205789
+  errors:
+  - description: use flavoured fruit yogurt instead of curd
+    tag: Preparation Error
+  - description: Step performed after whisking curd in the bowl
+    tag: Order Error
+  start_time: 241.2261685748836
+  step_id: 183
+- description: Add-1/2 teaspoon of chaat masala powder to the bowl
+  end_time: 434.6235671510425
+  errors:
+  - description: add garam masala instead of chaat masala
+    tag: Preparation Error
+  modified_description: Add-1/2 teaspoon of garam masala powder to the bowl
+  start_time: 368.5168200013736
+  step_id: 191
+- description: Add-Add the chopped or grated cucumber to the whisked curd
+  end_time: 454.66657027620806
+  start_time: 438.8431467563405
+  step_id: 190
+- description: Add-1/4 teaspoon of red chilli powder to the bowl
+  end_time: 491.2362601887909
+  start_time: 468.0285723596518
+  step_id: 181
+- description: Combine-Combine all the ingredients in the bowl
+  end_time: 525.6961602987246
+  start_time: 492.994418357665
+  step_id: 186
+- description: peel-peel the cucumber
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 182

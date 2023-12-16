@@ -1,0 +1,98 @@
+{
+    "id": "17_40",
+    "activity_id": 17,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Add-Add 1 teaspoon of cumin powder to the bowl",
+            "modified_description": "Add-Add 1 teaspoon of cumin powder to the bowl and spill some out while adding",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "spill some cumin powder "
+                }
+            ]
+        },
+        {
+            "description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl",
+            "modified_description": "add-add 1 tablespoon of chopped scallions to the bowl instead of cilantro",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "add scallions instead of cilantro"
+                }
+            ]
+        },
+        {
+            "description": "Rinse-Rinse 1 medium sized cucumber",
+            "modified_description": "Rinse-Rinse 1 medium sized zucchini",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "use zuchini instead of cucumber"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 teaspoon of red chilli powder to the bowl"
+        },
+        {
+            "description": "whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd"
+        },
+        {
+            "description": "chop or grate-chop or grate the cucumber",
+            "modified_description": "chop or grate-chop or grate only 1/2 of zucchini instead of one medium cucumber",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "use zucchini instead of cucumber and chop or grate only half zucchini instead of full"
+                }
+            ]
+        },
+        {
+            "description": "Add-1/4 teaspoon salt to the bowl"
+        },
+        {
+            "description": "Add-1/2 teaspoon of chaat masala powder to the bowl"
+        },
+        {
+            "description": "Add-Add the chopped or grated cucumber to the whisked curd"
+        },
+        {
+            "description": "Combine-Combine all the ingredients in the bowl"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "peel-peel the cucumber"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 7,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-12T01:10:58.472357\"",
+        "end_time": "null"
+    }
+}

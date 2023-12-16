@@ -1,0 +1,63 @@
+activity_id: 3
+is_error: false
+recording_id: '3_18'
+step_annotations:
+- description: Take-Take a microwavable mug
+  end_time: 129.01627472972973
+  start_time: 7.3723585559845555
+  step_id: 36
+- description: add-Measure 1/8 teaspoon of salt and add it to the mug
+  end_time: 215.64148776254825
+  start_time: 174.17197088513512
+  step_id: 28
+- description: add-Measure 1/8 teaspoon of baking powder and add it to the mug
+  end_time: 249.7386460839768
+  start_time: 216.56303258204633
+  step_id: 40
+- description: add-Measure 4 tablespoons of flour and add it to the mug
+  end_time: 328.06995574131275
+  start_time: 255.26791500096525
+  step_id: 33
+- description: add-Measure 1/16 teaspoon of baking soda and add it to the mug
+  end_time: 351.1085762287645
+  start_time: 333.5992246583012
+  step_id: 35
+- description: Stir-Stir the contents in the mug well
+  end_time: 398.107362023166
+  start_time: 369.5394726187259
+  step_id: 38
+- description: Add-Add in 3 tablespoons of milk to the mug
+  end_time: 480.12485095849416
+  start_time: 427.59679624710424
+  step_id: 41
+- description: Add-1 tablespoon of olive oil to the mug
+  end_time: 516.9866437384169
+  start_time: 483.8110302364865
+  step_id: 34
+- description: Mix-Mix the contents of the mug thoroughly. (There might be some lumps,
+    but that is ok.)
+  end_time: 587.0240500202702
+  start_time: 519.7512781969112
+  step_id: 37
+- description: Take-Take 1 tablespoon of marinara sauce
+  end_time: 668.1199941361003
+  start_time: 626.6504772586873
+  step_id: 30
+- description: spread-spread marinara sauce around the surface of the batter
+  end_time: 715.118779930502
+  start_time: 671.8061734140927
+  step_id: 31
+- description: Sprinkle-Sprinkle 1 generous tablespoon of mozzarella cheese on top
+    of the sauce
+  end_time: 782.3915517538609
+  start_time: 728.941952222973
+  step_id: 39
+- description: Sprinkle-Sprinkle dried Italian herbs inside the mug
+  end_time: 833.9980616457528
+  start_time: 790.6854551293436
+  step_id: 29
+- description: Microwave-Microwave for 1 minute 20 seconds, or until it rises and
+    the toppings are bubbling
+  end_time: 941.8188055270269
+  start_time: 833.9980616457528
+  step_id: 32

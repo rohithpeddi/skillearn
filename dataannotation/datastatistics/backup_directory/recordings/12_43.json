@@ -1,0 +1,103 @@
+{
+    "id": "12_43",
+    "activity_id": 12,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Rinse-Rinse a tomato",
+            "modified_description": "Rinse a tomato for 1 second with hot water",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Rinse for too short"
+                },
+                {
+                    "tag": "Temperature Error",
+                    "description": "Rinse with hot water"
+                }
+            ]
+        },
+        {
+            "description": "dry-gently dry it with a tea towel",
+            "modified_description": "dry-gently dry it with a paper towel",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Use a paper towel instead"
+                }
+            ]
+        },
+        {
+            "description": "Slice-Slice one tomato into about 1/2 inch thick slices",
+            "modified_description": "Slice-Cut one tomato into about 1 inch thick cubes",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Cut tomato instead of slicing"
+                },
+                {
+                    "tag": "Measurement Error",
+                    "description": "Cut into big slices"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the thick slices of tomatoes on a platter, ensuring they only make a single layer",
+            "modified_description": "Place the thick slices of tomatoes on a platter, ensuring they only make a single layer, but spill",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Spill"
+                }
+            ]
+        },
+        {
+            "description": "Season-Season platter with 1/4 teaspoon black pepper"
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Garnish-Garnish platter with italian seasoning"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Season-Season the tomato slices with salt"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Sprinkle-Sprinkle mozzarella cheese on top of the tomato throughout the platter"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Add-Add a drizzle of extra-virgin olive oil, about 1 tablespoon, over the entire platter"
+        },
+        {
+            "tag": "Order Error"
+        }
+    ],
+    "environment": 5,
+    "recorded_by": 8,
+    "selected_by": 8,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

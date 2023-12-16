@@ -1,0 +1,121 @@
+activity_id: 2
+is_error: true
+recording_id: '2_38'
+step_annotations:
+- description: Peel-Peel 1 garlic clove
+  end_time: 65.46651576433119
+  start_time: 23.230053980891718
+  step_id: 14
+- description: Peel-Peel one medium onion
+  end_time: 137.26850079617833
+  start_time: 61.24286958598725
+  step_id: 17
+- description: Cut-Cut 1/8 garlic clove
+  end_time: 171.05767022292997
+  errors:
+  - description: Cut 1/2 garlic clove instead of 1/8 garlic clove.
+    tag: Measurement Error
+  modified_description: Cut-Cut 1/2 garlic clove
+  start_time: 149.93943933121017
+  step_id: 16
+- description: Mince-Mince 1/8 garlic clove
+  end_time: 209.07048582802548
+  start_time: 166.83402404458596
+  step_id: 26
+- description: Cut-Cut 1/4 medium carrot into short, thin strips
+  end_time: 420.25279474522296
+  errors:
+  - description: Instead of short thin strips cutting it into long irregular strips.
+    tag: Technique Error
+  - description: Not taking the 1/4 medium carrot.
+    tag: Measurement Error
+  modified_description: Cut-Cut 1/4 medium carrot into long, irregular size strips.
+  start_time: 215.4059550955414
+  step_id: 22
+- description: cut-Cut onion into two pieces
+  end_time: 475.1601950636944
+  start_time: 424.4764409235668
+  step_id: 27
+- description: Slice-Slice 1/8 medium onion
+  end_time: 540.6267108280256
+  errors:
+  - description: Instead of slicing chopping the onion.
+    tag: Technique Error
+  modified_description: Chop-Chop 1/8 medium onion.
+  start_time: 475.1601950636942
+  step_id: 19
+- description: Place-Place 5 meatballs in a Microwave-safe plate
+  end_time: 612.4286958598727
+  errors:
+  - description: Placing 6 meatballs instead of 5.
+    tag: Measurement Error
+  modified_description: Place-Place 6 meatballs in a Microwave-safe plate.
+  start_time: 546.9621800955415
+  step_id: 21
+- description: Top-Top the plate with the carrots, onion, garlic and 1/4 tsp pepper powder
+  end_time: 728.5789657643312
+  errors:
+  - description: Using the 1/2 tsp instead of 1/4 tsp.
+    tag: Measurement Error
+  modified_description: Top-Top the plate with the carrots, onion, garlic and 1/2
+    tsp pepper powder.
+  start_time: 627.2114574840764
+  step_id: 24
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 1092
+  errors:
+  - description: Instead of high using medium power level.
+    tag: Temperature Error
+  - description: Not using the microwave cover to cover the contents.
+    tag: Preparation Error
+  modified_description: Microwave-Microwave the plate, covered, on medium power level
+    for 1.5 minutes.
+  start_time: 737
+  step_id: 20
+- description: Microwave-Microwave the plate, covered, on high for 1.5 minutes
+  end_time: 1298.7711998407642
+  errors:
+  - description: Instead of 1.5 minutes only 3 minutes.
+    tag: Timing Error
+  - description: Not using the microwave cover to cover the contents.
+    tag: Preparation Error
+  modified_description: Microwave-Microwave the plate, covered, on high for 3 minutes
+  start_time: 1091.812537101911
+  step_id: 20
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: 1323.6
+  start_time: 1281
+  step_id: 18
+- description: Mix-Mix 1/4 cup sweet-and-sour sauce and 1/2 teaspoon soy sauce in
+    a small bowl
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 23
+- description: Stir-Stir the contents in the microwave with a spoon
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 18
+- description: Microwave-Microwave for 1 more minute
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 25
+- description: Pour-Pour the sauces over the meatballs
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 15

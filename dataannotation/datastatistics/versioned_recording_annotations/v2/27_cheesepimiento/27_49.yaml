@@ -1,0 +1,68 @@
+activity_id: 27
+is_error: true
+recording_id: '27_49'
+step_annotations:
+- description: Add-Add 1 tablespoons of water to the bowl
+  end_time: 27.150690445859873
+  start_time: 7.636131687898089
+  step_id: 320
+- description: Add-Add 1/3 cup cheddar cheese to a microwave-safe cup
+  end_time: 62.78597165605096
+  errors:
+  - description: Spill while adding
+    tag: Technique Error
+  modified_description: Add-Add 1/3 cup cheddar cheese to a microwave-safe cup but
+    spill
+  start_time: 44.1198719745223
+  step_id: 316
+- description: Melt-Melt the cheese by microwaving cup for 30 sec. (Check after 30
+    seconds and microwave for 10 seconds more if needed)
+  end_time: 106.05738455414014
+  start_time: 66.17980796178344
+  step_id: 323
+- description: Chop-Chop 1/4 red bell pepper into tiny bits
+  end_time: 167.14643805732484
+  start_time: 123.87502515923569
+  step_id: 321
+- description: Place-Place the chopped pepper in the microwave-safe bowl
+  end_time: 195.14558757961785
+  errors:
+  - description: Spill while placing chopped pepper in bowl
+    tag: Technique Error
+  modified_description: Place-Place the chopped pepper in the microwave-safe bowl; spill
+  start_time: 181.5702423566879
+  step_id: 322
+- description: Mix-Mix the cheese and red bell pepper in the bowl
+  end_time: 229.0839506369427
+  errors:
+  - description: Mixed with hands
+    tag: Preparation Error
+  - description: Step performed before microwave bell pepper
+    tag: Order Error
+  modified_description: Mix-Mix the cheese and red bell pepper in the bowl with hands
+  start_time: 195.99404665605095
+  step_id: 317
+- description: Microwave-Microwave the bowl, covered, for 2 minutes
+  end_time: 400.4726840764331
+  start_time: 227.38703248407646
+  step_id: 318
+- description: Add-Add 1/4 teaspoon pepper to the bowl
+  end_time: 430.16875175159237
+  start_time: 408.1088157643312
+  step_id: 319
+- description: Add-Add 1/4 teaspoon salt to the bowl
+  end_time: 442.0471788216561
+  start_time: 429.32029267515924
+  step_id: 315
+- description: add-add 1/2 tbsp softened butter to the bowl
+  end_time: 457.3194421974522
+  start_time: 446.2894742038217
+  step_id: 314
+- description: Mix-Mix all the ingredients of the bowl well
+  end_time: 490.409346178344
+  errors:
+  - description: Used hands to mix
+    tag: Preparation Error
+  modified_description: Mix-Mix all the ingredients of the bowl well with hands
+  start_time: 456.4709831210191
+  step_id: 324

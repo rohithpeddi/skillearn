@@ -1,0 +1,79 @@
+{
+    "id": "5_4",
+    "activity_id": 5,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "Prepare-Prepare the filter insert by folding the paper filter in half to create a semi-circle, and in half again to create a quarter-circle"
+        },
+        {
+            "description": "Measure-Measure 12 ounces of cold water"
+        },
+        {
+            "description": "Weigh-Weigh the coffee beans (0.8oz-0.12 oz)"
+        },
+        {
+            "description": "Grind-Grind the coffee beans until the coffee grounds are the consistency of coarse sand, about 20 seconds"
+        },
+        {
+            "description": "Place-Place the dripper on top of a coffee mug"
+        },
+        {
+            "description": "Place-Place the paper filter in the dripper"
+        },
+        {
+            "description": "spread-spread open filter in dripper to create a cone"
+        },
+        {
+            "description": "transfer-transfer water to a kettle"
+        },
+        {
+            "description": "Transfer-Transfer the grounds to the filter cone"
+        },
+        {
+            "description": "Boil-Boil the water. (While the water is boiling, assemble the filter cone)"
+        },
+        {
+            "description": "check-Once the water has boiled, check the temperature of the water. (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees Celsius. If the water is too hot, let it cool briefly.)"
+        },
+        {
+            "description": "Pour-Pour a small amount of water into the filter to wet the grounds"
+        },
+        {
+            "description": "Wait-Wait about 30 seconds for the coffee to bloom. (You will see small bubbles or foam on the coffee grounds during this step.)"
+        },
+        {
+            "description": "pour-Slowly pour the rest of the water over the grounds in a circular motion. Do not overfill beyond the top of the paper filter"
+        },
+        {
+            "description": "drain-Let the coffee drain completely into the mug before removing the dripper"
+        },
+        {
+            "description": "Discard-Discard the paper filter and coffee grounds"
+        }
+    ],
+    "environment": 6,
+    "recorded_by": 4,
+    "selected_by": 4,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "\"2023-05-07T01:31:19.189001\"",
+        "end_time": "null"
+    }
+}

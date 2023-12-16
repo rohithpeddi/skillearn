@@ -1,0 +1,160 @@
+activity_id: 5
+is_error: true
+recording_id: '5_44'
+step_annotations:
+- description: Weigh-Weigh the coffee beans (0.8oz-0.12 oz)
+  end_time: 105.596
+  errors:
+  - description: Spilling while transferring from packet to weighing scale
+    tag: Technique Error
+  - description: Weigh-Weigh the coffee beans (0.6-0.7 oz) as coffee beans got spilled.
+    tag: Measurement Error
+  modified_description: Weigh-Weigh the coffee beans (0.6-0.7 oz)
+  start_time: 5.233
+  step_id: 65
+- description: Place-Place the paper filter in the dripper
+  end_time: 154.644
+  errors:
+  - description: Place-Place 3 paper filter in the dripper
+    tag: Measurement Error
+  - description: Step performed before preparing the filter and placing dripper on top of a coffee mug
+    tag: Order Error
+  start_time: 110.52199999999999
+  step_id: 60
+- description: Place-Place the dripper on top of a coffee mug
+  end_time: 207.88400000000001
+  errors:
+  - description: Place-Place the dripper on top of a bowl. Use bowl instead of coffee mug.
+    tag: Preparation Error
+  - description: Step performed after placing filter in the dripper
+    tag: Order Error
+  modified_description: Place-Place the dripper on top of a bowl
+  start_time: 192.352
+  step_id: 69
+- description: spread-spread open filter in dripper to create a cone
+  end_time: 326.52
+  errors:
+  - description: spread-spread open 3 filters in dripper to create 3 cones one on
+      top of another without actually folding but just compressing. 3 Filters were
+      just squashed and tried to make ice cream cone structure of filters. No folding
+      was done.
+    tag: Technique Error
+  - description: Step performed before preparing the filter
+    tag: Order Error
+  modified_description: spread-spread open 3 filters in dripper to create 3 cones
+    without actually folding but just compressing one on top of another.
+  start_time: 216.236
+  step_id: 59
+- description: Grind-Grind the coffee beans until the coffee grounds are the consistency
+    of coarse sand, about 20 seconds
+  end_time: 371.294
+  errors:
+  - description: coffee beans are not properly grinded and are like pebbles.
+    tag: Timing Error
+  - description:  While transferring from weighing scale to coffee grinder spilling occurs.
+    tag: Technique Error
+  start_time: 330.177
+  step_id: 67
+- description: Transfer-Transfer the grounds to the filter cone
+  end_time: 441.624
+  errors:
+  - description: Step performed before preparing the filter
+    tag: Order Error
+  start_time: 388.125
+  step_id: 58
+- description: Measure-Measure 12 ounces of cold water
+  end_time: 576.299
+  errors:
+  - description: Used weighing scale instead of measuring jug for measuring water.
+    tag: Preparation Error
+  start_time: 464.743
+  step_id: 68
+- description: transfer-transfer water to a kettle
+  end_time: 661.364
+  errors:
+  - description: transfer-transfer water to a mixer
+    tag: Preparation Error
+  modified_description: transfer-transfer water to a mixer
+  start_time: 584.614
+  step_id: 70
+- description: Pour-Pour a small amount of water into the filter to wet the grounds
+  end_time: 728.284
+  errors:
+  - description: Pour from tap into the filter by using measuring cup to wet the grounds
+    tag: Preparation Error
+  - description: Did not pour water from kettle into the filter.
+    tag: Preparation Error
+  - description: Step performed before boiling water and preparing the filter
+    tag: Order Error
+  modified_description: Pour-Pour a water from tap into the filter by using measuring
+    tsp to wet the grounds
+  start_time: 714.038
+  step_id: 57
+- description: Wait-Wait about 30 seconds for the coffee to bloom. (You will see small
+    bubbles or foam on the coffee grounds during this step.)
+  end_time: 760.102
+  errors:
+  - description: Step performed before boiling water and preparing the filter
+    tag: Order Error
+  start_time: 730.489
+  step_id: 56
+- description: pour-Slowly pour the rest of the water over the grounds in a circular
+    motion. Do not overfill beyond the top of the paper filter
+  end_time: 780.797
+  errors:
+  - description: pour-In a single shot pour the complete water over the grounds. Overfilling
+      beyond paper filter occurs
+    tag: Technique Error
+  - description: Step performed before boiling water and preparing the filter
+    tag: Order Error
+  modified_description: pour-In a single shot pour the complete water over the grounds.
+    Overfilling beyond paper filter occurs
+  start_time: 761.796
+  step_id: 61
+- description: drain-Let the coffee drain completely into the mug before removing
+    the dripper
+  end_time: 856.777
+  errors:
+  - description: Step performed before boiling water and preparing the filter
+    tag: Order Error
+  start_time: 781.013
+  step_id: 66
+- description: Boil-Boil the water. (While the water is boiling, assemble the filter
+    cone)
+  end_time: 936.783
+  errors:
+  - description: Boil in a pan instead of kettle
+    tag: Preparation Error
+  - description: Step performed after adding water to the filter
+    tag: Order Error
+  modified_description: Boil-Boil the water in pan. Take water without measuring from
+    tap. (While the water is boiling, assemble the filter cone)
+  start_time: 813.251
+  step_id: 64
+- description: check-Once the water has boiled, check the temperature of the water.
+    (The water should be between 195-205 degrees Fahrenheit or between 91-96 degrees
+    Celsius. If the water is too hot, let it cool briefly.)
+  end_time: 969.456
+  errors:
+  - description: Temperature of the water is not as expected
+    tag: Temperature Error
+  - description: Check temperature in pan instead of kettle
+    tag: Preparation Error
+  - description: Step performed after adding water to the filter
+    tag: Order Error
+  modified_description: check-Once the water has boiled, check the temperature of
+    the water. (The water should be between 140-150 degrees Fahrenheit)
+  start_time: 938.77
+  step_id: 71
+- description: Prepare-Prepare the filter insert by folding the paper filter in half
+    to create a semi-circle, and in half again to create a quarter-circle
+  end_time: 982.497
+  errors:
+  - description: Step performed after adding water to the filter
+    tag: Order Error
+  start_time: 973.311
+  step_id: 62
+- description: Discard-Discard the paper filter and coffee grounds
+  end_time: 1010.557
+  start_time: 989.209
+  step_id: 63

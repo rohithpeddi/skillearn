@@ -1,0 +1,64 @@
+{
+    "id": "17_16",
+    "activity_id": 17,
+    "is_error": false,
+    "steps": [
+        {
+            "description": "whisk-In a mixing bowl, whisk 1 cup of chilled curd until smooth. Use fresh homemade or packaged curd"
+        },
+        {
+            "description": "Rinse-Rinse 1 medium sized cucumber"
+        },
+        {
+            "description": "Add-1/4 teaspoon of red chilli powder to the bowl"
+        },
+        {
+            "description": "Add-Add 1 teaspoon of cumin powder to the bowl"
+        },
+        {
+            "description": "peel-peel the cucumber"
+        },
+        {
+            "description": "add-add 1 tablespoon of chopped cilantro leaves to the bowl"
+        },
+        {
+            "description": "chop or grate-chop or grate the cucumber"
+        },
+        {
+            "description": "Add-1/4 teaspoon salt to the bowl"
+        },
+        {
+            "description": "Add-1/2 teaspoon of chaat masala powder to the bowl"
+        },
+        {
+            "description": "Add-Add the chopped or grated cucumber to the whisked curd"
+        },
+        {
+            "description": "Combine-Combine all the ingredients in the bowl"
+        }
+    ],
+    "environment": 11,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

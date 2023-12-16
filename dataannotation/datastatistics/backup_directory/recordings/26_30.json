@@ -1,0 +1,198 @@
+{
+    "id": "26_30",
+    "activity_id": 26,
+    "is_error": true,
+    "steps": [
+        {
+            "description": "Measure and add-Measure and add 2 tbsp flour to the mixing bowl",
+            "modified_description": "Measure and add-Measure and add 2 tbsp flour to the mixing bowl (without cleaning bowl first)",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Measure and add-Measure and add 2 tbsp flour to the mixing bowl (without cleaning bowl first)"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-1.5 tbsp sugar to the mixing bowl",
+            "modified_description": "Measure and add-1.5 tbsp salt to the mixing bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Measure and add-1.5 tbsp salt to the mixing bowl"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-a pinch of salt to the mixing bowl",
+            "modified_description": "Measure and add-a pinch of sugar to the mixing bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Measure and add-a pinch of sugar to the mixing bowl"
+                }
+            ]
+        },
+        {
+            "description": "Whisk-Whisk to combine mixture of flour, sugar and baking powder in the bowl"
+        },
+        {
+            "description": "Measure and add-1/4 tsp vanilla extract to the bowl",
+            "modified_description": "Measure and add-1/2 tsp vanilla extract to the bowl",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Measure and add-1/2 tsp vanilla extract to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Measure and add-2 tbsp water to the bowl",
+            "modified_description": "Measure and add-2 tbsp milk to the bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Measure and add-2 tbsp milk to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Place-Place the paper cupcake liner inside the mug"
+        },
+        {
+            "description": "Set-Set aside the lined mug"
+        },
+        {
+            "description": "Measure and add-Measure and add 2 tsp vegetable oil to the bowl",
+            "modified_description": "Measure and add-Measure and add 2 tsp olive oil to the bowl",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Measure and add-Measure and add 2 tsp olive oil to the bowl"
+                }
+            ]
+        },
+        {
+            "description": "Whisk-Whisk batter until no lumps remain",
+            "modified_description": "Whisk-Whisk batter with a spoon until no lumps remain",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Whisk-Whisk batter with a spoon until no lumps remain"
+                }
+            ]
+        },
+        {
+            "description": "Pour-Pour batter into prepared mug",
+            "modified_description": "Pour-Pour batter into prepared mug",
+            "errors": [
+                {
+                    "tag": "Temperature Error",
+                    "description": "NULL"
+                }
+            ]
+        },
+        {
+            "description": "Invert-Invert the mug to release the cake onto a plate",
+            "modified_description": "Invert-Invert the mug to release the cake onto a bowl",
+            "errors": [
+                {
+                    "tag": "Preparation Error",
+                    "description": "Invert-Invert the mug to release the cake onto a bowl"
+                }
+            ]
+        },
+        {
+            "description": "Allow-Allow to cool until it is no longer hot to the touch",
+            "modified_description": "Allow-No time to allow for cooling so that it is still hot to the touch",
+            "errors": [
+                {
+                    "tag": "Timing Error",
+                    "description": "Allow-No time to allow for cooling so that it is still hot to the touch"
+                }
+            ]
+        },
+        {
+            "description": "remove-then carefully remove the paper liner",
+            "modified_description": "remove- remove the paper liner by pulling strongly (not carefully)",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "remove- remove the paper liner by pulling strongly (not carefully)"
+                }
+            ]
+        },
+        {
+            "description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 4 spoonfuls of chocolate frosting into a zip-top bag",
+            "modified_description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 2 spoonfuls of chocolate frosting into a polythene ",
+            "errors": [
+                {
+                    "tag": "Measurement Error",
+                    "description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 2 spoonfuls of chocolate frosting into a polythene "
+                },
+                {
+                    "tag": "Technique Error",
+                    "description": "Scoop-While the cake is cooling, prepare to pipe the frosting. Scoop 2 spoonfuls of chocolate frosting into a polythene "
+                }
+            ]
+        },
+        {
+            "description": "cut-Use scissors to cut one corner from the bag to create a small opening 1/4 inch in diameter",
+            "modified_description": "cut-Use knife to cut one corner from the bag to create a small opening 1/4 inch in diameter",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "cut-Use knife to cut one corner from the bag to create a small opening 1/4 inch in diameter"
+                }
+            ]
+        },
+        {
+            "description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the plate in a circle around the base of the cake",
+            "modified_description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the bowl in a square around the base of the cake",
+            "errors": [
+                {
+                    "tag": "Technique Error",
+                    "description": "Squeeze-Squeeze the frosting through the opening to apply small dollops of frosting to the bowl in a square around the base of the cake"
+                }
+            ]
+        }
+    ],
+    "errors": [
+        {
+            "tag": "Missing Step",
+            "description": "Measure and add-1/4 tsp baking powder to the bowl"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "Microwave-Microwave the mug and batter on high power for 60 seconds. Check if the cake is done by inserting and toothpick into the center of the cake and then removing it. If wet batter clings to the toothpick, microwave for an additional 5 seconds. If the toothpick comes out clean, continue"
+        },
+        {
+            "tag": "Missing Step",
+            "description": "seal-seal zip top bag, removing as much air as possible"
+        }
+    ],
+    "environment": 2,
+    "recorded_by": 5,
+    "selected_by": 5,
+    "recording_info": {
+        "gopro": true,
+        "hololens_info": {
+            "pv": true,
+            "mc": true,
+            "depth_ahat": true,
+            "spatial": true,
+            "depth_lt": false,
+            "vlc_leftleft": false,
+            "vlc_leftfront": false,
+            "vlc_rightright": false,
+            "vlc_rightleft": false,
+            "device_ip": "192.168.0.207",
+            "imu": true,
+            "imu_accelerometer": true,
+            "imu_gyroscope": true,
+            "imu_magnetometer": true
+        },
+        "start_time": "null",
+        "end_time": "null"
+    }
+}

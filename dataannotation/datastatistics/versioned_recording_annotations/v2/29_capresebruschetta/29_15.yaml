@@ -1,0 +1,49 @@
+activity_id: 29
+is_error: false
+recording_id: '29_15'
+step_annotations:
+- description: Slice-Slice two 1/2 inch thick rounds from a baguette (slice slanted)
+  end_time: 84.837
+  start_time: 1.939
+  step_id: 344
+- description: add-1/8 cup shredded mozzarella to a bowl
+  end_time: 173.65800000000002
+  start_time: 89.203
+  step_id: 342
+- description: add-1/16 cup basil to a bowl
+  end_time: 262.658
+  start_time: 176.549
+  step_id: 347
+- description: add-1/4 tsp salt to a bowl
+  end_time: 294.304
+  start_time: 270.214
+  step_id: 343
+- description: Cut-Cut 1/4 cup of cherry tomatoes into halves
+  end_time: 405.245
+  start_time: 300.557
+  step_id: 350
+- description: add-In a bowl, add the cut cherry tomatoes
+  end_time: 430.289
+  start_time: 410.84000000000003
+  step_id: 351
+- description: Brush-Brush 2 slices of baguette with olive oil on both sides
+  end_time: 564.764
+  start_time: 432.265
+  step_id: 349
+- description: add-1/4 tsp pepper to a bowl
+  end_time: 601.039
+  start_time: 568.762
+  step_id: 346
+- description: Toast-Toast both sides of the slices on the pan for 2 to 3 minutes
+    until lightly charred and crispy and transfer the slices to a plate
+  end_time: 950.241
+  start_time: 605.386
+  step_id: 352
+- description: Combine-Combine the contents of the bowl
+  end_time: 942.98
+  start_time: 913.014
+  step_id: 348
+- description: Spoon-Spoon the mixture from the bowl onto the bread
+  end_time: 986.61
+  start_time: 952.685
+  step_id: 345

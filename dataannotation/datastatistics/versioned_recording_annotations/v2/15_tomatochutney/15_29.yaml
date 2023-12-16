@@ -1,0 +1,147 @@
+activity_id: 15
+is_error: true
+recording_id: '15_29'
+step_annotations:
+- description: Take-Take 1 tomato
+  end_time: 28
+  errors:
+  - description: Take 2 tomatoes rather than one tomato
+    tag: Measurement Error
+  modified_description: Take-Take 2 tomato
+  start_time: 8
+  step_id: 149
+- description: Heat-Heat 3 tbsp oil in a pan over medium heat
+  end_time: 101
+  errors:
+  - description: Use a tsp rather than tbsp
+    tag: Measurement Error
+  - description: Use low heat instead of medium heat
+    tag: Temperature Error
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  modified_description: Heat-Heat 3 tsp oil in a pan over low heat
+  start_time: 43
+  step_id: 154
+- description: Add-1/2 tsp cumin seeds to the pan
+  end_time: 174
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  start_time: 108
+  step_id: 141
+- description: Add-Add 1/4 tsp mustard to the pan
+  end_time: 197
+  errors:
+  - description: Step performed before making puree and mincing garlic
+    tag: Order Error
+  start_time: 175
+  step_id: 139
+- description: Chop-Chop tomato roughly (anysize chunks are fine)
+  end_time: 360
+  errors:
+  - description: Step performed after adding mustard and cumin seeds to the pan
+    tag: Order Error
+  start_time: 201
+  step_id: 155
+- description: Peel-Peel 4 large garlic cloves
+  end_time: 484
+  errors:
+  - description: Break the garlic while peeling and do not peel correctly
+    tag: Technique Error
+  - description: Step performed after adding mustard and cumin seeds to the pan
+    tag: Order Error
+  modified_description: Peel-Peel 4 large garlic cloves (Break the garlic while peeling)
+  start_time: 370.628
+  step_id: 145
+- description: mince-mince the garlic
+  end_time: 602.5
+  errors:
+  - description: Step performed after adding mustard and cumin seeds to the pan
+    tag: Order Error
+  start_time: 491
+  step_id: 140
+- description: add-When mustard and cumin seeds begin to sizzle, add minced garlic
+  end_time: 640
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 617.87
+  step_id: 152
+- description: Lower-Lower the heat
+  end_time: 644.401
+  errors:
+  - description: Step performed before making puree
+    tag: Order Error
+  start_time: 641
+  step_id: 151
+- description: Saute-Saute the garlic for 2-3 minutes
+  end_time: 712.242
+  errors:
+  - description: Saute for 1 minute
+    tag: Timing Error
+  - description: Step performed before making puree
+    tag: Order Error
+  modified_description: Saute-Saute the garlic for 1 minutes
+  start_time: 650.251
+  step_id: 148
+- description: Add-Add 2 tbsp red chili powder to the pan
+  end_time: 766
+  errors:
+  - description: Add 4 tbsp instead of 2 tbsp
+    tag: Measurement Error
+  - description: Step performed before making puree
+    tag: Order Error
+  modified_description: Add-Add 4 tbsp red chili powder to the pan
+  start_time: 714.43
+  step_id: 147
+- description: puree-puree tomatoes without any water in a blender/mixer
+  end_time: 879
+  errors:
+  - description: Do not blend enough - Leave some chunks
+    tag: Preparation Error
+  - description: Step performed after sauteing garlic
+    tag: Order Error
+  modified_description: puree-puree tomatoes without any water in a blender/mixer leaving some chunks
+  start_time: 778
+  step_id: 150
+- description: mix-mix well contents of the pan
+  end_time: 900.007
+  start_time: 880.239
+  step_id: 157
+- description: Add-1/2 tsp salt to the pan
+  end_time: 934.665
+  errors:
+  - description: Add 1 tsp rather than 1/2 tsp
+    tag: Measurement Error
+  modified_description: Add-1 tsp salt to the pan
+  start_time: 904.71
+  step_id: 146
+- description: Add-Add tomato puree to the pan
+  end_time: 946
+  start_time: 935
+  step_id: 142
+- description: Mix-Mix well tomato puree with contents in the pan
+  end_time: 969.02
+  start_time: 950.901
+  step_id: 144
+- description: Take-Take the pan off the heat
+  end_time: 979.942
+  start_time: 975.529
+  step_id: 143
+- description: Transfer-Transfer it to a serving bowl
+  end_time: 1008
+  errors:
+  - description: Spill while transferring
+    tag: Technique Error
+  modified_description: Transfer-Transfer it to a serving bowl
+  start_time: 983.771
+  step_id: 156
+- description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
+    the mixture becomes thick
+  end_time: -1.0
+  errors:
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
+  start_time: -1.0
+  step_id: 153
