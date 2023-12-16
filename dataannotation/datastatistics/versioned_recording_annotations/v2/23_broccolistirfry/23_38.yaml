@@ -130,7 +130,7 @@ step_annotations:
   step_id: 268
 - description: continue cooking-continue cooking, stirring often, for 2-3 minutes,
     until vegetables are crisp-tender
-  end_time: 1052.5329368730158
+  end_time: 1054
   errors:
   - description: Step performed after pouring sauce to the skillet
     tag: Order Error
@@ -152,11 +152,19 @@ step_annotations:
   step_id: 272
 - description: cook-cook, stirring, for 1 minute until the sauce thickens
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 264
 - description: cook-cook, stirring often, for 4 minutes. If the pan gets too hot on
     medium-high, turn the heat down to medium
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 253
 - description: Whisk-Whisk the contents of bowl
@@ -170,16 +178,16 @@ step_annotations:
 - description: Add-Add 1 teaspoon cornstarch to the bowl
   end_time: -1.0
   errors:
-  - description: did not perform this step
+  - description: Skipped this step
     tag: Missing Step
-  modified_description: none
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 254
 - description: Add-Add 1 tablespoon honey to the bowl
   end_time: -1.0
   errors:
-  - description: did not perform this step
+  - description: Skipped this step
     tag: Missing Step
-  modified_description: none
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 252

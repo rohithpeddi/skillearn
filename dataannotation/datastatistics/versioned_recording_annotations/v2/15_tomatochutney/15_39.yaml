@@ -138,5 +138,9 @@ step_annotations:
 - description: simmer-Allow the mixture to simmer over low heat for 5 minutes or until
     the mixture becomes thick
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 153

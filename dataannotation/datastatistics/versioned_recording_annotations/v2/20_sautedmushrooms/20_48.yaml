@@ -64,12 +64,12 @@ step_annotations:
   start_time: 260.351
   step_id: 210
 - description: cook-cook the pan, often stirring, for 1 minute
-  end_time: -1.0
+  end_time: 432
   errors:
-  - description: Cook for two minutes rather than one.
-    tag: Timing Error
+  - description: Step performed before preparing the ingredients and cooking shallot
+    tag: Order Error
   modified_description: cook-cook the pan, often stirring, for 2 minute
-  start_time: -1.0
+  start_time: 371
   step_id: 207
 - description: Add-1/4 tbsp balsamic vinegar to the pan
   end_time: 460.742

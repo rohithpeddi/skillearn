@@ -145,5 +145,9 @@ step_annotations:
   step_id: 216
 - description: Season-Season pan with salt
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 220

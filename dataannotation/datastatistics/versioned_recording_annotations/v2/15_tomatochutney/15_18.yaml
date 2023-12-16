@@ -51,8 +51,8 @@ step_annotations:
   start_time: 1187.1970000000001
   step_id: 147
 - description: mix-mix well contents of the pan
-  end_time: -1.0
-  start_time: -1.0
+  end_time: 1273
+  start_time: 1258
   step_id: 157
 - description: Add-Add tomato puree to the pan
   end_time: 1303.352

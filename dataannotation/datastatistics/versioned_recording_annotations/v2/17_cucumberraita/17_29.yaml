@@ -91,13 +91,15 @@ step_annotations:
     tag: Preparation Error
   - description: Did not combine all the ingredients properly. Did not mix the ingredients
     tag: Technique Error
-  - description: Used zucchini instead of cucumber
-    tag: Preparation Error
   modified_description: Combine all the ingredients in the mug using kitchen knife
     improperly.
   start_time: 699.4400537374518
   step_id: 186
 - description: Add-1/4 teaspoon salt to the bowl
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 184

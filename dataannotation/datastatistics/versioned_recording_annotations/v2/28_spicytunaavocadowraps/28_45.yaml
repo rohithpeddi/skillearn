@@ -62,8 +62,9 @@ step_annotations:
 - description: Mix-Mix the contents of the bowl
   end_time: -1.0
   errors:
-  - description: Step performed before correct order
-    tag: Order Error
+  - description: Skipped this step
+    tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 331
 - description: Season-Season bowl with 1/4 tsp salt

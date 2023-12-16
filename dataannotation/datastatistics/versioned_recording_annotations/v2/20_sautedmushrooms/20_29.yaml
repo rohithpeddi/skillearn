@@ -121,9 +121,17 @@ step_annotations:
   step_id: 216
 - description: Add-Add chopped shallot to the pan
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 209
 - description: Pull-Pull out mushroom stems
   end_time: -1.0
+  errors:
+    - description: Skipped this step
+      tag: Missing Step
+  modified_description: Skipped this step
   start_time: -1.0
   step_id: 214
