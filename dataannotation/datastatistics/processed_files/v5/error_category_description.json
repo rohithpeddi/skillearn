@@ -4,14 +4,18 @@
     {
       "name": "Preparation Error",
       "children": [
-        {"name": "Incomplete blending/whisking/mixing/beating"},
-        {"name": "Usage of soiled/dirty utensils/ingredients/hands"},
+        {"name": "Usage of dirty utensils/hands"},
         {"name": "Wrong utensil/ingredients used"},
         {"name": "Insufficient draining of fluids"},
         {"name": "Cutting/chopping without peeling"},
-        {"name": "Discarded cuts added to the recipe(cooking with eggshells)"},
-        {"name": "Not allowing to either heat or cool"},
+        {"name": "Discarded cuts added to the recipe (cooking with eggshells)"},
         {"name": "Usage of expired/spoiled/frozen ingredients"}
+      ]
+    },
+    {
+      "name": "Missing Steps",
+      "children": [
+        {"name": "Omission of the step"}
       ]
     },
     {
@@ -20,12 +24,11 @@
         {"name": "Using excess/less pressure to roll/pat/squeeze/hold"},
         {"name": "Spilling while measuring/adding/transferring"},
         {"name": "Incorrect technique for application of oil/rolling of butter"},
-        {"name": "Unsafe/incorrect placement of utensil (pan on stove, filter in mug)"},
-        {"name": "Incorrect chopping/cutting technique(chopping instead of slicing)"},
-        {"name": "Incorrect directionality(slicing parallel instead of perpendicular)"},
-        {"name": "Incorrect assembling technique(assembling english muffin with wrong sides facing out)"},
+        {"name": "Incorrect chopping/cutting technique (chopping instead of slicing)"},
+        {"name": "Incorrect directionality (cutting parallely instead of slant)"},
+        {"name": "Incorrect assembling technique"},
         {"name": "Incorrect peeling/spiralizing technique"},
-        {"name": "Incorrect technique for pour/sprinkle(pouring salt instead of seasoning)"},
+        {"name": "Incorrect technique for pour/sprinkle/seasoning"},
         {"name": "Incorrect flipping technique"},
         {"name": "Incorrect stirring/whisking/beating technique"},
         {"name": "Incorrect microwave covering"}
@@ -34,13 +37,18 @@
     {
       "name": "Measurement Error",
       "children": [
-        {"name": "Incorrect number/count of ingredient used(2 mushrooms instead of 3)"},
-        {"name": "Incorrect measurement of ingredient used(2 tsp instead of 1 tsp oil)"},
-        {"name": "Incorrect size of ingredient used(8 inch tortilla instead of 14 inch)"},
+        {"name": "Incorrect number/count of ingredient used (2 mushrooms instead of 3)"},
+        {"name": "Incorrect measurement of ingredient used (2 tsp instead of 1 tsp oil)"},
+        {"name": "Incorrect size of ingredient used (8 inch tortilla instead of 14 inch)"},
         {"name": "Cutting/slicing into incorrect quantity"},
         {"name": "Rolling/Cutting/slicing into incorrect size"},
-        {"name": "Wrong cup/bowl size used"},
-        {"name": "Incorrect measurement of length(spread jam on tortilla leaving 0.5\" edges)"}
+        {"name": "Incorrect measurement of length (spread jam on tortilla leaving 0.5\" edges)"}
+      ]
+    },
+    {
+      "name": "Order Error",
+      "children": [
+        {"name": "Performing steps in incorrect order"}
       ]
     },
     {
@@ -56,7 +64,7 @@
       "name": "Temperature Error",
       "children": [
         {"name": "Incorrect cooking temperature (Cooking on high heat)"},
-        {"name": "Incorrect powerlevel setting of microwave"},
+        {"name": "Incorrect power level setting of microwave"},
         {"name": "Using hot water/oil instead of cold water/oil"},
         {"name": "Rinsing/thawing with hot water instead of cold water"}
       ]
