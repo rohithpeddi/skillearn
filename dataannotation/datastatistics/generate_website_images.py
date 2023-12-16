@@ -19,7 +19,7 @@ def main():
 
 
 if __name__ == '__main__':
-	version = 5
+	version = 6
 	image_input_directory = f"task_graphs/images/v{version}/"
 	image_output_directory = f"task_graphs/website_images/v{version}/"
 	os.makedirs(image_output_directory, exist_ok=True)
