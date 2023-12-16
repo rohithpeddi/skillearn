@@ -75,11 +75,11 @@ def compare_and_transfer_info_files(source_parent_directory, destination_parent_
             source_recording_info_file_path = os.path.join(source_recording_directory, "Hololens2Info.dat")
             destination_recording_folder = os.path.join(destination_parent_directory, recording_id, "raw")
             destination_recording_info_file_path = os.path.join(destination_recording_folder, "Hololens2Info.dat")
-            
+
             if not os.path.isdir(destination_recording_folder):
                 logger.info("Recording folder does not exist. Skipping this recording.")
                 continue
-            
+
             if os.path.isfile(source_recording_info_file_path):
                 if not os.path.isfile(destination_recording_info_file_path):
                     logger.info(f"Copying file {destination_recording_info_file_path}")
@@ -113,40 +113,65 @@ def compare_and_transfer(source_parent_directory, destination_parent_directory, 
     logger.info(f"[{recording_id}] BEGIN TRANSFER ZIPPED FILES FROM LOCAL TO NAS")
     source_sync_directory = os.path.join(source_parent_directory, recording_id, "sync")
     destination_sync_directory = os.path.join(destination_parent_directory, recording_id, "sync")
-    
+
     source_depth_ahat_directory = os.path.join(source_sync_directory, "depth_ahat")
     source_ab_zip_file = os.path.join(source_depth_ahat_directory, "ab.zip")
     source_depth_zip_file = os.path.join(source_depth_ahat_directory, "depth.zip")
-    
+
     destination_depth_ahat_directory = os.path.join(destination_sync_directory, "depth_ahat")
     destination_ab_zip_file = os.path.join(destination_depth_ahat_directory, "ab.zip")
     destination_depth_zip_file = os.path.join(destination_depth_ahat_directory, "depth.zip")
-    
-    logger.info(f"[{recording_id}  Checking file size and transferring [AB]")
+
+    start_transfer_time = time.time()
+
+    logger.info(f"[{recording_id}]  Checking file size and transferring [AB]")
+    start_transfer_ab_time = time.time()
     check_file_size_and_transfer(source_ab_zip_file, destination_ab_zip_file)
-    
-    logger.info(f"[{recording_id}  Checking file size and transferring [Depth]")
+    total_ab_transfer_time = time.strftime(
+        "%H:%M:%S",
+        time.gmtime(time.time() - start_transfer_ab_time)
+    )
+    logger.info(f"[{recording_id}]  Total time to transfer AB: {total_ab_transfer_time}")
+
+    logger.info(f"[{recording_id}]  Checking file size and transferring [Depth]")
+    start_transfer_depth_time = time.time()
     check_file_size_and_transfer(source_depth_zip_file, destination_depth_zip_file)
-    
+    total_depth_transfer_time = time.strftime(
+        "%H:%M:%S",
+        time.gmtime(time.time() - start_transfer_depth_time)
+    )
+    logger.info(f"[{recording_id}]  Total time to transfer Depth: {total_depth_transfer_time}")
+
     source_pv_directory = os.path.join(source_sync_directory, "pv")
     source_pv_zip_file = os.path.join(source_pv_directory, "frames.zip")
-    
+
     destination_pv_directory = os.path.join(destination_sync_directory, "pv")
     destination_pv_zip_file = os.path.join(destination_pv_directory, "frames.zip")
-    
+
     logger.info(f"[{recording_id}  Checking file size and transferring [PV]")
+    start_transfer_pv_time = time.time()
     check_file_size_and_transfer(source_pv_zip_file, destination_pv_zip_file)
-    
-    logger.info(f"[{recording_id}] END TRANSFER ZIPPED FILES FROM LOCAL TO NAS")
-    
-    
-def multithreading_video_conversion(source_parent_directory, destination_parent_directory):
-    max_workers = 10
+    total_pv_transfer_time = time.strftime(
+        "%H:%M:%S",
+        time.gmtime(time.time() - start_transfer_pv_time)
+    )
+    logger.info(f"[{recording_id}]  Total time to transfer PV: {total_pv_transfer_time}")
+
+    total_transfer_time = time.strftime(
+        "%H:%M:%S",
+        time.gmtime(time.time() - start_transfer_time)
+    )
+
+    logger.info(f"[{recording_id}] END TRANSFER ZIPPED FILES FROM LOCAL TO NAS [Total time: {total_transfer_time}]")
+
+
+def multithreading_video_synchronizer(source_parent_directory, destination_parent_directory):
+    max_workers = 12
     recording_ids = os.listdir(source_parent_directory)
-    logger.info("Preparing to synchronize using ThreadPoolExecutor with max_workers = 1")
+    logger.info(f"Preparing to synchronize using ThreadPoolExecutor with max_workers = {max_workers}")
     # Create a ThreadPoolExecutor with a suitable number of threads (e.g., 4)
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        for index, recording_id in recording_ids:
+        for index, recording_id in enumerate(recording_ids):
             executor.submit(
                 compare_and_transfer,
                 source_parent_directory,
@@ -160,6 +185,8 @@ if __name__ == '__main__':
     # destination_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
     #
     # compare_and_transfer_info_files(source_directory, destination_directory)
-    
-    source_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/BACKUP_STUFF/PTG_HOLOLENS_BACKUP/hololens_bak_bharath"
+
+    source_directory = "/data/PTG"
     destination_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
+
+    multithreading_video_synchronizer(source_directory, destination_directory)
