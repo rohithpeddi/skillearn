@@ -35,24 +35,17 @@ step_annotations:
   end_time: 623.457
   start_time: 603.504
   step_id: 198
-- description: Add-1/6 cup grated parmesan cheese
-  end_time: 651.467
-  errors:
-  - description: Added pepper to taste in this step
-    tag: Preparation Error
-  modified_description: season-pepper to taste
-  start_time: 626.234
-  step_id: 193
 - description: season-pepper to taste
-  end_time: 701.813
-  errors:
-  - description: Added cheese in this step instead of period and spiked some out while
-      adding
-    tag: Preparation Error
-  modified_description: Add-1/6 cup grated parmesan cheese and spoiled some out while
-    adding
-  start_time: 661.994
+  end_time: 651
+  start_time: 627
   step_id: 194
+- description: Add-1/6 cup grated parmesan cheese
+  end_time: 700
+  errors:
+    - description: Spill cheese while adding to the pan
+      tag: Technique Error
+  start_time: 662
+  step_id: 193
 - description: Cook-Cook for 2 minutes or until the zoodles are done
   end_time: 769.436
   start_time: 704.935
@@ -63,9 +56,5 @@ step_annotations:
   step_id: 197
 - description: Top-Top with more parmesan if desired
   end_time: -1.0
-  errors:
-  - description: Skipped this step
-    tag: Missing Step
-  modified_description: Skipped this step
   start_time: -1.0
   step_id: 195
