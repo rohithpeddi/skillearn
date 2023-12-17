@@ -3,6 +3,11 @@ import os
 
 from datacollection.user_app.backend.app.utils.constants import Recording_Constants as const
 
+download_links_version = 11
+download_links_json_file_path = f"../backend/download_links_jsons/v{download_links_version}/recording_download_links_{download_links_version}.json"
+local_hololens_data_path = "/data/rohith/captain_cook/data/hololens"
+nas_hololens_data_path = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG/"
+
 
 def fetch_hololens_box_recording_ids():
     with open(download_links_json_file_path, "r") as f:
@@ -47,6 +52,7 @@ def check_recording_ids_difference_box_local():
     current_hololens_recording_ids = fetch_hololens_recording_ids(local_hololens_data_path)
 
     missing_recording_ids = list(set(downloadable_recording_ids) ^ set(current_hololens_recording_ids))
+    missing_recording_ids = sorted(missing_recording_ids, key=lambda x: int(x.split("_")[0]))
     print(" ---------------- BOX - LOCAL ---------------- ")
     print(f"Number of box recording ids: {len(downloadable_recording_ids)}")
     print(f"Number of local recording ids: {len(current_hololens_recording_ids)}")
@@ -59,6 +65,7 @@ def check_recording_ids_difference_nas_local():
     current_hololens_recording_ids = fetch_hololens_recording_ids(local_hololens_data_path)
 
     missing_recording_ids = list(set(nas_recording_ids) ^ set(current_hololens_recording_ids))
+    missing_recording_ids = sorted(missing_recording_ids, key=lambda x: int(x.split("_")[0]))
     print(" ---------------- NAS - LOCAL ---------------- ")
     print(f"Number of NAS recording ids: {len(nas_recording_ids)}")
     print(f"Number of local recording ids: {len(current_hololens_recording_ids)}")
@@ -71,19 +78,16 @@ def check_recording_ids_difference_box_nas():
     nas_recording_ids = fetch_hololens_nas_recording_ids(nas_hololens_data_path)
 
     missing_recording_ids = list(set(nas_recording_ids) ^ set(downloadable_recording_ids))
+    missing_recording_ids = sorted(missing_recording_ids, key=lambda x: int(x.split("_")[0]))
     print(" ---------------- BOX - NAS ---------------- ")
     print(f"Number of box recording ids: {len(downloadable_recording_ids)}")
     print(f"Number of NAS recording ids: {len(nas_recording_ids)}")
     print(f"Number of missing recording ids: {len(missing_recording_ids)}")
     print(f"Missing recording ids: {missing_recording_ids}")
+    return missing_recording_ids
 
 
 if __name__ == "__main__":
-    download_links_version = 10
-    download_links_json_file_path = f"../backend/download_links_jsons/v{download_links_version}/recording_download_links_{download_links_version}.json"
-    local_hololens_data_path = "/data/rohith/captain_cook/data/hololens"
-    nas_hololens_data_path = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG/"
-
     check_recording_ids_difference_box_local()
     check_recording_ids_difference_nas_local()
     check_recording_ids_difference_box_nas()

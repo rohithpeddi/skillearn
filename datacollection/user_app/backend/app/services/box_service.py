@@ -113,8 +113,8 @@ class BoxService:
 						is_item_present = True
 						logger.info(f"[{recording_id}] File already present: {file_name}")
 					else:
-						logger.info(f"[{recording_id}] Deleting file as the file size does not match: {file_name}")
-						box_item.delete()
+						logger.warn(f"[{recording_id}] Deleting file as the file size does not match: {file_name}")
+						# box_item.delete()
 						is_item_present = False
 			if not is_item_present:
 				file_path = os.path.join(folder_path, file_name)
@@ -129,9 +129,13 @@ class BoxService:
 	
 	def _upload_folders_and_subfolders(self, parent_box_folder_id, parent_local_folder, folders, recording_id):
 		for folder in folders:
-			box_folder_id = self._fetch_subfolder(parent_box_folder_id, folder)
-			local_folder_path = os.path.join(parent_local_folder, folder)
-			self._upload_files_in_path(box_folder_id, local_folder_path, recording_id)
+			try:
+				box_folder_id = self._fetch_subfolder(parent_box_folder_id, folder)
+				local_folder_path = os.path.join(parent_local_folder, folder)
+				self._upload_files_in_path(box_folder_id, local_folder_path, recording_id)
+			except Exception as e:
+				logger.error(f"[{recording_id}] Error while uploading folder {folder} to box {e}")
+				continue
 	
 	def upload_from_nas(self, recording, data_parent_directory):
 		activity_folder_id = self._fetch_activity_folder(self.activity_id_name_map[recording.activity_id])

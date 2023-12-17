@@ -5,7 +5,7 @@ from datacollection.user_app.backend.app.models.recording_annotation import Reco
 from datacollection.user_app.backend.app.services.box_service import BoxService
 from datacollection.user_app.backend.app.services.firebase_service import FirebaseService
 from datacollection.user_app.backend.app.utils.logger_config import get_logger, setup_logging
-
+from hololens_missing_data_identifiers import check_recording_ids_difference_box_nas
 setup_logging()
 logger = get_logger(__name__)
 
@@ -30,7 +30,7 @@ def upload_to_box(box_service, recording, data_parent_directory):
 
 
 def begin_post_processing():
-	data_parent_directory = "/home/ptg/CODE/data/hololens"
+	data_parent_directory = "/run/user/12345/gvfs/sftp:host=10.176.140.2/NetBackup/PTG"
 	
 	db_service = FirebaseService()
 	box_service = BoxService()
@@ -46,9 +46,11 @@ def begin_post_processing():
 		key=lambda x: (int(x.activity_id), int(x.recording_id.split("_")[1]))
 	)
 	
-	data_recording_directories = []
-	for recording_annotation in recording_annotations:
-		data_recording_directories.append(recording_annotation.recording_id)
+	# data_recording_directories = []
+	# for recording_annotation in recording_annotations:
+	# 	data_recording_directories.append(recording_annotation.recording_id)
+
+	data_recording_directories = check_recording_ids_difference_box_nas()
 	
 	logger.info(f"Preparing to upload to box from NAS using ThreadPoolExecutor with max_workers = {max_workers}")
 	# Create a ThreadPoolExecutor with a suitable number of threads (e.g., 4)
