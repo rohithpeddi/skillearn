@@ -27,8 +27,10 @@ def prepare_download_links_json(version):
 		if recording_id not in valid_recording_ids:
 			print(f"Recording {recording_id} is not valid. Skipping...")
 			continue
+		else:
+			print(f"Recording {recording_id} is valid. Adding to list...")
 		recording_summary = RecordingSummary.from_dict(recording_summary_dict)
-		recording_download_links_dict[recording_summary.recording_id] = recording_summary.download_links.to_dict()
+		recording_download_links_dict[recording_summary.recording_id] = recording_summary_dict["download_links"]
 	
 	current_directory = os.getcwd()
 	website_directory = os.path.join(current_directory, "../backend/website_files")
@@ -41,4 +43,4 @@ def prepare_download_links_json(version):
 
 if __name__ == "__main__":
 	db_service = FirebaseService()
-	prepare_download_links_json(version=11)
+	prepare_download_links_json(version=13)
