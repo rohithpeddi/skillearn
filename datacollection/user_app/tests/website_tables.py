@@ -3,6 +3,7 @@ import os
 from datacollection.user_app.backend.app.models.activity import Activity
 from datacollection.user_app.backend.app.models.recording_summary import RecordingSummary
 from datacollection.user_app.backend.app.services.firebase_service import FirebaseService
+from datacollection.user_app.backend.app.utils.constants import Recording_Constants as const
 
 
 def fetch_activity_name(activity_id):
@@ -17,6 +18,7 @@ def get_symbol_for_status(status):
 
 
 def make_overview_table(version):
+	print("Making overview table...")
 	overview_table = ""
 	overview_table += "<div class=\"columns is-centered\">\n"
 	overview_table += "<div class=\"column is-fullwidth\">\n"
@@ -42,6 +44,7 @@ def make_overview_table(version):
 	recording_summary_dict_list = dict(db_service.fetch_recording_summaries())
 	for index, (recording_id, recording_summary_dict) in enumerate(recording_summary_dict_list.items()):
 		recording_summary = RecordingSummary.from_dict(recording_summary_dict)
+		recording_download_links = recording_summary_dict[const.DOWNLOAD_LINKS]
 		overview_table += "<tr>\n"
 		overview_table += f"<th>{index + 1}</th>\n"
 		overview_table += f"<td>{fetch_activity_name(recording_summary.recording.activity_id)}</td>\n"
@@ -49,7 +52,7 @@ def make_overview_table(version):
 		overview_table += f"<td>{recording_summary.recording.selected_by}</td>\n"
 		overview_table += f"<td>{recording_summary.recording.environment}</td>\n"
 		
-		overview_table += get_symbol_for_status(recording_summary.download_links.GOPRO_RESOLUTION_360p)
+		overview_table += get_symbol_for_status(const.GOPRO_RESOLUTION_360P in recording_download_links)
 		overview_table += get_symbol_for_status(recording_summary.is_hololens_enabled)
 		overview_table += get_symbol_for_status(recording_summary.is_hololens_enabled)
 		overview_table += get_symbol_for_status(recording_summary.is_spatial_enabled)
@@ -69,10 +72,13 @@ def make_overview_table(version):
 	with open(os.path.join(website_directory, f"overview_table.html"), "w") as f:
 		f.write(overview_table)
 	
+	print("Overview table created successfully!")
+	
 	return overview_table
 
 
 def make_recipe_table(version):
+	print("Making recipe table...")
 	recipe_table = ""
 	recipe_table += "<div class=\"columns is-centered\">\n"
 	recipe_table += "<div class=\"column is-fullwidth\">\n"
@@ -116,6 +122,8 @@ def make_recipe_table(version):
 	with open(os.path.join(website_directory, f"recipe_table.html"), "w") as f:
 		f.write(recipe_table)
 	
+	print("Recipe table created successfully!")
+	
 	return recipe_table
 
 
@@ -143,6 +151,7 @@ def make_data_2d_table(version):
 	recording_summary_dict_list = dict(db_service.fetch_recording_summaries())
 	for index, (recording_id, recording_summary_dict) in enumerate(recording_summary_dict_list.items()):
 		recording_summary = RecordingSummary.from_dict(recording_summary_dict)
+		recording_download_links = recording_summary_dict[const.DOWNLOAD_LINKS]
 		data2d_table += "<tr>\n"
 		data2d_table += f"<th>{index + 1}</th>\n"
 		data2d_table += f"<td>{fetch_activity_name(recording_summary.recording.activity_id)}</td>\n"
@@ -150,18 +159,21 @@ def make_data_2d_table(version):
 		data2d_table += f"<td>{recording_summary.recording.selected_by}</td>\n"
 		data2d_table += f"<td>{recording_summary.recording.environment}</td>\n"
 		
-		if recording_summary.download_links.GOPRO_RESOLUTION_360p is None:
+		if const.GOPRO_RESOLUTION_360P not in recording_download_links:
 			data2d_table += "<td><i class=\"fas fa-times\"></i></td>\n"
 		else:
-			data2d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_summary.download_links.GOPRO_RESOLUTION_360p}\">360p</a></button> <button class=\"hoverable-button\"> <a href=\"{recording_summary.download_links.GOPRO_RESOLUTION_4k}\">4K</a></button></td>\n"
+			if const.GOPRO_RESOLUTION_4K not in recording_download_links:
+				data2d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.GOPRO_RESOLUTION_360P]}\">360p</a></button></td>\n"
+			else:
+				data2d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.GOPRO_RESOLUTION_360P]}\">360p</a></button> <button class=\"hoverable-button\"> <a href=\"{recording_download_links[const.GOPRO_RESOLUTION_4K]}\">4K</a></button></td>\n"
 		
 		if not recording_summary.is_hololens_enabled:
 			data2d_table += "<td><i class=\"fas fa-times\"></i></td>\n"
 		else:
-			if recording_summary.download_links.HOLOLENS_SYNC_PV_VIDEO is None:
+			if const.HOLOLENS_SYNC_PV_VIDEO not in recording_download_links:
 				data2d_table += "<td><i class=\"fas fa-spinner fa-spin\" style=\"color: #10ad13;\"></i></td>\n"
 			else:
-				data2d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_summary.download_links.HOLOLENS_SYNC_PV_VIDEO}\">360p</a></button></td>\n"
+				data2d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.HOLOLENS_SYNC_PV_VIDEO]}\">360p</a></button></td>\n"
 		
 		data2d_table += get_symbol_for_status(True)
 	
@@ -183,6 +195,7 @@ def make_data_2d_table(version):
 
 
 def make_data3d_table(version):
+	print("Making data3d table...")
 	data3d_table = ""
 	data3d_table += "<div class=\"columns is-centered\">\n"
 	data3d_table += "<div class=\"column is-fullwidth\">\n"
@@ -206,6 +219,7 @@ def make_data3d_table(version):
 	recording_summary_dict_list = dict(db_service.fetch_recording_summaries())
 	for index, (recording_id, recording_summary_dict) in enumerate(recording_summary_dict_list.items()):
 		recording_summary = RecordingSummary.from_dict(recording_summary_dict)
+		recording_download_links = recording_summary_dict[const.DOWNLOAD_LINKS]
 		data3d_table += "<tr>\n"
 		data3d_table += f"<th>{index + 1}</th>\n"
 		data3d_table += f"<td>{fetch_activity_name(recording_summary.recording.activity_id)}</td>\n"
@@ -216,28 +230,38 @@ def make_data3d_table(version):
 		if not recording_summary.is_hololens_enabled:
 			data3d_table += "<td><i class=\"fas fa-times\"></i></td>\n"
 		else:
-			if recording_summary.download_links.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP is None:
+			if const.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP not in recording_download_links:
 				data3d_table += "<td><i class=\"fas fa-spinner fa-spin\" style=\"color: #10ad13;\"></i></td>\n"
 			else:
-				data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_summary.download_links.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP}\">Depth</a></button> <button class=\"hoverable-button\"> <a href=\"{recording_summary.download_links.HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP}\">AB</a></button></td>\n"
+				if const.HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP not in recording_download_links:
+					data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP]}\">Depth</a></button></td>\n"
+				else:
+					data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.HOLOLENS_SYNC_DEPTH_AHAT_DEPTH_ZIP]}\">Depth</a></button> <button class=\"hoverable-button\"> <a href=\"{recording_download_links[const.HOLOLENS_SYNC_DEPTH_AHAT_AB_ZIP]}\">AB</a></button></td>\n"
 		
 		if not (recording_summary.is_hololens_enabled and recording_summary.is_spatial_enabled):
 			data3d_table += "<td><i class=\"fas fa-times\"></i></td>\n"
 		else:
-			if recording_summary.download_links.HOLOLENS_SYNC_SPATIAL_PKL is None:
+			if const.HOLOLENS_SYNC_SPATIAL_PKL not in recording_download_links:
 				data3d_table += "<td><i class=\"fas fa-spinner fa-spin\" style=\"color: #10ad13;\"></i></td>\n"
 			else:
-				data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_summary.download_links.HOLOLENS_SYNC_SPATIAL_PKL}\">Spatial</a></button></td>\n"
+				data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.HOLOLENS_SYNC_SPATIAL_PKL]}\">Spatial</a></button></td>\n"
 		
 		if not (recording_summary.is_hololens_enabled and recording_summary.is_spatial_enabled):
 			data3d_table += "<td><i class=\"fas fa-times\"></i></td>\n"
 		else:
-			if recording_summary.download_links.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL is None:
+			if const.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL not in recording_download_links:
 				data3d_table += "<td><i class=\"fas fa-spinner fa-spin\" style=\"color: #10ad13;\"></i></td>\n"
 			else:
-				data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_summary.download_links.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL}\">Mag</a></button> " \
-				                f"<button class=\"hoverable-button\"> <a href=\"{recording_summary.download_links.HOLOLENS_SYNC_IMU_GYROSCOPE_PKL}\">Gyr</a></button> " \
-				                f"<button class=\"hoverable-button\"> <a href=\"{recording_summary.download_links.HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL}\">Acc</a></button></td>\n"
+				if const.HOLOLENS_SYNC_IMU_GYROSCOPE_PKL not in recording_download_links:
+					data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL]}\">Mag</a></button></td>\n"
+				else:
+					if const.HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL not in recording_download_links:
+						data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL]}\">Mag</a></button> " \
+						                f"<button class=\"hoverable-button\"> <a href=\"{recording_download_links[const.HOLOLENS_SYNC_IMU_GYROSCOPE_PKL]}\">Gyr</a></button></td>\n"
+					else:
+						data3d_table += f"<td><button class=\"hoverable-button\"><a href=\"{recording_download_links[const.HOLOLENS_SYNC_IMU_MAGNETOMETER_PKL]}\">Mag</a></button> " \
+						                f"<button class=\"hoverable-button\"> <a href=\"{recording_download_links[const.HOLOLENS_SYNC_IMU_GYROSCOPE_PKL]}\">Gyr</a></button> " \
+						                f"<button class=\"hoverable-button\"> <a href=\"{recording_download_links[const.HOLOLENS_SYNC_IMU_ACCELEROMETER_PKL]}\">Acc</a></button></td>\n"
 	
 	data3d_table += "</tbody>\n"
 	data3d_table += "</table>\n"
@@ -252,6 +276,8 @@ def make_data3d_table(version):
 	
 	with open(os.path.join(website_directory, f"data3d_table.html"), "w") as f:
 		f.write(data3d_table)
+	
+	print("Data3d table created successfully!")
 	
 	return data3d_table
 
@@ -268,7 +294,9 @@ if __name__ == '__main__':
 	for activity in activities:
 		activity_id_name_map[activity.id] = activity.name
 	
+	print("Making tables...")
 	# make_recipe_table(version=2)
-	make_overview_table(version=4)
-	make_data_2d_table(version=4)
-	make_data3d_table(version=4)
+	make_overview_table(version=5)
+	make_data_2d_table(version=5)
+	make_data3d_table(version=5)
+	print("Tables created successfully!")
