@@ -42,8 +42,8 @@ def generate_errors_heatmap():
 	df = pd.DataFrame.from_dict(data, orient='index')
 	df_transposed = df.T
 	
-	# Generate the heat map using Seaborn
-	plt.figure(figsize=(11, 8))
+	# Adjust the figure size here to decrease the height
+	plt.figure(figsize=(9, 4))  # The second value here determines the height
 	
 	# Capture the heatmap object
 	heatmap = sns.heatmap(df_transposed, annot=True, cmap="Reds", fmt='g', linewidths=0.5)
@@ -51,13 +51,19 @@ def generate_errors_heatmap():
 	
 	# Adjust the font size of annotations
 	for text in heatmap.texts:
-		text.set_size(10)
+		text.set_size(9)
 	
 	ax = plt.gca()
 	
 	# Decrease font size for x-axis and y-axis labels
 	ax.tick_params(axis='x', labelsize=10)  # Adjust the value 10 as needed
 	ax.tick_params(axis='y', labelsize=10)  # Adjust the value 10 as needed
+	
+	# Rotate x-axis labels
+	plt.xticks(rotation=45, ha='right')  # 'ha' stands for horizontal alignment
+	
+	# Optionally, adjust the bottom parameter to increase spacing between the axis and the labels
+	plt.subplots_adjust(bottom=0.2)
 	
 	for _, spine in ax.spines.items():
 		spine.set_visible(True)
@@ -75,6 +81,7 @@ def fetch_activity_error_categories_split():
 		print(f"Processing Recording Annotation for recording id: {recording_annotation.recording_id}")
 		activity_id = recording_annotation.activity_id
 		activity_name = activity_id_to_activity_name_map[activity_id]
+		activity_name = activity_name.replace(" ", "")[:15]
 		recording_step_annotations = recording_annotation.step_annotations
 		
 		for recording_step_annotation in recording_step_annotations:

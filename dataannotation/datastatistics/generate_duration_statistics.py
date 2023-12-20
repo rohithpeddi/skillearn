@@ -122,13 +122,13 @@ def generate_statistics_chart():
 		error_counts.append(activity_statistics["error"])
 		normal_durations.append(activity_statistics["normal_duration"])
 		error_durations.append(activity_statistics["error_duration"])
-
+	
 	# Setting the positions and width for the bars
 	pos = np.arange(len(activity_names))
 	bar_width = 0.35
 	
 	# Let's use a larger figure size to prevent cutting off text.
-	plt.figure(figsize=(15, 8))
+	plt.figure(figsize=(15, 4))
 	
 	# Using a more contrasting color scheme
 	colors_normal = 'turquoise'
@@ -137,7 +137,7 @@ def generate_statistics_chart():
 	colors_error_duration = 'darkred'
 	
 	# Plotting with the new colors
-	fig, ax1 = plt.subplots(figsize=(15, 8))  # Making the figure larger
+	fig, ax1 = plt.subplots(figsize=(15, 4))  # Making the figure larger
 	
 	# Bars for recordings count with new colors
 	bar1 = ax1.bar(pos, normal_counts, bar_width, label='Normal Recordings', color=colors_normal)
@@ -151,14 +151,17 @@ def generate_statistics_chart():
 	ax2 = ax1.twinx()
 	
 	# Bars for recordings duration with new colors
-	bar3 = ax2.bar(pos+bar_width, normal_durations, bar_width, label='Normal Recordings Duration(Hr)', alpha=0.5,
-	        color=colors_normal_duration)
-	bar4 = ax2.bar(pos + bar_width , error_durations, bar_width,bottom=normal_durations, label='Error Recordings Duration(Hr)', alpha=0.5,
-	        color=colors_error_duration)
+	bar3 = ax2.bar(pos + bar_width, normal_durations, bar_width, label='Normal Recordings Duration(Hr)', alpha=0.5,
+	               color=colors_normal_duration)
+	bar4 = ax2.bar(pos + bar_width, error_durations, bar_width, bottom=normal_durations,
+	               label='Error Recordings Duration(Hr)', alpha=0.5,
+	               color=colors_error_duration)
 	
 	# Set the y axis label
 	ax2.set_ylabel('Recordings Duration(Hr)', color='darkred')
 	ax2.tick_params(axis='y', labelcolor='darkred')
+	
+	activity_names = [activity_name.replace(" ", "")[:15] for activity_name in activity_names]
 	
 	# Setting the x axis with category names and rotating them to fit
 	ax1.set_xticks(pos)
@@ -171,7 +174,10 @@ def generate_statistics_chart():
 	
 	# Resizable figure
 	fig.tight_layout()
-	
+	ax1.text(0.33, 0.92, "Count and duration statistics of normal and error recordings",
+	         horizontalalignment='center',
+	         verticalalignment='center',
+	         transform=ax1.transAxes, fontsize=12, color='black')
 	# Show the plot
 	versioned_files_directory = f"{processed_files_directory}/v{version}/assets"
 	os.makedirs(versioned_files_directory, exist_ok=True)
