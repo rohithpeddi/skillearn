@@ -51,7 +51,7 @@ class BoxService:
 	
 	def __init__(self):
 		self.user_id = '23441227496'
-		self.root_folder_id = '202193575471'
+		self.root_folder_id = '291007136902'
 		self.client_id = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b'
 		self.client_secret = 'TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
 		self.ccg_credentials = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
@@ -165,7 +165,7 @@ class BoxService:
 				recording_id
 			)
 			logger.info(f"[{recording_id}] Synchronized data uploaded")
-	
+		
 		logger.info(f"[{recording_id}] Uploading gopro data")
 		gopro_folder_id = self._fetch_subfolder(recording_folder_id, const.GOPRO)
 		local_gopro_path = os.path.join(data_recording_directory, const.GOPRO)
@@ -253,11 +253,90 @@ class BoxService:
 				self._process_folder(item)
 			elif isinstance(item, boxsdk.object.file.File):
 				self._make_file_shareable(item)
-				
+	
 	def make_data_shareable(self):
 		root_folder = self.client.folder(folder_id=self.root_folder_id)
 		self._process_folder(root_folder)
 
 
+class BoxServiceV2:
+	
+	def __init__(self):
+		self.user_id = '23441227496'
+		self.root_folder_id = '291007136902'
+		self.client_id = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b'
+		self.client_secret = 'TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
+		self.ccg_credentials = 'krr2b0dmxvnqn83ikpe6ufs58jg9t82b TTsVwLrnv9EzmKJv67yrCyUM09wJSriK'
+		
+		ccg_auth = CCGAuth(client_id=self.client_id, client_secret=self.client_secret, user=self.user_id)
+		self.client = Client(ccg_auth)
+		
+		self.db_service = FirebaseService()
+	
+	def _make_folder_shareable(self, folder):
+		shared_link = folder.get_shared_link(access='open', unshared_at=datetime(2035, 12, 30))
+		logger.info(f"Folder {folder.object_id} is shareable with URL: {shared_link}")
+	
+	def _make_file_shareable(self, file):
+		shared_link = file.get_shared_link(access='open', unshared_at=datetime(2035, 12, 30))
+		logger.info(f"File {file.object_id} is shareable with URL: {shared_link}")
+	
+	def _process_folder(self, folder):
+		self._make_folder_shareable(folder)
+		for item in folder.get_items():
+			if isinstance(item, boxsdk.object.folder.Folder):
+				self._process_folder(item)
+			elif isinstance(item, boxsdk.object.file.File):
+				self._make_file_shareable(item)
+	
+	def make_data_shareable(self):
+		root_folder = self.client.folder(folder_id=self.root_folder_id)
+		self._process_folder(root_folder)
+	
+	def _get_hierarchical_links(self, folder):
+		"""
+		Recursively builds a hierarchical dictionary that mirrors the folder structure.
+		Each folder is represented as a dictionary with 'name', 'type', and 'children'.
+		Files include a 'shared_link' field.
+		"""
+		node = {
+			"name": folder.name if hasattr(folder, "name") else "root",
+			"type": "folder",
+			"children": []
+		}
+		for item in folder.get_items():
+			if isinstance(item, boxsdk.object.folder.Folder):
+				# Recursively process sub-folders
+				node["children"].append(self._get_hierarchical_links(item))
+			elif isinstance(item, boxsdk.object.file.File):
+				# Generate the shared link for the file and add it to children
+				shared_link = item.get_shared_link(access='open', unshared_at=datetime(2035, 12, 30))
+				file_node = {
+					"name": item.name,
+					"type": "file",
+					"shared_link": shared_link
+				}
+				node["children"].append(file_node)
+		return node
+	
+	def get_hierarchical_links(self):
+		"""
+		Retrieves the hierarchical JSON-like structure representing the folder and file links.
+		"""
+		root_folder = self.client.folder(folder_id=self.root_folder_id)
+		root_node_json = self._get_hierarchical_links(root_folder)
+		
+		# Serialize and store as a json file
+		current_directory = os.getcwd()
+		website_directory = os.path.join(current_directory, "../backend/website_files")
+		if not os.path.exists(website_directory):
+			os.makedirs(website_directory)
+		
+		with open(os.path.join(website_directory, "features_download_links.json"), "w") as box_links_file:
+			box_links_file.write(json.dumps(root_node_json))
+		
+		return root_node_json
+
+
 if __name__ == '__main__':
-	box_service = BoxService()
+	box_service = BoxServiceV2()
