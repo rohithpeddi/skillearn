@@ -6,6 +6,7 @@ from datetime import datetime
 
 import boxsdk
 from boxsdk import Client, CCGAuth
+from tqdm import tqdm
 
 from ..models.annotation import Annotation
 from ..models.activity import Activity
@@ -304,7 +305,7 @@ class BoxServiceV2:
 			"type": "folder",
 			"children": []
 		}
-		for item in folder.get_items():
+		for item in tqdm(folder.get_items(), desc=f"Processing {folder.object_id}", unit="item"):
 			if isinstance(item, boxsdk.object.folder.Folder):
 				# Recursively process sub-folders
 				node["children"].append(self._get_hierarchical_links(item))
